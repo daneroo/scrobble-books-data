@@ -4,6 +4,8 @@ Tracking reading data
 
 This repo archives the latest version of my reading data every 20 minutes.
 
+You can look at [the formatted data table here](https://flatgithub.com/daneroo/scrobble-books-data).
+
 ## References
 
 - [flat-data post](https://next.github.com/projects/flat-data)
