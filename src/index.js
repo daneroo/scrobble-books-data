@@ -9,7 +9,7 @@ const fetch = require('node-fetch')
 const GOODREADS_USER = process.env.GOODREADS_USER
 const GOODREADS_KEY = process.env.GOODREADS_KEY
 
-console.log('node.js', { GOODREADS_USER, GOODREADS_KEY })
+// console.log('node.js', { GOODREADS_USER, GOODREADS_KEY })
 const URI = `https://www.goodreads.com/review/list_rss/${GOODREADS_USER}`
 const shelves = ['#ALL#', 'read', 'currently-reading', 'to-read', 'on-deck']
 
@@ -17,19 +17,14 @@ main()
 
 async function main () {
   try {
-    const stamp = new Date().toISOString()
-    const feed = { // indicate provenance - at least build stamp
-      title: "Daniel's bookshelf: all",
-      // title: 'ReplaceMe',
-      lastBuildDate: stamp,
+    const shelf = shelves[0]
+    // const stamp = new Date().toISOString()
+    const feed = { // indicate provenance - at least build stamp - we'll get that from the commit time!
+      title: `Daniel's bookshelf: ${shelf}`,
+      // lastBuildDate: stamp,
       items: [] // Where we will accumulate the pages items
     }
 
-    const shelf = shelves[0]
-
-    //  could be omitted as it is the default
-    // eslint-disable-next-line camelcase
-    // const per_page = 100 // unreliable but 10 and 100 work - perhaps caching is at issue.
     // page index is 1 based, of course it is.
     for (let page = 1; page < 10; page++) {
       const asXML = await fetcherXML(URI, { key: GOODREADS_KEY, shelf, page })

@@ -12,7 +12,6 @@ jobs:
   scheduled:
     runs-on: ubuntu-latest
     env:
-      COCO: 42
       GOODREADS_KEY: ${{ secrets.GOODREADS_KEY }}
       GOODREADS_USER: ${{ secrets.GOODREADS_USER }}
       NODE_ENV: production
@@ -29,8 +28,6 @@ jobs:
       - run: |
           echo "node: $(node --version)"
           echo "npm: $(npm --version)"
-          echo "COCO: ${COCO}"
-          echo "GRK: ${GOODREADS_KEY}"
           npm ci
           npm start
 
@@ -41,9 +38,6 @@ jobs:
 
       - name: Fetch data 
         uses: githubocto/flat@v3
-        # env:
-        #   GOODREADS_KEY: ${{ secrets.GOODREADS_KEY }}
-        #   GOODREADS_USER: ${{ secrets.GOODREADS_USER }}
         with:
           http_url: ${{ secrets.GOODREADS_FEED_URL }}
           downloaded_filename: goodreads-rss-p1.xml
