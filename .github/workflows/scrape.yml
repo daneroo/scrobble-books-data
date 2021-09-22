@@ -14,10 +14,24 @@ jobs:
     steps:
       - name: Check out repo
         uses: actions/checkout@v2
+
+      - name: Use Node.js 14.x
+        uses: actions/setup-node@v2
+        with:
+          node-version: 14.x
+          # cache: 'npm'  # comment out for local `act` run
+          # cache-dependency-path: package-lock.json
+      - run: |
+          node --version
+          npm --version
+          # npm ci
+          # npm test
+
       - name: Setup deno
         uses: denoland/setup-deno@main
         with:
           deno-version: v1.x
+
       - name: Fetch data 
         uses: githubocto/flat@v3
         env:
