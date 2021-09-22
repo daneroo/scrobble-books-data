@@ -1,6 +1,6 @@
 # scrobble-books-data
 
-Tracking my reading data
+Tracking reading data
 
 This repo archives the latest version of my reading data every 20 minutes.
 
