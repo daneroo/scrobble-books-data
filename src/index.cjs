@@ -3,7 +3,6 @@
 
 const { parseStringPromise } = require('xml2js')
 const { promises: fs } = require('fs')
-const { join } = require('path')
 
 const fetch = require('node-fetch')
 
@@ -61,11 +60,10 @@ async function main () {
     // accumulated over pages: no '-pX' part in filename
     prettyFeed(feed)
     // my format
-    const bookFilePFX = join(runDirectory, `goodreads-rss-${stamp}`)
-    const bookFileJSON = `${bookFilePFX}.json`
+    const bookFileJSON = 'goodreads-rss.json'
     const asJSON = JSON.stringify(feed, null, 2)
     await fs.writeFile(bookFileJSON, asJSON)
-    console.log(`\nscp -p ${bookFileJSON} ../site/public/books/goodreads-rss.json\n`)
+    console.log(`Wrote ${bookFileJSON}`)
   } catch (err) {
     console.error(err)
   }
