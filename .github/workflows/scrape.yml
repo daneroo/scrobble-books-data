@@ -25,5 +25,5 @@ jobs:
           downloaded_filename: goodreads-rss-p1.xml
           # postprocess: postprocess.js # A postprocessing javascript or typescript file written in Deno
           # mask: true # optional param to mask the source http_url from the commit. Look at README for more options
-          mask: '["${{ secrets.GOODREADS_FEED_KEY }}", "${{ secrets.SECRET2 }}"]'
+          # mask: '["${{ secrets.GOODREADS_FEED_KEY }}", "${{ secrets.GOODREADS_USERID }}"]'
 
