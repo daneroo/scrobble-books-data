@@ -6,6 +6,15 @@ This repo archives the latest version of my reading data every 20 minutes.
 
 You can look at [the formatted data table here](https://flatgithub.com/daneroo/scrobble-books-data).
 
+## Test
+
+```bash
+act
+
+. GOODREADS.env 
+deno run -q --allow-read --allow-write --allow-run --allow-net --allow-env --unstable postprocess.js goodreads-rss-p1.xml
+```
+
 ## References
 
 - [flat-data post](https://next.github.com/projects/flat-data)

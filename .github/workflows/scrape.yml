@@ -21,7 +21,8 @@ jobs:
       - name: Fetch data 
         uses: githubocto/flat@v3
         env:
-          GOODREADS_FEED_URL: ${{ secrets.GOODREADS_FEED_URL }}
+          GOODREADS_KEY: ${{ secrets.GOODREADS_KEY }}
+          GOODREADS_USER: ${{ secrets.GOODREADS_USER }}
         with:
           http_url: ${{ secrets.GOODREADS_FEED_URL }}
           downloaded_filename: goodreads-rss-p1.xml
