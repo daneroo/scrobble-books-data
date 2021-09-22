@@ -11,20 +11,21 @@ on:
 jobs:
   scheduled:
     runs-on: ubuntu-latest
+    env:
+      COCO: 42
+      GOODREADS_KEY: ${{ secrets.GOODREADS_KEY }}
+      GOODREADS_USER: ${{ secrets.GOODREADS_USER }}
+      NODE_ENV: production
     steps:
       - name: Check out repo
         uses: actions/checkout@v2
 
       - name: Use Node.js 14.x
         uses: actions/setup-node@v2
-        env:
-          COCO: 42
-          GOODREADS_KEY: ${{ secrets.GOODREADS_KEY }}
-          GOODREADS_USER: ${{ secrets.GOODREADS_USER }}
         with:
           node-version: 14.x
-          # cache: 'npm'  # comment out for local `act` run
-          # cache-dependency-path: package-lock.json
+          cache: 'npm'  # comment out for local `act` run
+          cache-dependency-path: package-lock.json
       - run: |
           echo "node: $(node --version)"
           echo "npm: $(npm --version)"
@@ -40,9 +41,9 @@ jobs:
 
       - name: Fetch data 
         uses: githubocto/flat@v3
-        env:
-          GOODREADS_KEY: ${{ secrets.GOODREADS_KEY }}
-          GOODREADS_USER: ${{ secrets.GOODREADS_USER }}
+        # env:
+        #   GOODREADS_KEY: ${{ secrets.GOODREADS_KEY }}
+        #   GOODREADS_USER: ${{ secrets.GOODREADS_USER }}
         with:
           http_url: ${{ secrets.GOODREADS_FEED_URL }}
           downloaded_filename: goodreads-rss-p1.xml
