@@ -20,10 +20,12 @@ jobs:
           deno-version: v1.x
       - name: Fetch data 
         uses: githubocto/flat@v3
+        env:
+          GOODREADS_FEED_URL: ${{ secrets.GOODREADS_FEED_URL }}
         with:
           http_url: ${{ secrets.GOODREADS_FEED_URL }}
           downloaded_filename: goodreads-rss-p1.xml
-          # postprocess: postprocess.js # A postprocessing javascript or typescript file written in Deno
+          postprocess: postprocess.js # A postprocessing javascript or typescript file written in Deno
           # mask: true # optional param to mask the source http_url from the commit. Look at README for more options
           # mask: '["${{ secrets.GOODREADS_FEED_URL }}"]'
 
