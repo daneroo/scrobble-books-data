@@ -1,3 +1,6 @@
+import { exec } from "https://deno.land/x/exec/mod.ts";
+await exec('node --version');
+
 // import { readJSON, writeJSON, removeFile } from 'https://deno.land/x/flat@0.0.11/mod.ts' 
 
 // Our injected url has https://www.goodreads.com/review/list_rss/USERID?key=SECRETKEY
