@@ -9,10 +9,13 @@ You can look at [the formatted data table here](https://flatgithub.com/daneroo/s
 ## Test
 
 ```bash
-act
+act --secret-file GOODREADS.secrets
 
 . GOODREADS.env 
-deno run -q --allow-read --allow-write --allow-run --allow-net --allow-env --unstable postprocess.js goodreads-rss-p1.xml
+npm start
+
+. GOODREADS.env 
+deno run -q --allow-read --allow-write --allow-run --allow-net --allow-env --unstable deno-src/postprocess.js goodreads-rss-p1.xml
 ```
 
 ## References

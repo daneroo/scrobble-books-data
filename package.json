@@ -1,0 +1,27 @@
+{
+  "name": "scrobble-books-data",
+  "version": "1.0.0",
+  "description": "Tracking reading data",
+  "main": "src/index.cjs",
+  "scripts": {
+    "start": "node src/index.cjs",
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daneroo/scrobble-books-data.git"
+  },
+  "author": "Daniel Lauzon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/daneroo/scrobble-books-data/issues"
+  },
+  "homepage": "https://github.com/daneroo/scrobble-books-data#readme",
+  "devDependencies": {
+    "standard": "^16.0.3"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "xml2js": "^0.4.23"
+  }
+}
