@@ -1,5 +1,5 @@
 console.log("Postprocessing")
-console.log('GOODREADS_FEED_URL',Deno.env.get("APPLICATION_NAME"));
+console.log('GOODREADS_FEED_URL',Deno.env.get("GOODREADS_FEED_URL"));
 console.log('env',Deno.env.toObject());
 
 // import { readJSON, writeJSON, removeFile } from 'https://deno.land/x/flat@0.0.11/mod.ts' 
