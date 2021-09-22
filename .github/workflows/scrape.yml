@@ -12,8 +12,8 @@ jobs:
   scheduled:
     runs-on: ubuntu-latest
     env:
-      GOODREADS_USERID: '{{ secrets.GOODREADS_USERID }}'
-      GOODREADS_FEED_KEY: '{{ secrets.GOODREADS_FEED_KEY }}'
+      GOODREADS_USERID: '6883912'
+      GOODREADS_FEED_KEY: '9C2oDNblCg8nchKHD5aYs_gzgVmR5mpfiCi8B7WP0_IS0jMW'
     steps:
       - name: Check out repo
         uses: actions/checkout@v2
