@@ -31,7 +31,7 @@ act -j unit
 act -j scrape --secret-file GOODREADS.secrets
 # which is equivalent to:
 . GOODREADS.env
-deno run -q --allow-read --allow-write --allow-run --allow-net --allow-env --unstable src/postprocess.js goodreads-rss-p1.xml
+deno run -q --allow-read --allow-write --allow-run --allow-net --allow-env --unstable src/postprocess.js goodreads-rss-ignore-me-p1.xml
 ```
 
 ## References
