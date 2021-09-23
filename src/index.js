@@ -38,6 +38,10 @@ async function main () {
       feed.title = title // overwrite on every page - should all be the same
       const lastBuildDate = channel?.[0]?.lastBuildDate?.[0]
       const count = (channel?.[0].item || []).length
+
+      const bookFileJSON = `goodreads-rss-p${page}.node.json`
+      await fs.writeFile(bookFileJSON, JSON.stringify(pageFeed, null, 2))
+
       console.log(`${title} page:${page} count:${count} build:${lastBuildDate}`)
 
       //   prettyFeed(feed)

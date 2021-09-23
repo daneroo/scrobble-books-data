@@ -1,5 +1,6 @@
-import { exec } from "https://deno.land/x/exec/mod.ts";
-await exec('node --version');
+
+// import xmlJs from 'https://cdn.skypack.dev/xml-js'
+import {xml2json} from 'https://cdn.skypack.dev/xml-js'
 
 // import { readJSON, writeJSON, removeFile } from 'https://deno.land/x/flat@0.0.11/mod.ts' 
 
@@ -22,11 +23,16 @@ const shelf = shelves[0]
 for (let page = 1; page < 3; page++) {
   const asXML = await fetcherXML(URI, { key:GOODREADS_KEY, shelf, page })
 
-  const bookFilePFX = `goodreads-rss-p${page}`
-  const bookFileXML = `${bookFilePFX}.xml`
+  const bookFileXML =`goodreads-rss-p${page}.xml`
   await Deno.writeTextFile(bookFileXML, asXML)
   console.log(`Wrote ${bookFileXML}`)
 
+  const asJSON = xml2json(asXML, {compact: true, spaces: 4});
+  // const asJSON = xml2json(asXML, {compact: false, spaces: 4});
+
+  const bookFileJSON =`goodreads-rss-p${page}.deno.json`
+  await Deno.writeTextFile(bookFileJSON, asJSON)
+  console.log(`Wrote ${bookFileJSON}`)
   // const pageFeed = await parseStringPromise(asXML)
   // const { rss: { channel } } = pageFeed
   // const title = channel?.[0]?.title?.[0]
