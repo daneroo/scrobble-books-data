@@ -4,14 +4,14 @@ import { ensureDir } from "https://deno.land/std@0.108.0/fs/mod.ts";
 import { xml2js } from "https://cdn.skypack.dev/xml-js";
 
 // import { readJSON, writeJSON, removeFile } from 'https://deno.land/x/flat@0.0.11/mod.ts'
-import { removeFile } from 'https://deno.land/x/flat@0.0.11/mod.ts'
+import { removeFile } from "https://deno.land/x/flat@0.0.11/mod.ts";
 
-const incomingFilename = Deno.args?.[0]
+const incomingFilename = Deno.args?.[0];
 try {
-  await removeFile(incomingFilename)
+  await removeFile(incomingFilename);
   console.log(`Deleted incoming file: ${incomingFilename}`);
 } catch (e) {
-  console.log(`No incoming file: ${incomingFilename}`);
+  console.log(`Unable to delete incoming file: ${incomingFilename}`, e);
 }
 
 // Our injected url has https://www.goodreads.com/review/list_rss/USERID?key=SECRETKEY
@@ -19,7 +19,9 @@ const GOODREADS_USER = Deno.env.get("GOODREADS_USER");
 const GOODREADS_KEY = Deno.env.get("GOODREADS_KEY");
 
 if (!GOODREADS_USER || !GOODREADS_KEY) {
-  throw new Error("Missing GOODREADS_USER or GOODREADS_KEY environment variable");
+  throw new Error(
+    "Missing GOODREADS_USER or GOODREADS_KEY environment variable",
+  );
 }
 const URI = `https://www.goodreads.com/review/list_rss/${GOODREADS_USER}`;
 const shelves = ["#ALL#", "read", "currently-reading", "to-read", "on-deck"];
@@ -124,7 +126,7 @@ function cleanItem(item) {
         throw e;
       }
     }
-      return "";
+    return "";
   }
   const newItem = {};
   for (const [newName, oldName] of Object.entries(fieldMap)) {
