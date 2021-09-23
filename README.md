@@ -24,14 +24,12 @@ We are still using `flat` for committing back the changes.
 ## Testing locally
 
 ```bash
-# need to comment: cache: 'npm' for now
-act --secret-file GOODREADS.secrets
+act -j unit
+
+act scrape --secret-file GOODREADS.secrets
 
 . GOODREADS.env 
-npm start
-
-. GOODREADS.env 
-deno run -q --allow-read --allow-write --allow-run --allow-net --allow-env --unstable deno-src/postprocess.js goodreads-rss-p1.xml
+deno run -q --allow-read --allow-write --allow-run --allow-net --allow-env --unstable src/postprocess.js goodreads-rss-p1.xml
 ```
 
 ## References

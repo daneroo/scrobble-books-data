@@ -8,7 +8,10 @@ import { xml2js } from "https://cdn.skypack.dev/xml-js";
 // Our injected url has https://www.goodreads.com/review/list_rss/USERID?key=SECRETKEY
 const GOODREADS_USER = Deno.env.get("GOODREADS_USER");
 const GOODREADS_KEY = Deno.env.get("GOODREADS_KEY");
-// console.log({GOODREADS_USER,GOODREADS_KEY})
+
+if (!GOODREADS_USER || !GOODREADS_KEY) {
+  throw new Error("Missing GOODREADS_USER or GOODREADS_KEY environment variable");
+}
 const URI = `https://www.goodreads.com/review/list_rss/${GOODREADS_USER}`;
 const shelves = ["#ALL#", "read", "currently-reading", "to-read", "on-deck"];
 

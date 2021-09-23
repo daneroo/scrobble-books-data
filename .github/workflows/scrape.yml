@@ -14,13 +14,12 @@ jobs:
     env:
       GOODREADS_KEY: ${{ secrets.GOODREADS_KEY }}
       GOODREADS_USER: ${{ secrets.GOODREADS_USER }}
-      NODE_ENV: production
     steps:
       - name: Check out repo
         uses: actions/checkout@v2
 
       - name: Setup deno
-        uses: denoland/setup-deno@main
+        uses: denoland/setup-deno@v1
         with:
           deno-version: v1.x
 
@@ -29,7 +28,7 @@ jobs:
         with:
           http_url: ${{ secrets.GOODREADS_FEED_URL }}
           downloaded_filename: goodreads-rss-p1.xml
-          postprocess: deno-src/postprocess.js # A postprocessing javascript or typescript file written in Deno
+          postprocess: src/postprocess.js # A postprocessing javascript or typescript file written in Deno
           mask: true # optional param to mask the source http_url from the commit. Look at README for more options
           # mask: '["${{ secrets.GOODREADS_FEED_URL }}"]'
 
