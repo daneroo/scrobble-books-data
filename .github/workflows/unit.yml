@@ -1,0 +1,27 @@
+name: CI - lint and unit tests
+
+on: push
+
+jobs:
+  unit:
+    runs-on: ubuntu-latest
+    # secrets not needed for now, perhaps for e2e testing
+    # env:
+    #   GOODREADS_KEY: ${{ secrets.GOODREADS_KEY }}
+    #   GOODREADS_USER: ${{ secrets.GOODREADS_USER }}
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v2
+
+      - name: Setup deno
+        uses: denoland/setup-deno@v1
+        with:
+          deno-version: v1.x
+
+      - name: Run Unit tests
+        run: |
+          deno --version
+          deno lint
+          deno test
+
+

@@ -14,22 +14,24 @@ We are still using `flat` for committing back the changes.
 
 ## TODO
 
-- Try to use <https://www.skypack.dev/view/xml2js>
-- Ensure no trivial updates (lastBuildDate)
+- [Publish deno/typescript module with tests](https://www.brunnerliv.io/articles/create-your-first-module-with-deno)
+- Ensure no trivial updates (no lastBuildDate from rss pages)
 - Clean up the data more
 - [CueBlox](https://www.cueblox.com/): see if it appropriate to use
+- ~~Done~~
+- ~~Try to use [Skypacks's xml2js](https://www.skypack.dev/view/xml2js)~~
 
 ## Testing locally
 
 ```bash
-# need to comment: cache: 'npm' for now
-act --secret-file GOODREADS.secrets
+# CI
+act -j unit
 
-. GOODREADS.env 
-npm start
-
-. GOODREADS.env 
-deno run -q --allow-read --allow-write --allow-run --allow-net --allow-env --unstable deno-src/postprocess.js goodreads-rss-p1.xml
+# Local run of scheduled scrape job
+act -j scrape --secret-file GOODREADS.secrets
+# which is equivalent to:
+. GOODREADS.env
+deno run -q --allow-read --allow-write --allow-run --allow-net --allow-env --unstable src/postprocess.js goodreads-rss-p1.xml
 ```
 
 ## References

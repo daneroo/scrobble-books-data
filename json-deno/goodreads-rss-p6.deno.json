@@ -1,0 +1,68 @@
+{
+  "_declaration": {
+    "_attributes": {
+      "version": "1.0",
+      "encoding": "UTF-8"
+    }
+  },
+  "rss": {
+    "_attributes": {
+      "version": "2.0",
+      "xmlns:atom": "http://www.w3.org/2005/Atom"
+    },
+    "channel": {
+      "xhtml:meta": {
+        "_attributes": {
+          "xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "name": "robots",
+          "content": "noindex"
+        }
+      },
+      "title": {
+        "_text": "Daniel's bookshelf: all"
+      },
+      "copyright": {
+        "_cdata": "Copyright (C) 2021 Goodreads Inc. All rights reserved."
+      },
+      "link": {
+        "_cdata": "https://www.goodreads.com/review/list_rss/6883912?key=9C2oDNblCg8nchKHD5aYs_gzgVmR5mpfiCi8B7WP0_IS0jMW&shelf=%23ALL%23&page=6"
+      },
+      "atom:link": {
+        "_attributes": {
+          "href": "https://www.goodreads.com/review/list_rss/6883912?key=9C2oDNblCg8nchKHD5aYs_gzgVmR5mpfiCi8B7WP0_IS0jMW&shelf=%23ALL%23&page=6",
+          "rel": "self",
+          "type": "application/rss+xml"
+        }
+      },
+      "description": {
+        "_cdata": "Daniel's bookshelf: all"
+      },
+      "language": {
+        "_text": "en-US"
+      },
+      "lastBuildDate": {
+        "_text": "Thu, 23 Sep 2021 12:42:48 -0700"
+      },
+      "ttl": {
+        "_text": "60"
+      },
+      "image": {
+        "title": {
+          "_text": "Daniel's bookshelf: all"
+        },
+        "link": {
+          "_cdata": "https://www.goodreads.com/review/list_rss/6883912?key=9C2oDNblCg8nchKHD5aYs_gzgVmR5mpfiCi8B7WP0_IS0jMW&shelf=%23ALL%23&page=6"
+        },
+        "width": {
+          "_text": "144"
+        },
+        "height": {
+          "_text": "41"
+        },
+        "url": {
+          "_text": "https://www.goodreads.com/images/layout/goodreads_logo_144.jpg"
+        }
+      }
+    }
+  }
+}
