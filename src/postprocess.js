@@ -4,6 +4,9 @@ import { ensureDir } from "https://deno.land/std@0.108.0/fs/mod.ts";
 import { xml2js } from "https://cdn.skypack.dev/xml-js";
 
 // import { readJSON, writeJSON, removeFile } from 'https://deno.land/x/flat@0.0.11/mod.ts'
+const incomingFilename = Deno.args[0]
+await removeFile(incomingFilename)
+console.log(`Delete incoming file ${incomingFilename}`);
 
 // Our injected url has https://www.goodreads.com/review/list_rss/USERID?key=SECRETKEY
 const GOODREADS_USER = Deno.env.get("GOODREADS_USER");
