@@ -1,5 +1,7 @@
 # scrobble-books-data
 
+[![CI - lint and unit tests](https://github.com/daneroo/scrobble-books-data/actions/workflows/unit.yml/badge.svg?branch=main)](https://github.com/daneroo/scrobble-books-data/actions/workflows/unit.yml)
+
 Tracking reading data
 
 This repo archives the latest version of my reading data every 20 minutes.
@@ -8,9 +10,11 @@ You can look at [the formatted data table here](https://flatgithub.com/daneroo/s
 
 ## Description
 
-Because we are using githubocto/flat@v3, which uses Typescript as it's postprocessor,
-and the `xml2js` cannot be used by Deno, we have implementes the scrapiing in Node.js for now.
-We are still using `flat` for committing back the changes.
+We are using githubocto/flat@v3, which uses Deno/Typescript as it's postprocessor,
+
+## Usage
+
+The data file ca be fetched (externally) at <https://raw.githubusercontent.com/daneroo/scrobble-books-data/main/goodreads-rss.json>.
 
 ## TODO
 
