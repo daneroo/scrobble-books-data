@@ -9,7 +9,7 @@ on:
     - cron: '1/20 * * * *'
 
 jobs:
-  scheduled:
+  scrape:
     runs-on: ubuntu-latest
     env:
       GOODREADS_KEY: ${{ secrets.GOODREADS_KEY }}

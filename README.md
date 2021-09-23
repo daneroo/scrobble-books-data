@@ -24,11 +24,13 @@ We are still using `flat` for committing back the changes.
 ## Testing locally
 
 ```bash
+# CI
 act -j unit
 
-act scrape --secret-file GOODREADS.secrets
-
-. GOODREADS.env 
+# Local run of scheduled scrape job
+act -j scrape --secret-file GOODREADS.secrets
+# which is equivalent to:
+. GOODREADS.env
 deno run -q --allow-read --allow-write --allow-run --allow-net --allow-env --unstable src/postprocess.js goodreads-rss-p1.xml
 ```
 
