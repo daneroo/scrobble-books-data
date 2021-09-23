@@ -1,5 +1,5 @@
 import { join } from "https://deno.land/std@0.108.0/path/mod.ts";
-import {  ensureDir} from "https://deno.land/std@0.108.0/fs/mod.ts";
+import { ensureDir } from "https://deno.land/std@0.108.0/fs/mod.ts";
 
 import { xml2js } from "https://cdn.skypack.dev/xml-js";
 
@@ -101,23 +101,27 @@ function cleanItem(item) {
     bookPublished: "book_published",
     description: "description",
   };
+
+  //  use '' as sentinel/null - not undefined
   function safeDate(d) {
     try {
       new Date(d).toISOString();
     } catch (error) {
-      return null;
+      // return null;
+      return "";
     }
   }
   const newItem = {};
   for (const [newName, oldName] of Object.entries(fieldMap)) {
-    //  check if array of length 1
-    newItem[newName] = item[oldName]?._cdata || item[oldName]?._text;
+    //  use '' as sentinel/null - not undefined
+    newItem[newName] = item[oldName]?._cdata ?? item[oldName]?._text ?? "";
   }
   newItem.userReadAt = safeDate(newItem.userReadAt);
-  newItem.userDateAdded = safeDate(newItem.userDateAdded);
-  newItem.userDateCreated = safeDate(newItem.userDateCreated);
+  // newItem.userDateAdded = safeDate(newItem.userDateAdded);
+  // newItem.userDateCreated = safeDate(newItem.userDateCreated);
   // <book id="13641406"> <num_pages>172</num_pages> </book>
-  newItem.numPages = item?.book?.num_pages?._text ?? 0;
+  newItem.numPages = item?.book?.num_pages?._text ?? "0";
+  console.log({ pages: newItem.numPages });
   // console.log(newItem);
   return newItem;
 }

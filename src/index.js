@@ -138,7 +138,7 @@ function cleanItem (item) {
     newItem[newName] = item[oldName][0]
   }
   // <book id="13641406"> <num_pages>172</num_pages> </book>
-  newItem.numPages = item?.book?.num_pages ?? 0
+  newItem.numPages = item?.book?.[0]?.num_pages?.[0] ?? '0'
 
   return newItem
 }

@@ -14,10 +14,12 @@ We are still using `flat` for committing back the changes.
 
 ## TODO
 
-- Try to use <https://www.skypack.dev/view/xml2js>
-- Ensure no trivial updates (lastBuildDate)
+- [Publish deno/typescript module with tests](https://www.brunnerliv.io/articles/create-your-first-module-with-deno)
+- Ensure no trivial updates (no lastBuildDate from rss pages)
 - Clean up the data more
 - [CueBlox](https://www.cueblox.com/): see if it appropriate to use
+- ~~Done~~
+- ~~Try to use [Skypacks's xml2js](https://www.skypack.dev/view/xml2js)~~
 
 ## Testing locally
 
