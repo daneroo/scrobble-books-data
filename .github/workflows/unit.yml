@@ -1,4 +1,4 @@
-name: Scrape latest reading data
+name: CI - lint and unit tests
 
 on: push
 
