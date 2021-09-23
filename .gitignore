@@ -2,4 +2,4 @@ GOODREADS.env
 GOODREADS.secrets
 node_modules/
 # Don't check these in, some of them change every run
-# xml-deno/
+xml-deno/
