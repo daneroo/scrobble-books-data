@@ -3,6 +3,7 @@
 
 const { parseStringPromise } = require('xml2js')
 const { promises: fs } = require('fs')
+const { join } = require('path')
 
 const fetch = require('node-fetch')
 
@@ -29,7 +30,12 @@ async function main () {
     for (let page = 1; page < 10; page++) {
       const asXML = await fetcherXML(URI, { key: GOODREADS_KEY, shelf, page })
 
-      const bookFileXML = `goodreads-rss-p${page}.xml`
+      try {
+        await fs.mkdir('xml-node')
+      } catch (err) {
+        if (err?.code !== 'EEXIST') throw err
+      }
+      const bookFileXML = join('xml-node', `goodreads-rss-p${page}.xml`)
       await fs.writeFile(bookFileXML, asXML)
 
       const pageFeed = await parseStringPromise(asXML)
@@ -39,7 +45,12 @@ async function main () {
       const lastBuildDate = channel?.[0]?.lastBuildDate?.[0]
       const count = (channel?.[0].item || []).length
 
-      const bookFileJSON = `goodreads-rss-p${page}.node.json`
+      try {
+        await fs.mkdir('json-node')
+      } catch (err) {
+        if (err?.code !== 'EEXIST') throw err
+      }
+      const bookFileJSON = join('json-node', `goodreads-rss-p${page}.node.json`)
       await fs.writeFile(bookFileJSON, JSON.stringify(pageFeed, null, 2))
 
       console.log(`${title} page:${page} count:${count} build:${lastBuildDate}`)
@@ -59,7 +70,7 @@ async function main () {
     // accumulated over pages: no '-pX' part in filename
     prettyFeed(feed)
     // my format
-    const bookFileJSON = 'goodreads-rss.json'
+    const bookFileJSON = 'goodreads-rss.node.json'
     const asJSON = JSON.stringify(feed, null, 2)
     await fs.writeFile(bookFileJSON, asJSON)
     console.log(`Wrote ${bookFileJSON}`)

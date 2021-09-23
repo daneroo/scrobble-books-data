@@ -1,3 +1,6 @@
+import { join } from "https://deno.land/std@0.108.0/path/mod.ts";
+import {  ensureDir} from "https://deno.land/std@0.108.0/fs/mod.ts";
+
 import { xml2js } from "https://cdn.skypack.dev/xml-js";
 
 // import { readJSON, writeJSON, removeFile } from 'https://deno.land/x/flat@0.0.11/mod.ts'
@@ -11,8 +14,7 @@ const shelves = ["#ALL#", "read", "currently-reading", "to-read", "on-deck"];
 
 const feed = { // indicate provenance - at least build stamp
   title: "Daniel's bookshelf: all",
-  // title: 'ReplaceMe',
-  // lastBuildDate: stamp,
+  // lastBuildDate: stamp, // was for provenance, but we prefer not to cause file difference
   items: [], // Where we will accumulate the pages items
 };
 const shelf = shelves[0];
@@ -20,18 +22,18 @@ const shelf = shelves[0];
 for (let page = 1; page < 10; page++) {
   const asXML = await fetcherXML(URI, { key: GOODREADS_KEY, shelf, page });
 
-  const bookFileXML = `goodreads-rss-p${page}.xml`;
+  await ensureDir("xml-deno");
+  const bookFileXML = join("xml-deno", `goodreads-rss-p${page}.xml`);
   await Deno.writeTextFile(bookFileXML, asXML);
   console.log(`Wrote ${bookFileXML}`);
 
   const pageFeed = xml2js(asXML, { compact: true, spaces: 4 });
 
-  const bookFileJSON = `goodreads-rss-p${page}.deno.json`;
+  await ensureDir("json-deno");
+  const bookFileJSON = join("json-deno", `goodreads-rss-p${page}.deno.json`);
   await Deno.writeTextFile(bookFileJSON, JSON.stringify(pageFeed, null, 2));
   console.log(`Wrote ${bookFileJSON}`);
 
-  // console.log(asJSON)
-  console.log(Object.keys(pageFeed));
   const { rss: { channel } } = pageFeed;
   const title = channel?.title?._text;
   feed.title = title; // overwrite on every page - should all be the same
@@ -42,26 +44,16 @@ for (let page = 1; page < 10; page++) {
   const items = cleanItems(channel?.item ?? []);
 
   if (!items || items.length === 0) {
-    console.log("No more items");
+    // console.log("No more items");
     break;
   }
-  // if (pageItems.length > 0) {
-  //   console.log(pageItems[0])
-  // }
   feed.items = feed.items.concat(items);
 }
 
-// // accumulated over pages: no '-pX' part in filename
+// accumulated over pages: no '-pX' part in filename
 prettyFeed(feed);
-// // my format
-// const bookFilePFX = join(runDirectory, `goodreads-rss-${stamp}`)
-// const bookFileJSON = `${bookFilePFX}.json`
-// const asJSON = JSON.stringify(feed, null, 2)
-// await fs.writeFile(bookFileJSON, asJSON)
-// console.log(`\nscp -p ${bookFileJSON} ../site/public/books/goodreads-rss.json\n`)
-
-// Optionally delete the original file
-// await removeFile(filename)
+const bookFileJSON = `goodreads-rss.json`;
+await Deno.writeTextFile(bookFileJSON, JSON.stringify(feed, null, 2));
 
 // fetch a page as xml
 async function fetcherXML(URI, qs = {}) {
@@ -130,7 +122,7 @@ function cleanItem(item) {
   return newItem;
 }
 
-function prettyFeed({ title, lastBuildDate, items }) {
+function prettyFeed({ title, items }) {
   const count = items.length;
   console.log(`${title} count:${count}`);
   if (!items.length) {
