@@ -9,7 +9,7 @@
     <atom:link href="https://www.goodreads.com/review/list_rss/6883912?key=9C2oDNblCg8nchKHD5aYs_gzgVmR5mpfiCi8B7WP0_IS0jMW&amp;shelf=%23ALL%23&amp;page=1" rel="self" type="application/rss+xml" />
     <description><![CDATA[Daniel's bookshelf: all]]></description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 21 Sep 2021 21:02:08 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 23 Sep 2021 02:37:15 -0700</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <title>Daniel's bookshelf: all</title>
@@ -21,7 +21,7 @@
     
   <item>
     <guid><![CDATA[https://www.goodreads.com/review/show/4215397049?utm_medium=api&utm_source=rss]]></guid>
-    <pubDate><![CDATA[Tue, 21 Sep 2021 21:02:08 -0700]]></pubDate>
+    <pubDate><![CDATA[Thu, 23 Sep 2021 02:37:15 -0700]]></pubDate>
     <title><![CDATA[Accelerate: Building and Scaling High-Performing Technology Organizations]]></title>
     <link><![CDATA[https://www.goodreads.com/review/show/4215397049?utm_medium=api&utm_source=rss]]></link>
     <book_id>35747076</book_id>
@@ -38,7 +38,7 @@
     <user_name>Daniel</user_name>
     <user_rating>0</user_rating>
     <user_read_at></user_read_at>
-    <user_date_added><![CDATA[Tue, 21 Sep 2021 21:02:08 -0700]]></user_date_added>
+    <user_date_added><![CDATA[Thu, 23 Sep 2021 02:37:15 -0700]]></user_date_added>
     <user_date_created><![CDATA[Thu, 02 Sep 2021 15:04:13 -0700]]></user_date_created>
     <user_shelves>currently-reading</user_shelves>
     <user_review></user_review>
@@ -53,7 +53,7 @@
                                       book published: <br/>
                                       rating: 0<br/>
                                       read at: <br/>
-                                      date added: 2021/09/21<br/>
+                                      date added: 2021/09/23<br/>
                                       shelves: currently-reading<br/>
                                       review: <br/><br/>
                                       ]]>
@@ -61,7 +61,7 @@
   </item>
   <item>
     <guid><![CDATA[https://www.goodreads.com/review/show/4229338024?utm_medium=api&utm_source=rss]]></guid>
-    <pubDate><![CDATA[Mon, 20 Sep 2021 22:57:13 -0700]]></pubDate>
+    <pubDate><![CDATA[Thu, 23 Sep 2021 02:36:44 -0700]]></pubDate>
     <title><![CDATA[Mistress of Magic (The Mists of Avalon, #1)]]></title>
     <link><![CDATA[https://www.goodreads.com/review/show/4229338024?utm_medium=api&utm_source=rss]]></link>
     <book_id>18885</book_id>
@@ -78,7 +78,7 @@
     <user_name>Daniel</user_name>
     <user_rating>0</user_rating>
     <user_read_at></user_read_at>
-    <user_date_added><![CDATA[Mon, 20 Sep 2021 22:57:13 -0700]]></user_date_added>
+    <user_date_added><![CDATA[Thu, 23 Sep 2021 02:36:44 -0700]]></user_date_added>
     <user_date_created><![CDATA[Thu, 09 Sep 2021 23:04:28 -0700]]></user_date_created>
     <user_shelves>currently-reading</user_shelves>
     <user_review></user_review>
@@ -93,7 +93,7 @@
                                       book published: 1982<br/>
                                       rating: 0<br/>
                                       read at: <br/>
-                                      date added: 2021/09/20<br/>
+                                      date added: 2021/09/23<br/>
                                       shelves: currently-reading<br/>
                                       review: <br/><br/>
                                       ]]>
