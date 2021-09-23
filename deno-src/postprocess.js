@@ -38,8 +38,8 @@ for (let page = 1; page < 10; page++) {
   const title = channel?.title?._text;
   feed.title = title; // overwrite on every page - should all be the same
 
-  // this was for provenance, but we prefer idempotence, and omit from output
-  const lastBuildDate = channel?.lastBuildDate?._text;
+  // this was for provenance, but we prefer minimal changes and omit from output
+  // const lastBuildDate = channel?.lastBuildDate?._text;
 
   const items = cleanItems(channel?.item ?? []);
 
@@ -105,24 +105,26 @@ function cleanItem(item) {
   //  use '' as sentinel/null - not undefined
   function safeDate(d) {
     try {
-      new Date(d).toISOString();
-    } catch (error) {
-      // return null;
-      return "";
+      return new Date(d).toISOString();
+    } catch (e) {
+      // swallow RangeError, else re-throw
+      if (!(e instanceof RangeError)) {
+        throw e;
+      }
     }
+      return "";
   }
   const newItem = {};
   for (const [newName, oldName] of Object.entries(fieldMap)) {
     //  use '' as sentinel/null - not undefined
     newItem[newName] = item[oldName]?._cdata ?? item[oldName]?._text ?? "";
   }
+  newItem.pubDate = safeDate(newItem.pubDate);
   newItem.userReadAt = safeDate(newItem.userReadAt);
-  // newItem.userDateAdded = safeDate(newItem.userDateAdded);
-  // newItem.userDateCreated = safeDate(newItem.userDateCreated);
+  newItem.userDateAdded = safeDate(newItem.userDateAdded);
+  newItem.userDateCreated = safeDate(newItem.userDateCreated);
   // <book id="13641406"> <num_pages>172</num_pages> </book>
   newItem.numPages = item?.book?.num_pages?._text ?? "0";
-  console.log({ pages: newItem.numPages });
-  // console.log(newItem);
   return newItem;
 }
 
