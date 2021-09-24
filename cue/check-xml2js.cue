@@ -41,6 +41,7 @@ import ()
 #_textopt: {"_text"?: string}
 #_cdata: {"_cdata": string}
 #_cdataopt: {"_cdata"?: string}
+
 // This is a strange setup but seems to work, _cdata, _text, but not both.
 #_cdatatextopt: {"_cdata": string} | {"_text": string} | *{}
 

@@ -47,11 +47,11 @@ deno run -q --allow-read --allow-write --allow-run --allow-net --allow-env --uns
 
 ```bash
 cd cue
-cue fmt check.cue
-cue vet check.cue goodreads-rss-p1.deno.json
-for i in ../json-deno/goodreads-rss-p*json; do echo $i; cue vet check.cue $i ; done
+cue fmt check-xml2js.cue
+cue vet check-xml2js.cue goodreads-rss-p1.deno.json
+for i in ../json-deno/goodreads-rss-p*json; do echo $i; cue vet check-xml2js.cue $i ; done
 # not sure if this is the same
-cue vet check.cue ../json-deno/goodreads-rss-p*.json
+cue vet check-xml2js.cue ../json-deno/goodreads-rss-p*.json
 ```
 
 ## References
