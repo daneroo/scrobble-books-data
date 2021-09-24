@@ -5,6 +5,7 @@ import { xml2js } from "https://cdn.skypack.dev/xml-js";
 
 // import { readJSON, writeJSON, removeFile } from 'https://deno.land/x/flat@0.0.11/mod.ts'
 import { removeFile } from "https://deno.land/x/flat@0.0.11/mod.ts";
+import { fetcherXML } from "./fetcherXML.ts";
 
 const incomingFilename = Deno.args?.[0];
 try {
@@ -68,21 +69,6 @@ for (let page = 1; page < 10; page++) {
 prettyFeed(feed);
 const bookFileJSON = `goodreads-rss.json`;
 await Deno.writeTextFile(bookFileJSON, JSON.stringify(feed, null, 2));
-
-// fetch a page as xml
-async function fetcherXML(URI, qs = {}) {
-  const qss = new URLSearchParams(qs).toString();
-  const url = `${URI}?${qss}`;
-  // eslint-disable-next-line no-undef
-  const response = await fetch(url);
-  // console.info('fetched', url)
-  //   const object = await results.json()
-  //   return object
-  const asXML = await response.text();
-  return asXML;
-  //   const feed = await parseStringPromise(asXML)
-  //   return feed
-}
 
 // More validation - all levels
 function cleanItems(items) {
