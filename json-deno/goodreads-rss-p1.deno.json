@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Thu, 23 Sep 2021 02:37:15 -0700"
+        "_text": "Fri, 24 Sep 2021 23:12:19 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4229338024?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Fri, 24 Sep 2021 23:12:19 -0700"
+          },
+          "title": {
+            "_cdata": "Mistress of Magic (The Mists of Avalon, #1)"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4229338024?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "18885"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1374426748l/18885._SX50_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1374426748l/18885._SX50_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1374426748l/18885._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1374426748l/18885.jpg"
+          },
+          "book_description": {
+            "_cdata": "13 Hours 53 Minutes, on 12 CDs.<br /><br />In the tradition of T.H. Whites The Once and Future King, the author makes use of the prerequisites of the Arthurian legend: Excalibur, the Holy Grail, Lancelets illicit love for Gwenhwyfar, the destruction of Camelot, but with a twist--she presents the entire panoramic story from the female point of view. No passive by-standers, these earthy priestesses from Avalon literally breathe life into a musty, oft-told tale. In Book One: Mistress of Magic, the Lady of the Lake--Viviane--brings about the marriage of her younger sister Igraine to Uther Pendragon. Their only child, Arthur, is believed to be the last hope in the long standing war between Saxons and Romans. Meanwhile, Morgaine, Igraines daughter by her first marriage to Gorlois, has come under the apprenticeship of Viviane at Avalon. In spite of her great love and hope for Morgaine, Viviane is driven by an unrelenting vision. Miserable, but duty-bound, she tricks Morgaine and Arthur into becoming lovers during the night of the ritual fires. Enraged and shamed by what her aunt has done, Morgaine plans to rid herself of the child that has resulted from their union. Book one ends with Arthurs coronation and Morgaines decision to leave Avalon."
+          },
+          "book": {
+            "_attributes": {
+              "id": "18885"
+            },
+            "num_pages": {
+              "_text": "14"
+            }
+          },
+          "author_name": {
+            "_text": "Marion Zimmer Bradley"
+          },
+          "isbn": {
+            "_text": "141932506X"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "4"
+          },
+          "user_read_at": {
+            "_cdata": "Fri, 24 Sep 2021 23:12:12 -0700"
+          },
+          "user_date_added": {
+            "_cdata": "Fri, 24 Sep 2021 23:12:19 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Thu, 09 Sep 2021 23:04:28 -0700"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.88"
+          },
+          "book_published": {
+            "_text": "1982"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/18885.Mistress_of_Magic?utm_medium=api&amp;utm_source=rss\"><img alt=\"Mistress of Magic (The Mists of Avalon, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1374426748l/18885._SX50_.jpg\" /></a><br/>\n                                      author: Marion Zimmer Bradley<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.88<br/>\n                                      book published: 1982<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/09/24<br/>\n                                      date added: 2021/09/24<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/4215397049?utm_medium=api&utm_source=rss"
@@ -132,78 +204,6 @@
           "book_published": {},
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/35747076-accelerate?utm_medium=api&amp;utm_source=rss\"><img alt=\"Accelerate: Building and Scaling High-Performing Technology Organizations\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1520615948l/35747076._SX50_.jpg\" /></a><br/>\n                                      author: Nicole Forsgren<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.06<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/09/23<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/4229338024?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Thu, 23 Sep 2021 02:36:44 -0700"
-          },
-          "title": {
-            "_cdata": "Mistress of Magic (The Mists of Avalon, #1)"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/4229338024?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "18885"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1374426748l/18885._SX50_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1374426748l/18885._SX50_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1374426748l/18885._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1374426748l/18885.jpg"
-          },
-          "book_description": {
-            "_cdata": "13 Hours 53 Minutes, on 12 CDs.<br /><br />In the tradition of T.H. Whites The Once and Future King, the author makes use of the prerequisites of the Arthurian legend: Excalibur, the Holy Grail, Lancelets illicit love for Gwenhwyfar, the destruction of Camelot, but with a twist--she presents the entire panoramic story from the female point of view. No passive by-standers, these earthy priestesses from Avalon literally breathe life into a musty, oft-told tale. In Book One: Mistress of Magic, the Lady of the Lake--Viviane--brings about the marriage of her younger sister Igraine to Uther Pendragon. Their only child, Arthur, is believed to be the last hope in the long standing war between Saxons and Romans. Meanwhile, Morgaine, Igraines daughter by her first marriage to Gorlois, has come under the apprenticeship of Viviane at Avalon. In spite of her great love and hope for Morgaine, Viviane is driven by an unrelenting vision. Miserable, but duty-bound, she tricks Morgaine and Arthur into becoming lovers during the night of the ritual fires. Enraged and shamed by what her aunt has done, Morgaine plans to rid herself of the child that has resulted from their union. Book one ends with Arthurs coronation and Morgaines decision to leave Avalon."
-          },
-          "book": {
-            "_attributes": {
-              "id": "18885"
-            },
-            "num_pages": {
-              "_text": "14"
-            }
-          },
-          "author_name": {
-            "_text": "Marion Zimmer Bradley"
-          },
-          "isbn": {
-            "_text": "141932506X"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Thu, 23 Sep 2021 02:36:44 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Thu, 09 Sep 2021 23:04:28 -0700"
-          },
-          "user_shelves": {
-            "_text": "currently-reading"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "3.88"
-          },
-          "book_published": {
-            "_text": "1982"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/18885.Mistress_of_Magic?utm_medium=api&amp;utm_source=rss\"><img alt=\"Mistress of Magic (The Mists of Avalon, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1374426748l/18885._SX50_.jpg\" /></a><br/>\n                                      author: Marion Zimmer Bradley<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.88<br/>\n                                      book published: 1982<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/09/23<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>\n                                      "
           }
         },
         {
