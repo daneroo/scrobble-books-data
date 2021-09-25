@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Sat, 09 Jan 2021 20:19:19 -0800"
+        "_text": "Sat, 16 Jan 2021 13:22:11 -0800"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,220 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3635830479?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sat, 16 Jan 2021 13:22:11 -0800"
+          },
+          "title": {
+            "_cdata": "Full Stack Serverless: Modern Application Development with React, Aws, and Graphql"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3635830479?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "54102833"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1595213147l/54102833._SX50_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1595213147l/54102833._SX50_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1595213147l/54102833._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1595213147l/54102833.jpg"
+          },
+          "book_description": {
+            "_cdata": "Cloud computing is typically associated with backend development and DevOps. But with the rise of serverless technologies and a new generation of services and frameworks, frontend and mobile developers can build robust applications with production-ready features such as authentication and authorization, API gateways, chatbots, augmented reality scenes, and more. This hands-on guide shows you how.<br /><br />Nader Dabit, developer advocate at Amazon Web Services, guides you through the process of building full stack applications using React, AWS, GraphQL, and AWS Amplify. You'll learn how to create and incorporate services into your client applications while learning general best practices, deployment strategies, rich media management, and continuous integration and delivery along the way.<br /><br /><br />Learn how to build serverless applications that solve real problems<br />Understand what is (and isn't) possible when using these technologies<br />Create a GraphQL API that interacts with DynamoDB and a NoSQL database<br />Examine how authentication works--and learn the difference between authentication and authorization<br />Get an in-depth view of how serverless functions work and why they're important<br />Build full stack applications on AWS and create offline apps with Amplify DataStore"
+          },
+          "book": {
+            "_attributes": {
+              "id": "54102833"
+            },
+            "num_pages": {
+              "_text": "184"
+            }
+          },
+          "author_name": {
+            "_text": "Nader Dabit"
+          },
+          "isbn": {
+            "_text": "1492059897"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Sat, 16 Jan 2021 13:22:11 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Mon, 09 Nov 2020 01:17:00 -0800"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.56"
+          },
+          "book_published": {},
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/54102833-full-stack-serverless?utm_medium=api&amp;utm_source=rss\"><img alt=\"Full Stack Serverless: Modern Application Development with React, Aws, and Graphql\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1595213147l/54102833._SX50_.jpg\" /></a><br/>\n                                      author: Nader Dabit<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.56<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/01/16<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3748413356?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Wed, 13 Jan 2021 15:59:26 -0800"
+          },
+          "title": {
+            "_cdata": "The Causal Angel (Jean le Flambeur, #3)"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3748413356?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "18190723"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1421008962l/18190723._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1421008962l/18190723._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1421008962l/18190723._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1421008962l/18190723.jpg"
+          },
+          "book_description": {
+            "_cdata": "With his infectious love of storytelling in all its forms, his rich characterisation and his unrivalled grasp of thrillingly bizarre cutting-edge science Hannu Rajaniemi has swiftly set a new benchmark for SF in the 21st century. And now with his third novel he completes the tale of his gentleman rogue, the many lives and minds of Jean de Flambeur.<br /><br />Influenced as much by the fin de siecle novels of Maurice leBlanc as he is by the greats of SF Rajaniemi weaves, intricate, warm capers through dazzling science, extraordinary visions of wild future and deep conjecture on the nature of reality and story.<br /><br />And now we find out what will happen to Jean, his employer Mieli, the independently minded ship Perhonen and the rest of a fractured and diverse humanity flung through the solar system."
+          },
+          "book": {
+            "_attributes": {
+              "id": "18190723"
+            },
+            "num_pages": {
+              "_text": "292"
+            }
+          },
+          "author_name": {
+            "_text": "Hannu Rajaniemi"
+          },
+          "isbn": {
+            "_text": "0575088974"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "4"
+          },
+          "user_read_at": {
+            "_cdata": "Wed, 13 Jan 2021 15:59:26 -0800"
+          },
+          "user_date_added": {
+            "_cdata": "Wed, 13 Jan 2021 15:59:26 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Mon, 04 Jan 2021 22:57:32 -0800"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.19"
+          },
+          "book_published": {
+            "_text": "2014"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/18190723-the-causal-angel?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Causal Angel (Jean le Flambeur, #3)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1421008962l/18190723._SY75_.jpg\" /></a><br/>\n                                      author: Hannu Rajaniemi<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.19<br/>\n                                      book published: 2014<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/01/13<br/>\n                                      date added: 2021/01/13<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3642528570?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sun, 10 Jan 2021 04:25:32 -0800"
+          },
+          "title": {
+            "_cdata": "The Ten Equations: And How You Can Use Them to Improve Your Life"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3642528570?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "52842902"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1610282368l/52842902._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1610282368l/52842902._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1610282368l/52842902._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1610282368l/52842902._SY475_.jpg"
+          },
+          "book_description": {
+            "_cdata": "Is there a secret formula for improving your life? For making something a viral hit? For deciding how long to stick with your current job, Netflix series, or even relationship?<br /><br />This book is all about the equations that make our world go round. Ten of them, in fact. They are integral to everything from investment banking to betting companies and social media giants. And they can help you to increase your chance of success, guard against financial loss, live more healthily and see through scaremongering. They are known only by mathematicians - until now.<br /><br />With wit and clarity, mathematician David Sumpter shows that it isn't the technical details which make these formulas so successful. It is the way they allow mathematicians to view problems from a different angle - a way of seeing the world that anyone can learn.<br /><br />Empowering and illuminating, The Ten Equations that Rule the World shows how maths really can change your life."
+          },
+          "book": {
+            "_attributes": {
+              "id": "52842902"
+            },
+            "num_pages": {
+              "_text": "272"
+            }
+          },
+          "author_name": {
+            "_text": "David Sumpter"
+          },
+          "isbn": {
+            "_text": "0241404541"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Sun, 10 Jan 2021 04:25:32 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Fri, 13 Nov 2020 00:04:40 -0800"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.00"
+          },
+          "book_published": {
+            "_text": "2020"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/52842902-the-ten-equations?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Ten Equations: And How You Can Use Them to Improve Your Life\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1610282368l/52842902._SY75_.jpg\" /></a><br/>\n                                      author: David Sumpter<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.00<br/>\n                                      book published: 2020<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/01/10<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/3760723018?utm_medium=api&utm_source=rss"
@@ -6964,220 +7178,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/40674555-the-order-of-time?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Order of Time\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1541263282l/40674555._SX50_.jpg\" /></a><br/>\n                                      author: Carlo Rovelli<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.11<br/>\n                                      book published: 2017<br/>\n                                      rating: 5<br/>\n                                      read at: 2018/09/08<br/>\n                                      date added: 2019/06/05<br/>\n                                      shelves: <br/>\n                                      review: <br/>A perfect little book. Deep yet accessible. It discusses the fundamental nature of time, and feels like a book of philosophy or poetry.<br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/2824969863?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Fri, 31 May 2019 23:33:02 -0700"
-          },
-          "title": {
-            "_cdata": "The Big Picture: On the Origins of Life, Meaning, and the Universe Itself"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/2824969863?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "26150770"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1443740660l/26150770._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1443740660l/26150770._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1443740660l/26150770._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1443740660l/26150770.jpg"
-          },
-          "book_description": {
-            "_cdata": "Already internationally acclaimed for his elegant, lucid writing on the most challenging notions in modern physics, Sean Carroll is emerging as one of the greatest humanist thinkers of his generation as he brings his extraordinary intellect to bear not only on Higgs bosons and extra dimensions but now also on our deepest personal questions.  Where are we? Who are we? Are our emotions, our beliefs, and our hopes and dreams ultimately meaningless out there in the void? Does human purpose and meaning fit into a scientific worldview?<br /><br />In short chapters filled with intriguing historical anecdotes, personal asides, and rigorous exposition, readers learn the difference between how the world works at the quantum level, the cosmic level, and the human level--and then how each connects to the other.  Carroll's presentation of the principles that have guided the scientific revolution from Darwin and Einstein to the origins of life, consciousness, and the universe is dazzlingly unique.<br /><br />Carroll shows how an avalanche of discoveries in the past few hundred years has changed our world and what really matters to us. Our lives are dwarfed like never before by the immensity of space and time, but they are redeemed by our capacity to comprehend it and give it meaning.<br /><br /><i>The Big Picture</i> is an unprecedented scientific worldview, a tour de force that will sit on shelves alongside the works of Stephen Hawking, Carl Sagan, Daniel Dennett, and E. O. Wilson for years to come."
-          },
-          "book": {
-            "_attributes": {
-              "id": "26150770"
-            },
-            "num_pages": {
-              "_text": "480"
-            }
-          },
-          "author_name": {
-            "_text": "Sean Carroll"
-          },
-          "isbn": {
-            "_text": "0525954821"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "4"
-          },
-          "user_read_at": {
-            "_cdata": "Fri, 31 May 2019 23:32:50 -0700"
-          },
-          "user_date_added": {
-            "_cdata": "Fri, 31 May 2019 23:33:02 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Fri, 17 May 2019 22:21:09 -0700"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.18"
-          },
-          "book_published": {
-            "_text": "2016"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/26150770-the-big-picture?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Big Picture: On the Origins of Life, Meaning, and the Universe Itself\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1443740660l/26150770._SY75_.jpg\" /></a><br/>\n                                      author: Sean Carroll<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.18<br/>\n                                      book published: 2016<br/>\n                                      rating: 4<br/>\n                                      read at: 2019/05/31<br/>\n                                      date added: 2019/05/31<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/2801545675?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Fri, 17 May 2019 22:19:52 -0700"
-          },
-          "title": {
-            "_cdata": "La realtà non è come ci appare: La struttura elementare delle cose"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/2801545675?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "20617550"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1390407512l/20617550._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1390407512l/20617550._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1390407512l/20617550._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1390407512l/20617550.jpg"
-          },
-          "book_description": {
-            "_cdata": "Este libro aborda uno de los mayores misterios de la física cuántica: ¿de qué está compuesta, en definitiva, la realidad?, ¿cuál es la estructura profunda de las cosas?, ¿cómo se conjuga la gramática de la naturaleza? A medida que nuestros instrumentos de observación se perfeccionan, surgen nuevas estructuras cuyo comportamiento desafía las leyes de la lógica. Rovelli logra aclarar los entresijos de la teoría de la relatividad general y los últimos descubrimientos en torno a los agujeros negros, mientras nos contagia su entusiasmo por la belleza del cosmos y por las sorpresas que puede depararnos nuestro viaje a la última frontera del conocimiento físico."
-          },
-          "book": {
-            "_attributes": {
-              "id": "20617550"
-            },
-            "num_pages": {
-              "_text": "242"
-            }
-          },
-          "author_name": {
-            "_text": "Carlo Rovelli"
-          },
-          "isbn": {
-            "_text": "8860306418"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "4"
-          },
-          "user_read_at": {
-            "_cdata": "Fri, 17 May 2019 22:19:31 -0700"
-          },
-          "user_date_added": {
-            "_cdata": "Fri, 17 May 2019 22:19:52 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Sat, 27 Apr 2019 23:43:35 -0700"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.34"
-          },
-          "book_published": {
-            "_text": "2014"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/20617550-la-realt-non-come-ci-appare?utm_medium=api&amp;utm_source=rss\"><img alt=\"La realtà non è come ci appare: La struttura elementare delle cose\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1390407512l/20617550._SY75_.jpg\" /></a><br/>\n                                      author: Carlo Rovelli<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.34<br/>\n                                      book published: 2014<br/>\n                                      rating: 4<br/>\n                                      read at: 2019/05/17<br/>\n                                      date added: 2019/05/17<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/2817776965?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Thu, 16 May 2019 23:20:37 -0700"
-          },
-          "title": {
-            "_cdata": "Practical NATS: From Beginner to Pro"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/2817776965?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "40531754"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1529038436l/40531754._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1529038436l/40531754._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1529038436l/40531754._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1529038436l/40531754._SY475_.jpg"
-          },
-          "book_description": {
-            "_cdata": "Learn to use NATS and messaging as a solution for communication between services. The NATS project has been around since 2010, but it has become more popular in recent years due to how well it fits into the paradigm of cloud native applications and microservices architectures. It’s fast becoming a very attractive option thanks to its great performance characteristics--a single server can push millions of messages per second--and overall simple design. First you will learn the fundamentals of NATS, such as its design, protocol and the styles of communications it enables, internals of the NATS clients, and how to use the basic API provided by all the official clients. You will also understand how to setup and configure NATS servers using the configuration file. Next you'll work with real-world projects and see how to develop a production-ready cloud native application using NATS as the control plane over which clients communicate. Finally you’ll learn advanced usage of the NATS clients, such as implementing heartbeats based failure detectors, tracing or collecting multiple responses from a single request. Perhaps you are familiar with REST-style APIs, and want to make the transition into a messaging-based approach instead. Practical NATS is the perfect place to start. What You'll LearnUse NATS to build applications which use it as the control plane for communication among components<br />Explore the fundamentals of NATS such as how the protocol works under the hood to more advanced communication styles which are possible with the basic building blocks provided by the client<br />Setup, operate, and configure NATS servers, as well as how to troubleshoot common failure scenarios<br /> Who This Book Is For Anyone looking for a solution for some of the problems which come along with microservices and cloud native application development, such as service discovery, low latency requests, load balancing, tracing and monitoring for example. Also adopters of NATS who need further help getting started using it. Ideally you should have some familiarity with Go as that is the language of the code examples."
-          },
-          "book": {
-            "_attributes": {
-              "id": "40531754"
-            },
-            "num_pages": {
-              "_text": "260"
-            }
-          },
-          "author_name": {
-            "_text": "Waldemar Quevedo"
-          },
-          "isbn": {},
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "4"
-          },
-          "user_read_at": {
-            "_cdata": "Thu, 16 May 2019 23:19:22 -0700"
-          },
-          "user_date_added": {
-            "_cdata": "Thu, 16 May 2019 23:20:37 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Sat, 11 May 2019 17:54:26 -0700"
-          },
-          "user_shelves": {},
-          "user_review": {
-            "_cdata": "This was a great introductory guided tour of Nats.<br />Fun read, and enough to get started!"
-          },
-          "average_rating": {
-            "_text": "3.75"
-          },
-          "book_published": {},
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/40531754-practical-nats?utm_medium=api&amp;utm_source=rss\"><img alt=\"Practical NATS: From Beginner to Pro\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1529038436l/40531754._SY75_.jpg\" /></a><br/>\n                                      author: Waldemar Quevedo<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.75<br/>\n                                      book published: <br/>\n                                      rating: 4<br/>\n                                      read at: 2019/05/16<br/>\n                                      date added: 2019/05/16<br/>\n                                      shelves: <br/>\n                                      review: <br/>This was a great introductory guided tour of Nats.<br />Fun read, and enough to get started!<br/>\n                                      "
           }
         }
       ]

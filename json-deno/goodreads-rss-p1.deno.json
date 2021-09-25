@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Fri, 24 Sep 2021 23:12:19 -0700"
+        "_text": "Fri, 24 Sep 2021 23:57:20 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,290 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4255842317?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Fri, 24 Sep 2021 23:57:20 -0700"
+          },
+          "title": {
+            "_cdata": "The Adventures of Sherlock Holmes (Sherlock Holmes, #3)"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4255842317?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "3590"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1164045516l/3590._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1164045516l/3590._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1164045516l/3590._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1164045516l/3590.jpg"
+          },
+          "book_description": {
+            "_cdata": "<i>The Adventures of Sherlock Holmes</i> is the series of short stories that made the fortunes of the Strand magazine, in which they were first published, and won immense popularity for Sherlock Holmes and Dr Watson. The detective is at the height of his powers and the volume is full of famous cases, including 'The Red-Headed League', 'The Blue Carbuncle', and 'The Speckled Band'. Although Holmes gained a reputation for infallibility, Conan Doyle showed his own realism and feminism by having the great detective defeated by Irene Adler - the woman - in the very first story, 'A Scandal in Bohemia'. <br />The editor of this volume, Richard Lancelyn Green is editor of <i>The Uncollected Sherlock Holmes</i> and <i>The Further Adventures of Sherlock Holmes</i>. With John Michael Gibson, he compiled the Soho Series Bibliography of A. Conan Doyle."
+          },
+          "book": {
+            "_attributes": {
+              "id": "3590"
+            },
+            "num_pages": {
+              "_text": "389"
+            }
+          },
+          "author_name": {
+            "_text": "Arthur Conan Doyle"
+          },
+          "isbn": {},
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Fri, 24 Sep 2021 23:57:20 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Fri, 24 Sep 2021 23:57:20 -0700"
+          },
+          "user_shelves": {
+            "_text": "currently-reading"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.30"
+          },
+          "book_published": {
+            "_text": "1892"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/3590.The_Adventures_of_Sherlock_Holmes?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Adventures of Sherlock Holmes (Sherlock Holmes, #3)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1164045516l/3590._SY75_.jpg\" /></a><br/>\n                                      author: Arthur Conan Doyle<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.30<br/>\n                                      book published: 1892<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/09/24<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4106982733?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Fri, 24 Sep 2021 23:56:22 -0700"
+          },
+          "title": {
+            "_cdata": "Children of Time (Children of Time, #1)"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4106982733?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "25499718"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1431014197l/25499718._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1431014197l/25499718._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1431014197l/25499718._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1431014197l/25499718.jpg"
+          },
+          "book_description": {
+            "_cdata": "A race for survival among the stars... Humanity's last survivors escaped earth's ruins to find a new home. But when they find it, can their desperation overcome its dangers?<br /><br />WHO WILL INHERIT THIS NEW EARTH?<br /><br />The last remnants of the human race left a dying Earth, desperate to find a new home among the stars. Following in the footsteps of their ancestors, they discover the greatest treasure of the past age—a world terraformed and prepared for human life.<br /><br />But all is not right in this new Eden. In the long years since the planet was abandoned, the work of its architects has borne disastrous fruit. The planet is not waiting for them, pristine and unoccupied. New masters have turned it from a refuge into mankind's worst nightmare.<br /><br />Now two civilizations are on a collision course, both testing the boundaries of what they will do to survive. As the fate of humanity hangs in the balance, who are the true heirs of this new Earth?"
+          },
+          "book": {
+            "_attributes": {
+              "id": "25499718"
+            },
+            "num_pages": {
+              "_text": "600"
+            }
+          },
+          "author_name": {
+            "_text": "Adrian Tchaikovsky"
+          },
+          "isbn": {
+            "_text": "1447273281"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Fri, 24 Sep 2021 23:56:22 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Sat, 10 Jul 2021 18:41:03 -0700"
+          },
+          "user_shelves": {
+            "_text": "currently-reading"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.23"
+          },
+          "book_published": {
+            "_text": "2015"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/25499718-children-of-time?utm_medium=api&amp;utm_source=rss\"><img alt=\"Children of Time (Children of Time, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1431014197l/25499718._SY75_.jpg\" /></a><br/>\n                                      author: Adrian Tchaikovsky<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.23<br/>\n                                      book published: 2015<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/09/24<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4255835778?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Fri, 24 Sep 2021 23:48:25 -0700"
+          },
+          "title": {
+            "_cdata": "American Happiness and Discontents: The Unruly Torrent, 2008-2020"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4255835778?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "57094553"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1616698413l/57094553._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1616698413l/57094553._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1616698413l/57094553._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1616698413l/57094553.jpg"
+          },
+          "book_description": {
+            "_cdata": "<b>Examine the ways in which expertise, reason, and manners are continually under attack in our institutions, courts, political arenas, and social venues with this collection from the Pulitzer Prize-winning conservative columnist.</b><br /> <br />George F. Will has been one of this country’s leading columnists since 1974. He won the Pulitzer Prize for it in 1977. The <i>Wall Street Journal</i> once called him “perhaps the most powerful journalist in America.” In this new collection, he examines a remarkably unsettling thirteen years in our nation’s experience, from 2008 to 2020. Included are a number of columns about court cases, mostly from the Supreme Court, that illuminate why the composition of the federal judiciary has become such a contentious subject.<br /> <br />Other topics addressed include the American Revolutionary War, historical figures from Frederick Douglass to JFK, as well as a scathing assessment of how State of the Union Addresses are delivered in the modern day. Mr. Will also offers his perspective on American socialists, anti-capitalist conservatives, drug policy, the criminal justice system, climatology, the Coronavirus, the First Amendment, parenting, meritocracy and education, China, fascism, authoritarianism, Frank Sinatra, Bob Dylan, The Beach Boys, and the morality of enjoying football. <i>American <i>Happiness and Discontents: The Unruly Torrent, 2008-2020 </i></i>is a collection packed with wisdom and leavened by humor from one the preeminent columnists and intellectuals of our time."
+          },
+          "book": {
+            "_attributes": {
+              "id": "57094553"
+            },
+            "num_pages": {
+              "_text": "528"
+            }
+          },
+          "author_name": {
+            "_text": "George F. Will"
+          },
+          "isbn": {
+            "_text": "0306924412"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Fri, 24 Sep 2021 23:48:25 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Fri, 24 Sep 2021 23:48:07 -0700"
+          },
+          "user_shelves": {
+            "_text": "on-deck"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.50"
+          },
+          "book_published": {},
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/57094553-american-happiness-and-discontents?utm_medium=api&amp;utm_source=rss\"><img alt=\"American Happiness and Discontents: The Unruly Torrent, 2008-2020\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1616698413l/57094553._SY75_.jpg\" /></a><br/>\n                                      author: George F. Will<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.50<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/09/24<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4255835335?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Fri, 24 Sep 2021 23:47:29 -0700"
+          },
+          "title": {
+            "_text": "Men at Work"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4255835335?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "77772"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442343327l/77772._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442343327l/77772._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442343327l/77772._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442343327l/77772._SY475_.jpg"
+          },
+          "book_description": {
+            "_text": "Sports Research Baseball"
+          },
+          "book": {
+            "_attributes": {
+              "id": "77772"
+            },
+            "num_pages": {
+              "_text": "384"
+            }
+          },
+          "author_name": {
+            "_text": "George F. Will"
+          },
+          "isbn": {
+            "_text": "0060973722"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Fri, 24 Sep 2021 23:47:29 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Fri, 24 Sep 2021 23:47:29 -0700"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.91"
+          },
+          "book_published": {
+            "_text": "1990"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/77772.Men_at_Work?utm_medium=api&amp;utm_source=rss\"><img alt=\"Men at Work\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442343327l/77772._SY75_.jpg\" /></a><br/>\n                                      author: George F. Will<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.91<br/>\n                                      book published: 1990<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/09/24<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/4229338024?utm_medium=api&utm_source=rss"
@@ -4506,78 +4790,6 @@
         },
         {
           "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/4106982733?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sat, 10 Jul 2021 18:41:04 -0700"
-          },
-          "title": {
-            "_cdata": "Children of Time (Children of Time, #1)"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/4106982733?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "25499718"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1431014197l/25499718._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1431014197l/25499718._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1431014197l/25499718._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1431014197l/25499718.jpg"
-          },
-          "book_description": {
-            "_cdata": "A race for survival among the stars... Humanity's last survivors escaped earth's ruins to find a new home. But when they find it, can their desperation overcome its dangers?<br /><br />WHO WILL INHERIT THIS NEW EARTH?<br /><br />The last remnants of the human race left a dying Earth, desperate to find a new home among the stars. Following in the footsteps of their ancestors, they discover the greatest treasure of the past age—a world terraformed and prepared for human life.<br /><br />But all is not right in this new Eden. In the long years since the planet was abandoned, the work of its architects has borne disastrous fruit. The planet is not waiting for them, pristine and unoccupied. New masters have turned it from a refuge into mankind's worst nightmare.<br /><br />Now two civilizations are on a collision course, both testing the boundaries of what they will do to survive. As the fate of humanity hangs in the balance, who are the true heirs of this new Earth?"
-          },
-          "book": {
-            "_attributes": {
-              "id": "25499718"
-            },
-            "num_pages": {
-              "_text": "600"
-            }
-          },
-          "author_name": {
-            "_text": "Adrian Tchaikovsky"
-          },
-          "isbn": {
-            "_text": "1447273281"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Sat, 10 Jul 2021 18:41:04 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Sat, 10 Jul 2021 18:41:03 -0700"
-          },
-          "user_shelves": {
-            "_text": "on-deck"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.23"
-          },
-          "book_published": {
-            "_text": "2015"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/25499718-children-of-time?utm_medium=api&amp;utm_source=rss\"><img alt=\"Children of Time (Children of Time, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1431014197l/25499718._SY75_.jpg\" /></a><br/>\n                                      author: Adrian Tchaikovsky<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.23<br/>\n                                      book published: 2015<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/07/10<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
             "_cdata": "https://www.goodreads.com/review/show/4106894126?utm_medium=api&utm_source=rss"
           },
           "pubDate": {
@@ -7010,222 +7222,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/11987.The_Myth_of_Sisyphus_and_Other_Essays?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Myth of Sisyphus and Other Essays\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1533718219l/11987._SY75_.jpg\" /></a><br/>\n                                      author: Albert Camus<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.21<br/>\n                                      book published: 1942<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/05/21<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3900726815?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Fri, 21 May 2021 00:59:54 -0700"
-          },
-          "title": {
-            "_text": "I, Robot (Robot, #0.1)"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3900726815?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "41804"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1609035271l/41804._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1609035271l/41804._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1609035271l/41804._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1609035271l/41804.jpg"
-          },
-          "book_description": {
-            "_cdata": "Isaac Asimov's I, Robot launches readers on an adventure into a not-so-distant future where man and machine , struggle to redefinelife, love, and consciousness—and where the stakes are nothing less than survival. Filled with unforgettable characters, mind-bending speculation, and nonstop action, I, Robot is a powerful reading experience from one of the master storytellers of our time. <br /><br />I, ROBOT <br /><br />They mustn't harm a human being, they must obey hitman orders, and they must protect their own existence...but only so long as that doesn't violate rules one and two. With these Three Laws of Robotics, humanity embarked on perhaps its greatest adventure: the invention of the first positronic man. It was a bold new era of evolution that would open up enormous possibilities—and unforeseen risks. For the scientists who invented the earliest robots weren't content that their creations should ' remain programmed helpers, companions, and semisentient worker-machines. And soon the robots themselves; aware of their own intelligence, power, and humanity, aren't either. <br /><br />As humans and robots struggle to survive together—and sometimes against each other—on earth and in space, the future of both hangs in the balance. Human men and women confront robots gone mad, telepathic robots, robot politicians, and vast robotic intelligences that may already secretly control the world. And both are asking the same questions: What is human? And is humanity obsolete? <br /><br />In l, Robot Isaac Asimov changes forever our perception of robots, and human beings and updates the timeless myth of man's dream to play god. with all its rewards—and terrors.<br />--front flap"
-          },
-          "book": {
-            "_attributes": {
-              "id": "41804"
-            },
-            "num_pages": {
-              "_text": "224"
-            }
-          },
-          "author_name": {
-            "_text": "Isaac Asimov"
-          },
-          "isbn": {
-            "_text": "0553803700"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "4"
-          },
-          "user_read_at": {
-            "_cdata": "Fri, 21 May 2021 00:59:54 -0700"
-          },
-          "user_date_added": {
-            "_cdata": "Fri, 21 May 2021 00:59:54 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Sat, 20 Mar 2021 20:45:45 -0700"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.21"
-          },
-          "book_published": {
-            "_text": "1950"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/41804.I_Robot?utm_medium=api&amp;utm_source=rss\"><img alt=\"I, Robot (Robot, #0.1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1609035271l/41804._SY75_.jpg\" /></a><br/>\n                                      author: Isaac Asimov<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.21<br/>\n                                      book published: 1950<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/05/21<br/>\n                                      date added: 2021/05/21<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/4012662192?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Thu, 20 May 2021 15:03:31 -0700"
-          },
-          "title": {
-            "_cdata": "The Thousand Autumns of Jacob de Zoet"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/4012662192?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "7141642"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320540908l/7141642._SX50_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320540908l/7141642._SX50_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320540908l/7141642._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320540908l/7141642.jpg"
-          },
-          "book_description": {
-            "_cdata": "The year is 1799, the place Dejima in Nagasaki Harbor, the “high-walled, fan-shaped artificial island” that is the Japanese Empire’s single port and sole window onto the world, designed to keep the West at bay; the farthest outpost of the war-ravaged Dutch East Indies Company; and a de facto prison for the dozen foreigners permitted to live and work there. To this place of devious merchants, deceitful interpreters, costly courtesans, earthquakes, and typhoons comes Jacob de Zoet, a devout and resourceful young clerk who has five years in the East to earn a fortune of sufficient size to win the hand of his wealthy fiancée back in Holland.<br /><br />But Jacob’s original intentions are eclipsed after a chance encounter with Orito Aibagawa, the disfigured daughter of a samurai doctor and midwife to the city’s powerful magistrate. The borders between propriety, profit, and pleasure blur until Jacob finds his vision clouded, one rash promise made and then fatefully broken. The consequences will extend beyond Jacob’s worst imaginings. As one cynical colleague asks, “Who ain’t a gambler in the glorious Orient, with his very life?”<br /><br />A magnificent mix of luminous writing, prodigious research, and heedless imagination, <i>The Thousand Autumns of Jacob de Zoet</i> is the most impressive achievement of its eminent author."
-          },
-          "book": {
-            "_attributes": {
-              "id": "7141642"
-            },
-            "num_pages": {
-              "_text": "479"
-            }
-          },
-          "author_name": {
-            "_text": "David Mitchell"
-          },
-          "isbn": {
-            "_text": "1400065453"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Thu, 20 May 2021 15:03:31 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Thu, 20 May 2021 15:02:45 -0700"
-          },
-          "user_shelves": {
-            "_text": "on-deck"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "3.94"
-          },
-          "book_published": {
-            "_text": "2010"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/7141642-the-thousand-autumns-of-jacob-de-zoet?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Thousand Autumns of Jacob de Zoet\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320540908l/7141642._SX50_.jpg\" /></a><br/>\n                                      author: David Mitchell<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.94<br/>\n                                      book published: 2010<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/05/20<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/4012660398?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Thu, 20 May 2021 15:02:44 -0700"
-          },
-          "title": {
-            "_text": "The Bone Clocks"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/4012660398?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "20819685"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1398205538l/20819685._SX50_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1398205538l/20819685._SX50_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1398205538l/20819685._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1398205538l/20819685.jpg"
-          },
-          "book_description": {
-            "_cdata": "Following a scalding row with her mother, fifteen-year-old Holly Sykes slams the door on her old life. But Holly is no typical teenage runaway: a sensitive child once contacted by voices she knew only as “the radio people,” Holly is a lightning rod for psychic phenomena. Now, as she wanders deeper into the English countryside, visions and coincidences reorder her reality until they assume the aura of a nightmare brought to life.<br /><br />For Holly has caught the attention of a cabal of dangerous mystics—and their enemies. But her lost weekend is merely the prelude to a shocking disappearance that leaves her family irrevocably scarred. This unsolved mystery will echo through every decade of Holly’s life, affecting all the people Holly loves—even the ones who are not yet born.<br /><br />A Cambridge scholarship boy grooming himself for wealth and influence, a conflicted father who feels alive only while reporting from occupied Iraq, a middle-aged writer mourning his exile from the bestseller list—all have a part to play in this surreal, invisible war on the margins of our world. From the medieval Swiss Alps to the nineteenth-century Australian bush, from a hotel in Shanghai to a Manhattan townhouse in the near future, their stories come together in moments of everyday grace and extraordinary wonder."
-          },
-          "book": {
-            "_attributes": {
-              "id": "20819685"
-            },
-            "num_pages": {
-              "_text": "624"
-            }
-          },
-          "author_name": {
-            "_text": "David Mitchell"
-          },
-          "isbn": {
-            "_text": "1400065674"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Thu, 20 May 2021 15:02:44 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Thu, 20 May 2021 15:01:34 -0700"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "3.80"
-          },
-          "book_published": {
-            "_text": "2014"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/20819685-the-bone-clocks?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Bone Clocks\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1398205538l/20819685._SX50_.jpg\" /></a><br/>\n                                      author: David Mitchell<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.80<br/>\n                                      book published: 2014<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/05/20<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]
