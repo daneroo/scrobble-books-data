@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Fri, 24 Sep 2021 23:57:20 -0700"
+        "_text": "Sat, 25 Sep 2021 13:21:58 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,150 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4256683427?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sat, 25 Sep 2021 13:21:58 -0700"
+          },
+          "title": {
+            "_cdata": "Knots and Crosses (Inspector Rebus, #1)"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4256683427?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "634407"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388781809l/634407._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388781809l/634407._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388781809l/634407._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388781809l/634407.jpg"
+          },
+          "book_description": {
+            "_cdata": "Detective John Rebus: His city is being terrorized by a baffling series of murders...and he's tied to a maniac by an invisible knot of blood. Once John Rebus served in Britain's elite SAS. Now he's an Edinburgh cop who hides from his memories, misses promotions and ignores a series of crank letters. But as the ghoulish killings mount and the tabloid headlines scream, Rebus cannot stop the feverish shrieks from within his own mind. Because he isn't just one cop trying to catch a killer, he's the man who's got all the pieces to the puzzle... <br /><br /><i>Knots and Crosses</i> introduces a gifted mystery novelist, a fascinating locale and the most compellingly complex detective hero at work today.<br />"
+          },
+          "book": {
+            "_attributes": {
+              "id": "634407"
+            },
+            "num_pages": {
+              "_text": "228"
+            }
+          },
+          "author_name": {
+            "_text": "Ian Rankin"
+          },
+          "isbn": {
+            "_text": "0312956738"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Sat, 25 Sep 2021 13:21:58 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Sat, 25 Sep 2021 13:21:58 -0700"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.87"
+          },
+          "book_published": {
+            "_text": "1987"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/634407.Knots_and_Crosses?utm_medium=api&amp;utm_source=rss\"><img alt=\"Knots and Crosses (Inspector Rebus, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388781809l/634407._SY75_.jpg\" /></a><br/>\n                                      author: Ian Rankin<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.87<br/>\n                                      book published: 1987<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/09/25<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4256674055?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sat, 25 Sep 2021 13:14:39 -0700"
+          },
+          "title": {
+            "_cdata": "The Princes of Ireland (The Dublin Saga, #1)"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4256674055?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "28867"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1463409215l/28867._SX50_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1463409215l/28867._SX50_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1463409215l/28867._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1463409215l/28867._SY475_.jpg"
+          },
+          "book_description": {
+            "_cdata": "Brilliantly weaving impeccable historical research with stirring storytelling, Edward Rutherfurd explores our shared Celtic roots in a magnificent epic of Ireland spanning eleven centuries. While vividly conveying the passions and struggles that shaped particularly the character of Dublin, Rutherfurd portrays the major events in Irish history: the tribal culture of pagan Ireland; the mission of Saint Patrick; the coming of the Vikings; the making of treasures like the Book of Kells; and the tricks of Henry II, which gave England its first foothold in medieval Ireland. Through the interlocking stories of a memorable cast of characters–druids and chieftains, monks and smugglers, noblewomen and farmwives, laborers and orphans, rebels and cowards–Rutherfurd captures the essence of a place and its people in a thrilling story steeped in the tragedy and glory that are Ireland."
+          },
+          "book": {
+            "_attributes": {
+              "id": "28867"
+            },
+            "num_pages": {
+              "_text": "778"
+            }
+          },
+          "author_name": {
+            "_text": "Edward Rutherfurd"
+          },
+          "isbn": {
+            "_text": "0345472357"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Sat, 25 Sep 2021 13:14:39 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Sat, 25 Sep 2021 13:14:39 -0700"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.84"
+          },
+          "book_published": {
+            "_text": "2004"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/28867.The_Princes_of_Ireland?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Princes of Ireland (The Dublin Saga, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1463409215l/28867._SX50_.jpg\" /></a><br/>\n                                      author: Edward Rutherfurd<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.84<br/>\n                                      book published: 2004<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/09/25<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/4255842317?utm_medium=api&utm_source=rss"
@@ -7080,148 +7224,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/463376.The_Claw_of_the_Conciliator?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Claw of the Conciliator (The Book of the New Sun, #2)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1332036282l/463376._SY75_.jpg\" /></a><br/>\n                                      author: Gene Wolfe<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.00<br/>\n                                      book published: 1981<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/05/23<br/>\n                                      date added: 2021/05/23<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/4016577848?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sun, 23 May 2021 00:44:09 -0700"
-          },
-          "title": {
-            "_cdata": "Monkey: The Journey to the West"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/4016577848?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "100237"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347431752l/100237._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347431752l/100237._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347431752l/100237._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347431752l/100237.jpg"
-          },
-          "book_description": {
-            "_cdata": "<p>Probably the most popular book in the history of the Far East, this classic sixteenth century novel is a combination of picaresque novel and folk epic that mixes satire, allegory, and history into a rollicking adventure. It is the story of the roguish Monkey and his encounters with major and minor spirits, gods, demigods, demons, ogres, monsters, and fairies. This translation, by the distinguished scholar Arthur Waley, is the first accurate English version; it makes available to the Western reader a faithful reproduction of the spirit and meaning of the original.</p>"
-          },
-          "book": {
-            "_attributes": {
-              "id": "100237"
-            },
-            "num_pages": {
-              "_text": "306"
-            }
-          },
-          "author_name": {
-            "_text": "Wu Cheng'en"
-          },
-          "isbn": {
-            "_text": "0802130860"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Sun, 23 May 2021 00:44:09 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Sun, 23 May 2021 00:44:09 -0700"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.06"
-          },
-          "book_published": {
-            "_text": "1592"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/100237.Monkey?utm_medium=api&amp;utm_source=rss\"><img alt=\"Monkey: The Journey to the West\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347431752l/100237._SY75_.jpg\" /></a><br/>\n                                      author: Wu Cheng'en<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.06<br/>\n                                      book published: 1592<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/05/23<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/4013350211?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Fri, 21 May 2021 01:04:11 -0700"
-          },
-          "title": {
-            "_cdata": "The Myth of Sisyphus and Other Essays"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/4013350211?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "11987"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1533718219l/11987._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1533718219l/11987._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1533718219l/11987._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1533718219l/11987.jpg"
-          },
-          "book_description": {
-            "_cdata": "One of the most influential works of this century, this is a crucial exposition of existentialist thought. Influenced by works such as Don Juan, and the novels of Kafka, these essays begin with a meditation on suicide: the question of living or not living in an absurd universe devoid of order or meaning. With lyric eloquence, Camus posits a way out of despair, reaffirming the value of personal existence, and the possibility of life lived with dignity and authenticity."
-          },
-          "book": {
-            "_attributes": {
-              "id": "11987"
-            },
-            "num_pages": {
-              "_text": "212"
-            }
-          },
-          "author_name": {
-            "_text": "Albert Camus"
-          },
-          "isbn": {},
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Fri, 21 May 2021 01:04:11 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Fri, 21 May 2021 01:04:11 -0700"
-          },
-          "user_shelves": {
-            "_text": "on-deck"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.21"
-          },
-          "book_published": {
-            "_text": "1942"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/11987.The_Myth_of_Sisyphus_and_Other_Essays?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Myth of Sisyphus and Other Essays\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1533718219l/11987._SY75_.jpg\" /></a><br/>\n                                      author: Albert Camus<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.21<br/>\n                                      book published: 1942<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/05/21<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

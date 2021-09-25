@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Fri, 21 May 2021 00:59:54 -0700"
+        "_text": "Sun, 23 May 2021 00:44:09 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,148 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4016577848?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sun, 23 May 2021 00:44:09 -0700"
+          },
+          "title": {
+            "_cdata": "Monkey: The Journey to the West"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4016577848?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "100237"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347431752l/100237._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347431752l/100237._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347431752l/100237._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347431752l/100237.jpg"
+          },
+          "book_description": {
+            "_cdata": "<p>Probably the most popular book in the history of the Far East, this classic sixteenth century novel is a combination of picaresque novel and folk epic that mixes satire, allegory, and history into a rollicking adventure. It is the story of the roguish Monkey and his encounters with major and minor spirits, gods, demigods, demons, ogres, monsters, and fairies. This translation, by the distinguished scholar Arthur Waley, is the first accurate English version; it makes available to the Western reader a faithful reproduction of the spirit and meaning of the original.</p>"
+          },
+          "book": {
+            "_attributes": {
+              "id": "100237"
+            },
+            "num_pages": {
+              "_text": "306"
+            }
+          },
+          "author_name": {
+            "_text": "Wu Cheng'en"
+          },
+          "isbn": {
+            "_text": "0802130860"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Sun, 23 May 2021 00:44:09 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Sun, 23 May 2021 00:44:09 -0700"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.06"
+          },
+          "book_published": {
+            "_text": "1592"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/100237.Monkey?utm_medium=api&amp;utm_source=rss\"><img alt=\"Monkey: The Journey to the West\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347431752l/100237._SY75_.jpg\" /></a><br/>\n                                      author: Wu Cheng'en<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.06<br/>\n                                      book published: 1592<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/05/23<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4013350211?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Fri, 21 May 2021 01:04:11 -0700"
+          },
+          "title": {
+            "_cdata": "The Myth of Sisyphus and Other Essays"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4013350211?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "11987"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1533718219l/11987._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1533718219l/11987._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1533718219l/11987._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1533718219l/11987.jpg"
+          },
+          "book_description": {
+            "_cdata": "One of the most influential works of this century, this is a crucial exposition of existentialist thought. Influenced by works such as Don Juan, and the novels of Kafka, these essays begin with a meditation on suicide: the question of living or not living in an absurd universe devoid of order or meaning. With lyric eloquence, Camus posits a way out of despair, reaffirming the value of personal existence, and the possibility of life lived with dignity and authenticity."
+          },
+          "book": {
+            "_attributes": {
+              "id": "11987"
+            },
+            "num_pages": {
+              "_text": "212"
+            }
+          },
+          "author_name": {
+            "_text": "Albert Camus"
+          },
+          "isbn": {},
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Fri, 21 May 2021 01:04:11 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Fri, 21 May 2021 01:04:11 -0700"
+          },
+          "user_shelves": {
+            "_text": "on-deck"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.21"
+          },
+          "book_published": {
+            "_text": "1942"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/11987.The_Myth_of_Sisyphus_and_Other_Essays?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Myth of Sisyphus and Other Essays\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1533718219l/11987._SY75_.jpg\" /></a><br/>\n                                      author: Albert Camus<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.21<br/>\n                                      book published: 1942<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/05/21<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/3900726815?utm_medium=api&utm_source=rss"
@@ -7080,150 +7222,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/13525945-so-good-they-can-t-ignore-you?utm_medium=api&amp;utm_source=rss\"><img alt=\"So Good They Can&#39;t Ignore You: Why Skills Trump Passion in the Quest for Work You Love\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1360564614l/13525945._SY75_.jpg\" /></a><br/>\n                                      author: Cal Newport<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.05<br/>\n                                      book published: 2012<br/>\n                                      rating: 3<br/>\n                                      read at: 2021/01/18<br/>\n                                      date added: 2021/01/18<br/>\n                                      shelves: <br/>\n                                      review: <br/>Some good ideas. A bit too anecdotal, for my taste.<br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3624455585?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sun, 17 Jan 2021 13:45:00 -0800"
-          },
-          "title": {
-            "_cdata": "Every Tool's a Hammer: Life Is What You Make It"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3624455585?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "43319933"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1555856209l/43319933._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1555856209l/43319933._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1555856209l/43319933._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1555856209l/43319933._SY475_.jpg"
-          },
-          "book_description": {
-            "_cdata": "<b>In this <i>New York Times</i> bestselling “imperative how-to for creativity” (Nick Offerman), Adam Savage—</b><b>star of Discovery Channel’s <i>Mythbusters</i>—shares his golden rules of creativity, from finding inspiration to following through and successfully making your idea a reality.</b><br /><br /><i>Every Tool</i>’<i>s a Hammer </i>is a chronicle of my life as a maker. It’s an exploration of making, but it’s also a permission slip of sorts from me to you. Permission to grab hold of the things you’re interested in, that fascinate you, and to dive deeper into them to see where they lead you.<br /> <br />Through stories from forty-plus years of making and molding, building and break­ing, along with the lessons I learned along the way, this book is meant to be a toolbox of problem solving, complete with a shop’s worth of notes on the tools, techniques, and materials that I use most often. Things like: <b>In Every Tool There Is a Hammer</b>—don’t wait until everything is perfect to begin a project, and if you don’t have the exact right tool for a task, just use whatever’s handy; <b>Increase Your Loose Tolerance</b>—making is messy and filled with screwups, but that’s okay, as creativity is a path with twists and turns and not a straight line to be found; <b>Use More Cooling Fluid</b>—it prolongs the life of blades and bits, and it prevents tool failure, but beyond that it’s a reminder to slow down and reduce the fric­tion in your work and relationships; <b>Screw Before You Glue</b>—mechanical fasteners allow you to change and modify a project while glue is forever but sometimes you just need the right glue, so I dig into which ones will do the job with the least harm and best effects.<br /> <br />This toolbox also includes lessons from many other incredible makers and creators, including: Jamie Hyneman, Nick Offerman, Pixar director Andrew Stanton, Oscar-winner Guillermo del Toro, artist Tom Sachs, and chef Traci Des Jardins. And if everything goes well, we will hopefully save you a few mistakes (and maybe fingers) as well as help you turn your curiosities into creations.<br /> <br />I hope this book serves as “creative rocket fuel” (Ed Helms) to build, make, invent, explore, and—most of all—enjoy the thrills of being a creator."
-          },
-          "book": {
-            "_attributes": {
-              "id": "43319933"
-            },
-            "num_pages": {
-              "_text": "320"
-            }
-          },
-          "author_name": {
-            "_text": "Adam Savage"
-          },
-          "isbn": {
-            "_text": "1982113499"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Sun, 17 Jan 2021 13:45:00 -0800"
-          },
-          "user_date_created": {
-            "_cdata": "Sun, 01 Nov 2020 15:46:44 -0800"
-          },
-          "user_shelves": {
-            "_text": "on-deck"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.10"
-          },
-          "book_published": {
-            "_text": "2019"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/43319933-every-tool-s-a-hammer?utm_medium=api&amp;utm_source=rss\"><img alt=\"Every Tool&#39;s a Hammer: Life Is What You Make It\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1555856209l/43319933._SY75_.jpg\" /></a><br/>\n                                      author: Adam Savage<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.10<br/>\n                                      book published: 2019<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/01/17<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3736319533?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sun, 17 Jan 2021 12:49:10 -0800"
-          },
-          "title": {
-            "_cdata": "Anxious: Using the Brain to Understand and Treat Fear and Anxiety"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3736319533?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "23398722"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1414348423l/23398722._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1414348423l/23398722._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1414348423l/23398722._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1414348423l/23398722.jpg"
-          },
-          "book_description": {
-            "_cdata": "<b><b>“[<i>Anxious</i>] helps to explain and prevent the kinds of debilitating anxieties all of us face in this increasingly stressful world.” —Daniel J. Levitin, author of <i>The Organized Mind</i> and <i>This Is Your Brain On Music</i></b><br /><br />A comprehensive and accessible exploration of anxiety, from a leading neuroscientist and the author of <i>Synaptic Self</i></b><br /><br />Collectively, anxiety disorders are our most prevalent psychiatric problem, affecting about forty million adults in the United States. In <i>Anxious</i>, Joseph LeDoux, whose NYU lab has been at the forefront of research efforts to understand and treat fear and anxiety, explains the range of these disorders, their origins, and discoveries that can restore sufferers to normalcy.<br /><br />LeDoux’s groundbreaking premise is that we’ve been thinking about fear and anxiety in the wrong way. These are not innate states waiting to be unleashed from the brain, but experiences that we assemble cognitively. Treatment of these problems must address both their conscious manifestations and underlying non-conscious processes. While knowledge about how the brain works will help us discover new drugs, LeDoux argues that the greatest breakthroughs may come from using brain research to help reshape psychotherapy.<br /><br />A major work on our most pressing mental health issue, <i>Anxious </i>explains the science behind fear and anxiety disorders."
-          },
-          "book": {
-            "_attributes": {
-              "id": "23398722"
-            },
-            "num_pages": {
-              "_text": "480"
-            }
-          },
-          "author_name": {
-            "_text": "Joseph E. LeDoux"
-          },
-          "isbn": {
-            "_text": "0670015334"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "3"
-          },
-          "user_read_at": {
-            "_cdata": "Sun, 17 Jan 2021 12:49:10 -0800"
-          },
-          "user_date_added": {
-            "_cdata": "Sun, 17 Jan 2021 12:49:10 -0800"
-          },
-          "user_date_created": {
-            "_cdata": "Fri, 01 Jan 2021 19:40:25 -0800"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "3.43"
-          },
-          "book_published": {
-            "_text": "2015"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/23398722-anxious?utm_medium=api&amp;utm_source=rss\"><img alt=\"Anxious: Using the Brain to Understand and Treat Fear and Anxiety\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1414348423l/23398722._SY75_.jpg\" /></a><br/>\n                                      author: Joseph E. LeDoux<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.43<br/>\n                                      book published: 2015<br/>\n                                      rating: 3<br/>\n                                      read at: 2021/01/17<br/>\n                                      date added: 2021/01/17<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]
