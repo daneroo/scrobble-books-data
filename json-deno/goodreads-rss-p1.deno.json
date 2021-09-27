@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Mon, 27 Sep 2021 01:11:57 -0700"
+        "_text": "Mon, 27 Sep 2021 14:37:05 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,76 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4215397049?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Mon, 27 Sep 2021 14:37:05 -0700"
+          },
+          "title": {
+            "_cdata": "Accelerate: Building and Scaling High-Performing Technology Organizations"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4215397049?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "35747076"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1520615948l/35747076._SX50_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1520615948l/35747076._SX50_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1520615948l/35747076._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1520615948l/35747076._SY475_.jpg"
+          },
+          "book_description": {
+            "_cdata": "Does technology actually matter? And how can we apply technology to drive business value? For years, we've been told that the performance of software delivery teams doesn't matter—that it can't provide a competitive advantage to our companies. Through four years of groundbreaking research, Dr. Nicole Forsgren, Jez Humble, and Gene Kim set out to find a way to measure software delivery performance—and what drives it—using rigorous statistical methods. This book presents both the findings and the science behind that research. Readers will discover how to measure the performance of their teams, and what capabilities they should invest in to drive higher performance."
+          },
+          "book": {
+            "_attributes": {
+              "id": "35747076"
+            },
+            "num_pages": {
+              "_text": "257"
+            }
+          },
+          "author_name": {
+            "_text": "Nicole Forsgren"
+          },
+          "isbn": {
+            "_text": "1942788339"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "5"
+          },
+          "user_read_at": {
+            "_cdata": "Mon, 27 Sep 2021 14:37:05 -0700"
+          },
+          "user_date_added": {
+            "_cdata": "Mon, 27 Sep 2021 14:37:05 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Thu, 02 Sep 2021 15:04:13 -0700"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.06"
+          },
+          "book_published": {},
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/35747076-accelerate?utm_medium=api&amp;utm_source=rss\"><img alt=\"Accelerate: Building and Scaling High-Performing Technology Organizations\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1520615948l/35747076._SX50_.jpg\" /></a><br/>\n                                      author: Nicole Forsgren<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.06<br/>\n                                      book published: <br/>\n                                      rating: 5<br/>\n                                      read at: 2021/09/27<br/>\n                                      date added: 2021/09/27<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/4106982733?utm_medium=api&utm_source=rss"
@@ -634,76 +704,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/18885.Mistress_of_Magic?utm_medium=api&amp;utm_source=rss\"><img alt=\"Mistress of Magic (The Mists of Avalon, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1374426748l/18885._SX50_.jpg\" /></a><br/>\n                                      author: Marion Zimmer Bradley<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.88<br/>\n                                      book published: 1982<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/09/24<br/>\n                                      date added: 2021/09/24<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/4215397049?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Thu, 23 Sep 2021 02:37:15 -0700"
-          },
-          "title": {
-            "_cdata": "Accelerate: Building and Scaling High-Performing Technology Organizations"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/4215397049?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "35747076"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1520615948l/35747076._SX50_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1520615948l/35747076._SX50_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1520615948l/35747076._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1520615948l/35747076._SY475_.jpg"
-          },
-          "book_description": {
-            "_cdata": "Does technology actually matter? And how can we apply technology to drive business value? For years, we've been told that the performance of software delivery teams doesn't matter—that it can't provide a competitive advantage to our companies. Through four years of groundbreaking research, Dr. Nicole Forsgren, Jez Humble, and Gene Kim set out to find a way to measure software delivery performance—and what drives it—using rigorous statistical methods. This book presents both the findings and the science behind that research. Readers will discover how to measure the performance of their teams, and what capabilities they should invest in to drive higher performance."
-          },
-          "book": {
-            "_attributes": {
-              "id": "35747076"
-            },
-            "num_pages": {
-              "_text": "257"
-            }
-          },
-          "author_name": {
-            "_text": "Nicole Forsgren"
-          },
-          "isbn": {
-            "_text": "1942788339"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Thu, 23 Sep 2021 02:37:15 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Thu, 02 Sep 2021 15:04:13 -0700"
-          },
-          "user_shelves": {
-            "_text": "currently-reading"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.06"
-          },
-          "book_published": {},
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/35747076-accelerate?utm_medium=api&amp;utm_source=rss\"><img alt=\"Accelerate: Building and Scaling High-Performing Technology Organizations\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1520615948l/35747076._SX50_.jpg\" /></a><br/>\n                                      author: Nicole Forsgren<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.06<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/09/23<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>\n                                      "
           }
         },
         {
