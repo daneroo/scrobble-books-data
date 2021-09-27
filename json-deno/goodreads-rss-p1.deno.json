@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Sat, 25 Sep 2021 23:54:01 -0700"
+        "_text": "Sun, 26 Sep 2021 20:19:50 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4247245324?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sun, 26 Sep 2021 20:19:50 -0700"
+          },
+          "title": {
+            "_cdata": "1066 and All That: A Memorable History of England"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4247245324?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "825889"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1613657910l/825889._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1613657910l/825889._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1613657910l/825889._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1613657910l/825889._SY475_.jpg"
+          },
+          "book_description": {
+            "_cdata": "<b>One of the most well-loved and best-selling British humor titles of all time </b><br /><br /><i>\"Canute began by being a Bad King on the advice of his Courtiers, who informed him (owing to a misunderstanding of the Rule Britannia) that the King of England was entitled to sit on the sea without getting wet.\" </i><br /><br />This humorous \"history\" is a book that has itself become part of the UK's history. The authors made the claim that \"All the History you can remember is in the Book,\" and, for most Brits, they were probably right. But it is their own unique interpretation of events that has made the book a classic; an uproarious satire on textbook history and a population's confused recollections of it."
+          },
+          "book": {
+            "_attributes": {
+              "id": "825889"
+            },
+            "num_pages": {
+              "_text": "115"
+            }
+          },
+          "author_name": {
+            "_text": "W.C. Sellar"
+          },
+          "isbn": {
+            "_text": "0413772705"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Sun, 26 Sep 2021 20:19:50 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Sun, 19 Sep 2021 20:21:38 -0700"
+          },
+          "user_shelves": {
+            "_text": "currently-reading"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.00"
+          },
+          "book_published": {
+            "_text": "1930"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/825889.1066_and_All_That?utm_medium=api&amp;utm_source=rss\"><img alt=\"1066 and All That: A Memorable History of England\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1613657910l/825889._SY75_.jpg\" /></a><br/>\n                                      author: W.C. Sellar<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.00<br/>\n                                      book published: 1930<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/09/26<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/4106982733?utm_medium=api&utm_source=rss"
@@ -1062,78 +1134,6 @@
           "book_published": {},
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/42794188-1066-and-before-all-that?utm_medium=api&amp;utm_source=rss\"><img alt=\"1066 and Before All That: The Battle of Hastings, Anglo-Saxon and Norman England\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1542981945l/42794188._SX50_.jpg\" /></a><br/>\n                                      author: Ed West<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.75<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/09/19<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/4247245324?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sun, 19 Sep 2021 20:21:39 -0700"
-          },
-          "title": {
-            "_cdata": "1066 and All That: A Memorable History of England"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/4247245324?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "825889"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1613657910l/825889._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1613657910l/825889._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1613657910l/825889._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1613657910l/825889._SY475_.jpg"
-          },
-          "book_description": {
-            "_cdata": "<b>One of the most well-loved and best-selling British humor titles of all time </b><br /><br /><i>\"Canute began by being a Bad King on the advice of his Courtiers, who informed him (owing to a misunderstanding of the Rule Britannia) that the King of England was entitled to sit on the sea without getting wet.\" </i><br /><br />This humorous \"history\" is a book that has itself become part of the UK's history. The authors made the claim that \"All the History you can remember is in the Book,\" and, for most Brits, they were probably right. But it is their own unique interpretation of events that has made the book a classic; an uproarious satire on textbook history and a population's confused recollections of it."
-          },
-          "book": {
-            "_attributes": {
-              "id": "825889"
-            },
-            "num_pages": {
-              "_text": "115"
-            }
-          },
-          "author_name": {
-            "_text": "W.C. Sellar"
-          },
-          "isbn": {
-            "_text": "0413772705"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Sun, 19 Sep 2021 20:21:39 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Sun, 19 Sep 2021 20:21:38 -0700"
-          },
-          "user_shelves": {
-            "_text": "on-deck"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.00"
-          },
-          "book_published": {
-            "_text": "1930"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/825889.1066_and_All_That?utm_medium=api&amp;utm_source=rss\"><img alt=\"1066 and All That: A Memorable History of England\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1613657910l/825889._SY75_.jpg\" /></a><br/>\n                                      author: W.C. Sellar<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.00<br/>\n                                      book published: 1930<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/09/19<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
           }
         },
         {
