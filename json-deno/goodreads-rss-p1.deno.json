@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Mon, 27 Sep 2021 14:37:05 -0700"
+        "_text": "Tue, 28 Sep 2021 00:48:25 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4106982733?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Tue, 28 Sep 2021 00:48:25 -0700"
+          },
+          "title": {
+            "_cdata": "Children of Time (Children of Time, #1)"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4106982733?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "25499718"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1431014197l/25499718._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1431014197l/25499718._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1431014197l/25499718._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1431014197l/25499718.jpg"
+          },
+          "book_description": {
+            "_cdata": "A race for survival among the stars... Humanity's last survivors escaped earth's ruins to find a new home. But when they find it, can their desperation overcome its dangers?<br /><br />WHO WILL INHERIT THIS NEW EARTH?<br /><br />The last remnants of the human race left a dying Earth, desperate to find a new home among the stars. Following in the footsteps of their ancestors, they discover the greatest treasure of the past age—a world terraformed and prepared for human life.<br /><br />But all is not right in this new Eden. In the long years since the planet was abandoned, the work of its architects has borne disastrous fruit. The planet is not waiting for them, pristine and unoccupied. New masters have turned it from a refuge into mankind's worst nightmare.<br /><br />Now two civilizations are on a collision course, both testing the boundaries of what they will do to survive. As the fate of humanity hangs in the balance, who are the true heirs of this new Earth?"
+          },
+          "book": {
+            "_attributes": {
+              "id": "25499718"
+            },
+            "num_pages": {
+              "_text": "600"
+            }
+          },
+          "author_name": {
+            "_text": "Adrian Tchaikovsky"
+          },
+          "isbn": {
+            "_text": "1447273281"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Tue, 28 Sep 2021 00:48:25 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Sat, 10 Jul 2021 18:41:03 -0700"
+          },
+          "user_shelves": {
+            "_text": "currently-reading"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.23"
+          },
+          "book_published": {
+            "_text": "2015"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/25499718-children-of-time?utm_medium=api&amp;utm_source=rss\"><img alt=\"Children of Time (Children of Time, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1431014197l/25499718._SY75_.jpg\" /></a><br/>\n                                      author: Adrian Tchaikovsky<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.23<br/>\n                                      book published: 2015<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/09/28<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/4215397049?utm_medium=api&utm_source=rss"
@@ -132,78 +204,6 @@
           "book_published": {},
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/35747076-accelerate?utm_medium=api&amp;utm_source=rss\"><img alt=\"Accelerate: Building and Scaling High-Performing Technology Organizations\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1520615948l/35747076._SX50_.jpg\" /></a><br/>\n                                      author: Nicole Forsgren<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.06<br/>\n                                      book published: <br/>\n                                      rating: 5<br/>\n                                      read at: 2021/09/27<br/>\n                                      date added: 2021/09/27<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/4106982733?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Mon, 27 Sep 2021 01:11:57 -0700"
-          },
-          "title": {
-            "_cdata": "Children of Time (Children of Time, #1)"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/4106982733?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "25499718"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1431014197l/25499718._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1431014197l/25499718._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1431014197l/25499718._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1431014197l/25499718.jpg"
-          },
-          "book_description": {
-            "_cdata": "A race for survival among the stars... Humanity's last survivors escaped earth's ruins to find a new home. But when they find it, can their desperation overcome its dangers?<br /><br />WHO WILL INHERIT THIS NEW EARTH?<br /><br />The last remnants of the human race left a dying Earth, desperate to find a new home among the stars. Following in the footsteps of their ancestors, they discover the greatest treasure of the past age—a world terraformed and prepared for human life.<br /><br />But all is not right in this new Eden. In the long years since the planet was abandoned, the work of its architects has borne disastrous fruit. The planet is not waiting for them, pristine and unoccupied. New masters have turned it from a refuge into mankind's worst nightmare.<br /><br />Now two civilizations are on a collision course, both testing the boundaries of what they will do to survive. As the fate of humanity hangs in the balance, who are the true heirs of this new Earth?"
-          },
-          "book": {
-            "_attributes": {
-              "id": "25499718"
-            },
-            "num_pages": {
-              "_text": "600"
-            }
-          },
-          "author_name": {
-            "_text": "Adrian Tchaikovsky"
-          },
-          "isbn": {
-            "_text": "1447273281"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Mon, 27 Sep 2021 01:11:57 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Sat, 10 Jul 2021 18:41:03 -0700"
-          },
-          "user_shelves": {
-            "_text": "currently-reading"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.23"
-          },
-          "book_published": {
-            "_text": "2015"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/25499718-children-of-time?utm_medium=api&amp;utm_source=rss\"><img alt=\"Children of Time (Children of Time, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1431014197l/25499718._SY75_.jpg\" /></a><br/>\n                                      author: Adrian Tchaikovsky<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.23<br/>\n                                      book published: 2015<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/09/27<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>\n                                      "
           }
         },
         {
