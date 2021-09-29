@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Tue, 28 Sep 2021 00:48:25 -0700"
+        "_text": "Tue, 28 Sep 2021 23:07:23 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,220 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4262679232?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Tue, 28 Sep 2021 23:07:23 -0700"
+          },
+          "title": {
+            "_cdata": "American Gods (American Gods, #1)"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4262679232?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "30165203"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1462924585l/30165203._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1462924585l/30165203._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1462924585l/30165203._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1462924585l/30165203.jpg"
+          },
+          "book_description": {
+            "_cdata": "Days before his release from prison, Shadow's wife, Laura, dies in a mysterious car crash. Numbly, he makes his way back home. On the plane, he encounters the enigmatic Mr Wednesday, who claims to be a refugee from a distant war, a former god and the king of America.<br /> <br />Together they embark on a profoundly strange journey across the heart of the USA, whilst all around them a storm of preternatural and epic proportions threatens to break.<br /><br />Scary, gripping and deeply unsettling, <i>American Gods</i> takes a long, hard look into the soul of America. You'll be surprised by what - and who - it finds there..."
+          },
+          "book": {
+            "_attributes": {
+              "id": "30165203"
+            },
+            "num_pages": {
+              "_text": "635"
+            }
+          },
+          "author_name": {
+            "_text": "Neil Gaiman"
+          },
+          "isbn": {},
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Tue, 28 Sep 2021 23:07:23 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Tue, 28 Sep 2021 23:07:22 -0700"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.10"
+          },
+          "book_published": {
+            "_text": "2001"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/30165203-american-gods?utm_medium=api&amp;utm_source=rss\"><img alt=\"American Gods (American Gods, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1462924585l/30165203._SY75_.jpg\" /></a><br/>\n                                      author: Neil Gaiman<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.10<br/>\n                                      book published: 2001<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/09/28<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4262679032?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Tue, 28 Sep 2021 23:07:05 -0700"
+          },
+          "title": {
+            "_cdata": "The Ocean at the End of the Lane"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4262679032?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "15783514"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1497098563l/15783514._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1497098563l/15783514._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1497098563l/15783514._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1497098563l/15783514._SY475_.jpg"
+          },
+          "book_description": {
+            "_cdata": "Sussex, England. A middle-aged man returns to his childhood home to attend a funeral. Although the house he lived in is long gone, he is drawn to the farm at the end of the road, where, when he was seven, he encountered a most remarkable girl, Lettie Hempstock, and her mother and grandmother. He hasn't thought of Lettie in decades, and yet as he sits by the pond (a pond that she'd claimed was an ocean) behind the ramshackle old farmhouse, the unremembered past comes flooding back. And it is a past too strange, too frightening, too dangerous to have happened to anyone, let alone a small boy.<br /><br />Forty years earlier, a man committed suicide in a stolen car at this farm at the end of the road. Like a fuse on a firework, his death lit a touchpaper and resonated in unimaginable ways. The darkness was unleashed, something scary and thoroughly incomprehensible to a little boy. And Lettie—magical, comforting, wise beyond her years—promised to protect him, no matter what.<br /><br />A groundbreaking work from a master, <i>The Ocean at the End of the Lane</i> is told with a rare understanding of all that makes us human, and shows the power of stories to reveal and shelter us from the darkness inside and out. It is a stirring, terrifying, and elegiac fable as delicate as a butterfly's wing and as menacing as a knife in the dark."
+          },
+          "book": {
+            "_attributes": {
+              "id": "15783514"
+            },
+            "num_pages": {
+              "_text": "181"
+            }
+          },
+          "author_name": {
+            "_text": "Neil Gaiman"
+          },
+          "isbn": {
+            "_text": "0062255657"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Tue, 28 Sep 2021 23:07:05 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Tue, 28 Sep 2021 23:07:05 -0700"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.99"
+          },
+          "book_published": {
+            "_text": "2013"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/15783514-the-ocean-at-the-end-of-the-lane?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Ocean at the End of the Lane\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1497098563l/15783514._SY75_.jpg\" /></a><br/>\n                                      author: Neil Gaiman<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.99<br/>\n                                      book published: 2013<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/09/28<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4262671723?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Tue, 28 Sep 2021 22:57:56 -0700"
+          },
+          "title": {
+            "_text": "Burning Chrome (Sprawl, #0)"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4262671723?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "22323"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1349075772l/22323._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1349075772l/22323._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1349075772l/22323._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1349075772l/22323.jpg"
+          },
+          "book_description": {
+            "_cdata": "Ten tales, from the computer-enhanced hustlers of <i>Johnny Mnemonic</i> to the technofetishist blues of <i>Burning Chrome</i>. <br /><br />Johnny Mnemonic (1981)<br />The Gernsback Continuum (1981)<br />Fragments of a Hologram Rose (1977)<br />The Belonging Kind (1981) with John Shirley<br />Hinterlands (1981)<br /><br />Red Star, Winter Orbit (1983) with Bruce Sterling<br />New Rose Hotel (1984)<br />The Winter Market (1985)<br />Dogfight (1985) with Michael Swanwick<br />Burning Chrome (1982)"
+          },
+          "book": {
+            "_attributes": {
+              "id": "22323"
+            },
+            "num_pages": {
+              "_text": "224"
+            }
+          },
+          "author_name": {
+            "_text": "William Gibson"
+          },
+          "isbn": {
+            "_text": "0060539828"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Tue, 28 Sep 2021 22:57:56 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Tue, 28 Sep 2021 22:57:56 -0700"
+          },
+          "user_shelves": {
+            "_text": "on-deck"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.06"
+          },
+          "book_published": {
+            "_text": "1986"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/22323.Burning_Chrome?utm_medium=api&amp;utm_source=rss\"><img alt=\"Burning Chrome (Sprawl, #0)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1349075772l/22323._SY75_.jpg\" /></a><br/>\n                                      author: William Gibson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.06<br/>\n                                      book published: 1986<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/09/28<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/4106982733?utm_medium=api&utm_source=rss"
@@ -7010,220 +7224,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/8935689-consider-phlebas?utm_medium=api&amp;utm_source=rss\"><img alt=\"Consider Phlebas (Culture, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327951890l/8935689._SY75_.jpg\" /></a><br/>\n                                      author: Iain M. Banks<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.87<br/>\n                                      book published: 1987<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/05/24<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/4020374665?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Mon, 24 May 2021 23:04:09 -0700"
-          },
-          "title": {
-            "_cdata": "The Positronic Man (Robot, #0.6)"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/4020374665?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "651964"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1467471941l/651964._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1467471941l/651964._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1467471941l/651964._SY160_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1467471941l/651964._SY475_.jpg"
-          },
-          "book_description": {
-            "_cdata": "Powerful and haunting, <i>The Positronic Man</i> is an unforgettable novel that redefines Isaac Asimov's and Robert Silverberg's place among the greatest science fiction authors of all time.<p>In the twenty-first century the creation of the positronic brain leads to the development of robot laborers and revolutionizes life on Earth. But to the Martin family, their household robot NDR-113 is more than a trusted friend, a confidant, a member of the family. For through some unknown manufacturing glitch, Andrew has been blessed with a capacity for love and a drive toward self-awareness and devlopment that are almost...human.</p><p>But almost is not enough. Andrew's dream is to become fully human. Facing human prejudice, the laws of robotics, and his own mechanical limitations, Andrew will use science and law in his quest for the impossible, arriving at last at a terrifying choice: to make his dream a reality, he must pay the ultimate price.</p>"
-          },
-          "book": {
-            "_attributes": {
-              "id": "651964"
-            },
-            "num_pages": {
-              "_text": "290"
-            }
-          },
-          "author_name": {
-            "_text": "Isaac Asimov"
-          },
-          "isbn": {
-            "_text": "0553561219"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Mon, 24 May 2021 23:04:09 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Mon, 24 May 2021 23:04:09 -0700"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.11"
-          },
-          "book_published": {
-            "_text": "1992"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/651964.The_Positronic_Man?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Positronic Man (Robot, #0.6)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1467471941l/651964._SY75_.jpg\" /></a><br/>\n                                      author: Isaac Asimov<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.11<br/>\n                                      book published: 1992<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/05/24<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/4005356033?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Mon, 24 May 2021 23:02:56 -0700"
-          },
-          "title": {
-            "_text": "The Caves of Steel (Robot #1)"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/4005356033?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "41811"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1335782224l/41811._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1335782224l/41811._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1335782224l/41811._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1335782224l/41811.jpg"
-          },
-          "book_description": {
-            "_cdata": "A millennium into the future two advancements have altered the course of human history: the colonization of the galaxy and the creation of the positronic brain. Isaac Asimov's Robot novels chronicle the unlikely partnership between a New York City detective and a humanoid robot who must learn to work together. Like most people left behind on an over-populated Earth, New York City police detective Elijah Baley had little love for either the arrogant Spacers or their robotic companions. But when a prominent Spacer is murdered under mysterious circumstances, Baley is ordered to the Outer Worlds to help track down the killer. The relationship between Life and his Spacer superiors, who distrusted all Earthmen, was strained from the start. Then he learned that they had assigned him a partner: R. Daneel Olivaw. Worst of all was that the \"R\" stood for robot--and his positronic partner was made in the image and likeness of the murder victim!"
-          },
-          "book": {
-            "_attributes": {
-              "id": "41811"
-            },
-            "num_pages": {
-              "_text": "206"
-            }
-          },
-          "author_name": {
-            "_text": "Isaac Asimov"
-          },
-          "isbn": {},
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "4"
-          },
-          "user_read_at": {
-            "_cdata": "Mon, 24 May 2021 23:02:51 -0700"
-          },
-          "user_date_added": {
-            "_cdata": "Mon, 24 May 2021 23:02:56 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Sun, 16 May 2021 17:52:41 -0700"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.18"
-          },
-          "book_published": {
-            "_text": "1954"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/41811.The_Caves_of_Steel?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Caves of Steel (Robot #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1335782224l/41811._SY75_.jpg\" /></a><br/>\n                                      author: Isaac Asimov<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.18<br/>\n                                      book published: 1954<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/05/24<br/>\n                                      date added: 2021/05/24<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/4010732169?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sun, 23 May 2021 14:39:34 -0700"
-          },
-          "title": {
-            "_cdata": "The Claw of the Conciliator (The Book of the New Sun, #2)"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/4010732169?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "463376"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1332036282l/463376._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1332036282l/463376._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1332036282l/463376._SY160_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1332036282l/463376.jpg"
-          },
-          "book_description": {
-            "_cdata": "Severian is in possession of a gem considered to be \"The Claw of the Conciliator\", a powerful relic of the Master of Power, a legendary figure of mythic proportions. Armed with his sword, Terminus Est, and the Claw, Severian continues his journey to Thrax, the city of his exile. Bizarre apes, strange cannibalistic rituals, and the foreigner named Jonas all lie in his future."
-          },
-          "book": {
-            "_attributes": {
-              "id": "463376"
-            },
-            "num_pages": {
-              "_text": "303"
-            }
-          },
-          "author_name": {
-            "_text": "Gene Wolfe"
-          },
-          "isbn": {
-            "_text": "0671416162"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "4"
-          },
-          "user_read_at": {
-            "_cdata": "Sun, 23 May 2021 14:39:34 -0700"
-          },
-          "user_date_added": {
-            "_cdata": "Sun, 23 May 2021 14:39:34 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Wed, 19 May 2021 13:40:35 -0700"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.00"
-          },
-          "book_published": {
-            "_text": "1981"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/463376.The_Claw_of_the_Conciliator?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Claw of the Conciliator (The Book of the New Sun, #2)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1332036282l/463376._SY75_.jpg\" /></a><br/>\n                                      author: Gene Wolfe<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.00<br/>\n                                      book published: 1981<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/05/23<br/>\n                                      date added: 2021/05/23<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

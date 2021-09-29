@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Sun, 17 Jan 2021 13:45:00 -0800"
+        "_text": "Fri, 22 Jan 2021 14:08:06 -0800"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,298 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/2862309502?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Fri, 22 Jan 2021 14:08:06 -0800"
+          },
+          "title": {
+            "_cdata": "Cosmological Koans: A Journey to the Heart of Physical Reality"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/2862309502?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "41817535"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1551793794l/41817535._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1551793794l/41817535._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1551793794l/41817535._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1551793794l/41817535.jpg"
+          },
+          "book_description": {
+            "_cdata": "Through more than fifty Koans—pleasingly paradoxical vignettes following the ancient Zen tradition—leading physicist Anthony Aguirre takes the reader across the world from West to East, and through ideas spanning the age, breadth, and depth of the Universe.<br /><br /><br />Using these beguiling Koans (<em>Could there be a civilization on a mote of dust? How much of your fate have you made? Who cleans the universe?</em>) and a flair for explaining complex science, Aguirre covers cosmic questions that scientific giants from Aristotle to Galileo to Heisenberg have grappled with, from the meaning of quantum theory and the nature of time to the origin of multiple universes.<br /><br /><br />A playful and enlightening book, <em>Cosmological Koans</em> explores the strange hinterland between the deep structure of the physical world and our personal experience of it, giving readers what Einstein himself called “the most beautiful and deepest experience” anyone can have: a sense of the mysterious."
+          },
+          "book": {
+            "_attributes": {
+              "id": "41817535"
+            },
+            "num_pages": {
+              "_text": "384"
+            }
+          },
+          "author_name": {
+            "_text": "Anthony Aguirre"
+          },
+          "isbn": {
+            "_text": "0393609219"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "5"
+          },
+          "user_read_at": {
+            "_cdata": "Fri, 22 Jan 2021 14:08:06 -0800"
+          },
+          "user_date_added": {
+            "_cdata": "Fri, 22 Jan 2021 14:08:06 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Mon, 17 Jun 2019 22:39:31 -0700"
+          },
+          "user_shelves": {},
+          "user_review": {
+            "_cdata": "Just Delightful.<br />Zen, and the Science of Modern Physics!"
+          },
+          "average_rating": {
+            "_text": "3.61"
+          },
+          "book_published": {
+            "_text": "2019"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/41817535-cosmological-koans?utm_medium=api&amp;utm_source=rss\"><img alt=\"Cosmological Koans: A Journey to the Heart of Physical Reality\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1551793794l/41817535._SY75_.jpg\" /></a><br/>\n                                      author: Anthony Aguirre<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.61<br/>\n                                      book published: 2019<br/>\n                                      rating: 5<br/>\n                                      read at: 2021/01/22<br/>\n                                      date added: 2021/01/22<br/>\n                                      shelves: <br/>\n                                      review: <br/>Just Delightful.<br />Zen, and the Science of Modern Physics!<br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3787718638?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Thu, 21 Jan 2021 15:30:48 -0800"
+          },
+          "title": {
+            "_text": "Leonardo da Vinci"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3787718638?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "34684622"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1523543570l/34684622._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1523543570l/34684622._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1523543570l/34684622._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1523543570l/34684622._SY475_.jpg"
+          },
+          "book_description": {
+            "_cdata": "Based on thousands of pages from Leonardo's astonishing notebooks and new discoveries about his life and work, Walter Isaacson weaves a narrative that connects his art to his science. He shows how Leonardo's genius was based on skills we can improve in ourselves, such as passionate curiosity, careful observation, and an imagination so playful that it flirted with fantasy. He produced the two most famous paintings in history, The Last Supper and the Mona Lisa. But in his own mind, he was just as much a man of science and technology. With a passion that sometimes became obsessive, he pursued innovative studies of anatomy, fossils, birds, the heart, flying machines, botany, geology, and weaponry. His ability to stand at the crossroads of the humanities and the sciences, made iconic by his drawing of Vitruvian Man, made him history's most creative genius"
+          },
+          "book": {
+            "_attributes": {
+              "id": "34684622"
+            },
+            "num_pages": {
+              "_text": "600"
+            }
+          },
+          "author_name": {
+            "_text": "Walter Isaacson"
+          },
+          "isbn": {
+            "_text": "1501139150"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Thu, 21 Jan 2021 15:30:48 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Thu, 21 Jan 2021 15:30:48 -0800"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.12"
+          },
+          "book_published": {
+            "_text": "2017"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/34684622-leonardo-da-vinci?utm_medium=api&amp;utm_source=rss\"><img alt=\"Leonardo da Vinci\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1523543570l/34684622._SY75_.jpg\" /></a><br/>\n                                      author: Walter Isaacson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.12<br/>\n                                      book published: 2017<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/01/21<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3786721927?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Thu, 21 Jan 2021 08:23:20 -0800"
+          },
+          "title": {
+            "_text": "Of Wolves and Men"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3786721927?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "743936"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347919044l/743936._SX50_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347919044l/743936._SX50_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347919044l/743936._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347919044l/743936.jpg"
+          },
+          "book_description": {
+            "_cdata": "<b>Originally published in 1978, this classic exploration of humanity’s complex relationship with and understanding of wolves returns with a new afterword by the author.</b><br /><br />Humankind's relationship with the wolf is the sum of a spectrum of responses ranging from fear to admiration and affection. Lopez’s classic, careful study has won praise from a wide range of reviewers and improved the way books on wild animals are written. <i>Of Wolves and Men</i> explores the uneasy interaction between wolves and civilization over the centuries, and the wolf's prominence in our thoughts about wild creatures. Drawing upon an impressive array of literature, history, science, and mythology as well as extensive personal experience with captive and free-ranging wolves, Lopez argues for the wolf's preservation and immerses the reader in its sensory world, creating a compelling portrait of the wolf both as a real animal and as imagined by different kinds of men. A scientist might perceive the wolf as defined by research data, while an Eskimo hunter sees a family provider much like himself. For many Native Americans the wolf is also a spiritual symbol, a respected animal that can strengthen the individual and the community. With irresistible charm and elegance, <i>Of Wolves and Men</i> celebrates careful scientific fieldwork, dispels folklore that has enabled the Western mind to demonize wolves, explains myths, and honors indigenous traditions, allowing us to understand how this remarkable animal has become so prominent for so long in the human heart."
+          },
+          "book": {
+            "_attributes": {
+              "id": "743936"
+            },
+            "num_pages": {
+              "_text": "320"
+            }
+          },
+          "author_name": {
+            "_text": "Barry  López"
+          },
+          "isbn": {
+            "_text": "0684163225"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Thu, 21 Jan 2021 08:23:20 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Thu, 21 Jan 2021 06:05:55 -0800"
+          },
+          "user_shelves": {
+            "_text": "on-deck"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.26"
+          },
+          "book_published": {
+            "_text": "1978"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/743936.Of_Wolves_and_Men?utm_medium=api&amp;utm_source=rss\"><img alt=\"Of Wolves and Men\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347919044l/743936._SX50_.jpg\" /></a><br/>\n                                      author: Barry  López<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.26<br/>\n                                      book published: 1978<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/01/21<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/603944065?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Mon, 18 Jan 2021 20:05:52 -0800"
+          },
+          "title": {
+            "_cdata": "So Good They Can't Ignore You: Why Skills Trump Passion in the Quest for Work You Love"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/603944065?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "13525945"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1360564614l/13525945._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1360564614l/13525945._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1360564614l/13525945._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1360564614l/13525945.jpg"
+          },
+          "book_description": {
+            "_cdata": "In this eye-opening account, Cal Newport debunks the long-held belief that \"follow your passion\" is good advice. <br /><br />Not only is the cliché flawed-preexisting passions are rare and have little to do with how most people end up loving their work-but it can also be dangerous, leading to anxiety and chronic job hopping.<br /><br />After making his case against passion, Newport sets out on a quest to discover the reality of how people end up loving what they do. Spending time with organic farmers, venture capitalists, screenwriters, freelance computer programmers, and others who admitted to deriving great satisfaction from their work, Newport uncovers the strategies they used and the pitfalls they avoided in developing their compelling careers.<br /><br />Matching your job to a preexisting passion does not matter, he reveals. Passion comes after you put in the hard work to become excellent at something valuable, not before. In other words, what you do for a living is much less important than how you do it.<br /><br />With a title taken from the comedian Steve Martin, who once said his advice for aspiring entertainers was to \"be so good they can't ignore you,\" Cal Newport's clearly written manifesto is mandatory reading for anyone fretting about what to do with their life, or frustrated by their current job situation and eager to find a fresh new way to take control of their livelihood. He provides an evidence-based blueprint for creating work you love.<br /><br /><i>So Good They Can't Ignore You</i> will change the way we think about our careers, happiness, and the crafting of a remarkable life."
+          },
+          "book": {
+            "_attributes": {
+              "id": "13525945"
+            },
+            "num_pages": {
+              "_text": "288"
+            }
+          },
+          "author_name": {
+            "_text": "Cal Newport"
+          },
+          "isbn": {
+            "_text": "1455509108"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "3"
+          },
+          "user_read_at": {
+            "_cdata": "Mon, 18 Jan 2021 20:04:23 -0800"
+          },
+          "user_date_added": {
+            "_cdata": "Mon, 18 Jan 2021 20:05:52 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Tue, 30 Apr 2013 16:26:55 -0700"
+          },
+          "user_shelves": {},
+          "user_review": {
+            "_cdata": "Some good ideas. A bit too anecdotal, for my taste."
+          },
+          "average_rating": {
+            "_text": "4.05"
+          },
+          "book_published": {
+            "_text": "2012"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/13525945-so-good-they-can-t-ignore-you?utm_medium=api&amp;utm_source=rss\"><img alt=\"So Good They Can&#39;t Ignore You: Why Skills Trump Passion in the Quest for Work You Love\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1360564614l/13525945._SY75_.jpg\" /></a><br/>\n                                      author: Cal Newport<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.05<br/>\n                                      book published: 2012<br/>\n                                      rating: 3<br/>\n                                      read at: 2021/01/18<br/>\n                                      date added: 2021/01/18<br/>\n                                      shelves: <br/>\n                                      review: <br/>Some good ideas. A bit too anecdotal, for my taste.<br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/3624455585?utm_medium=api&utm_source=rss"
@@ -6894,292 +7186,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/719289.Geometry_and_the_Imagination?utm_medium=api&amp;utm_source=rss\"><img alt=\"Geometry and the Imagination \" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1387723132l/719289._SY75_.jpg\" /></a><br/>\n                                      author: David Hilbert<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.52<br/>\n                                      book published: 1932<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2019/07/18<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/2900778810?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Thu, 18 Jul 2019 01:55:06 -0700"
-          },
-          "title": {
-            "_text": "Fall or, Dodge in Hell"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/2900778810?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "35429993"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1543868021l/35429993._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1543868021l/35429993._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1543868021l/35429993._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1543868021l/35429993.jpg"
-          },
-          "book_description": {
-            "_cdata": "<p>The #1 <em>New York Times</em> bestselling author of <em>Seveneves, Anathem, Reamde</em>, and <em>Cryptonomicon</em> returns with a wildly inventive and entertaining science fiction thriller—<em>Paradise Lost</em> by way of Phillip K. Dick—that unfolds in the near future, in parallel worlds.<br /><br />In his youth, Richard “Dodge” Forthrast founded Corporation 9592, a gaming company that made him a multibillionaire. Now in his middle years, Dodge appreciates his comfortable, unencumbered life, managing his myriad business interests, and spending time with his beloved niece Zula and her young daughter, Sophia. </p><p>One beautiful autumn day, while he undergoes a routine medical procedure, something goes irrevocably wrong. Dodge is pronounced brain dead and put on life support, leaving his stunned family and close friends with difficult decisions. Long ago, when a much younger Dodge drew up his will, he directed that his body be given to a cryonics company now owned by enigmatic tech entrepreneur Elmo Shepherd. Legally bound to follow the directive despite their misgivings, Dodge’s family has his brain scanned and its data structures uploaded and stored in the cloud, until it can eventually be revived. </p><p>In the coming years, technology allows Dodge’s brain to be turned back on. It is an achievement that is nothing less than the disruption of death itself. An eternal afterlife—the Bitworld—is created, in which humans continue to exist as digital souls. </p><p>But this brave new immortal world is not the Utopia it might first seem . . . </p><p><em>Fall, or Dodge in Hell</em> is pure, unadulterated fun: a grand drama of analog and digital, man and machine, angels and demons, gods and followers, the finite and the eternal. In this exhilarating epic, Neal Stephenson raises profound existential questions and touches on the revolutionary breakthroughs that are transforming our future. Combining the technological, philosophical, and spiritual in one grand myth, he delivers a mind-blowing speculative literary saga for the modern age.</p>"
-          },
-          "book": {
-            "_attributes": {
-              "id": "35429993"
-            },
-            "num_pages": {
-              "_text": "896"
-            }
-          },
-          "author_name": {
-            "_text": "Neal Stephenson"
-          },
-          "isbn": {
-            "_text": "0062458736"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Thu, 18 Jul 2019 01:55:06 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Thu, 18 Jul 2019 01:55:06 -0700"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "3.44"
-          },
-          "book_published": {
-            "_text": "2019"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/35429993-fall-or-dodge-in-hell?utm_medium=api&amp;utm_source=rss\"><img alt=\"Fall or, Dodge in Hell\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1543868021l/35429993._SY75_.jpg\" /></a><br/>\n                                      author: Neal Stephenson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.44<br/>\n                                      book published: 2019<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2019/07/18<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/2900639710?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Wed, 17 Jul 2019 21:56:47 -0700"
-          },
-          "title": {
-            "_cdata": "The Fabric of Reality: The Science of Parallel Universes--and Its Implications"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/2900639710?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "177068"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348344833l/177068._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348344833l/177068._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348344833l/177068._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348344833l/177068.jpg"
-          },
-          "book_description": {
-            "_cdata": "For David Deutsch, a young physicist of unusual originality, quantum theory contains our most fundamental knowledge of the physical world. Taken literally, it implies that there are many universes “parallel” to the one we see around us. This multiplicity of universes, according to Deutsch, turns out to be the key to achieving a new worldview, one which synthesizes the theories of evolution, computation, and knowledge with quantum physics. Considered jointly, these four strands of explanation reveal a unified fabric of reality that is both objective and comprehensible, the subject of this daring, challenging book. The Fabric of Reality explains and connects many topics at the leading edge of current research and thinking, such as quantum computers (which work by effectively collaborating with their counterparts in other universes), the physics of time travel, the comprehensibility of nature and the physical limits of virtual reality, the significance of human life, and the ultimate fate of the universe. Here, for scientist and layperson alike, for philosopher, science-fiction reader, biologist, and computer expert, is a startlingly complete and rational synthesis of disciplines, and a new, optimistic message about existence."
-          },
-          "book": {
-            "_attributes": {
-              "id": "177068"
-            },
-            "num_pages": {
-              "_text": "400"
-            }
-          },
-          "author_name": {
-            "_text": "David Deutsch"
-          },
-          "isbn": {
-            "_text": "014027541X"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Wed, 17 Jul 2019 21:56:47 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Wed, 17 Jul 2019 21:56:47 -0700"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.11"
-          },
-          "book_published": {
-            "_text": "1996"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/177068.The_Fabric_of_Reality?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Fabric of Reality: The Science of Parallel Universes--and Its Implications\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348344833l/177068._SY75_.jpg\" /></a><br/>\n                                      author: David Deutsch<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.11<br/>\n                                      book published: 1996<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2019/07/17<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/2898947012?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Tue, 16 Jul 2019 17:21:02 -0700"
-          },
-          "title": {
-            "_cdata": "Viking Economics: How the Scandinavians Got It Right-and How We Can, Too"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/2898947012?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "27774366"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1466990423l/27774366._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1466990423l/27774366._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1466990423l/27774366._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1466990423l/27774366.jpg"
-          },
-          "book_description": {
-            "_cdata": "<b>An academic and activist takes an entertaining look at the Nordic welfare state—and shows us how we, too, can have a far more equal and just economic system</b><br /><br />In America, many Democrats invoke Scandinavia as a promised land of equality, while most Republicans fear it as a hotbed of liberty-threatening socialism. But the left and right can usually agree on one thing: that the Nordic system is impossible to replicate here at home. The US is too big, or too individualistic, or too puritan, or too . . . something. Whatever the reason, it's impossible, and we shouldn't bother to try.<br /><br />Enter George Lakey. A longtime activist and academic, Lakey has spent decades studying the economies of Denmark, Sweden, Norway, Finland, and Iceland, and in <i>Viking Economics,</i> he reveals that Scandinavia's deep commitment to the welfare state is much more recent than we think. Not long ago, Scandinavia was a far more unequal place, with a much weaker commitment to the social welfare of its citizens. There's nothing inherently Scandinavian about greater equality . . . so why not try it here?<br /><br /><i>Viking Economics</i> is more fun and entertaining than any economics book you've ever read. And, very possibly, more convincing! As he ranges from twentieth-century Norwegian history to the details of Swedish childcare policies, Lakey never loses his sense of humor or his expansive, generous vision of a better, more equal future. By explaining that even Scandinavia's grandest experiments in social equality are rooted in recent political struggles, Lakey explains shows how we can do it, too—conventional wisdom be damned.<br /><br /><br /><i>From the Hardcover edition.</i>"
-          },
-          "book": {
-            "_attributes": {
-              "id": "27774366"
-            },
-            "num_pages": {}
-          },
-          "author_name": {
-            "_text": "George Lakey"
-          },
-          "isbn": {
-            "_text": "1612195377"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Tue, 16 Jul 2019 17:21:02 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Tue, 16 Jul 2019 17:21:02 -0700"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "3.83"
-          },
-          "book_published": {
-            "_text": "2016"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/27774366-viking-economics?utm_medium=api&amp;utm_source=rss\"><img alt=\"Viking Economics: How the Scandinavians Got It Right-and How We Can, Too\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1466990423l/27774366._SY75_.jpg\" /></a><br/>\n                                      author: George Lakey<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.83<br/>\n                                      book published: 2016<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2019/07/16<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/2898909751?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Tue, 16 Jul 2019 16:45:30 -0700"
-          },
-          "title": {
-            "_cdata": "Parallel Worlds: A Journey through Creation, Higher Dimensions, and the Future of the Cosmos"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/2898909751?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "33418"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1435244003l/33418._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1435244003l/33418._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1435244003l/33418._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1435244003l/33418._SY475_.jpg"
-          },
-          "book_description": {
-            "_cdata": "In this thrilling journey into the mysteries of our cosmos, bestselling author Michio Kaku takes us on a dizzying ride to explore black holes and time machines, multidimensional space and, most tantalizing of all, the possibility that parallel universes may lay alongside our own. Kaku skillfully guides us through the latest innovations in string theory and its latest iteration, M-theory, which posits that our universe may be just one in an endless multiverse, a singular bubble floating in a sea of infinite bubble universes. If M-theory is proven correct, we may perhaps finally find answer to the question, “What happened before the big bang?” This is an exciting and unforgettable introduction into the new cutting-edge theories of physics and cosmology from one of the pre-eminent voices in the field."
-          },
-          "book": {
-            "_attributes": {
-              "id": "33418"
-            },
-            "num_pages": {
-              "_text": "361"
-            }
-          },
-          "author_name": {
-            "_text": "Michio Kaku"
-          },
-          "isbn": {
-            "_text": "1400033721"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Tue, 16 Jul 2019 16:45:30 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Tue, 16 Jul 2019 16:45:30 -0700"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.20"
-          },
-          "book_published": {
-            "_text": "2004"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/33418.Parallel_Worlds?utm_medium=api&amp;utm_source=rss\"><img alt=\"Parallel Worlds: A Journey through Creation, Higher Dimensions, and the Future of the Cosmos\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1435244003l/33418._SY75_.jpg\" /></a><br/>\n                                      author: Michio Kaku<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.20<br/>\n                                      book published: 2004<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2019/07/16<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

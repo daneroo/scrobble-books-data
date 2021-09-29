@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Sun, 23 May 2021 00:44:09 -0700"
+        "_text": "Mon, 24 May 2021 23:21:07 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,292 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/1025240195?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Mon, 24 May 2021 23:21:07 -0700"
+          },
+          "title": {
+            "_cdata": "Consider Phlebas (Culture, #1)"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/1025240195?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "8935689"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327951890l/8935689._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327951890l/8935689._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327951890l/8935689._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327951890l/8935689.jpg"
+          },
+          "book_description": {
+            "_cdata": "The war raged across the galaxy. Billions had died, billions more were doomed. Moons, planets, the very stars themselves, faced destruction, cold-blooded, brutal, and worse, random. The Idirans fought for their Faith; the Culture for its moral right to exist. Principles were at stake. There could be no surrender.<br /><br />Within the cosmic conflict, an individual crusade. Deep within a fabled labyrinth on a barren world, a Planet of the Dead proscribed to mortals, lay a fugitive Mind. Both the Culture and the Idirans sought it. It was the fate of Horza, the Changer, and his motley crew of unpredictable mercenaries, human and machine, actually to find it, and with it their own destruction."
+          },
+          "book": {
+            "_attributes": {
+              "id": "8935689"
+            },
+            "num_pages": {
+              "_text": "471"
+            }
+          },
+          "author_name": {
+            "_text": "Iain M. Banks"
+          },
+          "isbn": {
+            "_text": "1857231384"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Mon, 24 May 2021 23:21:07 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Tue, 12 Aug 2014 23:26:39 -0700"
+          },
+          "user_shelves": {
+            "_text": "on-deck"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.87"
+          },
+          "book_published": {
+            "_text": "1987"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/8935689-consider-phlebas?utm_medium=api&amp;utm_source=rss\"><img alt=\"Consider Phlebas (Culture, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327951890l/8935689._SY75_.jpg\" /></a><br/>\n                                      author: Iain M. Banks<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.87<br/>\n                                      book published: 1987<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/05/24<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4020374665?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Mon, 24 May 2021 23:04:09 -0700"
+          },
+          "title": {
+            "_cdata": "The Positronic Man (Robot, #0.6)"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4020374665?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "651964"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1467471941l/651964._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1467471941l/651964._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1467471941l/651964._SY160_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1467471941l/651964._SY475_.jpg"
+          },
+          "book_description": {
+            "_cdata": "Powerful and haunting, <i>The Positronic Man</i> is an unforgettable novel that redefines Isaac Asimov's and Robert Silverberg's place among the greatest science fiction authors of all time.<p>In the twenty-first century the creation of the positronic brain leads to the development of robot laborers and revolutionizes life on Earth. But to the Martin family, their household robot NDR-113 is more than a trusted friend, a confidant, a member of the family. For through some unknown manufacturing glitch, Andrew has been blessed with a capacity for love and a drive toward self-awareness and devlopment that are almost...human.</p><p>But almost is not enough. Andrew's dream is to become fully human. Facing human prejudice, the laws of robotics, and his own mechanical limitations, Andrew will use science and law in his quest for the impossible, arriving at last at a terrifying choice: to make his dream a reality, he must pay the ultimate price.</p>"
+          },
+          "book": {
+            "_attributes": {
+              "id": "651964"
+            },
+            "num_pages": {
+              "_text": "290"
+            }
+          },
+          "author_name": {
+            "_text": "Isaac Asimov"
+          },
+          "isbn": {
+            "_text": "0553561219"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Mon, 24 May 2021 23:04:09 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Mon, 24 May 2021 23:04:09 -0700"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.11"
+          },
+          "book_published": {
+            "_text": "1992"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/651964.The_Positronic_Man?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Positronic Man (Robot, #0.6)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1467471941l/651964._SY75_.jpg\" /></a><br/>\n                                      author: Isaac Asimov<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.11<br/>\n                                      book published: 1992<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/05/24<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4005356033?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Mon, 24 May 2021 23:02:56 -0700"
+          },
+          "title": {
+            "_text": "The Caves of Steel (Robot #1)"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4005356033?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "41811"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1335782224l/41811._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1335782224l/41811._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1335782224l/41811._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1335782224l/41811.jpg"
+          },
+          "book_description": {
+            "_cdata": "A millennium into the future two advancements have altered the course of human history: the colonization of the galaxy and the creation of the positronic brain. Isaac Asimov's Robot novels chronicle the unlikely partnership between a New York City detective and a humanoid robot who must learn to work together. Like most people left behind on an over-populated Earth, New York City police detective Elijah Baley had little love for either the arrogant Spacers or their robotic companions. But when a prominent Spacer is murdered under mysterious circumstances, Baley is ordered to the Outer Worlds to help track down the killer. The relationship between Life and his Spacer superiors, who distrusted all Earthmen, was strained from the start. Then he learned that they had assigned him a partner: R. Daneel Olivaw. Worst of all was that the \"R\" stood for robot--and his positronic partner was made in the image and likeness of the murder victim!"
+          },
+          "book": {
+            "_attributes": {
+              "id": "41811"
+            },
+            "num_pages": {
+              "_text": "206"
+            }
+          },
+          "author_name": {
+            "_text": "Isaac Asimov"
+          },
+          "isbn": {},
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "4"
+          },
+          "user_read_at": {
+            "_cdata": "Mon, 24 May 2021 23:02:51 -0700"
+          },
+          "user_date_added": {
+            "_cdata": "Mon, 24 May 2021 23:02:56 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Sun, 16 May 2021 17:52:41 -0700"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.18"
+          },
+          "book_published": {
+            "_text": "1954"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/41811.The_Caves_of_Steel?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Caves of Steel (Robot #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1335782224l/41811._SY75_.jpg\" /></a><br/>\n                                      author: Isaac Asimov<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.18<br/>\n                                      book published: 1954<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/05/24<br/>\n                                      date added: 2021/05/24<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4010732169?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sun, 23 May 2021 14:39:34 -0700"
+          },
+          "title": {
+            "_cdata": "The Claw of the Conciliator (The Book of the New Sun, #2)"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4010732169?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "463376"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1332036282l/463376._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1332036282l/463376._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1332036282l/463376._SY160_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1332036282l/463376.jpg"
+          },
+          "book_description": {
+            "_cdata": "Severian is in possession of a gem considered to be \"The Claw of the Conciliator\", a powerful relic of the Master of Power, a legendary figure of mythic proportions. Armed with his sword, Terminus Est, and the Claw, Severian continues his journey to Thrax, the city of his exile. Bizarre apes, strange cannibalistic rituals, and the foreigner named Jonas all lie in his future."
+          },
+          "book": {
+            "_attributes": {
+              "id": "463376"
+            },
+            "num_pages": {
+              "_text": "303"
+            }
+          },
+          "author_name": {
+            "_text": "Gene Wolfe"
+          },
+          "isbn": {
+            "_text": "0671416162"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "4"
+          },
+          "user_read_at": {
+            "_cdata": "Sun, 23 May 2021 14:39:34 -0700"
+          },
+          "user_date_added": {
+            "_cdata": "Sun, 23 May 2021 14:39:34 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Wed, 19 May 2021 13:40:35 -0700"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.99"
+          },
+          "book_published": {
+            "_text": "1981"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/463376.The_Claw_of_the_Conciliator?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Claw of the Conciliator (The Book of the New Sun, #2)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1332036282l/463376._SY75_.jpg\" /></a><br/>\n                                      author: Gene Wolfe<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.99<br/>\n                                      book published: 1981<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/05/23<br/>\n                                      date added: 2021/05/23<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/4016577848?utm_medium=api&utm_source=rss"
@@ -6930,298 +7216,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/1768603.The_White_Tiger?utm_medium=api&amp;utm_source=rss\"><img alt=\"The White Tiger\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347754998l/1768603._SY75_.jpg\" /></a><br/>\n                                      author: Aravind Adiga<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.74<br/>\n                                      book published: 2008<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/01/22<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/2862309502?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Fri, 22 Jan 2021 14:08:06 -0800"
-          },
-          "title": {
-            "_cdata": "Cosmological Koans: A Journey to the Heart of Physical Reality"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/2862309502?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "41817535"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1551793794l/41817535._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1551793794l/41817535._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1551793794l/41817535._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1551793794l/41817535.jpg"
-          },
-          "book_description": {
-            "_cdata": "Through more than fifty Koans—pleasingly paradoxical vignettes following the ancient Zen tradition—leading physicist Anthony Aguirre takes the reader across the world from West to East, and through ideas spanning the age, breadth, and depth of the Universe.<br /><br /><br />Using these beguiling Koans (<em>Could there be a civilization on a mote of dust? How much of your fate have you made? Who cleans the universe?</em>) and a flair for explaining complex science, Aguirre covers cosmic questions that scientific giants from Aristotle to Galileo to Heisenberg have grappled with, from the meaning of quantum theory and the nature of time to the origin of multiple universes.<br /><br /><br />A playful and enlightening book, <em>Cosmological Koans</em> explores the strange hinterland between the deep structure of the physical world and our personal experience of it, giving readers what Einstein himself called “the most beautiful and deepest experience” anyone can have: a sense of the mysterious."
-          },
-          "book": {
-            "_attributes": {
-              "id": "41817535"
-            },
-            "num_pages": {
-              "_text": "384"
-            }
-          },
-          "author_name": {
-            "_text": "Anthony Aguirre"
-          },
-          "isbn": {
-            "_text": "0393609219"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "5"
-          },
-          "user_read_at": {
-            "_cdata": "Fri, 22 Jan 2021 14:08:06 -0800"
-          },
-          "user_date_added": {
-            "_cdata": "Fri, 22 Jan 2021 14:08:06 -0800"
-          },
-          "user_date_created": {
-            "_cdata": "Mon, 17 Jun 2019 22:39:31 -0700"
-          },
-          "user_shelves": {},
-          "user_review": {
-            "_cdata": "Just Delightful.<br />Zen, and the Science of Modern Physics!"
-          },
-          "average_rating": {
-            "_text": "3.61"
-          },
-          "book_published": {
-            "_text": "2019"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/41817535-cosmological-koans?utm_medium=api&amp;utm_source=rss\"><img alt=\"Cosmological Koans: A Journey to the Heart of Physical Reality\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1551793794l/41817535._SY75_.jpg\" /></a><br/>\n                                      author: Anthony Aguirre<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.61<br/>\n                                      book published: 2019<br/>\n                                      rating: 5<br/>\n                                      read at: 2021/01/22<br/>\n                                      date added: 2021/01/22<br/>\n                                      shelves: <br/>\n                                      review: <br/>Just Delightful.<br />Zen, and the Science of Modern Physics!<br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3787718638?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Thu, 21 Jan 2021 15:30:48 -0800"
-          },
-          "title": {
-            "_text": "Leonardo da Vinci"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3787718638?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "34684622"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1523543570l/34684622._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1523543570l/34684622._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1523543570l/34684622._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1523543570l/34684622._SY475_.jpg"
-          },
-          "book_description": {
-            "_cdata": "Based on thousands of pages from Leonardo's astonishing notebooks and new discoveries about his life and work, Walter Isaacson weaves a narrative that connects his art to his science. He shows how Leonardo's genius was based on skills we can improve in ourselves, such as passionate curiosity, careful observation, and an imagination so playful that it flirted with fantasy. He produced the two most famous paintings in history, The Last Supper and the Mona Lisa. But in his own mind, he was just as much a man of science and technology. With a passion that sometimes became obsessive, he pursued innovative studies of anatomy, fossils, birds, the heart, flying machines, botany, geology, and weaponry. His ability to stand at the crossroads of the humanities and the sciences, made iconic by his drawing of Vitruvian Man, made him history's most creative genius"
-          },
-          "book": {
-            "_attributes": {
-              "id": "34684622"
-            },
-            "num_pages": {
-              "_text": "600"
-            }
-          },
-          "author_name": {
-            "_text": "Walter Isaacson"
-          },
-          "isbn": {
-            "_text": "1501139150"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Thu, 21 Jan 2021 15:30:48 -0800"
-          },
-          "user_date_created": {
-            "_cdata": "Thu, 21 Jan 2021 15:30:48 -0800"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.12"
-          },
-          "book_published": {
-            "_text": "2017"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/34684622-leonardo-da-vinci?utm_medium=api&amp;utm_source=rss\"><img alt=\"Leonardo da Vinci\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1523543570l/34684622._SY75_.jpg\" /></a><br/>\n                                      author: Walter Isaacson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.12<br/>\n                                      book published: 2017<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/01/21<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3786721927?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Thu, 21 Jan 2021 08:23:20 -0800"
-          },
-          "title": {
-            "_text": "Of Wolves and Men"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3786721927?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "743936"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347919044l/743936._SX50_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347919044l/743936._SX50_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347919044l/743936._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347919044l/743936.jpg"
-          },
-          "book_description": {
-            "_cdata": "<b>Originally published in 1978, this classic exploration of humanity’s complex relationship with and understanding of wolves returns with a new afterword by the author.</b><br /><br />Humankind's relationship with the wolf is the sum of a spectrum of responses ranging from fear to admiration and affection. Lopez’s classic, careful study has won praise from a wide range of reviewers and improved the way books on wild animals are written. <i>Of Wolves and Men</i> explores the uneasy interaction between wolves and civilization over the centuries, and the wolf's prominence in our thoughts about wild creatures. Drawing upon an impressive array of literature, history, science, and mythology as well as extensive personal experience with captive and free-ranging wolves, Lopez argues for the wolf's preservation and immerses the reader in its sensory world, creating a compelling portrait of the wolf both as a real animal and as imagined by different kinds of men. A scientist might perceive the wolf as defined by research data, while an Eskimo hunter sees a family provider much like himself. For many Native Americans the wolf is also a spiritual symbol, a respected animal that can strengthen the individual and the community. With irresistible charm and elegance, <i>Of Wolves and Men</i> celebrates careful scientific fieldwork, dispels folklore that has enabled the Western mind to demonize wolves, explains myths, and honors indigenous traditions, allowing us to understand how this remarkable animal has become so prominent for so long in the human heart."
-          },
-          "book": {
-            "_attributes": {
-              "id": "743936"
-            },
-            "num_pages": {
-              "_text": "320"
-            }
-          },
-          "author_name": {
-            "_text": "Barry  López"
-          },
-          "isbn": {
-            "_text": "0684163225"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Thu, 21 Jan 2021 08:23:20 -0800"
-          },
-          "user_date_created": {
-            "_cdata": "Thu, 21 Jan 2021 06:05:55 -0800"
-          },
-          "user_shelves": {
-            "_text": "on-deck"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.26"
-          },
-          "book_published": {
-            "_text": "1978"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/743936.Of_Wolves_and_Men?utm_medium=api&amp;utm_source=rss\"><img alt=\"Of Wolves and Men\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347919044l/743936._SX50_.jpg\" /></a><br/>\n                                      author: Barry  López<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.26<br/>\n                                      book published: 1978<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/01/21<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/603944065?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Mon, 18 Jan 2021 20:05:52 -0800"
-          },
-          "title": {
-            "_cdata": "So Good They Can't Ignore You: Why Skills Trump Passion in the Quest for Work You Love"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/603944065?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "13525945"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1360564614l/13525945._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1360564614l/13525945._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1360564614l/13525945._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1360564614l/13525945.jpg"
-          },
-          "book_description": {
-            "_cdata": "In this eye-opening account, Cal Newport debunks the long-held belief that \"follow your passion\" is good advice. <br /><br />Not only is the cliché flawed-preexisting passions are rare and have little to do with how most people end up loving their work-but it can also be dangerous, leading to anxiety and chronic job hopping.<br /><br />After making his case against passion, Newport sets out on a quest to discover the reality of how people end up loving what they do. Spending time with organic farmers, venture capitalists, screenwriters, freelance computer programmers, and others who admitted to deriving great satisfaction from their work, Newport uncovers the strategies they used and the pitfalls they avoided in developing their compelling careers.<br /><br />Matching your job to a preexisting passion does not matter, he reveals. Passion comes after you put in the hard work to become excellent at something valuable, not before. In other words, what you do for a living is much less important than how you do it.<br /><br />With a title taken from the comedian Steve Martin, who once said his advice for aspiring entertainers was to \"be so good they can't ignore you,\" Cal Newport's clearly written manifesto is mandatory reading for anyone fretting about what to do with their life, or frustrated by their current job situation and eager to find a fresh new way to take control of their livelihood. He provides an evidence-based blueprint for creating work you love.<br /><br /><i>So Good They Can't Ignore You</i> will change the way we think about our careers, happiness, and the crafting of a remarkable life."
-          },
-          "book": {
-            "_attributes": {
-              "id": "13525945"
-            },
-            "num_pages": {
-              "_text": "288"
-            }
-          },
-          "author_name": {
-            "_text": "Cal Newport"
-          },
-          "isbn": {
-            "_text": "1455509108"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "3"
-          },
-          "user_read_at": {
-            "_cdata": "Mon, 18 Jan 2021 20:04:23 -0800"
-          },
-          "user_date_added": {
-            "_cdata": "Mon, 18 Jan 2021 20:05:52 -0800"
-          },
-          "user_date_created": {
-            "_cdata": "Tue, 30 Apr 2013 16:26:55 -0700"
-          },
-          "user_shelves": {},
-          "user_review": {
-            "_cdata": "Some good ideas. A bit too anecdotal, for my taste."
-          },
-          "average_rating": {
-            "_text": "4.05"
-          },
-          "book_published": {
-            "_text": "2012"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/13525945-so-good-they-can-t-ignore-you?utm_medium=api&amp;utm_source=rss\"><img alt=\"So Good They Can&#39;t Ignore You: Why Skills Trump Passion in the Quest for Work You Love\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1360564614l/13525945._SY75_.jpg\" /></a><br/>\n                                      author: Cal Newport<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.05<br/>\n                                      book published: 2012<br/>\n                                      rating: 3<br/>\n                                      read at: 2021/01/18<br/>\n                                      date added: 2021/01/18<br/>\n                                      shelves: <br/>\n                                      review: <br/>Some good ideas. A bit too anecdotal, for my taste.<br/>\n                                      "
           }
         }
       ]

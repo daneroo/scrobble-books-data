@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Wed, 26 Jun 2019 01:05:09 -0700"
+        "_text": "Thu, 18 Jul 2019 01:55:06 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,292 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/2900778810?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Thu, 18 Jul 2019 01:55:06 -0700"
+          },
+          "title": {
+            "_text": "Fall or, Dodge in Hell"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/2900778810?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "35429993"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1543868021l/35429993._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1543868021l/35429993._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1543868021l/35429993._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1543868021l/35429993.jpg"
+          },
+          "book_description": {
+            "_cdata": "<p>The #1 <em>New York Times</em> bestselling author of <em>Seveneves, Anathem, Reamde</em>, and <em>Cryptonomicon</em> returns with a wildly inventive and entertaining science fiction thriller—<em>Paradise Lost</em> by way of Phillip K. Dick—that unfolds in the near future, in parallel worlds.<br /><br />In his youth, Richard “Dodge” Forthrast founded Corporation 9592, a gaming company that made him a multibillionaire. Now in his middle years, Dodge appreciates his comfortable, unencumbered life, managing his myriad business interests, and spending time with his beloved niece Zula and her young daughter, Sophia. </p><p>One beautiful autumn day, while he undergoes a routine medical procedure, something goes irrevocably wrong. Dodge is pronounced brain dead and put on life support, leaving his stunned family and close friends with difficult decisions. Long ago, when a much younger Dodge drew up his will, he directed that his body be given to a cryonics company now owned by enigmatic tech entrepreneur Elmo Shepherd. Legally bound to follow the directive despite their misgivings, Dodge’s family has his brain scanned and its data structures uploaded and stored in the cloud, until it can eventually be revived. </p><p>In the coming years, technology allows Dodge’s brain to be turned back on. It is an achievement that is nothing less than the disruption of death itself. An eternal afterlife—the Bitworld—is created, in which humans continue to exist as digital souls. </p><p>But this brave new immortal world is not the Utopia it might first seem . . . </p><p><em>Fall, or Dodge in Hell</em> is pure, unadulterated fun: a grand drama of analog and digital, man and machine, angels and demons, gods and followers, the finite and the eternal. In this exhilarating epic, Neal Stephenson raises profound existential questions and touches on the revolutionary breakthroughs that are transforming our future. Combining the technological, philosophical, and spiritual in one grand myth, he delivers a mind-blowing speculative literary saga for the modern age.</p>"
+          },
+          "book": {
+            "_attributes": {
+              "id": "35429993"
+            },
+            "num_pages": {
+              "_text": "896"
+            }
+          },
+          "author_name": {
+            "_text": "Neal Stephenson"
+          },
+          "isbn": {
+            "_text": "0062458736"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Thu, 18 Jul 2019 01:55:06 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Thu, 18 Jul 2019 01:55:06 -0700"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.44"
+          },
+          "book_published": {
+            "_text": "2019"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/35429993-fall-or-dodge-in-hell?utm_medium=api&amp;utm_source=rss\"><img alt=\"Fall or, Dodge in Hell\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1543868021l/35429993._SY75_.jpg\" /></a><br/>\n                                      author: Neal Stephenson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.44<br/>\n                                      book published: 2019<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2019/07/18<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/2900639710?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Wed, 17 Jul 2019 21:56:47 -0700"
+          },
+          "title": {
+            "_cdata": "The Fabric of Reality: The Science of Parallel Universes--and Its Implications"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/2900639710?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "177068"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348344833l/177068._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348344833l/177068._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348344833l/177068._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348344833l/177068.jpg"
+          },
+          "book_description": {
+            "_cdata": "For David Deutsch, a young physicist of unusual originality, quantum theory contains our most fundamental knowledge of the physical world. Taken literally, it implies that there are many universes “parallel” to the one we see around us. This multiplicity of universes, according to Deutsch, turns out to be the key to achieving a new worldview, one which synthesizes the theories of evolution, computation, and knowledge with quantum physics. Considered jointly, these four strands of explanation reveal a unified fabric of reality that is both objective and comprehensible, the subject of this daring, challenging book. The Fabric of Reality explains and connects many topics at the leading edge of current research and thinking, such as quantum computers (which work by effectively collaborating with their counterparts in other universes), the physics of time travel, the comprehensibility of nature and the physical limits of virtual reality, the significance of human life, and the ultimate fate of the universe. Here, for scientist and layperson alike, for philosopher, science-fiction reader, biologist, and computer expert, is a startlingly complete and rational synthesis of disciplines, and a new, optimistic message about existence."
+          },
+          "book": {
+            "_attributes": {
+              "id": "177068"
+            },
+            "num_pages": {
+              "_text": "400"
+            }
+          },
+          "author_name": {
+            "_text": "David Deutsch"
+          },
+          "isbn": {
+            "_text": "014027541X"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Wed, 17 Jul 2019 21:56:47 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Wed, 17 Jul 2019 21:56:47 -0700"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.11"
+          },
+          "book_published": {
+            "_text": "1996"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/177068.The_Fabric_of_Reality?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Fabric of Reality: The Science of Parallel Universes--and Its Implications\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348344833l/177068._SY75_.jpg\" /></a><br/>\n                                      author: David Deutsch<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.11<br/>\n                                      book published: 1996<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2019/07/17<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/2898947012?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Tue, 16 Jul 2019 17:21:02 -0700"
+          },
+          "title": {
+            "_cdata": "Viking Economics: How the Scandinavians Got It Right-and How We Can, Too"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/2898947012?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "27774366"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1466990423l/27774366._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1466990423l/27774366._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1466990423l/27774366._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1466990423l/27774366.jpg"
+          },
+          "book_description": {
+            "_cdata": "<b>An academic and activist takes an entertaining look at the Nordic welfare state—and shows us how we, too, can have a far more equal and just economic system</b><br /><br />In America, many Democrats invoke Scandinavia as a promised land of equality, while most Republicans fear it as a hotbed of liberty-threatening socialism. But the left and right can usually agree on one thing: that the Nordic system is impossible to replicate here at home. The US is too big, or too individualistic, or too puritan, or too . . . something. Whatever the reason, it's impossible, and we shouldn't bother to try.<br /><br />Enter George Lakey. A longtime activist and academic, Lakey has spent decades studying the economies of Denmark, Sweden, Norway, Finland, and Iceland, and in <i>Viking Economics,</i> he reveals that Scandinavia's deep commitment to the welfare state is much more recent than we think. Not long ago, Scandinavia was a far more unequal place, with a much weaker commitment to the social welfare of its citizens. There's nothing inherently Scandinavian about greater equality . . . so why not try it here?<br /><br /><i>Viking Economics</i> is more fun and entertaining than any economics book you've ever read. And, very possibly, more convincing! As he ranges from twentieth-century Norwegian history to the details of Swedish childcare policies, Lakey never loses his sense of humor or his expansive, generous vision of a better, more equal future. By explaining that even Scandinavia's grandest experiments in social equality are rooted in recent political struggles, Lakey explains shows how we can do it, too—conventional wisdom be damned.<br /><br /><br /><i>From the Hardcover edition.</i>"
+          },
+          "book": {
+            "_attributes": {
+              "id": "27774366"
+            },
+            "num_pages": {}
+          },
+          "author_name": {
+            "_text": "George Lakey"
+          },
+          "isbn": {
+            "_text": "1612195377"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Tue, 16 Jul 2019 17:21:02 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Tue, 16 Jul 2019 17:21:02 -0700"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.83"
+          },
+          "book_published": {
+            "_text": "2016"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/27774366-viking-economics?utm_medium=api&amp;utm_source=rss\"><img alt=\"Viking Economics: How the Scandinavians Got It Right-and How We Can, Too\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1466990423l/27774366._SY75_.jpg\" /></a><br/>\n                                      author: George Lakey<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.83<br/>\n                                      book published: 2016<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2019/07/16<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/2898909751?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Tue, 16 Jul 2019 16:45:30 -0700"
+          },
+          "title": {
+            "_cdata": "Parallel Worlds: A Journey through Creation, Higher Dimensions, and the Future of the Cosmos"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/2898909751?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "33418"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1435244003l/33418._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1435244003l/33418._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1435244003l/33418._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1435244003l/33418._SY475_.jpg"
+          },
+          "book_description": {
+            "_cdata": "In this thrilling journey into the mysteries of our cosmos, bestselling author Michio Kaku takes us on a dizzying ride to explore black holes and time machines, multidimensional space and, most tantalizing of all, the possibility that parallel universes may lay alongside our own. Kaku skillfully guides us through the latest innovations in string theory and its latest iteration, M-theory, which posits that our universe may be just one in an endless multiverse, a singular bubble floating in a sea of infinite bubble universes. If M-theory is proven correct, we may perhaps finally find answer to the question, “What happened before the big bang?” This is an exciting and unforgettable introduction into the new cutting-edge theories of physics and cosmology from one of the pre-eminent voices in the field."
+          },
+          "book": {
+            "_attributes": {
+              "id": "33418"
+            },
+            "num_pages": {
+              "_text": "361"
+            }
+          },
+          "author_name": {
+            "_text": "Michio Kaku"
+          },
+          "isbn": {
+            "_text": "1400033721"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Tue, 16 Jul 2019 16:45:30 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Tue, 16 Jul 2019 16:45:30 -0700"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.20"
+          },
+          "book_published": {
+            "_text": "2004"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/33418.Parallel_Worlds?utm_medium=api&amp;utm_source=rss\"><img alt=\"Parallel Worlds: A Journey through Creation, Higher Dimensions, and the Future of the Cosmos\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1435244003l/33418._SY75_.jpg\" /></a><br/>\n                                      author: Michio Kaku<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.20<br/>\n                                      book published: 2004<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2019/07/16<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/2848106033?utm_medium=api&utm_source=rss"
@@ -6910,294 +7196,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/5544.Surely_You_re_Joking_Mr_Feynman_?utm_medium=api&amp;utm_source=rss\"><img alt=\"Surely You&#39;re Joking, Mr. Feynman!: Adventures of a Curious Character\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348445281l/5544._SY75_.jpg\" /></a><br/>\n                                      author: Richard P. Feynman<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.27<br/>\n                                      book published: 1985<br/>\n                                      rating: 4<br/>\n                                      read at: <br/>\n                                      date added: 2013/09/02<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/697700142?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Mon, 02 Sep 2013 17:25:31 -0700"
-          },
-          "title": {
-            "_cdata": "QED: The Strange Theory of Light and Matter"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/697700142?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "5552"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386920718l/5552._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386920718l/5552._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386920718l/5552._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386920718l/5552.jpg"
-          },
-          "book_description": {
-            "_cdata": "Famous the world over for the creative brilliance of his insights into the physical world, Nobel Prize-winning physicist Richard Feynman also possessed an extraordinary talent for explaining difficult concepts to the nonscientist. QED--the edited version of four lectures on quantum electrodynamics that Feynman gave to the general public at UCLA as part of the Alix G. Mautner Memorial Lecture series--is perhaps the best example of his ability to communicate both the substance and the spirit of science to the layperson.<br /><br />The focus, as the title suggests, is quantum electrodynamics (QED), the part of the quantum theory of fields that describes the interactions of the quanta of the electromagnetic field-light, X rays, gamma rays--with matter and those of charged particles with one another. By extending the formalism developed by Dirac in 1933, which related quantum and classical descriptions of the motion of particles, Feynman revolutionized the quantum mechanical understanding of the nature of particles and waves. And, by incorporating his own readily visualizable formulation of quantum mechanics, Feynman created a diagrammatic version of QED that made calculations much simpler and also provided visual insights into the mechanisms of quantum electrodynamic processes.<br /><br />In this book, using everyday language, spatial concepts, visualizations, and his renowned \"Feynman diagrams\" instead of advanced mathematics, Feynman successfully provides a definitive introduction to QED for a lay readership without any distortion of the basic science. Characterized by Feynman's famously original clarity and humor, this popular book on QED has not been equaled since its publication."
-          },
-          "book": {
-            "_attributes": {
-              "id": "5552"
-            },
-            "num_pages": {
-              "_text": "158"
-            }
-          },
-          "author_name": {
-            "_text": "Richard P. Feynman"
-          },
-          "isbn": {
-            "_text": "0691024170"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "4"
-          },
-          "user_read_at": {
-            "_cdata": "Mon, 02 Sep 2013 17:25:31 -0700"
-          },
-          "user_date_added": {
-            "_cdata": "Mon, 02 Sep 2013 17:25:31 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Sat, 17 Aug 2013 23:44:12 -0700"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.24"
-          },
-          "book_published": {
-            "_text": "1985"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/5552.QED?utm_medium=api&amp;utm_source=rss\"><img alt=\"QED: The Strange Theory of Light and Matter\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386920718l/5552._SY75_.jpg\" /></a><br/>\n                                      author: Richard P. Feynman<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.24<br/>\n                                      book published: 1985<br/>\n                                      rating: 4<br/>\n                                      read at: 2013/09/02<br/>\n                                      date added: 2013/09/02<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/697701841?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sat, 17 Aug 2013 23:49:05 -0700"
-          },
-          "title": {
-            "_cdata": "Flashman (The Flashman Papers, #1)"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/697701841?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "142458"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320656064l/142458._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320656064l/142458._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320656064l/142458._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320656064l/142458.jpg"
-          },
-          "book_description": {
-            "_cdata": "Coward, scoundrel, lover and cheat, but there is no better man to go into the jungle with. Join Flashman in his adventures as he survives fearful ordeals and outlandish perils across the four corners of the world.<br /><br />Can a man be all bad? When Harry Flashman’s adventures as the reluctant secret agent in Afghanistan lead him to join the exclusive company of Lord Cardigan’s Hussars and play a part in the disastrous Retreat from Kabul, it culminates in the rascal’s finest – and most dishonest – turn."
-          },
-          "book": {
-            "_attributes": {
-              "id": "142458"
-            },
-            "num_pages": {
-              "_text": "323"
-            }
-          },
-          "author_name": {
-            "_text": "George MacDonald Fraser"
-          },
-          "isbn": {
-            "_text": "0006511252"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Sat, 17 Aug 2013 23:49:05 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Sat, 17 Aug 2013 23:49:04 -0700"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.08"
-          },
-          "book_published": {
-            "_text": "1969"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/142458.Flashman?utm_medium=api&amp;utm_source=rss\"><img alt=\"Flashman (The Flashman Papers, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320656064l/142458._SY75_.jpg\" /></a><br/>\n                                      author: George MacDonald Fraser<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.08<br/>\n                                      book published: 1969<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2013/08/17<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/671888077?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Fri, 19 Jul 2013 12:56:00 -0700"
-          },
-          "title": {
-            "_cdata": "The Non-Designer's Design Book"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/671888077?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "41597"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442616448l/41597._SX50_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442616448l/41597._SX50_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442616448l/41597._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442616448l/41597._SX318_.jpg"
-          },
-          "book_description": {
-            "_cdata": "So you have a great concept and all the fancy digital tools you could possibly require—what's stopping you from creating beautiful pages? Namely the training to pull all of these elements together into a cohesive design that effectively communicates your message. Not to worry: This book is the one place you can turn to find quick, non-intimidating, excellent design help. In <b>The Non-Designer's Design Book, 2nd Edition</b>, best-selling author <b>Robin Williams</b> turns her attention to the basic principles of good design and typography. All you have to do is follow her clearly explained concepts, and you'll begin producing more sophisticated, professional, and interesting pages immediately. Humor-infused, jargon-free prose interspersed with design exercises, quizzes, illustrations, and dozens of examples make learning a snap—which is just what audiences have come to expect from this best-selling author."
-          },
-          "book": {
-            "_attributes": {
-              "id": "41597"
-            },
-            "num_pages": {
-              "_text": "191"
-            }
-          },
-          "author_name": {
-            "_text": "Robin P. Williams"
-          },
-          "isbn": {
-            "_text": "0321193857"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Fri, 19 Jul 2013 12:56:00 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Fri, 19 Jul 2013 12:56:00 -0700"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.07"
-          },
-          "book_published": {
-            "_text": "2011"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/41597.The_Non_Designer_s_Design_Book?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Non-Designer&#39;s Design Book\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442616448l/41597._SX50_.jpg\" /></a><br/>\n                                      author: Robin P. Williams<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.07<br/>\n                                      book published: 2011<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2013/07/19<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/637416852?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Thu, 27 Jun 2013 00:05:17 -0700"
-          },
-          "title": {
-            "_cdata": "The Winter King (The Warlord Chronicles, #1)"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/637416852?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "68520"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1311987677l/68520._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1311987677l/68520._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1311987677l/68520._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1311987677l/68520.jpg"
-          },
-          "book_description": {
-            "_cdata": "Uther, the High King, has died, leaving the infant Mordred as his only heir. His uncle, the loyal and gifted warlord Arthur, now rules as caretaker for a country which has fallen into chaos - threats emerge from within the British kingdoms while vicious Saxon armies stand ready to invade. As he struggles to unite Britain and hold back the enemy at the gates, Arthur is embroiled in a doomed romance with beautiful Guinevere. Will the old-world magic of Merlin be enough to turn the tide of war in his favour?"
-          },
-          "book": {
-            "_attributes": {
-              "id": "68520"
-            },
-            "num_pages": {
-              "_text": "433"
-            }
-          },
-          "author_name": {
-            "_text": "Bernard Cornwell"
-          },
-          "isbn": {
-            "_text": "0312156960"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "4"
-          },
-          "user_read_at": {
-            "_cdata": "Thu, 27 Jun 2013 00:05:17 -0700"
-          },
-          "user_date_added": {
-            "_cdata": "Thu, 27 Jun 2013 00:05:17 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Sun, 09 Jun 2013 17:18:27 -0700"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.25"
-          },
-          "book_published": {
-            "_text": "1995"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/68520.The_Winter_King?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Winter King (The Warlord Chronicles, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1311987677l/68520._SY75_.jpg\" /></a><br/>\n                                      author: Bernard Cornwell<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.25<br/>\n                                      book published: 1995<br/>\n                                      rating: 4<br/>\n                                      read at: 2013/06/27<br/>\n                                      date added: 2013/06/27<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]
