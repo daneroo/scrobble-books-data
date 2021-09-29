@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Fri, 22 Jan 2021 14:08:06 -0800"
+        "_text": "Fri, 22 Jan 2021 20:42:20 -0800"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,76 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3790244154?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Fri, 22 Jan 2021 20:42:20 -0800"
+          },
+          "title": {
+            "_text": "The White Tiger"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3790244154?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "1768603"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347754998l/1768603._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347754998l/1768603._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347754998l/1768603._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347754998l/1768603.jpg"
+          },
+          "book_description": {
+            "_cdata": "Introducing a major literary talent, The White Tiger offers a story of coruscating wit, blistering suspense, and questionable morality, told by the most volatile, captivating, and utterly inimitable narrator that this millennium has yet seen. <br /><br />Balram Halwai is a complicated man. Servant. Philosopher. Entrepreneur. Murderer. Over the course of seven nights, by the scattered light of a preposterous chandelier, Balram tells us the terrible and transfixing story of how he came to be a success in life—having nothing but his own wits to help him along. <br /><br />Born in the dark heart of India, Balram gets a break when he is hired as a driver for his village's wealthiest man, two house Pomeranians (Puddles and Cuddles), and the rich man's (very unlucky) son. From behind the wheel of their Honda City car, Balram's new world is a revelation. While his peers flip through the pages of Murder Weekly (\"Love -- Rape -- Revenge!\"), barter for girls, drink liquor (Thunderbolt), and perpetuate the Great Rooster Coop of Indian society, Balram watches his employers bribe foreign ministers for tax breaks, barter for girls, drink liquor (single-malt whiskey), and play their own role in the Rooster Coop. Balram learns how to siphon gas, deal with corrupt mechanics, and refill and resell Johnnie Walker Black Label bottles (all but one). He also finds a way out of the Coop that no one else inside it can perceive. <br /><br />Balram's eyes penetrate India as few outsiders can: the cockroaches and the call centers; the prostitutes and the worshippers; the ancient and Internet cultures; the water buffalo and, trapped in so many kinds of cages that escape is (almost) impossible, the white tiger. And with a charisma as undeniable as it is unexpected, Balram teaches us that religion doesn't create virtue, and money doesn't solve every problem -- but decency can still be found in a corrupt world, and you can get what you want out of life if you eavesdrop on the right conversations. <br /><br />The White Tiger recalls The Death of Vishnu and Bangkok 8 in ambition, scope, and narrative genius, with a mischief and personality all its own. Amoral, irreverent, deeply endearing, and utterly contemporary, this novel is an international publishing sensation —and a startling, provocative debut."
+          },
+          "book": {
+            "_attributes": {
+              "id": "1768603"
+            },
+            "num_pages": {
+              "_text": "276"
+            }
+          },
+          "author_name": {
+            "_text": "Aravind Adiga"
+          },
+          "isbn": {
+            "_text": "1416562591"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Fri, 22 Jan 2021 20:42:20 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Fri, 22 Jan 2021 20:41:24 -0800"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.74"
+          },
+          "book_published": {
+            "_text": "2008"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/1768603.The_White_Tiger?utm_medium=api&amp;utm_source=rss\"><img alt=\"The White Tiger\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347754998l/1768603._SY75_.jpg\" /></a><br/>\n                                      author: Aravind Adiga<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.74<br/>\n                                      book published: 2008<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/01/22<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/2862309502?utm_medium=api&utm_source=rss"
@@ -7114,78 +7184,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/61539.The_Structure_of_Scientific_Revolutions?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Structure of Scientific Revolutions\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1396422530l/61539._SY75_.jpg\" /></a><br/>\n                                      author: Thomas S. Kuhn<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.02<br/>\n                                      book published: 1962<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2019/07/26<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/2902052245?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Thu, 18 Jul 2019 23:28:52 -0700"
-          },
-          "title": {
-            "_text": "Geometry and the Imagination "
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/2902052245?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "719289"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1387723132l/719289._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1387723132l/719289._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1387723132l/719289._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1387723132l/719289.jpg"
-          },
-          "book_description": {
-            "_cdata": "Suitable for beginners and experienced mathematicians, this book begins with examples of the simplest curves and surfaces, including thread constructions of certain quadrics and other surfaces. It offers a discussion of linkages and the geometry of configurations of points and rods that are connected and, perhaps, constrained in some way."
-          },
-          "book": {
-            "_attributes": {
-              "id": "719289"
-            },
-            "num_pages": {
-              "_text": "357"
-            }
-          },
-          "author_name": {
-            "_text": "David Hilbert"
-          },
-          "isbn": {
-            "_text": "0821819984"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Thu, 18 Jul 2019 23:28:52 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Thu, 18 Jul 2019 23:28:52 -0700"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.52"
-          },
-          "book_published": {
-            "_text": "1932"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/719289.Geometry_and_the_Imagination?utm_medium=api&amp;utm_source=rss\"><img alt=\"Geometry and the Imagination \" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1387723132l/719289._SY75_.jpg\" /></a><br/>\n                                      author: David Hilbert<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.52<br/>\n                                      book published: 1932<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2019/07/18<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

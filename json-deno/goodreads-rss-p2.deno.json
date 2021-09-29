@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Mon, 24 May 2021 23:21:07 -0700"
+        "_text": "Tue, 25 May 2021 16:57:17 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4021955578?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Tue, 25 May 2021 16:57:17 -0700"
+          },
+          "title": {
+            "_cdata": "In the Plex: How Google Thinks, Works, and Shapes Our Lives"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4021955578?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "7841446"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442810207l/7841446._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442810207l/7841446._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442810207l/7841446._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442810207l/7841446._SY475_.jpg"
+          },
+          "book_description": {
+            "_cdata": "Written with full cooperation from top management, including cofounders Sergey Brin and Larry Page, this is the inside story behind Google, the most successful and most admired technology company of our time, told by one of our best technology writers.<br /><br />Few companies in history have ever been as successful and as admired as Google, the company that has transformed the Internet and become an indispensable part of our lives. How has Google done it? Veteran technology reporter Steven Levy was granted unprecedented access to the company, and in this revelatory book he takes readers inside Google headquarters—the Googleplex—to show how Google works.<br /><br />While they were still students at Stanford, Google cofounders Larry Page and Sergey Brin revolutionized Internet search. They followed this brilliant innovation with another, as two of Google’s earliest employees found a way to do what no one else had: make billions of dollars from Internet advertising. With this cash cow, Google was able to expand dramatically and take on other transformative projects: more efficient data centers, open-source cell phones, free Internet video (YouTube), cloud computing, digitizing books, and much more.<br /><br />The key to Google’s success in all these businesses, Levy reveals, is its engineering mind-set and adoption of such Internet values as speed, openness, experimentation, and risk taking. After its unapologetically elitist approach to hiring, Google pampers its engineers—free food and dry cleaning, on-site doctors and masseuses—and gives them all the resources they need to succeed. Even today, with a workforce of more than 23,000, Larry Page signs off on every hire.<br /><br />But has Google lost its innovative edge? With its newest initiative, social networking, Google is chasing a successful competitor for the first time. Some employees are leaving the company for smaller, nimbler start-ups. Can the company that famously decided not to be evil still compete?<br /><br />No other book has ever turned Google inside out as Levy does with In the Plex."
+          },
+          "book": {
+            "_attributes": {
+              "id": "7841446"
+            },
+            "num_pages": {
+              "_text": "432"
+            }
+          },
+          "author_name": {
+            "_text": "Steven Levy"
+          },
+          "isbn": {
+            "_text": "1416596585"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Tue, 25 May 2021 16:57:17 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Tue, 25 May 2021 16:57:17 -0700"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.81"
+          },
+          "book_published": {
+            "_text": "2011"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/7841446-in-the-plex?utm_medium=api&amp;utm_source=rss\"><img alt=\"In the Plex: How Google Thinks, Works, and Shapes Our Lives\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442810207l/7841446._SY75_.jpg\" /></a><br/>\n                                      author: Steven Levy<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.81<br/>\n                                      book published: 2011<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/05/25<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/1025240195?utm_medium=api&utm_source=rss"
@@ -7146,76 +7218,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/844573.God_and_Man_at_Yale?utm_medium=api&amp;utm_source=rss\"><img alt=\"God and Man at Yale: The Superstitions of &#39;Academic Freedom&#39;\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1564753030l/844573._SX50_.jpg\" /></a><br/>\n                                      author: William F. Buckley Jr.<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.70<br/>\n                                      book published: 1951<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/01/30<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3790244154?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Fri, 22 Jan 2021 20:42:20 -0800"
-          },
-          "title": {
-            "_text": "The White Tiger"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3790244154?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "1768603"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347754998l/1768603._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347754998l/1768603._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347754998l/1768603._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347754998l/1768603.jpg"
-          },
-          "book_description": {
-            "_cdata": "Introducing a major literary talent, The White Tiger offers a story of coruscating wit, blistering suspense, and questionable morality, told by the most volatile, captivating, and utterly inimitable narrator that this millennium has yet seen. <br /><br />Balram Halwai is a complicated man. Servant. Philosopher. Entrepreneur. Murderer. Over the course of seven nights, by the scattered light of a preposterous chandelier, Balram tells us the terrible and transfixing story of how he came to be a success in life—having nothing but his own wits to help him along. <br /><br />Born in the dark heart of India, Balram gets a break when he is hired as a driver for his village's wealthiest man, two house Pomeranians (Puddles and Cuddles), and the rich man's (very unlucky) son. From behind the wheel of their Honda City car, Balram's new world is a revelation. While his peers flip through the pages of Murder Weekly (\"Love -- Rape -- Revenge!\"), barter for girls, drink liquor (Thunderbolt), and perpetuate the Great Rooster Coop of Indian society, Balram watches his employers bribe foreign ministers for tax breaks, barter for girls, drink liquor (single-malt whiskey), and play their own role in the Rooster Coop. Balram learns how to siphon gas, deal with corrupt mechanics, and refill and resell Johnnie Walker Black Label bottles (all but one). He also finds a way out of the Coop that no one else inside it can perceive. <br /><br />Balram's eyes penetrate India as few outsiders can: the cockroaches and the call centers; the prostitutes and the worshippers; the ancient and Internet cultures; the water buffalo and, trapped in so many kinds of cages that escape is (almost) impossible, the white tiger. And with a charisma as undeniable as it is unexpected, Balram teaches us that religion doesn't create virtue, and money doesn't solve every problem -- but decency can still be found in a corrupt world, and you can get what you want out of life if you eavesdrop on the right conversations. <br /><br />The White Tiger recalls The Death of Vishnu and Bangkok 8 in ambition, scope, and narrative genius, with a mischief and personality all its own. Amoral, irreverent, deeply endearing, and utterly contemporary, this novel is an international publishing sensation —and a startling, provocative debut."
-          },
-          "book": {
-            "_attributes": {
-              "id": "1768603"
-            },
-            "num_pages": {
-              "_text": "276"
-            }
-          },
-          "author_name": {
-            "_text": "Aravind Adiga"
-          },
-          "isbn": {
-            "_text": "1416562591"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Fri, 22 Jan 2021 20:42:20 -0800"
-          },
-          "user_date_created": {
-            "_cdata": "Fri, 22 Jan 2021 20:41:24 -0800"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "3.74"
-          },
-          "book_published": {
-            "_text": "2008"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/1768603.The_White_Tiger?utm_medium=api&amp;utm_source=rss\"><img alt=\"The White Tiger\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347754998l/1768603._SY75_.jpg\" /></a><br/>\n                                      author: Aravind Adiga<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.74<br/>\n                                      book published: 2008<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/01/22<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]
