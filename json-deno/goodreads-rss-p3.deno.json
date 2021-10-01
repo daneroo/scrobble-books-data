@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Fri, 22 Jan 2021 20:42:20 -0800"
+        "_text": "Sat, 30 Jan 2021 21:57:47 -0800"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3807866045?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sat, 30 Jan 2021 21:57:47 -0800"
+          },
+          "title": {
+            "_cdata": "God and Man at Yale: The Superstitions of 'Academic Freedom'"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3807866045?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "844573"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1564753030l/844573._SX50_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1564753030l/844573._SX50_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1564753030l/844573._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1564753030l/844573._SX318_.jpg"
+          },
+          "book_description": {
+            "_cdata": "In 1951, a twenty-five-year old Yale graduate published his first book, which exposed the extraordinarily irresponsible educational attitude that prevailed at his alma mater. This book rocked the academic world and catapulted its young author, William F. Buckley Jr., into the public spotlight."
+          },
+          "book": {
+            "_attributes": {
+              "id": "844573"
+            },
+            "num_pages": {
+              "_text": "240"
+            }
+          },
+          "author_name": {
+            "_text": "William F. Buckley Jr."
+          },
+          "isbn": {
+            "_text": "089526692X"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Sat, 30 Jan 2021 21:57:47 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Sat, 30 Jan 2021 21:57:47 -0800"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.70"
+          },
+          "book_published": {
+            "_text": "1951"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/844573.God_and_Man_at_Yale?utm_medium=api&amp;utm_source=rss\"><img alt=\"God and Man at Yale: The Superstitions of &#39;Academic Freedom&#39;\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1564753030l/844573._SX50_.jpg\" /></a><br/>\n                                      author: William F. Buckley Jr.<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.70<br/>\n                                      book published: 1951<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/01/30<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/3790244154?utm_medium=api&utm_source=rss"
@@ -7112,78 +7184,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/6932.What_Color_Is_Your_Parachute_A_Practical_Manual_for_Job_Hunters_and_Career_Changers?utm_medium=api&amp;utm_source=rss\"><img alt=\"What Color Is Your Parachute? A Practical Manual for Job-Hunters and Career-Changers\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386924534l/6932._SY75_.jpg\" /></a><br/>\n                                      author: Richard Nelson Bolles<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.56<br/>\n                                      book published: 1970<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2019/08/07<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/2912571171?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Fri, 26 Jul 2019 20:57:00 -0700"
-          },
-          "title": {
-            "_cdata": "The Structure of Scientific Revolutions"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/2912571171?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "61539"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1396422530l/61539._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1396422530l/61539._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1396422530l/61539._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1396422530l/61539.jpg"
-          },
-          "book_description": {
-            "_cdata": "<div>Thomas S. Kuhn's classic book is now available with a new index.</div><div> </div><div>\"A landmark in intellectual history which has attracted attention far beyond its own immediate field. . . . It is written with a combination of depth and clarity that make it an almost unbroken series of aphorisms. . . . Kuhn does not permit truth to be a criterion of scientific theories, he would presumably not claim his own theory to be true. But if causing a revolution is the hallmark of a superior paradigm, [this book] has been a resounding success.\" Nicholas Wade, <i>Science</i></div><div> </div><div>\"Perhaps the best explanation of [the] process of discovery.\" William Erwin Thompson, <i>New York Times Book Review</i></div><div> </div><div>\"Occasionally there emerges a book which has an influence far beyond its originally intended audience. . . . Thomas Kuhn's <i>The Structure of </i><i>Scientific Revolutions</i> . . . has clearly emerged as just such a work.\" Ron Johnston, <i>Times Higher Education Supplement</i></div><div> </div><div>\"Among the most influential academic books in this century.\" <i>Choice</i></div><div> </div><div>One of \"The Hundred Most Influential Books Since the Second World War,\" <i>Times Literary Supplement</i></div><div><i></i> </div>"
-          },
-          "book": {
-            "_attributes": {
-              "id": "61539"
-            },
-            "num_pages": {
-              "_text": "226"
-            }
-          },
-          "author_name": {
-            "_text": "Thomas S. Kuhn"
-          },
-          "isbn": {
-            "_text": "0226458083"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Fri, 26 Jul 2019 20:57:00 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Fri, 26 Jul 2019 20:57:00 -0700"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.02"
-          },
-          "book_published": {
-            "_text": "1962"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/61539.The_Structure_of_Scientific_Revolutions?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Structure of Scientific Revolutions\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1396422530l/61539._SY75_.jpg\" /></a><br/>\n                                      author: Thomas S. Kuhn<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.02<br/>\n                                      book published: 1962<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2019/07/26<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

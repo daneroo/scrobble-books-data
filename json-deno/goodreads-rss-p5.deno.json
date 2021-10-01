@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Mon, 02 Sep 2013 17:28:26 -0700"
+        "_text": "Thu, 12 Sep 2013 11:51:00 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/718021641?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Thu, 12 Sep 2013 11:51:00 -0700"
+          },
+          "title": {
+            "_text": "Instant AppFog"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/718021641?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "18482905"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1378958837l/18482905._SX50_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1378958837l/18482905._SX50_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1378958837l/18482905._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1378958837l/18482905.jpg"
+          },
+          "book_description": {
+            "_cdata": "Instant AppFog Starter is a step-by-step guide that will provide you with all the information you need to deploy applications to AppFog. This book will teach you how to use the AppFog platform to scale, maintain, and manage your application on the cloud. This starter book provides easy to understand steps to deploy, implement your application on the AppFog platform, as well as knowledge about the community around it."
+          },
+          "book": {
+            "_attributes": {
+              "id": "18482905"
+            },
+            "num_pages": {
+              "_text": "58"
+            }
+          },
+          "author_name": {
+            "_text": "Pau Kiat Wee"
+          },
+          "isbn": {
+            "_text": "1782167625"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "3"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Thu, 12 Sep 2013 11:51:00 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Thu, 12 Sep 2013 11:49:52 -0700"
+          },
+          "user_shelves": {},
+          "user_review": {
+            "_cdata": "This succinct little book, was a nice companion to diving into deployment onto the AppFog PaaS.<br />The book is centered around deploying a rails app. (I think I would have preferred node personally).<br />All in all a practical little companion."
+          },
+          "average_rating": {
+            "_text": "4.00"
+          },
+          "book_published": {
+            "_text": "2013"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/18482905-instant-appfog?utm_medium=api&amp;utm_source=rss\"><img alt=\"Instant AppFog\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1378958837l/18482905._SX50_.jpg\" /></a><br/>\n                                      author: Pau Kiat Wee<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.00<br/>\n                                      book published: 2013<br/>\n                                      rating: 3<br/>\n                                      read at: <br/>\n                                      date added: 2013/09/12<br/>\n                                      shelves: <br/>\n                                      review: <br/>This succinct little book, was a nice companion to diving into deployment onto the AppFog PaaS.<br />The book is centered around deploying a rails app. (I think I would have preferred node personally).<br />All in all a practical little companion.<br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/710070244?utm_medium=api&utm_source=rss"

@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Thu, 18 Jul 2019 23:28:52 -0700"
+        "_text": "Fri, 26 Jul 2019 20:57:00 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/2912571171?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Fri, 26 Jul 2019 20:57:00 -0700"
+          },
+          "title": {
+            "_cdata": "The Structure of Scientific Revolutions"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/2912571171?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "61539"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1396422530l/61539._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1396422530l/61539._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1396422530l/61539._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1396422530l/61539.jpg"
+          },
+          "book_description": {
+            "_cdata": "<div>Thomas S. Kuhn's classic book is now available with a new index.</div><div> </div><div>\"A landmark in intellectual history which has attracted attention far beyond its own immediate field. . . . It is written with a combination of depth and clarity that make it an almost unbroken series of aphorisms. . . . Kuhn does not permit truth to be a criterion of scientific theories, he would presumably not claim his own theory to be true. But if causing a revolution is the hallmark of a superior paradigm, [this book] has been a resounding success.\" Nicholas Wade, <i>Science</i></div><div> </div><div>\"Perhaps the best explanation of [the] process of discovery.\" William Erwin Thompson, <i>New York Times Book Review</i></div><div> </div><div>\"Occasionally there emerges a book which has an influence far beyond its originally intended audience. . . . Thomas Kuhn's <i>The Structure of </i><i>Scientific Revolutions</i> . . . has clearly emerged as just such a work.\" Ron Johnston, <i>Times Higher Education Supplement</i></div><div> </div><div>\"Among the most influential academic books in this century.\" <i>Choice</i></div><div> </div><div>One of \"The Hundred Most Influential Books Since the Second World War,\" <i>Times Literary Supplement</i></div><div><i></i> </div>"
+          },
+          "book": {
+            "_attributes": {
+              "id": "61539"
+            },
+            "num_pages": {
+              "_text": "226"
+            }
+          },
+          "author_name": {
+            "_text": "Thomas S. Kuhn"
+          },
+          "isbn": {
+            "_text": "0226458083"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Fri, 26 Jul 2019 20:57:00 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Fri, 26 Jul 2019 20:57:00 -0700"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.02"
+          },
+          "book_published": {
+            "_text": "1962"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/61539.The_Structure_of_Scientific_Revolutions?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Structure of Scientific Revolutions\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1396422530l/61539._SY75_.jpg\" /></a><br/>\n                                      author: Thomas S. Kuhn<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.02<br/>\n                                      book published: 1962<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2019/07/26<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/2902052245?utm_medium=api&utm_source=rss"
@@ -7126,78 +7198,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/2787438-software-for-data-analysis?utm_medium=api&amp;utm_source=rss\"><img alt=\"Software for Data Analysis: Programming with R\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1349007478l/2787438._SY75_.jpg\" /></a><br/>\n                                      author: John M. Chambers<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.52<br/>\n                                      book published: 2008<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2013/09/24<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/718021641?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Thu, 12 Sep 2013 11:51:00 -0700"
-          },
-          "title": {
-            "_text": "Instant AppFog"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/718021641?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "18482905"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1378958837l/18482905._SX50_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1378958837l/18482905._SX50_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1378958837l/18482905._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1378958837l/18482905.jpg"
-          },
-          "book_description": {
-            "_cdata": "Instant AppFog Starter is a step-by-step guide that will provide you with all the information you need to deploy applications to AppFog. This book will teach you how to use the AppFog platform to scale, maintain, and manage your application on the cloud. This starter book provides easy to understand steps to deploy, implement your application on the AppFog platform, as well as knowledge about the community around it."
-          },
-          "book": {
-            "_attributes": {
-              "id": "18482905"
-            },
-            "num_pages": {
-              "_text": "58"
-            }
-          },
-          "author_name": {
-            "_text": "Pau Kiat Wee"
-          },
-          "isbn": {
-            "_text": "1782167625"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "3"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Thu, 12 Sep 2013 11:51:00 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Thu, 12 Sep 2013 11:49:52 -0700"
-          },
-          "user_shelves": {},
-          "user_review": {
-            "_cdata": "This succinct little book, was a nice companion to diving into deployment onto the AppFog PaaS.<br />The book is centered around deploying a rails app. (I think I would have preferred node personally).<br />All in all a practical little companion."
-          },
-          "average_rating": {
-            "_text": "4.00"
-          },
-          "book_published": {
-            "_text": "2013"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/18482905-instant-appfog?utm_medium=api&amp;utm_source=rss\"><img alt=\"Instant AppFog\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1378958837l/18482905._SX50_.jpg\" /></a><br/>\n                                      author: Pau Kiat Wee<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.00<br/>\n                                      book published: 2013<br/>\n                                      rating: 3<br/>\n                                      read at: <br/>\n                                      date added: 2013/09/12<br/>\n                                      shelves: <br/>\n                                      review: <br/>This succinct little book, was a nice companion to diving into deployment onto the AppFog PaaS.<br />The book is centered around deploying a rails app. (I think I would have preferred node personally).<br />All in all a practical little companion.<br/>\n                                      "
           }
         }
       ]
