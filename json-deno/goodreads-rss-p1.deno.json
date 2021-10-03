@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Sun, 03 Oct 2021 00:05:53 -0700"
+        "_text": "Sun, 03 Oct 2021 01:46:00 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,76 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4255842317?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sun, 03 Oct 2021 01:46:00 -0700"
+          },
+          "title": {
+            "_cdata": "The Adventures of Sherlock Holmes (Sherlock Holmes, #3)"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4255842317?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "3590"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1164045516l/3590._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1164045516l/3590._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1164045516l/3590._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1164045516l/3590.jpg"
+          },
+          "book_description": {
+            "_cdata": "<i>The Adventures of Sherlock Holmes</i> is the series of short stories that made the fortunes of the Strand magazine, in which they were first published, and won immense popularity for Sherlock Holmes and Dr Watson. The detective is at the height of his powers and the volume is full of famous cases, including 'The Red-Headed League', 'The Blue Carbuncle', and 'The Speckled Band'. Although Holmes gained a reputation for infallibility, Conan Doyle showed his own realism and feminism by having the great detective defeated by Irene Adler - the woman - in the very first story, 'A Scandal in Bohemia'. <br />The editor of this volume, Richard Lancelyn Green is editor of <i>The Uncollected Sherlock Holmes</i> and <i>The Further Adventures of Sherlock Holmes</i>. With John Michael Gibson, he compiled the Soho Series Bibliography of A. Conan Doyle."
+          },
+          "book": {
+            "_attributes": {
+              "id": "3590"
+            },
+            "num_pages": {
+              "_text": "389"
+            }
+          },
+          "author_name": {
+            "_text": "Arthur Conan Doyle"
+          },
+          "isbn": {},
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Sun, 03 Oct 2021 01:46:00 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Fri, 24 Sep 2021 23:57:20 -0700"
+          },
+          "user_shelves": {
+            "_text": "currently-reading"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.30"
+          },
+          "book_published": {
+            "_text": "1892"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/3590.The_Adventures_of_Sherlock_Holmes?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Adventures of Sherlock Holmes (Sherlock Holmes, #3)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1164045516l/3590._SY75_.jpg\" /></a><br/>\n                                      author: Arthur Conan Doyle<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.30<br/>\n                                      book published: 1892<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/10/03<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/4265918074?utm_medium=api&utm_source=rss"
@@ -698,76 +768,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/825889.1066_and_All_That?utm_medium=api&amp;utm_source=rss\"><img alt=\"1066 and All That: A Memorable History of England\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1613657910l/825889._SY75_.jpg\" /></a><br/>\n                                      author: W.C. Sellar<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.00<br/>\n                                      book published: 1930<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/09/26<br/>\n                                      date added: 2021/09/26<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/4255842317?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sat, 25 Sep 2021 18:05:03 -0700"
-          },
-          "title": {
-            "_cdata": "The Adventures of Sherlock Holmes (Sherlock Holmes, #3)"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/4255842317?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "3590"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1164045516l/3590._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1164045516l/3590._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1164045516l/3590._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1164045516l/3590.jpg"
-          },
-          "book_description": {
-            "_cdata": "<i>The Adventures of Sherlock Holmes</i> is the series of short stories that made the fortunes of the Strand magazine, in which they were first published, and won immense popularity for Sherlock Holmes and Dr Watson. The detective is at the height of his powers and the volume is full of famous cases, including 'The Red-Headed League', 'The Blue Carbuncle', and 'The Speckled Band'. Although Holmes gained a reputation for infallibility, Conan Doyle showed his own realism and feminism by having the great detective defeated by Irene Adler - the woman - in the very first story, 'A Scandal in Bohemia'. <br />The editor of this volume, Richard Lancelyn Green is editor of <i>The Uncollected Sherlock Holmes</i> and <i>The Further Adventures of Sherlock Holmes</i>. With John Michael Gibson, he compiled the Soho Series Bibliography of A. Conan Doyle."
-          },
-          "book": {
-            "_attributes": {
-              "id": "3590"
-            },
-            "num_pages": {
-              "_text": "389"
-            }
-          },
-          "author_name": {
-            "_text": "Arthur Conan Doyle"
-          },
-          "isbn": {},
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Sat, 25 Sep 2021 18:05:03 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Fri, 24 Sep 2021 23:57:20 -0700"
-          },
-          "user_shelves": {
-            "_text": "currently-reading"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.30"
-          },
-          "book_published": {
-            "_text": "1892"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/3590.The_Adventures_of_Sherlock_Holmes?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Adventures of Sherlock Holmes (Sherlock Holmes, #3)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1164045516l/3590._SY75_.jpg\" /></a><br/>\n                                      author: Arthur Conan Doyle<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.30<br/>\n                                      book published: 1892<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/09/25<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>\n                                      "
           }
         },
         {
