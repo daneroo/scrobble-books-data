@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Wed, 26 May 2021 23:35:54 -0700"
+        "_text": "Fri, 28 May 2021 04:20:20 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3900725240?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Fri, 28 May 2021 04:20:20 -0700"
+          },
+          "title": {
+            "_cdata": "The Fabric of the Cosmos: Space, Time, and the Texture of Reality"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3900725240?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "22435"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1435242004l/22435._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1435242004l/22435._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1435242004l/22435._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1435242004l/22435.jpg"
+          },
+          "book_description": {
+            "_cdata": "From Brian Greene, one of the world’s leading physicists and author the Pulitzer Prize finalist <i>The Elegant Universe</i>, comes a grand tour of the universe that makes us look at reality in a completely different way.<br /><br />Space and time form the very fabric of the cosmos. Yet they remain among the most mysterious of concepts. Is space an entity? Why does time have a direction? Could the universe exist without space and time? Can we travel to the past? Greene has set himself a daunting task: to explain non-intuitive, mathematical concepts like String Theory, the Heisenberg Uncertainty Principle, and Inflationary Cosmology with analogies drawn from common experience. From Newton’s unchanging realm in which space and time are absolute, to Einstein’s fluid conception of spacetime, to quantum mechanics’ entangled arena where vastly distant objects can instantaneously coordinate their behavior, Greene takes us all, regardless of our scientific backgrounds, on an irresistible and revelatory journey to the new layers of reality that modern physics has discovered lying just beneath the surface of our everyday world."
+          },
+          "book": {
+            "_attributes": {
+              "id": "22435"
+            },
+            "num_pages": {
+              "_text": "569"
+            }
+          },
+          "author_name": {
+            "_text": "Brian Greene"
+          },
+          "isbn": {
+            "_text": "0965900584"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "4"
+          },
+          "user_read_at": {
+            "_cdata": "Fri, 28 May 2021 04:20:20 -0700"
+          },
+          "user_date_added": {
+            "_cdata": "Fri, 28 May 2021 04:20:20 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Sat, 20 Mar 2021 20:44:29 -0700"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.08"
+          },
+          "book_published": {
+            "_text": "2003"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/22435.The_Fabric_of_the_Cosmos?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Fabric of the Cosmos: Space, Time, and the Texture of Reality\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1435242004l/22435._SY75_.jpg\" /></a><br/>\n                                      author: Brian Greene<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.08<br/>\n                                      book published: 2003<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/05/28<br/>\n                                      date added: 2021/05/28<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/4005356232?utm_medium=api&utm_source=rss"
@@ -7146,76 +7218,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/3797514-the-reagan-i-knew?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Reagan I Knew\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1441044213l/3797514._SX50_.jpg\" /></a><br/>\n                                      author: William F. Buckley Jr.<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.76<br/>\n                                      book published: 2008<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/01/30<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3807872951?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sat, 30 Jan 2021 22:03:17 -0800"
-          },
-          "title": {
-            "_cdata": "A Torch Kept Lit: Great Lives of the Twentieth Century"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3807872951?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "31580793"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1471914815l/31580793._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1471914815l/31580793._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1471914815l/31580793._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1471914815l/31580793._SY475_.jpg"
-          },
-          "book_description": {
-            "_cdata": "<b>The <i>New York Times</i> Bestseller<br /><br />William F. Buckley, Jr. remembers—as only he could—the towering figures of the twentieth century in a brilliant and emotionally powerful collection, compiled by acclaimed Fox News correspondent James Rosen.</b><br /><br />In a half century on the national stage, William F. Buckley, Jr. achieved unique stature as a writer, a celebrity, and the undisputed godfather of modern American conservatism. He kept company with the best and brightest, the sultry and powerful. Ronald Reagan pronounced WFB “perhaps the most influential journalist and intellectual in our era,” and his jet-setting life was a who’s who of high society, fame, and fortune. <br /><br />Among all his distinctions, which include founding the conservative magazine <i>National Review</i> and hosting the long-running talk show <i>Firing Line</i>, Buckley was also a master of that most elusive art form: the eulogy. He drew on his unrivaled gifts to mourn, celebrate, or seek mercy for the men and women who touched his life and the nation. <br /><br />Now, for the first time, WFB’s sweeping judgments of the great figures of his time—presidents and prime ministers, celebrities and scoundrels, intellectuals and guitar gods—are collected in one place. <i>A Torch Kept Lit</i> presents more than fifty of Buckley’s best eulogies, drawing on his personal memories and private correspondences and using a novelist’s touch to conjure his subjects as he knew them. We are reintroduced, through Buckley’s eyes, to the likes of Winston Churchill and Ronald Reagan, Elvis Presley and John Lennon, Truman Capote and Martin Luther King, Jr.<br /><br />Curated by Fox News chief Washington correspondent James Rosen, a Buckley protégé and frequent contributor to<i> National Review</i>, this volumes heds light on a tumultuous period in American history—from World War II to Watergate, the “death” of God to the Grateful Dead—as told in the inimitable voice of one of our most elegant literary stylists.William F. Buckley, Jr. is back—just when we need him most."
-          },
-          "book": {
-            "_attributes": {
-              "id": "31580793"
-            },
-            "num_pages": {
-              "_text": "338"
-            }
-          },
-          "author_name": {
-            "_text": "William F. Buckley Jr."
-          },
-          "isbn": {},
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Sat, 30 Jan 2021 22:03:17 -0800"
-          },
-          "user_date_created": {
-            "_cdata": "Sat, 30 Jan 2021 22:03:17 -0800"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.03"
-          },
-          "book_published": {
-            "_text": "2016"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/31580793-a-torch-kept-lit?utm_medium=api&amp;utm_source=rss\"><img alt=\"A Torch Kept Lit: Great Lives of the Twentieth Century\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1471914815l/31580793._SY75_.jpg\" /></a><br/>\n                                      author: William F. Buckley Jr.<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.03<br/>\n                                      book published: 2016<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/01/30<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

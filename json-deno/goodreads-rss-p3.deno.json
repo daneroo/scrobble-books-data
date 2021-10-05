@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Sat, 30 Jan 2021 21:57:47 -0800"
+        "_text": "Sat, 30 Jan 2021 22:03:17 -0800"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,76 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3807872951?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sat, 30 Jan 2021 22:03:17 -0800"
+          },
+          "title": {
+            "_cdata": "A Torch Kept Lit: Great Lives of the Twentieth Century"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3807872951?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "31580793"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1471914815l/31580793._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1471914815l/31580793._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1471914815l/31580793._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1471914815l/31580793._SY475_.jpg"
+          },
+          "book_description": {
+            "_cdata": "<b>The <i>New York Times</i> Bestseller<br /><br />William F. Buckley, Jr. remembers—as only he could—the towering figures of the twentieth century in a brilliant and emotionally powerful collection, compiled by acclaimed Fox News correspondent James Rosen.</b><br /><br />In a half century on the national stage, William F. Buckley, Jr. achieved unique stature as a writer, a celebrity, and the undisputed godfather of modern American conservatism. He kept company with the best and brightest, the sultry and powerful. Ronald Reagan pronounced WFB “perhaps the most influential journalist and intellectual in our era,” and his jet-setting life was a who’s who of high society, fame, and fortune. <br /><br />Among all his distinctions, which include founding the conservative magazine <i>National Review</i> and hosting the long-running talk show <i>Firing Line</i>, Buckley was also a master of that most elusive art form: the eulogy. He drew on his unrivaled gifts to mourn, celebrate, or seek mercy for the men and women who touched his life and the nation. <br /><br />Now, for the first time, WFB’s sweeping judgments of the great figures of his time—presidents and prime ministers, celebrities and scoundrels, intellectuals and guitar gods—are collected in one place. <i>A Torch Kept Lit</i> presents more than fifty of Buckley’s best eulogies, drawing on his personal memories and private correspondences and using a novelist’s touch to conjure his subjects as he knew them. We are reintroduced, through Buckley’s eyes, to the likes of Winston Churchill and Ronald Reagan, Elvis Presley and John Lennon, Truman Capote and Martin Luther King, Jr.<br /><br />Curated by Fox News chief Washington correspondent James Rosen, a Buckley protégé and frequent contributor to<i> National Review</i>, this volumes heds light on a tumultuous period in American history—from World War II to Watergate, the “death” of God to the Grateful Dead—as told in the inimitable voice of one of our most elegant literary stylists.William F. Buckley, Jr. is back—just when we need him most."
+          },
+          "book": {
+            "_attributes": {
+              "id": "31580793"
+            },
+            "num_pages": {
+              "_text": "338"
+            }
+          },
+          "author_name": {
+            "_text": "William F. Buckley Jr."
+          },
+          "isbn": {},
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Sat, 30 Jan 2021 22:03:17 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Sat, 30 Jan 2021 22:03:17 -0800"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.03"
+          },
+          "book_published": {
+            "_text": "2016"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/31580793-a-torch-kept-lit?utm_medium=api&amp;utm_source=rss\"><img alt=\"A Torch Kept Lit: Great Lives of the Twentieth Century\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1471914815l/31580793._SY75_.jpg\" /></a><br/>\n                                      author: William F. Buckley Jr.<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.03<br/>\n                                      book published: 2016<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/01/30<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/3807866045?utm_medium=api&utm_source=rss"
@@ -7112,78 +7182,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/656.War_and_Peace?utm_medium=api&amp;utm_source=rss\"><img alt=\"War and Peace\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1413215930l/656._SY75_.jpg\" /></a><br/>\n                                      author: Leo Tolstoy<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.10<br/>\n                                      book published: 1865<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2019/08/19<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/2928614611?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Wed, 07 Aug 2019 18:59:49 -0700"
-          },
-          "title": {
-            "_cdata": "What Color Is Your Parachute? A Practical Manual for Job-Hunters and Career-Changers"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/2928614611?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "6932"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386924534l/6932._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386924534l/6932._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386924534l/6932._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386924534l/6932.jpg"
-          },
-          "book_description": {
-            "_cdata": "A favourite of job hunters and career changers for more than three decades, it continues to be a mainstay on best-seller lists, from Amazon.com to BusinessWeek to the New York Times, where it has spent five and a half years."
-          },
-          "book": {
-            "_attributes": {
-              "id": "6932"
-            },
-            "num_pages": {
-              "_text": "382"
-            }
-          },
-          "author_name": {
-            "_text": "Richard Nelson Bolles"
-          },
-          "isbn": {
-            "_text": "1580087949"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Wed, 07 Aug 2019 18:59:49 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Wed, 07 Aug 2019 18:59:49 -0700"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "3.56"
-          },
-          "book_published": {
-            "_text": "1970"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/6932.What_Color_Is_Your_Parachute_A_Practical_Manual_for_Job_Hunters_and_Career_Changers?utm_medium=api&amp;utm_source=rss\"><img alt=\"What Color Is Your Parachute? A Practical Manual for Job-Hunters and Career-Changers\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386924534l/6932._SY75_.jpg\" /></a><br/>\n                                      author: Richard Nelson Bolles<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.56<br/>\n                                      book published: 1970<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2019/08/07<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

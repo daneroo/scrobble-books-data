@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Thu, 12 Sep 2013 11:51:00 -0700"
+        "_text": "Tue, 24 Sep 2013 09:24:14 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/727000491?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Tue, 24 Sep 2013 09:24:14 -0700"
+          },
+          "title": {
+            "_cdata": "Software for Data Analysis: Programming with R"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/727000491?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "2787438"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1349007478l/2787438._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1349007478l/2787438._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1349007478l/2787438._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1349007478l/2787438.jpg"
+          },
+          "book_description": {
+            "_cdata": "Although statistical design is one of the oldest branches of statistics, its importance is ever increasing, especially in the face of the data flood that often faces statisticians. It is important to recognize the appropriate design, and to understand how to effectively implement it, being aware that the default settings from a computer package can easily provide an incorrect analysis. The goal of this book is to describe the principles that drive good design, paying attention to both the theoretical background and the problems arising from real experimental situations. Designs are motivated through actual experiments, ranging from the timeless agricultural randomized complete block, to microarray experiments, which naturally lead to split plot designs and balanced incomplete blocks."
+          },
+          "book": {
+            "_attributes": {
+              "id": "2787438"
+            },
+            "num_pages": {
+              "_text": "500"
+            }
+          },
+          "author_name": {
+            "_text": "John M. Chambers"
+          },
+          "isbn": {
+            "_text": "0387759352"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Tue, 24 Sep 2013 09:24:14 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Tue, 24 Sep 2013 09:24:14 -0700"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.52"
+          },
+          "book_published": {
+            "_text": "2008"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/2787438-software-for-data-analysis?utm_medium=api&amp;utm_source=rss\"><img alt=\"Software for Data Analysis: Programming with R\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1349007478l/2787438._SY75_.jpg\" /></a><br/>\n                                      author: John M. Chambers<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.52<br/>\n                                      book published: 2008<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2013/09/24<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/718021641?utm_medium=api&utm_source=rss"

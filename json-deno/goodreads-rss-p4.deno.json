@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Fri, 26 Jul 2019 20:57:00 -0700"
+        "_text": "Wed, 07 Aug 2019 18:59:49 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/2928614611?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Wed, 07 Aug 2019 18:59:49 -0700"
+          },
+          "title": {
+            "_cdata": "What Color Is Your Parachute? A Practical Manual for Job-Hunters and Career-Changers"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/2928614611?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "6932"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386924534l/6932._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386924534l/6932._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386924534l/6932._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386924534l/6932.jpg"
+          },
+          "book_description": {
+            "_cdata": "A favourite of job hunters and career changers for more than three decades, it continues to be a mainstay on best-seller lists, from Amazon.com to BusinessWeek to the New York Times, where it has spent five and a half years."
+          },
+          "book": {
+            "_attributes": {
+              "id": "6932"
+            },
+            "num_pages": {
+              "_text": "382"
+            }
+          },
+          "author_name": {
+            "_text": "Richard Nelson Bolles"
+          },
+          "isbn": {
+            "_text": "1580087949"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Wed, 07 Aug 2019 18:59:49 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Wed, 07 Aug 2019 18:59:49 -0700"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.56"
+          },
+          "book_published": {
+            "_text": "1970"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/6932.What_Color_Is_Your_Parachute_A_Practical_Manual_for_Job_Hunters_and_Career_Changers?utm_medium=api&amp;utm_source=rss\"><img alt=\"What Color Is Your Parachute? A Practical Manual for Job-Hunters and Career-Changers\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386924534l/6932._SY75_.jpg\" /></a><br/>\n                                      author: Richard Nelson Bolles<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.56<br/>\n                                      book published: 1970<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2019/08/07<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/2912571171?utm_medium=api&utm_source=rss"
@@ -7126,78 +7198,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/17333428-without-their-permission?utm_medium=api&amp;utm_source=rss\"><img alt=\"Without Their Permission: How the 21st Century Will Be Made, Not Managed\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1370840494l/17333428._SY75_.jpg\" /></a><br/>\n                                      author: Alexis Ohanian<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.72<br/>\n                                      book published: 2013<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2013/11/06<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/727000491?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Tue, 24 Sep 2013 09:24:14 -0700"
-          },
-          "title": {
-            "_cdata": "Software for Data Analysis: Programming with R"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/727000491?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "2787438"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1349007478l/2787438._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1349007478l/2787438._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1349007478l/2787438._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1349007478l/2787438.jpg"
-          },
-          "book_description": {
-            "_cdata": "Although statistical design is one of the oldest branches of statistics, its importance is ever increasing, especially in the face of the data flood that often faces statisticians. It is important to recognize the appropriate design, and to understand how to effectively implement it, being aware that the default settings from a computer package can easily provide an incorrect analysis. The goal of this book is to describe the principles that drive good design, paying attention to both the theoretical background and the problems arising from real experimental situations. Designs are motivated through actual experiments, ranging from the timeless agricultural randomized complete block, to microarray experiments, which naturally lead to split plot designs and balanced incomplete blocks."
-          },
-          "book": {
-            "_attributes": {
-              "id": "2787438"
-            },
-            "num_pages": {
-              "_text": "500"
-            }
-          },
-          "author_name": {
-            "_text": "John M. Chambers"
-          },
-          "isbn": {
-            "_text": "0387759352"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Tue, 24 Sep 2013 09:24:14 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Tue, 24 Sep 2013 09:24:14 -0700"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "3.52"
-          },
-          "book_published": {
-            "_text": "2008"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/2787438-software-for-data-analysis?utm_medium=api&amp;utm_source=rss\"><img alt=\"Software for Data Analysis: Programming with R\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1349007478l/2787438._SY75_.jpg\" /></a><br/>\n                                      author: John M. Chambers<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.52<br/>\n                                      book published: 2008<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2013/09/24<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]
