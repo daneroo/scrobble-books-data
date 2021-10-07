@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Tue, 05 Oct 2021 23:38:07 -0700"
+        "_text": "Wed, 06 Oct 2021 23:03:47 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4272628129?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Wed, 06 Oct 2021 23:03:47 -0700"
+          },
+          "title": {
+            "_cdata": "The Creativity Code: How AI Is Learning to Write, Paint and Think"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4272628129?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "43382084"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546014067l/43382084._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546014067l/43382084._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546014067l/43382084._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546014067l/43382084._SY475_.jpg"
+          },
+          "book_description": {
+            "_cdata": "<b>The award-winning author of <i>The Music of the Primes</i> explores the future of creativity and how machine learning will disrupt, enrich, and transform our understanding of what it means to be human.</b><br /><br />Can a well-programmed machine do anything a human can―only better? Complex algorithms are choosing our music, picking our partners, and driving our investments. They can navigate more data than a doctor or lawyer and act with greater precision. For many years we’ve taken solace in the notion that they can’t create. But now that algorithms can learn and adapt, does the future of creativity belong to machines, too?<br /><br />It is hard to imagine a better guide to the bewildering world of artificial intelligence than Marcus du Sautoy, a celebrated Oxford mathematician whose work on symmetry in the ninth dimension has taken him to the vertiginous edge of mathematical understanding. In <i>The Creativity Code</i> he considers what machine learning means for the future of creativity. The Pollockizer can produce drip paintings in the style of Jackson Pollock, Botnik spins off fanciful (if improbable) scenes inspired by J. K. Rowling, and the music-composing algorithm Emmy managed to fool a panel of Bach experts. But do these programs just mimic, or do they have what it takes to create? Du Sautoy argues that to answer this question, we need to understand how the algorithms that drive them work―and this brings him back to his own subject of mathematics, with its puzzles, constraints, and enticing possibilities.<br /><br />While most recent books on AI focus on the future of work, <i>The Creativity Code</i> moves us to the forefront of creative new technologies and offers a more positive and unexpected vision of our future cohabitation with machines. It challenges us to reconsider what it means to be human―and to crack the creativity code."
+          },
+          "book": {
+            "_attributes": {
+              "id": "43382084"
+            },
+            "num_pages": {
+              "_text": "336"
+            }
+          },
+          "author_name": {
+            "_text": "Marcus du Sautoy"
+          },
+          "isbn": {
+            "_text": "0008288151"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Wed, 06 Oct 2021 23:03:47 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Mon, 04 Oct 2021 21:47:01 -0700"
+          },
+          "user_shelves": {
+            "_text": "currently-reading"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.02"
+          },
+          "book_published": {
+            "_text": "2019"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/43382084-the-creativity-code?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Creativity Code: How AI Is Learning to Write, Paint and Think\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546014067l/43382084._SY75_.jpg\" /></a><br/>\n                                      author: Marcus du Sautoy<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.02<br/>\n                                      book published: 2019<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/10/06<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/4255842317?utm_medium=api&utm_source=rss"
@@ -132,78 +204,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/3590.The_Adventures_of_Sherlock_Holmes?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Adventures of Sherlock Holmes (Sherlock Holmes, #3)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1164045516l/3590._SY75_.jpg\" /></a><br/>\n                                      author: Arthur Conan Doyle<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.30<br/>\n                                      book published: 1892<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/10/05<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/4272628129?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Mon, 04 Oct 2021 21:47:15 -0700"
-          },
-          "title": {
-            "_cdata": "The Creativity Code: How AI Is Learning to Write, Paint and Think"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/4272628129?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "43382084"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546014067l/43382084._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546014067l/43382084._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546014067l/43382084._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546014067l/43382084._SY475_.jpg"
-          },
-          "book_description": {
-            "_cdata": "<b>The award-winning author of <i>The Music of the Primes</i> explores the future of creativity and how machine learning will disrupt, enrich, and transform our understanding of what it means to be human.</b><br /><br />Can a well-programmed machine do anything a human can―only better? Complex algorithms are choosing our music, picking our partners, and driving our investments. They can navigate more data than a doctor or lawyer and act with greater precision. For many years we’ve taken solace in the notion that they can’t create. But now that algorithms can learn and adapt, does the future of creativity belong to machines, too?<br /><br />It is hard to imagine a better guide to the bewildering world of artificial intelligence than Marcus du Sautoy, a celebrated Oxford mathematician whose work on symmetry in the ninth dimension has taken him to the vertiginous edge of mathematical understanding. In <i>The Creativity Code</i> he considers what machine learning means for the future of creativity. The Pollockizer can produce drip paintings in the style of Jackson Pollock, Botnik spins off fanciful (if improbable) scenes inspired by J. K. Rowling, and the music-composing algorithm Emmy managed to fool a panel of Bach experts. But do these programs just mimic, or do they have what it takes to create? Du Sautoy argues that to answer this question, we need to understand how the algorithms that drive them work―and this brings him back to his own subject of mathematics, with its puzzles, constraints, and enticing possibilities.<br /><br />While most recent books on AI focus on the future of work, <i>The Creativity Code</i> moves us to the forefront of creative new technologies and offers a more positive and unexpected vision of our future cohabitation with machines. It challenges us to reconsider what it means to be human―and to crack the creativity code."
-          },
-          "book": {
-            "_attributes": {
-              "id": "43382084"
-            },
-            "num_pages": {
-              "_text": "336"
-            }
-          },
-          "author_name": {
-            "_text": "Marcus du Sautoy"
-          },
-          "isbn": {
-            "_text": "0008288151"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Mon, 04 Oct 2021 21:47:15 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Mon, 04 Oct 2021 21:47:01 -0700"
-          },
-          "user_shelves": {
-            "_text": "currently-reading"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.02"
-          },
-          "book_published": {
-            "_text": "2019"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/43382084-the-creativity-code?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Creativity Code: How AI Is Learning to Write, Paint and Think\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546014067l/43382084._SY75_.jpg\" /></a><br/>\n                                      author: Marcus du Sautoy<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.02<br/>\n                                      book published: 2019<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/10/04<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>\n                                      "
           }
         },
         {
