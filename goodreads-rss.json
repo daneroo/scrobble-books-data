@@ -2,6 +2,28 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "guid": "https://www.goodreads.com/review/show/4276202350?utm_medium=api&utm_source=rss",
+      "pubDate": "2021-10-07T06:18:10.000Z",
+      "title": "Twelve Caesars: Images of Power from the Ancient World to the Modern",
+      "link": "https://www.goodreads.com/review/show/4276202350?utm_medium=api&utm_source=rss",
+      "bookId": "57423872",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1618599968l/57423872._SX50_.jpg",
+      "bookDescription": "<b>From the bestselling author of <i>SPQR: A History of Ancient Rome</i>, the fascinating story of how images of Roman autocrats have influenced art, culture, and the representation of power for more than 2,000 years</b><br /><br />What does the face of power <i>look</i> like? Who gets commemorated in art and why? And how do we react to statues of politicians we deplore? In this book--against a background of today's \"sculpture wars\"--Mary Beard tells the story of how for more than two millennia portraits of the rich, powerful, and famous in the western world have been shaped by the image of Roman emperors, especially the \"twelve Caesars,\" from the ruthless Julius Caesar to the fly-torturing Domitian. <i>Twelve Caesars</i> asks why these murderous autocrats have loomed so large in art from antiquity and the Renaissance to today, when hapless leaders are still caricatured as Neros fiddling while Rome burns.<br /><br />Beginning with the importance of imperial portraits in Roman politics, this richly illustrated book offers a tour through 2,000 years of art and cultural history, presenting a fresh look at works by artists from Memling and Mantegna to the nineteenth-century African American sculptor Edmonia Lewis, as well as by generations of now-forgotten weavers, cabinetmakers, silversmiths, printers, and ceramicists. Rather than a story of a simple repetition of stable, blandly conservative images of imperial men and women, <i>Twelve Caesars</i> is an unexpected tale of changing identities, clueless or deliberate misidentifications, fakes, and often ambivalent representations of authority.<br /><br />From Beard's reconstruction of Titian's extraordinary lost Room of the Emperors to her reinterpretation of Henry VIII's famous Caesarian tapestries, <i>Twelve Caesars</i> includes some fascinating detective work and offers a gripping story of some of the most challenging and disturbing portraits of power ever created.<br /><br />Published in association with the National Gallery of Art, Washington, DC",
+      "authorName": "Mary Beard",
+      "isbn": "0691222363",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2021-10-07T06:18:10.000Z",
+      "userDateCreated": "2021-10-07T06:18:09.000Z",
+      "userShelves": "on-deck",
+      "userReview": "",
+      "averageRating": "3.80",
+      "bookPublished": "",
+      "description": "\n      <a href=\"https://www.goodreads.com/book/show/57423872-twelve-caesars?utm_medium=api&amp;utm_source=rss\"><img alt=\"Twelve Caesars: Images of Power from the Ancient World to the Modern\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1618599968l/57423872._SX50_.jpg\" /></a><br/>\n                                      author: Mary Beard<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.80<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/10/06<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      ",
+      "numPages": "384"
+    },
+    {
       "guid": "https://www.goodreads.com/review/show/4272628129?utm_medium=api&utm_source=rss",
       "pubDate": "2021-10-07T06:03:47.000Z",
       "title": "The Creativity Code: How AI Is Learning to Write, Paint and Think",

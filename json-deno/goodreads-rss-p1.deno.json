@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Wed, 06 Oct 2021 23:03:47 -0700"
+        "_text": "Wed, 06 Oct 2021 23:18:10 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,76 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4276202350?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Wed, 06 Oct 2021 23:18:10 -0700"
+          },
+          "title": {
+            "_cdata": "Twelve Caesars: Images of Power from the Ancient World to the Modern"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4276202350?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "57423872"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1618599968l/57423872._SX50_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1618599968l/57423872._SX50_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1618599968l/57423872._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1618599968l/57423872.jpg"
+          },
+          "book_description": {
+            "_cdata": "<b>From the bestselling author of <i>SPQR: A History of Ancient Rome</i>, the fascinating story of how images of Roman autocrats have influenced art, culture, and the representation of power for more than 2,000 years</b><br /><br />What does the face of power <i>look</i> like? Who gets commemorated in art and why? And how do we react to statues of politicians we deplore? In this book--against a background of today's \"sculpture wars\"--Mary Beard tells the story of how for more than two millennia portraits of the rich, powerful, and famous in the western world have been shaped by the image of Roman emperors, especially the \"twelve Caesars,\" from the ruthless Julius Caesar to the fly-torturing Domitian. <i>Twelve Caesars</i> asks why these murderous autocrats have loomed so large in art from antiquity and the Renaissance to today, when hapless leaders are still caricatured as Neros fiddling while Rome burns.<br /><br />Beginning with the importance of imperial portraits in Roman politics, this richly illustrated book offers a tour through 2,000 years of art and cultural history, presenting a fresh look at works by artists from Memling and Mantegna to the nineteenth-century African American sculptor Edmonia Lewis, as well as by generations of now-forgotten weavers, cabinetmakers, silversmiths, printers, and ceramicists. Rather than a story of a simple repetition of stable, blandly conservative images of imperial men and women, <i>Twelve Caesars</i> is an unexpected tale of changing identities, clueless or deliberate misidentifications, fakes, and often ambivalent representations of authority.<br /><br />From Beard's reconstruction of Titian's extraordinary lost Room of the Emperors to her reinterpretation of Henry VIII's famous Caesarian tapestries, <i>Twelve Caesars</i> includes some fascinating detective work and offers a gripping story of some of the most challenging and disturbing portraits of power ever created.<br /><br />Published in association with the National Gallery of Art, Washington, DC"
+          },
+          "book": {
+            "_attributes": {
+              "id": "57423872"
+            },
+            "num_pages": {
+              "_text": "384"
+            }
+          },
+          "author_name": {
+            "_text": "Mary Beard"
+          },
+          "isbn": {
+            "_text": "0691222363"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Wed, 06 Oct 2021 23:18:10 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Wed, 06 Oct 2021 23:18:09 -0700"
+          },
+          "user_shelves": {
+            "_text": "on-deck"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.80"
+          },
+          "book_published": {},
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/57423872-twelve-caesars?utm_medium=api&amp;utm_source=rss\"><img alt=\"Twelve Caesars: Images of Power from the Ancient World to the Modern\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1618599968l/57423872._SX50_.jpg\" /></a><br/>\n                                      author: Mary Beard<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.80<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/10/06<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/4272628129?utm_medium=api&utm_source=rss"
@@ -7146,78 +7216,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/36442813-the-order-of-time?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Order of Time\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1516424407l/36442813._SY75_.jpg\" /></a><br/>\n                                      author: Carlo Rovelli<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.12<br/>\n                                      book published: 2017<br/>\n                                      rating: 5<br/>\n                                      read at: 2019/06/05<br/>\n                                      date added: 2021/05/30<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3974109256?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sun, 30 May 2021 00:45:18 -0700"
-          },
-          "title": {
-            "_cdata": "The Code Breaker: Jennifer Doudna, Gene Editing, and the Future of the Human Race"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3974109256?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "54968118"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1610894755l/54968118._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1610894755l/54968118._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1610894755l/54968118._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1610894755l/54968118.jpg"
-          },
-          "book_description": {
-            "_cdata": "When Jennifer Doudna was in sixth grade, she came home one day to find that her dad had left a paperback titled <i>The Double Helix</i> on her bed. As she sped through the pages, she became enthralled by the intense drama behind the competition to discover the code of life. Even though her high school counselor told her girls didn’t become scientists, she decided she would.<br /><br />Driven by a passion to understand how nature works and to turn discoveries into inventions, she would help to make what the book’s author, James Watson, told her was the most important biological advance since his co-discovery of the structure of DNA. She and her collaborators turned <b>​</b>a curiosity ​of nature into an invention that will transform the human race: an easy-to-use tool that can edit DNA. Known as CRISPR, it opened a brave new world of medical miracles and moral questions.<br /> <br />The development of CRISPR and the race to create vaccines for coronavirus will hasten our transition to the next great innovation revolution. The past half-century has been a digital age, based on the microchip, computer, and internet. Now we are entering a life-science revolution. Children who study digital coding will be joined by those who study genetic code.<br /> <br />Should we use our new evolution-hacking powers to make us less susceptible to viruses? What a wonderful boon that would be! And what about preventing depression? Hmmm…Should we allow parents, if they can afford it, to enhance the height or muscles or IQ of their kids?<br /> <br />After helping to discover CRISPR, Doudna became a leader in wrestling with these moral issues and, with her collaborator Emmanuelle Charpentier, won the Nobel Prize in 2020."
-          },
-          "book": {
-            "_attributes": {
-              "id": "54968118"
-            },
-            "num_pages": {
-              "_text": "536"
-            }
-          },
-          "author_name": {
-            "_text": "Walter Isaacson"
-          },
-          "isbn": {
-            "_text": "1982115858"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "5"
-          },
-          "user_read_at": {
-            "_cdata": "Sun, 30 May 2021 00:45:18 -0700"
-          },
-          "user_date_added": {
-            "_cdata": "Sun, 30 May 2021 00:45:18 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Fri, 30 Apr 2021 00:07:55 -0700"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.29"
-          },
-          "book_published": {
-            "_text": "2021"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/54968118-the-code-breaker?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Code Breaker: Jennifer Doudna, Gene Editing, and the Future of the Human Race\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1610894755l/54968118._SY75_.jpg\" /></a><br/>\n                                      author: Walter Isaacson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.29<br/>\n                                      book published: 2021<br/>\n                                      rating: 5<br/>\n                                      read at: 2021/05/30<br/>\n                                      date added: 2021/05/30<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

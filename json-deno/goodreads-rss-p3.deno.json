@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Sat, 30 Jan 2021 22:03:17 -0800"
+        "_text": "Sat, 30 Jan 2021 22:06:01 -0800"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3807876306?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sat, 30 Jan 2021 22:06:01 -0800"
+          },
+          "title": {
+            "_text": "The Reagan I Knew"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3807876306?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "3797514"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1441044213l/3797514._SX50_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1441044213l/3797514._SX50_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1441044213l/3797514._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1441044213l/3797514._SX318_.jpg"
+          },
+          "book_description": {
+            "_cdata": "In <i>The Regan I Knew</i>, the late William F. Buckley Jr. offers a reminiscence of thirty years of friendship with the man who brought the American conservative movement out of the political wilderness and into the White House. Ronald Reagan and Buckley were political allies and close friends throughout Reagan’s political career. They went on vacations together and shared inside jokes. When Reagan was elected president, Buckley wrote him to say that Reagan should not offer him any position in the new administration; Reagan wrote back saying he had hoped to appoint Buckley U.S. Ambassador to Afghanistan (then under Soviet occupation). For the rest of his term, Reagan called Buckley “Mr. Ambassador.” On the day the Soviets withdrew, he wrote Buckley to congratulate him for single-handedly driving out the Red Army “without ever leaving Kabul.”Yet for all the words that have been written about him, Ronald Reagan remains an enigma. His former speechwriter Peggy Noonan called him “paradox all the way down,” and even his son Ron Reagan despaired of ever truly knowing him. But Reagan was not an enigma to William F. Buckley Jr. They understood and taught each other for decades, and together they changed history.<br /><br />This book presents an American political giant as seen by another giant, who knew him perhaps better than anyone else. It is the most revealing portrait of Ronald Reagan the world is likely to have."
+          },
+          "book": {
+            "_attributes": {
+              "id": "3797514"
+            },
+            "num_pages": {
+              "_text": "279"
+            }
+          },
+          "author_name": {
+            "_text": "William F. Buckley Jr."
+          },
+          "isbn": {
+            "_text": "0465009263"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Sat, 30 Jan 2021 22:06:01 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Sat, 30 Jan 2021 22:06:01 -0800"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.76"
+          },
+          "book_published": {
+            "_text": "2008"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/3797514-the-reagan-i-knew?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Reagan I Knew\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1441044213l/3797514._SX50_.jpg\" /></a><br/>\n                                      author: William F. Buckley Jr.<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.76<br/>\n                                      book published: 2008<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/01/30<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/3807872951?utm_medium=api&utm_source=rss"
@@ -7108,76 +7180,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/588138.The_Hero_With_a_Thousand_Faces?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Hero With a Thousand Faces\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442885694l/588138._SY75_.jpg\" /></a><br/>\n                                      author: Joseph Campbell<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.12<br/>\n                                      book published: 1949<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2019/09/03<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/2944523834?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Mon, 19 Aug 2019 22:24:38 -0700"
-          },
-          "title": {
-            "_text": "War and Peace"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/2944523834?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "656"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1413215930l/656._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1413215930l/656._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1413215930l/656._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1413215930l/656.jpg"
-          },
-          "book_description": {
-            "_cdata": "In Russia's struggle with Napoleon, Tolstoy saw a tragedy that involved all mankind. Greater than a historical chronicle, War and Peace is an affirmation of life itself, `a complete picture', as a contemporary reviewer put it, `of everything in which people find their happiness and greatness, their grief and humiliation'. Tolstoy gave his personal approval to this translation, published here in a new single volume edition, which includes an introduction by Henry Gifford, and Tolstoy's important essay `Some Words about War and Peace'."
-          },
-          "book": {
-            "_attributes": {
-              "id": "656"
-            },
-            "num_pages": {
-              "_text": "1392"
-            }
-          },
-          "author_name": {
-            "_text": "Leo Tolstoy"
-          },
-          "isbn": {},
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Mon, 19 Aug 2019 22:24:38 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Mon, 19 Aug 2019 22:24:38 -0700"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.10"
-          },
-          "book_published": {
-            "_text": "1869"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/656.War_and_Peace?utm_medium=api&amp;utm_source=rss\"><img alt=\"War and Peace\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1413215930l/656._SY75_.jpg\" /></a><br/>\n                                      author: Leo Tolstoy<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.10<br/>\n                                      book published: 1869<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2019/08/19<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

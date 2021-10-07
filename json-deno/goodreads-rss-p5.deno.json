@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Tue, 24 Sep 2013 09:24:14 -0700"
+        "_text": "Wed, 06 Nov 2013 01:07:56 -0800"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/758121159?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Wed, 06 Nov 2013 01:07:56 -0800"
+          },
+          "title": {
+            "_cdata": "Without Their Permission: How the 21st Century Will Be Made, Not Managed"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/758121159?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "17333428"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1370840494l/17333428._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1370840494l/17333428._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1370840494l/17333428._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1370840494l/17333428.jpg"
+          },
+          "book_description": {
+            "_cdata": "As Alexis Ohanian learned when he helped to co-found the immensely popular reddit.com, the internet is the most powerful and democratic tool for disseminating information in human history. And when that power is harnessed to create new communities, technologies, businesses or charities, the results can be absolutely stunning. <br /><br /> In this book, Alexis will share his ideas, tips and even his own doodles about harnessing the power of the web for good, and along the way, he will share his philosophy with young entrepreneurs all over the globe. <br /><br /> At 29, Ohanian has come to personify the dorm-room tech entrepreneur, changing the world without asking permission. Within a couple of years of graduating from the University of Virginia, Ohanian did just that, selling reddit for millions of dollars. He's gone on to start many other companies, like hipmunk and breadpig, all while representing Y Combinator and investing in over sixty other tech startups. Without Their Permission is his personal guidebook as to how other aspiring entrepreneurs can follow in his footsteps."
+          },
+          "book": {
+            "_attributes": {
+              "id": "17333428"
+            },
+            "num_pages": {
+              "_text": "272"
+            }
+          },
+          "author_name": {
+            "_text": "Alexis Ohanian"
+          },
+          "isbn": {
+            "_text": "1455520020"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Wed, 06 Nov 2013 01:07:56 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Wed, 06 Nov 2013 01:07:56 -0800"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.72"
+          },
+          "book_published": {
+            "_text": "2013"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/17333428-without-their-permission?utm_medium=api&amp;utm_source=rss\"><img alt=\"Without Their Permission: How the 21st Century Will Be Made, Not Managed\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1370840494l/17333428._SY75_.jpg\" /></a><br/>\n                                      author: Alexis Ohanian<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.72<br/>\n                                      book published: 2013<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2013/11/06<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/727000491?utm_medium=api&utm_source=rss"

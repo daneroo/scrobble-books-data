@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Fri, 28 May 2021 04:20:20 -0700"
+        "_text": "Sun, 30 May 2021 00:45:18 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3974109256?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sun, 30 May 2021 00:45:18 -0700"
+          },
+          "title": {
+            "_cdata": "The Code Breaker: Jennifer Doudna, Gene Editing, and the Future of the Human Race"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3974109256?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "54968118"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1610894755l/54968118._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1610894755l/54968118._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1610894755l/54968118._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1610894755l/54968118.jpg"
+          },
+          "book_description": {
+            "_cdata": "When Jennifer Doudna was in sixth grade, she came home one day to find that her dad had left a paperback titled <i>The Double Helix</i> on her bed. As she sped through the pages, she became enthralled by the intense drama behind the competition to discover the code of life. Even though her high school counselor told her girls didn’t become scientists, she decided she would.<br /><br />Driven by a passion to understand how nature works and to turn discoveries into inventions, she would help to make what the book’s author, James Watson, told her was the most important biological advance since his co-discovery of the structure of DNA. She and her collaborators turned <b>​</b>a curiosity ​of nature into an invention that will transform the human race: an easy-to-use tool that can edit DNA. Known as CRISPR, it opened a brave new world of medical miracles and moral questions.<br /> <br />The development of CRISPR and the race to create vaccines for coronavirus will hasten our transition to the next great innovation revolution. The past half-century has been a digital age, based on the microchip, computer, and internet. Now we are entering a life-science revolution. Children who study digital coding will be joined by those who study genetic code.<br /> <br />Should we use our new evolution-hacking powers to make us less susceptible to viruses? What a wonderful boon that would be! And what about preventing depression? Hmmm…Should we allow parents, if they can afford it, to enhance the height or muscles or IQ of their kids?<br /> <br />After helping to discover CRISPR, Doudna became a leader in wrestling with these moral issues and, with her collaborator Emmanuelle Charpentier, won the Nobel Prize in 2020."
+          },
+          "book": {
+            "_attributes": {
+              "id": "54968118"
+            },
+            "num_pages": {
+              "_text": "536"
+            }
+          },
+          "author_name": {
+            "_text": "Walter Isaacson"
+          },
+          "isbn": {
+            "_text": "1982115858"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "5"
+          },
+          "user_read_at": {
+            "_cdata": "Sun, 30 May 2021 00:45:18 -0700"
+          },
+          "user_date_added": {
+            "_cdata": "Sun, 30 May 2021 00:45:18 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Fri, 30 Apr 2021 00:07:55 -0700"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.29"
+          },
+          "book_published": {
+            "_text": "2021"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/54968118-the-code-breaker?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Code Breaker: Jennifer Doudna, Gene Editing, and the Future of the Human Race\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1610894755l/54968118._SY75_.jpg\" /></a><br/>\n                                      author: Walter Isaacson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.29<br/>\n                                      book published: 2021<br/>\n                                      rating: 5<br/>\n                                      read at: 2021/05/30<br/>\n                                      date added: 2021/05/30<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/3900725240?utm_medium=api&utm_source=rss"
@@ -7146,78 +7218,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/101778.Nearer_My_God?utm_medium=api&amp;utm_source=rss\"><img alt=\"Nearer, My God: An Autobiography of Faith\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348471661l/101778._SX50_.jpg\" /></a><br/>\n                                      author: William F. Buckley Jr.<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.91<br/>\n                                      book published: 1997<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/01/30<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3807876306?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sat, 30 Jan 2021 22:06:01 -0800"
-          },
-          "title": {
-            "_text": "The Reagan I Knew"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3807876306?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "3797514"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1441044213l/3797514._SX50_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1441044213l/3797514._SX50_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1441044213l/3797514._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1441044213l/3797514._SX318_.jpg"
-          },
-          "book_description": {
-            "_cdata": "In <i>The Regan I Knew</i>, the late William F. Buckley Jr. offers a reminiscence of thirty years of friendship with the man who brought the American conservative movement out of the political wilderness and into the White House. Ronald Reagan and Buckley were political allies and close friends throughout Reagan’s political career. They went on vacations together and shared inside jokes. When Reagan was elected president, Buckley wrote him to say that Reagan should not offer him any position in the new administration; Reagan wrote back saying he had hoped to appoint Buckley U.S. Ambassador to Afghanistan (then under Soviet occupation). For the rest of his term, Reagan called Buckley “Mr. Ambassador.” On the day the Soviets withdrew, he wrote Buckley to congratulate him for single-handedly driving out the Red Army “without ever leaving Kabul.”Yet for all the words that have been written about him, Ronald Reagan remains an enigma. His former speechwriter Peggy Noonan called him “paradox all the way down,” and even his son Ron Reagan despaired of ever truly knowing him. But Reagan was not an enigma to William F. Buckley Jr. They understood and taught each other for decades, and together they changed history.<br /><br />This book presents an American political giant as seen by another giant, who knew him perhaps better than anyone else. It is the most revealing portrait of Ronald Reagan the world is likely to have."
-          },
-          "book": {
-            "_attributes": {
-              "id": "3797514"
-            },
-            "num_pages": {
-              "_text": "279"
-            }
-          },
-          "author_name": {
-            "_text": "William F. Buckley Jr."
-          },
-          "isbn": {
-            "_text": "0465009263"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Sat, 30 Jan 2021 22:06:01 -0800"
-          },
-          "user_date_created": {
-            "_cdata": "Sat, 30 Jan 2021 22:06:01 -0800"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "3.76"
-          },
-          "book_published": {
-            "_text": "2008"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/3797514-the-reagan-i-knew?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Reagan I Knew\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1441044213l/3797514._SX50_.jpg\" /></a><br/>\n                                      author: William F. Buckley Jr.<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.76<br/>\n                                      book published: 2008<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/01/30<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]
