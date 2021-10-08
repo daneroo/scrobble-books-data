@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Fri, 08 Oct 2021 02:13:58 -0700"
+        "_text": "Fri, 08 Oct 2021 03:35:54 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3900737719?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Fri, 08 Oct 2021 03:35:54 -0700"
+          },
+          "title": {
+            "_cdata": "SPQR: A History of Ancient Rome"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3900737719?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "28789711"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1470421195l/28789711._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1470421195l/28789711._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1470421195l/28789711._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1470421195l/28789711.jpg"
+          },
+          "book_description": {
+            "_cdata": "In <i>SPQR</i>, an instant classic, Mary Beard narrates the history of Rome \"with passion and without technical jargon\" and demonstrates how \"a slightly shabby Iron Age village\" rose to become the \"undisputed hegemon of the Mediterranean\" (<i>Wall Street Journal</i>). Hailed by critics as animating \"the grand sweep and the intimate details that bring the distant past vividly to life\" (<i>Economist</i>) in a way that makes \"your hair stand on end\" (<i>Christian Science Monitor</i>) and spanning nearly a thousand years of history, this \"highly informative, highly readable\" (<i>Dallas Morning News</i>) work examines not just how we think of ancient Rome but challenges the comfortable historical perspectives that have existed for centuries. With its nuanced attention to class, democratic struggles, and the lives of entire groups of people omitted from the historical narrative for centuries, <i>SPQR</i> will to shape our view of Roman history for decades to come."
+          },
+          "book": {
+            "_attributes": {
+              "id": "28789711"
+            },
+            "num_pages": {
+              "_text": "606"
+            }
+          },
+          "author_name": {
+            "_text": "Mary Beard"
+          },
+          "isbn": {
+            "_text": "1631492225"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Fri, 08 Oct 2021 03:35:54 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Sat, 20 Mar 2021 20:54:37 -0700"
+          },
+          "user_shelves": {
+            "_text": "currently-reading"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.95"
+          },
+          "book_published": {
+            "_text": "2015"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/28789711-spqr?utm_medium=api&amp;utm_source=rss\"><img alt=\"SPQR: A History of Ancient Rome\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1470421195l/28789711._SY75_.jpg\" /></a><br/>\n                                      author: Mary Beard<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.95<br/>\n                                      book published: 2015<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/10/08<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/4277943132?utm_medium=api&utm_source=rss"
@@ -350,78 +422,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/846033.Classics?utm_medium=api&amp;utm_source=rss\"><img alt=\"Classics: A Very Short Introduction\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1410131989l/846033._SY75_.jpg\" /></a><br/>\n                                      author: Mary Beard<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.62<br/>\n                                      book published: 2000<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/10/08<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3900737719?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Fri, 08 Oct 2021 02:04:33 -0700"
-          },
-          "title": {
-            "_cdata": "SPQR: A History of Ancient Rome"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3900737719?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "28789711"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1470421195l/28789711._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1470421195l/28789711._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1470421195l/28789711._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1470421195l/28789711.jpg"
-          },
-          "book_description": {
-            "_cdata": "In <i>SPQR</i>, an instant classic, Mary Beard narrates the history of Rome \"with passion and without technical jargon\" and demonstrates how \"a slightly shabby Iron Age village\" rose to become the \"undisputed hegemon of the Mediterranean\" (<i>Wall Street Journal</i>). Hailed by critics as animating \"the grand sweep and the intimate details that bring the distant past vividly to life\" (<i>Economist</i>) in a way that makes \"your hair stand on end\" (<i>Christian Science Monitor</i>) and spanning nearly a thousand years of history, this \"highly informative, highly readable\" (<i>Dallas Morning News</i>) work examines not just how we think of ancient Rome but challenges the comfortable historical perspectives that have existed for centuries. With its nuanced attention to class, democratic struggles, and the lives of entire groups of people omitted from the historical narrative for centuries, <i>SPQR</i> will to shape our view of Roman history for decades to come."
-          },
-          "book": {
-            "_attributes": {
-              "id": "28789711"
-            },
-            "num_pages": {
-              "_text": "606"
-            }
-          },
-          "author_name": {
-            "_text": "Mary Beard"
-          },
-          "isbn": {
-            "_text": "1631492225"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Fri, 08 Oct 2021 02:04:33 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Sat, 20 Mar 2021 20:54:37 -0700"
-          },
-          "user_shelves": {
-            "_text": "on-deck"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "3.95"
-          },
-          "book_published": {
-            "_text": "2015"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/28789711-spqr?utm_medium=api&amp;utm_source=rss\"><img alt=\"SPQR: A History of Ancient Rome\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1470421195l/28789711._SY75_.jpg\" /></a><br/>\n                                      author: Mary Beard<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.95<br/>\n                                      book published: 2015<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/10/08<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
           }
         },
         {
