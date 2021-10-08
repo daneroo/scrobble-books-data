@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Wed, 06 Oct 2021 23:18:10 -0700"
+        "_text": "Fri, 08 Oct 2021 01:40:02 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,290 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4277921479?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Fri, 08 Oct 2021 01:40:02 -0700"
+          },
+          "title": {
+            "_cdata": "The Rise and Fall of the Third Reich: A History of Nazi Germany"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4277921479?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "767171"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1331223772l/767171._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1331223772l/767171._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1331223772l/767171._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1331223772l/767171.jpg"
+          },
+          "book_description": {
+            "_cdata": "Hitler boasted that The Third Reich would last a thousand years. It lasted only 12. But those 12 years contained some of the most catastrophic events Western civilization has ever known.<p>No other powerful empire ever bequeathed such mountains of evidence about its birth and destruction as the Third Reich. When the bitter war was over, and before the Nazis could destroy their files, the Allied demand for unconditional surrender produced an almost hour-by-hour record of the nightmare empire built by Adolph Hitler. This record included the testimony of Nazi leaders and of concentration camp inmates, the diaries of officials, transcripts of secret conferences, army orders, private letters—all the vast paperwork behind Hitler's drive to conquer the world.</p><p>The famed foreign correspondent and historian William L. Shirer, who had watched and reported on the Nazis since 1925, spent five and a half years sifting through this massive documentation. The result is a monumental study that has been widely acclaimed as the definitive record of one of the most frightening chapters in the history of mankind.</p><p>This worldwide bestseller has been acclaimed as the definitive book on Nazi Germany; it is a classic work.</p><p>The accounts of how the United States got involved and how Hitler used Mussolini and Japan are astonishing, and the coverage of the war-from Germany's early successes to her eventual defeat-is must reading</p>"
+          },
+          "book": {
+            "_attributes": {
+              "id": "767171"
+            },
+            "num_pages": {
+              "_text": "1614"
+            }
+          },
+          "author_name": {
+            "_text": "William L. Shirer"
+          },
+          "isbn": {
+            "_text": "0671728687"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "4"
+          },
+          "user_read_at": {
+            "_cdata": "Wed, 16 May 1990 00:00:00 -0700"
+          },
+          "user_date_added": {
+            "_cdata": "Fri, 08 Oct 2021 01:40:02 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Fri, 08 Oct 2021 01:39:26 -0700"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.13"
+          },
+          "book_published": {
+            "_text": "1960"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/767171.The_Rise_and_Fall_of_the_Third_Reich?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Rise and Fall of the Third Reich: A History of Nazi Germany\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1331223772l/767171._SY75_.jpg\" /></a><br/>\n                                      author: William L. Shirer<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.13<br/>\n                                      book published: 1960<br/>\n                                      rating: 4<br/>\n                                      read at: 1990/05/16<br/>\n                                      date added: 2021/10/08<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4277918412?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Fri, 08 Oct 2021 01:35:14 -0700"
+          },
+          "title": {
+            "_cdata": "The Lion, the Witch and the Wardrobe (Chronicles of Narnia, #1)"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4277918412?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "100915"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1353029077l/100915._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1353029077l/100915._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1353029077l/100915._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1353029077l/100915.jpg"
+          },
+          "book_description": {
+            "_cdata": "Narnia… the land beyond the wardrobe door, a secret place frozen in eternal winter, a magical country waiting to be set free.<br /><br />Lucy is the first to find the secret of the wardrobe in the professor's mysterious old house. At first her brothers and sister don't believe her when she tells of her visit to the land of Narnia. But soon Edmund, then Peter and Susan step through the wardrobe themselves. In Narnia they find a country buried under the evil enchantment of the White Witch. When they meet the Lion Aslan, they realize they've been called to a great adventure and bravely join the battle to free Narnia from the Witch's sinister spell."
+          },
+          "book": {
+            "_attributes": {
+              "id": "100915"
+            },
+            "num_pages": {
+              "_text": "206"
+            }
+          },
+          "author_name": {
+            "_text": "C.S. Lewis"
+          },
+          "isbn": {},
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "5"
+          },
+          "user_read_at": {
+            "_cdata": "Wed, 16 May 1973 00:00:00 -0700"
+          },
+          "user_date_added": {
+            "_cdata": "Fri, 08 Oct 2021 01:35:14 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Fri, 08 Oct 2021 01:34:16 -0700"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.22"
+          },
+          "book_published": {
+            "_text": "1950"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/100915.The_Lion_the_Witch_and_the_Wardrobe?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Lion, the Witch and the Wardrobe (Chronicles of Narnia, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1353029077l/100915._SY75_.jpg\" /></a><br/>\n                                      author: C.S. Lewis<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.22<br/>\n                                      book published: 1950<br/>\n                                      rating: 5<br/>\n                                      read at: 1973/05/16<br/>\n                                      date added: 2021/10/08<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4277917964?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Fri, 08 Oct 2021 01:33:33 -0700"
+          },
+          "title": {
+            "_text": "Finnegans Wake"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4277917964?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "11013"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1336408055l/11013._SX50_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1336408055l/11013._SX50_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1336408055l/11013._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1336408055l/11013.jpg"
+          },
+          "book_description": {
+            "_cdata": "A story with no real beginning or end (it ends in the middle of a sentence and begins in the middle of the same sentence), this \"book of Doublends Jined\" is as remarkable for its prose as for its circular structure. <br /><br />Written in a fantastic dream-language, forged from polyglot puns and portmanteau words, the Wake features some of Joyce's most hilarious characters: the Irish barkeep Humphrey Chimpden Earwicker, Shem the Penman, Shaun the Postman, and Anna Livia Plurabelle. <br /><br />Joyce's final work, Finnegan's Wake is his masterpiece of the night as Ulysses is of the day. Supreme linguistic virtuosity conjures up the dark underground worlds of sexuality and dream. Joyce undermines traditional storytelling and all official forms of English and confronts the different kinds of betrayal - cultural, political and sexual - that he saw at the heart of Irish history. Dazzlingly inventive, with passages of great lyrical beauty and humour, Finnegans Wake remains one of the most remarkable works of the twentieth century."
+          },
+          "book": {
+            "_attributes": {
+              "id": "11013"
+            },
+            "num_pages": {
+              "_text": "628"
+            }
+          },
+          "author_name": {
+            "_text": "James Joyce"
+          },
+          "isbn": {
+            "_text": "0571217354"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Fri, 08 Oct 2021 01:33:33 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Fri, 08 Oct 2021 01:33:32 -0700"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.65"
+          },
+          "book_published": {
+            "_text": "1939"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/11013.Finnegans_Wake?utm_medium=api&amp;utm_source=rss\"><img alt=\"Finnegans Wake\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1336408055l/11013._SX50_.jpg\" /></a><br/>\n                                      author: James Joyce<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.65<br/>\n                                      book published: 1939<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/10/08<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4277917287?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Fri, 08 Oct 2021 01:32:35 -0700"
+          },
+          "title": {
+            "_cdata": "Ulysses by James Joyce (Original Unabridged Version)"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4277917287?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "34497684"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1488850917l/34497684._SX50_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1488850917l/34497684._SX50_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1488850917l/34497684._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1488850917l/34497684._SX318_.jpg"
+          },
+          "book_description": {
+            "_cdata": "Scandalously frank, wittily erudite, mercurially eloquent, resourcefully comic and generously humane, Ulysses offers the reader a life-changing experience. James Joyces astonishing masterpiece tells of the diverse events which befall Leopold Bloom and Stephen Dedalus in Dublin on 16 June 1904, during which Blooms voluptuous wife, Molly, commits adultery. Initially deemed obscene in England and the USA, this richly-allusive novel, revolutionary in its Modernistic experimentalism, was hailed as a work of genius by W. B. Yeats, T. S. Eliot and Ernest Hemingway."
+          },
+          "book": {
+            "_attributes": {
+              "id": "34497684"
+            },
+            "num_pages": {
+              "_text": "322"
+            }
+          },
+          "author_name": {
+            "_text": "James Joyce"
+          },
+          "isbn": {},
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Fri, 08 Oct 2021 01:32:35 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Fri, 08 Oct 2021 01:32:35 -0700"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.57"
+          },
+          "book_published": {
+            "_text": "1922"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/34497684-ulysses-by-james-joyce?utm_medium=api&amp;utm_source=rss\"><img alt=\"Ulysses by James Joyce (Original Unabridged Version)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1488850917l/34497684._SX50_.jpg\" /></a><br/>\n                                      author: James Joyce<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.57<br/>\n                                      book published: 1922<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/10/08<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/4276202350?utm_medium=api&utm_source=rss"
@@ -6928,294 +7212,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/76683.Foundation_s_Edge?utm_medium=api&amp;utm_source=rss\"><img alt=\"Foundation&#39;s Edge (Foundation #4)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442311409l/76683._SY75_.jpg\" /></a><br/>\n                                      author: Isaac Asimov<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.13<br/>\n                                      book published: 1982<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/06/11<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/4039959353?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Mon, 07 Jun 2021 01:29:10 -0700"
-          },
-          "title": {
-            "_text": "Critique of Pure Reason"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/4039959353?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "18288"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348663530l/18288._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348663530l/18288._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348663530l/18288._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348663530l/18288.jpg"
-          },
-          "book_description": {
-            "_cdata": "<b>\n  <i>'The purpose of this critique of pure speculative reason consists in the attempt to change the old procedure of metaphysics and to bring about a complete revolution'</i>\n</b><br /><br />Kant's <i>Critique of Pure Reason</i> (1781) is the central text of modern philosophy. It presents a profound and challenging investigation into the nature of human reason, its knowledge and its illusions. Reason, Kant argues, is the seat of certain concepts that precede experience and make it possible, but we are not therefore entitled to draw conclusions about the natural world from these concepts. The <i>Critique</i> brings together the two opposing schools of philosophy: rationalism, which grounds all our knowledge in reason, and empiricism, which traces all our knowledge to experience. Kant's transcendental idealism indicates a third way that goes far beyond these alternatives."
-          },
-          "book": {
-            "_attributes": {
-              "id": "18288"
-            },
-            "num_pages": {
-              "_text": "796"
-            }
-          },
-          "author_name": {
-            "_text": "Immanuel Kant"
-          },
-          "isbn": {
-            "_text": "0521657296"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Mon, 07 Jun 2021 01:29:10 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Thu, 03 Jun 2021 22:13:30 -0700"
-          },
-          "user_shelves": {
-            "_text": "currently-reading"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "3.95"
-          },
-          "book_published": {
-            "_text": "1781"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/18288.Critique_of_Pure_Reason?utm_medium=api&amp;utm_source=rss\"><img alt=\"Critique of Pure Reason\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348663530l/18288._SY75_.jpg\" /></a><br/>\n                                      author: Immanuel Kant<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.95<br/>\n                                      book published: 1781<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/06/07<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/4010952624?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sun, 06 Jun 2021 01:23:34 -0700"
-          },
-          "title": {
-            "_cdata": "The Citadel of the Autarch (The Book of the New Sun, #4)"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/4010952624?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "299758"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1332036031l/299758._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1332036031l/299758._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1332036031l/299758._SY160_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1332036031l/299758.jpg"
-          },
-          "book_description": {
-            "_cdata": "Volume Four of the Book of the New Sun. <br /><br />Severian the Torturer continues his epic journey across the lands of Urth, a journey as fraught with peril as it is with wonder. Exiled from his guild he is an outcast, but his travels are woven with strange portents. The Claw of the Conciliator, relic of a prophet and promise of a new age, flames to life in his hands. He carries the great sword Terminus Est, the Line of Division. The dwellers in the deep waters offer him a kingdom under the seas. And he is hunted and driven by terrors from beyond Urth. <br /><br />Now all his travels move him inexorably toward a grander fate, a destiny that he dare not refuse. For a devouring blackness gnaws at the heart of the Old Sun, and the fate of Urth rests in the return of the Conciliator, the New Sun long foretold."
-          },
-          "book": {
-            "_attributes": {
-              "id": "299758"
-            },
-            "num_pages": {
-              "_text": "330"
-            }
-          },
-          "author_name": {
-            "_text": "Gene Wolfe"
-          },
-          "isbn": {
-            "_text": "0671496662"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "5"
-          },
-          "user_read_at": {
-            "_cdata": "Sun, 06 Jun 2021 01:23:34 -0700"
-          },
-          "user_date_added": {
-            "_cdata": "Sun, 06 Jun 2021 01:23:34 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Wed, 19 May 2021 16:12:48 -0700"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.23"
-          },
-          "book_published": {
-            "_text": "1983"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/299758.The_Citadel_of_the_Autarch?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Citadel of the Autarch (The Book of the New Sun, #4)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1332036031l/299758._SY75_.jpg\" /></a><br/>\n                                      author: Gene Wolfe<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.23<br/>\n                                      book published: 1983<br/>\n                                      rating: 5<br/>\n                                      read at: 2021/06/06<br/>\n                                      date added: 2021/06/06<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/4010952609?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Wed, 02 Jun 2021 20:45:14 -0700"
-          },
-          "title": {
-            "_cdata": "The Sword of the Lictor (The Book of the New Sun, #3)"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/4010952609?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "463378"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1329650171l/463378._SX50_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1329650171l/463378._SX50_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1329650171l/463378._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1329650171l/463378.jpg"
-          },
-          "book_description": {
-            "_cdata": "Beneath the dying sun the disgraced torturer, Severian, at last comes to his place of exile - Thrax, the City of Windowless Rooms. But Severian's journeying is not ended, and high in the Earth's ancient mountains he draws closer to his destiny."
-          },
-          "book": {
-            "_attributes": {
-              "id": "463378"
-            },
-            "num_pages": {
-              "_text": "279"
-            }
-          },
-          "author_name": {
-            "_text": "Gene Wolfe"
-          },
-          "isbn": {
-            "_text": "0671631934"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "4"
-          },
-          "user_read_at": {
-            "_cdata": "Wed, 02 Jun 2021 20:45:08 -0700"
-          },
-          "user_date_added": {
-            "_cdata": "Wed, 02 Jun 2021 20:45:14 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Wed, 19 May 2021 16:12:47 -0700"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.19"
-          },
-          "book_published": {
-            "_text": "1982"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/463378.The_Sword_of_the_Lictor?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Sword of the Lictor (The Book of the New Sun, #3)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1329650171l/463378._SX50_.jpg\" /></a><br/>\n                                      author: Gene Wolfe<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.19<br/>\n                                      book published: 1982<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/06/02<br/>\n                                      date added: 2021/06/02<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3978060529?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sun, 30 May 2021 22:38:40 -0700"
-          },
-          "title": {
-            "_text": "The Order of Time"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3978060529?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "36442813"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1516424407l/36442813._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1516424407l/36442813._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1516424407l/36442813._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1516424407l/36442813._SY475_.jpg"
-          },
-          "book_description": {
-            "_cdata": "Time is a mystery that does not cease to puzzle us. Philosophers, artists and poets have long explored its meaning while scientists have found that its structure is different from the simple intuition we have of it. From Boltzmann to quantum theory, from Einstein to loop quantum gravity, our understanding of time has been undergoing radical transformations. Time flows at different speeds in different places, the past and the future differ far less than we might think and the very notion of the present evaporates in the vast universe. <br /><br />With his extraordinary charm and sense of wonder, bringing together science, philosophy and art, Carlo Rovelli unravels this mystery, inviting us to imagine a world where time is in us and we are not in time."
-          },
-          "book": {
-            "_attributes": {
-              "id": "36442813"
-            },
-            "num_pages": {
-              "_text": "240"
-            }
-          },
-          "author_name": {
-            "_text": "Carlo Rovelli"
-          },
-          "isbn": {
-            "_text": "073521610X"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "5"
-          },
-          "user_read_at": {
-            "_cdata": "Wed, 05 Jun 2019 00:00:00 -0700"
-          },
-          "user_date_added": {
-            "_cdata": "Sun, 30 May 2021 22:38:40 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Sun, 02 May 2021 01:31:33 -0700"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.12"
-          },
-          "book_published": {
-            "_text": "2017"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/36442813-the-order-of-time?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Order of Time\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1516424407l/36442813._SY75_.jpg\" /></a><br/>\n                                      author: Carlo Rovelli<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.12<br/>\n                                      book published: 2017<br/>\n                                      rating: 5<br/>\n                                      read at: 2019/06/05<br/>\n                                      date added: 2021/05/30<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Sun, 30 May 2021 00:45:18 -0700"
+        "_text": "Mon, 07 Jun 2021 01:29:10 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,294 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4039959353?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Mon, 07 Jun 2021 01:29:10 -0700"
+          },
+          "title": {
+            "_text": "Critique of Pure Reason"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4039959353?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "18288"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348663530l/18288._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348663530l/18288._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348663530l/18288._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348663530l/18288.jpg"
+          },
+          "book_description": {
+            "_cdata": "<b>\n  <i>'The purpose of this critique of pure speculative reason consists in the attempt to change the old procedure of metaphysics and to bring about a complete revolution'</i>\n</b><br /><br />Kant's <i>Critique of Pure Reason</i> (1781) is the central text of modern philosophy. It presents a profound and challenging investigation into the nature of human reason, its knowledge and its illusions. Reason, Kant argues, is the seat of certain concepts that precede experience and make it possible, but we are not therefore entitled to draw conclusions about the natural world from these concepts. The <i>Critique</i> brings together the two opposing schools of philosophy: rationalism, which grounds all our knowledge in reason, and empiricism, which traces all our knowledge to experience. Kant's transcendental idealism indicates a third way that goes far beyond these alternatives."
+          },
+          "book": {
+            "_attributes": {
+              "id": "18288"
+            },
+            "num_pages": {
+              "_text": "796"
+            }
+          },
+          "author_name": {
+            "_text": "Immanuel Kant"
+          },
+          "isbn": {
+            "_text": "0521657296"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Mon, 07 Jun 2021 01:29:10 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Thu, 03 Jun 2021 22:13:30 -0700"
+          },
+          "user_shelves": {
+            "_text": "currently-reading"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.95"
+          },
+          "book_published": {
+            "_text": "1781"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/18288.Critique_of_Pure_Reason?utm_medium=api&amp;utm_source=rss\"><img alt=\"Critique of Pure Reason\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348663530l/18288._SY75_.jpg\" /></a><br/>\n                                      author: Immanuel Kant<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.95<br/>\n                                      book published: 1781<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/06/07<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4010952624?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sun, 06 Jun 2021 01:23:34 -0700"
+          },
+          "title": {
+            "_cdata": "The Citadel of the Autarch (The Book of the New Sun, #4)"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4010952624?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "299758"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1332036031l/299758._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1332036031l/299758._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1332036031l/299758._SY160_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1332036031l/299758.jpg"
+          },
+          "book_description": {
+            "_cdata": "Volume Four of the Book of the New Sun. <br /><br />Severian the Torturer continues his epic journey across the lands of Urth, a journey as fraught with peril as it is with wonder. Exiled from his guild he is an outcast, but his travels are woven with strange portents. The Claw of the Conciliator, relic of a prophet and promise of a new age, flames to life in his hands. He carries the great sword Terminus Est, the Line of Division. The dwellers in the deep waters offer him a kingdom under the seas. And he is hunted and driven by terrors from beyond Urth. <br /><br />Now all his travels move him inexorably toward a grander fate, a destiny that he dare not refuse. For a devouring blackness gnaws at the heart of the Old Sun, and the fate of Urth rests in the return of the Conciliator, the New Sun long foretold."
+          },
+          "book": {
+            "_attributes": {
+              "id": "299758"
+            },
+            "num_pages": {
+              "_text": "330"
+            }
+          },
+          "author_name": {
+            "_text": "Gene Wolfe"
+          },
+          "isbn": {
+            "_text": "0671496662"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "5"
+          },
+          "user_read_at": {
+            "_cdata": "Sun, 06 Jun 2021 01:23:34 -0700"
+          },
+          "user_date_added": {
+            "_cdata": "Sun, 06 Jun 2021 01:23:34 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Wed, 19 May 2021 16:12:48 -0700"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.23"
+          },
+          "book_published": {
+            "_text": "1983"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/299758.The_Citadel_of_the_Autarch?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Citadel of the Autarch (The Book of the New Sun, #4)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1332036031l/299758._SY75_.jpg\" /></a><br/>\n                                      author: Gene Wolfe<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.23<br/>\n                                      book published: 1983<br/>\n                                      rating: 5<br/>\n                                      read at: 2021/06/06<br/>\n                                      date added: 2021/06/06<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4010952609?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Wed, 02 Jun 2021 20:45:14 -0700"
+          },
+          "title": {
+            "_cdata": "The Sword of the Lictor (The Book of the New Sun, #3)"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4010952609?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "463378"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1329650171l/463378._SX50_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1329650171l/463378._SX50_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1329650171l/463378._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1329650171l/463378.jpg"
+          },
+          "book_description": {
+            "_cdata": "Beneath the dying sun the disgraced torturer, Severian, at last comes to his place of exile - Thrax, the City of Windowless Rooms. But Severian's journeying is not ended, and high in the Earth's ancient mountains he draws closer to his destiny."
+          },
+          "book": {
+            "_attributes": {
+              "id": "463378"
+            },
+            "num_pages": {
+              "_text": "279"
+            }
+          },
+          "author_name": {
+            "_text": "Gene Wolfe"
+          },
+          "isbn": {
+            "_text": "0671631934"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "4"
+          },
+          "user_read_at": {
+            "_cdata": "Wed, 02 Jun 2021 20:45:08 -0700"
+          },
+          "user_date_added": {
+            "_cdata": "Wed, 02 Jun 2021 20:45:14 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Wed, 19 May 2021 16:12:47 -0700"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.19"
+          },
+          "book_published": {
+            "_text": "1982"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/463378.The_Sword_of_the_Lictor?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Sword of the Lictor (The Book of the New Sun, #3)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1329650171l/463378._SX50_.jpg\" /></a><br/>\n                                      author: Gene Wolfe<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.19<br/>\n                                      book published: 1982<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/06/02<br/>\n                                      date added: 2021/06/02<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3978060529?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sun, 30 May 2021 22:38:40 -0700"
+          },
+          "title": {
+            "_text": "The Order of Time"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3978060529?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "36442813"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1516424407l/36442813._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1516424407l/36442813._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1516424407l/36442813._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1516424407l/36442813._SY475_.jpg"
+          },
+          "book_description": {
+            "_cdata": "Time is a mystery that does not cease to puzzle us. Philosophers, artists and poets have long explored its meaning while scientists have found that its structure is different from the simple intuition we have of it. From Boltzmann to quantum theory, from Einstein to loop quantum gravity, our understanding of time has been undergoing radical transformations. Time flows at different speeds in different places, the past and the future differ far less than we might think and the very notion of the present evaporates in the vast universe. <br /><br />With his extraordinary charm and sense of wonder, bringing together science, philosophy and art, Carlo Rovelli unravels this mystery, inviting us to imagine a world where time is in us and we are not in time."
+          },
+          "book": {
+            "_attributes": {
+              "id": "36442813"
+            },
+            "num_pages": {
+              "_text": "240"
+            }
+          },
+          "author_name": {
+            "_text": "Carlo Rovelli"
+          },
+          "isbn": {
+            "_text": "073521610X"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "5"
+          },
+          "user_read_at": {
+            "_cdata": "Wed, 05 Jun 2019 00:00:00 -0700"
+          },
+          "user_date_added": {
+            "_cdata": "Sun, 30 May 2021 22:38:40 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Sun, 02 May 2021 01:31:33 -0700"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.12"
+          },
+          "book_published": {
+            "_text": "2017"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/36442813-the-order-of-time?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Order of Time\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1516424407l/36442813._SY75_.jpg\" /></a><br/>\n                                      author: Carlo Rovelli<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.12<br/>\n                                      book published: 2017<br/>\n                                      rating: 5<br/>\n                                      read at: 2019/06/05<br/>\n                                      date added: 2021/05/30<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/3974109256?utm_medium=api&utm_source=rss"
@@ -6936,288 +7224,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/53398908-fundamentals?utm_medium=api&amp;utm_source=rss\"><img alt=\"Fundamentals: Ten Keys to Reality\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1606104694l/53398908._SY75_.jpg\" /></a><br/>\n                                      author: Frank Wilczek<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.85<br/>\n                                      book published: 2021<br/>\n                                      rating: 5<br/>\n                                      read at: 2021/01/31<br/>\n                                      date added: 2021/01/31<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3807896800?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sat, 30 Jan 2021 22:22:55 -0800"
-          },
-          "title": {
-            "_cdata": "War with Russia: From Putin and Ukraine To Trump and Russiagate"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3807896800?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "42429312"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1540385794l/42429312._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1540385794l/42429312._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1540385794l/42429312._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1540385794l/42429312._SY475_.jpg"
-          },
-          "book_description": {
-            "_cdata": "<b>Are we in a new Cold War with Russia? How does a new Cold War affect the safety and security of the United States? Does Vladimir Putin really want to destabilize the West?</b> <br /><br /> America is in a new Cold War with Russia even more dangerous than the one the world barely survived in the twentieth century. The Soviet Union is gone, but the two nuclear superpowers are again locked in political and military confrontations, now from Ukraine to Syria. All of this is exacerbated by Washington’s war-like demonizing of the Kremlin leadership and by Russiagate’s unprecedented allegations. US mainstream media accounts are highly selective and seriously misleading. American “disinformation,” not only Russian, is a growing peril. <br /><br /> In <i>War With Russia?</i>, Stephen F. Cohen—the widely acclaimed historian of Soviet and post-Soviet Russia—gives readers a very different, dissenting narrative of this more dangerous new Cold War from its origins in the 1990s, the actual role of Vladimir Putin, and the 2014 Ukrainian crisis to Donald Trump’s election and today’s unprecedented Russiagate allegations. <br /><br /> Cohen’s views have made him, it is said, “America’s most controversial Russia expert.” Some say this to denounce him, others to laud him as a bold, highly informed critic of US policies and the dangers they have helped to create. <br /><br /> <i>War With Russia?</i> gives readers a chance to decide for themselves who is right: are we living, as Cohen argues, in a time of unprecedented perils at home and abroad?"
-          },
-          "book": {
-            "_attributes": {
-              "id": "42429312"
-            },
-            "num_pages": {}
-          },
-          "author_name": {
-            "_text": "Stephen F. Cohen"
-          },
-          "isbn": {},
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Sat, 30 Jan 2021 22:22:55 -0800"
-          },
-          "user_date_created": {
-            "_cdata": "Sat, 30 Jan 2021 22:22:55 -0800"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.06"
-          },
-          "book_published": {},
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/42429312-war-with-russia?utm_medium=api&amp;utm_source=rss\"><img alt=\"War with Russia: From Putin and Ukraine To Trump and Russiagate\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1540385794l/42429312._SY75_.jpg\" /></a><br/>\n                                      author: Stephen F. Cohen<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.06<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/01/30<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3807892835?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sat, 30 Jan 2021 22:19:36 -0800"
-          },
-          "title": {
-            "_cdata": "The Change I Believe In: Fighting for Progress in the Age of Obama"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3807892835?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "12840271"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328751465l/12840271._SX50_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328751465l/12840271._SX50_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328751465l/12840271._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328751465l/12840271.jpg"
-          },
-          "book_description": {
-            "_cdata": "On the night of the 2008 presidential election, <i>Nation</i> editor Katrina vanden Heuvel spoke for many: \"For the first time in decades, electoral politics became a vehicle for raising expectations and spreading hope.\" But, she cautioned, \"We progressives need to be as clear-eyed, tough, and pragmatic about Obama as he is about us.\" <br /><br /><i>Where I Stand</i> collects vanden Heuvel's commentaries and columns from the first years of the Obama administration, an era that has come to be defined by reform and reaction. In the wake of the economic crisis and challenges from the insurgent Tea Party movement, it is clear that it will take more than one election (and one person) to reshape American politics and repair the damage wreaked by a decade of calamitous conservative rule. <br /><br /> Vanden Heuvel challenges the limits of our downsized political debate, arguing that timid incrementalism and the forces of money and establishment power that debilitate American politics will be overcome only by independent organizing, strategic creativity, bold ideas, and determined idealism."
-          },
-          "book": {
-            "_attributes": {
-              "id": "12840271"
-            },
-            "num_pages": {
-              "_text": "384"
-            }
-          },
-          "author_name": {
-            "_text": "Katrina Vanden Heuvel"
-          },
-          "isbn": {
-            "_text": "1568586884"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Sat, 30 Jan 2021 22:19:36 -0800"
-          },
-          "user_date_created": {
-            "_cdata": "Sat, 30 Jan 2021 22:19:36 -0800"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "2.88"
-          },
-          "book_published": {
-            "_text": "2011"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/12840271-the-change-i-believe-in?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Change I Believe In: Fighting for Progress in the Age of Obama\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328751465l/12840271._SX50_.jpg\" /></a><br/>\n                                      author: Katrina Vanden Heuvel<br/>\n                                      name: Daniel<br/>\n                                      average rating: 2.88<br/>\n                                      book published: 2011<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/01/30<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3807877332?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sat, 30 Jan 2021 22:06:52 -0800"
-          },
-          "title": {
-            "_cdata": "Cancel Your Own Goddam Subscription: Notes and Asides from National Review"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3807877332?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "1811722"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1441331455l/1811722._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1441331455l/1811722._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1441331455l/1811722._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1441331455l/1811722._SY475_.jpg"
-          },
-          "book_description": {
-            "_cdata": "Who knew that William F. Buckley Jr., the quintessential conservative, invented the blog decades before the World Wide Web came into existence? <i>National Review</i>, like nearly all magazines, has always published letters from readers. In 1967 the magazine decided that certain letters merited different treatment, and Buckley, the editor, began a column called “Notes &amp; Asides,” in which he personally answered the most notable and outrageous letters. The selections in this book, culled from four decades of these columns, include exchanges with such figures as Ronald Reagan, Eric Sevareid, Richard Nixon, A. M. Rosenthal, Auberon Waugh, John Kenneth Galbraith, and Arthur Schlesinger Jr. There are also hilarious exchanges with ordinary readers, as well as letters from Buckley to various organizations and government agencies."
-          },
-          "book": {
-            "_attributes": {
-              "id": "1811722"
-            },
-            "num_pages": {
-              "_text": "295"
-            }
-          },
-          "author_name": {
-            "_text": "William F. Buckley Jr."
-          },
-          "isbn": {
-            "_text": "0465002420"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Sat, 30 Jan 2021 22:06:52 -0800"
-          },
-          "user_date_created": {
-            "_cdata": "Sat, 30 Jan 2021 22:06:51 -0800"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "3.93"
-          },
-          "book_published": {
-            "_text": "2007"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/1811722.Cancel_Your_Own_Goddam_Subscription?utm_medium=api&amp;utm_source=rss\"><img alt=\"Cancel Your Own Goddam Subscription: Notes and Asides from National Review\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1441331455l/1811722._SY75_.jpg\" /></a><br/>\n                                      author: William F. Buckley Jr.<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.93<br/>\n                                      book published: 2007<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/01/30<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3807877228?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sat, 30 Jan 2021 22:06:48 -0800"
-          },
-          "title": {
-            "_cdata": "Nearer, My God: An Autobiography of Faith"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3807877228?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "101778"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348471661l/101778._SX50_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348471661l/101778._SX50_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348471661l/101778._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348471661l/101778.jpg"
-          },
-          "book_description": {
-            "_cdata": "This is the story of one man's faith, told with unrivaled reflection and candor. William F. Buckley, Jr., was raised a Catholic. As the world plunged into war, and as social mores changed dramatically around him, Buckley's faith -- a most essential part of his make-up -- sustained him. In Nearer, My God, Buckley examines in searching detail the meaning of his faith, and how his life has been shaped and sustained by religious conviction.<br /><br />In highly personal terms, and with the wit and acuity for which he is justly renowned, Buckley discusses vital issues of Catholic doctrine and practice, and in so doing outlines for the reader both the nature of CathoLic faith and the essential role of religious belief in everyday life. In powerfully felt prose, he contributes provocatively and intelligently to the national interest in the nature of religion, the Church, and spiritual development. Nearer, My God is sure to appeal to all readers who have felt the stirrings of their own religious faith, and who want confirmation of their beliefs or who are seeking a guide to understanding their own souls. <br /><br />The renowned social and political commentator, William F. Buckley Jr., turns to a highly personal subject -- his faith. And he tells us the story of his life as a Catholic Christian. \"Nearer, My God\" is the most reflective, poignant, and searching of Bill Buckley's many books. In the opening chapters he relives his childhood, a loving, funny, nostalgic glimpse into pre-World War II America and England. He speaks about his religious experiences to a world that has changed dramatically. He is unafraid of revealing the most personal side of his faith. He describes, in his distinctive style, the intimacy of a trip to Lourdes, the impact on him of the searing account by Maria Valtorta of the Crucifixion, the ordination of his nephew into the priesthood, and gives a moving account of his mother's death. And there is humor, as Buckley gives a unique, hilarious view of a visit to the Vatican with Malcolm Muggeridge, Charlton Heston, Grace Kelly, and David Niven. Personal though this book is, Buckley has gone to others to examine new perspectives, putting together his own distinguished 'Forum' and leaning on the great literature of the past to illustrate his thinking on contemporary Catholic and Christian issues. <br />"
-          },
-          "book": {
-            "_attributes": {
-              "id": "101778"
-            },
-            "num_pages": {
-              "_text": "336"
-            }
-          },
-          "author_name": {
-            "_text": "William F. Buckley Jr."
-          },
-          "isbn": {
-            "_text": "0156006189"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Sat, 30 Jan 2021 22:06:48 -0800"
-          },
-          "user_date_created": {
-            "_cdata": "Sat, 30 Jan 2021 22:06:47 -0800"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "3.91"
-          },
-          "book_published": {
-            "_text": "1997"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/101778.Nearer_My_God?utm_medium=api&amp;utm_source=rss\"><img alt=\"Nearer, My God: An Autobiography of Faith\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348471661l/101778._SX50_.jpg\" /></a><br/>\n                                      author: William F. Buckley Jr.<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.91<br/>\n                                      book published: 1997<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/01/30<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

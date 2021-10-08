@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Mon, 19 Aug 2019 22:24:38 -0700"
+        "_text": "Tue, 01 Oct 2019 17:54:02 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,294 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/2813456948?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Tue, 01 Oct 2019 17:54:02 -0700"
+          },
+          "title": {
+            "_cdata": "17 Carnations: The Royals, the Nazis and the Biggest Cover-Up in History"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/2813456948?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "22313811"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1405865413l/22313811._SX50_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1405865413l/22313811._SX50_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1405865413l/22313811._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1405865413l/22313811.jpg"
+          },
+          "book_description": {
+            "_cdata": "<p>The story of the love affair between Wallis Simpson and King Edward VIII, and his abdication in order to marry the divorcée, has provoked fascination and discussion for decades. However, the full story of the couple's links with the German aristocracy and Hitler has until now remained untold.</p><p></p><p>Meticulously researched, <i>17 Carnations</i> chronicles this entanglement, starting with Hitler's early attempts to matchmake between Edward and a German noblewoman. While the German foreign minister sent Simpson seventeen carnations daily, each one representing a night they had spent together, she and the Duke of Windsor corresponded regularly with the German elite. Known to be pro-German sympathizers, the couple became embroiled in a conspiracy to install Edward as a puppet king after the Allies were defeated. After the war, the Duke's letters were hidden in a German castle that had fallen to American soldiers. They were then suppressed for years, as the British establishment attempted to cover up this connection between the House of Windsor and Hitler. </p><p></p><p>Drawing on FBI documents, material from the German and British Royal Archives, and the personal correspondence of Churchill, Truman, Eisenhower and the Windsors themselves, <i>17 Carnations</i> reveals the whole fascinating story, throwing sharp new light on a dark chapter of history.</p>"
+          },
+          "book": {
+            "_attributes": {
+              "id": "22313811"
+            },
+            "num_pages": {
+              "_text": "370"
+            }
+          },
+          "author_name": {
+            "_text": "Andrew Morton"
+          },
+          "isbn": {
+            "_text": "1455527114"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {
+            "_cdata": "Tue, 01 Oct 2019 17:53:46 -0700"
+          },
+          "user_date_added": {
+            "_cdata": "Tue, 01 Oct 2019 17:54:02 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Tue, 07 May 2019 21:55:26 -0700"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.22"
+          },
+          "book_published": {
+            "_text": "2015"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/22313811-17-carnations?utm_medium=api&amp;utm_source=rss\"><img alt=\"17 Carnations: The Royals, the Nazis and the Biggest Cover-Up in History\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1405865413l/22313811._SX50_.jpg\" /></a><br/>\n                                      author: Andrew Morton<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.22<br/>\n                                      book published: 2015<br/>\n                                      rating: 0<br/>\n                                      read at: 2019/10/01<br/>\n                                      date added: 2019/10/01<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/2991014027?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Wed, 25 Sep 2019 22:49:58 -0700"
+          },
+          "title": {
+            "_cdata": "Space: The 10 Things You Should Know"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/2991014027?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "45549792"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1557233341l/45549792._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1557233341l/45549792._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1557233341l/45549792._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1557233341l/45549792._SY475_.jpg"
+          },
+          "book_description": {
+            "_cdata": "This book is for anyone who wants to easily understand the mind-blowing fundamentals of our extraordinary, expanding universe. <br /><br />Written by Oxford astrophysicist Dr Becky Smethurst and composed of ten captivating, simple essays, it guides you swiftly through the galaxies, explaining the mysteries of black holes, dark matter and what existed before the Big Bang, presenting the evidence as to whether we really are alone, illuminating what we still don't know, and much more besides.<br /><br />If you have big questions about Space, this book will provide you with the answers in an engaging and succinct way."
+          },
+          "book": {
+            "_attributes": {
+              "id": "45549792"
+            },
+            "num_pages": {
+              "_text": "120"
+            }
+          },
+          "author_name": {
+            "_text": "Becky Smethurst"
+          },
+          "isbn": {
+            "_text": "1841883824"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Wed, 25 Sep 2019 22:49:58 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Wed, 25 Sep 2019 22:49:58 -0700"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.24"
+          },
+          "book_published": {
+            "_text": "2019"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/45549792-space?utm_medium=api&amp;utm_source=rss\"><img alt=\"Space: The 10 Things You Should Know\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1557233341l/45549792._SY75_.jpg\" /></a><br/>\n                                      author: Becky Smethurst<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.24<br/>\n                                      book published: 2019<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2019/09/25<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/2973244418?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Wed, 11 Sep 2019 01:02:09 -0700"
+          },
+          "title": {
+            "_cdata": "Rebooting AI: Building Artificial Intelligence We Can Trust"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/2973244418?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "43999120"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1555590930l/43999120._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1555590930l/43999120._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1555590930l/43999120._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1555590930l/43999120.jpg"
+          },
+          "book_description": {
+            "_cdata": "<b>\n  <b>Two leaders in the field offer a compelling analysis of the current state of the art and reveal the steps we must take to achieve a truly robust AI.</b>\n</b><br /><br />Despite the hype surrounding AI, creating an intelligence that rivals or exceeds human levels is far more complicated than we are led to believe. Professors Gary Marcus and Ernest Davis have spent their careers at the forefront of AI research and have witnessed some of the greatest milestones in the field, but they argue that a computer winning in games like Jeopardy and go does not signal that we are on the doorstep of fully autonomous cars or superintelligent machines. The achievements in the field thus far have occurred in closed systems with fixed sets of rules. These approaches are too narrow to achieve genuine intelligence. The world we live in is wildly complex and open-ended. How can we bridge this gap? What will the consequences be when we do? Marcus and Davis show us what we need to first accomplish before we get there and argue that if we are wise along the way, we won't need to worry about a future of machine overlords. If we heed their advice, humanity can create an AI that we can trust in our homes, our cars, and our doctor's offices.<br /><i> Reboot </i>provides a lucid, clear-eyed assessment of the current science and offers an inspiring vision of what we can achieve and how AI can make our lives better."
+          },
+          "book": {
+            "_attributes": {
+              "id": "43999120"
+            },
+            "num_pages": {
+              "_text": "288"
+            }
+          },
+          "author_name": {
+            "_text": "Gary F. Marcus"
+          },
+          "isbn": {
+            "_text": "1524748250"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Wed, 11 Sep 2019 01:02:09 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Wed, 11 Sep 2019 01:02:09 -0700"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.83"
+          },
+          "book_published": {
+            "_text": "2019"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/43999120-rebooting-ai?utm_medium=api&amp;utm_source=rss\"><img alt=\"Rebooting AI: Building Artificial Intelligence We Can Trust\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1555590930l/43999120._SY75_.jpg\" /></a><br/>\n                                      author: Gary F. Marcus<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.83<br/>\n                                      book published: 2019<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2019/09/11<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/2964087407?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Tue, 03 Sep 2019 22:32:13 -0700"
+          },
+          "title": {
+            "_cdata": "The Hero With a Thousand Faces"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/2964087407?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "588138"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442885694l/588138._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442885694l/588138._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442885694l/588138._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442885694l/588138._SY475_.jpg"
+          },
+          "book_description": {
+            "_cdata": "<p>The first popular work to combine the spiritual and psychological insights of modern psychoanalysis with the archetypes of world mythology, the book creates a roadmap for navigating the frustrating path of contemporary life. Examining heroic myths in the light of modern psychology, it considers not only the patterns and stages of mythology but also its relevance to our lives today--and to the life of any person seeking a fully realized existence.<br /><br />Myth, according to Campbell, is the projection of a culture's dreams onto a large screen; Campbell's book, like <i>Star Wars</i>, the film it helped inspire, is an exploration of the big-picture moments from the stage that is our world. It is a must-have resource for both experienced students of mythology and the explorer just beginning to approach myth as a source of knowledge.</p>"
+          },
+          "book": {
+            "_attributes": {
+              "id": "588138"
+            },
+            "num_pages": {
+              "_text": "416"
+            }
+          },
+          "author_name": {
+            "_text": "Joseph Campbell"
+          },
+          "isbn": {
+            "_text": "0691017840"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Tue, 03 Sep 2019 22:32:13 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Tue, 03 Sep 2019 22:32:13 -0700"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.12"
+          },
+          "book_published": {
+            "_text": "1949"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/588138.The_Hero_With_a_Thousand_Faces?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Hero With a Thousand Faces\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442885694l/588138._SY75_.jpg\" /></a><br/>\n                                      author: Joseph Campbell<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.12<br/>\n                                      book published: 1949<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2019/09/03<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/2944523834?utm_medium=api&utm_source=rss"
@@ -6908,294 +7196,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/18961440-implementing-appfog?utm_medium=api&amp;utm_source=rss\"><img alt=\"Implementing Appfog\" src=\"https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png\" /></a><br/>\n                                      author: Matthew Nohr<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.75<br/>\n                                      book published: 2013<br/>\n                                      rating: 4<br/>\n                                      read at: 2014/01/20<br/>\n                                      date added: 2014/01/26<br/>\n                                      shelves: <br/>\n                                      review: <br/>I enjoyed going through this introductory material.<br /><br />The material is well laid out, and will get you to a fully deployed ruby/sinatra app, backed by a MySQL database in no-time flat.<br /><br />This material is specifically aimed towards newcomers to the AppFog PaaS.<br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/822048864?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sun, 12 Jan 2014 23:06:55 -0800"
-          },
-          "title": {
-            "_cdata": "The DAM Book: Digital Asset Management for Photographers"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/822048864?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "5731181"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328834877l/5731181._SX50_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328834877l/5731181._SX50_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328834877l/5731181._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328834877l/5731181.jpg"
-          },
-          "book_description": {
-            "_cdata": "One of the main concerns for digital photographers today is asset management: how to file, find, protect, and re-use their photos. The best solutions can be found in <i>The DAM Book</i>, our bestselling guide to managing digital images efficiently and effectively.<br /><br /> Anyone who shoots, scans, or stores digital photographs is practicing digital asset management (DAM), but few people do it in a way that makes sense. In this second edition, photographer Peter Krogh -- the leading expert on DAM -- provides new tools and techniques to help professionals, amateurs, and students:<br /><br /><br /><br /><br />Understand the image file lifecycle: from shooting to editing, output, and permanent storage Learn new ways to use metadata and key words to track photo files Create a digital archive and name files clearly Determine a strategy for backing up and validating image data Learn a catalog workflow strategy, using Adobe Bridge, Camera Raw, Adobe Lightroom, Microsoft Expression Media, and Photoshop CS4 together Migrate images from one file format to another, from one storage medium to another, and from film to digital Learn how to copyright images To identify and protect your images in the marketplace, having a solid asset management system is essential. <i>The DAM Book</i> offers the best approach."
-          },
-          "book": {
-            "_attributes": {
-              "id": "5731181"
-            },
-            "num_pages": {
-              "_text": "496"
-            }
-          },
-          "author_name": {
-            "_text": "Peter Krogh"
-          },
-          "isbn": {
-            "_text": "0596523572"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Sun, 12 Jan 2014 23:06:55 -0800"
-          },
-          "user_date_created": {
-            "_cdata": "Sun, 12 Jan 2014 23:06:55 -0800"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "3.97"
-          },
-          "book_published": {
-            "_text": "2005"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/5731181-the-dam-book?utm_medium=api&amp;utm_source=rss\"><img alt=\"The DAM Book: Digital Asset Management for Photographers\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328834877l/5731181._SX50_.jpg\" /></a><br/>\n                                      author: Peter Krogh<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.97<br/>\n                                      book published: 2005<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2014/01/12<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/801509311?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Fri, 27 Dec 2013 09:31:26 -0800"
-          },
-          "title": {
-            "_cdata": "How to Wake Up: A Buddhist-Inspired Guide to Navigating Joy and Sorrow"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/801509311?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "17318646"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388340508l/17318646._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388340508l/17318646._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388340508l/17318646._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388340508l/17318646.jpg"
-          },
-          "book_description": {
-            "_cdata": "Intimately and without jargon, <i>How to Wake Up: A Buddhist-Inspired Guide to Navigating Joy and Sorrow</i> describes the path to peace amid all of life’s ups and downs. Using step by step instructions, the author illustrates how to be fully present in the moment without clinging to joy or resisting sorrow. This opens the door to a kind of wellness that goes beyond circumstances. Actively engaging life as it is in this fashion holds the potential for awakening to a peace and well-being that are not dependent on whether a particular experience is joyful or sorrowful. This is a practical book, containing dozens of exercises and practices, all of which are illustrated with easy-to-relate to personal stories from the author’s experience."
-          },
-          "book": {
-            "_attributes": {
-              "id": "17318646"
-            },
-            "num_pages": {
-              "_text": "240"
-            }
-          },
-          "author_name": {
-            "_text": "Toni Bernhard"
-          },
-          "isbn": {
-            "_text": "1614290563"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Fri, 27 Dec 2013 09:31:26 -0800"
-          },
-          "user_date_created": {
-            "_cdata": "Fri, 27 Dec 2013 09:31:26 -0800"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.24"
-          },
-          "book_published": {
-            "_text": "2013"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/17318646-how-to-wake-up?utm_medium=api&amp;utm_source=rss\"><img alt=\"How to Wake Up: A Buddhist-Inspired Guide to Navigating Joy and Sorrow\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388340508l/17318646._SY75_.jpg\" /></a><br/>\n                                      author: Toni Bernhard<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.24<br/>\n                                      book published: 2013<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2013/12/27<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/783585067?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sat, 07 Dec 2013 06:51:28 -0800"
-          },
-          "title": {
-            "_cdata": "Implementing Domain-Driven Design"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/783585067?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "15756865"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1342552108l/15756865._SX50_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1342552108l/15756865._SX50_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1342552108l/15756865._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1342552108l/15756865.jpg"
-          },
-          "book_description": {
-            "_cdata": "Implementing Domain-Driven Design presents a top-down approach to understanding domain-driven design (DDD) in a way that fluently connects strategic patterns to fundamental tactical programming tools. Vaughn Vernon couples guided approaches to implementation with modern architectures, highlighting the importance and value of focusing on the business domain while balancing technical considerations.<br /><br />Building on Eric Evans’ seminal book, Domain-Driven Design, the author presents practical DDD techniques through examples from familiar domains. Each principle is backed up by realistic Java examples–all applicable to C# developers–and all content is tied together by a single case study: the delivery of a large-scale Scrum-based SaaS system for a multitenant environment.<br /><br />The author takes you far beyond “DDD-lite” approaches that embrace DDD solely as a technical toolset, and shows you how to fully leverage DDD’s “strategic design patterns” using Bounded Context, Context Maps, and the Ubiquitous Language. Using these techniques and examples, you can reduce time to market and improve quality, as you build software that is more flexible, more scalable, and more tightly aligned to business goals."
-          },
-          "book": {
-            "_attributes": {
-              "id": "15756865"
-            },
-            "num_pages": {
-              "_text": "656"
-            }
-          },
-          "author_name": {
-            "_text": "Vaughn Vernon"
-          },
-          "isbn": {
-            "_text": "0321834577"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Sat, 07 Dec 2013 06:51:28 -0800"
-          },
-          "user_date_created": {
-            "_cdata": "Sat, 07 Dec 2013 06:51:28 -0800"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.06"
-          },
-          "book_published": {
-            "_text": "2013"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/15756865-implementing-domain-driven-design?utm_medium=api&amp;utm_source=rss\"><img alt=\"Implementing Domain-Driven Design\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1342552108l/15756865._SX50_.jpg\" /></a><br/>\n                                      author: Vaughn Vernon<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.06<br/>\n                                      book published: 2013<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2013/12/07<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/742394224?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Mon, 18 Nov 2013 22:34:46 -0800"
-          },
-          "title": {
-            "_cdata": "The War of Art: Winning the Inner Creative Battle"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/742394224?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "1319"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1574272133l/1319._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1574272133l/1319._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1574272133l/1319._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1574272133l/1319._SY475_.jpg"
-          },
-          "book_description": {
-            "_cdata": "Internationally bestselling author of Last of the Amazons, Gates of Fire, and Tides of War, Steven Pressfield delivers a guide to inspire and support those who struggle to express their creativity. Pressfield believes that “resistance” is the greatest enemy, and he offers many unique and helpful ways to overcome it."
-          },
-          "book": {
-            "_attributes": {
-              "id": "1319"
-            },
-            "num_pages": {
-              "_text": "168"
-            }
-          },
-          "author_name": {
-            "_text": "Steven Pressfield"
-          },
-          "isbn": {
-            "_text": "0446691437"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "3"
-          },
-          "user_read_at": {
-            "_cdata": "Mon, 18 Nov 2013 00:00:00 -0800"
-          },
-          "user_date_added": {
-            "_cdata": "Mon, 18 Nov 2013 22:34:46 -0800"
-          },
-          "user_date_created": {
-            "_cdata": "Tue, 15 Oct 2013 23:03:24 -0700"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "3.95"
-          },
-          "book_published": {
-            "_text": "2002"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/1319.The_War_of_Art?utm_medium=api&amp;utm_source=rss\"><img alt=\"The War of Art: Winning the Inner Creative Battle\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1574272133l/1319._SY75_.jpg\" /></a><br/>\n                                      author: Steven Pressfield<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.95<br/>\n                                      book published: 2002<br/>\n                                      rating: 3<br/>\n                                      read at: 2013/11/18<br/>\n                                      date added: 2013/11/18<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

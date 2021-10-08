@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Sat, 30 Jan 2021 22:06:01 -0800"
+        "_text": "Sat, 30 Jan 2021 22:22:55 -0800"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,288 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3807896800?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sat, 30 Jan 2021 22:22:55 -0800"
+          },
+          "title": {
+            "_cdata": "War with Russia: From Putin and Ukraine To Trump and Russiagate"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3807896800?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "42429312"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1540385794l/42429312._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1540385794l/42429312._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1540385794l/42429312._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1540385794l/42429312._SY475_.jpg"
+          },
+          "book_description": {
+            "_cdata": "<b>Are we in a new Cold War with Russia? How does a new Cold War affect the safety and security of the United States? Does Vladimir Putin really want to destabilize the West?</b> <br /><br /> America is in a new Cold War with Russia even more dangerous than the one the world barely survived in the twentieth century. The Soviet Union is gone, but the two nuclear superpowers are again locked in political and military confrontations, now from Ukraine to Syria. All of this is exacerbated by Washington’s war-like demonizing of the Kremlin leadership and by Russiagate’s unprecedented allegations. US mainstream media accounts are highly selective and seriously misleading. American “disinformation,” not only Russian, is a growing peril. <br /><br /> In <i>War With Russia?</i>, Stephen F. Cohen—the widely acclaimed historian of Soviet and post-Soviet Russia—gives readers a very different, dissenting narrative of this more dangerous new Cold War from its origins in the 1990s, the actual role of Vladimir Putin, and the 2014 Ukrainian crisis to Donald Trump’s election and today’s unprecedented Russiagate allegations. <br /><br /> Cohen’s views have made him, it is said, “America’s most controversial Russia expert.” Some say this to denounce him, others to laud him as a bold, highly informed critic of US policies and the dangers they have helped to create. <br /><br /> <i>War With Russia?</i> gives readers a chance to decide for themselves who is right: are we living, as Cohen argues, in a time of unprecedented perils at home and abroad?"
+          },
+          "book": {
+            "_attributes": {
+              "id": "42429312"
+            },
+            "num_pages": {}
+          },
+          "author_name": {
+            "_text": "Stephen F. Cohen"
+          },
+          "isbn": {},
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Sat, 30 Jan 2021 22:22:55 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Sat, 30 Jan 2021 22:22:55 -0800"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.06"
+          },
+          "book_published": {},
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/42429312-war-with-russia?utm_medium=api&amp;utm_source=rss\"><img alt=\"War with Russia: From Putin and Ukraine To Trump and Russiagate\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1540385794l/42429312._SY75_.jpg\" /></a><br/>\n                                      author: Stephen F. Cohen<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.06<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/01/30<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3807892835?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sat, 30 Jan 2021 22:19:36 -0800"
+          },
+          "title": {
+            "_cdata": "The Change I Believe In: Fighting for Progress in the Age of Obama"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3807892835?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "12840271"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328751465l/12840271._SX50_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328751465l/12840271._SX50_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328751465l/12840271._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328751465l/12840271.jpg"
+          },
+          "book_description": {
+            "_cdata": "On the night of the 2008 presidential election, <i>Nation</i> editor Katrina vanden Heuvel spoke for many: \"For the first time in decades, electoral politics became a vehicle for raising expectations and spreading hope.\" But, she cautioned, \"We progressives need to be as clear-eyed, tough, and pragmatic about Obama as he is about us.\" <br /><br /><i>Where I Stand</i> collects vanden Heuvel's commentaries and columns from the first years of the Obama administration, an era that has come to be defined by reform and reaction. In the wake of the economic crisis and challenges from the insurgent Tea Party movement, it is clear that it will take more than one election (and one person) to reshape American politics and repair the damage wreaked by a decade of calamitous conservative rule. <br /><br /> Vanden Heuvel challenges the limits of our downsized political debate, arguing that timid incrementalism and the forces of money and establishment power that debilitate American politics will be overcome only by independent organizing, strategic creativity, bold ideas, and determined idealism."
+          },
+          "book": {
+            "_attributes": {
+              "id": "12840271"
+            },
+            "num_pages": {
+              "_text": "384"
+            }
+          },
+          "author_name": {
+            "_text": "Katrina Vanden Heuvel"
+          },
+          "isbn": {
+            "_text": "1568586884"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Sat, 30 Jan 2021 22:19:36 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Sat, 30 Jan 2021 22:19:36 -0800"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "2.88"
+          },
+          "book_published": {
+            "_text": "2011"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/12840271-the-change-i-believe-in?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Change I Believe In: Fighting for Progress in the Age of Obama\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328751465l/12840271._SX50_.jpg\" /></a><br/>\n                                      author: Katrina Vanden Heuvel<br/>\n                                      name: Daniel<br/>\n                                      average rating: 2.88<br/>\n                                      book published: 2011<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/01/30<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3807877332?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sat, 30 Jan 2021 22:06:52 -0800"
+          },
+          "title": {
+            "_cdata": "Cancel Your Own Goddam Subscription: Notes and Asides from National Review"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3807877332?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "1811722"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1441331455l/1811722._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1441331455l/1811722._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1441331455l/1811722._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1441331455l/1811722._SY475_.jpg"
+          },
+          "book_description": {
+            "_cdata": "Who knew that William F. Buckley Jr., the quintessential conservative, invented the blog decades before the World Wide Web came into existence? <i>National Review</i>, like nearly all magazines, has always published letters from readers. In 1967 the magazine decided that certain letters merited different treatment, and Buckley, the editor, began a column called “Notes &amp; Asides,” in which he personally answered the most notable and outrageous letters. The selections in this book, culled from four decades of these columns, include exchanges with such figures as Ronald Reagan, Eric Sevareid, Richard Nixon, A. M. Rosenthal, Auberon Waugh, John Kenneth Galbraith, and Arthur Schlesinger Jr. There are also hilarious exchanges with ordinary readers, as well as letters from Buckley to various organizations and government agencies."
+          },
+          "book": {
+            "_attributes": {
+              "id": "1811722"
+            },
+            "num_pages": {
+              "_text": "295"
+            }
+          },
+          "author_name": {
+            "_text": "William F. Buckley Jr."
+          },
+          "isbn": {
+            "_text": "0465002420"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Sat, 30 Jan 2021 22:06:52 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Sat, 30 Jan 2021 22:06:51 -0800"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.93"
+          },
+          "book_published": {
+            "_text": "2007"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/1811722.Cancel_Your_Own_Goddam_Subscription?utm_medium=api&amp;utm_source=rss\"><img alt=\"Cancel Your Own Goddam Subscription: Notes and Asides from National Review\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1441331455l/1811722._SY75_.jpg\" /></a><br/>\n                                      author: William F. Buckley Jr.<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.93<br/>\n                                      book published: 2007<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/01/30<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3807877228?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sat, 30 Jan 2021 22:06:48 -0800"
+          },
+          "title": {
+            "_cdata": "Nearer, My God: An Autobiography of Faith"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3807877228?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "101778"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348471661l/101778._SX50_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348471661l/101778._SX50_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348471661l/101778._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348471661l/101778.jpg"
+          },
+          "book_description": {
+            "_cdata": "This is the story of one man's faith, told with unrivaled reflection and candor. William F. Buckley, Jr., was raised a Catholic. As the world plunged into war, and as social mores changed dramatically around him, Buckley's faith -- a most essential part of his make-up -- sustained him. In Nearer, My God, Buckley examines in searching detail the meaning of his faith, and how his life has been shaped and sustained by religious conviction.<br /><br />In highly personal terms, and with the wit and acuity for which he is justly renowned, Buckley discusses vital issues of Catholic doctrine and practice, and in so doing outlines for the reader both the nature of CathoLic faith and the essential role of religious belief in everyday life. In powerfully felt prose, he contributes provocatively and intelligently to the national interest in the nature of religion, the Church, and spiritual development. Nearer, My God is sure to appeal to all readers who have felt the stirrings of their own religious faith, and who want confirmation of their beliefs or who are seeking a guide to understanding their own souls. <br /><br />The renowned social and political commentator, William F. Buckley Jr., turns to a highly personal subject -- his faith. And he tells us the story of his life as a Catholic Christian. \"Nearer, My God\" is the most reflective, poignant, and searching of Bill Buckley's many books. In the opening chapters he relives his childhood, a loving, funny, nostalgic glimpse into pre-World War II America and England. He speaks about his religious experiences to a world that has changed dramatically. He is unafraid of revealing the most personal side of his faith. He describes, in his distinctive style, the intimacy of a trip to Lourdes, the impact on him of the searing account by Maria Valtorta of the Crucifixion, the ordination of his nephew into the priesthood, and gives a moving account of his mother's death. And there is humor, as Buckley gives a unique, hilarious view of a visit to the Vatican with Malcolm Muggeridge, Charlton Heston, Grace Kelly, and David Niven. Personal though this book is, Buckley has gone to others to examine new perspectives, putting together his own distinguished 'Forum' and leaning on the great literature of the past to illustrate his thinking on contemporary Catholic and Christian issues. <br />"
+          },
+          "book": {
+            "_attributes": {
+              "id": "101778"
+            },
+            "num_pages": {
+              "_text": "336"
+            }
+          },
+          "author_name": {
+            "_text": "William F. Buckley Jr."
+          },
+          "isbn": {
+            "_text": "0156006189"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Sat, 30 Jan 2021 22:06:48 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Sat, 30 Jan 2021 22:06:47 -0800"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.91"
+          },
+          "book_published": {
+            "_text": "1997"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/101778.Nearer_My_God?utm_medium=api&amp;utm_source=rss\"><img alt=\"Nearer, My God: An Autobiography of Faith\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348471661l/101778._SX50_.jpg\" /></a><br/>\n                                      author: William F. Buckley Jr.<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.91<br/>\n                                      book published: 1997<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/01/30<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/3807876306?utm_medium=api&utm_source=rss"
@@ -6892,294 +7174,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/22816087-seveneves?utm_medium=api&amp;utm_source=rss\"><img alt=\"Seveneves\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1449142000l/22816087._SY75_.jpg\" /></a><br/>\n                                      author: Neal Stephenson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.98<br/>\n                                      book published: 2015<br/>\n                                      rating: 4<br/>\n                                      read at: 2019/10/27<br/>\n                                      date added: 2019/10/27<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/2813456948?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Tue, 01 Oct 2019 17:54:02 -0700"
-          },
-          "title": {
-            "_cdata": "17 Carnations: The Royals, the Nazis and the Biggest Cover-Up in History"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/2813456948?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "22313811"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1405865413l/22313811._SX50_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1405865413l/22313811._SX50_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1405865413l/22313811._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1405865413l/22313811.jpg"
-          },
-          "book_description": {
-            "_cdata": "<p>The story of the love affair between Wallis Simpson and King Edward VIII, and his abdication in order to marry the divorcée, has provoked fascination and discussion for decades. However, the full story of the couple's links with the German aristocracy and Hitler has until now remained untold.</p><p></p><p>Meticulously researched, <i>17 Carnations</i> chronicles this entanglement, starting with Hitler's early attempts to matchmake between Edward and a German noblewoman. While the German foreign minister sent Simpson seventeen carnations daily, each one representing a night they had spent together, she and the Duke of Windsor corresponded regularly with the German elite. Known to be pro-German sympathizers, the couple became embroiled in a conspiracy to install Edward as a puppet king after the Allies were defeated. After the war, the Duke's letters were hidden in a German castle that had fallen to American soldiers. They were then suppressed for years, as the British establishment attempted to cover up this connection between the House of Windsor and Hitler. </p><p></p><p>Drawing on FBI documents, material from the German and British Royal Archives, and the personal correspondence of Churchill, Truman, Eisenhower and the Windsors themselves, <i>17 Carnations</i> reveals the whole fascinating story, throwing sharp new light on a dark chapter of history.</p>"
-          },
-          "book": {
-            "_attributes": {
-              "id": "22313811"
-            },
-            "num_pages": {
-              "_text": "370"
-            }
-          },
-          "author_name": {
-            "_text": "Andrew Morton"
-          },
-          "isbn": {
-            "_text": "1455527114"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {
-            "_cdata": "Tue, 01 Oct 2019 17:53:46 -0700"
-          },
-          "user_date_added": {
-            "_cdata": "Tue, 01 Oct 2019 17:54:02 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Tue, 07 May 2019 21:55:26 -0700"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "3.22"
-          },
-          "book_published": {
-            "_text": "2015"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/22313811-17-carnations?utm_medium=api&amp;utm_source=rss\"><img alt=\"17 Carnations: The Royals, the Nazis and the Biggest Cover-Up in History\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1405865413l/22313811._SX50_.jpg\" /></a><br/>\n                                      author: Andrew Morton<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.22<br/>\n                                      book published: 2015<br/>\n                                      rating: 0<br/>\n                                      read at: 2019/10/01<br/>\n                                      date added: 2019/10/01<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/2991014027?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Wed, 25 Sep 2019 22:49:58 -0700"
-          },
-          "title": {
-            "_cdata": "Space: The 10 Things You Should Know"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/2991014027?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "45549792"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1557233341l/45549792._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1557233341l/45549792._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1557233341l/45549792._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1557233341l/45549792._SY475_.jpg"
-          },
-          "book_description": {
-            "_cdata": "This book is for anyone who wants to easily understand the mind-blowing fundamentals of our extraordinary, expanding universe. <br /><br />Written by Oxford astrophysicist Dr Becky Smethurst and composed of ten captivating, simple essays, it guides you swiftly through the galaxies, explaining the mysteries of black holes, dark matter and what existed before the Big Bang, presenting the evidence as to whether we really are alone, illuminating what we still don't know, and much more besides.<br /><br />If you have big questions about Space, this book will provide you with the answers in an engaging and succinct way."
-          },
-          "book": {
-            "_attributes": {
-              "id": "45549792"
-            },
-            "num_pages": {
-              "_text": "120"
-            }
-          },
-          "author_name": {
-            "_text": "Becky Smethurst"
-          },
-          "isbn": {
-            "_text": "1841883824"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Wed, 25 Sep 2019 22:49:58 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Wed, 25 Sep 2019 22:49:58 -0700"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.24"
-          },
-          "book_published": {
-            "_text": "2019"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/45549792-space?utm_medium=api&amp;utm_source=rss\"><img alt=\"Space: The 10 Things You Should Know\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1557233341l/45549792._SY75_.jpg\" /></a><br/>\n                                      author: Becky Smethurst<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.24<br/>\n                                      book published: 2019<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2019/09/25<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/2973244418?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Wed, 11 Sep 2019 01:02:09 -0700"
-          },
-          "title": {
-            "_cdata": "Rebooting AI: Building Artificial Intelligence We Can Trust"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/2973244418?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "43999120"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1555590930l/43999120._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1555590930l/43999120._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1555590930l/43999120._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1555590930l/43999120.jpg"
-          },
-          "book_description": {
-            "_cdata": "<b>\n  <b>Two leaders in the field offer a compelling analysis of the current state of the art and reveal the steps we must take to achieve a truly robust AI.</b>\n</b><br /><br />Despite the hype surrounding AI, creating an intelligence that rivals or exceeds human levels is far more complicated than we are led to believe. Professors Gary Marcus and Ernest Davis have spent their careers at the forefront of AI research and have witnessed some of the greatest milestones in the field, but they argue that a computer winning in games like Jeopardy and go does not signal that we are on the doorstep of fully autonomous cars or superintelligent machines. The achievements in the field thus far have occurred in closed systems with fixed sets of rules. These approaches are too narrow to achieve genuine intelligence. The world we live in is wildly complex and open-ended. How can we bridge this gap? What will the consequences be when we do? Marcus and Davis show us what we need to first accomplish before we get there and argue that if we are wise along the way, we won't need to worry about a future of machine overlords. If we heed their advice, humanity can create an AI that we can trust in our homes, our cars, and our doctor's offices.<br /><i> Reboot </i>provides a lucid, clear-eyed assessment of the current science and offers an inspiring vision of what we can achieve and how AI can make our lives better."
-          },
-          "book": {
-            "_attributes": {
-              "id": "43999120"
-            },
-            "num_pages": {
-              "_text": "288"
-            }
-          },
-          "author_name": {
-            "_text": "Gary F. Marcus"
-          },
-          "isbn": {
-            "_text": "1524748250"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Wed, 11 Sep 2019 01:02:09 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Wed, 11 Sep 2019 01:02:09 -0700"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "3.83"
-          },
-          "book_published": {
-            "_text": "2019"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/43999120-rebooting-ai?utm_medium=api&amp;utm_source=rss\"><img alt=\"Rebooting AI: Building Artificial Intelligence We Can Trust\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1555590930l/43999120._SY75_.jpg\" /></a><br/>\n                                      author: Gary F. Marcus<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.83<br/>\n                                      book published: 2019<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2019/09/11<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/2964087407?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Tue, 03 Sep 2019 22:32:13 -0700"
-          },
-          "title": {
-            "_cdata": "The Hero With a Thousand Faces"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/2964087407?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "588138"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442885694l/588138._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442885694l/588138._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442885694l/588138._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442885694l/588138._SY475_.jpg"
-          },
-          "book_description": {
-            "_cdata": "<p>The first popular work to combine the spiritual and psychological insights of modern psychoanalysis with the archetypes of world mythology, the book creates a roadmap for navigating the frustrating path of contemporary life. Examining heroic myths in the light of modern psychology, it considers not only the patterns and stages of mythology but also its relevance to our lives today--and to the life of any person seeking a fully realized existence.<br /><br />Myth, according to Campbell, is the projection of a culture's dreams onto a large screen; Campbell's book, like <i>Star Wars</i>, the film it helped inspire, is an exploration of the big-picture moments from the stage that is our world. It is a must-have resource for both experienced students of mythology and the explorer just beginning to approach myth as a source of knowledge.</p>"
-          },
-          "book": {
-            "_attributes": {
-              "id": "588138"
-            },
-            "num_pages": {
-              "_text": "416"
-            }
-          },
-          "author_name": {
-            "_text": "Joseph Campbell"
-          },
-          "isbn": {
-            "_text": "0691017840"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Tue, 03 Sep 2019 22:32:13 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Tue, 03 Sep 2019 22:32:13 -0700"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.12"
-          },
-          "book_published": {
-            "_text": "1949"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/588138.The_Hero_With_a_Thousand_Faces?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Hero With a Thousand Faces\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442885694l/588138._SY75_.jpg\" /></a><br/>\n                                      author: Joseph Campbell<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.12<br/>\n                                      book published: 1949<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2019/09/03<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]
