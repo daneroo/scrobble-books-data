@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Mon, 07 Jun 2021 01:29:10 -0700"
+        "_text": "Wed, 16 Jun 2021 22:50:30 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,364 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4062832914?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Wed, 16 Jun 2021 22:50:30 -0700"
+          },
+          "title": {
+            "_cdata": "The Universe in Your Hand: A Journey Through Space, Time, and Beyond"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4062832914?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "22892322"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1440420017l/22892322._SX50_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1440420017l/22892322._SX50_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1440420017l/22892322._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1440420017l/22892322.jpg"
+          },
+          "book_description": {
+            "_cdata": "\"If Ms. Frizzle were a physics student of Stephen Hawking, she might have written THE UNIVERSE IN YOUR HAND, a wild tour through the reaches of time and space, from the interior of a proton to the Big Bang to the rough suburbs of a black hole. It's friendly, excitable, erudite, and cosmic.\"<br />—Jordan Ellenberg, <i>New York Times</i> besteselling author of <i>How Not To Be Wrong</i><br /><br />Quantum physics, black holes, string theory, the Big Bang, dark matter, dark energy, parallel universes: even if we are interested in these fundamental concepts of our world, their language is the language of math. Which means that despite our best intentions of finally grasping, say, Einstein's Theory of General Relativity, most of us are quickly brought up short by a snarl of nasty equations or an incomprehensible graph.<br /><br />Christophe Galfard's mission in life is to spread modern scientific ideas to the general public in entertaining ways. Using his considerable skills as a brilliant theoretical physicist and successful young adult author, <i>The Universe in Your Hand</i> employs the immediacy of simple, direct language to show us, not explain to us, the theories that underpin everything we know about our universe. To understand what happens to a dying star, we are asked to picture ourselves floating in space in front of it. To get acquainted with the quantum world, we are shrunk to the size of an atom and then taken on a journey. Employing everyday similes and metaphors, addressing the reader directly, and writing stories rather than equations renders these astoundingly complex ideas in an immediate and visceral way.<br /><br />Utterly captivating and entirely unique, <i>The Universe in Your Hand</i> will find its place among other classics in the field."
+          },
+          "book": {
+            "_attributes": {
+              "id": "22892322"
+            },
+            "num_pages": {
+              "_text": "256"
+            }
+          },
+          "author_name": {
+            "_text": "Christophe Galfard"
+          },
+          "isbn": {
+            "_text": "125006953X"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Wed, 16 Jun 2021 22:50:30 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Wed, 16 Jun 2021 22:50:30 -0700"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.39"
+          },
+          "book_published": {
+            "_text": "2015"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/22892322-the-universe-in-your-hand?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Universe in Your Hand: A Journey Through Space, Time, and Beyond\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1440420017l/22892322._SX50_.jpg\" /></a><br/>\n                                      author: Christophe Galfard<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.39<br/>\n                                      book published: 2015<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/06/16<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/2821283293?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Mon, 14 Jun 2021 13:00:49 -0700"
+          },
+          "title": {
+            "_text": "Norse Mythology"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/2821283293?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "37903770"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1516128292l/37903770._SX50_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1516128292l/37903770._SX50_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1516128292l/37903770._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1516128292l/37903770._SX318_.jpg"
+          },
+          "book_description": {
+            "_cdata": "Neil Gaiman, long inspired by ancient mythology in creating the fantastical realms of his fiction, presents a bravura rendition of the Norse gods and their world from their origin though their upheaval in Ragnarok. <br /><br />In <em>Norse Mythology</em>, Gaiman stays true to the myths in envisioning the major Norse pantheon: Odin, the highest of the high, wise, daring, and cunning; Thor, Odin’s son, incredibly strong yet not the wisest of gods; and Loki—son of a giant—blood brother to Odin and a trickster and unsurpassable manipulator.<br /><br />Gaiman fashions these primeval stories into a novelistic arc that begins with the genesis of the legendary nine worlds and delves into the exploits of deities, dwarfs, and giants. Through Gaiman’s deft and witty prose, these gods emerge with their fiercely competitive natures, their susceptibility to being duped and to duping others, and their tendency to let passion ignite their actions, making these long-ago myths breathe pungent life again."
+          },
+          "book": {
+            "_attributes": {
+              "id": "37903770"
+            },
+            "num_pages": {
+              "_text": "301"
+            }
+          },
+          "author_name": {
+            "_text": "Neil Gaiman"
+          },
+          "isbn": {},
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "3"
+          },
+          "user_read_at": {
+            "_cdata": "Mon, 14 Jun 2021 13:00:49 -0700"
+          },
+          "user_date_added": {
+            "_cdata": "Mon, 14 Jun 2021 13:00:49 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Tue, 14 May 2019 16:50:13 -0700"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.07"
+          },
+          "book_published": {
+            "_text": "2017"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/37903770-norse-mythology?utm_medium=api&amp;utm_source=rss\"><img alt=\"Norse Mythology\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1516128292l/37903770._SX50_.jpg\" /></a><br/>\n                                      author: Neil Gaiman<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.07<br/>\n                                      book published: 2017<br/>\n                                      rating: 3<br/>\n                                      read at: 2021/06/14<br/>\n                                      date added: 2021/06/14<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4005356683?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sun, 13 Jun 2021 17:52:45 -0700"
+          },
+          "title": {
+            "_text": "Robots and Empire (Robot, #4)"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4005356683?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "76688"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1335782304l/76688._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1335782304l/76688._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1335782304l/76688._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1335782304l/76688.jpg"
+          },
+          "book_description": {
+            "_cdata": "Long after his humiliating defeat at the hands of Earthman Elijah Baley, Keldon Amadiro embarked on a plan to destroy planet Earth. But even after his death, Baley's vision continued to guide his robot partner, R. Daneel Olivaw, who had the wisdom of a great man behind him and an indestructable will to win...."
+          },
+          "book": {
+            "_attributes": {
+              "id": "76688"
+            },
+            "num_pages": {
+              "_text": "512"
+            }
+          },
+          "author_name": {
+            "_text": "Isaac Asimov"
+          },
+          "isbn": {
+            "_text": "0586062009"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "4"
+          },
+          "user_read_at": {
+            "_cdata": "Sun, 13 Jun 2021 17:52:40 -0700"
+          },
+          "user_date_added": {
+            "_cdata": "Sun, 13 Jun 2021 17:52:45 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Sun, 16 May 2021 17:53:05 -0700"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.19"
+          },
+          "book_published": {
+            "_text": "1985"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/76688.Robots_and_Empire?utm_medium=api&amp;utm_source=rss\"><img alt=\"Robots and Empire (Robot, #4)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1335782304l/76688._SY75_.jpg\" /></a><br/>\n                                      author: Isaac Asimov<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.19<br/>\n                                      book published: 1985<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/06/13<br/>\n                                      date added: 2021/06/13<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4005356571?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Fri, 11 Jun 2021 22:25:45 -0700"
+          },
+          "title": {
+            "_cdata": "The Robots of Dawn (Robot, #3)"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4005356571?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "41810"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1351030933l/41810._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1351030933l/41810._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1351030933l/41810._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1351030933l/41810.jpg"
+          },
+          "book_description": {
+            "_cdata": "A millennium into the future two advances have altered the course of human history: the colonization of the Galaxy and the creation of the positronic brain. Isaac Asimov's Robot novels chronicle the unlikely partnership between a New York City detective and a humanoid robot who must learn to work together.<br /><br />Detective Elijah Baley is called to the Spacer world Aurora to solve a bizarre case of roboticide. The prime suspect is a gifted roboticist who had the means, the motive, and the opportunity to commit the crime. There's only one catch: Baley and his positronic partner, R. Daneel Olivaw, must prove the man innocent. For in a case of political intrigue and love between woman and robot gone tragically wrong, there's more at stake than simple justice. This time Baley's career, his life, and Earth's right to pioneer the Galaxy lie in the delicate balance. "
+          },
+          "book": {
+            "_attributes": {
+              "id": "41810"
+            },
+            "num_pages": {
+              "_text": "435"
+            }
+          },
+          "author_name": {
+            "_text": "Isaac Asimov"
+          },
+          "isbn": {
+            "_text": "0553299492"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "4"
+          },
+          "user_read_at": {
+            "_cdata": "Fri, 11 Jun 2021 22:25:40 -0700"
+          },
+          "user_date_added": {
+            "_cdata": "Fri, 11 Jun 2021 22:25:45 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Sun, 16 May 2021 17:53:01 -0700"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.15"
+          },
+          "book_published": {
+            "_text": "1983"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/41810.The_Robots_of_Dawn?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Robots of Dawn (Robot, #3)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1351030933l/41810._SY75_.jpg\" /></a><br/>\n                                      author: Isaac Asimov<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.15<br/>\n                                      book published: 1983<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/06/11<br/>\n                                      date added: 2021/06/11<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4054059085?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Fri, 11 Jun 2021 22:02:58 -0700"
+          },
+          "title": {
+            "_cdata": "Foundation's Edge (Foundation #4)"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4054059085?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "76683"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442311409l/76683._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442311409l/76683._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442311409l/76683._SY160_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442311409l/76683._SY475_.jpg"
+          },
+          "book_description": {
+            "_cdata": "At last, the costly and bitter war between the two Foundations had come to an end. The scientists of the First Foundation had proved victorious; and now they return to Hari Seldon's long-established plan to build a new Empire on the ruins of the old. But rumors persist that the Second Foundation is not destroyed after all—and that its still-defiant survivors are preparing their revenge. Now two exiled citizens of the Foundation—a renegade Councilman and a doddering historian—set out in search of the mythical planet Earth. . .and proof that the Second Foundation still exists.<br /><br />Meanwhile someone—or something—outside of both Foundations seems to be orchestrating events to suit its own ominous purpose. Soon representatives of both the First and Second Foundations will find themselves racing toward a mysterious world called Gaia and a final shocking destiny at the very end of the universe!"
+          },
+          "book": {
+            "_attributes": {
+              "id": "76683"
+            },
+            "num_pages": {
+              "_text": "450"
+            }
+          },
+          "author_name": {
+            "_text": "Isaac Asimov"
+          },
+          "isbn": {
+            "_text": "0553293389"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Fri, 11 Jun 2021 22:02:58 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Fri, 11 Jun 2021 22:02:57 -0700"
+          },
+          "user_shelves": {
+            "_text": "on-deck"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.13"
+          },
+          "book_published": {
+            "_text": "1982"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/76683.Foundation_s_Edge?utm_medium=api&amp;utm_source=rss\"><img alt=\"Foundation&#39;s Edge (Foundation #4)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442311409l/76683._SY75_.jpg\" /></a><br/>\n                                      author: Isaac Asimov<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.13<br/>\n                                      book published: 1982<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/06/11<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/4039959353?utm_medium=api&utm_source=rss"
@@ -5442,78 +5800,6 @@
         },
         {
           "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3900737719?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sat, 20 Mar 2021 20:54:38 -0700"
-          },
-          "title": {
-            "_cdata": "SPQR: A History of Ancient Rome"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3900737719?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "28789711"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1470421195l/28789711._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1470421195l/28789711._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1470421195l/28789711._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1470421195l/28789711.jpg"
-          },
-          "book_description": {
-            "_cdata": "In <i>SPQR</i>, an instant classic, Mary Beard narrates the history of Rome \"with passion and without technical jargon\" and demonstrates how \"a slightly shabby Iron Age village\" rose to become the \"undisputed hegemon of the Mediterranean\" (<i>Wall Street Journal</i>). Hailed by critics as animating \"the grand sweep and the intimate details that bring the distant past vividly to life\" (<i>Economist</i>) in a way that makes \"your hair stand on end\" (<i>Christian Science Monitor</i>) and spanning nearly a thousand years of history, this \"highly informative, highly readable\" (<i>Dallas Morning News</i>) work examines not just how we think of ancient Rome but challenges the comfortable historical perspectives that have existed for centuries. With its nuanced attention to class, democratic struggles, and the lives of entire groups of people omitted from the historical narrative for centuries, <i>SPQR</i> will to shape our view of Roman history for decades to come."
-          },
-          "book": {
-            "_attributes": {
-              "id": "28789711"
-            },
-            "num_pages": {
-              "_text": "606"
-            }
-          },
-          "author_name": {
-            "_text": "Mary Beard"
-          },
-          "isbn": {
-            "_text": "1631492225"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Sat, 20 Mar 2021 20:54:38 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Sat, 20 Mar 2021 20:54:37 -0700"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "3.95"
-          },
-          "book_published": {
-            "_text": "2015"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/28789711-spqr?utm_medium=api&amp;utm_source=rss\"><img alt=\"SPQR: A History of Ancient Rome\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1470421195l/28789711._SY75_.jpg\" /></a><br/>\n                                      author: Mary Beard<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.95<br/>\n                                      book published: 2015<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/03/20<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
             "_cdata": "https://www.goodreads.com/review/show/3900731726?utm_medium=api&utm_source=rss"
           },
           "pubDate": {
@@ -6938,292 +7224,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/32796171-light-falls?utm_medium=api&amp;utm_source=rss\"><img alt=\"Light Falls: Space, Time, and an Obsession of Einstein\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1497721479l/32796171._SX50_.jpg\" /></a><br/>\n                                      author: Brian Greene<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.11<br/>\n                                      book published: 2016<br/>\n                                      rating: 5<br/>\n                                      read at: 2021/02/02<br/>\n                                      date added: 2021/02/02<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3809361836?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sun, 31 Jan 2021 22:18:31 -0800"
-          },
-          "title": {
-            "_cdata": "Return of the Strong Gods: Nationalism, Populism, and the Future of the West"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3809361836?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "42101698"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1568550880l/42101698._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1568550880l/42101698._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1568550880l/42101698._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1568550880l/42101698.jpg"
-          },
-          "book_description": {
-            "_cdata": "With compelling insight, R. R. Reno argues that we are witnessing the return of the “strong gods”—the powerful loyalties that bind men to their homeland and to one another. Reacting to the calamitous first half of the twentieth century, our political, cultural, and financial elites promoted open borders, open markets, and open minds. But this never-ending project of openness has hardened into a set of anti-dogmatic dogmas which destroy the social solidarity rooted in family, faith, and nation. While they worry about the return of fascism, our societies are dissolving. <br /><br />But man will not tolerate social dissolution indefinitely. He longs to be part of a “we”—the fruit of shared loves—which gives his life meaning. The strong gods will return, Reno warns, in one form or another. Our task is to attend to those that, appealing to our reason as well as our hearts, inspire the best of our traditions. Otherwise, we shall invite the darker gods whose return our open society was intended to forestall."
-          },
-          "book": {
-            "_attributes": {
-              "id": "42101698"
-            },
-            "num_pages": {
-              "_text": "208"
-            }
-          },
-          "author_name": {
-            "_text": "R.R. Reno"
-          },
-          "isbn": {
-            "_text": "1621578003"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "2"
-          },
-          "user_read_at": {
-            "_cdata": "Mon, 01 Feb 2021 22:18:31 -0800"
-          },
-          "user_date_added": {
-            "_cdata": "Sun, 31 Jan 2021 22:18:31 -0800"
-          },
-          "user_date_created": {
-            "_cdata": "Sun, 31 Jan 2021 13:52:15 -0800"
-          },
-          "user_shelves": {},
-          "user_review": {
-            "_text": "At least it was short."
-          },
-          "average_rating": {
-            "_text": "3.88"
-          },
-          "book_published": {},
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/42101698-return-of-the-strong-gods?utm_medium=api&amp;utm_source=rss\"><img alt=\"Return of the Strong Gods: Nationalism, Populism, and the Future of the West\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1568550880l/42101698._SY75_.jpg\" /></a><br/>\n                                      author: R.R. Reno<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.88<br/>\n                                      book published: <br/>\n                                      rating: 2<br/>\n                                      read at: 2021/02/01<br/>\n                                      date added: 2021/01/31<br/>\n                                      shelves: <br/>\n                                      review: <br/>At least it was short.<br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3789430254?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sun, 31 Jan 2021 14:14:48 -0800"
-          },
-          "title": {
-            "_text": "Walden"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3789430254?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "16902"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1630470982l/16902._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1630470982l/16902._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1630470982l/16902._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1630470982l/16902._SY475_.jpg"
-          },
-          "book_description": {
-            "_cdata": "Originally published in 1854, Walden; or, Life in the Woods, is a vivid account of the time that Henry D. Thoreau lived alone in a secluded cabin at Walden Pond. It is one of the most influential and compelling books in American literature. This new paperback edition-introduced by noted American writer John Updike-celebrates the 150th anniversary of this classic work. Much of Walden's material is derived from Thoreau's journals and contains such engaging pieces as \"Reading\" and \"The Pond in the Winter\" Other famous sections involve Thoreau's visits with a Canadian woodcutter and with an Irish family, a trip to Concord, and a description of his bean field. This is the complete and authoritative text of Walden-as close to Thoreau's original intention as all available evidence allows. For the student and for the general reader, this is the ideal presentation of Thoreau's great document of social criticism and dissent."
-          },
-          "book": {
-            "_attributes": {
-              "id": "16902"
-            },
-            "num_pages": {
-              "_text": "352"
-            }
-          },
-          "author_name": {
-            "_text": "Henry David Thoreau"
-          },
-          "isbn": {},
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "3"
-          },
-          "user_read_at": {
-            "_cdata": "Sun, 31 Jan 2021 14:14:48 -0800"
-          },
-          "user_date_added": {
-            "_cdata": "Sun, 31 Jan 2021 14:14:48 -0800"
-          },
-          "user_date_created": {
-            "_cdata": "Fri, 22 Jan 2021 12:12:48 -0800"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "3.76"
-          },
-          "book_published": {
-            "_text": "1854"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/16902.Walden?utm_medium=api&amp;utm_source=rss\"><img alt=\"Walden\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1630470982l/16902._SY75_.jpg\" /></a><br/>\n                                      author: Henry David Thoreau<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.76<br/>\n                                      book published: 1854<br/>\n                                      rating: 3<br/>\n                                      read at: 2021/01/31<br/>\n                                      date added: 2021/01/31<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3809409797?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sun, 31 Jan 2021 14:13:09 -0800"
-          },
-          "title": {
-            "_cdata": "The Complacent Class: The Self-Defeating Quest for the American Dream"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3809409797?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "29939212"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1479747196l/29939212._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1479747196l/29939212._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1479747196l/29939212._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1479747196l/29939212.jpg"
-          },
-          "book_description": {
-            "_cdata": "Since Alexis de Tocqueville, restlessness has been accepted as a signature American trait. Our willingness to move, take risks, and adapt to change have produced a dynamic economy and a tradition of innovation from Ben Franklin to Steve Jobs.<br /><br />The problem, according to legendary blogger, economist and bestelling author Tyler Cowen, is that Americans today have broken from this tradition—we’re working harder than ever to <i>avoid</i> change. We're moving residences less, marrying people more like ourselves and choosing our music and our mates based on algorithms that wall us off from anything that might be too new or too different. Match.com matches us in love. Spotify and Pandora match us in music. Facebook matches us to just about everything else.<br /><br />Of course, this “matching culture” brings tremendous positives: music we like, partners who make us happy, neighbors who want the same things. We’re more <i>comfortable</i>. But, according to Cowen, there are significant collateral downsides attending this comfort, among them heightened inequality and segregation and decreased incentives to innovate and create.<br /><i></i><br /><i>The Great Social Stagnation</i> argues that this cannot go on forever. We are postponing change, due to our near-sightedness and extreme desire for comfort, but ultimately this will make change, when it comes, harder. The forces unleashed by the Great Stagnation will eventually lead to a major fiscal and budgetary crisis: impossibly expensive rentals for our most attractive cities, worsening of residential segregation, and a decline in our work ethic. The only way to avoid this difficult future is for Americans to force themselves out of their comfortable slumber—to embrace their restless tradition again."
-          },
-          "book": {
-            "_attributes": {
-              "id": "29939212"
-            },
-            "num_pages": {
-              "_text": "241"
-            }
-          },
-          "author_name": {
-            "_text": "Tyler Cowen"
-          },
-          "isbn": {
-            "_text": "1250108691"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Sun, 31 Jan 2021 14:13:09 -0800"
-          },
-          "user_date_created": {
-            "_cdata": "Sun, 31 Jan 2021 14:13:09 -0800"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "3.60"
-          },
-          "book_published": {
-            "_text": "2017"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/29939212-the-complacent-class?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Complacent Class: The Self-Defeating Quest for the American Dream\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1479747196l/29939212._SY75_.jpg\" /></a><br/>\n                                      author: Tyler Cowen<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.60<br/>\n                                      book published: 2017<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/01/31<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3766939743?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sun, 31 Jan 2021 13:12:21 -0800"
-          },
-          "title": {
-            "_cdata": "Fundamentals: Ten Keys to Reality"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3766939743?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "53398908"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1606104694l/53398908._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1606104694l/53398908._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1606104694l/53398908._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1606104694l/53398908.jpg"
-          },
-          "book_description": {
-            "_cdata": "<b>\"<i>Fundamentals</i> might be the perfect book for the winter of this plague year. . . . Wilczek writes with breathtaking economy and clarity, and his pleasure in his subject is palpable.\" --<i>The New York Times Book Review</i> </b><br /><br />One of our great contemporary scientists reveals the ten profound insights that illuminate what everyone should know about the physical world<br /><br />In <i>Fundamentals, </i> Nobel laureate Frank Wilczek offers the reader a simple yet profound exploration of reality based on the deep revelations of modern science. With clarity and an infectious sense of joy, he guides us through the essential concepts that form our understanding of what the world is and how it works. Through these pages, we come to see our reality in a new way--bigger, fuller, and stranger than it looked before.<br /><br />Synthesizing basic questions, facts, and dazzling speculations, Wilczek investigates the ideas that form our understanding of the universe: time, space, matter, energy, complexity, and complementarity. He excavates the history of fundamental science, exploring what we know and how we know it, while journeying to the horizons of the scientific world to give us a glimpse of what we may soon discover. Brilliant, lucid, and accessible, this celebration of human ingenuity and imagination will expand your world and your mind."
-          },
-          "book": {
-            "_attributes": {
-              "id": "53398908"
-            },
-            "num_pages": {
-              "_text": "272"
-            }
-          },
-          "author_name": {
-            "_text": "Frank Wilczek"
-          },
-          "isbn": {
-            "_text": "0735223793"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "5"
-          },
-          "user_read_at": {
-            "_cdata": "Sun, 31 Jan 2021 13:12:21 -0800"
-          },
-          "user_date_added": {
-            "_cdata": "Sun, 31 Jan 2021 13:12:21 -0800"
-          },
-          "user_date_created": {
-            "_cdata": "Tue, 12 Jan 2021 10:40:21 -0800"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "3.85"
-          },
-          "book_published": {
-            "_text": "2021"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/53398908-fundamentals?utm_medium=api&amp;utm_source=rss\"><img alt=\"Fundamentals: Ten Keys to Reality\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1606104694l/53398908._SY75_.jpg\" /></a><br/>\n                                      author: Frank Wilczek<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.85<br/>\n                                      book published: 2021<br/>\n                                      rating: 5<br/>\n                                      read at: 2021/01/31<br/>\n                                      date added: 2021/01/31<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

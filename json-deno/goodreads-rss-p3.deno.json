@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Sat, 30 Jan 2021 22:22:55 -0800"
+        "_text": "Sun, 31 Jan 2021 22:18:31 -0800"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,292 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3809361836?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sun, 31 Jan 2021 22:18:31 -0800"
+          },
+          "title": {
+            "_cdata": "Return of the Strong Gods: Nationalism, Populism, and the Future of the West"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3809361836?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "42101698"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1568550880l/42101698._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1568550880l/42101698._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1568550880l/42101698._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1568550880l/42101698.jpg"
+          },
+          "book_description": {
+            "_cdata": "With compelling insight, R. R. Reno argues that we are witnessing the return of the “strong gods”—the powerful loyalties that bind men to their homeland and to one another. Reacting to the calamitous first half of the twentieth century, our political, cultural, and financial elites promoted open borders, open markets, and open minds. But this never-ending project of openness has hardened into a set of anti-dogmatic dogmas which destroy the social solidarity rooted in family, faith, and nation. While they worry about the return of fascism, our societies are dissolving. <br /><br />But man will not tolerate social dissolution indefinitely. He longs to be part of a “we”—the fruit of shared loves—which gives his life meaning. The strong gods will return, Reno warns, in one form or another. Our task is to attend to those that, appealing to our reason as well as our hearts, inspire the best of our traditions. Otherwise, we shall invite the darker gods whose return our open society was intended to forestall."
+          },
+          "book": {
+            "_attributes": {
+              "id": "42101698"
+            },
+            "num_pages": {
+              "_text": "208"
+            }
+          },
+          "author_name": {
+            "_text": "R.R. Reno"
+          },
+          "isbn": {
+            "_text": "1621578003"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "2"
+          },
+          "user_read_at": {
+            "_cdata": "Mon, 01 Feb 2021 22:18:31 -0800"
+          },
+          "user_date_added": {
+            "_cdata": "Sun, 31 Jan 2021 22:18:31 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Sun, 31 Jan 2021 13:52:15 -0800"
+          },
+          "user_shelves": {},
+          "user_review": {
+            "_text": "At least it was short."
+          },
+          "average_rating": {
+            "_text": "3.88"
+          },
+          "book_published": {},
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/42101698-return-of-the-strong-gods?utm_medium=api&amp;utm_source=rss\"><img alt=\"Return of the Strong Gods: Nationalism, Populism, and the Future of the West\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1568550880l/42101698._SY75_.jpg\" /></a><br/>\n                                      author: R.R. Reno<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.88<br/>\n                                      book published: <br/>\n                                      rating: 2<br/>\n                                      read at: 2021/02/01<br/>\n                                      date added: 2021/01/31<br/>\n                                      shelves: <br/>\n                                      review: <br/>At least it was short.<br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3789430254?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sun, 31 Jan 2021 14:14:48 -0800"
+          },
+          "title": {
+            "_text": "Walden"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3789430254?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "16902"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1630470982l/16902._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1630470982l/16902._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1630470982l/16902._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1630470982l/16902._SY475_.jpg"
+          },
+          "book_description": {
+            "_cdata": "Originally published in 1854, Walden; or, Life in the Woods, is a vivid account of the time that Henry D. Thoreau lived alone in a secluded cabin at Walden Pond. It is one of the most influential and compelling books in American literature. This new paperback edition-introduced by noted American writer John Updike-celebrates the 150th anniversary of this classic work. Much of Walden's material is derived from Thoreau's journals and contains such engaging pieces as \"Reading\" and \"The Pond in the Winter\" Other famous sections involve Thoreau's visits with a Canadian woodcutter and with an Irish family, a trip to Concord, and a description of his bean field. This is the complete and authoritative text of Walden-as close to Thoreau's original intention as all available evidence allows. For the student and for the general reader, this is the ideal presentation of Thoreau's great document of social criticism and dissent."
+          },
+          "book": {
+            "_attributes": {
+              "id": "16902"
+            },
+            "num_pages": {
+              "_text": "352"
+            }
+          },
+          "author_name": {
+            "_text": "Henry David Thoreau"
+          },
+          "isbn": {},
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "3"
+          },
+          "user_read_at": {
+            "_cdata": "Sun, 31 Jan 2021 14:14:48 -0800"
+          },
+          "user_date_added": {
+            "_cdata": "Sun, 31 Jan 2021 14:14:48 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Fri, 22 Jan 2021 12:12:48 -0800"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.76"
+          },
+          "book_published": {
+            "_text": "1854"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/16902.Walden?utm_medium=api&amp;utm_source=rss\"><img alt=\"Walden\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1630470982l/16902._SY75_.jpg\" /></a><br/>\n                                      author: Henry David Thoreau<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.76<br/>\n                                      book published: 1854<br/>\n                                      rating: 3<br/>\n                                      read at: 2021/01/31<br/>\n                                      date added: 2021/01/31<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3809409797?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sun, 31 Jan 2021 14:13:09 -0800"
+          },
+          "title": {
+            "_cdata": "The Complacent Class: The Self-Defeating Quest for the American Dream"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3809409797?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "29939212"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1479747196l/29939212._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1479747196l/29939212._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1479747196l/29939212._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1479747196l/29939212.jpg"
+          },
+          "book_description": {
+            "_cdata": "Since Alexis de Tocqueville, restlessness has been accepted as a signature American trait. Our willingness to move, take risks, and adapt to change have produced a dynamic economy and a tradition of innovation from Ben Franklin to Steve Jobs.<br /><br />The problem, according to legendary blogger, economist and bestelling author Tyler Cowen, is that Americans today have broken from this tradition—we’re working harder than ever to <i>avoid</i> change. We're moving residences less, marrying people more like ourselves and choosing our music and our mates based on algorithms that wall us off from anything that might be too new or too different. Match.com matches us in love. Spotify and Pandora match us in music. Facebook matches us to just about everything else.<br /><br />Of course, this “matching culture” brings tremendous positives: music we like, partners who make us happy, neighbors who want the same things. We’re more <i>comfortable</i>. But, according to Cowen, there are significant collateral downsides attending this comfort, among them heightened inequality and segregation and decreased incentives to innovate and create.<br /><i></i><br /><i>The Great Social Stagnation</i> argues that this cannot go on forever. We are postponing change, due to our near-sightedness and extreme desire for comfort, but ultimately this will make change, when it comes, harder. The forces unleashed by the Great Stagnation will eventually lead to a major fiscal and budgetary crisis: impossibly expensive rentals for our most attractive cities, worsening of residential segregation, and a decline in our work ethic. The only way to avoid this difficult future is for Americans to force themselves out of their comfortable slumber—to embrace their restless tradition again."
+          },
+          "book": {
+            "_attributes": {
+              "id": "29939212"
+            },
+            "num_pages": {
+              "_text": "241"
+            }
+          },
+          "author_name": {
+            "_text": "Tyler Cowen"
+          },
+          "isbn": {
+            "_text": "1250108691"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Sun, 31 Jan 2021 14:13:09 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Sun, 31 Jan 2021 14:13:09 -0800"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.60"
+          },
+          "book_published": {
+            "_text": "2017"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/29939212-the-complacent-class?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Complacent Class: The Self-Defeating Quest for the American Dream\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1479747196l/29939212._SY75_.jpg\" /></a><br/>\n                                      author: Tyler Cowen<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.60<br/>\n                                      book published: 2017<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/01/31<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3766939743?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sun, 31 Jan 2021 13:12:21 -0800"
+          },
+          "title": {
+            "_cdata": "Fundamentals: Ten Keys to Reality"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3766939743?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "53398908"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1606104694l/53398908._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1606104694l/53398908._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1606104694l/53398908._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1606104694l/53398908.jpg"
+          },
+          "book_description": {
+            "_cdata": "<b>\"<i>Fundamentals</i> might be the perfect book for the winter of this plague year. . . . Wilczek writes with breathtaking economy and clarity, and his pleasure in his subject is palpable.\" --<i>The New York Times Book Review</i> </b><br /><br />One of our great contemporary scientists reveals the ten profound insights that illuminate what everyone should know about the physical world<br /><br />In <i>Fundamentals, </i> Nobel laureate Frank Wilczek offers the reader a simple yet profound exploration of reality based on the deep revelations of modern science. With clarity and an infectious sense of joy, he guides us through the essential concepts that form our understanding of what the world is and how it works. Through these pages, we come to see our reality in a new way--bigger, fuller, and stranger than it looked before.<br /><br />Synthesizing basic questions, facts, and dazzling speculations, Wilczek investigates the ideas that form our understanding of the universe: time, space, matter, energy, complexity, and complementarity. He excavates the history of fundamental science, exploring what we know and how we know it, while journeying to the horizons of the scientific world to give us a glimpse of what we may soon discover. Brilliant, lucid, and accessible, this celebration of human ingenuity and imagination will expand your world and your mind."
+          },
+          "book": {
+            "_attributes": {
+              "id": "53398908"
+            },
+            "num_pages": {
+              "_text": "272"
+            }
+          },
+          "author_name": {
+            "_text": "Frank Wilczek"
+          },
+          "isbn": {
+            "_text": "0735223793"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "5"
+          },
+          "user_read_at": {
+            "_cdata": "Sun, 31 Jan 2021 13:12:21 -0800"
+          },
+          "user_date_added": {
+            "_cdata": "Sun, 31 Jan 2021 13:12:21 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Tue, 12 Jan 2021 10:40:21 -0800"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.85"
+          },
+          "book_published": {
+            "_text": "2021"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/53398908-fundamentals?utm_medium=api&amp;utm_source=rss\"><img alt=\"Fundamentals: Ten Keys to Reality\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1606104694l/53398908._SY75_.jpg\" /></a><br/>\n                                      author: Frank Wilczek<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.85<br/>\n                                      book published: 2021<br/>\n                                      rating: 5<br/>\n                                      read at: 2021/01/31<br/>\n                                      date added: 2021/01/31<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/3807896800?utm_medium=api&utm_source=rss"
@@ -6888,292 +7174,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/43723901-lifespan?utm_medium=api&amp;utm_source=rss\"><img alt=\"Lifespan: Why We Age—and Why We Don&#39;t Have To\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1563164003l/43723901._SY75_.jpg\" /></a><br/>\n                                      author: David A. Sinclair<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.19<br/>\n                                      book published: 2019<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2019/12/19<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3083296213?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Fri, 13 Dec 2019 02:11:55 -0800"
-          },
-          "title": {
-            "_cdata": "2001: A Space Odyssey (Space Odyssey, #1)"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3083296213?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "70535"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1432468943l/70535._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1432468943l/70535._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1432468943l/70535._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1432468943l/70535._SY475_.jpg"
-          },
-          "book_description": {
-            "_cdata": "On the Moon, an enigma is uncovered.<br /><br />So great are the implications of this discovery that for the first time men are sent out deep into our solar system.<br /><br />But long before their destination is reached, things begin to go horribly, inexplicably wrong...<br /><br />One of the greatest-selling science fiction novels of our time, this classic book will grip you to the very end."
-          },
-          "book": {
-            "_attributes": {
-              "id": "70535"
-            },
-            "num_pages": {
-              "_text": "297"
-            }
-          },
-          "author_name": {
-            "_text": "Arthur C. Clarke"
-          },
-          "isbn": {
-            "_text": "0451457994"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Fri, 13 Dec 2019 02:11:55 -0800"
-          },
-          "user_date_created": {
-            "_cdata": "Fri, 13 Dec 2019 02:11:55 -0800"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.14"
-          },
-          "book_published": {
-            "_text": "1968"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/70535.2001?utm_medium=api&amp;utm_source=rss\"><img alt=\"2001: A Space Odyssey (Space Odyssey, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1432468943l/70535._SY75_.jpg\" /></a><br/>\n                                      author: Arthur C. Clarke<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.14<br/>\n                                      book published: 1968<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2019/12/13<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/426793453?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Mon, 09 Dec 2019 00:10:41 -0800"
-          },
-          "title": {
-            "_cdata": "The Diamond Age: Or, a Young Lady's Illustrated Primer"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/426793453?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "827"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388180931l/827._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388180931l/827._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388180931l/827._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388180931l/827.jpg"
-          },
-          "book_description": {
-            "_cdata": "<i>The Diamond Age: Or, a Young Lady's Illustrated Primer</i> is a postcyberpunk novel by Neal Stephenson. It is to some extent a science fiction coming-of-age story, focused on a young girl named Nell, and set in a future world in which nanotechnology affects all aspects of life. The novel deals with themes of education, social class, ethnicity, and the nature of artificial intelligence."
-          },
-          "book": {
-            "_attributes": {
-              "id": "827"
-            },
-            "num_pages": {
-              "_text": "499"
-            }
-          },
-          "author_name": {
-            "_text": "Neal Stephenson"
-          },
-          "isbn": {
-            "_text": "0553380966"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "5"
-          },
-          "user_read_at": {
-            "_cdata": "Fri, 23 Nov 2012 00:00:00 -0800"
-          },
-          "user_date_added": {
-            "_cdata": "Mon, 09 Dec 2019 00:10:41 -0800"
-          },
-          "user_date_created": {
-            "_cdata": "Wed, 03 Oct 2012 00:49:37 -0700"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.15"
-          },
-          "book_published": {
-            "_text": "1995"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/827.The_Diamond_Age?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Diamond Age: Or, a Young Lady&#39;s Illustrated Primer\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388180931l/827._SY75_.jpg\" /></a><br/>\n                                      author: Neal Stephenson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.15<br/>\n                                      book published: 1995<br/>\n                                      rating: 5<br/>\n                                      read at: 2012/11/23<br/>\n                                      date added: 2019/12/09<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3042054688?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Fri, 08 Nov 2019 17:26:49 -0800"
-          },
-          "title": {
-            "_cdata": "On Having No Head: Zen and the Rediscovery of the Obvious"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3042054688?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "817501"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348983974l/817501._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348983974l/817501._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348983974l/817501._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348983974l/817501.jpg"
-          },
-          "book_description": {
-            "_cdata": "Headlessness, the experience of \"no-self\" that mystics of all times have aspired to, is an instantaneous way of \"waking up\" and becoming fully aware of one's real and abiding nature. Douglas Harding, the highly respected mystic-philosopher, describes his first experience of headlessness in \"On Having No Head,\" the classic work first published in 1961. In this book, he conveys the immediacy, simplicity, and practicality of the \"headless way,\" placing it within a Zen context, while also drawing parallels to practices in other spiritual traditions.If you wish to experience the freedom and clarity that results from firsthand experience of true Being, then this book will serve as a practical guide to the rediscovery of what has always been present."
-          },
-          "book": {
-            "_attributes": {
-              "id": "817501"
-            },
-            "num_pages": {
-              "_text": "123"
-            }
-          },
-          "author_name": {
-            "_text": "Douglas E. Harding"
-          },
-          "isbn": {
-            "_text": "1878019198"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Fri, 08 Nov 2019 17:26:49 -0800"
-          },
-          "user_date_created": {
-            "_cdata": "Fri, 08 Nov 2019 17:26:49 -0800"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "3.68"
-          },
-          "book_published": {
-            "_text": "1961"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/817501.On_Having_No_Head?utm_medium=api&amp;utm_source=rss\"><img alt=\"On Having No Head: Zen and the Rediscovery of the Obvious\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348983974l/817501._SY75_.jpg\" /></a><br/>\n                                      author: Douglas E. Harding<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.68<br/>\n                                      book published: 1961<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2019/11/08<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/1340936200?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sun, 27 Oct 2019 01:13:31 -0700"
-          },
-          "title": {
-            "_text": "Seveneves"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/1340936200?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "22816087"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1449142000l/22816087._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1449142000l/22816087._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1449142000l/22816087._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1449142000l/22816087.jpg"
-          },
-          "book_description": {
-            "_cdata": "What would happen if the world were ending?<br /><br />A catastrophic event renders the earth a ticking time bomb. In a feverish race against the inevitable, nations around the globe band together to devise an ambitious plan to ensure the survival of humanity far beyond our atmosphere, in outer space.<br /><br />But the complexities and unpredictability of human nature coupled with unforeseen challenges and dangers threaten the intrepid pioneers, until only a handful of survivors remain . . .<br /><br />Five thousand years later, their progeny—seven distinct races now three billion strong—embark on yet another audacious journey into the unknown . . . to an alien world utterly transformed by cataclysm and time: Earth.<br /><br />A writer of dazzling genius and imaginative vision, Neal Stephenson combines science, philosophy, technology, psychology, and literature in a magnificent work of speculative fiction that offers a portrait of a future that is both extraordinary and eerily recognizable. As he did in Anathem, Cryptonomicon, the Baroque Cycle, and Reamde, Stephenson explores some of our biggest ideas and perplexing challenges in a breathtaking saga that is daring, engrossing, and altogether brilliant."
-          },
-          "book": {
-            "_attributes": {
-              "id": "22816087"
-            },
-            "num_pages": {
-              "_text": "880"
-            }
-          },
-          "author_name": {
-            "_text": "Neal Stephenson"
-          },
-          "isbn": {},
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "4"
-          },
-          "user_read_at": {
-            "_cdata": "Sun, 27 Oct 2019 01:13:31 -0700"
-          },
-          "user_date_added": {
-            "_cdata": "Sun, 27 Oct 2019 01:13:31 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Mon, 20 Jul 2015 21:26:49 -0700"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "3.98"
-          },
-          "book_published": {
-            "_text": "2015"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/22816087-seveneves?utm_medium=api&amp;utm_source=rss\"><img alt=\"Seveneves\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1449142000l/22816087._SY75_.jpg\" /></a><br/>\n                                      author: Neal Stephenson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.98<br/>\n                                      book published: 2015<br/>\n                                      rating: 4<br/>\n                                      read at: 2019/10/27<br/>\n                                      date added: 2019/10/27<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]
