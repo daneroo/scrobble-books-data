@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Sat, 09 Oct 2021 00:52:03 -0700"
+        "_text": "Sat, 09 Oct 2021 03:44:05 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,76 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4279483002?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sat, 09 Oct 2021 03:44:05 -0700"
+          },
+          "title": {
+            "_cdata": "Escape from Rome: The Failure of Empire and the Road to Prosperity"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4279483002?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "44525996"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1558719133l/44525996._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1558719133l/44525996._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1558719133l/44525996._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1558719133l/44525996.jpg"
+          },
+          "book_description": {
+            "_cdata": "<b>The gripping story of how the end of the Roman Empire was the beginning of the modern world</b><br /><br />The fall of the Roman Empire has long been considered one of the greatest disasters in history. But in this groundbreaking book, Walter Scheidel argues that Rome's dramatic collapse was actually the best thing that ever happened, clearing the path for Europe's economic rise and the creation of the modern age. Ranging across the entire premodern world, <i>Escape from Rome</i> offers new answers to some of the biggest questions in history: Why did the Roman Empire appear? Why did nothing like it ever return to Europe? And, above all, why did Europeans come to dominate the world?<br /><br />In an absorbing narrative that begins with ancient Rome but stretches far beyond it, from Byzantium to China and from Genghis Khan to Napoleon, Scheidel shows how the demise of Rome and the enduring failure of empire-building on European soil ensured competitive fragmentation between and within states. This rich diversity encouraged political, economic, scientific, and technological breakthroughs that allowed Europe to surge ahead while other parts of the world lagged behind, burdened as they were by traditional empires and predatory regimes that lived by conquest. It wasn't until Europe \"escaped\" from Rome that it launched an economic transformation that changed the continent and ultimately the world.<br /><br />What has the Roman Empire ever done for us? Fall and go away."
+          },
+          "book": {
+            "_attributes": {
+              "id": "44525996"
+            },
+            "num_pages": {
+              "_text": "696"
+            }
+          },
+          "author_name": {
+            "_text": "Walter Scheidel"
+          },
+          "isbn": {
+            "_text": "0691172188"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Sat, 09 Oct 2021 03:44:05 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Sat, 09 Oct 2021 03:44:04 -0700"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.04"
+          },
+          "book_published": {},
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/44525996-escape-from-rome?utm_medium=api&amp;utm_source=rss\"><img alt=\"Escape from Rome: The Failure of Empire and the Road to Prosperity\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1558719133l/44525996._SY75_.jpg\" /></a><br/>\n                                      author: Walter Scheidel<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.04<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/10/09<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/4255842317?utm_medium=api&utm_source=rss"
@@ -7142,78 +7212,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/60215.The_Urth_of_the_New_Sun?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Urth of the New Sun (The Book of the New Sun, #5)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1532670795l/60215._SY75_.jpg\" /></a><br/>\n                                      author: Gene Wolfe<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.02<br/>\n                                      book published: 1987<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/06/20<br/>\n                                      date added: 2021/06/20<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/4064466913?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Thu, 17 Jun 2021 21:55:11 -0700"
-          },
-          "title": {
-            "_text": "The Absolute Book"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/4064466913?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "54735156"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1596802416l/54735156._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1596802416l/54735156._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1596802416l/54735156._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1596802416l/54735156.jpg"
-          },
-          "book_description": {
-            "_cdata": "Taryn Cornick believes that the past--her sister's violent death, and her own ill-conceived revenge--is behind her, and she can get on with her life. She has written a successful book about the things that threaten libraries: insects, damp, light, fire, carelessness and uncaring . . . but not all of the attention it brings her is good.<br /><br />A policeman, Jacob Berger, questions her about a cold case. Then there are questions about a fire in the library at her grandparents' house and an ancient scroll box known as the Firestarter, as well as threatening phone calls and a mysterious illness. Finally a shadowy young man named Shift appears, forcing Taryn and Jacob toward a reckoning felt in more than one world.<br /><br /><i>The Absolute Book</i> is epic, action-packed fantasy in which hidden treasures are recovered, wicked things resurface, birds can talk, and dead sisters are a living force. It is a book of journeys and returns, from contemporary England to Auckland, New Zealand; from a magical fairyland to Purgatory. Above all, it is a declaration of love for stories and the ways in which they shape our worlds and create gods out of morals."
-          },
-          "book": {
-            "_attributes": {
-              "id": "54735156"
-            },
-            "num_pages": {
-              "_text": "640"
-            }
-          },
-          "author_name": {
-            "_text": "Elizabeth Knox"
-          },
-          "isbn": {
-            "_text": "0593296737"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Thu, 17 Jun 2021 21:55:11 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Thu, 17 Jun 2021 21:55:11 -0700"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "3.17"
-          },
-          "book_published": {
-            "_text": "2019"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/54735156-the-absolute-book?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Absolute Book\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1596802416l/54735156._SY75_.jpg\" /></a><br/>\n                                      author: Elizabeth Knox<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.17<br/>\n                                      book published: 2019<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/06/17<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

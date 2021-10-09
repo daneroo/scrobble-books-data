@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Wed, 16 Jun 2021 22:50:30 -0700"
+        "_text": "Thu, 17 Jun 2021 21:55:11 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4064466913?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Thu, 17 Jun 2021 21:55:11 -0700"
+          },
+          "title": {
+            "_text": "The Absolute Book"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4064466913?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "54735156"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1596802416l/54735156._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1596802416l/54735156._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1596802416l/54735156._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1596802416l/54735156.jpg"
+          },
+          "book_description": {
+            "_cdata": "Taryn Cornick believes that the past--her sister's violent death, and her own ill-conceived revenge--is behind her, and she can get on with her life. She has written a successful book about the things that threaten libraries: insects, damp, light, fire, carelessness and uncaring . . . but not all of the attention it brings her is good.<br /><br />A policeman, Jacob Berger, questions her about a cold case. Then there are questions about a fire in the library at her grandparents' house and an ancient scroll box known as the Firestarter, as well as threatening phone calls and a mysterious illness. Finally a shadowy young man named Shift appears, forcing Taryn and Jacob toward a reckoning felt in more than one world.<br /><br /><i>The Absolute Book</i> is epic, action-packed fantasy in which hidden treasures are recovered, wicked things resurface, birds can talk, and dead sisters are a living force. It is a book of journeys and returns, from contemporary England to Auckland, New Zealand; from a magical fairyland to Purgatory. Above all, it is a declaration of love for stories and the ways in which they shape our worlds and create gods out of morals."
+          },
+          "book": {
+            "_attributes": {
+              "id": "54735156"
+            },
+            "num_pages": {
+              "_text": "640"
+            }
+          },
+          "author_name": {
+            "_text": "Elizabeth Knox"
+          },
+          "isbn": {
+            "_text": "0593296737"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Thu, 17 Jun 2021 21:55:11 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Thu, 17 Jun 2021 21:55:11 -0700"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.17"
+          },
+          "book_published": {
+            "_text": "2019"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/54735156-the-absolute-book?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Absolute Book\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1596802416l/54735156._SY75_.jpg\" /></a><br/>\n                                      author: Elizabeth Knox<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.17<br/>\n                                      book published: 2019<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/06/17<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/4062832914?utm_medium=api&utm_source=rss"
@@ -7154,76 +7226,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/701360.Dictionary_of_Republicanisms?utm_medium=api&amp;utm_source=rss\"><img alt=\"Dictionary of Republicanisms: The Indispensable Guide to What They Really Mean When They Say What They Think You Want to Hear\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348760841l/701360._SY75_.jpg\" /></a><br/>\n                                      author: Katrina Vanden Heuvel<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.92<br/>\n                                      book published: 2005<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/02/06<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3778669493?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Tue, 02 Feb 2021 22:14:14 -0800"
-          },
-          "title": {
-            "_cdata": "Light Falls: Space, Time, and an Obsession of Einstein"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3778669493?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "32796171"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1497721479l/32796171._SX50_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1497721479l/32796171._SX50_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1497721479l/32796171._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1497721479l/32796171.jpg"
-          },
-          "book_description": {
-            "_cdata": "Best-selling author, superstar physicist, and cofounder of the World Science Festival Brian Greene (The Elegant Universe, The Fabric of the Cosmos) and an ensemble cast led by award-winning actor Paul Rudd (Ant-Man) perform this dramatic story tracing Albert Einstein's discovery of the general theory of relativity. Featuring an original score by composer Jeff Beal (House of Cards, Pollock), Einstein’s electrifying journey toward his greatest achievement is brought vividly to life.<br />The theatrical version of Light Falls was first performed at the World Science Festival in New York City.<br />Full list of narrators includes Graeme Malcolm.<br />©2015 Brian Greene (P)2016 Audible, Inc."
-          },
-          "book": {
-            "_attributes": {
-              "id": "32796171"
-            },
-            "num_pages": {
-              "_text": "3"
-            }
-          },
-          "author_name": {
-            "_text": "Brian Greene"
-          },
-          "isbn": {},
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "5"
-          },
-          "user_read_at": {
-            "_cdata": "Tue, 02 Feb 2021 22:14:14 -0800"
-          },
-          "user_date_added": {
-            "_cdata": "Tue, 02 Feb 2021 22:14:14 -0800"
-          },
-          "user_date_created": {
-            "_cdata": "Sun, 17 Jan 2021 13:28:34 -0800"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.11"
-          },
-          "book_published": {
-            "_text": "2016"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/32796171-light-falls?utm_medium=api&amp;utm_source=rss\"><img alt=\"Light Falls: Space, Time, and an Obsession of Einstein\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1497721479l/32796171._SX50_.jpg\" /></a><br/>\n                                      author: Brian Greene<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.11<br/>\n                                      book published: 2016<br/>\n                                      rating: 5<br/>\n                                      read at: 2021/02/02<br/>\n                                      date added: 2021/02/02<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

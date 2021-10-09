@@ -2,6 +2,28 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "guid": "https://www.goodreads.com/review/show/4279483002?utm_medium=api&utm_source=rss",
+      "pubDate": "2021-10-09T10:44:05.000Z",
+      "title": "Escape from Rome: The Failure of Empire and the Road to Prosperity",
+      "link": "https://www.goodreads.com/review/show/4279483002?utm_medium=api&utm_source=rss",
+      "bookId": "44525996",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1558719133l/44525996._SY75_.jpg",
+      "bookDescription": "<b>The gripping story of how the end of the Roman Empire was the beginning of the modern world</b><br /><br />The fall of the Roman Empire has long been considered one of the greatest disasters in history. But in this groundbreaking book, Walter Scheidel argues that Rome's dramatic collapse was actually the best thing that ever happened, clearing the path for Europe's economic rise and the creation of the modern age. Ranging across the entire premodern world, <i>Escape from Rome</i> offers new answers to some of the biggest questions in history: Why did the Roman Empire appear? Why did nothing like it ever return to Europe? And, above all, why did Europeans come to dominate the world?<br /><br />In an absorbing narrative that begins with ancient Rome but stretches far beyond it, from Byzantium to China and from Genghis Khan to Napoleon, Scheidel shows how the demise of Rome and the enduring failure of empire-building on European soil ensured competitive fragmentation between and within states. This rich diversity encouraged political, economic, scientific, and technological breakthroughs that allowed Europe to surge ahead while other parts of the world lagged behind, burdened as they were by traditional empires and predatory regimes that lived by conquest. It wasn't until Europe \"escaped\" from Rome that it launched an economic transformation that changed the continent and ultimately the world.<br /><br />What has the Roman Empire ever done for us? Fall and go away.",
+      "authorName": "Walter Scheidel",
+      "isbn": "0691172188",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2021-10-09T10:44:05.000Z",
+      "userDateCreated": "2021-10-09T10:44:04.000Z",
+      "userShelves": "to-read",
+      "userReview": "",
+      "averageRating": "4.04",
+      "bookPublished": "",
+      "description": "\n      <a href=\"https://www.goodreads.com/book/show/44525996-escape-from-rome?utm_medium=api&amp;utm_source=rss\"><img alt=\"Escape from Rome: The Failure of Empire and the Road to Prosperity\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1558719133l/44525996._SY75_.jpg\" /></a><br/>\n                                      author: Walter Scheidel<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.04<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/10/09<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      ",
+      "numPages": "696"
+    },
+    {
       "guid": "https://www.goodreads.com/review/show/4255842317?utm_medium=api&utm_source=rss",
       "pubDate": "2021-10-09T07:52:03.000Z",
       "title": "The Adventures of Sherlock Holmes (Sherlock Holmes, #3)",
@@ -6728,9 +6750,9 @@
       "userDateCreated": "2019-09-26T05:49:58.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "4.23",
+      "averageRating": "4.24",
       "bookPublished": "2019",
-      "description": "\n      <a href=\"https://www.goodreads.com/book/show/45549792-space?utm_medium=api&amp;utm_source=rss\"><img alt=\"Space: The 10 Things You Should Know\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1557233341l/45549792._SY75_.jpg\" /></a><br/>\n                                      author: Becky Smethurst<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.23<br/>\n                                      book published: 2019<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2019/09/25<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      ",
+      "description": "\n      <a href=\"https://www.goodreads.com/book/show/45549792-space?utm_medium=api&amp;utm_source=rss\"><img alt=\"Space: The 10 Things You Should Know\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1557233341l/45549792._SY75_.jpg\" /></a><br/>\n                                      author: Becky Smethurst<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.24<br/>\n                                      book published: 2019<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2019/09/25<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      ",
       "numPages": "120"
     },
     {

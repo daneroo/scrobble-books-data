@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Fri, 13 Dec 2019 02:11:55 -0800"
+        "_text": "Thu, 19 Dec 2019 01:56:25 -0800"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3091254428?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Thu, 19 Dec 2019 01:56:25 -0800"
+          },
+          "title": {
+            "_cdata": "Lifespan: Why We Age—and Why We Don't Have To"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3091254428?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "43723901"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1563164003l/43723901._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1563164003l/43723901._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1563164003l/43723901._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1563164003l/43723901.jpg"
+          },
+          "book_description": {
+            "_cdata": "It’s a seemingly undeniable truth that aging is inevitable. But what if everything we’ve been taught to believe about aging is wrong? What if we could choose our lifespan?<br /> <br />In this groundbreaking book, Dr. David Sinclair, leading world authority on genetics and longevity, reveals a bold new theory for why we age. As he writes: “Aging is a disease, and that disease is treatable.” <br /><br />This book takes us to the frontlines of research many from Dr. David Sinclair’s own lab at Harvard—that demonstrate how we can slow down, or even reverse, aging. The key is activating newly discovered vitality genes, the descendants of an ancient genetic survival circuit that is both the cause of aging and the key to reversing it."
+          },
+          "book": {
+            "_attributes": {
+              "id": "43723901"
+            },
+            "num_pages": {
+              "_text": "432"
+            }
+          },
+          "author_name": {
+            "_text": "David A. Sinclair"
+          },
+          "isbn": {
+            "_text": "1501191977"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Thu, 19 Dec 2019 01:56:25 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Thu, 19 Dec 2019 01:56:25 -0800"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.19"
+          },
+          "book_published": {
+            "_text": "2019"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/43723901-lifespan?utm_medium=api&amp;utm_source=rss\"><img alt=\"Lifespan: Why We Age—and Why We Don&#39;t Have To\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1563164003l/43723901._SY75_.jpg\" /></a><br/>\n                                      author: David A. Sinclair<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.19<br/>\n                                      book published: 2019<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2019/12/19<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/3083296213?utm_medium=api&utm_source=rss"
@@ -485,13 +557,13 @@
           },
           "user_review": {},
           "average_rating": {
-            "_text": "4.23"
+            "_text": "4.24"
           },
           "book_published": {
             "_text": "2019"
           },
           "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/45549792-space?utm_medium=api&amp;utm_source=rss\"><img alt=\"Space: The 10 Things You Should Know\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1557233341l/45549792._SY75_.jpg\" /></a><br/>\n                                      author: Becky Smethurst<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.23<br/>\n                                      book published: 2019<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2019/09/25<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/45549792-space?utm_medium=api&amp;utm_source=rss\"><img alt=\"Space: The 10 Things You Should Know\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1557233341l/45549792._SY75_.jpg\" /></a><br/>\n                                      author: Becky Smethurst<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.24<br/>\n                                      book published: 2019<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2019/09/25<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
           }
         },
         {
@@ -7122,76 +7194,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/11107244-the-better-angels-of-our-nature?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Better Angels of Our Nature: Why Violence Has Declined\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1311281857l/11107244._SY75_.jpg\" /></a><br/>\n                                      author: Steven Pinker<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.16<br/>\n                                      book published: 2010<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2014/04/07<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/855010034?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sun, 16 Feb 2014 18:32:50 -0800"
-          },
-          "title": {
-            "_cdata": "The Uses of Enchantment: The Meaning and Importance of Fairy Tales"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/855010034?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "444388"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1387732307l/444388._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1387732307l/444388._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1387732307l/444388._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1387732307l/444388.jpg"
-          },
-          "book_description": {
-            "_cdata": "Bruno Bettelheim, célebre psicólogo infantil, se interesó en la influencia que podían ejercer los cuentos de hadas en los nin̆os y llegó a la conclusión que tiene una extraordinaria importancia para la formación moral e intelectual de los nin̆os. A la luz del Psicoanálisis y la atención de nińos durante muchos an̆os pudo llegar a corroborar el importante papel que desempen̆an estos cuentos en sus vidas."
-          },
-          "book": {
-            "_attributes": {
-              "id": "444388"
-            },
-            "num_pages": {
-              "_text": "352"
-            }
-          },
-          "author_name": {
-            "_text": "Bruno Bettelheim"
-          },
-          "isbn": {
-            "_text": "0679723935"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "5"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Sun, 16 Feb 2014 18:32:50 -0800"
-          },
-          "user_date_created": {
-            "_cdata": "Fri, 14 Feb 2014 17:06:07 -0800"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "3.86"
-          },
-          "book_published": {
-            "_text": "1975"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/444388.The_Uses_of_Enchantment?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Uses of Enchantment: The Meaning and Importance of Fairy Tales\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1387732307l/444388._SY75_.jpg\" /></a><br/>\n                                      author: Bruno Bettelheim<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.86<br/>\n                                      book published: 1975<br/>\n                                      rating: 5<br/>\n                                      read at: <br/>\n                                      date added: 2014/02/16<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]
