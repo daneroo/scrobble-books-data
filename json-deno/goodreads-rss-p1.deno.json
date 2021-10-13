@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Sun, 10 Oct 2021 02:33:38 -0700"
+        "_text": "Wed, 13 Oct 2021 00:46:43 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,148 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4285970420?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Wed, 13 Oct 2021 00:46:43 -0700"
+          },
+          "title": {
+            "_text": "Measure What Matters"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4285970420?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "39286958"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1521104315l/39286958._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1521104315l/39286958._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1521104315l/39286958._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1521104315l/39286958._SY475_.jpg"
+          },
+          "book_description": {
+            "_cdata": "<p>\n  <b>The revolutionary movement behind the explosive growth of Intel, Google, Amazon and Uber. </b>\n  <br />\n  <b> With a foreword by Larry Page, and contributions from Bono and Bill Gates.</b>\n</p><p> <i>Measure What Matters</i> is about using Objectives and Key Results (OKRs), a revolutionary approach to goal-setting, to make tough choices in business. </p><p> In 1999, legendary venture capitalist John Doerr invested nearly $12 million in a startup that had amazing technology, entrepreneurial energy and sky-high ambitions, but no real business plan. Doerr introduced the founders to OKRs and with them at the foundation of their management, the startup grew from forty employees to more than 70,000 with a market cap exceeding $600 billion. The startup was Google.</p><p> Since then Doerr has introduced OKRs to more than fifty companies, helping tech giants and charities exceed all expectations. In the OKR model objectives define what we seek to achieve and key results are how those top­ priority goals will be attained. OKRs focus effort, foster coordination and enhance workplace satisfaction. They surface an organization's most important work as everyone's goals from entry-level to CEO are transparent to the entire institution. </p><p> In <i>Measure What Matters,</i> Doerr shares a broad range of first-person, behind-the-scenes case studies, with narrators including Bono and Bill Gates, to demonstrate the focus, agility, and explosive growth that OKRs have spurred at so many great organizations. </p><p> This book will show you how to collect timely, relevant data to track progress - to <i>measure what matters</i>. It will help any organization or team aim high, move fast, and excel. </p>"
+          },
+          "book": {
+            "_attributes": {
+              "id": "39286958"
+            },
+            "num_pages": {
+              "_text": "320"
+            }
+          },
+          "author_name": {
+            "_text": "John E. Doerr"
+          },
+          "isbn": {},
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Wed, 13 Oct 2021 00:46:43 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Wed, 13 Oct 2021 00:46:43 -0700"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.96"
+          },
+          "book_published": {
+            "_text": "2017"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/39286958-measure-what-matters?utm_medium=api&amp;utm_source=rss\"><img alt=\"Measure What Matters\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1521104315l/39286958._SY75_.jpg\" /></a><br/>\n                                      author: John E. Doerr<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.96<br/>\n                                      book published: 2017<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/10/13<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3900737719?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Wed, 13 Oct 2021 00:46:02 -0700"
+          },
+          "title": {
+            "_cdata": "SPQR: A History of Ancient Rome"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3900737719?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "28789711"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1470421195l/28789711._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1470421195l/28789711._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1470421195l/28789711._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1470421195l/28789711.jpg"
+          },
+          "book_description": {
+            "_cdata": "In <i>SPQR</i>, an instant classic, Mary Beard narrates the history of Rome \"with passion and without technical jargon\" and demonstrates how \"a slightly shabby Iron Age village\" rose to become the \"undisputed hegemon of the Mediterranean\" (<i>Wall Street Journal</i>). Hailed by critics as animating \"the grand sweep and the intimate details that bring the distant past vividly to life\" (<i>Economist</i>) in a way that makes \"your hair stand on end\" (<i>Christian Science Monitor</i>) and spanning nearly a thousand years of history, this \"highly informative, highly readable\" (<i>Dallas Morning News</i>) work examines not just how we think of ancient Rome but challenges the comfortable historical perspectives that have existed for centuries. With its nuanced attention to class, democratic struggles, and the lives of entire groups of people omitted from the historical narrative for centuries, <i>SPQR</i> will to shape our view of Roman history for decades to come."
+          },
+          "book": {
+            "_attributes": {
+              "id": "28789711"
+            },
+            "num_pages": {
+              "_text": "606"
+            }
+          },
+          "author_name": {
+            "_text": "Mary Beard"
+          },
+          "isbn": {
+            "_text": "1631492225"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Wed, 13 Oct 2021 00:46:02 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Sat, 20 Mar 2021 20:54:37 -0700"
+          },
+          "user_shelves": {
+            "_text": "currently-reading"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.95"
+          },
+          "book_published": {
+            "_text": "2015"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/28789711-spqr?utm_medium=api&amp;utm_source=rss\"><img alt=\"SPQR: A History of Ancient Rome\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1470421195l/28789711._SY75_.jpg\" /></a><br/>\n                                      author: Mary Beard<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.95<br/>\n                                      book published: 2015<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/10/13<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/4272628129?utm_medium=api&utm_source=rss"
@@ -274,78 +416,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/3590.The_Adventures_of_Sherlock_Holmes?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Adventures of Sherlock Holmes (Sherlock Holmes, #3)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1164045516l/3590._SY75_.jpg\" /></a><br/>\n                                      author: Arthur Conan Doyle<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.30<br/>\n                                      book published: 1892<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/10/09<br/>\n                                      date added: 2021/10/09<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3900737719?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Fri, 08 Oct 2021 03:35:54 -0700"
-          },
-          "title": {
-            "_cdata": "SPQR: A History of Ancient Rome"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3900737719?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "28789711"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1470421195l/28789711._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1470421195l/28789711._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1470421195l/28789711._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1470421195l/28789711.jpg"
-          },
-          "book_description": {
-            "_cdata": "In <i>SPQR</i>, an instant classic, Mary Beard narrates the history of Rome \"with passion and without technical jargon\" and demonstrates how \"a slightly shabby Iron Age village\" rose to become the \"undisputed hegemon of the Mediterranean\" (<i>Wall Street Journal</i>). Hailed by critics as animating \"the grand sweep and the intimate details that bring the distant past vividly to life\" (<i>Economist</i>) in a way that makes \"your hair stand on end\" (<i>Christian Science Monitor</i>) and spanning nearly a thousand years of history, this \"highly informative, highly readable\" (<i>Dallas Morning News</i>) work examines not just how we think of ancient Rome but challenges the comfortable historical perspectives that have existed for centuries. With its nuanced attention to class, democratic struggles, and the lives of entire groups of people omitted from the historical narrative for centuries, <i>SPQR</i> will to shape our view of Roman history for decades to come."
-          },
-          "book": {
-            "_attributes": {
-              "id": "28789711"
-            },
-            "num_pages": {
-              "_text": "606"
-            }
-          },
-          "author_name": {
-            "_text": "Mary Beard"
-          },
-          "isbn": {
-            "_text": "1631492225"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Fri, 08 Oct 2021 03:35:54 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Sat, 20 Mar 2021 20:54:37 -0700"
-          },
-          "user_shelves": {
-            "_text": "currently-reading"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "3.95"
-          },
-          "book_published": {
-            "_text": "2015"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/28789711-spqr?utm_medium=api&amp;utm_source=rss\"><img alt=\"SPQR: A History of Ancient Rome\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1470421195l/28789711._SY75_.jpg\" /></a><br/>\n                                      author: Mary Beard<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.95<br/>\n                                      book published: 2015<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/10/08<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>\n                                      "
           }
         },
         {
@@ -7140,78 +7210,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/17345209-the-bat?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Bat (Harry Hole, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1364767794l/17345209._SY75_.jpg\" /></a><br/>\n                                      author: Jo Nesbø<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.39<br/>\n                                      book published: 1997<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/06/22<br/>\n                                      date added: 2021/06/22<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/4010952708?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sun, 20 Jun 2021 17:28:29 -0700"
-          },
-          "title": {
-            "_cdata": "The Urth of the New Sun (The Book of the New Sun, #5)"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/4010952708?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "60215"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1532670795l/60215._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1532670795l/60215._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1532670795l/60215._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1532670795l/60215._SY475_.jpg"
-          },
-          "book_description": {
-            "_cdata": "The long awaited sequel to Gene Wolfe’s four-volume classic, <i>The Book of the New Sun</i>. We return to the world of Severian, now the Autarch of Urth, as he leaves the planet on one of the huge spaceships of the alien Hierodules to travel across time and space to face his greatest test, to become the legendary New Sun or die. The strange, rich, original spaceship scenes give way to travels in time, wherein Severian revisits times and places which fill in parts of the background of the four-volume work, that will thrill and intrigue particularly all readers of the earlier books. But The Urth of the New Sun is an independent structure all of a piece, an integral masterpiece to shelve beside the classics, one itself.<br /><br />"
-          },
-          "book": {
-            "_attributes": {
-              "id": "60215"
-            },
-            "num_pages": {
-              "_text": "372"
-            }
-          },
-          "author_name": {
-            "_text": "Gene Wolfe"
-          },
-          "isbn": {
-            "_text": "0312863942"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "4"
-          },
-          "user_read_at": {
-            "_cdata": "Sun, 20 Jun 2021 17:28:28 -0700"
-          },
-          "user_date_added": {
-            "_cdata": "Sun, 20 Jun 2021 17:28:29 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Wed, 19 May 2021 16:12:52 -0700"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.02"
-          },
-          "book_published": {
-            "_text": "1987"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/60215.The_Urth_of_the_New_Sun?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Urth of the New Sun (The Book of the New Sun, #5)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1532670795l/60215._SY75_.jpg\" /></a><br/>\n                                      author: Gene Wolfe<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.02<br/>\n                                      book published: 1987<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/06/20<br/>\n                                      date added: 2021/06/20<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

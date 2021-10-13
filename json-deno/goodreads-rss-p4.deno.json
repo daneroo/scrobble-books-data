@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Thu, 19 Dec 2019 01:56:25 -0800"
+        "_text": "Thu, 19 Dec 2019 17:30:07 -0800"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3092112383?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Thu, 19 Dec 2019 17:30:07 -0800"
+          },
+          "title": {
+            "_cdata": "Algorithms to Live By: The Computer Science of Human Decisions"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3092112383?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "25666050"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1454296875l/25666050._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1454296875l/25666050._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1454296875l/25666050._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1454296875l/25666050.jpg"
+          },
+          "book_description": {
+            "_cdata": "<b>A fascinating exploration of how insights from computer algorithms can be applied to our everyday lives, helping to solve common decision-making problems and illuminate the workings of the human mind</b><br /><br />All our lives are constrained by limited space and time, limits that give rise to a particular set of problems. What should we do, or leave undone, in a day or a lifetime? How much messiness should we accept? What balance of new activities and familiar favorites is the most fulfilling? These may seem like uniquely human quandaries, but they are not: computers, too, face the same constraints, so computer scientists have been grappling with their version of such issues for decades. And the solutions they've found have much to teach us.<br /><br />In a dazzlingly interdisciplinary work, acclaimed author Brian Christian and cognitive scientist Tom Griffiths show how the algorithms used by computers can also untangle very human questions. They explain how to have better hunches and when to leave things to chance, how to deal with overwhelming choices and how best to connect with others. From finding a spouse to finding a parking spot, from organizing one's inbox to understanding the workings of memory, <i>Algorithms to Live By</i> transforms the wisdom of computer science into strategies for human living."
+          },
+          "book": {
+            "_attributes": {
+              "id": "25666050"
+            },
+            "num_pages": {
+              "_text": "368"
+            }
+          },
+          "author_name": {
+            "_text": "Brian Christian"
+          },
+          "isbn": {
+            "_text": "1627790365"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Thu, 19 Dec 2019 17:30:07 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Thu, 19 Dec 2019 17:30:07 -0800"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.11"
+          },
+          "book_published": {
+            "_text": "2016"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/25666050-algorithms-to-live-by?utm_medium=api&amp;utm_source=rss\"><img alt=\"Algorithms to Live By: The Computer Science of Human Decisions\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1454296875l/25666050._SY75_.jpg\" /></a><br/>\n                                      author: Brian Christian<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.11<br/>\n                                      book published: 2016<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2019/12/19<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/3091254428?utm_medium=api&utm_source=rss"
@@ -7122,78 +7194,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/19121625-the-long-hard-road-out-of-hell?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Long Hard Road Out of Hell\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386044127l/19121625._SY75_.jpg\" /></a><br/>\n                                      author: Marilyn Manson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.82<br/>\n                                      book published: 1998<br/>\n                                      rating: 5<br/>\n                                      read at: <br/>\n                                      date added: 2014/04/29<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/904210555?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Mon, 07 Apr 2014 19:08:36 -0700"
-          },
-          "title": {
-            "_cdata": "The Better Angels of Our Nature: Why Violence Has Declined"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/904210555?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "11107244"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1311281857l/11107244._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1311281857l/11107244._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1311281857l/11107244._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1311281857l/11107244.jpg"
-          },
-          "book_description": {
-            "_cdata": "<b>Selected by <i>The New York Times Book Review</i> as a Notable Book of the Year. </b><b> The author of <i>The New York Times</i> bestseller <i>The Stuff of Thought</i> offers a controversial history of violence. </b><br /><br />Faced with the ceaseless stream of news about war, crime, and terrorism, one could easily think we live in the most violent age ever seen. Yet as New York Times bestselling author Steven Pinker shows in this startling and engaging new work, just the opposite is true: violence has been diminishing for millennia and we may be living in the most peaceful time in our species's existence. For most of history, war, slavery, infanticide, child abuse, assassinations, pogroms, gruesome punishments, deadly quarrels, and genocide were ordinary features of life. But today, Pinker shows (with the help of more than a hundred graphs and maps) all these forms of violence have dwindled and are widely condemned. How has this happened?<br /><br />This groundbreaking book continues Pinker's exploration of the essence of human nature, mixing psychology and history to provide a remarkable picture of an increasingly nonviolent world. The key, he explains, is to understand our intrinsic motives- the inner demons that incline us toward violence and the better angels that steer us away-and how changing circumstances have allowed our better angels to prevail. Exploding fatalist myths about humankind's inherent violence and the curse of modernity, this ambitious and provocative book is sure to be hotly debated in living rooms and the Pentagon alike, and will challenge and change the way we think about our society."
-          },
-          "book": {
-            "_attributes": {
-              "id": "11107244"
-            },
-            "num_pages": {
-              "_text": "802"
-            }
-          },
-          "author_name": {
-            "_text": "Steven Pinker"
-          },
-          "isbn": {
-            "_text": "0670022950"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Mon, 07 Apr 2014 19:08:36 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Mon, 07 Apr 2014 19:08:36 -0700"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.16"
-          },
-          "book_published": {
-            "_text": "2010"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/11107244-the-better-angels-of-our-nature?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Better Angels of Our Nature: Why Violence Has Declined\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1311281857l/11107244._SY75_.jpg\" /></a><br/>\n                                      author: Steven Pinker<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.16<br/>\n                                      book published: 2010<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2014/04/07<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]
