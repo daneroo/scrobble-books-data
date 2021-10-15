@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Sat, 06 Feb 2021 17:37:30 -0800"
+        "_text": "Fri, 12 Feb 2021 10:11:14 -0800"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,222 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3778647018?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Fri, 12 Feb 2021 10:11:14 -0800"
+          },
+          "title": {
+            "_cdata": "Calculating the Cosmos: How Mathematics Unveils the Universe"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3778647018?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "29502381"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1458494525l/29502381._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1458494525l/29502381._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1458494525l/29502381._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1458494525l/29502381.jpg"
+          },
+          "book_description": {
+            "_cdata": "In <em>Calculating the Cosmos</em>, Ian Stewart presents an exhilarating guide to the cosmos, from our solar system to the entire universe. He describes the architecture of space and time, dark matter and dark energy, how galaxies form, why stars implode, how everything began, and how it's all going to end. He considers parallel universes, the fine-tuning of the cosmos for life, what forms extraterrestrial life might take, and the likelihood of life on Earth being snuffed out by an asteroid.<br /><br />Beginning with the Babylonian integration of mathematics into the study of astronomy and cosmology, Stewart traces the evolution of our understanding of the cosmos: How Kepler's laws of planetary motion led Newton to formulate his theory of gravity. How, two centuries later, tiny irregularities in the motion of Mars inspired Einstein to devise his general theory of relativity. How, eighty years ago, the discovery that the universe is expanding led to the development of the Big Bang theory of its origins. How single-point origin and expansion led cosmologists to theorize new components of the universe, such as inflation, dark matter, and dark energy. But does inflation explain the structure of today's universe? Does dark matter actually exist? Could a scientific revolution that will challenge the long-held scientific orthodoxy and once again transform our understanding of the universe be on the way? In an exciting and engaging style, <em>Calculating the Cosmos</em> is a mathematical quest through the intricate realms of astronomy and cosmology."
+          },
+          "book": {
+            "_attributes": {
+              "id": "29502381"
+            },
+            "num_pages": {
+              "_text": "360"
+            }
+          },
+          "author_name": {
+            "_text": "Ian Stewart"
+          },
+          "isbn": {
+            "_text": "0465096107"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "4"
+          },
+          "user_read_at": {
+            "_cdata": "Fri, 12 Feb 2021 10:11:14 -0800"
+          },
+          "user_date_added": {
+            "_cdata": "Fri, 12 Feb 2021 10:11:14 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Sun, 17 Jan 2021 13:18:46 -0800"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.06"
+          },
+          "book_published": {
+            "_text": "2016"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/29502381-calculating-the-cosmos?utm_medium=api&amp;utm_source=rss\"><img alt=\"Calculating the Cosmos: How Mathematics Unveils the Universe\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1458494525l/29502381._SY75_.jpg\" /></a><br/>\n                                      author: Ian Stewart<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.06<br/>\n                                      book published: 2016<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/02/12<br/>\n                                      date added: 2021/02/12<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3545548991?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sun, 07 Feb 2021 00:59:59 -0800"
+          },
+          "title": {
+            "_cdata": "A Wizard of Earthsea (Earthsea Cycle, #1)"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3545548991?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "13642"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1353424536l/13642._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1353424536l/13642._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1353424536l/13642._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1353424536l/13642.jpg"
+          },
+          "book_description": {
+            "_cdata": "Ged, the greatest sorcerer in all Earthsea, was called Sparrowhawk in his reckless youth. <br /><br />Hungry for power and knowledge, Sparrowhawk tampered with long-held secrets and loosed a terrible shadow upon the world. This is the tale of his testing, how he mastered the mighty words of power, tamed an ancient dragon, and crossed death's threshold to restore the balance."
+          },
+          "book": {
+            "_attributes": {
+              "id": "13642"
+            },
+            "num_pages": {
+              "_text": "183"
+            }
+          },
+          "author_name": {
+            "_text": "Ursula K. Le Guin"
+          },
+          "isbn": {
+            "_text": "0553383043"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "4"
+          },
+          "user_read_at": {
+            "_cdata": "Sun, 07 Feb 2021 00:59:59 -0800"
+          },
+          "user_date_added": {
+            "_cdata": "Sun, 07 Feb 2021 00:59:59 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Sat, 12 Sep 2020 18:02:01 -0700"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.99"
+          },
+          "book_published": {
+            "_text": "1968"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/13642.A_Wizard_of_Earthsea?utm_medium=api&amp;utm_source=rss\"><img alt=\"A Wizard of Earthsea (Earthsea Cycle, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1353424536l/13642._SY75_.jpg\" /></a><br/>\n                                      author: Ursula K. Le Guin<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.99<br/>\n                                      book published: 1968<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/02/07<br/>\n                                      date added: 2021/02/07<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3823024610?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sat, 06 Feb 2021 21:54:06 -0800"
+          },
+          "title": {
+            "_text": "Why Orwell Matters"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3823024610?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "30551"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1413946593l/30551._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1413946593l/30551._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1413946593l/30551._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1413946593l/30551._SY475_.jpg"
+          },
+          "book_description": {
+            "_cdata": "In this widely acclaimed biographical essay, Christopher Hitchens assesses the life, the achievements, and the myth of the great political writer and participant George Orwell. In true emulative and contrarian style, Hitchens is both admiring and aggressive, sympathetic yet critical, taking true measure of his subject as hero and problem. Answering both the detractors and the false claimants, Hitchens tears down the façade of sainthood erected by the hagiographers and rebuts the critics point by point. He examines Orwell and his perspectives on fascism, empire, feminism, and Englishness, as well as his outlook on America, a country and culture towards which he exhibited much ambivalence. <br /><br />Whether thinking about empires or dictators, race or class, nationalism or popular culture, Orwell's moral outlook remains indispensable in a world that has undergone vast changes in the fifty years since his death. Combining the best of Hitchens's polemical punch and intellectual elegance in a tightly woven and subtle argument, this book addresses not only why Orwell matters today, but how he will continue to matter in a future, uncertain world. <br /><br />Christopher Hitchens, one of the most incisive minds of our own age, meets Orwell on the page in this provocative encounter of wit, contention and moral truth."
+          },
+          "book": {
+            "_attributes": {
+              "id": "30551"
+            },
+            "num_pages": {
+              "_text": "211"
+            }
+          },
+          "author_name": {
+            "_text": "Christopher Hitchens"
+          },
+          "isbn": {
+            "_text": "0465030505"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Sat, 06 Feb 2021 21:54:06 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Sat, 06 Feb 2021 21:54:06 -0800"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.94"
+          },
+          "book_published": {
+            "_text": "2002"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/30551.Why_Orwell_Matters?utm_medium=api&amp;utm_source=rss\"><img alt=\"Why Orwell Matters\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1413946593l/30551._SY75_.jpg\" /></a><br/>\n                                      author: Christopher Hitchens<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.94<br/>\n                                      book published: 2002<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/02/06<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/3807892870?utm_medium=api&utm_source=rss"
@@ -6956,222 +7172,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/27833670-dark-matter?utm_medium=api&amp;utm_source=rss\"><img alt=\"Dark Matter\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1472119680l/27833670._SY75_.jpg\" /></a><br/>\n                                      author: Blake Crouch<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.08<br/>\n                                      book published: 2016<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2020/01/05<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3103683687?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sun, 05 Jan 2020 02:57:01 -0800"
-          },
-          "title": {
-            "_cdata": "Dune Messiah (Dune Chronicles, #2)"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3103683687?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "44492285"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1577043824l/44492285._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1577043824l/44492285._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1577043824l/44492285._SY160_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1577043824l/44492285._SY475_.jpg"
-          },
-          "book_description": {
-            "_cdata": "<b>Book Two in the Magnificent Dune Chronicles--the Bestselling Science Fiction Adventure of All Time</b><br /><br /><i>Dune Messiah</i> continues the story of Paul Atreides, better known--and feared--as the man christened Muad'Dib. As Emperor of the Known Universe, he possesses more power than a single man was ever meant to wield. Worshipped as a religious icon by the fanatical Fremens, Paul faces the enmity of the political houses he displaced when he assumed the throne--and a conspiracy conducted within his own sphere of influence.<br /><br />And even as House Atreides begins to crumble around him from the machinations of his enemies, the true threat to Paul comes to his lover, Chani, and the unborn heir to his family's dynasty...<br /><br /><i>Includes an introduction by Brian Herbert</i>"
-          },
-          "book": {
-            "_attributes": {
-              "id": "44492285"
-            },
-            "num_pages": {
-              "_text": "337"
-            }
-          },
-          "author_name": {
-            "_text": "Frank Herbert"
-          },
-          "isbn": {
-            "_text": "0593098234"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "4"
-          },
-          "user_read_at": {
-            "_cdata": "Sun, 05 Jan 2020 02:57:01 -0800"
-          },
-          "user_date_added": {
-            "_cdata": "Sun, 05 Jan 2020 02:57:01 -0800"
-          },
-          "user_date_created": {
-            "_cdata": "Fri, 27 Dec 2019 17:48:39 -0800"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "3.89"
-          },
-          "book_published": {
-            "_text": "1969"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/44492285-dune-messiah?utm_medium=api&amp;utm_source=rss\"><img alt=\"Dune Messiah (Dune Chronicles, #2)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1577043824l/44492285._SY75_.jpg\" /></a><br/>\n                                      author: Frank Herbert<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.89<br/>\n                                      book published: 1969<br/>\n                                      rating: 4<br/>\n                                      read at: 2020/01/05<br/>\n                                      date added: 2020/01/05<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3103683909?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Thu, 02 Jan 2020 04:16:23 -0800"
-          },
-          "title": {
-            "_text": "Dune (Dune, #1)"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3103683909?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "44767458"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1555447414l/44767458._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1555447414l/44767458._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1555447414l/44767458._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1555447414l/44767458.jpg"
-          },
-          "book_description": {
-            "_cdata": "Set on the desert planet Arrakis, Dune is the story of the boy Paul Atreides, heir to a noble family tasked with ruling an inhospitable world where the only thing of value is the “spice” melange, a drug capable of extending life and enhancing consciousness. Coveted across the known universe, melange is a prize worth killing for...<br /><br />When House Atreides is betrayed, the destruction of Paul’s family will set the boy on a journey toward a destiny greater than he could ever have imagined. And as he evolves into the mysterious man known as Muad’Dib, he will bring to fruition humankind’s most ancient and unattainable dream."
-          },
-          "book": {
-            "_attributes": {
-              "id": "44767458"
-            },
-            "num_pages": {
-              "_text": "688"
-            }
-          },
-          "author_name": {
-            "_text": "Frank Herbert"
-          },
-          "isbn": {
-            "_text": "059309932X"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "5"
-          },
-          "user_read_at": {
-            "_cdata": "Thu, 02 Jan 2020 04:16:23 -0800"
-          },
-          "user_date_added": {
-            "_cdata": "Thu, 02 Jan 2020 04:16:23 -0800"
-          },
-          "user_date_created": {
-            "_cdata": "Fri, 27 Dec 2019 17:48:48 -0800"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.31"
-          },
-          "book_published": {
-            "_text": "1965"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/44767458-dune?utm_medium=api&amp;utm_source=rss\"><img alt=\"Dune (Dune, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1555447414l/44767458._SY75_.jpg\" /></a><br/>\n                                      author: Frank Herbert<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.31<br/>\n                                      book published: 1965<br/>\n                                      rating: 5<br/>\n                                      read at: 2020/01/02<br/>\n                                      date added: 2020/01/02<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3103683716?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Fri, 27 Dec 2019 17:48:40 -0800"
-          },
-          "title": {
-            "_cdata": "Children of Dune (Dune Chronicles, #3)"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3103683716?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "44492286"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1564783201l/44492286._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1564783201l/44492286._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1564783201l/44492286._SY160_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1564783201l/44492286.jpg"
-          },
-          "book_description": {
-            "_cdata": "<b>Book three in Frank Herbert's magnificent Dune Chronicles--one of the most significant sagas in the history of literary science fiction.</b><br /><br />The Children of Dune are twin siblings Leto and Ghanima Atreides, whose father, the Emperor Paul Muad'Dib, disappeared in the desert wastelands of Arrakis nine years ago. Like their father, the twins possess supernormal abilities--making them valuable to their manipulative aunt Alia, who rules the Empire in the name of House Atreides.<br /><br />Facing treason and rebellion on two fronts, Alia's rule is not absolute. The displaced House Corrino is plotting to regain the throne while the fanatical Fremen are being provoked into open revolt by the enigmatic figure known only as The Preacher. Alia believes that by obtaining the secrets of the twins' prophetic visions, she can maintain control over her dynasty.<br /><br />But Leto and Ghanima have their own plans for their visions--and their destinies....<br /><br /><i>Includes an introduction by Brian Herbert</i>"
-          },
-          "book": {
-            "_attributes": {
-              "id": "44492286"
-            },
-            "num_pages": {
-              "_text": "609"
-            }
-          },
-          "author_name": {
-            "_text": "Frank Herbert"
-          },
-          "isbn": {
-            "_text": "0593098242"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Fri, 27 Dec 2019 17:48:40 -0800"
-          },
-          "user_date_created": {
-            "_cdata": "Fri, 27 Dec 2019 17:48:40 -0800"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.03"
-          },
-          "book_published": {
-            "_text": "1976"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/44492286-children-of-dune?utm_medium=api&amp;utm_source=rss\"><img alt=\"Children of Dune (Dune Chronicles, #3)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1564783201l/44492286._SY75_.jpg\" /></a><br/>\n                                      author: Frank Herbert<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.03<br/>\n                                      book published: 1976<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2019/12/27<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

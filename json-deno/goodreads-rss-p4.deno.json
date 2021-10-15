@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Thu, 19 Dec 2019 17:30:07 -0800"
+        "_text": "Sun, 05 Jan 2020 02:57:01 -0800"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,222 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3103683687?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sun, 05 Jan 2020 02:57:01 -0800"
+          },
+          "title": {
+            "_cdata": "Dune Messiah (Dune Chronicles, #2)"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3103683687?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "44492285"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1577043824l/44492285._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1577043824l/44492285._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1577043824l/44492285._SY160_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1577043824l/44492285._SY475_.jpg"
+          },
+          "book_description": {
+            "_cdata": "<b>Book Two in the Magnificent Dune Chronicles--the Bestselling Science Fiction Adventure of All Time</b><br /><br /><i>Dune Messiah</i> continues the story of Paul Atreides, better known--and feared--as the man christened Muad'Dib. As Emperor of the Known Universe, he possesses more power than a single man was ever meant to wield. Worshipped as a religious icon by the fanatical Fremens, Paul faces the enmity of the political houses he displaced when he assumed the throne--and a conspiracy conducted within his own sphere of influence.<br /><br />And even as House Atreides begins to crumble around him from the machinations of his enemies, the true threat to Paul comes to his lover, Chani, and the unborn heir to his family's dynasty...<br /><br /><i>Includes an introduction by Brian Herbert</i>"
+          },
+          "book": {
+            "_attributes": {
+              "id": "44492285"
+            },
+            "num_pages": {
+              "_text": "337"
+            }
+          },
+          "author_name": {
+            "_text": "Frank Herbert"
+          },
+          "isbn": {
+            "_text": "0593098234"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "4"
+          },
+          "user_read_at": {
+            "_cdata": "Sun, 05 Jan 2020 02:57:01 -0800"
+          },
+          "user_date_added": {
+            "_cdata": "Sun, 05 Jan 2020 02:57:01 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Fri, 27 Dec 2019 17:48:39 -0800"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.89"
+          },
+          "book_published": {
+            "_text": "1969"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/44492285-dune-messiah?utm_medium=api&amp;utm_source=rss\"><img alt=\"Dune Messiah (Dune Chronicles, #2)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1577043824l/44492285._SY75_.jpg\" /></a><br/>\n                                      author: Frank Herbert<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.89<br/>\n                                      book published: 1969<br/>\n                                      rating: 4<br/>\n                                      read at: 2020/01/05<br/>\n                                      date added: 2020/01/05<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3103683909?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Thu, 02 Jan 2020 04:16:23 -0800"
+          },
+          "title": {
+            "_text": "Dune (Dune, #1)"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3103683909?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "44767458"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1555447414l/44767458._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1555447414l/44767458._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1555447414l/44767458._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1555447414l/44767458.jpg"
+          },
+          "book_description": {
+            "_cdata": "Set on the desert planet Arrakis, Dune is the story of the boy Paul Atreides, heir to a noble family tasked with ruling an inhospitable world where the only thing of value is the “spice” melange, a drug capable of extending life and enhancing consciousness. Coveted across the known universe, melange is a prize worth killing for...<br /><br />When House Atreides is betrayed, the destruction of Paul’s family will set the boy on a journey toward a destiny greater than he could ever have imagined. And as he evolves into the mysterious man known as Muad’Dib, he will bring to fruition humankind’s most ancient and unattainable dream."
+          },
+          "book": {
+            "_attributes": {
+              "id": "44767458"
+            },
+            "num_pages": {
+              "_text": "688"
+            }
+          },
+          "author_name": {
+            "_text": "Frank Herbert"
+          },
+          "isbn": {
+            "_text": "059309932X"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "5"
+          },
+          "user_read_at": {
+            "_cdata": "Thu, 02 Jan 2020 04:16:23 -0800"
+          },
+          "user_date_added": {
+            "_cdata": "Thu, 02 Jan 2020 04:16:23 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Fri, 27 Dec 2019 17:48:48 -0800"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.31"
+          },
+          "book_published": {
+            "_text": "1965"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/44767458-dune?utm_medium=api&amp;utm_source=rss\"><img alt=\"Dune (Dune, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1555447414l/44767458._SY75_.jpg\" /></a><br/>\n                                      author: Frank Herbert<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.31<br/>\n                                      book published: 1965<br/>\n                                      rating: 5<br/>\n                                      read at: 2020/01/02<br/>\n                                      date added: 2020/01/02<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3103683716?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Fri, 27 Dec 2019 17:48:40 -0800"
+          },
+          "title": {
+            "_cdata": "Children of Dune (Dune Chronicles, #3)"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3103683716?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "44492286"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1564783201l/44492286._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1564783201l/44492286._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1564783201l/44492286._SY160_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1564783201l/44492286.jpg"
+          },
+          "book_description": {
+            "_cdata": "<b>Book three in Frank Herbert's magnificent Dune Chronicles--one of the most significant sagas in the history of literary science fiction.</b><br /><br />The Children of Dune are twin siblings Leto and Ghanima Atreides, whose father, the Emperor Paul Muad'Dib, disappeared in the desert wastelands of Arrakis nine years ago. Like their father, the twins possess supernormal abilities--making them valuable to their manipulative aunt Alia, who rules the Empire in the name of House Atreides.<br /><br />Facing treason and rebellion on two fronts, Alia's rule is not absolute. The displaced House Corrino is plotting to regain the throne while the fanatical Fremen are being provoked into open revolt by the enigmatic figure known only as The Preacher. Alia believes that by obtaining the secrets of the twins' prophetic visions, she can maintain control over her dynasty.<br /><br />But Leto and Ghanima have their own plans for their visions--and their destinies....<br /><br /><i>Includes an introduction by Brian Herbert</i>"
+          },
+          "book": {
+            "_attributes": {
+              "id": "44492286"
+            },
+            "num_pages": {
+              "_text": "609"
+            }
+          },
+          "author_name": {
+            "_text": "Frank Herbert"
+          },
+          "isbn": {
+            "_text": "0593098242"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Fri, 27 Dec 2019 17:48:40 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Fri, 27 Dec 2019 17:48:40 -0800"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.03"
+          },
+          "book_published": {
+            "_text": "1976"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/44492286-children-of-dune?utm_medium=api&amp;utm_source=rss\"><img alt=\"Children of Dune (Dune Chronicles, #3)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1564783201l/44492286._SY75_.jpg\" /></a><br/>\n                                      author: Frank Herbert<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.03<br/>\n                                      book published: 1976<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2019/12/27<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/3092112383?utm_medium=api&utm_source=rss"
@@ -6984,216 +7200,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/18114087-the-knowledge?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Knowledge: How to Rebuild Our World from Scratch\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1393226489l/18114087._SY75_.jpg\" /></a><br/>\n                                      author: Lewis Dartnell<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.73<br/>\n                                      book published: 2014<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2014/05/31<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/946111442?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Fri, 23 May 2014 14:29:28 -0700"
-          },
-          "title": {
-            "_text": "Power and Liberty"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/946111442?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "21143394"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1394252349l/21143394._SX50_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1394252349l/21143394._SX50_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1394252349l/21143394._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1394252349l/21143394.jpg"
-          },
-          "book_description": {
-            "_cdata": "In this essay, Tolstoy maintains his theory of great men as the myths and tickets of history. History, he asserts, must give up the idea that great men rule us, and busy itself with the discovery of the idea of humanity. One looks for the overthrow of the French Empire not in this or that decision of Napoleon, but in the various factors down to the corporal who enlisted for the bounty once too often. What causes that great motion, the People, to brim over into an historic event? Nobody nowadays believes that the French Revolution happened because Marie-Antoinette was somewhat careless with her jewellery; but many people believe that Churchill, or Stalin, “won the war”, or that Hitler, personally, lost it. Moreover, the whole defence of Nazi war criminals — “we acted under orders” — is relevant to Tolstoy’s critique: it is not your great men who order history. It is a combination of circumstances in which the great man acts merely as the reference-card in the history book. It is not denied that they too like all other individuals play their part in history; but that role is not so decisive as those who wish to avoid responsibility admit.<br /> “The great are only great because we are on our knees\"."
-          },
-          "book": {
-            "_attributes": {
-              "id": "21143394"
-            },
-            "num_pages": {
-              "_text": "164"
-            }
-          },
-          "author_name": {
-            "_text": "Leo Tolstoy"
-          },
-          "isbn": {},
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "3"
-          },
-          "user_read_at": {
-            "_cdata": "Fri, 23 May 2014 14:29:28 -0700"
-          },
-          "user_date_added": {
-            "_cdata": "Fri, 23 May 2014 14:29:28 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Fri, 23 May 2014 14:29:30 -0700"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "3.50"
-          },
-          "book_published": {
-            "_text": "2013"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/21143394-power-and-liberty?utm_medium=api&amp;utm_source=rss\"><img alt=\"Power and Liberty\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1394252349l/21143394._SX50_.jpg\" /></a><br/>\n                                      author: Leo Tolstoy<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.50<br/>\n                                      book published: 2013<br/>\n                                      rating: 3<br/>\n                                      read at: 2014/05/23<br/>\n                                      date added: 2014/05/23<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/938147366?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Thu, 15 May 2014 09:52:19 -0700"
-          },
-          "title": {
-            "_text": "Why Not Socialism?"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/938147366?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "6764834"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348028438l/6764834._SX50_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348028438l/6764834._SX50_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348028438l/6764834._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348028438l/6764834.jpg"
-          },
-          "book_description": {
-            "_cdata": "Is socialism desirable? Is it even possible? In this concise book, one of the world's leading political philosophers presents with clarity and wit a compelling moral case for socialism and argues that the obstacles in its way are exaggerated.<br /><br /><br /> There are times, G. A. Cohen notes, when we all behave like socialists. On a camping trip, for example, campers wouldn't dream of charging each other to use a soccer ball or for fish that they happened to catch. Campers do not give merely to get, but relate to each other in a spirit of equality and community. Would such socialist norms be desirable across society as a whole? Why not? Whole societies may differ from camping trips, but it is still attractive when people treat each other with the equal regard that such trips exhibit.<br /><br /><br /> But, however desirable it may be, many claim that socialism is impossible. Cohen writes that the biggest obstacle to socialism isn't, as often argued, intractable human selfishness--it's rather the lack of obvious means to harness the human generosity that is there. Lacking those means, we rely on the market. But there are many ways of confining the sway of the market: there are desirable changes that can move us toward a socialist society in which, to quote Albert Einstein, humanity has \"overcome and advanced beyond the predatory stage of human development.\""
-          },
-          "book": {
-            "_attributes": {
-              "id": "6764834"
-            },
-            "num_pages": {
-              "_text": "83"
-            }
-          },
-          "author_name": {
-            "_text": "G.A. Cohen"
-          },
-          "isbn": {
-            "_text": "0691143617"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Thu, 15 May 2014 09:52:19 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Thu, 15 May 2014 09:52:19 -0700"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "3.42"
-          },
-          "book_published": {
-            "_text": "2009"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/6764834-why-not-socialism?utm_medium=api&amp;utm_source=rss\"><img alt=\"Why Not Socialism?\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348028438l/6764834._SX50_.jpg\" /></a><br/>\n                                      author: G.A. Cohen<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.42<br/>\n                                      book published: 2009<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2014/05/15<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/924226825?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Tue, 29 Apr 2014 18:39:48 -0700"
-          },
-          "title": {
-            "_cdata": "The Long Hard Road Out of Hell"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/924226825?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "19121625"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386044127l/19121625._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386044127l/19121625._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386044127l/19121625._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386044127l/19121625.jpg"
-          },
-          "book_description": {
-            "_cdata": "<p>When this best-selling autobiography was originally released, readers were shocked: <em>The Long Hard Road Out of Hell</em> was the darkest, funniest, most controversial, and best-selling rock book of its time—and it became the template, both visually and narratively, for almost every rock book since. Marilyn Manson is not just a music icon, it turned out, but one of the best storytellers of his generation. Written with bestselling author Neil Strauss, beautifully designed with dozens of exclusive photographs, and modeled on Dante's <em>Inferno</em>, this edition of The Long Hard Road Out of Hell features a bonus chapter not in the hardcover. In the shocking and candid memoir, Manson takes readers from backstage to emergency rooms to jail cells, from the pit of despair to the top of the charts, and recounts his metamorphosis from a frightened Christian schoolboy into the most feared and revered music superstar in the country. Along the way, you'll hear what happens to fans—and celebrities—who dare to venture backstage with the one of the world's most dangerous rock stars. In the words of <em>Elle</em> magazine, the book \"makes Madonna's infamous Sex seem downright wholesome in comparison.\" </p>"
-          },
-          "book": {
-            "_attributes": {
-              "id": "19121625"
-            },
-            "num_pages": {
-              "_text": "288"
-            }
-          },
-          "author_name": {
-            "_text": "Marilyn Manson"
-          },
-          "isbn": {},
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "5"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Tue, 29 Apr 2014 18:39:48 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Tue, 29 Apr 2014 18:39:48 -0700"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "3.82"
-          },
-          "book_published": {
-            "_text": "1998"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/19121625-the-long-hard-road-out-of-hell?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Long Hard Road Out of Hell\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386044127l/19121625._SY75_.jpg\" /></a><br/>\n                                      author: Marilyn Manson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.82<br/>\n                                      book published: 1998<br/>\n                                      rating: 5<br/>\n                                      read at: <br/>\n                                      date added: 2014/04/29<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

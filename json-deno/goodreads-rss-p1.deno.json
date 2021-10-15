@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Wed, 13 Oct 2021 00:46:43 -0700"
+        "_text": "Fri, 15 Oct 2021 00:20:40 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,222 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4289135335?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Fri, 15 Oct 2021 00:20:40 -0700"
+          },
+          "title": {
+            "_cdata": "A Deepness in the Sky (Zones of Thought, #2)"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4289135335?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "226004"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1217218691l/226004._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1217218691l/226004._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1217218691l/226004._SY160_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1217218691l/226004.jpg"
+          },
+          "book_description": {
+            "_cdata": "<b>Alternative Cover Edition can be found <a href=\"https://www.goodreads.com/book/show/13568401-a-deepness-in-the-sky\" rel=\"nofollow noopener\">here</a>. <br /></b><br />After thousands of years searching, humans stand on the verge of first contact with an alien race. Two human groups: the Qeng Ho, a culture of free traders, and the Emergents, a ruthless society based on the technological enslavement of minds.<br /><br />The group that opens trade with the aliens will reap unimaginable riches. But first, both groups must wait at the aliens' very doorstep for their strange star to relight and for their planet to reawaken, as it does every two hundred and fifty years....<br /><br />Then, following terrible treachery, the Qeng Ho must fight for their freedom and for the lives of the unsuspecting innocents on the planet below, while the aliens themselves play a role unsuspected by the Qeng Ho and Emergents alike.<br /><br />More than just a great science fiction adventure, <i>A Deepness in the Sky </i>is a universal drama of courage, self-discovery, and the redemptive power of love.<br /><i></i> <br /><br /><i>A Deepness in the Sky</i> is a 1999 Nebula Award Nominee for Best Novel and the winner of the 2000 Hugo Award for Best Novel."
+          },
+          "book": {
+            "_attributes": {
+              "id": "226004"
+            },
+            "num_pages": {
+              "_text": "775"
+            }
+          },
+          "author_name": {
+            "_text": "Vernor Vinge"
+          },
+          "isbn": {
+            "_text": "0812536355"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Fri, 15 Oct 2021 00:20:40 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Fri, 15 Oct 2021 00:20:40 -0700"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.29"
+          },
+          "book_published": {
+            "_text": "1999"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/226004.A_Deepness_in_the_Sky?utm_medium=api&amp;utm_source=rss\"><img alt=\"A Deepness in the Sky (Zones of Thought, #2)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1217218691l/226004._SY75_.jpg\" /></a><br/>\n                                      author: Vernor Vinge<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.29<br/>\n                                      book published: 1999<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/10/15<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4289132437?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Fri, 15 Oct 2021 00:16:21 -0700"
+          },
+          "title": {
+            "_cdata": "The Dying Earth (The Dying Earth #1)"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4289132437?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "951749"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1558264964l/951749._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1558264964l/951749._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1558264964l/951749._SY160_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1558264964l/951749._SY475_.jpg"
+          },
+          "book_description": {
+            "_cdata": "Seekers of wisdom and beauty include lovely lost women, eccentric wizards and man-eating melancholy deodands. Twk-men ride dragonflies and trade information for salt. There are monsters and demons. Each being is morally ambiguous: the evil are charming, the good are dangerous."
+          },
+          "book": {
+            "_attributes": {
+              "id": "951749"
+            },
+            "num_pages": {
+              "_text": "156"
+            }
+          },
+          "author_name": {
+            "_text": "Jack Vance"
+          },
+          "isbn": {
+            "_text": "0671831526"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Fri, 15 Oct 2021 00:16:21 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Fri, 15 Oct 2021 00:16:21 -0700"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.94"
+          },
+          "book_published": {
+            "_text": "1950"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/951749.The_Dying_Earth?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Dying Earth (The Dying Earth #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1558264964l/951749._SY75_.jpg\" /></a><br/>\n                                      author: Jack Vance<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.94<br/>\n                                      book published: 1950<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/10/15<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4289126725?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Fri, 15 Oct 2021 00:08:21 -0700"
+          },
+          "title": {
+            "_text": "The Stars My Destination"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4289126725?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "333867"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1433671750l/333867._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1433671750l/333867._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1433671750l/333867._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1433671750l/333867._SY475_.jpg"
+          },
+          "book_description": {
+            "_cdata": "In this pulse-quickening novel, Alfred Bester imagines a future in which people \"jaunte\" a thousand miles with a single thought, where the rich barricade themselves in labyrinths and protect themselves with radioactive hitmen—and where an inarticulate outcast is the most valuable and dangerous man alive. <br /><br /><i>The Stars My Destination</i> is a classic of technological prophecy and timeless narrative enchantment by an acknowledged master of science fiction."
+          },
+          "book": {
+            "_attributes": {
+              "id": "333867"
+            },
+            "num_pages": {
+              "_text": "258"
+            }
+          },
+          "author_name": {
+            "_text": "Alfred Bester"
+          },
+          "isbn": {
+            "_text": "0679767800"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Fri, 15 Oct 2021 00:08:21 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Fri, 15 Oct 2021 00:08:21 -0700"
+          },
+          "user_shelves": {
+            "_text": "on-deck"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.10"
+          },
+          "book_published": {
+            "_text": "1955"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/333867.The_Stars_My_Destination?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Stars My Destination\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1433671750l/333867._SY75_.jpg\" /></a><br/>\n                                      author: Alfred Bester<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.10<br/>\n                                      book published: 1955<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/10/15<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/4285970420?utm_medium=api&utm_source=rss"
@@ -6994,222 +7210,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/6979826-nemesis?utm_medium=api&amp;utm_source=rss\"><img alt=\"Nemesis (Harry Hole, #4)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348360176l/6979826._SY75_.jpg\" /></a><br/>\n                                      author: Jo Nesbø<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.97<br/>\n                                      book published: 2002<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/06/28<br/>\n                                      date added: 2021/06/28<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/4072493516?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sat, 26 Jun 2021 19:26:25 -0700"
-          },
-          "title": {
-            "_cdata": "The Redbreast (Harry Hole, #3)"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/4072493516?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "465226"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320540474l/465226._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320540474l/465226._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320540474l/465226._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320540474l/465226.jpg"
-          },
-          "book_description": {
-            "_cdata": "<em>The Redbreast </em>is a fabulous introduction to Nesbø’s tough-as-nails series protagonist, Oslo police detective Harry Hole. A brilliant and epic novel, breathtaking in its scope and design—winner of The Glass Key for best Nordic crime novel and selected as the best Norwegian crime novel ever written by members of Norway’s book clubs—<em>The Redbreast</em> is a chilling tale of murder and betrayal that ranges from the battlefields of World War Two to the streets of modern-day Oslo. Follow Hole as he races to stop a killer and disarm a ticking time-bomb from his nation’s shadowy past. <em>Vogue</em> magazine says that “nobody can delve into the dark, twisted mind of a murderer better than a Scandinavian thriller writer”…and nobody does it better than Jo Nesbø! James Patterson fans should also take note.<br />"
-          },
-          "book": {
-            "_attributes": {
-              "id": "465226"
-            },
-            "num_pages": {
-              "_text": "519"
-            }
-          },
-          "author_name": {
-            "_text": "Jo Nesbø"
-          },
-          "isbn": {
-            "_text": "184343217X"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "5"
-          },
-          "user_read_at": {
-            "_cdata": "Sat, 26 Jun 2021 19:26:16 -0700"
-          },
-          "user_date_added": {
-            "_cdata": "Sat, 26 Jun 2021 19:26:25 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Tue, 22 Jun 2021 12:35:32 -0700"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "3.94"
-          },
-          "book_published": {
-            "_text": "2000"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/465226.The_Redbreast?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Redbreast (Harry Hole, #3)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320540474l/465226._SY75_.jpg\" /></a><br/>\n                                      author: Jo Nesbø<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.94<br/>\n                                      book published: 2000<br/>\n                                      rating: 5<br/>\n                                      read at: 2021/06/26<br/>\n                                      date added: 2021/06/26<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/4072493107?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Wed, 23 Jun 2021 12:05:17 -0700"
-          },
-          "title": {
-            "_text": "Cockroaches (Harry Hole, #2)"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/4072493107?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "18373214"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1418343189l/18373214._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1418343189l/18373214._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1418343189l/18373214._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1418343189l/18373214.jpg"
-          },
-          "book_description": {
-            "_cdata": "<b>When the Norwegian ambassador to Thailand is found dead in a Bangkok brothel, Inspector Harry Hole is dispatched from Oslo to help hush up the case.</b><br /><br />But once he arrives Harry discovers that this case is about much more than one random murder. There is something else, something more pervasive, scrabbling around behind the scenes. Or, put another way, for every cockroach you see in your hotel room, there are hundreds behind the walls. Surrounded by round-the-clock traffic noise, Harry wanders the streets of Bangkok lined with go-go bars, temples, opium dens, and tourist traps, trying to piece together the story of the ambassador’s death even though no one asked him to, and no one wants him to—not even Harry himself."
-          },
-          "book": {
-            "_attributes": {
-              "id": "18373214"
-            },
-            "num_pages": {
-              "_text": "368"
-            }
-          },
-          "author_name": {
-            "_text": "Jo Nesbø"
-          },
-          "isbn": {
-            "_text": "0345807154"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "4"
-          },
-          "user_read_at": {
-            "_cdata": "Wed, 23 Jun 2021 12:05:17 -0700"
-          },
-          "user_date_added": {
-            "_cdata": "Wed, 23 Jun 2021 12:05:17 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Tue, 22 Jun 2021 12:35:18 -0700"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "3.74"
-          },
-          "book_published": {
-            "_text": "1998"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/18373214-cockroaches?utm_medium=api&amp;utm_source=rss\"><img alt=\"Cockroaches (Harry Hole, #2)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1418343189l/18373214._SY75_.jpg\" /></a><br/>\n                                      author: Jo Nesbø<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.74<br/>\n                                      book published: 1998<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/06/23<br/>\n                                      date added: 2021/06/23<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/4056894761?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Tue, 22 Jun 2021 12:34:59 -0700"
-          },
-          "title": {
-            "_text": "The Bat (Harry Hole, #1)"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/4056894761?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "17345209"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1364767794l/17345209._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1364767794l/17345209._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1364767794l/17345209._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1364767794l/17345209.jpg"
-          },
-          "book_description": {
-            "_cdata": "Inspector Harry Hole of the Oslo Crime Squad is dispatched to Sydney to observe a murder case. Harry is free to offer assistance, but he has firm instructions to stay out of trouble. The victim is a twenty-three year old Norwegian woman who is a minor celebrity back home. Never one to sit on the sidelines, Harry befriends one of the lead detectives, and one of the witnesses, as he is drawn deeper into the case. Together, they discover that this is only the latest in a string of unsolved murders, and the pattern points toward a psychopath working his way across the country. As they circle closer and closer to the killer, Harry begins to fear that no one is safe, least of all those investigating the case."
-          },
-          "book": {
-            "_attributes": {
-              "id": "17345209"
-            },
-            "num_pages": {
-              "_text": "369"
-            }
-          },
-          "author_name": {
-            "_text": "Jo Nesbø"
-          },
-          "isbn": {
-            "_text": "034580709X"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "4"
-          },
-          "user_read_at": {
-            "_cdata": "Tue, 22 Jun 2021 12:34:59 -0700"
-          },
-          "user_date_added": {
-            "_cdata": "Tue, 22 Jun 2021 12:34:59 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Sun, 13 Jun 2021 16:12:21 -0700"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "3.39"
-          },
-          "book_published": {
-            "_text": "1997"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/17345209-the-bat?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Bat (Harry Hole, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1364767794l/17345209._SY75_.jpg\" /></a><br/>\n                                      author: Jo Nesbø<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.39<br/>\n                                      book published: 1997<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/06/22<br/>\n                                      date added: 2021/06/22<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]
