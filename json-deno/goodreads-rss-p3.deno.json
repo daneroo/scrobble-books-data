@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Fri, 12 Feb 2021 10:11:14 -0800"
+        "_text": "Sun, 14 Feb 2021 13:27:59 -0800"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3795024561?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sun, 14 Feb 2021 13:27:59 -0800"
+          },
+          "title": {
+            "_cdata": "Extraterrestrial: The First Sign of Intelligent Life Beyond Earth"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3795024561?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "48930288"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1610690980l/48930288._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1610690980l/48930288._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1610690980l/48930288._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1610690980l/48930288.jpg"
+          },
+          "book_description": {
+            "_cdata": "<b>INSTANT <i>NEW YORK TIMES</i> BESTSELLER <br /><br /> “Provocative and thrilling ... Loeb asks us to think big and to expect the unexpected.”<br /> —Alan Lightman, <i>New York Times </i>bestselling author of <i>Einstein’s Dreams</i> and <i>Searching for Stars on an Island in Maine</i></b><br /><br /><b>Harvard’s top astronomer lays out his controversial theory that our solar system was recently visited by advanced alien technology from a distant star.</b><br /><br /> In late 2017, scientists at a Hawaiian observatory glimpsed an object soaring through our inner solar system, moving so quickly that it could only have come from another star. Avi Loeb, Harvard’s top astronomer, showed it was not an asteroid; it was moving too fast along a strange orbit, and left no trail of gas or debris in its wake. There was only one conceivable explanation: the object was a piece of advanced technology created by a distant alien civilization.<br />  <br /> In <i>Extraterrestrial</i>, Loeb takes readers inside the thrilling story of the first interstellar visitor to be spotted in our solar system. He outlines his controversial theory and its profound implications: for science, for religion, and for the future of our species and our planet. A mind-bending journey through the furthest reaches of science, space-time, and the human imagination, <i>Extraterrestrial</i> challenges readers to aim for the stars—and to think critically about what’s out there, no matter how strange it seems."
+          },
+          "book": {
+            "_attributes": {
+              "id": "48930288"
+            },
+            "num_pages": {
+              "_text": "240"
+            }
+          },
+          "author_name": {
+            "_text": "Avi Loeb"
+          },
+          "isbn": {
+            "_text": "0358278147"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "4"
+          },
+          "user_read_at": {
+            "_cdata": "Sun, 14 Feb 2021 13:27:59 -0800"
+          },
+          "user_date_added": {
+            "_cdata": "Sun, 14 Feb 2021 13:27:59 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Sun, 24 Jan 2021 23:41:05 -0800"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.80"
+          },
+          "book_published": {
+            "_text": "2021"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/48930288-extraterrestrial?utm_medium=api&amp;utm_source=rss\"><img alt=\"Extraterrestrial: The First Sign of Intelligent Life Beyond Earth\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1610690980l/48930288._SY75_.jpg\" /></a><br/>\n                                      author: Avi Loeb<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.80<br/>\n                                      book published: 2021<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/02/14<br/>\n                                      date added: 2021/02/14<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/3778647018?utm_medium=api&utm_source=rss"
@@ -7100,78 +7172,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/33192011-science-in-the-soul?utm_medium=api&amp;utm_source=rss\"><img alt=\"Science in the Soul: Selected Writings of a Passionate Rationalist\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1498810178l/33192011._SY75_.jpg\" /></a><br/>\n                                      author: Richard Dawkins<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.99<br/>\n                                      book published: 2017<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2020/01/07<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3124773661?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sun, 05 Jan 2020 09:24:09 -0800"
-          },
-          "title": {
-            "_text": "Dark Matter"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3124773661?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "27833670"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1472119680l/27833670._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1472119680l/27833670._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1472119680l/27833670._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1472119680l/27833670._SY475_.jpg"
-          },
-          "book_description": {
-            "_cdata": "Jason Dessen is walking home through the chilly Chicago streets one night, looking forward to a quiet evening in front of the fireplace with his wife, Daniela, and their son, Charlie—when his reality shatters.<br /><br />- - -<br /><br />'Are you happy in your life?'<br /><br />Those are the last words Jason Dessen hears before the masked abductor knocks him unconscious. Before he awakes to find himself strapped to a gurney, surrounded by strangers in hazmat suits. Before the man he's never met smiles down at him and says, 'Welcome back.'<br /><br />In this world he's woken up to, Jason's life is not the one he knows. His wife is not his wife. His son was never born. And Jason is not an ordinary college physics professor, but a celebrated genius who has achieved something remarkable. Something impossible.<br /><br />Is it this world or the other that's the dream?<br /><br />And even if the home he remembers is real, how can Jason possibly make it back to the family he loves? The answers lie in a journey more wondrous and horrifying than anything he could've imagined—one that will force him to confront the darkest parts of himself even as he battles a terrifying, seemingly unbeatable foe."
-          },
-          "book": {
-            "_attributes": {
-              "id": "27833670"
-            },
-            "num_pages": {
-              "_text": "342"
-            }
-          },
-          "author_name": {
-            "_text": "Blake Crouch"
-          },
-          "isbn": {
-            "_text": "1101904224"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Sun, 05 Jan 2020 09:24:09 -0800"
-          },
-          "user_date_created": {
-            "_cdata": "Sun, 05 Jan 2020 09:24:09 -0800"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.08"
-          },
-          "book_published": {
-            "_text": "2016"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/27833670-dark-matter?utm_medium=api&amp;utm_source=rss\"><img alt=\"Dark Matter\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1472119680l/27833670._SY75_.jpg\" /></a><br/>\n                                      author: Blake Crouch<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.08<br/>\n                                      book published: 2016<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2020/01/05<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

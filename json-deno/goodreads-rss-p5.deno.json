@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Fri, 23 May 2014 14:29:28 -0700"
+        "_text": "Sat, 31 May 2014 20:29:14 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/953972955?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sat, 31 May 2014 20:29:14 -0700"
+          },
+          "title": {
+            "_cdata": "The Knowledge: How to Rebuild Our World from Scratch"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/953972955?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "18114087"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1393226489l/18114087._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1393226489l/18114087._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1393226489l/18114087._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1393226489l/18114087.jpg"
+          },
+          "book_description": {
+            "_cdata": "<b>How would you go about rebuilding a technological society from scratch?</b><br /><br /> If our technological society collapsed tomorrow, perhaps from a viral pandemic or catastrophic asteroid impact, what would be the one book you would want to press into the hands of the postapocalyptic survivors? What crucial knowledge would they need to survive in the immediate aftermath and to rebuild civilization as quickly as possible—a guide for rebooting the world? <br /> Human knowledge is collective, distributed across the population. It has built on itself for centuries, becoming vast and increasingly specialized. Most of us are ignorant about the fundamental principles of the civilization that supports us, happily utilizing the latest—or even the most basic—technology without having the slightest idea of why it works or how it came to be. If you had to go back to absolute basics, like some sort of postcataclysmic Robinson Crusoe, would you know how to re-create an internal combustion engine, put together a microscope, get metals out of rock, accurately tell time, weave fibers into clothing, or even how to produce food for yourself? <br /> Regarded as one of the brightest young scientists of his generation, Lewis Dartnell proposes that the key to preserving civilization in an apocalyptic scenario is to provide a quickstart guide, adapted to cataclysmic circumstances. <i>The Knowledge</i> describes many of the modern technologies we employ, but first it explains the fundamentals upon which they are built. Every piece of technology rests on an enormous support network of other technologies, all interlinked and mutually dependent. You can’t hope to build a radio, for example, without understanding how to acquire the raw materials it requires, as well as generate the electricity needed to run it. But Dartnell doesn’t just provide specific information for starting over; he also reveals the greatest invention of them all—the phenomenal knowledge-generating machine that is the scientific method itself. This would allow survivors to learn technological advances not explicitly explored in <i>The Knowledge</i> as well as things we have yet to discover. <br /><i>The Knowledge</i> is a brilliantly original guide to the fundamentals of science and how it built our modern world as well as a thought experiment about the very idea of scientific knowledge itself."
+          },
+          "book": {
+            "_attributes": {
+              "id": "18114087"
+            },
+            "num_pages": {
+              "_text": "340"
+            }
+          },
+          "author_name": {
+            "_text": "Lewis Dartnell"
+          },
+          "isbn": {
+            "_text": "159420523X"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Sat, 31 May 2014 20:29:14 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Sat, 31 May 2014 20:29:14 -0700"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.73"
+          },
+          "book_published": {
+            "_text": "2014"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/18114087-the-knowledge?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Knowledge: How to Rebuild Our World from Scratch\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1393226489l/18114087._SY75_.jpg\" /></a><br/>\n                                      author: Lewis Dartnell<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.73<br/>\n                                      book published: 2014<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2014/05/31<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/946111442?utm_medium=api&utm_source=rss"

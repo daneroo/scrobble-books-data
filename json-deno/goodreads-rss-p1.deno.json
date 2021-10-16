@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Fri, 15 Oct 2021 00:56:18 -0700"
+        "_text": "Sat, 16 Oct 2021 00:06:27 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,76 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4290629439?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sat, 16 Oct 2021 00:06:27 -0700"
+          },
+          "title": {
+            "_text": "The Picture of Dorian Gray"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4290629439?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "5297"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546103428l/5297._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546103428l/5297._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546103428l/5297._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546103428l/5297.jpg"
+          },
+          "book_description": {
+            "_cdata": "Written in his distinctively dazzling manner, Oscar Wilde’s story of a fashionable young man who sells his soul for eternal youth and beauty is the author’s most popular work. The tale of Dorian Gray’s moral disintegration caused a scandal when it ﬁrst appeared in 1890, but though Wilde was attacked for the novel’s corrupting inﬂuence, he responded that there is, in fact, “a terrible moral in <i>Dorian Gray</i>.” Just a few years later, the book and the aesthetic/moral dilemma it presented became issues in the trials occasioned by Wilde’s homosexual liaisons, which resulted in his imprisonment. Of Dorian Gray’s relationship to autobiography, Wilde noted in a letter, “Basil Hallward is what I think I am: Lord Henry what the world thinks me: Dorian what I would like to be—in other ages, perhaps."
+          },
+          "book": {
+            "_attributes": {
+              "id": "5297"
+            },
+            "num_pages": {
+              "_text": "272"
+            }
+          },
+          "author_name": {
+            "_text": "Oscar Wilde"
+          },
+          "isbn": {},
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Sat, 16 Oct 2021 00:06:27 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Sat, 16 Oct 2021 00:06:13 -0700"
+          },
+          "user_shelves": {
+            "_text": "currently-reading"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.09"
+          },
+          "book_published": {
+            "_text": "1890"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/5297.The_Picture_of_Dorian_Gray?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Picture of Dorian Gray\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546103428l/5297._SY75_.jpg\" /></a><br/>\n                                      author: Oscar Wilde<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.09<br/>\n                                      book published: 1890<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/10/16<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/3900737719?utm_medium=api&utm_source=rss"
@@ -7138,78 +7208,6 @@
           "book_published": {},
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/49073807-enough?utm_medium=api&amp;utm_source=rss\"><img alt=\"Enough: How changing our diet, will save our planet\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1608637041l/49073807._SY75_.jpg\" /></a><br/>\n                                      author: Cassandra Coburn<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.23<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/06/29<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/4056894619?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Mon, 28 Jun 2021 01:24:23 -0700"
-          },
-          "title": {
-            "_text": "Nemesis (Harry Hole, #4)"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/4056894619?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "6979826"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348360176l/6979826._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348360176l/6979826._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348360176l/6979826._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348360176l/6979826.jpg"
-          },
-          "book_description": {
-            "_cdata": "Detective Harry Hole must use his maverick methods once again as he investigates a slew of brutal bank robberies and the suspicious suicide of a female artist in this clever and harrowing installment in the Harry Hole series from the author of <em>The Snowman</em>—soon to be a major motion picture, starring Michael Fassbender, Rebecca Ferguson, and J. K. Simmons.<br /><br /><strong>“Nesbo’s storytelling abilities are incomparable. <em>Nemesis</em> is crime novel as art form and great entertainment.”—<em>USA Today</em></strong><br /><br />Captured on closed-circuit television: A man walks into an Oslo bank, puts a gun to a cashier's head, and tells her to count to twenty-five. When he doesn't get his money fast enough, he pulls the trigger. The young woman dies—and two million Norwegian kroner disappear without a trace.<br /><br />After a drunken evening with former girlfriend Anna Bethsen, Police Detective Harry Hole wakes up at home with a headache, no cell phone, and no memory of the past twelve hours. The same day, Anna is found shot dead in her bedroom, making Hole a prime suspect in the investigation led by his hated adversary, Tom Waaler. Meanwhile, the bank robberies continue with unparalleled savagery, sending rogue detective Hole from the streets of Oslo to steaming Brazil in a race to close two cases and clear his name. But Waaler isn't finished with his longtime nemesis quite yet.<br /><br /> "
-          },
-          "book": {
-            "_attributes": {
-              "id": "6979826"
-            },
-            "num_pages": {
-              "_text": "474"
-            }
-          },
-          "author_name": {
-            "_text": "Jo Nesbø"
-          },
-          "isbn": {
-            "_text": "0061655511"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "4"
-          },
-          "user_read_at": {
-            "_cdata": "Mon, 28 Jun 2021 01:24:23 -0700"
-          },
-          "user_date_added": {
-            "_cdata": "Mon, 28 Jun 2021 01:24:23 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Sun, 13 Jun 2021 16:12:15 -0700"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "3.97"
-          },
-          "book_published": {
-            "_text": "2002"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/6979826-nemesis?utm_medium=api&amp;utm_source=rss\"><img alt=\"Nemesis (Harry Hole, #4)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348360176l/6979826._SY75_.jpg\" /></a><br/>\n                                      author: Jo Nesbø<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.97<br/>\n                                      book published: 2002<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/06/28<br/>\n                                      date added: 2021/06/28<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Sun, 05 Jan 2020 02:57:01 -0800"
+        "_text": "Sun, 05 Jan 2020 09:24:09 -0800"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3124773661?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sun, 05 Jan 2020 09:24:09 -0800"
+          },
+          "title": {
+            "_text": "Dark Matter"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3124773661?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "27833670"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1472119680l/27833670._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1472119680l/27833670._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1472119680l/27833670._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1472119680l/27833670._SY475_.jpg"
+          },
+          "book_description": {
+            "_cdata": "Jason Dessen is walking home through the chilly Chicago streets one night, looking forward to a quiet evening in front of the fireplace with his wife, Daniela, and their son, Charlie—when his reality shatters.<br /><br />- - -<br /><br />'Are you happy in your life?'<br /><br />Those are the last words Jason Dessen hears before the masked abductor knocks him unconscious. Before he awakes to find himself strapped to a gurney, surrounded by strangers in hazmat suits. Before the man he's never met smiles down at him and says, 'Welcome back.'<br /><br />In this world he's woken up to, Jason's life is not the one he knows. His wife is not his wife. His son was never born. And Jason is not an ordinary college physics professor, but a celebrated genius who has achieved something remarkable. Something impossible.<br /><br />Is it this world or the other that's the dream?<br /><br />And even if the home he remembers is real, how can Jason possibly make it back to the family he loves? The answers lie in a journey more wondrous and horrifying than anything he could've imagined—one that will force him to confront the darkest parts of himself even as he battles a terrifying, seemingly unbeatable foe."
+          },
+          "book": {
+            "_attributes": {
+              "id": "27833670"
+            },
+            "num_pages": {
+              "_text": "342"
+            }
+          },
+          "author_name": {
+            "_text": "Blake Crouch"
+          },
+          "isbn": {
+            "_text": "1101904224"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Sun, 05 Jan 2020 09:24:09 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Sun, 05 Jan 2020 09:24:09 -0800"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.08"
+          },
+          "book_published": {
+            "_text": "2016"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/27833670-dark-matter?utm_medium=api&amp;utm_source=rss\"><img alt=\"Dark Matter\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1472119680l/27833670._SY75_.jpg\" /></a><br/>\n                                      author: Blake Crouch<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.08<br/>\n                                      book published: 2016<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2020/01/05<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/3103683687?utm_medium=api&utm_source=rss"
@@ -7128,78 +7200,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/8701960-the-information?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Information: A History, a Theory, a Flood\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348046486l/8701960._SX50_.jpg\" /></a><br/>\n                                      author: James Gleick<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.00<br/>\n                                      book published: 2011<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2014/08/05<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/953972955?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sat, 31 May 2014 20:29:14 -0700"
-          },
-          "title": {
-            "_cdata": "The Knowledge: How to Rebuild Our World from Scratch"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/953972955?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "18114087"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1393226489l/18114087._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1393226489l/18114087._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1393226489l/18114087._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1393226489l/18114087.jpg"
-          },
-          "book_description": {
-            "_cdata": "<b>How would you go about rebuilding a technological society from scratch?</b><br /><br /> If our technological society collapsed tomorrow, perhaps from a viral pandemic or catastrophic asteroid impact, what would be the one book you would want to press into the hands of the postapocalyptic survivors? What crucial knowledge would they need to survive in the immediate aftermath and to rebuild civilization as quickly as possible—a guide for rebooting the world? <br /> Human knowledge is collective, distributed across the population. It has built on itself for centuries, becoming vast and increasingly specialized. Most of us are ignorant about the fundamental principles of the civilization that supports us, happily utilizing the latest—or even the most basic—technology without having the slightest idea of why it works or how it came to be. If you had to go back to absolute basics, like some sort of postcataclysmic Robinson Crusoe, would you know how to re-create an internal combustion engine, put together a microscope, get metals out of rock, accurately tell time, weave fibers into clothing, or even how to produce food for yourself? <br /> Regarded as one of the brightest young scientists of his generation, Lewis Dartnell proposes that the key to preserving civilization in an apocalyptic scenario is to provide a quickstart guide, adapted to cataclysmic circumstances. <i>The Knowledge</i> describes many of the modern technologies we employ, but first it explains the fundamentals upon which they are built. Every piece of technology rests on an enormous support network of other technologies, all interlinked and mutually dependent. You can’t hope to build a radio, for example, without understanding how to acquire the raw materials it requires, as well as generate the electricity needed to run it. But Dartnell doesn’t just provide specific information for starting over; he also reveals the greatest invention of them all—the phenomenal knowledge-generating machine that is the scientific method itself. This would allow survivors to learn technological advances not explicitly explored in <i>The Knowledge</i> as well as things we have yet to discover. <br /><i>The Knowledge</i> is a brilliantly original guide to the fundamentals of science and how it built our modern world as well as a thought experiment about the very idea of scientific knowledge itself."
-          },
-          "book": {
-            "_attributes": {
-              "id": "18114087"
-            },
-            "num_pages": {
-              "_text": "340"
-            }
-          },
-          "author_name": {
-            "_text": "Lewis Dartnell"
-          },
-          "isbn": {
-            "_text": "159420523X"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Sat, 31 May 2014 20:29:14 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Sat, 31 May 2014 20:29:14 -0700"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "3.73"
-          },
-          "book_published": {
-            "_text": "2014"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/18114087-the-knowledge?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Knowledge: How to Rebuild Our World from Scratch\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1393226489l/18114087._SY75_.jpg\" /></a><br/>\n                                      author: Lewis Dartnell<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.73<br/>\n                                      book published: 2014<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2014/05/31<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

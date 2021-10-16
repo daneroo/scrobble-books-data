@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Sat, 26 Jun 2021 19:26:25 -0700"
+        "_text": "Mon, 28 Jun 2021 01:24:23 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4056894619?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Mon, 28 Jun 2021 01:24:23 -0700"
+          },
+          "title": {
+            "_text": "Nemesis (Harry Hole, #4)"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4056894619?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "6979826"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348360176l/6979826._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348360176l/6979826._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348360176l/6979826._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348360176l/6979826.jpg"
+          },
+          "book_description": {
+            "_cdata": "Detective Harry Hole must use his maverick methods once again as he investigates a slew of brutal bank robberies and the suspicious suicide of a female artist in this clever and harrowing installment in the Harry Hole series from the author of <em>The Snowman</em>—soon to be a major motion picture, starring Michael Fassbender, Rebecca Ferguson, and J. K. Simmons.<br /><br /><strong>“Nesbo’s storytelling abilities are incomparable. <em>Nemesis</em> is crime novel as art form and great entertainment.”—<em>USA Today</em></strong><br /><br />Captured on closed-circuit television: A man walks into an Oslo bank, puts a gun to a cashier's head, and tells her to count to twenty-five. When he doesn't get his money fast enough, he pulls the trigger. The young woman dies—and two million Norwegian kroner disappear without a trace.<br /><br />After a drunken evening with former girlfriend Anna Bethsen, Police Detective Harry Hole wakes up at home with a headache, no cell phone, and no memory of the past twelve hours. The same day, Anna is found shot dead in her bedroom, making Hole a prime suspect in the investigation led by his hated adversary, Tom Waaler. Meanwhile, the bank robberies continue with unparalleled savagery, sending rogue detective Hole from the streets of Oslo to steaming Brazil in a race to close two cases and clear his name. But Waaler isn't finished with his longtime nemesis quite yet.<br /><br /> "
+          },
+          "book": {
+            "_attributes": {
+              "id": "6979826"
+            },
+            "num_pages": {
+              "_text": "474"
+            }
+          },
+          "author_name": {
+            "_text": "Jo Nesbø"
+          },
+          "isbn": {
+            "_text": "0061655511"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "4"
+          },
+          "user_read_at": {
+            "_cdata": "Mon, 28 Jun 2021 01:24:23 -0700"
+          },
+          "user_date_added": {
+            "_cdata": "Mon, 28 Jun 2021 01:24:23 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Sun, 13 Jun 2021 16:12:15 -0700"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.97"
+          },
+          "book_published": {
+            "_text": "2002"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/6979826-nemesis?utm_medium=api&amp;utm_source=rss\"><img alt=\"Nemesis (Harry Hole, #4)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348360176l/6979826._SY75_.jpg\" /></a><br/>\n                                      author: Jo Nesbø<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.97<br/>\n                                      book published: 2002<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/06/28<br/>\n                                      date added: 2021/06/28<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/4072493516?utm_medium=api&utm_source=rss"
@@ -7154,78 +7226,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/19161852-the-fifth-season?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Fifth Season (The Broken Earth, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386803701l/19161852._SY75_.jpg\" /></a><br/>\n                                      author: N.K. Jemisin<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.25<br/>\n                                      book published: 2015<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/02/16<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3795024561?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sun, 14 Feb 2021 13:27:59 -0800"
-          },
-          "title": {
-            "_cdata": "Extraterrestrial: The First Sign of Intelligent Life Beyond Earth"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3795024561?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "48930288"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1610690980l/48930288._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1610690980l/48930288._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1610690980l/48930288._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1610690980l/48930288.jpg"
-          },
-          "book_description": {
-            "_cdata": "<b>INSTANT <i>NEW YORK TIMES</i> BESTSELLER <br /><br /> “Provocative and thrilling ... Loeb asks us to think big and to expect the unexpected.”<br /> —Alan Lightman, <i>New York Times </i>bestselling author of <i>Einstein’s Dreams</i> and <i>Searching for Stars on an Island in Maine</i></b><br /><br /><b>Harvard’s top astronomer lays out his controversial theory that our solar system was recently visited by advanced alien technology from a distant star.</b><br /><br /> In late 2017, scientists at a Hawaiian observatory glimpsed an object soaring through our inner solar system, moving so quickly that it could only have come from another star. Avi Loeb, Harvard’s top astronomer, showed it was not an asteroid; it was moving too fast along a strange orbit, and left no trail of gas or debris in its wake. There was only one conceivable explanation: the object was a piece of advanced technology created by a distant alien civilization.<br />  <br /> In <i>Extraterrestrial</i>, Loeb takes readers inside the thrilling story of the first interstellar visitor to be spotted in our solar system. He outlines his controversial theory and its profound implications: for science, for religion, and for the future of our species and our planet. A mind-bending journey through the furthest reaches of science, space-time, and the human imagination, <i>Extraterrestrial</i> challenges readers to aim for the stars—and to think critically about what’s out there, no matter how strange it seems."
-          },
-          "book": {
-            "_attributes": {
-              "id": "48930288"
-            },
-            "num_pages": {
-              "_text": "240"
-            }
-          },
-          "author_name": {
-            "_text": "Avi Loeb"
-          },
-          "isbn": {
-            "_text": "0358278147"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "4"
-          },
-          "user_read_at": {
-            "_cdata": "Sun, 14 Feb 2021 13:27:59 -0800"
-          },
-          "user_date_added": {
-            "_cdata": "Sun, 14 Feb 2021 13:27:59 -0800"
-          },
-          "user_date_created": {
-            "_cdata": "Sun, 24 Jan 2021 23:41:05 -0800"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "3.80"
-          },
-          "book_published": {
-            "_text": "2021"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/48930288-extraterrestrial?utm_medium=api&amp;utm_source=rss\"><img alt=\"Extraterrestrial: The First Sign of Intelligent Life Beyond Earth\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1610690980l/48930288._SY75_.jpg\" /></a><br/>\n                                      author: Avi Loeb<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.80<br/>\n                                      book published: 2021<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/02/14<br/>\n                                      date added: 2021/02/14<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]
