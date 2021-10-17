@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Sat, 16 Oct 2021 01:17:28 -0700"
+        "_text": "Sun, 17 Oct 2021 01:03:17 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -69,7 +69,7 @@
             "_cdata": "https://www.goodreads.com/review/show/3900737719?utm_medium=api&utm_source=rss"
           },
           "pubDate": {
-            "_cdata": "Sat, 16 Oct 2021 01:17:28 -0700"
+            "_cdata": "Sun, 17 Oct 2021 01:03:17 -0700"
           },
           "title": {
             "_cdata": "SPQR: A History of Ancient Rome"
@@ -113,18 +113,18 @@
             "_text": "Daniel"
           },
           "user_rating": {
-            "_text": "0"
+            "_text": "4"
           },
-          "user_read_at": {},
+          "user_read_at": {
+            "_cdata": "Sun, 17 Oct 2021 01:03:17 -0700"
+          },
           "user_date_added": {
-            "_cdata": "Sat, 16 Oct 2021 01:17:28 -0700"
+            "_cdata": "Sun, 17 Oct 2021 01:03:17 -0700"
           },
           "user_date_created": {
             "_cdata": "Sat, 20 Mar 2021 20:54:37 -0700"
           },
-          "user_shelves": {
-            "_text": "currently-reading"
-          },
+          "user_shelves": {},
           "user_review": {},
           "average_rating": {
             "_text": "3.95"
@@ -133,7 +133,7 @@
             "_text": "2015"
           },
           "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/28789711-spqr?utm_medium=api&amp;utm_source=rss\"><img alt=\"SPQR: A History of Ancient Rome\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1470421195l/28789711._SY75_.jpg\" /></a><br/>\n                                      author: Mary Beard<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.95<br/>\n                                      book published: 2015<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/10/16<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>\n                                      "
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/28789711-spqr?utm_medium=api&amp;utm_source=rss\"><img alt=\"SPQR: A History of Ancient Rome\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1470421195l/28789711._SY75_.jpg\" /></a><br/>\n                                      author: Mary Beard<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.95<br/>\n                                      book published: 2015<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/10/17<br/>\n                                      date added: 2021/10/17<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
           }
         },
         {
