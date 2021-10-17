@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Sun, 17 Oct 2021 02:22:48 -0700"
+        "_text": "Sun, 17 Oct 2021 02:54:29 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4292296033?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sun, 17 Oct 2021 02:54:29 -0700"
+          },
+          "title": {
+            "_cdata": "The Importance of Being Earnest"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4292296033?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "92303"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1298438452l/92303._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1298438452l/92303._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1298438452l/92303._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1298438452l/92303.jpg"
+          },
+          "book_description": {
+            "_cdata": "Oscar Wilde's madcap farce about mistaken identities, secret engagements, and lovers entanglements still delights readers more than a century after its 1895 publication and premiere performance. The rapid-fire wit and eccentric characters of The Importance of Being Earnest have made it a mainstay of the high school curriculum for decades.<br /><br />Cecily Cardew and Gwendolen Fairfax are both in love with the same mythical suitor. Jack Worthing has wooed Gwendolen as Ernest while Algernon has also posed as Ernest to win the heart of Jack's ward, Cecily. When all four arrive at Jack's country home on the same weekend the \"rivals\" to fight for Ernest's undivided attention and the \"Ernests\" to claim their beloveds pandemonium breaks loose. Only a senile nursemaid and an old, discarded hand-bag can save the day!<br /><br />This Prestwick House Literary Touchstone Edition includes a glossary and reader's notes to help the modern reader appreciate Wilde's wry wit and elaborate plot twists."
+          },
+          "book": {
+            "_attributes": {
+              "id": "92303"
+            },
+            "num_pages": {
+              "_text": "76"
+            }
+          },
+          "author_name": {
+            "_text": "Oscar Wilde"
+          },
+          "isbn": {
+            "_text": "158049580X"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Sun, 17 Oct 2021 02:54:29 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Sun, 17 Oct 2021 02:54:29 -0700"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.17"
+          },
+          "book_published": {
+            "_text": "1895"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/92303.The_Importance_of_Being_Earnest?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Importance of Being Earnest\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1298438452l/92303._SY75_.jpg\" /></a><br/>\n                                      author: Oscar Wilde<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.17<br/>\n                                      book published: 1895<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/10/17<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/4292269272?utm_medium=api&utm_source=rss"
@@ -7138,78 +7210,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/55801224-helgoland?utm_medium=api&amp;utm_source=rss\"><img alt=\"Helgoland: The World of Quantum Theory\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1610434232l/55801224._SY75_.jpg\" /></a><br/>\n                                      author: Carlo Rovelli<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.06<br/>\n                                      book published: 2020<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/07/06<br/>\n                                      date added: 2021/07/06<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/4080412623?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Thu, 01 Jul 2021 00:24:13 -0700"
-          },
-          "title": {
-            "_cdata": "The Devil's Star (Harry Hole, #5)"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/4080412623?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "498389"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328611163l/498389._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328611163l/498389._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328611163l/498389._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328611163l/498389.jpg"
-          },
-          "book_description": {
-            "_cdata": "A young woman is murdered in her Oslo flat. One finger has been severed from her left hand, and behind her eyelid is secreted a tiny red diamond in the shape of a five-pointed star - a pentagram, the devil's star.<br /><br />Detective Harry Hole is assigned to the case with his long-time adversary Tom Waaler and initially wants no part in it. But Harry is already on notice to quit the force and is left with little alternative but to drag himself out of his alcoholic stupor and get to work.<br /><br />A wave of similar murders is on the horizon. An emerging pattern suggests that Oslo has a serial killer on its hands, and the five-pointed devil's star is key to solving the riddle."
-          },
-          "book": {
-            "_attributes": {
-              "id": "498389"
-            },
-            "num_pages": {
-              "_text": "528"
-            }
-          },
-          "author_name": {
-            "_text": "Jo Nesbø"
-          },
-          "isbn": {
-            "_text": "0099478536"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "5"
-          },
-          "user_read_at": {
-            "_cdata": "Thu, 01 Jul 2021 00:24:13 -0700"
-          },
-          "user_date_added": {
-            "_cdata": "Thu, 01 Jul 2021 00:24:13 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Sat, 26 Jun 2021 20:13:04 -0700"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.04"
-          },
-          "book_published": {
-            "_text": "2003"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/498389.The_Devil_s_Star?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Devil&#39;s Star (Harry Hole, #5)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328611163l/498389._SY75_.jpg\" /></a><br/>\n                                      author: Jo Nesbø<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.04<br/>\n                                      book published: 2003<br/>\n                                      rating: 5<br/>\n                                      read at: 2021/07/01<br/>\n                                      date added: 2021/07/01<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

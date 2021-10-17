@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Tue, 05 Aug 2014 17:11:48 -0700"
+        "_text": "Thu, 11 Sep 2014 15:29:37 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/1052402754?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Thu, 11 Sep 2014 15:29:37 -0700"
+          },
+          "title": {
+            "_cdata": "A Universe from Nothing: Why There Is Something Rather Than Nothing"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/1052402754?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "11337189"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1365217267l/11337189._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1365217267l/11337189._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1365217267l/11337189._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1365217267l/11337189.jpg"
+          },
+          "book_description": {
+            "_cdata": "Bestselling author and acclaimed physicist Lawrence Krauss offers a paradigm-shifting view of how everything that exists came to be in the first place.<br /><br />“Where did the universe come from? What was there before it? What will the future bring? And finally, why is there something rather than nothing?”<br /><br />One of the few prominent scientists today to have crossed the chasm between science and popular culture, Krauss describes the staggeringly beautiful experimental observations and mind-bending new theories that demonstrate not only can something arise from nothing, something will always arise from nothing. With a new preface about the significance of the discovery of the Higgs particle, A Universe from Nothing uses Krauss’s characteristic wry humor and wonderfully clear explanations to take us back to the beginning of the beginning, presenting the most recent evidence for how our universe evolved—and the implications for how it’s going to end. <br /><br />Provocative, challenging, and delightfully readable, this is a game-changing look at the most basic underpinning of existence and a powerful antidote to outmoded philosophical, religious, and scientific thinking."
+          },
+          "book": {
+            "_attributes": {
+              "id": "11337189"
+            },
+            "num_pages": {
+              "_text": "204"
+            }
+          },
+          "author_name": {
+            "_text": "Lawrence M. Krauss"
+          },
+          "isbn": {
+            "_text": "145162445X"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Thu, 11 Sep 2014 15:29:37 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Thu, 11 Sep 2014 15:29:36 -0700"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.93"
+          },
+          "book_published": {
+            "_text": "2012"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/11337189-a-universe-from-nothing?utm_medium=api&amp;utm_source=rss\"><img alt=\"A Universe from Nothing: Why There Is Something Rather Than Nothing\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1365217267l/11337189._SY75_.jpg\" /></a><br/>\n                                      author: Lawrence M. Krauss<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.93<br/>\n                                      book published: 2012<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2014/09/11<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/1018010042?utm_medium=api&utm_source=rss"

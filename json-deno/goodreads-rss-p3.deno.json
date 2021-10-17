@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Tue, 16 Feb 2021 23:15:21 -0800"
+        "_text": "Tue, 16 Feb 2021 23:15:22 -0800"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,76 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3843054564?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Tue, 16 Feb 2021 23:15:22 -0800"
+          },
+          "title": {
+            "_cdata": "The Obelisk Gate (The Broken Earth, #2)"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3843054564?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "26228034"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1578523237l/26228034._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1578523237l/26228034._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1578523237l/26228034._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1578523237l/26228034._SY475_.jpg"
+          },
+          "book_description": {
+            "_cdata": "This is the way the world ends... for the last time.<br /><br />The season of endings grows darker as civilization fades into the long cold night. Alabaster Tenring – madman, world-crusher, savior – has returned with a mission: to train his successor, Essun, and thus seal the fate of the Stillness forever.<br /><br />It continues with a lost daughter, found by the enemy.<br /><br />It continues with the obelisks, and an ancient mystery converging on answers at last.<br /><br />The Stillness is the wall which stands against the flow of tradition, the spark of hope long buried under the thickening ashfall. And it will not be broken."
+          },
+          "book": {
+            "_attributes": {
+              "id": "26228034"
+            },
+            "num_pages": {
+              "_text": "410"
+            }
+          },
+          "author_name": {
+            "_text": "N.K. Jemisin"
+          },
+          "isbn": {},
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Tue, 16 Feb 2021 23:15:22 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Tue, 16 Feb 2021 23:15:22 -0800"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.24"
+          },
+          "book_published": {
+            "_text": "2016"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/26228034-the-obelisk-gate?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Obelisk Gate (The Broken Earth, #2)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1578523237l/26228034._SY75_.jpg\" /></a><br/>\n                                      author: N.K. Jemisin<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.24<br/>\n                                      book published: 2016<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/02/16<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/3843054541?utm_medium=api&utm_source=rss"
@@ -7098,78 +7168,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/23692271-sapiens?utm_medium=api&amp;utm_source=rss\"><img alt=\"Sapiens: A Brief History of Humankind\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1595674533l/23692271._SY75_.jpg\" /></a><br/>\n                                      author: Yuval Noah Harari<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.38<br/>\n                                      book published: 2011<br/>\n                                      rating: 3<br/>\n                                      read at: 2020/03/25<br/>\n                                      date added: 2020/03/25<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3222110435?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sat, 07 Mar 2020 16:46:37 -0800"
-          },
-          "title": {
-            "_text": "Destination: Void"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3222110435?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "761449"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388708697l/761449._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388708697l/761449._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388708697l/761449._SY160_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388708697l/761449.jpg"
-          },
-          "book_description": {
-            "_cdata": "The starship Earthling, filled with thousands of hybernating colonists en route to a new world at Tau Ceti, is stranded beyond the solar system when the ship's three Organic Mental Cores, disembodied human brains that control the vessel's functions, go insane. An emergency skeleton crew sees only one chance for survival: to create an artificial consciousness in the Earthling's primary computer, which could guide them to their destination . . . or could destroy the human race.<br /> <br />Frank Herbert's classic novel that begins the epic Pandora Sequence (written with Bill Ransom), which also includes The Jesus Incident, The Lazarus Effect, and The Ascension Factor."
-          },
-          "book": {
-            "_attributes": {
-              "id": "761449"
-            },
-            "num_pages": {
-              "_text": "276"
-            }
-          },
-          "author_name": {
-            "_text": "Frank Herbert"
-          },
-          "isbn": {
-            "_text": "042507465X"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Sat, 07 Mar 2020 16:46:37 -0800"
-          },
-          "user_date_created": {
-            "_cdata": "Sat, 07 Mar 2020 16:46:37 -0800"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "3.64"
-          },
-          "book_published": {
-            "_text": "1966"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/761449.Destination?utm_medium=api&amp;utm_source=rss\"><img alt=\"Destination: Void\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388708697l/761449._SY75_.jpg\" /></a><br/>\n                                      author: Frank Herbert<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.64<br/>\n                                      book published: 1966<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2020/03/07<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]
