@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Sun, 05 Jan 2020 09:24:09 -0800"
+        "_text": "Tue, 07 Jan 2020 16:16:02 -0800"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3129830792?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Tue, 07 Jan 2020 16:16:02 -0800"
+          },
+          "title": {
+            "_cdata": "Science in the Soul: Selected Writings of a Passionate Rationalist"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3129830792?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "33192011"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1498810178l/33192011._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1498810178l/33192011._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1498810178l/33192011._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1498810178l/33192011.jpg"
+          },
+          "book_description": {
+            "_cdata": "<b><i>NEW YORK TIMES</i> BESTSELLER - The legendary biologist and bestselling author mounts a timely and passionate defense of science and clear thinking with this career-spanning collection of essays, including twenty pieces published in the United States for the first time.</b><br /><br />For decades, Richard Dawkins has been a brilliant scientific communicator, consistently illuminating the wonders of nature and attacking faulty logic. <i>Science in the Soul</i> brings together forty-two essays, polemics, and paeans--all written with Dawkins's characteristic erudition, remorseless wit, and unjaded awe of the natural world.<br /><br />Though it spans three decades, this book couldn't be more timely or more urgent. Elected officials have opened the floodgates to prejudices that have for half a century been unacceptable or at least undercover. In a passionate introduction, Dawkins calls on us to insist that reason take center stage and that gut feelings, even when they <i>don't</i> represent the stirred dark waters of xenophobia, misogyny, or other blind prejudice, should stay out of the voting booth. And in the essays themselves, newly annotated by the author, he investigates a number of issues, including the importance of empirical evidence, and decries bad science, religion in the schools, and climate-change deniers.<br /><br />Dawkins has equal ardor for \"the sacred truth of nature\" and renders here with typical virtuosity the glories and complexities of the natural world. Woven into an exploration of the vastness of geological time, for instance, is the peculiar history of the giant tortoises and the sea turtles--whose journeys between water and land tell us a deeper story about evolution. At this moment, when so many highly placed people still question the fact of evolution, Dawkins asks what Darwin would make of his own legacy--\"a mixture of exhilaration and exasperation\"--and celebrates science as possessing many of religion's virtues--\"explanation, consolation, and uplift\"--without its detriments of superstition and prejudice.<br /><br />In a world grown irrational and hostile to facts, <i>Science in the Soul</i> is an essential collection by an indispensable author.<br /><br /><b>Praise for <i>Science in the Soul</i></b><br /><br />\"Compelling . . . rendered in gloriously spiky and opinionated prose . . . [Dawkins is] one of the great science popularizers of the last half-century.\"<b>--<i>The Christian Science Monitor</i> </b><br /><br />\"Dawkins is a ferocious polemicist, a defender of reason and enemy of superstition.\"<b>--John Horgan, <i>Scientific American</i></b>"
+          },
+          "book": {
+            "_attributes": {
+              "id": "33192011"
+            },
+            "num_pages": {
+              "_text": "439"
+            }
+          },
+          "author_name": {
+            "_text": "Richard Dawkins"
+          },
+          "isbn": {
+            "_text": "0525495711"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Tue, 07 Jan 2020 16:16:02 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Tue, 07 Jan 2020 16:16:02 -0800"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.99"
+          },
+          "book_published": {
+            "_text": "2017"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/33192011-science-in-the-soul?utm_medium=api&amp;utm_source=rss\"><img alt=\"Science in the Soul: Selected Writings of a Passionate Rationalist\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1498810178l/33192011._SY75_.jpg\" /></a><br/>\n                                      author: Richard Dawkins<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.99<br/>\n                                      book published: 2017<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2020/01/07<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/3124773661?utm_medium=api&utm_source=rss"
@@ -7128,78 +7200,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/11337189-a-universe-from-nothing?utm_medium=api&amp;utm_source=rss\"><img alt=\"A Universe from Nothing: Why There Is Something Rather Than Nothing\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1365217267l/11337189._SY75_.jpg\" /></a><br/>\n                                      author: Lawrence M. Krauss<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.93<br/>\n                                      book published: 2012<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2014/09/11<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/1018010042?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Tue, 05 Aug 2014 17:11:48 -0700"
-          },
-          "title": {
-            "_cdata": "The Information: A History, a Theory, a Flood"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/1018010042?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "8701960"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348046486l/8701960._SX50_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348046486l/8701960._SX50_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348046486l/8701960._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348046486l/8701960.jpg"
-          },
-          "book_description": {
-            "_cdata": "James Gleick, the author of the best sellers <i>Chaos</i> and <i>Genius</i>, now brings us a work just as astonishing and masterly: a revelatory chronicle and meditation that shows how information has become the modern era's defining quality—the blood, the fuel, the vital principle of our world. <br /><br />The story of information begins in a time profoundly unlike our own, when every thought and utterance vanishes as soon as it is born. From the invention of scripts and alphabets to the long-misunderstood talking drums of Africa, Gleick tells the story of information technologies that changed the very nature of human consciousness. He provides portraits of the key figures contributing to the inexorable development of our modern understanding of information: Charles Babbage, the idiosyncratic inventor of the first great mechanical computer; Ada Byron, the brilliant and doomed daughter of the poet, who became the first true programmer; pivotal figures like Samuel Morse and Alan Turing; and Claude Shannon, the creator of information theory itself. <br /><br />And then the information age arrives. Citizens of this world become experts willy-nilly: aficionados of bits and bytes. And we sometimes feel we are drowning, swept by a deluge of signs and signals, news and images, blogs and tweets. <i>The Information</i> is the story of how we got here and where we are heading."
-          },
-          "book": {
-            "_attributes": {
-              "id": "8701960"
-            },
-            "num_pages": {
-              "_text": "527"
-            }
-          },
-          "author_name": {
-            "_text": "James Gleick"
-          },
-          "isbn": {
-            "_text": "0375423729"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Tue, 05 Aug 2014 17:11:48 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Tue, 05 Aug 2014 17:11:47 -0700"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.00"
-          },
-          "book_published": {
-            "_text": "2011"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/8701960-the-information?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Information: A History, a Theory, a Flood\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348046486l/8701960._SX50_.jpg\" /></a><br/>\n                                      author: James Gleick<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.00<br/>\n                                      book published: 2011<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2014/08/05<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

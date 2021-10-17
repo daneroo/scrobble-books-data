@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Sun, 14 Feb 2021 13:27:59 -0800"
+        "_text": "Tue, 16 Feb 2021 23:15:21 -0800"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,76 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3843054541?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Tue, 16 Feb 2021 23:15:21 -0800"
+          },
+          "title": {
+            "_cdata": "The Fifth Season (The Broken Earth, #1)"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3843054541?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "19161852"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386803701l/19161852._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386803701l/19161852._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386803701l/19161852._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386803701l/19161852.jpg"
+          },
+          "book_description": {
+            "_cdata": "This is the way the world ends. Again.<br /><br />Three terrible things happen in a single day. Essun, a woman living an ordinary life in a small town, comes home to find that her husband has brutally murdered their son and kidnapped their daughter. Meanwhile, mighty Sanze -- the world-spanning empire whose innovations have been civilization's bedrock for a thousand years -- collapses as most of its citizens are murdered to serve a madman's vengeance. And worst of all, across the heart of the vast continent known as the Stillness, a great red rift has been torn into the heart of the earth, spewing ash enough to darken the sky for years. Or centuries.<br /><br />Now Essun must pursue the wreckage of her family through a deadly, dying land. Without sunlight, clean water, or arable land, and with limited stockpiles of supplies, there will be war all across the Stillness: a battle royale of nations not for power or territory, but simply for the basic resources necessary to get through the long dark night. Essun does not care if the world falls apart around her. She'll break it herself, if she must, to save her daughter.<br /><br /><br /><i>original cover of ISBN <a href=\"https://www.goodreads.com/search/search?q=0316229296\" title=\"0316229296\" rel=\"nofollow noopener\">0316229296</a>/<a href=\"https://www.goodreads.com/search/search?q=9780316229296\" title=\"9780316229296\" rel=\"nofollow noopener\">9780316229296</a></i>"
+          },
+          "book": {
+            "_attributes": {
+              "id": "19161852"
+            },
+            "num_pages": {
+              "_text": "468"
+            }
+          },
+          "author_name": {
+            "_text": "N.K. Jemisin"
+          },
+          "isbn": {},
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Tue, 16 Feb 2021 23:15:21 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Tue, 16 Feb 2021 23:15:20 -0800"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.25"
+          },
+          "book_published": {
+            "_text": "2015"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/19161852-the-fifth-season?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Fifth Season (The Broken Earth, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386803701l/19161852._SY75_.jpg\" /></a><br/>\n                                      author: N.K. Jemisin<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.25<br/>\n                                      book published: 2015<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/02/16<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/3795024561?utm_medium=api&utm_source=rss"
@@ -7100,78 +7170,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/761449.Destination?utm_medium=api&amp;utm_source=rss\"><img alt=\"Destination: Void\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388708697l/761449._SY75_.jpg\" /></a><br/>\n                                      author: Frank Herbert<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.64<br/>\n                                      book published: 1966<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2020/03/07<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3129830792?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Tue, 07 Jan 2020 16:16:02 -0800"
-          },
-          "title": {
-            "_cdata": "Science in the Soul: Selected Writings of a Passionate Rationalist"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3129830792?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "33192011"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1498810178l/33192011._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1498810178l/33192011._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1498810178l/33192011._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1498810178l/33192011.jpg"
-          },
-          "book_description": {
-            "_cdata": "<b><i>NEW YORK TIMES</i> BESTSELLER - The legendary biologist and bestselling author mounts a timely and passionate defense of science and clear thinking with this career-spanning collection of essays, including twenty pieces published in the United States for the first time.</b><br /><br />For decades, Richard Dawkins has been a brilliant scientific communicator, consistently illuminating the wonders of nature and attacking faulty logic. <i>Science in the Soul</i> brings together forty-two essays, polemics, and paeans--all written with Dawkins's characteristic erudition, remorseless wit, and unjaded awe of the natural world.<br /><br />Though it spans three decades, this book couldn't be more timely or more urgent. Elected officials have opened the floodgates to prejudices that have for half a century been unacceptable or at least undercover. In a passionate introduction, Dawkins calls on us to insist that reason take center stage and that gut feelings, even when they <i>don't</i> represent the stirred dark waters of xenophobia, misogyny, or other blind prejudice, should stay out of the voting booth. And in the essays themselves, newly annotated by the author, he investigates a number of issues, including the importance of empirical evidence, and decries bad science, religion in the schools, and climate-change deniers.<br /><br />Dawkins has equal ardor for \"the sacred truth of nature\" and renders here with typical virtuosity the glories and complexities of the natural world. Woven into an exploration of the vastness of geological time, for instance, is the peculiar history of the giant tortoises and the sea turtles--whose journeys between water and land tell us a deeper story about evolution. At this moment, when so many highly placed people still question the fact of evolution, Dawkins asks what Darwin would make of his own legacy--\"a mixture of exhilaration and exasperation\"--and celebrates science as possessing many of religion's virtues--\"explanation, consolation, and uplift\"--without its detriments of superstition and prejudice.<br /><br />In a world grown irrational and hostile to facts, <i>Science in the Soul</i> is an essential collection by an indispensable author.<br /><br /><b>Praise for <i>Science in the Soul</i></b><br /><br />\"Compelling . . . rendered in gloriously spiky and opinionated prose . . . [Dawkins is] one of the great science popularizers of the last half-century.\"<b>--<i>The Christian Science Monitor</i> </b><br /><br />\"Dawkins is a ferocious polemicist, a defender of reason and enemy of superstition.\"<b>--John Horgan, <i>Scientific American</i></b>"
-          },
-          "book": {
-            "_attributes": {
-              "id": "33192011"
-            },
-            "num_pages": {
-              "_text": "439"
-            }
-          },
-          "author_name": {
-            "_text": "Richard Dawkins"
-          },
-          "isbn": {
-            "_text": "0525495711"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Tue, 07 Jan 2020 16:16:02 -0800"
-          },
-          "user_date_created": {
-            "_cdata": "Tue, 07 Jan 2020 16:16:02 -0800"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "3.99"
-          },
-          "book_published": {
-            "_text": "2017"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/33192011-science-in-the-soul?utm_medium=api&amp;utm_source=rss\"><img alt=\"Science in the Soul: Selected Writings of a Passionate Rationalist\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1498810178l/33192011._SY75_.jpg\" /></a><br/>\n                                      author: Richard Dawkins<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.99<br/>\n                                      book published: 2017<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2020/01/07<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

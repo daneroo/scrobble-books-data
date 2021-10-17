@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Sun, 17 Oct 2021 01:03:17 -0700"
+        "_text": "Sun, 17 Oct 2021 02:22:48 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4292269272?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sun, 17 Oct 2021 02:22:48 -0700"
+          },
+          "title": {
+            "_cdata": "White Jacket by Herman Melville, Fiction, Classics, Sea Stories"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4292269272?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "2199337"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348071189l/2199337._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348071189l/2199337._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348071189l/2199337._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348071189l/2199337.jpg"
+          },
+          "book_description": {
+            "_cdata": "The mixture of journalism, history, and fiction; the presentation of a sequence of striking characters; the metaphor of a sailing ship as the world in miniature--all of these prefigure his next novel, Moby-Dick. The White Jacket written by Herman Melville (best known for his classic whaling novel) was first published in 1850 and is considered to be a semi-biographical book, written from Melville's own personal experiences while returning home to the Atlantic Coast from the South Seas with the American Navy on a man-o-war vessel. In the note preceding the novel, Melville states, \"In the year 1843 I shipped as 'ordinary seaman' on board of a United States frigate then lying in a harbor of the Pacific Ocean. After remaining in this frigate for more than a year, I was discharged from the service . . .\""
+          },
+          "book": {
+            "_attributes": {
+              "id": "2199337"
+            },
+            "num_pages": {
+              "_text": "336"
+            }
+          },
+          "author_name": {
+            "_text": "Herman Melville"
+          },
+          "isbn": {
+            "_text": "1598183885"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Sun, 17 Oct 2021 02:22:48 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Sun, 17 Oct 2021 02:22:48 -0700"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.00"
+          },
+          "book_published": {
+            "_text": "1850"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/2199337.White_Jacket_by_Herman_Melville_Fiction_Classics_Sea_Stories?utm_medium=api&amp;utm_source=rss\"><img alt=\"White Jacket by Herman Melville, Fiction, Classics, Sea Stories\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348071189l/2199337._SY75_.jpg\" /></a><br/>\n                                      author: Herman Melville<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.00<br/>\n                                      book published: 1850<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/10/17<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/3900737719?utm_medium=api&utm_source=rss"
@@ -7138,76 +7210,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/498389.The_Devil_s_Star?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Devil&#39;s Star (Harry Hole, #5)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328611163l/498389._SY75_.jpg\" /></a><br/>\n                                      author: Jo Nesbø<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.04<br/>\n                                      book published: 2003<br/>\n                                      rating: 5<br/>\n                                      read at: 2021/07/01<br/>\n                                      date added: 2021/07/01<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/4085993255?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Tue, 29 Jun 2021 16:21:26 -0700"
-          },
-          "title": {
-            "_cdata": "Enough: How changing our diet, will save our planet"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/4085993255?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "49073807"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1608637041l/49073807._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1608637041l/49073807._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1608637041l/49073807._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1608637041l/49073807.jpg"
-          },
-          "book_description": {
-            "_cdata": "<b>Cut through the doom and confusion around the food we produce and eat - this shows the way forward for both people and planet</b>.<br />Enough is a practical explanation of the Planetary Health Diet's research, allowing everyone to understand the science and to adopt its recommendations in our daily lives. The PHD specifies the food groups we should be eating. But what does a diet composed of, for example, 30% carbohydrates really look like? Which carbs, exactly? The diet is largely plant-based but does encompass meat and fish - but how many servings? It also explains what the nine 'planetary boundaries' are, that our food production systems must not exceed - from the quantities of nitrogen and phosphorus in the ecosystem to freshwater use.<br /><br />We produce and eat unhealthy food, killing ourselves and the planet in the process. Food production systems are the single biggest cause of environmental change to the planet. And the food we are producing is killing us - more than a quarter of the world's population is overweight or obese, and deaths from stroke, heart attack, cancer, diabetes etc are at epidemic levels. It's easy to feel helpless.<br /><br /><br />In 2019 a seminal piece of research was published which, for the first time, made clear recommendations for a way to produce food and to eat that would save both the planet's resources and our own health. The Planetary Health Diet was the culmination of years of research by 37 eminent scientists of various backgrounds into this question - can we provide a growing population with a healthy diet from sustainable food systems? The answer is yes.<br /><br /><br />As a scientist and journalist Dr Cassandra Coburn is brilliantly placed to provide this clear, ultimately hopeful and hugely important roadmap for own future health, and that of the planet."
-          },
-          "book": {
-            "_attributes": {
-              "id": "49073807"
-            },
-            "num_pages": {
-              "_text": "288"
-            }
-          },
-          "author_name": {
-            "_text": "Cassandra Coburn"
-          },
-          "isbn": {
-            "_text": "1856754383"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Tue, 29 Jun 2021 16:21:26 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Tue, 29 Jun 2021 16:21:26 -0700"
-          },
-          "user_shelves": {
-            "_text": "on-deck"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.23"
-          },
-          "book_published": {},
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/49073807-enough?utm_medium=api&amp;utm_source=rss\"><img alt=\"Enough: How changing our diet, will save our planet\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1608637041l/49073807._SY75_.jpg\" /></a><br/>\n                                      author: Cassandra Coburn<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.23<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/06/29<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

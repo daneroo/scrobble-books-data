@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Mon, 28 Jun 2021 01:24:23 -0700"
+        "_text": "Tue, 29 Jun 2021 16:21:26 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,76 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4085993255?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Tue, 29 Jun 2021 16:21:26 -0700"
+          },
+          "title": {
+            "_cdata": "Enough: How changing our diet, will save our planet"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4085993255?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "49073807"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1608637041l/49073807._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1608637041l/49073807._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1608637041l/49073807._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1608637041l/49073807.jpg"
+          },
+          "book_description": {
+            "_cdata": "<b>Cut through the doom and confusion around the food we produce and eat - this shows the way forward for both people and planet</b>.<br />Enough is a practical explanation of the Planetary Health Diet's research, allowing everyone to understand the science and to adopt its recommendations in our daily lives. The PHD specifies the food groups we should be eating. But what does a diet composed of, for example, 30% carbohydrates really look like? Which carbs, exactly? The diet is largely plant-based but does encompass meat and fish - but how many servings? It also explains what the nine 'planetary boundaries' are, that our food production systems must not exceed - from the quantities of nitrogen and phosphorus in the ecosystem to freshwater use.<br /><br />We produce and eat unhealthy food, killing ourselves and the planet in the process. Food production systems are the single biggest cause of environmental change to the planet. And the food we are producing is killing us - more than a quarter of the world's population is overweight or obese, and deaths from stroke, heart attack, cancer, diabetes etc are at epidemic levels. It's easy to feel helpless.<br /><br /><br />In 2019 a seminal piece of research was published which, for the first time, made clear recommendations for a way to produce food and to eat that would save both the planet's resources and our own health. The Planetary Health Diet was the culmination of years of research by 37 eminent scientists of various backgrounds into this question - can we provide a growing population with a healthy diet from sustainable food systems? The answer is yes.<br /><br /><br />As a scientist and journalist Dr Cassandra Coburn is brilliantly placed to provide this clear, ultimately hopeful and hugely important roadmap for own future health, and that of the planet."
+          },
+          "book": {
+            "_attributes": {
+              "id": "49073807"
+            },
+            "num_pages": {
+              "_text": "288"
+            }
+          },
+          "author_name": {
+            "_text": "Cassandra Coburn"
+          },
+          "isbn": {
+            "_text": "1856754383"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Tue, 29 Jun 2021 16:21:26 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Tue, 29 Jun 2021 16:21:26 -0700"
+          },
+          "user_shelves": {
+            "_text": "on-deck"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.23"
+          },
+          "book_published": {},
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/49073807-enough?utm_medium=api&amp;utm_source=rss\"><img alt=\"Enough: How changing our diet, will save our planet\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1608637041l/49073807._SY75_.jpg\" /></a><br/>\n                                      author: Cassandra Coburn<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.23<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/06/29<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/4056894619?utm_medium=api&utm_source=rss"
@@ -7156,76 +7226,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/26228034-the-obelisk-gate?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Obelisk Gate (The Broken Earth, #2)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1578523237l/26228034._SY75_.jpg\" /></a><br/>\n                                      author: N.K. Jemisin<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.24<br/>\n                                      book published: 2016<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/02/16<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3843054541?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Tue, 16 Feb 2021 23:15:21 -0800"
-          },
-          "title": {
-            "_cdata": "The Fifth Season (The Broken Earth, #1)"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3843054541?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "19161852"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386803701l/19161852._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386803701l/19161852._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386803701l/19161852._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386803701l/19161852.jpg"
-          },
-          "book_description": {
-            "_cdata": "This is the way the world ends. Again.<br /><br />Three terrible things happen in a single day. Essun, a woman living an ordinary life in a small town, comes home to find that her husband has brutally murdered their son and kidnapped their daughter. Meanwhile, mighty Sanze -- the world-spanning empire whose innovations have been civilization's bedrock for a thousand years -- collapses as most of its citizens are murdered to serve a madman's vengeance. And worst of all, across the heart of the vast continent known as the Stillness, a great red rift has been torn into the heart of the earth, spewing ash enough to darken the sky for years. Or centuries.<br /><br />Now Essun must pursue the wreckage of her family through a deadly, dying land. Without sunlight, clean water, or arable land, and with limited stockpiles of supplies, there will be war all across the Stillness: a battle royale of nations not for power or territory, but simply for the basic resources necessary to get through the long dark night. Essun does not care if the world falls apart around her. She'll break it herself, if she must, to save her daughter.<br /><br /><br /><i>original cover of ISBN <a href=\"https://www.goodreads.com/search/search?q=0316229296\" title=\"0316229296\" rel=\"nofollow noopener\">0316229296</a>/<a href=\"https://www.goodreads.com/search/search?q=9780316229296\" title=\"9780316229296\" rel=\"nofollow noopener\">9780316229296</a></i>"
-          },
-          "book": {
-            "_attributes": {
-              "id": "19161852"
-            },
-            "num_pages": {
-              "_text": "468"
-            }
-          },
-          "author_name": {
-            "_text": "N.K. Jemisin"
-          },
-          "isbn": {},
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Tue, 16 Feb 2021 23:15:21 -0800"
-          },
-          "user_date_created": {
-            "_cdata": "Tue, 16 Feb 2021 23:15:20 -0800"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.25"
-          },
-          "book_published": {
-            "_text": "2015"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/19161852-the-fifth-season?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Fifth Season (The Broken Earth, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386803701l/19161852._SY75_.jpg\" /></a><br/>\n                                      author: N.K. Jemisin<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.25<br/>\n                                      book published: 2015<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/02/16<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]
