@@ -5381,13 +5381,13 @@
           "user_shelves": {},
           "user_review": {},
           "average_rating": {
-            "_text": "4.13"
+            "_text": "4.12"
           },
           "book_published": {
             "_text": "2008"
           },
           "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/2845024-anathem?utm_medium=api&amp;utm_source=rss\"><img alt=\"Anathem\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1488349209l/2845024._SX50_.jpg\" /></a><br/>\n                                      author: Neal Stephenson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.13<br/>\n                                      book published: 2008<br/>\n                                      rating: 4<br/>\n                                      read at: 2012/02/21<br/>\n                                      date added: 2012/11/23<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/2845024-anathem?utm_medium=api&amp;utm_source=rss\"><img alt=\"Anathem\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1488349209l/2845024._SX50_.jpg\" /></a><br/>\n                                      author: Neal Stephenson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.12<br/>\n                                      book published: 2008<br/>\n                                      rating: 4<br/>\n                                      read at: 2012/02/21<br/>\n                                      date added: 2012/11/23<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
           }
         },
         {
