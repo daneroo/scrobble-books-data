@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Sun, 17 Oct 2021 02:54:29 -0700"
+        "_text": "Mon, 18 Oct 2021 20:54:31 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,148 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4289126725?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Mon, 18 Oct 2021 20:54:31 -0700"
+          },
+          "title": {
+            "_text": "The Stars My Destination"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4289126725?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "333867"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1433671750l/333867._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1433671750l/333867._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1433671750l/333867._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1433671750l/333867._SY475_.jpg"
+          },
+          "book_description": {
+            "_cdata": "In this pulse-quickening novel, Alfred Bester imagines a future in which people \"jaunte\" a thousand miles with a single thought, where the rich barricade themselves in labyrinths and protect themselves with radioactive hitmen—and where an inarticulate outcast is the most valuable and dangerous man alive. <br /><br /><i>The Stars My Destination</i> is a classic of technological prophecy and timeless narrative enchantment by an acknowledged master of science fiction."
+          },
+          "book": {
+            "_attributes": {
+              "id": "333867"
+            },
+            "num_pages": {
+              "_text": "258"
+            }
+          },
+          "author_name": {
+            "_text": "Alfred Bester"
+          },
+          "isbn": {
+            "_text": "0679767800"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Mon, 18 Oct 2021 20:54:31 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Fri, 15 Oct 2021 00:08:21 -0700"
+          },
+          "user_shelves": {
+            "_text": "currently-reading"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.10"
+          },
+          "book_published": {
+            "_text": "1955"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/333867.The_Stars_My_Destination?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Stars My Destination\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1433671750l/333867._SY75_.jpg\" /></a><br/>\n                                      author: Alfred Bester<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.10<br/>\n                                      book published: 1955<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/10/18<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4290629439?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Mon, 18 Oct 2021 20:53:18 -0700"
+          },
+          "title": {
+            "_text": "The Picture of Dorian Gray"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4290629439?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "5297"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546103428l/5297._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546103428l/5297._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546103428l/5297._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546103428l/5297.jpg"
+          },
+          "book_description": {
+            "_cdata": "Written in his distinctively dazzling manner, Oscar Wilde’s story of a fashionable young man who sells his soul for eternal youth and beauty is the author’s most popular work. The tale of Dorian Gray’s moral disintegration caused a scandal when it ﬁrst appeared in 1890, but though Wilde was attacked for the novel’s corrupting inﬂuence, he responded that there is, in fact, “a terrible moral in <i>Dorian Gray</i>.” Just a few years later, the book and the aesthetic/moral dilemma it presented became issues in the trials occasioned by Wilde’s homosexual liaisons, which resulted in his imprisonment. Of Dorian Gray’s relationship to autobiography, Wilde noted in a letter, “Basil Hallward is what I think I am: Lord Henry what the world thinks me: Dorian what I would like to be—in other ages, perhaps."
+          },
+          "book": {
+            "_attributes": {
+              "id": "5297"
+            },
+            "num_pages": {
+              "_text": "272"
+            }
+          },
+          "author_name": {
+            "_text": "Oscar Wilde"
+          },
+          "isbn": {},
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "5"
+          },
+          "user_read_at": {
+            "_cdata": "Mon, 18 Oct 2021 20:53:14 -0700"
+          },
+          "user_date_added": {
+            "_cdata": "Mon, 18 Oct 2021 20:53:18 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Sat, 16 Oct 2021 00:06:13 -0700"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.09"
+          },
+          "book_published": {
+            "_text": "1890"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/5297.The_Picture_of_Dorian_Gray?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Picture of Dorian Gray\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546103428l/5297._SY75_.jpg\" /></a><br/>\n                                      author: Oscar Wilde<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.09<br/>\n                                      book published: 1890<br/>\n                                      rating: 5<br/>\n                                      read at: 2021/10/18<br/>\n                                      date added: 2021/10/18<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/4292296033?utm_medium=api&utm_source=rss"
@@ -282,76 +424,6 @@
         },
         {
           "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/4290629439?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sat, 16 Oct 2021 00:06:27 -0700"
-          },
-          "title": {
-            "_text": "The Picture of Dorian Gray"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/4290629439?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "5297"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546103428l/5297._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546103428l/5297._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546103428l/5297._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546103428l/5297.jpg"
-          },
-          "book_description": {
-            "_cdata": "Written in his distinctively dazzling manner, Oscar Wilde’s story of a fashionable young man who sells his soul for eternal youth and beauty is the author’s most popular work. The tale of Dorian Gray’s moral disintegration caused a scandal when it ﬁrst appeared in 1890, but though Wilde was attacked for the novel’s corrupting inﬂuence, he responded that there is, in fact, “a terrible moral in <i>Dorian Gray</i>.” Just a few years later, the book and the aesthetic/moral dilemma it presented became issues in the trials occasioned by Wilde’s homosexual liaisons, which resulted in his imprisonment. Of Dorian Gray’s relationship to autobiography, Wilde noted in a letter, “Basil Hallward is what I think I am: Lord Henry what the world thinks me: Dorian what I would like to be—in other ages, perhaps."
-          },
-          "book": {
-            "_attributes": {
-              "id": "5297"
-            },
-            "num_pages": {
-              "_text": "272"
-            }
-          },
-          "author_name": {
-            "_text": "Oscar Wilde"
-          },
-          "isbn": {},
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Sat, 16 Oct 2021 00:06:27 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Sat, 16 Oct 2021 00:06:13 -0700"
-          },
-          "user_shelves": {
-            "_text": "currently-reading"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.09"
-          },
-          "book_published": {
-            "_text": "1890"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/5297.The_Picture_of_Dorian_Gray?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Picture of Dorian Gray\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546103428l/5297._SY75_.jpg\" /></a><br/>\n                                      author: Oscar Wilde<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.09<br/>\n                                      book published: 1890<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/10/16<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
             "_cdata": "https://www.goodreads.com/review/show/4289135335?utm_medium=api&utm_source=rss"
           },
           "pubDate": {
@@ -492,78 +564,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/951749.The_Dying_Earth?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Dying Earth (The Dying Earth #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1558264964l/951749._SY75_.jpg\" /></a><br/>\n                                      author: Jack Vance<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.94<br/>\n                                      book published: 1950<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/10/15<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/4289126725?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Fri, 15 Oct 2021 00:08:21 -0700"
-          },
-          "title": {
-            "_text": "The Stars My Destination"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/4289126725?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "333867"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1433671750l/333867._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1433671750l/333867._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1433671750l/333867._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1433671750l/333867._SY475_.jpg"
-          },
-          "book_description": {
-            "_cdata": "In this pulse-quickening novel, Alfred Bester imagines a future in which people \"jaunte\" a thousand miles with a single thought, where the rich barricade themselves in labyrinths and protect themselves with radioactive hitmen—and where an inarticulate outcast is the most valuable and dangerous man alive. <br /><br /><i>The Stars My Destination</i> is a classic of technological prophecy and timeless narrative enchantment by an acknowledged master of science fiction."
-          },
-          "book": {
-            "_attributes": {
-              "id": "333867"
-            },
-            "num_pages": {
-              "_text": "258"
-            }
-          },
-          "author_name": {
-            "_text": "Alfred Bester"
-          },
-          "isbn": {
-            "_text": "0679767800"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Fri, 15 Oct 2021 00:08:21 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Fri, 15 Oct 2021 00:08:21 -0700"
-          },
-          "user_shelves": {
-            "_text": "on-deck"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.10"
-          },
-          "book_published": {
-            "_text": "1955"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/333867.The_Stars_My_Destination?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Stars My Destination\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1433671750l/333867._SY75_.jpg\" /></a><br/>\n                                      author: Alfred Bester<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.10<br/>\n                                      book published: 1955<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/10/15<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
           }
         },
         {
