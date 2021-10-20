@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Mon, 18 Oct 2021 20:54:31 -0700"
+        "_text": "Wed, 20 Oct 2021 00:16:08 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4277937539?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Wed, 20 Oct 2021 00:16:08 -0700"
+          },
+          "title": {
+            "_cdata": "Classics: A Very Short Introduction"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4277937539?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "846033"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1410131989l/846033._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1410131989l/846033._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1410131989l/846033._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1410131989l/846033.jpg"
+          },
+          "book_description": {
+            "_cdata": "We are <em>all</em> classicists--we come into touch with the classics on a daily basis: in our culture, politics, medicine, architecture, language, and literature. What are the true roots of these influences, however, and how do our interpretations of these aspects of the classics differ from their<br />original reality? This introduction to the classics begins with a visit to the British Museum to view the frieze which once decorated the Apollo Temple a Bassae. Through these sculptures John Henderson and Mary Beard prompt us to consider the significance of the study of Classics as a means of<br />discovery and enquiry, its value in terms of literature, philosophy, and culture, its source of imagery, and the reasons for the continuation of these images into and beyond the twentieth century. Designed for the general reader and student alike, <em>A Very Short Introduction to Classics</em> challenges<br />readers to adopt a fresh approach to the Classics as a major cultural influence, both in the ancient world and twentieth-century--emphasizing the continuing need to understand and investigate this enduring subject.<br /><br /><strong>About the Series</strong>: Combining authority with wit, accessibility, and style, <strong>Very Short Introductions</strong> offer an introduction to some of life's most interesting topics. Written by experts for the newcomer, they demonstrate the finest contemporary thinking about the central problems and issues in hundreds<br />of key topics, from philosophy to Freud, quantum theory to Islam.<br />"
+          },
+          "book": {
+            "_attributes": {
+              "id": "846033"
+            },
+            "num_pages": {
+              "_text": "145"
+            }
+          },
+          "author_name": {
+            "_text": "Mary Beard"
+          },
+          "isbn": {
+            "_text": "0192853856"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Wed, 20 Oct 2021 00:16:08 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Fri, 08 Oct 2021 02:04:43 -0700"
+          },
+          "user_shelves": {
+            "_text": "currently-reading"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.62"
+          },
+          "book_published": {
+            "_text": "2000"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/846033.Classics?utm_medium=api&amp;utm_source=rss\"><img alt=\"Classics: A Very Short Introduction\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1410131989l/846033._SY75_.jpg\" /></a><br/>\n                                      author: Mary Beard<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.62<br/>\n                                      book published: 2000<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/10/20<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/4289126725?utm_medium=api&utm_source=rss"
@@ -1062,78 +1134,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/5787.The_Aleph_and_Other_Stories?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Aleph and Other Stories\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1622617703l/5787._SY75_.jpg\" /></a><br/>\n                                      author: Jorge Luis Borges<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.45<br/>\n                                      book published: 1949<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/10/08<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/4277937539?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Fri, 08 Oct 2021 02:04:43 -0700"
-          },
-          "title": {
-            "_cdata": "Classics: A Very Short Introduction"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/4277937539?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "846033"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1410131989l/846033._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1410131989l/846033._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1410131989l/846033._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1410131989l/846033.jpg"
-          },
-          "book_description": {
-            "_cdata": "We are <em>all</em> classicists--we come into touch with the classics on a daily basis: in our culture, politics, medicine, architecture, language, and literature. What are the true roots of these influences, however, and how do our interpretations of these aspects of the classics differ from their<br />original reality? This introduction to the classics begins with a visit to the British Museum to view the frieze which once decorated the Apollo Temple a Bassae. Through these sculptures John Henderson and Mary Beard prompt us to consider the significance of the study of Classics as a means of<br />discovery and enquiry, its value in terms of literature, philosophy, and culture, its source of imagery, and the reasons for the continuation of these images into and beyond the twentieth century. Designed for the general reader and student alike, <em>A Very Short Introduction to Classics</em> challenges<br />readers to adopt a fresh approach to the Classics as a major cultural influence, both in the ancient world and twentieth-century--emphasizing the continuing need to understand and investigate this enduring subject.<br /><br /><strong>About the Series</strong>: Combining authority with wit, accessibility, and style, <strong>Very Short Introductions</strong> offer an introduction to some of life's most interesting topics. Written by experts for the newcomer, they demonstrate the finest contemporary thinking about the central problems and issues in hundreds<br />of key topics, from philosophy to Freud, quantum theory to Islam.<br />"
-          },
-          "book": {
-            "_attributes": {
-              "id": "846033"
-            },
-            "num_pages": {
-              "_text": "145"
-            }
-          },
-          "author_name": {
-            "_text": "Mary Beard"
-          },
-          "isbn": {
-            "_text": "0192853856"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Fri, 08 Oct 2021 02:04:43 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Fri, 08 Oct 2021 02:04:43 -0700"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "3.62"
-          },
-          "book_published": {
-            "_text": "2000"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/846033.Classics?utm_medium=api&amp;utm_source=rss\"><img alt=\"Classics: A Very Short Introduction\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1410131989l/846033._SY75_.jpg\" /></a><br/>\n                                      author: Mary Beard<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.62<br/>\n                                      book published: 2000<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/10/08<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
           }
         },
         {
