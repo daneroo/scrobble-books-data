@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Wed, 20 Oct 2021 00:16:08 -0700"
+        "_text": "Wed, 20 Oct 2021 23:07:49 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -69,7 +69,7 @@
             "_cdata": "https://www.goodreads.com/review/show/4277937539?utm_medium=api&utm_source=rss"
           },
           "pubDate": {
-            "_cdata": "Wed, 20 Oct 2021 00:16:08 -0700"
+            "_cdata": "Wed, 20 Oct 2021 23:07:49 -0700"
           },
           "title": {
             "_cdata": "Classics: A Very Short Introduction"
@@ -113,18 +113,18 @@
             "_text": "Daniel"
           },
           "user_rating": {
-            "_text": "0"
+            "_text": "4"
           },
-          "user_read_at": {},
+          "user_read_at": {
+            "_cdata": "Wed, 20 Oct 2021 23:07:45 -0700"
+          },
           "user_date_added": {
-            "_cdata": "Wed, 20 Oct 2021 00:16:08 -0700"
+            "_cdata": "Wed, 20 Oct 2021 23:07:49 -0700"
           },
           "user_date_created": {
             "_cdata": "Fri, 08 Oct 2021 02:04:43 -0700"
           },
-          "user_shelves": {
-            "_text": "currently-reading"
-          },
+          "user_shelves": {},
           "user_review": {},
           "average_rating": {
             "_text": "3.62"
@@ -133,7 +133,7 @@
             "_text": "2000"
           },
           "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/846033.Classics?utm_medium=api&amp;utm_source=rss\"><img alt=\"Classics: A Very Short Introduction\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1410131989l/846033._SY75_.jpg\" /></a><br/>\n                                      author: Mary Beard<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.62<br/>\n                                      book published: 2000<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/10/20<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>\n                                      "
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/846033.Classics?utm_medium=api&amp;utm_source=rss\"><img alt=\"Classics: A Very Short Introduction\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1410131989l/846033._SY75_.jpg\" /></a><br/>\n                                      author: Mary Beard<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.62<br/>\n                                      book published: 2000<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/10/20<br/>\n                                      date added: 2021/10/20<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
           }
         },
         {
