@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Wed, 20 Oct 2021 23:07:49 -0700"
+        "_text": "Fri, 22 Oct 2021 21:50:39 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4289126725?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Fri, 22 Oct 2021 21:50:39 -0700"
+          },
+          "title": {
+            "_text": "The Stars My Destination"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4289126725?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "333867"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1433671750l/333867._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1433671750l/333867._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1433671750l/333867._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1433671750l/333867._SY475_.jpg"
+          },
+          "book_description": {
+            "_cdata": "In this pulse-quickening novel, Alfred Bester imagines a future in which people \"jaunte\" a thousand miles with a single thought, where the rich barricade themselves in labyrinths and protect themselves with radioactive hitmen—and where an inarticulate outcast is the most valuable and dangerous man alive. <br /><br /><i>The Stars My Destination</i> is a classic of technological prophecy and timeless narrative enchantment by an acknowledged master of science fiction."
+          },
+          "book": {
+            "_attributes": {
+              "id": "333867"
+            },
+            "num_pages": {
+              "_text": "258"
+            }
+          },
+          "author_name": {
+            "_text": "Alfred Bester"
+          },
+          "isbn": {
+            "_text": "0679767800"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Fri, 22 Oct 2021 21:50:39 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Fri, 15 Oct 2021 00:08:21 -0700"
+          },
+          "user_shelves": {
+            "_text": "currently-reading"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.10"
+          },
+          "book_published": {
+            "_text": "1955"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/333867.The_Stars_My_Destination?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Stars My Destination\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1433671750l/333867._SY75_.jpg\" /></a><br/>\n                                      author: Alfred Bester<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.10<br/>\n                                      book published: 1955<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/10/22<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/4277937539?utm_medium=api&utm_source=rss"
@@ -134,78 +206,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/846033.Classics?utm_medium=api&amp;utm_source=rss\"><img alt=\"Classics: A Very Short Introduction\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1410131989l/846033._SY75_.jpg\" /></a><br/>\n                                      author: Mary Beard<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.62<br/>\n                                      book published: 2000<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/10/20<br/>\n                                      date added: 2021/10/20<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/4289126725?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Mon, 18 Oct 2021 20:54:31 -0700"
-          },
-          "title": {
-            "_text": "The Stars My Destination"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/4289126725?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "333867"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1433671750l/333867._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1433671750l/333867._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1433671750l/333867._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1433671750l/333867._SY475_.jpg"
-          },
-          "book_description": {
-            "_cdata": "In this pulse-quickening novel, Alfred Bester imagines a future in which people \"jaunte\" a thousand miles with a single thought, where the rich barricade themselves in labyrinths and protect themselves with radioactive hitmen—and where an inarticulate outcast is the most valuable and dangerous man alive. <br /><br /><i>The Stars My Destination</i> is a classic of technological prophecy and timeless narrative enchantment by an acknowledged master of science fiction."
-          },
-          "book": {
-            "_attributes": {
-              "id": "333867"
-            },
-            "num_pages": {
-              "_text": "258"
-            }
-          },
-          "author_name": {
-            "_text": "Alfred Bester"
-          },
-          "isbn": {
-            "_text": "0679767800"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Mon, 18 Oct 2021 20:54:31 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Fri, 15 Oct 2021 00:08:21 -0700"
-          },
-          "user_shelves": {
-            "_text": "currently-reading"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.10"
-          },
-          "book_published": {
-            "_text": "1955"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/333867.The_Stars_My_Destination?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Stars My Destination\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1433671750l/333867._SY75_.jpg\" /></a><br/>\n                                      author: Alfred Bester<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.10<br/>\n                                      book published: 1955<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/10/18<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>\n                                      "
           }
         },
         {
