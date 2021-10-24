@@ -25,11 +25,11 @@
         "_cdata": "Copyright (C) 2021 Goodreads Inc. All rights reserved."
       },
       "link": {
-        "_cdata": "https://www.goodreads.com/review/list_rss/6883912?key=9C2oDNblCg8nchKHD5aYs_gzgVmR5mpfiCi8B7WP0_IS0jMW&shelf=%23ALL%23"
+        "_cdata": "https://www.goodreads.com/review/list_rss/6883912?key=9C2oDNblCg8nchKHD5aYs_gzgVmR5mpfiCi8B7WP0_IS0jMW&shelf=%23ALL%23&page=1"
       },
       "atom:link": {
         "_attributes": {
-          "href": "https://www.goodreads.com/review/list_rss/6883912?key=9C2oDNblCg8nchKHD5aYs_gzgVmR5mpfiCi8B7WP0_IS0jMW&shelf=%23ALL%23",
+          "href": "https://www.goodreads.com/review/list_rss/6883912?key=9C2oDNblCg8nchKHD5aYs_gzgVmR5mpfiCi8B7WP0_IS0jMW&shelf=%23ALL%23&page=1",
           "rel": "self",
           "type": "application/rss+xml"
         }
@@ -51,7 +51,7 @@
           "_text": "Daniel's bookshelf: all"
         },
         "link": {
-          "_cdata": "https://www.goodreads.com/review/list_rss/6883912?key=9C2oDNblCg8nchKHD5aYs_gzgVmR5mpfiCi8B7WP0_IS0jMW&shelf=%23ALL%23"
+          "_cdata": "https://www.goodreads.com/review/list_rss/6883912?key=9C2oDNblCg8nchKHD5aYs_gzgVmR5mpfiCi8B7WP0_IS0jMW&shelf=%23ALL%23&page=1"
         },
         "width": {
           "_text": "144"
@@ -6271,13 +6271,13 @@
           "user_shelves": {},
           "user_review": {},
           "average_rating": {
-            "_text": "4.08"
+            "_text": "4.07"
           },
           "book_published": {
             "_text": "2005"
           },
           "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/33641782-the-redeemer?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Redeemer (Harry Hole, #6)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1483116047l/33641782._SY75_.jpg\" /></a><br/>\n                                      author: Jo Nesbø<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.08<br/>\n                                      book published: 2005<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/07/18<br/>\n                                      date added: 2021/07/18<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/33641782-the-redeemer?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Redeemer (Harry Hole, #6)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1483116047l/33641782._SY75_.jpg\" /></a><br/>\n                                      author: Jo Nesbø<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.07<br/>\n                                      book published: 2005<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/07/18<br/>\n                                      date added: 2021/07/18<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
           }
         },
         {
