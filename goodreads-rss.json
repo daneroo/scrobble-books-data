@@ -3,7 +3,7 @@
   "items": [
     {
       "guid": "https://www.goodreads.com/review/show/4289126725?utm_medium=api&utm_source=rss",
-      "pubDate": "2021-10-23T08:01:39.000Z",
+      "pubDate": "2021-10-25T05:10:12.000Z",
       "title": "The Stars My Destination",
       "link": "https://www.goodreads.com/review/show/4289126725?utm_medium=api&utm_source=rss",
       "bookId": "333867",
@@ -12,15 +12,15 @@
       "authorName": "Alfred Bester",
       "isbn": "0679767800",
       "userName": "Daniel",
-      "userRating": "0",
-      "userReadAt": "",
-      "userDateAdded": "2021-10-23T08:01:39.000Z",
+      "userRating": "4",
+      "userReadAt": "2021-10-25T05:10:07.000Z",
+      "userDateAdded": "2021-10-25T05:10:12.000Z",
       "userDateCreated": "2021-10-15T07:08:21.000Z",
-      "userShelves": "currently-reading",
+      "userShelves": "",
       "userReview": "",
       "averageRating": "4.10",
       "bookPublished": "1956",
-      "description": "\n      <a href=\"https://www.goodreads.com/book/show/333867.The_Stars_My_Destination?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Stars My Destination\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1433671750l/333867._SY75_.jpg\" /></a><br/>\n                                      author: Alfred Bester<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.10<br/>\n                                      book published: 1956<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/10/23<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>\n                                      ",
+      "description": "\n      <a href=\"https://www.goodreads.com/book/show/333867.The_Stars_My_Destination?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Stars My Destination\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1433671750l/333867._SY75_.jpg\" /></a><br/>\n                                      author: Alfred Bester<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.10<br/>\n                                      book published: 1956<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/10/24<br/>\n                                      date added: 2021/10/24<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      ",
       "numPages": "258"
     },
     {
