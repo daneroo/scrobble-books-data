@@ -5935,13 +5935,13 @@
           "user_shelves": {},
           "user_review": {},
           "average_rating": {
-            "_text": "4.15"
+            "_text": "4.13"
           },
           "book_published": {
             "_text": "1986"
           },
           "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/1768223.La_nouvelle_grille?utm_medium=api&amp;utm_source=rss\"><img alt=\"La nouvelle grille\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1187990971l/1768223._SY75_.jpg\" /></a><br/>\n                                      author: Henri Laborit<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.15<br/>\n                                      book published: 1986<br/>\n                                      rating: 4<br/>\n                                      read at: <br/>\n                                      date added: 2021/03/21<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/1768223.La_nouvelle_grille?utm_medium=api&amp;utm_source=rss\"><img alt=\"La nouvelle grille\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1187990971l/1768223._SY75_.jpg\" /></a><br/>\n                                      author: Henri Laborit<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.13<br/>\n                                      book published: 1986<br/>\n                                      rating: 4<br/>\n                                      read at: <br/>\n                                      date added: 2021/03/21<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
           }
         },
         {
