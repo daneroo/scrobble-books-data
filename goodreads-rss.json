@@ -2,6 +2,28 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "guid": "https://www.goodreads.com/review/show/4311713699?utm_medium=api&utm_source=rss",
+      "pubDate": "2021-10-29T05:47:43.000Z",
+      "title": "The Light Ages: The Surprising Story of Medieval Science",
+      "link": "https://www.goodreads.com/review/show/4311713699?utm_medium=api&utm_source=rss",
+      "bookId": "50489364",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1602621879l/50489364._SY75_.jpg",
+      "bookDescription": "<b>An illuminating guide to the scientific and technological achievements of the Middle Ages through the life of a crusading astronomer-monk.</b><br /><br />Soaring Gothic cathedrals, violent crusades, the Black Death: these are the dramatic forces that shaped the medieval era. But the so-called Dark Ages also gave us the first universities, eyeglasses, and mechanical clocks, proving that the Middle Ages were home to a vibrant scientific culture.<br /><br />In <em>The Light Ages</em>, Cambridge science historian Seb Falk takes us on an immersive tour of medieval science through the story of one fourteenth-century monk, John of Westwyk. From multiplying Roman numerals to navigating by the stars, curing disease, and telling time with an ancient astrolabe, we learn emerging science alongside Westwyk, while following the gripping story of the struggles and successes of an ordinary man in a precarious world. An enlightening history that argues that these times weren’t so dark after all, <em>The Light Ages</em> shows how medieval ideas continue to color how we see the world today.",
+      "authorName": "Seb Falk",
+      "isbn": "132400293X",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2021-10-29T05:47:43.000Z",
+      "userDateCreated": "2021-10-29T05:46:26.000Z",
+      "userShelves": "on-deck",
+      "userReview": "",
+      "averageRating": "3.68",
+      "bookPublished": "2020",
+      "description": "\n      <a href=\"https://www.goodreads.com/book/show/50489364-the-light-ages?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Light Ages: The Surprising Story of Medieval Science\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1602621879l/50489364._SY75_.jpg\" /></a><br/>\n                                      author: Seb Falk<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.68<br/>\n                                      book published: 2020<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/10/28<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      ",
+      "numPages": "392"
+    },
+    {
       "guid": "https://www.goodreads.com/review/show/4219358767?utm_medium=api&utm_source=rss",
       "pubDate": "2021-10-27T08:32:17.000Z",
       "title": "The Last Kingdom (The Saxon Stories, #1)",

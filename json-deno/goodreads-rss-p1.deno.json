@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Wed, 27 Oct 2021 01:32:17 -0700"
+        "_text": "Thu, 28 Oct 2021 22:47:43 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4311713699?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Thu, 28 Oct 2021 22:47:43 -0700"
+          },
+          "title": {
+            "_cdata": "The Light Ages: The Surprising Story of Medieval Science"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4311713699?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "50489364"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1602621879l/50489364._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1602621879l/50489364._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1602621879l/50489364._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1602621879l/50489364.jpg"
+          },
+          "book_description": {
+            "_cdata": "<b>An illuminating guide to the scientific and technological achievements of the Middle Ages through the life of a crusading astronomer-monk.</b><br /><br />Soaring Gothic cathedrals, violent crusades, the Black Death: these are the dramatic forces that shaped the medieval era. But the so-called Dark Ages also gave us the first universities, eyeglasses, and mechanical clocks, proving that the Middle Ages were home to a vibrant scientific culture.<br /><br />In <em>The Light Ages</em>, Cambridge science historian Seb Falk takes us on an immersive tour of medieval science through the story of one fourteenth-century monk, John of Westwyk. From multiplying Roman numerals to navigating by the stars, curing disease, and telling time with an ancient astrolabe, we learn emerging science alongside Westwyk, while following the gripping story of the struggles and successes of an ordinary man in a precarious world. An enlightening history that argues that these times weren’t so dark after all, <em>The Light Ages</em> shows how medieval ideas continue to color how we see the world today."
+          },
+          "book": {
+            "_attributes": {
+              "id": "50489364"
+            },
+            "num_pages": {
+              "_text": "392"
+            }
+          },
+          "author_name": {
+            "_text": "Seb Falk"
+          },
+          "isbn": {
+            "_text": "132400293X"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Thu, 28 Oct 2021 22:47:43 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Thu, 28 Oct 2021 22:46:26 -0700"
+          },
+          "user_shelves": {
+            "_text": "on-deck"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.68"
+          },
+          "book_published": {
+            "_text": "2020"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/50489364-the-light-ages?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Light Ages: The Surprising Story of Medieval Science\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1602621879l/50489364._SY75_.jpg\" /></a><br/>\n                                      author: Seb Falk<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.68<br/>\n                                      book published: 2020<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/10/28<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/4219358767?utm_medium=api&utm_source=rss"
@@ -7138,78 +7210,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/18630.The_Player_of_Games?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Player of Games (Culture, #2)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386922873l/18630._SY75_.jpg\" /></a><br/>\n                                      author: Iain M. Banks<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.26<br/>\n                                      book published: 1988<br/>\n                                      rating: 5<br/>\n                                      read at: 2021/07/09<br/>\n                                      date added: 2021/07/09<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/4090256573?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Tue, 06 Jul 2021 00:34:17 -0700"
-          },
-          "title": {
-            "_cdata": "Helgoland: The World of Quantum Theory"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/4090256573?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "55801224"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1610434232l/55801224._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1610434232l/55801224._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1610434232l/55801224._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1610434232l/55801224.jpg"
-          },
-          "book_description": {
-            "_cdata": "<b>A startling new look at quantum theory, from the bestselling author of <i>Seven Brief Lessons on Physics</i> and T<i>he Order of Time</i>.</b><br /><br />One of the world's most renowned theoretical physicists, Carlo Rovelli has entranced millions of readers with his singular perspective on the cosmos. In <i>Helgoland</i>, he examines the enduring enigma of quantum theory. The quantum world Rovelli describes is as beautiful as it is unnerving.<br /><br />Helgoland is a treeless island in the North Sea where the twenty-three-year-old Werner Heisenberg made the crucial breakthrough for the creation of quantum mechanics, setting off a century of scientific revolution. Full of alarming ideas (ghost waves, distant objects that seem to be magically connected, cats that appear both dead and alive), quantum physics has led to countless discoveries and technological advancements. Today our understanding of the world is based on this theory, yet it is still profoundly mysterious.<br /><br />As scientists and philosophers continue to fiercely debate the meaning of the theory, Rovelli argues that its most unsettling contradictions can be explained by seeing the world as fundamentally made of relationships rather than substances. We and everything around us exist only in our interactions with one another. This bold idea suggests new directions for thinking about the structure of reality and even the nature of consciousness.<br /><br />Rovelli makes learning about quantum mechanics an almost psychedelic experience. Shifting our perspective once again, he takes us on a riveting journey through the universe so we can better comprehend our place in it."
-          },
-          "book": {
-            "_attributes": {
-              "id": "55801224"
-            },
-            "num_pages": {
-              "_text": "256"
-            }
-          },
-          "author_name": {
-            "_text": "Carlo Rovelli"
-          },
-          "isbn": {
-            "_text": "0593328884"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "4"
-          },
-          "user_read_at": {
-            "_cdata": "Tue, 06 Jul 2021 00:34:17 -0700"
-          },
-          "user_date_added": {
-            "_cdata": "Tue, 06 Jul 2021 00:34:17 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Thu, 01 Jul 2021 20:34:59 -0700"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.05"
-          },
-          "book_published": {
-            "_text": "2020"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/55801224-helgoland?utm_medium=api&amp;utm_source=rss\"><img alt=\"Helgoland: The World of Quantum Theory\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1610434232l/55801224._SY75_.jpg\" /></a><br/>\n                                      author: Carlo Rovelli<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.05<br/>\n                                      book published: 2020<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/07/06<br/>\n                                      date added: 2021/07/06<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Tue, 16 Feb 2021 23:15:22 -0800"
+        "_text": "Thu, 18 Feb 2021 20:01:12 -0800"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3836214803?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Thu, 18 Feb 2021 20:01:12 -0800"
+          },
+          "title": {
+            "_text": "All the Birds in the Sky"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3836214803?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "25372801"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1429225322l/25372801._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1429225322l/25372801._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1429225322l/25372801._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1429225322l/25372801.jpg"
+          },
+          "book_description": {
+            "_cdata": "Childhood friends Patricia Delfine, a witch, and Laurence Armstead, a mad scientist, parted ways under mysterious circumstances during middle school. But as adults they both wind up in near-future San Francisco, where Laurence is an engineering genius and Patricia works with a small band of other magicians to secretly repair the world’s ever growing ailments. But something is determined to bring them back together—to either save the world, or end it."
+          },
+          "book": {
+            "_attributes": {
+              "id": "25372801"
+            },
+            "num_pages": {
+              "_text": "313"
+            }
+          },
+          "author_name": {
+            "_text": "Charlie Jane Anders"
+          },
+          "isbn": {
+            "_text": "0765379945"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "4"
+          },
+          "user_read_at": {
+            "_cdata": "Wed, 17 Feb 2021 10:11:17 -0800"
+          },
+          "user_date_added": {
+            "_cdata": "Thu, 18 Feb 2021 20:01:12 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Sat, 13 Feb 2021 14:55:14 -0800"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.58"
+          },
+          "book_published": {
+            "_text": "2016"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/25372801-all-the-birds-in-the-sky?utm_medium=api&amp;utm_source=rss\"><img alt=\"All the Birds in the Sky\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1429225322l/25372801._SY75_.jpg\" /></a><br/>\n                                      author: Charlie Jane Anders<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.58<br/>\n                                      book published: 2016<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/02/17<br/>\n                                      date added: 2021/02/18<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/3843054564?utm_medium=api&utm_source=rss"
@@ -7102,76 +7174,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow?utm_medium=api&amp;utm_source=rss\"><img alt=\"Thinking, Fast and Slow\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1317793965l/11468377._SX50_.jpg\" /></a><br/>\n                                      author: Daniel Kahneman<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.15<br/>\n                                      book published: 2011<br/>\n                                      rating: 5<br/>\n                                      read at: 2020/03/30<br/>\n                                      date added: 2020/03/30<br/>\n                                      shelves: <br/>\n                                      review: <br/>Not an easy read, but the effort is rewarded.<br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/1168254675?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Wed, 25 Mar 2020 21:16:56 -0700"
-          },
-          "title": {
-            "_cdata": "Sapiens: A Brief History of Humankind"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/1168254675?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "23692271"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1595674533l/23692271._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1595674533l/23692271._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1595674533l/23692271._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1595674533l/23692271._SY475_.jpg"
-          },
-          "book_description": {
-            "_cdata": "100,000 years ago, at least six human species inhabited the earth. Today there is just one. Us. Homo sapiens. <br /><br />How did our species succeed in the battle for dominance? Why did our foraging ancestors come together to create cities and kingdoms? How did we come to believe in gods, nations and human rights; to trust money, books and laws; and to be enslaved by bureaucracy, timetables and consumerism? And what will our world be like in the millennia to come? <br /><br />In <i>Sapiens</i>, Dr Yuval Noah Harari spans the whole of human history, from the very first humans to walk the earth to the radical – and sometimes devastating – breakthroughs of the Cognitive, Agricultural and Scientific Revolutions. Drawing on insights from biology, anthropology, paleontology and economics, he explores how the currents of history have shaped our human societies, the animals and plants around us, and even our personalities. Have we become happier as history has unfolded? Can we ever free our behaviour from the heritage of our ancestors? And what, if anything, can we do to influence the course of the centuries to come? <br /><br />Bold, wide-ranging and provocative, Sapiens challenges everything we thought we knew about being human: our thoughts, our actions, our power ... and our future."
-          },
-          "book": {
-            "_attributes": {
-              "id": "23692271"
-            },
-            "num_pages": {
-              "_text": "512"
-            }
-          },
-          "author_name": {
-            "_text": "Yuval Noah Harari"
-          },
-          "isbn": {},
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "3"
-          },
-          "user_read_at": {
-            "_cdata": "Wed, 25 Mar 2020 21:16:56 -0700"
-          },
-          "user_date_added": {
-            "_cdata": "Wed, 25 Mar 2020 21:16:56 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Wed, 14 Jan 2015 09:33:55 -0800"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.38"
-          },
-          "book_published": {
-            "_text": "2011"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/23692271-sapiens?utm_medium=api&amp;utm_source=rss\"><img alt=\"Sapiens: A Brief History of Humankind\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1595674533l/23692271._SY75_.jpg\" /></a><br/>\n                                      author: Yuval Noah Harari<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.38<br/>\n                                      book published: 2011<br/>\n                                      rating: 3<br/>\n                                      read at: 2020/03/25<br/>\n                                      date added: 2020/03/25<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

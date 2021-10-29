@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Thu, 11 Sep 2014 15:29:37 -0700"
+        "_text": "Sun, 09 Nov 2014 19:57:28 -0800"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/758122223?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sun, 09 Nov 2014 19:57:28 -0800"
+          },
+          "title": {
+            "_cdata": "The Straight-A Conspiracy: A Student's Secret Guide to Ending the Stress of High School and Totally Ruling the World"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/758122223?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "15829488"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1345027756l/15829488._SX50_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1345027756l/15829488._SX50_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1345027756l/15829488._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1345027756l/15829488.jpg"
+          },
+          "book_description": {
+            "_cdata": "What if the only reason you aren’t doing well in school is that you’ve been lied to about your own brain? For centuries, students worldwide have been tricked into making school more difficult, more stressful, and less successful than it needs to be. In reality, you already have the ability to make anything that you do in school easy. From writing essays to mastering any math concept to acing even your most difficult final exam, The Straight-A Conspiracy takes you through the simple, stress-free ways to conquer any class in school. The truth about straight-A’s has been kept from you. It’s time you knew about The Straight-A Conspiracy."
+          },
+          "book": {
+            "_attributes": {
+              "id": "15829488"
+            },
+            "num_pages": {
+              "_text": "336"
+            }
+          },
+          "author_name": {
+            "_text": "Hunter Maats"
+          },
+          "isbn": {
+            "_text": "1456477145"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "4"
+          },
+          "user_read_at": {
+            "_cdata": "Sun, 09 Nov 2014 19:57:16 -0800"
+          },
+          "user_date_added": {
+            "_cdata": "Sun, 09 Nov 2014 19:57:28 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Wed, 06 Nov 2013 01:12:06 -0800"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.23"
+          },
+          "book_published": {
+            "_text": "2012"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/15829488-the-straight-a-conspiracy?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Straight-A Conspiracy: A Student&#39;s Secret Guide to Ending the Stress of High School and Totally Ruling the World\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1345027756l/15829488._SX50_.jpg\" /></a><br/>\n                                      author: Hunter Maats<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.23<br/>\n                                      book published: 2012<br/>\n                                      rating: 4<br/>\n                                      read at: 2014/11/09<br/>\n                                      date added: 2014/11/09<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/1052402754?utm_medium=api&utm_source=rss"
