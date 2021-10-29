@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Thu, 28 Oct 2021 22:47:43 -0700"
+        "_text": "Fri, 29 Oct 2021 05:31:46 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4219358767?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Fri, 29 Oct 2021 05:31:46 -0700"
+          },
+          "title": {
+            "_cdata": "The Last Kingdom (The Saxon Stories, #1)"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4219358767?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "68527"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1407107780l/68527._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1407107780l/68527._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1407107780l/68527._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1407107780l/68527.jpg"
+          },
+          "book_description": {
+            "_cdata": "This is the story of the making of England in the 9th and 10th centuries, the years in which King Alfred the Great, his son and grandson defeated the Danish Vikings who had invaded and occupied three of England’s four kingdoms.<br /><br />The story is seen through the eyes of Uhtred, a dispossessed nobleman, who is captured as a child by the Danes and then raised by them so that, by the time the Northmen begin their assault on Wessex (Alfred’s kingdom and the last territory in English hands) Uhtred almost thinks of himself as a Dane. He certainly has no love for Alfred, whom he considers a pious weakling and no match for Viking savagery, yet when Alfred unexpectedly defeats the Danes and the Danes themselves turn on Uhtred, he is finally forced to choose sides. By now he is a young man, in love, trained to fight and ready to take his place in the dreaded shield wall. Above all, though, he wishes to recover his father’s land, the enchanting fort of Bebbanburg by the wild northern sea.<br /><br />This thrilling adventure—based on existing records of Bernard Cornwell’s ancestors—depicts a time when law and order were ripped violently apart by a pagan assault on Christian England, an assault that came very close to destroying England."
+          },
+          "book": {
+            "_attributes": {
+              "id": "68527"
+            },
+            "num_pages": {
+              "_text": "351"
+            }
+          },
+          "author_name": {
+            "_text": "Bernard Cornwell"
+          },
+          "isbn": {
+            "_text": "0060887184"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Fri, 29 Oct 2021 05:31:46 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Sat, 04 Sep 2021 21:04:50 -0700"
+          },
+          "user_shelves": {
+            "_text": "currently-reading"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.24"
+          },
+          "book_published": {
+            "_text": "2004"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/68527.The_Last_Kingdom?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Last Kingdom (The Saxon Stories, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1407107780l/68527._SY75_.jpg\" /></a><br/>\n                                      author: Bernard Cornwell<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.24<br/>\n                                      book published: 2004<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/10/29<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/4311713699?utm_medium=api&utm_source=rss"
@@ -134,78 +206,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/50489364-the-light-ages?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Light Ages: The Surprising Story of Medieval Science\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1602621879l/50489364._SY75_.jpg\" /></a><br/>\n                                      author: Seb Falk<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.68<br/>\n                                      book published: 2020<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/10/28<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/4219358767?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Wed, 27 Oct 2021 01:32:17 -0700"
-          },
-          "title": {
-            "_cdata": "The Last Kingdom (The Saxon Stories, #1)"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/4219358767?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "68527"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1407107780l/68527._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1407107780l/68527._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1407107780l/68527._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1407107780l/68527.jpg"
-          },
-          "book_description": {
-            "_cdata": "This is the story of the making of England in the 9th and 10th centuries, the years in which King Alfred the Great, his son and grandson defeated the Danish Vikings who had invaded and occupied three of England’s four kingdoms.<br /><br />The story is seen through the eyes of Uhtred, a dispossessed nobleman, who is captured as a child by the Danes and then raised by them so that, by the time the Northmen begin their assault on Wessex (Alfred’s kingdom and the last territory in English hands) Uhtred almost thinks of himself as a Dane. He certainly has no love for Alfred, whom he considers a pious weakling and no match for Viking savagery, yet when Alfred unexpectedly defeats the Danes and the Danes themselves turn on Uhtred, he is finally forced to choose sides. By now he is a young man, in love, trained to fight and ready to take his place in the dreaded shield wall. Above all, though, he wishes to recover his father’s land, the enchanting fort of Bebbanburg by the wild northern sea.<br /><br />This thrilling adventure—based on existing records of Bernard Cornwell’s ancestors—depicts a time when law and order were ripped violently apart by a pagan assault on Christian England, an assault that came very close to destroying England."
-          },
-          "book": {
-            "_attributes": {
-              "id": "68527"
-            },
-            "num_pages": {
-              "_text": "351"
-            }
-          },
-          "author_name": {
-            "_text": "Bernard Cornwell"
-          },
-          "isbn": {
-            "_text": "0060887184"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Wed, 27 Oct 2021 01:32:17 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Sat, 04 Sep 2021 21:04:50 -0700"
-          },
-          "user_shelves": {
-            "_text": "currently-reading"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.24"
-          },
-          "book_published": {
-            "_text": "2004"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/68527.The_Last_Kingdom?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Last Kingdom (The Saxon Stories, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1407107780l/68527._SY75_.jpg\" /></a><br/>\n                                      author: Bernard Cornwell<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.24<br/>\n                                      book published: 2004<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/10/27<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>\n                                      "
           }
         },
         {
