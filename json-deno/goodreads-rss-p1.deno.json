@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Sat, 30 Oct 2021 23:00:08 -0700"
+        "_text": "Sun, 31 Oct 2021 01:00:32 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4277942521?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sun, 31 Oct 2021 01:00:32 -0700"
+          },
+          "title": {
+            "_text": "The Aleph and Other Stories"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4277942521?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "5787"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1622617703l/5787._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1622617703l/5787._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1622617703l/5787._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1622617703l/5787._SY475_.jpg"
+          },
+          "book_description": {
+            "_cdata": "Full of philosophical puzzles and supernatural surprises, these stories contain some of Borges's most fully realized human characters. With uncanny insight, he takes us inside the minds of an unrepentant Nazi, an imprisoned Mayan priest, fanatical Christian theologians, a woman plotting vengeance on her father’s “killer,” and a man awaiting his assassin in a Buenos Aires guest house.  This volume also contains the hauntingly brief vignettes about literary imagination and personal identity collected in <i>The Maker</i>, which Borges wrote as failing eyesight and public fame began to undermine his sense of self.<br /><br />For more than seventy years, Penguin has been the leading publisher of classic literature in the English-speaking world. With more than 1,700 titles, Penguin Classics represents a global bookshelf of the best works throughout history and across genres and disciplines. Readers trust the series to provide authoritative texts enhanced by introductions and notes by distinguished scholars and contemporary authors, as well as up-to-date translations by award-winning translators."
+          },
+          "book": {
+            "_attributes": {
+              "id": "5787"
+            },
+            "num_pages": {
+              "_text": "210"
+            }
+          },
+          "author_name": {
+            "_text": "Jorge Luis Borges"
+          },
+          "isbn": {
+            "_text": "0142437883"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Sun, 31 Oct 2021 01:00:32 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Fri, 08 Oct 2021 02:13:00 -0700"
+          },
+          "user_shelves": {
+            "_text": "currently-reading"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.45"
+          },
+          "book_published": {
+            "_text": "1949"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/5787.The_Aleph_and_Other_Stories?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Aleph and Other Stories\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1622617703l/5787._SY75_.jpg\" /></a><br/>\n                                      author: Jorge Luis Borges<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.45<br/>\n                                      book published: 1949<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/10/31<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/1199330721?utm_medium=api&utm_source=rss"
@@ -134,78 +206,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/22328555-to-explain-the-world?utm_medium=api&amp;utm_source=rss\"><img alt=\"To Explain the World: The Discovery of Modern Science\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1410766672l/22328555._SY75_.jpg\" /></a><br/>\n                                      author: Steven Weinberg<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.77<br/>\n                                      book published: 2015<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/10/30<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/4277942521?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sat, 30 Oct 2021 21:38:48 -0700"
-          },
-          "title": {
-            "_text": "The Aleph and Other Stories"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/4277942521?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "5787"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1622617703l/5787._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1622617703l/5787._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1622617703l/5787._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1622617703l/5787._SY475_.jpg"
-          },
-          "book_description": {
-            "_cdata": "Full of philosophical puzzles and supernatural surprises, these stories contain some of Borges's most fully realized human characters. With uncanny insight, he takes us inside the minds of an unrepentant Nazi, an imprisoned Mayan priest, fanatical Christian theologians, a woman plotting vengeance on her father’s “killer,” and a man awaiting his assassin in a Buenos Aires guest house.  This volume also contains the hauntingly brief vignettes about literary imagination and personal identity collected in <i>The Maker</i>, which Borges wrote as failing eyesight and public fame began to undermine his sense of self.<br /><br />For more than seventy years, Penguin has been the leading publisher of classic literature in the English-speaking world. With more than 1,700 titles, Penguin Classics represents a global bookshelf of the best works throughout history and across genres and disciplines. Readers trust the series to provide authoritative texts enhanced by introductions and notes by distinguished scholars and contemporary authors, as well as up-to-date translations by award-winning translators."
-          },
-          "book": {
-            "_attributes": {
-              "id": "5787"
-            },
-            "num_pages": {
-              "_text": "210"
-            }
-          },
-          "author_name": {
-            "_text": "Jorge Luis Borges"
-          },
-          "isbn": {
-            "_text": "0142437883"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Sat, 30 Oct 2021 21:38:48 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Fri, 08 Oct 2021 02:13:00 -0700"
-          },
-          "user_shelves": {
-            "_text": "currently-reading"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.45"
-          },
-          "book_published": {
-            "_text": "1949"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/5787.The_Aleph_and_Other_Stories?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Aleph and Other Stories\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1622617703l/5787._SY75_.jpg\" /></a><br/>\n                                      author: Jorge Luis Borges<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.45<br/>\n                                      book published: 1949<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/10/30<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>\n                                      "
           }
         },
         {
