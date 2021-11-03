@@ -699,13 +699,13 @@
           "user_shelves": {},
           "user_review": {},
           "average_rating": {
-            "_text": "4.09"
+            "_text": "4.10"
           },
           "book_published": {
             "_text": "1890"
           },
           "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/5297.The_Picture_of_Dorian_Gray?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Picture of Dorian Gray\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546103428l/5297._SY75_.jpg\" /></a><br/>\n                                      author: Oscar Wilde<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.09<br/>\n                                      book published: 1890<br/>\n                                      rating: 5<br/>\n                                      read at: 2021/10/18<br/>\n                                      date added: 2021/10/18<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/5297.The_Picture_of_Dorian_Gray?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Picture of Dorian Gray\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546103428l/5297._SY75_.jpg\" /></a><br/>\n                                      author: Oscar Wilde<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.10<br/>\n                                      book published: 1890<br/>\n                                      rating: 5<br/>\n                                      read at: 2021/10/18<br/>\n                                      date added: 2021/10/18<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
           }
         },
         {
