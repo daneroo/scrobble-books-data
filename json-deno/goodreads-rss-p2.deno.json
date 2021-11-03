@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Tue, 06 Jul 2021 00:34:17 -0700"
+        "_text": "Fri, 09 Jul 2021 16:35:59 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4057566658?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Fri, 09 Jul 2021 16:35:59 -0700"
+          },
+          "title": {
+            "_cdata": "The Player of Games (Culture, #2)"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4057566658?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "18630"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386922873l/18630._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386922873l/18630._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386922873l/18630._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386922873l/18630.jpg"
+          },
+          "book_description": {
+            "_cdata": "The Culture - a humanoid/machine symbiotic society - has thrown up many great Game Players. One of the best is Jernau Morat Gurgeh, Player of Games, master of every board, computer and strategy. Bored with success, Gurgeh travels to the Empire of Azad, cruel &amp; incredibly wealthy, to try their fabulous game, a game so complex, so like life itself, that the winner becomes emperor. Mocked, blackmailed, almost murdered, Gurgeh accepts the game and with it the challenge of his life, and very possibly his death."
+          },
+          "book": {
+            "_attributes": {
+              "id": "18630"
+            },
+            "num_pages": {
+              "_text": "293"
+            }
+          },
+          "author_name": {
+            "_text": "Iain M. Banks"
+          },
+          "isbn": {
+            "_text": "0061053562"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "5"
+          },
+          "user_read_at": {
+            "_cdata": "Fri, 09 Jul 2021 16:35:59 -0700"
+          },
+          "user_date_added": {
+            "_cdata": "Fri, 09 Jul 2021 16:35:59 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Mon, 14 Jun 2021 01:47:38 -0700"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.26"
+          },
+          "book_published": {
+            "_text": "1988"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/18630.The_Player_of_Games?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Player of Games (Culture, #2)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386922873l/18630._SY75_.jpg\" /></a><br/>\n                                      author: Iain M. Banks<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.26<br/>\n                                      book published: 1988<br/>\n                                      rating: 5<br/>\n                                      read at: 2021/07/09<br/>\n                                      date added: 2021/07/09<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/4090256573?utm_medium=api&utm_source=rss"
@@ -7156,78 +7228,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/23753412-homage-to-catalonia?utm_medium=api&amp;utm_source=rss\"><img alt=\"Homage to Catalonia\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1427539150l/23753412._SY75_.jpg\" /></a><br/>\n                                      author: George Orwell<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.29<br/>\n                                      book published: 1938<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/02/25<br/>\n                                      date added: 2021/02/25<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3847059162?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Fri, 19 Feb 2021 00:45:15 -0800"
-          },
-          "title": {
-            "_cdata": "Behave: The Biology of Humans at Our Best and Worst"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3847059162?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "31170723"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1517732866l/31170723._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1517732866l/31170723._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1517732866l/31170723._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1517732866l/31170723._SY475_.jpg"
-          },
-          "book_description": {
-            "_cdata": "<b>Why do we do the things we do?</b><br /><br />More than a decade in the making, this game-changing book is Robert Sapolsky's genre-shattering attempt to answer that question as fully as perhaps only he could, looking at it from every angle. Sapolsky's storytelling concept is delightful but it also has a powerful intrinsic logic: he starts by looking at the factors that bear on a person's reaction in the precise moment a behavior occurs, and then hops back in time from there, in stages, ultimately ending up at the deep history of our species and its evolutionary legacy.<br /><br />And so the first category of explanation is the neurobiological one. A behavior occurs--whether an example of humans at our best, worst, or somewhere in between. What went on in a person's brain a second before the behavior happened? Then Sapolsky pulls out to a slightly larger field of vision, a little earlier in time: What sight, sound, or smell caused the nervous system to produce that behavior? And then, what hormones acted hours to days earlier to change how responsive that individual is to the stimuli that triggered the nervous system? By now he has increased our field of vision so that we are thinking about neurobiology and the sensory world of our environment and endocrinology in trying to explain what happened.<br /><br />Sapolsky keeps going: How was that behavior influenced by structural changes in the nervous system over the preceding months, by that person's adolescence, childhood, fetal life, and then back to his or her genetic makeup? Finally, he expands the view to encompass factors larger than one individual. How did culture shape that individual's group, what ecological factors millennia old formed that culture? And on and on, back to evolutionary factors millions of years old.<br /><br />The result is one of the most dazzling tours d'horizon of the science of human behavior ever attempted, a majestic synthesis that harvests cutting-edge research across a range of disciplines to provide a subtle and nuanced perspective on why we ultimately do the things we do...for good and for ill. Sapolsky builds on this understanding to wrestle with some of our deepest and thorniest questions relating to tribalism and xenophobia, hierarchy and competition, morality and free will, and war and peace. Wise, humane, often very funny, <i>Behave</i> is a towering achievement, powerfully humanizing, and downright heroic in its own right."
-          },
-          "book": {
-            "_attributes": {
-              "id": "31170723"
-            },
-            "num_pages": {
-              "_text": "790"
-            }
-          },
-          "author_name": {
-            "_text": "Robert M. Sapolsky"
-          },
-          "isbn": {
-            "_text": "1594205078"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Fri, 19 Feb 2021 00:45:15 -0800"
-          },
-          "user_date_created": {
-            "_cdata": "Fri, 19 Feb 2021 00:45:15 -0800"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.43"
-          },
-          "book_published": {
-            "_text": "2017"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/31170723-behave?utm_medium=api&amp;utm_source=rss\"><img alt=\"Behave: The Biology of Humans at Our Best and Worst\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1517732866l/31170723._SY75_.jpg\" /></a><br/>\n                                      author: Robert M. Sapolsky<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.43<br/>\n                                      book published: 2017<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/02/19<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]
