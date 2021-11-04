@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Tue, 02 Nov 2021 21:51:04 -0700"
+        "_text": "Thu, 04 Nov 2021 16:01:41 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,76 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4322058622?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Thu, 04 Nov 2021 16:01:41 -0700"
+          },
+          "title": {
+            "_cdata": "Introducing Deno: A First Look at the Newest JavaScript Runtime"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4322058622?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "54330798"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1600742960l/54330798._SX50_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1600742960l/54330798._SX50_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1600742960l/54330798._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1600742960l/54330798.jpg"
+          },
+          "book_description": {
+            "_cdata": "Learn everything there is to know about the new secure runtime for JavaScript: Deno. A proposed replacement for Node.js envisioned and created by the same developer who wrote the first version of Node, Deno is a simple, modern and secure runtime for JavaScript and TypeScript that uses V8 and is built in Rust. This book will cover everything from its inception to the currently available version.<br /><br />You'll see how to take advantage of the security layer in order to avoid unwanted security holes, and how to use TypeScript to develop your applications without having to manually set up a build process. You'll also learn how to create and use modules without having to depend on a package manager, and much more. Armed with these newly learned concepts, by the time you finish this book, you'll be ready to build and test your own Deno applications.<br /><br />Whether you're a brand new developer to the back end with a JavaScript background or a seasoned Node.js developer looking to understand this competing technology, <i>Introducing Deno </i>will put you on the right path.<br /><br /><b> What You'll Learn</b><br /><br /><br /><br /><br />Learn why Deno was created and why it is different from Node<br />Build real applications using Deno and related technologies<br />Create backend applications with Typescript<br />Resolve how to live without npm and package.json<br />Set permissions and default behavior<br /><br /><br /><br /><br /><br /><br /><br /><br /><b>Who This Book Is For</b><br /><br />Anyone with knowledge of back-end development looking to learn a new way of doing things and those with a basic understanding of JavaScript and Node.js core concepts."
+          },
+          "book": {
+            "_attributes": {
+              "id": "54330798"
+            },
+            "num_pages": {
+              "_text": "141"
+            }
+          },
+          "author_name": {
+            "_text": "Fernando Doglio"
+          },
+          "isbn": {
+            "_text": "1484261968"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "4"
+          },
+          "user_read_at": {
+            "_cdata": "Thu, 04 Nov 2021 16:01:41 -0700"
+          },
+          "user_date_added": {
+            "_cdata": "Thu, 04 Nov 2021 16:01:41 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Thu, 04 Nov 2021 15:45:13 -0700"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.00"
+          },
+          "book_published": {},
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/54330798-introducing-deno?utm_medium=api&amp;utm_source=rss\"><img alt=\"Introducing Deno: A First Look at the Newest JavaScript Runtime\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1600742960l/54330798._SX50_.jpg\" /></a><br/>\n                                      author: Fernando Doglio<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.00<br/>\n                                      book published: <br/>\n                                      rating: 4<br/>\n                                      read at: 2021/11/04<br/>\n                                      date added: 2021/11/04<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/3843054541?utm_medium=api&utm_source=rss"
@@ -1769,11 +1839,11 @@
           },
           "user_review": {},
           "average_rating": {
-            "_text": "3.80"
+            "_text": "3.81"
           },
           "book_published": {},
           "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/57423872-twelve-caesars?utm_medium=api&amp;utm_source=rss\"><img alt=\"Twelve Caesars: Images of Power from the Ancient World to the Modern\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1618599968l/57423872._SX50_.jpg\" /></a><br/>\n                                      author: Mary Beard<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.80<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/10/06<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/57423872-twelve-caesars?utm_medium=api&amp;utm_source=rss\"><img alt=\"Twelve Caesars: Images of Power from the Ancient World to the Modern\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1618599968l/57423872._SX50_.jpg\" /></a><br/>\n                                      author: Mary Beard<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.81<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/10/06<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
           }
         },
         {
@@ -7136,78 +7206,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/13497991-the-hydrogen-sonata?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Hydrogen Sonata (Culture #10)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1340894566l/13497991._SY75_.jpg\" /></a><br/>\n                                      author: Iain M. Banks<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.13<br/>\n                                      book published: 2012<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/07/09<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/4105420607?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Fri, 09 Jul 2021 21:02:39 -0700"
-          },
-          "title": {
-            "_text": "Surface Detail (Culture #9)"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/4105420607?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "7937744"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1287893375l/7937744._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1287893375l/7937744._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1287893375l/7937744._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1287893375l/7937744.jpg"
-          },
-          "book_description": {
-            "_cdata": "It begins in the realm of the Real, where matter still matters. It begins with a murder. It will not end until the Culture has gone to war with death itself. Lededje Y'breq is one of the Intagliated, her marked body bearing witness to a family shame, her life belonging to a man whose lust for power is without limit. Prepared to risk everything for her freedom, her release, when it comes, is at a price. To put things right she will need the help of the Culture. Benevolent, enlightened and almost infinitely resourceful tho it may be, the Culture can only do so much for any individual. <br /><br />With the assistance of one of its most powerful - and arguably deranged - warships, Lededje finds herself heading into a combat zone not even sure which side the Culture is really on. <br /><br />A brutal, far-reaching war is already raging within the digital realms that store the souls of the dead and it's about to erupt into reality. It started in the realm of the Real &amp; that is where it will end. It will touch countless lives and affect entire civilizations, but at the center of it all is a young woman whose need for revenge masks another motive altogether."
-          },
-          "book": {
-            "_attributes": {
-              "id": "7937744"
-            },
-            "num_pages": {
-              "_text": "627"
-            }
-          },
-          "author_name": {
-            "_text": "Iain M. Banks"
-          },
-          "isbn": {
-            "_text": "0316123404"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Fri, 09 Jul 2021 21:02:39 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Fri, 09 Jul 2021 21:02:39 -0700"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.21"
-          },
-          "book_published": {
-            "_text": "2010"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/7937744-surface-detail?utm_medium=api&amp;utm_source=rss\"><img alt=\"Surface Detail (Culture #9)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1287893375l/7937744._SY75_.jpg\" /></a><br/>\n                                      author: Iain M. Banks<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.21<br/>\n                                      book published: 2010<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/07/09<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

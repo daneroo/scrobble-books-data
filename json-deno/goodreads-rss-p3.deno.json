@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Fri, 19 Feb 2021 00:45:15 -0800"
+        "_text": "Thu, 25 Feb 2021 23:54:44 -0800"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,76 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3826890124?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Thu, 25 Feb 2021 23:54:44 -0800"
+          },
+          "title": {
+            "_text": "Homage to Catalonia"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3826890124?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "23753412"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1427539150l/23753412._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1427539150l/23753412._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1427539150l/23753412._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1427539150l/23753412.jpg"
+          },
+          "book_description": {
+            "_cdata": "At the height of the Spanish Civil War, George Orwell served from 1936-1937 as a private for the POUM, the Workers' Party of Marxist Unification, an anti-Stalinist communist party. Seriously wounded in action and betrayed by the Communist Party, Orwell and his wife, Eileen, narrowly escaped arrest and returned to England in early summer 1937. Homage to Catalonia is Orwell’s moving account of his experiences during this period, capturing both his commitment to socialist ideals and his criticism of the Communists in Spain."
+          },
+          "book": {
+            "_attributes": {
+              "id": "23753412"
+            },
+            "num_pages": {
+              "_text": "191"
+            }
+          },
+          "author_name": {
+            "_text": "George Orwell"
+          },
+          "isbn": {},
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "4"
+          },
+          "user_read_at": {
+            "_cdata": "Thu, 25 Feb 2021 23:53:40 -0800"
+          },
+          "user_date_added": {
+            "_cdata": "Thu, 25 Feb 2021 23:54:44 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Mon, 08 Feb 2021 18:00:33 -0800"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.29"
+          },
+          "book_published": {
+            "_text": "1938"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/23753412-homage-to-catalonia?utm_medium=api&amp;utm_source=rss\"><img alt=\"Homage to Catalonia\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1427539150l/23753412._SY75_.jpg\" /></a><br/>\n                                      author: George Orwell<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.29<br/>\n                                      book published: 1938<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/02/25<br/>\n                                      date added: 2021/02/25<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/3847059162?utm_medium=api&utm_source=rss"
@@ -7102,80 +7172,6 @@
           "book_published": {},
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/40540906-the-astronomical-almanac-2019---2023?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Astronomical Almanac (2019 - 2023): A Comprehensive Guide to Night Sky Events\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1529160208l/40540906._SX50_.jpg\" /></a><br/>\n                                      author: Richard J Bartlett<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.00<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: 2020/03/31<br/>\n                                      date added: 2020/03/31<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/510094631?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Mon, 30 Mar 2020 16:45:46 -0700"
-          },
-          "title": {
-            "_text": "Thinking, Fast and Slow"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/510094631?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "11468377"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1317793965l/11468377._SX50_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1317793965l/11468377._SX50_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1317793965l/11468377._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1317793965l/11468377.jpg"
-          },
-          "book_description": {
-            "_cdata": "In the highly anticipated <i>Thinking, Fast and Slow</i>, Kahneman takes us on a groundbreaking tour of the mind and explains the two systems that drive the way we think. System 1 is fast, intuitive, and emotional; System 2 is slower, more deliberative, and more logical. Kahneman exposes the extraordinary capabilities—and also the faults and biases—of fast thinking, and reveals the pervasive influence of intuitive impressions on our thoughts and behavior. The impact of loss aversion and overconfidence on corporate strategies, the difficulties of predicting what will make us happy in the future, the challenges of properly framing risks at work and at home, the profound effect of cognitive biases on everything from playing the stock market to planning the next vacation—each of these can be understood only by knowing how the two systems work together to shape our judgments and decisions.<br /><br />Engaging the reader in a lively conversation about how we think, Kahneman reveals where we can and cannot trust our intuitions and how we can tap into the benefits of slow thinking. He offers practical and enlightening insights into how choices are made in both our business and our personal lives—and how we can use different techniques to guard against the mental glitches that often get us into trouble. <i>Thinking, Fast and Slow</i> will transform the way you think about thinking."
-          },
-          "book": {
-            "_attributes": {
-              "id": "11468377"
-            },
-            "num_pages": {
-              "_text": "499"
-            }
-          },
-          "author_name": {
-            "_text": "Daniel Kahneman"
-          },
-          "isbn": {
-            "_text": "0374275637"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "5"
-          },
-          "user_read_at": {
-            "_cdata": "Mon, 30 Mar 2020 16:45:46 -0700"
-          },
-          "user_date_added": {
-            "_cdata": "Mon, 30 Mar 2020 16:45:46 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Fri, 18 Jan 2013 10:39:01 -0800"
-          },
-          "user_shelves": {},
-          "user_review": {
-            "_cdata": "Not an easy read, but the effort is rewarded."
-          },
-          "average_rating": {
-            "_text": "4.15"
-          },
-          "book_published": {
-            "_text": "2011"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow?utm_medium=api&amp;utm_source=rss\"><img alt=\"Thinking, Fast and Slow\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1317793965l/11468377._SX50_.jpg\" /></a><br/>\n                                      author: Daniel Kahneman<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.15<br/>\n                                      book published: 2011<br/>\n                                      rating: 5<br/>\n                                      read at: 2020/03/30<br/>\n                                      date added: 2020/03/30<br/>\n                                      shelves: <br/>\n                                      review: <br/>Not an easy read, but the effort is rewarded.<br/>\n                                      "
           }
         }
       ]

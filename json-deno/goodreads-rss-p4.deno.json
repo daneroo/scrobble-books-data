@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Wed, 25 Mar 2020 21:16:56 -0700"
+        "_text": "Mon, 30 Mar 2020 16:45:46 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,80 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/510094631?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Mon, 30 Mar 2020 16:45:46 -0700"
+          },
+          "title": {
+            "_text": "Thinking, Fast and Slow"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/510094631?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "11468377"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1317793965l/11468377._SX50_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1317793965l/11468377._SX50_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1317793965l/11468377._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1317793965l/11468377.jpg"
+          },
+          "book_description": {
+            "_cdata": "In the highly anticipated <i>Thinking, Fast and Slow</i>, Kahneman takes us on a groundbreaking tour of the mind and explains the two systems that drive the way we think. System 1 is fast, intuitive, and emotional; System 2 is slower, more deliberative, and more logical. Kahneman exposes the extraordinary capabilities—and also the faults and biases—of fast thinking, and reveals the pervasive influence of intuitive impressions on our thoughts and behavior. The impact of loss aversion and overconfidence on corporate strategies, the difficulties of predicting what will make us happy in the future, the challenges of properly framing risks at work and at home, the profound effect of cognitive biases on everything from playing the stock market to planning the next vacation—each of these can be understood only by knowing how the two systems work together to shape our judgments and decisions.<br /><br />Engaging the reader in a lively conversation about how we think, Kahneman reveals where we can and cannot trust our intuitions and how we can tap into the benefits of slow thinking. He offers practical and enlightening insights into how choices are made in both our business and our personal lives—and how we can use different techniques to guard against the mental glitches that often get us into trouble. <i>Thinking, Fast and Slow</i> will transform the way you think about thinking."
+          },
+          "book": {
+            "_attributes": {
+              "id": "11468377"
+            },
+            "num_pages": {
+              "_text": "499"
+            }
+          },
+          "author_name": {
+            "_text": "Daniel Kahneman"
+          },
+          "isbn": {
+            "_text": "0374275637"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "5"
+          },
+          "user_read_at": {
+            "_cdata": "Mon, 30 Mar 2020 16:45:46 -0700"
+          },
+          "user_date_added": {
+            "_cdata": "Mon, 30 Mar 2020 16:45:46 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Fri, 18 Jan 2013 10:39:01 -0800"
+          },
+          "user_shelves": {},
+          "user_review": {
+            "_cdata": "Not an easy read, but the effort is rewarded."
+          },
+          "average_rating": {
+            "_text": "4.15"
+          },
+          "book_published": {
+            "_text": "2011"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow?utm_medium=api&amp;utm_source=rss\"><img alt=\"Thinking, Fast and Slow\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1317793965l/11468377._SX50_.jpg\" /></a><br/>\n                                      author: Daniel Kahneman<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.15<br/>\n                                      book published: 2011<br/>\n                                      rating: 5<br/>\n                                      read at: 2020/03/30<br/>\n                                      date added: 2020/03/30<br/>\n                                      shelves: <br/>\n                                      review: <br/>Not an easy read, but the effort is rewarded.<br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/1168254675?utm_medium=api&utm_source=rss"
@@ -7126,78 +7200,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/6343278-the-media-relations-department-of-hizbollah-wishes-you-a-happy-birthday?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Media Relations Department of Hizbollah Wishes You a Happy Birthday: Unexpected Encounters in the Changing Middle East\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1440379214l/6343278._SY75_.jpg\" /></a><br/>\n                                      author: Neil MacFarquhar<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.89<br/>\n                                      book published: 2009<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2014/11/19<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/775776730?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sun, 09 Nov 2014 19:58:06 -0800"
-          },
-          "title": {
-            "_text": "The 48 Laws of Power"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/775776730?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "1303"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1634897112l/1303._SX50_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1634897112l/1303._SX50_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1634897112l/1303._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1634897112l/1303._SX318_.jpg"
-          },
-          "book_description": {
-            "_cdata": "<b>Amoral, cunning, ruthless, and instructive, this multi-million-copy <i>New York Times</i> bestseller is the definitive manual for anyone interested in gaining, observing, or defending against ultimate control – from the author of <i>The Laws of Human Nature</i>.</b><br /><br />In the book that <i>People</i> magazine proclaimed “beguiling” and “fascinating,” Robert Greene and Joost Elffers have distilled three thousand years of the history of power into 48 essential laws by drawing from the philosophies of Machiavelli, Sun Tzu, and Carl Von Clausewitz and also from the lives of figures ranging from Henry Kissinger to P.T. Barnum.<br /> <br />Some laws teach the need for prudence (“Law 1: Never Outshine the Master”), others teach the value of confidence (“Law 28: Enter Action with Boldness”), and many recommend absolute self-preservation (“Law 15: Crush Your Enemy Totally”). Every law, though, has one thing in common: an interest in total domination. In a bold and arresting two-color package, <i>The 48 Laws of Power</i> is ideal whether your aim is conquest, self-defense, or simply to understand the rules of the game."
-          },
-          "book": {
-            "_attributes": {
-              "id": "1303"
-            },
-            "num_pages": {
-              "_text": "452"
-            }
-          },
-          "author_name": {
-            "_text": "Robert Greene"
-          },
-          "isbn": {
-            "_text": "0140280197"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "3"
-          },
-          "user_read_at": {
-            "_cdata": "Sun, 09 Nov 2014 19:58:06 -0800"
-          },
-          "user_date_added": {
-            "_cdata": "Sun, 09 Nov 2014 19:58:06 -0800"
-          },
-          "user_date_created": {
-            "_cdata": "Thu, 28 Nov 2013 01:26:51 -0800"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.12"
-          },
-          "book_published": {
-            "_text": "1998"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/1303.The_48_Laws_of_Power?utm_medium=api&amp;utm_source=rss\"><img alt=\"The 48 Laws of Power\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1634897112l/1303._SX50_.jpg\" /></a><br/>\n                                      author: Robert Greene<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.12<br/>\n                                      book published: 1998<br/>\n                                      rating: 3<br/>\n                                      read at: 2014/11/09<br/>\n                                      date added: 2014/11/09<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

@@ -2,6 +2,28 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "guid": "https://www.goodreads.com/review/show/4322058622?utm_medium=api&utm_source=rss",
+      "pubDate": "2021-11-04T23:01:41.000Z",
+      "title": "Introducing Deno: A First Look at the Newest JavaScript Runtime",
+      "link": "https://www.goodreads.com/review/show/4322058622?utm_medium=api&utm_source=rss",
+      "bookId": "54330798",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1600742960l/54330798._SX50_.jpg",
+      "bookDescription": "Learn everything there is to know about the new secure runtime for JavaScript: Deno. A proposed replacement for Node.js envisioned and created by the same developer who wrote the first version of Node, Deno is a simple, modern and secure runtime for JavaScript and TypeScript that uses V8 and is built in Rust. This book will cover everything from its inception to the currently available version.<br /><br />You'll see how to take advantage of the security layer in order to avoid unwanted security holes, and how to use TypeScript to develop your applications without having to manually set up a build process. You'll also learn how to create and use modules without having to depend on a package manager, and much more. Armed with these newly learned concepts, by the time you finish this book, you'll be ready to build and test your own Deno applications.<br /><br />Whether you're a brand new developer to the back end with a JavaScript background or a seasoned Node.js developer looking to understand this competing technology, <i>Introducing Deno </i>will put you on the right path.<br /><br /><b> What You'll Learn</b><br /><br /><br /><br /><br />Learn why Deno was created and why it is different from Node<br />Build real applications using Deno and related technologies<br />Create backend applications with Typescript<br />Resolve how to live without npm and package.json<br />Set permissions and default behavior<br /><br /><br /><br /><br /><br /><br /><br /><br /><b>Who This Book Is For</b><br /><br />Anyone with knowledge of back-end development looking to learn a new way of doing things and those with a basic understanding of JavaScript and Node.js core concepts.",
+      "authorName": "Fernando Doglio",
+      "isbn": "1484261968",
+      "userName": "Daniel",
+      "userRating": "4",
+      "userReadAt": "2021-11-04T23:01:41.000Z",
+      "userDateAdded": "2021-11-04T23:01:41.000Z",
+      "userDateCreated": "2021-11-04T22:45:13.000Z",
+      "userShelves": "",
+      "userReview": "",
+      "averageRating": "3.00",
+      "bookPublished": "",
+      "description": "\n      <a href=\"https://www.goodreads.com/book/show/54330798-introducing-deno?utm_medium=api&amp;utm_source=rss\"><img alt=\"Introducing Deno: A First Look at the Newest JavaScript Runtime\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1600742960l/54330798._SX50_.jpg\" /></a><br/>\n                                      author: Fernando Doglio<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.00<br/>\n                                      book published: <br/>\n                                      rating: 4<br/>\n                                      read at: 2021/11/04<br/>\n                                      date added: 2021/11/04<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      ",
+      "numPages": "141"
+    },
+    {
       "guid": "https://www.goodreads.com/review/show/3843054541?utm_medium=api&utm_source=rss",
       "pubDate": "2021-11-03T04:51:04.000Z",
       "title": "The Fifth Season (The Broken Earth, #1)",
@@ -524,9 +546,9 @@
       "userDateCreated": "2021-10-07T06:18:09.000Z",
       "userShelves": "on-deck",
       "userReview": "",
-      "averageRating": "3.80",
+      "averageRating": "3.81",
       "bookPublished": "",
-      "description": "\n      <a href=\"https://www.goodreads.com/book/show/57423872-twelve-caesars?utm_medium=api&amp;utm_source=rss\"><img alt=\"Twelve Caesars: Images of Power from the Ancient World to the Modern\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1618599968l/57423872._SX50_.jpg\" /></a><br/>\n                                      author: Mary Beard<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.80<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/10/06<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      ",
+      "description": "\n      <a href=\"https://www.goodreads.com/book/show/57423872-twelve-caesars?utm_medium=api&amp;utm_source=rss\"><img alt=\"Twelve Caesars: Images of Power from the Ancient World to the Modern\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1618599968l/57423872._SX50_.jpg\" /></a><br/>\n                                      author: Mary Beard<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.81<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/10/06<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      ",
       "numPages": "384"
     },
     {
