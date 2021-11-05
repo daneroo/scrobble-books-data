@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Fri, 12 Mar 2021 20:05:05 -0800"
+        "_text": "Fri, 12 Mar 2021 20:05:45 -0800"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3821083602?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Fri, 12 Mar 2021 20:05:45 -0800"
+          },
+          "title": {
+            "_cdata": "All Art is Propaganda: Critical Essays"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3821083602?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "3339527"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328834302l/3339527._SX50_SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328834302l/3339527._SX50_SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328834302l/3339527._SX98_SY160_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328834302l/3339527._SX318_SY475_.jpg"
+          },
+          "book_description": {
+            "_cdata": "As a critic, George Orwell cast a wide net. Equally at home discussing Charles Dickens and Charlie Chaplin, he moved back and forth across the porous borders between essay and journalism, high art and low. A frequent commentator on literature, language, film, and drama throughout his career, Orwell turned increasingly to the critical essay in the 1940s, when his most important experiences were behind him and some of his most incisive writing lay ahead. <i>All Art Is Propaganda</i> follows Orwell as he demonstrates in piece after piece how intent analysis of a work or body of work gives rise to trenchant aesthetic and philosophical commentary.\"how to be interesting, line after line.\"<br /><br />Contents:<br />Charles Dickens<br />Boys' Weeklies<br />Inside the Whale<br />Drama Reviews: <i>The Tempest, The Peaceful Inn</i><br />Film Review: <i>The Great Dictator</i><br />Wells, Hitler and the World State<br />The Art of Donald McGill<br />No, Not One<br />Rudyard Kipling<br />T.S. Eliot<br />Can Socialists Be Happy?<br />Benefit of Clergy: Some Notes on Salvador Dali<br />Propaganda and Demotic Speech<br />Raffles and Miss Blandish<br />Good Bad Books<br />The Prevention of Literature<br />Politics and the English Language<br />Confessions of a Book Reviewer<br />Politics vs. Literature: An Examination of <i>Gulliver's Travels</i><br />Lear, Tolstoy and the Fool<br />Writers and Leviathan<br />Review of <i>The Heart of the Matter</i> by Graham Greene<br />Reflections on Gandhi"
+          },
+          "book": {
+            "_attributes": {
+              "id": "3339527"
+            },
+            "num_pages": {
+              "_text": "374"
+            }
+          },
+          "author_name": {
+            "_text": "George Orwell"
+          },
+          "isbn": {
+            "_text": "0151013551"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Fri, 12 Mar 2021 20:05:45 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Fri, 05 Feb 2021 23:57:58 -0800"
+          },
+          "user_shelves": {
+            "_text": "on-deck"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.22"
+          },
+          "book_published": {
+            "_text": "1941"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/3339527-all-art-is-propaganda?utm_medium=api&amp;utm_source=rss\"><img alt=\"All Art is Propaganda: Critical Essays\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328834302l/3339527._SX50_SY75_.jpg\" /></a><br/>\n                                      author: George Orwell<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.22<br/>\n                                      book published: 1941<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/03/12<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/3821083632?utm_medium=api&utm_source=rss"
@@ -5258,78 +5330,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/886066.Matter?utm_medium=api&amp;utm_source=rss\"><img alt=\"Matter (Culture, #8)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327954631l/886066._SY75_.jpg\" /></a><br/>\n                                      author: Iain M. Banks<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.06<br/>\n                                      book published: 2008<br/>\n                                      rating: 5<br/>\n                                      read at: <br/>\n                                      date added: 2020/08/28<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3511999225?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sun, 23 Aug 2020 22:55:00 -0700"
-          },
-          "title": {
-            "_cdata": "Spacetime and Geometry: An Introduction to General Relativity"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3511999225?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "259680"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386924897l/259680._SX50_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386924897l/259680._SX50_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386924897l/259680._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386924897l/259680.jpg"
-          },
-          "book_description": {
-            "_cdata": "<i>Spacetime and Geometry: An Introduction to General Relativity</i> provides a lucid and thoroughly modern introduction to general relativity. With an accessible and lively writing style, it introduces modern techniques to what can often be a formal and intimidating subject. Readers are led from the physics of flat spacetime (special relativity), through the intricacies of differential geometry and Einstein's equations, and on to exciting applications such as black holes, gravitational radiation, and cosmology."
-          },
-          "book": {
-            "_attributes": {
-              "id": "259680"
-            },
-            "num_pages": {
-              "_text": "528"
-            }
-          },
-          "author_name": {
-            "_text": "Sean Carroll"
-          },
-          "isbn": {
-            "_text": "0805387323"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Sun, 23 Aug 2020 22:55:00 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Sun, 23 Aug 2020 22:55:00 -0700"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.30"
-          },
-          "book_published": {
-            "_text": "2003"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/259680.Spacetime_and_Geometry?utm_medium=api&amp;utm_source=rss\"><img alt=\"Spacetime and Geometry: An Introduction to General Relativity\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386924897l/259680._SX50_.jpg\" /></a><br/>\n                                      author: Sean Carroll<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.30<br/>\n                                      book published: 2003<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2020/08/23<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
           }
         },
         {

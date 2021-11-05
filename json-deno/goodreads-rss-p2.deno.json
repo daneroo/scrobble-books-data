@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Sat, 10 Jul 2021 17:32:09 -0700"
+        "_text": "Sat, 10 Jul 2021 18:41:23 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4106983163?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sat, 10 Jul 2021 18:41:23 -0700"
+          },
+          "title": {
+            "_cdata": "Revelation Space (Revelation Space, #1)"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4106983163?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "89187"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1405532042l/89187._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1405532042l/89187._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1405532042l/89187._SY160_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1405532042l/89187.jpg"
+          },
+          "book_description": {
+            "_cdata": "Nine hundred thousand years ago, something annihilated the Amarantin civilization just as it was on the verge of discovering space flight. Now one scientist, Dan Sylveste, will stop at nothing to solve the Amarantin riddle before ancient history repeats itself. With no other resources at his disposal, Sylveste forges a dangerous alliance with the cyborg crew of the starship <em>Nostalgia for Infinity</em>. But as he closes in on the secret, a killer closes in on him. Because the Amarantin were destroyed for a reason — and if that reason is uncovered, the universe—and reality itself — could be irrecoverably altered…."
+          },
+          "book": {
+            "_attributes": {
+              "id": "89187"
+            },
+            "num_pages": {
+              "_text": "585"
+            }
+          },
+          "author_name": {
+            "_text": "Alastair Reynolds"
+          },
+          "isbn": {
+            "_text": "0441009425"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Sat, 10 Jul 2021 18:41:23 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Sat, 10 Jul 2021 18:41:22 -0700"
+          },
+          "user_shelves": {
+            "_text": "on-deck"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.99"
+          },
+          "book_published": {
+            "_text": "2000"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/89187.Revelation_Space?utm_medium=api&amp;utm_source=rss\"><img alt=\"Revelation Space (Revelation Space, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1405532042l/89187._SY75_.jpg\" /></a><br/>\n                                      author: Alastair Reynolds<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.99<br/>\n                                      book published: 2000<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/07/10<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/4106894126?utm_medium=api&utm_source=rss"
@@ -7160,78 +7232,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/12443235-the-wealthy-barber-returns?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Wealthy Barber Returns\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1331500437l/12443235._SY75_.jpg\" /></a><br/>\n                                      author: David Chilton<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.90<br/>\n                                      book published: 2011<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/03/13<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3821083602?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Fri, 12 Mar 2021 20:05:45 -0800"
-          },
-          "title": {
-            "_cdata": "All Art is Propaganda: Critical Essays"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3821083602?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "3339527"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328834302l/3339527._SX50_SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328834302l/3339527._SX50_SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328834302l/3339527._SX98_SY160_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328834302l/3339527._SX318_SY475_.jpg"
-          },
-          "book_description": {
-            "_cdata": "As a critic, George Orwell cast a wide net. Equally at home discussing Charles Dickens and Charlie Chaplin, he moved back and forth across the porous borders between essay and journalism, high art and low. A frequent commentator on literature, language, film, and drama throughout his career, Orwell turned increasingly to the critical essay in the 1940s, when his most important experiences were behind him and some of his most incisive writing lay ahead. <i>All Art Is Propaganda</i> follows Orwell as he demonstrates in piece after piece how intent analysis of a work or body of work gives rise to trenchant aesthetic and philosophical commentary.\"how to be interesting, line after line.\"<br /><br />Contents:<br />Charles Dickens<br />Boys' Weeklies<br />Inside the Whale<br />Drama Reviews: <i>The Tempest, The Peaceful Inn</i><br />Film Review: <i>The Great Dictator</i><br />Wells, Hitler and the World State<br />The Art of Donald McGill<br />No, Not One<br />Rudyard Kipling<br />T.S. Eliot<br />Can Socialists Be Happy?<br />Benefit of Clergy: Some Notes on Salvador Dali<br />Propaganda and Demotic Speech<br />Raffles and Miss Blandish<br />Good Bad Books<br />The Prevention of Literature<br />Politics and the English Language<br />Confessions of a Book Reviewer<br />Politics vs. Literature: An Examination of <i>Gulliver's Travels</i><br />Lear, Tolstoy and the Fool<br />Writers and Leviathan<br />Review of <i>The Heart of the Matter</i> by Graham Greene<br />Reflections on Gandhi"
-          },
-          "book": {
-            "_attributes": {
-              "id": "3339527"
-            },
-            "num_pages": {
-              "_text": "374"
-            }
-          },
-          "author_name": {
-            "_text": "George Orwell"
-          },
-          "isbn": {
-            "_text": "0151013551"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Fri, 12 Mar 2021 20:05:45 -0800"
-          },
-          "user_date_created": {
-            "_cdata": "Fri, 05 Feb 2021 23:57:58 -0800"
-          },
-          "user_shelves": {
-            "_text": "on-deck"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.22"
-          },
-          "book_published": {
-            "_text": "1941"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/3339527-all-art-is-propaganda?utm_medium=api&amp;utm_source=rss\"><img alt=\"All Art is Propaganda: Critical Essays\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328834302l/3339527._SX50_SY75_.jpg\" /></a><br/>\n                                      author: George Orwell<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.22<br/>\n                                      book published: 1941<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/03/12<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]
