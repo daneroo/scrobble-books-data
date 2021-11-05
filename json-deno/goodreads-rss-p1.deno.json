@@ -127,11 +127,11 @@
           "user_shelves": {},
           "user_review": {},
           "average_rating": {
-            "_text": "3.00"
+            "_text": "3.33"
           },
           "book_published": {},
           "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/54330798-introducing-deno?utm_medium=api&amp;utm_source=rss\"><img alt=\"Introducing Deno: A First Look at the Newest JavaScript Runtime\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1600742960l/54330798._SX50_.jpg\" /></a><br/>\n                                      author: Fernando Doglio<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.00<br/>\n                                      book published: <br/>\n                                      rating: 4<br/>\n                                      read at: 2021/11/04<br/>\n                                      date added: 2021/11/04<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/54330798-introducing-deno?utm_medium=api&amp;utm_source=rss\"><img alt=\"Introducing Deno: A First Look at the Newest JavaScript Runtime\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1600742960l/54330798._SX50_.jpg\" /></a><br/>\n                                      author: Fernando Doglio<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.33<br/>\n                                      book published: <br/>\n                                      rating: 4<br/>\n                                      read at: 2021/11/04<br/>\n                                      date added: 2021/11/04<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
           }
         },
         {
@@ -3907,13 +3907,13 @@
           "user_shelves": {},
           "user_review": {},
           "average_rating": {
-            "_text": "4.57"
+            "_text": "4.58"
           },
           "book_published": {
             "_text": "2021"
           },
           "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/55660735-hero-of-two-worlds?utm_medium=api&amp;utm_source=rss\"><img alt=\"Hero of Two Worlds: The Marquis de Lafayette in the Age of Revolution\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1610538038l/55660735._SY75_.jpg\" /></a><br/>\n                                      author: Mike Duncan<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.57<br/>\n                                      book published: 2021<br/>\n                                      rating: 5<br/>\n                                      read at: 2021/09/04<br/>\n                                      date added: 2021/09/04<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/55660735-hero-of-two-worlds?utm_medium=api&amp;utm_source=rss\"><img alt=\"Hero of Two Worlds: The Marquis de Lafayette in the Age of Revolution\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1610538038l/55660735._SY75_.jpg\" /></a><br/>\n                                      author: Mike Duncan<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.58<br/>\n                                      book published: 2021<br/>\n                                      rating: 5<br/>\n                                      read at: 2021/09/04<br/>\n                                      date added: 2021/09/04<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
           }
         },
         {
