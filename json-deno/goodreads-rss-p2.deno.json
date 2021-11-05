@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Fri, 09 Jul 2021 21:03:01 -0700"
+        "_text": "Sat, 10 Jul 2021 16:26:41 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,148 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4106810368?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sat, 10 Jul 2021 16:26:41 -0700"
+          },
+          "title": {
+            "_text": "Inversions (Culture, #6)"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4106810368?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "12017"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1288930844l/12017._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1288930844l/12017._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1288930844l/12017._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1288930844l/12017.jpg"
+          },
+          "book_description": {
+            "_cdata": "On a backward world with six moons, an alert spy reports on the doings of one Dr. Vosill, who has mysteriously become the personal physician to the king, despite being a foreigner and, even more unthinkably, a woman. Vosill has more enemies than she first realizes. But then she also has more remedies to hand than those who wish her ill can ever guess.<p>Elsewhere, in another palace across the mountains, a man named DeWar serves as chief bodyguard to the Protector General of Tassasen, a profession he describes as the business of \"assassinating assassins.\" DeWar, too, has his enemies, but his foes strike more swiftly, and his means of combating them are more direct.</p><p>None trust the doctor, while the bodyguard trusts no one, but what is the hidden commonality linking their disparate histories? Spiraling around a central core of mystery, deceit, love, and betrayal, <i>Inversions</i> is a dazzling work of science fiction from a versatile and imaginative author writing at the height of his remarkable powers.<br /></p><p>\n  <b>About the Author:</b>\n</p><p>Iain M. Banks, one of the United Kingdom's bestselling authors of science fiction, has written such highly-regarded novels as <i>Excession</i>, <i>Feersum Endjinn</i>, <i>Use of Weapons</i>, <i>The State of the Art</i>, and <i>Against a Dark Background</i>. As \"Iain Banks,\" he also writes mainstream novels, including <i>The Wasp Factory</i> and <i>A Song of Stone</i>. He lives in Scotland.</p>"
+          },
+          "book": {
+            "_attributes": {
+              "id": "12017"
+            },
+            "num_pages": {
+              "_text": "343"
+            }
+          },
+          "author_name": {
+            "_text": "Iain M. Banks"
+          },
+          "isbn": {
+            "_text": "074341196X"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Sat, 10 Jul 2021 16:26:41 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Sat, 10 Jul 2021 16:26:41 -0700"
+          },
+          "user_shelves": {
+            "_text": "on-deck"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.92"
+          },
+          "book_published": {
+            "_text": "1998"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/12017.Inversions?utm_medium=api&amp;utm_source=rss\"><img alt=\"Inversions (Culture, #6)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1288930844l/12017._SY75_.jpg\" /></a><br/>\n                                      author: Iain M. Banks<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.92<br/>\n                                      book published: 1998<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/07/10<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4106809878?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sat, 10 Jul 2021 16:26:20 -0700"
+          },
+          "title": {
+            "_text": "The Chrysalids"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4106809878?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "826845"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1271095852l/826845._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1271095852l/826845._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1271095852l/826845._SY160_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1271095852l/826845.jpg"
+          },
+          "book_description": {
+            "_cdata": "<b>A world paralysed by genetic mutation</b><br /><br />John Wyndham takes the reader into the anguished heart of a community where the chances of breeding true are less than fifty per cent and where deviations are rooted out and destroyed as offences and abominations."
+          },
+          "book": {
+            "_attributes": {
+              "id": "826845"
+            },
+            "num_pages": {
+              "_text": "200"
+            }
+          },
+          "author_name": {
+            "_text": "John Wyndham"
+          },
+          "isbn": {},
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Sat, 10 Jul 2021 16:26:20 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Sat, 10 Jul 2021 16:26:20 -0700"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.93"
+          },
+          "book_published": {
+            "_text": "1955"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/826845.The_Chrysalids?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Chrysalids\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1271095852l/826845._SY75_.jpg\" /></a><br/>\n                                      author: John Wyndham<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.93<br/>\n                                      book published: 1955<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/07/10<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/4105421035?utm_medium=api&utm_source=rss"
@@ -7090,148 +7232,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/3418535-facing-unpleasant-facts?utm_medium=api&amp;utm_source=rss\"><img alt=\"Facing Unpleasant Facts: Narrative Essays\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328834305l/3418535._SY75_.jpg\" /></a><br/>\n                                      author: George Orwell<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.35<br/>\n                                      book published: 1999<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/03/12<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3649108373?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Fri, 12 Mar 2021 08:11:10 -0800"
-          },
-          "title": {
-            "_text": "Permanent Record"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3649108373?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "46223297"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1564666396l/46223297._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1564666396l/46223297._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1564666396l/46223297._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1564666396l/46223297.jpg"
-          },
-          "book_description": {
-            "_cdata": "<b>Edward Snowden, the man who risked everything to expose the US government’s system of mass surveillance, reveals for the first time the story of his life, including how he helped to build that system and what motivated him to try to bring it down.</b><br /><br />In 2013, twenty-nine-year-old Edward Snowden shocked the world when he broke with the American intelligence establishment and revealed that the United States government was secretly pursuing the means to collect every single phone call, text message, and email. The result would be an unprecedented system of mass surveillance with the ability to pry into the private lives of every person on earth. Six years later, Snowden reveals for the very first time how he helped to build this system and why he was moved to expose it.<br /><br />Spanning the bucolic Beltway suburbs of his childhood and the clandestine CIA and NSA postings of his adulthood, <i>Permanent Record</i> is the extraordinary account of a bright young man who grew up online—a man who became a spy, a whistleblower, and, in exile, the Internet’s conscience. Written with wit, grace, passion, and an unflinching candor, <i>Permanent Record</i> is a crucial memoir of our digital age and destined to be a classic."
-          },
-          "book": {
-            "_attributes": {
-              "id": "46223297"
-            },
-            "num_pages": {
-              "_text": "339"
-            }
-          },
-          "author_name": {
-            "_text": "Edward Snowden"
-          },
-          "isbn": {
-            "_text": "1250237238"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "3"
-          },
-          "user_read_at": {
-            "_cdata": "Fri, 12 Mar 2021 08:11:10 -0800"
-          },
-          "user_date_added": {
-            "_cdata": "Fri, 12 Mar 2021 08:11:10 -0800"
-          },
-          "user_date_created": {
-            "_cdata": "Tue, 17 Nov 2020 00:40:03 -0800"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.26"
-          },
-          "book_published": {
-            "_text": "2019"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/46223297-permanent-record?utm_medium=api&amp;utm_source=rss\"><img alt=\"Permanent Record\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1564666396l/46223297._SY75_.jpg\" /></a><br/>\n                                      author: Edward Snowden<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.26<br/>\n                                      book published: 2019<br/>\n                                      rating: 3<br/>\n                                      read at: 2021/03/12<br/>\n                                      date added: 2021/03/12<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3378147323?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Mon, 08 Mar 2021 11:02:47 -0800"
-          },
-          "title": {
-            "_cdata": "The Dark Forest (Remembrance of Earth’s Past, #2)"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3378147323?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "23168817"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1412064931l/23168817._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1412064931l/23168817._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1412064931l/23168817._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1412064931l/23168817.jpg"
-          },
-          "book_description": {
-            "_cdata": "This is the second novel in \"Remembrance of Earth’s Past\", the near-future trilogy written by the China's multiple-award-winning science fiction author, Cixin Liu. <br /><br />In <i>The Dark Forest</i>, Earth is reeling from the revelation of a coming alien invasion — four centuries in the future. The aliens' human collaborators have been defeated but the presence of the sophons, the subatomic particles that allow Trisolaris instant access to all human information, means that Earth's defense plans are exposed to the enemy. Only the human mind remains a secret. <br /><br />This is the motivation for the Wallfacer Project, a daring plan that grants four men enormous resources to design secret strategies hidden through deceit and misdirection from Earth and Trisolaris alike. Three of the Wallfacers are influential statesmen and scientists but the fourth is a total unknown. Luo Ji, an unambitious Chinese astronomer and sociologist, is baffled by his new status. All he knows is that he's the one Wallfacer that Trisolaris wants dead."
-          },
-          "book": {
-            "_attributes": {
-              "id": "23168817"
-            },
-            "num_pages": {
-              "_text": "512"
-            }
-          },
-          "author_name": {
-            "_text": "Liu Cixin"
-          },
-          "isbn": {},
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "4"
-          },
-          "user_read_at": {
-            "_cdata": "Mon, 08 Mar 2021 11:02:47 -0800"
-          },
-          "user_date_added": {
-            "_cdata": "Mon, 08 Mar 2021 11:02:47 -0800"
-          },
-          "user_date_created": {
-            "_cdata": "Sat, 06 Jun 2020 16:14:56 -0700"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.38"
-          },
-          "book_published": {
-            "_text": "2008"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/23168817-the-dark-forest?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Dark Forest (Remembrance of Earth’s Past, #2)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1412064931l/23168817._SY75_.jpg\" /></a><br/>\n                                      author: Liu Cixin<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.38<br/>\n                                      book published: 2008<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/03/08<br/>\n                                      date added: 2021/03/08<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Thu, 04 Nov 2021 23:34:41 -0700"
+        "_text": "Fri, 05 Nov 2021 00:08:42 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,150 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4322589027?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Fri, 05 Nov 2021 00:08:42 -0700"
+          },
+          "title": {
+            "_cdata": "The Road to Reality: A Complete Guide to the Laws of the Universe"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4322589027?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "10638"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386924912l/10638._SX50_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386924912l/10638._SX50_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386924912l/10638._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386924912l/10638.jpg"
+          },
+          "book_description": {
+            "_cdata": "Roger Penrose, one of the most accomplished scientists of our time, presents the only comprehensive and comprehensible account of the physics of the universe. From the very first attempts by the Greeks to grapple with the complexities of our known world to the latest application of infinity in physics, <i>The Road to Reality</i> carefully explores the movement of the smallest atomic particles and reaches into the vastness of intergalactic space. Here, Penrose examines the mathematical foundations of the physical universe, exposing the underlying beauty of physics and giving us one the most important works in modern science writing."
+          },
+          "book": {
+            "_attributes": {
+              "id": "10638"
+            },
+            "num_pages": {
+              "_text": "1099"
+            }
+          },
+          "author_name": {
+            "_text": "Roger Penrose"
+          },
+          "isbn": {
+            "_text": "0679776311"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Fri, 05 Nov 2021 00:08:42 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Fri, 05 Nov 2021 00:08:42 -0700"
+          },
+          "user_shelves": {
+            "_text": "on-deck"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.13"
+          },
+          "book_published": {
+            "_text": "2004"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/10638.The_Road_to_Reality?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Road to Reality: A Complete Guide to the Laws of the Universe\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386924912l/10638._SX50_.jpg\" /></a><br/>\n                                      author: Roger Penrose<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.13<br/>\n                                      book published: 2004<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/11/05<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4322588573?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Fri, 05 Nov 2021 00:07:59 -0700"
+          },
+          "title": {
+            "_cdata": "The Princeton Companion to Applied Mathematics"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4322588573?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "26254109"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1441761746l/26254109._SX50_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1441761746l/26254109._SX50_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1441761746l/26254109._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1441761746l/26254109._SX318_.jpg"
+          },
+          "book_description": {
+            "_cdata": "This is the most authoritative and accessible single-volume reference book on applied mathematics. Featuring numerous entries by leading experts and organized thematically, it introduces readers to applied mathematics and its uses; explains key concepts; describes important equations, laws, and functions; looks at exciting areas of research; covers modeling and simulation; explores areas of application; and more.<br /><br />Modeled on the popular <i>Princeton Companion to Mathematics</i>, this volume is an indispensable resource for undergraduate and graduate students, researchers, and practitioners in other disciplines seeking a user-friendly reference book on applied mathematics.<br /><br />Features nearly 200 entries organized thematically and written by an international team of distinguished contributors<br />Presents the major ideas and branches of applied mathematics in a clear and accessible way<br />Explains important mathematical concepts, methods, equations, and applications<br />Introduces the language of applied mathematics and the goals of applied mathematical research<br />Gives a wide range of examples of mathematical modeling<br />Covers continuum mechanics, dynamical systems, numerical analysis, discrete and combinatorial mathematics, mathematical physics, and much more<br />Explores the connections between applied mathematics and other disciplines<br />Includes suggestions for further reading, cross-references, and a comprehensive index"
+          },
+          "book": {
+            "_attributes": {
+              "id": "26254109"
+            },
+            "num_pages": {
+              "_text": "1032"
+            }
+          },
+          "author_name": {
+            "_text": "Nicholas J.  Higham"
+          },
+          "isbn": {
+            "_text": "0691150397"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Fri, 05 Nov 2021 00:07:59 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Fri, 05 Nov 2021 00:07:58 -0700"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.58"
+          },
+          "book_published": {
+            "_text": "2015"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/26254109-the-princeton-companion-to-applied-mathematics?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Princeton Companion to Applied Mathematics\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1441761746l/26254109._SX50_.jpg\" /></a><br/>\n                                      author: Nicholas J.  Higham<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.58<br/>\n                                      book published: 2015<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/11/05<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/4322568173?utm_medium=api&utm_source=rss"
@@ -7064,148 +7208,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/12013.Excession?utm_medium=api&amp;utm_source=rss\"><img alt=\"Excession (Culture, #5)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1288930712l/12013._SY75_.jpg\" /></a><br/>\n                                      author: Iain M. Banks<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.19<br/>\n                                      book published: 1996<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/07/10<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/4106810368?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sat, 10 Jul 2021 16:26:41 -0700"
-          },
-          "title": {
-            "_text": "Inversions (Culture, #6)"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/4106810368?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "12017"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1288930844l/12017._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1288930844l/12017._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1288930844l/12017._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1288930844l/12017.jpg"
-          },
-          "book_description": {
-            "_cdata": "On a backward world with six moons, an alert spy reports on the doings of one Dr. Vosill, who has mysteriously become the personal physician to the king, despite being a foreigner and, even more unthinkably, a woman. Vosill has more enemies than she first realizes. But then she also has more remedies to hand than those who wish her ill can ever guess.<p>Elsewhere, in another palace across the mountains, a man named DeWar serves as chief bodyguard to the Protector General of Tassasen, a profession he describes as the business of \"assassinating assassins.\" DeWar, too, has his enemies, but his foes strike more swiftly, and his means of combating them are more direct.</p><p>None trust the doctor, while the bodyguard trusts no one, but what is the hidden commonality linking their disparate histories? Spiraling around a central core of mystery, deceit, love, and betrayal, <i>Inversions</i> is a dazzling work of science fiction from a versatile and imaginative author writing at the height of his remarkable powers.<br /></p><p>\n  <b>About the Author:</b>\n</p><p>Iain M. Banks, one of the United Kingdom's bestselling authors of science fiction, has written such highly-regarded novels as <i>Excession</i>, <i>Feersum Endjinn</i>, <i>Use of Weapons</i>, <i>The State of the Art</i>, and <i>Against a Dark Background</i>. As \"Iain Banks,\" he also writes mainstream novels, including <i>The Wasp Factory</i> and <i>A Song of Stone</i>. He lives in Scotland.</p>"
-          },
-          "book": {
-            "_attributes": {
-              "id": "12017"
-            },
-            "num_pages": {
-              "_text": "343"
-            }
-          },
-          "author_name": {
-            "_text": "Iain M. Banks"
-          },
-          "isbn": {
-            "_text": "074341196X"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Sat, 10 Jul 2021 16:26:41 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Sat, 10 Jul 2021 16:26:41 -0700"
-          },
-          "user_shelves": {
-            "_text": "on-deck"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "3.92"
-          },
-          "book_published": {
-            "_text": "1998"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/12017.Inversions?utm_medium=api&amp;utm_source=rss\"><img alt=\"Inversions (Culture, #6)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1288930844l/12017._SY75_.jpg\" /></a><br/>\n                                      author: Iain M. Banks<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.92<br/>\n                                      book published: 1998<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/07/10<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/4106809878?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sat, 10 Jul 2021 16:26:20 -0700"
-          },
-          "title": {
-            "_text": "The Chrysalids"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/4106809878?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "826845"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1271095852l/826845._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1271095852l/826845._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1271095852l/826845._SY160_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1271095852l/826845.jpg"
-          },
-          "book_description": {
-            "_cdata": "<b>A world paralysed by genetic mutation</b><br /><br />John Wyndham takes the reader into the anguished heart of a community where the chances of breeding true are less than fifty per cent and where deviations are rooted out and destroyed as offences and abominations."
-          },
-          "book": {
-            "_attributes": {
-              "id": "826845"
-            },
-            "num_pages": {
-              "_text": "200"
-            }
-          },
-          "author_name": {
-            "_text": "John Wyndham"
-          },
-          "isbn": {},
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Sat, 10 Jul 2021 16:26:20 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Sat, 10 Jul 2021 16:26:20 -0700"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "3.93"
-          },
-          "book_published": {
-            "_text": "1955"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/826845.The_Chrysalids?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Chrysalids\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1271095852l/826845._SY75_.jpg\" /></a><br/>\n                                      author: John Wyndham<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.93<br/>\n                                      book published: 1955<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/07/10<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

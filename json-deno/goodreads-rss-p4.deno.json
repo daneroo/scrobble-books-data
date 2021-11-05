@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Tue, 31 Mar 2020 11:44:18 -0700"
+        "_text": "Tue, 07 Apr 2020 16:27:31 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,146 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3258673374?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Tue, 07 Apr 2020 16:27:31 -0700"
+          },
+          "title": {
+            "_cdata": "The End is Always Near: Apocalyptic Moments, from the Bronze Age Collapse to Nuclear Near Misses"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3258673374?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "49947205"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1564561209l/49947205._SX50_SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1564561209l/49947205._SX50_SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1564561209l/49947205._SX98_SY160_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1564561209l/49947205._SX318_SY475_.jpg"
+          },
+          "book_description": {
+            "_cdata": "The creator of the wildly popular award-winning podcast Hardcore History looks at some of the apocalyptic moments from the past as a way to frame the challenges of the future.<br /><br />Do tough times create tougher people? Can humanity handle the power of its weapons without destroying itself? Will human technology or capabilities ever peak or regress? No one knows the answers to such questions, but no one asks them in a more interesting way than Dan Carlin.<br /><br />In <i>The End is Always Near</i>, Dan Carlin looks at questions and historical events that force us to consider what sounds like fantasy; that we might suffer the same fate that all previous eras did. Will our world ever become a ruin for future archaeologists to dig up and explore? The questions themselves are both philosophical and like something out of The Twilight Zone.<br /><br />Combining his trademark mix of storytelling, history and weirdness Dan Carlin connects the past and future in fascinating and colorful ways. At the same time the questions he asks us to consider involve the most important issue imaginable: human survival. From the collapse of the Bronze Age to the challenges of the nuclear era the issue has hung over humanity like a persistent Sword of Damocles.<br /><br />Inspired by his podcast, <i>The End is Always Near</i> challenges the way we look at the past and ourselves. In this absorbing compendium, Carlin embarks on a whole new set of stories and major cliffhangers that will keep readers enthralled. Idiosyncratic and erudite, offbeat yet profound, <i>The End is Always Near</i> examines issues that are rarely presented, and makes the past immediately relevant to our very turbulent present."
+          },
+          "book": {
+            "_attributes": {
+              "id": "49947205"
+            },
+            "num_pages": {
+              "_text": "288"
+            }
+          },
+          "author_name": {
+            "_text": "Dan Carlin"
+          },
+          "isbn": {
+            "_text": "0008340927"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "4"
+          },
+          "user_read_at": {
+            "_cdata": "Tue, 07 Apr 2020 16:27:31 -0700"
+          },
+          "user_date_added": {
+            "_cdata": "Tue, 07 Apr 2020 16:27:31 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Wed, 01 Apr 2020 19:31:57 -0700"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.94"
+          },
+          "book_published": {
+            "_text": "2019"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/49947205-the-end-is-always-near?utm_medium=api&amp;utm_source=rss\"><img alt=\"The End is Always Near: Apocalyptic Moments, from the Bronze Age Collapse to Nuclear Near Misses\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1564561209l/49947205._SX50_SY75_.jpg\" /></a><br/>\n                                      author: Dan Carlin<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.94<br/>\n                                      book published: 2019<br/>\n                                      rating: 4<br/>\n                                      read at: 2020/04/07<br/>\n                                      date added: 2020/04/07<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3263692759?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sat, 04 Apr 2020 22:14:32 -0700"
+          },
+          "title": {
+            "_cdata": "The Second Leg Down: Strategies for Profiting after a Market Sell-Off (The Wiley Finance Series)"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3263692759?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "34369788"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1487708958l/34369788._SX50_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1487708958l/34369788._SX50_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1487708958l/34369788._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1487708958l/34369788._SX318_.jpg"
+          },
+          "book_description": {
+            "_cdata": "<b>Cut risk and generate profit even <i>after</i> the market drops</b> <p><i>The Second Leg Down</i> offers practical approaches to profiting after a market event. Written by a specialist in global macro, volatility and hedging overlay strategies, this book provides in-depth insight into surviving in a volatile environment. Historical back tests and scenario diagrams illustrate a variety of strategies for offsetting portfolio risks with after-the-fact options hedging, and the discussion explores how a mixture of trend following and contrarian futures strategies can be beneficial. Without a rational analysis-based approach, investors often find themselves having to cut risk and buy protection just as options are at their most over-priced. This book provides practical strategies, expert analysis and the knowledge base to assist you in recovering your portfolio.</p> <p>Hedging strategies are often presented as expensive and unnecessary, especially during a bull market. When equity indices and other unstable assets drop, they find themselves stuck – hedging is now at its most expensive, but it is imperative to hedge or face liquidation. This book shows you how to salvage the situation, with strategies backed by expert analysis.</p>    Identify the right hedges during high volatility   Generate attractive risk-adjusted returns   Learn new strategies for offsetting risk   Know your options for when losses have already occurred    <p>Imagine this scenario: you've incurred significant losses, you're approaching risk limits, you must cut risk immediately, yet slashing positions would damage the portfolio – what do you do? <i>The Second Leg Down</i> is your emergency hotline, with practical strategies for dire conditions.</p>"
+          },
+          "book": {
+            "_attributes": {
+              "id": "34369788"
+            },
+            "num_pages": {
+              "_text": "194"
+            }
+          },
+          "author_name": {
+            "_text": "Hari P. Krishnan"
+          },
+          "isbn": {},
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Sat, 04 Apr 2020 22:14:32 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Sat, 04 Apr 2020 22:14:32 -0700"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.24"
+          },
+          "book_published": {},
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/34369788-the-second-leg-down?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Second Leg Down: Strategies for Profiting after a Market Sell-Off (The Wiley Finance Series)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1487708958l/34369788._SX50_.jpg\" /></a><br/>\n                                      author: Hari P. Krishnan<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.24<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2020/04/04<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/2427168635?utm_medium=api&utm_source=rss"
@@ -7056,146 +7196,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/12326497-eloquent-javascript?utm_medium=api&amp;utm_source=rss\"><img alt=\"Eloquent JavaScript\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1394329863l/12326497._SX50_.jpg\" /></a><br/>\n                                      author: Marijn Haverbeke<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.15<br/>\n                                      book published: 2010<br/>\n                                      rating: 5<br/>\n                                      read at: <br/>\n                                      date added: 2014/12/14<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/1131901021?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sun, 14 Dec 2014 17:00:06 -0800"
-          },
-          "title": {
-            "_text": "JavaScript: The Good Parts"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/1131901021?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "6590008"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328327382l/6590008._SX50_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328327382l/6590008._SX50_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328327382l/6590008._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328327382l/6590008.jpg"
-          },
-          "book_description": {
-            "_cdata": "Most programming languages contain good and bad parts, but JavaScript has more than its share of the bad, having been developed and released in a hurry before it could be refined. This authoritative book scrapes away these bad features to reveal a subset of JavaScript that's more reliable, readable, and maintainable than the language as a whole-a subset you can use to create truly extensible and efficient code.<br /><br />Considered <i>the</i> JavaScript expert by many people in the development community, author Douglas Crockford identifies the abundance of good ideas that make JavaScript an outstanding object-oriented programming language-ideas such as functions, loose typing, dynamic objects, and an expressive object literal notation. Unfortunately, these good ideas are mixed in with bad and downright awful ideas, like a programming model based on global variables.<br /><br />When Java applets failed, JavaScript became the language of the Web by default, making its popularity almost completely independent of its qualities as a programming language. In <i>JavaScript: The Good Parts</i>, Crockford finally digs through the steaming pile of good intentions and blunders to give you a detailed look at all the genuinely elegant parts of JavaScript, including:<br /><br />* Syntax<br />* Objects<br />* Functions<br />* Inheritance<br />* Arrays<br />* Regular expressions<br />* Methods<br />* Style<br />* Beautiful features<br /><br />The real beauty? As you move ahead with the subset of JavaScript that this book presents, you'll also sidestep the need to <i>unlearn</i> all the bad parts. Of course, if you want to find out more about the bad parts and how to use them badly, simply consult any other JavaScript book.<br /><br />With <i>JavaScript: The Good Parts</i>, you'll discover a beautiful, elegant, lightweight and highly expressive language that lets you create effective code, whether you're managing object libraries or just trying to get Ajax to run fast. If you develop sites or applications for the Web, this book is an absolute must."
-          },
-          "book": {
-            "_attributes": {
-              "id": "6590008"
-            },
-            "num_pages": {
-              "_text": "100"
-            }
-          },
-          "author_name": {
-            "_text": "Douglas Crockford"
-          },
-          "isbn": {},
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "5"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Sun, 14 Dec 2014 17:00:06 -0800"
-          },
-          "user_date_created": {
-            "_cdata": "Sun, 14 Dec 2014 17:00:06 -0800"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.24"
-          },
-          "book_published": {
-            "_text": "2008"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/6590008-javascript?utm_medium=api&amp;utm_source=rss\"><img alt=\"JavaScript: The Good Parts\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328327382l/6590008._SX50_.jpg\" /></a><br/>\n                                      author: Douglas Crockford<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.24<br/>\n                                      book published: 2008<br/>\n                                      rating: 5<br/>\n                                      read at: <br/>\n                                      date added: 2014/12/14<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/1102127368?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sun, 07 Dec 2014 16:36:28 -0800"
-          },
-          "title": {
-            "_cdata": "The New Digital Age: Reshaping the Future of People, Nations and Business"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/1102127368?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "16096109"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1364816597l/16096109._SX50_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1364816597l/16096109._SX50_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1364816597l/16096109._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1364816597l/16096109.jpg"
-          },
-          "book_description": {
-            "_cdata": "The New Digital Age is the product of an unparalleled collaboration: full of the brilliant insights of one of Silicon Valley’s great innovators! What Bill Gates was to Microsoft and Steve Jobs was to Apple, Schmidt (along with Larry Page and Sergey Brin) was to Google. And, the Director of Google Ideas, Jared Cohen, formerly an advisor to both Secretaries of State Condoleezza Rice and Hillary Clinton.<br /><br />Never before has the future been so vividly and transparently imagined. From technologies that will change lives (information systems that greatly increase productivity, safety and our quality of life, thought controlled motion technology that can revolutionize medical procedures, and near-perfect translation technology that allows us to have more diversified interactions) to our most important future considerations (curating our online identity and fighting those who would do harm with it) to the widespread political change that will transform the globe (through transformations in conflict, increasingly active and global citizenries, a new wave of cyber-terrorism and states operating simultaneously in the physical and virtual realms) to the ever present threats to our privacy and security, Schmidt and Cohen outline in great detail and scope all the promise and peril awaiting us in the coming decades."
-          },
-          "book": {
-            "_attributes": {
-              "id": "16096109"
-            },
-            "num_pages": {
-              "_text": "336"
-            }
-          },
-          "author_name": {
-            "_text": "Eric Schmidt"
-          },
-          "isbn": {
-            "_text": "1848546203"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "3"
-          },
-          "user_read_at": {
-            "_cdata": "Sun, 07 Dec 2014 16:36:00 -0800"
-          },
-          "user_date_added": {
-            "_cdata": "Sun, 07 Dec 2014 16:36:28 -0800"
-          },
-          "user_date_created": {
-            "_cdata": "Sun, 09 Nov 2014 19:52:22 -0800"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "3.36"
-          },
-          "book_published": {
-            "_text": "2013"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/16096109-the-new-digital-age?utm_medium=api&amp;utm_source=rss\"><img alt=\"The New Digital Age: Reshaping the Future of People, Nations and Business\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1364816597l/16096109._SX50_.jpg\" /></a><br/>\n                                      author: Eric Schmidt<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.36<br/>\n                                      book published: 2013<br/>\n                                      rating: 3<br/>\n                                      read at: 2014/12/07<br/>\n                                      date added: 2014/12/07<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

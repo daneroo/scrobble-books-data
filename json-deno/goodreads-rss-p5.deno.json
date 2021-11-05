@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Wed, 19 Nov 2014 18:07:40 -0800"
+        "_text": "Sun, 14 Dec 2014 17:00:06 -0800"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,146 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/1131901021?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sun, 14 Dec 2014 17:00:06 -0800"
+          },
+          "title": {
+            "_text": "JavaScript: The Good Parts"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/1131901021?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "6590008"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328327382l/6590008._SX50_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328327382l/6590008._SX50_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328327382l/6590008._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328327382l/6590008.jpg"
+          },
+          "book_description": {
+            "_cdata": "Most programming languages contain good and bad parts, but JavaScript has more than its share of the bad, having been developed and released in a hurry before it could be refined. This authoritative book scrapes away these bad features to reveal a subset of JavaScript that's more reliable, readable, and maintainable than the language as a whole-a subset you can use to create truly extensible and efficient code.<br /><br />Considered <i>the</i> JavaScript expert by many people in the development community, author Douglas Crockford identifies the abundance of good ideas that make JavaScript an outstanding object-oriented programming language-ideas such as functions, loose typing, dynamic objects, and an expressive object literal notation. Unfortunately, these good ideas are mixed in with bad and downright awful ideas, like a programming model based on global variables.<br /><br />When Java applets failed, JavaScript became the language of the Web by default, making its popularity almost completely independent of its qualities as a programming language. In <i>JavaScript: The Good Parts</i>, Crockford finally digs through the steaming pile of good intentions and blunders to give you a detailed look at all the genuinely elegant parts of JavaScript, including:<br /><br />* Syntax<br />* Objects<br />* Functions<br />* Inheritance<br />* Arrays<br />* Regular expressions<br />* Methods<br />* Style<br />* Beautiful features<br /><br />The real beauty? As you move ahead with the subset of JavaScript that this book presents, you'll also sidestep the need to <i>unlearn</i> all the bad parts. Of course, if you want to find out more about the bad parts and how to use them badly, simply consult any other JavaScript book.<br /><br />With <i>JavaScript: The Good Parts</i>, you'll discover a beautiful, elegant, lightweight and highly expressive language that lets you create effective code, whether you're managing object libraries or just trying to get Ajax to run fast. If you develop sites or applications for the Web, this book is an absolute must."
+          },
+          "book": {
+            "_attributes": {
+              "id": "6590008"
+            },
+            "num_pages": {
+              "_text": "100"
+            }
+          },
+          "author_name": {
+            "_text": "Douglas Crockford"
+          },
+          "isbn": {},
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "5"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Sun, 14 Dec 2014 17:00:06 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Sun, 14 Dec 2014 17:00:06 -0800"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.24"
+          },
+          "book_published": {
+            "_text": "2008"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/6590008-javascript?utm_medium=api&amp;utm_source=rss\"><img alt=\"JavaScript: The Good Parts\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328327382l/6590008._SX50_.jpg\" /></a><br/>\n                                      author: Douglas Crockford<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.24<br/>\n                                      book published: 2008<br/>\n                                      rating: 5<br/>\n                                      read at: <br/>\n                                      date added: 2014/12/14<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/1102127368?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sun, 07 Dec 2014 16:36:28 -0800"
+          },
+          "title": {
+            "_cdata": "The New Digital Age: Reshaping the Future of People, Nations and Business"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/1102127368?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "16096109"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1364816597l/16096109._SX50_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1364816597l/16096109._SX50_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1364816597l/16096109._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1364816597l/16096109.jpg"
+          },
+          "book_description": {
+            "_cdata": "The New Digital Age is the product of an unparalleled collaboration: full of the brilliant insights of one of Silicon Valley’s great innovators! What Bill Gates was to Microsoft and Steve Jobs was to Apple, Schmidt (along with Larry Page and Sergey Brin) was to Google. And, the Director of Google Ideas, Jared Cohen, formerly an advisor to both Secretaries of State Condoleezza Rice and Hillary Clinton.<br /><br />Never before has the future been so vividly and transparently imagined. From technologies that will change lives (information systems that greatly increase productivity, safety and our quality of life, thought controlled motion technology that can revolutionize medical procedures, and near-perfect translation technology that allows us to have more diversified interactions) to our most important future considerations (curating our online identity and fighting those who would do harm with it) to the widespread political change that will transform the globe (through transformations in conflict, increasingly active and global citizenries, a new wave of cyber-terrorism and states operating simultaneously in the physical and virtual realms) to the ever present threats to our privacy and security, Schmidt and Cohen outline in great detail and scope all the promise and peril awaiting us in the coming decades."
+          },
+          "book": {
+            "_attributes": {
+              "id": "16096109"
+            },
+            "num_pages": {
+              "_text": "336"
+            }
+          },
+          "author_name": {
+            "_text": "Eric Schmidt"
+          },
+          "isbn": {
+            "_text": "1848546203"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "3"
+          },
+          "user_read_at": {
+            "_cdata": "Sun, 07 Dec 2014 16:36:00 -0800"
+          },
+          "user_date_added": {
+            "_cdata": "Sun, 07 Dec 2014 16:36:28 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Sun, 09 Nov 2014 19:52:22 -0800"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.36"
+          },
+          "book_published": {
+            "_text": "2013"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/16096109-the-new-digital-age?utm_medium=api&amp;utm_source=rss\"><img alt=\"The New Digital Age: Reshaping the Future of People, Nations and Business\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1364816597l/16096109._SX50_.jpg\" /></a><br/>\n                                      author: Eric Schmidt<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.36<br/>\n                                      book published: 2013<br/>\n                                      rating: 3<br/>\n                                      read at: 2014/12/07<br/>\n                                      date added: 2014/12/07<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/1110763281?utm_medium=api&utm_source=rss"
