@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Thu, 25 Feb 2021 23:54:44 -0800"
+        "_text": "Fri, 26 Feb 2021 00:12:39 -0800"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,76 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3846910217?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Fri, 26 Feb 2021 00:12:39 -0800"
+          },
+          "title": {
+            "_cdata": "Bridge of Birds (The Chronicles of Master Li and Number Ten Ox, #1)"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3846910217?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "15177"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327940289l/15177._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327940289l/15177._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327940289l/15177._SY160_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327940289l/15177.jpg"
+          },
+          "book_description": {
+            "_cdata": "When the children of his village were struck with a mysterious illness, Number Ten Ox sought a wiseman to save them. He found master Li Kao, a scholar with a slight flaw in his character. Together, they set out to find the Great Root of Power, the only possible cure.<br /><br />The quest led them to a host of truly memorable characters, multiple wonders, incredible adventures—and strange coincidences, which were really not coincidences at all. And it involved them in an ancient crime that still perturbed the serenity of Heaven. Simply and charmingly told, this is a wry tale, a sly tale, and a story of wisdom delightfully askew. Once read, its marvels and beauty will not easily fade from the mind.<br /><br />The author claims that this is a novel of an ancient China that never was. But, oh…it should have been!"
+          },
+          "book": {
+            "_attributes": {
+              "id": "15177"
+            },
+            "num_pages": {
+              "_text": "278"
+            }
+          },
+          "author_name": {
+            "_text": "Barry Hughart"
+          },
+          "isbn": {
+            "_text": "0345321383"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "5"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Fri, 26 Feb 2021 00:12:39 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Thu, 18 Feb 2021 21:56:55 -0800"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.29"
+          },
+          "book_published": {
+            "_text": "1984"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/15177.Bridge_of_Birds?utm_medium=api&amp;utm_source=rss\"><img alt=\"Bridge of Birds (The Chronicles of Master Li and Number Ten Ox, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327940289l/15177._SY75_.jpg\" /></a><br/>\n                                      author: Barry Hughart<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.29<br/>\n                                      book published: 1984<br/>\n                                      rating: 5<br/>\n                                      read at: <br/>\n                                      date added: 2021/02/26<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/3826890124?utm_medium=api&utm_source=rss"
@@ -7104,74 +7174,6 @@
           "book_published": {},
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/34369788-the-second-leg-down?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Second Leg Down: Strategies for Profiting after a Market Sell-Off (The Wiley Finance Series)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1487708958l/34369788._SX50_.jpg\" /></a><br/>\n                                      author: Hari P. Krishnan<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.24<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2020/04/04<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/2427168635?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Tue, 31 Mar 2020 11:44:18 -0700"
-          },
-          "title": {
-            "_cdata": "The Astronomical Almanac (2019 - 2023): A Comprehensive Guide to Night Sky Events"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/2427168635?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "40540906"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1529160208l/40540906._SX50_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1529160208l/40540906._SX50_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1529160208l/40540906._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1529160208l/40540906._SX318_.jpg"
-          },
-          "book_description": {
-            "_cdata": "Written by a former freelance writer for Astronomy magazine, the guide provides almost daily data and information on the Moon and planets and lists details of hundreds of astronomical events. <br /> <br />Included in the guide are: <br />* Daily data tables for the Moon listing the constellation, illumination and phase <br />* Tables detailing the constellation, magnitude, elongation from the Sun and visibility of Mercury, Venus, Mars, Jupiter, Saturn, Uranus and Neptune <br />* Conjunctions between the Moon, planets and bright stars (including angular separations for planetary conjunctions.) <br />* Lunar and Solar eclipses <br />* Annual summaries of when to observe the planets <br />* Annual summaries of notable close planetary conjunctions <br />* Peak dates for the major meteor showers with moon phase <br />* Inferior and superior conjunctions for Mercury and Venus <br />* Greatest eastern and western elongations for Mercury and Venus <br />* Oppositions and solar conjunctions for the outer planets <br />* Dates of the equinoxes and solstices <br /> <br />Whether you’re an expert astronomer or a casual star gazer, the almanac is the essential guide for observers everywhere. <br /> <br />Praise for previous editions: <br />\"For a guy like me, that is always out observing and shooting the stars with my telescope, this book is VERY informative. Lots of great info. I will definitely refer to it before I go out with my scope. Thanks.\" - Peter Guierra, September 21st 2014 (Amazon US) <br />\"Love it! In the last few years my interest in astronomy has grown tremendously. This book will definitely come in handy.\" - Michael Dylo, October 26th 2014 (Amazon US) <br />\"I can't imagine how much work it took to bring together all the information in this book! With that said, it will be my constant observing companion observing for the next few years!\" - WJohnson, September 20th 2014 (Amazon US) <br />\"This is a superb book, well laid out and easy to follow even if you are a complete novice or keen astronomer.\" - Mr Fletcher, October 26th 2014 (Amazon UK) <br />\"I found this book very user friendly and instinctive, it is exactly what I have been looking for.\" - K. J. Simmill, November 3rd 2014 (Amazon UK) <br />\"Very concise guide to the sky over the next few years, written with more advanced amateurs in mind, but could be used by anyone with more then a passing interest.\" - Amazon Customer, November 11th 2014 (Amazon UK)"
-          },
-          "book": {
-            "_attributes": {
-              "id": "40540906"
-            },
-            "num_pages": {
-              "_text": "460"
-            }
-          },
-          "author_name": {
-            "_text": "Richard J Bartlett"
-          },
-          "isbn": {},
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {
-            "_cdata": "Tue, 31 Mar 2020 11:44:18 -0700"
-          },
-          "user_date_added": {
-            "_cdata": "Tue, 31 Mar 2020 11:44:18 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Sun, 17 Jun 2018 15:32:00 -0700"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.00"
-          },
-          "book_published": {},
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/40540906-the-astronomical-almanac-2019---2023?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Astronomical Almanac (2019 - 2023): A Comprehensive Guide to Night Sky Events\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1529160208l/40540906._SX50_.jpg\" /></a><br/>\n                                      author: Richard J Bartlett<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.00<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: 2020/03/31<br/>\n                                      date added: 2020/03/31<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

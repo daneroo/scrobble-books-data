@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Mon, 30 Mar 2020 16:45:46 -0700"
+        "_text": "Tue, 31 Mar 2020 11:44:18 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,74 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/2427168635?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Tue, 31 Mar 2020 11:44:18 -0700"
+          },
+          "title": {
+            "_cdata": "The Astronomical Almanac (2019 - 2023): A Comprehensive Guide to Night Sky Events"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/2427168635?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "40540906"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1529160208l/40540906._SX50_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1529160208l/40540906._SX50_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1529160208l/40540906._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1529160208l/40540906._SX318_.jpg"
+          },
+          "book_description": {
+            "_cdata": "Written by a former freelance writer for Astronomy magazine, the guide provides almost daily data and information on the Moon and planets and lists details of hundreds of astronomical events. <br /> <br />Included in the guide are: <br />* Daily data tables for the Moon listing the constellation, illumination and phase <br />* Tables detailing the constellation, magnitude, elongation from the Sun and visibility of Mercury, Venus, Mars, Jupiter, Saturn, Uranus and Neptune <br />* Conjunctions between the Moon, planets and bright stars (including angular separations for planetary conjunctions.) <br />* Lunar and Solar eclipses <br />* Annual summaries of when to observe the planets <br />* Annual summaries of notable close planetary conjunctions <br />* Peak dates for the major meteor showers with moon phase <br />* Inferior and superior conjunctions for Mercury and Venus <br />* Greatest eastern and western elongations for Mercury and Venus <br />* Oppositions and solar conjunctions for the outer planets <br />* Dates of the equinoxes and solstices <br /> <br />Whether you’re an expert astronomer or a casual star gazer, the almanac is the essential guide for observers everywhere. <br /> <br />Praise for previous editions: <br />\"For a guy like me, that is always out observing and shooting the stars with my telescope, this book is VERY informative. Lots of great info. I will definitely refer to it before I go out with my scope. Thanks.\" - Peter Guierra, September 21st 2014 (Amazon US) <br />\"Love it! In the last few years my interest in astronomy has grown tremendously. This book will definitely come in handy.\" - Michael Dylo, October 26th 2014 (Amazon US) <br />\"I can't imagine how much work it took to bring together all the information in this book! With that said, it will be my constant observing companion observing for the next few years!\" - WJohnson, September 20th 2014 (Amazon US) <br />\"This is a superb book, well laid out and easy to follow even if you are a complete novice or keen astronomer.\" - Mr Fletcher, October 26th 2014 (Amazon UK) <br />\"I found this book very user friendly and instinctive, it is exactly what I have been looking for.\" - K. J. Simmill, November 3rd 2014 (Amazon UK) <br />\"Very concise guide to the sky over the next few years, written with more advanced amateurs in mind, but could be used by anyone with more then a passing interest.\" - Amazon Customer, November 11th 2014 (Amazon UK)"
+          },
+          "book": {
+            "_attributes": {
+              "id": "40540906"
+            },
+            "num_pages": {
+              "_text": "460"
+            }
+          },
+          "author_name": {
+            "_text": "Richard J Bartlett"
+          },
+          "isbn": {},
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {
+            "_cdata": "Tue, 31 Mar 2020 11:44:18 -0700"
+          },
+          "user_date_added": {
+            "_cdata": "Tue, 31 Mar 2020 11:44:18 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Sun, 17 Jun 2018 15:32:00 -0700"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.00"
+          },
+          "book_published": {},
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/40540906-the-astronomical-almanac-2019---2023?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Astronomical Almanac (2019 - 2023): A Comprehensive Guide to Night Sky Events\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1529160208l/40540906._SX50_.jpg\" /></a><br/>\n                                      author: Richard J Bartlett<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.00<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: 2020/03/31<br/>\n                                      date added: 2020/03/31<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/510094631?utm_medium=api&utm_source=rss"
@@ -7128,78 +7196,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/16096109-the-new-digital-age?utm_medium=api&amp;utm_source=rss\"><img alt=\"The New Digital Age: Reshaping the Future of People, Nations and Business\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1364816597l/16096109._SX50_.jpg\" /></a><br/>\n                                      author: Eric Schmidt<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.36<br/>\n                                      book published: 2013<br/>\n                                      rating: 3<br/>\n                                      read at: 2014/12/07<br/>\n                                      date added: 2014/12/07<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/1110763281?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Wed, 19 Nov 2014 18:07:40 -0800"
-          },
-          "title": {
-            "_cdata": "The Media Relations Department of Hizbollah Wishes You a Happy Birthday: Unexpected Encounters in the Changing Middle East"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/1110763281?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "6343278"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1440379214l/6343278._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1440379214l/6343278._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1440379214l/6343278._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1440379214l/6343278._SY475_.jpg"
-          },
-          "book_description": {
-            "_cdata": "Since his boyhood in Qadhafi's Libya, Neil MacFarquhar has developed a counterintuitive sense that the Middle East, despite all the bloodshed in its recent history, is a place of warmth, humanity, and generous eccentricity.In this book, he introduces a cross-section of unsung, dynamic men and women pioneering political and social change. There is the Kuwaiti sex therapist in a leather suit with matching red headscarf, and the Syrian engineer advocating a less political interpretation of the Koran. MacFarquhar interacts with Arabs and Iranians in their every day lives, removed from the violence we see constantly, yet wrestling with the region's future. These are people who realize their region is out of step with the world and are determined to do something about it--on their own terms."
-          },
-          "book": {
-            "_attributes": {
-              "id": "6343278"
-            },
-            "num_pages": {
-              "_text": "387"
-            }
-          },
-          "author_name": {
-            "_text": "Neil MacFarquhar"
-          },
-          "isbn": {
-            "_text": "1586486357"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Wed, 19 Nov 2014 18:07:40 -0800"
-          },
-          "user_date_created": {
-            "_cdata": "Wed, 19 Nov 2014 18:07:39 -0800"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "3.89"
-          },
-          "book_published": {
-            "_text": "2009"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/6343278-the-media-relations-department-of-hizbollah-wishes-you-a-happy-birthday?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Media Relations Department of Hizbollah Wishes You a Happy Birthday: Unexpected Encounters in the Changing Middle East\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1440379214l/6343278._SY75_.jpg\" /></a><br/>\n                                      author: Neil MacFarquhar<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.89<br/>\n                                      book published: 2009<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2014/11/19<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

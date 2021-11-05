@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Fri, 09 Jul 2021 21:02:39 -0700"
+        "_text": "Fri, 09 Jul 2021 21:03:01 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4105421035?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Fri, 09 Jul 2021 21:03:01 -0700"
+          },
+          "title": {
+            "_cdata": "The Hydrogen Sonata (Culture #10)"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4105421035?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "13497991"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1340894566l/13497991._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1340894566l/13497991._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1340894566l/13497991._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1340894566l/13497991.jpg"
+          },
+          "book_description": {
+            "_cdata": "The Scavenger species are circling. It is, truly, provably, the End Days for the Gzilt civilization.<br /><br />An ancient people, organized on military principles and yet almost perversely peaceful, the Gzilt helped set up the Culture ten thousand years earlier and were very nearly one of its founding societies, deciding not to join only at the last moment. Now they've made the collective decision to follow the well-trodden path of millions of other civilizations; they are going to Sublime, elevating themselves to a new and almost infinitely more rich and complex existence.<br /><br />Amid preparations though, the Regimental High Command is destroyed. Lieutenant Commander (reserve) Vyr Cossont appears to have been involved, and she is now wanted - dead, not alive. Aided only by an ancient, reconditioned android and a suspicious Culture avatar, Cossont must complete her last mission given to her by the High Command. She must find the oldest person in the Culture, a man over nine thousand years old, who might have some idea what really happened all that time ago.<br /><br />It seems that the final days of the Gzilt civilization are likely to prove its most perilous."
+          },
+          "book": {
+            "_attributes": {
+              "id": "13497991"
+            },
+            "num_pages": {
+              "_text": "517"
+            }
+          },
+          "author_name": {
+            "_text": "Iain M. Banks"
+          },
+          "isbn": {
+            "_text": "0356501507"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Fri, 09 Jul 2021 21:03:01 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Fri, 09 Jul 2021 21:03:01 -0700"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.13"
+          },
+          "book_published": {
+            "_text": "2012"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/13497991-the-hydrogen-sonata?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Hydrogen Sonata (Culture #10)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1340894566l/13497991._SY75_.jpg\" /></a><br/>\n                                      author: Iain M. Banks<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.13<br/>\n                                      book published: 2012<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/07/09<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/4105420607?utm_medium=api&utm_source=rss"
@@ -7160,76 +7232,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/23168817-the-dark-forest?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Dark Forest (Remembrance of Earth’s Past, #2)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1412064931l/23168817._SY75_.jpg\" /></a><br/>\n                                      author: Liu Cixin<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.38<br/>\n                                      book published: 2008<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/03/08<br/>\n                                      date added: 2021/03/08<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3846910217?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Fri, 26 Feb 2021 00:12:39 -0800"
-          },
-          "title": {
-            "_cdata": "Bridge of Birds (The Chronicles of Master Li and Number Ten Ox, #1)"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3846910217?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "15177"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327940289l/15177._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327940289l/15177._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327940289l/15177._SY160_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327940289l/15177.jpg"
-          },
-          "book_description": {
-            "_cdata": "When the children of his village were struck with a mysterious illness, Number Ten Ox sought a wiseman to save them. He found master Li Kao, a scholar with a slight flaw in his character. Together, they set out to find the Great Root of Power, the only possible cure.<br /><br />The quest led them to a host of truly memorable characters, multiple wonders, incredible adventures—and strange coincidences, which were really not coincidences at all. And it involved them in an ancient crime that still perturbed the serenity of Heaven. Simply and charmingly told, this is a wry tale, a sly tale, and a story of wisdom delightfully askew. Once read, its marvels and beauty will not easily fade from the mind.<br /><br />The author claims that this is a novel of an ancient China that never was. But, oh…it should have been!"
-          },
-          "book": {
-            "_attributes": {
-              "id": "15177"
-            },
-            "num_pages": {
-              "_text": "278"
-            }
-          },
-          "author_name": {
-            "_text": "Barry Hughart"
-          },
-          "isbn": {
-            "_text": "0345321383"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "5"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Fri, 26 Feb 2021 00:12:39 -0800"
-          },
-          "user_date_created": {
-            "_cdata": "Thu, 18 Feb 2021 21:56:55 -0800"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.29"
-          },
-          "book_published": {
-            "_text": "1984"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/15177.Bridge_of_Birds?utm_medium=api&amp;utm_source=rss\"><img alt=\"Bridge of Birds (The Chronicles of Master Li and Number Ten Ox, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327940289l/15177._SY75_.jpg\" /></a><br/>\n                                      author: Barry Hughart<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.29<br/>\n                                      book published: 1984<br/>\n                                      rating: 5<br/>\n                                      read at: <br/>\n                                      date added: 2021/02/26<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]
