@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Fri, 12 Mar 2021 08:11:10 -0800"
+        "_text": "Fri, 12 Mar 2021 20:05:05 -0800"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3821083632?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Fri, 12 Mar 2021 20:05:05 -0800"
+          },
+          "title": {
+            "_cdata": "Facing Unpleasant Facts: Narrative Essays"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3821083632?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "3418535"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328834305l/3418535._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328834305l/3418535._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328834305l/3418535._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328834305l/3418535.jpg"
+          },
+          "book_description": {
+            "_cdata": "George Orwell was first and foremost an essayist. From his earliest published article in 1928 to his untimely death in 1950, he produced an extraordinary array of short nonfiction that reflectedas it was for Yeats to versify or Dickens to invent.\"Facing Unpleasant Facts charts Orwell's development as a master of the narrative-essay form and unites classics such as \"Shooting an Elephant\" with lesser-known journalism and passages from his wartime diary. Whether detailing the horrors of Orwell's boyhood in an English boarding school or bringing to life the sights, sounds, and smells of the Spanish Civil War, these narrative essays weave together the personal and the political in an unmistakable style that is at once plainspoken and brilliantly complex.<br /><br />Contents:<br />The Spike<br />Clink<br />A Hanging<br />Shooting an Elephant<br />Bookshop Memories<br />Marrakech<br />My Country Right or Left<br />War-time Diary<br />England Your England<br />Dear Doktor Goebbels - Your British Friends Are Feeding Fine!<br />Looking Back on the Spanish War<br />As I Please, 1<br />As I Please, 2<br />As I Please, 3<br />As I Please, 16<br />Revenge Is Sour<br />The Case for the Open Fire<br />The Sporting Spirit<br />In Defence of English Cooking<br />A Nice Cup of Tea<br />The Moon Under Water<br />In Front of Your Nose<br />Some Thoughts on the Common Toad<br />A Good Word for the Vicar of Bray<br />Why I Write<br />How the Poor Die<br />Such, Such Were the Joys"
+          },
+          "book": {
+            "_attributes": {
+              "id": "3418535"
+            },
+            "num_pages": {
+              "_text": "308"
+            }
+          },
+          "author_name": {
+            "_text": "George Orwell"
+          },
+          "isbn": {
+            "_text": "0151013616"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Fri, 12 Mar 2021 20:05:05 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Fri, 05 Feb 2021 23:58:00 -0800"
+          },
+          "user_shelves": {
+            "_text": "on-deck"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.35"
+          },
+          "book_published": {
+            "_text": "1999"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/3418535-facing-unpleasant-facts?utm_medium=api&amp;utm_source=rss\"><img alt=\"Facing Unpleasant Facts: Narrative Essays\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328834305l/3418535._SY75_.jpg\" /></a><br/>\n                                      author: George Orwell<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.35<br/>\n                                      book published: 1999<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/03/12<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/3649108373?utm_medium=api&utm_source=rss"
@@ -7104,78 +7176,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/38396.Einstein_s_Cosmos?utm_medium=api&amp;utm_source=rss\"><img alt=\"Einstein&#39;s Cosmos: How Albert Einstein&#39;s Vision Transformed Our Understanding of Space and Time\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1433341026l/38396._SY75_.jpg\" /></a><br/>\n                                      author: Michio Kaku<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.26<br/>\n                                      book published: 2004<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2020/04/14<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3256312782?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Tue, 14 Apr 2020 01:33:16 -0700"
-          },
-          "title": {
-            "_cdata": "The Silk Roads: A New History of the World"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3256312782?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "25812847"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1472636067l/25812847._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1472636067l/25812847._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1472636067l/25812847._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1472636067l/25812847._SY475_.jpg"
-          },
-          "book_description": {
-            "_cdata": "The New Silk Roads takes a fresh look at the relationships being formed along the length and breadth of the ancient trade routes today. The world is changing dramatically and in an age of Brexit and Trump, the themes of isolation and fragmentation permeating the western world stand in sharp contrast to events along the Silk Roads, where ties are being strengthened and mutual cooperation established.<br /><br />This prescient contemporary history provides a timely reminder that we live in a world that is profoundly interconnected. Following the Silk Roads eastwards from Europe through to China, by way of Russia and the Middle East, Peter Frankopan assesses the global reverberations of continual shifts in the centre of power – all too often absent from headlines in the west.<br /><br />The New Silk Roads asks us to re-examine who we are and where we stand in the world, illuminating the themes on which all our lives and livelihoods depend.<br /><br /><br />The Silk Roads, a major reassessment of world history, has sold over 1 million copies worldwide."
-          },
-          "book": {
-            "_attributes": {
-              "id": "25812847"
-            },
-            "num_pages": {
-              "_text": "636"
-            }
-          },
-          "author_name": {
-            "_text": "Peter Frankopan"
-          },
-          "isbn": {
-            "_text": "1408839970"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "4"
-          },
-          "user_read_at": {
-            "_cdata": "Tue, 14 Apr 2020 01:33:16 -0700"
-          },
-          "user_date_added": {
-            "_cdata": "Tue, 14 Apr 2020 01:33:16 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Tue, 31 Mar 2020 11:45:01 -0700"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.08"
-          },
-          "book_published": {
-            "_text": "2016"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/25812847-the-silk-roads?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Silk Roads: A New History of the World\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1472636067l/25812847._SY75_.jpg\" /></a><br/>\n                                      author: Peter Frankopan<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.08<br/>\n                                      book published: 2016<br/>\n                                      rating: 4<br/>\n                                      read at: 2020/04/14<br/>\n                                      date added: 2020/04/14<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Fri, 05 Nov 2021 00:08:42 -0700"
+        "_text": "Fri, 05 Nov 2021 12:39:13 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4323335198?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Fri, 05 Nov 2021 12:39:13 -0700"
+          },
+          "title": {
+            "_cdata": "Encyclopedia of Mathematical Physics: Five-Volume Set"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4323335198?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "1112346"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348559184l/1112346._SX50_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348559184l/1112346._SX50_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348559184l/1112346._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348559184l/1112346.jpg"
+          },
+          "book_description": {
+            "_cdata": "The Encyclopedia of Mathematical Physics provides a complete resource for researchers, <br />students and lecturers with an interest in mathematical physics. It enables readers to access basic information on topics peripheral to their own areas, to provide a repository of the core information in the area that can be used to refresh the researcher s own memory banks, and aid teachers in directing students to entries relevant to their course-work. The Encyclopedia does contain information that has been distilled, organised and presented as a complete reference tool to the user and a landmark to the body of knowledge that has accumulated in this domain. It also is a stimulus for new researchers working in mathematical physics or in areas using the methods originating from work in mathematical physics by providing them with focused high quality background information. <br />Editorial Board: <br />Jean-Pierre Francoise, Universite Pierre et Marie Curie, Paris, France<br />Gregory L. Naber, Drexel University, Philadelphia, PA, USA<br />Tsou Sheung Tsun, University of Oxford, UK <br />Also available online via ScienceDirect (2006) - featuring extensive browsing, searching, and internal cross-referencing between articles in the work, plus dynamic linking to journal articles and abstract databases, making navigation flexible and easy. For more information, pricing options and availability visit <a target=\"_blank\" rel=\"noopener nofollow\" href=\"http://www.info.sciencedirect.com\">www.info.sciencedirect.com</a>. <br />* First comprehensive interdisciplinary coverage <br />* Mathematical Physics explained to stimulate new developments and foster new applications of its methods to other fields <br />* Written by an international group of experts <br />* Contains several undergraduate-level introductory articles to facilitate acquisition of new expertise<br />* Thematic index and extensive cross-referencing to provide easy access and quick search functionality <br />* Also available online with active linking.\""
+          },
+          "book": {
+            "_attributes": {
+              "id": "1112346"
+            },
+            "num_pages": {
+              "_text": "3500"
+            }
+          },
+          "author_name": {
+            "_text": "Jean-Pierre Françoise"
+          },
+          "isbn": {
+            "_text": "0125126603"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Fri, 05 Nov 2021 12:39:13 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Fri, 05 Nov 2021 12:39:13 -0700"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "0.0"
+          },
+          "book_published": {
+            "_text": "2006"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/1112346.Encyclopedia_of_Mathematical_Physics?utm_medium=api&amp;utm_source=rss\"><img alt=\"Encyclopedia of Mathematical Physics: Five-Volume Set\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348559184l/1112346._SX50_.jpg\" /></a><br/>\n                                      author: Jean-Pierre Françoise<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: 2006<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/11/05<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/4322589027?utm_medium=api&utm_source=rss"
@@ -7136,78 +7208,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/89187.Revelation_Space?utm_medium=api&amp;utm_source=rss\"><img alt=\"Revelation Space (Revelation Space, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1405532042l/89187._SY75_.jpg\" /></a><br/>\n                                      author: Alastair Reynolds<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.99<br/>\n                                      book published: 2000<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/07/10<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/4106894126?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sat, 10 Jul 2021 17:32:09 -0700"
-          },
-          "title": {
-            "_text": "Excession (Culture, #5)"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/4106894126?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "12013"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1288930712l/12013._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1288930712l/12013._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1288930712l/12013._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1288930712l/12013.jpg"
-          },
-          "book_description": {
-            "_cdata": "The international sensation Iain M. Banks offers readers a deeply imaginative, wittily satirical tale, proving once again that he is \"a talent to be reckoned with\" (\"Locus\"). In <i>Excession</i>, the Culture's espionage and dirty tricks section orders Diplomat Byr Gen-Hofoen to steal the soul of a long-dead starship captain. By accepting the mission, Byr irrevocably plunges himself into a conspiracy: one that could either lead the universe into an age of peace or to the brink of annihilation."
-          },
-          "book": {
-            "_attributes": {
-              "id": "12013"
-            },
-            "num_pages": {
-              "_text": "500"
-            }
-          },
-          "author_name": {
-            "_text": "Iain M. Banks"
-          },
-          "isbn": {
-            "_text": "0553575376"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Sat, 10 Jul 2021 17:32:09 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Sat, 10 Jul 2021 17:32:09 -0700"
-          },
-          "user_shelves": {
-            "_text": "on-deck"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.19"
-          },
-          "book_published": {
-            "_text": "1996"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/12013.Excession?utm_medium=api&amp;utm_source=rss\"><img alt=\"Excession (Culture, #5)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1288930712l/12013._SY75_.jpg\" /></a><br/>\n                                      author: Iain M. Banks<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.19<br/>\n                                      book published: 1996<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/07/10<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Tue, 07 Apr 2020 16:27:31 -0700"
+        "_text": "Tue, 14 Apr 2020 01:33:16 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3256312782?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Tue, 14 Apr 2020 01:33:16 -0700"
+          },
+          "title": {
+            "_cdata": "The Silk Roads: A New History of the World"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3256312782?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "25812847"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1472636067l/25812847._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1472636067l/25812847._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1472636067l/25812847._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1472636067l/25812847._SY475_.jpg"
+          },
+          "book_description": {
+            "_cdata": "The New Silk Roads takes a fresh look at the relationships being formed along the length and breadth of the ancient trade routes today. The world is changing dramatically and in an age of Brexit and Trump, the themes of isolation and fragmentation permeating the western world stand in sharp contrast to events along the Silk Roads, where ties are being strengthened and mutual cooperation established.<br /><br />This prescient contemporary history provides a timely reminder that we live in a world that is profoundly interconnected. Following the Silk Roads eastwards from Europe through to China, by way of Russia and the Middle East, Peter Frankopan assesses the global reverberations of continual shifts in the centre of power – all too often absent from headlines in the west.<br /><br />The New Silk Roads asks us to re-examine who we are and where we stand in the world, illuminating the themes on which all our lives and livelihoods depend.<br /><br /><br />The Silk Roads, a major reassessment of world history, has sold over 1 million copies worldwide."
+          },
+          "book": {
+            "_attributes": {
+              "id": "25812847"
+            },
+            "num_pages": {
+              "_text": "636"
+            }
+          },
+          "author_name": {
+            "_text": "Peter Frankopan"
+          },
+          "isbn": {
+            "_text": "1408839970"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "4"
+          },
+          "user_read_at": {
+            "_cdata": "Tue, 14 Apr 2020 01:33:16 -0700"
+          },
+          "user_date_added": {
+            "_cdata": "Tue, 14 Apr 2020 01:33:16 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Tue, 31 Mar 2020 11:45:01 -0700"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.08"
+          },
+          "book_published": {
+            "_text": "2016"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/25812847-the-silk-roads?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Silk Roads: A New History of the World\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1472636067l/25812847._SY75_.jpg\" /></a><br/>\n                                      author: Peter Frankopan<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.08<br/>\n                                      book published: 2016<br/>\n                                      rating: 4<br/>\n                                      read at: 2020/04/14<br/>\n                                      date added: 2020/04/14<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/3258673374?utm_medium=api&utm_source=rss"
@@ -7128,74 +7200,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/17288969-effective-javascript?utm_medium=api&amp;utm_source=rss\"><img alt=\"Effective JavaScript: 68 Specific Ways to Harness the Power of JavaScript\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1394330987l/17288969._SX50_.jpg\" /></a><br/>\n                                      author: David  Herman<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.22<br/>\n                                      book published: 2012<br/>\n                                      rating: 5<br/>\n                                      read at: <br/>\n                                      date added: 2014/12/14<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/1131901125?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sun, 14 Dec 2014 17:00:12 -0800"
-          },
-          "title": {
-            "_text": "Eloquent JavaScript"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/1131901125?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "12326497"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1394329863l/12326497._SX50_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1394329863l/12326497._SX50_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1394329863l/12326497._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1394329863l/12326497.jpg"
-          },
-          "book_description": {
-            "_cdata": "<p>JavaScript is the language of the Web, and it's at the heart of every modern website from the lowliest personal blog to the mighty Google Apps. Though it's simple for beginners to pick up and play with, JavaScript is not a toy—it's a flexible and complex language, capable of much more than the showy tricks most programmers use it for.</p><p><i>Eloquent JavaScript</i> goes beyond the cut-and-paste scripts of the recipe books and teaches you to write code that's elegant and effective. You'll start with the basics of programming, and learn to use variables, control structures, functions, and data structures. Then you'll dive into the real JavaScript artistry: higher-order functions, closures, and object-oriented programming.</p><p>Along the way you'll learn to:</p><p> </p>  Master basic programming techniques and best practices   Harness the power of functional and object-oriented programming   Use regular expressions to quickly parse and manipulate strings   Gracefully deal with errors and browser incompatibilities   Handle browser events and alter the DOM structure   <p>Most importantly, <i>Eloquent JavaScript</i> will teach you to express yourself in code with precision and beauty. After all, great programming is an art, not a science—so why settle for a killer app when you can create a masterpiece?</p>"
-          },
-          "book": {
-            "_attributes": {
-              "id": "12326497"
-            },
-            "num_pages": {
-              "_text": "224"
-            }
-          },
-          "author_name": {
-            "_text": "Marijn Haverbeke"
-          },
-          "isbn": {},
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "5"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Sun, 14 Dec 2014 17:00:12 -0800"
-          },
-          "user_date_created": {
-            "_cdata": "Sun, 14 Dec 2014 17:00:12 -0800"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.15"
-          },
-          "book_published": {
-            "_text": "2010"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/12326497-eloquent-javascript?utm_medium=api&amp;utm_source=rss\"><img alt=\"Eloquent JavaScript\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1394329863l/12326497._SX50_.jpg\" /></a><br/>\n                                      author: Marijn Haverbeke<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.15<br/>\n                                      book published: 2010<br/>\n                                      rating: 5<br/>\n                                      read at: <br/>\n                                      date added: 2014/12/14<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]
