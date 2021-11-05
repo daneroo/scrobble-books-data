@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Fri, 05 Nov 2021 12:39:13 -0700"
+        "_text": "Fri, 05 Nov 2021 14:11:51 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3511999225?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Fri, 05 Nov 2021 14:11:51 -0700"
+          },
+          "title": {
+            "_cdata": "Spacetime and Geometry: An Introduction to General Relativity"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3511999225?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "259680"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386924897l/259680._SX50_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386924897l/259680._SX50_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386924897l/259680._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386924897l/259680.jpg"
+          },
+          "book_description": {
+            "_cdata": "<i>Spacetime and Geometry: An Introduction to General Relativity</i> provides a lucid and thoroughly modern introduction to general relativity. With an accessible and lively writing style, it introduces modern techniques to what can often be a formal and intimidating subject. Readers are led from the physics of flat spacetime (special relativity), through the intricacies of differential geometry and Einstein's equations, and on to exciting applications such as black holes, gravitational radiation, and cosmology."
+          },
+          "book": {
+            "_attributes": {
+              "id": "259680"
+            },
+            "num_pages": {
+              "_text": "528"
+            }
+          },
+          "author_name": {
+            "_text": "Sean Carroll"
+          },
+          "isbn": {
+            "_text": "0805387323"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Fri, 05 Nov 2021 14:11:51 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Sun, 23 Aug 2020 22:55:00 -0700"
+          },
+          "user_shelves": {
+            "_text": "on-deck"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.30"
+          },
+          "book_published": {
+            "_text": "2003"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/259680.Spacetime_and_Geometry?utm_medium=api&amp;utm_source=rss\"><img alt=\"Spacetime and Geometry: An Introduction to General Relativity\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386924897l/259680._SX50_.jpg\" /></a><br/>\n                                      author: Sean Carroll<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.30<br/>\n                                      book published: 2003<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/11/05<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/4323335198?utm_medium=api&utm_source=rss"
@@ -1057,13 +1129,13 @@
           "user_shelves": {},
           "user_review": {},
           "average_rating": {
-            "_text": "4.09"
+            "_text": "4.10"
           },
           "book_published": {
             "_text": "1890"
           },
           "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/5297.The_Picture_of_Dorian_Gray?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Picture of Dorian Gray\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546103428l/5297._SY75_.jpg\" /></a><br/>\n                                      author: Oscar Wilde<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.09<br/>\n                                      book published: 1890<br/>\n                                      rating: 5<br/>\n                                      read at: 2021/10/18<br/>\n                                      date added: 2021/10/18<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/5297.The_Picture_of_Dorian_Gray?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Picture of Dorian Gray\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546103428l/5297._SY75_.jpg\" /></a><br/>\n                                      author: Oscar Wilde<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.10<br/>\n                                      book published: 1890<br/>\n                                      rating: 5<br/>\n                                      read at: 2021/10/18<br/>\n                                      date added: 2021/10/18<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
           }
         },
         {
@@ -7136,78 +7208,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/12016.Look_to_Windward?utm_medium=api&amp;utm_source=rss\"><img alt=\"Look to Windward (Culture, #7)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1288930978l/12016._SY75_.jpg\" /></a><br/>\n                                      author: Iain M. Banks<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.17<br/>\n                                      book published: 2000<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/07/11<br/>\n                                      date added: 2021/07/11<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/4106983163?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sat, 10 Jul 2021 18:41:23 -0700"
-          },
-          "title": {
-            "_cdata": "Revelation Space (Revelation Space, #1)"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/4106983163?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "89187"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1405532042l/89187._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1405532042l/89187._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1405532042l/89187._SY160_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1405532042l/89187.jpg"
-          },
-          "book_description": {
-            "_cdata": "Nine hundred thousand years ago, something annihilated the Amarantin civilization just as it was on the verge of discovering space flight. Now one scientist, Dan Sylveste, will stop at nothing to solve the Amarantin riddle before ancient history repeats itself. With no other resources at his disposal, Sylveste forges a dangerous alliance with the cyborg crew of the starship <em>Nostalgia for Infinity</em>. But as he closes in on the secret, a killer closes in on him. Because the Amarantin were destroyed for a reason — and if that reason is uncovered, the universe—and reality itself — could be irrecoverably altered…."
-          },
-          "book": {
-            "_attributes": {
-              "id": "89187"
-            },
-            "num_pages": {
-              "_text": "585"
-            }
-          },
-          "author_name": {
-            "_text": "Alastair Reynolds"
-          },
-          "isbn": {
-            "_text": "0441009425"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Sat, 10 Jul 2021 18:41:23 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Sat, 10 Jul 2021 18:41:22 -0700"
-          },
-          "user_shelves": {
-            "_text": "on-deck"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "3.99"
-          },
-          "book_published": {
-            "_text": "2000"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/89187.Revelation_Space?utm_medium=api&amp;utm_source=rss\"><img alt=\"Revelation Space (Revelation Space, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1405532042l/89187._SY75_.jpg\" /></a><br/>\n                                      author: Alastair Reynolds<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.99<br/>\n                                      book published: 2000<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/07/10<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]
