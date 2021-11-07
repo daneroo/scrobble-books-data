@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Fri, 12 Mar 2021 20:05:45 -0800"
+        "_text": "Sat, 20 Mar 2021 22:46:12 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,580 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3900834822?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sat, 20 Mar 2021 22:46:12 -0700"
+          },
+          "title": {
+            "_cdata": "The Inflationary Universe: The Quest for a New Theory of Cosmic Origins"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3900834822?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "1381851"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388974040l/1381851._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388974040l/1381851._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388974040l/1381851._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388974040l/1381851.jpg"
+          },
+          "book_description": {
+            "_cdata": "This is the compelling, first-hand account of Alan Guth’s paradigm-breaking discovery of the origins of the universe—and of his dramatic rise from young researcher to physics superstar. Guth’s startling theory—widely regarded as one of the most important contributions to science during the twentieth century—states that the big bang was set into motion by a period of hyper-rapid “inflation,” lasting only a billion-trillion-billionth of a second. <i>The Inflationary Universe</i> is the passionate story of one leading scientist’s effort to look behind the cosmic veil and explain how the universe began."
+          },
+          "book": {
+            "_attributes": {
+              "id": "1381851"
+            },
+            "num_pages": {
+              "_text": "358"
+            }
+          },
+          "author_name": {
+            "_text": "Alan Guth"
+          },
+          "isbn": {
+            "_text": "0201328402"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Sat, 20 Mar 2021 22:46:12 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Sat, 20 Mar 2021 22:25:41 -0700"
+          },
+          "user_shelves": {
+            "_text": "on-deck"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.09"
+          },
+          "book_published": {
+            "_text": "1997"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/1381851.The_Inflationary_Universe?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Inflationary Universe: The Quest for a New Theory of Cosmic Origins\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388974040l/1381851._SY75_.jpg\" /></a><br/>\n                                      author: Alan Guth<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.09<br/>\n                                      book published: 1997<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/03/20<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3900846051?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sat, 20 Mar 2021 22:38:03 -0700"
+          },
+          "title": {
+            "_cdata": "Einstein's Dice and Schrödinger's Cat: How Two Great Minds Battled Quantum Randomness to Create a Unified Theory of Physics"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3900846051?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "23013829"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1427161380l/23013829._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1427161380l/23013829._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1427161380l/23013829._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1427161380l/23013829.jpg"
+          },
+          "book_description": {
+            "_cdata": "Albert Einstein and Erwin Schrödinger were friends and comrades-in-arms against what they considered the most preposterous aspects of quantum physics: its indeterminacy. Einstein famously quipped that God does not play dice with the universe, and Schrödinger is equally well known for his thought experiment about the cat in the box who ends up “spread out” in a probabilistic state, neither wholly alive nor wholly dead. Both of these famous images arose from these two men’s dissatisfaction with quantum weirdness and with their assertion that underneath it all, there must be some essentially deterministic world. Even though it was Einstein’s own theories that made quantum mechanics possible, both he and Schrödinger could not bear the idea that the universe was, at its most fundamental level, random.<br /><br />As the Second World War raged, both men struggled to produce a theory that would describe in full the universe’s ultimate design, first as collaborators, then as competitors. They both ultimately failed in their search for a Grand Unified Theory—not only because quantum mechanics is true, but because Einstein and Schrödinger were also missing a key component: of the four forces we recognize today (gravity, electromagnetism, the weak force, and the strong force), only gravity and electromagnetism were known at the time.<br /><br />Despite their failures, though, much of modern physics remains focused on the search for a Grand Unified Theory. As Halpern explains, the recent discovery of the Higgs Boson makes the Standard Model—the closest thing we have to a unified theory—nearly complete. And while Einstein and Schrödinger tried and failed to explain everything in the cosmos through pure geometry, the development of string theory has, in its own quantum way, brought this idea back into vogue. As in so many things, even when he was wrong, Einstein couldn’t help but be right.<br />"
+          },
+          "book": {
+            "_attributes": {
+              "id": "23013829"
+            },
+            "num_pages": {
+              "_text": "288"
+            }
+          },
+          "author_name": {
+            "_text": "Paul Halpern"
+          },
+          "isbn": {
+            "_text": "0465075711"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Sat, 20 Mar 2021 22:38:03 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Sat, 20 Mar 2021 22:38:02 -0700"
+          },
+          "user_shelves": {
+            "_text": "on-deck"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.92"
+          },
+          "book_published": {
+            "_text": "2015"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/23013829-einstein-s-dice-and-schr-dinger-s-cat?utm_medium=api&amp;utm_source=rss\"><img alt=\"Einstein&#39;s Dice and Schrödinger&#39;s Cat: How Two Great Minds Battled Quantum Randomness to Create a Unified Theory of Physics\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1427161380l/23013829._SY75_.jpg\" /></a><br/>\n                                      author: Paul Halpern<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.92<br/>\n                                      book published: 2015<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/03/20<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3900844373?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sat, 20 Mar 2021 22:36:05 -0700"
+          },
+          "title": {
+            "_cdata": "Synchronicity: The Epic Quest to Understand the Quantum Nature of Cause and Effect"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3900844373?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "49089454"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1576635370l/49089454._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1576635370l/49089454._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1576635370l/49089454._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1576635370l/49089454.jpg"
+          },
+          "book_description": {
+            "_cdata": "<b>One of <i>Physics Worlds </i>Best of Physics in 2020<br /><br />From Aristotle's <i>Physics</i> to quantum teleportation, learn about the scientific pursuit of instantaneous connections in this insightful examination of our world.</b>    For millennia, scientists have puzzled over a simple question: Does the universe have a speed limit? If not, some effects could happen at the same instant as the actions that caused them -- and some effects, ludicrously, might even happen before their causes. By one hundred years ago, it seemed clear that the speed of light was the fastest possible speed. Causality was safe. And then quantum mechanics happened, introducing spooky connections that seemed to circumvent the law of cause and effect. Inspired by the new physics, psychologist Carl Jung and physicist Wolfgang Pauli explored a concept called synchronicity, a weird phenomenon they thought could link events without causes. <i>Synchronicity </i>tells that sprawling tale of insight and creativity, and asks where these ideas -- some plain crazy, and others crazy powerful -- are taking the human story next.<br /><br /><br /> "
+          },
+          "book": {
+            "_attributes": {
+              "id": "49089454"
+            },
+            "num_pages": {
+              "_text": "304"
+            }
+          },
+          "author_name": {
+            "_text": "Paul Halpern"
+          },
+          "isbn": {
+            "_text": "1541673638"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Sat, 20 Mar 2021 22:36:05 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Sat, 20 Mar 2021 22:36:05 -0700"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.61"
+          },
+          "book_published": {},
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/49089454-synchronicity?utm_medium=api&amp;utm_source=rss\"><img alt=\"Synchronicity: The Epic Quest to Understand the Quantum Nature of Cause and Effect\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1576635370l/49089454._SY75_.jpg\" /></a><br/>\n                                      author: Paul Halpern<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.61<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/03/20<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3900776962?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sat, 20 Mar 2021 21:27:29 -0700"
+          },
+          "title": {
+            "_cdata": "Our Oriental Heritage (The Story of Civilization, #1)"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3900776962?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "174722"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388372397l/174722._SX50_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388372397l/174722._SX50_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388372397l/174722._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388372397l/174722.jpg"
+          },
+          "book_description": {
+            "_cdata": "This is the <i>classic</i> reference on world history, recognized as the most comprehensive general history ever written, the result of four decades of work by Will and Ariel Durant -- a set that The New York Times called \"a splendid, broad panorama of hereditary culture in words and images that the layman can fully understand.\" This series began as an effort to write a history on the nineteenth century, an undertaking that Will Durant realized could only be understood in terms of what had come before. So the Durants embarked on an encyclopedic survey of all civilization, ancient and modern, Occidental and Oriental. <br /><p><br />The books:</p><p>\n  <br />\n</p><p><br /><b>Our Oriental Heritage</b> (Volume 1): Will Durant opens his massive survey of civilized history with a sweeping look at the Orient: the Egyptians, who perfected monumental architecture, medicine and mummification; the Babylonians, who developed astronomy and physics; the Judeans, who preserved their culture in the immortal books of the Old Testament; and the Persians, who ruled the largest empire in recorded history before Rome.<br /></p><p><br /><b>The Life of Greece</b> (Volume 2): Will Durant's survey of ancient Greece shows us the origins of democracy and the political legacy to the Western world; the golden age of Athens, its architecture, poetry, drama, sculpture and Olympic contests; the blossoming of philosophical thought amid a society still rooted in slavery and barbarism; and the mysterious lost island of Crete, land of the Minotaur and the Labyrinth.</p><p>\n  <br />\n</p><p><br /><b>Caesar and Christ</b> (Volume 3): Spanning a millenium in Roman history, the third volume in the Durants' series shows us a world-conquering Roman army, undefeated, unafraid and...vegeterian; Hannibal, who transported an army of elephants over the Alps to invade Rome; Julius Caesar, who brought Western Europe under Roman rule; the life and Passion of Christ; and the struggle of the rising church.</p><p>\n  <br />\n</p><p><br /><b>The Age of Faith</b> (Volume 4): Over 1,000 years, we meet the Christian ascetics and martyrs, including Simeon Stylites, who sat atop a pillar for 30 years, exposed to rain, sun, and snow, and rejoiced as worms ate his rotting flesh; the saints, including Augustine, the most influential philosopher of his age; Mohammed, the desert merchant who founded a religion that conquered one-third of the known world in two centuries; and the Italian poet Dante, whose sensibility marks the transition to the Renaissance.</p><p>\n  <br />\n</p><p><br /><b>The Renaissance</b> (Volume 5): In this volume, Will Durant examines the economic seeds -- the growth of industry, the rise of banking families, the conflicts of labor and capital -- for Italy's emergence as the first nation to feel the awakening of the modern mind. He follows the cultural flowering from Florence to Milan to Verona and eventually to Rome, allowing us to witness a colorful pageant of princes, queens, poets, painters, sculptors and architects. We see humanity moved boldly from a finite world to an infinite one.</p><p>\n  <br />\n</p><p><br /><b>The Reformation</b> (Volume 6): In Europe's tumultuous emergence from the Middle Ages, we encounter two rival popes fighting for control of a corrupt, cynical church; the Hundred Years' War and 13-year-old warrior Joan of Arc; Christopher Columbus' accidental discovery of the New World; and Martin Luther, who defied the pope and ultimately led Northern Europe into the age of individualism.</p><p>\n  <br />\n</p><p><br /><b>The Age of Reason Begins</b> (Volume 7): In one of Europe's most turbulent centuries, Philip II of Spain sees his \"invincible\" armada suffer defeat at the hands of England; Elizabeth I of England receives assistance from explorer Walter Raleigh and pirate Francis Drake; and new appeals for reason and science are exemplified in the ideas of Copernicus, Galileo and Descartes.</p><p>\n  <br />\n</p><p><br /><b>The Age of Louis XIV</b> (Volume 8): This installment is the biography of a period some consider the apex of modern European civilization. \"Some centuries hence,\" Frederick the Great predicted to Voltaire, \"they will translate the good authors of the time of Louis XIV as we translate those of the age of Pericles or Augustus.\" Those authors are lovingly treated here: Pascal and Fenelon, Racine and Boileau, Mme. de Sevigne and Mme. de La Fayette, and, above all, the philosopher-dramatist Moliere, exposing the vices and hypocrisies of the age.</p><p>\n  <br />\n</p><p><br /><b>The Age of Voltaire</b> (Volume 9): A biography of a great man and the period he embodied. We witness Voltaire's satiric work in the salons and the theater as well as his banishment to England. With him we view the complex relationships between nobility, clergy, bourgeoisie and peasantry in the France of Louis XV. We explore the music of Bach and the struggle between Frederick the Great and Maria Theresa of Austria. And finally we hear an imaginary discussion between Voltaire and Pope Benedict XIV on the significance and value of religion.</p><p>\n  <br />\n</p><p><br /><b>Rousseau and Revolution</b> (Volume 10): This volume ranges over a Europe in ferment, but centers on the passionate rebel-philosopher Jean-Jacques Rousseau, who contended with Voltaire for the mind of Europe. Rousseau condemned civilization as a disease, glorified the noble savage, proclaimed to the world with equal intensity his own love affairs and the natural rights of man, and became the patron saint of the French Revolution and social upheavals across the globe for two centuries.</p><p>\n  <br />\n</p><p><br /><b>The Age of Napoleon</b> (Volume 11): The final volume. Napoleon is the archetypical hero, whose restless, ambitious, and intelligent mind dominated his age and has never ceased to fascinate the world he helped fashion. Yet even Bonaparte is dwarfed by the age that took his name. For, the Durants have re-created the life, the history, the arts, the science, the politics, the philosophy, the manners and the morality, the very <i>spirit </i>of the turbulent epoch that began with the French Revolution, ended with the fall of the emperor and ushered in the modern world.</p><p>\n  <br />\n</p><p></p>"
+          },
+          "book": {
+            "_attributes": {
+              "id": "174722"
+            },
+            "num_pages": {
+              "_text": "1047"
+            }
+          },
+          "author_name": {
+            "_text": "Will Durant"
+          },
+          "isbn": {
+            "_text": "1567310125"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Sat, 20 Mar 2021 21:27:29 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Sat, 20 Mar 2021 21:27:29 -0700"
+          },
+          "user_shelves": {
+            "_text": "on-deck"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.30"
+          },
+          "book_published": {
+            "_text": "1935"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/174722.Our_Oriental_Heritage?utm_medium=api&amp;utm_source=rss\"><img alt=\"Our Oriental Heritage (The Story of Civilization, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388372397l/174722._SX50_.jpg\" /></a><br/>\n                                      author: Will Durant<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.30<br/>\n                                      book published: 1935<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/03/20<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3900731726?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sat, 20 Mar 2021 20:49:53 -0700"
+          },
+          "title": {
+            "_text": "The Nicomachean Ethics"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3900731726?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "19068"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1520339295l/19068._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1520339295l/19068._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1520339295l/19068._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1520339295l/19068._SY475_.jpg"
+          },
+          "book_description": {
+            "_cdata": "<i>‘One swallow does not make a summer; neither does one day. Similarly neither can one day, or a brief space of time, make a man blessed and happy’</i><br /><br />In the <i>Nicomachean Ethics</i>, Aristotle sets out to examine the nature of happiness. He argues that happiness consists in ‘activity of the soul in accordance with virtue’, for example with moral virtues, such as courage, generosity and justice, and intellectual virtues, such as knowledge, wisdom and insight. <i>The Ethics</i> also discusses the nature of practical reasoning, the value and the objects of pleasure, the different forms of friendship, and the relationship between individual virtue, society and the State. Aristotle’s work has had a profound and lasting influence on all subsequent Western thought about ethical matters.<br /><br />J. A. K. Thomson’s translation has been revised by Hugh Tredennick, and is accompanied by a new introduction by Jonathan Barnes. This edition also includes an updated list for further reading and a new chronology of Aristotle’s life and works.<br /><br />Previously published as <i>Ethics</i>"
+          },
+          "book": {
+            "_attributes": {
+              "id": "19068"
+            },
+            "num_pages": {
+              "_text": "329"
+            }
+          },
+          "author_name": {
+            "_text": "Aristotle"
+          },
+          "isbn": {
+            "_text": "0140449493"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Sat, 20 Mar 2021 20:49:53 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Sat, 20 Mar 2021 20:49:53 -0700"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.98"
+          },
+          "book_published": {
+            "_text": "-349"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/19068.The_Nicomachean_Ethics?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Nicomachean Ethics\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1520339295l/19068._SY75_.jpg\" /></a><br/>\n                                      author: Aristotle<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.98<br/>\n                                      book published: -349<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/03/20<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3378147346?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sat, 20 Mar 2021 13:21:27 -0700"
+          },
+          "title": {
+            "_cdata": "Death's End (Remembrance of Earth’s Past #3)"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3378147346?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "25451264"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1430330507l/25451264._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1430330507l/25451264._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1430330507l/25451264._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1430330507l/25451264.jpg"
+          },
+          "book_description": {
+            "_cdata": "With The Three-Body Problem, English-speaking readers got their first chance to experience the multiple-award-winning and bestselling Three-Body Trilogy by China's most beloved science fiction author, Cixin Liu. Three-Body was released to great acclaim including coverage in The New York Times and The Wall Street Journal. It was also named a finalist for the Nebula Award, making it the first translated novel to be nominated for a major SF award since Italo Calvino's Invisible Cities in 1976.<br /><br />Now this epic trilogy concludes with Death's End. Half a century after the Doomsday Battle, the uneasy balance of Dark Forest Deterrence keeps the Trisolaran invaders at bay. Earth enjoys unprecedented prosperity due to the infusion of Trisolaran knowledge. With human science advancing daily and the Trisolarans adopting Earth culture, it seems that the two civilizations will soon be able to co-exist peacefully as equals without the terrible threat of mutually assured annihilation. But the peace has also made humanity complacent.<br /><br />Cheng Xin, an aerospace engineer from the early 21st century, awakens from hibernation in this new age. She brings with her knowledge of a long-forgotten program dating from the beginning of the Trisolar Crisis, and her very presence may upset the delicate balance between two worlds. Will humanity reach for the stars or die in its cradle?<br /><br />Ein halbes Jahrhundert nach der Entscheidungsschlacht hält der Waffenstillstand mit den Trisolariern immer noch stand. Die Hochtechnologie der Außerirdischen hat der Erde zu neuem Wohlstand verholfen, auch die Trisolarier haben dazugelernt, und eine friedliche Koexistenz scheint möglich. Der Frieden hat die Menschheit allerdings unvorsichtig werden lassen. Als mit Cheng Xin eine Raumfahrtingenieurin des 21. Jahrhunderts aus dem Kälteschlaf erwacht, bringt sie das Wissen um ein längst vergangenes Geheimprogramm in die neue Zeit. Wird die junge Frau den Frieden mit Trisolaris ins Wanken bringen – oder wird die Menschheit die letzte Chance ergreifen, sich weiterzuentwickeln?"
+          },
+          "book": {
+            "_attributes": {
+              "id": "25451264"
+            },
+            "num_pages": {
+              "_text": "604"
+            }
+          },
+          "author_name": {
+            "_text": "Liu Cixin"
+          },
+          "isbn": {
+            "_text": "0765377101"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "4"
+          },
+          "user_read_at": {
+            "_cdata": "Sat, 20 Mar 2021 13:21:27 -0700"
+          },
+          "user_date_added": {
+            "_cdata": "Sat, 20 Mar 2021 13:21:27 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Sat, 06 Jun 2020 16:14:57 -0700"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.39"
+          },
+          "book_published": {
+            "_text": "2010"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/25451264-death-s-end?utm_medium=api&amp;utm_source=rss\"><img alt=\"Death&#39;s End (Remembrance of Earth’s Past #3)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1430330507l/25451264._SY75_.jpg\" /></a><br/>\n                                      author: Liu Cixin<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.39<br/>\n                                      book published: 2010<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/03/20<br/>\n                                      date added: 2021/03/20<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3888456181?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sat, 13 Mar 2021 23:39:06 -0800"
+          },
+          "title": {
+            "_cdata": "Woke: A Guide to Social Justice"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3888456181?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "43197257"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1544544412l/43197257._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1544544412l/43197257._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1544544412l/43197257._SY160_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1544544412l/43197257._SY475_.jpg"
+          },
+          "book_description": {
+            "_cdata": "In <i>Woke</i>, Titania McGrath demonstrates how everybody can play their part in the pursuit of social justice. As a millennial icon on the forefront of online activism, Titania is uniquely placed to guide her readers through the often bewildering array of terminology and concepts that constitute twenty-first-century 'wokeness'. These new ideas often leave the general public bemused, particularly if they don't read the <i>Guardian</i>.<p>Being woke is actually much easier than people think. As Titania demonstrates, anyone can be an activist. By simply adding a rainbow flag to your Facebook profile, or calling out an elderly person who doesn't understand what 'non-binary' means, you can change the world for the better. Indeed, social media has now made it possible to show how virtuous you are without having to do anything at all.</p><p>Timely and indispensable, Titania's step-by-step guide will help you to become the woke person you need to be in an increasingly progressive world. In a non-patronising manner, Titania will explain why you are wrong about everything and how to become more like her.</p>"
+          },
+          "book": {
+            "_attributes": {
+              "id": "43197257"
+            },
+            "num_pages": {
+              "_text": "150"
+            }
+          },
+          "author_name": {
+            "_text": "Titania McGrath"
+          },
+          "isbn": {
+            "_text": "1472130847"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "4"
+          },
+          "user_read_at": {
+            "_cdata": "Sat, 13 Mar 2021 23:39:01 -0800"
+          },
+          "user_date_added": {
+            "_cdata": "Sat, 13 Mar 2021 23:39:06 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Sat, 13 Mar 2021 16:58:40 -0800"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.76"
+          },
+          "book_published": {
+            "_text": "2019"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/43197257-woke?utm_medium=api&amp;utm_source=rss\"><img alt=\"Woke: A Guide to Social Justice\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1544544412l/43197257._SY75_.jpg\" /></a><br/>\n                                      author: Titania McGrath<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.76<br/>\n                                      book published: 2019<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/03/13<br/>\n                                      date added: 2021/03/13<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3888824366?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sat, 13 Mar 2021 21:58:06 -0800"
+          },
+          "title": {
+            "_text": "The Wealthy Barber Returns"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3888824366?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "12443235"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1331500437l/12443235._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1331500437l/12443235._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1331500437l/12443235._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1331500437l/12443235.jpg"
+          },
+          "book_description": {
+            "_cdata": "\"If you've always thought of money as a dry and dusty subject, let Dave show you just how interesting it can be. While you're at it, learn a thing or two about your personal motivation and how to point it in the right direction. And laugh your socks off, too! I thoroughly enjoyed this book!\"<br />Gail Vaz-Oxlade, TV Host of Til Debt Do Us Part and Financial Author<br /><br />\"The Task Force on Financial Literacy can stop dithering. All it has to do is distribute Dave Chilton's long-awaited The Wealthy Barber Returns.\"<br />Jonathan Chevreau National Post Columnist and Author of Findependence<br /><br />\"Very funny. Very smart. This fast-paced journey through the world of personal finance will help a lot of people. I loved it!\" <br />Amanda Lang, CBC Senior Business Correspondent<br /><br />\"A simple plan for a better financial future: Read this book. It's down to earth, fun to read and wise to all the mistakes people make in managing money.\"<br />Rob Carrick, Personal Finance Columnist, The Globe and Mail"
+          },
+          "book": {
+            "_attributes": {
+              "id": "12443235"
+            },
+            "num_pages": {
+              "_text": "224"
+            }
+          },
+          "author_name": {
+            "_text": "David Chilton"
+          },
+          "isbn": {
+            "_text": "0968394744"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Sat, 13 Mar 2021 21:58:06 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Sat, 13 Mar 2021 21:58:05 -0800"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.90"
+          },
+          "book_published": {
+            "_text": "2011"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/12443235-the-wealthy-barber-returns?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Wealthy Barber Returns\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1331500437l/12443235._SY75_.jpg\" /></a><br/>\n                                      author: David Chilton<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.90<br/>\n                                      book published: 2011<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/03/13<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/3821083602?utm_medium=api&utm_source=rss"
@@ -6606,576 +7180,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/61179.Ringworld?utm_medium=api&amp;utm_source=rss\"><img alt=\"Ringworld (Ringworld, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1408793358l/61179._SY75_.jpg\" /></a><br/>\n                                      author: Larry Niven<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.97<br/>\n                                      book published: 1970<br/>\n                                      rating: 3<br/>\n                                      read at: 2020/04/29<br/>\n                                      date added: 2020/04/29<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3247173396?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Fri, 24 Apr 2020 12:49:16 -0700"
-          },
-          "title": {
-            "_cdata": "Sapiens: A Brief History of Humankind"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3247173396?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "20839196"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1420788020l/20839196._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1420788020l/20839196._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1420788020l/20839196._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1420788020l/20839196.jpg"
-          },
-          "book_description": {
-            "_cdata": "100,000 years ago, at least six human species inhabited the earth. Today there is just one. Us. Homo sapiens. <br /><br />How did our species succeed in the battle for dominance? Why did our foraging ancestors come together to create cities and kingdoms? How did we come to believe in gods, nations and human rights; to trust money, books and laws; and to be enslaved by bureaucracy, timetables and consumerism? And what will our world be like in the millennia to come? <br /><br />In <i>Sapiens</i>, Dr Yuval Noah Harari spans the whole of human history, from the very first humans to walk the earth to the radical – and sometimes devastating – breakthroughs of the Cognitive, Agricultural and Scientific Revolutions. Drawing on insights from biology, anthropology, paleontology and economics, he explores how the currents of history have shaped our human societies, the animals and plants around us, and even our personalities. Have we become happier as history has unfolded? Can we ever free our behaviour from the heritage of our ancestors? And what, if anything, can we do to influence the course of the centuries to come? <br /><br />Bold, wide-ranging and provocative, Sapiens challenges everything we thought we knew about being human: our thoughts, our actions, our power ... and our future."
-          },
-          "book": {
-            "_attributes": {
-              "id": "20839196"
-            },
-            "num_pages": {
-              "_text": "443"
-            }
-          },
-          "author_name": {
-            "_text": "Yuval Noah Harari"
-          },
-          "isbn": {
-            "_text": "0062316095"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "4"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Fri, 24 Apr 2020 12:49:16 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Wed, 25 Mar 2020 21:16:51 -0700"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.45"
-          },
-          "book_published": {
-            "_text": "2011"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/20839196-sapiens?utm_medium=api&amp;utm_source=rss\"><img alt=\"Sapiens: A Brief History of Humankind\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1420788020l/20839196._SY75_.jpg\" /></a><br/>\n                                      author: Yuval Noah Harari<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.45<br/>\n                                      book published: 2011<br/>\n                                      rating: 4<br/>\n                                      read at: <br/>\n                                      date added: 2020/04/24<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/602316429?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Fri, 24 Apr 2020 12:48:17 -0700"
-          },
-          "title": {
-            "_text": "Dune (Dune Chronicles, #1)"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/602316429?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "234225"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1434908555l/234225._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1434908555l/234225._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1434908555l/234225._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1434908555l/234225._SY475_.jpg"
-          },
-          "book_description": {
-            "_cdata": "Set on the desert planet Arrakis, <i>Dune</i> is the story of the boy Paul Atreides, heir to a noble family tasked with ruling an inhospitable world where the only thing of value is the \"spice\" melange, a drug capable of extending life and enhancing consciousness. Coveted across the known universe, melange is a prize worth killing for...<br /><br />When House Atreides is betrayed, the destruction of Paul's family will set the boy on a journey toward a destiny greater than he could ever have imagined. And as he evolves into the mysterious man known as Muad'Dib, he will bring to fruition humankind's most ancient and unattainable dream.<br /><br />A stunning blend of adventure and mysticism, environmentalism and politics, <i>Dune</i> won the first Nebula Award, shared the Hugo Award, and formed the basis of what is undoubtedly the grandest epic in science fiction."
-          },
-          "book": {
-            "_attributes": {
-              "id": "234225"
-            },
-            "num_pages": {
-              "_text": "604"
-            }
-          },
-          "author_name": {
-            "_text": "Frank Herbert"
-          },
-          "isbn": {
-            "_text": "0340839937"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "5"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Fri, 24 Apr 2020 12:48:17 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Sun, 28 Apr 2013 17:24:19 -0700"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.21"
-          },
-          "book_published": {
-            "_text": "1965"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/234225.Dune?utm_medium=api&amp;utm_source=rss\"><img alt=\"Dune (Dune Chronicles, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1434908555l/234225._SY75_.jpg\" /></a><br/>\n                                      author: Frank Herbert<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.21<br/>\n                                      book published: 1965<br/>\n                                      rating: 5<br/>\n                                      read at: <br/>\n                                      date added: 2020/04/24<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3299212684?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Fri, 24 Apr 2020 11:19:56 -0700"
-          },
-          "title": {
-            "_cdata": "Do Androids Dream of Electric Sheep?"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3299212684?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "7082"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1519481930l/7082._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1519481930l/7082._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1519481930l/7082._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1519481930l/7082.jpg"
-          },
-          "book_description": {
-            "_cdata": "It was January 2021, and Rick Deckard had a license to kill.<br />Somewhere among the hordes of humans out there, lurked several rogue androids. Deckard's assignment--find them and then...\"retire\" them. Trouble was, the androids all looked exactly like humans, and they didn't want to be found!"
-          },
-          "book": {
-            "_attributes": {
-              "id": "7082"
-            },
-            "num_pages": {
-              "_text": "244"
-            }
-          },
-          "author_name": {
-            "_text": "Philip K. Dick"
-          },
-          "isbn": {
-            "_text": "0345404475"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Fri, 24 Apr 2020 11:19:56 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Fri, 24 Apr 2020 11:19:55 -0700"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.07"
-          },
-          "book_published": {
-            "_text": "1968"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/7082.Do_Androids_Dream_of_Electric_Sheep_?utm_medium=api&amp;utm_source=rss\"><img alt=\"Do Androids Dream of Electric Sheep?\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1519481930l/7082._SY75_.jpg\" /></a><br/>\n                                      author: Philip K. Dick<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.07<br/>\n                                      book published: 1968<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2020/04/24<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3299211131?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Fri, 24 Apr 2020 11:18:52 -0700"
-          },
-          "title": {
-            "_text": "The Shockwave Rider"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3299211131?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "41070"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386921650l/41070._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386921650l/41070._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386921650l/41070._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386921650l/41070.jpg"
-          },
-          "book_description": {
-            "_cdata": "One man has made it his mission to liberate the mental prisoners. to restore their freedom in a world run mad.<br /><br />Nickie Halflinger, the only person to escape from Tarnover—where they raise hyper-intelligent children to maintain the political dominance of the USA in the 21st century—is on the run, dodging from loophole to crevice to crack in the computerised data-net that binds the continent like chains. After years of flight and constant changes of identity, at the strange small town called Precipice he discovers he is not alone in his quest. But can his new allies save him when he falls again into the sinister grasp of Tarnover...?"
-          },
-          "book": {
-            "_attributes": {
-              "id": "41070"
-            },
-            "num_pages": {
-              "_text": "288"
-            }
-          },
-          "author_name": {
-            "_text": "John Brunner"
-          },
-          "isbn": {
-            "_text": "0345467175"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Fri, 24 Apr 2020 11:18:52 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Fri, 24 Apr 2020 11:18:52 -0700"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "3.96"
-          },
-          "book_published": {
-            "_text": "1975"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/41070.The_Shockwave_Rider?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Shockwave Rider\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386921650l/41070._SY75_.jpg\" /></a><br/>\n                                      author: John Brunner<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.96<br/>\n                                      book published: 1975<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2020/04/24<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3083295659?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Fri, 24 Apr 2020 10:02:16 -0700"
-          },
-          "title": {
-            "_cdata": "The Mote in God's Eye (Moties, #1)"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3083295659?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "100365"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1399490037l/100365._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1399490037l/100365._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1399490037l/100365._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1399490037l/100365.jpg"
-          },
-          "book_description": {
-            "_cdata": "In 3016, the 2nd Empire of Man spans hundreds of star systems, thanks to faster-than-light Alderson Drive. Intelligent beings are finally found from the Mote, an isolated star in a thick dust cloud. The bottled-up ancient civilization, at least one million years old, are welcoming, kind, yet evasive, with a dark problem they have not solved in over a million years."
-          },
-          "book": {
-            "_attributes": {
-              "id": "100365"
-            },
-            "num_pages": {
-              "_text": "596"
-            }
-          },
-          "author_name": {
-            "_text": "Larry Niven"
-          },
-          "isbn": {
-            "_text": "156865054X"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "4"
-          },
-          "user_read_at": {
-            "_cdata": "Fri, 24 Apr 2020 10:02:16 -0700"
-          },
-          "user_date_added": {
-            "_cdata": "Fri, 24 Apr 2020 10:02:16 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Fri, 13 Dec 2019 02:10:36 -0800"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.08"
-          },
-          "book_published": {
-            "_text": "1974"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/100365.The_Mote_in_God_s_Eye?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Mote in God&#39;s Eye (Moties, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1399490037l/100365._SY75_.jpg\" /></a><br/>\n                                      author: Larry Niven<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.08<br/>\n                                      book published: 1974<br/>\n                                      rating: 4<br/>\n                                      read at: 2020/04/24<br/>\n                                      date added: 2020/04/24<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/2937856650?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sat, 18 Apr 2020 19:17:27 -0700"
-          },
-          "title": {
-            "_cdata": "Something Deeply Hidden: Quantum Worlds and the Emergence of Spacetime"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/2937856650?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "44065062"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1550592276l/44065062._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1550592276l/44065062._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1550592276l/44065062._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1550592276l/44065062.jpg"
-          },
-          "book_description": {
-            "_cdata": "As you read these words, copies of you are being created.<br /> <br />Sean Carroll, theoretical physicist and one of this world’s most celebrated writers on science, rewrites the history of 20th century physics. Already hailed as a masterpiece, Something Deeply Hidden shows for the first time that facing up to the essential puzzle of quantum mechanics utterly transforms how we think about space and time. His reconciling of quantum mechanics with Einstein’s theory of relativity changes, well, everything. <br /><br />Most physicists haven’t even recognized the uncomfortable truth: physics has been in crisis since 1927. Quantum mechanics has always had obvious gaps—which have come to be simply ignored. Science popularizers keep telling us how weird it is, how impossible it is to understand. Academics discourage students from working on the \"dead end\" of quantum foundations. Putting his professional reputation on the line with this audacious yet entirely reasonable book, Carroll says that the crisis can now come to an end. We just have to accept that there is more than one of us in the universe. There are many, many Sean Carrolls. Many of every one of us.<br /> <br />Copies of you are generated thousands of times per second. The Many Worlds Theory of quantum behavior says that every time there is a quantum event, a world splits off with everything in it the same, except in that other world the quantum event didn't happen. Step-by-step in Carroll's uniquely lucid way, he tackles the major objections to this otherworldly revelation until his case is inescapably established.<br /> <br />Rarely does a book so fully reorganize how we think about our place in the universe. We are on the threshold of a new understanding—of where we are in the cosmos, and what we are made of."
-          },
-          "book": {
-            "_attributes": {
-              "id": "44065062"
-            },
-            "num_pages": {
-              "_text": "368"
-            }
-          },
-          "author_name": {
-            "_text": "Sean Carroll"
-          },
-          "isbn": {
-            "_text": "1524743011"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "5"
-          },
-          "user_read_at": {
-            "_cdata": "Sat, 18 Apr 2020 19:17:18 -0700"
-          },
-          "user_date_added": {
-            "_cdata": "Sat, 18 Apr 2020 19:17:27 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Wed, 14 Aug 2019 20:37:44 -0700"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.05"
-          },
-          "book_published": {
-            "_text": "2019"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/44065062-something-deeply-hidden?utm_medium=api&amp;utm_source=rss\"><img alt=\"Something Deeply Hidden: Quantum Worlds and the Emergence of Spacetime\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1550592276l/44065062._SY75_.jpg\" /></a><br/>\n                                      author: Sean Carroll<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.05<br/>\n                                      book published: 2019<br/>\n                                      rating: 5<br/>\n                                      read at: 2020/04/18<br/>\n                                      date added: 2020/04/18<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3017647477?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Thu, 16 Apr 2020 15:50:46 -0700"
-          },
-          "title": {
-            "_text": "Neuromancer (Sprawl, #1)"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3017647477?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "888628"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1281419771l/888628._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1281419771l/888628._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1281419771l/888628._SY160_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1281419771l/888628.jpg"
-          },
-          "book_description": {
-            "_cdata": "Winner of the Hugo, Nebula, and Philip K. Dick Awards<br /><br />Case was the sharpest data thief in the Matrix, until an ex-employer crippled his nervous system. Now a new employer has recruited him for a last-chance run against an unthinkably powerful artificial intelligence. With a mirror-eyed girl street-samurai riding shotgun, he's ready for the silicon-quick, bleakly prophetic adventure that upped the ante on an entire genre of fiction."
-          },
-          "book": {
-            "_attributes": {
-              "id": "888628"
-            },
-            "num_pages": {
-              "_text": "320"
-            }
-          },
-          "author_name": {
-            "_text": "William Gibson"
-          },
-          "isbn": {},
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "4"
-          },
-          "user_read_at": {
-            "_cdata": "Thu, 16 Apr 2020 15:50:46 -0700"
-          },
-          "user_date_added": {
-            "_cdata": "Thu, 16 Apr 2020 15:50:46 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Sat, 19 Oct 2019 02:32:30 -0700"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.01"
-          },
-          "book_published": {
-            "_text": "1984"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/888628.Neuromancer?utm_medium=api&amp;utm_source=rss\"><img alt=\"Neuromancer (Sprawl, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1281419771l/888628._SY75_.jpg\" /></a><br/>\n                                      author: William Gibson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.01<br/>\n                                      book published: 1984<br/>\n                                      rating: 4<br/>\n                                      read at: 2020/04/16<br/>\n                                      date added: 2020/04/16<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3280933162?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Tue, 14 Apr 2020 14:06:28 -0700"
-          },
-          "title": {
-            "_cdata": "Einstein's Cosmos: How Albert Einstein's Vision Transformed Our Understanding of Space and Time"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3280933162?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "38396"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1433341026l/38396._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1433341026l/38396._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1433341026l/38396._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1433341026l/38396._SY475_.jpg"
-          },
-          "book_description": {
-            "_cdata": "There's no better short book that explains just what Einstein did than <em>Einstein's Cosmos</em>. Keying Einstein's crucial discoveries to the simple mental images that inspired them, Michio Kaku finds a revealing new way to discuss his ideas, and delivers an appealing and always accessible introduction to Einstein's work."
-          },
-          "book": {
-            "_attributes": {
-              "id": "38396"
-            },
-            "num_pages": {
-              "_text": "272"
-            }
-          },
-          "author_name": {
-            "_text": "Michio Kaku"
-          },
-          "isbn": {
-            "_text": "0393327000"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Tue, 14 Apr 2020 14:06:28 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Tue, 14 Apr 2020 14:06:27 -0700"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.26"
-          },
-          "book_published": {
-            "_text": "2004"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/38396.Einstein_s_Cosmos?utm_medium=api&amp;utm_source=rss\"><img alt=\"Einstein&#39;s Cosmos: How Albert Einstein&#39;s Vision Transformed Our Understanding of Space and Time\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1433341026l/38396._SY75_.jpg\" /></a><br/>\n                                      author: Michio Kaku<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.26<br/>\n                                      book published: 2004<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2020/04/14<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

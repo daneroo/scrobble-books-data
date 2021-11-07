@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Sun, 07 Nov 2021 00:08:18 -0700"
+        "_text": "Fri, 11 Nov 2011 07:55:41 -0800"
       },
       "ttl": {
         "_text": "60"
@@ -62,7 +62,151 @@
         "url": {
           "_text": "https://www.goodreads.com/images/layout/goodreads_logo_144.jpg"
         }
-      }
+      },
+      "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/231375268?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Fri, 11 Nov 2011 07:55:41 -0800"
+          },
+          "title": {
+            "_cdata": "Weird Ideas That Work: How to Build a Creative Company"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/231375268?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "700584"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1393771490l/700584._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1393771490l/700584._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1393771490l/700584._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1393771490l/700584.jpg"
+          },
+          "book_description": {
+            "_cdata": "<b>A breakthrough in management thinking, “weird ideas” can help every organization achieve a balance between sustaining performance and fostering new ideas. To succeed, you need to be both conventional and counterintuitive.</b><br /><br />Creativity, new ideas, innovation—in any age they are keys to success. Yet, as Stanford professor Robert Sutton explains, the standard rules of business behavior and management are precisely the opposite of what it takes to build an innovative company. We are told to hire people who will fit in; to train them extensively; and to work to instill a corporate culture in every employee. In fact, in order to foster creativity, we should hire misfits, goad them to fight, and pay them to defy convention and undermine the prevailing culture. <i>Weird Ideas That Work</i> codifies these and other proven counterintuitive ideas to help you turn your workplace from staid and safe to wild and woolly—and creative.<br /> <br />In <i>Weird Ideas That Work</i> Sutton draws on extensive research in behavioral psychology to explain how innovation can be fostered in hiring, managing, and motivating people; building teams; making decisions; and interacting with outsiders. Business practices like \"hire people who make you uncomfortable\" and \"reward success and failure, but punish inaction,\" strike many managers as strange or even downright wrong. Yet <i>Weird Ideas That Work </i>shows how some of the best teams and companies use these and other counterintuitive practices to crank out new ideas, and it demonstrates that every company can reap sales and profits from such creativity.<br /> <br /><i>Weird Ideas That Work</i> is filled with examples, drawn from hi- and low-tech industries, manufacturing and services, information and products. More than just a set of bizarre suggestions, it represents a breakthrough in management thinking: Sutton shows that the practices we need to sustain performance are in constant tension with those that foster new ideas. The trick is to choose the right balance between conventional and \"weird\"—and now, thanks to Robert Sutton's work, we have the tools we need to do so."
+          },
+          "book": {
+            "_attributes": {
+              "id": "700584"
+            },
+            "num_pages": {
+              "_text": "240"
+            }
+          },
+          "author_name": {
+            "_text": "Robert I. Sutton"
+          },
+          "isbn": {
+            "_text": "0743227883"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Fri, 11 Nov 2011 07:55:41 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Sat, 05 Nov 2011 00:19:47 -0700"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.82"
+          },
+          "book_published": {
+            "_text": "2001"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/700584.Weird_Ideas_That_Work?utm_medium=api&amp;utm_source=rss\"><img alt=\"Weird Ideas That Work: How to Build a Creative Company\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1393771490l/700584._SY75_.jpg\" /></a><br/>\n                                      author: Robert I. Sutton<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.82<br/>\n                                      book published: 2001<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2011/11/11<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/233767427?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Thu, 10 Nov 2011 07:38:57 -0800"
+          },
+          "title": {
+            "_cdata": "A Strange Wilderness: The Lives of the Great Mathematicians"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/233767427?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "12150875"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328767521l/12150875._SX50_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328767521l/12150875._SX50_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328767521l/12150875._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328767521l/12150875.jpg"
+          },
+          "book_description": {
+            "_cdata": "Duels, battlefield heroism, secret societies, theft, imprisonment, and feuds fill the pages of <em>A Strange Wilderness</em>. As exciting as any action/adventure novel, this is actually the story of incredible individuals and engrossing tales behind the most profound, enduring mathematical theorems.<br /><br />Archimedes famously ran naked through the streets shouting, “Eureka, eureka!” after finding a method for measuring the volume of an irregular-shaped object. René Descartes was not only a great French mathematician, philosopher, physicist, and natural scientist; he was also an expert swordsman who traveled with European armies from town to town, dressed in green taffeta and accompanied by a valet. Georg Cantor grappled with mental illness as he explored the highly counterintuitive, bizarre properties of infinite sets and numbers. Emmy Noether struggled to find employment as she laid the mathematical groundwork for modern theoretical physics. And Alexander Grothendieck taught himself mathematics while interned in Nazi concentration camps, only to disappear into the Pyrenees at the zenith of his career.<br /><br />These are just a few stories recounted in this absorbing narrative. In probing the lives of the preeminent mathematicians in history, <em>a Strange Wilderness</em> will leave you entertained and enlightened, with a newfound appreciation of the tenacity, complexity, and brilliance of the mathematical genius."
+          },
+          "book": {
+            "_attributes": {
+              "id": "12150875"
+            },
+            "num_pages": {
+              "_text": "284"
+            }
+          },
+          "author_name": {
+            "_text": "Amir D. Aczel"
+          },
+          "isbn": {
+            "_text": "1402785844"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "4"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Thu, 10 Nov 2011 07:38:57 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Thu, 10 Nov 2011 07:39:48 -0800"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.62"
+          },
+          "book_published": {
+            "_text": "2011"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/12150875-a-strange-wilderness?utm_medium=api&amp;utm_source=rss\"><img alt=\"A Strange Wilderness: The Lives of the Great Mathematicians\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328767521l/12150875._SX50_.jpg\" /></a><br/>\n                                      author: Amir D. Aczel<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.62<br/>\n                                      book published: 2011<br/>\n                                      rating: 4<br/>\n                                      read at: <br/>\n                                      date added: 2011/11/10<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        }
+      ]
     }
   }
 }

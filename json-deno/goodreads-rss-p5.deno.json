@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Sun, 14 Dec 2014 17:00:12 -0800"
+        "_text": "Wed, 25 Mar 2015 01:49:04 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,574 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/1236585813?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Wed, 25 Mar 2015 01:49:04 -0700"
+          },
+          "title": {
+            "_cdata": "Search Inside Yourself: The Unexpected Path to Achieving Success, Happiness (And World Peace)"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/1236585813?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "12921211"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1630544100l/12921211._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1630544100l/12921211._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1630544100l/12921211._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1630544100l/12921211._SY475_.jpg"
+          },
+          "book_description": {
+            "_cdata": "With <em>Search Inside Yourself</em>, Chade-Meng Tan, one of Google’s earliest engineers and personal growth pioneer, offers a proven method for enhancing mindfulness and emotional intelligence in life and work.<br /><br />Meng’s job is to teach Google’s best and brightest how to apply mindfulness techniques in the office and beyond; now, readers everywhere can get insider access to one of the most sought after classes in the country, a course in health, happiness and creativity that is improving the livelihood and productivity of those responsible for one of the most successful businesses in the world.<br /><br />With forewords by Daniel Goleman, author of the international bestseller <em>Emotional Intelligence</em>, and Jon Kabat-Zinn, renowned mindfulness expert and author of <em>Coming To Our Senses</em>, Meng’s <em>Search Inside Yourself</em> is an invaluable guide to achieving your own best potential."
+          },
+          "book": {
+            "_attributes": {
+              "id": "12921211"
+            },
+            "num_pages": {
+              "_text": "288"
+            }
+          },
+          "author_name": {
+            "_text": "Chade-Meng Tan"
+          },
+          "isbn": {
+            "_text": "0062116924"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Wed, 25 Mar 2015 01:49:04 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Wed, 25 Mar 2015 01:49:03 -0700"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.94"
+          },
+          "book_published": {
+            "_text": "2012"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/12921211-search-inside-yourself?utm_medium=api&amp;utm_source=rss\"><img alt=\"Search Inside Yourself: The Unexpected Path to Achieving Success, Happiness (And World Peace)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1630544100l/12921211._SY75_.jpg\" /></a><br/>\n                                      author: Chade-Meng Tan<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.94<br/>\n                                      book published: 2012<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2015/03/25<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/1212897588?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Fri, 27 Feb 2015 00:47:58 -0800"
+          },
+          "title": {
+            "_cdata": "Quicksilver (The Baroque Cycle, #1)"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/1212897588?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "823"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1377095669l/823._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1377095669l/823._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1377095669l/823._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1377095669l/823.jpg"
+          },
+          "book_description": {
+            "_cdata": "<i>Quicksilver</i> is the story of Daniel Waterhouse, fearless thinker and conflicted Puritan, pursuing knowledge in the company of the greatest minds of Baroque-era Europe, in a chaotic world where reason wars with the bloody ambitions of the mighty, and where catastrophe, natural or otherwise, can alter the political landscape overnight.<br /><br />It is a chronicle of the breathtaking exploits of \"Half-Cocked Jack\" Shaftoe--London street urchin turned swashbuckling adventurer and legendary King of the Vagabonds--risking life and limb for fortune and love while slowly maddening from the pox.<br /><br />And it is the tale of Eliza, rescued by Jack from a Turkish harem to become spy, confidante, and pawn of royals in order to reinvent Europe through the newborn power of finance.<br /><br />A gloriously rich, entertaining, and endlessly inventive novel that brings a remarkable age and its momentous events to vivid life, <i>Quicksilver</i> is an extraordinary achievement from one of the most original and important literary talents of our time.<br /><br />And it's just the beginning...<br /><br />(back cover)<br /><br />This P.S. edition includes 16 pages of supplementary materials.<br /><br />Cover design by Richard L. Aquan<br />Cover illustration from the Mary Evans Picture Library; painting of Great Fire of London on stepback"
+          },
+          "book": {
+            "_attributes": {
+              "id": "823"
+            },
+            "num_pages": {
+              "_text": "927"
+            }
+          },
+          "author_name": {
+            "_text": "Neal Stephenson"
+          },
+          "isbn": {
+            "_text": "0060593083"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Fri, 27 Feb 2015 00:47:58 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Fri, 27 Feb 2015 00:47:57 -0800"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.86"
+          },
+          "book_published": {
+            "_text": "2003"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/823.Quicksilver?utm_medium=api&amp;utm_source=rss\"><img alt=\"Quicksilver (The Baroque Cycle, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1377095669l/823._SY75_.jpg\" /></a><br/>\n                                      author: Neal Stephenson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.86<br/>\n                                      book published: 2003<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2015/02/27<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/1204768418?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Wed, 18 Feb 2015 16:51:04 -0800"
+          },
+          "title": {
+            "_cdata": "Seven Languages in Seven Weeks"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/1204768418?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "7912517"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348558067l/7912517._SX50_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348558067l/7912517._SX50_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348558067l/7912517._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348558067l/7912517.jpg"
+          },
+          "book_description": {
+            "_cdata": "You should learn a programming language every year, as recommended by <i>The Pragmatic Programmer</i>. But if one per year is good, how about <i>Seven Languages in Seven Weeks</i>? In this book you'll get a hands-on tour of Clojure, Haskell, Io, Prolog, Scala, Erlang, and Ruby. Whether or not your favorite language is on that list, you'll broaden your perspective of programming by examining these languages side-by-side. You'll learn something new from each, and best of all, you'll learn how to learn a language quickly.<br /><br /> Ruby, Io, Prolog, Scala, Erlang, Clojure, Haskell. With <i>Seven Languages in Seven Weeks,</i> by Bruce A. Tate, you'll go beyond the syntax-and beyond the 20-minute tutorial you'll find someplace online. This book has an audacious goal: to present a meaningful exploration of seven languages within a single book. Rather than serve as a complete reference or installation guide, <i>Seven Languages</i> hits what's essential and unique about each language. Moreover, this approach will help teach you how to grok new languages.<br /><br /> For each language, you'll solve a nontrivial problem, using techniques that show off the language's most important features. As the book proceeds, you'll discover the strengths and weaknesses of the languages, while dissecting the process of learning languages quickly--for example, finding the typing and programming models, decision structures, and how you interact with them.<br /><br /> Among this group of seven, you'll explore the most critical programming models of our time. Learn the dynamic typing that makes Ruby, Python, and Perl so flexible and compelling. Understand the underlying prototype system that's at the heart of JavaScript. See how pattern matching in Prolog shaped the development of Scala and Erlang. Discover how pure functional programming in Haskell is different from the Lisp family of languages, including Clojure.<br /><br /> Explore the concurrency techniques that are quickly becoming the backbone of a new generation of Internet applications. Find out how to use Erlang's let-it-crash philosophy for building fault-tolerant systems. Understand the actor model that drives concurrency design in Io and Scala. Learn how Clojure uses versioning to solve some of the most difficult concurrency problems.<br /><br /> It's all here, all in one place. Use the concepts from one language to find creative solutions in another-or discover a language that may become one of your favorites."
+          },
+          "book": {
+            "_attributes": {
+              "id": "7912517"
+            },
+            "num_pages": {
+              "_text": "328"
+            }
+          },
+          "author_name": {
+            "_text": "Bruce A. Tate"
+          },
+          "isbn": {
+            "_text": "193435659X"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Wed, 18 Feb 2015 16:51:04 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Wed, 18 Feb 2015 16:51:03 -0800"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.96"
+          },
+          "book_published": {
+            "_text": "2010"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/7912517-seven-languages-in-seven-weeks?utm_medium=api&amp;utm_source=rss\"><img alt=\"Seven Languages in Seven Weeks\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348558067l/7912517._SX50_.jpg\" /></a><br/>\n                                      author: Bruce A. Tate<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.96<br/>\n                                      book published: 2010<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2015/02/18<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/938148937?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sat, 14 Feb 2015 15:41:11 -0800"
+          },
+          "title": {
+            "_text": "On Anarchism"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/938148937?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "19248894"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386380233l/19248894._SX50_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386380233l/19248894._SX50_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386380233l/19248894._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386380233l/19248894.jpg"
+          },
+          "book_description": {
+            "_cdata": "We all know what Noam Chomsky is against. His scathing analysis of everything that’s wrong with our society reaches more and more people every day. His brilliant critiques of — among other things — capitalism, imperialism, domestic repression and government propaganda have become mini-publishing industries unto themselves. But, in this flood of publishing and republishing, very little ever gets said about what exactly Chomsky stands for, his own personal politics, his vision of the future.<br /><br />Not, that is, until <i>Chomsky on Anarchism</i>, a groundbreaking new book that shows a different side of this best-selling author: the anarchist principles that have guided him since he was a teenager. This collection of Chomsky’s essays and inter-views includes numerous pieces that have never been published before, as well as rare material that first saw the light of day in hard-to-find pamphlets and anarchist periodicals. Taken together, they paint a fresh picture of Chomsky, showing his lifelong involvement with the anarchist community, his constant commitment to nonhierarchical models of political organization and his hopes for a future world without rulers.<br /><br />For anyone who’s been touched by Chomsky’s trenchant analysis of our current situation, as well as anyone looking for an intelligent and coherent discussion of anarchism itself, look no further than <i>Chomsky on Anarchism</i>.<br /><br /><b>Noam Chomsky</b> is one of the world’s leading intellectuals, the father of modern linguistics, an outspoken media and foreign policy critic and tireless activist. He lives in Boston, Massachusetts."
+          },
+          "book": {
+            "_attributes": {
+              "id": "19248894"
+            },
+            "num_pages": {
+              "_text": "194"
+            }
+          },
+          "author_name": {
+            "_text": "Noam Chomsky"
+          },
+          "isbn": {},
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Sat, 14 Feb 2015 15:41:11 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Thu, 15 May 2014 09:54:10 -0700"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.94"
+          },
+          "book_published": {
+            "_text": "2005"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/19248894-on-anarchism?utm_medium=api&amp;utm_source=rss\"><img alt=\"On Anarchism\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386380233l/19248894._SX50_.jpg\" /></a><br/>\n                                      author: Noam Chomsky<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.94<br/>\n                                      book published: 2005<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2015/02/14<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/1131901439?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Thu, 15 Jan 2015 15:46:33 -0800"
+          },
+          "title": {
+            "_cdata": "Investment Policy: How to Win the Loser's Game"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/1131901439?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "911852"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1387748143l/911852._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1387748143l/911852._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1387748143l/911852._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1387748143l/911852.jpg"
+          },
+          "book_description": {
+            "_cdata": "This indispensable investment guide asks the question: How can an individual invest successfully when the majority always fails?Charles Ellis, one of today's most brilliant investment writers, has updated his influential book to include: <br />-- Ways to escape the ravages of taxes and inflation<br />-- How to successfully pass your estate to your heirs (not the taxman!)<br />-- Common investing mistakes and painless strategies to avoid them"
+          },
+          "book": {
+            "_attributes": {
+              "id": "911852"
+            },
+            "num_pages": {
+              "_text": "94"
+            }
+          },
+          "author_name": {
+            "_text": "Charles D. Ellis"
+          },
+          "isbn": {
+            "_text": "1556230885"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "5"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Thu, 15 Jan 2015 15:46:33 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Sun, 14 Dec 2014 17:00:39 -0800"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.00"
+          },
+          "book_published": {
+            "_text": "1985"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/911852.Investment_Policy?utm_medium=api&amp;utm_source=rss\"><img alt=\"Investment Policy: How to Win the Loser&#39;s Game\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1387748143l/911852._SY75_.jpg\" /></a><br/>\n                                      author: Charles D. Ellis<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.00<br/>\n                                      book published: 1985<br/>\n                                      rating: 5<br/>\n                                      read at: <br/>\n                                      date added: 2015/01/15<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/1167247818?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Tue, 13 Jan 2015 11:55:10 -0800"
+          },
+          "title": {
+            "_text": "Thieves Emporium"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/1167247818?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "21818365"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1420788365l/21818365._SX50_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1420788365l/21818365._SX50_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1420788365l/21818365._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1420788365l/21818365.jpg"
+          },
+          "book_description": {
+            "_cdata": "A novel of technology, economics, and death in the age of the surveillance state. What price freedom when government knows all our secrets? WELCOME TO THE NEW BADLANDS Fawn got to the shelter too late for dinner, so she just wanted a safe place to sleep. But a dark stranger offered her more. A ticket to a new world, filled with opportunity. And danger. Welcome, Fawn, to the New Badlands. A place beyond the reach of any government. Without laws or regulations of any kind. Where everyone is free. But no one is safe. This is the story of a young mother's attempt to survive in the new digital underworld. Follow her as she becomes a pioneer, a smuggler, a spy, and a freedom-fighter while dodging forces that threaten to destroy the foundations of the modern nation-state. The characters in this novel are fictional. The place is not. It's growing around you, like cracks in the armor of the new surveillance state. Read about it now, while you still can."
+          },
+          "book": {
+            "_attributes": {
+              "id": "21818365"
+            },
+            "num_pages": {
+              "_text": "420"
+            }
+          },
+          "author_name": {
+            "_text": "Max  Hernández"
+          },
+          "isbn": {
+            "_text": "0988703009"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Tue, 13 Jan 2015 11:55:10 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Tue, 13 Jan 2015 11:55:09 -0800"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.04"
+          },
+          "book_published": {
+            "_text": "2013"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/21818365-thieves-emporium?utm_medium=api&amp;utm_source=rss\"><img alt=\"Thieves Emporium\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1420788365l/21818365._SX50_.jpg\" /></a><br/>\n                                      author: Max  Hernández<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.04<br/>\n                                      book published: 2013<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2015/01/13<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/1141733463?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Fri, 26 Dec 2014 02:08:47 -0800"
+          },
+          "title": {
+            "_cdata": "Confessions of an Economic Hit Man"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/1141733463?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "2159"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1565872483l/2159._SX50_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1565872483l/2159._SX50_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1565872483l/2159._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1565872483l/2159._SX318_.jpg"
+          },
+          "book_description": {
+            "_cdata": "From the author of the phenomenal New York Times bestseller, <i>Confessions of an Economic Hit Man</i>, comes an exposé of international corruption, and an inspired plan to turn the tide for future generations<br /><br />With a presidential election around the corner, questions of America's military buildup, environmental impact, and foreign policy are on everyone's mind. Former Economic Hit Man John Perkins goes behind the scenes of the current geopolitical crisis and offers bold solutions to our most pressing problems. Drawing on interviews with other EHMs, jackals, CIA operatives, reporters, businessmen, and activists, Perkins reveals the secret history of events that have created the current American Empire, including:<br /> <br />How the defeats in Vietnam and Iraq have benefited big business<br />The role of Israel as Fortress America in the Middle East<br />Tragic repercussions of the IMF's Asian Economic Collapse<br />The current Latin American revolution and its lessons for democracy<br />U.S. blunders in Tibet, Congo, Lebanon, and Venezuela<br /><br />From the U.S. military in Iraq to infrastructure development in Indonesia, from Peace Corps volunteers in Africa to jackals in Venezuela, Perkins exposes a conspiracy of corruption that has fueled instability and anti-Americanism around the globe, with consequences reflected in our daily headlines. Having raised the alarm, Perkins passionately addresses how Americans can work to create a more peaceful and stable world for future generations.<br /> "
+          },
+          "book": {
+            "_attributes": {
+              "id": "2159"
+            },
+            "num_pages": {
+              "_text": "303"
+            }
+          },
+          "author_name": {
+            "_text": "John Perkins"
+          },
+          "isbn": {
+            "_text": "0452287081"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Fri, 26 Dec 2014 02:08:47 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Fri, 26 Dec 2014 02:08:47 -0800"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.84"
+          },
+          "book_published": {
+            "_text": "2004"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/2159.Confessions_of_an_Economic_Hit_Man?utm_medium=api&amp;utm_source=rss\"><img alt=\"Confessions of an Economic Hit Man\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1565872483l/2159._SX50_.jpg\" /></a><br/>\n                                      author: John Perkins<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.84<br/>\n                                      book published: 2004<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2014/12/26<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/1131901225?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sun, 14 Dec 2014 17:00:21 -0800"
+          },
+          "title": {
+            "_cdata": "Effective JavaScript: 68 Specific Ways to Harness the Power of JavaScript"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/1131901225?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "17288969"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1394330987l/17288969._SX50_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1394330987l/17288969._SX50_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1394330987l/17288969._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1394330987l/17288969.jpg"
+          },
+          "book_description": {
+            "_cdata": "“It’s uncommon to have a programming language wonk who can speak in such comfortable and friendly language as David does. His walk through the syntax and semantics of JavaScript is both charming and hugely insightful; reminders of gotchas complement realistic use cases, paced at a comfortable curve. You’ll find when you finish the book that you’ve gained a strong and comprehensive sense of mastery.”<br />—Paul Irish, developer advocate, Google Chrome<br /> <br />“This is not a book for those looking for shortcuts; rather it is hard-won experience distilled into a guided tour. It’s one of the few books on JS that I’ll recommend without hesitation.”<br />—Alex Russell, TC39 member, software engineer, Google<br /> <br />In order to truly master JavaScript, you need to learn how to work effectively with the language’s flexible, expressive features and how to avoid its pitfalls. No matter how long you’ve been writing JavaScript code, Effective JavaScript will help deepen your understanding of this powerful language, so you can build more predictable, reliable, and maintainable programs.<br /> <br />Author David Herman, with his years of experience on Ecma’s JavaScript standardization committee, illuminates the language’s inner workings as never before—helping you take full advantage of JavaScript’s expressiveness. Reflecting the latest versions of the JavaScript standard, the book offers well-proven techniques and best practices you’ll rely on for years to come."
+          },
+          "book": {
+            "_attributes": {
+              "id": "17288969"
+            },
+            "num_pages": {
+              "_text": "216"
+            }
+          },
+          "author_name": {
+            "_text": "David  Herman"
+          },
+          "isbn": {},
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "5"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Sun, 14 Dec 2014 17:00:21 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Sun, 14 Dec 2014 17:00:21 -0800"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.22"
+          },
+          "book_published": {
+            "_text": "2012"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/17288969-effective-javascript?utm_medium=api&amp;utm_source=rss\"><img alt=\"Effective JavaScript: 68 Specific Ways to Harness the Power of JavaScript\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1394330987l/17288969._SX50_.jpg\" /></a><br/>\n                                      author: David  Herman<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.22<br/>\n                                      book published: 2012<br/>\n                                      rating: 5<br/>\n                                      read at: <br/>\n                                      date added: 2014/12/14<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/1131901125?utm_medium=api&utm_source=rss"
@@ -6588,148 +7156,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/816.Cryptonomicon?utm_medium=api&amp;utm_source=rss\"><img alt=\"Cryptonomicon\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327931476l/816._SY75_.jpg\" /></a><br/>\n                                      author: Neal Stephenson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.24<br/>\n                                      book published: 1999<br/>\n                                      rating: 5<br/>\n                                      read at: <br/>\n                                      date added: 2011/11/11<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/231375268?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Fri, 11 Nov 2011 07:55:41 -0800"
-          },
-          "title": {
-            "_cdata": "Weird Ideas That Work: How to Build a Creative Company"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/231375268?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "700584"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1393771490l/700584._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1393771490l/700584._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1393771490l/700584._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1393771490l/700584.jpg"
-          },
-          "book_description": {
-            "_cdata": "<b>A breakthrough in management thinking, “weird ideas” can help every organization achieve a balance between sustaining performance and fostering new ideas. To succeed, you need to be both conventional and counterintuitive.</b><br /><br />Creativity, new ideas, innovation—in any age they are keys to success. Yet, as Stanford professor Robert Sutton explains, the standard rules of business behavior and management are precisely the opposite of what it takes to build an innovative company. We are told to hire people who will fit in; to train them extensively; and to work to instill a corporate culture in every employee. In fact, in order to foster creativity, we should hire misfits, goad them to fight, and pay them to defy convention and undermine the prevailing culture. <i>Weird Ideas That Work</i> codifies these and other proven counterintuitive ideas to help you turn your workplace from staid and safe to wild and woolly—and creative.<br /> <br />In <i>Weird Ideas That Work</i> Sutton draws on extensive research in behavioral psychology to explain how innovation can be fostered in hiring, managing, and motivating people; building teams; making decisions; and interacting with outsiders. Business practices like \"hire people who make you uncomfortable\" and \"reward success and failure, but punish inaction,\" strike many managers as strange or even downright wrong. Yet <i>Weird Ideas That Work </i>shows how some of the best teams and companies use these and other counterintuitive practices to crank out new ideas, and it demonstrates that every company can reap sales and profits from such creativity.<br /> <br /><i>Weird Ideas That Work</i> is filled with examples, drawn from hi- and low-tech industries, manufacturing and services, information and products. More than just a set of bizarre suggestions, it represents a breakthrough in management thinking: Sutton shows that the practices we need to sustain performance are in constant tension with those that foster new ideas. The trick is to choose the right balance between conventional and \"weird\"—and now, thanks to Robert Sutton's work, we have the tools we need to do so."
-          },
-          "book": {
-            "_attributes": {
-              "id": "700584"
-            },
-            "num_pages": {
-              "_text": "240"
-            }
-          },
-          "author_name": {
-            "_text": "Robert I. Sutton"
-          },
-          "isbn": {
-            "_text": "0743227883"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Fri, 11 Nov 2011 07:55:41 -0800"
-          },
-          "user_date_created": {
-            "_cdata": "Sat, 05 Nov 2011 00:19:47 -0700"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "3.82"
-          },
-          "book_published": {
-            "_text": "2001"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/700584.Weird_Ideas_That_Work?utm_medium=api&amp;utm_source=rss\"><img alt=\"Weird Ideas That Work: How to Build a Creative Company\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1393771490l/700584._SY75_.jpg\" /></a><br/>\n                                      author: Robert I. Sutton<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.82<br/>\n                                      book published: 2001<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2011/11/11<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/233767427?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Thu, 10 Nov 2011 07:38:57 -0800"
-          },
-          "title": {
-            "_cdata": "A Strange Wilderness: The Lives of the Great Mathematicians"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/233767427?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "12150875"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328767521l/12150875._SX50_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328767521l/12150875._SX50_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328767521l/12150875._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328767521l/12150875.jpg"
-          },
-          "book_description": {
-            "_cdata": "Duels, battlefield heroism, secret societies, theft, imprisonment, and feuds fill the pages of <em>A Strange Wilderness</em>. As exciting as any action/adventure novel, this is actually the story of incredible individuals and engrossing tales behind the most profound, enduring mathematical theorems.<br /><br />Archimedes famously ran naked through the streets shouting, “Eureka, eureka!” after finding a method for measuring the volume of an irregular-shaped object. René Descartes was not only a great French mathematician, philosopher, physicist, and natural scientist; he was also an expert swordsman who traveled with European armies from town to town, dressed in green taffeta and accompanied by a valet. Georg Cantor grappled with mental illness as he explored the highly counterintuitive, bizarre properties of infinite sets and numbers. Emmy Noether struggled to find employment as she laid the mathematical groundwork for modern theoretical physics. And Alexander Grothendieck taught himself mathematics while interned in Nazi concentration camps, only to disappear into the Pyrenees at the zenith of his career.<br /><br />These are just a few stories recounted in this absorbing narrative. In probing the lives of the preeminent mathematicians in history, <em>a Strange Wilderness</em> will leave you entertained and enlightened, with a newfound appreciation of the tenacity, complexity, and brilliance of the mathematical genius."
-          },
-          "book": {
-            "_attributes": {
-              "id": "12150875"
-            },
-            "num_pages": {
-              "_text": "284"
-            }
-          },
-          "author_name": {
-            "_text": "Amir D. Aczel"
-          },
-          "isbn": {
-            "_text": "1402785844"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "4"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Thu, 10 Nov 2011 07:38:57 -0800"
-          },
-          "user_date_created": {
-            "_cdata": "Thu, 10 Nov 2011 07:39:48 -0800"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "3.62"
-          },
-          "book_published": {
-            "_text": "2011"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/12150875-a-strange-wilderness?utm_medium=api&amp;utm_source=rss\"><img alt=\"A Strange Wilderness: The Lives of the Great Mathematicians\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328767521l/12150875._SX50_.jpg\" /></a><br/>\n                                      author: Amir D. Aczel<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.62<br/>\n                                      book published: 2011<br/>\n                                      rating: 4<br/>\n                                      read at: <br/>\n                                      date added: 2011/11/10<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]
