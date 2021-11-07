@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Fri, 05 Nov 2021 21:42:39 -0700"
+        "_text": "Sat, 06 Nov 2021 21:54:48 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/1199330721?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sat, 06 Nov 2021 21:54:48 -0700"
+          },
+          "title": {
+            "_cdata": "To Explain the World: The Discovery of Modern Science"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/1199330721?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "22328555"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1410766672l/22328555._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1410766672l/22328555._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1410766672l/22328555._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1410766672l/22328555.jpg"
+          },
+          "book_description": {
+            "_cdata": "A masterful commentary on the history of science from the Greeks to modern times, by Nobel Prize-winning physicist Steven Weinberg—a thought-provoking and important book by one of the most distinguished scientists and intellectuals of our time.<br /><br />In this rich, irreverent, and compelling history, Nobel Prize-winning physicist Steven Weinberg takes us across centuries from ancient Miletus to medieval Baghdad and Oxford, from Plato’s Academy and the Museum of Alexandria to the cathedral school of Chartres and the Royal Society of London. He shows that the scientists of ancient and medieval times not only did not understand what we understand about the world—they did not understand what there is to understand, or how to understand it. Yet over the centuries, through the struggle to solve such mysteries as the curious backward movement of the planets and the rise and fall of the tides, the modern discipline of science eventually emerged. Along the way, Weinberg examines historic clashes and collaborations between science and the competing spheres of religion, technology, poetry, mathematics, and philosophy.<br /><br />An illuminating exploration of the way we consider and analyze the world around us, <em>To Explain the World</em> is a sweeping, ambitious account of how difficult it was to discover the goals and methods of modern science, and the impact of this discovery on human knowledge and development."
+          },
+          "book": {
+            "_attributes": {
+              "id": "22328555"
+            },
+            "num_pages": {
+              "_text": "432"
+            }
+          },
+          "author_name": {
+            "_text": "Steven Weinberg"
+          },
+          "isbn": {
+            "_text": "0062346652"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "4"
+          },
+          "user_read_at": {
+            "_cdata": "Sat, 06 Nov 2021 21:54:44 -0700"
+          },
+          "user_date_added": {
+            "_cdata": "Sat, 06 Nov 2021 21:54:48 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Fri, 13 Feb 2015 00:10:17 -0800"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.77"
+          },
+          "book_published": {
+            "_text": "2015"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/22328555-to-explain-the-world?utm_medium=api&amp;utm_source=rss\"><img alt=\"To Explain the World: The Discovery of Modern Science\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1410766672l/22328555._SY75_.jpg\" /></a><br/>\n                                      author: Steven Weinberg<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.77<br/>\n                                      book published: 2015<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/11/06<br/>\n                                      date added: 2021/11/06<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/4322568173?utm_medium=api&utm_source=rss"
@@ -422,78 +494,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/26254109-the-princeton-companion-to-applied-mathematics?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Princeton Companion to Applied Mathematics\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1441761746l/26254109._SX50_.jpg\" /></a><br/>\n                                      author: Nicholas J.  Higham<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.58<br/>\n                                      book published: 2015<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/11/05<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/1199330721?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Thu, 04 Nov 2021 23:16:27 -0700"
-          },
-          "title": {
-            "_cdata": "To Explain the World: The Discovery of Modern Science"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/1199330721?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "22328555"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1410766672l/22328555._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1410766672l/22328555._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1410766672l/22328555._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1410766672l/22328555.jpg"
-          },
-          "book_description": {
-            "_cdata": "A masterful commentary on the history of science from the Greeks to modern times, by Nobel Prize-winning physicist Steven Weinberg—a thought-provoking and important book by one of the most distinguished scientists and intellectuals of our time.<br /><br />In this rich, irreverent, and compelling history, Nobel Prize-winning physicist Steven Weinberg takes us across centuries from ancient Miletus to medieval Baghdad and Oxford, from Plato’s Academy and the Museum of Alexandria to the cathedral school of Chartres and the Royal Society of London. He shows that the scientists of ancient and medieval times not only did not understand what we understand about the world—they did not understand what there is to understand, or how to understand it. Yet over the centuries, through the struggle to solve such mysteries as the curious backward movement of the planets and the rise and fall of the tides, the modern discipline of science eventually emerged. Along the way, Weinberg examines historic clashes and collaborations between science and the competing spheres of religion, technology, poetry, mathematics, and philosophy.<br /><br />An illuminating exploration of the way we consider and analyze the world around us, <em>To Explain the World</em> is a sweeping, ambitious account of how difficult it was to discover the goals and methods of modern science, and the impact of this discovery on human knowledge and development."
-          },
-          "book": {
-            "_attributes": {
-              "id": "22328555"
-            },
-            "num_pages": {
-              "_text": "432"
-            }
-          },
-          "author_name": {
-            "_text": "Steven Weinberg"
-          },
-          "isbn": {
-            "_text": "0062346652"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Thu, 04 Nov 2021 23:16:27 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Fri, 13 Feb 2015 00:10:17 -0800"
-          },
-          "user_shelves": {
-            "_text": "currently-reading"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "3.77"
-          },
-          "book_published": {
-            "_text": "2015"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/22328555-to-explain-the-world?utm_medium=api&amp;utm_source=rss\"><img alt=\"To Explain the World: The Discovery of Modern Science\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1410766672l/22328555._SY75_.jpg\" /></a><br/>\n                                      author: Steven Weinberg<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.77<br/>\n                                      book published: 2015<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/11/04<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>\n                                      "
           }
         },
         {
