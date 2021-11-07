@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Sat, 06 Nov 2021 21:54:48 -0700"
+        "_text": "Sun, 07 Nov 2021 00:27:45 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,508 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4325617167?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sun, 07 Nov 2021 00:27:45 -0700"
+          },
+          "title": {
+            "_cdata": "Dynasty: The Rise and Fall of the House of Caesar"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4325617167?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "40605640"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1529614810l/40605640._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1529614810l/40605640._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1529614810l/40605640._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1529614810l/40605640._SY475_.jpg"
+          },
+          "book_description": {
+            "_cdata": "<b>Author and historian Tom Holland returns to his roots in Roman history and the audience he cultivated with <i>Rubicon</i>—his masterful, witty, brilliantly researched popular history of the fall of the Roman republic—with <i>Dynasty</i>, a luridly fascinating history of the reign of the first five Roman emperors.</b><br /><b> </b><br /><i>Dynasty</i> continues <i>Rubicon</i>'s story, opening where that book ended: with the murder of Julius Caesar. This is the period of the first and perhaps greatest Roman Emperors and it's a colorful story of rule and ruination, running from the rise of Augustus through to the death of Nero. Holland's expansive history also has distinct shades of <i>I Claudius</i>, with five wonderfully vivid (and in three cases, thoroughly depraved) Emperors—Augustus, Tiberius, Caligula, Claudius, and Nero—featured, along with numerous fascinating secondary characters. Intrigue, murder, naked ambition and treachery, greed, gluttony, lust, incest, pageantry, decadence—the tale of these five Caesars continues to cast a mesmerizing spell across the millennia."
+          },
+          "book": {
+            "_attributes": {
+              "id": "40605640"
+            },
+            "num_pages": {
+              "_text": "496"
+            }
+          },
+          "author_name": {
+            "_text": "Tom Holland"
+          },
+          "isbn": {},
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Sun, 07 Nov 2021 00:27:45 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Sun, 07 Nov 2021 00:27:45 -0700"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.16"
+          },
+          "book_published": {
+            "_text": "2015"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/40605640-dynasty?utm_medium=api&amp;utm_source=rss\"><img alt=\"Dynasty: The Rise and Fall of the House of Caesar\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1529614810l/40605640._SY75_.jpg\" /></a><br/>\n                                      author: Tom Holland<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.16<br/>\n                                      book published: 2015<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/11/07<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4325617075?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sun, 07 Nov 2021 00:27:38 -0700"
+          },
+          "title": {
+            "_cdata": "Rubicon: The Last Years of the Roman Republic"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4325617075?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "91017"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320470983l/91017._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320470983l/91017._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320470983l/91017._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320470983l/91017.jpg"
+          },
+          "book_description": {
+            "_cdata": "In 49 B.C., the seven hundred fifth year since the founding of Rome, Julius Caesar crossed a small border river called the Rubicon and plunged Rome into cataclysmic civil war. Tom Holland’s enthralling account tells the story of Caesar’s generation, witness to the twilight of the Republic and its bloody transformation into an empire. From Cicero, Spartacus, and Brutus, to Cleopatra, Virgil, and Augustus, here are some of the most legendary figures in history brought thrillingly to life. Combining verve and freshness with scrupulous scholarship, <i>Rubicon </i>is not only an engrossing history of this pivotal era but a uniquely resonant portrait of a great civilization in all its extremes of self-sacrifice and rivalry, decadence and catastrophe, intrigue, war, and world-shaking ambition."
+          },
+          "book": {
+            "_attributes": {
+              "id": "91017"
+            },
+            "num_pages": {
+              "_text": "464"
+            }
+          },
+          "author_name": {
+            "_text": "Tom Holland"
+          },
+          "isbn": {
+            "_text": "1400078970"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Sun, 07 Nov 2021 00:27:38 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Sun, 07 Nov 2021 00:27:38 -0700"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.19"
+          },
+          "book_published": {
+            "_text": "2003"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/91017.Rubicon?utm_medium=api&amp;utm_source=rss\"><img alt=\"Rubicon: The Last Years of the Roman Republic\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320470983l/91017._SY75_.jpg\" /></a><br/>\n                                      author: Tom Holland<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.19<br/>\n                                      book published: 2003<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/11/07<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4325616404?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sun, 07 Nov 2021 00:26:31 -0700"
+          },
+          "title": {
+            "_cdata": "Crusaders: The Epic History of the Wars for the Holy Lands"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4325616404?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "43899574"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1550227193l/43899574._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1550227193l/43899574._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1550227193l/43899574._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1550227193l/43899574.jpg"
+          },
+          "book_description": {
+            "_cdata": "<b>A major new history of the Crusades with an unprecedented wide scope, told in a tableau of portraits of people on all sides of the wars, from the <i>New York Times</i> bestselling author of <i>The Templars</i>.</b><br /><br />For more than one thousand years, Christians and Muslims lived side by side, sometimes at peace and sometimes at war. When Christian armies seized Jerusalem in 1099, they began the most notorious period of conflict between the two religions. Depending on who you ask, the fall of the holy city was either an inspiring legend or the greatest of horrors. In <i>Crusaders</i>, Dan Jones interrogates the many sides of the larger story, charting a deeply human and avowedly pluralist path through the crusading era.<br /><br />Expanding the usual timeframe, Jones looks to the roots of Christian-Muslim relations in the eighth century and tracks the influence of crusading to present day. He widens the geographical focus to far-flung regions home to so-called enemies of the Church, including Spain, North Africa, southern France, and the Baltic states. By telling intimate stories of individual journeys, Jones illuminates these centuries of war not only from the perspective of popes and kings, but from Arab-Sicilian poets, Byzantine princesses, Sunni scholars, Shi'ite viziers, Mamluk slave soldiers, Mongol chieftains, and barefoot friars. <br /><br />Crusading remains a rallying call to this day, but its role in the popular imagination ignores the cooperation and complicated coexistence that were just as much a feature of the period as warfare. The age-old relationships between faith, conquest, wealth, power, and trade meant that crusading was not only about fighting for the glory of God, but also, among other earthly reasons, about gold. In this richly dramatic narrative that gives voice to sources usually pushed to the margins, Dan Jones has written an authoritative survey of the holy wars with global scope and human focus."
+          },
+          "book": {
+            "_attributes": {
+              "id": "43899574"
+            },
+            "num_pages": {
+              "_text": "425"
+            }
+          },
+          "author_name": {
+            "_text": "Dan Jones"
+          },
+          "isbn": {
+            "_text": "0525428313"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Sun, 07 Nov 2021 00:26:31 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Sun, 07 Nov 2021 00:26:31 -0700"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.09"
+          },
+          "book_published": {
+            "_text": "2019"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/43899574-crusaders?utm_medium=api&amp;utm_source=rss\"><img alt=\"Crusaders: The Epic History of the Wars for the Holy Lands\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1550227193l/43899574._SY75_.jpg\" /></a><br/>\n                                      author: Dan Jones<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.09<br/>\n                                      book published: 2019<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/11/07<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4325616346?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sun, 07 Nov 2021 00:26:26 -0700"
+          },
+          "title": {
+            "_cdata": "The Templars: The Rise and Spectacular Fall of God's Holy Warriors"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4325616346?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "34312336"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1487152697l/34312336._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1487152697l/34312336._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1487152697l/34312336._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1487152697l/34312336.jpg"
+          },
+          "book_description": {
+            "_cdata": "<b>A faltering war in the middle east. A band of elite warriors determined to fight to the death to protect Christianity’s holiest sites. A global financial network unaccountable to any government. A sinister plot founded on a web of lies.</b><br /><br />Jerusalem 1119. A small group of knights seeking a purpose in the violent aftermath of the First Crusade decides to set up a new order. These are the first Knights Templar, a band of elite warriors prepared to give their lives to protect Christian pilgrims to the Holy Land. Over the next two hundred years, the Templars would become the most powerful religious order of the medieval world. Their legend has inspired fervent speculation ever since. <br /><br />In this groundbreaking narrative history, Dan Jones tells the true story of the Templars for the first time in a generation, drawing on extensive original sources to build a gripping account of these Christian holy warriors whose heroism and alleged depravity have been shrouded in myth. The Templars were protected by the pope and sworn to strict vows of celibacy. They fought the forces of Islam in hand-to-hand combat on the sun-baked hills where Jesus lived and died, finding their nemesis in Saladin, who vowed to drive all Christians from the lands of Islam. Experts at channeling money across borders, they established the medieval world’s largest and most innovative banking network and waged private wars against anyone who threatened their interests.<br /><br />Then, as they faced setbacks at the hands of the ruthless Mamluk sultan Baybars and were forced to retreat to their stronghold in Cyprus, a vindictive and cash-strapped King of France set his sights on their fortune. His administrators quietly mounted a damning case against the Templars, built on deliberate lies and false testimony. Then on Friday October 13, 1307, hundreds of brothers were arrested, imprisoned and tortured, and the order was disbanded amid lurid accusations of sexual misconduct and heresy. They were tried by the Pope in secret proceedings and their last master was brutally tortured and burned at the stake. But were they heretics or victims of a ruthlessly repressive state? Dan Jones goes back to the sources tobring their dramatic tale, so relevant to our own times, in a book that is at once authoritative and compulsively readable."
+          },
+          "book": {
+            "_attributes": {
+              "id": "34312336"
+            },
+            "num_pages": {
+              "_text": "448"
+            }
+          },
+          "author_name": {
+            "_text": "Dan Jones"
+          },
+          "isbn": {
+            "_text": "0525428305"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Sun, 07 Nov 2021 00:26:26 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Sun, 07 Nov 2021 00:26:26 -0700"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.83"
+          },
+          "book_published": {
+            "_text": "2017"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/34312336-the-templars?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Templars: The Rise and Spectacular Fall of God&#39;s Holy Warriors\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1487152697l/34312336._SY75_.jpg\" /></a><br/>\n                                      author: Dan Jones<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.83<br/>\n                                      book published: 2017<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/11/07<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4325616168?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sun, 07 Nov 2021 00:26:08 -0700"
+          },
+          "title": {
+            "_cdata": "The Wars of the Roses: The Fall of the Plantagenets and the Rise of the Tudors"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4325616168?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "20821029"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1396671577l/20821029._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1396671577l/20821029._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1396671577l/20821029._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1396671577l/20821029.jpg"
+          },
+          "book_description": {
+            "_cdata": "The fifteenth century experienced the longest and bloodiest series of civil wars in British history. The crown of England changed hands violently seven times as the great families of England fought to the death for power, majesty and the right to rule. Dan Jones completes his epic history of medieval England with a new book about the the Wars of the Roses - and describes how the Plantagenets, tore themselves apart and were finally replaced by the Tudors.<br /><br />With vivid descriptions of the battle of Towton, where 28,000 men died in a single morning, to Bosworth, where the last Plantagenet king was hacked down, this is the real story behind Shakespeare's famous history plays."
+          },
+          "book": {
+            "_attributes": {
+              "id": "20821029"
+            },
+            "num_pages": {
+              "_text": "392"
+            }
+          },
+          "author_name": {
+            "_text": "Dan Jones"
+          },
+          "isbn": {
+            "_text": "0670026670"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Sun, 07 Nov 2021 00:26:08 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Sun, 07 Nov 2021 00:26:08 -0700"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.25"
+          },
+          "book_published": {
+            "_text": "2014"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/20821029-the-wars-of-the-roses?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Wars of the Roses: The Fall of the Plantagenets and the Rise of the Tudors\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1396671577l/20821029._SY75_.jpg\" /></a><br/>\n                                      author: Dan Jones<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.25<br/>\n                                      book published: 2014<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/11/07<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4325616157?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sun, 07 Nov 2021 00:26:07 -0700"
+          },
+          "title": {
+            "_cdata": "The Plantagenets: The Warrior Kings and Queens Who Made England"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4325616157?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "15811559"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1366387829l/15811559._SX50_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1366387829l/15811559._SX50_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1366387829l/15811559._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1366387829l/15811559.jpg"
+          },
+          "book_description": {
+            "_cdata": "The first Plantagenet king inherited a blood-soaked kingdom from the Normans and transformed it into an empire stretched at its peak from Scotland to Jerusalem. In this epic history, Dan Jones vividly resurrects this fierce and seductive royal dynasty and its mythic world. <br /><br />We meet the captivating Eleanor of Aquitaine, twice queen and the most famous woman in Christendom; her son, Richard the Lionheart, who fought Saladin in the Third Crusade; and King John, a tyrant who was forced to sign Magna Carta, which formed the basis of our own Bill of Rights. <br /><br />This is the era of chivalry, of Robin Hood and the Knights Templar, the Black Death, the founding of Parliament, the Black Prince, and the Hundred Year’s War. It will appeal as much to readers of Tudor history as to fans of 'Game of Thrones."
+          },
+          "book": {
+            "_attributes": {
+              "id": "15811559"
+            },
+            "num_pages": {
+              "_text": "534"
+            }
+          },
+          "author_name": {
+            "_text": "Dan Jones"
+          },
+          "isbn": {
+            "_text": "0670026654"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Sun, 07 Nov 2021 00:26:07 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Sun, 07 Nov 2021 00:26:07 -0700"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.18"
+          },
+          "book_published": {
+            "_text": "2012"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/15811559-the-plantagenets?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Plantagenets: The Warrior Kings and Queens Who Made England\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1366387829l/15811559._SX50_.jpg\" /></a><br/>\n                                      author: Dan Jones<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.18<br/>\n                                      book published: 2012<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/11/07<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4325615384?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sun, 07 Nov 2021 00:24:53 -0700"
+          },
+          "title": {
+            "_cdata": "Powers and Thrones: A New History of the Middle Ages"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4325615384?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "57347786"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1629634899l/57347786._SX50_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1629634899l/57347786._SX50_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1629634899l/57347786._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1629634899l/57347786.jpg"
+          },
+          "book_description": {
+            "_cdata": "<b>An epic reappraisal of the medieval world--and the rich and complicated legacy left to us by the rise of the West--from the <i>New York Times </i>bestselling author of <i>The Templars</i>.</b><br /><br />When the once-mighty city of Rome was sacked by barbarians in 410 and lay in ruins, it signaled the end of an era--and the beginning of a thousand years of profound transformation. In a gripping narrative bursting with big names--from St Augustine and Attila the Hun to the Prophet Muhammad and Eleanor of Aquitaine--Dan Jones charges through the history of the Middle Ages. <i>Powers and Throne</i>s takes readers on a journey through an emerging Europe, the great capitals of late Antiquity, as well as the influential cities of the Islamic West, and culminates in the first contact between the old and new worlds in the sixteenth century.<br /><br />The medieval world was forged by the big forces that still occupy us today: climate change, pandemic disease, mass migration, and technological revolutions. This was the time when the great European nationalities were formed; when our basic Western systems of law and governance were codified; when the Christian Churches matured as both powerful institutions and the regulators of Western public morality; and when art, architecture, philosophical inquiry and scientific invention went through periods of massive, revolutionary change. At each stage in this story, successive western powers thrived by attracting--or stealing--the most valuable resources, ideas, and people from the rest of the world.<br /><br />The West was rebuilt on the ruins of an empire and emerged from a state of crisis and collapse to dominate the region and the world. Every sphere of human life and activity was transformed in the thousand years of <i>Powers and Thrones</i>. As we face a critical turning point in our own millennium, the legacy and lessons of how we got here matter more than ever."
+          },
+          "book": {
+            "_attributes": {
+              "id": "57347786"
+            },
+            "num_pages": {
+              "_text": "656"
+            }
+          },
+          "author_name": {
+            "_text": "Dan Jones"
+          },
+          "isbn": {
+            "_text": "198488087X"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Sun, 07 Nov 2021 00:24:53 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Sun, 07 Nov 2021 00:24:53 -0700"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.53"
+          },
+          "book_published": {
+            "_text": "2021"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/57347786-powers-and-thrones?utm_medium=api&amp;utm_source=rss\"><img alt=\"Powers and Thrones: A New History of the Middle Ages\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1629634899l/57347786._SX50_.jpg\" /></a><br/>\n                                      author: Dan Jones<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.53<br/>\n                                      book published: 2021<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/11/07<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/1199330721?utm_medium=api&utm_source=rss"
@@ -6708,506 +7210,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/35297608-the-second-kind-of-impossible?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Second Kind of Impossible: The Extraordinary Quest for a New Form of Matter\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1545498683l/35297608._SY75_.jpg\" /></a><br/>\n                                      author: Paul J. Steinhardt<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.26<br/>\n                                      book published: 2019<br/>\n                                      rating: 5<br/>\n                                      read at: 2021/07/18<br/>\n                                      date added: 2021/07/18<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/4121941789?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sun, 18 Jul 2021 16:43:43 -0700"
-          },
-          "title": {
-            "_cdata": "Endless Universe: Beyond the Big Bang"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/4121941789?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "885276"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1440643992l/885276._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1440643992l/885276._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1440643992l/885276._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1440643992l/885276._SY475_.jpg"
-          },
-          "book_description": {
-            "_cdata": "Two world-renowned scientists present an audacious new vision of the cosmos that “steals the thunder from the Big Bang theory.” —<i>Wall Street Journal<br /></i><br />The Big Bang theory—widely regarded as the leading explanation for the origin of the universe—posits that space and time sprang into being about 14 billion years ago in a hot, expanding fireball of nearly infinite density. Over the last three decades the theory has been repeatedly revised to address such issues as how galaxies and stars first formed and why the expansion of the universe is speeding up today. Furthermore, an explanation has yet to be found for what caused the Big Bang in the first place.<br /><br />In <i>Endless Universe</i>, Paul J. Steinhardt and Neil Turok, both distinguished theoretical physicists, present a bold new cosmology. Steinhardt and Turok “contend that what we think of as the moment of creation was simply part of an infinite cycle of titanic collisions between our universe and a parallel world” (<i>Discover</i>). They recount the remarkable developments in astronomy, particle physics, and superstring theory that form the basis for their groundbreaking “Cyclic Universe” theory. According to this theory, the Big Bang was not the beginning of time but the bridge to a past filled with endlessly repeating cycles of evolution, each accompanied by the creation of new matter and the formation of new galaxies, stars, and planets.<br /><br /><i>Endless Universe</i> provides answers to longstanding problems with the Big Bang model, while offering a provocative new view of both the past and the future of the cosmos.  It is a “theory that could solve the cosmic mystery” (<i>USA Today</i>)."
-          },
-          "book": {
-            "_attributes": {
-              "id": "885276"
-            },
-            "num_pages": {
-              "_text": "304"
-            }
-          },
-          "author_name": {
-            "_text": "Paul J. Steinhardt"
-          },
-          "isbn": {
-            "_text": "0385509642"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Sun, 18 Jul 2021 16:43:43 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Sun, 18 Jul 2021 16:43:43 -0700"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.12"
-          },
-          "book_published": {
-            "_text": "2007"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/885276.Endless_Universe?utm_medium=api&amp;utm_source=rss\"><img alt=\"Endless Universe: Beyond the Big Bang\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1440643992l/885276._SY75_.jpg\" /></a><br/>\n                                      author: Paul J. Steinhardt<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.12<br/>\n                                      book published: 2007<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/07/18<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/4088619847?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sun, 18 Jul 2021 10:34:12 -0700"
-          },
-          "title": {
-            "_text": "The Redeemer (Harry Hole, #6)"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/4088619847?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "33641782"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1483116047l/33641782._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1483116047l/33641782._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1483116047l/33641782._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1483116047l/33641782._SY475_.jpg"
-          },
-          "book_description": {
-            "_cdata": "Alternate cover edition for <a href=\"https://www.goodreads.com/search/search?q=B004J4WMZO\" title=\"B004J4WMZO\" rel=\"nofollow noopener\">B004J4WMZO</a><br /><br />A fantastically gripping thriller from the best-selling author of <i>The Snowman.</i><br /><br />Christmas shoppers stop to hear a Salvation Army concert on a crowded Oslo street. A gunshot cuts through the music and the bitter cold: one of the singers falls dead, shot in the head at point-blank range. Harry Hole—the Oslo Police Department’s best investigator and worst civil servant—has little to work with: no suspect, no weapon, and no motive. But Harry’s troubles will multiply. As the search closes in, the killer becomes increasingly desperate, and Harry’s chase takes him to the most forbidden corners of the former Yugoslavia. <br /><br /> Yet it’s when he returns to Oslo that he encounters true darkness: among the homeless junkies and Salvationists, eagerly awaiting a savior to deliver them from misery—whether he brings new life or immediate death. <br /><br /> With its shrewdly vertiginous narrative, acid-etched characters, and white-hot pace,<i> The Redeemer</i> is resounding proof of Jo Nesbø’s standing as one of the best crime writers of our time."
-          },
-          "book": {
-            "_attributes": {
-              "id": "33641782"
-            },
-            "num_pages": {
-              "_text": "466"
-            }
-          },
-          "author_name": {
-            "_text": "Jo Nesbø"
-          },
-          "isbn": {},
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "4"
-          },
-          "user_read_at": {
-            "_cdata": "Sun, 18 Jul 2021 10:34:12 -0700"
-          },
-          "user_date_added": {
-            "_cdata": "Sun, 18 Jul 2021 10:34:12 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Thu, 01 Jul 2021 00:27:01 -0700"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.07"
-          },
-          "book_published": {
-            "_text": "2005"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/33641782-the-redeemer?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Redeemer (Harry Hole, #6)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1483116047l/33641782._SY75_.jpg\" /></a><br/>\n                                      author: Jo Nesbø<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.07<br/>\n                                      book published: 2005<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/07/18<br/>\n                                      date added: 2021/07/18<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3978058324?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Wed, 14 Jul 2021 20:40:34 -0700"
-          },
-          "title": {
-            "_text": "Helgoland"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3978058324?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "54622937"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1599253130l/54622937._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1599253130l/54622937._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1599253130l/54622937._SY160_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1599253130l/54622937._SY475_.jpg"
-          },
-          "book_description": {
-            "_cdata": "A Helgoland, spoglia isola nel Mare del Nord, luogo adatto alle idee estreme, nel giugno 1925 il ventitreenne Werner Heisenberg ha avviato quella che, secondo non pochi, è stata la più radicale rivoluzione scientifica di ogni tempo: la fisica quantistica.<br />A distanza di quasi un secolo da quei giorni, la teoria dei quanti si è rivelata sempre più gremita di idee sconcertanti e inquietanti (fantasmatiche onde di probabilità, oggetti lontani che sembrano magicamente connessi fra loro, ecc.), ma al tempo stesso capace di innumerevoli conferme sperimentali, che hanno portato a ogni sorta di applicazioni tecnologiche.<br />Si può dire che oggi il mondo si regga su tale teoria, tuttora profondamente misteriosa.<br />In questo libro non solo si ricostruisce, con formidabile limpidezza, l’avventurosa e controversa crescita della teoria dei quanti, rendendo evidenti, anche per chi la ignora, i suoi passaggi cruciali, ma la si inserisce in una nuova visione, dove a un mondo fatto di sostanze si sostituisce un mondo fatto di relazioni, che si rispondono fra loro in un inesauribile gioco di specchi.<br />Visione che induce a esplorare, in una prospettiva ancora una volta stupefacente, questioni fondamentali ancora irrisolte, dalla costituzione della natura a quella di noi stessi, che della natura siamo parte."
-          },
-          "book": {
-            "_attributes": {
-              "id": "54622937"
-            },
-            "num_pages": {
-              "_text": "216"
-            }
-          },
-          "author_name": {
-            "_text": "Carlo Rovelli"
-          },
-          "isbn": {
-            "_text": "8845935051"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "4"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Wed, 14 Jul 2021 20:40:34 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Sun, 02 May 2021 01:29:05 -0700"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.09"
-          },
-          "book_published": {
-            "_text": "2020"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/54622937-helgoland?utm_medium=api&amp;utm_source=rss\"><img alt=\"Helgoland\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1599253130l/54622937._SY75_.jpg\" /></a><br/>\n                                      author: Carlo Rovelli<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.09<br/>\n                                      book published: 2020<br/>\n                                      rating: 4<br/>\n                                      read at: <br/>\n                                      date added: 2021/07/14<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/4106984144?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Wed, 14 Jul 2021 18:11:28 -0700"
-          },
-          "title": {
-            "_text": "Slaughterhouse-Five"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/4106984144?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "4981"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1606208827l/4981._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1606208827l/4981._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1606208827l/4981._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1606208827l/4981._SY475_.jpg"
-          },
-          "book_description": {
-            "_cdata": "Selected by the Modern Library as one of the 100 best novels of all time, Slaughterhouse-Five, an American classic, is one of the world's great antiwar books. Centering on the infamous firebombing of Dresden, Billy Pilgrim's odyssey through time reflects the mythic journey of our own fractured lives as we search for meaning in what we fear most."
-          },
-          "book": {
-            "_attributes": {
-              "id": "4981"
-            },
-            "num_pages": {
-              "_text": "275"
-            }
-          },
-          "author_name": {
-            "_text": "Kurt Vonnegut Jr."
-          },
-          "isbn": {
-            "_text": "0385333846"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "5"
-          },
-          "user_read_at": {
-            "_cdata": "Wed, 14 Jul 2021 18:11:25 -0700"
-          },
-          "user_date_added": {
-            "_cdata": "Wed, 14 Jul 2021 18:11:28 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Sat, 10 Jul 2021 18:42:05 -0700"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.08"
-          },
-          "book_published": {
-            "_text": "1969"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/4981.Slaughterhouse_Five?utm_medium=api&amp;utm_source=rss\"><img alt=\"Slaughterhouse-Five\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1606208827l/4981._SY75_.jpg\" /></a><br/>\n                                      author: Kurt Vonnegut Jr.<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.08<br/>\n                                      book published: 1969<br/>\n                                      rating: 5<br/>\n                                      read at: 2021/07/14<br/>\n                                      date added: 2021/07/14<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3955408496?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Tue, 13 Jul 2021 23:22:45 -0700"
-          },
-          "title": {
-            "_cdata": "The Sense of Style: The Thinking Person's Guide to Writing in the 21st Century"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3955408496?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "20821371"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1396671354l/20821371._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1396671354l/20821371._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1396671354l/20821371._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1396671354l/20821371.jpg"
-          },
-          "book_description": {
-            "_cdata": "<b>A short and entertaining book on the modern art of writing well by <i>New York Times</i> bestselling author Steven Pinker</b><br />Why is so much writing so bad, and how can we make it better? Is the English language being corrupted by texting and social media? Do the kids today even care about good writing? Why should any of us care?<br /><br />In <i>The Sense of Style</i>, the bestselling linguist and cognitive scientist Steven Pinker answers these questions and more. Rethinking the usage guide for the twenty-first century, Pinker doesn’t carp about the decline of language or recycle pet peeves from the rulebooks of a century ago. Instead, he applies insights from the sciences of language and mind to the challenge of crafting clear, coherent, and stylish prose.<br /><br /> In this short, cheerful, and eminently practical book, Pinker shows how writing depends on imagination, empathy, coherence, grammatical knowhow, and an ability to savor and reverse engineer the good prose of others. He replaces dogma about usage with reason and evidence, allowing writers and editors to apply the guidelines judiciously, rather than robotically, being mindful of what they are designed to accomplish.<br /><br /> Filled with examples of great and gruesome prose, Pinker shows us how the art of writing can be a form of pleasurable mastery and a fascinating intellectual topic in its own right. <br />"
-          },
-          "book": {
-            "_attributes": {
-              "id": "20821371"
-            },
-            "num_pages": {
-              "_text": "368"
-            }
-          },
-          "author_name": {
-            "_text": "Steven Pinker"
-          },
-          "isbn": {
-            "_text": "0670025852"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "5"
-          },
-          "user_read_at": {
-            "_cdata": "Tue, 13 Jul 2021 23:22:42 -0700"
-          },
-          "user_date_added": {
-            "_cdata": "Tue, 13 Jul 2021 23:22:45 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Mon, 19 Apr 2021 21:50:40 -0700"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.04"
-          },
-          "book_published": {
-            "_text": "2014"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/20821371-the-sense-of-style?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Sense of Style: The Thinking Person&#39;s Guide to Writing in the 21st Century\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1396671354l/20821371._SY75_.jpg\" /></a><br/>\n                                      author: Steven Pinker<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.04<br/>\n                                      book published: 2014<br/>\n                                      rating: 5<br/>\n                                      read at: 2021/07/13<br/>\n                                      date added: 2021/07/13<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/4109244610?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Tue, 13 Jul 2021 18:56:52 -0700"
-          },
-          "title": {
-            "_text": "I Am a Strange Loop"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/4109244610?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "123471"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442775722l/123471._SX50_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442775722l/123471._SX50_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442775722l/123471._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442775722l/123471._SX318_.jpg"
-          },
-          "book_description": {
-            "_cdata": "What do we mean when we say \"I\"? Can thought arise out of matter? Can a self, a soul, a consciousness, an \"I\" arise out of mere matter? If it cannot, then how can you or I be here? <i>I Am a Strange Loop</i> argues that the key to understanding selves and consciousness is the \"strange loop\"--a special kind of abstract feedback loop inhabiting our brains. Deep down, a human brain is a chaotic seething soup of particles, on a higher level it is a jungle of neurons, and on a yet higher level it is a network of abstractions that we call \"symbols.\" The most central and complex symbol in your brain or mine is the one we both call \"I.\" The \"I\" is the nexus in our brain where the levels feed back into each other and flip causality upside down, with symbols seeming to have free will and to have gained the paradoxical ability to push particles around, rather than the reverse. For each human being, this \"I\" seems to be the realest thing in the world. But how can such a mysterious abstraction be real--or is our \"I\" merely a convenient fiction? Does an \"I\" exert genuine power over the particles in our brain, or is it helplessly pushed around by the all-powerful laws of physics? These are the mysteries tackled in <i>I Am a Strange Loop</i>, Douglas R. Hofstadter's first book-length journey into philosophy since <i>Godel, Escher, Bach</i>. Compulsively readable and endlessly thought-provoking, this is the book Hofstadter's many readers have long been waiting for."
-          },
-          "book": {
-            "_attributes": {
-              "id": "123471"
-            },
-            "num_pages": {
-              "_text": "412"
-            }
-          },
-          "author_name": {
-            "_text": "Douglas R. Hofstadter"
-          },
-          "isbn": {
-            "_text": "0465030785"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "3"
-          },
-          "user_read_at": {
-            "_cdata": "Tue, 13 Jul 2021 18:56:44 -0700"
-          },
-          "user_date_added": {
-            "_cdata": "Tue, 13 Jul 2021 18:56:52 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Sun, 11 Jul 2021 21:41:08 -0700"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "3.94"
-          },
-          "book_published": {
-            "_text": "2007"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/123471.I_Am_a_Strange_Loop?utm_medium=api&amp;utm_source=rss\"><img alt=\"I Am a Strange Loop\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442775722l/123471._SX50_.jpg\" /></a><br/>\n                                      author: Douglas R. Hofstadter<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.94<br/>\n                                      book published: 2007<br/>\n                                      rating: 3<br/>\n                                      read at: 2021/07/13<br/>\n                                      date added: 2021/07/13<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/4057562716?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sun, 11 Jul 2021 01:46:39 -0700"
-          },
-          "title": {
-            "_cdata": "Look to Windward (Culture, #7)"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/4057562716?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "12016"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1288930978l/12016._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1288930978l/12016._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1288930978l/12016._SY160_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1288930978l/12016.jpg"
-          },
-          "book_description": {
-            "_cdata": "The Twin Novae battle had been one of the last of the Idiran war, one of the most horrific. Desperate to avert defeat, the Idirans had induced not one but two suns to explode, snuffing out worlds &amp; biospheres teeming with sentient life. They were attacks of incredible proportion - gigadeathcrimes. But the war ended and life went on. Now, 800 years later, light from the 1st explosion is about to reach the Masaq' Orbital, home to the Culture's most adventurous &amp; decadent souls. There it will fall upon Masaq's 50 billion inhabitants, gathered to commemorate the deaths of the innocent &amp; to reflect, if only for a moment, on what some call the Culture's own complicity in the terrible event.<br /><br />Also journeying to Masaq' is Major Quilan, an emissary from the war-ravaged world of Chel. In the aftermath of the conflict that split his world apart, most believe he has come to Masaq' to bring home Chel's most brilliant star &amp; self-exiled dissident, the honored Composer Ziller. Ziller claims he will do anything to avoid a meeting with Quilan, who he suspects has come to murder him. But the Major's true assignment will have far greater consequences than the death of a mere political dissident, as part of a conspiracy more ambitious than even he can know--a mission his superiors have buried so deeply in his mind that even he can't remember it.<br /> <br /> Hailed by SFX magazine as \"an excellent hopping-on point if you've never read a Banks SF novel before,\" <i>Look to Windward</i> is an awe-inspiring immersion into the wildly original, vividly realized civilization Banks calls the Culture."
-          },
-          "book": {
-            "_attributes": {
-              "id": "12016"
-            },
-            "num_pages": {
-              "_text": "483"
-            }
-          },
-          "author_name": {
-            "_text": "Iain M. Banks"
-          },
-          "isbn": {
-            "_text": "0743421922"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "4"
-          },
-          "user_read_at": {
-            "_cdata": "Sun, 11 Jul 2021 01:46:39 -0700"
-          },
-          "user_date_added": {
-            "_cdata": "Sun, 11 Jul 2021 01:46:39 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Mon, 14 Jun 2021 01:42:25 -0700"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.17"
-          },
-          "book_published": {
-            "_text": "2000"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/12016.Look_to_Windward?utm_medium=api&amp;utm_source=rss\"><img alt=\"Look to Windward (Culture, #7)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1288930978l/12016._SY75_.jpg\" /></a><br/>\n                                      author: Iain M. Banks<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.17<br/>\n                                      book published: 2000<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/07/11<br/>\n                                      date added: 2021/07/11<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]
