@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Sun, 07 Nov 2021 00:27:45 -0700"
+        "_text": "Sun, 07 Nov 2021 00:28:59 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4325617987?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sun, 07 Nov 2021 00:28:59 -0700"
+          },
+          "title": {
+            "_cdata": "Never Had It So Good: A History of Britain from Suez to the Beatles"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4325617987?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "43872"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328870538l/43872._SX50_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328870538l/43872._SX50_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328870538l/43872._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328870538l/43872.jpg"
+          },
+          "book_description": {
+            "_cdata": "Arguing that historians have been besotted by the cultural revolution of the Sixties, Dominic Sandbrook re-examines the myths of this controversial period and paints a more complicated picture of a society caught between conservatism and change. He explores the growth of a modern consumer society, the impact of immigration, the invention of modern pop music, and the British retreat from empire. He tells the story of the colourful characters of the period, like Harold Macmillan, Kingsley Amis, and Paul McCartney, and brings to life the experience of the first post-imperial generation, from the Notting Hill riots to the first Beatles hits, from the Profumo scandal to the cult of James Bond."
+          },
+          "book": {
+            "_attributes": {
+              "id": "43872"
+            },
+            "num_pages": {
+              "_text": "892"
+            }
+          },
+          "author_name": {
+            "_text": "Dominic Sandbrook"
+          },
+          "isbn": {
+            "_text": "0349115303"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Sun, 07 Nov 2021 00:28:59 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Sun, 07 Nov 2021 00:28:59 -0700"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.30"
+          },
+          "book_published": {
+            "_text": "2005"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/43872.Never_Had_It_So_Good?utm_medium=api&amp;utm_source=rss\"><img alt=\"Never Had It So Good: A History of Britain from Suez to the Beatles\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328870538l/43872._SX50_.jpg\" /></a><br/>\n                                      author: Dominic Sandbrook<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.30<br/>\n                                      book published: 2005<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/11/07<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/4325617167?utm_medium=api&utm_source=rss"
@@ -1631,13 +1703,13 @@
           "user_shelves": {},
           "user_review": {},
           "average_rating": {
-            "_text": "4.10"
+            "_text": "4.09"
           },
           "book_published": {
             "_text": "1890"
           },
           "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/5297.The_Picture_of_Dorian_Gray?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Picture of Dorian Gray\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546103428l/5297._SY75_.jpg\" /></a><br/>\n                                      author: Oscar Wilde<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.10<br/>\n                                      book published: 1890<br/>\n                                      rating: 5<br/>\n                                      read at: 2021/10/18<br/>\n                                      date added: 2021/10/18<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/5297.The_Picture_of_Dorian_Gray?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Picture of Dorian Gray\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546103428l/5297._SY75_.jpg\" /></a><br/>\n                                      author: Oscar Wilde<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.09<br/>\n                                      book published: 1890<br/>\n                                      rating: 5<br/>\n                                      read at: 2021/10/18<br/>\n                                      date added: 2021/10/18<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
           }
         },
         {
@@ -7138,78 +7210,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/51777543-data-feminism?utm_medium=api&amp;utm_source=rss\"><img alt=\"Data Feminism\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1572991302l/51777543._SX50_.jpg\" /></a><br/>\n                                      author: Catherine D’Ignazio<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.44<br/>\n                                      book published: 2020<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/07/19<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/4014852103?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sun, 18 Jul 2021 23:52:57 -0700"
-          },
-          "title": {
-            "_cdata": "The Second Kind of Impossible: The Extraordinary Quest for a New Form of Matter"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/4014852103?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "35297608"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1545498683l/35297608._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1545498683l/35297608._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1545498683l/35297608._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1545498683l/35297608._SY475_.jpg"
-          },
-          "book_description": {
-            "_cdata": "<b>*Shortlisted for the 2019 Royal Society Insight Investment Science Book Prize*</b><br /> <br /><b>One of the most fascinating scientific detective stories of the last fifty years, an exciting quest for a new form of matter. “A riveting tale of derring-do” (<i>Nature</i>), this book reads like James Gleick’s <i>Chaos </i>combined with an <i>Indiana Jones </i>adventure.</b><br /><br />When leading Princeton physicist Paul Steinhardt began working in the 1980s, scientists thought they knew all the conceivable forms of matter. <i>The Second Kind of Impossible</i> is the story of Steinhardt’s thirty-five-year-long quest to challenge conventional wisdom. It begins with a curious geometric pattern that inspires two theoretical physicists to propose a radically new type of matter—one that raises the possibility of new materials with never before seen properties, but that violates laws set in stone for centuries. Steinhardt dubs this new form of matter “quasicrystal.” The rest of the scientific community calls it simply <i>impossible</i>.<br /> <br /><i>The Second Kind of Impossible </i>captures Steinhardt’s scientific odyssey as it unfolds over decades, first to prove viability, and then to pursue his wildest conjecture—that nature made quasicrystals long before humans discovered them. Along the way, his team encounters clandestine collectors, corrupt scientists, secret diaries, international smugglers, and KGB agents. Their quest culminates in a daring expedition to a distant corner of the Earth, in pursuit of tiny fragments of a meteorite forged at the birth of the solar system.<br /> <br />Steinhardt’s discoveries chart a new direction in science. They not only change our ideas about patterns and matter, but also reveal new truths about the processes that shaped our solar system. The underlying science is important, simple, and beautiful—and Steinhardt’s firsthand account is “packed with discovery, disappointment, exhilaration, and persistence...This book is a front-row seat to history as it is made” (<i>Nature</i>)."
-          },
-          "book": {
-            "_attributes": {
-              "id": "35297608"
-            },
-            "num_pages": {
-              "_text": "400"
-            }
-          },
-          "author_name": {
-            "_text": "Paul J. Steinhardt"
-          },
-          "isbn": {
-            "_text": "1476729921"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "5"
-          },
-          "user_read_at": {
-            "_cdata": "Sun, 18 Jul 2021 23:52:50 -0700"
-          },
-          "user_date_added": {
-            "_cdata": "Sun, 18 Jul 2021 23:52:57 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Fri, 21 May 2021 22:46:24 -0700"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.26"
-          },
-          "book_published": {
-            "_text": "2019"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/35297608-the-second-kind-of-impossible?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Second Kind of Impossible: The Extraordinary Quest for a New Form of Matter\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1545498683l/35297608._SY75_.jpg\" /></a><br/>\n                                      author: Paul J. Steinhardt<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.26<br/>\n                                      book published: 2019<br/>\n                                      rating: 5<br/>\n                                      read at: 2021/07/18<br/>\n                                      date added: 2021/07/18<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]
