@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Tue, 09 Nov 2021 22:18:34 -0800"
+        "_text": "Wed, 10 Nov 2021 14:24:12 -0800"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4331682592?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Wed, 10 Nov 2021 14:24:12 -0800"
+          },
+          "title": {
+            "_cdata": "Storm Front (The Dresden Files, #1)"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4331682592?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "47212"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1572991273l/47212._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1572991273l/47212._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1572991273l/47212._SY160_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1572991273l/47212._SY475_.jpg"
+          },
+          "book_description": {
+            "_cdata": "<b>HARRY DRESDEN — WIZARD</b><br /><br /><i>Lost Items Found. Paranormal Investigations. Consulting. Advice. Reasonable Rates. No Love Potions, Endless Purses, or Other Entertainment.</i><br /><br />Harry Dresden is the best at what he does. Well, technically, he's the <i>only</i> at what he does. So when the Chicago P.D. has a case that transcends mortal creativity or capability, they come to him for answers. For the \"everyday\" world is actually full of strange and magical things—and most don't play well with humans. That's where Harry comes in. Takes a wizard to catch a—well, whatever. There's just one problem. Business, to put it mildly, stinks.<br /><br />So when the police bring him in to consult on a grisly double murder committed with black magic, Harry's seeing dollar signs. But where there's black magic, there's a black mage behind it. And now that mage knows Harry's name. And that's when things start to get interesting.<br /><br />Magic - it can get a guy killed."
+          },
+          "book": {
+            "_attributes": {
+              "id": "47212"
+            },
+            "num_pages": {
+              "_text": "355"
+            }
+          },
+          "author_name": {
+            "_text": "Jim Butcher"
+          },
+          "isbn": {
+            "_text": "0451457811"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Wed, 10 Nov 2021 14:24:12 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Wed, 10 Nov 2021 14:24:12 -0800"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.99"
+          },
+          "book_published": {
+            "_text": "2000"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/47212.Storm_Front?utm_medium=api&amp;utm_source=rss\"><img alt=\"Storm Front (The Dresden Files, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1572991273l/47212._SY75_.jpg\" /></a><br/>\n                                      author: Jim Butcher<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.99<br/>\n                                      book published: 2000<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/11/10<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/4325615384?utm_medium=api&utm_source=rss"
@@ -7136,78 +7208,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/13256064-phantom?utm_medium=api&amp;utm_source=rss\"><img alt=\"Phantom (Harry Hole, #9)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1333577303l/13256064._SX50_.jpg\" /></a><br/>\n                                      author: Jo Nesbø<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.10<br/>\n                                      book published: 2012<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/07/20<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/4124397426?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Mon, 19 Jul 2021 22:07:25 -0700"
-          },
-          "title": {
-            "_text": "Data Feminism"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/4124397426?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "51777543"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1572991302l/51777543._SX50_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1572991302l/51777543._SX50_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1572991302l/51777543._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1572991302l/51777543._SX318_.jpg"
-          },
-          "book_description": {
-            "_cdata": "A new way of thinking about data science and data ethics that is informed by the ideas of intersectional feminism.<br /><br />Today, data science is a form of power. It has been used to expose injustice, improve health outcomes, and topple governments. But it has also been used to discriminate, police, and surveil. This potential for good, on the one hand, and harm, on the other, makes it essential to ask: Data science by whom? Data science for whom? Data science with whose interests in mind? The narratives around big data and data science are overwhelmingly white, male, and techno-heroic. In <em>Data Feminism</em>, Catherine D'Ignazio and Lauren Klein present a new way of thinking about data science and data ethics—one that is informed by intersectional feminist thought.<br /><br />Illustrating data feminism in action, D'Ignazio and Klein show how challenges to the male/female binary can help challenge other hierarchical (and empirically wrong) classification systems. They explain how, for example, an understanding of emotion can expand our ideas about effective data visualization, and how the concept of invisible labor can expose the significant human efforts required by our automated systems. And they show why the data never, ever “speak for themselves.”<br /><br /><em>Data Feminism</em> offers strategies for data scientists seeking to learn how feminism can help them work toward justice, and for feminists who want to focus their efforts on the growing field of data science. But Data Feminism is about much more than gender. It is about power, about who has it and who doesn't, and about how those differentials of power can be challenged and changed."
-          },
-          "book": {
-            "_attributes": {
-              "id": "51777543"
-            },
-            "num_pages": {
-              "_text": "328"
-            }
-          },
-          "author_name": {
-            "_text": "Catherine D’Ignazio"
-          },
-          "isbn": {
-            "_text": "0262044005"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Mon, 19 Jul 2021 22:07:25 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Mon, 19 Jul 2021 22:07:19 -0700"
-          },
-          "user_shelves": {
-            "_text": "on-deck"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.44"
-          },
-          "book_published": {
-            "_text": "2020"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/51777543-data-feminism?utm_medium=api&amp;utm_source=rss\"><img alt=\"Data Feminism\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1572991302l/51777543._SX50_.jpg\" /></a><br/>\n                                      author: Catherine D’Ignazio<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.44<br/>\n                                      book published: 2020<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/07/19<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Fri, 24 Apr 2020 12:49:16 -0700"
+        "_text": "Wed, 29 Apr 2020 23:37:08 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3083295651?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Wed, 29 Apr 2020 23:37:08 -0700"
+          },
+          "title": {
+            "_text": "Ringworld (Ringworld, #1)"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3083295651?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "61179"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1408793358l/61179._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1408793358l/61179._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1408793358l/61179._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1408793358l/61179.jpg"
+          },
+          "book_description": {
+            "_cdata": "The artefact is a circular ribbon of matter six hundred million miles long and ninety million miles in radius. Pierson's puppeteers, the aliens who discovered it, are understandably wary of encountering the builders of such an immense structure and have assembled a team of two humans, a mad puppeteer and a kzin, a huge cat-like alien, to explore it. But a crash landing on the vast edifice forces the crew on a desperate and dangerous trek across the Ringworld."
+          },
+          "book": {
+            "_attributes": {
+              "id": "61179"
+            },
+            "num_pages": {
+              "_text": "288"
+            }
+          },
+          "author_name": {
+            "_text": "Larry Niven"
+          },
+          "isbn": {
+            "_text": "0575077026"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "3"
+          },
+          "user_read_at": {
+            "_cdata": "Wed, 29 Apr 2020 23:37:00 -0700"
+          },
+          "user_date_added": {
+            "_cdata": "Wed, 29 Apr 2020 23:37:08 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Fri, 13 Dec 2019 02:10:34 -0800"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.97"
+          },
+          "book_published": {
+            "_text": "1970"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/61179.Ringworld?utm_medium=api&amp;utm_source=rss\"><img alt=\"Ringworld (Ringworld, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1408793358l/61179._SY75_.jpg\" /></a><br/>\n                                      author: Larry Niven<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.97<br/>\n                                      book published: 1970<br/>\n                                      rating: 3<br/>\n                                      read at: 2020/04/29<br/>\n                                      date added: 2020/04/29<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/3247173396?utm_medium=api&utm_source=rss"
@@ -7132,76 +7204,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/18736925-capital-in-the-twenty-first-century?utm_medium=api&amp;utm_source=rss\"><img alt=\"Capital in the Twenty-First Century\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1390111547l/18736925._SY75_.jpg\" /></a><br/>\n                                      author: Thomas Piketty<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.99<br/>\n                                      book published: 2013<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2015/05/23<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/1260443457?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Tue, 21 Apr 2015 00:27:45 -0700"
-          },
-          "title": {
-            "_cdata": "American Lion: Andrew Jackson in the White House"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/1260443457?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "3147367"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320480904l/3147367._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320480904l/3147367._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320480904l/3147367._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320480904l/3147367.jpg"
-          },
-          "book_description": {
-            "_cdata": "<b>The definitive biography of a larger-than-life president who defied norms, divided a nation, and changed Washington forever</b><br /><br />Andrew Jackson, his intimate circle of friends, and his tumultuous times are at the heart of this remarkable book about the man who rose from nothing to create the modern presidency. Beloved and hated, venerated and reviled, Andrew Jackson was an orphan who fought his way to the pinnacle of power, bending the nation to his will in the cause of democracy. Jackson's election in 1828 ushered in a new and lasting era in which the people, not distant elites, were the guiding force in American politics. Democracy made its stand in the Jackson years, and he gave voice to the hopes and the fears of a restless, changing nation facing challenging times at home and threats abroad. To tell the saga of Jackson's presidency, acclaimed author Jon Meacham goes inside the Jackson White House. Drawing on newly discovered family letters and papers, he details the human drama-the family, the women, and the inner circle of advisers- that shaped Jackson's private world through years of storm and victory.<br /><br />One of our most significant yet dimly recalled presidents, Jackson was a battle-hardened warrior, the founder of the Democratic Party, and the architect of the presidency as we know it. His story is one of violence, sex, courage, and tragedy. With his powerful persona, his evident bravery, and his mystical connection to the people, Jackson moved the White House from the periphery of government to the center of national action, articulating a vision of change that challenged entrenched interests to heed the popular will- or face his formidable wrath. The greatest of the presidents who have followed Jackson in the White House-from Lincoln to Theodore Roosevelt to FDR to Truman-have found inspiration in his example, and virtue in his vision.<br /><br />Jackson was the most contradictory of men. The architect of the removal of Indians from their native lands, he was warmly sentimental and risked everything to give more power to ordinary citizens. He was, in short, a lot like his country: alternately kind and vicious, brilliant and blind; and a man who fought a lifelong war to keep the republic safe-no matter what it took."
-          },
-          "book": {
-            "_attributes": {
-              "id": "3147367"
-            },
-            "num_pages": {
-              "_text": "483"
-            }
-          },
-          "author_name": {
-            "_text": "Jon Meacham"
-          },
-          "isbn": {
-            "_text": "1400063256"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Tue, 21 Apr 2015 00:27:45 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Tue, 21 Apr 2015 00:27:45 -0700"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "3.80"
-          },
-          "book_published": {
-            "_text": "2008"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/3147367-american-lion?utm_medium=api&amp;utm_source=rss\"><img alt=\"American Lion: Andrew Jackson in the White House\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320480904l/3147367._SY75_.jpg\" /></a><br/>\n                                      author: Jon Meacham<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.80<br/>\n                                      book published: 2008<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2015/04/21<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

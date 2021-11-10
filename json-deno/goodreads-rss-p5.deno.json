@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Wed, 25 Mar 2015 01:49:04 -0700"
+        "_text": "Tue, 21 Apr 2015 00:27:45 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,76 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/1260443457?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Tue, 21 Apr 2015 00:27:45 -0700"
+          },
+          "title": {
+            "_cdata": "American Lion: Andrew Jackson in the White House"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/1260443457?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "3147367"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320480904l/3147367._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320480904l/3147367._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320480904l/3147367._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320480904l/3147367.jpg"
+          },
+          "book_description": {
+            "_cdata": "<b>The definitive biography of a larger-than-life president who defied norms, divided a nation, and changed Washington forever</b><br /><br />Andrew Jackson, his intimate circle of friends, and his tumultuous times are at the heart of this remarkable book about the man who rose from nothing to create the modern presidency. Beloved and hated, venerated and reviled, Andrew Jackson was an orphan who fought his way to the pinnacle of power, bending the nation to his will in the cause of democracy. Jackson's election in 1828 ushered in a new and lasting era in which the people, not distant elites, were the guiding force in American politics. Democracy made its stand in the Jackson years, and he gave voice to the hopes and the fears of a restless, changing nation facing challenging times at home and threats abroad. To tell the saga of Jackson's presidency, acclaimed author Jon Meacham goes inside the Jackson White House. Drawing on newly discovered family letters and papers, he details the human drama-the family, the women, and the inner circle of advisers- that shaped Jackson's private world through years of storm and victory.<br /><br />One of our most significant yet dimly recalled presidents, Jackson was a battle-hardened warrior, the founder of the Democratic Party, and the architect of the presidency as we know it. His story is one of violence, sex, courage, and tragedy. With his powerful persona, his evident bravery, and his mystical connection to the people, Jackson moved the White House from the periphery of government to the center of national action, articulating a vision of change that challenged entrenched interests to heed the popular will- or face his formidable wrath. The greatest of the presidents who have followed Jackson in the White House-from Lincoln to Theodore Roosevelt to FDR to Truman-have found inspiration in his example, and virtue in his vision.<br /><br />Jackson was the most contradictory of men. The architect of the removal of Indians from their native lands, he was warmly sentimental and risked everything to give more power to ordinary citizens. He was, in short, a lot like his country: alternately kind and vicious, brilliant and blind; and a man who fought a lifelong war to keep the republic safe-no matter what it took."
+          },
+          "book": {
+            "_attributes": {
+              "id": "3147367"
+            },
+            "num_pages": {
+              "_text": "483"
+            }
+          },
+          "author_name": {
+            "_text": "Jon Meacham"
+          },
+          "isbn": {
+            "_text": "1400063256"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Tue, 21 Apr 2015 00:27:45 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Tue, 21 Apr 2015 00:27:45 -0700"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.80"
+          },
+          "book_published": {
+            "_text": "2008"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/3147367-american-lion?utm_medium=api&amp;utm_source=rss\"><img alt=\"American Lion: Andrew Jackson in the White House\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320480904l/3147367._SY75_.jpg\" /></a><br/>\n                                      author: Jon Meacham<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.80<br/>\n                                      book published: 2008<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2015/04/21<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/1236585813?utm_medium=api&utm_source=rss"
@@ -7088,74 +7158,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/94977.Climbing_Mount_Improbable?utm_medium=api&amp;utm_source=rss\"><img alt=\"Climbing Mount Improbable\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348592223l/94977._SX50_.jpg\" /></a><br/>\n                                      author: Richard Dawkins<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.12<br/>\n                                      book published: 1996<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2011/11/11<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/231375263?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Fri, 11 Nov 2011 07:55:46 -0800"
-          },
-          "title": {
-            "_text": "Cryptonomicon"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/231375263?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "816"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327931476l/816._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327931476l/816._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327931476l/816._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327931476l/816.jpg"
-          },
-          "book_description": {
-            "_cdata": "<i>Cryptonomicon</i> zooms all over the world, careening conspiratorially back and forth between two time periods—World War II and the present. Our 1940s heroes are the brilliant mathematician Lawrence Waterhouse, crypt analyst extraordinaire, and gung-ho, morphine-addicted marine Bobby Shaftoe. They're part of Detachment 2702, an Allied group trying to break Axis communication codes while simultaneously preventing the enemy from figuring out that their codes have been broken. Their job boils down to layer upon layer of deception. Dr. Alan Turing is also a member of 2702, and he explains the unit's strange workings to Waterhouse. \"When we want to sink a convoy, we send out an observation plane first... Of course, to observe is not its real duty—we already know exactly where the convoy is. Its real duty is to be observed... Then, when we come round and sink them, the Germans will not find it suspicious.\"<br /><br />All of this secrecy resonates in the present-day story line, in which the grandchildren of the WWII heroes—inimitable programming geek Randy Waterhouse and the lovely and powerful Amy Shaftoe—team up to help create an offshore data haven in Southeast Asia and maybe uncover some gold once destined for Nazi coffers. To top off the paranoiac tone of the book, the mysterious Enoch Root, key member of Detachment 2702 and the Societas Eruditorum, pops up with an unbreakable encryption scheme left over from WWII to befuddle the 1990s protagonists with conspiratorial ties."
-          },
-          "book": {
-            "_attributes": {
-              "id": "816"
-            },
-            "num_pages": {
-              "_text": "1152"
-            }
-          },
-          "author_name": {
-            "_text": "Neal Stephenson"
-          },
-          "isbn": {},
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "5"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Fri, 11 Nov 2011 07:55:46 -0800"
-          },
-          "user_date_created": {
-            "_cdata": "Sat, 05 Nov 2011 00:19:46 -0700"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.24"
-          },
-          "book_published": {
-            "_text": "1999"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/816.Cryptonomicon?utm_medium=api&amp;utm_source=rss\"><img alt=\"Cryptonomicon\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327931476l/816._SY75_.jpg\" /></a><br/>\n                                      author: Neal Stephenson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.24<br/>\n                                      book published: 1999<br/>\n                                      rating: 5<br/>\n                                      read at: <br/>\n                                      date added: 2011/11/11<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

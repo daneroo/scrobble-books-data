@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Sun, 18 Jul 2021 23:52:57 -0700"
+        "_text": "Mon, 19 Jul 2021 22:07:25 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4124397426?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Mon, 19 Jul 2021 22:07:25 -0700"
+          },
+          "title": {
+            "_text": "Data Feminism"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4124397426?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "51777543"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1572991302l/51777543._SX50_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1572991302l/51777543._SX50_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1572991302l/51777543._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1572991302l/51777543._SX318_.jpg"
+          },
+          "book_description": {
+            "_cdata": "A new way of thinking about data science and data ethics that is informed by the ideas of intersectional feminism.<br /><br />Today, data science is a form of power. It has been used to expose injustice, improve health outcomes, and topple governments. But it has also been used to discriminate, police, and surveil. This potential for good, on the one hand, and harm, on the other, makes it essential to ask: Data science by whom? Data science for whom? Data science with whose interests in mind? The narratives around big data and data science are overwhelmingly white, male, and techno-heroic. In <em>Data Feminism</em>, Catherine D'Ignazio and Lauren Klein present a new way of thinking about data science and data ethics—one that is informed by intersectional feminist thought.<br /><br />Illustrating data feminism in action, D'Ignazio and Klein show how challenges to the male/female binary can help challenge other hierarchical (and empirically wrong) classification systems. They explain how, for example, an understanding of emotion can expand our ideas about effective data visualization, and how the concept of invisible labor can expose the significant human efforts required by our automated systems. And they show why the data never, ever “speak for themselves.”<br /><br /><em>Data Feminism</em> offers strategies for data scientists seeking to learn how feminism can help them work toward justice, and for feminists who want to focus their efforts on the growing field of data science. But Data Feminism is about much more than gender. It is about power, about who has it and who doesn't, and about how those differentials of power can be challenged and changed."
+          },
+          "book": {
+            "_attributes": {
+              "id": "51777543"
+            },
+            "num_pages": {
+              "_text": "328"
+            }
+          },
+          "author_name": {
+            "_text": "Catherine D’Ignazio"
+          },
+          "isbn": {
+            "_text": "0262044005"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Mon, 19 Jul 2021 22:07:25 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Mon, 19 Jul 2021 22:07:19 -0700"
+          },
+          "user_shelves": {
+            "_text": "on-deck"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.44"
+          },
+          "book_published": {
+            "_text": "2020"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/51777543-data-feminism?utm_medium=api&amp;utm_source=rss\"><img alt=\"Data Feminism\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1572991302l/51777543._SX50_.jpg\" /></a><br/>\n                                      author: Catherine D’Ignazio<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.44<br/>\n                                      book published: 2020<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/07/19<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/4014852103?utm_medium=api&utm_source=rss"
@@ -7158,78 +7230,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/992113._loge_de_la_fuite?utm_medium=api&amp;utm_source=rss\"><img alt=\"Éloge de la fuite\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1180046462l/992113._SY75_.jpg\" /></a><br/>\n                                      author: Henri Laborit<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.21<br/>\n                                      book published: 1976<br/>\n                                      rating: 5<br/>\n                                      read at: <br/>\n                                      date added: 2021/03/21<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3900860725?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sat, 20 Mar 2021 22:55:41 -0700"
-          },
-          "title": {
-            "_text": "The Nature of Space and Time"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3900860725?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "2103"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388640000l/2103._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388640000l/2103._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388640000l/2103._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388640000l/2103.jpg"
-          },
-          "book_description": {
-            "_cdata": "Contents<br />Foreword by Sir Michael Francis Atiyah, OM, FRS, FRSE, FMedSci FAA, HonFREng<br />Lecture 1 - Classical Theory {Hawking}<br />Lecture 2 - Structure of Spacetime Singularities {Penrose}<br />Lecture 3 - Quantum Black Holes {Hawking}<br />Lecture 4 - Quantum Theory and Spacetime {Penrose}<br />Lecture 5 - Quantum Cosmology {Hawking}<br />Lecture 6 - The Twistor View of Spacetime {Penrose}<br />Chapter 7 - The Debate {Hawking and Penrose}<br /><br />Einstein said that the most incomprehensible thing about the universe is that it is comprehensible. But was he right? Can the quantum theory of fields and Einstein's general theory of relativity, the two most accurate and successful theories in all of physics, be united in a single quantum theory of gravity? Can quantum and cosmos ever be combined? On this issue, two of the world's most famous physicists--Stephen Hawking (\"A Brief History of Time\") and Roger Penrose (\"The Emperor's New Mind\" and \"Shadows of the Mind\")--disagree. Here they explain their positions in a work based on six lectures with a final debate, all originally presented at the Isaac Newton Institute for Mathematical Sciences at the University of Cambridge.<br /><br />How could quantum gravity, a theory that could explain the earlier moments of the big bang and the physics of the enigmatic objects known as black holes, be constructed? Why does our patch of the universe look just as Einstein predicted, with no hint of quantum effects in sight? What strange quantum processes can cause black holes to evaporate, and what happens to all the information that they swallow? Why does time go forward, not backward?<br /><br />In this book, the two opponents touch on all these questions. Penrose, like Einstein, refuses to believe that quantum mechanics is a final theory. Hawking thinks otherwise, and argues that general relativity simply cannot account for how the universe began. Only a quantum theory of gravity, coupled with the no-boundary hypothesis, can ever hope to explain adequately what little we can observe about our universe. Penrose, playing the realist to Hawking's positivist, thinks that the universe is unbounded and will expand forever. The universe can be understood, he argues, in terms of the geometry of light cones, the compression and distortion of spacetime, and by the use of twistor theory. With the final debate, the reader will come to realize how much Hawking and Penrose diverge in their opinions of the ultimate quest to combine quantum mechanics and relativity, and how differently they have tried to comprehend the incomprehensible."
-          },
-          "book": {
-            "_attributes": {
-              "id": "2103"
-            },
-            "num_pages": {
-              "_text": "152"
-            }
-          },
-          "author_name": {
-            "_text": "Stephen Hawking"
-          },
-          "isbn": {
-            "_text": "0691050848"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Sat, 20 Mar 2021 22:55:41 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Sat, 20 Mar 2021 22:55:41 -0700"
-          },
-          "user_shelves": {
-            "_text": "on-deck"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.13"
-          },
-          "book_published": {
-            "_text": "1996"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/2103.The_Nature_of_Space_and_Time?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Nature of Space and Time\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388640000l/2103._SY75_.jpg\" /></a><br/>\n                                      author: Stephen Hawking<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.13<br/>\n                                      book published: 1996<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/03/20<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Fri, 11 Nov 2011 07:55:41 -0800"
+        "_text": "Fri, 11 Nov 2011 07:55:46 -0800"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,74 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/231375263?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Fri, 11 Nov 2011 07:55:46 -0800"
+          },
+          "title": {
+            "_text": "Cryptonomicon"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/231375263?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "816"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327931476l/816._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327931476l/816._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327931476l/816._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327931476l/816.jpg"
+          },
+          "book_description": {
+            "_cdata": "<i>Cryptonomicon</i> zooms all over the world, careening conspiratorially back and forth between two time periods—World War II and the present. Our 1940s heroes are the brilliant mathematician Lawrence Waterhouse, crypt analyst extraordinaire, and gung-ho, morphine-addicted marine Bobby Shaftoe. They're part of Detachment 2702, an Allied group trying to break Axis communication codes while simultaneously preventing the enemy from figuring out that their codes have been broken. Their job boils down to layer upon layer of deception. Dr. Alan Turing is also a member of 2702, and he explains the unit's strange workings to Waterhouse. \"When we want to sink a convoy, we send out an observation plane first... Of course, to observe is not its real duty—we already know exactly where the convoy is. Its real duty is to be observed... Then, when we come round and sink them, the Germans will not find it suspicious.\"<br /><br />All of this secrecy resonates in the present-day story line, in which the grandchildren of the WWII heroes—inimitable programming geek Randy Waterhouse and the lovely and powerful Amy Shaftoe—team up to help create an offshore data haven in Southeast Asia and maybe uncover some gold once destined for Nazi coffers. To top off the paranoiac tone of the book, the mysterious Enoch Root, key member of Detachment 2702 and the Societas Eruditorum, pops up with an unbreakable encryption scheme left over from WWII to befuddle the 1990s protagonists with conspiratorial ties."
+          },
+          "book": {
+            "_attributes": {
+              "id": "816"
+            },
+            "num_pages": {
+              "_text": "1152"
+            }
+          },
+          "author_name": {
+            "_text": "Neal Stephenson"
+          },
+          "isbn": {},
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "5"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Fri, 11 Nov 2011 07:55:46 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Sat, 05 Nov 2011 00:19:46 -0700"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.24"
+          },
+          "book_published": {
+            "_text": "1999"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/816.Cryptonomicon?utm_medium=api&amp;utm_source=rss\"><img alt=\"Cryptonomicon\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327931476l/816._SY75_.jpg\" /></a><br/>\n                                      author: Neal Stephenson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.24<br/>\n                                      book published: 1999<br/>\n                                      rating: 5<br/>\n                                      read at: <br/>\n                                      date added: 2011/11/11<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/231375268?utm_medium=api&utm_source=rss"
