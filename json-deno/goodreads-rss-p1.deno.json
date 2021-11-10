@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Tue, 09 Nov 2021 20:02:50 -0800"
+        "_text": "Tue, 09 Nov 2021 22:18:34 -0800"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4325615384?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Tue, 09 Nov 2021 22:18:34 -0800"
+          },
+          "title": {
+            "_cdata": "Powers and Thrones: A New History of the Middle Ages"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4325615384?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "57347786"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1629634899l/57347786._SX50_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1629634899l/57347786._SX50_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1629634899l/57347786._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1629634899l/57347786.jpg"
+          },
+          "book_description": {
+            "_cdata": "<b>An epic reappraisal of the medieval world--and the rich and complicated legacy left to us by the rise of the West--from the <i>New York Times </i>bestselling author of <i>The Templars</i>.</b><br /><br />When the once-mighty city of Rome was sacked by barbarians in 410 and lay in ruins, it signaled the end of an era--and the beginning of a thousand years of profound transformation. In a gripping narrative bursting with big names--from St Augustine and Attila the Hun to the Prophet Muhammad and Eleanor of Aquitaine--Dan Jones charges through the history of the Middle Ages. <i>Powers and Throne</i>s takes readers on a journey through an emerging Europe, the great capitals of late Antiquity, as well as the influential cities of the Islamic West, and culminates in the first contact between the old and new worlds in the sixteenth century.<br /><br />The medieval world was forged by the big forces that still occupy us today: climate change, pandemic disease, mass migration, and technological revolutions. This was the time when the great European nationalities were formed; when our basic Western systems of law and governance were codified; when the Christian Churches matured as both powerful institutions and the regulators of Western public morality; and when art, architecture, philosophical inquiry and scientific invention went through periods of massive, revolutionary change. At each stage in this story, successive western powers thrived by attracting--or stealing--the most valuable resources, ideas, and people from the rest of the world.<br /><br />The West was rebuilt on the ruins of an empire and emerged from a state of crisis and collapse to dominate the region and the world. Every sphere of human life and activity was transformed in the thousand years of <i>Powers and Thrones</i>. As we face a critical turning point in our own millennium, the legacy and lessons of how we got here matter more than ever."
+          },
+          "book": {
+            "_attributes": {
+              "id": "57347786"
+            },
+            "num_pages": {
+              "_text": "656"
+            }
+          },
+          "author_name": {
+            "_text": "Dan Jones"
+          },
+          "isbn": {
+            "_text": "198488087X"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Tue, 09 Nov 2021 22:18:34 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Sun, 07 Nov 2021 00:24:53 -0700"
+          },
+          "user_shelves": {
+            "_text": "on-deck"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.56"
+          },
+          "book_published": {
+            "_text": "2021"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/57347786-powers-and-thrones?utm_medium=api&amp;utm_source=rss\"><img alt=\"Powers and Thrones: A New History of the Middle Ages\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1629634899l/57347786._SX50_.jpg\" /></a><br/>\n                                      author: Dan Jones<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.56<br/>\n                                      book published: 2021<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/11/09<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/4262671723?utm_medium=api&utm_source=rss"
@@ -636,78 +708,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/15811559-the-plantagenets?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Plantagenets: The Warrior Kings and Queens Who Made England\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1366387829l/15811559._SX50_.jpg\" /></a><br/>\n                                      author: Dan Jones<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.18<br/>\n                                      book published: 2012<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/11/07<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/4325615384?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sun, 07 Nov 2021 00:24:53 -0700"
-          },
-          "title": {
-            "_cdata": "Powers and Thrones: A New History of the Middle Ages"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/4325615384?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "57347786"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1629634899l/57347786._SX50_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1629634899l/57347786._SX50_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1629634899l/57347786._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1629634899l/57347786.jpg"
-          },
-          "book_description": {
-            "_cdata": "<b>An epic reappraisal of the medieval world--and the rich and complicated legacy left to us by the rise of the West--from the <i>New York Times </i>bestselling author of <i>The Templars</i>.</b><br /><br />When the once-mighty city of Rome was sacked by barbarians in 410 and lay in ruins, it signaled the end of an era--and the beginning of a thousand years of profound transformation. In a gripping narrative bursting with big names--from St Augustine and Attila the Hun to the Prophet Muhammad and Eleanor of Aquitaine--Dan Jones charges through the history of the Middle Ages. <i>Powers and Throne</i>s takes readers on a journey through an emerging Europe, the great capitals of late Antiquity, as well as the influential cities of the Islamic West, and culminates in the first contact between the old and new worlds in the sixteenth century.<br /><br />The medieval world was forged by the big forces that still occupy us today: climate change, pandemic disease, mass migration, and technological revolutions. This was the time when the great European nationalities were formed; when our basic Western systems of law and governance were codified; when the Christian Churches matured as both powerful institutions and the regulators of Western public morality; and when art, architecture, philosophical inquiry and scientific invention went through periods of massive, revolutionary change. At each stage in this story, successive western powers thrived by attracting--or stealing--the most valuable resources, ideas, and people from the rest of the world.<br /><br />The West was rebuilt on the ruins of an empire and emerged from a state of crisis and collapse to dominate the region and the world. Every sphere of human life and activity was transformed in the thousand years of <i>Powers and Thrones</i>. As we face a critical turning point in our own millennium, the legacy and lessons of how we got here matter more than ever."
-          },
-          "book": {
-            "_attributes": {
-              "id": "57347786"
-            },
-            "num_pages": {
-              "_text": "656"
-            }
-          },
-          "author_name": {
-            "_text": "Dan Jones"
-          },
-          "isbn": {
-            "_text": "198488087X"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Sun, 07 Nov 2021 00:24:53 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Sun, 07 Nov 2021 00:24:53 -0700"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.56"
-          },
-          "book_published": {
-            "_text": "2021"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/57347786-powers-and-thrones?utm_medium=api&amp;utm_source=rss\"><img alt=\"Powers and Thrones: A New History of the Middle Ages\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1629634899l/57347786._SX50_.jpg\" /></a><br/>\n                                      author: Dan Jones<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.56<br/>\n                                      book published: 2021<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/11/07<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
           }
         },
         {
