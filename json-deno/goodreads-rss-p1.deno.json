@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Sun, 07 Nov 2021 00:28:59 -0700"
+        "_text": "Tue, 09 Nov 2021 20:02:50 -0800"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4262671723?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Tue, 09 Nov 2021 20:02:50 -0800"
+          },
+          "title": {
+            "_text": "Burning Chrome (Sprawl, #0)"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4262671723?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "22323"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1349075772l/22323._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1349075772l/22323._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1349075772l/22323._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1349075772l/22323.jpg"
+          },
+          "book_description": {
+            "_cdata": "Ten tales, from the computer-enhanced hustlers of <i>Johnny Mnemonic</i> to the technofetishist blues of <i>Burning Chrome</i>. <br /><br />Johnny Mnemonic (1981)<br />The Gernsback Continuum (1981)<br />Fragments of a Hologram Rose (1977)<br />The Belonging Kind (1981) with John Shirley<br />Hinterlands (1981)<br /><br />Red Star, Winter Orbit (1983) with Bruce Sterling<br />New Rose Hotel (1984)<br />The Winter Market (1985)<br />Dogfight (1985) with Michael Swanwick<br />Burning Chrome (1982)"
+          },
+          "book": {
+            "_attributes": {
+              "id": "22323"
+            },
+            "num_pages": {
+              "_text": "224"
+            }
+          },
+          "author_name": {
+            "_text": "William Gibson"
+          },
+          "isbn": {
+            "_text": "0060539828"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Tue, 09 Nov 2021 20:02:50 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Tue, 28 Sep 2021 22:57:56 -0700"
+          },
+          "user_shelves": {
+            "_text": "currently-reading"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.06"
+          },
+          "book_published": {
+            "_text": "1986"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/22323.Burning_Chrome?utm_medium=api&amp;utm_source=rss\"><img alt=\"Burning Chrome (Sprawl, #0)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1349075772l/22323._SY75_.jpg\" /></a><br/>\n                                      author: William Gibson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.06<br/>\n                                      book published: 1986<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/11/09<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/4325617987?utm_medium=api&utm_source=rss"
@@ -2061,13 +2133,13 @@
           },
           "user_review": {},
           "average_rating": {
-            "_text": "3.95"
+            "_text": "3.96"
           },
           "book_published": {
             "_text": "2017"
           },
           "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/39286958-measure-what-matters?utm_medium=api&amp;utm_source=rss\"><img alt=\"Measure What Matters\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1521104315l/39286958._SY75_.jpg\" /></a><br/>\n                                      author: John E. Doerr<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.95<br/>\n                                      book published: 2017<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/10/13<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/39286958-measure-what-matters?utm_medium=api&amp;utm_source=rss\"><img alt=\"Measure What Matters\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1521104315l/39286958._SY75_.jpg\" /></a><br/>\n                                      author: John E. Doerr<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.96<br/>\n                                      book published: 2017<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/10/13<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
           }
         },
         {
@@ -3200,78 +3272,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/15783514-the-ocean-at-the-end-of-the-lane?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Ocean at the End of the Lane\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1497098563l/15783514._SY75_.jpg\" /></a><br/>\n                                      author: Neil Gaiman<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.99<br/>\n                                      book published: 2013<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/09/28<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/4262671723?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Tue, 28 Sep 2021 22:57:56 -0700"
-          },
-          "title": {
-            "_text": "Burning Chrome (Sprawl, #0)"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/4262671723?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "22323"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1349075772l/22323._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1349075772l/22323._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1349075772l/22323._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1349075772l/22323.jpg"
-          },
-          "book_description": {
-            "_cdata": "Ten tales, from the computer-enhanced hustlers of <i>Johnny Mnemonic</i> to the technofetishist blues of <i>Burning Chrome</i>. <br /><br />Johnny Mnemonic (1981)<br />The Gernsback Continuum (1981)<br />Fragments of a Hologram Rose (1977)<br />The Belonging Kind (1981) with John Shirley<br />Hinterlands (1981)<br /><br />Red Star, Winter Orbit (1983) with Bruce Sterling<br />New Rose Hotel (1984)<br />The Winter Market (1985)<br />Dogfight (1985) with Michael Swanwick<br />Burning Chrome (1982)"
-          },
-          "book": {
-            "_attributes": {
-              "id": "22323"
-            },
-            "num_pages": {
-              "_text": "224"
-            }
-          },
-          "author_name": {
-            "_text": "William Gibson"
-          },
-          "isbn": {
-            "_text": "0060539828"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Tue, 28 Sep 2021 22:57:56 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Tue, 28 Sep 2021 22:57:56 -0700"
-          },
-          "user_shelves": {
-            "_text": "on-deck"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.06"
-          },
-          "book_published": {
-            "_text": "1986"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/22323.Burning_Chrome?utm_medium=api&amp;utm_source=rss\"><img alt=\"Burning Chrome (Sprawl, #0)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1349075772l/22323._SY75_.jpg\" /></a><br/>\n                                      author: William Gibson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.06<br/>\n                                      book published: 1986<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/09/28<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
           }
         },
         {
