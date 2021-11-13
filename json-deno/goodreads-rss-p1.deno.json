@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Wed, 10 Nov 2021 14:24:12 -0800"
+        "_text": "Fri, 12 Nov 2021 17:05:12 -0800"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4262671723?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Fri, 12 Nov 2021 17:05:12 -0800"
+          },
+          "title": {
+            "_text": "Burning Chrome (Sprawl, #0)"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4262671723?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "22323"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1349075772l/22323._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1349075772l/22323._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1349075772l/22323._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1349075772l/22323.jpg"
+          },
+          "book_description": {
+            "_cdata": "Ten tales, from the computer-enhanced hustlers of <i>Johnny Mnemonic</i> to the technofetishist blues of <i>Burning Chrome</i>. <br /><br />Johnny Mnemonic (1981)<br />The Gernsback Continuum (1981)<br />Fragments of a Hologram Rose (1977)<br />The Belonging Kind (1981) with John Shirley<br />Hinterlands (1981)<br /><br />Red Star, Winter Orbit (1983) with Bruce Sterling<br />New Rose Hotel (1984)<br />The Winter Market (1985)<br />Dogfight (1985) with Michael Swanwick<br />Burning Chrome (1982)"
+          },
+          "book": {
+            "_attributes": {
+              "id": "22323"
+            },
+            "num_pages": {
+              "_text": "224"
+            }
+          },
+          "author_name": {
+            "_text": "William Gibson"
+          },
+          "isbn": {
+            "_text": "0060539828"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Fri, 12 Nov 2021 17:05:12 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Tue, 28 Sep 2021 22:57:56 -0700"
+          },
+          "user_shelves": {
+            "_text": "currently-reading"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.06"
+          },
+          "book_published": {
+            "_text": "1986"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/22323.Burning_Chrome?utm_medium=api&amp;utm_source=rss\"><img alt=\"Burning Chrome (Sprawl, #0)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1349075772l/22323._SY75_.jpg\" /></a><br/>\n                                      author: William Gibson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.06<br/>\n                                      book published: 1986<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/11/12<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/4331682592?utm_medium=api&utm_source=rss"
@@ -206,78 +278,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/57347786-powers-and-thrones?utm_medium=api&amp;utm_source=rss\"><img alt=\"Powers and Thrones: A New History of the Middle Ages\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1629634899l/57347786._SX50_.jpg\" /></a><br/>\n                                      author: Dan Jones<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.53<br/>\n                                      book published: 2021<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/11/09<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/4262671723?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Tue, 09 Nov 2021 20:02:50 -0800"
-          },
-          "title": {
-            "_text": "Burning Chrome (Sprawl, #0)"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/4262671723?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "22323"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1349075772l/22323._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1349075772l/22323._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1349075772l/22323._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1349075772l/22323.jpg"
-          },
-          "book_description": {
-            "_cdata": "Ten tales, from the computer-enhanced hustlers of <i>Johnny Mnemonic</i> to the technofetishist blues of <i>Burning Chrome</i>. <br /><br />Johnny Mnemonic (1981)<br />The Gernsback Continuum (1981)<br />Fragments of a Hologram Rose (1977)<br />The Belonging Kind (1981) with John Shirley<br />Hinterlands (1981)<br /><br />Red Star, Winter Orbit (1983) with Bruce Sterling<br />New Rose Hotel (1984)<br />The Winter Market (1985)<br />Dogfight (1985) with Michael Swanwick<br />Burning Chrome (1982)"
-          },
-          "book": {
-            "_attributes": {
-              "id": "22323"
-            },
-            "num_pages": {
-              "_text": "224"
-            }
-          },
-          "author_name": {
-            "_text": "William Gibson"
-          },
-          "isbn": {
-            "_text": "0060539828"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Tue, 09 Nov 2021 20:02:50 -0800"
-          },
-          "user_date_created": {
-            "_cdata": "Tue, 28 Sep 2021 22:57:56 -0700"
-          },
-          "user_shelves": {
-            "_text": "currently-reading"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.06"
-          },
-          "book_published": {
-            "_text": "1986"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/22323.Burning_Chrome?utm_medium=api&amp;utm_source=rss\"><img alt=\"Burning Chrome (Sprawl, #0)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1349075772l/22323._SY75_.jpg\" /></a><br/>\n                                      author: William Gibson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.06<br/>\n                                      book published: 1986<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/11/09<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>\n                                      "
           }
         },
         {
@@ -5123,11 +5123,11 @@
           "user_shelves": {},
           "user_review": {},
           "average_rating": {
-            "_text": "3.83"
+            "_text": "3.84"
           },
           "book_published": {},
           "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/54837100-the-science-of-can-and-can-t?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Science of Can and Can&#39;t: A Physicist’s Journey Through the Land of Counterfactuals\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1616017771l/54837100._SY75_.jpg\" /></a><br/>\n                                      author: Chiara Marletto<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.83<br/>\n                                      book published: <br/>\n                                      rating: 4<br/>\n                                      read at: 2021/08/29<br/>\n                                      date added: 2021/08/29<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/54837100-the-science-of-can-and-can-t?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Science of Can and Can&#39;t: A Physicist’s Journey Through the Land of Counterfactuals\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1616017771l/54837100._SY75_.jpg\" /></a><br/>\n                                      author: Chiara Marletto<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.84<br/>\n                                      book published: <br/>\n                                      rating: 4<br/>\n                                      read at: 2021/08/29<br/>\n                                      date added: 2021/08/29<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
           }
         },
         {
