@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Fri, 11 Nov 2011 07:55:46 -0800"
+        "_text": "Sat, 04 Feb 2012 16:30:44 -0800"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,218 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/231375249?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sat, 04 Feb 2012 16:30:44 -0800"
+          },
+          "title": {
+            "_cdata": "Breaking the Spell: Religion as a Natural Phenomenon"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/231375249?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "2067"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1406403613l/2067._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1406403613l/2067._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1406403613l/2067._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1406403613l/2067.jpg"
+          },
+          "book_description": {
+            "_cdata": "An innovative thinker tackles the controversial question of why we believe in God and how religion shapes our lives and our future.<br /><br />For a growing number of people, there is nothing more important than religion. It is an integral part of their marriage, child rearing, and community. In this daring new book, distinguished philosopher Daniel C. Dennett takes a hard look at this phenomenon and asks why. Where does our devotion to God come from and what purpose does it serve? Is religion a blind evolutionary compulsion or a rational choice? In \"Breaking the Spell,\" Dennett argues that the time has come to shed the light of science on the fundamental questions of faith. In a spirited narrative that ranges widely through history, philosophy, and psychology, Dennett explores how organized religion evolved from folk beliefs and why it is such a potent force today. Deftly and lucidly, he contends that the \"belief in belief\" has fogged any attempt to rationally consider the existence of God and the relationship between divinity and human need.<br /><br />\"Breaking the Spell\" is not an antireligious screed but rather an eyeopening exploration of the role that belief plays in our lives, our interactions, and our country. With the gulf between rationalists and adherents of \"intelligent design\" widening daily, Dennett has written a timely and provocative book that will be read and passionately debated by believers and nonbelievers alike."
+          },
+          "book": {
+            "_attributes": {
+              "id": "2067"
+            },
+            "num_pages": {
+              "_text": "448"
+            }
+          },
+          "author_name": {
+            "_text": "Daniel C. Dennett"
+          },
+          "isbn": {
+            "_text": "067003472X"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "4"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Sat, 04 Feb 2012 16:30:44 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Sat, 05 Nov 2011 00:19:45 -0700"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.90"
+          },
+          "book_published": {
+            "_text": "2006"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/2067.Breaking_the_Spell?utm_medium=api&amp;utm_source=rss\"><img alt=\"Breaking the Spell: Religion as a Natural Phenomenon\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1406403613l/2067._SY75_.jpg\" /></a><br/>\n                                      author: Daniel C. Dennett<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.90<br/>\n                                      book published: 2006<br/>\n                                      rating: 4<br/>\n                                      read at: <br/>\n                                      date added: 2012/02/04<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/231375272?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sat, 04 Feb 2012 16:30:14 -0800"
+          },
+          "title": {
+            "_cdata": "The Ancestor's Tale: A Pilgrimage to the Dawn of Evolution"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/231375272?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "17977"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1423600058l/17977._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1423600058l/17977._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1423600058l/17977._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1423600058l/17977.jpg"
+          },
+          "book_description": {
+            "_cdata": "The renowned biologist and thinker Richard Dawkins presents his most expansive work yet: a comprehensive look at evolution, ranging from the latest developments in the field to his own provocative views. Loosely based on the form of Chaucer's Canterbury Tales, Dawkins's Tale takes us modern humans back through four billion years of life on our planet. As the pilgrimage progresses, we join with other organisms at the forty \"rendezvous points\" where we find a common ancestor. The band of pilgrims swells into a vast crowd as we join first with other primates, then with other mammals, and so on back to the first primordial organism.<br /><br />Dawkins's brilliant, inventive approach allows us to view the connections between ourselves and all other life in a bracingly novel way. It also lets him shed bright new light on the most compelling aspects of evolutionary history and theory: sexual selection, speciation, convergent evolution, extinction, genetics, plate tectonics, geographical dispersal, and more. The Ancestor's Tale is at once a far-reaching survey of the latest, best thinking on biology and a fascinating history of life on Earth. Here Dawkins shows us how remarkable we are, how astonishing our history, and how intimate our relationship with the rest of the living world."
+          },
+          "book": {
+            "_attributes": {
+              "id": "17977"
+            },
+            "num_pages": {
+              "_text": "688"
+            }
+          },
+          "author_name": {
+            "_text": "Richard Dawkins"
+          },
+          "isbn": {
+            "_text": "061861916X"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "5"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Sat, 04 Feb 2012 16:30:14 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Sat, 05 Nov 2011 00:19:47 -0700"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.12"
+          },
+          "book_published": {
+            "_text": "2004"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/17977.The_Ancestor_s_Tale?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Ancestor&#39;s Tale: A Pilgrimage to the Dawn of Evolution\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1423600058l/17977._SY75_.jpg\" /></a><br/>\n                                      author: Richard Dawkins<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.12<br/>\n                                      book published: 2004<br/>\n                                      rating: 5<br/>\n                                      read at: <br/>\n                                      date added: 2012/02/04<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/231375264?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Fri, 11 Nov 2011 07:55:50 -0800"
+          },
+          "title": {
+            "_text": "Climbing Mount Improbable"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/231375264?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "94977"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348592223l/94977._SX50_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348592223l/94977._SX50_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348592223l/94977._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348592223l/94977.jpg"
+          },
+          "book_description": {
+            "_cdata": "The human eye is so complex and works so precisely that surely, one might believe, its current shape and function must be the product of design. How could such an intricate object have come about by chance? Tackling this subject—in writing that the <em>New York Times</em> called \"a masterpiece\"—Richard Dawkins builds a carefully reasoned and lovingly illustrated argument for evolutionary adaptation as the mechanism for life on earth.<br /><br /><br />The metaphor of Mount Improbable represents the combination of perfection and improbability that is epitomized in the seemingly \"designed\" complexity of living things. Dawkins skillfully guides the reader on a breathtaking journey through the mountain's passes and up its many peaks to demonstrate that following the improbable path to perfection takes time. Evocative illustrations accompany Dawkins's eloquent descriptions of extraordinary adaptations such as the teeming populations of figs, the intricate silken world of spiders, and the evolution of wings on the bodies of flightless animals. And through it all runs the thread of DNA, the molecule of life, responsible for its own destiny on an unending pilgrimage through time.<br /><br /><em>Climbing Mount Improbable</em> is a book of great impact and skill, written by the most prominent Darwinian of our age."
+          },
+          "book": {
+            "_attributes": {
+              "id": "94977"
+            },
+            "num_pages": {
+              "_text": "352"
+            }
+          },
+          "author_name": {
+            "_text": "Richard Dawkins"
+          },
+          "isbn": {
+            "_text": "0393316823"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Fri, 11 Nov 2011 07:55:50 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Sat, 05 Nov 2011 00:19:46 -0700"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.12"
+          },
+          "book_published": {
+            "_text": "1996"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/94977.Climbing_Mount_Improbable?utm_medium=api&amp;utm_source=rss\"><img alt=\"Climbing Mount Improbable\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348592223l/94977._SX50_.jpg\" /></a><br/>\n                                      author: Richard Dawkins<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.12<br/>\n                                      book published: 1996<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2011/11/11<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/231375263?utm_medium=api&utm_source=rss"

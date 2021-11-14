@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Fri, 12 Nov 2021 17:05:12 -0800"
+        "_text": "Sat, 13 Nov 2021 19:05:01 -0800"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,222 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4336580075?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sat, 13 Nov 2021 19:05:01 -0800"
+          },
+          "title": {
+            "_cdata": "The Life You Can Save: How to Do Your Part to End World Poverty"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4336580075?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "49005196"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1574973822l/49005196._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1574973822l/49005196._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1574973822l/49005196._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1574973822l/49005196._SY475_.jpg"
+          },
+          "book_description": {
+            "_cdata": "It is 2021 and the world has experienced unimaginable suffering, death and despair. The pandemic has had a devastating effect on global extreme poverty and harrowing scenes from around the world continue to leave us shocked. As the pandemic rages on, it’s natural to ask: how can I help? Peter Singer – often considered to be the world’s most influential living philosopher– answers this question in The 10th Anniversary Edition of his seminal book, The Life You Can Save. This book will inspire and empower readers to ACT NOW and SAVE LIVES. Moreover, the ebook and the audiobook (narrated by mission–aligned celebrities including Stephen Fry, Kristen Bell, Paul Simon and Michael Schur!) is available to all readers for FREE on The Life You Can Save website. <br /><br />In The Life You Can Save, Peter Singer compellingly lays out the case for why and how we can take action to provide immense benefit to others, at minimal cost to ourselves. Using ethical arguments, illuminating examples, and case studies of charitable giving, he shows that our current response to world poverty is not only insufficient but morally indefensible. And he provides practical recommendations of charities proven to dramatically improve, and even save, the lives of children, women and men living in extreme poverty. The Life You Can Save teaches us to be a part of the solution, helping others as we help ourselves."
+          },
+          "book": {
+            "_attributes": {
+              "id": "49005196"
+            },
+            "num_pages": {
+              "_text": "302"
+            }
+          },
+          "author_name": {
+            "_text": "Peter Singer"
+          },
+          "isbn": {
+            "_text": "1733672702"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Sat, 13 Nov 2021 19:05:01 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Sat, 13 Nov 2021 19:03:42 -0800"
+          },
+          "user_shelves": {
+            "_text": "on-deck"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.20"
+          },
+          "book_published": {
+            "_text": "2009"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/49005196-the-life-you-can-save?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Life You Can Save: How to Do Your Part to End World Poverty\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1574973822l/49005196._SY75_.jpg\" /></a><br/>\n                                      author: Peter Singer<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.20<br/>\n                                      book published: 2009<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/11/13<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4336580876?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sat, 13 Nov 2021 19:04:29 -0800"
+          },
+          "title": {
+            "_cdata": "More Than Good Intentions: How a New Economics Is Helping to Solve Global Poverty"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4336580876?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "8713694"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347636313l/8713694._SX50_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347636313l/8713694._SX50_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347636313l/8713694._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347636313l/8713694.jpg"
+          },
+          "book_description": {
+            "_cdata": "A leading economist and researcher report from the front lines of a revolution in solving the world's most persistent problem.<br /><br />When it comes to global poverty, people are passionate and polarized. At one extreme: We just need to invest more resources. At the other: We've thrown billions down a sinkhole over the last fifty years and accomplished almost nothing.<br /><br />Dean Karlan and Jacob Appel present an entirely new approach that blazes an optimistic and realistic trail between these two extremes.<br /><br />In this pioneering book Karlan and Appel combine behavioral economics with worldwide field research. They take readers with them into villages across Africa, India, South America, and the Philippines, where economic theory collides with real life. They show how small changes in banking, insurance, health care, and other development initiatives that take into account human irrationality can drastically improve the well-being of poor people everywhere.<br /><br />We in the developed world have found ways to make our own lives profoundly better. We use new tools to spend smarter, save more, eat better, and lead lives more like the ones we imagine. These tools can do the same for the impoverished. Karlan and Appel's research, and those of some close colleagues, show exactly how.<br /><br />In America alone, individual donors contribute over two hundred billion to charity annually, three times as much as corporations, foundations, and bequests combined. This book provides a new way to understand what really works to reduce poverty; in so doing, it reveals how to better invest those billions and begin transforming the well-being of the world."
+          },
+          "book": {
+            "_attributes": {
+              "id": "8713694"
+            },
+            "num_pages": {
+              "_text": "320"
+            }
+          },
+          "author_name": {
+            "_text": "Dean Karlan"
+          },
+          "isbn": {
+            "_text": "052595189X"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Sat, 13 Nov 2021 19:04:29 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Sat, 13 Nov 2021 19:04:28 -0800"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.98"
+          },
+          "book_published": {
+            "_text": "2011"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/8713694-more-than-good-intentions?utm_medium=api&amp;utm_source=rss\"><img alt=\"More Than Good Intentions: How a New Economics Is Helping to Solve Global Poverty\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347636313l/8713694._SX50_.jpg\" /></a><br/>\n                                      author: Dean Karlan<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.98<br/>\n                                      book published: 2011<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/11/13<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4336580438?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sat, 13 Nov 2021 19:04:04 -0800"
+          },
+          "title": {
+            "_cdata": "Reinventing Philanthropy: A Framework for More Effective Giving"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4336580438?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "16292046"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1421140136l/16292046._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1421140136l/16292046._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1421140136l/16292046._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1421140136l/16292046.jpg"
+          },
+          "book_description": {
+            "_cdata": "Several years ago, Eric Friedman decided to donate a substantial percentage of his income to charity. As many people do when making a big decision, he researched the best path he should take to accomplish his goal. After speaking with foundations, consultants, and nonprofit staff members, he found that few could adequately respond to his basic questions: How should donors choose the causes they support? How can donors maximize the impact of their giving?In \"Reinventing Philanthropy,\" Friedman shares the answers he found when exploring the world of charitable giving. What he discovered will help readers combine their business acumen with their compassion, soul-searching, and self-awareness so they can become highly effective donors. While many donors choose to direct their giving based on personal interests and passions, Friedman reinvents the best practices in philanthropic giving and demonstrates how the selection of donation recipients can be based more on maximizing a donation s benefits to those in need. He also provides specific strategies for effective giving, including the best ways to identify high-performance nonprofit organizations and the most important criteria for selecting causes to support.Is charitable giving more about satisfying the needs of the donor or those of the recipient? The answer, according to Friedman, is both, and \"Reinventing Philanthropy\" provides the essential tools for maximizing the impact of one s donations."
+          },
+          "book": {
+            "_attributes": {
+              "id": "16292046"
+            },
+            "num_pages": {
+              "_text": "188"
+            }
+          },
+          "author_name": {
+            "_text": "Eric  Friedman"
+          },
+          "isbn": {
+            "_text": "1612345727"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Sat, 13 Nov 2021 19:04:04 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Sat, 13 Nov 2021 19:04:04 -0800"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.43"
+          },
+          "book_published": {
+            "_text": "2013"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/16292046-reinventing-philanthropy?utm_medium=api&amp;utm_source=rss\"><img alt=\"Reinventing Philanthropy: A Framework for More Effective Giving\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1421140136l/16292046._SY75_.jpg\" /></a><br/>\n                                      author: Eric  Friedman<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.43<br/>\n                                      book published: 2013<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/11/13<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/4262671723?utm_medium=api&utm_source=rss"
@@ -2205,13 +2421,13 @@
           },
           "user_review": {},
           "average_rating": {
-            "_text": "3.96"
+            "_text": "3.95"
           },
           "book_published": {
             "_text": "2017"
           },
           "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/39286958-measure-what-matters?utm_medium=api&amp;utm_source=rss\"><img alt=\"Measure What Matters\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1521104315l/39286958._SY75_.jpg\" /></a><br/>\n                                      author: John E. Doerr<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.96<br/>\n                                      book published: 2017<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/10/13<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/39286958-measure-what-matters?utm_medium=api&amp;utm_source=rss\"><img alt=\"Measure What Matters\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1521104315l/39286958._SY75_.jpg\" /></a><br/>\n                                      author: John E. Doerr<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.95<br/>\n                                      book published: 2017<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/10/13<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
           }
         },
         {
@@ -2917,11 +3133,11 @@
           },
           "user_review": {},
           "average_rating": {
-            "_text": "3.76"
+            "_text": "3.77"
           },
           "book_published": {},
           "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/57423872-twelve-caesars?utm_medium=api&amp;utm_source=rss\"><img alt=\"Twelve Caesars: Images of Power from the Ancient World to the Modern\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1618599968l/57423872._SX50_.jpg\" /></a><br/>\n                                      author: Mary Beard<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.76<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/10/06<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/57423872-twelve-caesars?utm_medium=api&amp;utm_source=rss\"><img alt=\"Twelve Caesars: Images of Power from the Ancient World to the Modern\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1618599968l/57423872._SX50_.jpg\" /></a><br/>\n                                      author: Mary Beard<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.77<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/10/06<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
           }
         },
         {
@@ -6994,220 +7210,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/40874878-knife?utm_medium=api&amp;utm_source=rss\"><img alt=\"Knife (Harry Hole, #12)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546362399l/40874878._SY75_.jpg\" /></a><br/>\n                                      author: Jo Nesbø<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.21<br/>\n                                      book published: 2019<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/07/20<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/4124596495?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Tue, 20 Jul 2021 01:57:14 -0700"
-          },
-          "title": {
-            "_text": "The Thirst (Harry Hole, #11)"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/4124596495?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "32775291"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1493126601l/32775291._SX50_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1493126601l/32775291._SX50_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1493126601l/32775291._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1493126601l/32775291._SX318_.jpg"
-          },
-          "book_description": {
-            "_cdata": "<b>Harry Hole returns in the eleventh installment of the author's best-selling, electrifying crime fiction series—published in 48 languages, more than 30 million copies sold worldwide.<br /></b><br />In <i>Police—</i>the last novel featuring Jo Nesbø's hard-bitten, maverick Oslo detective—a killer wreaking revenge on the police had Harry Hole fighting for the safety of the people closest to him. Now, in <i>The Thirst, </i>the story continues as Harry is inextricably drawn back into the Oslo police force. A serial murderer has begun targeting Tinder daters—a murderer whose MO reignites Harry's hunt for a nemesis of his past."
-          },
-          "book": {
-            "_attributes": {
-              "id": "32775291"
-            },
-            "num_pages": {
-              "_text": "352"
-            }
-          },
-          "author_name": {
-            "_text": "Jo Nesbø"
-          },
-          "isbn": {},
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Tue, 20 Jul 2021 01:57:14 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Tue, 20 Jul 2021 01:57:14 -0700"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.11"
-          },
-          "book_published": {
-            "_text": "2017"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/32775291-the-thirst?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Thirst (Harry Hole, #11)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1493126601l/32775291._SX50_.jpg\" /></a><br/>\n                                      author: Jo Nesbø<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.11<br/>\n                                      book published: 2017<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/07/20<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/4124596485?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Tue, 20 Jul 2021 01:57:13 -0700"
-          },
-          "title": {
-            "_text": "Police (Harry Hole, #10)"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/4124596485?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "18142329"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1373049226l/18142329._SX50_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1373049226l/18142329._SX50_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1373049226l/18142329._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1373049226l/18142329.jpg"
-          },
-          "book_description": {
-            "_cdata": "When a police officer is found murdered at the scene of an old unsolved murder case that he was involved in investigating, it can hardly be a coincidence. When the same thing happens to two other officers in a matter of months the pattern is as clear as it is terrifying. None of the old cases were ever solved. The killings are extremely brutal and the police have no leads. What’s more, they’re missing their best investigator.<br /><br />At the same time, a severely wounded man is in a coma and kept alive at a hospital in Oslo. The police guard the room and the identity of the patient is kept secret.<br /><br />Once again Jo Nesbø delivers a devilishly clever story about the scope of human evil; a cat-and-mouse game that involves not only the victims and the police, but also the reader."
-          },
-          "book": {
-            "_attributes": {
-              "id": "18142329"
-            },
-            "num_pages": {
-              "_text": "436"
-            }
-          },
-          "author_name": {
-            "_text": "Jo Nesbø"
-          },
-          "isbn": {
-            "_text": "0307960498"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Tue, 20 Jul 2021 01:57:13 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Tue, 20 Jul 2021 01:57:13 -0700"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.18"
-          },
-          "book_published": {
-            "_text": "2013"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/18142329-police?utm_medium=api&amp;utm_source=rss\"><img alt=\"Police (Harry Hole, #10)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1373049226l/18142329._SX50_.jpg\" /></a><br/>\n                                      author: Jo Nesbø<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.18<br/>\n                                      book published: 2013<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/07/20<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/4124596368?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Tue, 20 Jul 2021 01:57:03 -0700"
-          },
-          "title": {
-            "_text": "Phantom (Harry Hole, #9)"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/4124596368?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "13256064"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1333577303l/13256064._SX50_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1333577303l/13256064._SX50_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1333577303l/13256064._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1333577303l/13256064.jpg"
-          },
-          "book_description": {
-            "_cdata": "<b>Following from Jo Nesbø's electrifying international best-sellers <i>The Snowman</i> and <i>The Leopard</i>, now comes <i>Phantom</i>, which plunges the brilliant, deeply troubled, now former police officer Harry Hole into a full-tilt investigation on which his own tenuous future will come to depend.</b><br /><br />When Harry left Oslo again for Hong Kong—fleeing the traumas of life as a cop—he thought he was there for good. But then the unthinkable happened. The son of the woman he loved, lost, and still loves is arrested for murder: Oleg, the boy Harry helped raise but couldn't help deserting when he fled. Harry has come back to prove that Oleg is not a killer. Barred from rejoining the police force, he sets out on a solitary, increasingly dangerous investigation that takes him deep into the world of the most virulent drug to ever hit the streets of Oslo (and the careers of some of the city's highest officials), and into the maze of his own past, where he will find the wrenching truth that finally matters to Oleg, and to himself."
-          },
-          "book": {
-            "_attributes": {
-              "id": "13256064"
-            },
-            "num_pages": {
-              "_text": "378"
-            }
-          },
-          "author_name": {
-            "_text": "Jo Nesbø"
-          },
-          "isbn": {
-            "_text": "0307960471"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Tue, 20 Jul 2021 01:57:03 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Tue, 20 Jul 2021 01:57:03 -0700"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.10"
-          },
-          "book_published": {
-            "_text": "2012"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/13256064-phantom?utm_medium=api&amp;utm_source=rss\"><img alt=\"Phantom (Harry Hole, #9)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1333577303l/13256064._SX50_.jpg\" /></a><br/>\n                                      author: Jo Nesbø<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.10<br/>\n                                      book published: 2012<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/07/20<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

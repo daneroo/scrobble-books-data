@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Mon, 19 Jul 2021 22:07:25 -0700"
+        "_text": "Tue, 20 Jul 2021 01:57:14 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,220 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4124596495?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Tue, 20 Jul 2021 01:57:14 -0700"
+          },
+          "title": {
+            "_text": "The Thirst (Harry Hole, #11)"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4124596495?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "32775291"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1493126601l/32775291._SX50_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1493126601l/32775291._SX50_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1493126601l/32775291._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1493126601l/32775291._SX318_.jpg"
+          },
+          "book_description": {
+            "_cdata": "<b>Harry Hole returns in the eleventh installment of the author's best-selling, electrifying crime fiction series—published in 48 languages, more than 30 million copies sold worldwide.<br /></b><br />In <i>Police—</i>the last novel featuring Jo Nesbø's hard-bitten, maverick Oslo detective—a killer wreaking revenge on the police had Harry Hole fighting for the safety of the people closest to him. Now, in <i>The Thirst, </i>the story continues as Harry is inextricably drawn back into the Oslo police force. A serial murderer has begun targeting Tinder daters—a murderer whose MO reignites Harry's hunt for a nemesis of his past."
+          },
+          "book": {
+            "_attributes": {
+              "id": "32775291"
+            },
+            "num_pages": {
+              "_text": "352"
+            }
+          },
+          "author_name": {
+            "_text": "Jo Nesbø"
+          },
+          "isbn": {},
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Tue, 20 Jul 2021 01:57:14 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Tue, 20 Jul 2021 01:57:14 -0700"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.11"
+          },
+          "book_published": {
+            "_text": "2017"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/32775291-the-thirst?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Thirst (Harry Hole, #11)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1493126601l/32775291._SX50_.jpg\" /></a><br/>\n                                      author: Jo Nesbø<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.11<br/>\n                                      book published: 2017<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/07/20<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4124596485?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Tue, 20 Jul 2021 01:57:13 -0700"
+          },
+          "title": {
+            "_text": "Police (Harry Hole, #10)"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4124596485?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "18142329"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1373049226l/18142329._SX50_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1373049226l/18142329._SX50_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1373049226l/18142329._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1373049226l/18142329.jpg"
+          },
+          "book_description": {
+            "_cdata": "When a police officer is found murdered at the scene of an old unsolved murder case that he was involved in investigating, it can hardly be a coincidence. When the same thing happens to two other officers in a matter of months the pattern is as clear as it is terrifying. None of the old cases were ever solved. The killings are extremely brutal and the police have no leads. What’s more, they’re missing their best investigator.<br /><br />At the same time, a severely wounded man is in a coma and kept alive at a hospital in Oslo. The police guard the room and the identity of the patient is kept secret.<br /><br />Once again Jo Nesbø delivers a devilishly clever story about the scope of human evil; a cat-and-mouse game that involves not only the victims and the police, but also the reader."
+          },
+          "book": {
+            "_attributes": {
+              "id": "18142329"
+            },
+            "num_pages": {
+              "_text": "436"
+            }
+          },
+          "author_name": {
+            "_text": "Jo Nesbø"
+          },
+          "isbn": {
+            "_text": "0307960498"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Tue, 20 Jul 2021 01:57:13 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Tue, 20 Jul 2021 01:57:13 -0700"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.18"
+          },
+          "book_published": {
+            "_text": "2013"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/18142329-police?utm_medium=api&amp;utm_source=rss\"><img alt=\"Police (Harry Hole, #10)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1373049226l/18142329._SX50_.jpg\" /></a><br/>\n                                      author: Jo Nesbø<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.18<br/>\n                                      book published: 2013<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/07/20<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4124596368?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Tue, 20 Jul 2021 01:57:03 -0700"
+          },
+          "title": {
+            "_text": "Phantom (Harry Hole, #9)"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4124596368?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "13256064"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1333577303l/13256064._SX50_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1333577303l/13256064._SX50_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1333577303l/13256064._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1333577303l/13256064.jpg"
+          },
+          "book_description": {
+            "_cdata": "<b>Following from Jo Nesbø's electrifying international best-sellers <i>The Snowman</i> and <i>The Leopard</i>, now comes <i>Phantom</i>, which plunges the brilliant, deeply troubled, now former police officer Harry Hole into a full-tilt investigation on which his own tenuous future will come to depend.</b><br /><br />When Harry left Oslo again for Hong Kong—fleeing the traumas of life as a cop—he thought he was there for good. But then the unthinkable happened. The son of the woman he loved, lost, and still loves is arrested for murder: Oleg, the boy Harry helped raise but couldn't help deserting when he fled. Harry has come back to prove that Oleg is not a killer. Barred from rejoining the police force, he sets out on a solitary, increasingly dangerous investigation that takes him deep into the world of the most virulent drug to ever hit the streets of Oslo (and the careers of some of the city's highest officials), and into the maze of his own past, where he will find the wrenching truth that finally matters to Oleg, and to himself."
+          },
+          "book": {
+            "_attributes": {
+              "id": "13256064"
+            },
+            "num_pages": {
+              "_text": "378"
+            }
+          },
+          "author_name": {
+            "_text": "Jo Nesbø"
+          },
+          "isbn": {
+            "_text": "0307960471"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Tue, 20 Jul 2021 01:57:03 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Tue, 20 Jul 2021 01:57:03 -0700"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.10"
+          },
+          "book_published": {
+            "_text": "2012"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/13256064-phantom?utm_medium=api&amp;utm_source=rss\"><img alt=\"Phantom (Harry Hole, #9)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1333577303l/13256064._SX50_.jpg\" /></a><br/>\n                                      author: Jo Nesbø<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.10<br/>\n                                      book published: 2012<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/07/20<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/4124397426?utm_medium=api&utm_source=rss"
@@ -7018,218 +7232,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/8049273-the-elegant-universe?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Elegant Universe: Superstrings, Hidden Dimensions, and the Quest for the Ultimate Theory\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348791881l/8049273._SX50_.jpg\" /></a><br/>\n                                      author: Brian Greene<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.07<br/>\n                                      book published: 1999<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/03/21<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3900841988?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sun, 21 Mar 2021 21:21:55 -0700"
-          },
-          "title": {
-            "_cdata": "The Universe: Leading Scientists Explore the Origin, Mysteries, and Future of the Cosmos"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3900841988?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "18730155"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1404960766l/18730155._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1404960766l/18730155._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1404960766l/18730155._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1404960766l/18730155.jpg"
-          },
-          "book_description": {
-            "_cdata": "John Brockman brings together the world’s best-known physicists and science writers—including Brian Greene, Walter Isaacson, Nobel Prize-winners Murray Gell-Mann and Frank Wilczek, and Brian Cox—to explain the universe in all wondrous splendor.<br /><br />In <em>Universe</em>, today’s most influential science writers explain the science behind our evolving understanding of the universe and everything in it, including the cutting edge research and discoveries that are shaping our knowledge.<br /><br />Lee Smolin reveals how math and cosmology are helping us create a theory of the whole universe Brian Cox offers new dimensions on the Large Hadron and the existence of a Higgs-Boson particle Neil Turok analyzes the fundamental laws of nature, what came before the big bang, and the possibility of a unified theory.<br /><br />Seth Lloyd investigates the impact of computational revolutions and the informational revolution Lawrence Krauss provides fresh insight into gravity, dark matter, and the energy of empty space Brian Greene and Walter Isaacson illuminate the genius who revolutionized modern science: Albert Einstein and much more.<br /><br />Explore the <em>Universe</em> with some of today’s greatest minds: what it is, how it came into being, and what may happen next."
-          },
-          "book": {
-            "_attributes": {
-              "id": "18730155"
-            },
-            "num_pages": {
-              "_text": "379"
-            }
-          },
-          "author_name": {
-            "_text": "John Brockman"
-          },
-          "isbn": {
-            "_text": "0062296086"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Sun, 21 Mar 2021 21:21:55 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Sat, 20 Mar 2021 22:33:25 -0700"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "3.95"
-          },
-          "book_published": {
-            "_text": "2012"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/18730155-the-universe?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Universe: Leading Scientists Explore the Origin, Mysteries, and Future of the Cosmos\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1404960766l/18730155._SY75_.jpg\" /></a><br/>\n                                      author: John Brockman<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.95<br/>\n                                      book published: 2012<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/03/21<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3902487913?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sun, 21 Mar 2021 20:19:45 -0700"
-          },
-          "title": {
-            "_text": "La nouvelle grille"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3902487913?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "1768223"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1187990971l/1768223._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1187990971l/1768223._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1187990971l/1768223._SY160_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1187990971l/1768223.jpg"
-          },
-          "book_description": {
-            "_cdata": "La nouvelle grille propose un moyen d'interprétation de l'expérience humaine en situation sociale.<br />Le développement de la biologie cérébrale, qui commande aux comportements, a montré qu'il existait des liens entre la physique, dont la connaissance nous a permis de dominer le monde inanimé, et le discours logique. Celui-ci justifie toujours notre comportement qui, lui, n'exprime que les mécanismes inconscients aboutissant à la recherche de la domination entre individus, groupes sociaux, classes, États, blocs d'États. La biologie enrichit la physique de la notion d'information, qui n'est ni masse, ni énergie, mais mise en forme spécifique des systèmes vivants.<br />Parmi d'autres, Aristote, Marx et Freud ont fourni de nouveaux concepts pour décoder le chaos de l'expérience et ont recherché les relations entre la matière et l'esprit. Mais ces théories ont pris naissance alors que la biologie, la biologie comportementale en particulier, n'était pas encore née. La nouvelle grille n'exclut pas les anciennes théories, mais les inclut de façon cohérente. Le monde n'est pas un magasin de pièces détachées."
-          },
-          "book": {
-            "_attributes": {
-              "id": "1768223"
-            },
-            "num_pages": {
-              "_text": "343"
-            }
-          },
-          "author_name": {
-            "_text": "Henri Laborit"
-          },
-          "isbn": {
-            "_text": "2070323374"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "4"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Sun, 21 Mar 2021 20:19:45 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Sun, 21 Mar 2021 20:17:45 -0700"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.13"
-          },
-          "book_published": {
-            "_text": "1986"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/1768223.La_nouvelle_grille?utm_medium=api&amp;utm_source=rss\"><img alt=\"La nouvelle grille\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1187990971l/1768223._SY75_.jpg\" /></a><br/>\n                                      author: Henri Laborit<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.13<br/>\n                                      book published: 1986<br/>\n                                      rating: 4<br/>\n                                      read at: <br/>\n                                      date added: 2021/03/21<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3902487354?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sun, 21 Mar 2021 20:18:55 -0700"
-          },
-          "title": {
-            "_text": "Éloge de la fuite"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3902487354?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "992113"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1180046462l/992113._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1180046462l/992113._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1180046462l/992113._SY160_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1180046462l/992113.jpg"
-          },
-          "book_description": {
-            "_cdata": "\" Se révolter, c'est courir à sa perte, car la révolte, si elle se réalise en groupe, retrouve aussitôt une échelle hiérarchique de soumission à l'intérieur du groupe, et la révolte, seule, aboutit rapidement à la soumission du révolté... Il ne reste plus que la fuite. \" Henri Laborit pose, à la lumière des découvertes biologiques, la question de notre libre arbitre, de notre personnalité même. La politique, la société, tout prend dès lors une autre dimension."
-          },
-          "book": {
-            "_attributes": {
-              "id": "992113"
-            },
-            "num_pages": {
-              "_text": "192"
-            }
-          },
-          "author_name": {
-            "_text": "Henri Laborit"
-          },
-          "isbn": {
-            "_text": "2070322831"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "5"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Sun, 21 Mar 2021 20:18:55 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Sun, 21 Mar 2021 20:17:22 -0700"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.21"
-          },
-          "book_published": {
-            "_text": "1976"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/992113._loge_de_la_fuite?utm_medium=api&amp;utm_source=rss\"><img alt=\"Éloge de la fuite\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1180046462l/992113._SY75_.jpg\" /></a><br/>\n                                      author: Henri Laborit<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.21<br/>\n                                      book published: 1976<br/>\n                                      rating: 5<br/>\n                                      read at: <br/>\n                                      date added: 2021/03/21<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]
