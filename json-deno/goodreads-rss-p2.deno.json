@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Tue, 20 Jul 2021 01:57:14 -0700"
+        "_text": "Tue, 20 Jul 2021 01:57:15 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4124596525?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Tue, 20 Jul 2021 01:57:15 -0700"
+          },
+          "title": {
+            "_text": "Knife (Harry Hole, #12)"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4124596525?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "40874878"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546362399l/40874878._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546362399l/40874878._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546362399l/40874878._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546362399l/40874878._SY475_.jpg"
+          },
+          "book_description": {
+            "_cdata": "'Nesbo is one of the best thriller writers on the planet' Daily Express<br /><br />A man like Harry had better watch his back...<br /><br />Following the dramatic conclusion of number one bestseller THE THIRST, KNIFE sees Harry Hole waking up with a ferocious hangover, his hands and clothes covered in blood. Not only is Harry about to come face to face with an old, deadly foe, but with his darkest personal challenge yet.<br /><br />The twelfth instalment in Jo Nesbo’s internationally bestselling crime fiction series."
+          },
+          "book": {
+            "_attributes": {
+              "id": "40874878"
+            },
+            "num_pages": {
+              "_text": "531"
+            }
+          },
+          "author_name": {
+            "_text": "Jo Nesbø"
+          },
+          "isbn": {
+            "_text": "1787300765"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Tue, 20 Jul 2021 01:57:15 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Tue, 20 Jul 2021 01:57:15 -0700"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.21"
+          },
+          "book_published": {
+            "_text": "2019"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/40874878-knife?utm_medium=api&amp;utm_source=rss\"><img alt=\"Knife (Harry Hole, #12)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546362399l/40874878._SY75_.jpg\" /></a><br/>\n                                      author: Jo Nesbø<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.21<br/>\n                                      book published: 2019<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/07/20<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/4124596495?utm_medium=api&utm_source=rss"
@@ -7160,78 +7232,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/1362.The_Histories?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Histories\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1399225547l/1362._SY75_.jpg\" /></a><br/>\n                                      author: Herodotus<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.93<br/>\n                                      book published: -450<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/03/22<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3902672554?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sun, 21 Mar 2021 23:12:18 -0700"
-          },
-          "title": {
-            "_cdata": "The Elegant Universe: Superstrings, Hidden Dimensions, and the Quest for the Ultimate Theory"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3902672554?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "8049273"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348791881l/8049273._SX50_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348791881l/8049273._SX50_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348791881l/8049273._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348791881l/8049273.jpg"
-          },
-          "book_description": {
-            "_cdata": "<p>A new edition of the <em>New York Times</em> bestseller—now a three-part <em>Nova</em> special: a fascinating and thought-provoking journey through the mysteries of space, time, and matter.</p>Now with a new preface (not in any other edition) that will review the enormous public reception of the relatively obscure string theory—made possible by this book and an increased number of adherents amongst physicists—<em>The Elegant Universe</em> \"sets a standard that will be hard to beat\" (<em>New York Times Book Review</em>). Brian Greene, one of the world's leading string theorists, peels away the layers of mystery surrounding string theory to reveal a universe that consists of eleven dimensions, where the fabric of space tears and repairs itself, and all matter—from the smallest quarks to the most gargantuan supernovas—is generated by the vibrations of microscopically tiny loops of energy.<br /><br /><br /><br />Today physicists and mathematicians throughout the world are feverishly working on one of the most ambitious theories ever proposed: superstring theory. String theory, as it is often called, is the key to the Unified Field Theory that eluded Einstein for more than thirty years. Finally, the century-old antagonism between the large and the small-General Relativity and Quantum Theory-is resolved. String theory proclaims that all of the wondrous happenings in the universe, from the frantic dancing of subatomic quarks to the majestic swirling of heavenly galaxies, are reflections of one grand physical principle and manifestations of one single entity: microscopically tiny vibrating loops of energy, a billionth of a billionth the size of an atom. In this brilliantly articulated and refreshingly clear book, Greene relates the scientific story and the human struggle behind twentieth-century physics' search for a theory of everything.<br /><br /><br /><br />Through the masterful use of metaphor and analogy, <em>The Elegant Universe</em> makes some of the most sophisticated concepts ever contemplated viscerally accessible and thoroughly entertaining, bringing us closer than ever to understanding how the universe works."
-          },
-          "book": {
-            "_attributes": {
-              "id": "8049273"
-            },
-            "num_pages": {
-              "_text": "464"
-            }
-          },
-          "author_name": {
-            "_text": "Brian Greene"
-          },
-          "isbn": {
-            "_text": "039333810X"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Sun, 21 Mar 2021 23:12:18 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Sun, 21 Mar 2021 23:12:18 -0700"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.07"
-          },
-          "book_published": {
-            "_text": "1999"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/8049273-the-elegant-universe?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Elegant Universe: Superstrings, Hidden Dimensions, and the Quest for the Ultimate Theory\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348791881l/8049273._SX50_.jpg\" /></a><br/>\n                                      author: Brian Greene<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.07<br/>\n                                      book published: 1999<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/03/21<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

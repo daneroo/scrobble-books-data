@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Sun, 03 May 2020 11:35:02 -0700"
+        "_text": "Sun, 03 May 2020 11:35:14 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,76 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3316202595?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sun, 03 May 2020 11:35:14 -0700"
+          },
+          "title": {
+            "_cdata": "Life, the Universe and Everything (Hitchhiker's Guide to the Galaxy, #3)"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3316202595?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "8694"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1333577589l/8694._SX50_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1333577589l/8694._SX50_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1333577589l/8694._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1333577589l/8694.jpg"
+          },
+          "book_description": {
+            "_cdata": "The unhappy inhabitants of planet Krikkit are sick of looking at the night sky above their heads–so they plan to destroy it. The universe, that is. Now only five individuals stand between the killer robots of Krikkit and their goal of total annihilation.<br /><br />They are Arthur Dent, a mild-mannered space and time traveler who tries to learn how to fly by throwing himself at the ground and missing; Ford Prefect, his best friend, who decides to go insane to see if he likes it; Slartibartfast, the indomitable vice president of the Campaign for Real Time, who travels in a ship powered by irrational behavior; Zaphod Beeblebrox, the two-headed, three-armed ex-president of the galazy; and Trillian, the sexy space cadet who is torn between a persistent Thunder God and a very depressed Beeblebrox.<br /><br />How will it all end? Will it end? Only this stalwart crew knows as they try to avert “universal” Armageddon and save life as we know it–and don’t know it!"
+          },
+          "book": {
+            "_attributes": {
+              "id": "8694"
+            },
+            "num_pages": {
+              "_text": "224"
+            }
+          },
+          "author_name": {
+            "_text": "Douglas Adams"
+          },
+          "isbn": {
+            "_text": "0345418905"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "4"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Sun, 03 May 2020 11:35:14 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Sun, 03 May 2020 11:35:09 -0700"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.21"
+          },
+          "book_published": {
+            "_text": "1982"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/8694.Life_the_Universe_and_Everything?utm_medium=api&amp;utm_source=rss\"><img alt=\"Life, the Universe and Everything (Hitchhiker&#39;s Guide to the Galaxy, #3)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1333577589l/8694._SX50_.jpg\" /></a><br/>\n                                      author: Douglas Adams<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.21<br/>\n                                      book published: 1982<br/>\n                                      rating: 4<br/>\n                                      read at: <br/>\n                                      date added: 2020/05/03<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/3316202247?utm_medium=api&utm_source=rss"
@@ -7124,78 +7194,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/112247.The_Art_of_Computer_Programming_Volume_1?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Art of Computer Programming, Volume 1: Fundamental Algorithms\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388242904l/112247._SX50_.jpg\" /></a><br/>\n                                      author: Donald Ervin Knuth<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.37<br/>\n                                      book published: 1973<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2015/07/09<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/1318680352?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Fri, 26 Jun 2015 22:31:44 -0700"
-          },
-          "title": {
-            "_cdata": "The Art of Computer Programming, Volumes 1-3 Boxed Set"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/1318680352?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "112239"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348345166l/112239._SX50_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348345166l/112239._SX50_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348345166l/112239._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348345166l/112239.jpg"
-          },
-          "book_description": {
-            "_cdata": "Knuth's classic work has been widely acclaimed as one of the most influential works in the field of computer science. For the first time, these books are available as a boxed, three-volume set. The handsome slipcase makes this set an ideal gift for the recent computer science graduate or professional programmer. Offering a description of classical computer science, this multi-volume work is a useful resource in programming theory and practice for students, researchers, and practitioners alike. For programmers, it offers cookbook solutions to their day-to-day problems."
-          },
-          "book": {
-            "_attributes": {
-              "id": "112239"
-            },
-            "num_pages": {
-              "_text": "896"
-            }
-          },
-          "author_name": {
-            "_text": "Donald Ervin Knuth"
-          },
-          "isbn": {
-            "_text": "0201485419"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Fri, 26 Jun 2015 22:31:44 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Fri, 26 Jun 2015 22:31:44 -0700"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.49"
-          },
-          "book_published": {
-            "_text": "1998"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/112239.The_Art_of_Computer_Programming_Volumes_1_3_Boxed_Set?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Art of Computer Programming, Volumes 1-3 Boxed Set\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348345166l/112239._SX50_.jpg\" /></a><br/>\n                                      author: Donald Ervin Knuth<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.49<br/>\n                                      book published: 1998<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2015/06/26<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

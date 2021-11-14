@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Sat, 13 Nov 2021 19:05:01 -0800"
+        "_text": "Sat, 13 Nov 2021 22:39:43 -0800"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4336800855?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sat, 13 Nov 2021 22:39:43 -0800"
+          },
+          "title": {
+            "_cdata": "Fifth Sun: A New History of the Aztecs"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4336800855?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "44244939"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1554662514l/44244939._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1554662514l/44244939._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1554662514l/44244939._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1554662514l/44244939.jpg"
+          },
+          "book_description": {
+            "_cdata": "In November 1519, Hernando Cortés walked along a causeway leading to the capital of the Aztec kingdom and came face to face with Moctezuma. That story—and the story of what happened afterwards—has been told many times, but always following the narrative offered by the Spaniards. After all, we have been taught, it was the Europeans who held the pens. But the Native Americans were intrigued by the Roman alphabet and, unbeknownst to the newcomers, they used it to write detailed histories in their own language of Nahuatl. Until recently, these sources remained obscure, only partially translated, and rarely consulted by scholars.<br /><br />For the first time, in <em>Fifth Sun</em>, the history of the Aztecs is offered in all its complexity based solely on the texts written by the indigenous people themselves. Camilla Townsend presents an accessible and humanized depiction of these native Mexicans, rather than seeing them as the exotic, bloody figures of European stereotypes. The conquest, in this work, is neither an apocalyptic moment, nor an origin story launching Mexicans into existence. The Mexica people had a history of their own long before the Europeans arrived and did not simply capitulate to Spanish culture and colonization. Instead, they realigned their political allegiances, accommodated new obligations, adopted new technologies, and endured.<br /><br />This engaging revisionist history of the Aztecs, told through their own words, explores the experience of a once-powerful people facing the trauma of conquest and finding ways to survive, offering an empathetic interpretation for experts and non-specialists alike.<br />"
+          },
+          "book": {
+            "_attributes": {
+              "id": "44244939"
+            },
+            "num_pages": {
+              "_text": "320"
+            }
+          },
+          "author_name": {
+            "_text": "Camilla Townsend"
+          },
+          "isbn": {
+            "_text": "0190673060"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Sat, 13 Nov 2021 22:39:43 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Sat, 13 Nov 2021 22:39:42 -0800"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.09"
+          },
+          "book_published": {
+            "_text": "2019"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/44244939-fifth-sun?utm_medium=api&amp;utm_source=rss\"><img alt=\"Fifth Sun: A New History of the Aztecs\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1554662514l/44244939._SY75_.jpg\" /></a><br/>\n                                      author: Camilla Townsend<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.09<br/>\n                                      book published: 2019<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/11/13<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/4336580075?utm_medium=api&utm_source=rss"
@@ -3133,11 +3205,11 @@
           },
           "user_review": {},
           "average_rating": {
-            "_text": "3.77"
+            "_text": "3.80"
           },
           "book_published": {},
           "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/57423872-twelve-caesars?utm_medium=api&amp;utm_source=rss\"><img alt=\"Twelve Caesars: Images of Power from the Ancient World to the Modern\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1618599968l/57423872._SX50_.jpg\" /></a><br/>\n                                      author: Mary Beard<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.77<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/10/06<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/57423872-twelve-caesars?utm_medium=api&amp;utm_source=rss\"><img alt=\"Twelve Caesars: Images of Power from the Ancient World to the Modern\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1618599968l/57423872._SX50_.jpg\" /></a><br/>\n                                      author: Mary Beard<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.80<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/10/06<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
           }
         },
         {
@@ -7138,78 +7210,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/23355220-the-leopard?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Leopard (Harry Hole, #8)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1413045306l/23355220._SY75_.jpg\" /></a><br/>\n                                      author: Jo Nesbø<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.10<br/>\n                                      book published: 2009<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/07/20<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/4124596525?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Tue, 20 Jul 2021 01:57:15 -0700"
-          },
-          "title": {
-            "_text": "Knife (Harry Hole, #12)"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/4124596525?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "40874878"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546362399l/40874878._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546362399l/40874878._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546362399l/40874878._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546362399l/40874878._SY475_.jpg"
-          },
-          "book_description": {
-            "_cdata": "'Nesbo is one of the best thriller writers on the planet' Daily Express<br /><br />A man like Harry had better watch his back...<br /><br />Following the dramatic conclusion of number one bestseller THE THIRST, KNIFE sees Harry Hole waking up with a ferocious hangover, his hands and clothes covered in blood. Not only is Harry about to come face to face with an old, deadly foe, but with his darkest personal challenge yet.<br /><br />The twelfth instalment in Jo Nesbo’s internationally bestselling crime fiction series."
-          },
-          "book": {
-            "_attributes": {
-              "id": "40874878"
-            },
-            "num_pages": {
-              "_text": "531"
-            }
-          },
-          "author_name": {
-            "_text": "Jo Nesbø"
-          },
-          "isbn": {
-            "_text": "1787300765"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Tue, 20 Jul 2021 01:57:15 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Tue, 20 Jul 2021 01:57:15 -0700"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.21"
-          },
-          "book_published": {
-            "_text": "2019"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/40874878-knife?utm_medium=api&amp;utm_source=rss\"><img alt=\"Knife (Harry Hole, #12)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546362399l/40874878._SY75_.jpg\" /></a><br/>\n                                      author: Jo Nesbø<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.21<br/>\n                                      book published: 2019<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/07/20<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

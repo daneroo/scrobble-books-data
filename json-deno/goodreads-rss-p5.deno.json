@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Mon, 15 Jun 2015 09:56:19 -0700"
+        "_text": "Fri, 26 Jun 2015 22:31:44 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/1318680352?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Fri, 26 Jun 2015 22:31:44 -0700"
+          },
+          "title": {
+            "_cdata": "The Art of Computer Programming, Volumes 1-3 Boxed Set"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/1318680352?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "112239"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348345166l/112239._SX50_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348345166l/112239._SX50_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348345166l/112239._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348345166l/112239.jpg"
+          },
+          "book_description": {
+            "_cdata": "Knuth's classic work has been widely acclaimed as one of the most influential works in the field of computer science. For the first time, these books are available as a boxed, three-volume set. The handsome slipcase makes this set an ideal gift for the recent computer science graduate or professional programmer. Offering a description of classical computer science, this multi-volume work is a useful resource in programming theory and practice for students, researchers, and practitioners alike. For programmers, it offers cookbook solutions to their day-to-day problems."
+          },
+          "book": {
+            "_attributes": {
+              "id": "112239"
+            },
+            "num_pages": {
+              "_text": "896"
+            }
+          },
+          "author_name": {
+            "_text": "Donald Ervin Knuth"
+          },
+          "isbn": {
+            "_text": "0201485419"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Fri, 26 Jun 2015 22:31:44 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Fri, 26 Jun 2015 22:31:44 -0700"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.49"
+          },
+          "book_published": {
+            "_text": "1998"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/112239.The_Art_of_Computer_Programming_Volumes_1_3_Boxed_Set?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Art of Computer Programming, Volumes 1-3 Boxed Set\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348345166l/112239._SX50_.jpg\" /></a><br/>\n                                      author: Donald Ervin Knuth<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.49<br/>\n                                      book published: 1998<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2015/06/26<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/1236565231?utm_medium=api&utm_source=rss"
@@ -7092,76 +7164,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/373969.The_Stuff_of_Thought?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Stuff of Thought: Language as a Window into Human Nature\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327928557l/373969._SY75_.jpg\" /></a><br/>\n                                      author: Steven Pinker<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.91<br/>\n                                      book published: 2007<br/>\n                                      rating: 4<br/>\n                                      read at: <br/>\n                                      date added: 2012/02/04<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/231375252?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sat, 04 Feb 2012 16:30:46 -0800"
-          },
-          "title": {
-            "_cdata": "The Great Code: The Bible and Literature"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/231375252?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "318117"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328876452l/318117._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328876452l/318117._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328876452l/318117._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328876452l/318117.jpg"
-          },
-          "book_description": {
-            "_cdata": "An examination of the influence of the Bible on Western art and literature and on the Western creative imagination in general. Frye persuasively presents the Bible as a unique text distinct from all other epics and sacred writings. “No one has set forth so clearly, so subtly, or with such cogent energy as Frye the literary aspect of our biblical heritage” (New York Times Book Review). Indices.<br />"
-          },
-          "book": {
-            "_attributes": {
-              "id": "318117"
-            },
-            "num_pages": {
-              "_text": "284"
-            }
-          },
-          "author_name": {
-            "_text": "Northrop Frye"
-          },
-          "isbn": {
-            "_text": "0156027801"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "5"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Sat, 04 Feb 2012 16:30:46 -0800"
-          },
-          "user_date_created": {
-            "_cdata": "Sat, 05 Nov 2011 00:19:46 -0700"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.09"
-          },
-          "book_published": {
-            "_text": "1981"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/318117.The_Great_Code?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Great Code: The Bible and Literature\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328876452l/318117._SY75_.jpg\" /></a><br/>\n                                      author: Northrop Frye<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.09<br/>\n                                      book published: 1981<br/>\n                                      rating: 5<br/>\n                                      read at: <br/>\n                                      date added: 2012/02/04<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

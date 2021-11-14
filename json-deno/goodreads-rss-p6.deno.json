@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Sat, 04 Feb 2012 16:30:44 -0800"
+        "_text": "Sat, 04 Feb 2012 16:30:46 -0800"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,76 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/231375252?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sat, 04 Feb 2012 16:30:46 -0800"
+          },
+          "title": {
+            "_cdata": "The Great Code: The Bible and Literature"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/231375252?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "318117"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328876452l/318117._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328876452l/318117._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328876452l/318117._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328876452l/318117.jpg"
+          },
+          "book_description": {
+            "_cdata": "An examination of the influence of the Bible on Western art and literature and on the Western creative imagination in general. Frye persuasively presents the Bible as a unique text distinct from all other epics and sacred writings. “No one has set forth so clearly, so subtly, or with such cogent energy as Frye the literary aspect of our biblical heritage” (New York Times Book Review). Indices.<br />"
+          },
+          "book": {
+            "_attributes": {
+              "id": "318117"
+            },
+            "num_pages": {
+              "_text": "284"
+            }
+          },
+          "author_name": {
+            "_text": "Northrop Frye"
+          },
+          "isbn": {
+            "_text": "0156027801"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "5"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Sat, 04 Feb 2012 16:30:46 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Sat, 05 Nov 2011 00:19:46 -0700"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.09"
+          },
+          "book_published": {
+            "_text": "1981"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/318117.The_Great_Code?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Great Code: The Bible and Literature\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328876452l/318117._SY75_.jpg\" /></a><br/>\n                                      author: Northrop Frye<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.09<br/>\n                                      book published: 1981<br/>\n                                      rating: 5<br/>\n                                      read at: <br/>\n                                      date added: 2012/02/04<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/231375249?utm_medium=api&utm_source=rss"
