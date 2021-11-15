@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Tue, 20 Jul 2021 01:57:15 -0700"
+        "_text": "Tue, 20 Jul 2021 01:57:37 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,76 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4124596359?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Tue, 20 Jul 2021 01:57:37 -0700"
+          },
+          "title": {
+            "_text": "The Leopard (Harry Hole, #8)"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4124596359?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "23355220"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1413045306l/23355220._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1413045306l/23355220._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1413045306l/23355220._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1413045306l/23355220.jpg"
+          },
+          "book_description": {
+            "_cdata": "In the depths of winter, a killer stalks the city streets. His victims are two young women, both found with twenty-four inexplicable puncture wounds, both drowned in their own blood. The crime scenes offer no clues, the media is reaching fever pitch, and the police are running out of options. There is only one man who can help them, and he doesn't want to be found. Deeply traumatised by The Snowman investigation, which threatened the lives of those he holds most dear, Inspector Harry Hole has lost himself in the squalor of Hong Kong's opium dens. But with his father seriously ill in hospital, Harry reluctantly agrees to return to Oslo. He has no intention of working on the case, but his instinct takes over when a third victim is found brutally murdered in a city park.<br /><br />The victims appear completely unconnected to one another, but it's not long before Harry makes a discovery: the women all spent the night in an isolated mountain hostel. And someone is picking off the guests one by one. A heart-stopping thriller from the bestselling author of the The Snowman, The Leopard is an international phenomenon that will grip you until the final page."
+          },
+          "book": {
+            "_attributes": {
+              "id": "23355220"
+            },
+            "num_pages": {
+              "_text": "634"
+            }
+          },
+          "author_name": {
+            "_text": "Jo Nesbø"
+          },
+          "isbn": {},
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Tue, 20 Jul 2021 01:57:37 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Tue, 20 Jul 2021 01:57:02 -0700"
+          },
+          "user_shelves": {
+            "_text": "on-deck"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.10"
+          },
+          "book_published": {
+            "_text": "2009"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/23355220-the-leopard?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Leopard (Harry Hole, #8)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1413045306l/23355220._SY75_.jpg\" /></a><br/>\n                                      author: Jo Nesbø<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.10<br/>\n                                      book published: 2009<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/07/20<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/4124596525?utm_medium=api&utm_source=rss"
@@ -7160,78 +7230,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/43685238-until-the-end-of-time?utm_medium=api&amp;utm_source=rss\"><img alt=\"Until the End of Time: Mind, Matter, and Our Search for Meaning in an Evolving Universe\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1582412454l/43685238._SY75_.jpg\" /></a><br/>\n                                      author: Brian Greene<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.94<br/>\n                                      book published: 2020<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/03/22<br/>\n                                      date added: 2021/03/22<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3902754820?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Mon, 22 Mar 2021 01:08:58 -0700"
-          },
-          "title": {
-            "_text": "The Histories"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3902754820?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "1362"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1399225547l/1362._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1399225547l/1362._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1399225547l/1362._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1399225547l/1362.jpg"
-          },
-          "book_description": {
-            "_cdata": "One of the masterpieces of classical literature, the \"Histories\" describes how a small and quarrelsome band of Greek city states united to repel the might of the Persian empire. But while this epic struggle forms the core of his work, Herodotus' natural curiosity frequently gives rise to colorful digressions - a description of the natural wonders of Egypt; an account of European lake-dwellers; and far-fetched accounts of dog-headed men and gold-digging ants. With its kaleidoscopic blend of fact and legend, the \"Histories\" offers a compelling Greek view of the world of the fifth century BC."
-          },
-          "book": {
-            "_attributes": {
-              "id": "1362"
-            },
-            "num_pages": {
-              "_text": "716"
-            }
-          },
-          "author_name": {
-            "_text": "Herodotus"
-          },
-          "isbn": {
-            "_text": "0140449086"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Mon, 22 Mar 2021 01:08:58 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Mon, 22 Mar 2021 01:08:58 -0700"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "3.93"
-          },
-          "book_published": {
-            "_text": "-450"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/1362.The_Histories?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Histories\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1399225547l/1362._SY75_.jpg\" /></a><br/>\n                                      author: Herodotus<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.93<br/>\n                                      book published: -450<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/03/22<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

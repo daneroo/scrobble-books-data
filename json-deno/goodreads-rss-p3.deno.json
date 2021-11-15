@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Sun, 21 Mar 2021 23:12:18 -0700"
+        "_text": "Mon, 22 Mar 2021 01:08:58 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3902754820?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Mon, 22 Mar 2021 01:08:58 -0700"
+          },
+          "title": {
+            "_text": "The Histories"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3902754820?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "1362"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1399225547l/1362._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1399225547l/1362._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1399225547l/1362._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1399225547l/1362.jpg"
+          },
+          "book_description": {
+            "_cdata": "One of the masterpieces of classical literature, the \"Histories\" describes how a small and quarrelsome band of Greek city states united to repel the might of the Persian empire. But while this epic struggle forms the core of his work, Herodotus' natural curiosity frequently gives rise to colorful digressions - a description of the natural wonders of Egypt; an account of European lake-dwellers; and far-fetched accounts of dog-headed men and gold-digging ants. With its kaleidoscopic blend of fact and legend, the \"Histories\" offers a compelling Greek view of the world of the fifth century BC."
+          },
+          "book": {
+            "_attributes": {
+              "id": "1362"
+            },
+            "num_pages": {
+              "_text": "716"
+            }
+          },
+          "author_name": {
+            "_text": "Herodotus"
+          },
+          "isbn": {
+            "_text": "0140449086"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Mon, 22 Mar 2021 01:08:58 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Mon, 22 Mar 2021 01:08:58 -0700"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.93"
+          },
+          "book_published": {
+            "_text": "-450"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/1362.The_Histories?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Histories\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1399225547l/1362._SY75_.jpg\" /></a><br/>\n                                      author: Herodotus<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.93<br/>\n                                      book published: -450<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/03/22<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/3902672554?utm_medium=api&utm_source=rss"
@@ -7118,74 +7190,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/170448.Animal_Farm?utm_medium=api&amp;utm_source=rss\"><img alt=\"Animal Farm\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1325861570l/170448._SY75_.jpg\" /></a><br/>\n                                      author: George Orwell<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.09<br/>\n                                      book published: 1945<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2020/05/06<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3316203187?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sun, 03 May 2020 11:35:36 -0700"
-          },
-          "title": {
-            "_cdata": "So Long, and Thanks for All the Fish (The Hitchhiker's Guide to the Galaxy, #4)"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3316203187?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "6091075"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327873354l/6091075._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327873354l/6091075._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327873354l/6091075._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327873354l/6091075.jpg"
-          },
-          "book_description": {
-            "_cdata": "Back on Earth with nothing more to show for his long, strange trip through time and space than a ratty towel and a plastic shopping bag, Arthur Dent is ready to believe that the past eight years were all just a figment of his stressed-out imagination. But a gift-wrapped fishbowl with a cryptic inscription, the mysterious disappearance of Earth's dolphins, and the discovery of his battered copy of The Hitchhiker's Guide to the Galaxy all conspire to give Arthur the sneaking suspicion that something otherworldly is indeed going on. . . .<br /><br />God only knows what it all means. And fortunately, He left behind a Final Message of explanation. But since it's light-years away from Earth, on a star surrounded by souvenir booths, finding out what it is will mean hitching a ride to the far reaches of space aboard a UFO with a giant robot. But what else is new?"
-          },
-          "book": {
-            "_attributes": {
-              "id": "6091075"
-            },
-            "num_pages": {
-              "_text": "225"
-            }
-          },
-          "author_name": {
-            "_text": "Douglas Adams"
-          },
-          "isbn": {},
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "4"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Sun, 03 May 2020 11:35:36 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Sun, 03 May 2020 11:35:32 -0700"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.16"
-          },
-          "book_published": {
-            "_text": "1984"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/6091075-so-long-and-thanks-for-all-the-fish?utm_medium=api&amp;utm_source=rss\"><img alt=\"So Long, and Thanks for All the Fish (The Hitchhiker&#39;s Guide to the Galaxy, #4)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327873354l/6091075._SY75_.jpg\" /></a><br/>\n                                      author: Douglas Adams<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.16<br/>\n                                      book published: 1984<br/>\n                                      rating: 4<br/>\n                                      read at: <br/>\n                                      date added: 2020/05/03<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

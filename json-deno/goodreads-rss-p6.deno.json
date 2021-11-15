@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Sat, 04 Feb 2012 16:30:46 -0800"
+        "_text": "Sat, 04 Feb 2012 16:31:10 -0800"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,76 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/231375261?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sat, 04 Feb 2012 16:31:10 -0800"
+          },
+          "title": {
+            "_cdata": "The Stuff of Thought: Language as a Window into Human Nature"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/231375261?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "373969"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327928557l/373969._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327928557l/373969._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327928557l/373969._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327928557l/373969.jpg"
+          },
+          "book_description": {
+            "_cdata": "<i>New York Times</i> bestselling author Steven Pinker possesses that rare combination of scientific aptitude and verbal eloquence that enables him to provide lucid explanations of deep and powerful ideas. His previous books, including the Pulitzer Prize finalist <i>The Blank Slate</i>, have catapulted him into the limelight as one of today's most important and popular science writers. <br /><br /> Now, in <i>The Stuff of Thought</i>, Pinker marries two of the subjects he knows best: language and human nature. The result is a fascinating look at how our words explain our nature. What does swearing reveal about our emotions? Why does innuendo disclose something about relationships? Pinker reveals how our use of prepositions and tenses taps into peculiarly human concepts of space and time, and how our nouns and verbs speak to our notions of matter. Even the names we give our babies have important things to say about our relations to our children and to society. <br /><br /> With his signature wit and style, Pinker takes on scientific questions like whether language affects thought, as well as forays into everyday life: why is bulk e-mail called spam and how do romantic comedies get such mileage out of the ambiguities of dating? <i>The Stuff of Thought</i> is a brilliantly crafted and highly readable work that will appeal to fans of readers of everything from <i>The Selfish Gene</i> and <i>Blink</i> to <i>Eats, Shoots &amp; Leaves</i>."
+          },
+          "book": {
+            "_attributes": {
+              "id": "373969"
+            },
+            "num_pages": {
+              "_text": "499"
+            }
+          },
+          "author_name": {
+            "_text": "Steven Pinker"
+          },
+          "isbn": {
+            "_text": "0670063274"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "4"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Sat, 04 Feb 2012 16:31:10 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Sat, 05 Nov 2011 00:19:46 -0700"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.91"
+          },
+          "book_published": {
+            "_text": "2007"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/373969.The_Stuff_of_Thought?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Stuff of Thought: Language as a Window into Human Nature\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327928557l/373969._SY75_.jpg\" /></a><br/>\n                                      author: Steven Pinker<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.91<br/>\n                                      book published: 2007<br/>\n                                      rating: 4<br/>\n                                      read at: <br/>\n                                      date added: 2012/02/04<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/231375252?utm_medium=api&utm_source=rss"
