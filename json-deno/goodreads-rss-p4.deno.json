@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Sun, 03 May 2020 11:35:36 -0700"
+        "_text": "Wed, 06 May 2020 17:13:24 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,76 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3322458094?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Wed, 06 May 2020 17:13:24 -0700"
+          },
+          "title": {
+            "_text": "Animal Farm"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3322458094?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "170448"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1325861570l/170448._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1325861570l/170448._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1325861570l/170448._SY160_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1325861570l/170448.jpg"
+          },
+          "book_description": {
+            "_cdata": "<i>Librarian's note: There is an Alternate Cover Edition for this edition of this book <a href=\"https://www.goodreads.com/book/show/13456059-animal-farm\" rel=\"nofollow noopener\">here</a>.</i><br /><br />A farm is taken over by its overworked, mistreated animals. With flaming idealism and stirring slogans, they set out to create a paradise of progress, justice, and equality. Thus the stage is set for one of the most telling satiric fables ever penned –a razor-edged fairy tale for grown-ups that records the evolution from revolution against tyranny to a totalitarianism just as terrible. <br />When <i>Animal Farm</i> was first published, Stalinist Russia was seen as its target. Today it is devastatingly clear that wherever and whenever freedom is attacked, under whatever banner, the cutting clarity and savage comedy of George Orwell’s masterpiece have a meaning and message still ferociously fresh."
+          },
+          "book": {
+            "_attributes": {
+              "id": "170448"
+            },
+            "num_pages": {
+              "_text": "141"
+            }
+          },
+          "author_name": {
+            "_text": "George Orwell"
+          },
+          "isbn": {
+            "_text": "0451526341"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Wed, 06 May 2020 17:13:24 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Wed, 06 May 2020 17:13:24 -0700"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.09"
+          },
+          "book_published": {
+            "_text": "1945"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/170448.Animal_Farm?utm_medium=api&amp;utm_source=rss\"><img alt=\"Animal Farm\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1325861570l/170448._SY75_.jpg\" /></a><br/>\n                                      author: George Orwell<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.09<br/>\n                                      book published: 1945<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2020/05/06<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/3316203187?utm_medium=api&utm_source=rss"
@@ -7118,78 +7188,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/3805.The_Corrections?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Corrections\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1355011305l/3805._SY75_.jpg\" /></a><br/>\n                                      author: Jonathan Franzen<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.79<br/>\n                                      book published: 2001<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2015/09/14<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/1330563175?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Thu, 09 Jul 2015 20:02:23 -0700"
-          },
-          "title": {
-            "_text": "The Algorithm Design Manual"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/1330563175?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "425208"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388183113l/425208._SX50_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388183113l/425208._SX50_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388183113l/425208._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388183113l/425208.jpg"
-          },
-          "book_description": {
-            "_cdata": "This volume helps take some of the \"mystery\" out of identifying and dealing with key algorithms. Drawing heavily on the author's own real-world experiences, the book stresses design and analysis. Coverage is divided into two parts, the first being a general guide to techniques for the design and analysis of computer algorithms. The second is a reference section, which includes a catalog of the 75 most important algorithmic problems. By browsing this catalog, readers can quickly identify what the problem they have encountered is called, what is known about it, and how they should proceed if they need to solve it. This book is ideal for the working professional who uses algorithms on a daily basis and has need for a handy reference. This work can also readily be used in an upper-division course or as a student reference guide. THE ALGORITHM DESIGN MANUAL comes with a CD-ROM that contains: * a complete hypertext version of the full printed book. * the source code and URLs for all cited implementations. * over 30 hours of audio lectures on the design and analysis of algorithms are provided, all keyed to on-line lecture notes."
-          },
-          "book": {
-            "_attributes": {
-              "id": "425208"
-            },
-            "num_pages": {
-              "_text": "486"
-            }
-          },
-          "author_name": {
-            "_text": "Steven S. Skiena"
-          },
-          "isbn": {
-            "_text": "0387948600"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Thu, 09 Jul 2015 20:02:23 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Thu, 09 Jul 2015 20:02:23 -0700"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.31"
-          },
-          "book_published": {
-            "_text": "1997"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/425208.The_Algorithm_Design_Manual?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Algorithm Design Manual\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388183113l/425208._SX50_.jpg\" /></a><br/>\n                                      author: Steven S. Skiena<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.31<br/>\n                                      book published: 1997<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2015/07/09<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]
