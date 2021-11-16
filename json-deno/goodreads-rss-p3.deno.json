@@ -5395,13 +5395,13 @@
           "user_shelves": {},
           "user_review": {},
           "average_rating": {
-            "_text": "4.31"
+            "_text": "4.30"
           },
           "book_published": {
             "_text": "2008"
           },
           "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/5182228-euler-s-gem?utm_medium=api&amp;utm_source=rss\"><img alt=\"Euler&#39;s Gem: The Polyhedron Formula and the Birth of Topology\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348584696l/5182228._SY75_.jpg\" /></a><br/>\n                                      author: David S. Richeson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.31<br/>\n                                      book published: 2008<br/>\n                                      rating: 5<br/>\n                                      read at: 2020/11/01<br/>\n                                      date added: 2020/11/01<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/5182228-euler-s-gem?utm_medium=api&amp;utm_source=rss\"><img alt=\"Euler&#39;s Gem: The Polyhedron Formula and the Birth of Topology\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348584696l/5182228._SY75_.jpg\" /></a><br/>\n                                      author: David S. Richeson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.30<br/>\n                                      book published: 2008<br/>\n                                      rating: 5<br/>\n                                      read at: 2020/11/01<br/>\n                                      date added: 2020/11/01<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
           }
         },
         {
