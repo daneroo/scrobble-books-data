@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Thu, 09 Jul 2015 20:02:23 -0700"
+        "_text": "Mon, 14 Sep 2015 22:28:45 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/1392307718?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Mon, 14 Sep 2015 22:28:45 -0700"
+          },
+          "title": {
+            "_text": "The Corrections"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/1392307718?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "3805"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1355011305l/3805._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1355011305l/3805._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1355011305l/3805._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1355011305l/3805.jpg"
+          },
+          "book_description": {
+            "_cdata": "<div><b>Winner of the National Book Award for Fiction</b><br /><b>Nominated for the National Book Critics Circle Award</b><br /><b>An American Library Association Notable Book</b><br /><br />Jonathan Franzen's third novel, <i>The Corrections</i>, is a great work of art and a grandly entertaining overture to our new century: a bold, comic, tragic, deeply moving family drama that stretches from the Midwest at mid-century to Wall Street and Eastern Europe in the age of greed and globalism. Franzen brings an old-time America of freight trains and civic duty, of Cub Scouts and Christmas cookies and sexual inhibitions, into brilliant collision with the modern absurdities of brain science, home surveillance, hands-off parenting, do-it-yourself mental healthcare, and the anti-gravity New Economy. With <i>The Corrections</i>, Franzen emerges as one of our premier interpreters of American society and the American soul.<br /><br />Enid Lambert is terribly, terribly anxious. Although she would never admit it to her neighbors or her three grown children, her husband, Alfred, is losing his grip on reality. Maybe it's the medication that Alfred takes for his Parkinson's disease, or maybe it's his negative attitude, but he spends his days brooding in the basement and committing shadowy, unspeakable acts. More and more often, he doesn't seem to understand a word Enid says.<br /><br />Trouble is also brewing in the lives of Enid's children. Her older son, Gary, a banker in Philadelphia, has turned cruel and materialistic and is trying to force his parents out of their old house and into a tiny apartment. The middle child, Chip, has suddenly and for no good reason quit his exciting job as a professor at D------ College and moved to New York City, where he seems to be pursuing a \"transgressive\" lifestyle and writing some sort of screenplay. Meanwhile the baby of the family, Denise, has escaped her disastrous marriage only to pour her youth and beauty down the drain of an affair with a married man--or so Gary hints.<br /><br />Enid, who loves to have fun, can still look forward to a final family Christmas and to the ten-day Nordic Pleasurelines Luxury Fall Color Cruise that she and Alfred are about to embark on. But even these few remaining joys are threatened by her husband's growing confusion and unsteadiness. As Alfred enters his final decline, the Lamberts must face the failures, secrets, and long-buried hurts that haunt them as a family if they are to make the corrections that each desperately needs.<br /></div>"
+          },
+          "book": {
+            "_attributes": {
+              "id": "3805"
+            },
+            "num_pages": {
+              "_text": "653"
+            }
+          },
+          "author_name": {
+            "_text": "Jonathan Franzen"
+          },
+          "isbn": {
+            "_text": "1841156736"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Mon, 14 Sep 2015 22:28:45 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Mon, 14 Sep 2015 22:28:44 -0700"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.79"
+          },
+          "book_published": {
+            "_text": "2001"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/3805.The_Corrections?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Corrections\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1355011305l/3805._SY75_.jpg\" /></a><br/>\n                                      author: Jonathan Franzen<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.79<br/>\n                                      book published: 2001<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2015/09/14<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/1330563175?utm_medium=api&utm_source=rss"
@@ -7098,76 +7170,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/830.Snow_Crash?utm_medium=api&amp;utm_source=rss\"><img alt=\"Snow Crash\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1601222163l/830._SX50_.jpg\" /></a><br/>\n                                      author: Neal Stephenson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.01<br/>\n                                      book published: 1992<br/>\n                                      rating: 5<br/>\n                                      read at: <br/>\n                                      date added: 2012/02/04<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/231375266?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sat, 04 Feb 2012 16:31:21 -0800"
-          },
-          "title": {
-            "_text": "The God Delusion"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/231375266?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "14743"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347220693l/14743._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347220693l/14743._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347220693l/14743._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347220693l/14743.jpg"
-          },
-          "book_description": {
-            "_cdata": "A preeminent scientist - and the world's most prominent atheist - asserts the irrationality of belief in God, and the grievous harm religion has inflicted on society, from the Crusades to 9/11.<br /><br />With rigor and wit, Dawkins examines God in all his forms, from the sex-obsessed tyrant of the Old Testament, to the more benign (but still illogical) Celestial Watchmaker favored by some Enlightenment thinkers. He eviscerates the major arguments for religion, and demonstrates the supreme improbability of a supreme being. He shows how religion fuels war, foments bigotry, and abuses children, buttressing his points with historical and contemporary evidence.<br /><br /><i>The God Delusion</i> makes a compelling case that belief in God is not just wrong, but potentially deadly. It also offers exhilarating insight into the advantages of atheism to the individual and society, not the least of which is a clearer, truer appreciation of the universe's wonders than any faith could ever muster."
-          },
-          "book": {
-            "_attributes": {
-              "id": "14743"
-            },
-            "num_pages": {
-              "_text": "374"
-            }
-          },
-          "author_name": {
-            "_text": "Richard Dawkins"
-          },
-          "isbn": {
-            "_text": "0618680004"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "4"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Sat, 04 Feb 2012 16:31:21 -0800"
-          },
-          "user_date_created": {
-            "_cdata": "Sat, 05 Nov 2011 00:19:47 -0700"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "3.87"
-          },
-          "book_published": {
-            "_text": "2006"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/14743.The_God_Delusion?utm_medium=api&amp;utm_source=rss\"><img alt=\"The God Delusion\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347220693l/14743._SY75_.jpg\" /></a><br/>\n                                      author: Richard Dawkins<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.87<br/>\n                                      book published: 2006<br/>\n                                      rating: 4<br/>\n                                      read at: <br/>\n                                      date added: 2012/02/04<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

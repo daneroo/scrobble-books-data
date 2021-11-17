@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Mon, 22 Mar 2021 10:18:12 -0700"
+        "_text": "Wed, 24 Mar 2021 22:16:54 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,76 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3897690225?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Wed, 24 Mar 2021 22:16:54 -0700"
+          },
+          "title": {
+            "_cdata": "Space at the Speed of Light: The History of 14 Billion Years for People Short on Time"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3897690225?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "53233410"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1587446759l/53233410._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1587446759l/53233410._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1587446759l/53233410._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1587446759l/53233410._SY475_.jpg"
+          },
+          "book_description": {
+            "_cdata": "From the big bang to black holes, this fast-paced tour of time and space for the astro-curious unlocks the science of the stars to reveal fascinating theories, surprising discoveries, and ongoing mysteries in modern astronomy and astrophysics.<br /><br />Before the big bang, time, space, and matter didn't exist. In the 14 billion years since, scientists have pointed their telescopes upward, peering outward in space and backward in time, developing and refining theories to explain the weird and wonderful phenomena they observed.<br /><br />Through these observations, we now understand concepts like the size of the universe (still expanding), the distance to the next-nearest star from earth (Alpha Centauri, 26 trillion miles) and what drives the formation of elements (nuclear fusion), planets and galaxies (gravity), and black holes (gravitational collapse). But are these cosmological questions definitively answered or is there more to discover?<br /><br />Oxford University astrophysicist and popular YouTube personality Dr. Becky Smethurst presents everything you need to know about the universe in 10 accessible and engaging lessons.<br /><br />In Space at the Speed of Light: The History of 14 Billion Years for People Short on Time, she guides you through fundamental questions, both answered and unanswered, posed by space scientists. Why does gravity matter? How do we know the big bang happened? What is dark matter? Do aliens exist? Why is the sky dark at night? If you have ever looked up at night and wondered how it all works, you will find answers - and many more questions - in this pocket-sized tour of the universe!"
+          },
+          "book": {
+            "_attributes": {
+              "id": "53233410"
+            },
+            "num_pages": {
+              "_text": "144"
+            }
+          },
+          "author_name": {
+            "_text": "Becky Smethurst"
+          },
+          "isbn": {
+            "_text": "1984858696"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "4"
+          },
+          "user_read_at": {
+            "_cdata": "Wed, 24 Mar 2021 22:16:46 -0700"
+          },
+          "user_date_added": {
+            "_cdata": "Wed, 24 Mar 2021 22:16:54 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Thu, 18 Mar 2021 23:36:38 -0700"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.39"
+          },
+          "book_published": {},
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/53233410-space-at-the-speed-of-light?utm_medium=api&amp;utm_source=rss\"><img alt=\"Space at the Speed of Light: The History of 14 Billion Years for People Short on Time\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1587446759l/53233410._SY75_.jpg\" /></a><br/>\n                                      author: Becky Smethurst<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.39<br/>\n                                      book published: <br/>\n                                      rating: 4<br/>\n                                      read at: 2021/03/24<br/>\n                                      date added: 2021/03/24<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/3778669676?utm_medium=api&utm_source=rss"
@@ -7118,78 +7188,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/41069.Stand_on_Zanzibar?utm_medium=api&amp;utm_source=rss\"><img alt=\"Stand on Zanzibar\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1360613921l/41069._SY75_.jpg\" /></a><br/>\n                                      author: John Brunner<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.97<br/>\n                                      book published: 1968<br/>\n                                      rating: 5<br/>\n                                      read at: 2020/05/08<br/>\n                                      date added: 2020/05/23<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3340736848?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sat, 16 May 2020 21:49:13 -0700"
-          },
-          "title": {
-            "_cdata": "Quantum Paradoxes: Quantum Theory for the Perplexed"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3340736848?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "784381"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1178316794l/784381._SX50_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1178316794l/784381._SX50_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1178316794l/784381._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1178316794l/784381._SX318_.jpg"
-          },
-          "book_description": {
-            "_cdata": "A Guide through the Mysteries of Quantum Physics!<br /> Yakir Aharonov is one of the pioneers in measuring theory, the nature of quantum correlations, superselection rules, and geometric phases and has been awarded numerous scientific honors. The author has contributed monumental concepts to theoretical physics, especially the Aharonov-Bohm effect and the Aharonov-Casher effect. <br /> Together with Daniel Rohrlich, Israel, he has written a pioneering work on the remaining mysteries of quantum mechanics. From the perspective of a preeminent researcher in the fundamental aspects of quantum mechanics, the text combines mathematical rigor with penetrating and concise language. More than 200 exercises introduce readers to the concepts and implications of quantum mechanics that have arisen from the experimental results of the recent two decades.<br /> With students as well as researchers in mind, the authors give an insight into that part of the field, which led Feynman to declare that \"nobody understands quantum mechanics\".<br /><br />* Free solutions manual available for lecturers at <a target=\"_blank\" rel=\"noopener nofollow\" href=\"http://www.wiley-vch.de/supplements/\">www.wiley-vch.de/supplements/</a>"
-          },
-          "book": {
-            "_attributes": {
-              "id": "784381"
-            },
-            "num_pages": {
-              "_text": "289"
-            }
-          },
-          "author_name": {
-            "_text": "Yakir Aharonov"
-          },
-          "isbn": {
-            "_text": "3527403914"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Sat, 16 May 2020 21:49:13 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Sat, 16 May 2020 21:49:13 -0700"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.00"
-          },
-          "book_published": {
-            "_text": "2005"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/784381.Quantum_Paradoxes?utm_medium=api&amp;utm_source=rss\"><img alt=\"Quantum Paradoxes: Quantum Theory for the Perplexed\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1178316794l/784381._SX50_.jpg\" /></a><br/>\n                                      author: Yakir Aharonov<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.00<br/>\n                                      book published: 2005<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2020/05/16<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

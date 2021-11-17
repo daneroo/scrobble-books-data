@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Sat, 04 Feb 2012 16:31:18 -0800"
+        "_text": "Sat, 04 Feb 2012 16:31:21 -0800"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,76 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/231375266?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sat, 04 Feb 2012 16:31:21 -0800"
+          },
+          "title": {
+            "_text": "The God Delusion"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/231375266?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "14743"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347220693l/14743._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347220693l/14743._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347220693l/14743._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347220693l/14743.jpg"
+          },
+          "book_description": {
+            "_cdata": "A preeminent scientist - and the world's most prominent atheist - asserts the irrationality of belief in God, and the grievous harm religion has inflicted on society, from the Crusades to 9/11.<br /><br />With rigor and wit, Dawkins examines God in all his forms, from the sex-obsessed tyrant of the Old Testament, to the more benign (but still illogical) Celestial Watchmaker favored by some Enlightenment thinkers. He eviscerates the major arguments for religion, and demonstrates the supreme improbability of a supreme being. He shows how religion fuels war, foments bigotry, and abuses children, buttressing his points with historical and contemporary evidence.<br /><br /><i>The God Delusion</i> makes a compelling case that belief in God is not just wrong, but potentially deadly. It also offers exhilarating insight into the advantages of atheism to the individual and society, not the least of which is a clearer, truer appreciation of the universe's wonders than any faith could ever muster."
+          },
+          "book": {
+            "_attributes": {
+              "id": "14743"
+            },
+            "num_pages": {
+              "_text": "374"
+            }
+          },
+          "author_name": {
+            "_text": "Richard Dawkins"
+          },
+          "isbn": {
+            "_text": "0618680004"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "4"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Sat, 04 Feb 2012 16:31:21 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Sat, 05 Nov 2011 00:19:47 -0700"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.87"
+          },
+          "book_published": {
+            "_text": "2006"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/14743.The_God_Delusion?utm_medium=api&amp;utm_source=rss\"><img alt=\"The God Delusion\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347220693l/14743._SY75_.jpg\" /></a><br/>\n                                      author: Richard Dawkins<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.87<br/>\n                                      book published: 2006<br/>\n                                      rating: 4<br/>\n                                      read at: <br/>\n                                      date added: 2012/02/04<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/231375265?utm_medium=api&utm_source=rss"

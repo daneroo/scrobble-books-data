@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Thu, 22 Jul 2021 23:57:48 -0700"
+        "_text": "Sat, 24 Jul 2021 01:16:46 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4085976550?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sat, 24 Jul 2021 01:16:46 -0700"
+          },
+          "title": {
+            "_text": "Annihilation"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4085976550?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "17934530"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1403941587l/17934530._SX50_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1403941587l/17934530._SX50_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1403941587l/17934530._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1403941587l/17934530.jpg"
+          },
+          "book_description": {
+            "_cdata": "Area X has been cut off from the rest of the world for decades. Nature has reclaimed the last vestiges of human civilization. The first expedition returned with reports of a pristine, Edenic landscape; the second expedition ended in mass suicide, the third in a hail of gunfire as its members turned on one another. The members of the eleventh expedition returned as shadows of their former selves, and within weeks, all had died of cancer. In <i>Annihilation</i>, the first volume of Jeff VanderMeer's <i>Southern Reach Trilogy</i>, we join the twelfth expedition.<br /><br />The group is made up of four women: an anthropologist; a surveyor; a psychologist, the de facto leader; and our narrator, a biologist. Their mission is to map the terrain, record all observations of their surroundings and of one another, and, above all, avoid being contaminated by Area X itself.<br /><br />They arrive expecting the unexpected, and Area X delivers—but it’s the surprises that came across the border with them and the secrets the expedition members are keeping from one another that change everything."
+          },
+          "book": {
+            "_attributes": {
+              "id": "17934530"
+            },
+            "num_pages": {
+              "_text": "195"
+            }
+          },
+          "author_name": {
+            "_text": "Jeff VanderMeer"
+          },
+          "isbn": {
+            "_text": "0374104093"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "4"
+          },
+          "user_read_at": {
+            "_cdata": "Sat, 24 Jul 2021 01:16:46 -0700"
+          },
+          "user_date_added": {
+            "_cdata": "Sat, 24 Jul 2021 01:16:46 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Tue, 29 Jun 2021 16:12:32 -0700"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.73"
+          },
+          "book_published": {
+            "_text": "2014"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/17934530-annihilation?utm_medium=api&amp;utm_source=rss\"><img alt=\"Annihilation\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1403941587l/17934530._SX50_.jpg\" /></a><br/>\n                                      author: Jeff VanderMeer<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.73<br/>\n                                      book published: 2014<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/07/24<br/>\n                                      date added: 2021/07/24<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/4088620013?utm_medium=api&utm_source=rss"
@@ -7162,76 +7234,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/103749.Persian_Fire?utm_medium=api&amp;utm_source=rss\"><img alt=\"Persian Fire: The First World Empire and the Battle for the West\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1171501730l/103749._SY75_.jpg\" /></a><br/>\n                                      author: Tom Holland<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.15<br/>\n                                      book published: 2005<br/>\n                                      rating: 5<br/>\n                                      read at: 2021/03/25<br/>\n                                      date added: 2021/03/25<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3897690225?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Wed, 24 Mar 2021 22:16:54 -0700"
-          },
-          "title": {
-            "_cdata": "Space at the Speed of Light: The History of 14 Billion Years for People Short on Time"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3897690225?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "53233410"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1587446759l/53233410._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1587446759l/53233410._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1587446759l/53233410._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1587446759l/53233410._SY475_.jpg"
-          },
-          "book_description": {
-            "_cdata": "From the big bang to black holes, this fast-paced tour of time and space for the astro-curious unlocks the science of the stars to reveal fascinating theories, surprising discoveries, and ongoing mysteries in modern astronomy and astrophysics.<br /><br />Before the big bang, time, space, and matter didn't exist. In the 14 billion years since, scientists have pointed their telescopes upward, peering outward in space and backward in time, developing and refining theories to explain the weird and wonderful phenomena they observed.<br /><br />Through these observations, we now understand concepts like the size of the universe (still expanding), the distance to the next-nearest star from earth (Alpha Centauri, 26 trillion miles) and what drives the formation of elements (nuclear fusion), planets and galaxies (gravity), and black holes (gravitational collapse). But are these cosmological questions definitively answered or is there more to discover?<br /><br />Oxford University astrophysicist and popular YouTube personality Dr. Becky Smethurst presents everything you need to know about the universe in 10 accessible and engaging lessons.<br /><br />In Space at the Speed of Light: The History of 14 Billion Years for People Short on Time, she guides you through fundamental questions, both answered and unanswered, posed by space scientists. Why does gravity matter? How do we know the big bang happened? What is dark matter? Do aliens exist? Why is the sky dark at night? If you have ever looked up at night and wondered how it all works, you will find answers - and many more questions - in this pocket-sized tour of the universe!"
-          },
-          "book": {
-            "_attributes": {
-              "id": "53233410"
-            },
-            "num_pages": {
-              "_text": "144"
-            }
-          },
-          "author_name": {
-            "_text": "Becky Smethurst"
-          },
-          "isbn": {
-            "_text": "1984858696"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "4"
-          },
-          "user_read_at": {
-            "_cdata": "Wed, 24 Mar 2021 22:16:46 -0700"
-          },
-          "user_date_added": {
-            "_cdata": "Wed, 24 Mar 2021 22:16:54 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Thu, 18 Mar 2021 23:36:38 -0700"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.39"
-          },
-          "book_published": {},
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/53233410-space-at-the-speed-of-light?utm_medium=api&amp;utm_source=rss\"><img alt=\"Space at the Speed of Light: The History of 14 Billion Years for People Short on Time\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1587446759l/53233410._SY75_.jpg\" /></a><br/>\n                                      author: Becky Smethurst<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.39<br/>\n                                      book published: <br/>\n                                      rating: 4<br/>\n                                      read at: 2021/03/24<br/>\n                                      date added: 2021/03/24<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

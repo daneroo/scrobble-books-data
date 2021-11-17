@@ -2,6 +2,28 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "guid": "https://www.goodreads.com/review/show/4342260239?utm_medium=api&utm_source=rss",
+      "pubDate": "2021-11-17T09:02:33.000Z",
+      "title": "Heroes: Mortals and Monsters, Quests and Adventures (Stephen Fry's Great Mythology, #2)",
+      "link": "https://www.goodreads.com/review/show/4342260239?utm_medium=api&utm_source=rss",
+      "bookId": "41433634",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1536766389l/41433634._SY75_.jpg",
+      "bookDescription": "There are Heroes - and then there are Greek Heroes.<br /><br />Few mere mortals have ever embarked on such bold and heart-stirring adventures, overcome myriad monstrous perils, or outwitted scheming vengeful gods, quite as stylishly and triumphantly as Greek heroes.<br /><br />In this companion to his bestselling <i>Mythos</i>, Stephen Fry brilliantly retells these dramatic, funny, tragic and timeless tales. Join Jason aboard the Argo as he quests for the Golden Fleece. See Atalanta - who was raised by bears - outrun any man before being tricked with golden apples. Witness wily Oedipus solve the riddle of the Sphinx and discover how Bellerophon captures the winged horse Pegasus to help him slay the monster Chimera.<br /><br />Filled with white-knuckle chases and battles, impossible puzzles and riddles, acts of base cowardice and real bravery, not to mention murders and selfless sacrifices, <i>Heroes</i> is the story of what we mortals are truly capable of - at our worst and our very best.<br /><br />Read by the author. Running time 15 hours.",
+      "authorName": "Stephen Fry",
+      "isbn": "0241380375",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2021-11-17T09:02:33.000Z",
+      "userDateCreated": "2021-11-17T09:02:33.000Z",
+      "userShelves": "to-read",
+      "userReview": "",
+      "averageRating": "4.32",
+      "bookPublished": "2018",
+      "description": "\n      <a href=\"https://www.goodreads.com/book/show/41433634-heroes?utm_medium=api&amp;utm_source=rss\"><img alt=\"Heroes: Mortals and Monsters, Quests and Adventures (Stephen Fry&#39;s Great Mythology, #2)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1536766389l/41433634._SY75_.jpg\" /></a><br/>\n                                      author: Stephen Fry<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.32<br/>\n                                      book published: 2018<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/11/17<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      ",
+      "numPages": "415"
+    },
+    {
       "guid": "https://www.goodreads.com/review/show/4338555224?utm_medium=api&utm_source=rss",
       "pubDate": "2021-11-15T07:09:28.000Z",
       "title": "The Secret History",

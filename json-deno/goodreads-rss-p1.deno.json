@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Sun, 14 Nov 2021 23:09:28 -0800"
+        "_text": "Wed, 17 Nov 2021 01:02:33 -0800"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4342260239?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Wed, 17 Nov 2021 01:02:33 -0800"
+          },
+          "title": {
+            "_cdata": "Heroes: Mortals and Monsters, Quests and Adventures (Stephen Fry's Great Mythology, #2)"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4342260239?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "41433634"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1536766389l/41433634._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1536766389l/41433634._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1536766389l/41433634._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1536766389l/41433634._SY475_.jpg"
+          },
+          "book_description": {
+            "_cdata": "There are Heroes - and then there are Greek Heroes.<br /><br />Few mere mortals have ever embarked on such bold and heart-stirring adventures, overcome myriad monstrous perils, or outwitted scheming vengeful gods, quite as stylishly and triumphantly as Greek heroes.<br /><br />In this companion to his bestselling <i>Mythos</i>, Stephen Fry brilliantly retells these dramatic, funny, tragic and timeless tales. Join Jason aboard the Argo as he quests for the Golden Fleece. See Atalanta - who was raised by bears - outrun any man before being tricked with golden apples. Witness wily Oedipus solve the riddle of the Sphinx and discover how Bellerophon captures the winged horse Pegasus to help him slay the monster Chimera.<br /><br />Filled with white-knuckle chases and battles, impossible puzzles and riddles, acts of base cowardice and real bravery, not to mention murders and selfless sacrifices, <i>Heroes</i> is the story of what we mortals are truly capable of - at our worst and our very best.<br /><br />Read by the author. Running time 15 hours."
+          },
+          "book": {
+            "_attributes": {
+              "id": "41433634"
+            },
+            "num_pages": {
+              "_text": "415"
+            }
+          },
+          "author_name": {
+            "_text": "Stephen Fry"
+          },
+          "isbn": {
+            "_text": "0241380375"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Wed, 17 Nov 2021 01:02:33 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Wed, 17 Nov 2021 01:02:33 -0800"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.32"
+          },
+          "book_published": {
+            "_text": "2018"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/41433634-heroes?utm_medium=api&amp;utm_source=rss\"><img alt=\"Heroes: Mortals and Monsters, Quests and Adventures (Stephen Fry&#39;s Great Mythology, #2)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1536766389l/41433634._SY75_.jpg\" /></a><br/>\n                                      author: Stephen Fry<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.32<br/>\n                                      book published: 2018<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/11/17<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/4338555224?utm_medium=api&utm_source=rss"
@@ -7136,78 +7208,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/32600718-noumenon?utm_medium=api&amp;utm_source=rss\"><img alt=\"Noumenon (Noumenon #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1490802159l/32600718._SY75_.jpg\" /></a><br/>\n                                      author: Marina J. Lostetter<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.71<br/>\n                                      book published: 2017<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/07/27<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/4085976550?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sat, 24 Jul 2021 01:16:46 -0700"
-          },
-          "title": {
-            "_text": "Annihilation"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/4085976550?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "17934530"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1403941587l/17934530._SX50_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1403941587l/17934530._SX50_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1403941587l/17934530._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1403941587l/17934530.jpg"
-          },
-          "book_description": {
-            "_cdata": "Area X has been cut off from the rest of the world for decades. Nature has reclaimed the last vestiges of human civilization. The first expedition returned with reports of a pristine, Edenic landscape; the second expedition ended in mass suicide, the third in a hail of gunfire as its members turned on one another. The members of the eleventh expedition returned as shadows of their former selves, and within weeks, all had died of cancer. In <i>Annihilation</i>, the first volume of Jeff VanderMeer's <i>Southern Reach Trilogy</i>, we join the twelfth expedition.<br /><br />The group is made up of four women: an anthropologist; a surveyor; a psychologist, the de facto leader; and our narrator, a biologist. Their mission is to map the terrain, record all observations of their surroundings and of one another, and, above all, avoid being contaminated by Area X itself.<br /><br />They arrive expecting the unexpected, and Area X delivers—but it’s the surprises that came across the border with them and the secrets the expedition members are keeping from one another that change everything."
-          },
-          "book": {
-            "_attributes": {
-              "id": "17934530"
-            },
-            "num_pages": {
-              "_text": "195"
-            }
-          },
-          "author_name": {
-            "_text": "Jeff VanderMeer"
-          },
-          "isbn": {
-            "_text": "0374104093"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "4"
-          },
-          "user_read_at": {
-            "_cdata": "Sat, 24 Jul 2021 01:16:46 -0700"
-          },
-          "user_date_added": {
-            "_cdata": "Sat, 24 Jul 2021 01:16:46 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Tue, 29 Jun 2021 16:12:32 -0700"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "3.73"
-          },
-          "book_published": {
-            "_text": "2014"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/17934530-annihilation?utm_medium=api&amp;utm_source=rss\"><img alt=\"Annihilation\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1403941587l/17934530._SX50_.jpg\" /></a><br/>\n                                      author: Jeff VanderMeer<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.73<br/>\n                                      book published: 2014<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/07/24<br/>\n                                      date added: 2021/07/24<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]
