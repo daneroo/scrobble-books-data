@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Sat, 24 Jul 2021 01:16:46 -0700"
+        "_text": "Tue, 27 Jul 2021 00:49:39 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4137679200?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Tue, 27 Jul 2021 00:49:39 -0700"
+          },
+          "title": {
+            "_text": "Noumenon (Noumenon #1)"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4137679200?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "32600718"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1490802159l/32600718._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1490802159l/32600718._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1490802159l/32600718._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1490802159l/32600718.jpg"
+          },
+          "book_description": {
+            "_cdata": "Noumenon is a tale of space travel, adventure, discovery, and humanity that unfolds through a series of generational vignettes.<br /><br />In 2088, humankind is at last ready to explore beyond Earth’s solar system. But one uncertainty remains: Where do we go? <br /><br />Astrophysicist Reggie Straifer has an idea. He’s discovered an anomalous star that appears to defy the laws of physics, and proposes the creation of a deep-space mission to find out whether the star is a weird natural phenomenon, or something manufactured.<br /><br />The journey will take eons. In order to maintain the genetic talent of the original crew, humankind’s greatest ambition—to explore the furthest reaches of the galaxy—is undertaken by clones. But a clone is not a perfect copy, and each new generation has its own quirks, desires, and neuroses. As the centuries fly by, the society living aboard the nine ships (designated “Convoy Seven”) changes and evolves, but their mission remains the same: to reach Reggie’s mysterious star and explore its origins—and implications.<br /><br />A mosaic novel of discovery, Noumenon—in a series of vignettes—examines the dedication, adventure, growth, and fear of having your entire world consist of nine ships in the vacuum of space. The men and women, and even the AI, must learn to work and live together in harmony, as their original DNA is continuously replicated and they are born again and again into a thousand new lives. With the stars their home and the unknown their destination, they are on a voyage of many lifetimes—an odyssey to understand what lies beyond the limits of human knowledge and imagination."
+          },
+          "book": {
+            "_attributes": {
+              "id": "32600718"
+            },
+            "num_pages": {
+              "_text": "420"
+            }
+          },
+          "author_name": {
+            "_text": "Marina J. Lostetter"
+          },
+          "isbn": {
+            "_text": "0062497847"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Tue, 27 Jul 2021 00:49:39 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Tue, 27 Jul 2021 00:49:39 -0700"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.71"
+          },
+          "book_published": {
+            "_text": "2017"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/32600718-noumenon?utm_medium=api&amp;utm_source=rss\"><img alt=\"Noumenon (Noumenon #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1490802159l/32600718._SY75_.jpg\" /></a><br/>\n                                      author: Marina J. Lostetter<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.71<br/>\n                                      book published: 2017<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/07/27<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/4085976550?utm_medium=api&utm_source=rss"
@@ -7162,78 +7234,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/33784515-the-quantum-labyrinth?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Quantum Labyrinth: How Richard Feynman and John Wheeler Revolutionized Time and Reality\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1499713390l/33784515._SY75_.jpg\" /></a><br/>\n                                      author: Paul Halpern<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.03<br/>\n                                      book published: 2017<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/03/28<br/>\n                                      date added: 2021/03/28<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3900753388?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Thu, 25 Mar 2021 16:26:26 -0700"
-          },
-          "title": {
-            "_cdata": "Persian Fire: The First World Empire and the Battle for the West"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3900753388?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "103749"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1171501730l/103749._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1171501730l/103749._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1171501730l/103749._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1171501730l/103749._SY475_.jpg"
-          },
-          "book_description": {
-            "_cdata": "In 480 B.C., Xerxes, the King of Persia, led an invasion of mainland Greece. Its success should have been a formality. For seventy years, victory—rapid, spectacular victory—had seemed the birthright of the Persian Empire. In the space of a single generation, they had swept across the Near East, shattering ancient kingdoms, storming famous cities, putting together an empire which stretched from India to the shores of the Aegean. As a result of those conquests, Xerxes ruled as the most powerful man on the planet. Yet somehow, astonishingly, against the largest expeditionary force ever assembled, the Greeks of the mainland managed to hold out. The Persians were turned back. Greece remained free. Had the Greeks been defeated in the epochal naval battle at Salamis, not only would the West have lost its first struggle for independence and survival, but it is unlikely that there would ever have been such an entity as the West at all.<br /><br />Tom Holland’s brilliant new book describes the very first “clash of Empires” between East and West. As he did in the critically praised <i>Rubicon</i>, he has found extraordinary parallels between the ancient world and our own. There is no other popular history that takes in the entire sweep of the Persian Wars, and no other classical historian, academic or popular, who combines scholarly rigor with novelistic depth with a worldly irony in quite the fashion that Tom Holland does."
-          },
-          "book": {
-            "_attributes": {
-              "id": "103749"
-            },
-            "num_pages": {
-              "_text": "418"
-            }
-          },
-          "author_name": {
-            "_text": "Tom Holland"
-          },
-          "isbn": {
-            "_text": "0385513119"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "5"
-          },
-          "user_read_at": {
-            "_cdata": "Thu, 25 Mar 2021 16:26:26 -0700"
-          },
-          "user_date_added": {
-            "_cdata": "Thu, 25 Mar 2021 16:26:26 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Sat, 20 Mar 2021 21:07:17 -0700"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.15"
-          },
-          "book_published": {
-            "_text": "2005"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/103749.Persian_Fire?utm_medium=api&amp;utm_source=rss\"><img alt=\"Persian Fire: The First World Empire and the Battle for the West\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1171501730l/103749._SY75_.jpg\" /></a><br/>\n                                      author: Tom Holland<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.15<br/>\n                                      book published: 2005<br/>\n                                      rating: 5<br/>\n                                      read at: 2021/03/25<br/>\n                                      date added: 2021/03/25<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

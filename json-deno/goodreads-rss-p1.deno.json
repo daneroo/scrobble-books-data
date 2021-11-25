@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Wed, 17 Nov 2021 01:02:33 -0800"
+        "_text": "Wed, 24 Nov 2021 22:22:17 -0800"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4355233082?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Wed, 24 Nov 2021 22:22:17 -0800"
+          },
+          "title": {
+            "_cdata": "Know Thyself: The Science of Self-Awareness"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4355233082?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "54817585"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1603144118l/54817585._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1603144118l/54817585._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1603144118l/54817585._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1603144118l/54817585.jpg"
+          },
+          "book_description": {
+            "_cdata": "<b>The surprising science of the human mind's greatest power: introspection</b><br /><br />It happens to everyone: You are asked a question -- even something you know well, such as the name of a longtime colleague -- and can't answer. The information is stuck on the tip of your tongue. It's an experience so frustrating that it seems like it must be a brain malfunction. In fact, it's actually a hallmark of our greatest power: self-awareness.<br /><br /> As cognitive neuroscientist Stephen M. Fleming shows in <i>Know Thyself</i>,<i></i>self-awareness shapes our intelligence, memory, and conscious experience. It's integral to how we teach and learn. We use it every time we weigh difficult questions, such as assessing how we'd respond in a crisis. Drawing on psychology and neuroscience, Fleming provides deep insight into how self-awareness works, and how we can enhance our ability to know our strengths and weaknesses. In the end, this book isn't<i></i>just about psychology: it's about the science of human excellence.<br />"
+          },
+          "book": {
+            "_attributes": {
+              "id": "54817585"
+            },
+            "num_pages": {
+              "_text": "304"
+            }
+          },
+          "author_name": {
+            "_text": "Stephen M. Fleming"
+          },
+          "isbn": {
+            "_text": "1541672844"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Wed, 24 Nov 2021 22:22:17 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Wed, 24 Nov 2021 22:22:17 -0800"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.92"
+          },
+          "book_published": {
+            "_text": "2021"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/54817585-know-thyself?utm_medium=api&amp;utm_source=rss\"><img alt=\"Know Thyself: The Science of Self-Awareness\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1603144118l/54817585._SY75_.jpg\" /></a><br/>\n                                      author: Stephen M. Fleming<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.92<br/>\n                                      book published: 2021<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/11/24<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/4342260239?utm_medium=api&utm_source=rss"
@@ -7136,78 +7208,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/1126719.House_of_Suns?utm_medium=api&amp;utm_source=rss\"><img alt=\"House of Suns\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1447892903l/1126719._SY75_.jpg\" /></a><br/>\n                                      author: Alastair Reynolds<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.18<br/>\n                                      book published: 2008<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/07/29<br/>\n                                      date added: 2021/07/29<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/4137679200?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Tue, 27 Jul 2021 00:49:39 -0700"
-          },
-          "title": {
-            "_text": "Noumenon (Noumenon #1)"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/4137679200?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "32600718"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1490802159l/32600718._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1490802159l/32600718._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1490802159l/32600718._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1490802159l/32600718.jpg"
-          },
-          "book_description": {
-            "_cdata": "Noumenon is a tale of space travel, adventure, discovery, and humanity that unfolds through a series of generational vignettes.<br /><br />In 2088, humankind is at last ready to explore beyond Earth’s solar system. But one uncertainty remains: Where do we go? <br /><br />Astrophysicist Reggie Straifer has an idea. He’s discovered an anomalous star that appears to defy the laws of physics, and proposes the creation of a deep-space mission to find out whether the star is a weird natural phenomenon, or something manufactured.<br /><br />The journey will take eons. In order to maintain the genetic talent of the original crew, humankind’s greatest ambition—to explore the furthest reaches of the galaxy—is undertaken by clones. But a clone is not a perfect copy, and each new generation has its own quirks, desires, and neuroses. As the centuries fly by, the society living aboard the nine ships (designated “Convoy Seven”) changes and evolves, but their mission remains the same: to reach Reggie’s mysterious star and explore its origins—and implications.<br /><br />A mosaic novel of discovery, Noumenon—in a series of vignettes—examines the dedication, adventure, growth, and fear of having your entire world consist of nine ships in the vacuum of space. The men and women, and even the AI, must learn to work and live together in harmony, as their original DNA is continuously replicated and they are born again and again into a thousand new lives. With the stars their home and the unknown their destination, they are on a voyage of many lifetimes—an odyssey to understand what lies beyond the limits of human knowledge and imagination."
-          },
-          "book": {
-            "_attributes": {
-              "id": "32600718"
-            },
-            "num_pages": {
-              "_text": "420"
-            }
-          },
-          "author_name": {
-            "_text": "Marina J. Lostetter"
-          },
-          "isbn": {
-            "_text": "0062497847"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Tue, 27 Jul 2021 00:49:39 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Tue, 27 Jul 2021 00:49:39 -0700"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "3.71"
-          },
-          "book_published": {
-            "_text": "2017"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/32600718-noumenon?utm_medium=api&amp;utm_source=rss\"><img alt=\"Noumenon (Noumenon #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1490802159l/32600718._SY75_.jpg\" /></a><br/>\n                                      author: Marina J. Lostetter<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.71<br/>\n                                      book published: 2017<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/07/27<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

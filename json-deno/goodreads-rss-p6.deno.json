@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Sat, 04 Feb 2012 16:31:21 -0800"
+        "_text": "Sat, 04 Feb 2012 16:32:12 -0800"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,76 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/272386277?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sat, 04 Feb 2012 16:32:12 -0800"
+          },
+          "title": {
+            "_text": "Snow Crash"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/272386277?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "830"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1601222163l/830._SX50_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1601222163l/830._SX50_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1601222163l/830._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1601222163l/830._SY475_.jpg"
+          },
+          "book_description": {
+            "_cdata": "In reality, Hiro Protagonist delivers pizza for Uncle Enzo's CosoNostra Pizza Inc., but in the Metaverse he's a warrior prince. Plunging headlong into the enigma of a new computer virus that's striking down hackers everywhere, he races along the neon-lit streets on a search-and-destroy mission for the shadowy virtual villain threatening to bring about infocalypse. <i>Snow Crash</i> is a mind-altering romp through a future America so bizarre, so outrageous… you'll recognize it immediately."
+          },
+          "book": {
+            "_attributes": {
+              "id": "830"
+            },
+            "num_pages": {
+              "_text": "438"
+            }
+          },
+          "author_name": {
+            "_text": "Neal Stephenson"
+          },
+          "isbn": {
+            "_text": "0553380958"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "5"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Sat, 04 Feb 2012 16:32:12 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Sat, 04 Feb 2012 16:31:54 -0800"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.01"
+          },
+          "book_published": {
+            "_text": "1992"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/830.Snow_Crash?utm_medium=api&amp;utm_source=rss\"><img alt=\"Snow Crash\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1601222163l/830._SX50_.jpg\" /></a><br/>\n                                      author: Neal Stephenson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.01<br/>\n                                      book published: 1992<br/>\n                                      rating: 5<br/>\n                                      read at: <br/>\n                                      date added: 2012/02/04<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/231375266?utm_medium=api&utm_source=rss"

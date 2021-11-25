@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Sat, 16 May 2020 21:49:13 -0700"
+        "_text": "Sat, 23 May 2020 01:11:41 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3299211758?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sat, 23 May 2020 01:11:41 -0700"
+          },
+          "title": {
+            "_text": "Stand on Zanzibar"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3299211758?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "41069"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1360613921l/41069._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1360613921l/41069._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1360613921l/41069._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1360613921l/41069.jpg"
+          },
+          "book_description": {
+            "_cdata": "Norman Niblock House is a rising executive at General Technics, one of a few all-powerful corporations. His work is leading General Technics to the forefront of global domination, both in the marketplace and politically—it's about to take over a country in Africa. Donald Hogan is his roommate, a seemingly sheepish bookworm. But Hogan is a spy, and he's about to discover a breakthrough in genetic engineering that will change the world ... and kill him. These two men's lives weave through one of science fiction's most praised novels. Written in a way that echoes John Dos Passos' <i>U.S.A. Trilogy</i>, <i>Stand on Zanzibar</i> is a cross-section of a world overpopulated by the billions. Where society is squeezed into hive-living madness by god-like mega computers, mass-marketed psychedelic drugs, and mundane uses of genetic engineering. Though written in 1968, it speaks of 2010, and is frighteningly prescient and intensely powerful.<br /><br />This edition comes with a tipped in collectors' note and an introduction by David Brin."
+          },
+          "book": {
+            "_attributes": {
+              "id": "41069"
+            },
+            "num_pages": {
+              "_text": "672"
+            }
+          },
+          "author_name": {
+            "_text": "John Brunner"
+          },
+          "isbn": {
+            "_text": "1857988361"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "5"
+          },
+          "user_read_at": {
+            "_cdata": "Fri, 08 May 2020 23:10:18 -0700"
+          },
+          "user_date_added": {
+            "_cdata": "Sat, 23 May 2020 01:11:41 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Fri, 24 Apr 2020 11:19:17 -0700"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.97"
+          },
+          "book_published": {
+            "_text": "1968"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/41069.Stand_on_Zanzibar?utm_medium=api&amp;utm_source=rss\"><img alt=\"Stand on Zanzibar\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1360613921l/41069._SY75_.jpg\" /></a><br/>\n                                      author: John Brunner<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.97<br/>\n                                      book published: 1968<br/>\n                                      rating: 5<br/>\n                                      read at: 2020/05/08<br/>\n                                      date added: 2020/05/23<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/3340736848?utm_medium=api&utm_source=rss"
@@ -7116,78 +7188,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/23492808-life-and-death-in-the-andes?utm_medium=api&amp;utm_source=rss\"><img alt=\"Life and Death in the Andes: On the Trail of Bandits, Heroes, and Revolutionaries\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1448828304l/23492808._SY75_.jpg\" /></a><br/>\n                                      author: Kim MacQuarrie<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.01<br/>\n                                      book published: 2015<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2015/12/04<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/1338164569?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Wed, 07 Oct 2015 08:22:33 -0700"
-          },
-          "title": {
-            "_cdata": "Our Mathematical Universe: My Quest for the Ultimate Nature of Reality"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/1338164569?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "19395553"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386860656l/19395553._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386860656l/19395553._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386860656l/19395553._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386860656l/19395553.jpg"
-          },
-          "book_description": {
-            "_cdata": "<i>Our Mathematical Universe</i> is a journey to explore the mysteries uncovered by cosmology and to discover the nature of reality. Our Big Bang, our distant future, parallel worlds, the sub-atomic and intergalactic - none of them are what they seem. But there is a way to understand this immense strangeness - mathematics. Seeking an answer to the fundamental puzzle of why our universe seems so mathematical, Tegmark proposes a radical idea: that our physical world not only is described by mathematics, but that it is mathematics. This may offer answers to our deepest questions: How large is reality? What is everything made of? Why is our universe the way it is?<br /><br />Table of Contents<br />Preface <br /> <br />1 What Is Reality? <br />Not What It Seems • What’s the Ultimate Question? • The Journey Begins<br /> <br />Part One: Zooming Out<br /> <br />2 Our Place in Space <br />Cosmic Questions • How Big Is Space? • The Size of Earth • Distance to the Moon • Distance to the Sun and the Planets • Distance to the Stars • Distance to the Galaxies • What Is Space?<br /> <br />3 Our Place in Time<br />Where Did Our Solar System Come From? • Where Did the<br />Galaxies Come From? • Where Did the Mysterious Microwaves<br />Come From? • Where Did the Atoms Come From?<br /> <br />4 Our Universe by Numbers<br />Wanted: Precision Cosmology • Precision Microwave-Background Fluctuations • Precision Galaxy Clustering • The Ultimate Map of Our Universe • Where Did Our Big Bang Come From?<br /> <br />5 Our Cosmic Origins <br />What’s Wrong with Our Big Bang? • How Inflation Works • The Gift That Keeps on Giving • Eternal Inflation<br /> <br />6 Welcome to the Multiverse <br />The Level I Multiverse • The Level II Multiverse • Multiverse Halftime Roundup<br /> <br />Part Two: Zooming In<br /> <br />7 Cosmic Legos <br />Atomic Legos • Nuclear Legos • Particle-Physics Legos • Mathematical Legos • Photon Legos • Above the Law? • Quanta and Rainbows • Making Waves • Quantum Weirdness • The Collapse of Consensus • The Weirdness Can’t Be Confined • Quantum Confusion<br /> <br />8 The Level III Multiverse <br />The Level III Multiverse • The Illusion of Randomness • Quantum Censorship • The Joys of Getting Scooped • Why Your Brain Isn’t a Quantum Computer • Subject, Object and Environment • Quantum Suicide • Quantum Immortality? • Multiverses Unified • Shifting Views: Many Worlds or Many Words?<br /> <br />Part Three: Stepping Back<br /> <br />9 Internal Reality, External Reality and Consensus Reality <br />External Reality and Internal Reality • The Truth, the Whole Truth and Nothing but the Truth • Consensus Reality • Physics: Linking External to Consensus Reality<br /> <br />10 Physical Reality and Mathematical Reality <br />Math, Math Everywhere! • The Mathematical Universe Hypothesis • What Is a Mathematical Structure?<br /> <br />11 Is Time an Illusion? <br />How Can Physical Reality Be Mathematical? • What Are You? • Where Are You? (And What Do You Perceive?) • When Are You?<br /> <br />12 The Level IV Multiverse <br />Why I Believe in the Level IV Multiverse • Exploring the Level IV Multiverse: What’s Out There? • Implications of the Level IV Multiverse • Are We Living in a Simulation? • Relation Between the MUH, the Level IV Multiverse and Other Hypotheses •Testing the Level IV Multiverse<br /> <br />13 Life, Our Universe and Everything <br />How Big Is Our Physical Reality? • The Future of Physics • The Future of Our Universe—How Will It End? • The Future of Life •The Future of You—Are You Insignificant?<br /> <br />Acknowledgments <br />Suggestions for Further Reading <br />Index"
-          },
-          "book": {
-            "_attributes": {
-              "id": "19395553"
-            },
-            "num_pages": {
-              "_text": "432"
-            }
-          },
-          "author_name": {
-            "_text": "Max  Tegmark"
-          },
-          "isbn": {
-            "_text": "1846144760"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "4"
-          },
-          "user_read_at": {
-            "_cdata": "Sat, 15 Aug 2015 00:00:00 -0700"
-          },
-          "user_date_added": {
-            "_cdata": "Wed, 07 Oct 2015 08:22:33 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Fri, 17 Jul 2015 21:31:25 -0700"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.20"
-          },
-          "book_published": {
-            "_text": "2012"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/19395553-our-mathematical-universe?utm_medium=api&amp;utm_source=rss\"><img alt=\"Our Mathematical Universe: My Quest for the Ultimate Nature of Reality\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386860656l/19395553._SY75_.jpg\" /></a><br/>\n                                      author: Max  Tegmark<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.20<br/>\n                                      book published: 2012<br/>\n                                      rating: 4<br/>\n                                      read at: 2015/08/15<br/>\n                                      date added: 2015/10/07<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

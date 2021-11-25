@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Wed, 24 Mar 2021 22:16:54 -0700"
+        "_text": "Thu, 25 Mar 2021 16:26:26 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3900753388?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Thu, 25 Mar 2021 16:26:26 -0700"
+          },
+          "title": {
+            "_cdata": "Persian Fire: The First World Empire and the Battle for the West"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3900753388?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "103749"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1171501730l/103749._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1171501730l/103749._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1171501730l/103749._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1171501730l/103749._SY475_.jpg"
+          },
+          "book_description": {
+            "_cdata": "In 480 B.C., Xerxes, the King of Persia, led an invasion of mainland Greece. Its success should have been a formality. For seventy years, victory—rapid, spectacular victory—had seemed the birthright of the Persian Empire. In the space of a single generation, they had swept across the Near East, shattering ancient kingdoms, storming famous cities, putting together an empire which stretched from India to the shores of the Aegean. As a result of those conquests, Xerxes ruled as the most powerful man on the planet. Yet somehow, astonishingly, against the largest expeditionary force ever assembled, the Greeks of the mainland managed to hold out. The Persians were turned back. Greece remained free. Had the Greeks been defeated in the epochal naval battle at Salamis, not only would the West have lost its first struggle for independence and survival, but it is unlikely that there would ever have been such an entity as the West at all.<br /><br />Tom Holland’s brilliant new book describes the very first “clash of Empires” between East and West. As he did in the critically praised <i>Rubicon</i>, he has found extraordinary parallels between the ancient world and our own. There is no other popular history that takes in the entire sweep of the Persian Wars, and no other classical historian, academic or popular, who combines scholarly rigor with novelistic depth with a worldly irony in quite the fashion that Tom Holland does."
+          },
+          "book": {
+            "_attributes": {
+              "id": "103749"
+            },
+            "num_pages": {
+              "_text": "418"
+            }
+          },
+          "author_name": {
+            "_text": "Tom Holland"
+          },
+          "isbn": {
+            "_text": "0385513119"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "5"
+          },
+          "user_read_at": {
+            "_cdata": "Thu, 25 Mar 2021 16:26:26 -0700"
+          },
+          "user_date_added": {
+            "_cdata": "Thu, 25 Mar 2021 16:26:26 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Sat, 20 Mar 2021 21:07:17 -0700"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.15"
+          },
+          "book_published": {
+            "_text": "2005"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/103749.Persian_Fire?utm_medium=api&amp;utm_source=rss\"><img alt=\"Persian Fire: The First World Empire and the Battle for the West\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1171501730l/103749._SY75_.jpg\" /></a><br/>\n                                      author: Tom Holland<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.15<br/>\n                                      book published: 2005<br/>\n                                      rating: 5<br/>\n                                      read at: 2021/03/25<br/>\n                                      date added: 2021/03/25<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/3897690225?utm_medium=api&utm_source=rss"
@@ -7116,78 +7188,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/9969572-ready-player-one?utm_medium=api&amp;utm_source=rss\"><img alt=\"Ready Player One\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320502999l/9969572._SX50_.jpg\" /></a><br/>\n                                      author: Ernest Cline<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.27<br/>\n                                      book published: 2011<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2020/05/30<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3299211758?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sat, 23 May 2020 01:11:41 -0700"
-          },
-          "title": {
-            "_text": "Stand on Zanzibar"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3299211758?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "41069"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1360613921l/41069._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1360613921l/41069._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1360613921l/41069._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1360613921l/41069.jpg"
-          },
-          "book_description": {
-            "_cdata": "Norman Niblock House is a rising executive at General Technics, one of a few all-powerful corporations. His work is leading General Technics to the forefront of global domination, both in the marketplace and politically—it's about to take over a country in Africa. Donald Hogan is his roommate, a seemingly sheepish bookworm. But Hogan is a spy, and he's about to discover a breakthrough in genetic engineering that will change the world ... and kill him. These two men's lives weave through one of science fiction's most praised novels. Written in a way that echoes John Dos Passos' <i>U.S.A. Trilogy</i>, <i>Stand on Zanzibar</i> is a cross-section of a world overpopulated by the billions. Where society is squeezed into hive-living madness by god-like mega computers, mass-marketed psychedelic drugs, and mundane uses of genetic engineering. Though written in 1968, it speaks of 2010, and is frighteningly prescient and intensely powerful.<br /><br />This edition comes with a tipped in collectors' note and an introduction by David Brin."
-          },
-          "book": {
-            "_attributes": {
-              "id": "41069"
-            },
-            "num_pages": {
-              "_text": "672"
-            }
-          },
-          "author_name": {
-            "_text": "John Brunner"
-          },
-          "isbn": {
-            "_text": "1857988361"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "5"
-          },
-          "user_read_at": {
-            "_cdata": "Fri, 08 May 2020 23:10:18 -0700"
-          },
-          "user_date_added": {
-            "_cdata": "Sat, 23 May 2020 01:11:41 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Fri, 24 Apr 2020 11:19:17 -0700"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "3.97"
-          },
-          "book_published": {
-            "_text": "1968"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/41069.Stand_on_Zanzibar?utm_medium=api&amp;utm_source=rss\"><img alt=\"Stand on Zanzibar\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1360613921l/41069._SY75_.jpg\" /></a><br/>\n                                      author: John Brunner<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.97<br/>\n                                      book published: 1968<br/>\n                                      rating: 5<br/>\n                                      read at: 2020/05/08<br/>\n                                      date added: 2020/05/23<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]
