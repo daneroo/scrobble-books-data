@@ -271,11 +271,9 @@
           "average_rating": {
             "_text": "4.09"
           },
-          "book_published": {
-            "_text": "1945"
-          },
+          "book_published": {},
           "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/170448.Animal_Farm?utm_medium=api&amp;utm_source=rss\"><img alt=\"Animal Farm\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1325861570l/170448._SY75_.jpg\" /></a><br/>\n                                      author: George Orwell<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.09<br/>\n                                      book published: 1945<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2020/05/06<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/170448.Animal_Farm?utm_medium=api&amp;utm_source=rss\"><img alt=\"Animal Farm\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1325861570l/170448._SY75_.jpg\" /></a><br/>\n                                      author: George Orwell<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.09<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2020/05/06<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
           }
         },
         {
