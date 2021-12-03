@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Wed, 24 Nov 2021 22:22:17 -0800"
+        "_text": "Thu, 02 Dec 2021 16:20:33 -0800"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4336580075?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Thu, 02 Dec 2021 16:20:33 -0800"
+          },
+          "title": {
+            "_cdata": "The Life You Can Save: How to Do Your Part to End World Poverty"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4336580075?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "49005196"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1574973822l/49005196._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1574973822l/49005196._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1574973822l/49005196._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1574973822l/49005196._SY475_.jpg"
+          },
+          "book_description": {
+            "_cdata": "It is 2021 and the world has experienced unimaginable suffering, death and despair. The pandemic has had a devastating effect on global extreme poverty and harrowing scenes from around the world continue to leave us shocked. As the pandemic rages on, it’s natural to ask: how can I help? Peter Singer – often considered to be the world’s most influential living philosopher– answers this question in The 10th Anniversary Edition of his seminal book, The Life You Can Save. This book will inspire and empower readers to ACT NOW and SAVE LIVES. Moreover, the ebook and the audiobook (narrated by mission–aligned celebrities including Stephen Fry, Kristen Bell, Paul Simon and Michael Schur!) is available to all readers for FREE on The Life You Can Save website. <br /><br />In The Life You Can Save, Peter Singer compellingly lays out the case for why and how we can take action to provide immense benefit to others, at minimal cost to ourselves. Using ethical arguments, illuminating examples, and case studies of charitable giving, he shows that our current response to world poverty is not only insufficient but morally indefensible. And he provides practical recommendations of charities proven to dramatically improve, and even save, the lives of children, women and men living in extreme poverty. The Life You Can Save teaches us to be a part of the solution, helping others as we help ourselves."
+          },
+          "book": {
+            "_attributes": {
+              "id": "49005196"
+            },
+            "num_pages": {
+              "_text": "302"
+            }
+          },
+          "author_name": {
+            "_text": "Peter Singer"
+          },
+          "isbn": {
+            "_text": "1733672702"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "5"
+          },
+          "user_read_at": {
+            "_cdata": "Thu, 02 Dec 2021 16:20:29 -0800"
+          },
+          "user_date_added": {
+            "_cdata": "Thu, 02 Dec 2021 16:20:33 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Sat, 13 Nov 2021 19:03:42 -0800"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.17"
+          },
+          "book_published": {
+            "_text": "2009"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/49005196-the-life-you-can-save?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Life You Can Save: How to Do Your Part to End World Poverty\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1574973822l/49005196._SY75_.jpg\" /></a><br/>\n                                      author: Peter Singer<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.17<br/>\n                                      book published: 2009<br/>\n                                      rating: 5<br/>\n                                      read at: 2021/12/02<br/>\n                                      date added: 2021/12/02<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/4355233082?utm_medium=api&utm_source=rss"
@@ -494,78 +566,6 @@
         },
         {
           "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/4336580075?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sat, 13 Nov 2021 19:05:01 -0800"
-          },
-          "title": {
-            "_cdata": "The Life You Can Save: How to Do Your Part to End World Poverty"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/4336580075?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "49005196"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1574973822l/49005196._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1574973822l/49005196._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1574973822l/49005196._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1574973822l/49005196._SY475_.jpg"
-          },
-          "book_description": {
-            "_cdata": "It is 2021 and the world has experienced unimaginable suffering, death and despair. The pandemic has had a devastating effect on global extreme poverty and harrowing scenes from around the world continue to leave us shocked. As the pandemic rages on, it’s natural to ask: how can I help? Peter Singer – often considered to be the world’s most influential living philosopher– answers this question in The 10th Anniversary Edition of his seminal book, The Life You Can Save. This book will inspire and empower readers to ACT NOW and SAVE LIVES. Moreover, the ebook and the audiobook (narrated by mission–aligned celebrities including Stephen Fry, Kristen Bell, Paul Simon and Michael Schur!) is available to all readers for FREE on The Life You Can Save website. <br /><br />In The Life You Can Save, Peter Singer compellingly lays out the case for why and how we can take action to provide immense benefit to others, at minimal cost to ourselves. Using ethical arguments, illuminating examples, and case studies of charitable giving, he shows that our current response to world poverty is not only insufficient but morally indefensible. And he provides practical recommendations of charities proven to dramatically improve, and even save, the lives of children, women and men living in extreme poverty. The Life You Can Save teaches us to be a part of the solution, helping others as we help ourselves."
-          },
-          "book": {
-            "_attributes": {
-              "id": "49005196"
-            },
-            "num_pages": {
-              "_text": "302"
-            }
-          },
-          "author_name": {
-            "_text": "Peter Singer"
-          },
-          "isbn": {
-            "_text": "1733672702"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Sat, 13 Nov 2021 19:05:01 -0800"
-          },
-          "user_date_created": {
-            "_cdata": "Sat, 13 Nov 2021 19:03:42 -0800"
-          },
-          "user_shelves": {
-            "_text": "on-deck"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.16"
-          },
-          "book_published": {
-            "_text": "2009"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/49005196-the-life-you-can-save?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Life You Can Save: How to Do Your Part to End World Poverty\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1574973822l/49005196._SY75_.jpg\" /></a><br/>\n                                      author: Peter Singer<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.16<br/>\n                                      book published: 2009<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/11/13<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
             "_cdata": "https://www.goodreads.com/review/show/4336580876?utm_medium=api&utm_source=rss"
           },
           "pubDate": {
@@ -843,13 +843,13 @@
           },
           "user_review": {},
           "average_rating": {
-            "_text": "4.43"
+            "_text": "4.44"
           },
           "book_published": {
             "_text": "2021"
           },
           "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/57347786-powers-and-thrones?utm_medium=api&amp;utm_source=rss\"><img alt=\"Powers and Thrones: A New History of the Middle Ages\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1629634899l/57347786._SX50_.jpg\" /></a><br/>\n                                      author: Dan Jones<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.43<br/>\n                                      book published: 2021<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/11/09<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/57347786-powers-and-thrones?utm_medium=api&amp;utm_source=rss\"><img alt=\"Powers and Thrones: A New History of the Middle Ages\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1629634899l/57347786._SX50_.jpg\" /></a><br/>\n                                      author: Dan Jones<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.44<br/>\n                                      book published: 2021<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/11/09<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
           }
         },
         {
