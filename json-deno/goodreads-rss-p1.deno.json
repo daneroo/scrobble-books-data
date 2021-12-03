@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Thu, 02 Dec 2021 21:29:38 -0800"
+        "_text": "Thu, 02 Dec 2021 22:37:56 -0800"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4368896707?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Thu, 02 Dec 2021 22:37:56 -0800"
+          },
+          "title": {
+            "_cdata": "Kindred: Neanderthal Life, Love, Death and Art"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4368896707?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "37941599"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1620976596l/37941599._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1620976596l/37941599._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1620976596l/37941599._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1620976596l/37941599._SY475_.jpg"
+          },
+          "book_description": {
+            "_cdata": "<p>Since their discovery more than 160 years ago, Neanderthals have metamorphosed from the losers of the human family tree to A-list hominins.<br /><br />In <i>Kindred</i>, Rebecca Wragg Sykes uses her experience at the cutting-edge of Palaeolithic research to share our new understanding of Neanderthals, shoving aside clichés of rag-clad brutes in an icy wasteland. She reveals them to be curious, clever connoisseurs of their world, technologically inventive and ecologically adaptable. Above all, they were successful survivors for more than 300,000 years, during times of massive climatic upheaval.<br /><br />At a time when our species has never faced greater threats, we’re obsessed with what makes us special. But, much of what defines us was also in Neanderthals, and their DNA is still inside us. Planning, co-operation, altruism, craftsmanship, aesthetic sense, imagination... perhaps even a desire for transcendence beyond mortality.<br /><br />It is only by understanding them, that we can truly understand ourselves.</p>"
+          },
+          "book": {
+            "_attributes": {
+              "id": "37941599"
+            },
+            "num_pages": {
+              "_text": "400"
+            }
+          },
+          "author_name": {
+            "_text": "Rebecca Wragg Sykes"
+          },
+          "isbn": {
+            "_text": "147293749X"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Thu, 02 Dec 2021 22:37:56 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Thu, 02 Dec 2021 22:37:00 -0800"
+          },
+          "user_shelves": {
+            "_text": "on-deck"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.04"
+          },
+          "book_published": {
+            "_text": "2020"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/37941599-kindred?utm_medium=api&amp;utm_source=rss\"><img alt=\"Kindred: Neanderthal Life, Love, Death and Art\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1620976596l/37941599._SY75_.jpg\" /></a><br/>\n                                      author: Rebecca Wragg Sykes<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.04<br/>\n                                      book published: 2020<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/12/02<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/4292296033?utm_medium=api&utm_source=rss"
@@ -7136,78 +7208,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/40792913-altered-carbon?utm_medium=api&amp;utm_source=rss\"><img alt=\"Altered Carbon (Takeshi Kovacs, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1531415180l/40792913._SY75_.jpg\" /></a><br/>\n                                      author: Richard K. Morgan<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.03<br/>\n                                      book published: 2002<br/>\n                                      rating: 5<br/>\n                                      read at: 2021/08/01<br/>\n                                      date added: 2021/08/01<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/4106828207?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Thu, 29 Jul 2021 00:37:37 -0700"
-          },
-          "title": {
-            "_text": "House of Suns"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/4106828207?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "1126719"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1447892903l/1126719._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1447892903l/1126719._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1447892903l/1126719._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1447892903l/1126719.jpg"
-          },
-          "book_description": {
-            "_cdata": "Six million years ago, at the dawn of the star-faring era, Abigail Gentian fractured herself into a thousand male and female clones, which she called shatterlings. But now, someone is eliminating the Gentian line. Campion and Purslane—two shatterlings who have fallen in love and shared forbidden experiences—must determine exactly who, or what, their enemy is, before they are wiped out of existence."
-          },
-          "book": {
-            "_attributes": {
-              "id": "1126719"
-            },
-            "num_pages": {
-              "_text": "512"
-            }
-          },
-          "author_name": {
-            "_text": "Alastair Reynolds"
-          },
-          "isbn": {
-            "_text": "0575099127"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "4"
-          },
-          "user_read_at": {
-            "_cdata": "Thu, 29 Jul 2021 00:37:37 -0700"
-          },
-          "user_date_added": {
-            "_cdata": "Thu, 29 Jul 2021 00:37:37 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Sat, 10 Jul 2021 16:40:05 -0700"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.18"
-          },
-          "book_published": {
-            "_text": "2008"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/1126719.House_of_Suns?utm_medium=api&amp;utm_source=rss\"><img alt=\"House of Suns\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1447892903l/1126719._SY75_.jpg\" /></a><br/>\n                                      author: Alastair Reynolds<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.18<br/>\n                                      book published: 2008<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/07/29<br/>\n                                      date added: 2021/07/29<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

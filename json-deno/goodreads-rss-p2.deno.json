@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Tue, 27 Jul 2021 00:49:39 -0700"
+        "_text": "Thu, 29 Jul 2021 00:37:37 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4106828207?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Thu, 29 Jul 2021 00:37:37 -0700"
+          },
+          "title": {
+            "_text": "House of Suns"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4106828207?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "1126719"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1447892903l/1126719._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1447892903l/1126719._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1447892903l/1126719._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1447892903l/1126719.jpg"
+          },
+          "book_description": {
+            "_cdata": "Six million years ago, at the dawn of the star-faring era, Abigail Gentian fractured herself into a thousand male and female clones, which she called shatterlings. But now, someone is eliminating the Gentian line. Campion and Purslane—two shatterlings who have fallen in love and shared forbidden experiences—must determine exactly who, or what, their enemy is, before they are wiped out of existence."
+          },
+          "book": {
+            "_attributes": {
+              "id": "1126719"
+            },
+            "num_pages": {
+              "_text": "512"
+            }
+          },
+          "author_name": {
+            "_text": "Alastair Reynolds"
+          },
+          "isbn": {
+            "_text": "0575099127"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "4"
+          },
+          "user_read_at": {
+            "_cdata": "Thu, 29 Jul 2021 00:37:37 -0700"
+          },
+          "user_date_added": {
+            "_cdata": "Thu, 29 Jul 2021 00:37:37 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Sat, 10 Jul 2021 16:40:05 -0700"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.18"
+          },
+          "book_published": {
+            "_text": "2008"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/1126719.House_of_Suns?utm_medium=api&amp;utm_source=rss\"><img alt=\"House of Suns\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1447892903l/1126719._SY75_.jpg\" /></a><br/>\n                                      author: Alastair Reynolds<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.18<br/>\n                                      book published: 2008<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/07/29<br/>\n                                      date added: 2021/07/29<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/4137679200?utm_medium=api&utm_source=rss"
@@ -7162,78 +7234,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/29579.Foundation?utm_medium=api&amp;utm_source=rss\"><img alt=\"Foundation (Foundation, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1417900846l/29579._SX50_.jpg\" /></a><br/>\n                                      author: Isaac Asimov<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.18<br/>\n                                      book published: 1951<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/03/29<br/>\n                                      date added: 2021/03/29<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3900843999?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sun, 28 Mar 2021 10:11:31 -0700"
-          },
-          "title": {
-            "_cdata": "The Quantum Labyrinth: How Richard Feynman and John Wheeler Revolutionized Time and Reality"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3900843999?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "33784515"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1499713390l/33784515._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1499713390l/33784515._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1499713390l/33784515._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1499713390l/33784515.jpg"
-          },
-          "book_description": {
-            "_cdata": "<b>The story of the unlikely friendship between the two physicists who fundamentally recast the notion of time and history</b><br /><br /> In 1939, Richard Feynman, a brilliant graduate of MIT, arrived in John Wheeler's Princeton office to report for duty as his teaching assistant. A lifelong friendship and enormously productive collaboration was born, despite sharp differences in personality. The soft-spoken Wheeler, though conservative in appearance, was a raging nonconformist full of wild ideas about the universe. The boisterous Feynman was a cautious physicist who believed only what could be tested. Yet they were complementary spirits. Their collaboration led to a complete rethinking of the nature of time and reality. It enabled Feynman to show how quantum reality is a combination of alternative, contradictory possibilities, and inspired Wheeler to develop his landmark concept of wormholes, portals to the future and past. Together, Feynman and Wheeler made sure that quantum physics would never be the same again."
-          },
-          "book": {
-            "_attributes": {
-              "id": "33784515"
-            },
-            "num_pages": {
-              "_text": "336"
-            }
-          },
-          "author_name": {
-            "_text": "Paul Halpern"
-          },
-          "isbn": {
-            "_text": "0465097588"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "4"
-          },
-          "user_read_at": {
-            "_cdata": "Sun, 28 Mar 2021 10:11:31 -0700"
-          },
-          "user_date_added": {
-            "_cdata": "Sun, 28 Mar 2021 10:11:31 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Sat, 20 Mar 2021 22:35:40 -0700"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.03"
-          },
-          "book_published": {
-            "_text": "2017"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/33784515-the-quantum-labyrinth?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Quantum Labyrinth: How Richard Feynman and John Wheeler Revolutionized Time and Reality\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1499713390l/33784515._SY75_.jpg\" /></a><br/>\n                                      author: Paul Halpern<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.03<br/>\n                                      book published: 2017<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/03/28<br/>\n                                      date added: 2021/03/28<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]
