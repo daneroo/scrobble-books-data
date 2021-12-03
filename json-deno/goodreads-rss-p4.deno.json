@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Sat, 23 May 2020 01:11:41 -0700"
+        "_text": "Sat, 30 May 2020 23:55:06 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3366094999?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sat, 30 May 2020 23:55:06 -0700"
+          },
+          "title": {
+            "_text": "Ready Player One"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3366094999?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "9969572"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320502999l/9969572._SX50_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320502999l/9969572._SX50_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320502999l/9969572._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320502999l/9969572.jpg"
+          },
+          "book_description": {
+            "_cdata": "At once wildly original and stuffed with irresistible nostalgia, READY PLAYER ONE is a spectacularly genre-busting, ambitious, and charming debut—part quest novel, part love story, and part virtual space opera set in a universe where spell-slinging mages battle giant Japanese robots, entire planets are inspired by <i>Blade Runner</i>, and flying DeLoreans achieve light speed.<br /><br />It’s the year 2044, and the real world is an ugly place. <br /><br />Like most of humanity, Wade Watts escapes his grim surroundings by spending his waking hours jacked into the OASIS, a sprawling virtual utopia that lets you be anything you want to be, a place where you can live and play and fall in love on any of ten thousand planets. <br /><br />And like most of humanity, Wade dreams of being the one to discover the ultimate lottery ticket that lies concealed within this virtual world. For somewhere inside this giant networked playground, OASIS creator James Halliday has hidden a series of fiendish puzzles that will yield massive fortune—and remarkable power—to whoever can unlock them.   <br /><br />For years, millions have struggled fruitlessly to attain this prize, knowing only that Halliday’s riddles are based in the pop culture he loved—that of the late twentieth century. And for years, millions have found in this quest another means of escape, retreating into happy, obsessive study of Halliday’s icons. Like many of his contemporaries, Wade is as comfortable debating the finer points of John Hughes’s oeuvre, playing Pac-Man, or reciting Devo lyrics as he is scrounging power to run his OASIS rig.<br /><br />And then Wade stumbles upon the first puzzle.<br /><br />Suddenly the whole world is watching, and thousands of competitors join the hunt—among them certain powerful players who are willing to commit very real murder to beat Wade to this prize. Now the only way for Wade to survive and preserve everything he knows is to<i> win</i>. But to do so, he may have to leave behind his oh-so-perfect virtual existence and face up to life—and love—in the real world he’s always been so desperate to escape. <br /> <br />A world at stake.<br />A quest for the ultimate prize.<br /><b>Are you ready?</b>"
+          },
+          "book": {
+            "_attributes": {
+              "id": "9969572"
+            },
+            "num_pages": {
+              "_text": "16"
+            }
+          },
+          "author_name": {
+            "_text": "Ernest Cline"
+          },
+          "isbn": {
+            "_text": "0307913147"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Sat, 30 May 2020 23:55:06 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Sat, 30 May 2020 23:55:06 -0700"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.27"
+          },
+          "book_published": {
+            "_text": "2011"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/9969572-ready-player-one?utm_medium=api&amp;utm_source=rss\"><img alt=\"Ready Player One\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320502999l/9969572._SX50_.jpg\" /></a><br/>\n                                      author: Ernest Cline<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.27<br/>\n                                      book published: 2011<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2020/05/30<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/3299211758?utm_medium=api&utm_source=rss"
@@ -7116,78 +7188,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/354038.The_Last_Days_of_the_Incas?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Last Days of the Incas\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388849701l/354038._SY75_.jpg\" /></a><br/>\n                                      author: Kim MacQuarrie<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.14<br/>\n                                      book published: 2007<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2015/12/04<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/1460302996?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Fri, 04 Dec 2015 18:05:10 -0800"
-          },
-          "title": {
-            "_cdata": "Life and Death in the Andes: On the Trail of Bandits, Heroes, and Revolutionaries"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/1460302996?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "23492808"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1448828304l/23492808._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1448828304l/23492808._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1448828304l/23492808._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1448828304l/23492808._SY475_.jpg"
-          },
-          "book_description": {
-            "_cdata": "Unique portraits of legendary characters along South America’s mountain spine, from Charles Darwin to the present day, told by a master traveler and observer<br /><br />The Andes Mountains are the world’s longest mountain chain, linking most of the countries in South America. Emmy Award-winning filmmaker Kim MacQuarrie takes us on a historical journey through this unique region, bringing fresh insight and contemporary connections to such fabled characters as Charles Darwin, Pablo Escobar, Che Guevara, and many others. He describes living on the floating islands of Lake Titicaca, where people still make sacrifices to the gods. He introduces us to a Patagonian woman who is the last living speaker of her language, as he explores the disappearance of indigenous cultures throughout the Andes. He meets a man whose grandfather witnessed Butch Cassidy’s last days in Bolivia and the school teacher who gave Che Guevara his final meal. MacQuarrie also meets the Colombian police officer who made it his mission to capture Pablo Escobar—the most dangerous cocaine king in the world.<br />Through the stories he shares, MacQuarrie raises such questions as, where did the people of South America come from? Did they create or import their cultures? Why did the Incas sacrifice children on mountaintops—and how did these “ice mummies” remain so well preserved? Why did Peru’s Shining Path leader Guzmán nearly succeed in his revolutionary quest while Che Guevara in Bolivia so quickly failed? And what so astounded Charles Darwin in South America that led him to conceive the theory evolution? Deeply observed and beautifully written, Adventures in the Andes shows us this land as no one has before."
-          },
-          "book": {
-            "_attributes": {
-              "id": "23492808"
-            },
-            "num_pages": {
-              "_text": "386"
-            }
-          },
-          "author_name": {
-            "_text": "Kim MacQuarrie"
-          },
-          "isbn": {
-            "_text": "143916889X"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Fri, 04 Dec 2015 18:05:10 -0800"
-          },
-          "user_date_created": {
-            "_cdata": "Fri, 04 Dec 2015 18:05:09 -0800"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.01"
-          },
-          "book_published": {
-            "_text": "2015"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/23492808-life-and-death-in-the-andes?utm_medium=api&amp;utm_source=rss\"><img alt=\"Life and Death in the Andes: On the Trail of Bandits, Heroes, and Revolutionaries\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1448828304l/23492808._SY75_.jpg\" /></a><br/>\n                                      author: Kim MacQuarrie<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.01<br/>\n                                      book published: 2015<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2015/12/04<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

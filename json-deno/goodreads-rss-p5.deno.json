@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Wed, 07 Oct 2015 08:22:33 -0700"
+        "_text": "Fri, 04 Dec 2015 18:05:10 -0800"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/1460302996?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Fri, 04 Dec 2015 18:05:10 -0800"
+          },
+          "title": {
+            "_cdata": "Life and Death in the Andes: On the Trail of Bandits, Heroes, and Revolutionaries"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/1460302996?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "23492808"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1448828304l/23492808._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1448828304l/23492808._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1448828304l/23492808._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1448828304l/23492808._SY475_.jpg"
+          },
+          "book_description": {
+            "_cdata": "Unique portraits of legendary characters along South America’s mountain spine, from Charles Darwin to the present day, told by a master traveler and observer<br /><br />The Andes Mountains are the world’s longest mountain chain, linking most of the countries in South America. Emmy Award-winning filmmaker Kim MacQuarrie takes us on a historical journey through this unique region, bringing fresh insight and contemporary connections to such fabled characters as Charles Darwin, Pablo Escobar, Che Guevara, and many others. He describes living on the floating islands of Lake Titicaca, where people still make sacrifices to the gods. He introduces us to a Patagonian woman who is the last living speaker of her language, as he explores the disappearance of indigenous cultures throughout the Andes. He meets a man whose grandfather witnessed Butch Cassidy’s last days in Bolivia and the school teacher who gave Che Guevara his final meal. MacQuarrie also meets the Colombian police officer who made it his mission to capture Pablo Escobar—the most dangerous cocaine king in the world.<br />Through the stories he shares, MacQuarrie raises such questions as, where did the people of South America come from? Did they create or import their cultures? Why did the Incas sacrifice children on mountaintops—and how did these “ice mummies” remain so well preserved? Why did Peru’s Shining Path leader Guzmán nearly succeed in his revolutionary quest while Che Guevara in Bolivia so quickly failed? And what so astounded Charles Darwin in South America that led him to conceive the theory evolution? Deeply observed and beautifully written, Adventures in the Andes shows us this land as no one has before."
+          },
+          "book": {
+            "_attributes": {
+              "id": "23492808"
+            },
+            "num_pages": {
+              "_text": "386"
+            }
+          },
+          "author_name": {
+            "_text": "Kim MacQuarrie"
+          },
+          "isbn": {
+            "_text": "143916889X"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Fri, 04 Dec 2015 18:05:10 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Fri, 04 Dec 2015 18:05:09 -0800"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.01"
+          },
+          "book_published": {
+            "_text": "2015"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/23492808-life-and-death-in-the-andes?utm_medium=api&amp;utm_source=rss\"><img alt=\"Life and Death in the Andes: On the Trail of Bandits, Heroes, and Revolutionaries\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1448828304l/23492808._SY75_.jpg\" /></a><br/>\n                                      author: Kim MacQuarrie<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.01<br/>\n                                      book published: 2015<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2015/12/04<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/1338164569?utm_medium=api&utm_source=rss"
@@ -7098,80 +7170,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/10552338-reamde?utm_medium=api&amp;utm_source=rss\"><img alt=\"Reamde\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1305993115l/10552338._SY75_.jpg\" /></a><br/>\n                                      author: Neal Stephenson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.96<br/>\n                                      book published: 2011<br/>\n                                      rating: 3<br/>\n                                      read at: 2012/10/01<br/>\n                                      date added: 2012/11/23<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/281322228?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sat, 25 Feb 2012 20:06:07 -0800"
-          },
-          "title": {
-            "_cdata": "Quiet: The Power of Introverts in a World That Can't Stop Talking"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/281322228?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "8520610"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328562861l/8520610._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328562861l/8520610._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328562861l/8520610._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328562861l/8520610.jpg"
-          },
-          "book_description": {
-            "_cdata": "<b>The book that started the Quiet Revolution<br /></b><br />At least one-third of the people we know are introverts. They are the ones who prefer listening to speaking; who innovate and create but dislike self-promotion; who favor working on their own over working in teams. It is to introverts—Rosa Parks, Chopin, Dr. Seuss, Steve Wozniak—that we owe many of the great contributions to society. <br /><br />In <i>Quiet, </i>Susan Cain argues that we dramatically undervalue introverts and shows how much we lose in doing so. She charts the rise of the Extrovert Ideal throughout the twentieth century and explores how deeply it has come to permeate our culture. She also introduces us to successful introverts—from a witty, high-octane public speaker who recharges in solitude after his talks, to a record-breaking salesman who quietly taps into the power of questions. Passionately argued, superbly researched, and filled with indelible stories of real people, <i>Quiet </i>has the power to permanently change how we see introverts and, equally important, how they see themselves.<br /><br />Now with Extra Libris material, including a reader’s guide and bonus content."
-          },
-          "book": {
-            "_attributes": {
-              "id": "8520610"
-            },
-            "num_pages": {
-              "_text": "352"
-            }
-          },
-          "author_name": {
-            "_text": "Susan Cain"
-          },
-          "isbn": {
-            "_text": "0307352145"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "4"
-          },
-          "user_read_at": {
-            "_cdata": "Sat, 25 Feb 2012 20:06:07 -0800"
-          },
-          "user_date_added": {
-            "_cdata": "Sat, 25 Feb 2012 20:06:07 -0800"
-          },
-          "user_date_created": {
-            "_cdata": "Tue, 21 Feb 2012 00:11:49 -0800"
-          },
-          "user_shelves": {},
-          "user_review": {
-            "_text": "Rivetting, revealing."
-          },
-          "average_rating": {
-            "_text": "4.04"
-          },
-          "book_published": {
-            "_text": "2012"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/8520610-quiet?utm_medium=api&amp;utm_source=rss\"><img alt=\"Quiet: The Power of Introverts in a World That Can&#39;t Stop Talking\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328562861l/8520610._SY75_.jpg\" /></a><br/>\n                                      author: Susan Cain<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.04<br/>\n                                      book published: 2012<br/>\n                                      rating: 4<br/>\n                                      read at: 2012/02/25<br/>\n                                      date added: 2012/02/25<br/>\n                                      shelves: <br/>\n                                      review: <br/>Rivetting, revealing.<br/>\n                                      "
           }
         }
       ]

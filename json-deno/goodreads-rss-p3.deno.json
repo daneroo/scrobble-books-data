@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Thu, 25 Mar 2021 16:26:26 -0700"
+        "_text": "Sun, 28 Mar 2021 10:11:31 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3900843999?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sun, 28 Mar 2021 10:11:31 -0700"
+          },
+          "title": {
+            "_cdata": "The Quantum Labyrinth: How Richard Feynman and John Wheeler Revolutionized Time and Reality"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3900843999?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "33784515"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1499713390l/33784515._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1499713390l/33784515._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1499713390l/33784515._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1499713390l/33784515.jpg"
+          },
+          "book_description": {
+            "_cdata": "<b>The story of the unlikely friendship between the two physicists who fundamentally recast the notion of time and history</b><br /><br /> In 1939, Richard Feynman, a brilliant graduate of MIT, arrived in John Wheeler's Princeton office to report for duty as his teaching assistant. A lifelong friendship and enormously productive collaboration was born, despite sharp differences in personality. The soft-spoken Wheeler, though conservative in appearance, was a raging nonconformist full of wild ideas about the universe. The boisterous Feynman was a cautious physicist who believed only what could be tested. Yet they were complementary spirits. Their collaboration led to a complete rethinking of the nature of time and reality. It enabled Feynman to show how quantum reality is a combination of alternative, contradictory possibilities, and inspired Wheeler to develop his landmark concept of wormholes, portals to the future and past. Together, Feynman and Wheeler made sure that quantum physics would never be the same again."
+          },
+          "book": {
+            "_attributes": {
+              "id": "33784515"
+            },
+            "num_pages": {
+              "_text": "336"
+            }
+          },
+          "author_name": {
+            "_text": "Paul Halpern"
+          },
+          "isbn": {
+            "_text": "0465097588"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "4"
+          },
+          "user_read_at": {
+            "_cdata": "Sun, 28 Mar 2021 10:11:31 -0700"
+          },
+          "user_date_added": {
+            "_cdata": "Sun, 28 Mar 2021 10:11:31 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Sat, 20 Mar 2021 22:35:40 -0700"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.03"
+          },
+          "book_published": {
+            "_text": "2017"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/33784515-the-quantum-labyrinth?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Quantum Labyrinth: How Richard Feynman and John Wheeler Revolutionized Time and Reality\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1499713390l/33784515._SY75_.jpg\" /></a><br/>\n                                      author: Paul Halpern<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.03<br/>\n                                      book published: 2017<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/03/28<br/>\n                                      date added: 2021/03/28<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/3900753388?utm_medium=api&utm_source=rss"
@@ -7116,78 +7188,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/4381.Fahrenheit_451?utm_medium=api&amp;utm_source=rss\"><img alt=\"Fahrenheit 451\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1351643740l/4381._SY75_.jpg\" /></a><br/>\n                                      author: Ray Bradbury<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.96<br/>\n                                      book published: 1953<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2020/05/30<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3366094999?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sat, 30 May 2020 23:55:06 -0700"
-          },
-          "title": {
-            "_text": "Ready Player One"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3366094999?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "9969572"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320502999l/9969572._SX50_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320502999l/9969572._SX50_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320502999l/9969572._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320502999l/9969572.jpg"
-          },
-          "book_description": {
-            "_cdata": "At once wildly original and stuffed with irresistible nostalgia, READY PLAYER ONE is a spectacularly genre-busting, ambitious, and charming debut—part quest novel, part love story, and part virtual space opera set in a universe where spell-slinging mages battle giant Japanese robots, entire planets are inspired by <i>Blade Runner</i>, and flying DeLoreans achieve light speed.<br /><br />It’s the year 2044, and the real world is an ugly place. <br /><br />Like most of humanity, Wade Watts escapes his grim surroundings by spending his waking hours jacked into the OASIS, a sprawling virtual utopia that lets you be anything you want to be, a place where you can live and play and fall in love on any of ten thousand planets. <br /><br />And like most of humanity, Wade dreams of being the one to discover the ultimate lottery ticket that lies concealed within this virtual world. For somewhere inside this giant networked playground, OASIS creator James Halliday has hidden a series of fiendish puzzles that will yield massive fortune—and remarkable power—to whoever can unlock them.   <br /><br />For years, millions have struggled fruitlessly to attain this prize, knowing only that Halliday’s riddles are based in the pop culture he loved—that of the late twentieth century. And for years, millions have found in this quest another means of escape, retreating into happy, obsessive study of Halliday’s icons. Like many of his contemporaries, Wade is as comfortable debating the finer points of John Hughes’s oeuvre, playing Pac-Man, or reciting Devo lyrics as he is scrounging power to run his OASIS rig.<br /><br />And then Wade stumbles upon the first puzzle.<br /><br />Suddenly the whole world is watching, and thousands of competitors join the hunt—among them certain powerful players who are willing to commit very real murder to beat Wade to this prize. Now the only way for Wade to survive and preserve everything he knows is to<i> win</i>. But to do so, he may have to leave behind his oh-so-perfect virtual existence and face up to life—and love—in the real world he’s always been so desperate to escape. <br /> <br />A world at stake.<br />A quest for the ultimate prize.<br /><b>Are you ready?</b>"
-          },
-          "book": {
-            "_attributes": {
-              "id": "9969572"
-            },
-            "num_pages": {
-              "_text": "16"
-            }
-          },
-          "author_name": {
-            "_text": "Ernest Cline"
-          },
-          "isbn": {
-            "_text": "0307913147"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Sat, 30 May 2020 23:55:06 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Sat, 30 May 2020 23:55:06 -0700"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.27"
-          },
-          "book_published": {
-            "_text": "2011"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/9969572-ready-player-one?utm_medium=api&amp;utm_source=rss\"><img alt=\"Ready Player One\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320502999l/9969572._SX50_.jpg\" /></a><br/>\n                                      author: Ernest Cline<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.27<br/>\n                                      book published: 2011<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2020/05/30<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]
