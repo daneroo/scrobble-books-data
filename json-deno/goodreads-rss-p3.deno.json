@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Sun, 28 Mar 2021 10:11:31 -0700"
+        "_text": "Mon, 29 Mar 2021 23:06:29 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3888950315?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Mon, 29 Mar 2021 23:06:29 -0700"
+          },
+          "title": {
+            "_text": "Foundation (Foundation, #1)"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3888950315?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "29579"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1417900846l/29579._SX50_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1417900846l/29579._SX50_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1417900846l/29579._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1417900846l/29579.jpg"
+          },
+          "book_description": {
+            "_cdata": "For twelve thousand years the Galactic Empire has ruled supreme. Now it is dying. But only Hari Seldon, creator of the revolutionary science of psychohistory, can see into the future -- to a dark age of ignorance, barbarism, and warfare that will last thirty thousand years. To preserve knowledge and save mankind, Seldon gathers the best minds in the Empire -- both scientists and scholars -- and brings them to a bleak planet at the edge of the Galaxy to serve as a beacon of hope for a future generations. He calls his sanctuary the Foundation.<br /><br />But soon the fledgling Foundation finds itself at the mercy of corrupt warlords rising in the wake of the receding Empire. Mankind's last best hope is faced with an agonizing choice: submit to the barbarians and be overrun -- or fight them and be destroyed."
+          },
+          "book": {
+            "_attributes": {
+              "id": "29579"
+            },
+            "num_pages": {
+              "_text": "244"
+            }
+          },
+          "author_name": {
+            "_text": "Isaac Asimov"
+          },
+          "isbn": {
+            "_text": "0553803719"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "4"
+          },
+          "user_read_at": {
+            "_cdata": "Mon, 29 Mar 2021 23:06:24 -0700"
+          },
+          "user_date_added": {
+            "_cdata": "Mon, 29 Mar 2021 23:06:29 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Sun, 14 Mar 2021 00:31:27 -0800"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.18"
+          },
+          "book_published": {
+            "_text": "1951"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/29579.Foundation?utm_medium=api&amp;utm_source=rss\"><img alt=\"Foundation (Foundation, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1417900846l/29579._SX50_.jpg\" /></a><br/>\n                                      author: Isaac Asimov<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.18<br/>\n                                      book published: 1951<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/03/29<br/>\n                                      date added: 2021/03/29<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/3900843999?utm_medium=api&utm_source=rss"
@@ -7116,78 +7188,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/840278.Eon?utm_medium=api&amp;utm_source=rss\"><img alt=\"Eon (The Way, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388288738l/840278._SY75_.jpg\" /></a><br/>\n                                      author: Greg Bear<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.90<br/>\n                                      book published: 1985<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2020/06/23<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3366095904?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sat, 30 May 2020 23:56:06 -0700"
-          },
-          "title": {
-            "_text": "Fahrenheit 451"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3366095904?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "4381"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1351643740l/4381._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1351643740l/4381._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1351643740l/4381._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1351643740l/4381.jpg"
-          },
-          "book_description": {
-            "_cdata": "Fahrenheit 451 ofrece la historia de un sombrío y horroroso futuro. Montag, el protagonista, pertenece a una extraña brigada de bomberos cuya misión, paradójicamente, no es la de sofocar incendios sino la de provocarlos, para quemar libros. Porque en el país de Montag está terminantemente prohibido leer. Porque leer obliga a pensar, y en el país de Montag esta prohibido pensar. Porque leer impide ser ingenuamente feliz, y en el país de Montag hay que ser feliz a la fuerza..."
-          },
-          "book": {
-            "_attributes": {
-              "id": "4381"
-            },
-            "num_pages": {
-              "_text": "175"
-            }
-          },
-          "author_name": {
-            "_text": "Ray Bradbury"
-          },
-          "isbn": {
-            "_text": "0307347974"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Sat, 30 May 2020 23:56:06 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Sat, 30 May 2020 23:56:05 -0700"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "3.96"
-          },
-          "book_published": {
-            "_text": "1953"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/4381.Fahrenheit_451?utm_medium=api&amp;utm_source=rss\"><img alt=\"Fahrenheit 451\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1351643740l/4381._SY75_.jpg\" /></a><br/>\n                                      author: Ray Bradbury<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.96<br/>\n                                      book published: 1953<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2020/05/30<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

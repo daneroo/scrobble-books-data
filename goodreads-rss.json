@@ -2,6 +2,28 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "guid": "https://www.goodreads.com/review/show/4369990689?utm_medium=api&utm_source=rss",
+      "pubDate": "2021-12-03T22:27:14.000Z",
+      "title": "Mirror Worlds: Or the Day Software Puts the Universe in a Shoebox...How It Will Happen and What It Will Mean",
+      "link": "https://www.goodreads.com/review/show/4369990689?utm_medium=api&utm_source=rss",
+      "bookId": "1142708",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348965199l/1142708._SY75_.jpg",
+      "bookDescription": "Technology doesn't flow smoothly; it's the big surprises that matter, and Yale computer expert David Gelernter sees one such giant leap right on the horizon. Today's small scale software programs are about to be joined by vast public software works that will revolutionize computing and transform society as a whole. One such vast program is the Mirror World.<br /> Imagine looking at your computer screen and seeing reality--an image of your city, for instance, complete with moving traffic patterns, or a picture that sketches the state of an entire far-flung corporation at this second. These representations are called Mirror Worlds, and according to Gelernter they will soon be available to everyone. Mirror Worlds are high-tech voodoo dolls: by interacting with the images, you interact with reality. Indeed, Mirror Worlds will revolutionize the use of computers, transforming them from (mere) handy tools to crystal balls which will allow us to see the world more vividly and see <em>into</em> it more deeply. Reality will be replaced gradually, piece-by-piece, by a software imitation; we will live inside the imitation; and the surprising thing is--this will be a great <em>humanistic</em> advance. We gain control over our world, plus a huge new measure of insight and vision.<br /> In this fascinating book--part speculation, part explanation--Gelernter takes us on a tour of the computer technology of the near future. Mirror Worlds, he contends, will allow us to explore the world in unprecedented depth and detail without ever changing out of our pajamas. A hospital administrator might wander through an entire medical complex via a desktop computer. Any citizen might explore the performance of the local schools, chat electronically with teachers and other Mirror World visitors, plant software agents to report back on interesting topics; decide to run for the local school board, hire a campaign manager, and conduct the better part of the campaign itself--all by interacting with the Mirror World.<br /> Gelernter doesn't just speculate about how this amazing new software will be used--he shows us how it will be made, explaining carefully and in detail how to build a Mirror World using technology already available. We learn about disembodied machines, trellises, ensembles, and other computer components which sound obscure, but which Gelernter explains using familiar metaphors and terms. (He tells us that a Mirror World is a microcosm just like a Japanese garden or a Gothic cathedral, and that a computer program is translated by the computer in the same way a symphony is translated by a violinist into music.) <br /> <em>Mirror Worlds</em> offers a lucid and humanistic account of the coming software revolution, told by a computer scientist at the cutting edge of his field.<br />",
+      "authorName": "David Gelernter",
+      "isbn": "019507906X",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2021-12-03T22:27:14.000Z",
+      "userDateCreated": "2021-12-03T22:27:13.000Z",
+      "userShelves": "on-deck",
+      "userReview": "",
+      "averageRating": "3.67",
+      "bookPublished": "1991",
+      "description": "\n      <a href=\"https://www.goodreads.com/book/show/1142708.Mirror_Worlds?utm_medium=api&amp;utm_source=rss\"><img alt=\"Mirror Worlds: Or the Day Software Puts the Universe in a Shoebox...How It Will Happen and What It Will Mean\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348965199l/1142708._SY75_.jpg\" /></a><br/>\n                                      author: David Gelernter<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.67<br/>\n                                      book published: 1991<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/12/03<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      ",
+      "numPages": "0"
+    },
+    {
       "guid": "https://www.goodreads.com/review/show/4368896707?utm_medium=api&utm_source=rss",
       "pubDate": "2021-12-03T06:37:56.000Z",
       "title": "Kindred: Neanderthal Life, Love, Death and Art",

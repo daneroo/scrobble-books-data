@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Sat, 25 Feb 2012 20:06:07 -0800"
+        "_text": "Fri, 23 Nov 2012 22:07:02 -0800"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/426793332?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Fri, 23 Nov 2012 22:07:02 -0800"
+          },
+          "title": {
+            "_text": "Reamde"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/426793332?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "10552338"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1305993115l/10552338._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1305993115l/10552338._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1305993115l/10552338._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1305993115l/10552338.jpg"
+          },
+          "book_description": {
+            "_cdata": "Four decades ago, Richard Forthrast, the black sheep of an Iowa family, fled to a wild and lonely mountainous corner of British Columbia to avoid the draft. Smuggling backpack loads of high-grade marijuana across the border into Northern Idaho, he quickly amassed an enormous and illegal fortune. With plenty of time and money to burn, he became addicted to an online fantasy game in which opposing factions battle for power and treasure in a vast cyber realm. Like many serious gamers, he began routinely purchasing virtual gold pieces and other desirables from Chinese gold farmers—young professional players in Asia who accumulated virtual weapons and armor to sell to busy American and European buyers.<br /><br />For Richard, the game was the perfect opportunity to launder his aging hundred dollar bills and begin his own high-tech start up—a venture that has morphed into a Fortune 500 computer gaming group, Corporation 9592, with its own super successful online role-playing game, T’Rain. But the line between fantasy and reality becomes dangerously blurred when a young gold farmer accidently triggers a virtual war for dominance—and Richard is caught at the center.<br /><br />In this edgy, 21st century tale, Neal Stephenson, one of the most ambitious and prophetic writers of our time, returns to the terrain of his cyberpunk masterpieces <i>Snow Crash</i> and <i>Cryptonomicon</i>, leading readers through the looking glass and into the dark heart of imagination."
+          },
+          "book": {
+            "_attributes": {
+              "id": "10552338"
+            },
+            "num_pages": {
+              "_text": "1044"
+            }
+          },
+          "author_name": {
+            "_text": "Neal Stephenson"
+          },
+          "isbn": {
+            "_text": "0061977969"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "3"
+          },
+          "user_read_at": {
+            "_cdata": "Mon, 01 Oct 2012 00:00:00 -0700"
+          },
+          "user_date_added": {
+            "_cdata": "Fri, 23 Nov 2012 22:07:02 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Wed, 03 Oct 2012 00:49:02 -0700"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.96"
+          },
+          "book_published": {
+            "_text": "2011"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/10552338-reamde?utm_medium=api&amp;utm_source=rss\"><img alt=\"Reamde\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1305993115l/10552338._SY75_.jpg\" /></a><br/>\n                                      author: Neal Stephenson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.96<br/>\n                                      book published: 2011<br/>\n                                      rating: 3<br/>\n                                      read at: 2012/10/01<br/>\n                                      date added: 2012/11/23<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/281322228?utm_medium=api&utm_source=rss"

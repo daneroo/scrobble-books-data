@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Sat, 30 May 2020 23:55:06 -0700"
+        "_text": "Sat, 30 May 2020 23:56:06 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3366095904?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sat, 30 May 2020 23:56:06 -0700"
+          },
+          "title": {
+            "_text": "Fahrenheit 451"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3366095904?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "4381"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1351643740l/4381._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1351643740l/4381._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1351643740l/4381._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1351643740l/4381.jpg"
+          },
+          "book_description": {
+            "_cdata": "Fahrenheit 451 ofrece la historia de un sombrío y horroroso futuro. Montag, el protagonista, pertenece a una extraña brigada de bomberos cuya misión, paradójicamente, no es la de sofocar incendios sino la de provocarlos, para quemar libros. Porque en el país de Montag está terminantemente prohibido leer. Porque leer obliga a pensar, y en el país de Montag esta prohibido pensar. Porque leer impide ser ingenuamente feliz, y en el país de Montag hay que ser feliz a la fuerza..."
+          },
+          "book": {
+            "_attributes": {
+              "id": "4381"
+            },
+            "num_pages": {
+              "_text": "175"
+            }
+          },
+          "author_name": {
+            "_text": "Ray Bradbury"
+          },
+          "isbn": {
+            "_text": "0307347974"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Sat, 30 May 2020 23:56:06 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Sat, 30 May 2020 23:56:05 -0700"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.96"
+          },
+          "book_published": {
+            "_text": "1953"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/4381.Fahrenheit_451?utm_medium=api&amp;utm_source=rss\"><img alt=\"Fahrenheit 451\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1351643740l/4381._SY75_.jpg\" /></a><br/>\n                                      author: Ray Bradbury<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.96<br/>\n                                      book published: 1953<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2020/05/30<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/3366094999?utm_medium=api&utm_source=rss"
@@ -7116,78 +7188,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/326025.Roads_to_Santiago?utm_medium=api&amp;utm_source=rss\"><img alt=\"Roads to Santiago\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347581040l/326025._SY75_.jpg\" /></a><br/>\n                                      author: Cees Nooteboom<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.83<br/>\n                                      book published: 1992<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2015/12/20<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/1460303111?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Fri, 04 Dec 2015 18:05:24 -0800"
-          },
-          "title": {
-            "_text": "The Last Days of the Incas"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/1460303111?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "354038"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388849701l/354038._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388849701l/354038._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388849701l/354038._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388849701l/354038.jpg"
-          },
-          "book_description": {
-            "_cdata": "Kim MacQuarrie lived in Peru for five years and became fascinated by the Incas and the history of the Spanish conquest. Drawing on both native and Spanish chronicles, he vividly describes the dramatic story of the conquest, with all its savagery and suspense. This authoritative, exciting history is among the most powerful and important accounts of the culture of the South American Indians and the Spanish Conquest."
-          },
-          "book": {
-            "_attributes": {
-              "id": "354038"
-            },
-            "num_pages": {
-              "_text": "522"
-            }
-          },
-          "author_name": {
-            "_text": "Kim MacQuarrie"
-          },
-          "isbn": {
-            "_text": "074326049X"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Fri, 04 Dec 2015 18:05:24 -0800"
-          },
-          "user_date_created": {
-            "_cdata": "Fri, 04 Dec 2015 18:05:23 -0800"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.14"
-          },
-          "book_published": {
-            "_text": "2007"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/354038.The_Last_Days_of_the_Incas?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Last Days of the Incas\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388849701l/354038._SY75_.jpg\" /></a><br/>\n                                      author: Kim MacQuarrie<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.14<br/>\n                                      book published: 2007<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2015/12/04<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]
