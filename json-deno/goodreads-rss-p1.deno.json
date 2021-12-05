@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Sat, 04 Dec 2021 23:16:09 -0800"
+        "_text": "Sun, 05 Dec 2021 01:13:17 -0800"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4372251609?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sun, 05 Dec 2021 01:13:17 -0800"
+          },
+          "title": {
+            "_cdata": "Four Thousand Weeks: Time Management for Mortals"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4372251609?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "54785515"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1627425434l/54785515._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1627425434l/54785515._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1627425434l/54785515._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1627425434l/54785515._SY475_.jpg"
+          },
+          "book_description": {
+            "_cdata": "The average human lifespan is absurdly, insultingly brief. Assuming you live to be eighty, you have just over four thousand weeks.<br /><br />Nobody needs telling there isn’t enough time. We’re obsessed with our lengthening to-do lists, our overfilled inboxes, work-life balance, and the ceaseless battle against distraction; and we’re deluged with advice on becoming more productive and efficient, and “life hacks” to optimize our days. But such techniques often end up making things worse. The sense of anxious hurry grows more intense, and still the most meaningful parts of life seem to lie just beyond the horizon. Still, we rarely make the connection between our daily struggles with time and the ultimate time management problem: the challenge of how best to use our four thousand weeks.<br /><br />Drawing on the insights of both ancient and contemporary philosophers, psychologists, and spiritual teachers, Oliver Burkeman delivers an entertaining, humorous, practical, and ultimately profound guide to time and time management. Rejecting the futile modern fixation on “getting everything done,” <i>Four Thousand Weeks </i>introduces readers to tools for constructing a meaningful life by embracing finitude, showing how many of the unhelpful ways we’ve come to think about time aren’t inescapable, unchanging truths, but choices we’ve made as individuals and as a society—and that we could do things differently."
+          },
+          "book": {
+            "_attributes": {
+              "id": "54785515"
+            },
+            "num_pages": {
+              "_text": "288"
+            }
+          },
+          "author_name": {
+            "_text": "Oliver Burkeman"
+          },
+          "isbn": {
+            "_text": "0374159122"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Sun, 05 Dec 2021 01:13:17 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Sun, 05 Dec 2021 01:12:57 -0800"
+          },
+          "user_shelves": {
+            "_text": "on-deck"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.31"
+          },
+          "book_published": {
+            "_text": "2021"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/54785515-four-thousand-weeks?utm_medium=api&amp;utm_source=rss\"><img alt=\"Four Thousand Weeks: Time Management for Mortals\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1627425434l/54785515._SY75_.jpg\" /></a><br/>\n                                      author: Oliver Burkeman<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.31<br/>\n                                      book published: 2021<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/12/05<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/4372168287?utm_medium=api&utm_source=rss"
@@ -7136,78 +7208,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/150131.The_First_Three_Minutes?utm_medium=api&amp;utm_source=rss\"><img alt=\"The First Three Minutes: A Modern View of the Origin of the Universe\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348184740l/150131._SY75_.jpg\" /></a><br/>\n                                      author: Steven Weinberg<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.10<br/>\n                                      book published: 1977<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/08/04<br/>\n                                      date added: 2021/08/04<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/4151576109?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Mon, 02 Aug 2021 22:46:51 -0700"
-          },
-          "title": {
-            "_text": "Cosmology"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/4151576109?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "2607710"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348592200l/2607710._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348592200l/2607710._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348592200l/2607710._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348592200l/2607710.jpg"
-          },
-          "book_description": {
-            "_cdata": "This book is unique in the detailed, self-contained, and comprehensive treatment that it gives to the ideas and formulas that are used and tested in modern cosmological research. It divides into two parts, each of which provides enough material for a one-semester graduate course. The first part deals chiefly with the isotropic and homogeneous average universe; the second part concentrates on the departures from the average universe. Throughout the book the author presents detailed analytic calculations of cosmological phenomena, rather than just report results obtained elsewhere by numerical computation. The book is up to date, and gives detailed accounts of topics such as recombination, microwave background polarization, leptogenesis, gravitational lensing, structure formation, and multifield inflation, that are usually treated superficially if at all in treatises on cosmology. Copious references to current research literature are supplied. Appendices include a brief introduction to general relativity, and a detailed derivation of the Boltzmann equation for photons and neutrinos used in calculations of cosmological evolution. Also provided is an assortment of problems.<br />"
-          },
-          "book": {
-            "_attributes": {
-              "id": "2607710"
-            },
-            "num_pages": {
-              "_text": "616"
-            }
-          },
-          "author_name": {
-            "_text": "Steven Weinberg"
-          },
-          "isbn": {
-            "_text": "0198526822"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Mon, 02 Aug 2021 22:46:51 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Mon, 02 Aug 2021 22:45:26 -0700"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.38"
-          },
-          "book_published": {
-            "_text": "2008"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/2607710-cosmology?utm_medium=api&amp;utm_source=rss\"><img alt=\"Cosmology\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348592200l/2607710._SY75_.jpg\" /></a><br/>\n                                      author: Steven Weinberg<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.38<br/>\n                                      book published: 2008<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/08/02<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Fri, 23 Nov 2012 22:08:38 -0800"
+        "_text": "Fri, 23 Nov 2012 22:23:08 -0800"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,76 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/462243002?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Fri, 23 Nov 2012 22:23:08 -0800"
+          },
+          "title": {
+            "_cdata": "The Pillars of the Earth (Kingsbridge, #1)"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/462243002?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "5043"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1576956100l/5043._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1576956100l/5043._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1576956100l/5043._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1576956100l/5043.jpg"
+          },
+          "book_description": {
+            "_cdata": "<b>Ken Follett is known worldwide as the master of split-second suspense, but his most beloved and bestselling book tells the magnificent tale of a twelfth-century monk driven to do the seemingly impossible: build the greatest Gothic cathedral the world has ever known.</b><br /><br />Everything readers expect from Follett is here: intrigue, fast-paced action, and passionate romance. But what makes <i>The Pillars of the Earth</i> extraordinary is the time the twelfth century; the place feudal England; and the subject the building of a glorious cathedral. Follett has re-created the crude, flamboyant England of the Middle Ages in every detail. The vast forests, the walled towns, the castles, and the monasteries become a familiar landscape. <br /><br />Against this richly imagined and intricately interwoven backdrop, filled with the ravages of war and the rhythms of daily life, the master storyteller draws the reader irresistibly into the intertwined lives of his characters into their dreams, their labors, and their loves: Tom, the master builder; Aliena, the ravishingly beautiful noblewoman; Philip, the prior of Kingsbridge; Jack, the artist in stone; and Ellen, the woman of the forest who casts a terrifying curse. From humble stonemason to imperious monarch, each character is brought vividly to life.<br /><br />The building of the cathedral, with the almost eerie artistry of the unschooled stonemasons, is the center of the drama. Around the site of the construction, Follett weaves a story of betrayal, revenge, and love, which begins with the public hanging of an innocent man and ends with the humiliation of a king.<br /><br /><i>For the TV tie-in edition with the same ISBN go to this <a href=\"https://www.goodreads.com/book/show/17229203-the-pillars-of-the-earth\" rel=\"nofollow noopener\">Alternate Cover Edition</a></i><br />"
+          },
+          "book": {
+            "_attributes": {
+              "id": "5043"
+            },
+            "num_pages": {
+              "_text": "976"
+            }
+          },
+          "author_name": {
+            "_text": "Ken Follett"
+          },
+          "isbn": {},
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Fri, 23 Nov 2012 22:23:08 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Fri, 23 Nov 2012 22:23:08 -0800"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.31"
+          },
+          "book_published": {
+            "_text": "1989"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/5043.The_Pillars_of_the_Earth?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Pillars of the Earth (Kingsbridge, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1576956100l/5043._SY75_.jpg\" /></a><br/>\n                                      author: Ken Follett<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.31<br/>\n                                      book published: 1989<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2012/11/23<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/231375282?utm_medium=api&utm_source=rss"

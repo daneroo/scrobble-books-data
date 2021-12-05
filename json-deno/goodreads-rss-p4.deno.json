@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Wed, 24 Jun 2020 02:28:57 -0700"
+        "_text": "Thu, 09 Jul 2020 18:26:29 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3434909373?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Thu, 09 Jul 2020 18:26:29 -0700"
+          },
+          "title": {
+            "_cdata": "The Innovators: How a Group of Hackers, Geniuses and Geeks Created the Digital Revolution"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3434909373?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "21856367"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1410191571l/21856367._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1410191571l/21856367._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1410191571l/21856367._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1410191571l/21856367.jpg"
+          },
+          "book_description": {
+            "_cdata": "The computer and the internet are among the most important innovations of our era, but few people know who created them. They were not conjured up in a garret or garage by solo inventors suitable to be singled out on magazine covers or put into a pantheon with Edison, Bell, and Morse. Instead, most of the innovations of the digital age were done collaboratively. There were a lot of fascinating people involved, some ingenious and a few even geniuses. This is the story of these pioneers, hackers, inventors, and entrepreneurs—who they were, how their minds worked, and what made them so creative. It’s also a narrative of how they collaborated and why their ability to work as teams made them even more creative.”"
+          },
+          "book": {
+            "_attributes": {
+              "id": "21856367"
+            },
+            "num_pages": {
+              "_text": "542"
+            }
+          },
+          "author_name": {
+            "_text": "Walter Isaacson"
+          },
+          "isbn": {
+            "_text": "147670869X"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Thu, 09 Jul 2020 18:26:29 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Thu, 09 Jul 2020 18:26:29 -0700"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.02"
+          },
+          "book_published": {
+            "_text": "2014"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/21856367-the-innovators?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Innovators: How a Group of Hackers, Geniuses and Geeks Created the Digital Revolution\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1410191571l/21856367._SY75_.jpg\" /></a><br/>\n                                      author: Walter Isaacson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.02<br/>\n                                      book published: 2014<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2020/07/09<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/3288743562?utm_medium=api&utm_source=rss"
@@ -7116,78 +7188,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/5571.Cradle_to_Cradle?utm_medium=api&amp;utm_source=rss\"><img alt=\"Cradle to Cradle: Remaking the Way We Make Things\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1417605547l/5571._SY75_.jpg\" /></a><br/>\n                                      author: William McDonough<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.11<br/>\n                                      book published: 2002<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2016/03/19<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/1568320615?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Thu, 03 Mar 2016 17:11:56 -0800"
-          },
-          "title": {
-            "_cdata": "The Slow Regard of Silent Things (The Kingkiller Chronicle, #2.5)"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/1568320615?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "21535271"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1398466695l/21535271._SX50_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1398466695l/21535271._SX50_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1398466695l/21535271._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1398466695l/21535271.jpg"
-          },
-          "book_description": {
-            "_cdata": "Deep below the University, there is a dark place. Few people know of it: a broken web of ancient passageways and abandoned rooms. A young woman lives there, tucked among the sprawling tunnels of the Underthing, snug in the heart of this forgotten place.<br /><br />Her name is Auri, and she is full of mysteries.<br /><br /><i>The Slow Regard of Silent Things</i> is a brief, bittersweet glimpse of Auri’s life, a small adventure all her own. At once joyous and haunting, this story offers a chance to see the world through Auri’s eyes. And it gives the reader a chance to learn things that only Auri knows...<br /><br />In this book, Patrick Rothfuss brings us into the world of one of <i>The Kingkiller Chronicle’s</i> most enigmatic characters. Full of secrets and mysteries, <i>The Slow Regard of Silent Things</i> is the story of a broken girl trying to live in a broken world.<br /><br /><br /><b>AUTHOR’S FOREWORD</b><br /> <br />You might not want to buy this book.<br /><br />I know, that’s not the sort of thing an author is supposed to say. The marketing people aren’t going to like this. My editor is going to have a fit. But I’d rather be honest with you right out of the gate.<br /><br />First, if you haven’t read my other books, you don’t want to start here.<br /><br />My first two books are <i>The Name of the Wind</i> and <i>The Wise Man’s Fear</i>. If you’re curious to try my writing, start there. They’re the best introduction to my world. This book deals with Auri, one of the characters from that series. Without the context of those books, you’re probably going to feel pretty lost.<br /><br />Second, even if you have read my other books, I think it’s only fair to warn you that this is a bit of a strange story. I don’t go in for spoilers, but suffice to say that this one is ... different. It doesn’t do a lot of the things a classic story is supposed to do. And if you’re looking for a continuation of Kvothe’s storyline, you’re not going to find it here.<br /><br />On the other hand, if you’d like to learn more about Auri, this story has a lot to offer. If you love words and mysteries and secrets. If you’re curious about the Underthing and alchemy. If you want to know more about the hidden turnings of my world...<br /><br />Well, then this book might be for you.<br /><br />"
-          },
-          "book": {
-            "_attributes": {
-              "id": "21535271"
-            },
-            "num_pages": {
-              "_text": "159"
-            }
-          },
-          "author_name": {
-            "_text": "Patrick Rothfuss"
-          },
-          "isbn": {
-            "_text": "0756410436"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Thu, 03 Mar 2016 17:11:56 -0800"
-          },
-          "user_date_created": {
-            "_cdata": "Thu, 03 Mar 2016 17:11:55 -0800"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "3.89"
-          },
-          "book_published": {
-            "_text": "2014"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/21535271-the-slow-regard-of-silent-things?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Slow Regard of Silent Things (The Kingkiller Chronicle, #2.5)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1398466695l/21535271._SX50_.jpg\" /></a><br/>\n                                      author: Patrick Rothfuss<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.89<br/>\n                                      book published: 2014<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2016/03/03<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

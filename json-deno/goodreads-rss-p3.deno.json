@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Tue, 30 Mar 2021 16:11:05 -0700"
+        "_text": "Thu, 01 Apr 2021 12:08:53 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3888878317?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Thu, 01 Apr 2021 12:08:53 -0700"
+          },
+          "title": {
+            "_cdata": "Foundation and Empire (Foundation #2)"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3888878317?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "29581"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1391454612l/29581._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1391454612l/29581._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1391454612l/29581._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1391454612l/29581.jpg"
+          },
+          "book_description": {
+            "_cdata": "Foundation and Empire tells the incredible story of a new breed of man who create a new force for galactic government. Thus, the Foundation hurtles into conflict with the decadent, decrepit First Empire. In this struggle for power amid the chaos of the stars, man stands at the threshold of a new, enlightened life which could easily be put aside for the old forces of barbarism. The Foundation novels of Isaac Asimov constitute what is very likely the most famed epic in all of science-fiction"
+          },
+          "book": {
+            "_attributes": {
+              "id": "29581"
+            },
+            "num_pages": {
+              "_text": "244"
+            }
+          },
+          "author_name": {
+            "_text": "Isaac Asimov"
+          },
+          "isbn": {
+            "_text": "0553803727"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "4"
+          },
+          "user_read_at": {
+            "_cdata": "Thu, 01 Apr 2021 12:08:53 -0700"
+          },
+          "user_date_added": {
+            "_cdata": "Thu, 01 Apr 2021 12:08:53 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Sat, 13 Mar 2021 22:58:52 -0800"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.21"
+          },
+          "book_published": {
+            "_text": "1952"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/29581.Foundation_and_Empire?utm_medium=api&amp;utm_source=rss\"><img alt=\"Foundation and Empire (Foundation #2)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1391454612l/29581._SY75_.jpg\" /></a><br/>\n                                      author: Isaac Asimov<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.21<br/>\n                                      book published: 1952<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/04/01<br/>\n                                      date added: 2021/04/01<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/3917688595?utm_medium=api&utm_source=rss"
@@ -7114,78 +7186,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/2615.The_Innovator_s_Dilemma?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Innovator&#39;s Dilemma: The Revolutionary Book that Will Change the Way You Do Business\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347654027l/2615._SY75_.jpg\" /></a><br/>\n                                      author: Clayton M. Christensen<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.01<br/>\n                                      book published: 1997<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2020/07/09<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3434909373?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Thu, 09 Jul 2020 18:26:29 -0700"
-          },
-          "title": {
-            "_cdata": "The Innovators: How a Group of Hackers, Geniuses and Geeks Created the Digital Revolution"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3434909373?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "21856367"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1410191571l/21856367._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1410191571l/21856367._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1410191571l/21856367._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1410191571l/21856367.jpg"
-          },
-          "book_description": {
-            "_cdata": "The computer and the internet are among the most important innovations of our era, but few people know who created them. They were not conjured up in a garret or garage by solo inventors suitable to be singled out on magazine covers or put into a pantheon with Edison, Bell, and Morse. Instead, most of the innovations of the digital age were done collaboratively. There were a lot of fascinating people involved, some ingenious and a few even geniuses. This is the story of these pioneers, hackers, inventors, and entrepreneurs—who they were, how their minds worked, and what made them so creative. It’s also a narrative of how they collaborated and why their ability to work as teams made them even more creative.”"
-          },
-          "book": {
-            "_attributes": {
-              "id": "21856367"
-            },
-            "num_pages": {
-              "_text": "542"
-            }
-          },
-          "author_name": {
-            "_text": "Walter Isaacson"
-          },
-          "isbn": {
-            "_text": "147670869X"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Thu, 09 Jul 2020 18:26:29 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Thu, 09 Jul 2020 18:26:29 -0700"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.02"
-          },
-          "book_published": {
-            "_text": "2014"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/21856367-the-innovators?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Innovators: How a Group of Hackers, Geniuses and Geeks Created the Digital Revolution\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1410191571l/21856367._SY75_.jpg\" /></a><br/>\n                                      author: Walter Isaacson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.02<br/>\n                                      book published: 2014<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2020/07/09<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

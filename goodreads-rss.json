@@ -2,6 +2,28 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "guid": "https://www.goodreads.com/review/show/4372251609?utm_medium=api&utm_source=rss",
+      "pubDate": "2021-12-05T09:13:17.000Z",
+      "title": "Four Thousand Weeks: Time Management for Mortals",
+      "link": "https://www.goodreads.com/review/show/4372251609?utm_medium=api&utm_source=rss",
+      "bookId": "54785515",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1627425434l/54785515._SY75_.jpg",
+      "bookDescription": "The average human lifespan is absurdly, insultingly brief. Assuming you live to be eighty, you have just over four thousand weeks.<br /><br />Nobody needs telling there isn’t enough time. We’re obsessed with our lengthening to-do lists, our overfilled inboxes, work-life balance, and the ceaseless battle against distraction; and we’re deluged with advice on becoming more productive and efficient, and “life hacks” to optimize our days. But such techniques often end up making things worse. The sense of anxious hurry grows more intense, and still the most meaningful parts of life seem to lie just beyond the horizon. Still, we rarely make the connection between our daily struggles with time and the ultimate time management problem: the challenge of how best to use our four thousand weeks.<br /><br />Drawing on the insights of both ancient and contemporary philosophers, psychologists, and spiritual teachers, Oliver Burkeman delivers an entertaining, humorous, practical, and ultimately profound guide to time and time management. Rejecting the futile modern fixation on “getting everything done,” <i>Four Thousand Weeks </i>introduces readers to tools for constructing a meaningful life by embracing finitude, showing how many of the unhelpful ways we’ve come to think about time aren’t inescapable, unchanging truths, but choices we’ve made as individuals and as a society—and that we could do things differently.",
+      "authorName": "Oliver Burkeman",
+      "isbn": "0374159122",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2021-12-05T09:13:17.000Z",
+      "userDateCreated": "2021-12-05T09:12:57.000Z",
+      "userShelves": "on-deck",
+      "userReview": "",
+      "averageRating": "4.31",
+      "bookPublished": "2021",
+      "description": "\n      <a href=\"https://www.goodreads.com/book/show/54785515-four-thousand-weeks?utm_medium=api&amp;utm_source=rss\"><img alt=\"Four Thousand Weeks: Time Management for Mortals\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1627425434l/54785515._SY75_.jpg\" /></a><br/>\n                                      author: Oliver Burkeman<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.31<br/>\n                                      book published: 2021<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/12/05<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      ",
+      "numPages": "288"
+    },
+    {
       "guid": "https://www.goodreads.com/review/show/4372168287?utm_medium=api&utm_source=rss",
       "pubDate": "2021-12-05T07:16:09.000Z",
       "title": "The Antidote: Happiness for People Who Can't Stand Positive Thinking",
