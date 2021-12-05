@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Sun, 01 Aug 2021 22:25:32 -0700"
+        "_text": "Mon, 02 Aug 2021 22:46:43 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,150 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4151577395?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Mon, 02 Aug 2021 22:46:43 -0700"
+          },
+          "title": {
+            "_cdata": "The Quantum Theory of Fields: Volume I, Foundations"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4151577395?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "150127"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1389079411l/150127._SX50_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1389079411l/150127._SX50_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1389079411l/150127._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1389079411l/150127.jpg"
+          },
+          "book_description": {
+            "_cdata": "In The Quantum Theory of Fields, Nobel Laureate Steven Weinberg combines his exceptional physical insight with his gift for clear exposition to provide a self-contained, comprehensive, and up-to-date introduction to quantum field theory. This is a two-volume work. Volume I introduces the foundations of quantum field theory. The development is fresh and logical throughout, with each step carefully motivated by what has gone before, and emphasizing the reasons why such a theory should describe nature. After a brief historical outline, the book begins anew with the principles about which we are most certain, relativity and quantum mechanics, and the properties of particles that follow from these principles. Quantum field theory emerges from this as a natural consequence. The author presents the classic calculations of quantum electrodynamics in a thoroughly modern way, showing the use of path integrals and dimensional regularization. His account of renormalization theory reflects the changes in our view of quantum field theory since the advent of effective field theories. The book's scope extends beyond quantum electrodynamics to elementary particle physics, and nuclear physics. It contains much original material, and is peppered with examples and insights drawn from the author's experience as a leader of elementary particle research. Problems are included at the end of each chapter. This work will be an invaluable reference for all physicists and mathematicians who use quantum field theory, and it is also appropriate as a textbook for graduate students in this area."
+          },
+          "book": {
+            "_attributes": {
+              "id": "150127"
+            },
+            "num_pages": {
+              "_text": "640"
+            }
+          },
+          "author_name": {
+            "_text": "Steven Weinberg"
+          },
+          "isbn": {
+            "_text": "0521670535"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Mon, 02 Aug 2021 22:46:43 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Mon, 02 Aug 2021 22:46:43 -0700"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.37"
+          },
+          "book_published": {
+            "_text": "1995"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/150127.The_Quantum_Theory_of_Fields?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Quantum Theory of Fields: Volume I, Foundations\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1389079411l/150127._SX50_.jpg\" /></a><br/>\n                                      author: Steven Weinberg<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.37<br/>\n                                      book published: 1995<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/08/02<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4151576492?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Mon, 02 Aug 2021 22:45:51 -0700"
+          },
+          "title": {
+            "_cdata": "Gravitation and Cosmology: Principles and Applications of the General Theory of Relativity"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4151576492?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "150134"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348383911l/150134._SX50_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348383911l/150134._SX50_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348383911l/150134._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348383911l/150134.jpg"
+          },
+          "book_description": {
+            "_cdata": "<strong>A leading physicist delves into relativity and experimental applications</strong><br /><br /><em>Gravitation and Cosmology: Principles and Applications of the General Theory of Relativity</em> offers a Nobel laureate's perspectives on the wealth of data technological developments have brought to expand upon Einstein's theory. Unique in basing relativity on the Principle of Equivalence of Gravitation and Inertia over Riemannian geometry, this book explores relativity experiments and observational cosmology to provide a sound foundation upon which analyses can be made. Covering special and general relativity, tensor analysis, gravitation, curvature, and more, this book provides an engaging, insightful introduction to the forces that shape the universe."
+          },
+          "book": {
+            "_attributes": {
+              "id": "150134"
+            },
+            "num_pages": {
+              "_text": "688"
+            }
+          },
+          "author_name": {
+            "_text": "Steven Weinberg"
+          },
+          "isbn": {
+            "_text": "0471925675"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Mon, 02 Aug 2021 22:45:51 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Mon, 02 Aug 2021 22:45:51 -0700"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.51"
+          },
+          "book_published": {
+            "_text": "1972"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/150134.Gravitation_and_Cosmology?utm_medium=api&amp;utm_source=rss\"><img alt=\"Gravitation and Cosmology: Principles and Applications of the General Theory of Relativity\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348383911l/150134._SX50_.jpg\" /></a><br/>\n                                      author: Steven Weinberg<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.51<br/>\n                                      book published: 1972<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/08/02<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/3299213794?utm_medium=api&utm_source=rss"
@@ -7090,148 +7234,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/29581.Foundation_and_Empire?utm_medium=api&amp;utm_source=rss\"><img alt=\"Foundation and Empire (Foundation #2)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1391454612l/29581._SY75_.jpg\" /></a><br/>\n                                      author: Isaac Asimov<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.21<br/>\n                                      book published: 1952<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/04/01<br/>\n                                      date added: 2021/04/01<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3917688595?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Tue, 30 Mar 2021 16:11:05 -0700"
-          },
-          "title": {
-            "_cdata": "The Culture Map: Breaking Through the Invisible Boundaries of Global Business"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3917688595?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "22085568"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1488319495l/22085568._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1488319495l/22085568._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1488319495l/22085568._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1488319495l/22085568._SY475_.jpg"
-          },
-          "book_description": {
-            "_cdata": "<div>Whether you work in a home office or abroad, business success in our ever more globalized and virtual world requires the skills to navigate through cultural differences and decode cultures foreign to your own. Renowned expert Erin Meyer is your guide through this subtle, sometimes treacherous terrain where people from starkly different backgrounds are expected to work harmoniously together.<br /><br />When you have Americans who precede anything negative with three nice comments; French, Dutch, Israelis, and Germans who get straight to the point (“your presentation was simply awful”); Latin Americans and Asians who are steeped in hierarchy; Scandinavians who think the best boss is just one of the crowd—the result can be, well, sometimes interesting, even funny, but often disastrous.<br /><br />Even with English as a global language, it’s easy to fall into cultural traps that endanger careers and sink deals when, say, a Brazilian manager tries to fathom how his Chinese suppliers really get things done, or an American team leader tries to get a handle on the intra-team dynamics between his Russian and Indian team members.<br /><br />In <i>The Culture Map</i>, Erin Meyer provides a field-tested model for decoding how cultural differences impact international business. She combines a smart analytical framework with practical, actionable advice for succeeding in a global world.</div>"
-          },
-          "book": {
-            "_attributes": {
-              "id": "22085568"
-            },
-            "num_pages": {
-              "_text": "290"
-            }
-          },
-          "author_name": {
-            "_text": "Erin Meyer"
-          },
-          "isbn": {},
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Tue, 30 Mar 2021 16:11:05 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Tue, 30 Mar 2021 16:11:05 -0700"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.26"
-          },
-          "book_published": {
-            "_text": "2014"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/22085568-the-culture-map?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Culture Map: Breaking Through the Invisible Boundaries of Global Business\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1488319495l/22085568._SY75_.jpg\" /></a><br/>\n                                      author: Erin Meyer<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.26<br/>\n                                      book published: 2014<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/03/30<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3917645451?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Tue, 30 Mar 2021 15:39:30 -0700"
-          },
-          "title": {
-            "_cdata": "The Crusades: The Authoritative History of the War for the Holy Land"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3917645451?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "7282903"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348662175l/7282903._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348662175l/7282903._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348662175l/7282903._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348662175l/7282903.jpg"
-          },
-          "book_description": {
-            "_cdata": "<em>The Crusades </em>is an authoritative, accessible single-volume history of the brutal struggle for the Holy Land in the Middle Ages. Thomas Asbridge—a renowned historian who writes with “maximum vividness” (Joan Acocella, <em>The New Yorker</em>)—covers the years 1095 to 1291 in this  big, ambitious, readable account of one of the most fascinating periods in history. From Richard the Lionheart to the mighty Saladin, from the emperors of Byzantium to the Knights Templar, Asbridge’s book is a magnificent epic of Holy War between the Christian and Islamic worlds, full of adventure, intrigue, and sweeping grandeur<em>.</em>"
-          },
-          "book": {
-            "_attributes": {
-              "id": "7282903"
-            },
-            "num_pages": {
-              "_text": "784"
-            }
-          },
-          "author_name": {
-            "_text": "Thomas Asbridge"
-          },
-          "isbn": {
-            "_text": "0060787287"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Tue, 30 Mar 2021 15:39:30 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Tue, 30 Mar 2021 15:39:30 -0700"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.19"
-          },
-          "book_published": {
-            "_text": "2010"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/7282903-the-crusades?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Crusades: The Authoritative History of the War for the Holy Land\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348662175l/7282903._SY75_.jpg\" /></a><br/>\n                                      author: Thomas Asbridge<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.19<br/>\n                                      book published: 2010<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/03/30<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

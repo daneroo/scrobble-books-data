@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Fri, 04 Dec 2015 18:05:24 -0800"
+        "_text": "Thu, 03 Mar 2016 17:09:25 -0800"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,150 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/1568318779?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Thu, 03 Mar 2016 17:09:25 -0800"
+          },
+          "title": {
+            "_cdata": "Data and Goliath: The Hidden Battles to Collect Your Data and Control Your World"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/1568318779?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "22253747"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1417406473l/22253747._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1417406473l/22253747._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1417406473l/22253747._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1417406473l/22253747.jpg"
+          },
+          "book_description": {
+            "_cdata": "Your cell phone provider tracks your location and knows who’s with you. Your online and in-store purchasing patterns are recorded, and reveal if you're unemployed, sick, or pregnant. Your e-mails and texts expose your intimate and casual friends. Google knows what you’re thinking because it saves your private searches. Facebook can determine your sexual orientation without you ever mentioning it.<br /><br /><br />The powers that surveil us do more than simply store this information. Corporations use surveillance to manipulate not only the news articles and advertisements we each see, but also the prices we’re offered. Governments use surveillance to discriminate, censor, chill free speech, and put people in danger worldwide. And both sides share this information with each other or, even worse, lose it to cybercriminals in huge data breaches.<br /><br /><br />Much of this is voluntary: we cooperate with corporate surveillance because it promises us convenience, and we submit to government surveillance because it promises us protection. The result is a mass surveillance society of our own making. But have we given up more than we’ve gained? In <em>Data and Goliath</em>, security expert Bruce Schneier offers another path, one that values both security and privacy. He shows us exactly what we can do to reform our government surveillance programs and shake up surveillance-based business models, while also providing tips for you to protect your privacy every day. You'll never look at your phone, your computer, your credit cards, or even your car in the same way again."
+          },
+          "book": {
+            "_attributes": {
+              "id": "22253747"
+            },
+            "num_pages": {
+              "_text": "398"
+            }
+          },
+          "author_name": {
+            "_text": "Bruce Schneier"
+          },
+          "isbn": {
+            "_text": "0393244814"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Thu, 03 Mar 2016 17:09:25 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Thu, 03 Mar 2016 17:09:24 -0800"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.01"
+          },
+          "book_published": {
+            "_text": "2015"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/22253747-data-and-goliath?utm_medium=api&amp;utm_source=rss\"><img alt=\"Data and Goliath: The Hidden Battles to Collect Your Data and Control Your World\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1417406473l/22253747._SY75_.jpg\" /></a><br/>\n                                      author: Bruce Schneier<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.01<br/>\n                                      book published: 2015<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2016/03/03<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/1474915808?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sun, 20 Dec 2015 22:20:28 -0800"
+          },
+          "title": {
+            "_text": "Roads to Santiago"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/1474915808?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "326025"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347581040l/326025._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347581040l/326025._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347581040l/326025._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347581040l/326025.jpg"
+          },
+          "book_description": {
+            "_cdata": "Roads to Santiago is an evocative travelogue through the sights, sounds, and smells of a little known Spain-its architecture, art, history, landscapes, villages, and people. And as much as it is the story of his travels, it is an elegant and detailed chronicle of Cees Nooteboom's thirty-five-year love affair with his adopted second country. He presents a world not visible to the casual tourist, by invoking the great spirits of Spain's past-El Cid, Cervantes, Alfonso the Chaste and Alfonso the Wise, the ill-fated Hapsburgs, and Velázquez. Be it a discussion of his trip to the magnificent Prado Museum or his visit to the shrine of the Black Madonna of Guadalupe, Nooteboom writes with the depth and intelligence of an historian, the bravado of an adventurer, and the passion of a poet. Reminiscent of Robert Hughes's Barcelona, Roads to Santiago is the consummate portrait of Spain for all readers.<br />"
+          },
+          "book": {
+            "_attributes": {
+              "id": "326025"
+            },
+            "num_pages": {
+              "_text": "368"
+            }
+          },
+          "author_name": {
+            "_text": "Cees Nooteboom"
+          },
+          "isbn": {
+            "_text": "0156011581"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Sun, 20 Dec 2015 22:20:28 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Sun, 20 Dec 2015 22:20:28 -0800"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.83"
+          },
+          "book_published": {
+            "_text": "1992"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/326025.Roads_to_Santiago?utm_medium=api&amp;utm_source=rss\"><img alt=\"Roads to Santiago\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347581040l/326025._SY75_.jpg\" /></a><br/>\n                                      author: Cees Nooteboom<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.83<br/>\n                                      book published: 1992<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2015/12/20<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/1460303111?utm_medium=api&utm_source=rss"
@@ -7028,148 +7172,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/5043.The_Pillars_of_the_Earth?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Pillars of the Earth (Kingsbridge, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1576956100l/5043._SY75_.jpg\" /></a><br/>\n                                      author: Ken Follett<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.31<br/>\n                                      book published: 1989<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2012/11/23<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/231375282?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Fri, 23 Nov 2012 22:08:38 -0800"
-          },
-          "title": {
-            "_text": "The Assault on Reason"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/231375282?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "104287"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1433734110l/104287._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1433734110l/104287._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1433734110l/104287._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1433734110l/104287._SY475_.jpg"
-          },
-          "book_description": {
-            "_cdata": "New York Times bestseller: A visionary analysis of the degradation of our public sphere and its consequences for our democracy. Nobel Peace Prize winner, bestselling author, activist, and political icon, Al Gore has become one of the most respected and influential public intellectuals in America today. The Assault on Reason takes an unprecedented look at how faith in the power of reasonâ€\"the idea that citizens can govern themselves through rational debate"
-          },
-          "book": {
-            "_attributes": {
-              "id": "104287"
-            },
-            "num_pages": {
-              "_text": "273"
-            }
-          },
-          "author_name": {
-            "_text": "Al Gore"
-          },
-          "isbn": {
-            "_text": "1594201226"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "3"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Fri, 23 Nov 2012 22:08:38 -0800"
-          },
-          "user_date_created": {
-            "_cdata": "Sat, 05 Nov 2011 00:19:50 -0700"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "3.79"
-          },
-          "book_published": {
-            "_text": "2007"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/104287.The_Assault_on_Reason?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Assault on Reason\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1433734110l/104287._SY75_.jpg\" /></a><br/>\n                                      author: Al Gore<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.79<br/>\n                                      book published: 2007<br/>\n                                      rating: 3<br/>\n                                      read at: <br/>\n                                      date added: 2012/11/23<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/272384900?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Fri, 23 Nov 2012 22:08:07 -0800"
-          },
-          "title": {
-            "_text": "Anathem"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/272384900?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "2845024"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1488349209l/2845024._SX50_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1488349209l/2845024._SX50_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1488349209l/2845024._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1488349209l/2845024._SX318_.jpg"
-          },
-          "book_description": {
-            "_cdata": "Fraa Erasmas is a young avout living in the Concent of Saunt Edhar, a sanctuary for mathematicians, scientists, and philosophers, protected from the corrupting influences of the outside \"saecular\" world by ancient stone, honored traditions, and complex rituals. Over the centuries, cities and governments have risen and fallen beyond the concent's walls. Three times during history's darkest epochs violence born of superstition and ignorance has invaded and devastated the cloistered mathic community. Yet the avout have always managed to adapt in the wake of catastrophe, becoming out of necessity even more austere and less dependent on technology and material things. And Erasmas has no fear of the outside—the Extramuros—for the last of the terrible times was long, long ago.<br /><br />Now, in celebration of the week-long, once-in-a-decade rite of Apert, the fraas and suurs prepare to venture beyond the concent's gates—at the same time opening them wide to welcome the curious \"extras\" in. During his first Apert as a fraa, Erasmas eagerly anticipates reconnecting with the landmarks and family he hasn't seen since he was \"collected.\" But before the week is out, both the existence he abandoned and the one he embraced will stand poised on the brink of cataclysmic change.<br /><br />Powerful unforeseen forces jeopardize the peaceful stability of mathic life and the established ennui of the Extramuros—a threat that only an unsteady alliance of saecular and avout can oppose—as, one by one, Erasmas and his colleagues, teachers, and friends are summoned forth from the safety of the concent in hopes of warding off global disaster. Suddenly burdened with a staggering responsibility, Erasmas finds himself a major player in a drama that will determine the future of his world—as he sets out on an extraordinary odyssey that will carry him to the most dangerous, inhospitable corners of the planet . . . and beyond."
-          },
-          "book": {
-            "_attributes": {
-              "id": "2845024"
-            },
-            "num_pages": {
-              "_text": "937"
-            }
-          },
-          "author_name": {
-            "_text": "Neal Stephenson"
-          },
-          "isbn": {
-            "_text": "0061474096"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "4"
-          },
-          "user_read_at": {
-            "_cdata": "Tue, 21 Feb 2012 00:10:34 -0800"
-          },
-          "user_date_added": {
-            "_cdata": "Fri, 23 Nov 2012 22:08:07 -0800"
-          },
-          "user_date_created": {
-            "_cdata": "Sat, 04 Feb 2012 16:28:56 -0800"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.13"
-          },
-          "book_published": {
-            "_text": "2008"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/2845024-anathem?utm_medium=api&amp;utm_source=rss\"><img alt=\"Anathem\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1488349209l/2845024._SX50_.jpg\" /></a><br/>\n                                      author: Neal Stephenson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.13<br/>\n                                      book published: 2008<br/>\n                                      rating: 4<br/>\n                                      read at: 2012/02/21<br/>\n                                      date added: 2012/11/23<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

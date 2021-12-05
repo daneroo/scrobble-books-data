@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Sat, 30 May 2020 23:56:06 -0700"
+        "_text": "Wed, 24 Jun 2020 02:28:57 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,150 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3288743562?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Wed, 24 Jun 2020 02:28:57 -0700"
+          },
+          "title": {
+            "_cdata": "A Fire Upon the Deep (Zones of Thought, #1)"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3288743562?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "77711"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1333915005l/77711._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1333915005l/77711._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1333915005l/77711._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1333915005l/77711.jpg"
+          },
+          "book_description": {
+            "_cdata": "<i>Alternate Cover Edition can be found <a href=\"https://www.goodreads.com/book/show/13551450-a-fire-upon-the-deep\" rel=\"nofollow noopener\">here</a>. </i><br /><br /><i>A Fire upon the Deep</i> is the big, breakout book that fulfills the promise of Vinge's career to date: a gripping tale of galactic war told on a cosmic scale.<br /><br />Thousands of years hence, many races inhabit a universe where a mind's potential is determined by its location in space, from superintelligent entities in the Transcend, to the limited minds of the Unthinking Depths, where only simple creatures and technology can function. Nobody knows what strange force partitioned space into these \"regions of thought,\" but when the warring Straumli realm use an ancient Transcendent artifact as a weapon, they unwittingly unleash an awesome power that destroys thousands of worlds and enslaves all natural and artificial intelligence.<br /><br />Fleeing the threat, a family of scientists, including two children, are taken captive by the Tines, an alien race with a harsh medieval culture, and used as pawns in a ruthless power struggle. A rescue mission, not entirely composed of humans, must rescue the children-and a secret that may save the rest of interstellar civilization."
+          },
+          "book": {
+            "_attributes": {
+              "id": "77711"
+            },
+            "num_pages": {
+              "_text": "613"
+            }
+          },
+          "author_name": {
+            "_text": "Vernor Vinge"
+          },
+          "isbn": {
+            "_text": "0812515285"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "5"
+          },
+          "user_read_at": {
+            "_cdata": "Wed, 24 Jun 2020 02:28:57 -0700"
+          },
+          "user_date_added": {
+            "_cdata": "Wed, 24 Jun 2020 02:28:57 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Sat, 18 Apr 2020 21:43:52 -0700"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.13"
+          },
+          "book_published": {
+            "_text": "1992"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/77711.A_Fire_Upon_the_Deep?utm_medium=api&amp;utm_source=rss\"><img alt=\"A Fire Upon the Deep (Zones of Thought, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1333915005l/77711._SY75_.jpg\" /></a><br/>\n                                      author: Vernor Vinge<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.13<br/>\n                                      book published: 1992<br/>\n                                      rating: 5<br/>\n                                      read at: 2020/06/24<br/>\n                                      date added: 2020/06/24<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3408134523?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Tue, 23 Jun 2020 22:12:20 -0700"
+          },
+          "title": {
+            "_text": "Eon (The Way, #1)"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3408134523?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "840278"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388288738l/840278._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388288738l/840278._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388288738l/840278._SY160_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388288738l/840278.jpg"
+          },
+          "book_description": {
+            "_cdata": "The 21st century was on the brink of nuclear confrontation when the 300 kilometer-long stone flashed out of nothingness and into Earth's orbit. NASA, NATO, and the UN sent explorers to the asteroid's surface...and discovered marvels and mysteries to drive researchers mad.<br /><br />For the Stone was from space--but perhaps not <i>our </i>space; it came from the future--but perhaps not <i>our</i> future; and within the hollowed asteroid was Thistledown. The remains of a vanished civilization. A <i>human</i>--English, Russian, and Chinese-speaking--civilization. Seven vast chambers containing forests, lakes, rivers, hanging cities...<br /><br />And museums describing the Death; the catastrophic war that was about to occur; the horror and the long winter that would follow. But while scientists and politicians bickered about how to use the information to stop the Death, the Stone yielded a secret that made even Earth's survival pale into insignificance."
+          },
+          "book": {
+            "_attributes": {
+              "id": "840278"
+            },
+            "num_pages": {
+              "_text": "504"
+            }
+          },
+          "author_name": {
+            "_text": "Greg Bear"
+          },
+          "isbn": {
+            "_text": "0812520475"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Tue, 23 Jun 2020 22:12:20 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Tue, 23 Jun 2020 22:12:20 -0700"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.90"
+          },
+          "book_published": {
+            "_text": "1985"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/840278.Eon?utm_medium=api&amp;utm_source=rss\"><img alt=\"Eon (The Way, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388288738l/840278._SY75_.jpg\" /></a><br/>\n                                      author: Greg Bear<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.90<br/>\n                                      book published: 1985<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2020/06/23<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/3366095904?utm_medium=api&utm_source=rss"
@@ -7044,150 +7188,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/21535271-the-slow-regard-of-silent-things?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Slow Regard of Silent Things (The Kingkiller Chronicle, #2.5)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1398466695l/21535271._SX50_.jpg\" /></a><br/>\n                                      author: Patrick Rothfuss<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.89<br/>\n                                      book published: 2014<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2016/03/03<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/1568318779?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Thu, 03 Mar 2016 17:09:25 -0800"
-          },
-          "title": {
-            "_cdata": "Data and Goliath: The Hidden Battles to Collect Your Data and Control Your World"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/1568318779?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "22253747"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1417406473l/22253747._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1417406473l/22253747._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1417406473l/22253747._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1417406473l/22253747.jpg"
-          },
-          "book_description": {
-            "_cdata": "Your cell phone provider tracks your location and knows who’s with you. Your online and in-store purchasing patterns are recorded, and reveal if you're unemployed, sick, or pregnant. Your e-mails and texts expose your intimate and casual friends. Google knows what you’re thinking because it saves your private searches. Facebook can determine your sexual orientation without you ever mentioning it.<br /><br /><br />The powers that surveil us do more than simply store this information. Corporations use surveillance to manipulate not only the news articles and advertisements we each see, but also the prices we’re offered. Governments use surveillance to discriminate, censor, chill free speech, and put people in danger worldwide. And both sides share this information with each other or, even worse, lose it to cybercriminals in huge data breaches.<br /><br /><br />Much of this is voluntary: we cooperate with corporate surveillance because it promises us convenience, and we submit to government surveillance because it promises us protection. The result is a mass surveillance society of our own making. But have we given up more than we’ve gained? In <em>Data and Goliath</em>, security expert Bruce Schneier offers another path, one that values both security and privacy. He shows us exactly what we can do to reform our government surveillance programs and shake up surveillance-based business models, while also providing tips for you to protect your privacy every day. You'll never look at your phone, your computer, your credit cards, or even your car in the same way again."
-          },
-          "book": {
-            "_attributes": {
-              "id": "22253747"
-            },
-            "num_pages": {
-              "_text": "398"
-            }
-          },
-          "author_name": {
-            "_text": "Bruce Schneier"
-          },
-          "isbn": {
-            "_text": "0393244814"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Thu, 03 Mar 2016 17:09:25 -0800"
-          },
-          "user_date_created": {
-            "_cdata": "Thu, 03 Mar 2016 17:09:24 -0800"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.01"
-          },
-          "book_published": {
-            "_text": "2015"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/22253747-data-and-goliath?utm_medium=api&amp;utm_source=rss\"><img alt=\"Data and Goliath: The Hidden Battles to Collect Your Data and Control Your World\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1417406473l/22253747._SY75_.jpg\" /></a><br/>\n                                      author: Bruce Schneier<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.01<br/>\n                                      book published: 2015<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2016/03/03<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/1474915808?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sun, 20 Dec 2015 22:20:28 -0800"
-          },
-          "title": {
-            "_text": "Roads to Santiago"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/1474915808?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "326025"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347581040l/326025._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347581040l/326025._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347581040l/326025._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347581040l/326025.jpg"
-          },
-          "book_description": {
-            "_cdata": "Roads to Santiago is an evocative travelogue through the sights, sounds, and smells of a little known Spain-its architecture, art, history, landscapes, villages, and people. And as much as it is the story of his travels, it is an elegant and detailed chronicle of Cees Nooteboom's thirty-five-year love affair with his adopted second country. He presents a world not visible to the casual tourist, by invoking the great spirits of Spain's past-El Cid, Cervantes, Alfonso the Chaste and Alfonso the Wise, the ill-fated Hapsburgs, and Velázquez. Be it a discussion of his trip to the magnificent Prado Museum or his visit to the shrine of the Black Madonna of Guadalupe, Nooteboom writes with the depth and intelligence of an historian, the bravado of an adventurer, and the passion of a poet. Reminiscent of Robert Hughes's Barcelona, Roads to Santiago is the consummate portrait of Spain for all readers.<br />"
-          },
-          "book": {
-            "_attributes": {
-              "id": "326025"
-            },
-            "num_pages": {
-              "_text": "368"
-            }
-          },
-          "author_name": {
-            "_text": "Cees Nooteboom"
-          },
-          "isbn": {
-            "_text": "0156011581"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Sun, 20 Dec 2015 22:20:28 -0800"
-          },
-          "user_date_created": {
-            "_cdata": "Sun, 20 Dec 2015 22:20:28 -0800"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "3.83"
-          },
-          "book_published": {
-            "_text": "1992"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/326025.Roads_to_Santiago?utm_medium=api&amp;utm_source=rss\"><img alt=\"Roads to Santiago\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347581040l/326025._SY75_.jpg\" /></a><br/>\n                                      author: Cees Nooteboom<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.83<br/>\n                                      book published: 1992<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2015/12/20<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

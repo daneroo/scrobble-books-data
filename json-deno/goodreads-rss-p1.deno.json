@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Fri, 03 Dec 2021 14:27:14 -0800"
+        "_text": "Sat, 04 Dec 2021 23:16:09 -0800"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,150 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4372168287?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sat, 04 Dec 2021 23:16:09 -0800"
+          },
+          "title": {
+            "_cdata": "The Antidote: Happiness for People Who Can't Stand Positive Thinking"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4372168287?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "13721709"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1389478401l/13721709._SX50_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1389478401l/13721709._SX50_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1389478401l/13721709._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1389478401l/13721709.jpg"
+          },
+          "book_description": {
+            "_cdata": "A witty, fascinating, and counterintuitive read that turns decades of self-help advice on its head and forces us to rethink completely our attitudes toward failure, uncertainty, and death.<br /><br />The Antidote is a series of journeys among people who share a single, surprising way of thinking about life. What they have in common is a hunch about human psychology: that it's our constant effort to eliminate the negative that causes us to feel so anxious, insecure, and unhappy. And that there is an alternative \"negative path\" to happiness and success that involves embracing the things we spend our lives trying to avoid. It is a subversive, galvanizing message, which turns out to have a long and distinguished philosophical lineage ranging from ancient Roman Stoic philosophers to Buddhists. <br /><br />Oliver Burkeman talks to life coaches paid to make their clients' lives a living hell, and to maverick security experts such as Bruce Schneier, who contends that the changes we've made to airport and aircraft security since the 9/11 attacks have actually made us less safe. And then there are the \"backwards\" business gurus, who suggest not having any goals at all and not planning for a company's future. <br /><br />Burkeman's new book is a witty, fascinating, and counterintuitive read that turns decades of self-help advice on its head and forces us to rethink completely our attitudes toward failure, uncertainty, and death."
+          },
+          "book": {
+            "_attributes": {
+              "id": "13721709"
+            },
+            "num_pages": {
+              "_text": "256"
+            }
+          },
+          "author_name": {
+            "_text": "Oliver Burkeman"
+          },
+          "isbn": {
+            "_text": "1429947608"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Sat, 04 Dec 2021 23:16:09 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Sat, 04 Dec 2021 23:16:09 -0800"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.97"
+          },
+          "book_published": {
+            "_text": "2012"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/13721709-the-antidote?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Antidote: Happiness for People Who Can&#39;t Stand Positive Thinking\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1389478401l/13721709._SX50_.jpg\" /></a><br/>\n                                      author: Oliver Burkeman<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.97<br/>\n                                      book published: 2012<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/12/04<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4372152944?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sat, 04 Dec 2021 22:56:24 -0800"
+          },
+          "title": {
+            "_text": "SantaLand Diaries"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4372152944?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "178357"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1349066296l/178357._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1349066296l/178357._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1349066296l/178357._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1349066296l/178357.jpg"
+          },
+          "book_description": {
+            "_cdata": "'Santaland Diaries' contains six of David Sedaris' most profound Christmas stories, from Dinah, the Christmas Whore to Season's Greetings to our Friends and Family."
+          },
+          "book": {
+            "_attributes": {
+              "id": "178357"
+            },
+            "num_pages": {
+              "_text": "138"
+            }
+          },
+          "author_name": {
+            "_text": "David Sedaris"
+          },
+          "isbn": {
+            "_text": "0349119759"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Sat, 04 Dec 2021 22:56:24 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Sat, 04 Dec 2021 22:56:23 -0800"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.31"
+          },
+          "book_published": {
+            "_text": "1998"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/178357.SantaLand_Diaries?utm_medium=api&amp;utm_source=rss\"><img alt=\"SantaLand Diaries\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1349066296l/178357._SY75_.jpg\" /></a><br/>\n                                      author: David Sedaris<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.31<br/>\n                                      book published: 1998<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/12/04<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/4369990689?utm_medium=api&utm_source=rss"
@@ -7064,150 +7208,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/2607710-cosmology?utm_medium=api&amp;utm_source=rss\"><img alt=\"Cosmology\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348592200l/2607710._SY75_.jpg\" /></a><br/>\n                                      author: Steven Weinberg<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.38<br/>\n                                      book published: 2008<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/08/02<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/4151577395?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Mon, 02 Aug 2021 22:46:43 -0700"
-          },
-          "title": {
-            "_cdata": "The Quantum Theory of Fields: Volume I, Foundations"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/4151577395?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "150127"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1389079411l/150127._SX50_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1389079411l/150127._SX50_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1389079411l/150127._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1389079411l/150127.jpg"
-          },
-          "book_description": {
-            "_cdata": "In The Quantum Theory of Fields, Nobel Laureate Steven Weinberg combines his exceptional physical insight with his gift for clear exposition to provide a self-contained, comprehensive, and up-to-date introduction to quantum field theory. This is a two-volume work. Volume I introduces the foundations of quantum field theory. The development is fresh and logical throughout, with each step carefully motivated by what has gone before, and emphasizing the reasons why such a theory should describe nature. After a brief historical outline, the book begins anew with the principles about which we are most certain, relativity and quantum mechanics, and the properties of particles that follow from these principles. Quantum field theory emerges from this as a natural consequence. The author presents the classic calculations of quantum electrodynamics in a thoroughly modern way, showing the use of path integrals and dimensional regularization. His account of renormalization theory reflects the changes in our view of quantum field theory since the advent of effective field theories. The book's scope extends beyond quantum electrodynamics to elementary particle physics, and nuclear physics. It contains much original material, and is peppered with examples and insights drawn from the author's experience as a leader of elementary particle research. Problems are included at the end of each chapter. This work will be an invaluable reference for all physicists and mathematicians who use quantum field theory, and it is also appropriate as a textbook for graduate students in this area."
-          },
-          "book": {
-            "_attributes": {
-              "id": "150127"
-            },
-            "num_pages": {
-              "_text": "640"
-            }
-          },
-          "author_name": {
-            "_text": "Steven Weinberg"
-          },
-          "isbn": {
-            "_text": "0521670535"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Mon, 02 Aug 2021 22:46:43 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Mon, 02 Aug 2021 22:46:43 -0700"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.37"
-          },
-          "book_published": {
-            "_text": "1995"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/150127.The_Quantum_Theory_of_Fields?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Quantum Theory of Fields: Volume I, Foundations\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1389079411l/150127._SX50_.jpg\" /></a><br/>\n                                      author: Steven Weinberg<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.37<br/>\n                                      book published: 1995<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/08/02<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/4151576492?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Mon, 02 Aug 2021 22:45:51 -0700"
-          },
-          "title": {
-            "_cdata": "Gravitation and Cosmology: Principles and Applications of the General Theory of Relativity"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/4151576492?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "150134"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348383911l/150134._SX50_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348383911l/150134._SX50_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348383911l/150134._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348383911l/150134.jpg"
-          },
-          "book_description": {
-            "_cdata": "<strong>A leading physicist delves into relativity and experimental applications</strong><br /><br /><em>Gravitation and Cosmology: Principles and Applications of the General Theory of Relativity</em> offers a Nobel laureate's perspectives on the wealth of data technological developments have brought to expand upon Einstein's theory. Unique in basing relativity on the Principle of Equivalence of Gravitation and Inertia over Riemannian geometry, this book explores relativity experiments and observational cosmology to provide a sound foundation upon which analyses can be made. Covering special and general relativity, tensor analysis, gravitation, curvature, and more, this book provides an engaging, insightful introduction to the forces that shape the universe."
-          },
-          "book": {
-            "_attributes": {
-              "id": "150134"
-            },
-            "num_pages": {
-              "_text": "688"
-            }
-          },
-          "author_name": {
-            "_text": "Steven Weinberg"
-          },
-          "isbn": {
-            "_text": "0471925675"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Mon, 02 Aug 2021 22:45:51 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Mon, 02 Aug 2021 22:45:51 -0700"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.51"
-          },
-          "book_published": {
-            "_text": "1972"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/150134.Gravitation_and_Cosmology?utm_medium=api&amp;utm_source=rss\"><img alt=\"Gravitation and Cosmology: Principles and Applications of the General Theory of Relativity\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348383911l/150134._SX50_.jpg\" /></a><br/>\n                                      author: Steven Weinberg<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.51<br/>\n                                      book published: 1972<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/08/02<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]
