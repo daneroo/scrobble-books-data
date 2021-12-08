@@ -2,6 +2,28 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "guid": "https://www.goodreads.com/review/show/4325616157?utm_medium=api&utm_source=rss",
+      "pubDate": "2021-12-08T04:32:07.000Z",
+      "title": "The Plantagenets: The Warrior Kings and Queens Who Made England",
+      "link": "https://www.goodreads.com/review/show/4325616157?utm_medium=api&utm_source=rss",
+      "bookId": "15811559",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1366387829l/15811559._SX50_.jpg",
+      "bookDescription": "The first Plantagenet king inherited a blood-soaked kingdom from the Normans and transformed it into an empire stretched at its peak from Scotland to Jerusalem. In this epic history, Dan Jones vividly resurrects this fierce and seductive royal dynasty and its mythic world. <br /><br />We meet the captivating Eleanor of Aquitaine, twice queen and the most famous woman in Christendom; her son, Richard the Lionheart, who fought Saladin in the Third Crusade; and King John, a tyrant who was forced to sign Magna Carta, which formed the basis of our own Bill of Rights. <br /><br />This is the era of chivalry, of Robin Hood and the Knights Templar, the Black Death, the founding of Parliament, the Black Prince, and the Hundred Year’s War. It will appeal as much to readers of Tudor history as to fans of 'Game of Thrones.",
+      "authorName": "Dan Jones",
+      "isbn": "0670026654",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2021-12-08T04:32:07.000Z",
+      "userDateCreated": "2021-11-07T07:26:07.000Z",
+      "userShelves": "on-deck",
+      "userReview": "",
+      "averageRating": "4.18",
+      "bookPublished": "2012",
+      "description": "\n      <a href=\"https://www.goodreads.com/book/show/15811559-the-plantagenets?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Plantagenets: The Warrior Kings and Queens Who Made England\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1366387829l/15811559._SX50_.jpg\" /></a><br/>\n                                      author: Dan Jones<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.18<br/>\n                                      book published: 2012<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/12/07<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      ",
+      "numPages": "534"
+    },
+    {
       "guid": "https://www.goodreads.com/review/show/4372251609?utm_medium=api&utm_source=rss",
       "pubDate": "2021-12-07T05:51:18.000Z",
       "title": "Four Thousand Weeks: Time Management for Mortals",
@@ -528,28 +550,6 @@
       "bookPublished": "2014",
       "description": "\n      <a href=\"https://www.goodreads.com/book/show/20821029-the-wars-of-the-roses?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Wars of the Roses: The Fall of the Plantagenets and the Rise of the Tudors\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1396671577l/20821029._SY75_.jpg\" /></a><br/>\n                                      author: Dan Jones<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.25<br/>\n                                      book published: 2014<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/11/07<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      ",
       "numPages": "392"
-    },
-    {
-      "guid": "https://www.goodreads.com/review/show/4325616157?utm_medium=api&utm_source=rss",
-      "pubDate": "2021-11-07T07:26:07.000Z",
-      "title": "The Plantagenets: The Warrior Kings and Queens Who Made England",
-      "link": "https://www.goodreads.com/review/show/4325616157?utm_medium=api&utm_source=rss",
-      "bookId": "15811559",
-      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1366387829l/15811559._SX50_.jpg",
-      "bookDescription": "The first Plantagenet king inherited a blood-soaked kingdom from the Normans and transformed it into an empire stretched at its peak from Scotland to Jerusalem. In this epic history, Dan Jones vividly resurrects this fierce and seductive royal dynasty and its mythic world. <br /><br />We meet the captivating Eleanor of Aquitaine, twice queen and the most famous woman in Christendom; her son, Richard the Lionheart, who fought Saladin in the Third Crusade; and King John, a tyrant who was forced to sign Magna Carta, which formed the basis of our own Bill of Rights. <br /><br />This is the era of chivalry, of Robin Hood and the Knights Templar, the Black Death, the founding of Parliament, the Black Prince, and the Hundred Year’s War. It will appeal as much to readers of Tudor history as to fans of 'Game of Thrones.",
-      "authorName": "Dan Jones",
-      "isbn": "0670026654",
-      "userName": "Daniel",
-      "userRating": "0",
-      "userReadAt": "",
-      "userDateAdded": "2021-11-07T07:26:07.000Z",
-      "userDateCreated": "2021-11-07T07:26:07.000Z",
-      "userShelves": "to-read",
-      "userReview": "",
-      "averageRating": "4.18",
-      "bookPublished": "2012",
-      "description": "\n      <a href=\"https://www.goodreads.com/book/show/15811559-the-plantagenets?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Plantagenets: The Warrior Kings and Queens Who Made England\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1366387829l/15811559._SX50_.jpg\" /></a><br/>\n                                      author: Dan Jones<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.18<br/>\n                                      book published: 2012<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/11/07<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      ",
-      "numPages": "534"
     },
     {
       "guid": "https://www.goodreads.com/review/show/1199330721?utm_medium=api&utm_source=rss",
@@ -1778,9 +1778,9 @@
       "userDateCreated": "2021-06-11T09:11:13.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "4.58",
+      "averageRating": "4.57",
       "bookPublished": "2021",
-      "description": "\n      <a href=\"https://www.goodreads.com/book/show/55660735-hero-of-two-worlds?utm_medium=api&amp;utm_source=rss\"><img alt=\"Hero of Two Worlds: The Marquis de Lafayette in the Age of Revolution\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1610538038l/55660735._SY75_.jpg\" /></a><br/>\n                                      author: Mike Duncan<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.58<br/>\n                                      book published: 2021<br/>\n                                      rating: 5<br/>\n                                      read at: 2021/09/04<br/>\n                                      date added: 2021/09/04<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      ",
+      "description": "\n      <a href=\"https://www.goodreads.com/book/show/55660735-hero-of-two-worlds?utm_medium=api&amp;utm_source=rss\"><img alt=\"Hero of Two Worlds: The Marquis de Lafayette in the Age of Revolution\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1610538038l/55660735._SY75_.jpg\" /></a><br/>\n                                      author: Mike Duncan<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.57<br/>\n                                      book published: 2021<br/>\n                                      rating: 5<br/>\n                                      read at: 2021/09/04<br/>\n                                      date added: 2021/09/04<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      ",
       "numPages": "512"
     },
     {
@@ -3824,9 +3824,9 @@
       "userDateCreated": "2021-04-20T04:53:44.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "4.20",
+      "averageRating": "4.19",
       "bookPublished": "2018",
-      "description": "\n      <a href=\"https://www.goodreads.com/book/show/35696171-enlightenment-now?utm_medium=api&amp;utm_source=rss\"><img alt=\"Enlightenment Now: The Case for Reason, Science, Humanism, and Progress\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1502223499l/35696171._SY75_.jpg\" /></a><br/>\n                                      author: Steven Pinker<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.20<br/>\n                                      book published: 2018<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/04/29<br/>\n                                      date added: 2021/04/29<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      ",
+      "description": "\n      <a href=\"https://www.goodreads.com/book/show/35696171-enlightenment-now?utm_medium=api&amp;utm_source=rss\"><img alt=\"Enlightenment Now: The Case for Reason, Science, Humanism, and Progress\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1502223499l/35696171._SY75_.jpg\" /></a><br/>\n                                      author: Steven Pinker<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.19<br/>\n                                      book published: 2018<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/04/29<br/>\n                                      date added: 2021/04/29<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      ",
       "numPages": "576"
     },
     {
