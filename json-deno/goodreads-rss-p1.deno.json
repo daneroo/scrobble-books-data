@@ -25,11 +25,11 @@
         "_cdata": "Copyright (C) 2021 Goodreads Inc. All rights reserved."
       },
       "link": {
-        "_cdata": "https://www.goodreads.com/review/list_rss/6883912?key=9C2oDNblCg8nchKHD5aYs_gzgVmR5mpfiCi8B7WP0_IS0jMW&shelf=%23ALL%23&page=1"
+        "_cdata": "https://www.goodreads.com/review/list_rss/6883912?key=9C2oDNblCg8nchKHD5aYs_gzgVmR5mpfiCi8B7WP0_IS0jMW&shelf=%23ALL%23"
       },
       "atom:link": {
         "_attributes": {
-          "href": "https://www.goodreads.com/review/list_rss/6883912?key=9C2oDNblCg8nchKHD5aYs_gzgVmR5mpfiCi8B7WP0_IS0jMW&shelf=%23ALL%23&page=1",
+          "href": "https://www.goodreads.com/review/list_rss/6883912?key=9C2oDNblCg8nchKHD5aYs_gzgVmR5mpfiCi8B7WP0_IS0jMW&shelf=%23ALL%23",
           "rel": "self",
           "type": "application/rss+xml"
         }
@@ -51,7 +51,7 @@
           "_text": "Daniel's bookshelf: all"
         },
         "link": {
-          "_cdata": "https://www.goodreads.com/review/list_rss/6883912?key=9C2oDNblCg8nchKHD5aYs_gzgVmR5mpfiCi8B7WP0_IS0jMW&shelf=%23ALL%23&page=1"
+          "_cdata": "https://www.goodreads.com/review/list_rss/6883912?key=9C2oDNblCg8nchKHD5aYs_gzgVmR5mpfiCi8B7WP0_IS0jMW&shelf=%23ALL%23"
         },
         "width": {
           "_text": "144"
@@ -6053,11 +6053,11 @@
           "user_shelves": {},
           "user_review": {},
           "average_rating": {
-            "_text": "3.83"
+            "_text": "3.84"
           },
           "book_published": {},
           "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/54837100-the-science-of-can-and-can-t?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Science of Can and Can&#39;t: A Physicist&#39;s Journey Through the Land of Counterfactuals\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1616017771l/54837100._SY75_.jpg\" /></a><br/>\n                                      author: Chiara Marletto<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.83<br/>\n                                      book published: <br/>\n                                      rating: 4<br/>\n                                      read at: 2021/08/29<br/>\n                                      date added: 2021/08/29<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/54837100-the-science-of-can-and-can-t?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Science of Can and Can&#39;t: A Physicist&#39;s Journey Through the Land of Counterfactuals\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1616017771l/54837100._SY75_.jpg\" /></a><br/>\n                                      author: Chiara Marletto<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.84<br/>\n                                      book published: <br/>\n                                      rating: 4<br/>\n                                      read at: 2021/08/29<br/>\n                                      date added: 2021/08/29<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
           }
         },
         {
