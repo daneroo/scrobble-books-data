@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Tue, 07 Dec 2021 20:32:07 -0800"
+        "_text": "Sat, 11 Dec 2021 20:50:10 -0800"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4372251609?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sat, 11 Dec 2021 20:50:10 -0800"
+          },
+          "title": {
+            "_cdata": "Four Thousand Weeks: Time Management for Mortals"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4372251609?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "54785515"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1627425434l/54785515._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1627425434l/54785515._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1627425434l/54785515._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1627425434l/54785515._SY475_.jpg"
+          },
+          "book_description": {
+            "_cdata": "The average human lifespan is absurdly, insultingly brief. Assuming you live to be eighty, you have just over four thousand weeks.<br /><br />Nobody needs telling there isn’t enough time. We’re obsessed with our lengthening to-do lists, our overfilled inboxes, work-life balance, and the ceaseless battle against distraction; and we’re deluged with advice on becoming more productive and efficient, and “life hacks” to optimize our days. But such techniques often end up making things worse. The sense of anxious hurry grows more intense, and still the most meaningful parts of life seem to lie just beyond the horizon. Still, we rarely make the connection between our daily struggles with time and the ultimate time management problem: the challenge of how best to use our four thousand weeks.<br /><br />Drawing on the insights of both ancient and contemporary philosophers, psychologists, and spiritual teachers, Oliver Burkeman delivers an entertaining, humorous, practical, and ultimately profound guide to time and time management. Rejecting the futile modern fixation on “getting everything done,” <i>Four Thousand Weeks </i>introduces readers to tools for constructing a meaningful life by embracing finitude, showing how many of the unhelpful ways we’ve come to think about time aren’t inescapable, unchanging truths, but choices we’ve made as individuals and as a society—and that we could do things differently."
+          },
+          "book": {
+            "_attributes": {
+              "id": "54785515"
+            },
+            "num_pages": {
+              "_text": "288"
+            }
+          },
+          "author_name": {
+            "_text": "Oliver Burkeman"
+          },
+          "isbn": {
+            "_text": "0374159122"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Sat, 11 Dec 2021 20:50:10 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Sun, 05 Dec 2021 01:12:57 -0800"
+          },
+          "user_shelves": {
+            "_text": "currently-reading"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.32"
+          },
+          "book_published": {
+            "_text": "2021"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/54785515-four-thousand-weeks?utm_medium=api&amp;utm_source=rss\"><img alt=\"Four Thousand Weeks: Time Management for Mortals\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1627425434l/54785515._SY75_.jpg\" /></a><br/>\n                                      author: Oliver Burkeman<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.32<br/>\n                                      book published: 2021<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/12/11<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/4325616157?utm_medium=api&utm_source=rss"
@@ -134,78 +206,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/15811559-the-plantagenets?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Plantagenets: The Warrior Kings and Queens Who Made England\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1366387829l/15811559._SX50_.jpg\" /></a><br/>\n                                      author: Dan Jones<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.18<br/>\n                                      book published: 2012<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/12/07<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/4372251609?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Mon, 06 Dec 2021 21:51:18 -0800"
-          },
-          "title": {
-            "_cdata": "Four Thousand Weeks: Time Management for Mortals"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/4372251609?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "54785515"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1627425434l/54785515._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1627425434l/54785515._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1627425434l/54785515._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1627425434l/54785515._SY475_.jpg"
-          },
-          "book_description": {
-            "_cdata": "The average human lifespan is absurdly, insultingly brief. Assuming you live to be eighty, you have just over four thousand weeks.<br /><br />Nobody needs telling there isn’t enough time. We’re obsessed with our lengthening to-do lists, our overfilled inboxes, work-life balance, and the ceaseless battle against distraction; and we’re deluged with advice on becoming more productive and efficient, and “life hacks” to optimize our days. But such techniques often end up making things worse. The sense of anxious hurry grows more intense, and still the most meaningful parts of life seem to lie just beyond the horizon. Still, we rarely make the connection between our daily struggles with time and the ultimate time management problem: the challenge of how best to use our four thousand weeks.<br /><br />Drawing on the insights of both ancient and contemporary philosophers, psychologists, and spiritual teachers, Oliver Burkeman delivers an entertaining, humorous, practical, and ultimately profound guide to time and time management. Rejecting the futile modern fixation on “getting everything done,” <i>Four Thousand Weeks </i>introduces readers to tools for constructing a meaningful life by embracing finitude, showing how many of the unhelpful ways we’ve come to think about time aren’t inescapable, unchanging truths, but choices we’ve made as individuals and as a society—and that we could do things differently."
-          },
-          "book": {
-            "_attributes": {
-              "id": "54785515"
-            },
-            "num_pages": {
-              "_text": "288"
-            }
-          },
-          "author_name": {
-            "_text": "Oliver Burkeman"
-          },
-          "isbn": {
-            "_text": "0374159122"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Mon, 06 Dec 2021 21:51:18 -0800"
-          },
-          "user_date_created": {
-            "_cdata": "Sun, 05 Dec 2021 01:12:57 -0800"
-          },
-          "user_shelves": {
-            "_text": "currently-reading"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.32"
-          },
-          "book_published": {
-            "_text": "2021"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/54785515-four-thousand-weeks?utm_medium=api&amp;utm_source=rss\"><img alt=\"Four Thousand Weeks: Time Management for Mortals\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1627425434l/54785515._SY75_.jpg\" /></a><br/>\n                                      author: Oliver Burkeman<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.32<br/>\n                                      book published: 2021<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/12/06<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>\n                                      "
           }
         },
         {
