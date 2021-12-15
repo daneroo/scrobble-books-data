@@ -1185,13 +1185,13 @@
           "user_shelves": {},
           "user_review": {},
           "average_rating": {
-            "_text": "3.62"
+            "_text": "3.63"
           },
           "book_published": {
             "_text": "2011"
           },
           "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/12150875-a-strange-wilderness?utm_medium=api&amp;utm_source=rss\"><img alt=\"A Strange Wilderness: The Lives of the Great Mathematicians\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328767521l/12150875._SX50_.jpg\" /></a><br/>\n                                      author: Amir D. Aczel<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.62<br/>\n                                      book published: 2011<br/>\n                                      rating: 4<br/>\n                                      read at: <br/>\n                                      date added: 2011/11/10<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/12150875-a-strange-wilderness?utm_medium=api&amp;utm_source=rss\"><img alt=\"A Strange Wilderness: The Lives of the Great Mathematicians\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328767521l/12150875._SX50_.jpg\" /></a><br/>\n                                      author: Amir D. Aczel<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.63<br/>\n                                      book published: 2011<br/>\n                                      rating: 4<br/>\n                                      read at: <br/>\n                                      date added: 2011/11/10<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]
