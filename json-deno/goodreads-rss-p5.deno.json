@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Thu, 03 Mar 2016 17:11:56 -0800"
+        "_text": "Sat, 09 Apr 2016 20:37:17 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,150 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/1605858304?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sat, 09 Apr 2016 20:37:17 -0700"
+          },
+          "title": {
+            "_cdata": "Thing Explainer: Complicated Stuff in Simple Words"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/1605858304?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "25329850"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1431518396l/25329850._SX50_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1431518396l/25329850._SX50_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1431518396l/25329850._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1431518396l/25329850.jpg"
+          },
+          "book_description": {
+            "_cdata": "In <i>Thing Explainer: Complicated Stuff in Simple Words</i>, things are explained in the style of Up Goer Five, using only drawings and a vocabulary of the 1,000 (or \"ten hundred\") most common words. Explore computer buildings (datacenters), the flat rocks we live on (tectonic plates), the things you use to steer a plane (airliner cockpit controls), and the little bags of water you're made of (cells)."
+          },
+          "book": {
+            "_attributes": {
+              "id": "25329850"
+            },
+            "num_pages": {
+              "_text": "64"
+            }
+          },
+          "author_name": {
+            "_text": "Randall Munroe"
+          },
+          "isbn": {
+            "_text": "0544668251"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Sat, 09 Apr 2016 20:37:17 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Sat, 09 Apr 2016 20:37:16 -0700"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.14"
+          },
+          "book_published": {
+            "_text": "2015"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/25329850-thing-explainer?utm_medium=api&amp;utm_source=rss\"><img alt=\"Thing Explainer: Complicated Stuff in Simple Words\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1431518396l/25329850._SX50_.jpg\" /></a><br/>\n                                      author: Randall Munroe<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.14<br/>\n                                      book published: 2015<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2016/04/09<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/493223938?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sat, 19 Mar 2016 20:10:44 -0700"
+          },
+          "title": {
+            "_cdata": "Cradle to Cradle: Remaking the Way We Make Things"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/493223938?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "5571"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1417605547l/5571._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1417605547l/5571._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1417605547l/5571._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1417605547l/5571.jpg"
+          },
+          "book_description": {
+            "_cdata": "\"Reduce, reuse, recycle,\" urge environmentalists; in other words, do more with less in order to minimize damage. But as architect William McDonough and chemist Michael Braungart point out in this provocative, visionary book, such an approach only perpetuates the one-way, \"cradle to grave\" manufacturing model, dating to the Industrial Revolution, that creates such fantastic amounts of waste and pollution in the first place. Why not challenge the belief that human industry must damage the natural world? In fact, why not take nature itself as our model for making things? A tree produces thousands of blossoms in order to create another tree, yet we consider its abundance not wasteful but safe, beautiful, and highly effective.<br /><br /><b>Waste equals food.</b><br /> <br />Guided by this principle, McDonough and Braungart explain how products can be designed from the outset so that, after their useful lives, they will provide nourishment for something new. They can be conceived as \"biological nutrients\" that will easily reenter the water or soil without depositing synthetic materials and toxins. Or they can be \"technical nutrients\" that will continually circulate as pure and valuable materials within closed-loop industrial cycles, rather than being \"recycled\" -- really, downcycled -- into low-grade materials and uses. Drawing on their experience in (re)designing everything from carpeting to corporate campuses, McDonough and Braungart make an exciting and viable case for putting eco-effectiveness into practice, and show how anyone involved with making anything can begin to do as well."
+          },
+          "book": {
+            "_attributes": {
+              "id": "5571"
+            },
+            "num_pages": {
+              "_text": "193"
+            }
+          },
+          "author_name": {
+            "_text": "William McDonough"
+          },
+          "isbn": {
+            "_text": "0865475873"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Sat, 19 Mar 2016 20:10:44 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Wed, 02 Jan 2013 18:23:07 -0800"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.11"
+          },
+          "book_published": {
+            "_text": "2002"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/5571.Cradle_to_Cradle?utm_medium=api&amp;utm_source=rss\"><img alt=\"Cradle to Cradle: Remaking the Way We Make Things\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1417605547l/5571._SY75_.jpg\" /></a><br/>\n                                      author: William McDonough<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.11<br/>\n                                      book published: 2002<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2016/03/19<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/1568320615?utm_medium=api&utm_source=rss"
@@ -7030,150 +7174,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/9418327-bossypants?utm_medium=api&amp;utm_source=rss\"><img alt=\"Bossypants\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1481509554l/9418327._SY75_.jpg\" /></a><br/>\n                                      author: Tina Fey<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.95<br/>\n                                      book published: 2011<br/>\n                                      rating: 3<br/>\n                                      read at: <br/>\n                                      date added: 2012/12/19<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/469387006?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Wed, 19 Dec 2012 05:43:35 -0800"
-          },
-          "title": {
-            "_cdata": "Flow: The Psychology of Optimal Experience"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/469387006?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "66354"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1432253110l/66354._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1432253110l/66354._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1432253110l/66354._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1432253110l/66354._SY475_.jpg"
-          },
-          "book_description": {
-            "_cdata": "Psychologist Mihaly Csikszentmihalyi's investigations of \"optimal experience\" have revealed that what makes an experience genuinely satisfying is a state of consciousness called flow. During flow, people typically experience deep enjoyment, creativity, and a total involvement with life. Csikszentmihalyi demonstrates the ways this positive state can be controlled, not just left to chance. Flow: The Psychology of Optimal Experience teaches how, by ordering the information that enters our consciousness, we can discover true happiness, unlock our potential, and greatly improve the quality of our lives."
-          },
-          "book": {
-            "_attributes": {
-              "id": "66354"
-            },
-            "num_pages": {
-              "_text": "303"
-            }
-          },
-          "author_name": {
-            "_text": "Mihaly Csikszentmihalyi"
-          },
-          "isbn": {
-            "_text": "0060920432"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "4"
-          },
-          "user_read_at": {
-            "_cdata": "Wed, 19 Dec 2012 05:43:35 -0800"
-          },
-          "user_date_added": {
-            "_cdata": "Wed, 19 Dec 2012 05:43:35 -0800"
-          },
-          "user_date_created": {
-            "_cdata": "Mon, 03 Dec 2012 21:13:30 -0800"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.07"
-          },
-          "book_published": {
-            "_text": "1990"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/66354.Flow?utm_medium=api&amp;utm_source=rss\"><img alt=\"Flow: The Psychology of Optimal Experience\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1432253110l/66354._SY75_.jpg\" /></a><br/>\n                                      author: Mihaly Csikszentmihalyi<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.07<br/>\n                                      book published: 1990<br/>\n                                      rating: 4<br/>\n                                      read at: 2012/12/19<br/>\n                                      date added: 2012/12/19<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/462243109?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Tue, 04 Dec 2012 18:43:45 -0800"
-          },
-          "title": {
-            "_cdata": "Ender's Game (Ender's Saga, #1)"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/462243109?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "375802"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1408303130l/375802._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1408303130l/375802._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1408303130l/375802._SY160_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1408303130l/375802._SY475_.jpg"
-          },
-          "book_description": {
-            "_cdata": "Andrew \"Ender\" Wiggin thinks he is playing computer simulated war games; he is, in fact, engaged in something far more desperate. The result of genetic experimentation, Ender may be the military genius Earth desperately needs in a war against an alien enemy seeking to destroy all human life. The only way to find out is to throw Ender into ever harsher training, to chip away and find the diamond inside, or destroy him utterly. Ender Wiggin is six years old when it begins. He will grow up fast.<br /><br />But Ender is not the only result of the experiment. The war with the Buggers has been raging for a hundred years, and the quest for the perfect general has been underway almost as long. Ender's two older siblings, Peter and Valentine, are every bit as unusual as he is, but in very different ways. While Peter was too uncontrollably violent, Valentine very nearly lacks the capability for violence altogether. Neither was found suitable for the military's purpose. But they are driven by their jealousy of Ender, and by their inbred drive for power. Peter seeks to control the political process, to become a ruler. Valentine's abilities turn more toward the subtle control of the beliefs of commoner and elite alike, through powerfully convincing essays. Hiding their youth and identities behind the anonymity of the computer networks, these two begin working together to shape the destiny of Earth-an Earth that has no future at all if their brother Ender fails."
-          },
-          "book": {
-            "_attributes": {
-              "id": "375802"
-            },
-            "num_pages": {
-              "_text": "324"
-            }
-          },
-          "author_name": {
-            "_text": "Orson Scott Card"
-          },
-          "isbn": {
-            "_text": "0812550706"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "4"
-          },
-          "user_read_at": {
-            "_cdata": "Tue, 04 Dec 2012 18:43:44 -0800"
-          },
-          "user_date_added": {
-            "_cdata": "Tue, 04 Dec 2012 18:43:45 -0800"
-          },
-          "user_date_created": {
-            "_cdata": "Fri, 23 Nov 2012 22:23:26 -0800"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.30"
-          },
-          "book_published": {
-            "_text": "1985"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/375802.Ender_s_Game?utm_medium=api&amp;utm_source=rss\"><img alt=\"Ender&#39;s Game (Ender&#39;s Saga, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1408303130l/375802._SY75_.jpg\" /></a><br/>\n                                      author: Orson Scott Card<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.30<br/>\n                                      book published: 1985<br/>\n                                      rating: 4<br/>\n                                      read at: 2012/12/04<br/>\n                                      date added: 2012/12/04<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

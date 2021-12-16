@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Fri, 23 Nov 2012 22:23:08 -0800"
+        "_text": "Wed, 19 Dec 2012 05:43:35 -0800"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,150 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/469387006?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Wed, 19 Dec 2012 05:43:35 -0800"
+          },
+          "title": {
+            "_cdata": "Flow: The Psychology of Optimal Experience"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/469387006?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "66354"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1432253110l/66354._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1432253110l/66354._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1432253110l/66354._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1432253110l/66354._SY475_.jpg"
+          },
+          "book_description": {
+            "_cdata": "Psychologist Mihaly Csikszentmihalyi's investigations of \"optimal experience\" have revealed that what makes an experience genuinely satisfying is a state of consciousness called flow. During flow, people typically experience deep enjoyment, creativity, and a total involvement with life. Csikszentmihalyi demonstrates the ways this positive state can be controlled, not just left to chance. Flow: The Psychology of Optimal Experience teaches how, by ordering the information that enters our consciousness, we can discover true happiness, unlock our potential, and greatly improve the quality of our lives."
+          },
+          "book": {
+            "_attributes": {
+              "id": "66354"
+            },
+            "num_pages": {
+              "_text": "303"
+            }
+          },
+          "author_name": {
+            "_text": "Mihaly Csikszentmihalyi"
+          },
+          "isbn": {
+            "_text": "0060920432"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "4"
+          },
+          "user_read_at": {
+            "_cdata": "Wed, 19 Dec 2012 05:43:35 -0800"
+          },
+          "user_date_added": {
+            "_cdata": "Wed, 19 Dec 2012 05:43:35 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Mon, 03 Dec 2012 21:13:30 -0800"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.07"
+          },
+          "book_published": {
+            "_text": "1990"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/66354.Flow?utm_medium=api&amp;utm_source=rss\"><img alt=\"Flow: The Psychology of Optimal Experience\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1432253110l/66354._SY75_.jpg\" /></a><br/>\n                                      author: Mihaly Csikszentmihalyi<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.07<br/>\n                                      book published: 1990<br/>\n                                      rating: 4<br/>\n                                      read at: 2012/12/19<br/>\n                                      date added: 2012/12/19<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/462243109?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Tue, 04 Dec 2012 18:43:45 -0800"
+          },
+          "title": {
+            "_cdata": "Ender's Game (Ender's Saga, #1)"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/462243109?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "375802"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1408303130l/375802._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1408303130l/375802._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1408303130l/375802._SY160_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1408303130l/375802._SY475_.jpg"
+          },
+          "book_description": {
+            "_cdata": "Andrew \"Ender\" Wiggin thinks he is playing computer simulated war games; he is, in fact, engaged in something far more desperate. The result of genetic experimentation, Ender may be the military genius Earth desperately needs in a war against an alien enemy seeking to destroy all human life. The only way to find out is to throw Ender into ever harsher training, to chip away and find the diamond inside, or destroy him utterly. Ender Wiggin is six years old when it begins. He will grow up fast.<br /><br />But Ender is not the only result of the experiment. The war with the Buggers has been raging for a hundred years, and the quest for the perfect general has been underway almost as long. Ender's two older siblings, Peter and Valentine, are every bit as unusual as he is, but in very different ways. While Peter was too uncontrollably violent, Valentine very nearly lacks the capability for violence altogether. Neither was found suitable for the military's purpose. But they are driven by their jealousy of Ender, and by their inbred drive for power. Peter seeks to control the political process, to become a ruler. Valentine's abilities turn more toward the subtle control of the beliefs of commoner and elite alike, through powerfully convincing essays. Hiding their youth and identities behind the anonymity of the computer networks, these two begin working together to shape the destiny of Earth-an Earth that has no future at all if their brother Ender fails."
+          },
+          "book": {
+            "_attributes": {
+              "id": "375802"
+            },
+            "num_pages": {
+              "_text": "324"
+            }
+          },
+          "author_name": {
+            "_text": "Orson Scott Card"
+          },
+          "isbn": {
+            "_text": "0812550706"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "4"
+          },
+          "user_read_at": {
+            "_cdata": "Tue, 04 Dec 2012 18:43:44 -0800"
+          },
+          "user_date_added": {
+            "_cdata": "Tue, 04 Dec 2012 18:43:45 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Fri, 23 Nov 2012 22:23:26 -0800"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.30"
+          },
+          "book_published": {
+            "_text": "1985"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/375802.Ender_s_Game?utm_medium=api&amp;utm_source=rss\"><img alt=\"Ender&#39;s Game (Ender&#39;s Saga, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1408303130l/375802._SY75_.jpg\" /></a><br/>\n                                      author: Orson Scott Card<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.30<br/>\n                                      book published: 1985<br/>\n                                      rating: 4<br/>\n                                      read at: 2012/12/04<br/>\n                                      date added: 2012/12/04<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/462243002?utm_medium=api&utm_source=rss"

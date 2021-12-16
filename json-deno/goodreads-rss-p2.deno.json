@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Mon, 02 Aug 2021 22:46:51 -0700"
+        "_text": "Fri, 06 Aug 2021 22:59:50 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,150 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/2878392485?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Fri, 06 Aug 2021 22:59:50 -0700"
+          },
+          "title": {
+            "_cdata": "Dreams of a Final Theory: The Scientist's Search for the Ultimate Laws of Nature"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/2878392485?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "150129"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1435941554l/150129._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1435941554l/150129._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1435941554l/150129._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1435941554l/150129.jpg"
+          },
+          "book_description": {
+            "_cdata": "<b>“Unusually well written and informative…Weinberg is one of the world's most creative theoretical phsyicists.”<br />—Martin Gardner, <i>Washington Post Book World</i></b><br /><br />In <i>Dreams of a Final Theory</i>, Stephen Weinberg, the Nobel Prize-winning physicist and bestselling author of <i>The First Three Minutes</i> describes the grand quest for a unifying theory of nature—one that can explain forces as different as the cohesion inside the atom and the gravitational tug between the sun and the earth. Writing with dazzling elegance and clarity, he retraces the steps that have led modern scientists from relativity and quantum mechanics to the notion of superstrings and the idea that our universe may coexist with others.<br /><br />But Weinberg asks as many questions as he answers, among them: Why does each explanation of the way nature works point to the other, deeper explanations? Why are the best theories not only logical but beautiful? And what implications will a final theory have for our philosophy and religious faith?<br /><br />Intellectually daring, rich in anecdote and aphorism, <i>Dreams of a Final Theory</i> launches us into a new cosmos and helps us make sense of what we find there.<br /><br /><b>“This splendid book is as good reading about physics and physicists as this reviewer can name…clear, honest, and brilliantly instructive.”<br />—Philip Morrison, <i>Scientific American</i></b>"
+          },
+          "book": {
+            "_attributes": {
+              "id": "150129"
+            },
+            "num_pages": {
+              "_text": "340"
+            }
+          },
+          "author_name": {
+            "_text": "Steven Weinberg"
+          },
+          "isbn": {
+            "_text": "0679744088"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "4"
+          },
+          "user_read_at": {
+            "_cdata": "Fri, 06 Aug 2021 22:59:45 -0700"
+          },
+          "user_date_added": {
+            "_cdata": "Fri, 06 Aug 2021 22:59:50 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Sun, 30 Jun 2019 23:12:24 -0700"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.08"
+          },
+          "book_published": {
+            "_text": "1992"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/150129.Dreams_of_a_Final_Theory?utm_medium=api&amp;utm_source=rss\"><img alt=\"Dreams of a Final Theory: The Scientist&#39;s Search for the Ultimate Laws of Nature\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1435941554l/150129._SY75_.jpg\" /></a><br/>\n                                      author: Steven Weinberg<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.08<br/>\n                                      book published: 1992<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/08/06<br/>\n                                      date added: 2021/08/06<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3945631810?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Wed, 04 Aug 2021 23:35:15 -0700"
+          },
+          "title": {
+            "_cdata": "The First Three Minutes: A Modern View of the Origin of the Universe"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3945631810?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "150131"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348184740l/150131._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348184740l/150131._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348184740l/150131._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348184740l/150131.jpg"
+          },
+          "book_description": {
+            "_cdata": "A Nobel Prize-winning physicist explains what happened at the very beginning of the universe, and how we know, in this popular science classic.<br /><br />Our universe has been growing for nearly 14 billion years. But almost everything about it, from the elements that forged stars, planets, and lifeforms, to the fundamental forces of physics, can be traced back to what happened in just the first three minutes of its life.<br /><br />In this book, Nobel Laureate Steven Weinberg describes in wonderful detail what happened in these first three minutes. It is an exhilarating journey that begins with the Planck Epoch - the earliest period of time in the history of the universe - and goes through Einstein's Theory of Relativity, the Hubble Red Shift, and the detection of the Cosmic Microwave Background. These incredible discoveries all form the foundation for what we now understand as the \"standard model\" of the origin of the universe. The First Three Minutes examines not only what this model looks like, but also tells the exciting story of the bold thinkers who put it together.<br /><br />Clearly and accessibly written, The First Three Minutes is a modern-day classic, an unsurpassed explanation of where it is we really come from."
+          },
+          "book": {
+            "_attributes": {
+              "id": "150131"
+            },
+            "num_pages": {
+              "_text": "203"
+            }
+          },
+          "author_name": {
+            "_text": "Steven Weinberg"
+          },
+          "isbn": {
+            "_text": "0465024378"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "4"
+          },
+          "user_read_at": {
+            "_cdata": "Wed, 04 Aug 2021 23:35:11 -0700"
+          },
+          "user_date_added": {
+            "_cdata": "Wed, 04 Aug 2021 23:35:15 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Wed, 14 Apr 2021 22:39:23 -0700"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.10"
+          },
+          "book_published": {
+            "_text": "1977"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/150131.The_First_Three_Minutes?utm_medium=api&amp;utm_source=rss\"><img alt=\"The First Three Minutes: A Modern View of the Origin of the Universe\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348184740l/150131._SY75_.jpg\" /></a><br/>\n                                      author: Steven Weinberg<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.10<br/>\n                                      book published: 1977<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/08/04<br/>\n                                      date added: 2021/08/04<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/4151576109?utm_medium=api&utm_source=rss"
@@ -7088,152 +7232,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/6493321-logicomix?utm_medium=api&amp;utm_source=rss\"><img alt=\"Logicomix: An Epic Search for Truth\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1312031956l/6493321._SX50_.jpg\" /></a><br/>\n                                      author: Apostolos Doxiadis<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.04<br/>\n                                      book published: 2009<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/04/04<br/>\n                                      date added: 2021/04/04<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3926329362?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sun, 04 Apr 2021 15:07:28 -0700"
-          },
-          "title": {
-            "_cdata": "A History of Western Philosophy"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3926329362?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "243685"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1344399003l/243685._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1344399003l/243685._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1344399003l/243685._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1344399003l/243685._SY475_.jpg"
-          },
-          "book_description": {
-            "_cdata": "Since its first publication in 1945 Lord Russell's <i>A History of Western Philosophy</i> has been universally acclaimed as the outstanding one-volume work on the subject—unparalleled in its comprehensiveness, its clarity, its erudition, its grace and wit. In seventy-six chapters he traces philosophy from the rise of Greek civilization to the emergence of logical analysis in the twentieth century. Among the philosophers considered are: Pythagoras, Heraclitus, Parmenides, Empedocles, Anaxagoras, the Atomists, Protagoras, Socrates, Plato, Aristotle, the Cynics, the Sceptics, the Epicureans, the Stoics, Plotinus, Ambrose, Jerome, Augustine, Benedict, Gregory the Great, John the Scot, Aquinas, Duns Scotus, William of Occam, Machiavelli, Erasmus, More, Bacon, Hobbes, Descartes, Spinoza, Leibniz, Locke, Berkeley, Hume, Rousseau, Kant, Hegel, Schopenhauer, Nietzsche, the Utilitarians, Marx, Bergson, James, Dewey, and lastly the philosophers with whom Lord Russell himself is most closely associated -- Cantor, Frege, and Whitehead, co-author with Russell of the monumental <i>Principia Mathematica.</i>"
-          },
-          "book": {
-            "_attributes": {
-              "id": "243685"
-            },
-            "num_pages": {
-              "_text": "906"
-            }
-          },
-          "author_name": {
-            "_text": "Bertrand Russell"
-          },
-          "isbn": {
-            "_text": "0671201581"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Sun, 04 Apr 2021 15:07:28 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Sun, 04 Apr 2021 15:07:28 -0700"
-          },
-          "user_shelves": {
-            "_text": "on-deck"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.09"
-          },
-          "book_published": {
-            "_text": "1945"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/243685.A_History_of_Western_Philosophy?utm_medium=api&amp;utm_source=rss\"><img alt=\"A History of Western Philosophy\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1344399003l/243685._SY75_.jpg\" /></a><br/>\n                                      author: Bertrand Russell<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.09<br/>\n                                      book published: 1945<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/04/04<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3907963267?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sun, 04 Apr 2021 14:53:01 -0700"
-          },
-          "title": {
-            "_cdata": "Dominion: How the Christian Revolution Remade the World"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3907963267?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "43885149"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1550694436l/43885149._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1550694436l/43885149._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1550694436l/43885149._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1550694436l/43885149.jpg"
-          },
-          "book_description": {
-            "_cdata": "<b>A \"marvelous\" (<i>Economist</i>) account of how the Christian Revolution forged the Western imagination.</b> Crucifixion, the Romans believed, was the worst fate imaginable, a punishment reserved for slaves. How astonishing it was, then, that people should have come to believe that one particular victim of crucifixion-an obscure provincial by the name of Jesus-was to be worshipped as a god. <i>Dominion</i> explores the implications of this shocking conviction as they have reverberated throughout history. Today, the West remains utterly saturated by Christian assumptions. As Tom Holland demonstrates, our morals and ethics are not universal but are instead the fruits of a very distinctive civilization. Concepts such as secularism, liberalism, science, and homosexuality are deeply rooted in a Christian seedbed. From Babylon to the Beatles, Saint Michael to #MeToo, <i>Dominion</i> tells the story of how Christianity transformed the modern world. "
-          },
-          "book": {
-            "_attributes": {
-              "id": "43885149"
-            },
-            "num_pages": {
-              "_text": "624"
-            }
-          },
-          "author_name": {
-            "_text": "Tom Holland"
-          },
-          "isbn": {
-            "_text": "0465093507"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "5"
-          },
-          "user_read_at": {
-            "_cdata": "Sun, 04 Apr 2021 14:53:01 -0700"
-          },
-          "user_date_added": {
-            "_cdata": "Sun, 04 Apr 2021 14:53:01 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Thu, 25 Mar 2021 00:27:32 -0700"
-          },
-          "user_shelves": {},
-          "user_review": {
-            "_cdata": "This thoughtful and sweeping retelling of the West's cultural heritage leaves me with more questions than answers, as I suspect is it's insight.<br />Well worth the read."
-          },
-          "average_rating": {
-            "_text": "4.24"
-          },
-          "book_published": {
-            "_text": "2019"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/43885149-dominion?utm_medium=api&amp;utm_source=rss\"><img alt=\"Dominion: How the Christian Revolution Remade the World\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1550694436l/43885149._SY75_.jpg\" /></a><br/>\n                                      author: Tom Holland<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.24<br/>\n                                      book published: 2019<br/>\n                                      rating: 5<br/>\n                                      read at: 2021/04/04<br/>\n                                      date added: 2021/04/04<br/>\n                                      shelves: <br/>\n                                      review: <br/>This thoughtful and sweeping retelling of the West's cultural heritage leaves me with more questions than answers, as I suspect is it's insight.<br />Well worth the read.<br/>\n                                      "
           }
         }
       ]

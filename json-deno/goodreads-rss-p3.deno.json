@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Thu, 01 Apr 2021 12:08:53 -0700"
+        "_text": "Sun, 04 Apr 2021 15:07:28 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,152 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3926329362?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sun, 04 Apr 2021 15:07:28 -0700"
+          },
+          "title": {
+            "_cdata": "A History of Western Philosophy"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3926329362?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "243685"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1344399003l/243685._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1344399003l/243685._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1344399003l/243685._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1344399003l/243685._SY475_.jpg"
+          },
+          "book_description": {
+            "_cdata": "Since its first publication in 1945 Lord Russell's <i>A History of Western Philosophy</i> has been universally acclaimed as the outstanding one-volume work on the subject—unparalleled in its comprehensiveness, its clarity, its erudition, its grace and wit. In seventy-six chapters he traces philosophy from the rise of Greek civilization to the emergence of logical analysis in the twentieth century. Among the philosophers considered are: Pythagoras, Heraclitus, Parmenides, Empedocles, Anaxagoras, the Atomists, Protagoras, Socrates, Plato, Aristotle, the Cynics, the Sceptics, the Epicureans, the Stoics, Plotinus, Ambrose, Jerome, Augustine, Benedict, Gregory the Great, John the Scot, Aquinas, Duns Scotus, William of Occam, Machiavelli, Erasmus, More, Bacon, Hobbes, Descartes, Spinoza, Leibniz, Locke, Berkeley, Hume, Rousseau, Kant, Hegel, Schopenhauer, Nietzsche, the Utilitarians, Marx, Bergson, James, Dewey, and lastly the philosophers with whom Lord Russell himself is most closely associated -- Cantor, Frege, and Whitehead, co-author with Russell of the monumental <i>Principia Mathematica.</i>"
+          },
+          "book": {
+            "_attributes": {
+              "id": "243685"
+            },
+            "num_pages": {
+              "_text": "906"
+            }
+          },
+          "author_name": {
+            "_text": "Bertrand Russell"
+          },
+          "isbn": {
+            "_text": "0671201581"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Sun, 04 Apr 2021 15:07:28 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Sun, 04 Apr 2021 15:07:28 -0700"
+          },
+          "user_shelves": {
+            "_text": "on-deck"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.09"
+          },
+          "book_published": {
+            "_text": "1945"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/243685.A_History_of_Western_Philosophy?utm_medium=api&amp;utm_source=rss\"><img alt=\"A History of Western Philosophy\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1344399003l/243685._SY75_.jpg\" /></a><br/>\n                                      author: Bertrand Russell<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.09<br/>\n                                      book published: 1945<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/04/04<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3907963267?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sun, 04 Apr 2021 14:53:01 -0700"
+          },
+          "title": {
+            "_cdata": "Dominion: How the Christian Revolution Remade the World"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3907963267?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "43885149"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1550694436l/43885149._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1550694436l/43885149._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1550694436l/43885149._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1550694436l/43885149.jpg"
+          },
+          "book_description": {
+            "_cdata": "<b>A \"marvelous\" (<i>Economist</i>) account of how the Christian Revolution forged the Western imagination.</b> Crucifixion, the Romans believed, was the worst fate imaginable, a punishment reserved for slaves. How astonishing it was, then, that people should have come to believe that one particular victim of crucifixion-an obscure provincial by the name of Jesus-was to be worshipped as a god. <i>Dominion</i> explores the implications of this shocking conviction as they have reverberated throughout history. Today, the West remains utterly saturated by Christian assumptions. As Tom Holland demonstrates, our morals and ethics are not universal but are instead the fruits of a very distinctive civilization. Concepts such as secularism, liberalism, science, and homosexuality are deeply rooted in a Christian seedbed. From Babylon to the Beatles, Saint Michael to #MeToo, <i>Dominion</i> tells the story of how Christianity transformed the modern world. "
+          },
+          "book": {
+            "_attributes": {
+              "id": "43885149"
+            },
+            "num_pages": {
+              "_text": "624"
+            }
+          },
+          "author_name": {
+            "_text": "Tom Holland"
+          },
+          "isbn": {
+            "_text": "0465093507"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "5"
+          },
+          "user_read_at": {
+            "_cdata": "Sun, 04 Apr 2021 14:53:01 -0700"
+          },
+          "user_date_added": {
+            "_cdata": "Sun, 04 Apr 2021 14:53:01 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Thu, 25 Mar 2021 00:27:32 -0700"
+          },
+          "user_shelves": {},
+          "user_review": {
+            "_cdata": "This thoughtful and sweeping retelling of the West's cultural heritage leaves me with more questions than answers, as I suspect is it's insight.<br />Well worth the read."
+          },
+          "average_rating": {
+            "_text": "4.24"
+          },
+          "book_published": {
+            "_text": "2019"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/43885149-dominion?utm_medium=api&amp;utm_source=rss\"><img alt=\"Dominion: How the Christian Revolution Remade the World\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1550694436l/43885149._SY75_.jpg\" /></a><br/>\n                                      author: Tom Holland<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.24<br/>\n                                      book published: 2019<br/>\n                                      rating: 5<br/>\n                                      read at: 2021/04/04<br/>\n                                      date added: 2021/04/04<br/>\n                                      shelves: <br/>\n                                      review: <br/>This thoughtful and sweeping retelling of the West's cultural heritage leaves me with more questions than answers, as I suspect is it's insight.<br />Well worth the read.<br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/3888878317?utm_medium=api&utm_source=rss"
@@ -7044,148 +7190,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/112537.Rendezvous_with_Rama?utm_medium=api&amp;utm_source=rss\"><img alt=\"Rendezvous with Rama (Rama, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1405456427l/112537._SY75_.jpg\" /></a><br/>\n                                      author: Arthur C. Clarke<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.10<br/>\n                                      book published: 1973<br/>\n                                      rating: 3<br/>\n                                      read at: 2020/08/08<br/>\n                                      date added: 2020/08/08<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3474019551?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sat, 01 Aug 2020 18:21:08 -0700"
-          },
-          "title": {
-            "_cdata": "Geometry, Topology and Physics"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3474019551?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "10403573"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328022142l/10403573._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328022142l/10403573._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328022142l/10403573._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328022142l/10403573.jpg"
-          },
-          "book_description": {
-            "_cdata": "This textbook provides an introduction to the ideas and techniques of differential geometry and topology. It starts with a brief survey of the physics needed to follow the arguments - including quantum field theory, gauge theory and general relativity - to make sure all readers set off from the same starting point. Basic theory of vector spaces and topology is also included to make the book self-contained. Working from the basics to the more elaborate concepts of topology and geometry, all is carefully explained and illustrated with applications. Explicit calculations and diagrams clarify the abstract ideas involved. Many illustrations, exercises and problems are included. This book will be invaluable to advanced undergraduates and researchers in many areas of physics."
-          },
-          "book": {
-            "_attributes": {
-              "id": "10403573"
-            },
-            "num_pages": {
-              "_text": "496"
-            }
-          },
-          "author_name": {
-            "_text": "Mikio Nakahara"
-          },
-          "isbn": {
-            "_text": "0852740956"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Sat, 01 Aug 2020 18:21:08 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Sat, 01 Aug 2020 18:21:08 -0700"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.15"
-          },
-          "book_published": {
-            "_text": "1990"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/10403573-geometry-topology-and-physics?utm_medium=api&amp;utm_source=rss\"><img alt=\"Geometry, Topology and Physics\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328022142l/10403573._SY75_.jpg\" /></a><br/>\n                                      author: Mikio Nakahara<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.15<br/>\n                                      book published: 1990<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2020/08/01<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3434909624?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Thu, 09 Jul 2020 18:26:41 -0700"
-          },
-          "title": {
-            "_cdata": "The Innovator's Dilemma: The Revolutionary Book that Will Change the Way You Do Business"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3434909624?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "2615"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347654027l/2615._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347654027l/2615._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347654027l/2615._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347654027l/2615.jpg"
-          },
-          "book_description": {
-            "_cdata": "Harvard professor Clayton M. Christensen says outstanding companies can do everything right and still lose their market leadership -- or worse, disappear completely. And he not only proves what he says, he tells others how to avoid a similar fate.<br /><br />Focusing on \"disruptive technology\" -- the Honda Super Cub, Intel's 8088 processor, or the hydraulic excavator, for example -- Christensen shows why most companies miss \"the next great wave.\" Whether in electronics or retailing, a successful company with established products will get pushed aside unless managers know when to abandon traditional business practices. Using the lessons of successes and failures from leading companies, \"The Innovator's Dilemma\" presents a set of rules for capitalizing on the phenomenon of disruptive innovation."
-          },
-          "book": {
-            "_attributes": {
-              "id": "2615"
-            },
-            "num_pages": {
-              "_text": "286"
-            }
-          },
-          "author_name": {
-            "_text": "Clayton M. Christensen"
-          },
-          "isbn": {
-            "_text": "0060521996"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Thu, 09 Jul 2020 18:26:41 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Thu, 09 Jul 2020 18:26:41 -0700"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.01"
-          },
-          "book_published": {
-            "_text": "1997"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/2615.The_Innovator_s_Dilemma?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Innovator&#39;s Dilemma: The Revolutionary Book that Will Change the Way You Do Business\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347654027l/2615._SY75_.jpg\" /></a><br/>\n                                      author: Clayton M. Christensen<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.01<br/>\n                                      book published: 1997<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2020/07/09<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

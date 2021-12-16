@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Tue, 14 Dec 2021 21:00:33 -0800"
+        "_text": "Wed, 15 Dec 2021 22:48:02 -0800"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,148 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4391945521?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Wed, 15 Dec 2021 22:48:02 -0800"
+          },
+          "title": {
+            "_cdata": "The Doors of Stone (The Kingkiller Chronicle, #3)"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4391945521?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "21032488"
+          },
+          "book_image_url": {
+            "_cdata": "https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png"
+          },
+          "book_description": {
+            "_cdata": "The eagerly awaited third book of The Kingkiller Chronicle."
+          },
+          "book": {
+            "_attributes": {
+              "id": "21032488"
+            },
+            "num_pages": {
+              "_text": "896"
+            }
+          },
+          "author_name": {
+            "_text": "Patrick Rothfuss"
+          },
+          "isbn": {
+            "_text": "0575081449"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Wed, 15 Dec 2021 22:48:02 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Wed, 15 Dec 2021 22:48:01 -0800"
+          },
+          "user_shelves": {
+            "_text": "on-deck"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.59"
+          },
+          "book_published": {},
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/21032488-the-doors-of-stone?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Doors of Stone (The Kingkiller Chronicle, #3)\" src=\"https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png\" /></a><br/>\n                                      author: Patrick Rothfuss<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.59<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/12/15<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4391929627?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Wed, 15 Dec 2021 22:29:51 -0800"
+          },
+          "title": {
+            "_cdata": "The Burgundians: A Vanished Empire"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4391929627?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "56750097"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1611040212l/56750097._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1611040212l/56750097._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1611040212l/56750097._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1611040212l/56750097._SY475_.jpg"
+          },
+          "book_description": {
+            "_cdata": "A publishing phenomenon in Europe, where it has sold 230,000 copies in hardback, Bart van Loo's epic history of the dukedom of Burgundy has the grip of a great historical novel and the fascination of a wonderful factual narrative.<br /><br />In 1525, Burgundy was extinguished as an independent state. It had been a fabulously wealthy, turbulent region situated between France and Germany, with close links to the English kingdom. Torn apart by the dynastic struggles of early modern Europe, this extraordinary realm vanished from the map. But it became the cradle of what we now know as the Low Countries, modern Belgium and the Netherlands.<br /><br />This is the story of a thousand years, a compulsively readable narrative history of ambitious aristocrats, family dysfunction, treachery, savage battles, luxury and madness. It is about the decline of knightly ideals and the awakening of individualism and of cities, the struggle for dominance in the heart of northern Europe, bloody military campaigns and fatally bad marriages.<br /><br />It is also a remarkable cultural history, of great art and architecture and music emerging despite the violence and the chaos of the tension between rival dynasties.<br /><br />Rightly compared to great narrative historians like Barbara Tuchman, Bart van Loo has written a popular and scholarly masterpiece."
+          },
+          "book": {
+            "_attributes": {
+              "id": "56750097"
+            },
+            "num_pages": {
+              "_text": "608"
+            }
+          },
+          "author_name": {
+            "_text": "Bart van Loo"
+          },
+          "isbn": {
+            "_text": "1789543436"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Wed, 15 Dec 2021 22:29:51 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Wed, 15 Dec 2021 22:29:51 -0800"
+          },
+          "user_shelves": {
+            "_text": "on-deck"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "3.71"
+          },
+          "book_published": {
+            "_text": "2019"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/56750097-the-burgundians?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Burgundians: A Vanished Empire\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1611040212l/56750097._SY75_.jpg\" /></a><br/>\n                                      author: Bart van Loo<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.71<br/>\n                                      book published: 2019<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/12/15<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/4336800855?utm_medium=api&utm_source=rss"
@@ -6121,13 +6263,13 @@
           "user_shelves": {},
           "user_review": {},
           "average_rating": {
-            "_text": "3.95"
+            "_text": "3.96"
           },
           "book_published": {
             "_text": "2020"
           },
           "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/43301353-the-space-between-worlds?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Space Between Worlds\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1585293595l/43301353._SX50_SY75_.jpg\" /></a><br/>\n                                      author: Micaiah Johnson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.95<br/>\n                                      book published: 2020<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/08/26<br/>\n                                      date added: 2021/08/26<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/43301353-the-space-between-worlds?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Space Between Worlds\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1585293595l/43301353._SX50_SY75_.jpg\" /></a><br/>\n                                      author: Micaiah Johnson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.96<br/>\n                                      book published: 2020<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/08/26<br/>\n                                      date added: 2021/08/26<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
           }
         },
         {
@@ -7064,150 +7206,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/74406.Fifth_Business?utm_medium=api&amp;utm_source=rss\"><img alt=\"Fifth Business (The Deptford Trilogy, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1170852646l/74406._SY75_.jpg\" /></a><br/>\n                                      author: Robertson Davies<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.06<br/>\n                                      book published: 1970<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/08/07<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/2878392485?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Fri, 06 Aug 2021 22:59:50 -0700"
-          },
-          "title": {
-            "_cdata": "Dreams of a Final Theory: The Scientist's Search for the Ultimate Laws of Nature"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/2878392485?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "150129"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1435941554l/150129._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1435941554l/150129._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1435941554l/150129._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1435941554l/150129.jpg"
-          },
-          "book_description": {
-            "_cdata": "<b>“Unusually well written and informative…Weinberg is one of the world's most creative theoretical phsyicists.”<br />—Martin Gardner, <i>Washington Post Book World</i></b><br /><br />In <i>Dreams of a Final Theory</i>, Stephen Weinberg, the Nobel Prize-winning physicist and bestselling author of <i>The First Three Minutes</i> describes the grand quest for a unifying theory of nature—one that can explain forces as different as the cohesion inside the atom and the gravitational tug between the sun and the earth. Writing with dazzling elegance and clarity, he retraces the steps that have led modern scientists from relativity and quantum mechanics to the notion of superstrings and the idea that our universe may coexist with others.<br /><br />But Weinberg asks as many questions as he answers, among them: Why does each explanation of the way nature works point to the other, deeper explanations? Why are the best theories not only logical but beautiful? And what implications will a final theory have for our philosophy and religious faith?<br /><br />Intellectually daring, rich in anecdote and aphorism, <i>Dreams of a Final Theory</i> launches us into a new cosmos and helps us make sense of what we find there.<br /><br /><b>“This splendid book is as good reading about physics and physicists as this reviewer can name…clear, honest, and brilliantly instructive.”<br />—Philip Morrison, <i>Scientific American</i></b>"
-          },
-          "book": {
-            "_attributes": {
-              "id": "150129"
-            },
-            "num_pages": {
-              "_text": "340"
-            }
-          },
-          "author_name": {
-            "_text": "Steven Weinberg"
-          },
-          "isbn": {
-            "_text": "0679744088"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "4"
-          },
-          "user_read_at": {
-            "_cdata": "Fri, 06 Aug 2021 22:59:45 -0700"
-          },
-          "user_date_added": {
-            "_cdata": "Fri, 06 Aug 2021 22:59:50 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Sun, 30 Jun 2019 23:12:24 -0700"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.08"
-          },
-          "book_published": {
-            "_text": "1992"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/150129.Dreams_of_a_Final_Theory?utm_medium=api&amp;utm_source=rss\"><img alt=\"Dreams of a Final Theory: The Scientist&#39;s Search for the Ultimate Laws of Nature\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1435941554l/150129._SY75_.jpg\" /></a><br/>\n                                      author: Steven Weinberg<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.08<br/>\n                                      book published: 1992<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/08/06<br/>\n                                      date added: 2021/08/06<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3945631810?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Wed, 04 Aug 2021 23:35:15 -0700"
-          },
-          "title": {
-            "_cdata": "The First Three Minutes: A Modern View of the Origin of the Universe"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3945631810?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "150131"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348184740l/150131._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348184740l/150131._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348184740l/150131._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348184740l/150131.jpg"
-          },
-          "book_description": {
-            "_cdata": "A Nobel Prize-winning physicist explains what happened at the very beginning of the universe, and how we know, in this popular science classic.<br /><br />Our universe has been growing for nearly 14 billion years. But almost everything about it, from the elements that forged stars, planets, and lifeforms, to the fundamental forces of physics, can be traced back to what happened in just the first three minutes of its life.<br /><br />In this book, Nobel Laureate Steven Weinberg describes in wonderful detail what happened in these first three minutes. It is an exhilarating journey that begins with the Planck Epoch - the earliest period of time in the history of the universe - and goes through Einstein's Theory of Relativity, the Hubble Red Shift, and the detection of the Cosmic Microwave Background. These incredible discoveries all form the foundation for what we now understand as the \"standard model\" of the origin of the universe. The First Three Minutes examines not only what this model looks like, but also tells the exciting story of the bold thinkers who put it together.<br /><br />Clearly and accessibly written, The First Three Minutes is a modern-day classic, an unsurpassed explanation of where it is we really come from."
-          },
-          "book": {
-            "_attributes": {
-              "id": "150131"
-            },
-            "num_pages": {
-              "_text": "203"
-            }
-          },
-          "author_name": {
-            "_text": "Steven Weinberg"
-          },
-          "isbn": {
-            "_text": "0465024378"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "4"
-          },
-          "user_read_at": {
-            "_cdata": "Wed, 04 Aug 2021 23:35:11 -0700"
-          },
-          "user_date_added": {
-            "_cdata": "Wed, 04 Aug 2021 23:35:15 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Wed, 14 Apr 2021 22:39:23 -0700"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.10"
-          },
-          "book_published": {
-            "_text": "1977"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/150131.The_First_Three_Minutes?utm_medium=api&amp;utm_source=rss\"><img alt=\"The First Three Minutes: A Modern View of the Origin of the Universe\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348184740l/150131._SY75_.jpg\" /></a><br/>\n                                      author: Steven Weinberg<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.10<br/>\n                                      book published: 1977<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/08/04<br/>\n                                      date added: 2021/08/04<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]
