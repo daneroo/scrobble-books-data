@@ -1,4 +1,5 @@
 GOODREADS.env
 GOODREADS.secrets
 # Don't check these in, some of them change every run
+json-deno/
 xml-deno/
