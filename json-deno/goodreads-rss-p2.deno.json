@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Fri, 06 Aug 2021 22:59:50 -0700"
+        "_text": "Sat, 07 Aug 2021 21:29:46 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4161668233?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sat, 07 Aug 2021 21:29:46 -0700"
+          },
+          "title": {
+            "_cdata": "Fifth Business (The Deptford Trilogy, #1)"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4161668233?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "74406"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1170852646l/74406._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1170852646l/74406._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1170852646l/74406._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1170852646l/74406.jpg"
+          },
+          "book_description": {
+            "_cdata": "Ramsay is a man twice born, a man who has returned from the hell of the battle-grave at Passchendaele in World War I decorated with the Victoria Cross and destined to be caught in a no man's land where memory, history, and myth collide. As Ramsay tells his story, it begins to seem that from boyhood, he has exerted a perhaps mystical, perhaps pernicious, influence on those around him. His apparently innocent involvement in such innocuous events as the throwing of a snowball or the teaching of card tricks to a small boy in the end prove neither innocent nor innocuous. <em>Fifth Business</em> stands alone as a remarkable story told by a rational man who discovers that the marvelous is only another aspect of the real."
+          },
+          "book": {
+            "_attributes": {
+              "id": "74406"
+            },
+            "num_pages": {
+              "_text": "252"
+            }
+          },
+          "author_name": {
+            "_text": "Robertson Davies"
+          },
+          "isbn": {
+            "_text": "0141181362"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Sat, 07 Aug 2021 21:29:46 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Sat, 07 Aug 2021 21:29:46 -0700"
+          },
+          "user_shelves": {
+            "_text": "to-read"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.06"
+          },
+          "book_published": {
+            "_text": "1970"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/74406.Fifth_Business?utm_medium=api&amp;utm_source=rss\"><img alt=\"Fifth Business (The Deptford Trilogy, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1170852646l/74406._SY75_.jpg\" /></a><br/>\n                                      author: Robertson Davies<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.06<br/>\n                                      book published: 1970<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/08/07<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/2878392485?utm_medium=api&utm_source=rss"
@@ -7160,78 +7232,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/29580.Second_Foundation?utm_medium=api&amp;utm_source=rss\"><img alt=\"Second Foundation (Foundation #3)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1417900922l/29580._SX50_.jpg\" /></a><br/>\n                                      author: Isaac Asimov<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.24<br/>\n                                      book published: 1953<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/04/05<br/>\n                                      date added: 2021/04/05<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3925277859?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sun, 04 Apr 2021 23:44:26 -0700"
-          },
-          "title": {
-            "_cdata": "Logicomix: An Epic Search for Truth"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3925277859?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "6493321"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1312031956l/6493321._SX50_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1312031956l/6493321._SX50_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1312031956l/6493321._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1312031956l/6493321.jpg"
-          },
-          "book_description": {
-            "_cdata": "An innovative, dramatic graphic novel about the treacherous pursuit of the foundations of mathematics. <br /> This graphic novel recounts the spiritual odyssey of philosopher Bertrand Russell. In his agonized search for absolute truth, he crosses paths with thinkers like Gottlob Frege, David Hilbert &amp; Kurt Gödel, &amp; finds a passionate student in Ludwig Wittgenstein. But his most ambitious goal—to establish unshakable logical foundations of mathematics—continues to loom before him. Thru love &amp; hate, peace &amp; war, he persists in the mission threatening to claim both his career &amp; happiness, finally driving him to the brink of insanity.<br /> This story is at the same time a historical novel &amp; an accessible explication of some of the biggest ideas of mathematics &amp; modern philosophy. With rich characterizations &amp; atmospheric artwork, it spins the pursuit of such ideas into a satisfying tale.<br /> Probing, layered, the book throws light on Russell’s inner struggles while setting them in the context of the timeless questions he tried to answer. At its heart, <i>Logicomix</i> is a story about the conflict between ideal rationality &amp; the flawed fabric of reality."
-          },
-          "book": {
-            "_attributes": {
-              "id": "6493321"
-            },
-            "num_pages": {
-              "_text": "352"
-            }
-          },
-          "author_name": {
-            "_text": "Apostolos Doxiadis"
-          },
-          "isbn": {
-            "_text": "1596914521"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "4"
-          },
-          "user_read_at": {
-            "_cdata": "Sun, 04 Apr 2021 23:44:22 -0700"
-          },
-          "user_date_added": {
-            "_cdata": "Sun, 04 Apr 2021 23:44:26 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Sat, 03 Apr 2021 23:48:46 -0700"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.04"
-          },
-          "book_published": {
-            "_text": "2009"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/6493321-logicomix?utm_medium=api&amp;utm_source=rss\"><img alt=\"Logicomix: An Epic Search for Truth\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1312031956l/6493321._SX50_.jpg\" /></a><br/>\n                                      author: Apostolos Doxiadis<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.04<br/>\n                                      book published: 2009<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/04/04<br/>\n                                      date added: 2021/04/04<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

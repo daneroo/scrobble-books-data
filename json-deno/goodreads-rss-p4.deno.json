@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Sat, 01 Aug 2020 18:21:08 -0700"
+        "_text": "Sat, 08 Aug 2020 03:09:24 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3310598134?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sat, 08 Aug 2020 03:09:24 -0700"
+          },
+          "title": {
+            "_cdata": "Rendezvous with Rama (Rama, #1)"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3310598134?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "112537"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1405456427l/112537._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1405456427l/112537._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1405456427l/112537._SY160_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1405456427l/112537.jpg"
+          },
+          "book_description": {
+            "_cdata": "At first, only a few things are known about the celestial object that astronomers dub Rama. It is huge, weighing more than ten trillion tons. And it is hurtling through the solar system at an inconceivable speed. Then a space probe confirms the unthinkable: Rama is no natural object. It is, incredibly, an interstellar spacecraft. Space explorers and planet-bound scientists alike prepare for mankind's first encounter with alien intelligence. It will kindle their wildest dreams... and fan their darkest fears. For no one knows who the Ramans are or why they have come. And now the moment of rendezvous awaits — just behind a Raman airlock door."
+          },
+          "book": {
+            "_attributes": {
+              "id": "112537"
+            },
+            "num_pages": {
+              "_text": "243"
+            }
+          },
+          "author_name": {
+            "_text": "Arthur C. Clarke"
+          },
+          "isbn": {
+            "_text": "1857231589"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "3"
+          },
+          "user_read_at": {
+            "_cdata": "Sat, 08 Aug 2020 03:09:24 -0700"
+          },
+          "user_date_added": {
+            "_cdata": "Sat, 08 Aug 2020 03:09:24 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Thu, 30 Apr 2020 11:44:44 -0700"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.10"
+          },
+          "book_published": {
+            "_text": "1973"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/112537.Rendezvous_with_Rama?utm_medium=api&amp;utm_source=rss\"><img alt=\"Rendezvous with Rama (Rama, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1405456427l/112537._SY75_.jpg\" /></a><br/>\n                                      author: Arthur C. Clarke<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.10<br/>\n                                      book published: 1973<br/>\n                                      rating: 3<br/>\n                                      read at: 2020/08/08<br/>\n                                      date added: 2020/08/08<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/3474019551?utm_medium=api&utm_source=rss"
@@ -7114,78 +7186,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/25938417-children-of-earth-and-sky?utm_medium=api&amp;utm_source=rss\"><img alt=\"Children of Earth and Sky\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442842241l/25938417._SY75_.jpg\" /></a><br/>\n                                      author: Guy Gavriel Kay<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.08<br/>\n                                      book published: 2016<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2016/06/11<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/1608915257?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sun, 08 May 2016 21:45:10 -0700"
-          },
-          "title": {
-            "_text": "Nexus (Nexus, #1)"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/1608915257?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "13642710"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347149654l/13642710._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347149654l/13642710._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347149654l/13642710._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347149654l/13642710.jpg"
-          },
-          "book_description": {
-            "_cdata": "<b>Mankind gets an upgrade</b><br /><br />In the near future, the experimental nano-drug Nexus can link humans together, mind to mind. There are some who want to improve it. There are some who want to eradicate it. And there are others who just want to exploit it.<br /><br />When a young scientist is caught improving Nexus, he’s thrust over his head into a world of danger and international espionage – for there is far more at stake than anyone realizes.<br /><br />From the halls of academe to the halls of power, from the headquarters of an elite US agency in Washington DC to a secret lab beneath a top university in Shanghai, from the underground parties of San Francisco to the illegal biotech markets of Bangkok, from an international neuroscience conference to a remote monastery in the mountains of Thailand – Nexus is a thrill ride through a future on the brink of explosion."
-          },
-          "book": {
-            "_attributes": {
-              "id": "13642710"
-            },
-            "num_pages": {
-              "_text": "460"
-            }
-          },
-          "author_name": {
-            "_text": "Ramez Naam"
-          },
-          "isbn": {
-            "_text": "0857662937"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "4"
-          },
-          "user_read_at": {
-            "_cdata": "Mon, 09 May 2016 21:45:10 -0700"
-          },
-          "user_date_added": {
-            "_cdata": "Sun, 08 May 2016 21:45:10 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Tue, 12 Apr 2016 21:12:13 -0700"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.04"
-          },
-          "book_published": {
-            "_text": "2012"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/13642710-nexus?utm_medium=api&amp;utm_source=rss\"><img alt=\"Nexus (Nexus, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347149654l/13642710._SY75_.jpg\" /></a><br/>\n                                      author: Ramez Naam<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.04<br/>\n                                      book published: 2012<br/>\n                                      rating: 4<br/>\n                                      read at: 2016/05/09<br/>\n                                      date added: 2016/05/08<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

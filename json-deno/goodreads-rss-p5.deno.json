@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Sat, 09 Apr 2016 20:37:17 -0700"
+        "_text": "Sun, 08 May 2016 21:45:10 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/1608915257?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sun, 08 May 2016 21:45:10 -0700"
+          },
+          "title": {
+            "_text": "Nexus (Nexus, #1)"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/1608915257?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "13642710"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347149654l/13642710._SY75_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347149654l/13642710._SY75_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347149654l/13642710._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347149654l/13642710.jpg"
+          },
+          "book_description": {
+            "_cdata": "<b>Mankind gets an upgrade</b><br /><br />In the near future, the experimental nano-drug Nexus can link humans together, mind to mind. There are some who want to improve it. There are some who want to eradicate it. And there are others who just want to exploit it.<br /><br />When a young scientist is caught improving Nexus, he’s thrust over his head into a world of danger and international espionage – for there is far more at stake than anyone realizes.<br /><br />From the halls of academe to the halls of power, from the headquarters of an elite US agency in Washington DC to a secret lab beneath a top university in Shanghai, from the underground parties of San Francisco to the illegal biotech markets of Bangkok, from an international neuroscience conference to a remote monastery in the mountains of Thailand – Nexus is a thrill ride through a future on the brink of explosion."
+          },
+          "book": {
+            "_attributes": {
+              "id": "13642710"
+            },
+            "num_pages": {
+              "_text": "460"
+            }
+          },
+          "author_name": {
+            "_text": "Ramez Naam"
+          },
+          "isbn": {
+            "_text": "0857662937"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "4"
+          },
+          "user_read_at": {
+            "_cdata": "Mon, 09 May 2016 21:45:10 -0700"
+          },
+          "user_date_added": {
+            "_cdata": "Sun, 08 May 2016 21:45:10 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Tue, 12 Apr 2016 21:12:13 -0700"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.04"
+          },
+          "book_published": {
+            "_text": "2012"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/13642710-nexus?utm_medium=api&amp;utm_source=rss\"><img alt=\"Nexus (Nexus, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347149654l/13642710._SY75_.jpg\" /></a><br/>\n                                      author: Ramez Naam<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.04<br/>\n                                      book published: 2012<br/>\n                                      rating: 4<br/>\n                                      read at: 2016/05/09<br/>\n                                      date added: 2016/05/08<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/1605858304?utm_medium=api&utm_source=rss"
@@ -7106,74 +7178,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/186074.The_Name_of_the_Wind?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Name of the Wind (The Kingkiller Chronicle, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1270352123l/186074._SX50_.jpg\" /></a><br/>\n                                      author: Patrick Rothfuss<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.51<br/>\n                                      book published: 2007<br/>\n                                      rating: 5<br/>\n                                      read at: 2013/01/02<br/>\n                                      date added: 2013/01/02<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/462241149?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Wed, 19 Dec 2012 05:44:16 -0800"
-          },
-          "title": {
-            "_text": "Bossypants"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/462241149?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "9418327"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1481509554l/9418327._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1481509554l/9418327._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1481509554l/9418327._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1481509554l/9418327.jpg"
-          },
-          "book_description": {
-            "_cdata": "Before Liz Lemon, before \"Weekend Update,\" before \"Sarah Palin,\" Tina Fey was just a young girl with a dream: a recurring stress dream that she was being chased through a local airport by her middle-school gym teacher. She also had a dream that one day she would be a comedian on TV.<br /><br />She has seen both these dreams come true.<br /><br />At last, Tina Fey's story can be told. From her youthful days as a vicious nerd to her tour of duty on <i>Saturday Night Live</i>; from her passionately halfhearted pursuit of physical beauty to her life as a mother eating things off the floor; from her one-sided college romance to her nearly fatal honeymoon—from the beginning of this paragraph to this final sentence.<br /><br />Tina Fey reveals all, and proves what we've all suspected: you're no one until someone calls you bossy."
-          },
-          "book": {
-            "_attributes": {
-              "id": "9418327"
-            },
-            "num_pages": {
-              "_text": "283"
-            }
-          },
-          "author_name": {
-            "_text": "Tina Fey"
-          },
-          "isbn": {},
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "3"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Wed, 19 Dec 2012 05:44:16 -0800"
-          },
-          "user_date_created": {
-            "_cdata": "Fri, 23 Nov 2012 22:18:38 -0800"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "3.95"
-          },
-          "book_published": {
-            "_text": "2011"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/9418327-bossypants?utm_medium=api&amp;utm_source=rss\"><img alt=\"Bossypants\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1481509554l/9418327._SY75_.jpg\" /></a><br/>\n                                      author: Tina Fey<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.95<br/>\n                                      book published: 2011<br/>\n                                      rating: 3<br/>\n                                      read at: <br/>\n                                      date added: 2012/12/19<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

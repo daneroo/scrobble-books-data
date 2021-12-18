@@ -2,6 +2,28 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "guid": "https://www.goodreads.com/review/show/4395054276?utm_medium=api&utm_source=rss",
+      "pubDate": "2021-12-18T02:54:37.000Z",
+      "title": "The World Atlas of Coffee: From Beans to Brewing -- Coffees Explored, Explained and Enjoyed",
+      "link": "https://www.goodreads.com/review/show/4395054276?utm_medium=api&utm_source=rss",
+      "bookId": "21563974",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1403197222l/21563974._SX50_.jpg",
+      "bookDescription": "Professionals and enthusiasts alike will love this beautiful book by James Hoffmann. From overviews of the world's most vibrant coffee-growing regions, to step-by-step brewing tutorials, the content is educational, thought-provoking, and substantial. I've already recommended this book to <i>Barista Magazine</i> readers countless times. -- Sarah Allen, Editor <i>Barista Magazine</i><br /><br />A beautiful world guide to the brown bean.<br /><br />Taking the reader on a global tour of coffee-growing countries, <i>The World Atlas of Coffee</i> presents the bean in full-color photographs and concise, informative text. It shows the origins of coffee -- where it is grown, the people who grow it; and the cultures in which coffee is a way of life -- and the world of consumption -- processing, grades, the consumer and the modern culture of coffee.<br /><br />Plants of the genus Coffea are cultivated in more than 70 countries but primarily in equatorial Latin America, Southeast Asia and Africa. For some countries, including Central African Republic, Colombia, Ethiopia, and Honduras, coffee is the number one export and critical to the economy.<br /><br />Organized by continent and then further by country or region, <i>The World Atlas of Coffee</i> presents the brew in color spreads packed with information. They include:<br /><br />The history of coffee generally and regionally The role of colonialism (for example, in Burundi under colonial rule of Belgium, coffee production was best described as coercive. Every peasant farmer had to cultivate at least 50 coffee trees near their home.) Map of growing regions and detail maps Charts explaining differences in growing regions within a country Inset boxes (For example, what is the Potato Defect? Is Cuban coffee legal in the United States?) The politics of coffee and the fair trade, organic and shade grown phenomena Beautiful color photographs taken in the field. Americans consume 400 million cups of coffee per day, equivalent to 146 billion cups of coffee per year, making the United States the leading consumer of coffee in the world. <i>The World Atlas of Coffee</i> is an excellent choice for these coffee lovers.",
+      "authorName": "James Hoffmann",
+      "isbn": "1770854703",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2021-12-18T02:54:37.000Z",
+      "userDateCreated": "2021-12-18T02:54:37.000Z",
+      "userShelves": "on-deck",
+      "userReview": "",
+      "averageRating": "4.42",
+      "bookPublished": "2014",
+      "description": "\n      <a href=\"https://www.goodreads.com/book/show/21563974-the-world-atlas-of-coffee?utm_medium=api&amp;utm_source=rss\"><img alt=\"The World Atlas of Coffee: From Beans to Brewing -- Coffees Explored, Explained and Enjoyed\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1403197222l/21563974._SX50_.jpg\" /></a><br/>\n                                      author: James Hoffmann<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.42<br/>\n                                      book published: 2014<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/12/17<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      ",
+      "numPages": "256"
+    },
+    {
       "guid": "https://www.goodreads.com/review/show/4391945521?utm_medium=api&utm_source=rss",
       "pubDate": "2021-12-16T06:48:02.000Z",
       "title": "The Doors of Stone (The Kingkiller Chronicle, #3)",

@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Wed, 15 Dec 2021 22:48:02 -0800"
+        "_text": "Fri, 17 Dec 2021 18:54:37 -0800"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/4395054276?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Fri, 17 Dec 2021 18:54:37 -0800"
+          },
+          "title": {
+            "_cdata": "The World Atlas of Coffee: From Beans to Brewing -- Coffees Explored, Explained and Enjoyed"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/4395054276?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "21563974"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1403197222l/21563974._SX50_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1403197222l/21563974._SX50_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1403197222l/21563974._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1403197222l/21563974.jpg"
+          },
+          "book_description": {
+            "_cdata": "Professionals and enthusiasts alike will love this beautiful book by James Hoffmann. From overviews of the world's most vibrant coffee-growing regions, to step-by-step brewing tutorials, the content is educational, thought-provoking, and substantial. I've already recommended this book to <i>Barista Magazine</i> readers countless times. -- Sarah Allen, Editor <i>Barista Magazine</i><br /><br />A beautiful world guide to the brown bean.<br /><br />Taking the reader on a global tour of coffee-growing countries, <i>The World Atlas of Coffee</i> presents the bean in full-color photographs and concise, informative text. It shows the origins of coffee -- where it is grown, the people who grow it; and the cultures in which coffee is a way of life -- and the world of consumption -- processing, grades, the consumer and the modern culture of coffee.<br /><br />Plants of the genus Coffea are cultivated in more than 70 countries but primarily in equatorial Latin America, Southeast Asia and Africa. For some countries, including Central African Republic, Colombia, Ethiopia, and Honduras, coffee is the number one export and critical to the economy.<br /><br />Organized by continent and then further by country or region, <i>The World Atlas of Coffee</i> presents the brew in color spreads packed with information. They include:<br /><br />The history of coffee generally and regionally The role of colonialism (for example, in Burundi under colonial rule of Belgium, coffee production was best described as coercive. Every peasant farmer had to cultivate at least 50 coffee trees near their home.) Map of growing regions and detail maps Charts explaining differences in growing regions within a country Inset boxes (For example, what is the Potato Defect? Is Cuban coffee legal in the United States?) The politics of coffee and the fair trade, organic and shade grown phenomena Beautiful color photographs taken in the field. Americans consume 400 million cups of coffee per day, equivalent to 146 billion cups of coffee per year, making the United States the leading consumer of coffee in the world. <i>The World Atlas of Coffee</i> is an excellent choice for these coffee lovers."
+          },
+          "book": {
+            "_attributes": {
+              "id": "21563974"
+            },
+            "num_pages": {
+              "_text": "256"
+            }
+          },
+          "author_name": {
+            "_text": "James Hoffmann"
+          },
+          "isbn": {
+            "_text": "1770854703"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "0"
+          },
+          "user_read_at": {},
+          "user_date_added": {
+            "_cdata": "Fri, 17 Dec 2021 18:54:37 -0800"
+          },
+          "user_date_created": {
+            "_cdata": "Fri, 17 Dec 2021 18:54:37 -0800"
+          },
+          "user_shelves": {
+            "_text": "on-deck"
+          },
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.42"
+          },
+          "book_published": {
+            "_text": "2014"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/21563974-the-world-atlas-of-coffee?utm_medium=api&amp;utm_source=rss\"><img alt=\"The World Atlas of Coffee: From Beans to Brewing -- Coffees Explored, Explained and Enjoyed\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1403197222l/21563974._SX50_.jpg\" /></a><br/>\n                                      author: James Hoffmann<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.42<br/>\n                                      book published: 2014<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/12/17<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/4391945521?utm_medium=api&utm_source=rss"
@@ -7134,78 +7206,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/672243.Helliconia_Summer?utm_medium=api&amp;utm_source=rss\"><img alt=\"Helliconia Summer (Helliconia, #2)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1387705495l/672243._SY75_.jpg\" /></a><br/>\n                                      author: Brian W. Aldiss<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.74<br/>\n                                      book published: 1983<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/08/07<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/4161668233?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sat, 07 Aug 2021 21:29:46 -0700"
-          },
-          "title": {
-            "_cdata": "Fifth Business (The Deptford Trilogy, #1)"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/4161668233?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "74406"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1170852646l/74406._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1170852646l/74406._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1170852646l/74406._SX98_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1170852646l/74406.jpg"
-          },
-          "book_description": {
-            "_cdata": "Ramsay is a man twice born, a man who has returned from the hell of the battle-grave at Passchendaele in World War I decorated with the Victoria Cross and destined to be caught in a no man's land where memory, history, and myth collide. As Ramsay tells his story, it begins to seem that from boyhood, he has exerted a perhaps mystical, perhaps pernicious, influence on those around him. His apparently innocent involvement in such innocuous events as the throwing of a snowball or the teaching of card tricks to a small boy in the end prove neither innocent nor innocuous. <em>Fifth Business</em> stands alone as a remarkable story told by a rational man who discovers that the marvelous is only another aspect of the real."
-          },
-          "book": {
-            "_attributes": {
-              "id": "74406"
-            },
-            "num_pages": {
-              "_text": "252"
-            }
-          },
-          "author_name": {
-            "_text": "Robertson Davies"
-          },
-          "isbn": {
-            "_text": "0141181362"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "0"
-          },
-          "user_read_at": {},
-          "user_date_added": {
-            "_cdata": "Sat, 07 Aug 2021 21:29:46 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Sat, 07 Aug 2021 21:29:46 -0700"
-          },
-          "user_shelves": {
-            "_text": "to-read"
-          },
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.06"
-          },
-          "book_published": {
-            "_text": "1970"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/74406.Fifth_Business?utm_medium=api&amp;utm_source=rss\"><img alt=\"Fifth Business (The Deptford Trilogy, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1170852646l/74406._SY75_.jpg\" /></a><br/>\n                                      author: Robertson Davies<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.06<br/>\n                                      book published: 1970<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/08/07<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]

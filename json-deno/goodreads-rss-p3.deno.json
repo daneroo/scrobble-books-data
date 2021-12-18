@@ -41,7 +41,7 @@
         "_text": "en-US"
       },
       "lastBuildDate": {
-        "_text": "Sun, 04 Apr 2021 15:07:28 -0700"
+        "_text": "Sun, 04 Apr 2021 23:44:26 -0700"
       },
       "ttl": {
         "_text": "60"
@@ -64,6 +64,78 @@
         }
       },
       "item": [
+        {
+          "guid": {
+            "_cdata": "https://www.goodreads.com/review/show/3925277859?utm_medium=api&utm_source=rss"
+          },
+          "pubDate": {
+            "_cdata": "Sun, 04 Apr 2021 23:44:26 -0700"
+          },
+          "title": {
+            "_cdata": "Logicomix: An Epic Search for Truth"
+          },
+          "link": {
+            "_cdata": "https://www.goodreads.com/review/show/3925277859?utm_medium=api&utm_source=rss"
+          },
+          "book_id": {
+            "_text": "6493321"
+          },
+          "book_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1312031956l/6493321._SX50_.jpg"
+          },
+          "book_small_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1312031956l/6493321._SX50_.jpg"
+          },
+          "book_medium_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1312031956l/6493321._SX98_.jpg"
+          },
+          "book_large_image_url": {
+            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1312031956l/6493321.jpg"
+          },
+          "book_description": {
+            "_cdata": "An innovative, dramatic graphic novel about the treacherous pursuit of the foundations of mathematics. <br /> This graphic novel recounts the spiritual odyssey of philosopher Bertrand Russell. In his agonized search for absolute truth, he crosses paths with thinkers like Gottlob Frege, David Hilbert &amp; Kurt Gödel, &amp; finds a passionate student in Ludwig Wittgenstein. But his most ambitious goal—to establish unshakable logical foundations of mathematics—continues to loom before him. Thru love &amp; hate, peace &amp; war, he persists in the mission threatening to claim both his career &amp; happiness, finally driving him to the brink of insanity.<br /> This story is at the same time a historical novel &amp; an accessible explication of some of the biggest ideas of mathematics &amp; modern philosophy. With rich characterizations &amp; atmospheric artwork, it spins the pursuit of such ideas into a satisfying tale.<br /> Probing, layered, the book throws light on Russell’s inner struggles while setting them in the context of the timeless questions he tried to answer. At its heart, <i>Logicomix</i> is a story about the conflict between ideal rationality &amp; the flawed fabric of reality."
+          },
+          "book": {
+            "_attributes": {
+              "id": "6493321"
+            },
+            "num_pages": {
+              "_text": "352"
+            }
+          },
+          "author_name": {
+            "_text": "Apostolos Doxiadis"
+          },
+          "isbn": {
+            "_text": "1596914521"
+          },
+          "user_name": {
+            "_text": "Daniel"
+          },
+          "user_rating": {
+            "_text": "4"
+          },
+          "user_read_at": {
+            "_cdata": "Sun, 04 Apr 2021 23:44:22 -0700"
+          },
+          "user_date_added": {
+            "_cdata": "Sun, 04 Apr 2021 23:44:26 -0700"
+          },
+          "user_date_created": {
+            "_cdata": "Sat, 03 Apr 2021 23:48:46 -0700"
+          },
+          "user_shelves": {},
+          "user_review": {},
+          "average_rating": {
+            "_text": "4.04"
+          },
+          "book_published": {
+            "_text": "2009"
+          },
+          "description": {
+            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/6493321-logicomix?utm_medium=api&amp;utm_source=rss\"><img alt=\"Logicomix: An Epic Search for Truth\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1312031956l/6493321._SX50_.jpg\" /></a><br/>\n                                      author: Apostolos Doxiadis<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.04<br/>\n                                      book published: 2009<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/04/04<br/>\n                                      date added: 2021/04/04<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
+          }
+        },
         {
           "guid": {
             "_cdata": "https://www.goodreads.com/review/show/3926329362?utm_medium=api&utm_source=rss"
@@ -7118,78 +7190,6 @@
           },
           "description": {
             "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/17744.The_Visual_Display_of_Quantitative_Information?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Visual Display of Quantitative Information\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1560425455l/17744._SX50_.jpg\" /></a><br/>\n                                      author: Edward R. Tufte<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.39<br/>\n                                      book published: 1983<br/>\n                                      rating: 5<br/>\n                                      read at: <br/>\n                                      date added: 2020/08/20<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
-          }
-        },
-        {
-          "guid": {
-            "_cdata": "https://www.goodreads.com/review/show/3310598134?utm_medium=api&utm_source=rss"
-          },
-          "pubDate": {
-            "_cdata": "Sat, 08 Aug 2020 03:09:24 -0700"
-          },
-          "title": {
-            "_cdata": "Rendezvous with Rama (Rama, #1)"
-          },
-          "link": {
-            "_cdata": "https://www.goodreads.com/review/show/3310598134?utm_medium=api&utm_source=rss"
-          },
-          "book_id": {
-            "_text": "112537"
-          },
-          "book_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1405456427l/112537._SY75_.jpg"
-          },
-          "book_small_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1405456427l/112537._SY75_.jpg"
-          },
-          "book_medium_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1405456427l/112537._SY160_.jpg"
-          },
-          "book_large_image_url": {
-            "_cdata": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1405456427l/112537.jpg"
-          },
-          "book_description": {
-            "_cdata": "At first, only a few things are known about the celestial object that astronomers dub Rama. It is huge, weighing more than ten trillion tons. And it is hurtling through the solar system at an inconceivable speed. Then a space probe confirms the unthinkable: Rama is no natural object. It is, incredibly, an interstellar spacecraft. Space explorers and planet-bound scientists alike prepare for mankind's first encounter with alien intelligence. It will kindle their wildest dreams... and fan their darkest fears. For no one knows who the Ramans are or why they have come. And now the moment of rendezvous awaits — just behind a Raman airlock door."
-          },
-          "book": {
-            "_attributes": {
-              "id": "112537"
-            },
-            "num_pages": {
-              "_text": "243"
-            }
-          },
-          "author_name": {
-            "_text": "Arthur C. Clarke"
-          },
-          "isbn": {
-            "_text": "1857231589"
-          },
-          "user_name": {
-            "_text": "Daniel"
-          },
-          "user_rating": {
-            "_text": "3"
-          },
-          "user_read_at": {
-            "_cdata": "Sat, 08 Aug 2020 03:09:24 -0700"
-          },
-          "user_date_added": {
-            "_cdata": "Sat, 08 Aug 2020 03:09:24 -0700"
-          },
-          "user_date_created": {
-            "_cdata": "Thu, 30 Apr 2020 11:44:44 -0700"
-          },
-          "user_shelves": {},
-          "user_review": {},
-          "average_rating": {
-            "_text": "4.10"
-          },
-          "book_published": {
-            "_text": "1973"
-          },
-          "description": {
-            "_cdata": "\n      <a href=\"https://www.goodreads.com/book/show/112537.Rendezvous_with_Rama?utm_medium=api&amp;utm_source=rss\"><img alt=\"Rendezvous with Rama (Rama, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1405456427l/112537._SY75_.jpg\" /></a><br/>\n                                      author: Arthur C. Clarke<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.10<br/>\n                                      book published: 1973<br/>\n                                      rating: 3<br/>\n                                      read at: 2020/08/08<br/>\n                                      date added: 2020/08/08<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      "
           }
         }
       ]
