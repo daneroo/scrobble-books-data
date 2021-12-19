@@ -26,7 +26,7 @@ jobs:
 
       - name: Scrape Goodreads feed
         run: |
-          deno run -q --allow-read --allow-write --allow-run --allow-net --allow-env --unstable src/postprocess.js
+          deno run -q --allow-read --allow-write --allow-run --allow-net --allow-env --unstable src/scrape.js
 
       - name: Setup node
         uses: actions/setup-node@v2

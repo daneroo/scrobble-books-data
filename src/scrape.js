@@ -128,8 +128,10 @@ function prettyFeed({ title, items }) {
   for (const item of feed.items) {
     const { title, authorName, userRating, userReadAt, userShelves } = item;
     console.log(
-      `- ${title} by ${authorName} *:${userRating} t:${userReadAt} shelf:${userShelves ||
-        "read"}`,
+      `- ${title} by ${authorName} *:${userRating} t:${userReadAt} shelf:${
+        userShelves ||
+        "read"
+      }`,
     );
   }
 }

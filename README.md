@@ -50,12 +50,13 @@ act -j unit
 # Local run of scheduled scrape job
 act -j scrape --secret-file SCRAPE.secrets
 
-# which is equivalent to:
+## Which is equivalent to:
+# scrape (deno)
+. GOODREADS.env
+deno run -q --allow-read --allow-write --allow-run --allow-net --allow-env --unstable src/scrape.js
+# pin (ipfs)
 . WEB3STORAGE.env
 npm start
-
-. GOODREADS.env
-deno run -q --allow-read --allow-write --allow-run --allow-net --allow-env --unstable src/postprocess.js goodreads-rss-ignore-me-p1.xml
 ```
 
 ## Validating with `cue`
