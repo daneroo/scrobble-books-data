@@ -33,8 +33,9 @@ The data file ca be fetched (externally) at
 ## TODO
 
 - Use a mono repo ([turborepo](https://turborepo.org/))
+  - Move deno source to typescript cli project
 - Clean up the data more
-  - Removed unseds fields (description, etc)
+  - Removed unused fields (description, etc)
   - Use cuelang validation (perhaps part of e2e tests)
   - [CueBlox](https://www.cueblox.com/): see if it appropriate to use
 - ~~Done~~
