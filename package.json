@@ -2,10 +2,10 @@
   "name": "scrobble-books-data",
   "version": "1.0.0",
   "description": "Tracking reading data",
-  "main": "src/index.js",
+  "main": "src-js/index.js",
   "scripts": {
-    "start": "node src/index.js",
-    "test": "standard src/"
+    "start": "node src-js/index.js",
+    "test": "standard src-js/"
   },
   "repository": {
     "type": "git",
@@ -18,10 +18,9 @@
   },
   "homepage": "https://github.com/daneroo/scrobble-books-data#readme",
   "devDependencies": {
-    "standard": "^16.0.3"
+    "standard": "^16.0.4"
   },
   "dependencies": {
-    "node-fetch": "^2.6.1",
-    "xml2js": "^0.4.23"
+    "web3.storage": "^3.5.1"
   }
 }

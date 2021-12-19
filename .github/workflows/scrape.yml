@@ -14,6 +14,7 @@ jobs:
     env:
       GOODREADS_KEY: ${{ secrets.GOODREADS_KEY }}
       GOODREADS_USER: ${{ secrets.GOODREADS_USER }}
+      WEB3STORAGE_TOKEN: ${{ secrets.WEB3STORAGE_TOKEN }}
     steps:
       - name: Check out repo
         uses: actions/checkout@v2
@@ -23,12 +24,42 @@ jobs:
         with:
           deno-version: v1.x
 
-      - name: Fetch data 
-        uses: githubocto/flat@v3
-        with:
-          http_url: ${{ secrets.GOODREADS_FEED_URL }}
-          downloaded_filename: goodreads-rss-ignore-me-p1.xml
-          postprocess: src/postprocess.js # A postprocessing javascript or typescript file written in Deno
-          mask: true # optional param to mask the source http_url from the commit. Look at README for more options
-          # mask: '["${{ secrets.GOODREADS_FEED_URL }}"]'
+      - name: Scrape Goodreads feed
+        run: |
+          deno run -q --allow-read --allow-write --allow-run --allow-net --allow-env --unstable src/postprocess.js
 
+      - name: Setup node
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+          # commented for local run
+          # cache: 'npm'
+
+      - name: Pin to web3.storage (ipfs)
+        run: |
+          npm ci
+          npm start
+
+
+      # see docs at https://github.com/stefanzweifel/git-auto-commit-action
+      - name: Commit back changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Latest reading data
+
+          # Optional glob pattern of files which should be added to the commit
+          # Defaults to all (.)
+          # See the `pathspec`-documentation for git
+          # - https://git-scm.com/docs/git-add#Documentation/git-add.txt-ltpathspecgt82308203
+          # - https://git-scm.com/docs/gitglossary#Documentation/gitglossary.txt-aiddefpathspecapathspec
+          file_pattern: goodreads-rss.json goodreads-ipfs.json
+
+
+          # Optional commit user and author settings
+          # commit_user_name: My GitHub Actions Bot # defaults to "GitHub Actions"
+          # commit_user_email: my-github-actions-bot@example.org # defaults to "actions@github.com"
+          # commit_author: Author <actions@github.com> # defaults to author of the commit that triggered the run
+
+          # Optional. Used by `git-status`
+          # See https://git-scm.com/docs/git-status#_options
+          # status_options: '--untracked-files=no'

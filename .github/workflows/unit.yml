@@ -18,10 +18,22 @@ jobs:
         with:
           deno-version: v1.x
 
-      - name: Run Unit tests
+      - name: Run Unit tests (deno)
         run: |
           deno --version
-          deno lint
-          deno test
+          deno lint src
+          deno test src
+
+      - name: Setup node
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+          # commented for local run
+          # cache: 'npm'
+
+      - name: Run Unit tests (node)
+        run: |
+          npm ci
+          npm test
 
 

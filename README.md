@@ -11,19 +11,30 @@ You can look at
 
 ## Description
 
-We are using githubocto/flat@v3, which uses Deno/Typescript as it's
-postprocessor,
+Performs 2 tasks as a cron trigger github action:
+
+- scrape latest reading data (goodreads)
+  - `goodreads-rss.json`
+- pins the the file to web3.storage (ipfs)
+  - `goodreads-ipfs.json` contains the pinned CID
+- commits any changes back to the repo
+
+The scraper was originally written with `deno` 
+because we were using githubocto/flat@v3, which uses Deno/Typescript as it's
+post-processor.
 
 ## Usage
 
 The data file ca be fetched (externally) at
-<https://raw.githubusercontent.com/daneroo/scrobble-books-data/main/goodreads-rss.json>.
+
+- <https://raw.githubusercontent.com/daneroo/scrobble-books-data/main/goodreads-rss.json>.
+- <https://raw.githubusercontent.com/daneroo/scrobble-books-data/main/goodreads-ipfs.json>.
 
 ## TODO
 
-- [Publish deno/typescript module with tests](https://www.brunnerliv.io/articles/create-your-first-module-with-deno)
-- Ensure no trivial updates (no lastBuildDate from rss pages)
+- Use a mono repo ([turborepo](https://turborepo.org/))
 - Clean up the data more
+  - Removed unseds fields (description, etc)
   - Use cuelang validation (perhaps part of e2e tests)
   - [CueBlox](https://www.cueblox.com/): see if it appropriate to use
 - ~~Done~~
@@ -37,8 +48,12 @@ The data file ca be fetched (externally) at
 act -j unit
 
 # Local run of scheduled scrape job
-act -j scrape --secret-file GOODREADS.secrets
+act -j scrape --secret-file SCRAPE.secrets
+
 # which is equivalent to:
+. WEB3STORAGE.env
+npm start
+
 . GOODREADS.env
 deno run -q --allow-read --allow-write --allow-run --allow-net --allow-env --unstable src/postprocess.js goodreads-rss-ignore-me-p1.xml
 ```
