@@ -30,10 +30,16 @@ The data file ca be fetched (externally) at
 - <https://raw.githubusercontent.com/daneroo/scrobble-books-data/main/goodreads-rss.json>.
 - <https://raw.githubusercontent.com/daneroo/scrobble-books-data/main/goodreads-ipfs.json>.
 
+The pinned CID's can be found at
+
+- <https://web3.storage/files/>
+
 ## TODO
 
 - Use a mono repo ([turborepo](https://turborepo.org/))
   - Move deno source to typescript cli project
+- Remove redundant CID's in web3.storage
+- Use CBOR instead of files?
 - Clean up the data more
   - Removed unused fields (description, etc)
   - Use cuelang validation (perhaps part of e2e tests)
