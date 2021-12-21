@@ -48,7 +48,9 @@ The pinned CID's can be found at
 - ~~[Integrate VSCode](https://deno.land/manual@v1.14.1/vscode_deno)~~
 - ~~Use [Skypack's xml2js](https://www.skypack.dev/view/xml2js)~~
 
-## Testing locally
+## Testing Actions locally
+
+Note: _npm caching turned off_
 
 ```bash
 # CI
@@ -56,7 +58,17 @@ act -j unit
 
 # Local run of scheduled scrape job
 act -j scrape --secret-file SCRAPE.secrets
+```
 
+Check the git logs for frequecy of scrape action commits
+
+```bash
+git log|grep -B 2 -i latest|grep '^Date:'|cut -c9-18|uniq -c
+```
+
+Scrape action is equivalent to:
+
+```bash
 ## Which is equivalent to:
 # scrape (deno)
 . GOODREADS.env
