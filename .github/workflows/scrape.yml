@@ -50,7 +50,7 @@ jobs:
       - name: Commit back changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: Latest book data ${{ steps.stamp.outputs.stamp }
+          commit_message: Latest book data ${{ steps.stamp.outputs.stamp }}
 
           # Optional glob pattern of files which should be added to the commit
           # Defaults to all (.)
