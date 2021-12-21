@@ -1,4 +1,4 @@
-name: Scrape latest reading data
+name: Scrape latest book data
 
 on:
   push:
@@ -18,6 +18,11 @@ jobs:
     steps:
       - name: Check out repo
         uses: actions/checkout@v2
+
+      # Get the stamp for the eventual commit message
+      - name: Get current date stamp
+        id: stamp
+        run: echo "::set-output name=stamp::$(date -u +'%Y-%m-%dT%H:%M:%SZ')"
 
       - name: Setup deno
         uses: denoland/setup-deno@v1
@@ -45,7 +50,7 @@ jobs:
       - name: Commit back changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: Latest reading data
+          commit_message: Latest book data ${{ steps.stamp.outputs.stamp }
 
           # Optional glob pattern of files which should be added to the commit
           # Defaults to all (.)
