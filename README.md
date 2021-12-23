@@ -60,7 +60,7 @@ act -j unit
 act -j scrape --secret-file SCRAPE.secrets
 ```
 
-Check the git logs for frequecy of scrape action commits
+Check the git logs for frequency of scrape action commits
 
 ```bash
 git log|grep -B 2 -i latest|grep '^Date:'|cut -c9-18|uniq -c
