@@ -38,7 +38,7 @@ The pinned CID's can be found at
 
 - Use a mono repo ([turborepo](https://turborepo.org/))
   - Move deno source to typescript cli project
-- Remove redundant CID's in web3.storage
+- Remove redundant CID's in web3.storage (.delete not implemented - requires MAGIC_LINK - cannot call API)
 - Use CBOR instead of files?
 - Clean up the data more
   - Removed unused fields (description, etc)

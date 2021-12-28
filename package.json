@@ -21,6 +21,6 @@
     "standard": "^16.0.4"
   },
   "dependencies": {
-    "web3.storage": "^3.5.1"
+    "web3.storage": "^3.5.2"
   }
 }
