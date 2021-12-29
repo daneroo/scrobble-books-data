@@ -2,6 +2,28 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "guid": "https://www.goodreads.com/review/show/4419656044?utm_medium=api&utm_source=rss",
+      "pubDate": "2021-12-29T09:54:34.000Z",
+      "title": "The Hound of the Baskervilles (Sherlock Holmes, #5)",
+      "link": "https://www.goodreads.com/review/show/4419656044?utm_medium=api&utm_source=rss",
+      "bookId": "8921",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1355929358l/8921._SX50_.jpg",
+      "bookDescription": "Could the sudden death of Sir Charles Baskerville have been caused by the gigantic ghostly hound that is said to have haunted his family for generations? Arch-rationalist Sherlock Holmes characteristically dismisses the theory as nonsense. And immersed in another case, he sends Watson to Devon to protect the Baskerville heir and observe the suspects close at hand. With its atmospheric setting on the ancient, wild moorland and its savage apparition, <i>The Hound of the Baskervilles</i> is one of the greatest crime novels ever written. Rationalism is pitted against the supernatural, good against evil, as Sherlock Holmes seeks to defeat a foe almost his equal.",
+      "authorName": "Arthur Conan Doyle",
+      "isbn": "",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2021-12-29T09:54:34.000Z",
+      "userDateCreated": "2021-12-29T09:54:22.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "4.14",
+      "bookPublished": "1901",
+      "description": "\n      <a href=\"https://www.goodreads.com/book/show/8921.The_Hound_of_the_Baskervilles?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Hound of the Baskervilles (Sherlock Holmes, #5)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1355929358l/8921._SX50_.jpg\" /></a><br/>\n                                      author: Arthur Conan Doyle<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.14<br/>\n                                      book published: 1901<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/12/29<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>\n                                      ",
+      "numPages": "256"
+    },
+    {
       "guid": "https://www.goodreads.com/review/show/4292296033?utm_medium=api&utm_source=rss",
       "pubDate": "2021-12-29T09:31:20.000Z",
       "title": "The Importance of Being Earnest",
