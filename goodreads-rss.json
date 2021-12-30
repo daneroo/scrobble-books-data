@@ -3,7 +3,7 @@
   "items": [
     {
       "guid": "https://www.goodreads.com/review/show/4419656044?utm_medium=api&utm_source=rss",
-      "pubDate": "2021-12-29T20:04:16.000Z",
+      "pubDate": "2021-12-30T06:18:20.000Z",
       "title": "The Hound of the Baskervilles (Sherlock Holmes, #5)",
       "link": "https://www.goodreads.com/review/show/4419656044?utm_medium=api&utm_source=rss",
       "bookId": "8921",
@@ -12,15 +12,15 @@
       "authorName": "Arthur Conan Doyle",
       "isbn": "",
       "userName": "Daniel",
-      "userRating": "0",
-      "userReadAt": "",
-      "userDateAdded": "2021-12-29T20:04:16.000Z",
+      "userRating": "4",
+      "userReadAt": "2021-12-30T06:18:17.000Z",
+      "userDateAdded": "2021-12-30T06:18:20.000Z",
       "userDateCreated": "2021-12-29T09:54:22.000Z",
-      "userShelves": "currently-reading",
+      "userShelves": "",
       "userReview": "",
       "averageRating": "4.14",
       "bookPublished": "1901",
-      "description": "\n      <a href=\"https://www.goodreads.com/book/show/8921.The_Hound_of_the_Baskervilles?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Hound of the Baskervilles (Sherlock Holmes, #5)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1355929358l/8921._SX50_.jpg\" /></a><br/>\n                                      author: Arthur Conan Doyle<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.14<br/>\n                                      book published: 1901<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/12/29<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>\n                                      ",
+      "description": "\n      <a href=\"https://www.goodreads.com/book/show/8921.The_Hound_of_the_Baskervilles?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Hound of the Baskervilles (Sherlock Holmes, #5)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1355929358l/8921._SX50_.jpg\" /></a><br/>\n                                      author: Arthur Conan Doyle<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.14<br/>\n                                      book published: 1901<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/12/29<br/>\n                                      date added: 2021/12/29<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      ",
       "numPages": "256"
     },
     {
