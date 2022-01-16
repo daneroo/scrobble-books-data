@@ -2,6 +2,28 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "guid": "https://www.goodreads.com/review/show/4479687394?utm_medium=api&utm_source=rss",
+      "pubDate": "2022-01-16T07:04:54.000Z",
+      "title": "The History of the Decline and Fall of the Roman Empire Volume I",
+      "link": "https://www.goodreads.com/review/show/4479687394?utm_medium=api&utm_source=rss",
+      "bookId": "377965",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1352548717l/377965._SY75_.jpg",
+      "bookDescription": "Edward Gibbon's six-volume <i>History of the Decline and Fall of the Roman Empire</i> (1776-88) is among the most magnificent and ambitious narratives in European literature. Its subject is the fate of one of the world's greatest civilizations over thirteen centuries - its rulers, wars, and society, and the events that led to its disastrous collapse. Here, in book one and two, Gibbon charts the vast extent and constitution of the Empire from the reign of Augustus to 395 AD. And in a controversial critique, he examines the early Church, with fascinating accounts of the first Christian and last pagan emperors, Constantine and Julian.<br /><br />This volume also includes updated further reading, a new chronology, appendices and notes.",
+      "authorName": "Edward Gibbon",
+      "isbn": "0140433937",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2022-01-16T07:04:54.000Z",
+      "userDateCreated": "2022-01-16T07:04:36.000Z",
+      "userShelves": "on-deck",
+      "userReview": "",
+      "averageRating": "4.22",
+      "bookPublished": "1776",
+      "description": "\n      <a href=\"https://www.goodreads.com/book/show/377965.The_History_of_the_Decline_and_Fall_of_the_Roman_Empire_Volume_I?utm_medium=api&amp;utm_source=rss\"><img alt=\"The History of the Decline and Fall of the Roman Empire Volume I\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1352548717l/377965._SY75_.jpg\" /></a><br/>\n                                      author: Edward Gibbon<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.22<br/>\n                                      book published: 1776<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/01/15<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      ",
+      "numPages": "1114"
+    },
+    {
       "guid": "https://www.goodreads.com/review/show/2389108546?utm_medium=api&utm_source=rss",
       "pubDate": "2022-01-15T22:46:34.000Z",
       "title": "L'ordine del tempo",
