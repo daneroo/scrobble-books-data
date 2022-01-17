@@ -2,6 +2,28 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "guid": "https://www.goodreads.com/review/show/4483554412?utm_medium=api&utm_source=rss",
+      "pubDate": "2022-01-17T17:14:14.000Z",
+      "title": "Thinking in Bets: Making Smarter Decisions When You Don't Have All the Facts",
+      "link": "https://www.goodreads.com/review/show/4483554412?utm_medium=api&utm_source=rss",
+      "bookId": "35957157",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1513351600l/35957157._SY75_.jpg",
+      "bookDescription": "In Super Bowl XLIX, Seahawks coach Pete Carroll made one of the most controversial calls in football history: With 26 seconds remaining, and trailing by four at the Patriots' one-yard line, he called for a pass instead of a hand off to his star running back. The pass was intercepted and the Seahawks lost. Critics called it the dumbest play in history. But was the call really that bad? Or did Carroll actually make a great move that was ruined by bad luck?<br /><br />Even the best decision doesn't yield the best outcome every time. There's always an element of luck that you can't control, and there is always information that is hidden from view. So the key to long-term success (and avoiding worrying yourself to death) is to think in bets: How sure am I? What are the possible ways things could turn out? What decision has the highest odds of success? Did I land in the unlucky 10% on the strategy that works 90% of the time? Or is my success attributable to dumb luck rather than great decision making?<br /><br />Annie Duke, a former World Series of Poker champion turned business consultant, draws on examples from business, sports, politics, and (of course) poker to share tools anyone can use to embrace uncertainty and make better decisions. For most people, it's difficult to say \"I'm not sure\" in a world that values and, even, rewards the appearance of certainty. But professional poker players are comfortable with the fact that great decisions don't always lead to great outcomes and bad decisions don't always lead to bad outcomes.<br /><br />By shifting your thinking from a need for certainty to a goal of accurately assessing what you know and what you don't, you'll be less vulnerable to reactive emotions, knee-jerk biases, and destructive habits in your decision making. You'll become more confident, calm, compassionate and successful in the long run.",
+      "authorName": "Annie Duke",
+      "isbn": "0735216355",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2022-01-17T17:14:14.000Z",
+      "userDateCreated": "2022-01-17T17:14:02.000Z",
+      "userShelves": "on-deck",
+      "userReview": "",
+      "averageRating": "3.80",
+      "bookPublished": "2018",
+      "description": "\n      <a href=\"https://www.goodreads.com/book/show/35957157-thinking-in-bets?utm_medium=api&amp;utm_source=rss\"><img alt=\"Thinking in Bets: Making Smarter Decisions When You Don&#39;t Have All the Facts\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1513351600l/35957157._SY75_.jpg\" /></a><br/>\n                                      author: Annie Duke<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.80<br/>\n                                      book published: 2018<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/01/17<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      ",
+      "numPages": "288"
+    },
+    {
       "guid": "https://www.goodreads.com/review/show/4325615384?utm_medium=api&utm_source=rss",
       "pubDate": "2022-01-16T08:35:58.000Z",
       "title": "Powers and Thrones: A New History of the Middle Ages",
@@ -128,9 +150,9 @@
       "userDateCreated": "2020-03-22T07:08:09.000Z",
       "userShelves": "currently-reading",
       "userReview": "",
-      "averageRating": "4.15",
+      "averageRating": "4.16",
       "bookPublished": "2016",
-      "description": "\n      <a href=\"https://www.goodreads.com/book/show/29093292-the-daily-stoic?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Daily Stoic: 366 Meditations for Clarity, Effectiveness, and Serenity\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1462161080l/29093292._SX50_.jpg\" /></a><br/>\n                                      author: Ryan Holiday<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.15<br/>\n                                      book published: 2016<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/01/07<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>\n                                      ",
+      "description": "\n      <a href=\"https://www.goodreads.com/book/show/29093292-the-daily-stoic?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Daily Stoic: 366 Meditations for Clarity, Effectiveness, and Serenity\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1462161080l/29093292._SX50_.jpg\" /></a><br/>\n                                      author: Ryan Holiday<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.16<br/>\n                                      book published: 2016<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/01/07<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>\n                                      ",
       "numPages": "416"
     },
     {
