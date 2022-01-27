@@ -2,6 +2,28 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "guid": "https://www.goodreads.com/review/show/4391929627?utm_medium=api&utm_source=rss",
+      "pubDate": "2022-01-27T07:50:08.000Z",
+      "title": "The Burgundians: A Vanished Empire",
+      "link": "https://www.goodreads.com/review/show/4391929627?utm_medium=api&utm_source=rss",
+      "bookId": "56750097",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1611040212l/56750097._SY75_.jpg",
+      "bookDescription": "A publishing phenomenon in Europe, where it has sold 230,000 copies in hardback, Bart van Loo's epic history of the dukedom of Burgundy has the grip of a great historical novel and the fascination of a wonderful factual narrative.<br /><br />In 1525, Burgundy was extinguished as an independent state. It had been a fabulously wealthy, turbulent region situated between France and Germany, with close links to the English kingdom. Torn apart by the dynastic struggles of early modern Europe, this extraordinary realm vanished from the map. But it became the cradle of what we now know as the Low Countries, modern Belgium and the Netherlands.<br /><br />This is the story of a thousand years, a compulsively readable narrative history of ambitious aristocrats, family dysfunction, treachery, savage battles, luxury and madness. It is about the decline of knightly ideals and the awakening of individualism and of cities, the struggle for dominance in the heart of northern Europe, bloody military campaigns and fatally bad marriages.<br /><br />It is also a remarkable cultural history, of great art and architecture and music emerging despite the violence and the chaos of the tension between rival dynasties.<br /><br />Rightly compared to great narrative historians like Barbara Tuchman, Bart van Loo has written a popular and scholarly masterpiece.",
+      "authorName": "Bart Van Loo",
+      "isbn": "1789543436",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2022-01-27T07:50:08.000Z",
+      "userDateCreated": "2021-12-16T06:29:51.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "4.39",
+      "bookPublished": "2019",
+      "description": "\n      <a href=\"https://www.goodreads.com/book/show/56750097-the-burgundians?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Burgundians: A Vanished Empire\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1611040212l/56750097._SY75_.jpg\" /></a><br/>\n                                      author: Bart Van Loo<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.39<br/>\n                                      book published: 2019<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/01/26<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>\n                                      ",
+      "numPages": "608"
+    },
+    {
       "guid": "https://www.goodreads.com/review/show/4325615384?utm_medium=api&utm_source=rss",
       "pubDate": "2022-01-26T08:12:11.000Z",
       "title": "Powers and Thrones: A New History of the Middle Ages",
@@ -150,9 +172,9 @@
       "userDateCreated": "2022-01-12T06:09:13.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "3.99",
+      "averageRating": "4.00",
       "bookPublished": "1955",
-      "description": "\n      <a href=\"https://www.goodreads.com/book/show/16117911-the-iron-king?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Iron King (The Accursed Kings, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1559166802l/16117911._SY75_.jpg\" /></a><br/>\n                                      author: Maurice Druon<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.99<br/>\n                                      book published: 1955<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/01/11<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      ",
+      "description": "\n      <a href=\"https://www.goodreads.com/book/show/16117911-the-iron-king?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Iron King (The Accursed Kings, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1559166802l/16117911._SY75_.jpg\" /></a><br/>\n                                      author: Maurice Druon<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.00<br/>\n                                      book published: 1955<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/01/11<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      ",
       "numPages": "368"
     },
     {
@@ -198,28 +220,6 @@
       "bookPublished": "2016",
       "description": "\n      <a href=\"https://www.goodreads.com/book/show/29093292-the-daily-stoic?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Daily Stoic: 366 Meditations for Clarity, Effectiveness, and Serenity\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1462161080l/29093292._SX50_.jpg\" /></a><br/>\n                                      author: Ryan Holiday<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.22<br/>\n                                      book published: 2016<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/01/07<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>\n                                      ",
       "numPages": "416"
-    },
-    {
-      "guid": "https://www.goodreads.com/review/show/4391929627?utm_medium=api&utm_source=rss",
-      "pubDate": "2022-01-05T06:42:45.000Z",
-      "title": "The Burgundians: A Vanished Empire",
-      "link": "https://www.goodreads.com/review/show/4391929627?utm_medium=api&utm_source=rss",
-      "bookId": "56750097",
-      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1611040212l/56750097._SY75_.jpg",
-      "bookDescription": "A publishing phenomenon in Europe, where it has sold 230,000 copies in hardback, Bart van Loo's epic history of the dukedom of Burgundy has the grip of a great historical novel and the fascination of a wonderful factual narrative.<br /><br />In 1525, Burgundy was extinguished as an independent state. It had been a fabulously wealthy, turbulent region situated between France and Germany, with close links to the English kingdom. Torn apart by the dynastic struggles of early modern Europe, this extraordinary realm vanished from the map. But it became the cradle of what we now know as the Low Countries, modern Belgium and the Netherlands.<br /><br />This is the story of a thousand years, a compulsively readable narrative history of ambitious aristocrats, family dysfunction, treachery, savage battles, luxury and madness. It is about the decline of knightly ideals and the awakening of individualism and of cities, the struggle for dominance in the heart of northern Europe, bloody military campaigns and fatally bad marriages.<br /><br />It is also a remarkable cultural history, of great art and architecture and music emerging despite the violence and the chaos of the tension between rival dynasties.<br /><br />Rightly compared to great narrative historians like Barbara Tuchman, Bart van Loo has written a popular and scholarly masterpiece.",
-      "authorName": "Bart Van Loo",
-      "isbn": "1789543436",
-      "userName": "Daniel",
-      "userRating": "0",
-      "userReadAt": "",
-      "userDateAdded": "2022-01-05T06:42:45.000Z",
-      "userDateCreated": "2021-12-16T06:29:51.000Z",
-      "userShelves": "currently-reading",
-      "userReview": "",
-      "averageRating": "4.39",
-      "bookPublished": "2019",
-      "description": "\n      <a href=\"https://www.goodreads.com/book/show/56750097-the-burgundians?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Burgundians: A Vanished Empire\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1611040212l/56750097._SY75_.jpg\" /></a><br/>\n                                      author: Bart Van Loo<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.39<br/>\n                                      book published: 2019<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/01/04<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>\n                                      ",
-      "numPages": "608"
     },
     {
       "guid": "https://www.goodreads.com/review/show/4419656044?utm_medium=api&utm_source=rss",
@@ -326,9 +326,9 @@
       "userDateCreated": "2021-12-23T08:21:43.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "4.43",
+      "averageRating": "4.44",
       "bookPublished": "2021",
-      "description": "\n      <a href=\"https://www.goodreads.com/book/show/52962238-the-changing-world-order?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Changing World Order: Why Nations Succeed and Fail\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1630251271l/52962238._SY75_.jpg\" /></a><br/>\n                                      author: Ray Dalio<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.43<br/>\n                                      book published: 2021<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/12/23<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      ",
+      "description": "\n      <a href=\"https://www.goodreads.com/book/show/52962238-the-changing-world-order?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Changing World Order: Why Nations Succeed and Fail\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1630251271l/52962238._SY75_.jpg\" /></a><br/>\n                                      author: Ray Dalio<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.44<br/>\n                                      book published: 2021<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/12/23<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      ",
       "numPages": "608"
     },
     {
@@ -568,9 +568,9 @@
       "userDateCreated": "2021-12-03T06:37:00.000Z",
       "userShelves": "on-deck",
       "userReview": "",
-      "averageRating": "4.03",
+      "averageRating": "4.04",
       "bookPublished": "2020",
-      "description": "\n      <a href=\"https://www.goodreads.com/book/show/37941599-kindred?utm_medium=api&amp;utm_source=rss\"><img alt=\"Kindred: Neanderthal Life, Love, Death and Art\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1620976596l/37941599._SY75_.jpg\" /></a><br/>\n                                      author: Rebecca Wragg Sykes<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.03<br/>\n                                      book published: 2020<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/12/02<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      ",
+      "description": "\n      <a href=\"https://www.goodreads.com/book/show/37941599-kindred?utm_medium=api&amp;utm_source=rss\"><img alt=\"Kindred: Neanderthal Life, Love, Death and Art\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1620976596l/37941599._SY75_.jpg\" /></a><br/>\n                                      author: Rebecca Wragg Sykes<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.04<br/>\n                                      book published: 2020<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/12/02<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      ",
       "numPages": "400"
     },
     {
@@ -1492,9 +1492,9 @@
       "userDateCreated": "2021-10-07T06:18:09.000Z",
       "userShelves": "on-deck",
       "userReview": "",
-      "averageRating": "3.74",
+      "averageRating": "3.73",
       "bookPublished": "",
-      "description": "\n      <a href=\"https://www.goodreads.com/book/show/57423872-twelve-caesars?utm_medium=api&amp;utm_source=rss\"><img alt=\"Twelve Caesars: Images of Power from the Ancient World to the Modern\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1618599968l/57423872._SX50_.jpg\" /></a><br/>\n                                      author: Mary Beard<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.74<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/10/06<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      ",
+      "description": "\n      <a href=\"https://www.goodreads.com/book/show/57423872-twelve-caesars?utm_medium=api&amp;utm_source=rss\"><img alt=\"Twelve Caesars: Images of Power from the Ancient World to the Modern\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1618599968l/57423872._SX50_.jpg\" /></a><br/>\n                                      author: Mary Beard<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.73<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/10/06<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      ",
       "numPages": "392"
     },
     {
@@ -2306,9 +2306,9 @@
       "userDateCreated": "2021-05-23T19:10:30.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "4.21",
+      "averageRating": "4.22",
       "bookPublished": "",
-      "description": "\n      <a href=\"https://www.goodreads.com/book/show/53403847-monkey-king?utm_medium=api&amp;utm_source=rss\"><img alt=\"Monkey King: Journey to the West\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1594484296l/53403847._SY75_.jpg\" /></a><br/>\n                                      author: Wu Cheng'en<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.21<br/>\n                                      book published: <br/>\n                                      rating: 4<br/>\n                                      read at: 2021/08/12<br/>\n                                      date added: 2021/08/12<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      ",
+      "description": "\n      <a href=\"https://www.goodreads.com/book/show/53403847-monkey-king?utm_medium=api&amp;utm_source=rss\"><img alt=\"Monkey King: Journey to the West\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1594484296l/53403847._SY75_.jpg\" /></a><br/>\n                                      author: Wu Cheng'en<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.22<br/>\n                                      book published: <br/>\n                                      rating: 4<br/>\n                                      read at: 2021/08/12<br/>\n                                      date added: 2021/08/12<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      ",
       "numPages": "339"
     },
     {
@@ -8818,9 +8818,9 @@
       "userDateCreated": "2013-06-27T07:06:20.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "4.35",
+      "averageRating": "4.36",
       "bookPublished": "1996",
-      "description": "\n      <a href=\"https://www.goodreads.com/book/show/68524.Enemy_of_God?utm_medium=api&amp;utm_source=rss\"><img alt=\"Enemy of God (The Warlord Chronicles, #2)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1311985643l/68524._SY75_.jpg\" /></a><br/>\n                                      author: Bernard Cornwell<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.35<br/>\n                                      book published: 1996<br/>\n                                      rating: 0<br/>\n                                      read at: 2016/12/27<br/>\n                                      date added: 2016/12/27<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      ",
+      "description": "\n      <a href=\"https://www.goodreads.com/book/show/68524.Enemy_of_God?utm_medium=api&amp;utm_source=rss\"><img alt=\"Enemy of God (The Warlord Chronicles, #2)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1311985643l/68524._SY75_.jpg\" /></a><br/>\n                                      author: Bernard Cornwell<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.36<br/>\n                                      book published: 1996<br/>\n                                      rating: 0<br/>\n                                      read at: 2016/12/27<br/>\n                                      date added: 2016/12/27<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      ",
       "numPages": "397"
     },
     {
@@ -9808,9 +9808,9 @@
       "userDateCreated": "2014-05-15T16:52:19.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "3.42",
+      "averageRating": "3.41",
       "bookPublished": "2009",
-      "description": "\n      <a href=\"https://www.goodreads.com/book/show/6764834-why-not-socialism?utm_medium=api&amp;utm_source=rss\"><img alt=\"Why Not Socialism?\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348028438l/6764834._SX50_.jpg\" /></a><br/>\n                                      author: G.A. Cohen<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.42<br/>\n                                      book published: 2009<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2014/05/15<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      ",
+      "description": "\n      <a href=\"https://www.goodreads.com/book/show/6764834-why-not-socialism?utm_medium=api&amp;utm_source=rss\"><img alt=\"Why Not Socialism?\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348028438l/6764834._SX50_.jpg\" /></a><br/>\n                                      author: G.A. Cohen<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.41<br/>\n                                      book published: 2009<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2014/05/15<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      ",
       "numPages": "83"
     },
     {
