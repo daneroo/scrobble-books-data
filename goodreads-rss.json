@@ -2,6 +2,28 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "guid": "https://www.goodreads.com/review/show/4525520313?utm_medium=api&utm_source=rss",
+      "pubDate": "2022-02-03T08:25:03.000Z",
+      "title": "Plagues Upon the Earth: Disease and the Course of Human History",
+      "link": "https://www.goodreads.com/review/show/4525520313?utm_medium=api&utm_source=rss",
+      "bookId": "57423807",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1615852944l/57423807._SY75_.jpg",
+      "bookDescription": "<b>How pathogenic microbes have been an intimate part of human history from the beginning--and how our deadliest germs and biggest pandemics are the product of our success as a species</b><br /><br /><i>Plagues upon the Earth</i> is a monumental history of humans and their germs. Weaving together a grand narrative of global history with insights from cutting-edge genetics, Kyle Harper explains why humanity's uniquely dangerous disease pool is rooted deep in our evolutionary past, and why its growth is accelerated by technological progress. He shows that the story of disease is entangled with the history of slavery, colonialism, and capitalism, and reveals the enduring effects of historical plagues all around us, in patterns of wealth, health, power, and inequality. He also tells the story of humanity's escape from infectious disease--a triumph that makes life as we know it possible, yet destabilizes the environment and fosters new diseases.<br /><br />Panoramic in scope, <i>Plagues upon the Earth</i> traces role of disease in the transition to farming, the spread of cities, the advance of transportation, and the stupendous increase in human numbers. Harper offers a new interpretation of humanity's path to control over infectious disease--one where rising evolutionary threats constantly push back against human progress, and where the devastating effects of modernization contribute to the great divergence between societies. The book reminds us that human health is globally interdependent--and inseparable from the well-being of the planet itself.<br /><br />Putting the COVID-19 pandemic in perspective, <i>Plagues upon the Earth</i> tells the story of how we got here as a species, and it may help us decide where we want to go.",
+      "authorName": "Kyle Harper",
+      "isbn": "069119212X",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2022-02-03T08:25:03.000Z",
+      "userDateCreated": "2022-02-03T08:24:54.000Z",
+      "userShelves": "on-deck",
+      "userReview": "",
+      "averageRating": "4.08",
+      "bookPublished": "2021",
+      "description": "\n      <a href=\"https://www.goodreads.com/book/show/57423807-plagues-upon-the-earth?utm_medium=api&amp;utm_source=rss\"><img alt=\"Plagues Upon the Earth: Disease and the Course of Human History\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1615852944l/57423807._SY75_.jpg\" /></a><br/>\n                                      author: Kyle Harper<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.08<br/>\n                                      book published: 2021<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/02/03<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      ",
+      "numPages": "704"
+    },
+    {
       "guid": "https://www.goodreads.com/review/show/4525418125?utm_medium=api&utm_source=rss",
       "pubDate": "2022-02-03T06:40:32.000Z",
       "title": "The Fellowship of the Ring (The Lord of the Rings, #1)",
