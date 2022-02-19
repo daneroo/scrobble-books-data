@@ -2,6 +2,28 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "guid": "https://www.goodreads.com/review/show/4559728050?utm_medium=api&utm_source=rss",
+      "pubDate": "2022-02-19T07:12:00.000Z",
+      "title": "The Ministry for the Future",
+      "link": "https://www.goodreads.com/review/show/4559728050?utm_medium=api&utm_source=rss",
+      "bookId": "50998056",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1586372180l/50998056._SY75_.jpg",
+      "bookDescription": "Established in 2025, the purpose of the new organization was simple: To advocate for the world's future generations and to protect all living creatures, present and future. It soon became known as the Ministry for the Future, and this is its story.<br /><br />From legendary science fiction author Kim Stanley Robinson comes a vision of climate change unlike any ever imagined.<br /><br />Told entirely through fictional eye-witness accounts, The Ministry For The Future is a masterpiece of the imagination, the story of how climate change will affect us all over the decades to come.<br /><br />Its setting is not a desolate, post-apocalyptic world, but a future that is almost upon us - and in which we might just overcome the extraordinary challenges we face.<br /><br />It is a novel both immediate and impactful, desperate and hopeful in equal measure, and it is one of the most powerful and original books on climate change ever written.",
+      "authorName": "Kim Stanley Robinson",
+      "isbn": "0316300136",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2022-02-19T07:12:00.000Z",
+      "userDateCreated": "2022-02-19T07:11:42.000Z",
+      "userShelves": "on-deck",
+      "userReview": "",
+      "averageRating": "3.85",
+      "bookPublished": "2020",
+      "description": "\n      <a href=\"https://www.goodreads.com/book/show/50998056-the-ministry-for-the-future?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Ministry for the Future\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1586372180l/50998056._SY75_.jpg\" /></a><br/>\n                                      author: Kim Stanley Robinson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.85<br/>\n                                      book published: 2020<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/02/18<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      ",
+      "numPages": "563"
+    },
+    {
       "guid": "https://www.goodreads.com/review/show/1212897588?utm_medium=api&utm_source=rss",
       "pubDate": "2022-02-19T07:06:54.000Z",
       "title": "Quicksilver (The Baroque Cycle, #1)",
