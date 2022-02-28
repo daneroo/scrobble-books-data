@@ -2,6 +2,28 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "guid": "https://www.goodreads.com/review/show/4578252387?utm_medium=api&utm_source=rss",
+      "pubDate": "2022-02-28T05:07:04.000Z",
+      "title": "Termination Shock",
+      "link": "https://www.goodreads.com/review/show/4578252387?utm_medium=api&utm_source=rss",
+      "bookId": "57094295",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1621245328l/57094295._SY75_.jpg",
+      "bookDescription": "<strong>A visionary technothriller about climate change.</strong><br /><br />Neal Stephenson’s sweeping, prescient new novel transports readers to a near-future world where the greenhouse effect has inexorably resulted in a whirling-dervish troposphere of superstorms, rising sea levels, global flooding, merciless heat waves, and virulent, deadly pandemics.<br /><br />One man has a Big Idea for reversing global warming, a master plan perhaps best described as “elemental.” But will it work? And just as important, what are the consequences for the planet and all of humanity should it be applied?<br /><br />Ranging from the Texas heartland to the Dutch royal palace in the Hague, from the snow-capped peaks of the Himalayas to the sunbaked Chihuahuan Desert, Termination Shock brings together a disparate group of characters from different cultures and continents who grapple with the real-life repercussions of global warming. Ultimately, it asks the question: Might the cure be worse than the disease?",
+      "authorName": "Neal Stephenson",
+      "isbn": "0063028050",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2022-02-28T05:07:04.000Z",
+      "userDateCreated": "2022-02-28T05:07:03.000Z",
+      "userShelves": "on-deck",
+      "userReview": "",
+      "averageRating": "3.71",
+      "bookPublished": "2021",
+      "description": "\n      <a href=\"https://www.goodreads.com/book/show/57094295-termination-shock?utm_medium=api&amp;utm_source=rss\"><img alt=\"Termination Shock\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1621245328l/57094295._SY75_.jpg\" /></a><br/>\n                                      author: Neal Stephenson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.71<br/>\n                                      book published: 2021<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/02/27<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      ",
+      "numPages": "720"
+    },
+    {
       "guid": "https://www.goodreads.com/review/show/4276202350?utm_medium=api&utm_source=rss",
       "pubDate": "2022-02-27T07:19:42.000Z",
       "title": "Twelve Caesars: Images of Power from the Ancient World to the Modern",
