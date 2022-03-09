@@ -2,6 +2,28 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "guid": "https://www.goodreads.com/review/show/4591052132?utm_medium=api&utm_source=rss",
+      "pubDate": "2022-03-09T10:12:45.000Z",
+      "title": "The Lies of Locke Lamora (Gentleman Bastard, #1)",
+      "link": "https://www.goodreads.com/review/show/4591052132?utm_medium=api&utm_source=rss",
+      "bookId": "29588376",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1458646334l/29588376._SY75_.jpg",
+      "bookDescription": "An orphan’s life is harsh—and often short—in the mysterious island city of Camorr. But young Locke Lamora dodges death and slavery, becoming a thief under the tutelage of a gifted con artist. As leader of the band of light-fingered brothers known as the Gentleman Bastards, Locke is soon infamous, fooling even the underworld’s most feared ruler. But in the shadows lurks someone still more ambitious and deadly. Faced with a bloody coup that threatens to destroy everyone and everything that holds meaning in his mercenary life, Locke vows to beat the enemy at his own brutal game—or die trying.",
+      "authorName": "Scott Lynch",
+      "isbn": "",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2022-03-09T10:12:45.000Z",
+      "userDateCreated": "2022-03-06T09:46:10.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "4.26",
+      "bookPublished": "2006",
+      "description": "\n      <a href=\"https://www.goodreads.com/book/show/29588376-the-lies-of-locke-lamora?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Lies of Locke Lamora (Gentleman Bastard, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1458646334l/29588376._SY75_.jpg\" /></a><br/>\n                                      author: Scott Lynch<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.26<br/>\n                                      book published: 2006<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/03/09<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>\n                                      ",
+      "numPages": "752"
+    },
+    {
       "guid": "https://www.goodreads.com/review/show/4585170059?utm_medium=api&utm_source=rss",
       "pubDate": "2022-03-09T02:40:35.000Z",
       "title": "Cutting Through Spiritual Materialism",
@@ -22,28 +44,6 @@
       "bookPublished": "1973",
       "description": "\n      <a href=\"https://www.goodreads.com/book/show/295000.Cutting_Through_Spiritual_Materialism?utm_medium=api&amp;utm_source=rss\"><img alt=\"Cutting Through Spiritual Materialism\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1472093898l/295000._SX50_.jpg\" /></a><br/>\n                                      author: Chögyam Trungpa<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.17<br/>\n                                      book published: 1973<br/>\n                                      rating: 3<br/>\n                                      read at: 2022/03/08<br/>\n                                      date added: 2022/03/08<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      ",
       "numPages": "256"
-    },
-    {
-      "guid": "https://www.goodreads.com/review/show/4591052132?utm_medium=api&utm_source=rss",
-      "pubDate": "2022-03-08T07:30:22.000Z",
-      "title": "The Lies of Locke Lamora (Gentleman Bastard, #1)",
-      "link": "https://www.goodreads.com/review/show/4591052132?utm_medium=api&utm_source=rss",
-      "bookId": "29588376",
-      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1458646334l/29588376._SY75_.jpg",
-      "bookDescription": "An orphan’s life is harsh—and often short—in the mysterious island city of Camorr. But young Locke Lamora dodges death and slavery, becoming a thief under the tutelage of a gifted con artist. As leader of the band of light-fingered brothers known as the Gentleman Bastards, Locke is soon infamous, fooling even the underworld’s most feared ruler. But in the shadows lurks someone still more ambitious and deadly. Faced with a bloody coup that threatens to destroy everyone and everything that holds meaning in his mercenary life, Locke vows to beat the enemy at his own brutal game—or die trying.",
-      "authorName": "Scott Lynch",
-      "isbn": "",
-      "userName": "Daniel",
-      "userRating": "0",
-      "userReadAt": "",
-      "userDateAdded": "2022-03-08T07:30:22.000Z",
-      "userDateCreated": "2022-03-06T09:46:10.000Z",
-      "userShelves": "on-deck",
-      "userReview": "",
-      "averageRating": "4.26",
-      "bookPublished": "2006",
-      "description": "\n      <a href=\"https://www.goodreads.com/book/show/29588376-the-lies-of-locke-lamora?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Lies of Locke Lamora (Gentleman Bastard, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1458646334l/29588376._SY75_.jpg\" /></a><br/>\n                                      author: Scott Lynch<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.26<br/>\n                                      book published: 2006<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/03/07<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      ",
-      "numPages": "752"
     },
     {
       "guid": "https://www.goodreads.com/review/show/4595153474?utm_medium=api&utm_source=rss",
@@ -1250,9 +1250,9 @@
       "userDateCreated": "2021-11-14T03:03:42.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "4.25",
+      "averageRating": "4.26",
       "bookPublished": "2009",
-      "description": "\n      <a href=\"https://www.goodreads.com/book/show/49005196-the-life-you-can-save?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Life You Can Save: How to Do Your Part to End World Poverty\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1574973822l/49005196._SY75_.jpg\" /></a><br/>\n                                      author: Peter Singer<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.25<br/>\n                                      book published: 2009<br/>\n                                      rating: 5<br/>\n                                      read at: 2021/12/02<br/>\n                                      date added: 2021/12/02<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      ",
+      "description": "\n      <a href=\"https://www.goodreads.com/book/show/49005196-the-life-you-can-save?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Life You Can Save: How to Do Your Part to End World Poverty\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1574973822l/49005196._SY75_.jpg\" /></a><br/>\n                                      author: Peter Singer<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.26<br/>\n                                      book published: 2009<br/>\n                                      rating: 5<br/>\n                                      read at: 2021/12/02<br/>\n                                      date added: 2021/12/02<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      ",
       "numPages": "302"
     },
     {
@@ -5694,9 +5694,9 @@
       "userDateCreated": "2021-03-21T05:36:05.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "3.68",
+      "averageRating": "3.67",
       "bookPublished": "",
-      "description": "\n      <a href=\"https://www.goodreads.com/book/show/49089454-synchronicity?utm_medium=api&amp;utm_source=rss\"><img alt=\"Synchronicity: The Epic Quest to Understand the Quantum Nature of Cause and Effect\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1576635370l/49089454._SY75_.jpg\" /></a><br/>\n                                      author: Paul Halpern<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.68<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/03/20<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      ",
+      "description": "\n      <a href=\"https://www.goodreads.com/book/show/49089454-synchronicity?utm_medium=api&amp;utm_source=rss\"><img alt=\"Synchronicity: The Epic Quest to Understand the Quantum Nature of Cause and Effect\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1576635370l/49089454._SY75_.jpg\" /></a><br/>\n                                      author: Paul Halpern<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.67<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/03/20<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      ",
       "numPages": "304"
     },
     {
