@@ -3,7 +3,7 @@
   "items": [
     {
       "guid": "https://www.goodreads.com/review/show/4595153474?utm_medium=api&utm_source=rss",
-      "pubDate": "2022-03-14T08:27:07.000Z",
+      "pubDate": "2022-03-15T19:04:04.000Z",
       "title": "The Final Empire (Mistborn, #1)",
       "link": "https://www.goodreads.com/review/show/4595153474?utm_medium=api&utm_source=rss",
       "bookId": "68428",
@@ -12,15 +12,15 @@
       "authorName": "Brandon Sanderson",
       "isbn": "",
       "userName": "Daniel",
-      "userRating": "0",
-      "userReadAt": "",
-      "userDateAdded": "2022-03-14T08:27:07.000Z",
+      "userRating": "4",
+      "userReadAt": "2022-03-15T19:04:04.000Z",
+      "userDateAdded": "2022-03-15T19:04:04.000Z",
       "userDateCreated": "2022-03-08T07:22:08.000Z",
-      "userShelves": "currently-reading",
+      "userShelves": "",
       "userReview": "",
       "averageRating": "4.45",
       "bookPublished": "2006",
-      "description": "\n      <a href=\"https://www.goodreads.com/book/show/68428.The_Final_Empire?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Final Empire (Mistborn, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1617768316l/68428._SY75_.jpg\" /></a><br/>\n                                      author: Brandon Sanderson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.45<br/>\n                                      book published: 2006<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/03/14<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>\n                                      ",
+      "description": "\n      <a href=\"https://www.goodreads.com/book/show/68428.The_Final_Empire?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Final Empire (Mistborn, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1617768316l/68428._SY75_.jpg\" /></a><br/>\n                                      author: Brandon Sanderson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.45<br/>\n                                      book published: 2006<br/>\n                                      rating: 4<br/>\n                                      read at: 2022/03/15<br/>\n                                      date added: 2022/03/15<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      ",
       "numPages": "541"
     },
     {
