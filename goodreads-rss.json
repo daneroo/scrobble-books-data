@@ -3,7 +3,7 @@
   "items": [
     {
       "guid": "https://www.goodreads.com/review/show/4611041755?utm_medium=api&utm_source=rss",
-      "pubDate": "2022-03-16T20:23:37.000Z",
+      "pubDate": "2022-03-17T08:18:28.000Z",
       "title": "Killing Floor (Jack Reacher, #1)",
       "link": "https://www.goodreads.com/review/show/4611041755?utm_medium=api&utm_source=rss",
       "bookId": "78129",
@@ -12,15 +12,15 @@
       "authorName": "Lee Child",
       "isbn": "0515141429",
       "userName": "Daniel",
-      "userRating": "0",
-      "userReadAt": "",
-      "userDateAdded": "2022-03-16T20:23:37.000Z",
+      "userRating": "4",
+      "userReadAt": "2022-03-17T08:18:28.000Z",
+      "userDateAdded": "2022-03-17T08:18:28.000Z",
       "userDateCreated": "2022-03-16T02:31:31.000Z",
-      "userShelves": "currently-reading",
+      "userShelves": "",
       "userReview": "",
       "averageRating": "4.07",
       "bookPublished": "1997",
-      "description": "\n      <a href=\"https://www.goodreads.com/book/show/78129.Killing_Floor?utm_medium=api&amp;utm_source=rss\"><img alt=\"Killing Floor (Jack Reacher, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1399313258l/78129._SY75_.jpg\" /></a><br/>\n                                      author: Lee Child<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.07<br/>\n                                      book published: 1997<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/03/16<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>\n                                      ",
+      "description": "\n      <a href=\"https://www.goodreads.com/book/show/78129.Killing_Floor?utm_medium=api&amp;utm_source=rss\"><img alt=\"Killing Floor (Jack Reacher, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1399313258l/78129._SY75_.jpg\" /></a><br/>\n                                      author: Lee Child<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.07<br/>\n                                      book published: 1997<br/>\n                                      rating: 4<br/>\n                                      read at: 2022/03/17<br/>\n                                      date added: 2022/03/17<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      ",
       "numPages": "474"
     },
     {
