@@ -2,6 +2,28 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "guid": "https://www.goodreads.com/review/show/4662799406?utm_medium=api&utm_source=rss",
+      "pubDate": "2022-04-11T23:08:28.000Z",
+      "title": "Building Virtual Machine Labs: A Hands-On Guide",
+      "link": "https://www.goodreads.com/review/show/4662799406?utm_medium=api&utm_source=rss",
+      "bookId": "35406833",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1497185275l/35406833._SX50_.jpg",
+      "bookDescription": "Virtualization is a skill that most IT or security pros take for granted. The sheer number of choices and requirements can be a daunting challenge to face for beginners and veterans alike. With this book, you'll learn how to build a robust, customizable virtual environments suitable for both a personal home lab, as well as a dedicated office training environment. You will learn how to: - Understand the mechanics of virtualization and how they influence the design of your lab - Build an extensive baseline lab environment on any one of five commonly used hypervisors (VMware vSphere Hypervisor, VMware Fusion, VMware Workstation, Oracle Virtualbox, and Microsoft Client Hyper-V) - Harden your lab environment against VM escapes and other security threats - Configure the pfSense firewall distribution to provide security, segmentation, and network services to your virtual lab - Deploy either Snort or Suricata open-source IDS platforms in IPS mode to further enhance the flexibility, segmentation and security of your lab network - Deploy Splunk as a log management solution for your lab - Reconfigure the provided baseline lab environment to better suit your individual needs Easy to follow steps and illustrations provide detailed, comprehensive guidance as you build your custom-tailored lab. Both IT and security professionals need practice environments to better hone their craft. Learn how to build and maintain your own with Building Flexible Virtual Machine Labs",
+      "authorName": "Tony V. Robinson",
+      "isbn": "1546932631",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2022-04-11T23:08:28.000Z",
+      "userDateCreated": "2022-04-11T23:07:54.000Z",
+      "userShelves": "on-deck",
+      "userReview": "",
+      "averageRating": "4.53",
+      "bookPublished": "",
+      "description": "\n      <a href=\"https://www.goodreads.com/book/show/35406833-building-virtual-machine-labs?utm_medium=api&amp;utm_source=rss\"><img alt=\"Building Virtual Machine Labs: A Hands-On Guide\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1497185275l/35406833._SX50_.jpg\" /></a><br/>\n                                      author: Tony V. Robinson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.53<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/04/11<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      ",
+      "numPages": "602"
+    },
+    {
       "guid": "https://www.goodreads.com/review/show/4648092509?utm_medium=api&utm_source=rss",
       "pubDate": "2022-04-11T08:10:50.000Z",
       "title": "The Poppy War (The Poppy War, #1)",
@@ -1932,9 +1954,9 @@
       "userDateCreated": "2021-11-14T03:03:42.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "4.25",
+      "averageRating": "4.26",
       "bookPublished": "2009",
-      "description": "\n      <a href=\"https://www.goodreads.com/book/show/49005196-the-life-you-can-save?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Life You Can Save: How to Do Your Part to End World Poverty\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1574973822l/49005196._SY75_.jpg\" /></a><br/>\n                                      author: Peter Singer<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.25<br/>\n                                      book published: 2009<br/>\n                                      rating: 5<br/>\n                                      read at: 2021/12/02<br/>\n                                      date added: 2021/12/02<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      ",
+      "description": "\n      <a href=\"https://www.goodreads.com/book/show/49005196-the-life-you-can-save?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Life You Can Save: How to Do Your Part to End World Poverty\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1574973822l/49005196._SY75_.jpg\" /></a><br/>\n                                      author: Peter Singer<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.26<br/>\n                                      book published: 2009<br/>\n                                      rating: 5<br/>\n                                      read at: 2021/12/02<br/>\n                                      date added: 2021/12/02<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      ",
       "numPages": "302"
     },
     {
@@ -8862,9 +8884,9 @@
       "userDateCreated": "2019-12-28T01:48:40.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "4.01",
+      "averageRating": "4.00",
       "bookPublished": "1976",
-      "description": "\n      <a href=\"https://www.goodreads.com/book/show/44492286-children-of-dune?utm_medium=api&amp;utm_source=rss\"><img alt=\"Children of Dune (Dune, #3)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1564783201l/44492286._SY75_.jpg\" /></a><br/>\n                                      author: Frank Herbert<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.01<br/>\n                                      book published: 1976<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2019/12/27<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      ",
+      "description": "\n      <a href=\"https://www.goodreads.com/book/show/44492286-children-of-dune?utm_medium=api&amp;utm_source=rss\"><img alt=\"Children of Dune (Dune, #3)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1564783201l/44492286._SY75_.jpg\" /></a><br/>\n                                      author: Frank Herbert<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.00<br/>\n                                      book published: 1976<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2019/12/27<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      ",
       "numPages": "609"
     },
     {
