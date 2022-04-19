@@ -2,6 +2,28 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "guid": "https://www.goodreads.com/review/show/4676672277?utm_medium=api&utm_source=rss",
+      "pubDate": "2022-04-19T07:09:23.000Z",
+      "title": "The Old Man and the Sea",
+      "link": "https://www.goodreads.com/review/show/4676672277?utm_medium=api&utm_source=rss",
+      "bookId": "2165",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1329189714l/2165._SY75_.jpg",
+      "bookDescription": "<i>Librarian's note: An alternate cover edition can be found <a href=\"https://www.goodreads.com/book/show/53291522.here\" title=\"here\" rel=\"nofollow noopener\">here</a></i><br /><br />This short novel, already a modern classic, is the superbly told, tragic story of a Cuban fisherman in the Gulf Stream and the giant Marlin he kills and loses—specifically referred to in the citation accompanying the author's Nobel Prize for literature in 1954.",
+      "authorName": "Ernest Hemingway",
+      "isbn": "0684830493",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2022-04-19T07:09:23.000Z",
+      "userDateCreated": "2022-04-19T07:09:16.000Z",
+      "userShelves": "on-deck",
+      "userReview": "",
+      "averageRating": "3.79",
+      "bookPublished": "1952",
+      "description": "\n      <a href=\"https://www.goodreads.com/book/show/2165.The_Old_Man_and_the_Sea?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Old Man and the Sea\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1329189714l/2165._SY75_.jpg\" /></a><br/>\n                                      author: Ernest Hemingway<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.79<br/>\n                                      book published: 1952<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/04/19<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      ",
+      "numPages": "96"
+    },
+    {
       "guid": "https://www.goodreads.com/review/show/4669360114?utm_medium=api&utm_source=rss",
       "pubDate": "2022-04-15T13:04:50.000Z",
       "title": "Negotiating the Nonnegotiable: How to Resolve Your Most Emotionally Charged Conflicts",
@@ -2614,9 +2636,9 @@
       "userDateCreated": "2021-03-21T03:54:37.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "3.99",
+      "averageRating": "4.00",
       "bookPublished": "2015",
-      "description": "\n      <a href=\"https://www.goodreads.com/book/show/28789711-spqr?utm_medium=api&amp;utm_source=rss\"><img alt=\"SPQR: A History of Ancient Rome\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1470421195l/28789711._SY75_.jpg\" /></a><br/>\n                                      author: Mary Beard<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.99<br/>\n                                      book published: 2015<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/10/17<br/>\n                                      date added: 2021/10/17<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      ",
+      "description": "\n      <a href=\"https://www.goodreads.com/book/show/28789711-spqr?utm_medium=api&amp;utm_source=rss\"><img alt=\"SPQR: A History of Ancient Rome\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1470421195l/28789711._SY75_.jpg\" /></a><br/>\n                                      author: Mary Beard<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.00<br/>\n                                      book published: 2015<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/10/17<br/>\n                                      date added: 2021/10/17<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      ",
       "numPages": "606"
     },
     {
