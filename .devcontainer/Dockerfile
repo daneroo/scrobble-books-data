@@ -16,4 +16,4 @@ FROM mcr.microsoft.com/vscode/devcontainers/typescript-node:0-${VARIANT}
 # RUN su node -c "npm install -g <your-package-list -here>"
 
 # Not yet working
-RUN brew install deno
+# RUN brew install deno
