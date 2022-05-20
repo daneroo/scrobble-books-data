@@ -30,6 +30,7 @@ jobs:
           deno-version: v1.x
 
       - name: Scrape Goodreads feed
+        # deno run w/ reload seems to have fixed CI issues
         run: |
           deno run --reload -q --allow-read --allow-write --allow-run --allow-net --allow-env --unstable src/scrape.js
 
