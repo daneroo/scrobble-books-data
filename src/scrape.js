@@ -12,13 +12,13 @@ const GOODREADS_KEY = Deno.env.get("GOODREADS_KEY");
 
 if (!GOODREADS_USER || !GOODREADS_KEY) {
   throw new Error(
-    "Missing GOODREADS_USER or GOODREADS_KEY environment variable",
+    "Missing GOODREADS_USER or GOODREADS_KEY environment variable"
   );
 }
 const URI = `https://www.goodreads.com/review/list_rss/${GOODREADS_USER}`;
 const shelves = ["#ALL#", "read", "currently-reading", "to-read", "on-deck"];
 
-const feed = { // indicate provenance - at least build stamp
+const feed = {
   title: "Daniel's bookshelf: all",
   // lastBuildDate: stamp, // was for provenance, but we prefer not to cause file difference
   items: [], // Where we will accumulate the pages items
@@ -40,14 +40,25 @@ for (let page = 1; page < 10; page++) {
   await Deno.writeTextFile(bookFileJSON, JSON.stringify(pageFeed, null, 2));
   console.log(`Wrote ${bookFileJSON}`);
 
-  const { rss: { channel } } = pageFeed;
+  const {
+    rss: { channel },
+  } = pageFeed;
   const title = channel?.title?._text;
   feed.title = title; // overwrite on every page - should all be the same
 
   // this was for provenance, but we prefer minimal changes and omit from output
   // const lastBuildDate = channel?.lastBuildDate?._text;
 
-  const items = cleanItems(channel?.item ?? []);
+  // channel.item can be
+  // - an array,
+  // - single item
+  // - undefined
+  const pageFeedItemsArray = Array.isArray(channel?.item)
+    ? channel.item
+    : channel?.item // channel.item is defined but not an array (so single item)
+    ? [channel.item] // array with single item is returned
+    : []; //channel.item is undefined; so empty array is returned
+  const items = cleanItems(pageFeedItemsArray);
 
   if (!items || items.length === 0) {
     // console.log("No more items");
@@ -129,9 +140,8 @@ function prettyFeed({ title, items }) {
     const { title, authorName, userRating, userReadAt, userShelves } = item;
     console.log(
       `- ${title} by ${authorName} *:${userRating} t:${userReadAt} shelf:${
-        userShelves ||
-        "read"
-      }`,
+        userShelves || "read"
+      }`
     );
   }
 }
