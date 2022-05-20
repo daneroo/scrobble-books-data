@@ -6,7 +6,7 @@ on:
       - main
   workflow_dispatch:
   schedule:
-    - cron: '1/20 * * * *'
+    - cron: "1/20 * * * *"
 
 jobs:
   scrape:
@@ -31,12 +31,12 @@ jobs:
 
       - name: Scrape Goodreads feed
         run: |
-          deno run -q --allow-read --allow-write --allow-run --allow-net --allow-env --unstable src/scrape.js
+          deno run --reload -q --allow-read --allow-write --allow-run --allow-net --allow-env --unstable src/scrape.js
 
       - name: Setup node
         uses: actions/setup-node@v2
         with:
-          node-version: '16'
+          node-version: "16"
           # commented for local run
           # cache: 'npm'
 
@@ -44,7 +44,6 @@ jobs:
         run: |
           npm ci
           npm start
-
 
       # see docs at https://github.com/stefanzweifel/git-auto-commit-action
       - name: Commit back changes
@@ -58,7 +57,6 @@ jobs:
           # - https://git-scm.com/docs/git-add#Documentation/git-add.txt-ltpathspecgt82308203
           # - https://git-scm.com/docs/gitglossary#Documentation/gitglossary.txt-aiddefpathspecapathspec
           file_pattern: goodreads-rss.json goodreads-ipfs.json
-
 
           # Optional commit user and author settings
           # commit_user_name: My GitHub Actions Bot # defaults to "GitHub Actions"
