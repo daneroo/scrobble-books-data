@@ -2,6 +2,50 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "guid": "https://www.goodreads.com/review/show/4331682592?utm_medium=api&utm_source=rss",
+      "pubDate": "2022-05-20T08:53:59.000Z",
+      "title": "Storm Front (The Dresden Files, #1)",
+      "link": "https://www.goodreads.com/review/show/4331682592?utm_medium=api&utm_source=rss",
+      "bookId": "47212",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1572991273l/47212._SY75_.jpg",
+      "bookDescription": "<b>HARRY DRESDEN — WIZARD</b><br /><br /><i>Lost Items Found. Paranormal Investigations. Consulting. Advice. Reasonable Rates. No Love Potions, Endless Purses, or Other Entertainment.</i><br /><br />Harry Dresden is the best at what he does. Well, technically, he's the <i>only</i> at what he does. So when the Chicago P.D. has a case that transcends mortal creativity or capability, they come to him for answers. For the \"everyday\" world is actually full of strange and magical things—and most don't play well with humans. That's where Harry comes in. Takes a wizard to catch a—well, whatever. There's just one problem. Business, to put it mildly, stinks.<br /><br />So when the police bring him in to consult on a grisly double murder committed with black magic, Harry's seeing dollar signs. But where there's black magic, there's a black mage behind it. And now that mage knows Harry's name. And that's when things start to get interesting.<br /><br />Magic - it can get a guy killed.",
+      "authorName": "Jim Butcher",
+      "isbn": "0451457811",
+      "userName": "Daniel",
+      "userRating": "4",
+      "userReadAt": "2022-05-20T08:53:59.000Z",
+      "userDateAdded": "2022-05-20T08:53:59.000Z",
+      "userDateCreated": "2021-11-10T22:24:12.000Z",
+      "userShelves": "",
+      "userReview": "",
+      "averageRating": "4.00",
+      "bookPublished": "2000",
+      "description": "\n      <a href=\"https://www.goodreads.com/book/show/47212.Storm_Front?utm_medium=api&amp;utm_source=rss\"><img alt=\"Storm Front (The Dresden Files, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1572991273l/47212._SY75_.jpg\" /></a><br/>\n                                      author: Jim Butcher<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.00<br/>\n                                      book published: 2000<br/>\n                                      rating: 4<br/>\n                                      read at: 2022/05/20<br/>\n                                      date added: 2022/05/20<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      ",
+      "numPages": "355"
+    },
+    {
+      "guid": "https://www.goodreads.com/review/show/4733666099?utm_medium=api&utm_source=rss",
+      "pubDate": "2022-05-19T20:21:03.000Z",
+      "title": "The Human Cosmos: Civilization and the Stars",
+      "link": "https://www.goodreads.com/review/show/4733666099?utm_medium=api&utm_source=rss",
+      "bookId": "55002978",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1597715860l/55002978._SY75_.jpg",
+      "bookDescription": "<b>An historically unprecedented disconnect between humanity and the heavens has opened. Jo Marchant's book can begin to heal it.</b><br /><br />For at least 20,000 years, we have led not just an earthly existence but a cosmic one. Celestial cycles drove every aspect of our daily lives. Our innate relationship with the stars shaped who we are--our art, religious beliefs, social status, scientific advances, and even our biology. But over the last few centuries we have separated ourselves from the universe that surrounds us. It's a disconnect with a dire cost.<br /><br />Our relationship to the stars and planets has moved from one of awe, wonder and superstition to one where technology is king--the cosmos is now explored through data on our screens, not by the naked eye observing the natural world. Indeed, in most countries modern light pollution obscures much of the night sky from view. Jo Marchant's spellbinding parade of the ways different cultures celebrated the majesty and mysteries of the night sky is a journey to the most awe inspiring view you can ever see--looking up on a clear dark night. That experience and the thoughts it has engendered have radically shaped human civilization across millennia. The cosmos is the source of our greatest creativity in art, in science, in life.<br /><br />To show us how, Jo Marchant takes us to the Hall of the Bulls in the caves at Lascaux in France, and to the summer solstice at a 5,000-year-old tomb at New Grange in Ireland. We discover Chumash cosmology and visit medieval monks grappling with the nature of time and Tahitian sailors navigating by the stars. We discover how light reveals the chemical composition of the sun, and we are with Einstein as he works out that space and time are one and the same. A four-billion-year-old meteor inspires a search for extraterrestrial life. The cosmically liberating, summary revelation is that star-gazing made us human.",
+      "authorName": "Jo Marchant",
+      "isbn": "",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2022-05-19T20:21:03.000Z",
+      "userDateCreated": "2022-05-19T20:21:03.000Z",
+      "userShelves": "to-read",
+      "userReview": "",
+      "averageRating": "4.24",
+      "bookPublished": "",
+      "description": "\n      <a href=\"https://www.goodreads.com/book/show/55002978-the-human-cosmos?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Human Cosmos: Civilization and the Stars\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1597715860l/55002978._SY75_.jpg\" /></a><br/>\n                                      author: Jo Marchant<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.24<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/05/19<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>\n                                      ",
+      "numPages": "0"
+    },
+    {
       "guid": "https://www.goodreads.com/review/show/4732214038?utm_medium=api&utm_source=rss",
       "pubDate": "2022-05-19T00:53:41.000Z",
       "title": "Talent: How to Identify Energizers, Creatives, and Winners Around the World",
@@ -18,32 +62,10 @@
       "userDateCreated": "2022-05-19T00:53:21.000Z",
       "userShelves": "on-deck",
       "userReview": "",
-      "averageRating": "4.25",
-      "bookPublished": "",
-      "description": "\n      <a href=\"https://www.goodreads.com/book/show/56269174-talent?utm_medium=api&amp;utm_source=rss\"><img alt=\"Talent: How to Identify Energizers, Creatives, and Winners Around the World\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1644340681l/56269174._SY75_.jpg\" /></a><br/>\n                                      author: Tyler Cowen<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.25<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/05/18<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      ",
-      "numPages": "288"
-    },
-    {
-      "guid": "https://www.goodreads.com/review/show/4331682592?utm_medium=api&utm_source=rss",
-      "pubDate": "2022-05-18T04:52:02.000Z",
-      "title": "Storm Front (The Dresden Files, #1)",
-      "link": "https://www.goodreads.com/review/show/4331682592?utm_medium=api&utm_source=rss",
-      "bookId": "47212",
-      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1572991273l/47212._SY75_.jpg",
-      "bookDescription": "<b>HARRY DRESDEN — WIZARD</b><br /><br /><i>Lost Items Found. Paranormal Investigations. Consulting. Advice. Reasonable Rates. No Love Potions, Endless Purses, or Other Entertainment.</i><br /><br />Harry Dresden is the best at what he does. Well, technically, he's the <i>only</i> at what he does. So when the Chicago P.D. has a case that transcends mortal creativity or capability, they come to him for answers. For the \"everyday\" world is actually full of strange and magical things—and most don't play well with humans. That's where Harry comes in. Takes a wizard to catch a—well, whatever. There's just one problem. Business, to put it mildly, stinks.<br /><br />So when the police bring him in to consult on a grisly double murder committed with black magic, Harry's seeing dollar signs. But where there's black magic, there's a black mage behind it. And now that mage knows Harry's name. And that's when things start to get interesting.<br /><br />Magic - it can get a guy killed.",
-      "authorName": "Jim Butcher",
-      "isbn": "0451457811",
-      "userName": "Daniel",
-      "userRating": "0",
-      "userReadAt": "",
-      "userDateAdded": "2022-05-18T04:52:02.000Z",
-      "userDateCreated": "2021-11-10T22:24:12.000Z",
-      "userShelves": "currently-reading",
-      "userReview": "",
       "averageRating": "4.00",
-      "bookPublished": "2000",
-      "description": "\n      <a href=\"https://www.goodreads.com/book/show/47212.Storm_Front?utm_medium=api&amp;utm_source=rss\"><img alt=\"Storm Front (The Dresden Files, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1572991273l/47212._SY75_.jpg\" /></a><br/>\n                                      author: Jim Butcher<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.00<br/>\n                                      book published: 2000<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/05/17<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>\n                                      ",
-      "numPages": "355"
+      "bookPublished": "",
+      "description": "\n      <a href=\"https://www.goodreads.com/book/show/56269174-talent?utm_medium=api&amp;utm_source=rss\"><img alt=\"Talent: How to Identify Energizers, Creatives, and Winners Around the World\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1644340681l/56269174._SY75_.jpg\" /></a><br/>\n                                      author: Tyler Cowen<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.00<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/05/18<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>\n                                      ",
+      "numPages": "288"
     },
     {
       "guid": "https://www.goodreads.com/review/show/4697936961?utm_medium=api&utm_source=rss",
@@ -348,9 +370,9 @@
       "userDateCreated": "2022-04-10T03:56:15.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "4.02",
+      "averageRating": "4.03",
       "bookPublished": "2021",
-      "description": "\n      <a href=\"https://www.goodreads.com/book/show/57987249-the-exponential-age?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Exponential Age: How Accelerating Technology is Transforming Business, Politics and Society\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1620558606l/57987249._SX50_.jpg\" /></a><br/>\n                                      author: Azeem Azhar<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.02<br/>\n                                      book published: 2021<br/>\n                                      rating: 4<br/>\n                                      read at: 2022/05/02<br/>\n                                      date added: 2022/05/02<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      ",
+      "description": "\n      <a href=\"https://www.goodreads.com/book/show/57987249-the-exponential-age?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Exponential Age: How Accelerating Technology is Transforming Business, Politics and Society\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1620558606l/57987249._SX50_.jpg\" /></a><br/>\n                                      author: Azeem Azhar<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.03<br/>\n                                      book published: 2021<br/>\n                                      rating: 4<br/>\n                                      read at: 2022/05/02<br/>\n                                      date added: 2022/05/02<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      ",
       "numPages": "403"
     },
     {
@@ -1052,9 +1074,9 @@
       "userDateCreated": "2021-12-23T04:47:29.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "3.82",
+      "averageRating": "3.83",
       "bookPublished": "2021",
-      "description": "\n      <a href=\"https://www.goodreads.com/book/show/56224080-rationality?utm_medium=api&amp;utm_source=rss\"><img alt=\"Rationality: What It Is, Why It Seems Scarce, Why It Matters\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1618510588l/56224080._SY75_.jpg\" /></a><br/>\n                                      author: Steven Pinker<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.82<br/>\n                                      book published: 2021<br/>\n                                      rating: 4<br/>\n                                      read at: 2022/03/22<br/>\n                                      date added: 2022/03/22<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      ",
+      "description": "\n      <a href=\"https://www.goodreads.com/book/show/56224080-rationality?utm_medium=api&amp;utm_source=rss\"><img alt=\"Rationality: What It Is, Why It Seems Scarce, Why It Matters\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1618510588l/56224080._SY75_.jpg\" /></a><br/>\n                                      author: Steven Pinker<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.83<br/>\n                                      book published: 2021<br/>\n                                      rating: 4<br/>\n                                      read at: 2022/03/22<br/>\n                                      date added: 2022/03/22<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      ",
       "numPages": "432"
     },
     {
@@ -1624,9 +1646,9 @@
       "userDateCreated": "2021-12-16T06:29:51.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "4.36",
+      "averageRating": "4.35",
       "bookPublished": "2019",
-      "description": "\n      <a href=\"https://www.goodreads.com/book/show/56750097-the-burgundians?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Burgundians: A Vanished Empire\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1611040212l/56750097._SY75_.jpg\" /></a><br/>\n                                      author: Bart Van Loo<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.36<br/>\n                                      book published: 2019<br/>\n                                      rating: 5<br/>\n                                      read at: 2022/02/05<br/>\n                                      date added: 2022/02/05<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      ",
+      "description": "\n      <a href=\"https://www.goodreads.com/book/show/56750097-the-burgundians?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Burgundians: A Vanished Empire\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1611040212l/56750097._SY75_.jpg\" /></a><br/>\n                                      author: Bart Van Loo<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.35<br/>\n                                      book published: 2019<br/>\n                                      rating: 5<br/>\n                                      read at: 2022/02/05<br/>\n                                      date added: 2022/02/05<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      ",
       "numPages": "608"
     },
     {
@@ -7168,9 +7190,9 @@
       "userDateCreated": "2021-01-17T21:28:34.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "4.11",
+      "averageRating": "4.12",
       "bookPublished": "2016",
-      "description": "\n      <a href=\"https://www.goodreads.com/book/show/32796171-light-falls?utm_medium=api&amp;utm_source=rss\"><img alt=\"Light Falls: Space, Time, and an Obsession of Einstein\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1497721479l/32796171._SX50_.jpg\" /></a><br/>\n                                      author: Brian Greene<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.11<br/>\n                                      book published: 2016<br/>\n                                      rating: 5<br/>\n                                      read at: 2021/02/02<br/>\n                                      date added: 2021/02/02<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      ",
+      "description": "\n      <a href=\"https://www.goodreads.com/book/show/32796171-light-falls?utm_medium=api&amp;utm_source=rss\"><img alt=\"Light Falls: Space, Time, and an Obsession of Einstein\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1497721479l/32796171._SX50_.jpg\" /></a><br/>\n                                      author: Brian Greene<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.12<br/>\n                                      book published: 2016<br/>\n                                      rating: 5<br/>\n                                      read at: 2021/02/02<br/>\n                                      date added: 2021/02/02<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      ",
       "numPages": "3"
     },
     {
@@ -7828,9 +7850,9 @@
       "userDateCreated": "2020-07-11T06:21:48.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "4.13",
+      "averageRating": "4.12",
       "bookPublished": "2020",
-      "description": "\n      <a href=\"https://www.goodreads.com/book/show/48890486-breath?utm_medium=api&amp;utm_source=rss\"><img alt=\"Breath: The New Science of a Lost Art\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1575339793l/48890486._SY75_.jpg\" /></a><br/>\n                                      author: James Nestor<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.13<br/>\n                                      book published: 2020<br/>\n                                      rating: 4<br/>\n                                      read at: 2020/12/27<br/>\n                                      date added: 2020/12/27<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      ",
+      "description": "\n      <a href=\"https://www.goodreads.com/book/show/48890486-breath?utm_medium=api&amp;utm_source=rss\"><img alt=\"Breath: The New Science of a Lost Art\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1575339793l/48890486._SY75_.jpg\" /></a><br/>\n                                      author: James Nestor<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.12<br/>\n                                      book published: 2020<br/>\n                                      rating: 4<br/>\n                                      read at: 2020/12/27<br/>\n                                      date added: 2020/12/27<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      ",
       "numPages": "214"
     },
     {
@@ -9896,9 +9918,9 @@
       "userDateCreated": "2014-03-09T08:09:07.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "4.25",
+      "averageRating": "4.24",
       "bookPublished": "2012",
-      "description": "\n      <a href=\"https://www.goodreads.com/book/show/13589182-mastery?utm_medium=api&amp;utm_source=rss\"><img alt=\"Mastery\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348274726l/13589182._SX50_.jpg\" /></a><br/>\n                                      author: Robert Greene<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.25<br/>\n                                      book published: 2012<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2019/05/14<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      ",
+      "description": "\n      <a href=\"https://www.goodreads.com/book/show/13589182-mastery?utm_medium=api&amp;utm_source=rss\"><img alt=\"Mastery\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348274726l/13589182._SX50_.jpg\" /></a><br/>\n                                      author: Robert Greene<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.24<br/>\n                                      book published: 2012<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2019/05/14<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>\n                                      ",
       "numPages": "318"
     },
     {
