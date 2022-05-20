@@ -1,5 +1,5 @@
-import { join } from "https://deno.land/std@0.108.0/path/mod.ts";
-import { ensureDir } from "https://deno.land/std@0.108.0/fs/mod.ts";
+import { join } from "https://deno.land/std@0.140.0/path/mod.ts";
+import { ensureDir } from "https://deno.land/std@0.140.0/fs/mod.ts";
 
 import { xml2js } from "https://cdn.skypack.dev/xml-js";
 
