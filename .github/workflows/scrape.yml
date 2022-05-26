@@ -34,6 +34,23 @@ jobs:
         run: |
           deno run --reload -q --allow-read --allow-write --allow-run --allow-net --allow-env --unstable src/scrape.js
 
+      - name: Setup CUE
+        uses: cue-lang/setup-cue@v1
+        with:
+          version: "0.4.3" # default is latest
+        id: install
+
+      - name: Check CUE version
+        run: cue version
+
+      - name: Validate Intermediate RSS files with CUE
+        run: cue vet check-rss.cue ../data/rss-json/goodreads-rss-p*.json
+        working-directory: cue
+
+      - name: Validate Output with CUE
+        run: cue vet check-output.cue ../goodreads-rss.json
+        working-directory: cue
+
       - name: Setup node
         uses: actions/setup-node@v2
         with:

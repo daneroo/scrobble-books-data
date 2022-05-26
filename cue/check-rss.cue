@@ -3,7 +3,6 @@ import "time"
 
 #item: {
 	id: string
-	// pubDate: #_value
 	title: #_value
 	links: [
 		{href: string},
