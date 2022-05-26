@@ -19,7 +19,7 @@ Performs 2 tasks as a cron trigger github action:
   - `goodreads-ipfs.json` contains the pinned CID
 - commits any changes back to the repo
 
-The scraper was originally written with `deno` 
+The scraper was originally written with `deno`
 because we were using githubocto/flat@v3, which uses Deno/Typescript as it's
 post-processor.
 
@@ -36,6 +36,8 @@ The pinned CID's can be found at
 
 ## TODO
 
+- [ ] Add a cue validation step with this [GH Action](https://github.com/marketplace/actions/setup-cue-environment)
+  - [ ] rewrite github actions with cue !?
 - Use a mono repo ([turborepo](https://turborepo.org/))
   - Move deno source to typescript cli project
 - Remove redundant CID's in web3.storage (.delete not implemented - requires MAGIC_LINK - cannot call API)

@@ -53,8 +53,8 @@ for (let page = 1; page < 10; page++) {
   // - an array,
   // - single item
   // - undefined
-  const pageFeedItemsArray = Array.isArray(channel?.item)
-    ? channel.item
+  const pageFeedItemsArray = Array.isArray(channel?.item) // channel.item is an Array
+    ? channel.item // return the array
     : channel?.item // channel.item is defined but not an array (so single item)
     ? [channel.item] // array with single item is returned
     : []; //channel.item is undefined; so empty array is returned
