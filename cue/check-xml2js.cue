@@ -18,7 +18,8 @@ import ()
 	book_small_image_url:  #_cdata
 	book_medium_image_url: #_cdata
 	book_large_image_url:  #_cdata
-	book_description:      #_cdataopt
+	book_description:      #_cdatatextopt
+
 	book: {
 		"_attributes": id: string
 		num_pages: #_textopt

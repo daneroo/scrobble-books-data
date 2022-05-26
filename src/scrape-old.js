@@ -1,13 +1,16 @@
 import { join } from "https://deno.land/std@0.140.0/path/mod.ts";
 import { ensureDir } from "https://deno.land/std@0.140.0/fs/mod.ts";
-import { parseFeed } from "https://deno.land/x/rss@0.5.6/mod.ts";
 
+import { xml2js } from "https://cdn.skypack.dev/xml-js";
+
+// import { readJSON, writeJSON, removeFile } from 'https://deno.land/x/flat@0.0.11/mod.ts'
 import { fetcherXML } from "./fetcherXML.ts";
 
 // working directories for intermediate pages (upstream api is paged)
-const jsonDataDir = "data/rss-json";
+const xmlDataDir = "data/xml";
+const jsonDataDir = "data/xml2js-json";
 // final output
-const bookFileJSON = `goodreads-rss.json`;
+const bookFileJSON = `goodreads-rss-old.json`;
 
 // Our injected url has https://www.goodreads.com/review/list_rss/USERID?key=SECRETKEY
 const GOODREADS_USER = Deno.env.get("GOODREADS_USER");
@@ -31,39 +34,49 @@ const shelf = shelves[0];
 for (let page = 1; page < 10; page++) {
   const asXML = await fetcherXML(URI, { key: GOODREADS_KEY, shelf, page });
 
-  try {
-    const pageFeed = await parseFeed(asXML);
-    console.log(`- Parsed page ${page}`);
+  await ensureDir(xmlDataDir);
+  const bookFileXML = join(xmlDataDir, `goodreads-rss-p${page}.xml`);
+  await Deno.writeTextFile(bookFileXML, asXML);
+  console.log(`Wrote ${bookFileXML}`);
 
-    await ensureDir(jsonDataDir);
-    const rssPageJSON = join(jsonDataDir, `goodreads-rss-p${page}.json`);
-    await Deno.writeTextFile(rssPageJSON, JSON.stringify(pageFeed, null, 2));
-    console.log(`Wrote ${rssPageJSON}`);
+  const pageFeed = xml2js(asXML, { compact: true, spaces: 4 });
 
-    // console.log(JSON.stringify(pageFeed, null, 2));
-    // const {
-    //   rss: { channel },
-    // } = pageFeed;
-    const title = pageFeed?.title?.value;
-    feed.title = title; // overwrite on every page - should all be the same
+  await ensureDir(jsonDataDir);
+  const bookFileJSON = join(jsonDataDir, `goodreads-rss-p${page}.json`);
+  await Deno.writeTextFile(bookFileJSON, JSON.stringify(pageFeed, null, 2));
+  console.log(`Wrote ${bookFileJSON}`);
 
-    const items = cleanItems(pageFeed.entries);
+  const {
+    rss: { channel },
+  } = pageFeed;
+  const title = channel?.title?._text;
+  feed.title = title; // overwrite on every page - should all be the same
 
-    if (!items || items.length === 0) {
-      console.log("No more entries");
-      break;
-    }
-    feed.items = feed.items.concat(items);
-  } catch (e) {
-    console.log(`No entries in page ${page}`);
-    console.log("No more entries");
+  // this was for provenance, but we prefer minimal changes and omit from output
+  // const lastBuildDate = channel?.lastBuildDate?._text;
+
+  // channel.item can be
+  // - an array,
+  // - single item
+  // - undefined
+  const pageFeedItemsArray = Array.isArray(channel?.item) // channel.item is an Array
+    ? channel.item // return the array
+    : channel?.item // channel.item is defined but not an array (so single item)
+    ? [channel.item] // array with single item is returned
+    : []; //channel.item is undefined; so empty array is returned
+  const items = cleanItems(pageFeedItemsArray);
+
+  if (!items || items.length === 0) {
+    // console.log("No more items");
     break;
   }
+  feed.items = feed.items.concat(items);
 }
 
 // accumulated over pages: no '-pX' part in filename
-// prettyFeed(feed);
+prettyFeed(feed);
 await Deno.writeTextFile(bookFileJSON, JSON.stringify(feed, null, 2));
+console.log(`Wrote ${bookFileJSON}`);
 
 // More validation - all levels
 function cleanItems(items) {
@@ -72,11 +85,10 @@ function cleanItems(items) {
 
 function cleanItem(item) {
   const fieldMap = {
-    // guid: "id", // move to id
-    // title: "title",
-    // See below these two are special cases (nested/indexed)
-    // link: "link", // see below as links[0].href ?? ""
-    // numPages: "book.num_pages"
+    guid: "guid",
+    // pubDate: "pubDate",
+    title: "title",
+    link: "link",
     bookId: "book_id",
     bookImageURL: "book_image_url",
     // book_small_image_url: 'book_small_image_url',
@@ -111,21 +123,18 @@ function cleanItem(item) {
     return "";
   }
   const newItem = {};
-  newItem.guid = item?.id?.value ?? item?.id ?? "";
-  newItem.title = item?.title?.value ?? item?.tiels ?? "";
-  newItem.link = item?.links?.[0]?.href ?? "";
-
   for (const [newName, oldName] of Object.entries(fieldMap)) {
     //  use '' as sentinel/null - not undefined
-    newItem[newName] = item[oldName]?.value ?? item[oldName] ?? "";
+    newItem[newName] = item[oldName]?._cdata ?? item[oldName]?._text ?? "";
+    // trim to match new rss behavior
+    newItem[newName] = newItem[newName].trim();
   }
-
-  newItem.numPages = item?.book?.num_pages?.value ?? "0";
-
   // newItem.pubDate = safeDate(newItem.pubDate);
   newItem.userReadAt = safeDate(newItem.userReadAt);
   newItem.userDateAdded = safeDate(newItem.userDateAdded);
   newItem.userDateCreated = safeDate(newItem.userDateCreated);
+  // <book id="13641406"> <num_pages>172</num_pages> </book>
+  newItem.numPages = item?.book?.num_pages?._text ?? "0";
   return newItem;
 }
 

@@ -6,7 +6,7 @@ items: [...#item]
 
 #item: {
 	guid:            string
-	pubDate:         #RFC3339Z
+	// pubDate:         #RFC3339Z
 	title:           string
 	link:            string
 	bookId:          string
