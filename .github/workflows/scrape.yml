@@ -37,7 +37,7 @@ jobs:
       - name: Setup CUE
         uses: cue-lang/setup-cue@v1.0.0-alpha.2
         with:
-          version: "0.4.3" # default is latest
+          version: "v0.4.3" # default is latest
         id: install
 
       - name: Check CUE version
