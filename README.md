@@ -74,7 +74,6 @@ Scrape action is equivalent to:
 ## Which is equivalent to:
 # scrape (deno)
 . GOODREADS.env
-deno run -q --allow-read --allow-write --allow-run --allow-net --allow-env --unstable src/scrape-old.js
 deno run -q --allow-read --allow-write --allow-run --allow-net --allow-env --unstable src/scrape.js
 # pin (ipfs)
 . WEB3STORAGE.env
@@ -86,19 +85,12 @@ npm start
 ```bash
 (cd cue; cue fmt)
 (cd cue; cue vet check-output.cue ../goodreads-rss.json)
-(cd cue; cue vet check-output.cue ../goodreads-rss-old.json)
 
 # rss output (per page)
 # all at once
 (cd cue; cue vet check-rss.cue ../data/rss-json/goodreads-rss-p*.json)
 # invoke per page
 (cd cue; for i in ../data/rss-json/goodreads-rss-p*json; do echo $i; cue vet check-rss.cue $i ; done)
-
-# xml2js output
-(cd cue; cue vet check-xml2js.cue ../data/xml2js-json/goodreads-rss-p1.json)
-(cd cue; for i in ../data/xml2js-json/goodreads-rss-p*json; do echo $i; cue vet check-xml2js.cue $i ; done)
-# not sure if this is the same
-(cd cue; cue vet check-xml2js.cue ../data/xml2js-json/goodreads-rss-p*.json)
 ```
 
 ## References
