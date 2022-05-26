@@ -74,6 +74,7 @@ Scrape action is equivalent to:
 ## Which is equivalent to:
 # scrape (deno)
 . GOODREADS.env
+deno run -q --allow-read --allow-write --allow-run --allow-net --allow-env --unstable src/scrape-old.js
 deno run -q --allow-read --allow-write --allow-run --allow-net --allow-env --unstable src/scrape.js
 # pin (ipfs)
 . WEB3STORAGE.env
@@ -83,16 +84,15 @@ npm start
 ## Validating with `cue`
 
 ```bash
-cd cue
-
-cue fmt
-cue vet check-output.cue ../goodreads-rss.json
+(cd cue; cue fmt)
+(cd cue; cue vet check-output.cue ../goodreads-rss.json)
+(cd cue; cue vet check-output.cue ../goodreads-rss-old.json)
 
 # xml2js output
-cue vet check-xml2js.cue goodreads-rss-p1.deno.json
-for i in ../json-deno/goodreads-rss-p*json; do echo $i; cue vet check-xml2js.cue $i ; done
+(cd cue; cue vet check-xml2js.cue ../data/xml2js-json/goodreads-rss-p1.json)
+(cd cue; for i in ../data/xml2js-json/goodreads-rss-p*json; do echo $i; cue vet check-xml2js.cue $i ; done)
 # not sure if this is the same
-cue vet check-xml2js.cue ../json-deno/goodreads-rss-p*.json
+(cd cue; cue vet check-xml2js.cue ../data/xml2js-json/goodreads-rss-p*.json)
 ```
 
 ## References

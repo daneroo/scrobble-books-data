@@ -3,6 +3,5 @@ WEB3STORAGE.env
 # both combined for local `act` invocation
 SCRAPE.secrets 
 # Don't check these in, some of them change every run
-json-deno/
-xml-deno/
+data/
 node_modules/
