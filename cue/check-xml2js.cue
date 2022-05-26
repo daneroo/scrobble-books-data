@@ -1,5 +1,4 @@
 // check.cue
-import ()
 
 #_declaration: {
 	"_attributes": {

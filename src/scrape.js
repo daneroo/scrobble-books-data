@@ -5,6 +5,7 @@ import { parseFeed } from "https://deno.land/x/rss@0.5.6/mod.ts";
 import { fetcherXML } from "./fetcherXML.ts";
 
 // working directories for intermediate pages (upstream api is paged)
+const xmlDataDir = "data/xml";
 const jsonDataDir = "data/rss-json";
 // final output
 const bookFileJSON = `goodreads-rss.json`;
@@ -31,9 +32,14 @@ const shelf = shelves[0];
 for (let page = 1; page < 10; page++) {
   const asXML = await fetcherXML(URI, { key: GOODREADS_KEY, shelf, page });
 
+  await ensureDir(xmlDataDir);
+  const bookFileXML = join(xmlDataDir, `goodreads-rss-p${page}.xml`);
+  await Deno.writeTextFile(bookFileXML, asXML);
+  console.log(`Wrote ${bookFileXML}`);
+
   try {
     const pageFeed = await parseFeed(asXML);
-    console.log(`- Parsed page ${page}`);
+    console.log(`Parsed page ${page}`);
 
     await ensureDir(jsonDataDir);
     const rssPageJSON = join(jsonDataDir, `goodreads-rss-p${page}.json`);
@@ -54,7 +60,7 @@ for (let page = 1; page < 10; page++) {
       break;
     }
     feed.items = feed.items.concat(items);
-  } catch (e) {
+  } catch {
     console.log(`No entries in page ${page}`);
     console.log("No more entries");
     break;
@@ -62,7 +68,7 @@ for (let page = 1; page < 10; page++) {
 }
 
 // accumulated over pages: no '-pX' part in filename
-// prettyFeed(feed);
+prettyFeed(feed);
 await Deno.writeTextFile(bookFileJSON, JSON.stringify(feed, null, 2));
 
 // More validation - all levels
@@ -111,7 +117,7 @@ function cleanItem(item) {
     return "";
   }
   const newItem = {};
-  newItem.guid = item?.id?.value ?? item?.id ?? "";
+  newItem.id = item?.id?.value ?? item?.id ?? "";
   newItem.title = item?.title?.value ?? item?.tiels ?? "";
   newItem.link = item?.links?.[0]?.href ?? "";
 

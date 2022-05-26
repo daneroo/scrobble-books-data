@@ -85,7 +85,7 @@ function cleanItems(items) {
 
 function cleanItem(item) {
   const fieldMap = {
-    guid: "guid",
+    id: "guid",
     // pubDate: "pubDate",
     title: "title",
     link: "link",
