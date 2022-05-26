@@ -710,9 +710,9 @@
       "userDateCreated": "2022-04-11T23:07:54.000Z",
       "userShelves": "on-deck",
       "userReview": "",
-      "averageRating": "4.53",
+      "averageRating": "4.50",
       "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/35406833-building-virtual-machine-labs?utm_medium=api&amp;utm_source=rss\"><img alt=\"Building Virtual Machine Labs: A Hands-On Guide\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1497185275l/35406833._SX50_.jpg\" /></a><br/>\n                                      author: Tony V. Robinson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.53<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/04/11<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/35406833-building-virtual-machine-labs?utm_medium=api&amp;utm_source=rss\"><img alt=\"Building Virtual Machine Labs: A Hands-On Guide\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1497185275l/35406833._SX50_.jpg\" /></a><br/>\n                                      author: Tony V. Robinson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.50<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/04/11<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
       "numPages": "602"
     },
     {
@@ -2079,27 +2079,6 @@
       "bookPublished": "1776",
       "description": "<a href=\"https://www.goodreads.com/book/show/377965.The_History_of_the_Decline_and_Fall_of_the_Roman_Empire_Volume_I?utm_medium=api&amp;utm_source=rss\"><img alt=\"The History of the Decline and Fall of the Roman Empire Volume I\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1352548717l/377965._SY75_.jpg\" /></a><br/>\n                                      author: Edward Gibbon<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.23<br/>\n                                      book published: 1776<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/01/15<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
       "numPages": "1114"
-    },
-    {
-      "id": "https://www.goodreads.com/review/show/2389108546?utm_medium=api&utm_source=rss",
-      "title": "L'ordine del tempo",
-      "link": "https://www.goodreads.com/review/show/2389108546?utm_medium=api&utm_source=rss",
-      "bookId": "35201488",
-      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1496421031l/35201488._SY75_.jpg",
-      "bookDescription": "Come le <i>Sette brevi lezioni di fisica</i>, che ha raggiunto un pubblico immenso in ogni parte del mondo, questo libro tratta di qualcosa della fisica che parla a chiunque e lo coinvolge, semplicemente perché è un mistero di cui ciascuno ha esperienza in ogni istante: il tempo. E un mistero non solo per ogni profano, ma anche per i fisici, che hanno visto il tempo trasformarsi in modo radicale, da Newton a Einstein, alla meccanica quantistica, infine alle teorie sulla gravità a loop, di cui Rovelli stesso è uno dei principali teorici.<br />Nelle equazioni di Newton era sempre presente, ma oggi nelle equazioni fondamentali della fisica il tempo sparisce. Passato e futuro non si oppongono più come a lungo si è pensato. E a dileguarsi per la fisica è proprio ciò che chiunque crede sia l'unico elemento sicuro: il presente. Sono tre esempi degli incontri straordinari su cui si concentra questo libro, che è uno sguardo su ciò che la fisica è stata e insieme ci introduce nell'officina dove oggi la fisica si sta facendo.",
-      "authorName": "Carlo Rovelli",
-      "isbn": "8845931927",
-      "userName": "Daniel",
-      "userRating": "0",
-      "userReadAt": "",
-      "userDateAdded": "2022-01-15T22:46:34.000Z",
-      "userDateCreated": "2018-05-12T04:40:15.000Z",
-      "userShelves": "to-read",
-      "userReview": "",
-      "averageRating": "4.14",
-      "bookPublished": "2017",
-      "description": "<a href=\"https://www.goodreads.com/book/show/35201488-l-ordine-del-tempo?utm_medium=api&amp;utm_source=rss\"><img alt=\"L&#39;ordine del tempo\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1496421031l/35201488._SY75_.jpg\" /></a><br/>\n                                      author: Carlo Rovelli<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.14<br/>\n                                      book published: 2017<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/01/15<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
-      "numPages": "212"
     },
     {
       "id": "https://www.goodreads.com/review/show/4469413769?utm_medium=api&utm_source=rss",
