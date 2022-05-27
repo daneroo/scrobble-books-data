@@ -27,7 +27,7 @@ jobs:
       - name: Setup node
         uses: actions/setup-node@v2
         with:
-          node-version: '16'
+          node-version: "16"
           # commented for local run
           # cache: 'npm'
 
@@ -36,4 +36,19 @@ jobs:
           npm ci
           npm test
 
+      - name: Setup CUE
+        uses: cue-lang/setup-cue@v1.0.0-alpha.2
+        with:
+          version: "v0.4.3" # default is latest
+        id: install
 
+      - name: Check CUE version
+        run: cue version
+
+      - name: Integration -  CUE Validate Intermediate RSS files checker
+        run: cue vet check-rss.cue goodreads-rss-p1-example.json
+        working-directory: cue
+
+      - name: Integration -  CUE Validate Final Output with CUE
+        run: cue vet check-output.cue goodreads-rss-example.json
+        working-directory: cue

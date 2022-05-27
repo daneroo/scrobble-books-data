@@ -43,11 +43,11 @@ jobs:
       - name: Check CUE version
         run: cue version
 
-      - name: Validate Intermediate RSS files with CUE
+      - name: E2E - Validate Intermediate RSS files with CUE
         run: cue vet check-rss.cue ../data/rss-json/goodreads-rss-p*.json
         working-directory: cue
 
-      - name: Validate Output with CUE
+      - name: E2E - Validate Output with CUE
         run: cue vet check-output.cue ../goodreads-rss.json
         working-directory: cue
 

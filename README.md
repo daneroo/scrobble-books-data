@@ -36,8 +36,7 @@ The pinned CID's can be found at
 
 ## TODO
 
-- [ ] Add a cue validation step with this [GH Action](https://github.com/marketplace/actions/setup-cue-environment)
-  - [ ] rewrite github actions with cue !?
+- Rewrite github actions with cue !?
 - Use a mono repo ([turborepo](https://turborepo.org/))
   - Move deno source to typescript cli project
 - Remove redundant CID's in web3.storage (.delete not implemented - requires MAGIC_LINK - cannot call API)
