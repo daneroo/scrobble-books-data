@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/4772533298?utm_medium=api&utm_source=rss",
+      "title": "How to Destroy Surveillance Capitalism.",
+      "link": "https://www.goodreads.com/review/show/4772533298?utm_medium=api&utm_source=rss",
+      "bookId": "55134785",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1600186240l/55134785._SX50_.jpg",
+      "bookDescription": "\"Surveillance capitalism is everywhere. But it’s not the result of some wrong turn or a rogue abuse of corporate power — it’s the system working as intended. This is the subject of Cory Doctorow’s new book, which we’re thrilled to publish in whole here on OneZero.\"",
+      "authorName": "Cory Doctorow",
+      "isbn": "",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2022-06-08T23:49:45.000Z",
+      "userDateCreated": "2022-06-08T23:49:44.000Z",
+      "userShelves": "to-read",
+      "userReview": "",
+      "averageRating": "4.05",
+      "bookPublished": "",
+      "description": "<a href=\"https://www.goodreads.com/book/show/55134785-how-to-destroy-surveillance-capitalism?utm_medium=api&amp;utm_source=rss\"><img alt=\"How to Destroy Surveillance Capitalism.\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1600186240l/55134785._SX50_.jpg\" /></a><br/>\n                                      author: Cory Doctorow<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.05<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/06/08<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "numPages": "0"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/4728684732?utm_medium=api&utm_source=rss",
       "title": "Yendi (Vlad Taltos, #2)",
       "link": "https://www.goodreads.com/review/show/4728684732?utm_medium=api&utm_source=rss",
