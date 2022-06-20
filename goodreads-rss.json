@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/4795996407?utm_medium=api&utm_source=rss",
+      "title": "A Computational Introduction to Number Theory and Algebra",
+      "link": "https://www.goodreads.com/review/show/4795996407?utm_medium=api&utm_source=rss",
+      "bookId": "727203",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347573459l/727203._SX50_.jpg",
+      "bookDescription": "Number theory and algebra play an increasingly significant role in computing and communications, as evidenced by the striking applications of these subjects to such fields as cryptography and coding theory. This introductory book emphasises algorithms and applications, such as cryptography and error correcting codes, and is accessible to a broad audience. The mathematical prerequisites are minimal: nothing beyond material in a typical undergraduate course in calculus is presumed, other than some experience in doing proofs - everything else is developed from scratch. Thus the book can serve several purposes. It can be used as a reference and for self-study by readers who want to learn the mathematical foundations of modern cryptography. It is also ideal as a textbook for introductory courses in number theory and algebra, especially those geared towards computer science students.",
+      "authorName": "Victor Shoup",
+      "isbn": "0521851548",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2022-06-20T21:10:49.000Z",
+      "userDateCreated": "2022-06-20T21:10:49.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "3.71",
+      "bookPublished": "2005",
+      "description": "<a href=\"https://www.goodreads.com/book/show/727203.A_Computational_Introduction_to_Number_Theory_and_Algebra?utm_medium=api&amp;utm_source=rss\"><img alt=\"A Computational Introduction to Number Theory and Algebra\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347573459l/727203._SX50_.jpg\" /></a><br/>\n                                      author: Victor Shoup<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.71<br/>\n                                      book published: 2005<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/06/20<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "517"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/4789085651?utm_medium=api&utm_source=rss",
       "title": "Orca (Vlad Taltos, #7)",
       "link": "https://www.goodreads.com/review/show/4789085651?utm_medium=api&utm_source=rss",
