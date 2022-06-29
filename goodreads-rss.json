@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/4814857398?utm_medium=api&utm_source=rss",
+      "title": "Quantum Computing Since Democritus",
+      "link": "https://www.goodreads.com/review/show/4814857398?utm_medium=api&utm_source=rss",
+      "bookId": "17471298",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1363657987l/17471298._SX50_.jpg",
+      "bookDescription": "Written by noted quantum computing theorist Scott Aaronson, this book takes readers on a tour through some of the deepest ideas of maths, computer science and physics. Full of insights, arguments and philosophical perspectives, the book covers an amazing array of topics. Beginning in antiquity with Democritus, it progresses through logic and set theory, computability and complexity theory, quantum computing, cryptography, the information content of quantum states and the interpretation of quantum mechanics. There are also extended discussions about time travel, Newcomb's Paradox, the anthropic principle and the views of Roger Penrose. Aaronson's informal style makes this fascinating book accessible to readers with scientific backgrounds, as well as students and researchers working in physics, computer science, mathematics and philosophy.",
+      "authorName": "Scott Aaronson",
+      "isbn": "0521199565",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2022-06-29T19:44:11.000Z",
+      "userDateCreated": "2022-06-29T19:44:10.000Z",
+      "userShelves": "to-read",
+      "userReview": "",
+      "averageRating": "4.17",
+      "bookPublished": "2013",
+      "description": "<a href=\"https://www.goodreads.com/book/show/17471298-quantum-computing-since-democritus?utm_medium=api&amp;utm_source=rss\"><img alt=\"Quantum Computing Since Democritus\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1363657987l/17471298._SX50_.jpg\" /></a><br/>\n                                      author: Scott Aaronson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.17<br/>\n                                      book published: 2013<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/06/29<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "numPages": "370"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/4811655023?utm_medium=api&utm_source=rss",
       "title": "The End of the World Is Just the Beginning: Mapping the Collapse of Globalization",
       "link": "https://www.goodreads.com/review/show/4811655023?utm_medium=api&utm_source=rss",
@@ -4217,9 +4238,9 @@
       "userDateCreated": "2021-09-06T05:56:01.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "4.15",
+      "averageRating": "4.14",
       "bookPublished": "1982",
-      "description": "<a href=\"https://www.goodreads.com/book/show/40605251-the-mists-of-avalon?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Mists of Avalon (Avalon, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1529610467l/40605251._SX50_.jpg\" /></a><br/>\n                                      author: Marion Zimmer Bradley<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.15<br/>\n                                      book published: 1982<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/09/05<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/40605251-the-mists-of-avalon?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Mists of Avalon (Avalon, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1529610467l/40605251._SX50_.jpg\" /></a><br/>\n                                      author: Marion Zimmer Bradley<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.14<br/>\n                                      book published: 1982<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/09/05<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "1009"
     },
     {
@@ -6884,9 +6905,9 @@
       "userDateCreated": "2021-03-22T06:12:18.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "4.08",
+      "averageRating": "4.09",
       "bookPublished": "1999",
-      "description": "<a href=\"https://www.goodreads.com/book/show/8049273-the-elegant-universe?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Elegant Universe: Superstrings, Hidden Dimensions, and the Quest for the Ultimate Theory\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348791881l/8049273._SX50_.jpg\" /></a><br/>\n                                      author: Brian Greene<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.08<br/>\n                                      book published: 1999<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/03/21<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/8049273-the-elegant-universe?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Elegant Universe: Superstrings, Hidden Dimensions, and the Quest for the Ultimate Theory\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348791881l/8049273._SX50_.jpg\" /></a><br/>\n                                      author: Brian Greene<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.09<br/>\n                                      book published: 1999<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/03/21<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "464"
     },
     {
