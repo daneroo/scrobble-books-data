@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/4766739747?utm_medium=api&utm_source=rss",
+      "title": "Serious Cryptography: A Practical Introduction to Modern Encryption",
+      "link": "https://www.goodreads.com/review/show/4766739747?utm_medium=api&utm_source=rss",
+      "bookId": "36265193",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1505784778l/36265193._SX50_.jpg",
+      "bookDescription": "This practical guide to modern encryption breaks down the fundamental mathematical concepts at the heart of cryptography without shying away from meaty discussions of how they work. You’ll learn about authenticated encryption, secure randomness, hash functions, block ciphers, and public-key techniques such as RSA and elliptic curve cryptography.<br /><br />You’ll also learn: <br />- Key concepts in cryptography, such as computational security, attacker models, and forward secrecy <br />- The strengths and limitations of the TLS protocol behind HTTPS secure websites <br />- Quantum computation and post-quantum cryptography <br />- About various vulnerabilities by examining numerous code examples and use cases <br />- How to choose the best algorithm or protocol and ask vendors the right questions<br /><br />Each chapter includes a discussion of common implementation mistakes using real-world examples and details what could go wrong and how to avoid these pitfalls. <br /><br />Whether you’re a seasoned practitioner or a beginner looking to dive into the field, <i>Serious Cryptography</i> will provide a complete survey of modern encryption and its applications.",
+      "authorName": "Jean-Philippe Aumasson",
+      "isbn": "",
+      "userName": "Daniel",
+      "userRating": "5",
+      "userReadAt": "2022-07-01T21:50:21.000Z",
+      "userDateAdded": "2022-07-01T21:50:21.000Z",
+      "userDateCreated": "2022-06-06T05:56:20.000Z",
+      "userShelves": "",
+      "userReview": "",
+      "averageRating": "4.35",
+      "bookPublished": "",
+      "description": "<a href=\"https://www.goodreads.com/book/show/36265193-serious-cryptography?utm_medium=api&amp;utm_source=rss\"><img alt=\"Serious Cryptography: A Practical Introduction to Modern Encryption\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1505784778l/36265193._SX50_.jpg\" /></a><br/>\n                                      author: Jean-Philippe Aumasson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.35<br/>\n                                      book published: <br/>\n                                      rating: 5<br/>\n                                      read at: 2022/07/01<br/>\n                                      date added: 2022/07/01<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "numPages": "313"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/4817986415?utm_medium=api&utm_source=rss",
       "title": "Elliptic Curves: Number Theory and Cryptography",
       "link": "https://www.goodreads.com/review/show/4817986415?utm_medium=api&utm_source=rss",
@@ -399,27 +420,6 @@
       "bookPublished": "1986",
       "description": "<a href=\"https://www.goodreads.com/book/show/133466.Teckla?utm_medium=api&amp;utm_source=rss\"><img alt=\"Teckla (Vlad Taltos, #3)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1357479420l/133466._SY75_.jpg\" /></a><br/>\n                                      author: Steven Brust<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.94<br/>\n                                      book published: 1986<br/>\n                                      rating: 4<br/>\n                                      read at: 2022/06/12<br/>\n                                      date added: 2022/06/12<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "276"
-    },
-    {
-      "id": "https://www.goodreads.com/review/show/4766739747?utm_medium=api&utm_source=rss",
-      "title": "Serious Cryptography: A Practical Introduction to Modern Encryption",
-      "link": "https://www.goodreads.com/review/show/4766739747?utm_medium=api&utm_source=rss",
-      "bookId": "36265193",
-      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1505784778l/36265193._SX50_.jpg",
-      "bookDescription": "This practical guide to modern encryption breaks down the fundamental mathematical concepts at the heart of cryptography without shying away from meaty discussions of how they work. You’ll learn about authenticated encryption, secure randomness, hash functions, block ciphers, and public-key techniques such as RSA and elliptic curve cryptography.<br /><br />You’ll also learn: <br />- Key concepts in cryptography, such as computational security, attacker models, and forward secrecy <br />- The strengths and limitations of the TLS protocol behind HTTPS secure websites <br />- Quantum computation and post-quantum cryptography <br />- About various vulnerabilities by examining numerous code examples and use cases <br />- How to choose the best algorithm or protocol and ask vendors the right questions<br /><br />Each chapter includes a discussion of common implementation mistakes using real-world examples and details what could go wrong and how to avoid these pitfalls. <br /><br />Whether you’re a seasoned practitioner or a beginner looking to dive into the field, <i>Serious Cryptography</i> will provide a complete survey of modern encryption and its applications.",
-      "authorName": "Jean-Philippe Aumasson",
-      "isbn": "",
-      "userName": "Daniel",
-      "userRating": "0",
-      "userReadAt": "",
-      "userDateAdded": "2022-06-12T19:54:25.000Z",
-      "userDateCreated": "2022-06-06T05:56:20.000Z",
-      "userShelves": "currently-reading",
-      "userReview": "",
-      "averageRating": "4.34",
-      "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/36265193-serious-cryptography?utm_medium=api&amp;utm_source=rss\"><img alt=\"Serious Cryptography: A Practical Introduction to Modern Encryption\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1505784778l/36265193._SX50_.jpg\" /></a><br/>\n                                      author: Jean-Philippe Aumasson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.34<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/06/12<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
-      "numPages": "313"
     },
     {
       "id": "https://www.goodreads.com/review/show/4728684732?utm_medium=api&utm_source=rss",
@@ -878,9 +878,9 @@
       "userDateCreated": "2022-05-19T00:53:21.000Z",
       "userShelves": "on-deck",
       "userReview": "",
-      "averageRating": "3.61",
+      "averageRating": "3.62",
       "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/56269174-talent?utm_medium=api&amp;utm_source=rss\"><img alt=\"Talent: How to Identify Energizers, Creatives, and Winners Around the World\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1644340681l/56269174._SY75_.jpg\" /></a><br/>\n                                      author: Tyler Cowen<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.61<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/05/18<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/56269174-talent?utm_medium=api&amp;utm_source=rss\"><img alt=\"Talent: How to Identify Energizers, Creatives, and Winners Around the World\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1644340681l/56269174._SY75_.jpg\" /></a><br/>\n                                      author: Tyler Cowen<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.62<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/05/18<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
       "numPages": "288"
     },
     {
@@ -2474,9 +2474,9 @@
       "userDateCreated": "2022-02-03T06:05:52.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "3.85",
+      "averageRating": "3.84",
       "bookPublished": "1859",
-      "description": "<a href=\"https://www.goodreads.com/book/show/1953.A_Tale_of_Two_Cities?utm_medium=api&amp;utm_source=rss\"><img alt=\"A Tale of Two Cities\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1344922523l/1953._SY75_.jpg\" /></a><br/>\n                                      author: Charles Dickens<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.85<br/>\n                                      book published: 1859<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/02/02<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/1953.A_Tale_of_Two_Cities?utm_medium=api&amp;utm_source=rss\"><img alt=\"A Tale of Two Cities\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1344922523l/1953._SY75_.jpg\" /></a><br/>\n                                      author: Charles Dickens<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.84<br/>\n                                      book published: 1859<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/02/02<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "489"
     },
     {
