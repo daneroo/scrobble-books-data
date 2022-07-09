@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/4835210135?utm_medium=api&utm_source=rss",
+      "title": "Origins: Fourteen Billion Years of Cosmic Evolution",
+      "link": "https://www.goodreads.com/review/show/4835210135?utm_medium=api&utm_source=rss",
+      "bookId": "20663771",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1408925671l/20663771._SY75_.jpg",
+      "bookDescription": "Our true origins are not just human, or even terrestrial, but in fact cosmic. Drawing on recent scientific breakthroughs and the current cross-pollination among geology, biology, astrophysics, and cosmology, <em>Origins</em> explains the soul-stirring leaps in our understanding of the cosmos. From the first image of a galaxy birth to Spirit Rover's exploration of Mars, to the discovery of water on one of Jupiter's moons, coauthors Neil deGrasse Tyson and Donald Goldsmith conduct a galvanizing tour of the cosmos with clarity and exuberance.",
+      "authorName": "Neil deGrasse Tyson",
+      "isbn": "0393350398",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2022-07-09T06:28:34.000Z",
+      "userDateCreated": "2022-07-09T06:28:34.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "4.14",
+      "bookPublished": "2004",
+      "description": "<a href=\"https://www.goodreads.com/book/show/20663771-origins?utm_medium=api&amp;utm_source=rss\"><img alt=\"Origins: Fourteen Billion Years of Cosmic Evolution\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1408925671l/20663771._SY75_.jpg\" /></a><br/>\n                                      author: Neil deGrasse Tyson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.14<br/>\n                                      book published: 2004<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/07/08<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "352"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/4834674621?utm_medium=api&utm_source=rss",
       "title": "\"What Do You Care What Other People Think?\": Further Adventures of a Curious Character",
       "link": "https://www.goodreads.com/review/show/4834674621?utm_medium=api&utm_source=rss",
