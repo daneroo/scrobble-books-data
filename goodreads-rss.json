@@ -10502,6 +10502,27 @@
       "numPages": "404"
     },
     {
+      "id": "https://www.goodreads.com/review/show/2505908919?utm_medium=api&utm_source=rss",
+      "title": "Data Science on the Google Cloud Platform: Implementing End-To-End Real-Time Data Pipelines: From Ingest to Machine Learning",
+      "link": "https://www.goodreads.com/review/show/2505908919?utm_medium=api&utm_source=rss",
+      "bookId": "33369255",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1517554773l/33369255._SX50_.jpg",
+      "bookDescription": "Learn how easy it is to apply sophisticated statistical and machine learning methods to real-world problems when you build on top of the Google Cloud Platform (GCP). With this practical guide, author and GCP Program Manager Valliappa Lakshmanan shows you how to gain insight into a sample business decision by applying different statistical and machine learning methods and tools.<br /><br />Along the way, you'll get an extensive tour of the big data and machine learning parts of GCP. You'll start with statistical methods, move into straightforward classification, and then explore windowing and real-time prediction.<br /><br /><br />Move from basic to increasingly sophisticated methods<br />Understand interactive querying of very large datasets with BigQuery<br />Learn about probabilistic decision making with SparkSQL and Spark<br />Train a TensorFlow model in Python and call it from Java<br />Create a data processing pipeline with Dataflow<br />Compute time-windowed aggregates in real-time",
+      "authorName": "Valliappa Lakshmanan",
+      "isbn": "1491974567",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2018-08-24T18:42:55.000Z",
+      "userDateCreated": "2018-08-24T18:42:54.000Z",
+      "userShelves": "to-read",
+      "userReview": "",
+      "averageRating": "4.03",
+      "bookPublished": "",
+      "description": "<a href=\"https://www.goodreads.com/book/show/33369255-data-science-on-the-google-cloud-platform?utm_medium=api&amp;utm_source=rss\"><img alt=\"Data Science on the Google Cloud Platform: Implementing End-To-End Real-Time Data Pipelines: From Ingest to Machine Learning\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1517554773l/33369255._SX50_.jpg\" /></a><br/>\n                                      author: Valliappa Lakshmanan<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.03<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2018/08/24<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "numPages": "404"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/2382316884?utm_medium=api&utm_source=rss",
       "title": "Factfulness: Ten Reasons We're Wrong About the World – and Why Things Are Better Than You Think",
       "link": "https://www.goodreads.com/review/show/2382316884?utm_medium=api&utm_source=rss",
