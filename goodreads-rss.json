@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/4824149095?utm_medium=api&utm_source=rss",
+      "title": "Tsalmoth (Vlad Taltos #16)",
+      "link": "https://www.goodreads.com/review/show/4824149095?utm_medium=api&utm_source=rss",
+      "bookId": "60820532",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1650084874l/60820532._SY75_.jpg",
+      "bookDescription": "First comes love. Then comes marriage…<br /><br />Vlad Taltos is in love. With a former assassin who may just be better than he is at the Game. Women like this don’t come along every day and no way is he passing up a sure bet.<br /><br />So a wedding is being planned. Along with a shady deal gone wrong and a dead man who owes Vlad money. Setting up the first and trying to deal with the second is bad enough. And then bigger powers decide that Vlad is the perfect patsy to shake the power structure of the kingdom.<br /><br />More's the pity that his soul is sent walkabout to do it.<br /><br />How might Vlad get his soul back and have any shot at a happy ending? Well, there’s the tale…",
+      "authorName": "Steven Brust",
+      "isbn": "",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2022-07-22T00:54:05.000Z",
+      "userDateCreated": "2022-07-04T05:25:41.000Z",
+      "userShelves": "on-deck",
+      "userReview": "",
+      "averageRating": "0.0",
+      "bookPublished": "",
+      "description": "<a href=\"https://www.goodreads.com/book/show/60820532-tsalmoth?utm_medium=api&amp;utm_source=rss\"><img alt=\"Tsalmoth (Vlad Taltos #16)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1650084874l/60820532._SY75_.jpg\" /></a><br/>\n                                      author: Steven Brust<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/07/21<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "numPages": "0"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/4824148983?utm_medium=api&utm_source=rss",
       "title": "Hawk (Vlad Taltos, #14)",
       "link": "https://www.goodreads.com/review/show/4824148983?utm_medium=api&utm_source=rss",
@@ -294,27 +315,6 @@
       "bookPublished": "2001",
       "description": "<a href=\"https://www.goodreads.com/book/show/43229683-pearson-etext-for-introduction-to-cryptography-with-coding-theory----acc?utm_medium=api&amp;utm_source=rss\"><img alt=\"Pearson Etext for Introduction to Cryptography with Coding Theory -- Access Card\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1582073778l/43229683._SX50_.jpg\" /></a><br/>\n                                      author: Wade Trappe<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: 2001<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/07/05<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
       "numPages": "9998"
-    },
-    {
-      "id": "https://www.goodreads.com/review/show/4824149095?utm_medium=api&utm_source=rss",
-      "title": "Tsalmoth (Vlad Taltos #16)",
-      "link": "https://www.goodreads.com/review/show/4824149095?utm_medium=api&utm_source=rss",
-      "bookId": "60820532",
-      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1650084874l/60820532._SY75_.jpg",
-      "bookDescription": "First comes love. Then comes marriage…<br /><br />Vlad Taltos is in love. With a former assassin who may just be better than he is at the Game. Women like this don’t come along every day and no way is he passing up a sure bet.<br /><br />So a wedding is being planned. Along with a shady deal gone wrong and a dead man who owes Vlad money. Setting up the first and trying to deal with the second is bad enough. And then bigger powers decide that Vlad is the perfect patsy to shake the power structure of the kingdom.<br /><br />More's the pity that his soul is sent walkabout to do it.<br /><br />How might Vlad get his soul back and have any shot at a happy ending? Well, there’s the tale…",
-      "authorName": "Steven Brust",
-      "isbn": "",
-      "userName": "Daniel",
-      "userRating": "0",
-      "userReadAt": "",
-      "userDateAdded": "2022-07-04T05:25:41.000Z",
-      "userDateCreated": "2022-07-04T05:25:41.000Z",
-      "userShelves": "to-read",
-      "userReview": "",
-      "averageRating": "0.0",
-      "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/60820532-tsalmoth?utm_medium=api&amp;utm_source=rss\"><img alt=\"Tsalmoth (Vlad Taltos #16)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1650084874l/60820532._SY75_.jpg\" /></a><br/>\n                                      author: Steven Brust<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/07/03<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
-      "numPages": "0"
     },
     {
       "id": "https://www.goodreads.com/review/show/4805380847?utm_medium=api&utm_source=rss",
@@ -1004,9 +1004,9 @@
       "userDateCreated": "2022-05-27T05:41:45.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "4.29",
+      "averageRating": "4.32",
       "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/58999183-transformer?utm_medium=api&amp;utm_source=rss\"><img alt=\"Transformer: The Deep Chemistry of Life and Death\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1650681579l/58999183._SY75_.jpg\" /></a><br/>\n                                      author: Nick Lane<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.29<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/05/26<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/58999183-transformer?utm_medium=api&amp;utm_source=rss\"><img alt=\"Transformer: The Deep Chemistry of Life and Death\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1650681579l/58999183._SY75_.jpg\" /></a><br/>\n                                      author: Nick Lane<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.32<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/05/26<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "400"
     },
     {
@@ -1088,9 +1088,9 @@
       "userDateCreated": "2022-05-20T20:13:04.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "4.33",
+      "averageRating": "4.34",
       "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/57771653-du-diesel-dans-les-veines?utm_medium=api&amp;utm_source=rss\"><img alt=\"Du diesel dans les veines: La saga des camionneurs du Nord\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1618750964l/57771653._SY75_.jpg\" /></a><br/>\n                                      author: Serge Bouchard<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.33<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/05/20<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/57771653-du-diesel-dans-les-veines?utm_medium=api&amp;utm_source=rss\"><img alt=\"Du diesel dans les veines: La saga des camionneurs du Nord\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1618750964l/57771653._SY75_.jpg\" /></a><br/>\n                                      author: Serge Bouchard<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.34<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/05/20<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "0"
     },
     {
@@ -1802,9 +1802,9 @@
       "userDateCreated": "2021-07-20T08:57:02.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "4.11",
+      "averageRating": "4.12",
       "bookPublished": "2009",
-      "description": "<a href=\"https://www.goodreads.com/book/show/23355220-the-leopard?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Leopard (Harry Hole, #8)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1413045306l/23355220._SY75_.jpg\" /></a><br/>\n                                      author: Jo Nesbø<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.11<br/>\n                                      book published: 2009<br/>\n                                      rating: 4<br/>\n                                      read at: 2022/04/03<br/>\n                                      date added: 2022/04/03<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/23355220-the-leopard?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Leopard (Harry Hole, #8)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1413045306l/23355220._SY75_.jpg\" /></a><br/>\n                                      author: Jo Nesbø<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.12<br/>\n                                      book published: 2009<br/>\n                                      rating: 4<br/>\n                                      read at: 2022/04/03<br/>\n                                      date added: 2022/04/03<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "634"
     },
     {
@@ -4994,9 +4994,9 @@
       "userDateCreated": "2021-08-08T05:30:54.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "3.74",
+      "averageRating": "3.73",
       "bookPublished": "1983",
-      "description": "<a href=\"https://www.goodreads.com/book/show/672243.Helliconia_Summer?utm_medium=api&amp;utm_source=rss\"><img alt=\"Helliconia Summer (Helliconia, #2)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1387705495l/672243._SY75_.jpg\" /></a><br/>\n                                      author: Brian W. Aldiss<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.74<br/>\n                                      book published: 1983<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/08/07<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/672243.Helliconia_Summer?utm_medium=api&amp;utm_source=rss\"><img alt=\"Helliconia Summer (Helliconia, #2)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1387705495l/672243._SY75_.jpg\" /></a><br/>\n                                      author: Brian W. Aldiss<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.73<br/>\n                                      book published: 1983<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/08/07<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "416"
     },
     {
