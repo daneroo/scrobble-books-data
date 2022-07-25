@@ -18,9 +18,9 @@
   },
   "homepage": "https://github.com/daneroo/scrobble-books-data#readme",
   "devDependencies": {
-    "standard": "^16.0.4"
+    "standard": "^17.0.0"
   },
   "dependencies": {
-    "web3.storage": "^3.5.2"
+    "web3.storage": "^4.3.0"
   }
 }
