@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/3124773661?utm_medium=api&utm_source=rss",
+      "title": "Dark Matter",
+      "link": "https://www.goodreads.com/review/show/3124773661?utm_medium=api&utm_source=rss",
+      "bookId": "27833670",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1472119680l/27833670._SY75_.jpg",
+      "bookDescription": "<b>A mindbending, relentlessly surprising thriller from the author of the bestselling Wayward Pines trilogy. </b><br /><br />Jason Dessen is walking home through the chilly Chicago streets one night, looking forward to a quiet evening in front of the fireplace with his wife, Daniela, and their son, Charlie—when his reality shatters.<br /><br /><i>\"Are you happy with your life?\"</i><br /><br />Those are the last words Jason Dessen hears before the masked abductor knocks him unconscious. <br /><br />Before he awakens to find himself strapped to a gurney, surrounded by strangers in hazmat suits. <br /><br />Before a man Jason's never met smiles down at him and says, \"Welcome back, my friend.\" <br /><br />In this world he's woken up to, Jason's life is not the one he knows. His wife is not his wife. His son was never born. And Jason is not an ordinary college physics professor, but a celebrated genius who has achieved something remarkable. Something impossible.<br /><br />Is it this world or the other that's the dream? <br /><br />And even if the home he remembers is real, how can Jason possibly make it back to the family he loves? The answers lie in a journey more wondrous and horrifying than anything he could've imagined—one that will force him to confront the darkest parts of himself even as he battles a terrifying, seemingly unbeatable foe.<br /><br /><b><i>Dark Matter</i> is a brilliantly plotted tale that is at once sweeping and intimate, mind-bendingly strange and profoundly human--a relentlessly surprising science-fiction thriller about choices, paths not taken, and how far we'll go to claim the lives we dream of.</b>",
+      "authorName": "Blake Crouch",
+      "isbn": "1101904224",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2022-07-28T01:50:02.000Z",
+      "userDateCreated": "2020-01-05T17:24:09.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "4.11",
+      "bookPublished": "2016",
+      "description": "<a href=\"https://www.goodreads.com/book/show/27833670-dark-matter?utm_medium=api&amp;utm_source=rss\"><img alt=\"Dark Matter\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1472119680l/27833670._SY75_.jpg\" /></a><br/>\n                                      author: Blake Crouch<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.11<br/>\n                                      book published: 2016<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/07/27<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "352"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/4824149077?utm_medium=api&utm_source=rss",
       "title": "Vallista (Vlad Taltos, #15)",
       "link": "https://www.goodreads.com/review/show/4824149077?utm_medium=api&utm_source=rss",
@@ -11,15 +32,15 @@
       "authorName": "Steven Brust",
       "isbn": "0765324458",
       "userName": "Daniel",
-      "userRating": "0",
-      "userReadAt": "",
-      "userDateAdded": "2022-07-27T22:11:01.000Z",
+      "userRating": "4",
+      "userReadAt": "2022-07-28T01:12:07.000Z",
+      "userDateAdded": "2022-07-28T01:12:12.000Z",
       "userDateCreated": "2022-07-04T05:25:40.000Z",
-      "userShelves": "currently-reading",
+      "userShelves": "",
       "userReview": "",
       "averageRating": "3.94",
       "bookPublished": "2017",
-      "description": "<a href=\"https://www.goodreads.com/book/show/33517532-vallista?utm_medium=api&amp;utm_source=rss\"><img alt=\"Vallista (Vlad Taltos, #15)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1485795392l/33517532._SX50_.jpg\" /></a><br/>\n                                      author: Steven Brust<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.94<br/>\n                                      book published: 2017<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/07/27<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/33517532-vallista?utm_medium=api&amp;utm_source=rss\"><img alt=\"Vallista (Vlad Taltos, #15)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1485795392l/33517532._SX50_.jpg\" /></a><br/>\n                                      author: Steven Brust<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.94<br/>\n                                      book published: 2017<br/>\n                                      rating: 4<br/>\n                                      read at: 2022/07/27<br/>\n                                      date added: 2022/07/27<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "352"
     },
     {
@@ -41,27 +62,6 @@
       "averageRating": "4.01",
       "bookPublished": "2022",
       "description": "<a href=\"https://www.goodreads.com/book/show/59838811-upgrade?utm_medium=api&amp;utm_source=rss\"><img alt=\"Upgrade\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1643994317l/59838811._SY75_.jpg\" /></a><br/>\n                                      author: Blake Crouch<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.01<br/>\n                                      book published: 2022<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/07/26<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
-      "numPages": "352"
-    },
-    {
-      "id": "https://www.goodreads.com/review/show/3124773661?utm_medium=api&utm_source=rss",
-      "title": "Dark Matter",
-      "link": "https://www.goodreads.com/review/show/3124773661?utm_medium=api&utm_source=rss",
-      "bookId": "27833670",
-      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1472119680l/27833670._SY75_.jpg",
-      "bookDescription": "<b>A mindbending, relentlessly surprising thriller from the author of the bestselling Wayward Pines trilogy. </b><br /><br />Jason Dessen is walking home through the chilly Chicago streets one night, looking forward to a quiet evening in front of the fireplace with his wife, Daniela, and their son, Charlie—when his reality shatters.<br /><br /><i>\"Are you happy with your life?\"</i><br /><br />Those are the last words Jason Dessen hears before the masked abductor knocks him unconscious. <br /><br />Before he awakens to find himself strapped to a gurney, surrounded by strangers in hazmat suits. <br /><br />Before a man Jason's never met smiles down at him and says, \"Welcome back, my friend.\" <br /><br />In this world he's woken up to, Jason's life is not the one he knows. His wife is not his wife. His son was never born. And Jason is not an ordinary college physics professor, but a celebrated genius who has achieved something remarkable. Something impossible.<br /><br />Is it this world or the other that's the dream? <br /><br />And even if the home he remembers is real, how can Jason possibly make it back to the family he loves? The answers lie in a journey more wondrous and horrifying than anything he could've imagined—one that will force him to confront the darkest parts of himself even as he battles a terrifying, seemingly unbeatable foe.<br /><br /><b><i>Dark Matter</i> is a brilliantly plotted tale that is at once sweeping and intimate, mind-bendingly strange and profoundly human--a relentlessly surprising science-fiction thriller about choices, paths not taken, and how far we'll go to claim the lives we dream of.</b>",
-      "authorName": "Blake Crouch",
-      "isbn": "1101904224",
-      "userName": "Daniel",
-      "userRating": "0",
-      "userReadAt": "",
-      "userDateAdded": "2022-07-26T08:23:43.000Z",
-      "userDateCreated": "2020-01-05T17:24:09.000Z",
-      "userShelves": "on-deck",
-      "userReview": "",
-      "averageRating": "4.11",
-      "bookPublished": "2016",
-      "description": "<a href=\"https://www.goodreads.com/book/show/27833670-dark-matter?utm_medium=api&amp;utm_source=rss\"><img alt=\"Dark Matter\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1472119680l/27833670._SY75_.jpg\" /></a><br/>\n                                      author: Blake Crouch<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.11<br/>\n                                      book published: 2016<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/07/26<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
       "numPages": "352"
     },
     {
@@ -290,9 +290,9 @@
       "userDateCreated": "2022-07-15T06:50:10.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "3.84",
+      "averageRating": "3.83",
       "bookPublished": "2021",
-      "description": "<a href=\"https://www.goodreads.com/book/show/54390506-a-brief-history-of-earth?utm_medium=api&amp;utm_source=rss\"><img alt=\"A Brief History of Earth: Four Billion Years in Eight Chapters\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1612736914l/54390506._SX50_.jpg\" /></a><br/>\n                                      author: Andrew H. Knoll<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.84<br/>\n                                      book published: 2021<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/07/14<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/54390506-a-brief-history-of-earth?utm_medium=api&amp;utm_source=rss\"><img alt=\"A Brief History of Earth: Four Billion Years in Eight Chapters\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1612736914l/54390506._SX50_.jpg\" /></a><br/>\n                                      author: Andrew H. Knoll<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.83<br/>\n                                      book published: 2021<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/07/14<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "272"
     },
     {
@@ -3125,9 +3125,9 @@
       "userDateCreated": "2022-01-12T06:09:13.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "4.01",
+      "averageRating": "4.00",
       "bookPublished": "1955",
-      "description": "<a href=\"https://www.goodreads.com/book/show/16117911-the-iron-king?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Iron King (The Accursed Kings, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1559166802l/16117911._SY75_.jpg\" /></a><br/>\n                                      author: Maurice Druon<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.01<br/>\n                                      book published: 1955<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/01/11<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/16117911-the-iron-king?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Iron King (The Accursed Kings, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1559166802l/16117911._SY75_.jpg\" /></a><br/>\n                                      author: Maurice Druon<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.00<br/>\n                                      book published: 1955<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/01/11<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "368"
     },
     {
@@ -3251,9 +3251,9 @@
       "userDateCreated": "2021-12-23T08:21:43.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "4.32",
+      "averageRating": "4.33",
       "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/52962238-the-changing-world-order?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Changing World Order: Why Nations Succeed and Fail\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1630251271l/52962238._SY75_.jpg\" /></a><br/>\n                                      author: Ray Dalio<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.32<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/12/23<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/52962238-the-changing-world-order?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Changing World Order: Why Nations Succeed and Fail\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1630251271l/52962238._SY75_.jpg\" /></a><br/>\n                                      author: Ray Dalio<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.33<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/12/23<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "608"
     },
     {
