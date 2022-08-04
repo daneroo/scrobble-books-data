@@ -1970,9 +1970,9 @@
       "userDateCreated": "2022-04-07T04:14:38.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "3.48",
+      "averageRating": "3.49",
       "bookPublished": "1989",
-      "description": "<a href=\"https://www.goodreads.com/book/show/739828.The_Oxford_History_of_Ireland?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Oxford History of Ireland\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347659253l/739828._SX50_.jpg\" /></a><br/>\n                                      author: R.F. Foster<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.48<br/>\n                                      book published: 1989<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/04/06<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/739828.The_Oxford_History_of_Ireland?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Oxford History of Ireland\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347659253l/739828._SX50_.jpg\" /></a><br/>\n                                      author: R.F. Foster<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.49<br/>\n                                      book published: 1989<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/04/06<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "368"
     },
     {
@@ -5614,7 +5614,7 @@
       "link": "https://www.goodreads.com/review/show/4106984144?utm_medium=api&utm_source=rss",
       "bookId": "4981",
       "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1440319389l/4981._SY75_.jpg",
-      "bookDescription": "Selected by the Modern Library as one of the 100 best novels of all time, Slaughterhouse-Five, an American classic, is one of the world's great antiwar books. Centering on the infamous firebombing of Dresden, Billy Pilgrim's odyssey through time reflects the mythic journey of our own fractured lives as we search for meaning in what we fear most.",
+      "bookDescription": "Selected by the Modern Library as one of the 100 best novels of all time, <i>Slaughterhouse-Five,</i> an American classic, is one of the world's great antiwar books. Centering on the infamous firebombing of Dresden, Billy Pilgrim's odyssey through time reflects the mythic journey of our own fractured lives as we search for meaning in what we fear most.",
       "authorName": "Kurt Vonnegut Jr.",
       "isbn": "0385333846",
       "userName": "Daniel",
