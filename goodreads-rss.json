@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/4917580862?utm_medium=api&utm_source=rss",
+      "title": "Don't Think for Yourself: Authority and Belief in Medieval Philosophy",
+      "link": "https://www.goodreads.com/review/show/4917580862?utm_medium=api&utm_source=rss",
+      "bookId": "60416237",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1644883836l/60416237._SX50_.jpg",
+      "bookDescription": "<b>How do we judge whether we should be willing to follow the views of experts or whether we ought to try to come to our own, independent views? This book seeks the answer in medieval philosophical thought.</b><br /><br />In this engaging study into the history of philosophy and epistemology, Peter Adamson provides an answer to a question as relevant today as it was in the medieval period: how and when should we turn to the authoritative expertise of other people in forming our own beliefs? He challenges us to reconsider our approach to this question through a constructive recovery of the intellectual and cultural traditions of the Islamic world, the Byzantine Empire, and Latin Christendom.<br /><br />Adamson begins by foregrounding the distinction in Islamic philosophy between <i>taqlīd</i>, or the uncritical acceptance of authority, and <i>ijtihād</i>, or judgment based on independent effort, the latter of which was particularly prized in Islamic law, theology, and philosophy during the medieval period. He then demonstrates how the Islamic tradition paves the way for the development of what he calls a \"justified <i>taqlīd</i>,\" according to which one develops the skills necessary to critically and selectively follow an authority based on their reliability. The book proceeds to reconfigure our understanding of the relation between authority and independent thought in the medieval world by illuminating how women found spaces to assert their own intellectual authority, how medieval writers evaluated the authoritative status of Plato and Aristotle, and how independent reasoning was deployed to defend one Abrahamic faith against the other. This clear and eloquently written book will interest scholars in and enthusiasts of medieval philosophy, Islamic studies, Byzantine studies, and the history of thought.",
+      "authorName": "Peter Adamson",
+      "isbn": "0268203393",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2022-08-14T09:18:31.000Z",
+      "userDateCreated": "2022-08-14T09:18:30.000Z",
+      "userShelves": "on-deck",
+      "userReview": "",
+      "averageRating": "0.0",
+      "bookPublished": "",
+      "description": "<a href=\"https://www.goodreads.com/book/show/60416237-don-t-think-for-yourself?utm_medium=api&amp;utm_source=rss\"><img alt=\"Don&#39;t Think for Yourself: Authority and Belief in Medieval Philosophy\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1644883836l/60416237._SX50_.jpg\" /></a><br/>\n                                      author: Peter Adamson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/08/14<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "numPages": "194"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/4622821870?utm_medium=api&utm_source=rss",
       "title": "The Well of Ascension (Mistborn, #2)",
       "link": "https://www.goodreads.com/review/show/4622821870?utm_medium=api&utm_source=rss",
