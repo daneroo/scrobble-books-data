@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/4919555855?utm_medium=api&utm_source=rss",
+      "title": "The Satanic Verses",
+      "link": "https://www.goodreads.com/review/show/4919555855?utm_medium=api&utm_source=rss",
+      "bookId": "12781",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1281988101l/12781._SX50_.jpg",
+      "bookDescription": "Just before dawn one winter's morning, a hijacked jetliner explodes above the English Channel. Through the falling debris, two figures, Gibreel Farishta, the biggest star in India, and Saladin Chamcha, an expatriate returning from his first visit to Bombay in fifteen years, plummet from the sky, washing up on the snow-covered sands of an English beach, and proceed through a series of metamorphoses, dreams, and revelations. <br />--back cover",
+      "authorName": "Salman Rushdie",
+      "isbn": "0312270828",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2022-08-15T03:05:25.000Z",
+      "userDateCreated": "2022-08-15T03:05:24.000Z",
+      "userShelves": "on-deck",
+      "userReview": "",
+      "averageRating": "3.73",
+      "bookPublished": "1988",
+      "description": "<a href=\"https://www.goodreads.com/book/show/12781.The_Satanic_Verses?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Satanic Verses\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1281988101l/12781._SX50_.jpg\" /></a><br/>\n                                      author: Salman Rushdie<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.73<br/>\n                                      book published: 1988<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/08/14<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "numPages": "561"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/4917609921?utm_medium=api&utm_source=rss",
       "title": "Coffee: A Global History",
       "link": "https://www.goodreads.com/review/show/4917609921?utm_medium=api&utm_source=rss",
@@ -164,9 +185,9 @@
       "userDateCreated": "2022-08-12T06:15:42.000Z",
       "userShelves": "on-deck",
       "userReview": "",
-      "averageRating": "4.26",
+      "averageRating": "4.29",
       "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/59802037-what-we-owe-the-future?utm_medium=api&amp;utm_source=rss\"><img alt=\"What We Owe the Future\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1652699089l/59802037._SY75_.jpg\" /></a><br/>\n                                      author: William MacAskill<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.26<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/08/11<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/59802037-what-we-owe-the-future?utm_medium=api&amp;utm_source=rss\"><img alt=\"What We Owe the Future\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1652699089l/59802037._SY75_.jpg\" /></a><br/>\n                                      author: William MacAskill<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.29<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/08/11<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
       "numPages": "352"
     },
     {
@@ -1676,9 +1697,9 @@
       "userDateCreated": "2022-05-19T00:53:21.000Z",
       "userShelves": "on-deck",
       "userReview": "",
-      "averageRating": "3.56",
+      "averageRating": "3.57",
       "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/56269174-talent?utm_medium=api&amp;utm_source=rss\"><img alt=\"Talent: How to Identify Energizers, Creatives, and Winners Around the World\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1644340681l/56269174._SY75_.jpg\" /></a><br/>\n                                      author: Tyler Cowen<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.56<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/05/18<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/56269174-talent?utm_medium=api&amp;utm_source=rss\"><img alt=\"Talent: How to Identify Energizers, Creatives, and Winners Around the World\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1644340681l/56269174._SY75_.jpg\" /></a><br/>\n                                      author: Tyler Cowen<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.57<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/05/18<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
       "numPages": "288"
     },
     {
@@ -2033,9 +2054,9 @@
       "userDateCreated": "2022-04-19T07:18:11.000Z",
       "userShelves": "on-deck",
       "userReview": "",
-      "averageRating": "3.64",
+      "averageRating": "3.65",
       "bookPublished": "2021",
-      "description": "<a href=\"https://www.goodreads.com/book/show/54211065-2034?utm_medium=api&amp;utm_source=rss\"><img alt=\"2034: A Novel of the Next World War\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1593385556l/54211065._SY75_.jpg\" /></a><br/>\n                                      author: Elliot Ackerman<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.64<br/>\n                                      book published: 2021<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/04/19<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/54211065-2034?utm_medium=api&amp;utm_source=rss\"><img alt=\"2034: A Novel of the Next World War\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1593385556l/54211065._SY75_.jpg\" /></a><br/>\n                                      author: Elliot Ackerman<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.65<br/>\n                                      book published: 2021<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/04/19<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
       "numPages": "320"
     },
     {
@@ -4616,9 +4637,9 @@
       "userDateCreated": "2021-09-29T06:07:22.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "4.12",
+      "averageRating": "4.11",
       "bookPublished": "2001",
-      "description": "<a href=\"https://www.goodreads.com/book/show/30165203-american-gods?utm_medium=api&amp;utm_source=rss\"><img alt=\"American Gods (American Gods, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1462924585l/30165203._SY75_.jpg\" /></a><br/>\n                                      author: Neil Gaiman<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.12<br/>\n                                      book published: 2001<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/09/28<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/30165203-american-gods?utm_medium=api&amp;utm_source=rss\"><img alt=\"American Gods (American Gods, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1462924585l/30165203._SY75_.jpg\" /></a><br/>\n                                      author: Neil Gaiman<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.11<br/>\n                                      book published: 2001<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/09/28<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "635"
     },
     {
@@ -6401,9 +6422,9 @@
       "userDateCreated": "2021-04-30T07:07:55.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "4.26",
+      "averageRating": "4.25",
       "bookPublished": "2021",
-      "description": "<a href=\"https://www.goodreads.com/book/show/54968118-the-code-breaker?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Code Breaker: Jennifer Doudna, Gene Editing, and the Future of the Human Race\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1610894755l/54968118._SY75_.jpg\" /></a><br/>\n                                      author: Walter Isaacson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.26<br/>\n                                      book published: 2021<br/>\n                                      rating: 5<br/>\n                                      read at: 2021/05/30<br/>\n                                      date added: 2021/05/30<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/54968118-the-code-breaker?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Code Breaker: Jennifer Doudna, Gene Editing, and the Future of the Human Race\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1610894755l/54968118._SY75_.jpg\" /></a><br/>\n                                      author: Walter Isaacson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.25<br/>\n                                      book published: 2021<br/>\n                                      rating: 5<br/>\n                                      read at: 2021/05/30<br/>\n                                      date added: 2021/05/30<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "536"
     },
     {
@@ -7871,9 +7892,9 @@
       "userDateCreated": "2021-03-21T03:49:53.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "3.99",
+      "averageRating": "3.98",
       "bookPublished": "-349",
-      "description": "<a href=\"https://www.goodreads.com/book/show/19068.The_Nicomachean_Ethics?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Nicomachean Ethics\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1520339295l/19068._SY75_.jpg\" /></a><br/>\n                                      author: Aristotle<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.99<br/>\n                                      book published: -349<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/03/20<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/19068.The_Nicomachean_Ethics?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Nicomachean Ethics\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1520339295l/19068._SY75_.jpg\" /></a><br/>\n                                      author: Aristotle<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.98<br/>\n                                      book published: -349<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/03/20<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "329"
     },
     {
@@ -12050,9 +12071,9 @@
       "userDateCreated": "2014-11-20T02:07:39.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "3.88",
+      "averageRating": "3.89",
       "bookPublished": "2009",
-      "description": "<a href=\"https://www.goodreads.com/book/show/6343278-the-media-relations-department-of-hizbollah-wishes-you-a-happy-birthday?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Media Relations Department of Hizbollah Wishes You a Happy Birthday: Unexpected Encounters in the Changing Middle East\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1440379214l/6343278._SY75_.jpg\" /></a><br/>\n                                      author: Neil MacFarquhar<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.88<br/>\n                                      book published: 2009<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2014/11/19<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/6343278-the-media-relations-department-of-hizbollah-wishes-you-a-happy-birthday?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Media Relations Department of Hizbollah Wishes You a Happy Birthday: Unexpected Encounters in the Changing Middle East\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1440379214l/6343278._SY75_.jpg\" /></a><br/>\n                                      author: Neil MacFarquhar<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.89<br/>\n                                      book published: 2009<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2014/11/19<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "387"
     },
     {
