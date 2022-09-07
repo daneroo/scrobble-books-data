@@ -11,15 +11,15 @@
       "authorName": "Joe Abercrombie",
       "isbn": "0575077905",
       "userName": "Daniel",
-      "userRating": "0",
-      "userReadAt": "",
-      "userDateAdded": "2022-09-05T07:52:04.000Z",
+      "userRating": "5",
+      "userReadAt": "2022-09-07T05:04:53.000Z",
+      "userDateAdded": "2022-09-07T05:05:00.000Z",
       "userDateCreated": "2022-08-27T07:30:44.000Z",
-      "userShelves": "currently-reading",
+      "userShelves": "",
       "userReview": "",
       "averageRating": "4.30",
       "bookPublished": "2008",
-      "description": "<a href=\"https://www.goodreads.com/book/show/944076.Last_Argument_of_Kings?utm_medium=api&amp;utm_source=rss\"><img alt=\"Last Argument of Kings (The First Law, #3)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1659900550l/944076._SY75_.jpg\" /></a><br/>\n                                      author: Joe Abercrombie<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.30<br/>\n                                      book published: 2008<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/09/05<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/944076.Last_Argument_of_Kings?utm_medium=api&amp;utm_source=rss\"><img alt=\"Last Argument of Kings (The First Law, #3)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1659900550l/944076._SY75_.jpg\" /></a><br/>\n                                      author: Joe Abercrombie<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.30<br/>\n                                      book published: 2008<br/>\n                                      rating: 5<br/>\n                                      read at: 2022/09/06<br/>\n                                      date added: 2022/09/06<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "536"
     },
     {
@@ -815,9 +815,9 @@
       "userDateCreated": "2022-08-01T20:25:06.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "4.50",
+      "averageRating": "4.33",
       "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/60098290-chokepoint-capitalism?utm_medium=api&amp;utm_source=rss\"><img alt=\"Chokepoint Capitalism: How Big Tech and Big Content Captured Creative Labor Markets and How We&#39;ll Win Them Back\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1657518611l/60098290._SY75_.jpg\" /></a><br/>\n                                      author: Rebecca Giblin<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.50<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/08/01<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/60098290-chokepoint-capitalism?utm_medium=api&amp;utm_source=rss\"><img alt=\"Chokepoint Capitalism: How Big Tech and Big Content Captured Creative Labor Markets and How We&#39;ll Win Them Back\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1657518611l/60098290._SY75_.jpg\" /></a><br/>\n                                      author: Rebecca Giblin<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.33<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/08/01<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "312"
     },
     {
@@ -1151,9 +1151,9 @@
       "userDateCreated": "2022-07-15T06:47:38.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "4.00",
+      "averageRating": "3.93",
       "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/59388963-the-fed-unbound?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Fed Unbound: The Trouble with Government by Central Bank\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1639953088l/59388963._SX50_.jpg\" /></a><br/>\n                                      author: Lev Menand<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.00<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/07/14<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/59388963-the-fed-unbound?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Fed Unbound: The Trouble with Government by Central Bank\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1639953088l/59388963._SX50_.jpg\" /></a><br/>\n                                      author: Lev Menand<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.93<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/07/14<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "0"
     },
     {
@@ -1340,9 +1340,9 @@
       "userDateCreated": "2022-06-28T08:44:03.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "4.30",
+      "averageRating": "4.29",
       "bookPublished": "2022",
-      "description": "<a href=\"https://www.goodreads.com/book/show/58782897-the-end-of-the-world-is-just-the-beginning?utm_medium=api&amp;utm_source=rss\"><img alt=\"The End of the World Is Just the Beginning: Mapping the Collapse of Globalization\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1639948123l/58782897._SY75_.jpg\" /></a><br/>\n                                      author: Peter Zeihan<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.30<br/>\n                                      book published: 2022<br/>\n                                      rating: 4<br/>\n                                      read at: 2022/07/02<br/>\n                                      date added: 2022/07/02<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/58782897-the-end-of-the-world-is-just-the-beginning?utm_medium=api&amp;utm_source=rss\"><img alt=\"The End of the World Is Just the Beginning: Mapping the Collapse of Globalization\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1639948123l/58782897._SY75_.jpg\" /></a><br/>\n                                      author: Peter Zeihan<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.29<br/>\n                                      book published: 2022<br/>\n                                      rating: 4<br/>\n                                      read at: 2022/07/02<br/>\n                                      date added: 2022/07/02<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "512"
     },
     {
