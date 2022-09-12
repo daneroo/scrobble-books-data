@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/4981830937?utm_medium=api&utm_source=rss",
+      "title": "Perdido Street Station (New Crobuzon, #1)",
+      "link": "https://www.goodreads.com/review/show/4981830937?utm_medium=api&utm_source=rss",
+      "bookId": "68494",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1393537963l/68494._SY75_.jpg",
+      "bookDescription": "Beneath the towering bleached ribs of a dead, ancient beast lies the city of New Crobuzon, where the unsavory deal is stranger to no one--not even to Isaac, a gifted and eccentric scientist who has spent a lifetime quietly carrying out his unique research. But when a half-bird, half-human creature known as the Garuda comes to him from afar, Isaac is faced with challenges he has never before encountered. Though the Garuda's request is scientifically daunting, Isaac is sparked by his own curiosity and an uncanny reverence for this curious stranger. Soon an eerie metamorphosis will occur that will permeate every fiber of New Crobuzon--and not even the Ambassador of Hell will challenge the malignant terror it evokes.",
+      "authorName": "China Miéville",
+      "isbn": "0345459407",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2022-09-12T04:54:45.000Z",
+      "userDateCreated": "2022-09-12T04:54:45.000Z",
+      "userShelves": "to-read",
+      "userReview": "",
+      "averageRating": "3.96",
+      "bookPublished": "2000",
+      "description": "<a href=\"https://www.goodreads.com/book/show/68494.Perdido_Street_Station?utm_medium=api&amp;utm_source=rss\"><img alt=\"Perdido Street Station (New Crobuzon, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1393537963l/68494._SY75_.jpg\" /></a><br/>\n                                      author: China Miéville<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.96<br/>\n                                      book published: 2000<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/09/11<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "numPages": "710"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/4979890278?utm_medium=api&utm_source=rss",
       "title": "Red Country (First Law World, #6)",
       "link": "https://www.goodreads.com/review/show/4979890278?utm_medium=api&utm_source=rss",
