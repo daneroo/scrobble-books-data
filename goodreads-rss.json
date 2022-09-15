@@ -11,15 +11,15 @@
       "authorName": "Scott Lynch",
       "isbn": "0553804693",
       "userName": "Daniel",
-      "userRating": "0",
-      "userReadAt": "",
-      "userDateAdded": "2022-09-13T08:30:59.000Z",
+      "userRating": "4",
+      "userReadAt": "2022-09-15T15:59:22.000Z",
+      "userDateAdded": "2022-09-15T15:59:22.000Z",
       "userDateCreated": "2022-06-28T01:31:24.000Z",
-      "userShelves": "currently-reading",
+      "userShelves": "",
       "userReview": "",
       "averageRating": "4.20",
       "bookPublished": "2013",
-      "description": "<a href=\"https://www.goodreads.com/book/show/2890090-the-republic-of-thieves?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Republic of Thieves (Gentleman Bastard, #3)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1406961069l/2890090._SY75_.jpg\" /></a><br/>\n                                      author: Scott Lynch<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.20<br/>\n                                      book published: 2013<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/09/13<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/2890090-the-republic-of-thieves?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Republic of Thieves (Gentleman Bastard, #3)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1406961069l/2890090._SY75_.jpg\" /></a><br/>\n                                      author: Scott Lynch<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.20<br/>\n                                      book published: 2013<br/>\n                                      rating: 4<br/>\n                                      read at: 2022/09/15<br/>\n                                      date added: 2022/09/15<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "650"
     },
     {
@@ -1509,8 +1509,8 @@
       "userShelves": "to-read",
       "userReview": "",
       "averageRating": "4.50",
-      "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/61324554-a-brief-history-of-black-holes?utm_medium=api&amp;utm_source=rss\"><img alt=\"A Brief History of Black Holes: And why nearly everything you know about them is wrong\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1655755179l/61324554._SY75_.jpg\" /></a><br/>\n                                      author: Becky Smethurst<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.50<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/07/02<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "bookPublished": "2022",
+      "description": "<a href=\"https://www.goodreads.com/book/show/61324554-a-brief-history-of-black-holes?utm_medium=api&amp;utm_source=rss\"><img alt=\"A Brief History of Black Holes: And why nearly everything you know about them is wrong\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1655755179l/61324554._SY75_.jpg\" /></a><br/>\n                                      author: Becky Smethurst<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.50<br/>\n                                      book published: 2022<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/07/02<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "288"
     },
     {
