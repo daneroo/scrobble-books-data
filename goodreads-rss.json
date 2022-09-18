@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/4993683863?utm_medium=api&utm_source=rss",
+      "title": "The Hundred-Page Machine Learning Book",
+      "link": "https://www.goodreads.com/review/show/4993683863?utm_medium=api&utm_source=rss",
+      "bookId": "43190851",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546285613l/43190851._SX50_.jpg",
+      "bookDescription": "Concise and to the point — the book can be read during a week. During that week, you will learn almost everything modern machine learning has to offer. The author and other practitioners have spent years learning these concepts.<br /><br />Companion wiki — the book has a continuously updated wiki that extends some book chapters with additional information: Q&amp;A, code snippets, further reading, tools, and other relevant resources.<br /><br />Flexible price and formats — choose from a variety of formats and price options: Kindle, hardcover, paperback, EPUB, PDF. If you buy an EPUB or a PDF, you decide the price you pay!<br /><br />Read first, buy later — download book chapters for free, read them and share with your friends and colleagues. Only if you liked the book or found it useful in your work, study or business, then buy it.",
+      "authorName": "Andriy Burkov",
+      "isbn": "",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2022-09-18T07:35:24.000Z",
+      "userDateCreated": "2022-09-18T07:35:24.000Z",
+      "userShelves": "on-deck",
+      "userReview": "",
+      "averageRating": "4.31",
+      "bookPublished": "",
+      "description": "<a href=\"https://www.goodreads.com/book/show/43190851-the-hundred-page-machine-learning-book?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Hundred-Page Machine Learning Book\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546285613l/43190851._SX50_.jpg\" /></a><br/>\n                                      author: Andriy Burkov<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.31<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/09/18<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "numPages": "159"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/4311713699?utm_medium=api&utm_source=rss",
       "title": "The Light Ages: The Surprising Story of Medieval Science",
       "link": "https://www.goodreads.com/review/show/4311713699?utm_medium=api&utm_source=rss",
@@ -6149,9 +6170,9 @@
       "userDateCreated": "2021-08-03T05:45:51.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "4.51",
+      "averageRating": "4.52",
       "bookPublished": "1972",
-      "description": "<a href=\"https://www.goodreads.com/book/show/150134.Gravitation_and_Cosmology?utm_medium=api&amp;utm_source=rss\"><img alt=\"Gravitation and Cosmology: Principles and Applications of the General Theory of Relativity\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348383911l/150134._SX50_.jpg\" /></a><br/>\n                                      author: Steven Weinberg<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.51<br/>\n                                      book published: 1972<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/08/02<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/150134.Gravitation_and_Cosmology?utm_medium=api&amp;utm_source=rss\"><img alt=\"Gravitation and Cosmology: Principles and Applications of the General Theory of Relativity\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348383911l/150134._SX50_.jpg\" /></a><br/>\n                                      author: Steven Weinberg<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.52<br/>\n                                      book published: 1972<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/08/02<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "688"
     },
     {
