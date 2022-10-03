@@ -437,9 +437,9 @@
       "userDateCreated": "2022-08-27T08:06:10.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "4.19",
+      "averageRating": "4.20",
       "bookPublished": "2021",
-      "description": "<a href=\"https://www.goodreads.com/book/show/57203194-flights-of-fancy?utm_medium=api&amp;utm_source=rss\"><img alt=\"Flights of Fancy: Defying Gravity by Design and Evolution\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1638459480l/57203194._SX50_.jpg\" /></a><br/>\n                                      author: Richard Dawkins<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.19<br/>\n                                      book published: 2021<br/>\n                                      rating: 5<br/>\n                                      read at: 2022/09/20<br/>\n                                      date added: 2022/09/20<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/57203194-flights-of-fancy?utm_medium=api&amp;utm_source=rss\"><img alt=\"Flights of Fancy: Defying Gravity by Design and Evolution\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1638459480l/57203194._SX50_.jpg\" /></a><br/>\n                                      author: Richard Dawkins<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.20<br/>\n                                      book published: 2021<br/>\n                                      rating: 5<br/>\n                                      read at: 2022/09/20<br/>\n                                      date added: 2022/09/20<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "282"
     },
     {
@@ -1928,9 +1928,9 @@
       "userDateCreated": "2022-06-28T06:13:34.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "3.77",
+      "averageRating": "3.78",
       "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/59688169-the-power-of-crisis?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Power of Crisis: How Three Threats – and Our Response – Will Change the World\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1644367260l/59688169._SY75_.jpg\" /></a><br/>\n                                      author: Ian Bremmer<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.77<br/>\n                                      book published: <br/>\n                                      rating: 4<br/>\n                                      read at: 2022/07/08<br/>\n                                      date added: 2022/07/08<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/59688169-the-power-of-crisis?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Power of Crisis: How Three Threats – and Our Response – Will Change the World\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1644367260l/59688169._SY75_.jpg\" /></a><br/>\n                                      author: Ian Bremmer<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.78<br/>\n                                      book published: <br/>\n                                      rating: 4<br/>\n                                      read at: 2022/07/08<br/>\n                                      date added: 2022/07/08<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "0"
     },
     {
@@ -2600,9 +2600,9 @@
       "userDateCreated": "2022-05-24T05:45:37.000Z",
       "userShelves": "on-deck",
       "userReview": "",
-      "averageRating": "4.09",
+      "averageRating": "4.08",
       "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/59576734-losing-ourselves?utm_medium=api&amp;utm_source=rss\"><img alt=\"Losing Ourselves: Learning to Live Without a Self\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1644336679l/59576734._SY75_.jpg\" /></a><br/>\n                                      author: Jay L. Garfield<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.09<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/05/23<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/59576734-losing-ourselves?utm_medium=api&amp;utm_source=rss\"><img alt=\"Losing Ourselves: Learning to Live Without a Self\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1644336679l/59576734._SY75_.jpg\" /></a><br/>\n                                      author: Jay L. Garfield<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.08<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/05/23<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
       "numPages": "224"
     },
     {
@@ -5925,7 +5925,7 @@
     },
     {
       "id": "https://www.goodreads.com/review/show/4247333939?utm_medium=api&utm_source=rss",
-      "title": "The Once and Future King (The Once and Future King, #1-4)",
+      "title": "The Once and Future King (The Once and Future King, #1-5)",
       "link": "https://www.goodreads.com/review/show/4247333939?utm_medium=api&utm_source=rss",
       "bookId": "43545",
       "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1338741283l/43545._SY75_.jpg",
@@ -5941,7 +5941,7 @@
       "userReview": "",
       "averageRating": "4.06",
       "bookPublished": "1958",
-      "description": "<a href=\"https://www.goodreads.com/book/show/43545.The_Once_and_Future_King?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Once and Future King (The Once and Future King, #1-4)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1338741283l/43545._SY75_.jpg\" /></a><br/>\n                                      author: T.H. White<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.06<br/>\n                                      book published: 1958<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/09/19<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/43545.The_Once_and_Future_King?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Once and Future King (The Once and Future King, #1-5)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1338741283l/43545._SY75_.jpg\" /></a><br/>\n                                      author: T.H. White<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.06<br/>\n                                      book published: 1958<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/09/19<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "639"
     },
     {
@@ -11693,9 +11693,9 @@
       "userDateCreated": "2019-04-28T06:43:35.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "4.33",
+      "averageRating": "4.32",
       "bookPublished": "2014",
-      "description": "<a href=\"https://www.goodreads.com/book/show/20617550-la-realt-non-come-ci-appare?utm_medium=api&amp;utm_source=rss\"><img alt=\"La realtà non è come ci appare: La struttura elementare delle cose\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1390407512l/20617550._SY75_.jpg\" /></a><br/>\n                                      author: Carlo Rovelli<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.33<br/>\n                                      book published: 2014<br/>\n                                      rating: 4<br/>\n                                      read at: 2019/05/17<br/>\n                                      date added: 2019/05/17<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/20617550-la-realt-non-come-ci-appare?utm_medium=api&amp;utm_source=rss\"><img alt=\"La realtà non è come ci appare: La struttura elementare delle cose\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1390407512l/20617550._SY75_.jpg\" /></a><br/>\n                                      author: Carlo Rovelli<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.32<br/>\n                                      book published: 2014<br/>\n                                      rating: 4<br/>\n                                      read at: 2019/05/17<br/>\n                                      date added: 2019/05/17<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "242"
     },
     {
