@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/5036716964?utm_medium=api&utm_source=rss",
+      "title": "Flashman's Lady (The Flashman Papers, #6)",
+      "link": "https://www.goodreads.com/review/show/5036716964?utm_medium=api&utm_source=rss",
+      "bookId": "401905",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1436098860l/401905._SY75_.jpg",
+      "bookDescription": "Flashy, that lustful libertine, takes a round-the-world adventure that would shock Don Juan and make swingers of today green with envy. In an English mansion, he's not just doodling in the drawing room with a blue blood's red-hot-blooded mistress; in Africa, he's forced to serve a sultry queen who kills low-endurance lovers.<p>The irresistable antihero heads to China, where he gets between a pair of Chinese beauties who'll do anything to improve East-West relations; en route, he takes cover on warship under fire with an explosive Malay maiden.</p><p>\"A romp that will have lucky readers chortling with delight.\" (Publishers Weekly)</p>",
+      "authorName": "George MacDonald Fraser",
+      "isbn": "0452264898",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2022-10-10T06:22:11.000Z",
+      "userDateCreated": "2022-10-10T06:22:11.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "4.17",
+      "bookPublished": "1977",
+      "description": "<a href=\"https://www.goodreads.com/book/show/401905.Flashman_s_Lady?utm_medium=api&amp;utm_source=rss\"><img alt=\"Flashman&#39;s Lady (The Flashman Papers, #6)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1436098860l/401905._SY75_.jpg\" /></a><br/>\n                                      author: George MacDonald Fraser<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.17<br/>\n                                      book published: 1977<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/10/09<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "336"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/5033985313?utm_medium=api&utm_source=rss",
       "title": "Royal Flash (The Flashman Papers, #2)",
       "link": "https://www.goodreads.com/review/show/5033985313?utm_medium=api&utm_source=rss",
