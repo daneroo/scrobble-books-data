@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/5036778975?utm_medium=api&utm_source=rss",
+      "title": "The Singularity Principles: Anticipating and managing cataclysmically disruptive technologies",
+      "link": "https://www.goodreads.com/review/show/5036778975?utm_medium=api&utm_source=rss",
+      "bookId": "61589469",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1658173266l/61589469._SY75_.jpg",
+      "bookDescription": "",
+      "authorName": "David Wood",
+      "isbn": "",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2022-10-10T07:40:36.000Z",
+      "userDateCreated": "2022-10-10T07:40:36.000Z",
+      "userShelves": "to-read",
+      "userReview": "",
+      "averageRating": "4.00",
+      "bookPublished": "",
+      "description": "<a href=\"https://www.goodreads.com/book/show/61589469-the-singularity-principles?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Singularity Principles: Anticipating and managing cataclysmically disruptive technologies\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1658173266l/61589469._SY75_.jpg\" /></a><br/>\n                                      author: David Wood<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.00<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/10/10<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "numPages": "0"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/5036716964?utm_medium=api&utm_source=rss",
       "title": "Flashman's Lady (The Flashman Papers, #6)",
       "link": "https://www.goodreads.com/review/show/5036716964?utm_medium=api&utm_source=rss",
@@ -10328,9 +10349,9 @@
       "userDateCreated": "2020-10-27T05:37:45.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "3.23",
+      "averageRating": "3.25",
       "bookPublished": "2020",
-      "description": "<a href=\"https://www.goodreads.com/book/show/50358530-every-life-is-on-fire?utm_medium=api&amp;utm_source=rss\"><img alt=\"Every Life is on Fire: How Thermodynamics Explains the Origins of Living Things\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1580816663l/50358530._SY75_.jpg\" /></a><br/>\n                                      author: Jeremy England<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.23<br/>\n                                      book published: 2020<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2020/10/26<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/50358530-every-life-is-on-fire?utm_medium=api&amp;utm_source=rss\"><img alt=\"Every Life is on Fire: How Thermodynamics Explains the Origins of Living Things\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1580816663l/50358530._SY75_.jpg\" /></a><br/>\n                                      author: Jeremy England<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.25<br/>\n                                      book published: 2020<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2020/10/26<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "272"
     },
     {
