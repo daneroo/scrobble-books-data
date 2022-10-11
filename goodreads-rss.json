@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/5038600290?utm_medium=api&utm_source=rss",
+      "title": "The Universe Within: From Quantum to Cosmos",
+      "link": "https://www.goodreads.com/review/show/5038600290?utm_medium=api&utm_source=rss",
+      "bookId": "13584763",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347984530l/13584763._SY75_.jpg",
+      "bookDescription": "A visionary look at the way the human mind can shape the future by world-renowned physicist Neil Turok. Every technology we rely on today was created by the human mind, seeking to understand the universe around us. Scientific knowledge is our most precious possession, and our future will be shaped by the breakthroughs to come. In this personal and fascinating work, Neil Turok, Director of the Perimeter Institute for Theoretical Physics, explores the transformative scientific discoveries of the past three centuries -- from classical mechanics, to the nature of light, to the bizarre world of the quantum, and the evolution of the cosmos. Each new discovery has, over time, yielded new technologies causing paradigm shifts in the organization of society. Now, he argues, we are on the cusp of another major transformation: the coming quantum revolution that will supplant our current, dissatisfying digital age. Facing this brave new world, Turok calls for creatively re-inventing the way advanced knowledge is developed and shared, and opening access to the vast, untapped pools of intellectual talent in the developing world. Scientific research, training, and outreach are vital to our future economy, as well as powerful forces for peaceful global progress.<br />",
+      "authorName": "Neil Turok",
+      "isbn": "1770890173",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2022-10-11T03:14:38.000Z",
+      "userDateCreated": "2022-10-11T03:14:38.000Z",
+      "userShelves": "to-read",
+      "userReview": "",
+      "averageRating": "3.85",
+      "bookPublished": "2012",
+      "description": "<a href=\"https://www.goodreads.com/book/show/13584763-the-universe-within?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Universe Within: From Quantum to Cosmos\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347984530l/13584763._SY75_.jpg\" /></a><br/>\n                                      author: Neil Turok<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.85<br/>\n                                      book published: 2012<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/10/10<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "numPages": "256"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/5036778975?utm_medium=api&utm_source=rss",
       "title": "The Singularity Principles: Anticipating and managing cataclysmically disruptive technologies",
       "link": "https://www.goodreads.com/review/show/5036778975?utm_medium=api&utm_source=rss",
@@ -11693,9 +11714,9 @@
       "userDateCreated": "2019-07-18T04:56:47.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "4.12",
+      "averageRating": "4.11",
       "bookPublished": "1996",
-      "description": "<a href=\"https://www.goodreads.com/book/show/177068.The_Fabric_of_Reality?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Fabric of Reality: The Science of Parallel Universes--and Its Implications\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348344833l/177068._SY75_.jpg\" /></a><br/>\n                                      author: David Deutsch<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.12<br/>\n                                      book published: 1996<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2019/07/17<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/177068.The_Fabric_of_Reality?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Fabric of Reality: The Science of Parallel Universes--and Its Implications\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348344833l/177068._SY75_.jpg\" /></a><br/>\n                                      author: David Deutsch<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.11<br/>\n                                      book published: 1996<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2019/07/17<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "400"
     },
     {
