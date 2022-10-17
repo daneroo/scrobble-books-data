@@ -36,6 +36,8 @@ The pinned CID's can be found at
 
 ## TODO
 
+- [ ] use ipfs pins for web3.storage
+- [ ] Sync? [Literal API](https://literal.club/pages/api)
 - Rewrite github actions with cue !?
 - Use a mono repo ([turborepo](https://turborepo.org/))
   - Move deno source to typescript cli project
