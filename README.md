@@ -36,7 +36,7 @@ The pinned CID's can be found at
 
 ## TODO
 
-- [ ] use ipfs pins for web3.storage
+- [ ] use ipfs pins for web3.storage - not ready yet - requires an IPFS node
 - [ ] Sync? [Literal API](https://literal.club/pages/api)
 - Rewrite github actions with cue !?
 - Use a mono repo ([turborepo](https://turborepo.org/))
@@ -50,6 +50,34 @@ The pinned CID's can be found at
 - ~~Done~~
 - ~~[Integrate VSCode](https://deno.land/manual@v1.14.1/vscode_deno)~~
 - ~~Use [Skypack's xml2js](https://www.skypack.dev/view/xml2js)~~
+
+## Web3.Storage Pinning service (new)
+
+### Using web API
+
+This just lists the pinned CID's, but cannot upload content. So we still need a working IPFS node.
+
+```bash
+# list with http request - add ?status=.. (not documented yet)
+. WEB3STORAGE.env
+time curl -s -X GET 'https://api.web3.storage/pins?status=failed,pinned,pinning,queued' --header 'Accept: */*' --header "Authorization: Bearer ${WEB3STORAGE_TOKEN}" | jq
+```
+
+### using ipfs (go) cli
+
+```bash
+
+ipfs pin remote service add web3.storage https://api.web3.storage/ <YOUR_AUTH_KEY_JWT>
+. WEB3STORAGE.env
+ipfs pin remote service add web3.storage https://api.web3.storage/ "${WEB3STORAGE_TOKEN}"
+
+ipfs pin remote add --service=web3.storage --name=<PIN_NAME> <CID>
+ipfs pin remote add --service=web3.storage --name=a-goodreeads-folder bafybeib7ef3pesqbvjjq5dgdteztaxb2v2mkk56yzfltet4mluyy6oakpi
+
+ipfs pin remote ls --service=web3.storage
+
+ipfs pin remote rm --service=web3.storage --cid=<CID> --name=<PIN_NAME>
+```
 
 ## Testing Actions locally
 
@@ -100,3 +128,5 @@ npm start
 - [GitHub Action - Flat Data](https://github.com/marketplace/actions/flat-data)
 - [Git scraping: track changes over time by scraping to a Git repository](https://simonwillison.net/2020/Oct/9/git-scraping/)
 - [Fire Example](https://github.com/simonw/ca-fires-history)
+- [Web3.storage pinning](https://web3.storage/docs/how-tos/pinning-services-api/)
+- [we3.storage: ipfs-car](https://github.com/web3-storage/ipfs-car)
