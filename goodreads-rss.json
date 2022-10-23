@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/5061703106?utm_medium=api&utm_source=rss",
+      "title": "His Last Bow (Sherlock Holmes, #8)",
+      "link": "https://www.goodreads.com/review/show/5061703106?utm_medium=api&utm_source=rss",
+      "bookId": "754713",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1368588782l/754713._SY75_.jpg",
+      "bookDescription": "'His Last Bow', the title story of this collection, tells how Sherlock Holmes is brought out of retirement to help the Government fight the German threat at the approach of the First World War. The Prime Minister himself requests Holmes's services to hunt down the remarkable German agent, Von Bork. Several of the detective's earlier cases complete the volume, including 'Wisteria Lodge', 'The Bruce-Partington Plans', and 'The Disappearance of Lady Frances Carfax'. In 'The Dying Detective', Dr Watson is horrified to discover Holmes at death's door from a mysterious tropical disease as his friend lays a trap for a murderer.",
+      "authorName": "Arthur Conan Doyle",
+      "isbn": "0755334434",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2022-10-23T08:19:22.000Z",
+      "userDateCreated": "2022-10-23T08:19:00.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "4.28",
+      "bookPublished": "1917",
+      "description": "<a href=\"https://www.goodreads.com/book/show/754713.His_Last_Bow?utm_medium=api&amp;utm_source=rss\"><img alt=\"His Last Bow (Sherlock Holmes, #8)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1368588782l/754713._SY75_.jpg\" /></a><br/>\n                                      author: Arthur Conan Doyle<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.28<br/>\n                                      book published: 1917<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/10/23<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "242"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/5060481686?utm_medium=api&utm_source=rss",
       "title": "Austerity Ecology & the Collapse-porn Addicts: A defence of growth, progress, industry and stuff",
       "link": "https://www.goodreads.com/review/show/5060481686?utm_medium=api&utm_source=rss",
@@ -1760,9 +1781,9 @@
       "userDateCreated": "2022-08-01T20:25:06.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "4.48",
+      "averageRating": "4.47",
       "bookPublished": "2022",
-      "description": "<a href=\"https://www.goodreads.com/book/show/60098290-chokepoint-capitalism?utm_medium=api&amp;utm_source=rss\"><img alt=\"Chokepoint Capitalism: How Big Tech and Big Content Captured Creative Labor Markets and How We&#39;ll Win Them Back\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1657518611l/60098290._SY75_.jpg\" /></a><br/>\n                                      author: Rebecca Giblin<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.48<br/>\n                                      book published: 2022<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/08/01<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/60098290-chokepoint-capitalism?utm_medium=api&amp;utm_source=rss\"><img alt=\"Chokepoint Capitalism: How Big Tech and Big Content Captured Creative Labor Markets and How We&#39;ll Win Them Back\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1657518611l/60098290._SY75_.jpg\" /></a><br/>\n                                      author: Rebecca Giblin<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.47<br/>\n                                      book published: 2022<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/08/01<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "312"
     },
     {
