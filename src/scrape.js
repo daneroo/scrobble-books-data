@@ -132,6 +132,25 @@ function cleanItem(item) {
   newItem.userReadAt = safeDate(newItem.userReadAt);
   newItem.userDateAdded = safeDate(newItem.userDateAdded);
   newItem.userDateCreated = safeDate(newItem.userDateCreated);
+
+  // Round the average rating to 0.1 (toFixed(1)) to reduce commit noise
+  // Also, replace the same average rating in the description field
+  const averageRating = newItem.averageRating; // string
+  const roundedAverageRating = Number(averageRating).toFixed(1);
+  // passthrough if original field was NaN
+  if (!isNaN(roundedAverageRating)) {
+    // console.log(`Rating ${averageRating} -> ${roundedAverageRating}`);
+    newItem.averageRating = roundedAverageRating;
+
+    // now, also replace the text in description with new average rating
+    const description = newItem.description.replace(
+      `average rating: ${averageRating}`,
+      `average rating: ${roundedAverageRating}`
+    );
+    // console.log(`Description ${newItem.description} -> ${description}`);
+    newItem.description = description;
+  }
+
   return newItem;
 }
 
