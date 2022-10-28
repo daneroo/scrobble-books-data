@@ -17,7 +17,7 @@ jobs:
       WEB3STORAGE_TOKEN: ${{ secrets.WEB3STORAGE_TOKEN }}
     steps:
       - name: Check out repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       # Get the stamp for the eventual commit message
       - name: Get current date stamp
@@ -52,11 +52,10 @@ jobs:
         working-directory: cue
 
       - name: Setup node
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
-          node-version: "16"
-          # commented for local run
-          # cache: 'npm'
+          node-version: "18"
+          cache: "npm"
 
       - name: Pin to web3.storage (ipfs)
         run: |

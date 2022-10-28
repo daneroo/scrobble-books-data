@@ -11,7 +11,7 @@ jobs:
     #   GOODREADS_USER: ${{ secrets.GOODREADS_USER }}
     steps:
       - name: Check out repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Setup deno
         uses: denoland/setup-deno@v1
@@ -25,11 +25,10 @@ jobs:
           deno test src
 
       - name: Setup node
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
-          node-version: "16"
-          # commented for local run
-          # cache: 'npm'
+          node-version: "18"
+          cache: "npm"
 
       - name: Run Unit tests (node)
         run: |
