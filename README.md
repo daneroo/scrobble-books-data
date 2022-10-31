@@ -99,6 +99,10 @@ act -j scrape --secret-file SCRAPE.secrets
 Check the git logs for frequency of scrape action commits
 
 ```bash
+# new way using the commit message itself
+npm run git_log ## equivalent to:
+git log|grep 'Latest book data' | cut -c22-31 | uniq -c |head -n 10
+# Old way relying on git's date
 git log|grep -B 2 -i latest|grep '^Date:'|cut -c9-18|uniq -c
 ```
 

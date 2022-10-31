@@ -5,7 +5,8 @@
   "main": "src-js/index.js",
   "scripts": {
     "start": "node src-js/index.js",
-    "test": "standard src-js/"
+    "test": "standard src-js/",
+    "git_log": "git log|grep 'Latest book data' | cut -c22-31 | uniq -c |head -n 10"
   },
   "repository": {
     "type": "git",
