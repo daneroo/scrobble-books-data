@@ -39,7 +39,7 @@ jobs:
         # not yet released @v1
         # uses: cue-lang/setup-cue@v1.0.0-alpha.2
         # test my fork: https://github.com/daneroo/setup-cue
-        uses: daneroo/setup-cue@689a793bbfbad25543f96102d51210a0d6f919d5
+        uses: daneroo/setup-cue@83f664d1394aa92466d889a33f2178e42f49a06e
         with:
           version: "v0.4.3" # default is latest
         id: install
