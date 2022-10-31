@@ -36,7 +36,7 @@ jobs:
           npm test
 
       - name: Setup CUE
-        # not yet released @v1
+        # Using my own fork: PR: https://github.com/cue-lang/setup-cue/pull/10
         # uses: cue-lang/setup-cue@v1.0.0-alpha.2
         # test my fork: https://github.com/daneroo/setup-cue
         uses: daneroo/setup-cue@83f664d1394aa92466d889a33f2178e42f49a06e
