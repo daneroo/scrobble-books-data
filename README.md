@@ -32,7 +32,7 @@ The data file ca be fetched (externally) at
 
 The pinned CID's can be found at
 
-- <https://web3.storage/files/>
+- <https://web3.storage/account/>
 
 ## Upstream PR for setup-cue
 
