@@ -36,6 +36,21 @@ The pinned CID's can be found at
 
 ## TODO
 
+- [ ] 2 warnings on Github Actions:
+
+```txt
+Node.js 12 actions are deprecated. For more information see: https://github.blog/changelog/2022-09-22-github-actions-all-actions-will-begin-running-on-node16-instead-of-node12/. Please update the following actions to use Node.js 16: cue-lang/setup-cue
+
+setup-cue:action.vue has: `using: "node12"`
+
+The `set-output` command is deprecated and will be disabled soon. Please upgrade to using Environment Files. For more information see: https://github.blog/changelog/2022-10-11-github-actions-deprecating-save-state-and-set-output-commands/
+
+And from: <https://github.blog/changelog/2022-10-11-github-actions-deprecating-save-state-and-set-output-commands/>
+ Action authors who are using the toolkit should update the @actions/core package to v1.10.0 or greater to get the updated saveState and setOutput functions
+
+ setup-cue has:  "@actions/core": "^1.4.0",
+```
+
 - [ ] use ipfs pins for web3.storage - not ready yet - requires an IPFS node
 - [ ] Sync? [Literal API](https://literal.club/pages/api)
 - Rewrite github actions with cue !?
