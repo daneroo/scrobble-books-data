@@ -34,7 +34,8 @@ jobs:
           deno run --reload -q --allow-read --allow-write --allow-run --allow-net --allow-env --unstable src/scrape.js
 
       - name: Setup CUE
-        uses: cue-lang/setup-cue@v1
+        # not yet released @v1
+        uses: cue-lang/setup-cue@v1.0.0-alpha.2
         with:
           version: "v0.4.3" # default is latest
         id: install
