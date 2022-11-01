@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/5078367486?utm_medium=api&utm_source=rss",
+      "title": "Charged: A History of Batteries and Lessons for a Clean Energy Future",
+      "link": "https://www.goodreads.com/review/show/5078367486?utm_medium=api&utm_source=rss",
+      "bookId": "59856295",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1640549114l/59856295._SX50_.jpg",
+      "bookDescription": "Few technologies are more important to unlocking a clean-energy future than batteries. Batteries will help store electricity from solar panels and wind turbines. Batteries will help improve the reliability, versatility, and efficiency of the electric grid. And batteries will power a new generation of zero-emissions vehicles, from cars to bikes to planes. But while batteries may make it possible to scale up renewable energy sources and help to solve global warming while preserving the conveniences of modernity, this transition risks trading one set of resource dependencies and injustices for another, as batteries present their own unique environmental demands and consequences. How will scaling up the production of renewable energy technologies to meet the demands of a clean energy future affect workers and front-line communities who bear the risks and consequences of building this future? What role will batteries play in a \"just transition\" to a clean energy future?<br /><br />In <i>Charged</i>, James Morton Turner explores the environmental history of the three most common battery types to yield insights in into the prospects, challenges, and material consequences of scaling up batteries to support a clean energy future. These types of batteries include: lead-acid batteries, which in part because of the hazards they pose, have become the most recycled product in the world; disposable AA batteries, which although extraordinarily energy intensive to manufacture, became a little-known environmental success story when mercury was eliminated; and lithium-ion batteries, which create unique environmental issues as they require a wider array of highly refined raw materials to manufacture and perform. <br /><br />Turner also engages three ideas that challenge the usual thinking about the past and future of energy and environmental sustainability: the importance of energy quality, the ways in which batteries make energy visible, and how batteries underpin a broader culture of mobility. Through this, batteries become the vehicle for an illuminating analysis of the social and environmental dimensions of modern systems of production and consumption. Considering batteries as the starting point for an investigation into the paradoxes of modern technology, this book tells a story of environmental degradation and social injustice, but also of technical advances and environmental sustainability toward a resilient future.",
+      "authorName": "James Morton Turner",
+      "isbn": "0295750243",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2022-11-01T09:35:00.000Z",
+      "userDateCreated": "2022-11-01T09:35:00.000Z",
+      "userShelves": "on-deck",
+      "userReview": "",
+      "averageRating": "5.0",
+      "bookPublished": "",
+      "description": "<a href=\"https://www.goodreads.com/book/show/59856295-charged?utm_medium=api&amp;utm_source=rss\"><img alt=\"Charged: A History of Batteries and Lessons for a Clean Energy Future\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1640549114l/59856295._SX50_.jpg\" /></a><br/>\n                                      author: James Morton Turner<br/>\n                                      name: Daniel<br/>\n                                      average rating: 5.0<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/11/01<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "numPages": "256"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/5076443538?utm_medium=api&utm_source=rss",
       "title": "Do Androids Dream of Electric Sheep?",
       "link": "https://www.goodreads.com/review/show/5076443538?utm_medium=api&utm_source=rss",
