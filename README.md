@@ -41,6 +41,7 @@ The pinned CID's can be found at
 
 ## TODO
 
+- [ ] Restore cue-lang/setup-cue@??? (when upstream PR is merged and released)
 - [ ] use ipfs pins for web3.storage - not ready yet - requires an IPFS node
 - [ ] Sync? [Literal API](https://literal.club/pages/api)
 - Rewrite github actions with cue !?
