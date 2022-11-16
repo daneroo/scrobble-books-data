@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/5107467803?utm_medium=api&utm_source=rss",
+      "title": "Half a King (Shattered Sea, #1)",
+      "link": "https://www.goodreads.com/review/show/5107467803?utm_medium=api&utm_source=rss",
+      "bookId": "37586799",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1513689999l/37586799._SY75_.jpg",
+      "bookDescription": "<i>Alternate cover edition for ISBN 9780007550227<br />For all editions see <a href=\"https://www.goodreads.com/work/editions/25641726-half-a-king\" rel=\"nofollow noopener\">here</a></i><br /><br />Betrayed by his family and left for dead, prince Yarvi, reluctant heir to a divided kingdom, has vowed to reclaim a throne he never wanted. But first he must survive cruelty, chains and the bitter waters of the shattered sea itself - all with only one good hand. Born a weakling in the eyes of a hard, cold world, he cannot grip a shield or swing an axe, so has sharpened his mind to a deadly edge. Gathering a strange fellowship of the outcast, he finds they can help him more than any noble could. Even so, Yarvi's path may end as it began - in twists, traps and tragedy.",
+      "authorName": "Joe Abercrombie",
+      "isbn": "0007550227",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2022-11-16T07:51:04.000Z",
+      "userDateCreated": "2022-11-16T07:51:04.000Z",
+      "userShelves": "on-deck",
+      "userReview": "",
+      "averageRating": "3.9",
+      "bookPublished": "2014",
+      "description": "<a href=\"https://www.goodreads.com/book/show/37586799-half-a-king?utm_medium=api&amp;utm_source=rss\"><img alt=\"Half a King (Shattered Sea, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1513689999l/37586799._SY75_.jpg\" /></a><br/>\n                                      author: Joe Abercrombie<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: 2014<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/11/15<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "numPages": "416"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/5055251923?utm_medium=api&utm_source=rss",
       "title": "The Trouble with Peace (The Age of Madness, #2)",
       "link": "https://www.goodreads.com/review/show/5055251923?utm_medium=api&utm_source=rss",
