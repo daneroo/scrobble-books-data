@@ -41,7 +41,12 @@ The pinned CID's can be found at
 
 ## TODO
 
-- [ ] Restore cue-lang/setup-cue@??? (when upstream PR is merged and released)
+- [ ] use deno with npm packages
+  - implement a deno version of ipfs pinning
+  - import we3.storage from npm | esm.sh | unpkg
+  - replace package.json actions with deno ...
+  - deno udd: npm outdated, deps.ts best practices
+- [ ] Restore cue-lang/setup-cue@??? (when upstream and released (PR is merged))
 - [ ] use ipfs pins for web3.storage - not ready yet - requires an IPFS node
 - [ ] Sync? [Literal API](https://literal.club/pages/api)
 - Rewrite github actions with cue !?
@@ -97,24 +102,25 @@ act -j unit
 act -j scrape --secret-file SCRAPE.secrets
 ```
 
-Check the git logs for frequency of scrape action commits
+## Monitoring actions' commits
+
+Check the git logs for frequency of scrape action commits: i.e. number of commit per day
 
 ```bash
-# new way using the commit message itself
-npm run git_log ## equivalent to:
+npm run git_log 
+## equivalent to:
 git log|grep 'Latest book data' | cut -c22-31 | uniq -c |head -n 10
-# Old way relying on git's date
-git log|grep -B 2 -i latest|grep '^Date:'|cut -c9-18|uniq -c
 ```
+
+## Development
 
 Scrape action is equivalent to:
 
 ```bash
-## Which is equivalent to:
 # scrape (deno)
 . GOODREADS.env
 deno run -q --allow-read --allow-write --allow-run --allow-net --allow-env --unstable src/scrape.js
-# pin (ipfs)
+# pin to ipfs (node)
 . WEB3STORAGE.env
 npm start
 ```

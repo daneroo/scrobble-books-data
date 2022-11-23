@@ -1,6 +1,5 @@
 {
   "deno.enable": true,
   "deno.lint": true,
-  "deno.unstable": true,
-  "standard.enable": false
+  "deno.unstable": true
 }
