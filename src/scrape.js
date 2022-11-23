@@ -1,6 +1,4 @@
-import { join } from "https://deno.land/std@0.140.0/path/mod.ts";
-import { ensureDir } from "https://deno.land/std@0.140.0/fs/mod.ts";
-import { parseFeed } from "https://deno.land/x/rss@0.5.6/mod.ts";
+import { ensureDir, join, parseFeed } from "./deps.ts";
 
 import { fetcherXML } from "./fetcherXML.ts";
 

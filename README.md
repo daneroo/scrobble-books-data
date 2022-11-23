@@ -41,7 +41,6 @@ The pinned CID's can be found at
 
 ## TODO
 
-
 - [ ] use deno with npm packages
   - implement a deno version of ipfs pinning
   - import we3.storage from npm | esm.sh | unpkg
@@ -101,7 +100,7 @@ act -j scrape --secret-file SCRAPE.secrets
 Check the git logs for frequency of scrape action commits: i.e. number of commit per day
 
 ```bash
-npm run git_log 
+./scripts/git_log.sh
 ## equivalent to:
 git log|grep 'Latest book data' | cut -c22-31 | uniq -c |head -n 10
 ```
@@ -116,7 +115,16 @@ Scrape action is equivalent to:
 deno run -q --allow-read --allow-write --allow-run --allow-net --allow-env --unstable src/scrape.js
 # pin to ipfs (node)
 . WEB3STORAGE.env
-npm start
+deno run -q --allow-read --allow-write --allow-run --allow-net --allow-env --unstable src/pin.js
+```
+
+### Dependency management
+
+```bash
+#install or update udd
+deno install -rf --allow-read=. --allow-write=. --allow-net https://deno.land/x/udd/main.ts
+
+udd src/deps.ts
 ```
 
 ## Validating with `cue`
