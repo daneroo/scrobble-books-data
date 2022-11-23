@@ -44,7 +44,7 @@ The pinned CID's can be found at
 - [ ] use deno with npm packages
   - implement a deno version of ipfs pinning
   - import we3.storage from npm | esm.sh | unpkg
-  - replace package.json actions with deno ...
+  - replace package.json scripts with deno ...
   - deno udd: npm outdated, deps.ts best practices
 - [ ] Restore cue-lang/setup-cue@??? (when upstream and released (PR is merged))
 - [ ] use ipfs pins for web3.storage - not ready yet - requires an IPFS node
