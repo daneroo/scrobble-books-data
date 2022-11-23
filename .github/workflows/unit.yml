@@ -24,17 +24,6 @@ jobs:
           deno lint src
           deno test src
 
-      - name: Setup node
-        uses: actions/setup-node@v3
-        with:
-          node-version: "18"
-          cache: "npm"
-
-      - name: Run Unit tests (node)
-        run: |
-          npm ci
-          npm test
-
       - name: Setup CUE
         # uses: cue-lang/setup-cue@v1.0.0-alpha.2
         # test my fork: https://github.com/daneroo/setup-cue

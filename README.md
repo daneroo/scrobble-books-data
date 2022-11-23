@@ -41,26 +41,20 @@ The pinned CID's can be found at
 
 ## TODO
 
+
 - [ ] use deno with npm packages
   - implement a deno version of ipfs pinning
   - import we3.storage from npm | esm.sh | unpkg
   - replace package.json scripts with deno ...
+    - [ ] remove package.json
   - deno udd: npm outdated, deps.ts best practices
 - [ ] Restore cue-lang/setup-cue@??? (when upstream and released (PR is merged))
 - [ ] use ipfs pins for web3.storage - not ready yet - requires an IPFS node
 - [ ] Sync? [Literal API](https://literal.club/pages/api)
 - Rewrite github actions with cue !?
-- Use a mono repo ([turborepo](https://turborepo.org/))
-  - Move deno source to typescript cli project
-- Remove redundant CID's in web3.storage (.delete not implemented - requires MAGIC_LINK - cannot call API)
 - Use CBOR instead of files?
 - Clean up the data more
   - Removed unused fields (description, etc)
-  - Use cuelang validation (perhaps part of e2e tests)
-  - [CueBlox](https://www.cueblox.com/): see if it appropriate to use
-- ~~Done~~
-- ~~[Integrate VSCode](https://deno.land/manual@v1.14.1/vscode_deno)~~
-- ~~Use [Skypack's xml2js](https://www.skypack.dev/view/xml2js)~~
 
 ## Web3.Storage Pinning service (new)
 

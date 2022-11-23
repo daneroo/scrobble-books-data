@@ -53,16 +53,9 @@ jobs:
         run: cue vet check-output.cue ../goodreads-rss.json
         working-directory: cue
 
-      - name: Setup node
-        uses: actions/setup-node@v3
-        with:
-          node-version: "18"
-          cache: "npm"
-
       - name: Pin to web3.storage (ipfs)
         run: |
-          npm ci
-          npm start
+          deno run --reload -q --allow-read --allow-write --allow-run --allow-net --allow-env --unstable src/pin.js
 
       # see docs at https://github.com/stefanzweifel/git-auto-commit-action
       - name: Commit back changes

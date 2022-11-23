@@ -18,6 +18,14 @@
 		"editor.defaultFormatter": "denoland.vscode-deno"
 	},
 
+	// Add the IDs of extensions you want installed when the container is created.
+	// https://github.com/rchaganti/vsc-devcontainer-features/pkgs/container/vsc-devcontainer-features%2Fcuelang
+	"features": {
+		"ghcr.io/rchaganti/vsc-devcontainer-features/cuelang:1.0.4": {
+			"version": "0.4.3",
+		}
+	},
+	
 	// This will install the vscode-deno extension
 	"extensions": [
 		"denoland.vscode-deno"
