@@ -19,10 +19,11 @@
 	},
 
 	// Add the IDs of extensions you want installed when the container is created.
+	// using rchaganti's feature till cuelang lands in: https://github.com/devcontainers/features
 	// https://github.com/rchaganti/vsc-devcontainer-features/pkgs/container/vsc-devcontainer-features%2Fcuelang
 	"features": {
 		"ghcr.io/rchaganti/vsc-devcontainer-features/cuelang:1.0.4": {
-			"version": "0.4.3",
+			"version": "0.4.3"
 		}
 	},
 	
