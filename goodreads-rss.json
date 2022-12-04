@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/5142687783?utm_medium=api&utm_source=rss",
+      "title": "China After Mao: The Rise of a Superpower",
+      "link": "https://www.goodreads.com/review/show/5142687783?utm_medium=api&utm_source=rss",
+      "bookId": "60070311",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1647019725l/60070311._SY75_.jpg",
+      "bookDescription": "In <i>China After Mao <i>, award-winning author Frank Dikötter delves into the history of China under the communist party – from the death of Chairman Mao in 1976 up until the moment when Xi Jinping stepped to the fore in 2012.<br /><br />It is a fascinating tale of contradictions and illusions; of shadow banking, repeated anti-corruption drives and the existence of extreme state wealth alongside everyday poverty. Dikötter explores the decades of so-called 'Reform and Opening Up' – a forty-year period that has left China with the lowest proportion of resident foreigners in any country – and the country's emergence into a post-industrial era. He examines China's navigation of the 2008 financial crash, its increasing hostility towards perceived Western interference and its development into a thoroughly entrenched dictatorship with a sprawling security apparatus and the most sophisticated surveillance system in the world.<br /><br />Drawing on hundreds of previously unseen municipal and provincial archives, as well as unpublished memoirs, newspaper reports and the secret diaries of Mao's personal secretary, <i>China After Mao </i> is a brilliantly researched and mesmerizing account of a country in flux – and in crisis.</i></i>",
+      "authorName": "Frank Dikötter",
+      "isbn": "1639730516",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2022-12-04T08:48:56.000Z",
+      "userDateCreated": "2022-12-04T08:48:56.000Z",
+      "userShelves": "to-read",
+      "userReview": "",
+      "averageRating": "4.1",
+      "bookPublished": "2022",
+      "description": "<a href=\"https://www.goodreads.com/book/show/60070311-china-after-mao?utm_medium=api&amp;utm_source=rss\"><img alt=\"China After Mao: The Rise of a Superpower\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1647019725l/60070311._SY75_.jpg\" /></a><br/>\n                                      author: Frank Dikötter<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: 2022<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/12/04<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "numPages": "416"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/4525418109?utm_medium=api&utm_source=rss",
       "title": "The Hobbit (The Lord of the Rings, #0)",
       "link": "https://www.goodreads.com/review/show/4525418109?utm_medium=api&utm_source=rss",
