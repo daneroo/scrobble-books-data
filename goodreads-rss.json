@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/5167484772?utm_medium=api&utm_source=rss",
+      "title": "Blood of Elves (The Witcher, #1)",
+      "link": "https://www.goodreads.com/review/show/5167484772?utm_medium=api&utm_source=rss",
+      "bookId": "6043781",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1589998653l/6043781._SX50_.jpg",
+      "bookDescription": "<b>The <i>New York Times</i> bestselling series that inspired the international hit video game: <i>The Witcher.</i></b><br />For over a century, humans, dwarves, gnomes, and elves have lived together in relative peace. But times have changed, the uneasy peace is over, and now the races are fighting once again. The only good elf, it seems, is a dead elf.<br /><br />Geralt of Rivia, the cunning assassin known as The Witcher, has been waiting for the birth of a prophesied child. This child has the power to change the world - for good, or for evil.<br /><br />As the threat of war hangs over the land and the child is hunted for her extraordinary powers, it will become Geralt's responsibility to protect them all - and the Witcher never accepts defeat.<br /><br />The Witcher returns in this sequel to <em>The Last Wish</em>, as the inhabitants of his world become embroiled in a state of total war.",
+      "authorName": "Andrzej Sapkowski",
+      "isbn": "031602919X",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2022-12-16T01:28:53.000Z",
+      "userDateCreated": "2022-12-16T01:28:53.000Z",
+      "userShelves": "to-read",
+      "userReview": "",
+      "averageRating": "4.0",
+      "bookPublished": "1994",
+      "description": "<a href=\"https://www.goodreads.com/book/show/6043781-blood-of-elves?utm_medium=api&amp;utm_source=rss\"><img alt=\"Blood of Elves (The Witcher, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1589998653l/6043781._SX50_.jpg\" /></a><br/>\n                                      author: Andrzej Sapkowski<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: 1994<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/12/15<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "numPages": "398"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/5166039484?utm_medium=api&utm_source=rss",
       "title": "Weavers, Scribes, and Kings: A New History of the Ancient Near East",
       "link": "https://www.goodreads.com/review/show/5166039484?utm_medium=api&utm_source=rss",
