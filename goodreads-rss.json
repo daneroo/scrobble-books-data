@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/5169186350?utm_medium=api&utm_source=rss",
+      "title": "Dogs of War (Dogs of War, #1)",
+      "link": "https://www.goodreads.com/review/show/5169186350?utm_medium=api&utm_source=rss",
+      "bookId": "35827220",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1501011224l/35827220._SY75_.jpg",
+      "bookDescription": "<i>Alternate cover edition of ASIN <a href=\"https://www.goodreads.com/book/show/57668692-dogs-of-war\" rel=\"nofollow noopener\">B06XXJ4P9H</a></i><br /><br /><br /><p><i>My name is Rex. I am a good dog.</i> </p><p>Rex is also seven foot tall at the shoulder, bulletproof, bristling with heavy calibre weaponry and his voice resonates with subsonics especially designed to instil fear. With Dragon, Honey and Bees, he's part of a Multiform Assault Pack operating in the lawless anarchy of Campeche, south-eastern Mexico. </p><p>Rex is a genetically engineered Bioform, a deadly weapon in a dirty war. He has the intelligence to carry out his orders and feedback implants to reward him when he does. All he wants to be is a Good Dog. And to do that he must do exactly what Master says and Master says he's got to kill a lot of enemies. </p><p>But who, exactly, are the enemies? What happens when Master is tried as a war criminal? What rights does the Geneva Convention grant weapons? Do Rex and his fellow Bioforms even have a right to exist? And what happens when Rex slips his leash? </p>",
+      "authorName": "Adrian Tchaikovsky",
+      "isbn": "",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2022-12-16T21:40:43.000Z",
+      "userDateCreated": "2022-12-16T21:40:43.000Z",
+      "userShelves": "to-read",
+      "userReview": "",
+      "averageRating": "4.2",
+      "bookPublished": "2017",
+      "description": "<a href=\"https://www.goodreads.com/book/show/35827220-dogs-of-war?utm_medium=api&amp;utm_source=rss\"><img alt=\"Dogs of War (Dogs of War, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1501011224l/35827220._SY75_.jpg\" /></a><br/>\n                                      author: Adrian Tchaikovsky<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 2017<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/12/16<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "numPages": "262"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/5168128548?utm_medium=api&utm_source=rss",
       "title": "The White Pill: A Tale of Good and Evil",
       "link": "https://www.goodreads.com/review/show/5168128548?utm_medium=api&utm_source=rss",
@@ -269,9 +290,9 @@
       "userDateCreated": "2022-02-19T07:11:42.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "3.9",
+      "averageRating": "3.8",
       "bookPublished": "2020",
-      "description": "<a href=\"https://www.goodreads.com/book/show/50998056-the-ministry-for-the-future?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Ministry for the Future\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1668935201l/50998056._SY75_.jpg\" /></a><br/>\n                                      author: Kim Stanley Robinson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: 2020<br/>\n                                      rating: 5<br/>\n                                      read at: 2022/12/12<br/>\n                                      date added: 2022/12/12<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/50998056-the-ministry-for-the-future?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Ministry for the Future\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1668935201l/50998056._SY75_.jpg\" /></a><br/>\n                                      author: Kim Stanley Robinson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.8<br/>\n                                      book published: 2020<br/>\n                                      rating: 5<br/>\n                                      read at: 2022/12/12<br/>\n                                      date added: 2022/12/12<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "563"
     },
     {
