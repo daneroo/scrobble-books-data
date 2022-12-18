@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/5172092486?utm_medium=api&utm_source=rss",
+      "title": "The Square and the Tower: Networks and Power, from the Freemasons to Facebook",
+      "link": "https://www.goodreads.com/review/show/5172092486?utm_medium=api&utm_source=rss",
+      "bookId": "35629744",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1500729049l/35629744._SY75_.jpg",
+      "bookDescription": "Most history is hierarchical: it's about emperors, presidents, prime ministers and field marshals. It's about states, armies and corporations. It's about orders from on high. Even history \"from below\" is often about trade unions and workers' parties. But what if that's simply because hierarchical institutions create the archives that historians rely on? What if we are missing the informal, less well documented social networks that are the true sources of power and drivers of change?<br /><br />The 21st century has been hailed as the Age of Networks. However, in <i>The Square and the Tower</i>, Niall Ferguson argues that networks have always been with us, from the structure of the brain to the food chain, from the family tree to freemasonry. Throughout history, hierarchies housed in high towers have claimed to rule, but often real power has resided in the networks in the town square below. For it is networks that tend to innovate. And it is through networks that revolutionary ideas can contagiously spread. Just because conspiracy theorists like to fantasize about such networks doesn't mean they are not real.<br /><br />From the cults of ancient Rome to the dynasties of the Renaissance, from the founding fathers to Facebook, <i>The Square and the Tower</i> tells the story of the rise, fall and rise of networks, and shows how network theory--concepts such as clustering, degrees of separation, weak ties, contagions and phase transitions--can transform our understanding of both the past and the present.<br /><br />Just as <i>The Ascent of Money</i> put Wall Street into historical perspective, so <i>The Square and the Tower</i> does the same for Silicon Valley. And it offers a bold prediction about which hierarchies will withstand this latest wave of network disruption--and which will be toppled.",
+      "authorName": "Niall Ferguson",
+      "isbn": "0735222916",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2022-12-18T07:06:04.000Z",
+      "userDateCreated": "2022-12-18T07:05:57.000Z",
+      "userShelves": "on-deck",
+      "userReview": "",
+      "averageRating": "3.6",
+      "bookPublished": "2017",
+      "description": "<a href=\"https://www.goodreads.com/book/show/35629744-the-square-and-the-tower?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Square and the Tower: Networks and Power, from the Freemasons to Facebook\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1500729049l/35629744._SY75_.jpg\" /></a><br/>\n                                      author: Niall Ferguson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.6<br/>\n                                      book published: 2017<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/12/17<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "numPages": "592"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/4106894126?utm_medium=api&utm_source=rss",
       "title": "Excession (Culture, #5)",
       "link": "https://www.goodreads.com/review/show/4106894126?utm_medium=api&utm_source=rss",
