@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/5185336785?utm_medium=api&utm_source=rss",
+      "title": "Crassus: The First Tycoon",
+      "link": "https://www.goodreads.com/review/show/5185336785?utm_medium=api&utm_source=rss",
+      "bookId": "60747381",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1663381094l/60747381._SY75_.jpg",
+      "bookDescription": "<b>The story of Rome’s richest man, who died a humiliating desert death in search of military glory</b><br />  <br /><b>“A perfectly paced biography.”—Tom Holland, <i>Times Literary Supplement</i></b><br />  <br /> Marcus Licinius Crassus (115–53 BCE) was a modern man in an ancient world, a pioneer disrupter of finance and politics, and the richest man of the last years of the Roman republic. Without his catastrophic ambition, this trailblazing tycoon might have quietly entered history as Rome’s first modern political financier. Instead, Crassus and his son led an army on an unprovoked campaign against Parthia into what are now the borderlands of Turkey, Syria, and Iraq, losing a battle at Carrhae which scarred Roman minds for generations.<br />  <br /> After Crassus was killed, historians told many stories of his demise. Some said that his open mouth, shriveled by desert air, had been filled with molten gold as testament to his lifetime of greed. His story, skillfully told by Peter Stothard, poses both immediate and lasting questions about the intertwining of money, ambition, and power.",
+      "authorName": "Peter Stothard",
+      "isbn": "0300256604",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2022-12-24T07:54:26.000Z",
+      "userDateCreated": "2022-12-24T07:54:26.000Z",
+      "userShelves": "to-read",
+      "userReview": "",
+      "averageRating": "3.8",
+      "bookPublished": "",
+      "description": "<a href=\"https://www.goodreads.com/book/show/60747381-crassus?utm_medium=api&amp;utm_source=rss\"><img alt=\"Crassus: The First Tycoon\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1663381094l/60747381._SY75_.jpg\" /></a><br/>\n                                      author: Peter Stothard<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.8<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/12/23<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "numPages": "184"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/4106894126?utm_medium=api&utm_source=rss",
       "title": "Excession (Culture, #5)",
       "link": "https://www.goodreads.com/review/show/4106894126?utm_medium=api&utm_source=rss",
