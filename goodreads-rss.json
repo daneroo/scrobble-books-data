@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/5253824572?utm_medium=api&utm_source=rss",
+      "title": "The Brothers K",
+      "link": "https://www.goodreads.com/review/show/5253824572?utm_medium=api&utm_source=rss",
+      "bookId": "19534",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1403176622l/19534._SY75_.jpg",
+      "bookDescription": "Duncan took almost 10 years to follow up the publication of his much-praised first novel, <b>The River Why</b>, but this massive second effort is well worth the wait. It is a stunning work: a complex tapestry of family tensions, baseball, politics and religion, by turns hilariously funny and agonizingly sad. Highly inventive formally, the novel is mainly narrated by Kincaid Chance, the youngest son in a family of four boys and identical twin girls, the children of Hugh Chance, a discouraged minor-league ballplayer whose once-promising career was curtained by an industrial accident, and his wife Laura, an increasingly fanatical Seventh-Day Adventist. The plot traces the working-out of the family's fate from the beginning of the Eisenhower years through the traumas of Vietnam.",
+      "authorName": "David James Duncan",
+      "isbn": "055337849X",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2023-01-11T09:41:36.000Z",
+      "userDateCreated": "2023-01-11T09:41:36.000Z",
+      "userShelves": "to-read",
+      "userReview": "",
+      "averageRating": "4.4",
+      "bookPublished": "1992",
+      "description": "<a href=\"https://www.goodreads.com/book/show/19534.The_Brothers_K?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Brothers K\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1403176622l/19534._SY75_.jpg\" /></a><br/>\n                                      author: David James Duncan<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.4<br/>\n                                      book published: 1992<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/01/11<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "numPages": "645"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/4525390168?utm_medium=api&utm_source=rss",
       "title": "The Brothers Karamazov",
       "link": "https://www.goodreads.com/review/show/4525390168?utm_medium=api&utm_source=rss",
