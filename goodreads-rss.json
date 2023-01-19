@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/4368896707?utm_medium=api&utm_source=rss",
+      "title": "Kindred: Neanderthal Life, Love, Death and Art",
+      "link": "https://www.goodreads.com/review/show/4368896707?utm_medium=api&utm_source=rss",
+      "bookId": "37941599",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1620976596l/37941599._SY75_.jpg",
+      "bookDescription": "<p>Since their discovery more than 160 years ago, Neanderthals have metamorphosed from the losers of the human family tree to A-list hominins.<br /><br />In <i>Kindred</i>, Rebecca Wragg Sykes uses her experience at the cutting-edge of Palaeolithic research to share our new understanding of Neanderthals, shoving aside clichés of rag-clad brutes in an icy wasteland. She reveals them to be curious, clever connoisseurs of their world, technologically inventive and ecologically adaptable. Above all, they were successful survivors for more than 300,000 years, during times of massive climatic upheaval.<br /><br />At a time when our species has never faced greater threats, we’re obsessed with what makes us special. But, much of what defines us was also in Neanderthals, and their DNA is still inside us. Planning, co-operation, altruism, craftsmanship, aesthetic sense, imagination... perhaps even a desire for transcendence beyond mortality.<br /><br />It is only by understanding them, that we can truly understand ourselves.</p>",
+      "authorName": "Rebecca Wragg Sykes",
+      "isbn": "147293749X",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2023-01-19T06:46:45.000Z",
+      "userDateCreated": "2021-12-03T06:37:00.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "4.0",
+      "bookPublished": "2020",
+      "description": "<a href=\"https://www.goodreads.com/book/show/37941599-kindred?utm_medium=api&amp;utm_source=rss\"><img alt=\"Kindred: Neanderthal Life, Love, Death and Art\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1620976596l/37941599._SY75_.jpg\" /></a><br/>\n                                      author: Rebecca Wragg Sykes<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: 2020<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/01/18<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "400"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/5274877382?utm_medium=api&utm_source=rss",
       "title": "Backfire: How Sanctions Reshape the World Against U.S. Interests",
       "link": "https://www.goodreads.com/review/show/5274877382?utm_medium=api&utm_source=rss",
@@ -84,27 +105,6 @@
       "bookPublished": "1950",
       "description": "<a href=\"https://www.goodreads.com/book/show/951749.The_Dying_Earth?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Dying Earth (The Dying Earth, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1558264964l/951749._SY75_.jpg\" /></a><br/>\n                                      author: Jack Vance<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: 1950<br/>\n                                      rating: 4<br/>\n                                      read at: 2023/01/12<br/>\n                                      date added: 2023/01/12<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "156"
-    },
-    {
-      "id": "https://www.goodreads.com/review/show/4368896707?utm_medium=api&utm_source=rss",
-      "title": "Kindred: Neanderthal Life, Love, Death and Art",
-      "link": "https://www.goodreads.com/review/show/4368896707?utm_medium=api&utm_source=rss",
-      "bookId": "37941599",
-      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1620976596l/37941599._SY75_.jpg",
-      "bookDescription": "<p>Since their discovery more than 160 years ago, Neanderthals have metamorphosed from the losers of the human family tree to A-list hominins.<br /><br />In <i>Kindred</i>, Rebecca Wragg Sykes uses her experience at the cutting-edge of Palaeolithic research to share our new understanding of Neanderthals, shoving aside clichés of rag-clad brutes in an icy wasteland. She reveals them to be curious, clever connoisseurs of their world, technologically inventive and ecologically adaptable. Above all, they were successful survivors for more than 300,000 years, during times of massive climatic upheaval.<br /><br />At a time when our species has never faced greater threats, we’re obsessed with what makes us special. But, much of what defines us was also in Neanderthals, and their DNA is still inside us. Planning, co-operation, altruism, craftsmanship, aesthetic sense, imagination... perhaps even a desire for transcendence beyond mortality.<br /><br />It is only by understanding them, that we can truly understand ourselves.</p>",
-      "authorName": "Rebecca Wragg Sykes",
-      "isbn": "147293749X",
-      "userName": "Daniel",
-      "userRating": "0",
-      "userReadAt": "",
-      "userDateAdded": "2023-01-12T03:40:00.000Z",
-      "userDateCreated": "2021-12-03T06:37:00.000Z",
-      "userShelves": "currently-reading",
-      "userReview": "",
-      "averageRating": "4.0",
-      "bookPublished": "2020",
-      "description": "<a href=\"https://www.goodreads.com/book/show/37941599-kindred?utm_medium=api&amp;utm_source=rss\"><img alt=\"Kindred: Neanderthal Life, Love, Death and Art\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1620976596l/37941599._SY75_.jpg\" /></a><br/>\n                                      author: Rebecca Wragg Sykes<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: 2020<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/01/11<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
-      "numPages": "400"
     },
     {
       "id": "https://www.goodreads.com/review/show/5253824572?utm_medium=api&utm_source=rss",
@@ -14864,9 +14864,9 @@
       "userDateCreated": "2014-01-27T06:35:19.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "3.9",
+      "averageRating": "3.8",
       "bookPublished": "1985",
-      "description": "<a href=\"https://www.goodreads.com/book/show/7008107-investment-policy?utm_medium=api&amp;utm_source=rss\"><img alt=\"Investment Policy: How to Win the Loser&#39;s Game\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1405809400l/7008107._SY75_.jpg\" /></a><br/>\n                                      author: Charles D. Ellis<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: 1985<br/>\n                                      rating: 4<br/>\n                                      read at: 2003/10/30<br/>\n                                      date added: 2014/01/26<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/7008107-investment-policy?utm_medium=api&amp;utm_source=rss\"><img alt=\"Investment Policy: How to Win the Loser&#39;s Game\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1405809400l/7008107._SY75_.jpg\" /></a><br/>\n                                      author: Charles D. Ellis<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.8<br/>\n                                      book published: 1985<br/>\n                                      rating: 4<br/>\n                                      read at: 2003/10/30<br/>\n                                      date added: 2014/01/26<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "94"
     },
     {
