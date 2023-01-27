@@ -1,6 +1,7 @@
 # scrobble-books-data
 
 [![CI - lint and unit tests](https://github.com/daneroo/scrobble-books-data/actions/workflows/unit.yml/badge.svg?branch=main)](https://github.com/daneroo/scrobble-books-data/actions/workflows/unit.yml)
+[![vr scripts](https://badges.velociraptor.run/flat.svg)](https://velociraptor.run)
 
 Tracking reading data
 
@@ -33,6 +34,13 @@ The data file ca be fetched (externally) at
 The pinned CID's can be found at
 
 - <https://web3.storage/account/>
+
+Uses `velociraptor` for scripts
+
+```bash
+vr # list targets
+vr git_log
+```
 
 ## Upstream PR for setup-cue
 
@@ -100,7 +108,8 @@ act -j scrape --secret-file SCRAPE.secrets
 Check the git logs for frequency of scrape action commits: i.e. number of commit per day
 
 ```bash
-./scripts/git_log.sh
+# velociraptor
+vr git_log
 ## equivalent to:
 git log|grep 'Latest book data' | cut -c22-31 | uniq -c |head -n 10
 ```
@@ -112,19 +121,18 @@ Scrape action is equivalent to:
 ```bash
 # scrape (deno)
 . GOODREADS.env
-deno run -q --allow-read --allow-write --allow-run --allow-net --allow-env --unstable src/scrape.js
+deno run -q --allow-read=. --allow-write=. --allow-run --allow-net --allow-env --unstable src/scrape.js
 # pin to ipfs (node)
 . WEB3STORAGE.env
-deno run -q --allow-read --allow-write --allow-run --allow-net --allow-env --unstable src/pin.js
+deno run -q --allow-read=. --allow-write=. --allow-run --allow-net --allow-env --unstable src/pin.js
 ```
 
 ### Dependency management
 
 ```bash
-#install or update udd
-deno install -rf --allow-read=. --allow-write=. --allow-net https://deno.land/x/udd/main.ts
 
-udd src/deps.ts
+# velociraptor: using udd (update deno dependencies)
+vr udd
 ```
 
 ## Validating with `cue`
