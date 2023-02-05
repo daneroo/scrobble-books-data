@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/5323982841?utm_medium=api&utm_source=rss",
+      "title": "Why Fonts Matter: a multisensory analysis of typography and its influence from graphic designer and academic Sarah Hyndman",
+      "link": "https://www.goodreads.com/review/show/5323982841?utm_medium=api&utm_source=rss",
+      "bookId": "25658538",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1450138237l/25658538._SX50_.jpg",
+      "bookDescription": "<b>We all constantly interact with type in almost every aspect of our lives. But how do fonts affect what we read and influence the choices we make?</b><br /><br />This book opens up the science and the art behind how fonts influence you. It explains why certain fonts or styles evoke particular experiences and associations. Fonts have different personalities that can create trust, mistrust, give you confidence, make things seem easier to do or make a product taste better. They’re hidden in plain sight, they trigger memories, associations and multisensory experiences in your imagination.<br /><br />* Fonts can alter the meanings of words right before your very eyes.<br />* See what personalities fonts have, and what they reveal about YOUR personality.<br />* Explore how you respond to fonts emotionally and can make fonts work for your message.<br />* Be amazed that a font has the power to alter the taste of your food.<br /><br /><b>This book is for anyone who is interested in giving words impact, who loves words and how they influence us.</b>",
+      "authorName": "Sarah Hyndman",
+      "isbn": "0753557231",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2023-02-05T11:00:48.000Z",
+      "userDateCreated": "2023-02-05T11:00:48.000Z",
+      "userShelves": "to-read",
+      "userReview": "",
+      "averageRating": "3.9",
+      "bookPublished": "2016",
+      "description": "<a href=\"https://www.goodreads.com/book/show/25658538-why-fonts-matter?utm_medium=api&amp;utm_source=rss\"><img alt=\"Why Fonts Matter: a multisensory analysis of typography and its influence from graphic designer and academic Sarah Hyndman\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1450138237l/25658538._SX50_.jpg\" /></a><br/>\n                                      author: Sarah Hyndman<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: 2016<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/02/05<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "numPages": "144"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/5294218651?utm_medium=api&utm_source=rss",
       "title": "The Ascent of Money: A Financial History of the World",
       "link": "https://www.goodreads.com/review/show/5294218651?utm_medium=api&utm_source=rss",
