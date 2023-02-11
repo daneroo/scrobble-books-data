@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/5339258503?utm_medium=api&utm_source=rss",
+      "title": "Dementia Reimagined: Building a Life of Joy and Dignity from Beginning to End",
+      "link": "https://www.goodreads.com/review/show/5339258503?utm_medium=api&utm_source=rss",
+      "bookId": "40819215",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1531790647l/40819215._SY75_.jpg",
+      "bookDescription": "<b>\n  <b>The cultural and medical history of dementia and Alzheimer's disease by a leading psychiatrist and bioethicist who urges us to turn our focus from </b>\n  <b>\n    <i>cure</i>\n  </b>\n  <b> to </b>\n  <b>\n    <i>care</i>\n  </b>\n  <b>.</b>\n</b><br /><br />Despite being a physician and a bioethicist, Tia Powell wasn't prepared to address the challenges she faced when her grandmother, and then her mother, were diagnosed with dementia--not to mention confronting the hard truth that her own odds aren't great. In the U.S., 10,000 baby boomers turn 65 every day; by the time a person reaches 85, their chances of having dementia approach 50 percent. And the truth is, there is no cure, and none coming soon, despite the perpetual promises by pharmaceutical companies that they are just one more expensive study away from a pill. Dr. Powell's goal is to move the conversation away from an exclusive focus on <i>cure</i> to a genuine appreciation of <i>care</i>--what we can do for those who have dementia, and how to keep life meaningful and even joyful.<br /><br /><i>Reimagining Dementia</i> is a moving combination of medicine and memoir, peeling back the untold history of dementia, from the story of Solomon Fuller, a black doctor whose research at the turn of the twentieth century anticipated important aspects of what we know about dementia today, to what has been gained and lost with the recent bonanza of funding for Alzheimer's at the expense of other forms of the disease. In demystifying dementia, Dr. Powell helps us understand it with clearer eyes, from the point of view of both physician and caregiver. Ultimately, she wants us all to know that dementia is not only about loss--it's also about the preservation of dignity and hope.",
+      "authorName": "Tia Powell",
+      "isbn": "073521090X",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2023-02-11T17:35:36.000Z",
+      "userDateCreated": "2023-02-11T17:35:36.000Z",
+      "userShelves": "to-read",
+      "userReview": "",
+      "averageRating": "3.9",
+      "bookPublished": "",
+      "description": "<a href=\"https://www.goodreads.com/book/show/40819215-dementia-reimagined?utm_medium=api&amp;utm_source=rss\"><img alt=\"Dementia Reimagined: Building a Life of Joy and Dignity from Beginning to End\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1531790647l/40819215._SY75_.jpg\" /></a><br/>\n                                      author: Tia Powell<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/02/11<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "numPages": "320"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/5294218651?utm_medium=api&utm_source=rss",
       "title": "The Ascent of Money: A Financial History of the World",
       "link": "https://www.goodreads.com/review/show/5294218651?utm_medium=api&utm_source=rss",
