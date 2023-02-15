@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/5347143717?utm_medium=api&utm_source=rss",
+      "title": "The Extended Mind: The Power of Thinking Outside the Brain",
+      "link": "https://www.goodreads.com/review/show/5347143717?utm_medium=api&utm_source=rss",
+      "bookId": "42291479",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1616020469l/42291479._SY75_.jpg",
+      "bookDescription": "<b>A bold new book reveals how we can tap the intelligence that exists beyond our brains—in our bodies, our surroundings, and our relationships</b><br /><br /> <i>Use your head.</i><br /><br /> That’s what we tell ourselves when facing a tricky problem or a difficult project. But a growing body of research indicates that we’ve got it exactly backwards. What we need to do, says acclaimed science writer Annie Murphy Paul, is think <i>outside</i> the brain. A host of “extra-neural” resources—the feelings and movements of our bodies, the physical spaces in which we learn and work, and the minds of those around us— can help us focus more intently, comprehend more deeply, and create more imaginatively.<br /><br /> <i>The Extended Mind</i> outlines the research behind this exciting new vision of human ability, exploring the findings of neuroscientists, cognitive scientists, psychologists, and examining the practices of educators, managers, and leaders who are already reaping the benefits of thinking outside the brain. She excavates the untold history of how artists, scientists, and authors—from Jackson Pollock to Jonas Salk to Robert Caro—have used mental extensions to solve problems, make discoveries, and create new works. In the tradition of Howard Gardner’s <i>Frames of Mind</i> or Daniel Goleman’s <i>Emotional Intelligence</i>, <i>The Extended Mind</i> offers a dramatic new view of how our minds work, full of practical advice on how we can all think better.",
+      "authorName": "Annie Murphy Paul",
+      "isbn": "",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2023-02-15T02:08:12.000Z",
+      "userDateCreated": "2023-02-15T02:08:11.000Z",
+      "userShelves": "to-read",
+      "userReview": "",
+      "averageRating": "4.0",
+      "bookPublished": "2021",
+      "description": "<a href=\"https://www.goodreads.com/book/show/42291479-the-extended-mind?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Extended Mind: The Power of Thinking Outside the Brain\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1616020469l/42291479._SY75_.jpg\" /></a><br/>\n                                      author: Annie Murphy Paul<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: 2021<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/02/14<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "numPages": "352"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/4105421035?utm_medium=api&utm_source=rss",
       "title": "The Hydrogen Sonata (Culture, #10)",
       "link": "https://www.goodreads.com/review/show/4105421035?utm_medium=api&utm_source=rss",
