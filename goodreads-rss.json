@@ -7620,8 +7620,8 @@
       "userShelves": "",
       "userReview": "",
       "averageRating": "4.2",
-      "bookPublished": "1950",
-      "description": "<a href=\"https://www.goodreads.com/book/show/100915.The_Lion_the_Witch_and_the_Wardrobe?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Lion, the Witch and the Wardrobe (Chronicles of Narnia, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1353029077l/100915._SY75_.jpg\" /></a><br/>\n                                      author: C.S. Lewis<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 1950<br/>\n                                      rating: 5<br/>\n                                      read at: 1973/05/16<br/>\n                                      date added: 2021/10/08<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "bookPublished": "",
+      "description": "<a href=\"https://www.goodreads.com/book/show/100915.The_Lion_the_Witch_and_the_Wardrobe?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Lion, the Witch and the Wardrobe (Chronicles of Narnia, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1353029077l/100915._SY75_.jpg\" /></a><br/>\n                                      author: C.S. Lewis<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: <br/>\n                                      rating: 5<br/>\n                                      read at: 1973/05/16<br/>\n                                      date added: 2021/10/08<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "206"
     },
     {
@@ -12792,7 +12792,7 @@
     },
     {
       "id": "https://www.goodreads.com/review/show/602316429?utm_medium=api&utm_source=rss",
-      "title": "Dune (Dune #1)",
+      "title": "Dune (Dune, #1)",
       "link": "https://www.goodreads.com/review/show/602316429?utm_medium=api&utm_source=rss",
       "bookId": "234225",
       "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1434908555l/234225._SY75_.jpg",
@@ -12808,7 +12808,7 @@
       "userReview": "",
       "averageRating": "4.2",
       "bookPublished": "1965",
-      "description": "<a href=\"https://www.goodreads.com/book/show/234225.Dune?utm_medium=api&amp;utm_source=rss\"><img alt=\"Dune (Dune #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1434908555l/234225._SY75_.jpg\" /></a><br/>\n                                      author: Frank Herbert<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 1965<br/>\n                                      rating: 5<br/>\n                                      read at: <br/>\n                                      date added: 2020/04/24<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/234225.Dune?utm_medium=api&amp;utm_source=rss\"><img alt=\"Dune (Dune, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1434908555l/234225._SY75_.jpg\" /></a><br/>\n                                      author: Frank Herbert<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 1965<br/>\n                                      rating: 5<br/>\n                                      read at: <br/>\n                                      date added: 2020/04/24<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "604"
     },
     {
