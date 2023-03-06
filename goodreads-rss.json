@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/5393731199?utm_medium=api&utm_source=rss",
+      "title": "Global Discord: Values and Power in a Fractured World Order",
+      "link": "https://www.goodreads.com/review/show/5393731199?utm_medium=api&utm_source=rss",
+      "bookId": "60747069",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1668002332l/60747069._SY75_.jpg",
+      "bookDescription": "<b>How to sustain an international system of cooperation in the midst of geopolitical struggle</b><br /><br /><br /><br />Can the international economic and legal system survive today's fractured geopolitics? Democracies are facing a drawn-out contest with authoritarian states that is entangling much of public policy with global security issues. In <i>Global Discord</i>, Paul Tucker lays out principles for a sustainable system of international cooperation, showing how democracies can deal with China and other illiberal states without sacrificing their deepest political values. Drawing on three decades as a central banker and regulator, Tucker applies these principles to the international monetary order, including the role of the U.S. dollar, trade and investment regimes, and the financial system.<br /><br />Combining history, economics, and political and legal philosophy, Tucker offers a new account of international relations. Rejecting intellectual traditions that go back to Hobbes, Kant, and Grotius, and deploying instead ideas from David Hume, Bernard Williams, and modern mechanism-design economists, Tucker describes a new kind of political realism that emphasizes power and interests without sidelining morality. Incentives must be aligned with values if institutions are to endure. The connecting tissue for a system of international cooperation, he writes, should be legitimacy, creating a world of concentric circles in which we cooperate more with those with whom we share the most and whom we fear the least.",
+      "authorName": "Paul Tucker",
+      "isbn": "0691229317",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2023-03-06T08:19:50.000Z",
+      "userDateCreated": "2023-03-06T08:19:50.000Z",
+      "userShelves": "on-deck",
+      "userReview": "",
+      "averageRating": "3.2",
+      "bookPublished": "",
+      "description": "<a href=\"https://www.goodreads.com/book/show/60747069-global-discord?utm_medium=api&amp;utm_source=rss\"><img alt=\"Global Discord: Values and Power in a Fractured World Order\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1668002332l/60747069._SY75_.jpg\" /></a><br/>\n                                      author: Paul Tucker<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.2<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/03/06<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "numPages": "552"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/5364683589?utm_medium=api&utm_source=rss",
       "title": "Half a War (Shattered Sea, #3)",
       "link": "https://www.goodreads.com/review/show/5364683589?utm_medium=api&utm_source=rss",
