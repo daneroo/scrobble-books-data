@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/5405308353?utm_medium=api&utm_source=rss",
+      "title": "The Idea of the World: A Multi-Disciplinary Argument for the Mental Nature of Reality",
+      "link": "https://www.goodreads.com/review/show/5405308353?utm_medium=api&utm_source=rss",
+      "bookId": "40828142",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1531882873l/40828142._SY75_.jpg",
+      "bookDescription": "A rigorous case for the primacy of mind in nature, from philosophy to neuroscience, psychology and physics. The Idea of the World offers a grounded alternative to the frenzy of unrestrained abstractions and unexamined assumptions in philosophy and science today. This book examines what can be learned about the nature of reality based on conceptual parsimony, straightforward logic and empirical evidence from fields as diverse as physics and neuroscience. It compiles an overarching case for idealism - the notion that reality is essentially mental - from ten original articles the author has previously published in leading academic journals. The case begins with an exposition of the logical fallacies and internal contradictions of the reigning physicalist ontology and its popular alternatives, such as bottom-up panpsychism. It then advances a compelling formulation of idealism that elegantly makes sense of - and reconciles - classical and quantum worlds. The main objections to idealism are systematically refuted and empirical evidence is reviewed that corroborates the formulation presented here. The book closes with an analysis of the hidden psychological motivations behind mainstream physicalism and the implications of idealism for the way we relate to the world.",
+      "authorName": "Bernardo Kastrup",
+      "isbn": "1785357395",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2023-03-11T05:19:58.000Z",
+      "userDateCreated": "2023-03-11T05:19:57.000Z",
+      "userShelves": "to-read",
+      "userReview": "",
+      "averageRating": "4.3",
+      "bookPublished": "2019",
+      "description": "<a href=\"https://www.goodreads.com/book/show/40828142-the-idea-of-the-world?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Idea of the World: A Multi-Disciplinary Argument for the Mental Nature of Reality\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1531882873l/40828142._SY75_.jpg\" /></a><br/>\n                                      author: Bernardo Kastrup<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: 2019<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/03/10<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "numPages": "312"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/5403061935?utm_medium=api&utm_source=rss",
       "title": "Quicksilver (The Baroque Cycle, Vol. 1, Book 1)",
       "link": "https://www.goodreads.com/review/show/5403061935?utm_medium=api&utm_source=rss",
