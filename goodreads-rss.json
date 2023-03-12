@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/5406948205?utm_medium=api&utm_source=rss",
+      "title": "Metro 2033 (Metro, #1)",
+      "link": "https://www.goodreads.com/review/show/5406948205?utm_medium=api&utm_source=rss",
+      "bookId": "17274667",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1379621430l/17274667._SY75_.jpg",
+      "bookDescription": "The year is 2033. The world has been reduced to rubble. Humanity is nearly extinct. The half-destroyed cities have become uninhabitable through radiation. Beyond their boundaries, they say, lie endless burned-out deserts and the remains of splintered forests. Survivors still remember the past greatness of humankind. But the last remains of civilisation have already become a distant memory, the stuff of myth and legend. <br /><br />More than 20 years have passed since the last plane took off from the earth. Rusted railways lead into emptiness. The ether is void and the airwaves echo to a soulless howling where previously the frequencies were full of news from Tokyo, New York, Buenos Aires. Man has handed over stewardship of the earth to new life-forms. Mutated by radiation, they are better adapted to the new world. Man's time is over. <br /><br />A few score thousand survivors live on, not knowing whether they are the only ones left on earth. They live in the Moscow Metro - the biggest air-raid shelter ever built. It is humanity's last refuge. Stations have become mini-statelets, their people uniting around ideas, religions, water-filters - or the simple need to repulse an enemy incursion. It is a world without a tomorrow, with no room for dreams, plans, hopes. Feelings have given way to instinct - the most important of which is survival. Survival at any price. VDNKh is the northernmost inhabited station on its line. It was one of the Metro's best stations and still remains secure. But now a new and terrible threat has appeared. <br /><br />Artyom, a young man living in VDNKh, is given the task of penetrating to the heart of the Metro, to the legendary Polis, to alert everyone to the awful danger and to get help. He holds the future of his native station in his hands, the whole Metro - and maybe the whole of humanity.",
+      "authorName": "Dmitry Glukhovsky",
+      "isbn": "1481845705",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2023-03-11T23:29:53.000Z",
+      "userDateCreated": "2023-03-11T23:29:53.000Z",
+      "userShelves": "to-read",
+      "userReview": "",
+      "averageRating": "4.0",
+      "bookPublished": "2002",
+      "description": "<a href=\"https://www.goodreads.com/book/show/17274667-metro-2033?utm_medium=api&amp;utm_source=rss\"><img alt=\"Metro 2033 (Metro, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1379621430l/17274667._SY75_.jpg\" /></a><br/>\n                                      author: Dmitry Glukhovsky<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: 2002<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/03/11<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "numPages": "458"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/5403061935?utm_medium=api&utm_source=rss",
       "title": "Quicksilver (The Baroque Cycle, Vol. 1, Book 1)",
       "link": "https://www.goodreads.com/review/show/5403061935?utm_medium=api&utm_source=rss",
