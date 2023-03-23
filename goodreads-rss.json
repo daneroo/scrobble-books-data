@@ -11864,7 +11864,7 @@
       "averageRating": "3.6",
       "bookPublished": "",
       "description": "<a href=\"https://www.goodreads.com/book/show/54102833-full-stack-serverless?utm_medium=api&amp;utm_source=rss\"><img alt=\"Full Stack Serverless: Modern Application Development with React, AWS, and GraphQL\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1595213147l/54102833._SX50_.jpg\" /></a><br/>\n                                      author: Nader Dabit<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.6<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/01/16<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
-      "numPages": "184"
+      "numPages": "181"
     },
     {
       "id": "https://www.goodreads.com/review/show/3748413356?utm_medium=api&utm_source=rss",
@@ -11978,7 +11978,7 @@
       "bookId": "1271468",
       "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347674654l/1271468._SY75_.jpg",
       "bookDescription": "This book presents a broad, user-friendly introduction to the Langlands program, that is, the theory of automorphic forms and its connection with the theory of L-functions and other fields of mathematics. Each of the twelve chapters focuses on a particular topic devoted to special cases of the program. The book is suitable for graduate students and researchers.",
-      "authorName": "Joseph Bernstein",
+      "authorName": "S.S. Kudla",
       "isbn": "0817632115",
       "userName": "Daniel",
       "userRating": "0",
@@ -11989,8 +11989,8 @@
       "userReview": "",
       "averageRating": "3.9",
       "bookPublished": "2002",
-      "description": "<a href=\"https://www.goodreads.com/book/show/1271468.An_Introduction_to_the_Langlands_Program?utm_medium=api&amp;utm_source=rss\"><img alt=\"An Introduction to the Langlands Program\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347674654l/1271468._SY75_.jpg\" /></a><br/>\n                                      author: Joseph Bernstein<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: 2002<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/01/04<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
-      "numPages": "281"
+      "description": "<a href=\"https://www.goodreads.com/book/show/1271468.An_Introduction_to_the_Langlands_Program?utm_medium=api&amp;utm_source=rss\"><img alt=\"An Introduction to the Langlands Program\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347674654l/1271468._SY75_.jpg\" /></a><br/>\n                                      author: S.S. Kudla<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: 2002<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/01/04<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "numPages": "288"
     },
     {
       "id": "https://www.goodreads.com/review/show/3737147188?utm_medium=api&utm_source=rss",
