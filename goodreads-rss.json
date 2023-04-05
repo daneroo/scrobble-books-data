@@ -15711,11 +15711,11 @@
     },
     {
       "id": "https://www.goodreads.com/review/show/727000491?utm_medium=api&utm_source=rss",
-      "title": "Software for Data Analysis: Programming with R",
+      "title": "Software for Data Analysis: Programming with R (Statistics and Computing)",
       "link": "https://www.goodreads.com/review/show/727000491?utm_medium=api&utm_source=rss",
       "bookId": "2787438",
       "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1349007478l/2787438._SY75_.jpg",
-      "bookDescription": "This is the only advanced programming book on R, the enormously successful open-source system based on the S language. It is written by John Chambers, the author of the S language from which R evolved. R's international support and the thousands of packages and other contributions have made it the standard for statistical computing in research and teaching. This book guides the reader through programming with R, beginning with simple interactive use and progressing by gradual stages, starting with simple functions. More advanced programming techniques can be added as needed, allowing users to grow into software contributors, benefiting their careers and the community. R packages provide a powerful mechanism for contributions to be organized and communicated.",
+      "bookDescription": "John Chambers turns his attention to R, the enormously successful open-source system based on the S language. His book guides the reader through programming with R, beginning with simple interactive use and progressing by gradual stages, starting with simple functions. More advanced programming techniques can be added as needed, allowing users to grow into software contributors, benefiting their careers and the community. R packages provide a powerful mechanism for contributions to be organized and communicated. This is the only advanced programming book on R, written by the author of the S language from which R evolved.",
       "authorName": "John M. Chambers",
       "isbn": "0387759352",
       "userName": "Daniel",
@@ -15727,8 +15727,8 @@
       "userReview": "",
       "averageRating": "3.5",
       "bookPublished": "2008",
-      "description": "<a href=\"https://www.goodreads.com/book/show/2787438-software-for-data-analysis?utm_medium=api&amp;utm_source=rss\"><img alt=\"Software for Data Analysis: Programming with R\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1349007478l/2787438._SY75_.jpg\" /></a><br/>\n                                      author: John M. Chambers<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.5<br/>\n                                      book published: 2008<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2013/09/24<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
-      "numPages": "500"
+      "description": "<a href=\"https://www.goodreads.com/book/show/2787438-software-for-data-analysis?utm_medium=api&amp;utm_source=rss\"><img alt=\"Software for Data Analysis: Programming with R (Statistics and Computing)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1349007478l/2787438._SY75_.jpg\" /></a><br/>\n                                      author: John M. Chambers<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.5<br/>\n                                      book published: 2008<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2013/09/24<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "numPages": "514"
     },
     {
       "id": "https://www.goodreads.com/review/show/718021641?utm_medium=api&utm_source=rss",
