@@ -1,7 +1,8 @@
 // This code was taken from
 //  https://github.com/web3-storage/web3.storage/blob/main/packages/client/examples/node.js/put-files-from-fs.js
 
-import { getFilesFromPath, Web3Storage } from "./deps.ts";
+// import { getFilesFromPath, Web3Storage } from "./deps.ts";
+import { File, Web3Storage } from "./deps.ts";
 
 // relative to invocation directory (repo root for now)
 const feedFilename = "goodreads-rss.json";
@@ -23,7 +24,10 @@ async function main() {
   const storage = new Web3Storage({ token });
 
   // put our single file of interest into a CAR and store it
-  const files = await getFilesFromPath(feedFilename);
+  // 2023-04-07 getFilesFromPath IS BROKEN!!!!!
+  // const files = await getFilesFromPath(feedFilename);
+  const files = await fixedGetFilesFromPath(feedFilename);
+
   const cid = await storage.put(files, putOptions);
 
   // record the latest CID in a file
@@ -41,6 +45,15 @@ async function main() {
 }
 
 main();
+
+// getFilesFromPath IS BROKEN!!!!!
+async function fixedGetFilesFromPath(path) {
+  const buffer = await Deno.readFile(path);
+  const files = [
+    new File([buffer], path),
+  ];
+  return files;
+}
 
 // upload item comparator ( for sorting upload items by descending created timestamp)
 function createdDescendingStampComparator(a, b) {

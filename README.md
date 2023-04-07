@@ -20,9 +20,8 @@ Performs 2 tasks as a cron trigger github action:
   - `goodreads-ipfs.json` contains the pinned CID
 - commits any changes back to the repo
 
-The scraper was originally written with `deno`
-because we were using githubocto/flat@v3, which uses Deno/Typescript as it's
-post-processor.
+The scraper was originally written with `deno` because we were using
+githubocto/flat@v3, which uses Deno/Typescript as it's post-processor.
 
 ## Usage
 
@@ -67,7 +66,8 @@ vr git_log
 
 ### Using web API
 
-This just lists the pinned CID's, but cannot upload content. So we still need a working IPFS node.
+This just lists the pinned CID's, but cannot upload content. So we still need a
+working IPFS node.
 
 ```bash
 # list with http request - add ?status=.. (not documented yet)
@@ -78,7 +78,6 @@ time curl -s -X GET 'https://api.web3.storage/pins?status=failed,pinned,pinning,
 ### using ipfs (go) cli
 
 ```bash
-
 ipfs pin remote service add web3.storage https://api.web3.storage/ <YOUR_AUTH_KEY_JWT>
 . WEB3STORAGE.env
 ipfs pin remote service add web3.storage https://api.web3.storage/ "${WEB3STORAGE_TOKEN}"
@@ -98,14 +97,17 @@ Note: _npm caching turned off_
 ```bash
 # CI
 act -j unit
+act -j unit --container-architecture linux/amd64
 
 # Local run of scheduled scrape job
 act -j scrape --secret-file SCRAPE.secrets
+act -j scrape --secret-file SCRAPE.secrets --container-architecture linux/amd64
 ```
 
 ## Monitoring actions' commits
 
-Check the git logs for frequency of scrape action commits: i.e. number of commit per day
+Check the git logs for frequency of scrape action commits: i.e. number of commit
+per day
 
 ```bash
 # velociraptor
@@ -130,7 +132,6 @@ deno run -q --allow-read=. --allow-write=. --allow-run --allow-net --allow-env -
 ### Dependency management
 
 ```bash
-
 # velociraptor: using udd (update deno dependencies)
 vr udd
 ```

@@ -4,5 +4,6 @@
   "deno.unstable": true,
   "[javascript]": {
     "editor.defaultFormatter": "denoland.vscode-deno"
-  }
+  },
+  "cSpell.words": ["Fleek"]
 }
