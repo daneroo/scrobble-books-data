@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/5474318485?utm_medium=api&utm_source=rss",
+      "title": "Meganets: How Digital Forces Beyond Our Control Commandeer Our Daily Lives and Inner Realities",
+      "link": "https://www.goodreads.com/review/show/5474318485?utm_medium=api&utm_source=rss",
+      "bookId": "61399147",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1658246480l/61399147._SY75_.jpg",
+      "bookDescription": "How the autonomous digital forces jolting our lives – as uncontrollable as the weather and plate tectonics – are transforming life, society, culture, and politics.<br /><br />David Auerbach’s exploration of the phenomenon he has identified as the meganet begins with a simple, startling revelation: There is no hand on the tiller of some of the largest global digital forces that influence our daily lives: from corporate sites such as Facebook, Amazon, Google, YouTube, Instagram, and Reddit to the burgeoning metaverse encompassing cryptocurrencies and online gaming to government systems such as China’s Social Credit System and India’s Aadhaar.<br /><br />As we increasingly integrate our society, culture and politics within a hyper-networked fabric, Auerbach explains how the interactions of billions of people with unfathomably large online networks have produced a new sort of beast: ever-changing systems that operate beyond the control of the individuals, companies, and governments that created them.<br /><br />Meganets, Auerbach explains, have a life of their own, actively resisting attempts to control them as they accumulate data and produce spontaneous, unexpected social groups and uprisings that could not have even existed twenty years ago. And they constantly modify themselves in response to user behavior, resulting in collectively authored algorithms none of us intend or control. These enormous invisible organisms exerting great force on our lives are the new minds of the world, increasingly commandeering our daily lives and inner realities.<br /><br />Auerbach’s analysis of these gargantuan opaque digital forces yield important insights such as: Auerbach then comes full circle, showing that while we cannot ultimately control meganets we can tame them through the counterintuitive measures he describes in detail.",
+      "authorName": "David B. Auerbach",
+      "isbn": "1541774442",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2023-04-09T20:51:54.000Z",
+      "userDateCreated": "2023-04-09T20:51:53.000Z",
+      "userShelves": "to-read",
+      "userReview": "",
+      "averageRating": "4.7",
+      "bookPublished": "",
+      "description": "<a href=\"https://www.goodreads.com/book/show/61399147-meganets?utm_medium=api&amp;utm_source=rss\"><img alt=\"Meganets: How Digital Forces Beyond Our Control Commandeer Our Daily Lives and Inner Realities\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1658246480l/61399147._SY75_.jpg\" /></a><br/>\n                                      author: David B. Auerbach<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.7<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/04/09<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "numPages": "352"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/5468539096?utm_medium=api&utm_source=rss",
       "title": "Snow Crash",
       "link": "https://www.goodreads.com/review/show/5468539096?utm_medium=api&utm_source=rss",
