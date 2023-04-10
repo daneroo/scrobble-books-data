@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/5475261918?utm_medium=api&utm_source=rss",
+      "title": "Love and Math: The Heart of Hidden Reality",
+      "link": "https://www.goodreads.com/review/show/5475261918?utm_medium=api&utm_source=rss",
+      "bookId": "17290683",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1375144741l/17290683._SY75_.jpg",
+      "bookDescription": "A New York Times Science Bestseller<br /><br />What if you had to take an art class in which you were only taught how to paint a fence? What if you were never shown the paintings of van Gogh and Picasso, weren’t even told they existed? Alas, this is how math is taught, and so for most of us it becomes the intellectual equivalent of watching paint dry.<br /><br />In Love and Math , renowned mathematician Edward Frenkel reveals a side of math we’ve never seen, suffused with all the beauty and elegance of a work of art. In this heartfelt and passionate book, Frenkel shows that mathematics, far from occupying a specialist niche, goes to the heart of all matter, uniting us across cultures, time, and space.<br /><br />Love and Math tells two intertwined stories: of the wonders of mathematics and of one young man’s journey learning and living it. Having braved a discriminatory educational system to become one of the twenty-first century’s leading mathematicians, Frenkel now works on one of the biggest ideas to come out of math in the last 50 years: the Langlands Program. Considered by many to be a Grand Unified Theory of mathematics, the Langlands Program enables researchers to translate findings from one field to another so that they can solve problems, such as Fermat’s last theorem, that had seemed intractable before.<br /><br />At its core, Love and Math is a story about accessing a new way of thinking, which can enrich our lives and empower us to better understand the world and our place in it. It is an invitation to discover the magic hidden universe of mathematics.",
+      "authorName": "Edward Frenkel",
+      "isbn": "0465050743",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2023-04-10T05:21:37.000Z",
+      "userDateCreated": "2023-04-10T05:21:37.000Z",
+      "userShelves": "to-read",
+      "userReview": "",
+      "averageRating": "3.6",
+      "bookPublished": "2013",
+      "description": "<a href=\"https://www.goodreads.com/book/show/17290683-love-and-math?utm_medium=api&amp;utm_source=rss\"><img alt=\"Love and Math: The Heart of Hidden Reality\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1375144741l/17290683._SY75_.jpg\" /></a><br/>\n                                      author: Edward Frenkel<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.6<br/>\n                                      book published: 2013<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/04/09<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "numPages": "292"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/5474318485?utm_medium=api&utm_source=rss",
       "title": "Meganets: How Digital Forces Beyond Our Control Commandeer Our Daily Lives and Inner Realities",
       "link": "https://www.goodreads.com/review/show/5474318485?utm_medium=api&utm_source=rss",
