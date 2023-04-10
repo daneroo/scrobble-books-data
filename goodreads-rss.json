@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/5468539096?utm_medium=api&utm_source=rss",
+      "title": "Snow Crash",
+      "link": "https://www.goodreads.com/review/show/5468539096?utm_medium=api&utm_source=rss",
+      "bookId": "40651883",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1589842551l/40651883._SX50_.jpg",
+      "bookDescription": "In reality, Hiro Protagonist delivers pizza for Uncle Enzo's CosoNostra Pizza Inc., but in the Metaverse he's a warrior prince. Plunging headlong into the enigma of a new computer virus that's striking down hackers everywhere, he races along the neon-lit streets on a search-and-destroy mission for the shadowy virtual villain threatening to bring about infocalypse. <i>Snow Crash</i> is a mind-altering romp through a future America so bizarre, so outrageous… you'll recognize it immediately.",
+      "authorName": "Neal Stephenson",
+      "isbn": "",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2023-04-10T14:45:03.000Z",
+      "userDateCreated": "2023-04-07T05:02:02.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "4.0",
+      "bookPublished": "1992",
+      "description": "<a href=\"https://www.goodreads.com/book/show/40651883-snow-crash?utm_medium=api&amp;utm_source=rss\"><img alt=\"Snow Crash\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1589842551l/40651883._SX50_.jpg\" /></a><br/>\n                                      author: Neal Stephenson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: 1992<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/04/10<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "559"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/5475261918?utm_medium=api&utm_source=rss",
       "title": "Love and Math: The Heart of Hidden Reality",
       "link": "https://www.goodreads.com/review/show/5475261918?utm_medium=api&utm_source=rss",
@@ -42,27 +63,6 @@
       "bookPublished": "",
       "description": "<a href=\"https://www.goodreads.com/book/show/61399147-meganets?utm_medium=api&amp;utm_source=rss\"><img alt=\"Meganets: How Digital Forces Beyond Our Control Commandeer Our Daily Lives and Inner Realities\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1658246480l/61399147._SY75_.jpg\" /></a><br/>\n                                      author: David B. Auerbach<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.6<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/04/09<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "352"
-    },
-    {
-      "id": "https://www.goodreads.com/review/show/5468539096?utm_medium=api&utm_source=rss",
-      "title": "Snow Crash",
-      "link": "https://www.goodreads.com/review/show/5468539096?utm_medium=api&utm_source=rss",
-      "bookId": "40651883",
-      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1589842551l/40651883._SX50_.jpg",
-      "bookDescription": "In reality, Hiro Protagonist delivers pizza for Uncle Enzo's CosoNostra Pizza Inc., but in the Metaverse he's a warrior prince. Plunging headlong into the enigma of a new computer virus that's striking down hackers everywhere, he races along the neon-lit streets on a search-and-destroy mission for the shadowy virtual villain threatening to bring about infocalypse. <i>Snow Crash</i> is a mind-altering romp through a future America so bizarre, so outrageous… you'll recognize it immediately.",
-      "authorName": "Neal Stephenson",
-      "isbn": "",
-      "userName": "Daniel",
-      "userRating": "0",
-      "userReadAt": "",
-      "userDateAdded": "2023-04-07T14:05:55.000Z",
-      "userDateCreated": "2023-04-07T05:02:02.000Z",
-      "userShelves": "currently-reading",
-      "userReview": "",
-      "averageRating": "4.0",
-      "bookPublished": "1992",
-      "description": "<a href=\"https://www.goodreads.com/book/show/40651883-snow-crash?utm_medium=api&amp;utm_source=rss\"><img alt=\"Snow Crash\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1589842551l/40651883._SX50_.jpg\" /></a><br/>\n                                      author: Neal Stephenson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: 1992<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/04/07<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
-      "numPages": "559"
     },
     {
       "id": "https://www.goodreads.com/review/show/4215397049?utm_medium=api&utm_source=rss",
@@ -8760,7 +8760,7 @@
     },
     {
       "id": "https://www.goodreads.com/review/show/4017408181?utm_medium=api&utm_source=rss",
-      "title": "Monkey King: Journey to the West",
+      "title": "The Monkey King: Journey to the West: Wu Cheng'en (Penguin Clothbound Classics)",
       "link": "https://www.goodreads.com/review/show/4017408181?utm_medium=api&utm_source=rss",
       "bookId": "53403847",
       "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1594484296l/53403847._SY75_.jpg",
@@ -8776,7 +8776,7 @@
       "userReview": "",
       "averageRating": "4.1",
       "bookPublished": "1592",
-      "description": "<a href=\"https://www.goodreads.com/book/show/53403847-monkey-king?utm_medium=api&amp;utm_source=rss\"><img alt=\"Monkey King: Journey to the West\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1594484296l/53403847._SY75_.jpg\" /></a><br/>\n                                      author: Wu Cheng'en<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: 1592<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/08/12<br/>\n                                      date added: 2021/08/12<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/53403847-the-monkey-king?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Monkey King: Journey to the West: Wu Cheng&#39;en (Penguin Clothbound Classics)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1594484296l/53403847._SY75_.jpg\" /></a><br/>\n                                      author: Wu Cheng'en<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: 1592<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/08/12<br/>\n                                      date added: 2021/08/12<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "339"
     },
     {
