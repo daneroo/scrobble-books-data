@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/5490943491?utm_medium=api&utm_source=rss",
+      "title": "The Intelligent Investor",
+      "link": "https://www.goodreads.com/review/show/5490943491?utm_medium=api&utm_source=rss",
+      "bookId": "106835",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1409602421l/106835._SY75_.jpg",
+      "bookDescription": "More than one million hardcovers sold<br />Now available for the first time in paperback!<br /><br />The Classic Text Annotated to Update Graham's Timeless Wisdom for Today's Market Conditions<br /><br />The greatest investment advisor of the twentieth century, Benjamin Graham taught and inspired people worldwide. Graham's philosophy of \"value investing\" -- which shields investors from substantial error and teaches them to develop long-term strategies -- has made <em>The Intelligent Investor</em> the stock market bible ever since its original publication in 1949.<br /><br />Over the years, market developments have proven the wisdom of Graham's strategies. While preserving the integrity of Graham's original text, this revised edition includes updated commentary by noted financial journalist Jason Zweig, whose perspective incorporates the realities of today's market, draws parallels between Graham's examples and today's financial headlines, and gives readers a more thorough understanding of how to apply Graham's principles.<br /><br />Vital and indispensable, this HarperBusiness Essentials edition of <em>The Intelligent Investor</em> is the most important book you will ever read on how to reach your financial goals.",
+      "authorName": "Benjamin Graham",
+      "isbn": "0060555661",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2023-04-17T03:10:05.000Z",
+      "userDateCreated": "2023-04-17T03:10:05.000Z",
+      "userShelves": "to-read",
+      "userReview": "",
+      "averageRating": "4.2",
+      "bookPublished": "1949",
+      "description": "<a href=\"https://www.goodreads.com/book/show/106835.The_Intelligent_Investor?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Intelligent Investor\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1409602421l/106835._SY75_.jpg\" /></a><br/>\n                                      author: Benjamin Graham<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 1949<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/04/16<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "numPages": "623"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/3607392186?utm_medium=api&utm_source=rss",
       "title": "Attack Surface",
       "link": "https://www.goodreads.com/review/show/3607392186?utm_medium=api&utm_source=rss",
