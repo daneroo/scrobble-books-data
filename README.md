@@ -46,7 +46,16 @@ pnpm act:scrape
 pnpm git:log
 ```
 
-## Development
+## TODO
+
+- [ ] Restore cue-lang/setup-cue see note below
+  - My PR is merged, but there has been no new release of setup-cue
+- [ ] Rewrite github actions with cue !?
+- [ ] Use CBOR instead of files?
+- Clean up the data more
+  - Removed unused fields (description, etc)
+
+### Development
 
 ```bash
 # scrape (deno)
@@ -58,18 +67,14 @@ deno run -q --allow-read=. --allow-write=. --allow-run --allow-net --allow-env -
 node apps/pin/src/pin.js
 ```
 
-## TODO
+### Dependency management
 
-- [ ] top level commands: pnpm workspace?
-  - [ ] for update dependencies
-  - [ ] recursive test/lint/update deps
-  - [ ] invoke actions locally (act)
-- [ ] Restore cue-lang/setup-cue see note below
-  - My PR is merged, but there has been no new release of setup-cue
-- [ ] Rewrite github actions with cue !?
-- [ ] Use CBOR instead of files?
-- Clean up the data more
-  - Removed unused fields (description, etc)
+Uses `npm-check-updates / ncu` for node, and `https://deno.land/x/udd/main.ts` for deno.
+
+```bash
+pnpm run deps:check
+pnpm run deps:update
+```
 
 ## Testing GitHub Actions locally
 
@@ -103,14 +108,6 @@ pnpm git:log
 git log|grep 'Latest book data' | cut -c22-31 | uniq -c |head -n 10
 ```
 
-### Dependency management
-
-Uses `npm-check-updates / ncu` for node, and `https://deno.land/x/udd/main.ts` for deno.
-
-```bash
-pnpm run deps:check
-pnpm run deps:update
-```
 
 ## Validating with `cue`
 
