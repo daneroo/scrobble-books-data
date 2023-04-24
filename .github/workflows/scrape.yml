@@ -53,9 +53,9 @@ jobs:
         run: cue vet check-output.cue ../goodreads-rss.json
         working-directory: cue
 
-      - name: Pin to web3.storage (ipfs)
-        run: |
-          deno run --reload -q --allow-read --allow-write --allow-run --allow-net --allow-env --unstable src/pin.js
+      # - name: Pin to web3.storage (ipfs)
+      #   run: |
+      #     deno run --reload -q --allow-read --allow-write --allow-run --allow-net --allow-env --unstable src/pin.js
 
       # see docs at https://github.com/stefanzweifel/git-auto-commit-action
       - name: Commit back changes
