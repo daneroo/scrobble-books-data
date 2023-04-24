@@ -34,11 +34,28 @@ The pinned CID's can be found at
 
 - <https://web3.storage/account/>
 
-Uses `velociraptor` for scripts
+Uses `pnpm` for orchestration, including for deno and github actions.
 
 ```bash
-vr # list targets
-vr git_log
+pnpm test
+pnpm lint
+pnpm deps:check
+pnpm deps:update
+pnpm act:unit
+pnpm act:scrape
+pnpm git:log
+```
+
+## Development
+
+```bash
+# scrape (deno)
+. GOODREADS.env
+deno run -q --allow-read=. --allow-write=. --allow-run --allow-net --allow-env --unstable apps/scrape/src/scrape.js
+
+# pin to ipfs (node)
+. WEB3STORAGE.env
+node apps/pin/src/pin.js
 ```
 
 ## TODO
@@ -47,17 +64,23 @@ vr git_log
   - [ ] for update dependencies
   - [ ] recursive test/lint/update deps
   - [ ] invoke actions locally (act)
-- [ ] Restore cue-lang/setup-cue see note below 
+- [ ] Restore cue-lang/setup-cue see note below
   - My PR is merged, but there has been no new release of setup-cue
 - [ ] Rewrite github actions with cue !?
 - [ ] Use CBOR instead of files?
 - Clean up the data more
   - Removed unused fields (description, etc)
 
-
-## Testing Actions locally
+## Testing GitHub Actions locally
 
 Note: _npm caching turned off_
+
+```bash
+pnpm act:unit
+pnpm act:scrape
+```
+
+Equivalent to:
 
 ```bash
 # CI
@@ -75,30 +98,18 @@ Check the git logs for frequency of scrape action commits: i.e. number of commit
 per day
 
 ```bash
-# velociraptor
-vr git_log
+pnpm git:log
 ## equivalent to:
 git log|grep 'Latest book data' | cut -c22-31 | uniq -c |head -n 10
 ```
 
-## Development
-
-Scrape action is equivalent to:
-
-```bash
-# scrape (deno)
-. GOODREADS.env
-deno run -q --allow-read=. --allow-write=. --allow-run --allow-net --allow-env --unstable apps/scrape/src/scrape.js
-# pin to ipfs (node)
-. WEB3STORAGE.env
-node apps/pin/src/pin.js
-```
-
 ### Dependency management
 
+Uses `npm-check-updates / ncu` for node, and `https://deno.land/x/udd/main.ts` for deno.
+
 ```bash
-# velociraptor: using udd (update deno dependencies)
-vr udd
+pnpm run deps:check
+pnpm run deps:update
 ```
 
 ## Validating with `cue`

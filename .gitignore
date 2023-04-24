@@ -4,3 +4,4 @@ WEB3STORAGE.env
 SCRAPE.secrets 
 # Don't check these in, some of them change every run
 data/
+node_modules/

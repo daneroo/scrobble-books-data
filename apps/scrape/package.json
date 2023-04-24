@@ -1,0 +1,11 @@
+{
+  "name": "scrape",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "deno test src",
+    "lint": "deno lint src",
+    "deps:check": "deno run --allow-read=. --allow-write=. --allow-net https://deno.land/x/udd/main.ts --dry-run src/deps.ts",
+    "deps:update": "deno run --allow-read=. --allow-write=. --allow-net https://deno.land/x/udd/main.ts src/deps.ts"
+  }
+}

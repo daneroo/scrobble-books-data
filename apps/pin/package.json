@@ -5,12 +5,17 @@
   "type": "module",
   "main": "src/pin.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --test src/",
+    "deps:check": "ncu",
+    "deps:update": "ncu -i"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "web3.storage": "^4.5.4"
+  },
+  "devDependencies": {
+    "npm-check-updates": "^16.10.9"
   }
 }

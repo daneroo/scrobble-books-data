@@ -1,9 +1,3 @@
 {
-  "deno.enable": true,
-  "deno.lint": true,
-  "deno.unstable": true,
-  "[javascript]": {
-    "editor.defaultFormatter": "denoland.vscode-deno"
-  },
-  "cSpell.words": ["Fleek"]
+  "cSpell.words": ["Fleek", "githubocto"]
 }
