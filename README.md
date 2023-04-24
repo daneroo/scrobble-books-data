@@ -123,10 +123,10 @@ Scrape action is equivalent to:
 ```bash
 # scrape (deno)
 . GOODREADS.env
-deno run -q --allow-read=. --allow-write=. --allow-run --allow-net --allow-env --unstable src/scrape.js
+deno run -q --allow-read=. --allow-write=. --allow-run --allow-net --allow-env --unstable apps/scrape/src/scrape.js
 # pin to ipfs (node)
-. WEB3STORAGE.env
-deno run -q --allow-read=. --allow-write=. --allow-run --allow-net --allow-env --unstable src/pin.js
+# . WEB3STORAGE.env
+# deno run -q --allow-read=. --allow-write=. --allow-run --allow-net --allow-env --unstable src/pin.js
 ```
 
 ### Dependency management

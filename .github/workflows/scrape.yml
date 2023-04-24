@@ -31,7 +31,7 @@ jobs:
       - name: Scrape Goodreads feed
         # deno run w/ reload seems to have fixed CI issues
         run: |
-          deno run --reload -q --allow-read --allow-write --allow-run --allow-net --allow-env --unstable src/scrape.js
+          deno run --reload -q --allow-read --allow-write --allow-run --allow-net --allow-env --unstable apps/scrape/src/scrape.js
 
       - name: Setup CUE
         # uses: cue-lang/setup-cue@v1.0.0-alpha.2
