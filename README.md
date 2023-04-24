@@ -41,54 +41,19 @@ vr # list targets
 vr git_log
 ```
 
-## Upstream PR for setup-cue
-
-- <https://github.com/cue-lang/setup-cue/pull/10>
-- I am currently using my own fork (pinned to main)
-
 ## TODO
 
-- [ ] use deno with npm packages
-  - implement a deno version of ipfs pinning
-  - import we3.storage from npm | esm.sh | unpkg
-  - replace package.json scripts with deno ...
-    - [ ] remove package.json
-  - deno udd: npm outdated, deps.ts best practices
-- [ ] Restore cue-lang/setup-cue@??? (when upstream and released (PR is merged))
-- [ ] use ipfs pins for web3.storage - not ready yet - requires an IPFS node
-- [ ] Sync? [Literal API](https://literal.club/pages/api)
-- Rewrite github actions with cue !?
-- Use CBOR instead of files?
+- [ ] top level commands: pnpm workspace?
+  - [ ] for update dependencies
+  - [ ] recursive test/lint/update deps
+  - [ ] invoke actions locally (act)
+- [ ] Restore cue-lang/setup-cue see note below 
+  - My PR is merged, but there has been no new release of setup-cue
+- [ ] Rewrite github actions with cue !?
+- [ ] Use CBOR instead of files?
 - Clean up the data more
   - Removed unused fields (description, etc)
 
-## Web3.Storage Pinning service (new)
-
-### Using web API
-
-This just lists the pinned CID's, but cannot upload content. So we still need a
-working IPFS node.
-
-```bash
-# list with http request - add ?status=.. (not documented yet)
-. WEB3STORAGE.env
-time curl -s -X GET 'https://api.web3.storage/pins?status=failed,pinned,pinning,queued' --header 'Accept: */*' --header "Authorization: Bearer ${WEB3STORAGE_TOKEN}" | jq
-```
-
-### using ipfs (go) cli
-
-```bash
-ipfs pin remote service add web3.storage https://api.web3.storage/ <YOUR_AUTH_KEY_JWT>
-. WEB3STORAGE.env
-ipfs pin remote service add web3.storage https://api.web3.storage/ "${WEB3STORAGE_TOKEN}"
-
-ipfs pin remote add --service=web3.storage --name=<PIN_NAME> <CID>
-ipfs pin remote add --service=web3.storage --name=a-goodreeads-folder bafybeib7ef3pesqbvjjq5dgdteztaxb2v2mkk56yzfltet4mluyy6oakpi
-
-ipfs pin remote ls --service=web3.storage
-
-ipfs pin remote rm --service=web3.storage --cid=<CID> --name=<PIN_NAME>
-```
 
 ## Testing Actions locally
 
@@ -125,8 +90,8 @@ Scrape action is equivalent to:
 . GOODREADS.env
 deno run -q --allow-read=. --allow-write=. --allow-run --allow-net --allow-env --unstable apps/scrape/src/scrape.js
 # pin to ipfs (node)
-# . WEB3STORAGE.env
-# deno run -q --allow-read=. --allow-write=. --allow-run --allow-net --allow-env --unstable src/pin.js
+. WEB3STORAGE.env
+node apps/pin/src/pin.js
 ```
 
 ### Dependency management
@@ -148,6 +113,11 @@ vr udd
 # invoke per page
 (cd cue; for i in ../data/rss-json/goodreads-rss-p*json; do echo $i; cue vet check-rss.cue $i ; done)
 ```
+
+## Upstream PR for setup-cue
+
+- <https://github.com/cue-lang/setup-cue/pull/10>
+- I am currently using my own fork (pinned to main)
 
 ## References
 

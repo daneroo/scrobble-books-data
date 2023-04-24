@@ -2,7 +2,8 @@
 //  https://github.com/web3-storage/web3.storage/blob/main/packages/client/examples/node.js/put-files-from-fs.js
 
 // import { getFilesFromPath, Web3Storage } from "./deps.ts";
-import { File, Web3Storage } from "./deps.ts";
+import { getFilesFromPath, Web3Storage } from "web3.storage";
+import fs from "fs/promises";
 
 // relative to invocation directory (repo root for now)
 const feedFilename = "goodreads-rss.json";
@@ -13,7 +14,7 @@ const putOptions = {
 };
 
 async function main() {
-  const token = Deno.env.get("WEB3STORAGE_TOKEN");
+  const token = process.env["WEB3STORAGE_TOKEN"];
 
   if (!token) {
     console.error("Missing WEB3STORAGE_TOKEN environment variable");
@@ -26,13 +27,12 @@ async function main() {
   // put our single file of interest into a CAR and store it
   // 2023-04-07 getFilesFromPath IS BROKEN!!!!!
   // const files = await getFilesFromPath(feedFilename);
-  const files = await fixedGetFilesFromPath(feedFilename);
+  const files = await getFilesFromPath(feedFilename);
 
   const cid = await storage.put(files, putOptions);
 
   // record the latest CID in a file
-  // await writeFile(ipfsFilename, JSON.stringify({ cid }, null, 2));
-  await Deno.writeTextFile(ipfsFilename, JSON.stringify({ cid }, null, 2));
+  await fs.writeFile(ipfsFilename, JSON.stringify({ cid }, null, 2), "utf8");
 
   console.log(`- Stored ${putOptions.name} CID: ${cid}`);
 
@@ -45,15 +45,6 @@ async function main() {
 }
 
 main();
-
-// getFilesFromPath IS BROKEN!!!!!
-async function fixedGetFilesFromPath(path) {
-  const buffer = await Deno.readFile(path);
-  const files = [
-    new File([buffer], path),
-  ];
-  return files;
-}
 
 // upload item comparator ( for sorting upload items by descending created timestamp)
 function createdDescendingStampComparator(a, b) {
@@ -71,7 +62,7 @@ function createdDescendingStampComparator(a, b) {
 // uploads is an asyncIterable of upload items
 async function deletePreviousUploads(uploads, prefixUploadName, numberToKeep) {
   console.log(
-    `- Delete previous uploads matching ${prefixUploadName}*, keeping maximum ${numberToKeep} entries`,
+    `- Delete previous uploads matching ${prefixUploadName}*, keeping maximum ${numberToKeep} entries`
   );
 
   // filter for files uploaded by this script (prefix of feedFilename)
@@ -87,7 +78,7 @@ async function deletePreviousUploads(uploads, prefixUploadName, numberToKeep) {
 
   // sort matchingUploads in place, but give it a new symbol for clarity
   const sortedDescendingMatchingUploads = matchingUploads.sort(
-    createdDescendingStampComparator,
+    createdDescendingStampComparator
   );
 
   // keep first 'keepers' entries (delete all others)

@@ -10,11 +10,8 @@ jobs:
     #   GOODREADS_KEY: ${{ secrets.GOODREADS_KEY }}
     #   GOODREADS_USER: ${{ secrets.GOODREADS_USER }}
     steps:
-      - name: Check out repo
-        uses: actions/checkout@v3
-
-      - name: Setup deno
-        uses: denoland/setup-deno@v1
+      - uses: actions/checkout@v3
+      - uses: denoland/setup-deno@v1
         with:
           deno-version: v1.x
 
@@ -23,6 +20,19 @@ jobs:
           deno --version
           deno lint apps/scrape/src
           deno test apps/scrape/src
+
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 8
+      - uses: actions/setup-node@v3
+        with:
+          node-version: "18"
+
+      - name: Run Unit tests (node)
+        working-directory: apps/pin
+        run: |
+          pnpm install
+          node --test src/
 
       - name: Setup CUE
         # uses: cue-lang/setup-cue@v1.0.0-alpha.2
