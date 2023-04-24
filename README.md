@@ -23,6 +23,10 @@ Performs 2 tasks as a cron trigger github action:
 The scraper was originally written with `deno` because we were using
 githubocto/flat@v3, which uses Deno/Typescript as it's post-processor.
 
+The pinning code was moved back to node, because the web3.storage client is unstable/broken with npm imports
+
+Pinning should move to my own ipfs-cluster soon, RIGHT?
+
 ## Usage
 
 The data file ca be fetched (externally) at
