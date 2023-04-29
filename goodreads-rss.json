@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/5517542654?utm_medium=api&utm_source=rss",
+      "title": "Red Team Blues (Martin Hench)",
+      "link": "https://www.goodreads.com/review/show/5517542654?utm_medium=api&utm_source=rss",
+      "bookId": "60784417",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1681104878l/60784417._SY75_.jpg",
+      "bookDescription": "New York Times bestseller Cory Doctorow's Red Team Blues is a grabby next-Tuesday thriller about cryptocurrency shenanigans that will awaken you to how the world really works.<br /><br />Martin Hench is 67 years old, single, and successful in a career stretching back to the beginnings of Silicon Valley. He lives and roams California in a very comfortable fully-furnished touring bus, The Unsalted Hash, that he bought years ago from a fading rock star. He knows his way around good food and fine drink. He likes intelligent women, and they like him back often enough.<br /><br />Martin is a―contain your excitement―self-employed forensic accountant, a veteran of the long guerilla war between people who want to hide money, and people who want to find it. He knows computer hardware and software alike, including the ins and outs of high-end databases and the kinds of spreadsheets that are designed to conceal rather than reveal. He’s as comfortable with social media as people a quarter his age, and he’s a world-level expert on the kind of international money-laundering and shell-company chicanery used by Fortune 500 companies, mid-divorce billionaires, and international drug gangs alike. He also knows the Valley like the back of his hand, all the secret histories of charismatic company founders and Sand Hill Road VCs. Because he was there at all the beginnings. He’s not famous, except to the people who matter. He’s made some pretty powerful people happy in his time, and he’s been paid pretty well. It’s been a good life.<br /><br />Now he’s been roped into a job that’s more dangerous than anything he’s ever agreed to before―and it will take every ounce of his skill to get out alive.",
+      "authorName": "Cory Doctorow",
+      "isbn": "1250865840",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2023-04-29T06:04:40.000Z",
+      "userDateCreated": "2023-04-29T06:04:39.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "3.9",
+      "bookPublished": "2023",
+      "description": "<a href=\"https://www.goodreads.com/book/show/60784417-red-team-blues?utm_medium=api&amp;utm_source=rss\"><img alt=\"Red Team Blues (Martin Hench)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1681104878l/60784417._SY75_.jpg\" /></a><br/>\n                                      author: Cory Doctorow<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: 2023<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/04/28<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "224"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/5144672909?utm_medium=api&utm_source=rss",
       "title": "Feersum Endjinn",
       "link": "https://www.goodreads.com/review/show/5144672909?utm_medium=api&utm_source=rss",
