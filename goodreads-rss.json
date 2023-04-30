@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/5520000387?utm_medium=api&utm_source=rss",
+      "title": "The Truth of Fact, The Truth of Feeling (Exhalation)",
+      "link": "https://www.goodreads.com/review/show/5520000387?utm_medium=api&utm_source=rss",
+      "bookId": "57479738",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1681959039l/57479738._SX50_.jpg",
+      "bookDescription": "In the near future, a journalist observes how the world, his daughter, and he himself are affected by \"Remem\", a form of lifelogging whose advanced search algorithms effectively grant its users eidetic memory of everything that ever happened to them, and the ability to perfectly and objectively share those memories. In a parallel narrative strand, a Tiv man is one of the first of his people to learn to read and write and discovers that this may not be compatible with oral tradition.",
+      "authorName": "Ted Chiang",
+      "isbn": "",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2023-04-30T12:44:52.000Z",
+      "userDateCreated": "2023-04-30T12:44:51.000Z",
+      "userShelves": "to-read",
+      "userReview": "",
+      "averageRating": "4.1",
+      "bookPublished": "",
+      "description": "<a href=\"https://www.goodreads.com/book/show/57479738-the-truth-of-fact-the-truth-of-feeling?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Truth of Fact, The Truth of Feeling (Exhalation)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1681959039l/57479738._SX50_.jpg\" /></a><br/>\n                                      author: Ted Chiang<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/04/30<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "numPages": "0"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/5517542654?utm_medium=api&utm_source=rss",
       "title": "Red Team Blues (Martin Hench)",
       "link": "https://www.goodreads.com/review/show/5517542654?utm_medium=api&utm_source=rss",
