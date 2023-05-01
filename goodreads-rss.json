@@ -339,7 +339,7 @@
     },
     {
       "id": "https://www.goodreads.com/review/show/5482483370?utm_medium=api&utm_source=rss",
-      "title": "Timescape: A Novel",
+      "title": "Timescape",
       "link": "https://www.goodreads.com/review/show/5482483370?utm_medium=api&utm_source=rss",
       "bookId": "778990",
       "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1392985886l/778990._SY75_.jpg",
@@ -355,7 +355,7 @@
       "userReview": "",
       "averageRating": "3.7",
       "bookPublished": "1980",
-      "description": "<a href=\"https://www.goodreads.com/book/show/778990.Timescape?utm_medium=api&amp;utm_source=rss\"><img alt=\"Timescape: A Novel\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1392985886l/778990._SY75_.jpg\" /></a><br/>\n                                      author: Gregory Benford<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.7<br/>\n                                      book published: 1980<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/04/12<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/778990.Timescape?utm_medium=api&amp;utm_source=rss\"><img alt=\"Timescape\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1392985886l/778990._SY75_.jpg\" /></a><br/>\n                                      author: Gregory Benford<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.7<br/>\n                                      book published: 1980<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/04/12<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
       "numPages": "499"
     },
     {
@@ -9110,9 +9110,9 @@
       "userDateCreated": "2021-08-08T05:30:54.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "3.7",
+      "averageRating": "3.8",
       "bookPublished": "1983",
-      "description": "<a href=\"https://www.goodreads.com/book/show/672243.Helliconia_Summer?utm_medium=api&amp;utm_source=rss\"><img alt=\"Helliconia Summer (Helliconia, #2)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1387705495l/672243._SY75_.jpg\" /></a><br/>\n                                      author: Brian W. Aldiss<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.7<br/>\n                                      book published: 1983<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/08/07<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/672243.Helliconia_Summer?utm_medium=api&amp;utm_source=rss\"><img alt=\"Helliconia Summer (Helliconia, #2)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1387705495l/672243._SY75_.jpg\" /></a><br/>\n                                      author: Brian W. Aldiss<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.8<br/>\n                                      book published: 1983<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/08/07<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "400"
     },
     {
@@ -10045,7 +10045,7 @@
       "link": "https://www.goodreads.com/review/show/3900725240?utm_medium=api&utm_source=rss",
       "bookId": "22435",
       "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1435242004l/22435._SY75_.jpg",
-      "bookDescription": "From Brian Greene, one of the world’s leading physicists and author the Pulitzer Prize finalist <i>The Elegant Universe</i>, comes a grand tour of the universe that makes us look at reality in a completely different way.<br /><br />Space and time form the very fabric of the cosmos. Yet they remain among the most mysterious of concepts. Is space an entity? Why does time have a direction? Could the universe exist without space and time? Can we travel to the past? Greene has set himself a daunting task: to explain non-intuitive, mathematical concepts like String Theory, the Heisenberg Uncertainty Principle, and Inflationary Cosmology with analogies drawn from common experience. From Newton’s unchanging realm in which space and time are absolute, to Einstein’s fluid conception of spacetime, to quantum mechanics’ entangled arena where vastly distant objects can instantaneously coordinate their behavior, Greene takes us all, regardless of our scientific backgrounds, on an irresistible and revelatory journey to the new layers of reality that modern physics has discovered lying just beneath the surface of our everyday world.",
+      "bookDescription": "The fabric of the cosmos",
       "authorName": "Brian Greene",
       "isbn": "0965900584",
       "userName": "Daniel",
