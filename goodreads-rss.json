@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/5522013054?utm_medium=api&utm_source=rss",
+      "title": "The Bell Jar",
+      "link": "https://www.goodreads.com/review/show/5522013054?utm_medium=api&utm_source=rss",
+      "bookId": "6514",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1554582218l/6514._SY75_.jpg",
+      "bookDescription": "The Bell Jar chronicles the crack-up of Esther Greenwood: brilliant, beautiful, enormously talented, and successful, but slowly going under—maybe for the last time. Sylvia Plath masterfully draws the reader into Esther's breakdown with such intensity that Esther's insanity becomes completely real and even rational, as probable and accessible an experience as going to the movies. Such deep penetration into the dark and harrowing corners of the psyche is an extraordinary accomplishment and has made The Bell Jar a haunting American classic.",
+      "authorName": "Sylvia Plath",
+      "isbn": "",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2023-05-01T05:57:26.000Z",
+      "userDateCreated": "2023-05-01T05:57:26.000Z",
+      "userShelves": "to-read",
+      "userReview": "",
+      "averageRating": "4.0",
+      "bookPublished": "1963",
+      "description": "<a href=\"https://www.goodreads.com/book/show/6514.The_Bell_Jar?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Bell Jar\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1554582218l/6514._SY75_.jpg\" /></a><br/>\n                                      author: Sylvia Plath<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: 1963<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/04/30<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "numPages": "294"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/5520000387?utm_medium=api&utm_source=rss",
       "title": "The Truth of Fact, The Truth of Feeling (Exhalation)",
       "link": "https://www.goodreads.com/review/show/5520000387?utm_medium=api&utm_source=rss",
