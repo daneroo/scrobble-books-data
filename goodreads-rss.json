@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/5526793465?utm_medium=api&utm_source=rss",
+      "title": "Team of Teams: New Rules of Engagement for a Complex World",
+      "link": "https://www.goodreads.com/review/show/5526793465?utm_medium=api&utm_source=rss",
+      "bookId": "22529127",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1631458219l/22529127._SY75_.jpg",
+      "bookDescription": "<b>The retired four-star general and and bestselling author of<i> My Share of the Task</i> shares a powerful new leadership model</b><br /><br /> As commander of Joint Special Operations Command (JSOC), General Stanley McChrystal played a crucial role in the War on Terror. But when he took the helm in 2004, America was losing that war badly: despite vastly inferior resources and technology, Al Qaeda was outmaneuvering America’s most elite warriors.<br /><br /> McChrystal came to realize that today’s faster, more interdependent world had overwhelmed the conventional, top-down hierarchy of the US military. Al Qaeda had seen the future: a decentralized network that could move quickly and strike ruthlessly. To defeat such an enemy, JSOC would have to discard a century of management wisdom, and pivot from a pursuit of mechanical efficiency to organic adaptability. Under McChrystal’s leadership, JSOC remade itself, in the midst of a grueling war, into something entirely new: a network that combined robust centralized communication with decentralized managerial authority. As a result, they beat back Al Qaeda.<br /><br /> In this book, McChrystal shows not only how the military made that transition, but also how similar shifts are possible in all organizations, from large companies to startups to charities to governments. In a turbulent world, the best organizations think and act like a team of teams, embracing small groups that combine the freedom to experiment with a relentless drive to share what they’ve learned.<br /><br /> Drawing on a wealth of evidence from his military career, the private sector, and sources as diverse as hospital emergency rooms and NASA’s space program, McChrystal frames the existential challenge facing today’s organizations, and presents a compelling, effective solution.",
+      "authorName": "Stanley McChrystal",
+      "isbn": "1591847486",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2023-05-03T03:01:01.000Z",
+      "userDateCreated": "2023-05-03T03:01:01.000Z",
+      "userShelves": "to-read",
+      "userReview": "",
+      "averageRating": "4.1",
+      "bookPublished": "2015",
+      "description": "<a href=\"https://www.goodreads.com/book/show/22529127-team-of-teams?utm_medium=api&amp;utm_source=rss\"><img alt=\"Team of Teams: New Rules of Engagement for a Complex World\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1631458219l/22529127._SY75_.jpg\" /></a><br/>\n                                      author: Stanley McChrystal<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: 2015<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/05/02<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "numPages": "304"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/5475261918?utm_medium=api&utm_source=rss",
       "title": "Love and Math: The Heart of Hidden Reality",
       "link": "https://www.goodreads.com/review/show/5475261918?utm_medium=api&utm_source=rss",
