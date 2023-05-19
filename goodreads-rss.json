@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/5559930354?utm_medium=api&utm_source=rss",
+      "title": "On the Origin of Time: Stephen Hawking's Final Theory",
+      "link": "https://www.goodreads.com/review/show/5559930354?utm_medium=api&utm_source=rss",
+      "bookId": "60149512",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1662438835l/60149512._SY75_.jpg",
+      "bookDescription": "NEW YORK TIMES BESTSELLER • Stephen Hawking’s closest collaborator offers the intellectual superstar’s final thoughts on the cosmos—a dramatic revision of the theory he put forward in A Brief History of Time .<br /><br />“This superbly written book offers insight into an extraordinary individual, the creative process, and the scope and limits of our current understanding of the cosmos.”—Lord Martin Rees<br /><br />Perhaps the biggest question Stephen Hawking tried to answer in his extraordinary life was how the universe could have created conditions so perfectly hospitable to life. In order to solve this mystery, Hawking studied the big bang origin of the universe, but his early work ran into a crisis when the math predicted many big bangs producing a multiverse—countless different universes, most of which would be far too bizarre to ​harbor life.<br /><br />Holed up in the theoretical physics department at Cambridge, Stephen Hawking and his friend and collaborator Thomas Hertog worked on this problem for twenty years, developing a new theory of the cosmos that could account for the emergence of life. Peering into the extreme quantum physics of cosmic holograms and venturing far back in time to our deepest roots, they were startled to find a deeper level of evolution in which the physical laws themselves transform and simplify until particles, forces, and even time itself fades away. This discovery led them to a revolutionary The laws of physics are not set in stone but are born and co-evolve as the universe they govern takes shape. As Hawking’s final days drew near, the two collaborators published their theory, which proposed a radical new Darwinian perspective on the origins of our universe.<br /><br />On the Origin of Time offers a striking new vision of the universe’s birth that will profoundly transform the way we think about our place in the order of the cosmos and may ultimately prove to be Hawking’s greatest legacy.",
+      "authorName": "Thomas Hertog",
+      "isbn": "0593128443",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2023-05-19T05:37:14.000Z",
+      "userDateCreated": "2023-05-19T05:37:14.000Z",
+      "userShelves": "on-deck",
+      "userReview": "",
+      "averageRating": "4.2",
+      "bookPublished": "2023",
+      "description": "<a href=\"https://www.goodreads.com/book/show/60149512-on-the-origin-of-time?utm_medium=api&amp;utm_source=rss\"><img alt=\"On the Origin of Time: Stephen Hawking&#39;s Final Theory\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1662438835l/60149512._SY75_.jpg\" /></a><br/>\n                                      author: Thomas Hertog<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 2023<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/05/18<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "numPages": "352"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/5557855762?utm_medium=api&utm_source=rss",
       "title": "Essentialism: The Disciplined Pursuit of Less",
       "link": "https://www.goodreads.com/review/show/5557855762?utm_medium=api&utm_source=rss",
