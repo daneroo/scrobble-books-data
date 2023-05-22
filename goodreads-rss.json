@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/5566018116?utm_medium=api&utm_source=rss",
+      "title": "This is How You Lose the Time War",
+      "link": "https://www.goodreads.com/review/show/5566018116?utm_medium=api&utm_source=rss",
+      "bookId": "43352954",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1653185078l/43352954._SX50_.jpg",
+      "bookDescription": "Among the ashes of a dying world, an agent of the Commandant finds a letter. It reads: <i>Burn before reading.</i> Thus begins an unlikely correspondence between two rival agents hellbent on securing the best possible future for their warring factions. Now, what began as a taunt, a battlefield boast, grows into something more. Something epic. Something romantic. Something that could change the past and the future.<br /><br />Except the discovery of their bond would mean death for each of them. There's still a war going on, after all. And someone has to win that war.",
+      "authorName": "Amal El-Mohtar",
+      "isbn": "",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2023-05-22T05:04:16.000Z",
+      "userDateCreated": "2023-05-22T05:04:16.000Z",
+      "userShelves": "on-deck",
+      "userReview": "",
+      "averageRating": "4.0",
+      "bookPublished": "2019",
+      "description": "<a href=\"https://www.goodreads.com/book/show/43352954-this-is-how-you-lose-the-time-war?utm_medium=api&amp;utm_source=rss\"><img alt=\"This is How You Lose the Time War\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1653185078l/43352954._SX50_.jpg\" /></a><br/>\n                                      author: Amal El-Mohtar<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: 2019<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/05/21<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "numPages": "209"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/3888950315?utm_medium=api&utm_source=rss",
       "title": "Foundation (Foundation, #1)",
       "link": "https://www.goodreads.com/review/show/3888950315?utm_medium=api&utm_source=rss",
