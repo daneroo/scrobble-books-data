@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/5583299231?utm_medium=api&utm_source=rss",
+      "title": "The Technology Trap: Capital, Labor, and Power in the Age of Automation",
+      "link": "https://www.goodreads.com/review/show/5583299231?utm_medium=api&utm_source=rss",
+      "bookId": "42585094",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1567029048l/42585094._SY75_.jpg",
+      "bookDescription": "<b>How the history of technological revolutions can help us better understand economic and political polarization in the age of automation</b><br /><br />From the Industrial Revolution to the age of artificial intelligence, <em>The Technology Trap</em> takes a sweeping look at the history of technological progress and how it has radically shifted the distribution of economic and political power among society’s members. As Carl Benedikt Frey shows, the Industrial Revolution created unprecedented wealth and prosperity over the long run, but the immediate consequences of mechanization were devastating for large swaths of the population. Middle-income jobs withered, wages stagnated, the labor share of income fell, profits surged, and economic inequality skyrocketed. These trends, Frey documents, broadly mirror those in our current age of automation, which began with the Computer Revolution.<br /><br />Just as the Industrial Revolution eventually brought about extraordinary benefits for society, artificial intelligence systems have the potential to do the same. But Frey argues that this depends on how the short term is managed. In the nineteenth century, workers violently expressed their concerns over machines taking their jobs. The Luddite uprisings joined a long wave of machinery riots that swept across Europe and China. Today’s despairing middle class has not resorted to physical force, but their frustration has led to rising populism and the increasing fragmentation of society. As middle-class jobs continue to come under pressure, there’s no assurance that positive attitudes to technology will persist.<br /><br />The Industrial Revolution was a defining moment in history, but few grasped its enormous consequences at the time. <em>The Technology Trap</em> demonstrates that in the midst of another technological revolution, the lessons of the past can help us to more effectively face the present.",
+      "authorName": "Carl Benedikt Frey",
+      "isbn": "069117279X",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2023-05-30T05:28:45.000Z",
+      "userDateCreated": "2023-05-30T05:28:45.000Z",
+      "userShelves": "on-deck",
+      "userReview": "",
+      "averageRating": "4.1",
+      "bookPublished": "",
+      "description": "<a href=\"https://www.goodreads.com/book/show/42585094-the-technology-trap?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Technology Trap: Capital, Labor, and Power in the Age of Automation\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1567029048l/42585094._SY75_.jpg\" /></a><br/>\n                                      author: Carl Benedikt Frey<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/05/29<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "numPages": "480"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/5559930354?utm_medium=api&utm_source=rss",
       "title": "On the Origin of Time: Stephen Hawking's Final Theory",
       "link": "https://www.goodreads.com/review/show/5559930354?utm_medium=api&utm_source=rss",
