@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/5660804123?utm_medium=api&utm_source=rss",
+      "title": "Wealth and Power: China's Long March to the Twenty-first Century",
+      "link": "https://www.goodreads.com/review/show/5660804123?utm_medium=api&utm_source=rss",
+      "bookId": "15797723",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1364250966l/15797723._SY75_.jpg",
+      "bookDescription": "<b>From two of today's foremost experts on China, a thought-provoking new history that helps us understand China's future by looking at its rise over the last 150 years.</b><br /><br />Wealth and Power is a sweeping account of the key, iconic intellectual figures and political leaders of China since the mid-1800s. By examining what they thought and what they did through lively and absorbing portraits, Schell and Delury chart how China made its tortured transformation from a weak, humiliated country under foreign assault to its astonishing rise in the early 21st century. In so doing, they provide us with a deeper and richer understanding of China's present success story.",
+      "authorName": "Orville Schell",
+      "isbn": "0679643478",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2023-07-02T05:40:16.000Z",
+      "userDateCreated": "2023-07-02T05:40:15.000Z",
+      "userShelves": "on-deck",
+      "userReview": "",
+      "averageRating": "4.2",
+      "bookPublished": "2013",
+      "description": "<a href=\"https://www.goodreads.com/book/show/15797723-wealth-and-power?utm_medium=api&amp;utm_source=rss\"><img alt=\"Wealth and Power: China&#39;s Long March to the Twenty-first Century\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1364250966l/15797723._SY75_.jpg\" /></a><br/>\n                                      author: Orville Schell<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 2013<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/07/01<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "numPages": "478"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/3978060529?utm_medium=api&utm_source=rss",
       "title": "The Order of Time",
       "link": "https://www.goodreads.com/review/show/3978060529?utm_medium=api&utm_source=rss",
