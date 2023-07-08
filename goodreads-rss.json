@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/5676231490?utm_medium=api&utm_source=rss",
+      "title": "The Forgetting Machine: Memory, Perception, and the \"Jennifer Aniston Neuron\"",
+      "link": "https://www.goodreads.com/review/show/5676231490?utm_medium=api&utm_source=rss",
+      "bookId": "34196225",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1502135343l/34196225._SX50_.jpg",
+      "bookDescription": "<em>If we lose our memories, are we still ourselves? Is identity merely a collection of electrical impulses? What separates us from animals, or from computers? </em> <br /><br />From Plato to <em>Westworld</em>, these questions have fascinated and befuddled philosophers, artists, and scientists for centuries. In <em>The Forgetting Machine</em>, neuroscientist Rodrigo Quiroga explains how the mechanics of memory illuminates these discussions, with implications for everything from understanding Alzheimer's disease to the technology of Artificial Intelligence. <br />You'll also learn about the research behind what Quiroga coined \"Jennifer Aniston Neurons,\" cells in the human brain that are responsible for representing specific concepts, such as recognizing a certain celebrity's face. The discovery of these neurons opens new windows into the workings of human memory. <br /><br />In this accessible, fascinating look at the science of remembering, you'll learn how we turn perceptions into memories, how language shapes our experiences, and the crucial role forgetting plays in human recollection. You'll see how electricity, chemistry, and abstraction combine to form something more than the human brain--the human mind. And you'll gain surprising insight into what our brains can tell us about who we are. <br /><br /><em>The Forgetting Machine</em> takes us on a journey through science and science fiction, philosophy and identity, using what we know about how we remember (and forget) to explore the very roots of what makes us human.",
+      "authorName": "Rodrigo Quian Quiroga",
+      "isbn": "1944648542",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2023-07-08T04:47:31.000Z",
+      "userDateCreated": "2023-07-08T04:47:31.000Z",
+      "userShelves": "to-read",
+      "userReview": "",
+      "averageRating": "3.7",
+      "bookPublished": "",
+      "description": "<a href=\"https://www.goodreads.com/book/show/34196225-the-forgetting-machine?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Forgetting Machine: Memory, Perception, and the &quot;Jennifer Aniston Neuron&quot;\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1502135343l/34196225._SX50_.jpg\" /></a><br/>\n                                      author: Rodrigo Quian Quiroga<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.7<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/07/07<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "numPages": "170"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/5671244308?utm_medium=api&utm_source=rss",
       "title": "A Casino Odyssey in Cyberspace",
       "link": "https://www.goodreads.com/review/show/5671244308?utm_medium=api&utm_source=rss",
