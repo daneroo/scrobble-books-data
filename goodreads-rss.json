@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/5762019454?utm_medium=api&utm_source=rss",
+      "title": "Gaston Miron : La vie d'un homme",
+      "link": "https://www.goodreads.com/review/show/5762019454?utm_medium=api&utm_source=rss",
+      "bookId": "13455233",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328551570l/13455233._SX50_.jpg",
+      "bookDescription": "Le 21 décembre 1996, dans la modeste église de Sainte-Agathe, avaient lieu les funérailles nationales d’un poète. Avant Gaston Miron, aucun écrivain n’avait reçu des autorités politiques québécoises un honneur pareil. Comment une telle chose pouvait-elle se produire dans une société qui avait jusque-là si mal traité ses poètes, de Nelligan à Saint-Denys Garneau?<br /><br />C’est tout simplement que Gaston Miron incarne mieux que quiconque le Québec moderne. Miron est notre «contemporain capital». Écrire la biographie de Gaston Miron, c’est faire davantage que retracer la vie d’un homme, c’est raconter le Québec de la Grande Noirceur et des communautés religieuses, la Révolution tranquille, la renaissance du nationalisme et les mouvements de gauche, la crise d’Octobre, les deux référendums, c’est raconter l’histoire de l’édition au Québec et la naissance d’une institution littéraire semblable à celle dont sont dotées les autres nations.<br /><br />À l’étranger aussi, le Québec, c’était Gaston Miron, tant parmi la confrérie des poètes que sur les plateaux de la télévision française. <br /><br />Après de nombreuses années de recherche qui l’ont amené à rencontrer les proches de Miron et à traverser d’abondantes archives, le poète, romancier et essayiste Pierre Nepveu arrive à embrasser l’empan de cette vie hors du commun. Il sait bien sûr faire ressortir toute l’envergure du poète, mais il réussit également comme nul autre à peindre l’homme, sa rudesse, sa fragilité, son grand rire franc, ses coups de gueule, sa misère natale qu’il portait comme un stigmate, son espoir indomptable.",
+      "authorName": "Pierre Nepveu",
+      "isbn": "2764621035",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2023-08-12T12:23:36.000Z",
+      "userDateCreated": "2023-08-12T12:23:36.000Z",
+      "userShelves": "to-read",
+      "userReview": "",
+      "averageRating": "3.8",
+      "bookPublished": "2011",
+      "description": "<a href=\"https://www.goodreads.com/book/show/13455233-gaston-miron?utm_medium=api&amp;utm_source=rss\"><img alt=\"Gaston Miron : La vie d&#39;un homme\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328551570l/13455233._SX50_.jpg\" /></a><br/>\n                                      author: Pierre Nepveu<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.8<br/>\n                                      book published: 2011<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/08/12<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "numPages": "904"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/5732240648?utm_medium=api&utm_source=rss",
       "title": "Deadhouse Gates (The Malazan Book of the Fallen, #2)",
       "link": "https://www.goodreads.com/review/show/5732240648?utm_medium=api&utm_source=rss",
@@ -1326,7 +1347,7 @@
     },
     {
       "id": "https://www.goodreads.com/review/show/5454589163?utm_medium=api&utm_source=rss",
-      "title": "Quantum Gravity",
+      "title": "Quantum Gravity (Cambridge Monographs on Mathematical Physics)",
       "link": "https://www.goodreads.com/review/show/5454589163?utm_medium=api&utm_source=rss",
       "bookId": "187088",
       "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1172537195l/187088._SX50_.jpg",
@@ -1342,8 +1363,8 @@
       "userReview": "",
       "averageRating": "4.2",
       "bookPublished": "2004",
-      "description": "<a href=\"https://www.goodreads.com/book/show/187088.Quantum_Gravity?utm_medium=api&amp;utm_source=rss\"><img alt=\"Quantum Gravity\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1172537195l/187088._SX50_.jpg\" /></a><br/>\n                                      author: Carlo Rovelli<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 2004<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/03/31<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
-      "numPages": "480"
+      "description": "<a href=\"https://www.goodreads.com/book/show/187088.Quantum_Gravity?utm_medium=api&amp;utm_source=rss\"><img alt=\"Quantum Gravity (Cambridge Monographs on Mathematical Physics)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1172537195l/187088._SX50_.jpg\" /></a><br/>\n                                      author: Carlo Rovelli<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 2004<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/03/31<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "numPages": "455"
     },
     {
       "id": "https://www.goodreads.com/review/show/4325617167?utm_medium=api&utm_source=rss",
