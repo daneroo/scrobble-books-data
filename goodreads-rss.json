@@ -1424,9 +1424,9 @@
       "userDateCreated": "2023-04-09T20:51:53.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "3.8",
+      "averageRating": "3.7",
       "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/61399147-meganets?utm_medium=api&amp;utm_source=rss\"><img alt=\"Meganets: How Digital Forces Beyond Our Control Commandeer Our Daily Lives and Inner Realities\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1658246480l/61399147._SY75_.jpg\" /></a><br/>\n                                      author: David B. Auerbach<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.8<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/04/09<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/61399147-meganets?utm_medium=api&amp;utm_source=rss\"><img alt=\"Meganets: How Digital Forces Beyond Our Control Commandeer Our Daily Lives and Inner Realities\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1658246480l/61399147._SY75_.jpg\" /></a><br/>\n                                      author: David B. Auerbach<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.7<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/04/09<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "352"
     },
     {
@@ -5868,7 +5868,7 @@
       "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1505784778l/36265193._SX50_.jpg",
       "bookDescription": "This practical guide to modern encryption breaks down the fundamental mathematical concepts at the heart of cryptography without shying away from meaty discussions of how they work. You’ll learn about authenticated encryption, secure randomness, hash functions, block ciphers, and public-key techniques such as RSA and elliptic curve cryptography.<br /><br />You’ll also <br />- Key concepts in cryptography, such as computational security, attacker models, and forward secrecy<br />- The strengths and limitations of the TLS protocol behind HTTPS secure websites<br />- Quantum computation and post-quantum cryptography<br />- About various vulnerabilities by examining numerous code examples and use cases<br />- How to choose the best algorithm or protocol and ask vendors the right questions<br /><br />Each chapter includes a discussion of common implementation mistakes using real-world examples and details what could go wrong and how to avoid these pitfalls. <br /><br />Whether you’re a seasoned practitioner or a beginner looking to dive into the field,  Serious Cryptography  will provide a complete survey of modern encryption and its applications.",
       "authorName": "Jean-Philippe Aumasson",
-      "isbn": "",
+      "isbn": "1593278829",
       "userName": "Daniel",
       "userRating": "5",
       "userReadAt": "2022-07-01T21:50:21.000Z",
@@ -5879,7 +5879,7 @@
       "averageRating": "4.3",
       "bookPublished": "",
       "description": "<a href=\"https://www.goodreads.com/book/show/36265193-serious-cryptography?utm_medium=api&amp;utm_source=rss\"><img alt=\"Serious Cryptography: A Practical Introduction to Modern Encryption\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1505784778l/36265193._SX50_.jpg\" /></a><br/>\n                                      author: Jean-Philippe Aumasson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: <br/>\n                                      rating: 5<br/>\n                                      read at: 2022/07/01<br/>\n                                      date added: 2022/07/01<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
-      "numPages": "313"
+      "numPages": "312"
     },
     {
       "id": "https://www.goodreads.com/review/show/4817986415?utm_medium=api&utm_source=rss",
