@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/5823278934?utm_medium=api&utm_source=rss",
+      "title": "How Do You Live?",
+      "link": "https://www.goodreads.com/review/show/5823278934?utm_medium=api&utm_source=rss",
+      "bookId": "54110592",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1632839831l/54110592._SY75_.jpg",
+      "bookDescription": "<b>Anime master Hayao Miyazaki’s favorite childhood book, in English for the first time.</b><br /> <br />First published in 1937, Genzaburō Yoshino’s <i>How Do You Live?</i> has long been acknowledged in Japan as a crossover classic for young readers. Academy Award–winning animator Hayao Miyazaki (<i>Spirited Away</i>, <i>My Neighbor Totoro</i>, <i>Howl’s Moving Castle</i>) has called it his favorite childhood book and announced plans to emerge from retirement to make it the basis of a final film. <br /> <br /><i>How Do You Live?</i> is narrated in two voices. The first belongs to Copper, fifteen, who after the death of his father must confront inevitable and enormous change, including his own betrayal of his best friend. In between episodes of Copper’s emerging story, his uncle writes to him in a journal, sharing knowledge and offering advice on life’s big questions as Copper begins to encounter them. Over the course of the story, Copper, like his namesake Copernicus, looks to the stars, and uses his discoveries about the heavens, earth, and human nature to answer the question of how he will live.<br /> <br />This first-ever English-language translation of a Japanese classic about finding one’s place in a world both infinitely large and unimaginably small is perfect for readers of philosophical fiction like <i>The Alchemist</i> and <i>The Little Prince</i>, as well as Miyazaki fans eager to understand one of his most important influences.",
+      "authorName": "Genzaburo Yoshino",
+      "isbn": "1616209771",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2023-09-06T05:58:26.000Z",
+      "userDateCreated": "2023-09-06T05:58:26.000Z",
+      "userShelves": "to-read",
+      "userReview": "",
+      "averageRating": "4.0",
+      "bookPublished": "1937",
+      "description": "<a href=\"https://www.goodreads.com/book/show/54110592-how-do-you-live?utm_medium=api&amp;utm_source=rss\"><img alt=\"How Do You Live?\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1632839831l/54110592._SY75_.jpg\" /></a><br/>\n                                      author: Genzaburo Yoshino<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: 1937<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/09/05<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "numPages": "288"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/5820861349?utm_medium=api&utm_source=rss",
       "title": "The Bands of Mourning (Mistborn, #6)",
       "link": "https://www.goodreads.com/review/show/5820861349?utm_medium=api&utm_source=rss",
