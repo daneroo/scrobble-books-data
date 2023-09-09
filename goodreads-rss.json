@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/5830043065?utm_medium=api&utm_source=rss",
+      "title": "The Fellowship of the Ring (The Lord of the Rings, #1)",
+      "link": "https://www.goodreads.com/review/show/5830043065?utm_medium=api&utm_source=rss",
+      "bookId": "61215351",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1654215925l/61215351._SY75_.jpg",
+      "bookDescription": "<i>One Ring to rule them all, One Ring to find them, One Ring to bring them all and in the darkness bind them.</i><br /><br />In ancient times the Rings of Power were crafted by the Elven-smiths, and Sauron, the Dark Lord, forged the One Ring, filling it with his own power so that he could rule all others. But the One Ring was taken from him, and though he sought it throughout Middle-earth, it remained lost to him. After many ages it fell into the hands of Bilbo Baggins, as told in <i>The Hobbit</i>.<br /><br />In a sleepy village in the Shire, young Frodo Baggins finds himself faced with an immense task, as his elderly cousin Bilbo entrusts the Ring to his care. Frodo must leave his home and make a perilous journey across Middle-earth to the Cracks of Doom, there to destroy the Ring and foil the Dark Lord in his evil purpose.",
+      "authorName": "J.R.R. Tolkien",
+      "isbn": "",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2023-09-09T08:38:56.000Z",
+      "userDateCreated": "2023-09-09T08:38:56.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "4.5",
+      "bookPublished": "1954",
+      "description": "<a href=\"https://www.goodreads.com/book/show/61215351-the-fellowship-of-the-ring?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Fellowship of the Ring (The Lord of the Rings, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1654215925l/61215351._SY75_.jpg\" /></a><br/>\n                                      author: J.R.R. Tolkien<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.5<br/>\n                                      book published: 1954<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/09/09<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "432"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/5827741831?utm_medium=api&utm_source=rss",
       "title": "The Internet Con: How to Seize the Means of Computation",
       "link": "https://www.goodreads.com/review/show/5827741831?utm_medium=api&utm_source=rss",
