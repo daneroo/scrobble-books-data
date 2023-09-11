@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/5834633254?utm_medium=api&utm_source=rss",
+      "title": "Freezing Order: A True Story of Money Laundering, Murder, and Surviving Vladimir Putin's Wrath",
+      "link": "https://www.goodreads.com/review/show/5834633254?utm_medium=api&utm_source=rss",
+      "bookId": "59366154",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1649605131l/59366154._SY75_.jpg",
+      "bookDescription": "NEW YORK TIMES BESTSELLER<br /><br />Following his explosive New York Times bestseller Red Notice, Bill Browder returns with another gripping thriller chronicling how he became Vladimir Putin’s number one enemy by exposing Putin’s campaign to steal and launder hundreds of billions of dollars and kill anyone who stands in his way.<br /><br />When Bill Browder’s young Russian lawyer, Sergei Magnitsky, was beaten to death in a Moscow jail, Browder made it his life’s mission to go after his killers and make sure they faced justice. The first step of that mission was to uncover who was behind the $230 million tax refund scheme that Magnitsky was killed over. As Browder and his team tracked the money as it flowed out of Russia through the Baltics and Cyprus and on to Western Europe and the Americas, they were shocked to discover that Vladimir Putin himself was a beneficiary of the crime.<br /><br />As law enforcement agencies began freezing the money, Putin retaliated. He and his cronies set up honey traps, hired process servers to chase Browder through cities, murdered more of his Russian allies, and enlisted some of the top lawyers and politicians in America to bring him down. Putin will stop at nothing to protect his money. As Freezing Order reveals, it was Browder’s campaign to expose Putin’s corruption that prompted Russia’s intervention in the 2016 US presidential election.<br /><br />At once a financial caper, an international adventure, and a passionate plea for justice , Freezing Order is a stirring morality tale about how one man can take on one of the most ruthless villains in the world—and win.",
+      "authorName": "Bill Browder",
+      "isbn": "1982153288",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2023-09-11T08:34:53.000Z",
+      "userDateCreated": "2023-09-11T08:34:52.000Z",
+      "userShelves": "on-deck",
+      "userReview": "",
+      "averageRating": "4.2",
+      "bookPublished": "2022",
+      "description": "<a href=\"https://www.goodreads.com/book/show/59366154-freezing-order?utm_medium=api&amp;utm_source=rss\"><img alt=\"Freezing Order: A True Story of Money Laundering, Murder, and Surviving Vladimir Putin&#39;s Wrath\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1649605131l/59366154._SY75_.jpg\" /></a><br/>\n                                      author: Bill Browder<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 2022<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/09/11<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "numPages": "336"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/5830043065?utm_medium=api&utm_source=rss",
       "title": "The Fellowship of the Ring (The Lord of the Rings, #1)",
       "link": "https://www.goodreads.com/review/show/5830043065?utm_medium=api&utm_source=rss",
@@ -290,9 +311,9 @@
       "userDateCreated": "2023-08-29T07:22:46.000Z",
       "userShelves": "on-deck",
       "userReview": "",
-      "averageRating": "3.9",
+      "averageRating": "3.8",
       "bookPublished": "2023",
-      "description": "<a href=\"https://www.goodreads.com/book/show/90590134-the-coming-wave?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Coming Wave: Technology, Power, and the Twenty-first Century&#39;s Greatest Dilemma\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1685351813l/90590134._SY75_.jpg\" /></a><br/>\n                                      author: Mustafa Suleyman<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: 2023<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/08/29<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/90590134-the-coming-wave?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Coming Wave: Technology, Power, and the Twenty-first Century&#39;s Greatest Dilemma\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1685351813l/90590134._SY75_.jpg\" /></a><br/>\n                                      author: Mustafa Suleyman<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.8<br/>\n                                      book published: 2023<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/08/29<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
       "numPages": "352"
     },
     {
