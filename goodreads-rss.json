@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/5841167014?utm_medium=api&utm_source=rss",
+      "title": "Malice (The Faithful and the Fallen, #1)",
+      "link": "https://www.goodreads.com/review/show/5841167014?utm_medium=api&utm_source=rss",
+      "bookId": "15750692",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1342785006l/15750692._SY75_.jpg",
+      "bookDescription": "A black sun is rising … <br /><br />Young Corban watches enviously as boys become warriors under King Brenin’s rule, learning the art of war. He yearns to wield his sword and spear to protect his king’s realm. But that day will come all too soon. Only when he loses those he loves will he learn the true price of courage. <br /><br />The Banished Lands has a violent past where armies of men and giants clashed shields in battle, the earth running dark with their heartsblood. Although the giant-clans were broken in ages past, their ruined fortresses still scar the land. But now giants stir anew, the very stones weep blood and there are sightings of giant wyrms. Those who can still read the signs see a threat far greater than the ancient wars. Sorrow will darken the world, as angels and demons make it their battlefield. Then there will be a war to end all wars. <br /><br />High King Aquilus summons his fellow kings to council, seeking an alliance in this time of need. Some are skeptical, fighting their own border skirmishes against pirates and giants. But prophesy indicates darkness and light will demand two champions, the Black Sun and the Bright Star. They would be wise to seek out both, for if the Black Sun gains ascendancy, mankind’s hopes and dreams will fall to dust.",
+      "authorName": "John Gwynne",
+      "isbn": "0230758452",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2023-09-14T06:21:14.000Z",
+      "userDateCreated": "2023-09-14T06:21:13.000Z",
+      "userShelves": "on-deck",
+      "userReview": "",
+      "averageRating": "4.2",
+      "bookPublished": "2012",
+      "description": "<a href=\"https://www.goodreads.com/book/show/15750692-malice?utm_medium=api&amp;utm_source=rss\"><img alt=\"Malice (The Faithful and the Fallen, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1342785006l/15750692._SY75_.jpg\" /></a><br/>\n                                      author: John Gwynne<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 2012<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/09/13<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "numPages": "672"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/5839056467?utm_medium=api&utm_source=rss",
       "title": "The Two Towers (The Lord of the Rings, #2)",
       "link": "https://www.goodreads.com/review/show/5839056467?utm_medium=api&utm_source=rss",
