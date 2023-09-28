@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/5873285631?utm_medium=api&utm_source=rss",
+      "title": "Langlands Correspondence for Loop Groups (Cambridge Studies in Advanced Mathematics, Series Number 103)",
+      "link": "https://www.goodreads.com/review/show/5873285631?utm_medium=api&utm_source=rss",
+      "bookId": "1186860",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348194766l/1186860._SY75_.jpg",
+      "bookDescription": "The Langlands Program was conceived initially as a bridge between Number Theory and Automorphic Representations, and has now expanded into such areas as Geometry and Quantum Field Theory, tying together seemingly unrelated disciplines into a web of tantalizing conjectures. A new chapter to this grand project is provided in this book. It develops the geometric Langlands Correspondence for Loop Groups, a new approach, from a unique perspective offered by affine Kac-Moody algebras. The theory offers fresh insights into the world of Langlands dualities, with many applications to Representation Theory of Infinite-dimensional Algebras, and Quantum Field Theory. This accessible text builds the theory from scratch, with all necessary concepts defined and the essential results proved along the way. Based on courses taught at Berkeley, the book provides many open problems which could form the basis for future research, and is accessible to advanced undergraduate students and beginning graduate students.",
+      "authorName": "Edward Frenkel",
+      "isbn": "0521854431",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2023-09-28T18:20:38.000Z",
+      "userDateCreated": "2023-09-28T16:56:00.000Z",
+      "userShelves": "to-read",
+      "userReview": "",
+      "averageRating": "4.0",
+      "bookPublished": "2007",
+      "description": "<a href=\"https://www.goodreads.com/book/show/1186860.Langlands_Correspondence_for_Loop_Groups?utm_medium=api&amp;utm_source=rss\"><img alt=\"Langlands Correspondence for Loop Groups (Cambridge Studies in Advanced Mathematics, Series Number 103)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348194766l/1186860._SY75_.jpg\" /></a><br/>\n                                      author: Edward Frenkel<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: 2007<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/09/28<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "numPages": "396"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/272386569?utm_medium=api&utm_source=rss",
       "title": "Matter (Culture, #8)",
       "link": "https://www.goodreads.com/review/show/272386569?utm_medium=api&utm_source=rss",
