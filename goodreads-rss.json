@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/5901330211?utm_medium=api&utm_source=rss",
+      "title": "Trial by Battle: The Hundred Years War, Volume 1",
+      "link": "https://www.goodreads.com/review/show/5901330211?utm_medium=api&utm_source=rss",
+      "bookId": "1406751",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388331067l/1406751._SY75_.jpg",
+      "bookDescription": "A succession of catastrophes in the middle years of the fourteenth century brought France to the brink of destruction. The bankruptcy of the French state and a bitter civil war within the royal family were followed by the defeat and capture of the King of France by the Black Prince at Poitiers. A peasant revolt and a violent revolution in Paris completed the tragedy. In a humiliating treaty of partition France ceded more than a third of its territory to Edward III of England. Not for sixty years would the English again come so close to total victory. France's great cities, provincial towns and rural communities resisted where its leaders failed. They withstood the sustained savagery of the soldiers and the free companies of brigands to undo most of Edward III's work in the following generation. England's triumphs proved to be brittle and short-lived.",
+      "authorName": "Jonathan Sumption",
+      "isbn": "0812216555",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2023-10-11T09:45:53.000Z",
+      "userDateCreated": "2023-10-11T09:45:53.000Z",
+      "userShelves": "on-deck",
+      "userReview": "",
+      "averageRating": "4.5",
+      "bookPublished": "1990",
+      "description": "<a href=\"https://www.goodreads.com/book/show/1406751.Trial_by_Battle?utm_medium=api&amp;utm_source=rss\"><img alt=\"Trial by Battle: The Hundred Years War, Volume 1\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388331067l/1406751._SY75_.jpg\" /></a><br/>\n                                      author: Jonathan Sumption<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.5<br/>\n                                      book published: 1990<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/10/11<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "numPages": "672"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/5841264944?utm_medium=api&utm_source=rss",
       "title": "The Prime Number Conspiracy: The Biggest Ideas in Math from Quanta",
       "link": "https://www.goodreads.com/review/show/5841264944?utm_medium=api&utm_source=rss",
