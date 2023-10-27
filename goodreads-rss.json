@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/5935655332?utm_medium=api&utm_source=rss",
+      "title": "Elixir in Action",
+      "link": "https://www.goodreads.com/review/show/5935655332?utm_medium=api&utm_source=rss",
+      "bookId": "38732242",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1519435676l/38732242._SX50_.jpg",
+      "bookDescription": "The Elixir language blends the battle-tested power and stability of the Erlang virtual machine with an approachable and expressive syntax. Revised and updated for the Elixir 1.7, Elixir in Action, Second Edition teaches you how to apply Elixir to practical problems associated with scalability, fault tolerance, and high availability. Along the way, you'll develop an appreciation for, and considerable skill in, a functional and concurrent style of programming.",
+      "authorName": "Saša Jurić",
+      "isbn": "1617295027",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2023-10-27T03:14:58.000Z",
+      "userDateCreated": "2023-10-27T03:13:22.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "4.6",
+      "bookPublished": "2015",
+      "description": "<a href=\"https://www.goodreads.com/book/show/38732242-elixir-in-action?utm_medium=api&amp;utm_source=rss\"><img alt=\"Elixir in Action\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1519435676l/38732242._SX50_.jpg\" /></a><br/>\n                                      author: Saša Jurić<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.6<br/>\n                                      book published: 2015<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/10/26<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "384"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/5931532849?utm_medium=api&utm_source=rss",
       "title": "The Strangled Queen (The Accursed Kings, #2)",
       "link": "https://www.goodreads.com/review/show/5931532849?utm_medium=api&utm_source=rss",
@@ -18837,27 +18858,6 @@
       "bookPublished": "1999",
       "description": "<a href=\"https://www.goodreads.com/book/show/816.Cryptonomicon?utm_medium=api&amp;utm_source=rss\"><img alt=\"Cryptonomicon (Crypto, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327931476l/816._SY75_.jpg\" /></a><br/>\n                                      author: Neal Stephenson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 1999<br/>\n                                      rating: 5<br/>\n                                      read at: <br/>\n                                      date added: 2011/11/11<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "1152"
-    },
-    {
-      "id": "https://www.goodreads.com/review/show/231375268?utm_medium=api&utm_source=rss",
-      "title": "Weird Ideas That Work: How to Build a Creative Company",
-      "link": "https://www.goodreads.com/review/show/231375268?utm_medium=api&utm_source=rss",
-      "bookId": "700584",
-      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1393771490l/700584._SY75_.jpg",
-      "bookDescription": "A breakthrough in management thinking, “weird ideas” can help every organization achieve a balance between sustaining performance and fostering new ideas. To succeed, you need to be both conventional and counterintuitive.<br /><br />Creativity, new ideas, innovation—in any age they are keys to success. Yet, as Stanford professor Robert Sutton explains, the standard rules of business behavior and management are precisely the opposite of what it takes to build an innovative company. We are told to hire people who will fit in; to train them extensively; and to work to instill a corporate culture in every employee. In fact, in order to foster creativity, we should hire misfits, goad them to fight, and pay them to defy convention and undermine the prevailing culture. Weird Ideas That Work codifies these and other proven counterintuitive ideas to help you turn your workplace from staid and safe to wild and woolly—and creative.<br /><br />In Weird Ideas That Work Sutton draws on extensive research in behavioral psychology to explain how innovation can be fostered in hiring, managing, and motivating people; building teams; making decisions; and interacting with outsiders. Business practices like \"hire people who make you uncomfortable\" and \"reward success and failure, but punish inaction,\" strike many managers as strange or even downright wrong. Yet Weird Ideas That Work shows how some of the best teams and companies use these and other counterintuitive practices to crank out new ideas, and it demonstrates that every company can reap sales and profits from such creativity.<br /><br />Weird Ideas That Work is filled with examples, drawn from hi- and low-tech industries, manufacturing and services, information and products. More than just a set of bizarre suggestions, it represents a breakthrough in management thinking: Sutton shows that the practices we need to sustain performance are in constant tension with those that foster new ideas. The trick is to choose the right balance between conventional and \"weird\"—and now, thanks to Robert Sutton's work, we have the tools we need to do so.",
-      "authorName": "Robert I. Sutton",
-      "isbn": "0743227883",
-      "userName": "Daniel",
-      "userRating": "0",
-      "userReadAt": "",
-      "userDateAdded": "2011-11-11T15:55:41.000Z",
-      "userDateCreated": "2011-11-05T07:19:47.000Z",
-      "userShelves": "to-read",
-      "userReview": "",
-      "averageRating": "3.8",
-      "bookPublished": "2001",
-      "description": "<a href=\"https://www.goodreads.com/book/show/700584.Weird_Ideas_That_Work?utm_medium=api&amp;utm_source=rss\"><img alt=\"Weird Ideas That Work: How to Build a Creative Company\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1393771490l/700584._SY75_.jpg\" /></a><br/>\n                                      author: Robert I. Sutton<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.8<br/>\n                                      book published: 2001<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2011/11/11<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
-      "numPages": "241"
     }
   ]
 }
