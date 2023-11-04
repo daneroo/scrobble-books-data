@@ -14,7 +14,7 @@ const GOODREADS_KEY = Deno.env.get("GOODREADS_KEY");
 
 if (!GOODREADS_USER || !GOODREADS_KEY) {
   throw new Error(
-    "Missing GOODREADS_USER or GOODREADS_KEY environment variable",
+    "Missing GOODREADS_USER or GOODREADS_KEY environment variable"
   );
 }
 const URI = `https://www.goodreads.com/review/list_rss/${GOODREADS_USER}`;
@@ -27,7 +27,7 @@ const feed = {
 };
 const shelf = shelves[0];
 
-for (let page = 1; page < 10; page++) {
+for (let page = 1; page < 15; page++) {
   const asXML = await fetcherXML(URI, { key: GOODREADS_KEY, shelf, page });
 
   await ensureDir(xmlDataDir);
@@ -143,7 +143,7 @@ function cleanItem(item) {
     // now, also replace the text in description with new average rating
     const description = newItem.description.replace(
       `average rating: ${averageRating}`,
-      `average rating: ${roundedAverageRating}`,
+      `average rating: ${roundedAverageRating}`
     );
     // console.log(`Description ${newItem.description} -> ${description}`);
     newItem.description = description;
@@ -163,7 +163,7 @@ function prettyFeed({ title, items }) {
     console.log(
       `- ${title} by ${authorName} *:${userRating} t:${userReadAt} shelf:${
         userShelves || "read"
-      }`,
+      }`
     );
   }
 }
