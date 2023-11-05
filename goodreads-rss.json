@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/5955248859?utm_medium=api&utm_source=rss",
+      "title": "Anansi Boys",
+      "link": "https://www.goodreads.com/review/show/5955248859?utm_medium=api&utm_source=rss",
+      "bookId": "2744",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1479778049l/2744._SY75_.jpg",
+      "bookDescription": "<strong>God is dead. Meet the kids.</strong><br /><br />Fat Charlie Nancy's normal life ended the moment his father dropped dead on a Florida karaoke stage. Charlie didn't know his dad was a god. And he never knew he had a brother. <br /><br />Now brother Spider's on his doorstep -- about to make Fat Charlie's life more interesting... and a lot more dangerous.",
+      "authorName": "Neil Gaiman",
+      "isbn": "0060515198",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2023-11-05T12:37:07.000Z",
+      "userDateCreated": "2023-11-05T12:37:07.000Z",
+      "userShelves": "to-read",
+      "userReview": "",
+      "averageRating": "4.0",
+      "bookPublished": "2005",
+      "description": "<a href=\"https://www.goodreads.com/book/show/2744.Anansi_Boys?utm_medium=api&amp;utm_source=rss\"><img alt=\"Anansi Boys\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1479778049l/2744._SY75_.jpg\" /></a><br/>\n                                      author: Neil Gaiman<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: 2005<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/11/05<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "numPages": "387"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/4947372867?utm_medium=api&utm_source=rss",
       "title": "The Hero of Ages (Mistborn, #3)",
       "link": "https://www.goodreads.com/review/show/4947372867?utm_medium=api&utm_source=rss",
