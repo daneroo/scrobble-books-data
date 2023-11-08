@@ -185,9 +185,9 @@
       "userDateCreated": "2023-11-02T09:47:18.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "3.8",
+      "averageRating": "3.9",
       "bookPublished": "2023",
-      "description": "<a href=\"https://www.goodreads.com/book/show/199786555-the-canadian-miracle?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Canadian Miracle\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1698751657l/199786555._SY75_.jpg\" /></a><br/>\n                                      author: Cory Doctorow<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.8<br/>\n                                      book published: 2023<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/11/02<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/199786555-the-canadian-miracle?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Canadian Miracle\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1698751657l/199786555._SY75_.jpg\" /></a><br/>\n                                      author: Cory Doctorow<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: 2023<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/11/02<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "23"
     },
     {
@@ -4585,7 +4585,7 @@
       "link": "https://www.goodreads.com/review/show/5070886860?utm_medium=api&utm_source=rss",
       "bookId": "48570456",
       "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1571925611l/48570456._SX50_.jpg",
-      "bookDescription": "TypeScript is a typed superset of JavaScript with the potential to solve many of the headaches for which JavaScript is famous. But TypeScript has a learning curve of its own, and understanding how to use it effectively can take time. This book guides you through 62 specific ways to improve your use of TypeScript. Author Dan Vanderkam, a principal software engineer at Sidewalk Labs, shows you how to apply these ideas, following the format popularized by Effective C++ and Effective Java (both from Addison-Wesley). You’ll advance from a beginning or intermediate user familiar with the basics to an advanced user who knows how to use the language well. Effective TypeScript is divided into eight",
+      "bookDescription": "TypeScript is a typed superset of JavaScript with the potential to solve many of the headaches for which JavaScript is famous. But TypeScript has a learning curve of its own, and understanding how to use it effectively can take time. This book guides you through 62 specific ways to improve your use of TypeScript.<br /><br />Author Dan Vanderkam, a principal software engineer at Sidewalk Labs, shows you how to apply these ideas, following the format popularized by Effective C++ and Effective Java (both from Addison-Wesley). You’ll advance from a beginning or intermediate user familiar with the basics to an advanced user who knows how to use the language well.<br /><br />Effective TypeScript is divided into eight <br /><br />Getting to Know TypeScriptTypeScript’s Type SystemType InferenceType DesignWorking with anyTypes Declarations and @typesWriting and Running Your CodeMigrating to TypeScript",
       "authorName": "Dan Vanderkam",
       "isbn": "",
       "userName": "Daniel",
