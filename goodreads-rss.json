@@ -4858,7 +4858,7 @@
       "link": "https://www.goodreads.com/review/show/5062798966?utm_medium=api&utm_source=rss",
       "bookId": "61285675",
       "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1655169041l/61285675._SX50_.jpg",
-      "bookDescription": "TypeScript has conquered the world of JavaScript. Identified in developer surveys as one of the world's fastest growing and most popular languages, TypeScript is widely used in consumer and business companies across the world and is frequently credited for helping massive web applications scale. But what exactly is TypeScript? How and why does it work, and how can we use it? This practical book takes beginner and advanced JavaScript programmers alike from knowing nothing about \"types\" or \"type systems\" to full mastery of TypeScript fundamentals. You'll",
+      "bookDescription": "TypeScript has conquered the world of JavaScript. Identified in developer surveys as one of the world's fastest growing and most popular languages, TypeScript is widely used in consumer and business companies across the world and is frequently credited for helping massive web applications scale. But what exactly is TypeScript? How and why does it work, and how can we use it?<br /><br />This practical book takes beginner and advanced JavaScript programmers alike from knowing nothing about \"types\" or \"type systems\" to full mastery of TypeScript fundamentals.<br /><br />You'll <br /><br />Benefits of TypeScript and general characteristics of its type systemWhy and how TypeScript is useful on top of \"vanilla\" JavaScriptHow to inform your type system by using development-only type annotationsHow TypeScript analyzes and understands code to help you augment your existing development patternsHow TypeScript helps you work with arrays, classes, functions, objects, and other important built-in JavaScript constructsHow to effectively use the plethora of TypeScript configuration options to tailor the TypeScript compiler to your teams and projectsA variety of IDE integrations such as automated refactors and intelligent code searches provided by TypeScript to help you develop quickly with fewer bugs",
       "authorName": "Josh Goldberg",
       "isbn": "",
       "userName": "Daniel",
@@ -4871,7 +4871,7 @@
       "averageRating": "4.1",
       "bookPublished": "",
       "description": "<a href=\"https://www.goodreads.com/book/show/61285675-learning-typescript?utm_medium=api&amp;utm_source=rss\"><img alt=\"Learning TypeScript\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1655169041l/61285675._SX50_.jpg\" /></a><br/>\n                                      author: Josh Goldberg<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: <br/>\n                                      rating: 4<br/>\n                                      read at: 2022/10/23<br/>\n                                      date added: 2022/10/23<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
-      "numPages": "0"
+      "numPages": "484"
     },
     {
       "id": "https://www.goodreads.com/review/show/5060481686?utm_medium=api&utm_source=rss",
