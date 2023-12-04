@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/6024460707?utm_medium=api&utm_source=rss",
+      "title": "The World of Mathematics: A Four-Volume Set (Dover Books on Mathematics)",
+      "link": "https://www.goodreads.com/review/show/6024460707?utm_medium=api&utm_source=rss",
+      "bookId": "705566",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1357303831l/705566._SX50_.jpg",
+      "bookDescription": "Save 10% when you order the complete set! A monumental 4-volume reference, 15 years in the making, The World of Mathematics was specially designed to make mathematics more accessible to the inexperienced. It comprises non-technical essays on every aspect of the vast subject, including articles by scores of eminent mathematicians and other thinkers.",
+      "authorName": "James Roy Newman",
+      "isbn": "0486432688",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2023-12-04T22:27:31.000Z",
+      "userDateCreated": "2023-12-04T22:27:30.000Z",
+      "userShelves": "to-read",
+      "userReview": "",
+      "averageRating": "4.2",
+      "bookPublished": "1956",
+      "description": "<a href=\"https://www.goodreads.com/book/show/705566.The_World_of_Mathematics?utm_medium=api&amp;utm_source=rss\"><img alt=\"The World of Mathematics: A Four-Volume Set (Dover Books on Mathematics)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1357303831l/705566._SX50_.jpg\" /></a><br/>\n                                      author: James Roy Newman<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 1956<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/12/04<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "numPages": "2576"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/6024371572?utm_medium=api&utm_source=rss",
       "title": "Adventures in Group Theory: Rubik's Cube, Merlin's Machine, and Other Mathematical Toys",
       "link": "https://www.goodreads.com/review/show/6024371572?utm_medium=api&utm_source=rss",
@@ -4133,9 +4154,9 @@
       "userDateCreated": "2022-02-19T07:11:42.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "3.8",
+      "averageRating": "3.9",
       "bookPublished": "2020",
-      "description": "<a href=\"https://www.goodreads.com/book/show/50998056-the-ministry-for-the-future?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Ministry for the Future\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1668935201l/50998056._SY75_.jpg\" /></a><br/>\n                                      author: Kim Stanley Robinson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.8<br/>\n                                      book published: 2020<br/>\n                                      rating: 5<br/>\n                                      read at: 2022/12/12<br/>\n                                      date added: 2022/12/12<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/50998056-the-ministry-for-the-future?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Ministry for the Future\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1668935201l/50998056._SY75_.jpg\" /></a><br/>\n                                      author: Kim Stanley Robinson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: 2020<br/>\n                                      rating: 5<br/>\n                                      read at: 2022/12/12<br/>\n                                      date added: 2022/12/12<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "563"
     },
     {
