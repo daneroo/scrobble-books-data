@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/6024371572?utm_medium=api&utm_source=rss",
+      "title": "Adventures in Group Theory: Rubik's Cube, Merlin's Machine, and Other Mathematical Toys",
+      "link": "https://www.goodreads.com/review/show/6024371572?utm_medium=api&utm_source=rss",
+      "bookId": "4996537",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347251944l/4996537._SY75_.jpg",
+      "bookDescription": "This updated and revised edition of David Joyner’s entertaining “hands-on” tour of group theory and abstract algebra brings life, levity, and practicality to the topics through mathematical toys. Joyner uses permutation puzzles such as the Rubik’s Cube and its variants, the 15 puzzle, the Rainbow Masterball, Merlin’s Machine, the Pyraminx, and the Skewb to explain the basics of introductory algebra and group theory. Subjects covered include the Cayley graphs, symmetries, isomorphisms, wreath products, free groups, and finite fields of group theory, as well as algebraic matrices, combinatorics, and permutations. Featuring strategies for solving the puzzles and computations illustrated using the SAGE open-source computer algebra system, the second edition of Adventures in Group Theory is perfect for mathematics enthusiasts and for use as a supplementary textbook.",
+      "authorName": "David Joyner",
+      "isbn": "0801890136",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2023-12-04T21:48:00.000Z",
+      "userDateCreated": "2023-12-04T21:48:00.000Z",
+      "userShelves": "on-deck",
+      "userReview": "",
+      "averageRating": "3.8",
+      "bookPublished": "2002",
+      "description": "<a href=\"https://www.goodreads.com/book/show/4996537-adventures-in-group-theory?utm_medium=api&amp;utm_source=rss\"><img alt=\"Adventures in Group Theory: Rubik&#39;s Cube, Merlin&#39;s Machine, and Other Mathematical Toys\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347251944l/4996537._SY75_.jpg\" /></a><br/>\n                                      author: David Joyner<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.8<br/>\n                                      book published: 2002<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/12/04<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "numPages": "328"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/5701113691?utm_medium=api&utm_source=rss",
       "title": "Lord Foul's Bane (The Chronicles of Thomas Covenant the Unbeliever, #1)",
       "link": "https://www.goodreads.com/review/show/5701113691?utm_medium=api&utm_source=rss",
