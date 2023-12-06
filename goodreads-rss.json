@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/6027893540?utm_medium=api&utm_source=rss",
+      "title": "Uncontrollable: The Threat of Artificial Superintelligence and the Race to Save the World",
+      "link": "https://www.goodreads.com/review/show/6027893540?utm_medium=api&utm_source=rss",
+      "bookId": "202416160",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1700446464l/202416160._SX50_.jpg",
+      "bookDescription": "A compelling and clear exploration of the power and peril of advanced artificial intelligence that provides actionable suggestions for all citizens to create a safer future with AI.<br /><br /><br />We are living in a world of rapid change and technological progress.<br /><br />Artificial intelligence is poised to be the most significant development to affect our lives now, and in the coming years. More powerful than nuclear bombs and as impactful as electricity, fire, and oil rolled into one, advanced AI might bring us untold wonders but it could also be a threat to our jobs, our relationships, and our place in the world.<br /><br />Is artificial intelligence dangerous? How does artificial intelligence work? Will artificial intelligence take over?<br /><br />Uncontrollable uses engaging analogies and relatable examples to summarize AI for beginners, and unpacks AI risk and safety for readers without a technical background.<br /><br />Uncontrollable examines artificial intelligence as a concept and technology, describes what AI is, how image generators and language models work, and how we don’t fully understand what is happening in these AI systems. It provides evidence to show that artificial superintelligence presents a risk to humanity, and demonstrates that it will be very difficult to understand, control, or align as it rapidly increases in capabilities and becomes more integrated into how we work, live, and play.<br /><br />We are not prepared.<br /><br />Yet, we can be. Uncontrollable clearly communicates the urgency to act now and provides concrete suggestions for society and concerned citizens to create a safer future with AI.<br /><br />Uncontrollable is a first-of-its-kind publication and call to arms to address the defining issue of our time.",
+      "authorName": "Darren   McKee",
+      "isbn": "",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2023-12-06T05:37:13.000Z",
+      "userDateCreated": "2023-12-06T05:36:05.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "5.0",
+      "bookPublished": "",
+      "description": "<a href=\"https://www.goodreads.com/book/show/202416160-uncontrollable?utm_medium=api&amp;utm_source=rss\"><img alt=\"Uncontrollable: The Threat of Artificial Superintelligence and the Race to Save the World\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1700446464l/202416160._SX50_.jpg\" /></a><br/>\n                                      author: Darren   McKee<br/>\n                                      name: Daniel<br/>\n                                      average rating: 5.0<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/12/05<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "356"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/5701113691?utm_medium=api&utm_source=rss",
       "title": "Lord Foul's Bane (The Chronicles of Thomas Covenant the Unbeliever, #1)",
       "link": "https://www.goodreads.com/review/show/5701113691?utm_medium=api&utm_source=rss",
