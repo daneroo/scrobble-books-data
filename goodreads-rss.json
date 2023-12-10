@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/6037721230?utm_medium=api&utm_source=rss",
+      "title": "Warped Passages: Unraveling the Mysteries of the Universe's Hidden Dimensions",
+      "link": "https://www.goodreads.com/review/show/6037721230?utm_medium=api&utm_source=rss",
+      "bookId": "68013",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442628072l/68013._SY75_.jpg",
+      "bookDescription": "The universe has many secrets. It may hide additional dimensions of space other than the familier three we recognize. There might even be another universe adjacent to ours, invisible and unattainable . . . for now.<br /><br /><em>Warped Passages</em> is a brilliantly readable and altogether exhilarating journey that tracks the arc of discovery from early twentieth-century physics to the razor's edge of modern scientific theory. One of the world's leading theoretical physicists, Lisa Randall provides astonishing scientific possibilities that, until recently, were restricted to the realm of science fiction. Unraveling the twisted threads of the most current debates on relativity, quantum mechanics, and gravity, she explores some of the most fundamental questions posed by Nature—taking us into the warped, hidden dimensions underpinning the universe we live in, demystifying the science of the myriad worlds that may exist just beyond our own.",
+      "authorName": "Lisa Randall",
+      "isbn": "0060531096",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2023-12-10T04:15:59.000Z",
+      "userDateCreated": "2023-12-10T04:15:59.000Z",
+      "userShelves": "on-deck",
+      "userReview": "",
+      "averageRating": "3.9",
+      "bookPublished": "2005",
+      "description": "<a href=\"https://www.goodreads.com/book/show/68013.Warped_Passages?utm_medium=api&amp;utm_source=rss\"><img alt=\"Warped Passages: Unraveling the Mysteries of the Universe&#39;s Hidden Dimensions\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442628072l/68013._SY75_.jpg\" /></a><br/>\n                                      author: Lisa Randall<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: 2005<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/12/09<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "numPages": "499"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/6027893540?utm_medium=api&utm_source=rss",
       "title": "Uncontrollable: The Threat of Artificial Superintelligence and the Race to Save the World",
       "link": "https://www.goodreads.com/review/show/6027893540?utm_medium=api&utm_source=rss",
