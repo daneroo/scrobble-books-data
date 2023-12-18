@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/6060474030?utm_medium=api&utm_source=rss",
+      "title": "Proofs from the Book",
+      "link": "https://www.goodreads.com/review/show/6060474030?utm_medium=api&utm_source=rss",
+      "bookId": "696238",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348220647l/696238._SX50_.jpg",
+      "bookDescription": "From the Reviews:<br /><br />..\". Inside PFTB (Proofs from The Book) is indeed a glimpse of mathematical heaven, where clever insights and beautiful ideas combine in astonishing and glorious ways. There is vast wealth within its pages, one gem after another. Some of the proofs are classics, but many are new and brilliant proofs of classical results. ...Aigner and Ziegler... write: ..\". all we offer is the examples that we have selected, hoping that our readers will share our enthusiasm about brilliant ideas, clever insights and wonderful observations.\" I do. ... \" Notices of the AMS, August 1999<br /><br />..\". the style is clear and entertaining, the level is close to elementary ... and the proofs are brilliant. ...\" LMS Newsletter, January 1999<br /><br />This third edition offers two new chapters, on partition identities, and on card shuffling. Three proofs of Euler's most famous infinite series appear in a separate chapter. There is also a number of other improvements, such as an exciting new way to \"enumerate the rationals.\"",
+      "authorName": "Martin Aigner",
+      "isbn": "3540404600",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2023-12-18T23:13:08.000Z",
+      "userDateCreated": "2023-12-18T23:13:07.000Z",
+      "userShelves": "on-deck",
+      "userReview": "",
+      "averageRating": "4.4",
+      "bookPublished": "1998",
+      "description": "<a href=\"https://www.goodreads.com/book/show/696238.Proofs_from_the_Book?utm_medium=api&amp;utm_source=rss\"><img alt=\"Proofs from the Book\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348220647l/696238._SX50_.jpg\" /></a><br/>\n                                      author: Martin Aigner<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.4<br/>\n                                      book published: 1998<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/12/18<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "numPages": "240"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/2181736798?utm_medium=api&utm_source=rss",
       "title": "Jhereg (Vlad Taltos, #1)",
       "link": "https://www.goodreads.com/review/show/2181736798?utm_medium=api&utm_source=rss",
