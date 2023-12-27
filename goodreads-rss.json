@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/6084216361?utm_medium=api&utm_source=rss",
+      "title": "Prolegomena to Any Future Metaphysics",
+      "link": "https://www.goodreads.com/review/show/6084216361?utm_medium=api&utm_source=rss",
+      "bookId": "80324",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1405624515l/80324._SY75_.jpg",
+      "bookDescription": "Kant's <i>Prolegomena</i>, although a small book, is indubitably the most important of his writings. It furnishes us with a key to his main work, <i>The Critique of Pure Reason</i>; in fact, it is an extract containing all the salient ideas of Kant's system. It approaches the subject in the simplest and most direct way, and is therefore best adapted as an introduction into his philosophy.",
+      "authorName": "Immanuel Kant",
+      "isbn": "0872205932",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2023-12-27T11:20:52.000Z",
+      "userDateCreated": "2023-12-27T11:20:52.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "3.9",
+      "bookPublished": "1783",
+      "description": "<a href=\"https://www.goodreads.com/book/show/80324.Prolegomena_to_Any_Future_Metaphysics?utm_medium=api&amp;utm_source=rss\"><img alt=\"Prolegomena to Any Future Metaphysics\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1405624515l/80324._SY75_.jpg\" /></a><br/>\n                                      author: Immanuel Kant<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: 1783<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/12/27<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "160"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/5931563228?utm_medium=api&utm_source=rss",
       "title": "The Rigor of Angels: Borges, Heisenberg, Kant, and the Ultimate Nature of Reality",
       "link": "https://www.goodreads.com/review/show/5931563228?utm_medium=api&utm_source=rss",
