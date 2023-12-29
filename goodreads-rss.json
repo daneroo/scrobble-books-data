@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/6094615079?utm_medium=api&utm_source=rss",
+      "title": "Feel-Good Productivity: How to Do More of What Matters to You",
+      "link": "https://www.goodreads.com/review/show/6094615079?utm_medium=api&utm_source=rss",
+      "bookId": "142402923",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1689695229l/142402923._SY75_.jpg",
+      "bookDescription": "The secret to productivity isn’t discipline. It’s joy.<br /><br />We think that productivity is all about hard work. That the road to success is lined with endless frustration and toil. But what if there’s another way?<br /><br />Dr Ali Abdaal – the world's most-followed productivity expert – has uncovered an easier and happier path to success. Drawing on decades of psychological research, he has found that the secret to productivity and success isn't grind – it's feeling good. If you can make your work feel good, then productivity takes care of itself.<br /><br />In this revolutionary book, Ali reveals how the science of feel-good productivity can transform your life. He introduces the three hidden 'energisers' that underpin enjoyable productivity, the three 'blockers' we must overcome to beat procrastination, and the three 'sustainers' that prevent burnout and help us achieve lasting fulfillment. He recounts the inspiring stories of founders, Olympians, and Nobel-winning scientists who embody the principles of Feel-Good Productivity. And he introduces the simple, actionable changes that you can use to achieve more and live better, starting today.<br /><br />Armed with Ali’s insights, you won’t just accomplish more. You’ll feel happier and more fulfilled along the way.",
+      "authorName": "Ali  Abdaal",
+      "isbn": "1250865034",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2023-12-29T21:45:34.000Z",
+      "userDateCreated": "2023-12-29T21:45:33.000Z",
+      "userShelves": "to-read",
+      "userReview": "",
+      "averageRating": "4.0",
+      "bookPublished": "",
+      "description": "<a href=\"https://www.goodreads.com/book/show/142402923-feel-good-productivity?utm_medium=api&amp;utm_source=rss\"><img alt=\"Feel-Good Productivity: How to Do More of What Matters to You\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1689695229l/142402923._SY75_.jpg\" /></a><br/>\n                                      author: Ali  Abdaal<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/12/29<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "numPages": "304"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/6084216361?utm_medium=api&utm_source=rss",
       "title": "Prolegomena to Any Future Metaphysics",
       "link": "https://www.goodreads.com/review/show/6084216361?utm_medium=api&utm_source=rss",
