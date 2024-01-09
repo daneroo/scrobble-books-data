@@ -60,7 +60,8 @@ jobs:
         working-directory: cue
 
       - name: Pin to web3.storage (node)
-        run: node apps/pin/src/pin.js
+        run: echo "Skip Pinning to web3.storage (node)"
+        # run: node apps/pin/src/pin.js
 
       # see docs at https://github.com/stefanzweifel/git-auto-commit-action
       - name: Commit back changes
