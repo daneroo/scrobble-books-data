@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/6181772025?utm_medium=api&utm_source=rss",
+      "title": "The Soul of a New Machine",
+      "link": "https://www.goodreads.com/review/show/6181772025?utm_medium=api&utm_source=rss",
+      "bookId": "7090",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1627012239l/7090._SY75_.jpg",
+      "bookDescription": "The computer revolution brought with it new methods of getting work done—just look at today's news for reports of hard-driven, highly-motivated young software and online commerce developers who sacrifice evenings and weekends to meet impossible deadlines. Tracy Kidder got a preview of this world in the late 1970s when he observed the engineers of Data General design and build a new 32-bit minicomputer in just one year. His thoughtful, prescient book, <i>The Soul of a New Machine</i>, tells stories of 35-year-old \"veteran\" engineers hiring recent college graduates and encouraging them to work harder and faster on complex and difficult projects, exploiting the youngsters' ignorance of normal scheduling processes while engendering a new kind of work ethic.<br /><br />These days, we are used to the \"total commitment\" philosophy of managing technical creation, but Kidder was surprised and even a little alarmed at the obsessions and compulsions he found. From in-house political struggles to workers being permitted to tease management to marathon 24-hour work sessions, <i>The Soul of a New Machine</i> explores concepts that already seem familiar, even old-hat, less than 20 years later. Kidder plainly admires his subjects; while he admits to hopeless confusion about their work, he finds their dedication heroic. The reader wonders, though, what will become of it all, now and in the future. <i>—Rob Lightner</i>",
+      "authorName": "Tracy Kidder",
+      "isbn": "0316491977",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2024-01-18T18:49:34.000Z",
+      "userDateCreated": "2024-01-18T18:49:34.000Z",
+      "userShelves": "on-deck",
+      "userReview": "",
+      "averageRating": "4.1",
+      "bookPublished": "1981",
+      "description": "<a href=\"https://www.goodreads.com/book/show/7090.The_Soul_of_a_New_Machine?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Soul of a New Machine\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1627012239l/7090._SY75_.jpg\" /></a><br/>\n                                      author: Tracy Kidder<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: 1981<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/01/18<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "numPages": "293"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/4913169564?utm_medium=api&utm_source=rss",
       "title": "Red Rising (Red Rising Saga, #1)",
       "link": "https://www.goodreads.com/review/show/4913169564?utm_medium=api&utm_source=rss",
