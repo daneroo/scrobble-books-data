@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/6208284338?utm_medium=api&utm_source=rss",
+      "title": "House of Chains (Malazan Book of the Fallen, #4)",
+      "link": "https://www.goodreads.com/review/show/6208284338?utm_medium=api&utm_source=rss",
+      "bookId": "55398",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1548490548l/55398._SY75_.jpg",
+      "bookDescription": "<i>An alternate cover edition can be found <a href=\"https://www.goodreads.com/book/show/29081573-house-of-chains\" rel=\"nofollow noopener\">here</a>.</i><br /><br />In Northern Genabackis, a raiding party of savage tribal warriors descends from the mountains into the southern flatlands. Their intention is to wreak havoc amongst the despised lowlanders, but for the one named Karsa Orlong it marks the beginning of what will prove to be an extraordinary destiny.<br />Some years later, it is the aftermath of the Chain of Dogs. Tavore, the Adjunct to the Empress, has arrived in the last remaining Malazan stronghold of Seven Cities. New to command, she must hone twelve thousand soldiers, mostly raw recruits but for a handful of veterans of Coltaine's legendary march, into a force capable of challenging the massed hordes of Sha'ik's Whirlwind who lie in wait in the heart of the Holy Desert.<br />But waiting is never easy. The seer's warlords are locked into a power struggle that threatens the very soul of the rebellion, while Sha'ik herself suffers, haunted by the knowledge of her nemesis: her own sister, Tavore.<br />And so begins this awesome new chapter in Steven Erikson's acclaimed Malazan Book of the Fallen.",
+      "authorName": "Steven Erikson",
+      "isbn": "0765348810",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2024-01-27T02:53:45.000Z",
+      "userDateCreated": "2024-01-27T02:53:45.000Z",
+      "userShelves": "on-deck",
+      "userReview": "",
+      "averageRating": "4.3",
+      "bookPublished": "2002",
+      "description": "<a href=\"https://www.goodreads.com/book/show/55398.House_of_Chains?utm_medium=api&amp;utm_source=rss\"><img alt=\"House of Chains (Malazan Book of the Fallen, #4)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1548490548l/55398._SY75_.jpg\" /></a><br/>\n                                      author: Steven Erikson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: 2002<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/01/26<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "numPages": "1015"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/6206138493?utm_medium=api&utm_source=rss",
       "title": "Doppelganger: A Trip into the Mirror World",
       "link": "https://www.goodreads.com/review/show/6206138493?utm_medium=api&utm_source=rss",
