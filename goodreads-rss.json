@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/6183647593?utm_medium=api&utm_source=rss",
+      "title": "Morning Star (Red Rising Saga, #3)",
+      "link": "https://www.goodreads.com/review/show/6183647593?utm_medium=api&utm_source=rss",
+      "bookId": "18966806",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1461354277l/18966806._SY75_.jpg",
+      "bookDescription": "Darrow would have lived in peace, but his enemies brought him war. The Gold overlords demanded his obedience, hanged his wife, and enslaved his people. But Darrow is determined to fight back. Risking everything to transform himself and breach Gold society, Darrow has battled to survive the cutthroat rivalries that breed Society’s mightiest warriors, climbed the ranks, and waited patiently to unleash the revolution that will tear the hierarchy apart from within.<br /> <br />Finally, the time has come.<br /> <br />But devotion to honor and hunger for vengeance run deep on both sides. Darrow and his comrades-in-arms face powerful enemies without scruple or mercy. Among them are some Darrow once considered friends. To win, Darrow will need to inspire those shackled in darkness to break their chains, unmake the world their cruel masters have built, and claim a destiny too long denied—and too glorious to surrender.",
+      "authorName": "Pierce Brown",
+      "isbn": "0345539842",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2024-01-30T09:49:58.000Z",
+      "userDateCreated": "2024-01-19T07:21:34.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "4.5",
+      "bookPublished": "2016",
+      "description": "<a href=\"https://www.goodreads.com/book/show/18966806-morning-star?utm_medium=api&amp;utm_source=rss\"><img alt=\"Morning Star (Red Rising Saga, #3)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1461354277l/18966806._SY75_.jpg\" /></a><br/>\n                                      author: Pierce Brown<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.5<br/>\n                                      book published: 2016<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/01/30<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "544"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/6217713180?utm_medium=api&utm_source=rss",
       "title": "Candide and Philosophical Letters",
       "link": "https://www.goodreads.com/review/show/6217713180?utm_medium=api&utm_source=rss",
@@ -126,27 +147,6 @@
       "bookPublished": "1926",
       "description": "<a href=\"https://www.goodreads.com/book/show/31795.The_Story_of_Philosophy?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Story of Philosophy: The Lives and Opinions of the World&#39;s Greatest Philosophers\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1438471992l/31795._SY75_.jpg\" /></a><br/>\n                                      author: Will Durant<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 1926<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/01/29<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "704"
-    },
-    {
-      "id": "https://www.goodreads.com/review/show/6183647593?utm_medium=api&utm_source=rss",
-      "title": "Morning Star (Red Rising Saga, #3)",
-      "link": "https://www.goodreads.com/review/show/6183647593?utm_medium=api&utm_source=rss",
-      "bookId": "18966806",
-      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1461354277l/18966806._SY75_.jpg",
-      "bookDescription": "Darrow would have lived in peace, but his enemies brought him war. The Gold overlords demanded his obedience, hanged his wife, and enslaved his people. But Darrow is determined to fight back. Risking everything to transform himself and breach Gold society, Darrow has battled to survive the cutthroat rivalries that breed Society’s mightiest warriors, climbed the ranks, and waited patiently to unleash the revolution that will tear the hierarchy apart from within.<br /> <br />Finally, the time has come.<br /> <br />But devotion to honor and hunger for vengeance run deep on both sides. Darrow and his comrades-in-arms face powerful enemies without scruple or mercy. Among them are some Darrow once considered friends. To win, Darrow will need to inspire those shackled in darkness to break their chains, unmake the world their cruel masters have built, and claim a destiny too long denied—and too glorious to surrender.",
-      "authorName": "Pierce Brown",
-      "isbn": "0345539842",
-      "userName": "Daniel",
-      "userRating": "0",
-      "userReadAt": "",
-      "userDateAdded": "2024-01-29T10:12:14.000Z",
-      "userDateCreated": "2024-01-19T07:21:34.000Z",
-      "userShelves": "currently-reading",
-      "userReview": "",
-      "averageRating": "4.5",
-      "bookPublished": "2016",
-      "description": "<a href=\"https://www.goodreads.com/book/show/18966806-morning-star?utm_medium=api&amp;utm_source=rss\"><img alt=\"Morning Star (Red Rising Saga, #3)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1461354277l/18966806._SY75_.jpg\" /></a><br/>\n                                      author: Pierce Brown<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.5<br/>\n                                      book published: 2016<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/01/29<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
-      "numPages": "544"
     },
     {
       "id": "https://www.goodreads.com/review/show/6215236891?utm_medium=api&utm_source=rss",
@@ -710,9 +710,9 @@
       "userDateCreated": "2023-10-12T06:14:17.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "4.4",
+      "averageRating": "4.5",
       "bookPublished": "2023",
-      "description": "<a href=\"https://www.goodreads.com/book/show/123199472-sparks?utm_medium=api&amp;utm_source=rss\"><img alt=\"Sparks: China&#39;s Underground Historians and their Battle for the Future\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1690815502l/123199472._SY75_.jpg\" /></a><br/>\n                                      author: Ian Johnson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.4<br/>\n                                      book published: 2023<br/>\n                                      rating: 4<br/>\n                                      read at: 2024/01/09<br/>\n                                      date added: 2024/01/09<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/123199472-sparks?utm_medium=api&amp;utm_source=rss\"><img alt=\"Sparks: China&#39;s Underground Historians and their Battle for the Future\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1690815502l/123199472._SY75_.jpg\" /></a><br/>\n                                      author: Ian Johnson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.5<br/>\n                                      book published: 2023<br/>\n                                      rating: 4<br/>\n                                      read at: 2024/01/09<br/>\n                                      date added: 2024/01/09<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "400"
     },
     {
