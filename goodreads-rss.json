@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/6239694610?utm_medium=api&utm_source=rss",
+      "title": "The Jade Setter of Janloon (The Green Bone Saga, #0.5)",
+      "link": "https://www.goodreads.com/review/show/6239694610?utm_medium=api&utm_source=rss",
+      "bookId": "57951331",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1641417448l/57951331._SY75_.jpg",
+      "bookDescription": "<i>Fonda Lee returns to the world of the Green Bone Saga with a new standalone novella.</i><br /><br />The rapidly changing city of Janloon is ruled by jade, the rare and ancient substance that enhances the abilities and status of the trained Green Bone warriors who run the island’s powerful clans.<br /><br />Pulo Oritono is not one of those warriors. He’s simply an apprentice jade setter with dreams of securing clan patronage and establishing a successful business. His hopes are dashed, however, when a priceless jade weapon is stolen from the shop where he works.<br /><br />Now, Pulo has three days to hunt down the thief, find the jade, and return it to its rightful owner if he wants to save his future prospects, the people he cares about, and his very life. The desperate mission will lead Pulo to old vendettas, vast corruption, and questions about everything and everyone he thought he knew.",
+      "authorName": "Fonda Lee",
+      "isbn": "1645240622",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2024-02-06T07:46:23.000Z",
+      "userDateCreated": "2024-02-06T07:46:10.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "4.3",
+      "bookPublished": "2022",
+      "description": "<a href=\"https://www.goodreads.com/book/show/57951331-the-jade-setter-of-janloon?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Jade Setter of Janloon (The Green Bone Saga, #0.5)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1641417448l/57951331._SY75_.jpg\" /></a><br/>\n                                      author: Fonda Lee<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: 2022<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/02/05<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "144"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/5907361114?utm_medium=api&utm_source=rss",
       "title": "Jade Legacy (The Green Bone Saga, #3)",
       "link": "https://www.goodreads.com/review/show/5907361114?utm_medium=api&utm_source=rss",
