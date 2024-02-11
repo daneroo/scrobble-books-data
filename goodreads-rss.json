@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/6253478347?utm_medium=api&utm_source=rss",
+      "title": "Candide",
+      "link": "https://www.goodreads.com/review/show/6253478347?utm_medium=api&utm_source=rss",
+      "bookId": "19380",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1345060082l/19380._SY75_.jpg",
+      "bookDescription": "<i>Candide</i> is the story of a gentle man who, though pummeled and slapped in every direction by fate, clings desperately to the belief that he lives in \"the best of all possible worlds.\" On the surface a witty, bantering tale, this eighteenth-century classic is actually a savage, satiric thrust at the philosophical optimism that proclaims that all disaster and human suffering is part of a benevolent cosmic plan. Fast, funny, often outrageous, the French philosopher's immortal narrative takes Candide around the world to discover that -- contrary to the teachings of his distinguished tutor Dr. Pangloss -- all is not always for the best. Alive with wit, brilliance, and graceful storytelling, <i>Candide</i> has become Voltaire's most celebrated work.",
+      "authorName": "Voltaire",
+      "isbn": "0486266893",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2024-02-11T07:12:07.000Z",
+      "userDateCreated": "2024-02-11T07:12:07.000Z",
+      "userShelves": "on-deck",
+      "userReview": "",
+      "averageRating": "3.8",
+      "bookPublished": "1759",
+      "description": "<a href=\"https://www.goodreads.com/book/show/19380.Candide?utm_medium=api&amp;utm_source=rss\"><img alt=\"Candide\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1345060082l/19380._SY75_.jpg\" /></a><br/>\n                                      author: Voltaire<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.8<br/>\n                                      book published: 1759<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/02/10<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "numPages": "129"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/4634057902?utm_medium=api&utm_source=rss",
       "title": "The Black Prism (Lightbringer, #1)",
       "link": "https://www.goodreads.com/review/show/4634057902?utm_medium=api&utm_source=rss",
