@@ -12,14 +12,14 @@
       "isbn": "3608935150",
       "userName": "Daniel",
       "userRating": "4",
-      "userReadAt": "2022-06-12T00:00:00.000Z",
-      "userDateAdded": "2024-02-19T04:52:27.000Z",
+      "userReadAt": "2024-02-18T00:00:00.000Z",
+      "userDateAdded": "2024-02-19T06:54:57.000Z",
       "userDateCreated": "2022-06-11T09:03:25.000Z",
-      "userShelves": "currently-reading",
+      "userShelves": "",
       "userReview": "",
       "averageRating": "3.9",
       "bookPublished": "1986",
-      "description": "<a href=\"https://www.goodreads.com/book/show/133466.Teckla?utm_medium=api&amp;utm_source=rss\"><img alt=\"Teckla (Vlad Taltos, #3)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1357479420l/133466._SY75_.jpg\" /></a><br/>\n                                      author: Steven Brust<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: 1986<br/>\n                                      rating: 4<br/>\n                                      read at: 2022/06/12<br/>\n                                      date added: 2024/02/18<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/133466.Teckla?utm_medium=api&amp;utm_source=rss\"><img alt=\"Teckla (Vlad Taltos, #3)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1357479420l/133466._SY75_.jpg\" /></a><br/>\n                                      author: Steven Brust<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: 1986<br/>\n                                      rating: 4<br/>\n                                      read at: 2024/02/18<br/>\n                                      date added: 2024/02/18<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "276"
     },
     {
