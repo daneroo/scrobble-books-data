@@ -12,14 +12,14 @@
       "isbn": "0441182003",
       "userName": "Daniel",
       "userRating": "4",
-      "userReadAt": "2022-05-17T00:00:00.000Z",
-      "userDateAdded": "2024-02-21T07:47:41.000Z",
+      "userReadAt": "2024-02-21T00:00:00.000Z",
+      "userDateAdded": "2024-02-22T05:02:30.000Z",
       "userDateCreated": "2022-05-01T03:01:44.000Z",
-      "userShelves": "currently-reading",
+      "userShelves": "",
       "userReview": "",
       "averageRating": "4.2",
       "bookPublished": "1988",
-      "description": "<a href=\"https://www.goodreads.com/book/show/915554.Taltos?utm_medium=api&amp;utm_source=rss\"><img alt=\"Taltos (Vlad Taltos, #4)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1682481363l/915554._SY75_.jpg\" /></a><br/>\n                                      author: Steven Brust<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 1988<br/>\n                                      rating: 4<br/>\n                                      read at: 2022/05/17<br/>\n                                      date added: 2024/02/20<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/915554.Taltos?utm_medium=api&amp;utm_source=rss\"><img alt=\"Taltos (Vlad Taltos, #4)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1682481363l/915554._SY75_.jpg\" /></a><br/>\n                                      author: Steven Brust<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 1988<br/>\n                                      rating: 4<br/>\n                                      read at: 2024/02/21<br/>\n                                      date added: 2024/02/21<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "181"
     },
     {
