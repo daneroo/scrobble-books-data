@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/6278540321?utm_medium=api&utm_source=rss",
+      "title": "The Mind is Flat",
+      "link": "https://www.goodreads.com/review/show/6278540321?utm_medium=api&utm_source=rss",
+      "bookId": "36325702",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1520977033l/36325702._SY75_.jpg",
+      "bookDescription": "<b>A radical reinterpretation of how your mind works - and why it could change your life </b><br /><b></b><br /><b></b><b>'An astonishing achievement. Nick Chater has blown my mind' Tim Harford</b><b></b><br /><b></b><br /><b>'A total assault on all lingering psychiatric and psychoanalytic notions of mental depths ... Light the touchpaper and stand well back' <i>New Scientist</i></b><br /><br />We all like to think we have a hidden inner life. Most of us assume that our beliefs and desires arise from the murky depths of our minds, and, if only we could work out how to access this mysterious world, we could truly understand ourselves. For more than a century, psychologists and psychiatrists have struggled to discover what lies below our mental surface.<br /><br />In <i>The Mind Is Flat</i>, pre-eminent behavioural scientist Nick Chater reveals that this entire enterprise is utterly misguided. Drawing on startling new research in neuroscience, behavioural psychology and perception, he shows that we have no hidden depths to plumb, and unconscious thought is a myth. Instead, we generate our ideas, motives and thoughts in the moment. This revelation explains many of the quirks of human behaviour - for example why our supposedly firm political beliefs, personal preferences and even our romantic attractions are routinely proven to be inconsistent and changeable.<br /><br />As the reader discovers, through mind-bending visual examples and counterintuitive experiments, we are all characters of our own creation, constantly improvising our behaviour based on our past experiences. And, as Chater shows us, recognising this can be liberating.",
+      "authorName": "Nick Chater",
+      "isbn": "0241208440",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2024-02-22T06:17:26.000Z",
+      "userDateCreated": "2024-02-20T07:21:09.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "3.7",
+      "bookPublished": "",
+      "description": "<a href=\"https://www.goodreads.com/book/show/36325702-the-mind-is-flat?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Mind is Flat\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1520977033l/36325702._SY75_.jpg\" /></a><br/>\n                                      author: Nick Chater<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.7<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/02/21<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "272"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/4698992116?utm_medium=api&utm_source=rss",
       "title": "Taltos (Vlad Taltos, #4)",
       "link": "https://www.goodreads.com/review/show/4698992116?utm_medium=api&utm_source=rss",
@@ -21,27 +42,6 @@
       "bookPublished": "1988",
       "description": "<a href=\"https://www.goodreads.com/book/show/915554.Taltos?utm_medium=api&amp;utm_source=rss\"><img alt=\"Taltos (Vlad Taltos, #4)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1682481363l/915554._SY75_.jpg\" /></a><br/>\n                                      author: Steven Brust<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 1988<br/>\n                                      rating: 4<br/>\n                                      read at: 2024/02/21<br/>\n                                      date added: 2024/02/21<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "181"
-    },
-    {
-      "id": "https://www.goodreads.com/review/show/6278540321?utm_medium=api&utm_source=rss",
-      "title": "The Mind is Flat",
-      "link": "https://www.goodreads.com/review/show/6278540321?utm_medium=api&utm_source=rss",
-      "bookId": "36325702",
-      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1520977033l/36325702._SY75_.jpg",
-      "bookDescription": "<b>A radical reinterpretation of how your mind works - and why it could change your life </b><br /><b></b><br /><b></b><b>'An astonishing achievement. Nick Chater has blown my mind' Tim Harford</b><b></b><br /><b></b><br /><b>'A total assault on all lingering psychiatric and psychoanalytic notions of mental depths ... Light the touchpaper and stand well back' <i>New Scientist</i></b><br /><br />We all like to think we have a hidden inner life. Most of us assume that our beliefs and desires arise from the murky depths of our minds, and, if only we could work out how to access this mysterious world, we could truly understand ourselves. For more than a century, psychologists and psychiatrists have struggled to discover what lies below our mental surface.<br /><br />In <i>The Mind Is Flat</i>, pre-eminent behavioural scientist Nick Chater reveals that this entire enterprise is utterly misguided. Drawing on startling new research in neuroscience, behavioural psychology and perception, he shows that we have no hidden depths to plumb, and unconscious thought is a myth. Instead, we generate our ideas, motives and thoughts in the moment. This revelation explains many of the quirks of human behaviour - for example why our supposedly firm political beliefs, personal preferences and even our romantic attractions are routinely proven to be inconsistent and changeable.<br /><br />As the reader discovers, through mind-bending visual examples and counterintuitive experiments, we are all characters of our own creation, constantly improvising our behaviour based on our past experiences. And, as Chater shows us, recognising this can be liberating.",
-      "authorName": "Nick Chater",
-      "isbn": "0241208440",
-      "userName": "Daniel",
-      "userRating": "0",
-      "userReadAt": "",
-      "userDateAdded": "2024-02-21T07:25:06.000Z",
-      "userDateCreated": "2024-02-20T07:21:09.000Z",
-      "userShelves": "currently-reading",
-      "userReview": "",
-      "averageRating": "3.7",
-      "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/36325702-the-mind-is-flat?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Mind is Flat\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1520977033l/36325702._SY75_.jpg\" /></a><br/>\n                                      author: Nick Chater<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.7<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/02/20<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
-      "numPages": "272"
     },
     {
       "id": "https://www.goodreads.com/review/show/6278661072?utm_medium=api&utm_source=rss",
@@ -2264,9 +2264,9 @@
       "userDateCreated": "2023-08-29T07:22:46.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "3.9",
+      "averageRating": "3.8",
       "bookPublished": "2023",
-      "description": "<a href=\"https://www.goodreads.com/book/show/90590134-the-coming-wave?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Coming Wave: Technology, Power, and the Twenty-first Century&#39;s Greatest Dilemma\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1685351813l/90590134._SY75_.jpg\" /></a><br/>\n                                      author: Mustafa Suleyman<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: 2023<br/>\n                                      rating: 4<br/>\n                                      read at: 2023/09/23<br/>\n                                      date added: 2023/09/23<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/90590134-the-coming-wave?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Coming Wave: Technology, Power, and the Twenty-first Century&#39;s Greatest Dilemma\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1685351813l/90590134._SY75_.jpg\" /></a><br/>\n                                      author: Mustafa Suleyman<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.8<br/>\n                                      book published: 2023<br/>\n                                      rating: 4<br/>\n                                      read at: 2023/09/23<br/>\n                                      date added: 2023/09/23<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "332"
     },
     {
