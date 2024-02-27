@@ -16,6 +16,6 @@
     "web3.storage": "^4.5.4"
   },
   "devDependencies": {
-    "npm-check-updates": "^16.10.9"
+    "npm-check-updates": "^16.14.15"
   }
 }
