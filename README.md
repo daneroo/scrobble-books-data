@@ -36,7 +36,7 @@ The data file ca be fetched (externally) at
 
 The pinned CID's can be found at
 
-- <https://web3.storage/account/>
+- [web3.storage console (books space - by DID)](https://console.web3.storage/space/did:key:z6MkmwcwCLmuTxY6mWhh9BVmj8t7EZ2rjKtc7cTVYhjN77jq)
 
 Uses `pnpm` for orchestration, including for deno and github actions.
 
@@ -52,9 +52,10 @@ pnpm git:log
 
 ## TODO
 
-- [ ] Restore cue-lang/setup-cue see note below
-  - My PR is merged, but there has been no new release of setup-cue
-- [ ] Rewrite github actions with cue !?
+- [ ] Describe secret rotation for W3 Storage
+- [ ] Problem with act -j (scrape|unit)
+- Re-implement apps/pin to use w3.storeage (new)
+  - pnpm i @web3-storage/w3up-client
 - [ ] Use CBOR instead of files?
 - Clean up the data more
   - Removed unused fields (description, etc)
@@ -63,11 +64,19 @@ pnpm git:log
 
 ```bash
 # scrape (deno)
-. GOODREADS.env
+# export vars from secrets/GOODREADS.env
+set -a && source secrets/GOODREADS.env && set +a
 deno run -q --allow-read=. --allow-write=. --allow-run --allow-net --allow-env --unstable apps/scrape/src/scrape.js
 
-# pin to ipfs (node)
-. WEB3STORAGE.env
+# pin to ipfs (sh)
+# references secrets/WEB3STORAGE.env
+docker compose -f apps/pin-sh/compose.yaml run --rm -it uplaod-to-web3storage
+# to force rebuild
+docker compose -f apps/pin-sh/compose.yaml build # --no-cache to really force rebuild
+
+# pin to ipfs (node) - disabled for now
+# export vars from secrets/WEB3STORAGE.env
+set -a && source secrets/WEB3STORAGE.env && set +a
 node apps/pin/src/pin.js
 ```
 
@@ -92,13 +101,13 @@ pnpm act:scrape
 Equivalent to:
 
 ```bash
-# CI
+# CI/unit tests
 act -j unit
 act -j unit --container-architecture linux/amd64
 
 # Local run of scheduled scrape job
-act -j scrape --secret-file SCRAPE.secrets
-act -j scrape --secret-file SCRAPE.secrets --container-architecture linux/amd64
+act -j scrape --secret-file secrets/GITHUB.env
+act -j scrape --secret-file secrets/GITHUB.env --container-architecture linux/amd64
 ```
 
 ## Monitoring actions' commits
@@ -111,7 +120,6 @@ pnpm git:log
 ## equivalent to:
 git log|grep 'Latest book data' | cut -c22-31 | uniq -c |head -n 10
 ```
-
 
 ## Validating with `cue`
 

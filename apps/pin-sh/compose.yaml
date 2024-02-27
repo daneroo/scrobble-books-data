@@ -1,0 +1,12 @@
+version: "3"
+services:
+  uplaod-to-web3storage:
+    # image: node:lts
+    build:
+      context: .
+      dockerfile: Dockerfile
+    env_file:
+      - ../../secrets/WEB3STORAGE.env
+    volumes:
+      - ../../:/repo
+    # override command with bash if you want this interactive

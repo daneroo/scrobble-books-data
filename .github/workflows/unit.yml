@@ -10,23 +10,20 @@ jobs:
     #   GOODREADS_KEY: ${{ secrets.GOODREADS_KEY }}
     #   GOODREADS_USER: ${{ secrets.GOODREADS_USER }}
     steps:
-      - uses: actions/checkout@v3
-      - uses: pnpm/action-setup@v2
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v3
         with:
           version: 8
           run_install: true
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v4
         with:
-          node-version: "18"
+          node-version: "20"
       - uses: denoland/setup-deno@v1
         with:
           deno-version: v1.x
-      - uses: daneroo/setup-cue@main
-        # uses: cue-lang/setup-cue@v1.0.0-alpha.2
-        # test my fork: https://github.com/daneroo/setup-cue
-        # Using my own fork: PR: https://github.com/cue-lang/setup-cue/pull/10
+      - uses: cue-lang/setup-cue@v1.0.1
         with:
-          version: "v0.5.0" # default is latest
+          version: "v0.7.1" # default is latest
         id: install
 
       - name: Report versions

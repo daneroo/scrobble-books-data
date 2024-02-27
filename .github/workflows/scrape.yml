@@ -14,26 +14,33 @@ jobs:
     env:
       GOODREADS_KEY: ${{ secrets.GOODREADS_KEY }}
       GOODREADS_USER: ${{ secrets.GOODREADS_USER }}
-      WEB3STORAGE_TOKEN: ${{ secrets.WEB3STORAGE_TOKEN }}
+      W3_PRINCIPAL: ${{ secrets.W3_PRINCIPAL }}
+      W3_PROOF: ${{ secrets.W3_PROOF }}
     steps:
-      - uses: actions/checkout@v3
-      - uses: pnpm/action-setup@v2
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v3
         with:
           version: 8
           run_install: true
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v4
         with:
-          node-version: "18"
+          node-version: "20"
       - uses: denoland/setup-deno@v1
         with:
           deno-version: v1.x
-      - uses: daneroo/setup-cue@main
-        # uses: cue-lang/setup-cue@v1.0.0-alpha.2
-        # test my fork: https://github.com/daneroo/setup-cue
+      - uses: cue-lang/setup-cue@v1.0.1
+        # TODO(daneroo) look like cue-lang/setup-cue@v1.0.1 was released
+        # remove my fork: https://github.com/daneroo/setup-cue
         # Using my own fork: PR: https://github.com/cue-lang/setup-cue/pull/10
         with:
-          version: "v0.5.0" # default is latest
+          version: "v0.7.1" # default is latest
         id: install
+
+      - name: Install jq (for pin-sh)
+        run: sudo apt-get update && sudo apt-get install -y jq
+
+      - name: Install @web3-storage/w3cli (for pin-sh)
+        run: npm install -g @web3-storage/w3cli
 
       - name: Report versions
         run: |
@@ -41,6 +48,8 @@ jobs:
           node --version
           pnpm --version
           cue version
+          jq --version
+          w3 --version
 
       # Get the stamp for the eventual commit message
       - name: Get current date stamp
@@ -49,7 +58,7 @@ jobs:
       - name: Scrape Goodreads feed
         # deno run w/ reload seems to have fixed CI issues
         run: |
-          deno run --reload -q --allow-read --allow-write --allow-run --allow-net --allow-env --unstable apps/scrape/src/scrape.js
+          deno run --reload -q --allow-read --allow-write --allow-run --allow-net --allow-env apps/scrape/src/scrape.js
 
       - name: E2E - Validate Intermediate RSS files with CUE
         run: cue vet check-rss.cue ../data/rss-json/goodreads-rss-p*.json
@@ -59,13 +68,17 @@ jobs:
         run: cue vet check-output.cue ../goodreads-rss.json
         working-directory: cue
 
-      - name: Pin to web3.storage (node)
-        run: echo "Skip Pinning to web3.storage (node)"
-        # run: node apps/pin/src/pin.js
+      - name: Pin to web3.storage (bash / w3 cli)
+        run: ./apps/pin-sh/uploadToW3Storage.sh
+
+      #  J version disabled for now
+      # - name: Pin to web3.storage (node)
+      #   run: node apps/pin/src/pin.js
 
       # see docs at https://github.com/stefanzweifel/git-auto-commit-action
       - name: Commit back changes
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@v5
+        if: ${{ !env.ACT }} # only commit if not in a local test run
         with:
           commit_message: Latest book data ${{ env.stamp }}
 
@@ -77,9 +90,9 @@ jobs:
           file_pattern: goodreads-rss.json goodreads-ipfs.json
 
           # Optional commit user and author settings
-          # commit_user_name: My GitHub Actions Bot # defaults to "GitHub Actions"
-          # commit_user_email: my-github-actions-bot@example.org # defaults to "actions@github.com"
-          # commit_author: Author <actions@github.com> # defaults to author of the commit that triggered the run
+          commit_user_name: Scrobble Books GitHub Actions Bot # defaults to "github-actions[bot]"
+          # commit_user_email: my-github-actions-bot@example.org # defaults to "41898282+github-actions[bot]@users.noreply.github.com"
+          # commit_author: Author <actions@github.com> # defaults to "username <username@users.noreply.github.com>", where "username" belongs to the author of the commit that triggered the run
 
           # Optional. Used by `git-status`
           # See https://git-scm.com/docs/git-status#_options

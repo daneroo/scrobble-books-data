@@ -1,7 +1,7 @@
-GOODREADS.env
-WEB3STORAGE.env
-# both combined for local `act` invocation
-SCRAPE.secrets 
+# Ignore everything in the secrets directory, except the README.md file
+secrets/*
+!secrets/README.md
+
 # Don't check these in, some of them change every run
 data/
 node_modules/

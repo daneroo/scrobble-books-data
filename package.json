@@ -8,7 +8,7 @@
     "deps:check": "pnpm -r deps:check",
     "deps:update": "pnpm -r deps:update",
     "act:unit": "act -j unit --container-architecture linux/amd64",
-    "act:scrape": "act -j scrape --secret-file SCRAPE.secrets --container-architecture linux/amd64",
+    "act:scrape": "act -j scrape --secret-file secrets/GITHUB.env --container-architecture linux/amd64",
     "git:log": "echo 'Recent Scraping Commits' ;git log|grep 'Latest book data' | cut -c22-31 | uniq -c |head -n 10; echo 'git pull?'"
   },
   "keywords": [],
