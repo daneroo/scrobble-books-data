@@ -55,6 +55,7 @@ pnpm git:log
 - [ ] Problem with act -j (scrape|unit)
 - [ ] scrape progress on goodreads with playwright (bun! why not!)
 - [ ] Re-implement apps/pin to use w3.storage (new)
+  - <https://web3.storage/docs/w3up-client/>
   - pnpm i @web3-storage/w3up-client
 - [ ] Use CBOR instead of files?
 - Clean up the data more
