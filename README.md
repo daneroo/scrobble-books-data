@@ -52,9 +52,9 @@ pnpm git:log
 
 ## TODO
 
-- [ ] Describe secret rotation for W3 Storage
 - [ ] Problem with act -j (scrape|unit)
-- Re-implement apps/pin to use w3.storeage (new)
+- [ ] scrape progress on goodreads with playwright (bun! why not!)
+- [ ] Re-implement apps/pin to use w3.storage (new)
   - pnpm i @web3-storage/w3up-client
 - [ ] Use CBOR instead of files?
 - Clean up the data more
