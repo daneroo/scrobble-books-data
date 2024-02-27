@@ -66,8 +66,6 @@ env_vars_exist W3_PRINCIPAL W3_PROOF
 
 # add our proof
 print_header "Adding proof to gain access to w3 space (books)"
-echo "  principal: |$W3_PRINCIPAL|"
-echo "  proof: |$W3_PROOF|"
 w3 space add $W3_PROOF
 
 print_header "Showing added proof and capabilities"

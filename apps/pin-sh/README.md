@@ -16,6 +16,14 @@ using the `w3` cli, we can upload a file, and remove all other older files.
 - credentials: see [Upload from CI](https://web3.storage/docs/how-to/ci/)
 - prove we can revoke all credentials
 
+## Usage
+
+```bash
+docker compose run --rm -it uplaod-to-web3storage
+# or from the root of this repo
+docker compose -f apps/pin-sh/compose.yaml run --rm -it uplaod-to-web3storage
+```
+
 ## Total usage
 
 Get total usage for the current space:
@@ -69,6 +77,7 @@ AUDIENCE=$(jq -r .did ci-key.json)
 # * using capabilities store/* and upload/* (we ned to list,create and delete from CI)
 # * Could probably add expiration --exp
 W3_PROOF=$(w3 delegation create $AUDIENCE -c 'store/*' -c 'upload/*' --base64)
+# Write the env file
 ENV_FILE_CONTENT=$(cat <<EOF
 W3_PRINCIPAL=${W3_PRINCIPAL}
 W3_PROOF=${W3_PROOF}
