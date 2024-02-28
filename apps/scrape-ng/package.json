@@ -1,0 +1,14 @@
+{
+  "name": "scrape-ng",
+  "version": "1.0.0",
+  "description": "scrape but deeper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.42.0"
+  }
+}
