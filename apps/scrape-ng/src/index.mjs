@@ -49,9 +49,39 @@ async function main() {
     // await page.goto("https://www.goodreads.com/review/stats/6883912");
     // await page.waitForTimeout(1000);
 
-    // now go to 2024
-    const year = 2024;
-    const url = `https://www.goodreads.com/review/list/${credentials.GOODREADS_USER}?read_at=${year}`;
+    // browsing by year
+    for (const year of [2024, 2023, 2022, 2021]) {
+      const url = reviewURLForYear(credentials, year);
+      const data = await getItemsFromReviewURL(page, url);
+      console.log(`- year:${year} items:${data.length}`);
+    }
+    await page.waitForTimeout(1000);
+
+    // Now for a specific book, go to the review page (from the id=review_4789085379 above)
+    const ids = ["4789085379", "3888950315"]; // Add your desired IDs here
+    for (const id of ids) {
+      const readingProgress = await getReadingProgress(page, id);
+      await page.waitForTimeout(1000);
+      console.log(id, readingProgress);
+    }
+
+    // Add a wait for 5 seconds
+    await page.waitForTimeout(1000);
+
+    await browser.close();
+  } catch (e) {
+    console.error(e.message);
+    process.exit(1);
+  }
+
+  /**
+   * Retrieves items from a review URL.
+   *
+   * @param {Page} page - The page object representing the browser page.
+   * @param {string} url - The URL of the review page.
+   * @returns {Promise<Array<Object>>} - A promise that resolves to an array of items retrieved from the review URL.
+   */
+  async function getItemsFromReviewURL(page, url) {
     await page.goto(url);
     await page.waitForTimeout(1000);
 
@@ -84,24 +114,7 @@ async function main() {
         };
       });
     });
-    console.log(data);
-    await page.waitForTimeout(1000);
-
-    // Now for a specific book, go to the review page (from the id=review_4789085379 above)
-    const ids = ["4789085379", "3888950315"]; // Add your desired IDs here
-    for (const id of ids) {
-      const readingProgress = await getReadingProgress(page, id);
-      await page.waitForTimeout(1000);
-      console.log(id, readingProgress);
-    }
-
-    // Add a wait for 5 seconds
-    await page.waitForTimeout(15000);
-
-    await browser.close();
-  } catch (e) {
-    console.error(e.message);
-    process.exit(1);
+    return data;
   }
 }
 
@@ -172,6 +185,12 @@ async function login(credentials, page) {
   // confirm that we are logged in by waiting for the "My Books" link to appear
   console.log("- Should confirm we are logged in!");
   await page.waitForTimeout(1000);
+}
+
+// TODO(daneroo): Add JSDoc and should be paged
+function reviewURLForYear(credentials, year) {
+  // -daniel-lauzon?utf8=✓&read_at=2022&per_page=100
+  return `https://www.goodreads.com/review/list/${credentials.GOODREADS_USER}?read_at=${year}`;
 }
 
 async function getReadingProgress(page, id) {
