@@ -1,13 +1,24 @@
 # scrape-ng
 
-Use playwright/puppeteer to craw goodreads
+Use playwright to crawl goodreads
+
+## TODO
+
+- [ ] run test on GitHub Actions/act
+- [ ] Document Navigation for scraping
+- [ ] add some tests
 
 ## Setup
 
 ```bash
 pnpm install playwright
 pnpx playwright install
-node index.mjs
+
+# get your sectrets
+set -a && source ../../secrets/GOODREADS.env && set +a
+node src/index.mjs
+# or
+pnpm start
 ```
 
 ## References

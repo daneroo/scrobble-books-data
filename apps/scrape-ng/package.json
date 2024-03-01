@@ -2,13 +2,20 @@
   "name": "scrape-ng",
   "version": "1.0.0",
   "description": "scrape but deeper",
-  "main": "index.js",
+  "type": "module",
+  "main": "src/index.mjs",
   "scripts": {
-    "test": "echo \"Warning: no test specified\""
+    "start": "node src/index.mjs",
+    "test": "echo \"Warning: no test specified\"",
+    "deps:check": "ncu",
+    "deps:update": "ncu -i"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "playwright": "^1.42.0"
+  },
+  "devDependencies": {
+    "npm-check-updates": "^16.14.15"
   }
 }
