@@ -12,14 +12,14 @@
       "isbn": "0441001963",
       "userName": "Daniel",
       "userRating": "4",
-      "userReadAt": "2022-06-24T00:00:00.000Z",
-      "userDateAdded": "2024-03-01T04:51:15.000Z",
+      "userReadAt": "2024-03-01T00:00:00.000Z",
+      "userDateAdded": "2024-03-01T09:15:08.000Z",
       "userDateCreated": "2022-06-17T07:27:42.000Z",
-      "userShelves": "currently-reading",
+      "userShelves": "",
       "userReview": "",
       "averageRating": "4.1",
       "bookPublished": "1996",
-      "description": "<a href=\"https://www.goodreads.com/book/show/133464.Orca?utm_medium=api&amp;utm_source=rss\"><img alt=\"Orca (Vlad Taltos, #7)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1704246091l/133464._SY75_.jpg\" /></a><br/>\n                                      author: Steven Brust<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: 1996<br/>\n                                      rating: 4<br/>\n                                      read at: 2022/06/24<br/>\n                                      date added: 2024/02/29<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/133464.Orca?utm_medium=api&amp;utm_source=rss\"><img alt=\"Orca (Vlad Taltos, #7)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1704246091l/133464._SY75_.jpg\" /></a><br/>\n                                      author: Steven Brust<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: 1996<br/>\n                                      rating: 4<br/>\n                                      read at: 2024/03/01<br/>\n                                      date added: 2024/03/01<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "290"
     },
     {
