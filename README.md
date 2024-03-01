@@ -77,7 +77,7 @@ node apps/scrape-ng/src/index.mjs
 
 # pin to ipfs (sh)
 # references secrets/WEB3STORAGE.env
-docker compose -f apps/pin-sh/compose.yaml run --rm -it uplaod-to-web3storage
+docker compose -f apps/pin-sh/compose.yaml run --rm -it upload-to-web3storage
 # to force rebuild
 docker compose -f apps/pin-sh/compose.yaml build # --no-cache to really force rebuild
 

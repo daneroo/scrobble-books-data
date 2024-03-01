@@ -18,12 +18,12 @@ We need a robust test, for the login, and book list iteration termination.
 
 - Login
 - My Books (by shelf: #ALL#, read, currently-reading, to-read), on-deck, etc
-  - This is for a userId (here the `-danierl-lauzon` part of the URL is actually optional)
+  - This is for a userId (here the `-daniel-lauzon` part of the URL is actually optional)
   - e.g.: `https://www.goodreads.com/review/list/6883912-daniel-lauzon?shelf=%23ALL%23&title=daniel-lauzon&sort=date_updated&order=d`
 - Individual book review (Only want 'READING PROGRESS' section for now)
   - the review page has a user specific id, not the same as book id
   - e.g.: `https://www.goodreads.com/review/show/4789085651`
-- Stats i.e. books by year (interesting but not used anymoire)
+- Stats i.e. books by year (interesting but not used anymore)
 
 ## Setup
 
@@ -31,7 +31,7 @@ We need a robust test, for the login, and book list iteration termination.
 pnpm install playwright
 pnpx playwright install
 
-# get your sectrets
+# get your secrets
 set -a && source ../../secrets/GOODREADS.env && set +a
 node src/index.mjs
 # or

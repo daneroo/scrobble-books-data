@@ -1,6 +1,6 @@
 version: "3"
 services:
-  uplaod-to-web3storage:
+  upload-to-web3storage:
     # image: node:lts
     build:
       context: .

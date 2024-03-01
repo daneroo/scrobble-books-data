@@ -19,9 +19,9 @@ using the `w3` cli, we can upload a file, and remove all other older files.
 ## Usage
 
 ```bash
-docker compose run --rm -it uplaod-to-web3storage
+docker compose run --rm -it upload-to-web3storage
 # or from the root of this repo
-docker compose -f apps/pin-sh/compose.yaml run --rm -it uplaod-to-web3storage
+docker compose -f apps/pin-sh/compose.yaml run --rm -it upload-to-web3storage
 ```
 
 ## Total usage
