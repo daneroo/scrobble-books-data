@@ -1,25 +1,159 @@
-import { chromium, firefox, webkit } from "playwright";
-
+// @ts-check
+import { chromium } from "playwright";
 // const browserTypes = [chromium, firefox, webkit];
-const browserType = chromium;
-const launchOptions = {
-  headless: false,
+
+/**
+ * @typedef {import('playwright').Browser} Browser
+ * @typedef {import('playwright').Page} Page
+ * @typedef {import('playwright').BrowserType<import('playwright').Browser>} BrowserType
+ * @typedef {import('playwright').LaunchOptions} LaunchOptions
+ * @typedef {import('playwright').BrowserContext} BrowserContext
+ */
+
+/**
+ * @typedef {Object} Credentials
+ * @property {string} GOODREADS_USERNAME - The username for the Goodreads account.
+ * @property {string} GOODREADS_PASSWORD - The password for the Goodreads account.
+ * @property {string} GOODREADS_USER - The user id for the Goodreads account.
+ * @property {string} GOODREADS_KEY - The key for the Goodreads account. (Not sure if this is needed)
+ */
+
+/**
+ * Configuration object for the browser.
+ * @typedef {Object} BrowserConfig
+ * @property {BrowserType} browserType - The type of browser to use.
+ * @property {LaunchOptions} launchOptions - The options to use when launching the browser.
+ */
+
+/** @type {BrowserConfig} */
+const browserConfig = {
+  browserType: chromium,
+  launchOptions: {
+    headless: false,
+  },
 };
 
-// get GOODREADS_USERNAME and GOODREADS_PASSWORD from the environment
-const { GOODREADS_USERNAME, GOODREADS_PASSWORD } = process.env;
-// exit if they are not present (say why)
-if (!GOODREADS_USERNAME || !GOODREADS_PASSWORD) {
-  console.error(
-    "Missing GOODREADS_USERNAME or GOODREADS_PASSWORD environment variables"
-  );
-  process.exit(1);
+async function main() {
+  //  get credentials early for early exit.
+  console.log("Getting credentials");
+  try {
+    const credentials = getCredentials();
+    console.log("Got credentials, or exited early.");
+
+    const { page, browser } = await getNewPlaywrightPage(browserConfig);
+
+    await login(credentials, page);
+
+    // go to the stats page
+    //  click on My Books, click on the stats link, lands here
+    // await page.goto("https://www.goodreads.com/review/stats/6883912");
+    // await page.waitForTimeout(1000);
+
+    // now go to 2024
+    const year = 2024;
+    const url = `https://www.goodreads.com/review/list/${credentials.GOODREADS_USER}?read_at=${year}`;
+    await page.goto(url);
+    await page.waitForTimeout(1000);
+
+    const data = await page.$$eval("table#books tbody tr", (rows) => {
+      return rows.map((row) => {
+        const id = row.getAttribute("id");
+        const title = row?.querySelector(".field.title a")?.textContent?.trim();
+        const author = row
+          ?.querySelector(".field.author a")
+          ?.textContent?.trim();
+        const readCount = row
+          ?.querySelector(".field.read_count .value")
+          ?.textContent?.trim();
+
+        const dateStartedValues = Array.from(
+          row.querySelectorAll(".field.date_started .date_started_value")
+        ).map((el) => el?.textContent?.trim());
+
+        const dateReadValues = Array.from(
+          row.querySelectorAll(".field.date_read .date_read_value")
+        ).map((el) => el?.textContent?.trim());
+
+        return {
+          id,
+          title,
+          author,
+          readCount,
+          dateStartedValues,
+          dateReadValues,
+        };
+      });
+    });
+    console.log(data);
+    await page.waitForTimeout(1000);
+
+    // Now for a specific book, go to the review page (from the id=review_4789085379 above)
+    const ids = ["4789085379", "3888950315"]; // Add your desired IDs here
+    for (const id of ids) {
+      const readingProgress = await getReadingProgress(page, id);
+      await page.waitForTimeout(1000);
+      console.log(id, readingProgress);
+    }
+
+    // Add a wait for 5 seconds
+    await page.waitForTimeout(15000);
+
+    await browser.close();
+  } catch (e) {
+    console.error(e.message);
+    process.exit(1);
+  }
 }
 
-async function main() {
+await main();
+console.log("Done");
+
+/**
+ * Retrieves the credentials required for accessing the Goodreads API.
+ * @returns {Credentials} The credentials object containing the Goodreads username and password.
+ * @throws {Error} If the GOODREADS_USERNAME or GOODREADS_PASSWORD environment variables are missing.
+ */
+function getCredentials() {
+  const GOODREADS_USERNAME = process.env.GOODREADS_USERNAME;
+  const GOODREADS_PASSWORD = process.env.GOODREADS_PASSWORD;
+  const GOODREADS_USER = process.env.GOODREADS_USER;
+  const GOODREADS_KEY = process.env.GOODREADS_KEY;
+  // null checks must be performed on fields for undefined check to propagate
+  if (
+    GOODREADS_USERNAME !== undefined &&
+    GOODREADS_PASSWORD !== undefined &&
+    GOODREADS_USER !== undefined &&
+    GOODREADS_KEY !== undefined
+  ) {
+    return {
+      GOODREADS_USERNAME,
+      GOODREADS_PASSWORD,
+      GOODREADS_USER,
+      GOODREADS_KEY,
+    };
+  } else {
+    throw new Error(
+      "Missing GOODREADS_USERNAME, GOODREADS_PASSWORD, GOODREADS_USER, or GOODREADS_KEY environment variables."
+    );
+  }
+}
+
+/**
+ * Creates a new Playwright page using the provided browser configuration.
+ *
+ * @param {BrowserConfig} browserConfig - The configuration for the browser.
+ * @returns {Promise<{ page: Page, browser: Browser }>} - The new Playwright page and browser.
+ */
+async function getNewPlaywrightPage(browserConfig) {
+  const { browserType, launchOptions } = browserConfig;
   const browser = await browserType.launch(launchOptions);
   const context = await browser.newContext();
   const page = await context.newPage();
+  return { page, browser };
+}
+
+async function login(credentials, page) {
+  const { GOODREADS_USERNAME, GOODREADS_PASSWORD } = credentials;
   await page.goto("https://www.goodreads.com/user/sign_in");
   await page.waitForTimeout(1000);
 
@@ -34,65 +168,11 @@ async function main() {
   await page.waitForTimeout(1000);
   // Submit the form by clicking the sign in button
   await page.click("#signInSubmit");
+  // wait for the page submission to complete
+  // confirm that we are logged in by waiting for the "My Books" link to appear
+  console.log("- Should confirm we are logged in!");
   await page.waitForTimeout(1000);
-
-  // go to the stats page
-  //  click on My Books, click on the stats link, lands here
-  await page.goto("https://www.goodreads.com/review/stats/6883912");
-  await page.waitForTimeout(1000);
-  // now go to 2024
-  // https://www.goodreads.com/review/list/6883912-daniel-lauzon?read_at=2024
-  await page.goto(
-    "https://www.goodreads.com/review/list/6883912-daniel-lauzon?read_at=2024"
-  );
-  await page.waitForTimeout(1000);
-
-  const data = await page.$$eval("table#books tbody tr", (rows) => {
-    return rows.map((row) => {
-      const id = row.getAttribute("id");
-      const title = row.querySelector(".field.title a").textContent.trim();
-      const author = row.querySelector(".field.author a").textContent.trim();
-      const readCount = row
-        .querySelector(".field.read_count .value")
-        ?.textContent.trim();
-
-      const dateStartedValues = Array.from(
-        row.querySelectorAll(".field.date_started .date_started_value")
-      ).map((el) => el.textContent.trim());
-
-      const dateReadValues = Array.from(
-        row.querySelectorAll(".field.date_read .date_read_value")
-      ).map((el) => el.textContent.trim());
-
-      return {
-        id,
-        title,
-        author,
-        readCount,
-        dateStartedValues,
-        dateReadValues,
-      };
-    });
-  });
-  console.log(data);
-  await page.waitForTimeout(1000);
-
-  // Now for a specific book, go to the review page (from the id=review_4789085379 above)
-  const ids = ["4789085379", "3888950315"]; // Add your desired IDs here
-  for (const id of ids) {
-    const readingProgress = await getReadingProgress(page, id);
-    await page.waitForTimeout(1000);
-    console.log(id, readingProgress);
-  }
-
-  // Add a wait for 5 seconds
-  await page.waitForTimeout(15000);
-
-  await browser.close();
 }
-
-await main();
-console.log("Done");
 
 async function getReadingProgress(page, id) {
   await page.goto(`https://www.goodreads.com/review/show/${id}`);
