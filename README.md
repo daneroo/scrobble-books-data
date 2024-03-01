@@ -53,7 +53,7 @@ pnpm git:log
 ## TODO
 
 - [ ] Problem with act -j (scrape|unit)
-- [ ] scrape progress on goodreads with playwright (bun! why not!)
+- [ ] scrape-ng progress on goodreads with playwright (bun! why not!)
 - [ ] Re-implement apps/pin to use w3.storage (new)
   - <https://web3.storage/docs/w3up-client/>
   - pnpm i @web3-storage/w3up-client
@@ -69,12 +69,17 @@ pnpm git:log
 set -a && source secrets/GOODREADS.env && set +a
 deno run -q --allow-read=. --allow-write=. --allow-run --allow-net --allow-env --unstable apps/scrape/src/scrape.js
 
+# scrape-ng (node)
+# export vars from secrets/GOODREADS.env
+set -a && source secrets/GOODREADS.env && set +a
+node apps/scrape-ng/index.mjs
 # pin to ipfs (sh)
 # references secrets/WEB3STORAGE.env
 docker compose -f apps/pin-sh/compose.yaml run --rm -it uplaod-to-web3storage
 # to force rebuild
 docker compose -f apps/pin-sh/compose.yaml build # --no-cache to really force rebuild
 
+# Deprecated 'till rewritten
 # pin to ipfs (node) - disabled for now
 # export vars from secrets/WEB3STORAGE.env
 set -a && source secrets/WEB3STORAGE.env && set +a

@@ -22,6 +22,12 @@ W3_PROOF=mAYIE_VERY_LONG_BASE64_TEXT_KotQfXw
 ## GOODREADS.env
 
 ```bash
+# Needed for Goodreads scraping (rss feed in xml)
 GOODREADS_USER=nnnn
+## Not sure this is actually needed, but still used in rss fetch url param key=
 GOODREADS_KEY=xxxxx
+
+# Needed for Goodreads scraping (login creds for scrape-ng/playwright)
+GOODREADS_USERNAME=aaaaa
+GOODREADS_PASSWORD=xyzxyz
 ```
