@@ -51,22 +51,46 @@ async function main() {
 
     // browsing by year
     for (const year of [2024, 2023, 2022, 2021]) {
-      const url = reviewURLForYear(credentials, year);
-      const data = await getItemsFromReviewURL(page, url);
-      console.log(`- year:${year} items:${data.length}`);
+      const params = reviewURLParamsForYear(year);
+      const maxPages = 20;
+      let pageNumber = 1;
+      while (true) {
+        const pageParams = { ...params, page: pageNumber };
+        const url = reviewURL(credentials, pageParams);
+        const data = await getItemsFromReviewURL(page, url);
+        console.log(
+          `- year:${year} page:${pageNumber} items:${data.length} url:${url}`
+        );
+        if (data.length === 0) {
+          break;
+        }
+        if (data.length < pageParams.per_page) {
+          console.info(
+            `Got ${data.length} items < per_page:${pageParams.per_page} items, breaking`
+          );
+          break;
+        }
+        if (pageNumber > maxPages) {
+          console.warn(
+            `maxPages of ${maxPages} exceeded, breaking out of page loop.`
+          );
+          break;
+        }
+        pageNumber++;
+      }
     }
     await page.waitForTimeout(1000);
 
     // Now for a specific book, go to the review page (from the id=review_4789085379 above)
-    const ids = ["4789085379", "3888950315"]; // Add your desired IDs here
-    for (const id of ids) {
-      const readingProgress = await getReadingProgress(page, id);
-      await page.waitForTimeout(1000);
-      console.log(id, readingProgress);
-    }
+    // const ids = ["4789085379", "3888950315"]; // Add your desired IDs here
+    // for (const id of ids) {
+    //   const readingProgress = await getReadingProgress(page, id);
+    //   await page.waitForTimeout(1000);
+    //   console.log(id, readingProgress);
+    // }
 
-    // Add a wait for 5 seconds
-    await page.waitForTimeout(1000);
+    // // Add a wait for 5 seconds
+    // await page.waitForTimeout(1000);
 
     await browser.close();
   } catch (e) {
@@ -82,10 +106,16 @@ async function main() {
    * @returns {Promise<Array<Object>>} - A promise that resolves to an array of items retrieved from the review URL.
    */
   async function getItemsFromReviewURL(page, url) {
-    await page.goto(url);
-    await page.waitForTimeout(1000);
+    console.log(`- getItemsFromReviewURL:${url}`);
+    // timing - wait for the page to load
+    await page.goto(url, { waitUntil: "load" });
 
-    const data = await page.$$eval("table#books tbody tr", (rows) => {
+    // - wait for the table to be present (even if hidden)
+    // this is simply 'table#books tbody#booksBody'
+    const booksBodyLocator = page.locator("#booksBody");
+    await booksBodyLocator.waitFor({ state: "attached" }); // state:attached means even if not visible
+
+    const data = await booksBodyLocator.locator("tr").evaluateAll((rows) => {
       return rows.map((row) => {
         const id = row.getAttribute("id");
         const title = row?.querySelector(".field.title a")?.textContent?.trim();
@@ -187,10 +217,29 @@ async function login(credentials, page) {
   await page.waitForTimeout(1000);
 }
 
+function reviewURL(credentials, params) {
+  const baseURL = "https://www.goodreads.com/review/list";
+  const query = new URLSearchParams(params).toString();
+  return `${baseURL}/${credentials.GOODREADS_USER}?${query}`;
+}
+
 // TODO(daneroo): Add JSDoc and should be paged
-function reviewURLForYear(credentials, year) {
-  // -daniel-lauzon?utf8=✓&read_at=2022&per_page=100
-  return `https://www.goodreads.com/review/list/${credentials.GOODREADS_USER}?read_at=${year}`;
+function reviewURLParamsForYear(year) {
+  return {
+    read_at: year,
+    page: 1,
+    per_page: 100,
+    utf8: "✓",
+  };
+}
+
+function reviewURLParamsForShelf(shelf = "#ALL#") {
+  return {
+    shelf,
+    page: 1,
+    per_page: 100,
+    utf8: "✓",
+  };
 }
 
 async function getReadingProgress(page, id) {
