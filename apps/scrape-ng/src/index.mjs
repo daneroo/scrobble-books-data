@@ -52,10 +52,10 @@ async function main() {
     // browsing by shelf
     for (const shelf of [
       // "currently-reading",
-      // "on-deck",
+      "on-deck",
       // "read",
       // "to-read",
-      "#ALL#",
+      // "#ALL#",
     ]) {
       console.log(`\n## Scanning shelf:${shelf}`);
       const params = reviewURLParamsForShelf(shelf);
@@ -79,88 +79,94 @@ async function main() {
     console.error(e.message);
     process.exit(1);
   }
+}
 
-  async function reviewPageIterator(page, credentials, params) {
-    const maxPages = 100;
-    let pageNumber = 1;
-    while (true) {
-      const pageParams = { ...params, page: pageNumber };
-      const url = reviewURL(credentials, pageParams);
-      const start = +new Date();
-      const data = await getItemsFromReviewURL(page, url);
-      console.log(
-        `- page:${pageNumber} in ${+new Date() - start}ms items:${
-          data.length
-        } ${JSON.stringify(pageParams)}`
-      );
-      console.debug(`  - url:${url}`);
-      if (data.length === 0) {
-        console.info(`- break: no items:${data.length}`);
-        break;
-      }
-      if (data.length < pageParams.per_page) {
-        console.info(
-          `- break: ${data.length} items < per_page:${pageParams.per_page} items, breaking`
-        );
-        break;
-      }
-      if (pageNumber > maxPages) {
-        console.warn(
-          `- break page:${page} of max:${maxPages} exceeded, breaking out of page loop.`
-        );
-        break;
-      }
-      pageNumber++;
+/**
+ * Iterates over review pages and retrieves data from each page.
+ *
+ * @param {Page} page - The page object used for web scraping.
+ * @param {Credentials} credentials - The credentials object used for authentication.
+ * @param {Object} params - The parameters object used for configuring the review page.
+ * @returns {Promise<void>} - A promise that resolves when all review pages have been processed.
+ */
+async function reviewPageIterator(page, credentials, params) {
+  const maxPages = 100;
+  let pageNumber = 1;
+  while (true) {
+    const pageParams = { ...params, page: pageNumber };
+    const url = reviewURL(credentials, pageParams);
+    const start = +new Date();
+    const data = await getItemsFromReviewURL(page, url);
+    console.log(
+      `- page:${pageNumber} in ${+new Date() - start}ms items:${
+        data.length
+      } ${JSON.stringify(pageParams)}`
+    );
+    console.debug(`  - url:${url}`);
+    if (data.length === 0) {
+      console.info(`- break: no items:${data.length}`);
+      break;
     }
+    if (data.length < pageParams.per_page) {
+      console.info(
+        `- break: ${data.length} items < per_page:${pageParams.per_page} items, breaking`
+      );
+      break;
+    }
+    if (pageNumber > maxPages) {
+      console.warn(
+        `- break page:${page} of max:${maxPages} exceeded, breaking out of page loop.`
+      );
+      break;
+    }
+    pageNumber++;
   }
+}
 
-  /**
-   * Retrieves items from a review URL.
-   *
-   * @param {Page} page - The page object representing the browser page.
-   * @param {string} url - The URL of the review page.
-   * @returns {Promise<Array<Object>>} - A promise that resolves to an array of items retrieved from the review URL.
-   */
-  async function getItemsFromReviewURL(page, url) {
-    // timing - wait for the page to load
-    await page.goto(url, { waitUntil: "load" });
+/**
+ * Retrieves items from a review URL.
+ *
+ * @param {Page} page - The page object representing the browser page.
+ * @param {string} url - The URL of the review page.
+ * @returns {Promise<Array<Object>>} - A promise that resolves to an array of items retrieved from the review URL.
+ */
+async function getItemsFromReviewURL(page, url) {
+  // timing - wait for the page to load
+  await page.goto(url, { waitUntil: "load" });
 
-    // - wait for the table to be present (even if hidden)
-    // this is simply 'table#books tbody#booksBody'
-    const booksBodyLocator = page.locator("#booksBody");
-    await booksBodyLocator.waitFor({ state: "attached" }); // state:attached means even if not visible
+  // - wait for the table to be present (even if hidden)
+  // this is simply 'table#books tbody#booksBody'
+  const booksBodyLocator = page.locator("#booksBody");
+  await booksBodyLocator.waitFor({ state: "attached" }); // state:attached means even if not visible
 
-    const data = await booksBodyLocator.locator("tr").evaluateAll((rows) => {
-      return rows.map((row) => {
-        const id = row.getAttribute("id");
-        const title = row?.querySelector(".field.title a")?.textContent?.trim();
-        const author = row
-          ?.querySelector(".field.author a")
-          ?.textContent?.trim();
-        const readCount = row
-          ?.querySelector(".field.read_count .value")
-          ?.textContent?.trim();
+  const data = await booksBodyLocator.locator("tr").evaluateAll((rows) => {
+    return rows.map((row) => {
+      const id = row.getAttribute("id");
+      const title = row?.querySelector(".field.title a")?.textContent?.trim();
+      const author = row?.querySelector(".field.author a")?.textContent?.trim();
+      const readCount = row
+        ?.querySelector(".field.read_count .value")
+        ?.textContent?.trim();
 
-        const dateStartedValues = Array.from(
-          row.querySelectorAll(".field.date_started .date_started_value")
-        ).map((el) => el?.textContent?.trim());
+      const dateStartedValues = Array.from(
+        row.querySelectorAll(".field.date_started .date_started_value")
+      ).map((el) => el?.textContent?.trim());
 
-        const dateReadValues = Array.from(
-          row.querySelectorAll(".field.date_read .date_read_value")
-        ).map((el) => el?.textContent?.trim());
+      const dateReadValues = Array.from(
+        row.querySelectorAll(".field.date_read .date_read_value")
+      ).map((el) => el?.textContent?.trim());
 
-        return {
-          id,
-          title,
-          author,
-          readCount,
-          dateStartedValues,
-          dateReadValues,
-        };
-      });
+      return {
+        id,
+        title,
+        author,
+        readCount,
+        dateStartedValues,
+        dateReadValues,
+      };
     });
-    return data;
-  }
+  });
+  return data;
 }
 
 await main();
