@@ -4,6 +4,11 @@ Use playwright to crawl goodreads
 
 ## TODO
 
+- [x] validate login
+- [ ] add retry logic - getItemsFromReviewURL
+- [ ] validate what can be accomplished with no login (cheerio?)
+- [ ] test and document the columns schema
+- [ ] column specifiers as data
 - [ ] run test on GitHub Actions/act
 - [ ] Document Navigation for scraping
 - [ ] add some tests
@@ -13,6 +18,13 @@ Use playwright to crawl goodreads
 Basic idea, is to login, get all books (perhaps for a specific shelf) by page, and then get the reading progress for each book.
 
 We need a robust test, for the login, and book list iteration termination.
+
+### Unauthenticated
+
+It seems I can navigate unauthenticated, but implied and unchangeable are per_page=20 and sort=added|date_added, however pagination works.
+with page=1,2,3..
+
+I can also view a specific review!
 
 ### Parts
 
