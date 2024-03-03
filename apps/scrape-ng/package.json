@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "scrape but deeper",
   "type": "module",
-  "main": "src/index.mjs",
+  "main": "dist/index.js",
   "scripts": {
-    "start": "node src/index.mjs",
+    "build": "tsc",
+    "start": "tsc && node dist/index.js",
+    "bun:start": "bun src/index.ts",
     "test": "echo \"Warning: no test specified\"",
     "deps:check": "ncu",
     "deps:update": "ncu -i"
@@ -16,6 +18,8 @@
     "playwright": "^1.42.0"
   },
   "devDependencies": {
-    "npm-check-updates": "^16.14.15"
+    "@types/node": "^20.11.24",
+    "npm-check-updates": "^16.14.15",
+    "typescript": "^5.3.3"
   }
 }

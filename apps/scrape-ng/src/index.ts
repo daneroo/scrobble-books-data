@@ -1,32 +1,40 @@
-// @ts-check
 import { chromium } from "playwright";
-// const browserTypes = [chromium, firefox, webkit];
 
-/**
- * @typedef {import('playwright').Browser} Browser
- * @typedef {import('playwright').Page} Page
- * @typedef {import('playwright').BrowserType<import('playwright').Browser>} BrowserType
- * @typedef {import('playwright').LaunchOptions} LaunchOptions
- * @typedef {import('playwright').BrowserContext} BrowserContext
- */
+// Importing types
+import type { Browser, Page, BrowserType, LaunchOptions } from "playwright";
 
-/**
- * @typedef {Object} Credentials
- * @property {string} GOODREADS_USERNAME - The username for the Goodreads account.
- * @property {string} GOODREADS_PASSWORD - The password for the Goodreads account.
- * @property {string} GOODREADS_USER - The user id for the Goodreads account.
- * @property {string} GOODREADS_KEY - The key for the Goodreads account. (Not sure if this is needed)
- */
+interface Credentials {
+  GOODREADS_USERNAME: string;
+  GOODREADS_PASSWORD: string;
+  GOODREADS_USER: string;
+  GOODREADS_KEY: string;
+}
 
-/**
- * Configuration object for the browser.
- * @typedef {Object} BrowserConfig
- * @property {BrowserType} browserType - The type of browser to use.
- * @property {LaunchOptions} launchOptions - The options to use when launching the browser.
- */
+interface BrowserConfig {
+  browserType: BrowserType<Browser>;
+  launchOptions: LaunchOptions;
+}
 
-/** @type {BrowserConfig} */
-const browserConfig = {
+interface ReviewURLParams {
+  page: number;
+  per_page: number;
+  sort: string; // "date_updated" or "date_added"
+  order: string; // "a" or "d"
+  utf8: string; // "✓"
+  shelf: string; // #ALL# or "currently-reading", "on-deck", "read", "to-read"
+}
+
+interface ReviewItem {
+  id: string;
+  title: string;
+  author: string;
+  readCount: string;
+  dateStartedValues: string[];
+  dateReadValues: string[];
+}
+
+// Global object,driven byy yargs later
+const browserConfig: BrowserConfig = {
   browserType: chromium,
   launchOptions: {
     headless: false,
@@ -80,29 +88,26 @@ async function main() {
 
     await browser.close();
   } catch (e) {
-    console.error(e.message);
-    process.exit(1);
+    if (e instanceof Error) {
+      console.error(e.message);
+    } else {
+      console.error("An unknown error occurred", e);
+    }
   }
 }
 
-/**
- * Iterates over review pages and retrieves data from each page.
- *
- * @param {Page} page - The page object used for web scraping.
- * @param {Credentials} credentials - The credentials object used for authentication.
- * @param {Object} params - The parameters object used for configuring the review page.
- * @returns {Promise<Array>} - A promise that resolves when all review pages have been processed.
- */
-async function reviewPageIterator(page, credentials, params) {
+// Iterates over review pages and retrieves data from each page.
+async function reviewPageIterator(
+  page: Page,
+  credentials: Credentials,
+  params: ReviewURLParams
+): Promise<Array<Object>> {
   const maxPages = 100;
-  const allData = [];
+  const allData: ReviewItem[] = [];
   let pg = 1;
   while (true) {
-    const pageParams = { ...params, page: pg };
+    const pageParams: ReviewURLParams = { ...params, page: pg };
     const url = reviewURL(credentials, pageParams);
-    try {
-      //something
-    } catch (e) {}
     const start = +new Date();
     // const data = await getItemsFromReviewURL(page, url);
     const maxRetries = 5;
@@ -113,7 +118,13 @@ async function reviewPageIterator(page, credentials, params) {
       break;
     }
     pg++;
-    function logProgress(pg, start, data, pageParams, url) {
+    function logProgress(
+      pg: number,
+      start: number,
+      data: ReviewItem[],
+      pageParams: ReviewURLParams,
+      url: string
+    ) {
       const elapsed = +new Date() - start;
 
       console.log(
@@ -121,7 +132,7 @@ async function reviewPageIterator(page, credentials, params) {
           pageParams
         )}`
       );
-      // console.debug(`  - url:${url}`);
+      console.debug(`  - url:${url}`);
     }
     function shouldTerminate() {
       if (data.length === 0) {
@@ -146,16 +157,12 @@ async function reviewPageIterator(page, credentials, params) {
   return allData;
 }
 
-/**
- * Retrieves items from a review URL with max retries
- *
- * @param {Page} page - The page object representing the browser page.
- * @param {string} url - The URL of the review page.
- * @param {number} maxRetries - The maximum number of retries to attempt.
- * @returns {Promise<Array<Object>>} - A promise that resolves to an array of items retrieved from the review URL.
- */
-
-async function getItemsFromReviewURLWithRetry(page, url, maxRetries) {
+// Retrieves items from a review URL with max retries
+async function getItemsFromReviewURLWithRetry(
+  page: Page,
+  url: string,
+  maxRetries: number
+): Promise<Array<ReviewItem>> {
   for (let attempt = 0; attempt < maxRetries; attempt++) {
     try {
       const start = +new Date();
@@ -174,14 +181,11 @@ async function getItemsFromReviewURLWithRetry(page, url, maxRetries) {
   return [];
 }
 
-/**
- * Retrieves items from a review URL.
- *
- * @param {Page} page - The page object representing the browser page.
- * @param {string} url - The URL of the review page.
- * @returns {Promise<Array<Object>>} - A promise that resolves to an array of items retrieved from the review URL.
- */
-async function getItemsFromReviewURL(page, url) {
+// Retrieves items from a review URL.
+async function getItemsFromReviewURL(
+  page: Page,
+  url: string
+): Promise<Array<ReviewItem>> {
   // timing - wait for the page to load
   const maxTimeout = 10000; // the default 30s might be too long, this is just being more explicit, in case we want to change it
   await page.goto(url, { waitUntil: "load", timeout: maxTimeout });
@@ -202,11 +206,11 @@ async function getItemsFromReviewURL(page, url) {
 
       const dateStartedValues = Array.from(
         row.querySelectorAll(".field.date_started .date_started_value")
-      ).map((el) => el?.textContent?.trim());
+      ).map((el: any) => el?.textContent?.trim());
 
       const dateReadValues = Array.from(
         row.querySelectorAll(".field.date_read .date_read_value")
-      ).map((el) => el?.textContent?.trim());
+      ).map((el: any) => el?.textContent?.trim());
 
       return {
         id,
@@ -226,10 +230,9 @@ console.log("Done");
 
 /**
  * Retrieves the credentials required for accessing the Goodreads API.
- * @returns {Credentials} The credentials object containing the Goodreads username and password.
  * @throws {Error} If the GOODREADS_USERNAME or GOODREADS_PASSWORD environment variables are missing.
  */
-function getCredentials() {
+function getCredentials(): Credentials {
   const GOODREADS_USERNAME = process.env.GOODREADS_USERNAME;
   const GOODREADS_PASSWORD = process.env.GOODREADS_PASSWORD;
   const GOODREADS_USER = process.env.GOODREADS_USER;
@@ -254,13 +257,10 @@ function getCredentials() {
   }
 }
 
-/**
- * Creates a new Playwright page using the provided browser configuration.
- *
- * @param {BrowserConfig} browserConfig - The configuration for the browser.
- * @returns {Promise<{ page: Page, browser: Browser }>} - The new Playwright page and browser.
- */
-async function getNewPlaywrightPage(browserConfig) {
+// Creates a new Playwright page using the provided browser configuration.
+async function getNewPlaywrightPage(
+  browserConfig: BrowserConfig
+): Promise<{ page: Page; browser: Browser }> {
   const { browserType, launchOptions } = browserConfig;
   const browser = await browserType.launch(launchOptions);
   const context = await browser.newContext();
@@ -272,13 +272,8 @@ async function getNewPlaywrightPage(browserConfig) {
  * Logs in to the Goodreads website using the provided credentials.
  *  timing is deliberately slow, to avoid captcha
  *  except the final signInSubmit, which we give a maxWait (2s) to settle back to the logged in home page
- * @param {Object} credentials - The login credentials.
- * @param {string} credentials.GOODREADS_USERNAME - The Goodreads username.
- * @param {string} credentials.GOODREADS_PASSWORD - The Goodreads password.
- * @param {Page} page - The Puppeteer page object.
- * @returns {Promise<boolean>} - A promise that resolves to a boolean indicating whether the login was successful.
  */
-async function login(credentials, page) {
+async function login(credentials: Credentials, page: Page): Promise<boolean> {
   const maxWait = 20000;
   const { GOODREADS_USERNAME, GOODREADS_PASSWORD } = credentials;
   await page.goto("https://www.goodreads.com/user/sign_in");
@@ -311,20 +306,31 @@ async function login(credentials, page) {
   return false;
 }
 
-function reviewURL(credentials, params) {
+function reviewURL(credentials: Credentials, params: ReviewURLParams): string {
   // throws if per_page is not defined, this is because we want to be explicit so that
   if (params.per_page === undefined) {
     throw new Error("per_page param is required");
   }
   const baseURL = "https://www.goodreads.com/review/list";
-  const query = new URLSearchParams(params).toString();
+  // Convert numeric values to strings and construct a new object for URLSearchParams
+  // because page, per_page are numeric
+  const queryParams: Record<string, string> = Object.keys(params).reduce(
+    (acc, key) => {
+      acc[key] = String(params[key as keyof ReviewURLParams]);
+      return acc;
+    },
+    {} as Record<string, string>
+  );
+
+  const query = new URLSearchParams(queryParams).toString();
   return `${baseURL}/${credentials.GOODREADS_USER}?${query}`;
 }
 
-function reviewURLParamsForShelf(shelf = "#ALL#") {
+function reviewURLParamsForShelf(shelf = "#ALL#"): ReviewURLParams {
   return {
     shelf,
     page: 1,
+    per_page: 20,
     // date_read is the default when logged in
     // date_added is the default when not logged in, and cannot be changed
     // so we set it to date_added, and order=d so that we get the same behavior
@@ -335,7 +341,10 @@ function reviewURLParamsForShelf(shelf = "#ALL#") {
   };
 }
 
-async function getReadingProgress(page, id) {
+async function getReadingProgress(
+  page: Page,
+  id: string
+): Promise<Array<Object>> {
   await page.goto(`https://www.goodreads.com/review/show/${id}`);
   await page.waitForTimeout(1000);
   // ".readingTimeline .readingTimeline__row",
@@ -352,7 +361,7 @@ async function getReadingProgress(page, id) {
     (rows) => {
       return rows.map((row) => {
         // Get the full text and remove newline characters
-        let fullText = row
+        const fullText: string = row
           .querySelector(".readingTimeline__text")
           .textContent.replace(/\n/g, " ")
           .trim();
