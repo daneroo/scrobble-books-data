@@ -4,8 +4,6 @@ Use playwright to crawl goodreads
 
 ## TODO
 
-- [x] validate login
-- [ ] add retry logic - getItemsFromReviewURL
 - [ ] validate what can be accomplished with no login (cheerio?)
 - [ ] test and document the columns schema
 - [ ] column specifiers as data
