@@ -34,33 +34,37 @@ const browserConfig = {
 };
 
 async function main() {
-  //  get credentials early for early exit.
-  console.log("Getting credentials");
   try {
-    const start = +new Date();
     const credentials = getCredentials();
-    console.log("Got credentials, or exited early.", +new Date() - start);
+    console.log("- Got credentials, or would have exited early.");
 
     const { page, browser } = await getNewPlaywrightPage(browserConfig);
-    console.log("Got page and browser", +new Date() - start);
+    console.log("- Got page and browser");
 
-    const success = await login(credentials, page);
-    console.log(`Login: ${success} in ${+new Date() - start}ms`);
+    const loggedIn = await login(credentials, page);
+    console.log(`- Login: ${loggedIn}`);
 
-    const per_page = success ? 100 : 20;
+    // if not logged in, we get 20 items per page, and cannot override it
+    // but 100 is faster if we are logged in
+    const per_page = loggedIn ? 100 : 20;
 
     // browsing by shelf
     for (const shelf of [
       // "currently-reading",
-      "on-deck",
+      // "on-deck",
       // "read",
       // "to-read",
-      // "#ALL#",
+      "#ALL#",
     ]) {
       console.log(`\n## Scanning shelf:${shelf}`);
       const params = reviewURLParamsForShelf(shelf);
       const withPerPageParams = { ...params, per_page };
-      await reviewPageIterator(page, credentials, withPerPageParams);
+      const data = await reviewPageIterator(
+        page,
+        credentials,
+        withPerPageParams
+      );
+      console.log(`- shelf:${shelf} items:${data.length}`);
     }
 
     // Now for a specific book, go to the review page (from the id=review_4789085379 above)
@@ -87,40 +91,87 @@ async function main() {
  * @param {Page} page - The page object used for web scraping.
  * @param {Credentials} credentials - The credentials object used for authentication.
  * @param {Object} params - The parameters object used for configuring the review page.
- * @returns {Promise<void>} - A promise that resolves when all review pages have been processed.
+ * @returns {Promise<Array>} - A promise that resolves when all review pages have been processed.
  */
 async function reviewPageIterator(page, credentials, params) {
   const maxPages = 100;
-  let pageNumber = 1;
+  const allData = [];
+  let pg = 1;
   while (true) {
-    const pageParams = { ...params, page: pageNumber };
+    const pageParams = { ...params, page: pg };
     const url = reviewURL(credentials, pageParams);
+    try {
+      //something
+    } catch (e) {}
     const start = +new Date();
-    const data = await getItemsFromReviewURL(page, url);
-    console.log(
-      `- page:${pageNumber} in ${+new Date() - start}ms items:${
-        data.length
-      } ${JSON.stringify(pageParams)}`
-    );
-    console.debug(`  - url:${url}`);
-    if (data.length === 0) {
-      console.info(`- break: no items:${data.length}`);
+    // const data = await getItemsFromReviewURL(page, url);
+    const maxRetries = 5;
+    const data = await getItemsFromReviewURLWithRetry(page, url, maxRetries);
+    allData.push(...data);
+    logProgress(pg, start, data, pageParams, url);
+    if (shouldTerminate()) {
       break;
     }
-    if (data.length < pageParams.per_page) {
-      console.info(
-        `- break: ${data.length} items < per_page:${pageParams.per_page} items, breaking`
+    pg++;
+    function logProgress(pg, start, data, pageParams, url) {
+      const elapsed = +new Date() - start;
+
+      console.log(
+        `- page:${pg} in ${elapsed}ms items:${data.length} ${JSON.stringify(
+          pageParams
+        )}`
       );
-      break;
+      // console.debug(`  - url:${url}`);
     }
-    if (pageNumber > maxPages) {
-      console.warn(
-        `- break page:${page} of max:${maxPages} exceeded, breaking out of page loop.`
-      );
-      break;
+    function shouldTerminate() {
+      if (data.length === 0) {
+        console.info(`- break: no items:${data.length}`);
+        return true;
+      }
+      if (data.length < pageParams.per_page) {
+        console.info(
+          `- break: ${data.length} items < per_page:${pageParams.per_page} items, breaking`
+        );
+        return true;
+      }
+      if (pg > maxPages) {
+        console.warn(
+          `- break page:${page} of max:${maxPages} exceeded, breaking out of page loop.`
+        );
+        return true;
+      }
+      return false;
     }
-    pageNumber++;
   }
+  return allData;
+}
+
+/**
+ * Retrieves items from a review URL with max retries
+ *
+ * @param {Page} page - The page object representing the browser page.
+ * @param {string} url - The URL of the review page.
+ * @param {number} maxRetries - The maximum number of retries to attempt.
+ * @returns {Promise<Array<Object>>} - A promise that resolves to an array of items retrieved from the review URL.
+ */
+
+async function getItemsFromReviewURLWithRetry(page, url, maxRetries) {
+  for (let attempt = 0; attempt < maxRetries; attempt++) {
+    try {
+      const start = +new Date();
+      const data = await getItemsFromReviewURL(page, url);
+      return data; // Success, return the data
+    } catch (error) {
+      console.error(
+        `getItemsFromReviewURLWithRetry ${
+          attempt + 1
+        }/${maxRetries} failed: ${error}`
+      );
+      if (attempt >= maxRetries - 1) throw error; // Last attempt, rethrow error
+    }
+  }
+  // This code is unreachable - must have returned or re-thrown
+  return [];
 }
 
 /**
@@ -132,7 +183,8 @@ async function reviewPageIterator(page, credentials, params) {
  */
 async function getItemsFromReviewURL(page, url) {
   // timing - wait for the page to load
-  await page.goto(url, { waitUntil: "load" });
+  const maxTimeout = 10000; // the default 30s might be too long, this is just being more explicit, in case we want to change it
+  await page.goto(url, { waitUntil: "load", timeout: maxTimeout });
 
   // - wait for the table to be present (even if hidden)
   // this is simply 'table#books tbody#booksBody'
@@ -250,7 +302,7 @@ async function login(credentials, page) {
     await page.waitForSelector('nav li a:has-text("My Books")', {
       timeout: maxWait,
     });
-    console.debug("- Login successful. 'My Books' link is visible.");
+    // console.debug("- Login successful. 'My Books' link is visible.");
     return true;
   } catch (error) {
     console.error("- Login was not successful, 'My Books' link not found.");
