@@ -1,7 +1,9 @@
 import { chromium } from "playwright";
+import { shelfIterator } from "./goodreads/urls";
 
 // Importing types
 import type { Browser, Page, BrowserType, LaunchOptions } from "playwright";
+import type { Shelf, ListIteratorParams, ListParams } from "./goodreads/urls";
 
 interface Credentials {
   GOODREADS_USERNAME: string;
@@ -57,21 +59,12 @@ async function main() {
     const per_page = loggedIn ? 100 : 20;
 
     // browsing by shelf
-    for (const shelf of [
-      // "currently-reading",
-      // "on-deck",
-      // "read",
-      // "to-read",
-      "#ALL#",
-    ]) {
+    const shelves: Shelf[] = ["#ALL#"]; // "currently-reading", "on-deck", "read", "to-read",
+    for (const shelf of shelves) {
       console.log(`\n## Scanning shelf:${shelf}`);
       const params = reviewURLParamsForShelf(shelf);
-      const withPerPageParams = { ...params, per_page };
-      const data = await reviewPageIterator(
-        page,
-        credentials,
-        withPerPageParams
-      );
+      const listParams = { shelf, per_page };
+      const data = await reviewPageIterator(page, credentials, listParams);
       console.log(`- shelf:${shelf} items:${data.length}`);
     }
 
@@ -100,61 +93,64 @@ async function main() {
 async function reviewPageIterator(
   page: Page,
   credentials: Credentials,
-  params: ReviewURLParams
+  listParams: ListIteratorParams
 ): Promise<Array<Object>> {
   const maxPages = 100;
-  const allData: ReviewItem[] = [];
-  let pg = 1;
-  while (true) {
-    const pageParams: ReviewURLParams = { ...params, page: pg };
-    const url = reviewURL(credentials, pageParams);
+  const allItems: ReviewItem[] = [];
+  // use shelfIterator to get the URLs
+  for await (const { url, urlParams } of shelfIterator(
+    credentials.GOODREADS_USER,
+    listParams
+  )) {
     const start = +new Date();
-    // const data = await getItemsFromReviewURL(page, url);
     const maxRetries = 5;
-    const data = await getItemsFromReviewURLWithRetry(page, url, maxRetries);
-    allData.push(...data);
-    logProgress(pg, start, data, pageParams, url);
-    if (shouldTerminate()) {
+    const items = await getItemsFromReviewURLWithRetry(page, url, maxRetries);
+    allItems.push(...items);
+    logProgress(start, urlParams, items, url);
+    if (shouldTerminate(items, urlParams, maxPages)) {
       break;
     }
-    pg++;
+
     function logProgress(
-      pg: number,
       start: number,
-      data: ReviewItem[],
-      pageParams: ReviewURLParams,
+      urlParams: ListParams,
+      items: ReviewItem[],
       url: string
     ) {
       const elapsed = +new Date() - start;
-
       console.log(
-        `- page:${pg} in ${elapsed}ms items:${data.length} ${JSON.stringify(
-          pageParams
-        )}`
+        `- page:${urlParams.page} in ${elapsed}ms items:${
+          items.length
+        } ${JSON.stringify(urlParams)}`
       );
       console.debug(`  - url:${url}`);
     }
-    function shouldTerminate() {
+    function shouldTerminate(
+      data: ReviewItem[],
+      urlParams: ListParams,
+      maxPages: number
+    ) {
       if (data.length === 0) {
         console.info(`- break: no items:${data.length}`);
         return true;
       }
-      if (data.length < pageParams.per_page) {
+      if (data.length < urlParams.per_page) {
         console.info(
-          `- break: ${data.length} items < per_page:${pageParams.per_page} items, breaking`
+          `- break: ${data.length} items < per_page:${urlParams.per_page} items, breaking`
         );
         return true;
       }
-      if (pg > maxPages) {
+      if (urlParams.page >= maxPages) {
         console.warn(
-          `- break page:${page} of max:${maxPages} exceeded, breaking out of page loop.`
+          `- break page:${urlParams.page} of max:${maxPages} exceeded, breaking out of page loop.`
         );
         return true;
       }
       return false;
     }
   }
-  return allData;
+
+  return allItems;
 }
 
 // Retrieves items from a review URL with max retries

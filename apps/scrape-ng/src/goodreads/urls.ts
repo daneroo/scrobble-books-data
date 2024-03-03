@@ -34,24 +34,26 @@ export function itemURL(itemId: string): string {
 }
 
 export interface ListIteratorParams {
+  shelf: Shelf;
   per_page: number;
 }
 
 export async function* shelfIterator(
   userId: string,
-  params: ListIteratorParams,
-  shelf: Shelf = "#ALL#"
-): AsyncIterableIterator<string> {
+  listParams: ListIteratorParams
+): AsyncIterableIterator<{ url: string; urlParams: ListParams }> {
   let page = 1;
   while (true) {
     const urlParams: ListParams = {
-      shelf,
+      shelf: listParams.shelf,
       page,
-      per_page: params.per_page,
+      per_page: listParams.per_page,
       sort: "date_added",
       order: "d",
     };
-    yield listURL(userId, urlParams);
+    const url = listURL(userId, urlParams);
+    yield { url, urlParams };
     page++;
+    // Assuming termination condition will be checked outside the iterator
   }
 }
