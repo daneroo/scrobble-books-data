@@ -1,11 +1,11 @@
 import { chromium } from "playwright";
-import { shelfIterator } from "./goodreads/urls";
 
 // Importing types
 import type { Browser, Page, BrowserType, LaunchOptions } from "playwright";
-import type { Shelf, ListIteratorParams, ListParams } from "./goodreads/urls";
+import type { Shelf } from "./goodreads/urls";
+import { fetchAllReviewItems } from "./goodreads/reviews";
 
-interface Credentials {
+export interface Credentials {
   GOODREADS_USERNAME: string;
   GOODREADS_PASSWORD: string;
   GOODREADS_USER: string;
@@ -17,16 +17,7 @@ interface BrowserConfig {
   launchOptions: LaunchOptions;
 }
 
-interface ReviewURLParams {
-  page: number;
-  per_page: number;
-  sort: string; // "date_updated" or "date_added"
-  order: string; // "a" or "d"
-  utf8: string; // "✓"
-  shelf: string; // #ALL# or "currently-reading", "on-deck", "read", "to-read"
-}
-
-interface ReviewItem {
+export interface ReviewItem {
   id: string;
   title: string;
   author: string;
@@ -62,9 +53,8 @@ async function main() {
     const shelves: Shelf[] = ["#ALL#"]; // "currently-reading", "on-deck", "read", "to-read",
     for (const shelf of shelves) {
       console.log(`\n## Scanning shelf:${shelf}`);
-      const params = reviewURLParamsForShelf(shelf);
       const listParams = { shelf, per_page };
-      const data = await reviewPageIterator(page, credentials, listParams);
+      const data = await fetchAllReviewItems(page, credentials, listParams);
       console.log(`- shelf:${shelf} items:${data.length}`);
     }
 
@@ -87,138 +77,6 @@ async function main() {
       console.error("An unknown error occurred", e);
     }
   }
-}
-
-// Iterates over review pages and retrieves data from each page.
-async function reviewPageIterator(
-  page: Page,
-  credentials: Credentials,
-  listParams: ListIteratorParams
-): Promise<Array<Object>> {
-  const maxPages = 100;
-  const allItems: ReviewItem[] = [];
-  // use shelfIterator to get the URLs
-  for await (const { url, urlParams } of shelfIterator(
-    credentials.GOODREADS_USER,
-    listParams
-  )) {
-    const start = +new Date();
-    const maxRetries = 5;
-    const items = await getItemsFromReviewURLWithRetry(page, url, maxRetries);
-    allItems.push(...items);
-    logProgress(start, urlParams, items, url);
-    if (shouldTerminate(items, urlParams, maxPages)) {
-      break;
-    }
-
-    function logProgress(
-      start: number,
-      urlParams: ListParams,
-      items: ReviewItem[],
-      url: string
-    ) {
-      const elapsed = +new Date() - start;
-      console.log(
-        `- page:${urlParams.page} in ${elapsed}ms items:${
-          items.length
-        } ${JSON.stringify(urlParams)}`
-      );
-      console.debug(`  - url:${url}`);
-    }
-    function shouldTerminate(
-      data: ReviewItem[],
-      urlParams: ListParams,
-      maxPages: number
-    ) {
-      if (data.length === 0) {
-        console.info(`- break: no items:${data.length}`);
-        return true;
-      }
-      if (data.length < urlParams.per_page) {
-        console.info(
-          `- break: ${data.length} items < per_page:${urlParams.per_page} items, breaking`
-        );
-        return true;
-      }
-      if (urlParams.page >= maxPages) {
-        console.warn(
-          `- break page:${urlParams.page} of max:${maxPages} exceeded, breaking out of page loop.`
-        );
-        return true;
-      }
-      return false;
-    }
-  }
-
-  return allItems;
-}
-
-// Retrieves items from a review URL with max retries
-async function getItemsFromReviewURLWithRetry(
-  page: Page,
-  url: string,
-  maxRetries: number
-): Promise<Array<ReviewItem>> {
-  for (let attempt = 0; attempt < maxRetries; attempt++) {
-    try {
-      const start = +new Date();
-      const data = await getItemsFromReviewURL(page, url);
-      return data; // Success, return the data
-    } catch (error) {
-      console.error(
-        `getItemsFromReviewURLWithRetry ${
-          attempt + 1
-        }/${maxRetries} failed: ${error}`
-      );
-      if (attempt >= maxRetries - 1) throw error; // Last attempt, rethrow error
-    }
-  }
-  // This code is unreachable - must have returned or re-thrown
-  return [];
-}
-
-// Retrieves items from a review URL.
-async function getItemsFromReviewURL(
-  page: Page,
-  url: string
-): Promise<Array<ReviewItem>> {
-  // timing - wait for the page to load
-  const maxTimeout = 10000; // the default 30s might be too long, this is just being more explicit, in case we want to change it
-  await page.goto(url, { waitUntil: "load", timeout: maxTimeout });
-
-  // - wait for the table to be present (even if hidden)
-  // this is simply 'table#books tbody#booksBody'
-  const booksBodyLocator = page.locator("#booksBody");
-  await booksBodyLocator.waitFor({ state: "attached" }); // state:attached means even if not visible
-
-  const data = await booksBodyLocator.locator("tr").evaluateAll((rows) => {
-    return rows.map((row) => {
-      const id = row.getAttribute("id");
-      const title = row?.querySelector(".field.title a")?.textContent?.trim();
-      const author = row?.querySelector(".field.author a")?.textContent?.trim();
-      const readCount = row
-        ?.querySelector(".field.read_count .value")
-        ?.textContent?.trim();
-
-      const dateStartedValues = Array.from(
-        row.querySelectorAll(".field.date_started .date_started_value")
-      ).map((el: any) => el?.textContent?.trim());
-
-      const dateReadValues = Array.from(
-        row.querySelectorAll(".field.date_read .date_read_value")
-      ).map((el: any) => el?.textContent?.trim());
-
-      return {
-        id,
-        title,
-        author,
-        readCount,
-        dateStartedValues,
-        dateReadValues,
-      };
-    });
-  });
-  return data;
 }
 
 await main();
@@ -300,41 +158,6 @@ async function login(credentials: Credentials, page: Page): Promise<boolean> {
   }
   // anything else is false; bads credentials of captcha
   return false;
-}
-
-function reviewURL(credentials: Credentials, params: ReviewURLParams): string {
-  // throws if per_page is not defined, this is because we want to be explicit so that
-  if (params.per_page === undefined) {
-    throw new Error("per_page param is required");
-  }
-  const baseURL = "https://www.goodreads.com/review/list";
-  // Convert numeric values to strings and construct a new object for URLSearchParams
-  // because page, per_page are numeric
-  const queryParams: Record<string, string> = Object.keys(params).reduce(
-    (acc, key) => {
-      acc[key] = String(params[key as keyof ReviewURLParams]);
-      return acc;
-    },
-    {} as Record<string, string>
-  );
-
-  const query = new URLSearchParams(queryParams).toString();
-  return `${baseURL}/${credentials.GOODREADS_USER}?${query}`;
-}
-
-function reviewURLParamsForShelf(shelf = "#ALL#"): ReviewURLParams {
-  return {
-    shelf,
-    page: 1,
-    per_page: 20,
-    // date_read is the default when logged in
-    // date_added is the default when not logged in, and cannot be changed
-    // so we set it to date_added, and order=d so that we get the same behavior
-    // wether we are logged in or not.
-    sort: "date_added", // "date_updated" or "date_added"
-    order: "d",
-    utf8: "✓",
-  };
 }
 
 async function getReadingProgress(
