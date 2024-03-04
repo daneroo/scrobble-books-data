@@ -5,11 +5,8 @@
   "type": "module",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc",
-    "start": "pnpm run bun:start",
-    "node:broken:start": "tsc && node dist/index.js",
-    "bun:start": "bun src/index.ts",
-    "test": "echo \"Warning: no test specified\"",
+    "start": "bun src/index.ts",
+    "test": "echo \"Warning: bun test when GitHub Actions are ready for bun\"",
     "deps:check": "ncu",
     "deps:update": "ncu -i"
   },
