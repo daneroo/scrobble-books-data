@@ -2,9 +2,16 @@
 
 Use playwright to crawl goodreads
 
+- works with tsc, and bun - ts-node is OUT
+
 ## TODO
 
+- [x] convert back to TS (on a branch)
+  - do I need tsconfig
+  - [ ] testing bun vs node:test
 - [ ] validate what can be accomplished with no login (cheerio?)
+  - [ ] cheerio for unauthenticated
+  - [ ] compare with puppeteer output
 - [ ] test and document the columns schema
 - [ ] column specifiers as data
 - [ ] run test on GitHub Actions/act
@@ -43,9 +50,24 @@ pnpx playwright install
 
 # get your secrets
 set -a && source ../../secrets/GOODREADS.env && set +a
-node src/index.mjs
+pnpm build && node dist/index.js
 # or
 pnpm start
+## or using bun!
+bun src/index.ts
+# or
+pnpm run bun:start
+```
+
+### Converting to Typescript
+
+After the project was started, using .mjs and JSDoc comments for types, I decided to convert to TypeScript.
+
+```bash
+pnpm add -D typescript ts-node @types/node
+pnpm dlx tsc --init
+mv src/index.mjs src/index.ts
+pnpm tsc --init # and fix it line by line using chatGPT, WTF
 ```
 
 ## References
