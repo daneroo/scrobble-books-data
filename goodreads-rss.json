@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/6314312546?utm_medium=api&utm_source=rss",
+      "title": "Assassin's Apprentice (Farseer Trilogy, #1)",
+      "link": "https://www.goodreads.com/review/show/6314312546?utm_medium=api&utm_source=rss",
+      "bookId": "77197",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1673728072l/77197._SY75_.jpg",
+      "bookDescription": "In a faraway land where members of the royal family are named for the virtues they embody, one young boy will become a walking enigma.<br /><br />Born on the wrong side of the sheets, Fitz, son of Chivalry Farseer, is a royal bastard, cast out into the world, friendless and lonely. Only his magical link with animals - the old art known as the Wit - gives him solace and companionship. But the Wit, if used too often, is a perilous magic, and one abhorred by the nobility.<br /><br />So when Fitz is finally adopted into the royal household, he must give up his old ways and embrace a new life of weaponry, scribing, courtly manners; and how to kill a man secretly, as he trains to become a royal assassin.",
+      "authorName": "Robin Hobb",
+      "isbn": "055357339X",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2024-03-04T01:12:34.000Z",
+      "userDateCreated": "2024-03-04T01:12:33.000Z",
+      "userShelves": "on-deck",
+      "userReview": "",
+      "averageRating": "4.2",
+      "bookPublished": "1995",
+      "description": "<a href=\"https://www.goodreads.com/book/show/77197.Assassin_s_Apprentice?utm_medium=api&amp;utm_source=rss\"><img alt=\"Assassin&#39;s Apprentice (Farseer Trilogy, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1673728072l/77197._SY75_.jpg\" /></a><br/>\n                                      author: Robin Hobb<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 1995<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/03/03<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "numPages": "435"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/3103683909?utm_medium=api&utm_source=rss",
       "title": "Dune (Dune, #1)",
       "link": "https://www.goodreads.com/review/show/3103683909?utm_medium=api&utm_source=rss",
@@ -490,7 +511,7 @@
       "link": "https://www.goodreads.com/review/show/6094615079?utm_medium=api&utm_source=rss",
       "bookId": "142402923",
       "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1689695229l/142402923._SY75_.jpg",
-      "bookDescription": "The secret to productivity isn’t discipline. It’s joy.<br /><br />We think that productivity is all about hard work. That the road to success is lined with endless frustration and toil. But what if there’s another way?<br /><br />Ali Abdaal has uncovered an easier and happier path to success. Drawing on decades of psychological research, he has found that the secret to productivity and success isn't grind – it's feeling good. If you can make your work feel good, then productivity takes care of itself.<br /><br />Ali reveals how the science of feel-good productivity can transform your life. He introduces the three hidden 'energisers' that underpin enjoyable productivity, the three 'blockers' we must overcome to beat procrastination, and the three 'sustainers' that prevent burnout and help us achieve lasting fulfillment. He recounts the inspiring stories of founders, Olympians, and Nobel-winning scientists who embody the principles of Feel-Good Productivity. And he introduces the simple, actionable changes that you can use to achieve more and live better, starting today.<br /><br />Armed with Ali’s insights, you won’t just accomplish more. You’ll feel happier and more fulfilled along the way.",
+      "bookDescription": "",
       "authorName": "Ali  Abdaal",
       "isbn": "1250865034",
       "userName": "Daniel",
@@ -501,8 +522,8 @@
       "userShelves": "",
       "userReview": "",
       "averageRating": "4.0",
-      "bookPublished": "2023",
-      "description": "<a href=\"https://www.goodreads.com/book/show/142402923-feel-good-productivity?utm_medium=api&amp;utm_source=rss\"><img alt=\"Feel-Good Productivity: How to Do More of What Matters to You\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1689695229l/142402923._SY75_.jpg\" /></a><br/>\n                                      author: Ali  Abdaal<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: 2023<br/>\n                                      rating: 4<br/>\n                                      read at: 2024/01/31<br/>\n                                      date added: 2024/01/31<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "bookPublished": "",
+      "description": "<a href=\"https://www.goodreads.com/book/show/142402923-feel-good-productivity?utm_medium=api&amp;utm_source=rss\"><img alt=\"Feel-Good Productivity: How to Do More of What Matters to You\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1689695229l/142402923._SY75_.jpg\" /></a><br/>\n                                      author: Ali  Abdaal<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: <br/>\n                                      rating: 4<br/>\n                                      read at: 2024/01/31<br/>\n                                      date added: 2024/01/31<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "304"
     },
     {
