@@ -30,7 +30,7 @@ export interface ReviewItem {
 const browserConfig: BrowserConfig = {
   browserType: chromium,
   launchOptions: {
-    headless: false,
+    headless: true,
   },
 };
 

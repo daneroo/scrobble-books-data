@@ -5,3 +5,5 @@ secrets/*
 # Don't check these in, some of them change every run
 data/
 node_modules/
+# for the devcontainer
+.pnpm-store/

@@ -6,7 +6,8 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
-    "start": "tsc && node dist/index.js",
+    "start": "pnpm run bun:start",
+    "node:broken:start": "tsc && node dist/index.js",
     "bun:start": "bun src/index.ts",
     "test": "echo \"Warning: no test specified\"",
     "deps:check": "ncu",
