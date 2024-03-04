@@ -26,14 +26,7 @@
   // "forwardPorts": [],
 
   // Use 'postCreateCommand' to run commands after the container is created.
-  "postCreateCommand": "go install cuelang.org/go/cmd/cue@latest; pnpm install && (cd apps/scrape-ng; pnpm exec playwright install-deps; pnpm exec playwright install)",
-  "customizations": {
-    "vscode": {
-      "extensions": [
-        "oven.bun-vscode"
-      ]
-    }
-  },
+  "postCreateCommand": "go install cuelang.org/go/cmd/cue@latest; pnpm install && (cd apps/scrape-ng; pnpm exec playwright install-deps; pnpm exec playwright install)"
 
   // Configure tool-specific properties.
   // "customizations": {},
