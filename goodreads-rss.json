@@ -12,14 +12,14 @@
       "isbn": "059309932X",
       "userName": "Daniel",
       "userRating": "5",
-      "userReadAt": "2020-01-02T00:00:00.000Z",
-      "userDateAdded": "2024-03-06T09:22:20.000Z",
+      "userReadAt": "2024-03-07T00:00:00.000Z",
+      "userDateAdded": "2024-03-07T09:22:03.000Z",
       "userDateCreated": "2019-12-28T01:48:48.000Z",
-      "userShelves": "currently-reading",
+      "userShelves": "",
       "userReview": "",
       "averageRating": "4.3",
       "bookPublished": "1965",
-      "description": "<a href=\"https://www.goodreads.com/book/show/44767458-dune?utm_medium=api&amp;utm_source=rss\"><img alt=\"Dune (Dune, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1555447414l/44767458._SY75_.jpg\" /></a><br/>\n                                      author: Frank Herbert<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: 1965<br/>\n                                      rating: 5<br/>\n                                      read at: 2020/01/02<br/>\n                                      date added: 2024/03/06<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/44767458-dune?utm_medium=api&amp;utm_source=rss\"><img alt=\"Dune (Dune, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1555447414l/44767458._SY75_.jpg\" /></a><br/>\n                                      author: Frank Herbert<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: 1965<br/>\n                                      rating: 5<br/>\n                                      read at: 2024/03/07<br/>\n                                      date added: 2024/03/07<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "658"
     },
     {
