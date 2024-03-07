@@ -1,9 +1,5 @@
-export type Shelf =
-  | "#ALL#"
-  | "currently-reading"
-  | "on-deck"
-  | "read"
-  | "to-read";
+// inward facing params of iteration
+import type { ListOptions, Shelf } from "./types";
 
 export interface ListParams {
   shelf: Shelf;
@@ -18,12 +14,18 @@ export interface ListParams {
   order: "d"; // | "a"; // Fixed for now
 }
 
-export function listURL(userId: string, params: ListParams): string {
+/**
+ * Generates the URL for a Goodreads list based on the provided user ID and list parameters.
+ * @param userId - The ID of the user whose list is being generated.
+ * @param listParams - listing parameters, shelf, per_page, ...
+ * @returns The URL for the Goodreads list.
+ */
+export function listURL(userId: string, listParams: ListParams): string {
   const baseURL = `https://www.goodreads.com/review/list/${userId}`;
   const query = new URLSearchParams({
-    ...params,
-    page: params.page.toString(),
-    per_page: params.per_page.toString(),
+    ...listParams,
+    page: listParams.page.toString(),
+    per_page: listParams.per_page.toString(),
     utf8: "✓",
   }).toString();
   return `${baseURL}?${query}`;
@@ -33,23 +35,26 @@ export function itemURL(itemId: string): string {
   return `https://www.goodreads.com/review/show/${itemId}`;
 }
 
-export interface ListIteratorParams {
-  shelf: Shelf;
-  per_page: number;
-}
-
+/**
+ * Asynchronous generator function that yields URLs and URL parameters for each page of a Goodreads shelf.
+ *   We return the URL parameters as well, so that the caller can use them to terminate for example.
+ *
+ * @param userId - The ID of the user whose shelf is being iterated.
+ * @param listOptions - The options for the shelf iteration.
+ * @returns An async iterable iterator that yields objects containing the URL and URL parameters for each page.
+ */
 export async function* shelfIterator(
   userId: string,
-  listParams: ListIteratorParams
+  listOptions: ListOptions
 ): AsyncIterableIterator<{ url: string; urlParams: ListParams }> {
   let page = 1;
   while (true) {
     const urlParams: ListParams = {
-      shelf: listParams.shelf,
-      page,
-      per_page: listParams.per_page,
+      shelf: listOptions.shelf,
+      per_page: listOptions.per_page,
       sort: "date_added",
       order: "d",
+      page,
     };
     const url = listURL(userId, urlParams);
     yield { url, urlParams };

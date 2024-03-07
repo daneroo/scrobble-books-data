@@ -1,61 +1,31 @@
-import { chromium } from "playwright";
+import fs from "fs/promises";
+import type { Page } from "playwright";
 
-// Importing types
-import type { Browser, Page, BrowserType, LaunchOptions } from "playwright";
-import type { Shelf } from "./goodreads/urls";
 import { fetchAllReviewItems } from "./goodreads/reviews";
-
-export interface Credentials {
-  GOODREADS_USERNAME: string;
-  GOODREADS_PASSWORD: string;
-  GOODREADS_USER: string;
-  GOODREADS_KEY: string;
-}
-
-interface BrowserConfig {
-  browserType: BrowserType<Browser>;
-  launchOptions: LaunchOptions;
-}
-
-export interface ReviewItem {
-  id: string;
-  title: string;
-  author: string;
-  readCount: string;
-  dateStartedValues: string[];
-  dateReadValues: string[];
-}
-
-// Global object,driven byy yargs later
-const browserConfig: BrowserConfig = {
-  browserType: chromium,
-  launchOptions: {
-    headless: true,
-  },
-};
+import type { Credentials, Engine, Shelf } from "./goodreads/types";
 
 async function main() {
   try {
     const credentials = getCredentials();
     console.log("- Got credentials, or would have exited early.");
 
-    const { page, browser } = await getNewPlaywrightPage(browserConfig);
-    console.log("- Got page and browser");
-
-    const loggedIn = await login(credentials, page);
-    console.log(`- Login: ${loggedIn}`);
-
-    // if not logged in, we get 20 items per page, and cannot override it
-    // but 100 is faster if we are logged in
-    const per_page = loggedIn ? 100 : 20;
-
-    // browsing by shelf
-    const shelves: Shelf[] = ["#ALL#"]; // "currently-reading", "on-deck", "read", "to-read",
-    for (const shelf of shelves) {
-      console.log(`\n## Scanning shelf:${shelf}`);
-      const listParams = { shelf, per_page };
-      const data = await fetchAllReviewItems(page, credentials, listParams);
-      console.log(`- shelf:${shelf} items:${data.length}`);
+    const engines: Engine[] = ["html", "browser"];
+    for (const engine of engines) {
+      const shelf: Shelf = "#ALL#";
+      const listOptions = { shelf, per_page: engine === "browser" ? 100 : 20 };
+      const items = await fetchAllReviewItems({
+        engine,
+        headless: true,
+        authenticated: engine === "browser" ? true : false,
+        credentials,
+        listOptions,
+      });
+      console.log(`- Fetched ${items.length} items using ${engine} engine`);
+      // write the results to a file goodreads-${engine}.json (pretty printed)
+      await fs.writeFile(
+        `goodreads-${engine}.json`,
+        JSON.stringify(items, null, 2)
+      );
     }
 
     // Now for a specific book, go to the review page (from the id=review_4789085379 above)
@@ -68,8 +38,6 @@ async function main() {
 
     // // Add a wait for 5 seconds
     // await page.waitForTimeout(1000);
-
-    await browser.close();
   } catch (e) {
     if (e instanceof Error) {
       console.error(e.message);
@@ -80,7 +48,7 @@ async function main() {
 }
 
 await main();
-console.log("Done");
+console.log("Done - diffstatic-time");
 
 /**
  * Retrieves the credentials required for accessing the Goodreads API.
@@ -109,55 +77,6 @@ function getCredentials(): Credentials {
       "Missing GOODREADS_USERNAME, GOODREADS_PASSWORD, GOODREADS_USER, or GOODREADS_KEY environment variables."
     );
   }
-}
-
-// Creates a new Playwright page using the provided browser configuration.
-async function getNewPlaywrightPage(
-  browserConfig: BrowserConfig
-): Promise<{ page: Page; browser: Browser }> {
-  const { browserType, launchOptions } = browserConfig;
-  const browser = await browserType.launch(launchOptions);
-  const context = await browser.newContext();
-  const page = await context.newPage();
-  return { page, browser };
-}
-
-/**
- * Logs in to the Goodreads website using the provided credentials.
- *  timing is deliberately slow, to avoid captcha
- *  except the final signInSubmit, which we give a maxWait (2s) to settle back to the logged in home page
- */
-async function login(credentials: Credentials, page: Page): Promise<boolean> {
-  const maxWait = 20000;
-  const { GOODREADS_USERNAME, GOODREADS_PASSWORD } = credentials;
-  await page.goto("https://www.goodreads.com/user/sign_in");
-  await page.waitForTimeout(1000);
-
-  // Click on the "Sign in with email" button
-  await page.click('div#choices a:has-text("Sign in with email")');
-  await page.waitForTimeout(1000);
-
-  // Fill in the username and password, don;t type too fast!
-  await page.fill("#ap_email", GOODREADS_USERNAME);
-  await page.waitForTimeout(1000);
-  await page.fill("#ap_password", GOODREADS_PASSWORD);
-  await page.waitForTimeout(1000);
-
-  // Submit the form by clicking the sign in button
-  await page.click("#signInSubmit");
-
-  // the click submit will navigate back to the site root on success - where we can look for the 'My Books' link
-  try {
-    await page.waitForSelector('nav li a:has-text("My Books")', {
-      timeout: maxWait,
-    });
-    // console.debug("- Login successful. 'My Books' link is visible.");
-    return true;
-  } catch (error) {
-    console.error("- Login was not successful, 'My Books' link not found.");
-  }
-  // anything else is false; bads credentials of captcha
-  return false;
 }
 
 async function getReadingProgress(

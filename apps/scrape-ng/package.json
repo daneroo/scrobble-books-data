@@ -13,10 +13,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cheerio": "1.0.0-rc.12",
     "playwright": "^1.42.1"
   },
   "devDependencies": {
     "@types/bun": "^1.0.8",
+    "@types/cheerio": "^0.22.35",
     "@types/node": "^20.11.24",
     "npm-check-updates": "^16.14.15",
     "typescript": "^5.3.3"

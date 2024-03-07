@@ -1,17 +1,13 @@
 # scrape-ng
 
-Use playwright to crawl goodreads
+Use playwright and cheerio to crawl goodreads (reviews)
 
-- works with tsc, and bun - ts-node is OUT
+- works bun - ts-node is OUT
 
 ## TODO
 
-- [x] convert back to TS (on a branch)
-  - do I need tsconfig
-  - [ ] testing bun vs node:test
-- [ ] validate what can be accomplished with no login (cheerio?)
-  - [ ] cheerio for unauthenticated
-  - [ ] compare with puppeteer output
+- [ ] testing bun vs node:test
+- [ ] compare with cheerio/puppeteer output
 - [ ] test and document the columns schema
 - [ ] column specifiers as data
 - [ ] run test on GitHub Actions/act
@@ -45,18 +41,14 @@ I can also view a specific review!
 ## Setup
 
 ```bash
-pnpm install playwright
+pnpm install playwright cheerio # .. see package.json
 pnpx playwright install
 
 # get your secrets
 set -a && source ../../secrets/GOODREADS.env && set +a
-pnpm build && node dist/index.js
-# or
 pnpm start
-## or using bun!
-bun src/index.ts
 # or
-pnpm run bun:start
+bun src/index.ts
 ```
 
 ### Converting to Typescript
