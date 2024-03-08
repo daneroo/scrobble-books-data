@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/4799317718?utm_medium=api&utm_source=rss",
+      "title": "Dragon (Vlad Taltos, #8)",
+      "link": "https://www.goodreads.com/review/show/4799317718?utm_medium=api&utm_source=rss",
+      "bookId": "133450",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1704246410l/133450._SY75_.jpg",
+      "bookDescription": "In which Vlad Taltos finds himself, much to his surprise, at the fateful Battle of Baritt's Tomb Marching through mud just isn't as much fun as they say. After years of surviving in Adrilankha by practicing the trade he knows best―killing people for a living―suddenly Vlad Taltos finds himself in the last place any self-respecting assassin wants to the army. Worse, he's right in the middle of a apocalyptic battle between two sorcerous armies, and everyone expects him to play a role they won't explain. All Vlad's got between him and the worst kind of death is his wits. Oh, and a smart-mouthed winged lizard... Dragon is Steven Brust at his best―a swashbuckling fantasy adventure.",
+      "authorName": "Steven Brust",
+      "isbn": "0812589165",
+      "userName": "Daniel",
+      "userRating": "4",
+      "userReadAt": "2022-06-26T00:00:00.000Z",
+      "userDateAdded": "2024-03-08T07:40:37.000Z",
+      "userDateCreated": "2022-06-22T08:03:52.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "4.2",
+      "bookPublished": "1998",
+      "description": "<a href=\"https://www.goodreads.com/book/show/133450.Dragon?utm_medium=api&amp;utm_source=rss\"><img alt=\"Dragon (Vlad Taltos, #8)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1704246410l/133450._SY75_.jpg\" /></a><br/>\n                                      author: Steven Brust<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 1998<br/>\n                                      rating: 4<br/>\n                                      read at: 2022/06/26<br/>\n                                      date added: 2024/03/07<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "288"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/3103683909?utm_medium=api&utm_source=rss",
       "title": "Dune (Dune, #1)",
       "link": "https://www.goodreads.com/review/show/3103683909?utm_medium=api&utm_source=rss",
@@ -1826,7 +1847,7 @@
       "averageRating": "4.5",
       "bookPublished": "2008",
       "description": "<a href=\"https://www.goodreads.com/book/show/2767793-the-hero-of-ages?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Hero of Ages (Mistborn, #3)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1628563911l/2767793._SY75_.jpg\" /></a><br/>\n                                      author: Brandon Sanderson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.5<br/>\n                                      book published: 2008<br/>\n                                      rating: 5<br/>\n                                      read at: 2023/11/12<br/>\n                                      date added: 2023/11/12<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
-      "numPages": "572"
+      "numPages": "556"
     },
     {
       "id": "https://www.goodreads.com/review/show/5841264944?utm_medium=api&utm_source=rss",
@@ -8484,27 +8505,6 @@
       "bookPublished": "2018",
       "description": "<a href=\"https://www.goodreads.com/book/show/35921194-us-vs-them?utm_medium=api&amp;utm_source=rss\"><img alt=\"Us vs. Them: The Failure of Globalism\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1501995295l/35921194._SY75_.jpg\" /></a><br/>\n                                      author: Ian Bremmer<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.5<br/>\n                                      book published: 2018<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/06/27<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "208"
-    },
-    {
-      "id": "https://www.goodreads.com/review/show/4799317718?utm_medium=api&utm_source=rss",
-      "title": "Dragon (Vlad Taltos, #8)",
-      "link": "https://www.goodreads.com/review/show/4799317718?utm_medium=api&utm_source=rss",
-      "bookId": "133450",
-      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1704246410l/133450._SY75_.jpg",
-      "bookDescription": "In which Vlad Taltos finds himself, much to his surprise, at the fateful Battle of Baritt's Tomb Marching through mud just isn't as much fun as they say. After years of surviving in Adrilankha by practicing the trade he knows best―killing people for a living―suddenly Vlad Taltos finds himself in the last place any self-respecting assassin wants to the army. Worse, he's right in the middle of a apocalyptic battle between two sorcerous armies, and everyone expects him to play a role they won't explain. All Vlad's got between him and the worst kind of death is his wits. Oh, and a smart-mouthed winged lizard... Dragon is Steven Brust at his best―a swashbuckling fantasy adventure.",
-      "authorName": "Steven Brust",
-      "isbn": "0812589165",
-      "userName": "Daniel",
-      "userRating": "4",
-      "userReadAt": "2022-06-26T00:00:00.000Z",
-      "userDateAdded": "2022-06-26T23:36:37.000Z",
-      "userDateCreated": "2022-06-22T08:03:52.000Z",
-      "userShelves": "",
-      "userReview": "",
-      "averageRating": "4.2",
-      "bookPublished": "1998",
-      "description": "<a href=\"https://www.goodreads.com/book/show/133450.Dragon?utm_medium=api&amp;utm_source=rss\"><img alt=\"Dragon (Vlad Taltos, #8)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1704246410l/133450._SY75_.jpg\" /></a><br/>\n                                      author: Steven Brust<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 1998<br/>\n                                      rating: 4<br/>\n                                      read at: 2022/06/26<br/>\n                                      date added: 2022/06/26<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
-      "numPages": "288"
     },
     {
       "id": "https://www.goodreads.com/review/show/4795996407?utm_medium=api&utm_source=rss",
