@@ -40,3 +40,8 @@ export interface ReviewItem {
   dateStartedValues: string[];
   dateReadValues: string[];
 }
+
+export interface ScrapingContext {
+  cleanup: () => Promise<void>;
+  fetchReviewItemsInPage: (url: string) => Promise<Array<ReviewItem>>;
+}

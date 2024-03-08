@@ -5,19 +5,27 @@ import {
   type Page,
 } from "playwright";
 
-import { executeWithRetry } from "../retry";
-import type { Credentials, FetchOptions, ReviewItem } from "../types";
-import type { ListParams } from "../urls";
-import { shelfIterator } from "../urls";
+import type {
+  Credentials,
+  FetchOptions,
+  ReviewItem,
+  ScrapingContext,
+} from "../types";
 
-export async function justDoIt(
+/**
+ * Creates a scraping context based on the provided fetch options for the browser(puppeteer) engine.
+ * @param fetchOptions - The options for fetching the review items.
+ * @returns A promise that resolves to a scraping context.
+ */
+export async function createContext(
   fetchOptions: FetchOptions
-): Promise<Array<ReviewItem>> {
+): Promise<ScrapingContext> {
+  // de-structured assignment requites extra parentheses
   const { page, browser } = await getNewPlaywrightPage({
     headless: fetchOptions.headless,
   });
-  console.log("- Got page and browser");
 
+  // Optional: perform login or other setup steps here, depending on fetchOptions
   if (fetchOptions.authenticated) {
     console.log("- Authenticating...");
     const loggedIn = await login(fetchOptions.credentials, page);
@@ -28,95 +36,25 @@ export async function justDoIt(
     console.log("- Authenticated");
   }
 
-  const items = await fetchAllReviewItems(page, fetchOptions);
-  await page.close();
-  await browser.close();
-  return items;
-}
-
-/**
- * Fetches all review items from Goodreads.
- *  Browser-specific implementation (using Puppeteer)
- *
- * Iterates over review pages for a given shelf/per_page
- * and accumulates items from each page.
- * Also performs retry logic for each page.
- *
- * @param page - The page object for web scraping.
- * @param credentials - The credentials object containing user credentials.
- * @param listOptions - The parameters for iterating through the list of review items.
- * @returns A promise that resolves to an array of review items.
- */
-export async function fetchAllReviewItems(
-  page: Page,
-  fetchOptions: FetchOptions
-): Promise<Array<ReviewItem>> {
-  const { credentials, listOptions } = fetchOptions;
-  const maxPages = 100;
-  const maxRetries = 5;
-
-  const allItems: ReviewItem[] = [];
-
-  for await (const { url, urlParams } of shelfIterator(
-    credentials.GOODREADS_USER,
-    listOptions
-  )) {
-    const start = +new Date();
-    const items = await executeWithRetry(
-      `${fetchOptions.engine}:fetchReviewItemsInPage(${JSON.stringify(
-        listOptions
-      )})`,
-      () => fetchReviewItemsInPage(page, url), // Operation to retry
-      maxRetries
-    );
-    allItems.push(...items);
-    const elapsed = +new Date() - start;
-    console.log(
-      `- page:${urlParams.page} in ${elapsed}ms items:${
-        items.length
-      } ${JSON.stringify(urlParams)}`
-    );
-    console.debug(`  - url:${url}`);
-    // termination conditions are in a inner function below
-    if (shouldTerminate(items, urlParams, maxPages)) {
-      break;
-    }
-  }
-
-  return allItems;
-
-  function shouldTerminate(
-    data: ReviewItem[],
-    urlParams: ListParams,
-    maxPages: number
-  ) {
-    if (data.length === 0) {
-      console.info(`- break: no items:${data.length}`);
-      return true;
-    }
-    if (data.length < urlParams.per_page) {
-      console.info(
-        `- break: ${data.length} items < per_page:${urlParams.per_page} items, breaking`
-      );
-      return true;
-    }
-    if (urlParams.page >= maxPages) {
-      console.warn(
-        `- break page:${urlParams.page} of max:${maxPages} exceeded, breaking out of page loop.`
-      );
-      return true;
-    }
-    return false;
-  }
+  return {
+    cleanup: async () => {
+      // Ensure both page and browser instances are closed
+      await page.close();
+      await browser.close();
+    },
+    fetchReviewItemsInPage: async (url: string) => {
+      // Delegate to a specific Puppeteer implementation that uses the page instance
+      return fetchReviewItemsInPage(page, url);
+    },
+  };
 }
 
 /**
  * Fetches review items from a given Goodreads reviews page.
- * Meant to be called only from fetchAllReviewItems
- *
+ * helper for implementing the ScrapingContext.fetchReviewItemsInPage method
  * @param page - Playwright Page object for browser automation.
- * @param url - URL of the Goodreads reviews page to scrape.
- * @returns Promise resolving to an array of scraped review items.
+ * @param url - The URL to fetch the review items from.
+ * @returns A promise that resolves to an array of ReviewItem objects.
  */
 async function fetchReviewItemsInPage(
   page: Page,
@@ -131,9 +69,11 @@ async function fetchReviewItemsInPage(
   const booksBodyLocator = page.locator("#booksBody");
   await booksBodyLocator.waitFor({ state: "attached" }); // state:attached means even if not visible
 
-  const data = await booksBodyLocator.locator("tr").evaluateAll((rows) => {
+  const items = await booksBodyLocator.locator("tr").evaluateAll((rows) => {
     return rows.map((row) => {
       const id = row.getAttribute("id");
+      const reviewId = id.split("_")?.[1] ?? "";
+
       const title = row?.querySelector(".field.title a")?.textContent?.trim();
       const author = row?.querySelector(".field.author a")?.textContent?.trim();
       const readCount = row
@@ -150,6 +90,7 @@ async function fetchReviewItemsInPage(
 
       return {
         id,
+        reviewId,
         title,
         author,
         readCount,
@@ -158,7 +99,69 @@ async function fetchReviewItemsInPage(
       };
     });
   });
-  return data;
+  // console.log(`- Fetching reading progress for ${items.length} items`);
+  // for (const item of items) {
+  //   const { reviewId } = item;
+  //   if (!reviewId) {
+  //     console.warn(
+  //       `  - Skipping item with no reviewId: ${JSON.stringify(item)}`
+  //     );
+  //     continue;
+  //   } else {
+  //     console.log(
+  //       `  - Progress for ${item.reviewId} - ${item.author} - ${item.title}`
+  //     );
+  //     // get the actual id from the is string: review_4789085379
+  //     const id = item.id.split("_")[1];
+  //     const readingProgress = await getReadingProgress(page, id);
+  //     // item.readingProgress = readingProgress;
+  //   }
+  // }
+
+  return items;
+}
+
+async function getReadingProgress(
+  page: Page,
+  id: string
+): Promise<Array<Object>> {
+  await page.goto(`https://www.goodreads.com/review/show/${id}`);
+  await page.waitForTimeout(1000);
+  // ".readingTimeline .readingTimeline__row",
+  // [
+  //   'June 17, 2022\n–\n\nStarted Reading',
+  //   'June 17, 2022\n– Shelved',
+  //   'June 22, 2022\n–\n\nFinished Reading',
+  //   'February 25, 2024\n–\n\nStarted Reading',
+  //   'February 26, 2024\n–\n\n\n\n52.0%',
+  //   'February 27, 2024\n–\n\nFinished Reading'
+  // ]
+  const readingProgress = await page.$$eval(
+    ".readingTimeline .readingTimeline__row",
+    (rows) => {
+      return rows.map((row) => {
+        // Get the full text and remove newline characters
+        const fullText: string = row
+          .querySelector(".readingTimeline__text")
+          .textContent.replace(/\n/g, " ")
+          .trim();
+
+        // Split by '–' and use destructuring to separate date and event
+        const [date, ...rest] = fullText.split("–").map((part) => part.trim());
+        // warn if rest.length > 1
+        if (rest.length !== 2) {
+          console.warn("Unexpected event, should be exactly one '-'", row);
+        }
+        // join the rest back together, although rest.length should always be 1
+        // if rest.length==0 then event:''
+        // if rest.length>1 then we just join them back up with '-'
+        const event = rest.join("-"); // join the rest back together
+
+        return { date, event };
+      });
+    }
+  );
+  return readingProgress;
 }
 
 // Creates a new Playwright page using the provided browser configuration.

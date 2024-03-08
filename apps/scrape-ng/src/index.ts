@@ -1,5 +1,4 @@
 import fs from "fs/promises";
-import type { Page } from "playwright";
 
 import { fetchAllReviewItems } from "./goodreads/reviews";
 import type { Credentials, Engine, Shelf } from "./goodreads/types";
@@ -9,23 +8,21 @@ async function main() {
     const credentials = getCredentials();
     console.log("- Got credentials, or would have exited early.");
 
-    const engines: Engine[] = ["html", "browser"];
+    const engines: Engine[] = ["html", "browser"]; //["browser"]; //["html", "browser"];
     for (const engine of engines) {
       const shelf: Shelf = "#ALL#";
       const listOptions = { shelf, per_page: engine === "browser" ? 100 : 20 };
       const items = await fetchAllReviewItems({
         engine,
-        headless: true,
+        headless: false,
         authenticated: engine === "browser" ? true : false,
         credentials,
         listOptions,
       });
-      console.log(`- Fetched ${items.length} items using ${engine} engine`);
       // write the results to a file goodreads-${engine}.json (pretty printed)
-      await fs.writeFile(
-        `goodreads-${engine}.json`,
-        JSON.stringify(items, null, 2)
-      );
+      const itemsFile = `goodreads-${engine}.json`;
+      await fs.writeFile(itemsFile, JSON.stringify(items, null, 2));
+      console.log(`- Wrote ${items.length} items to ${itemsFile}`);
     }
 
     // Now for a specific book, go to the review page (from the id=review_4789085379 above)
@@ -48,7 +45,7 @@ async function main() {
 }
 
 await main();
-console.log("Done - diffstatic-time");
+console.log("Done");
 
 /**
  * Retrieves the credentials required for accessing the Goodreads API.
@@ -77,47 +74,4 @@ function getCredentials(): Credentials {
       "Missing GOODREADS_USERNAME, GOODREADS_PASSWORD, GOODREADS_USER, or GOODREADS_KEY environment variables."
     );
   }
-}
-
-async function getReadingProgress(
-  page: Page,
-  id: string
-): Promise<Array<Object>> {
-  await page.goto(`https://www.goodreads.com/review/show/${id}`);
-  await page.waitForTimeout(1000);
-  // ".readingTimeline .readingTimeline__row",
-  // [
-  //   'June 17, 2022\n–\n\nStarted Reading',
-  //   'June 17, 2022\n– Shelved',
-  //   'June 22, 2022\n–\n\nFinished Reading',
-  //   'February 25, 2024\n–\n\nStarted Reading',
-  //   'February 26, 2024\n–\n\n\n\n52.0%',
-  //   'February 27, 2024\n–\n\nFinished Reading'
-  // ]
-  const readingProgress = await page.$$eval(
-    ".readingTimeline .readingTimeline__row",
-    (rows) => {
-      return rows.map((row) => {
-        // Get the full text and remove newline characters
-        const fullText: string = row
-          .querySelector(".readingTimeline__text")
-          .textContent.replace(/\n/g, " ")
-          .trim();
-
-        // Split by '–' and use destructuring to separate date and event
-        const [date, ...rest] = fullText.split("–").map((part) => part.trim());
-        // warn if rest.length > 1
-        if (rest.length !== 2) {
-          console.warn("Unexpected event, should be exactly one '-'", row);
-        }
-        // join the rest back together, although rest.length should always be 1
-        // if rest.length==0 then event:''
-        // if rest.length>1 then we just join them back up with '-'
-        const event = rest.join("-"); // join the rest back together
-
-        return { date, event };
-      });
-    }
-  );
-  return readingProgress;
 }
