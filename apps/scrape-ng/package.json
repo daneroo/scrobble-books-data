@@ -6,7 +6,7 @@
   "main": "dist/index.js",
   "scripts": {
     "start": "bun src/index.ts",
-    "test": "echo \"Warning: bun test when GitHub Actions are ready for bun\"",
+    "test": "tsc --noEmit",
     "deps:check": "ncu",
     "deps:update": "ncu -i"
   },

@@ -6,37 +6,28 @@ Use playwright and cheerio to crawl goodreads (reviews)
 
 ## TODO
 
+- [ ] column specifiers as data (scraping context neutral?)
+- [ ] Robust/Selective fill in of reading progress here instead!
+- [ ] Runtime validation of items: ReviewItem[]
+
+- command line options
+- [ ] compare command
 - [ ] testing bun vs node:test
-- [ ] compare with cheerio/puppeteer output
 - [ ] test and document the columns schema
-- [ ] column specifiers as data
 - [ ] run test on GitHub Actions/act
 - [ ] Document Navigation for scraping
 - [ ] add some tests
 
 ## Navigation
 
-Basic idea, is to login, get all books (perhaps for a specific shelf) by page, and then get the reading progress for each book.
+We want to retrieve the list of all books for a user. These are called reviews listings, and are paginated.
 
-We need a robust test, for the login, and book list iteration termination.
-
-### Unauthenticated
-
-It seems I can navigate unauthenticated, but implied and unchangeable are per_page=20 and sort=added|date_added, however pagination works.
-with page=1,2,3..
-
-I can also view a specific review!
-
-### Parts
-
-- Login
-- My Books (by shelf: #ALL#, read, currently-reading, to-read), on-deck, etc
-  - This is for a userId (here the `-daniel-lauzon` part of the URL is actually optional)
-  - e.g.: `https://www.goodreads.com/review/list/6883912-daniel-lauzon?shelf=%23ALL%23&title=daniel-lauzon&sort=date_updated&order=d`
-- Individual book review (Only want 'READING PROGRESS' section for now)
-  - the review page has a user specific id, not the same as book id
-  - e.g.: `https://www.goodreads.com/review/show/4789085651`
-- Stats i.e. books by year (interesting but not used anymore)
+- Review listing is characterized by user,shelf,per_page,sort,order and page
+  - e.g. `https://www.goodreads.com/review/list/${GOODREADS_USER}?shelf=%23ALL%23&sort=date_updated&order=d`
+  - e.g. `https://www.goodreads.com/review/list/${GOODREADS_USER}?shelf=read&per_page=20&sort=date_added&order=d&page=3`
+- Login is optional, but constrains some parameters
+  - e.g. per_page=20, sort=added|date_added are fixed
+- Some details (reading progress event) are not in the review listing, but are in the individual book review page.
 
 ## Setup
 

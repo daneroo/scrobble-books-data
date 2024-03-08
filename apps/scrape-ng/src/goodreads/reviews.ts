@@ -80,8 +80,8 @@ async function fetchAllReviewItemsWithRetry(
       break;
     }
   }
-  // TODO: robust fill in of reading progress here instead!
-  // TODO: perhaps invoking validation?
+  // TODO(daneroo): robust/selective fill in of reading progress here instead!
+  // TODO(daneroo): need a runtime validation of items: ReviewItem[]
   return allItems;
 }
 

@@ -77,7 +77,9 @@ async function fetchReviewItemsInPage(url: string): Promise<Array<ReviewItem>> {
       // console.log(`- Item: ${JSON.stringify(item)}`);
       return item;
     })
-    .get() as ReviewItem[]; // convert back to a regular array
+    .get() as ReviewItem[]; // convert back to a regular
+
+  // TODO(daneroo): need a runtime validation of items: ReviewItem[]
 
   return items;
 }

@@ -34,6 +34,7 @@ export interface FetchOptions {
 // The common output type of fetchAllReviewItems (browser and html)
 export interface ReviewItem {
   id: string;
+  reviewId: string;
   title: string;
   author: string;
   readCount: string;
