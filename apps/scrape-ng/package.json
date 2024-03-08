@@ -7,6 +7,7 @@
   "scripts": {
     "start": "bun src/index.ts",
     "test": "tsc --noEmit",
+    "lint": "tsc --noEmit",
     "deps:check": "ncu",
     "deps:update": "ncu -i"
   },
