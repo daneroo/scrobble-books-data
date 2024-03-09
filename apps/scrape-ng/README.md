@@ -6,6 +6,11 @@ Use playwright and cheerio to crawl goodreads (reviews)
 
 ## TODO
 
+- [ ] fetchWithTimeout
+- [ ] speed test fetch html even in browser can re-use same cheerio code
+- [ ] fetch/cheerio auth: see if shelves are present when cookies transferred
+  - new test for login: `window.ue.tag('review:list:signed_out', ue.main_scope)` vs `signed_in`
+- [ ] <https://github.com/rbren/rss-parser>
 - [ ] column specifiers as data (scraping context neutral?)
 - [ ] Robust/Selective fill in of reading progress here instead!
 - [ ] Runtime validation of items: ReviewItem[]

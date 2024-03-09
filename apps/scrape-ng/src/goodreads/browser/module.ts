@@ -8,9 +8,11 @@ import {
 import type {
   Credentials,
   FetchOptions,
+  ReadingProgress,
   ReviewItem,
   ScrapingContext,
 } from "../types";
+import { itemURL } from "../urls";
 
 /**
  * Creates a scraping context based on the provided fetch options for the browser(puppeteer) engine.
@@ -46,6 +48,9 @@ export async function createContext(
       // Delegate to a specific Puppeteer implementation that uses the page instance
       return fetchReviewItemsInPage(page, url);
     },
+    fetchReadingProgress: async (id: string) => {
+      return fetchReadingProgress(page, id);
+    },
   };
 }
 
@@ -71,14 +76,38 @@ async function fetchReviewItemsInPage(
 
   const items = await booksBodyLocator.locator("tr").evaluateAll((rows) => {
     return rows.map((row) => {
+      // Cannot reuse my removeLast function (typescript and in another module) - so I will just copy it here
+      // @ts-ignore
+      function removeLast(str, pattern) {
+        if (!pattern) {
+          return str; // Return original string if pattern is falsy
+        }
+        const lastIndex = str.lastIndexOf(pattern);
+        if (lastIndex !== -1) {
+          return (
+            str.slice(0, lastIndex) + str.slice(lastIndex + pattern.length)
+          );
+        }
+        return str; // Return original string if pattern is not found
+      }
       const id = row.getAttribute("id");
       const reviewId = id.split("_")?.[1] ?? "";
 
-      const title = row?.querySelector(".field.title a")?.textContent?.trim();
+      const titleWithSeries =
+        row.querySelector(".field.title a")?.textContent?.trim() ?? "";
+      const series =
+        row.querySelector(".field.title a span")?.textContent?.trim() ?? "";
+      const title = removeLast(titleWithSeries, series).trim();
+
       const author = row?.querySelector(".field.author a")?.textContent?.trim();
       const readCount = row
         ?.querySelector(".field.read_count .value")
         ?.textContent?.trim();
+
+      // TODO(daneroo) - this is bad in the static text - it contains the rating column!!
+      const shelves = Array.from(
+        row.querySelectorAll(".field.shelves .shelfLink")
+      ).map((el: any) => el?.textContent?.trim());
 
       const dateStartedValues = Array.from(
         row.querySelectorAll(".field.date_started .date_started_value")
@@ -92,41 +121,29 @@ async function fetchReviewItemsInPage(
         id,
         reviewId,
         title,
+        series,
         author,
         readCount,
+        shelves,
         dateStartedValues,
         dateReadValues,
       };
     });
   });
-  // console.log(`- Fetching reading progress for ${items.length} items`);
-  // for (const item of items) {
-  //   const { reviewId } = item;
-  //   if (!reviewId) {
-  //     console.warn(
-  //       `  - Skipping item with no reviewId: ${JSON.stringify(item)}`
-  //     );
-  //     continue;
-  //   } else {
-  //     console.log(
-  //       `  - Progress for ${item.reviewId} - ${item.author} - ${item.title}`
-  //     );
-  //     // get the actual id from the is string: review_4789085379
-  //     const id = item.id.split("_")[1];
-  //     const readingProgress = await getReadingProgress(page, id);
-  //     // item.readingProgress = readingProgress;
-  //   }
-  // }
-
   return items;
 }
 
-async function getReadingProgress(
+async function fetchReadingProgress(
   page: Page,
-  id: string
-): Promise<Array<Object>> {
-  await page.goto(`https://www.goodreads.com/review/show/${id}`);
-  await page.waitForTimeout(1000);
+  reviewId: string
+): Promise<ReadingProgress> {
+  const url = itemURL(reviewId);
+  const maxTimeout = 10000; // the default 30s might be too long, this is just being more explicit, in case we want to change it
+  await page.goto(url, {
+    waitUntil: "load",
+    timeout: maxTimeout,
+  });
+
   // ".readingTimeline .readingTimeline__row",
   // [
   //   'June 17, 2022\n–\n\nStarted Reading',
@@ -136,7 +153,22 @@ async function getReadingProgress(
   //   'February 26, 2024\n–\n\n\n\n52.0%',
   //   'February 27, 2024\n–\n\nFinished Reading'
   // ]
-  const readingProgress = await page.$$eval(
+
+  // Works with a single shelf
+  //  and we would return     shelves: [firstShelf],
+  // const firstShelf = (await page.$eval(
+  //   "span.userReview + a.actionLinkLite",
+  //   (el) => el.textContent
+  // )) as string;
+
+  // This has not been validated with multiple shelves
+  // But it works when there is a single shelf, and returns an array properly
+  const shelves = await page.$$eval(
+    "span.userReview ~ a.actionLinkLite",
+    (elements) => elements.map((el) => el.textContent.trim())
+  );
+
+  const timeline = await page.$$eval(
     ".readingTimeline .readingTimeline__row",
     (rows) => {
       return rows.map((row) => {
@@ -161,6 +193,11 @@ async function getReadingProgress(
       });
     }
   );
+  const readingProgress: ReadingProgress = {
+    reviewId,
+    shelves,
+    timeline,
+  };
   return readingProgress;
 }
 
@@ -204,7 +241,9 @@ async function login(credentials: Credentials, page: Page): Promise<boolean> {
     await page.waitForSelector('nav li a:has-text("My Books")', {
       timeout: maxWait,
     });
-    // console.debug("- Login successful. 'My Books' link is visible.");
+    console.debug("- Login successful. 'My Books' link is visible.");
+    const cookies = await page.context().cookies();
+    console.log(cookies);
     return true;
   } catch (error) {
     console.error("- Login was not successful, 'My Books' link not found.");

@@ -38,11 +38,19 @@ export interface ReviewItem {
   title: string;
   author: string;
   readCount: string;
+  shelves: string[];
   dateStartedValues: string[];
   dateReadValues: string[];
+}
+
+export interface ReadingProgress {
+  reviewId: string;
+  shelves: string[];
+  timeline: { date: string; event: string }[];
 }
 
 export interface ScrapingContext {
   cleanup: () => Promise<void>;
   fetchReviewItemsInPage: (url: string) => Promise<Array<ReviewItem>>;
+  fetchReadingProgress: (reviewId: string) => Promise<ReadingProgress>;
 }

@@ -1,6 +1,13 @@
 import * as cheerio from "cheerio";
 
-import type { FetchOptions, ReviewItem, ScrapingContext } from "../types";
+import { removeLast } from "../removeLast";
+import type {
+  FetchOptions,
+  ReadingProgress,
+  ReviewItem,
+  ScrapingContext,
+} from "../types";
+import { itemURL } from "../urls";
 
 /**
  * Creates a scraping context based on the provided fetch options for the html(cheerio) engine.
@@ -18,6 +25,9 @@ export async function createContext(
     },
     fetchReviewItemsInPage: async (url: string) => {
       return fetchReviewItemsInPage(url);
+    },
+    fetchReadingProgress: async (reviewId: string) => {
+      return fetchReadingProgress(reviewId);
     },
   };
 }
@@ -49,9 +59,26 @@ async function fetchReviewItemsInPage(url: string): Promise<Array<ReviewItem>> {
       const reviewId = id.split("_")?.[1] ?? "";
 
       // Extract title, author, and readCount using Cheerio selectors
-      const title = $(row).find(".field.title a").text().trim();
+
+      // const title = $(row).find(".field.title a").text().trim();
+      // title includes the series, so we need to remove it
+      const titleWithSeries = $(row).find(".field.title a").text().trim();
+      const series = $(row).find(".field.title a span").text().trim();
+      const title = removeLast(titleWithSeries, series).trim();
       const author = $(row).find(".field.author a").text().trim();
       const readCount = $(row).find(".field.read_count .value").text().trim();
+
+      // TODO(daneroo): detect shelves (not present if signed out)
+      // the shelves in the static (unauthenticated) html page is broken
+      // It contains the content of the rating column: Goodreads bug!
+      // const shelves = $(row)
+      //   .find(".field.shelves")
+      //   .map((idx, el) => {
+      //     console.log("-----");
+      //     console.log("shelves", $(el).html());
+      //     return $(el).text().trim();
+      //   })
+      //   .get() as string[];
 
       // For dateStartedValues and dateReadValues, use Cheerio to find and map the
       const dateStartedValues = $(row)
@@ -69,8 +96,10 @@ async function fetchReviewItemsInPage(url: string): Promise<Array<ReviewItem>> {
         id,
         reviewId,
         title,
+        series,
         author,
         readCount,
+        shelves: [],
         dateStartedValues,
         dateReadValues,
       } as ReviewItem;
@@ -82,4 +111,45 @@ async function fetchReviewItemsInPage(url: string): Promise<Array<ReviewItem>> {
   // TODO(daneroo): need a runtime validation of items: ReviewItem[]
 
   return items;
+}
+
+async function fetchReadingProgress(
+  reviewId: string
+): Promise<ReadingProgress> {
+  const url = itemURL(reviewId);
+  const response = await fetch(url);
+  if (!response.ok) {
+    console.debug(`- response:${response.status} ${response.statusText}`);
+    throw new Error(`Failed to fetch page: ${url}`);
+  }
+  const html = await response.text();
+  const $ = cheerio.load(html);
+
+  // Extract shelves
+  const shelves = $("span.userReview ~ a.actionLinkLite")
+    .map((_, el) => {
+      return $(el).text().trim();
+    })
+    .get(); // .get() converts Cheerio object to an array
+
+  // Extract timeline
+  const timeline = $(".readingTimeline .readingTimeline__row")
+    .map((_, row) => {
+      const fullText = $(row)
+        .find(".readingTimeline__text")
+        .text()
+        .replace(/\n/g, " ")
+        .trim();
+      const [date, event] = fullText.split("–").map((part) => part.trim());
+      return { date, event };
+    })
+    .get(); // Convert Cheerio object to an array
+
+  const readingProgress: ReadingProgress = {
+    reviewId,
+    shelves,
+    timeline,
+  };
+
+  return readingProgress;
 }

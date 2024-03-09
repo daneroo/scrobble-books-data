@@ -24,17 +24,6 @@ async function main() {
       await fs.writeFile(itemsFile, JSON.stringify(items, null, 2));
       console.log(`- Wrote ${items.length} items to ${itemsFile}`);
     }
-
-    // Now for a specific book, go to the review page (from the id=review_4789085379 above)
-    // const ids = ["4789085379", "3888950315"]; // Add your desired IDs here
-    // for (const id of ids) {
-    //   const readingProgress = await getReadingProgress(page, id);
-    //   await page.waitForTimeout(1000);
-    //   console.log(id, readingProgress);
-    // }
-
-    // // Add a wait for 5 seconds
-    // await page.waitForTimeout(1000);
   } catch (e) {
     if (e instanceof Error) {
       console.error(e.message);

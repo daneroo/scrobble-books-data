@@ -31,8 +31,15 @@ export function listURL(userId: string, listParams: ListParams): string {
   return `${baseURL}?${query}`;
 }
 
-export function itemURL(itemId: string): string {
-  return `https://www.goodreads.com/review/show/${itemId}`;
+/**
+ * Generates the URL for a specific review on Goodreads.
+ * This is where we get the reading progress and the shelf (when it;s broken in the list view)
+ *
+ * @param reviewId - The reviewId of the item.
+ * @returns The URL of the item on Goodreads.
+ */
+export function itemURL(reviewId: string): string {
+  return `https://www.goodreads.com/review/show/${reviewId}`;
 }
 
 /**

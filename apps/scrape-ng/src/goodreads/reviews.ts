@@ -81,6 +81,36 @@ async function fetchAllReviewItemsWithRetry(
     }
   }
   // TODO(daneroo): robust/selective fill in of reading progress here instead!
+  console.log(`- Fetching reading progress for ${allItems.length} items`);
+  for (const item of allItems) {
+    const { reviewId } = item;
+    if (!reviewId) {
+      console.warn(
+        `  - Skipping item with no reviewId: ${JSON.stringify(item)}`
+      );
+      continue;
+    } else {
+      const start = +new Date();
+      const readingProgress = await executeWithRetry(
+        `${fetchOptions.engine}:fetchReadingProgress(${reviewId})`,
+        () => scrapingContext.fetchReadingProgress(reviewId), // Operation to retry
+        maxRetries
+      );
+      const elapsed = +new Date() - start;
+      console.log(
+        `  - Progress in ${elapsed}ms for ${item.reviewId} - ${item.author} - ${item.title}`
+      );
+      // override shelves in item
+      // TODO(daneroo): runtime validation that they are equivalent?
+      item.shelves = readingProgress.shelves;
+      console.log(`    - shelves:${item.shelves}`);
+      // now timeline
+      readingProgress.timeline.forEach((event) => {
+        console.log(`    - ${event.date}: ${event.event}`);
+      });
+    }
+  }
+
   // TODO(daneroo): need a runtime validation of items: ReviewItem[]
   return allItems;
 }
