@@ -18,6 +18,9 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
+      - uses: oven-sh/setup-bun@v1
+        with:
+          bun-version: latest
       - uses: denoland/setup-deno@v1
         with:
           deno-version: v1.x
@@ -28,8 +31,9 @@ jobs:
 
       - name: Report versions
         run: |
-          deno --version
           node --version
+          bun --version
+          deno --version
           pnpm --version
           cue version
 
