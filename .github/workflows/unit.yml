@@ -34,7 +34,7 @@ jobs:
           echo "pnpm: $(pnpm --version)"
           echo "node: $(node --version)"
           echo "bun: $(bun --version)"
-          deno version
+          deno --version
           cue version
 
       # pnpm i --frozen-lockfile
