@@ -103,11 +103,11 @@ async function fetchAllReviewItemsWithRetry(
       // override shelves in item
       // TODO(daneroo): runtime validation that they are equivalent?
       item.shelves = readingProgress.shelves;
-      console.log(`    - shelves:${item.shelves}`);
+      // console.log(`    - shelves:${item.shelves}`);
       // now timeline
-      readingProgress.timeline.forEach((event) => {
-        console.log(`    - ${event.date}: ${event.event}`);
-      });
+      // readingProgress.timeline.forEach((event) => {
+      //   console.log(`    - ${event.date}: ${event.event}`);
+      // });
     }
   }
 
@@ -162,7 +162,7 @@ async function createContext(
   fetchOptions: FetchOptions
 ): Promise<ScrapingContext> {
   if (fetchOptions.engine === "browser") {
-    // Use Puppeteer
+    // Use Playwright
     return browser.createContext(fetchOptions);
   } else if (fetchOptions.engine === "html") {
     // Use Cheerio

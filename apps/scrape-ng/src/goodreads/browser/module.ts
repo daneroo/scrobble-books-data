@@ -1,11 +1,8 @@
-import {
-  type Browser,
-  chromium,
-  type LaunchOptions,
-  type Page,
-} from "playwright";
+import type { Browser, LaunchOptions, Page } from "playwright";
+import { chromium } from "playwright";
 
 import type {
+  AuthState,
   Credentials,
   FetchOptions,
   ReadingProgress,
@@ -15,7 +12,7 @@ import type {
 import { itemURL } from "../urls";
 
 /**
- * Creates a scraping context based on the provided fetch options for the browser(puppeteer) engine.
+ * Creates a scraping context based on the provided fetch options for the browser(playwright) engine.
  * @param fetchOptions - The options for fetching the review items.
  * @returns A promise that resolves to a scraping context.
  */
@@ -26,26 +23,36 @@ export async function createContext(
   const { page, browser } = await getNewPlaywrightPage({
     headless: fetchOptions.headless,
   });
+  const authState: AuthState = await traceLogin();
 
-  // Optional: perform login or other setup steps here, depending on fetchOptions
-  if (fetchOptions.authenticated) {
-    console.log("- Authenticating...");
-    const loggedIn = await login(fetchOptions.credentials, page);
-    console.log(`- Login: ${loggedIn}`);
-    if (!loggedIn) {
-      throw new Error("Login failed");
+  async function traceLogin(): Promise<AuthState> {
+    // Optional: perform login or other setup steps here, depending on fetchOptions
+    if (fetchOptions.authenticate) {
+      console.log("- Authenticating...");
+      const start = +new Date();
+      // TODO(daneroo) - add retry - executeWithRetry
+      const authState = await login(fetchOptions.credentials, page);
+      const elapsed = +new Date() - start;
+      console.log(`- Login: ${authState.authenticated} in ${elapsed}ms`);
+      if (!authState.authenticated) {
+        throw new Error("Login failed in ${elapsed}ms.");
+      }
+      console.log("- Authenticated");
+      return authState;
+    } else {
+      return { authenticated: false, cookie: "" };
     }
-    console.log("- Authenticated");
   }
 
   return {
+    getAuthState: () => authState,
     cleanup: async () => {
       // Ensure both page and browser instances are closed
       await page.close();
       await browser.close();
     },
     fetchReviewItemsInPage: async (url: string) => {
-      // Delegate to a specific Puppeteer implementation that uses the page instance
+      // Delegate to a specific browser implementation that uses the page instance
       return fetchReviewItemsInPage(page, url);
     },
     fetchReadingProgress: async (id: string) => {
@@ -138,7 +145,7 @@ async function fetchReadingProgress(
   reviewId: string
 ): Promise<ReadingProgress> {
   const url = itemURL(reviewId);
-  const maxTimeout = 10000; // the default 30s might be too long, this is just being more explicit, in case we want to change it
+  const maxTimeout = 5000; // the default 30s might be too long, this is just being more explicit, in case we want to change it
   await page.goto(url, {
     waitUntil: "load",
     timeout: maxTimeout,
@@ -206,6 +213,8 @@ export async function getNewPlaywrightPage(
   launchOptions: LaunchOptions
 ): Promise<{ page: Page; browser: Browser }> {
   const browserType = chromium;
+  // const browserType = webkit;
+  // const browserType = firefox;
   const browser = await browserType.launch(launchOptions);
   const context = await browser.newContext();
   const page = await context.newPage();
@@ -214,40 +223,76 @@ export async function getNewPlaywrightPage(
 
 /**
  * Logs in to the Goodreads website using the provided credentials.
- *  timing is deliberately slow, to avoid captcha
- *  except the final signInSubmit, which we give a maxWait (2s) to settle back to the logged in home page
+ *  slowing down with waitForTimeout's doesn't seem to be necessary
  */
-async function login(credentials: Credentials, page: Page): Promise<boolean> {
-  const maxWait = 20000;
+async function login(credentials: Credentials, page: Page): Promise<AuthState> {
+  const maxTimeout = 10000; // the default 30s might be too long, this is just being more explicit, in case we want to change it
   const { GOODREADS_USERNAME, GOODREADS_PASSWORD } = credentials;
-  await page.goto("https://www.goodreads.com/user/sign_in");
-  await page.waitForTimeout(1000);
+
+  const url = "https://www.goodreads.com/user/sign_in";
+  await page.goto(url, { waitUntil: "load", timeout: maxTimeout });
 
   // Click on the "Sign in with email" button
   await page.click('div#choices a:has-text("Sign in with email")');
-  await page.waitForTimeout(1000);
-
-  // Fill in the username and password, don;t type too fast!
+  // this causes a navigation event to `https://goodreads.com/ap/signin`
+  await page.waitForSelector("#ap_email"); // Waits for the email input field to be present
+  // Fill in the username and password, don;t type too fast! (or does it even matter?) after all
   await page.fill("#ap_email", GOODREADS_USERNAME);
-  await page.waitForTimeout(1000);
+  await page.waitForTimeout(200);
   await page.fill("#ap_password", GOODREADS_PASSWORD);
-  await page.waitForTimeout(1000);
+  await page.waitForTimeout(200);
 
   // Submit the form by clicking the sign in button
   await page.click("#signInSubmit");
+  // "#signInSubmit" is on https://www.goodreads.com/ap/signin
+  // navigates to https://www.goodreads.com/
+  // TODO(daneroo) - Who should catch when this timeout throws?
+  await page.waitForURL("https://www.goodreads.com/", {
+    timeout: maxTimeout,
+    waitUntil: "load",
+  });
 
-  // the click submit will navigate back to the site root on success - where we can look for the 'My Books' link
-  try {
-    await page.waitForSelector('nav li a:has-text("My Books")', {
-      timeout: maxWait,
-    });
-    console.debug("- Login successful. 'My Books' link is visible.");
-    const cookies = await page.context().cookies();
-    console.log(cookies);
-    return true;
-  } catch (error) {
-    console.error("- Login was not successful, 'My Books' link not found.");
+  {
+    const start = +new Date();
+    const htmlDocument = await page.content();
+    const elapsed = +new Date() - start;
+    console.log(`- PageContent: ${elapsed}ms`);
+    // TODO(daneroo) - move this to utils function and test
+    // goodreads.com header script always contain script tag with either of these
+    // if (window.ue && window.ue.tag) { window.ue.tag('home:index:signed_in', ue.main_scope);window.ue.tag('home:index:signed_in:desktop', ue.main_scope); }
+    // if (window.ue && window.ue.tag) { window.ue.tag('home:index:signed_out', ue.main_scope);window.ue.tag('home:index:signed_out:desktop', ue.main_scope); }
+    // if (window.ue && window.ue.tag) { window.ue.tag('review:list:signed_in', ue.main_scope);window.ue.tag('review:list:signed_in:desktop', ue.main_scope); }
+    const isLoggedIn = htmlDocument.includes(":signed_in'");
+    if (isLoggedIn) {
+      const cookies = await page
+        .context()
+        .cookies("https://www.goodreads.com/");
+      const cookieValues = cookies
+        .map((c) => `${c.name}=${c.value}`)
+        .join("; ");
+      //  TODO(daneroo) - move this to util function and test
+      // console.log(`- Cookie: ${cookieValues}`);
+      // const response = await fetch(url, {
+      //   headers: {
+      //     Cookie: cookieValues,
+      //   },
+      // });
+      // const text = await response.text();
+      // await fs.writeFile("auth-cookie-test.html", text);
+
+      return { authenticated: true, cookie: cookieValues };
+    }
+    console.error(
+      "- Login was not successful, 'home:index:signed_in' not found in page."
+    );
+    const isLoggedOut = htmlDocument.includes("'home:index:signed_out'");
+    if (!isLoggedOut) {
+      console.debug(
+        "- Login not successful but still expected 'home:index:signed_out' to be found."
+      );
+    }
   }
-  // anything else is false; bads credentials of captcha
-  return false;
+
+  // anything else is false; bad credentials or captcha
+  return { authenticated: false, cookie: "" };
 }

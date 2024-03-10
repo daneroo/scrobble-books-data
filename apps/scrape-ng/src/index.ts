@@ -11,11 +11,12 @@ async function main() {
     const engines: Engine[] = ["html", "browser"]; //["browser"]; //["html", "browser"];
     for (const engine of engines) {
       const shelf: Shelf = "#ALL#";
-      const listOptions = { shelf, per_page: engine === "browser" ? 100 : 20 };
+      const listOptions = { shelf, per_page: engine === "browser" ? 100 : 100 };
+      const authenticate = true; // engine === "browser" ? true : false;
       const items = await fetchAllReviewItems({
         engine,
-        headless: false,
-        authenticated: engine === "browser" ? true : false,
+        headless: true,
+        authenticate,
         credentials,
         listOptions,
       });

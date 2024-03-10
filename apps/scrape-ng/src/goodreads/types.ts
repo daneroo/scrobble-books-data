@@ -26,7 +26,7 @@ export type Engine = "browser" | "html";
 export interface FetchOptions {
   engine: Engine;
   headless: boolean;
-  authenticated: boolean;
+  authenticate: boolean;
   credentials: Credentials;
   listOptions: ListOptions;
 }
@@ -49,7 +49,13 @@ export interface ReadingProgress {
   timeline: { date: string; event: string }[];
 }
 
+export interface AuthState {
+  authenticated: boolean;
+  cookie: string;
+}
+
 export interface ScrapingContext {
+  getAuthState: () => AuthState;
   cleanup: () => Promise<void>;
   fetchReviewItemsInPage: (url: string) => Promise<Array<ReviewItem>>;
   fetchReadingProgress: (reviewId: string) => Promise<ReadingProgress>;

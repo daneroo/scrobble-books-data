@@ -14,9 +14,9 @@ describe("fetchWithTimeout", () => {
 
   test("fetchWithTimeout times out", async () => {
     await expect(
-      fetchWithTimeout("https://httpbin.org/delay/5", {}, 1000)
+      fetchWithTimeout("https://httpbin.org/delay/2", {}, 1000)
     ).rejects.toThrow(
-      "Fetch(https://httpbin.org/delay/5) timed out in 1000ms."
+      "Fetch(https://httpbin.org/delay/2) timed out in 1000ms: The operation was aborted."
     );
   });
 
