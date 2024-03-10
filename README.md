@@ -68,12 +68,12 @@ pnpm git:log
 # scrape (deno)
 # export vars from secrets/GOODREADS.env
 set -a && source secrets/GOODREADS.env && set +a
-deno run -q --allow-read=. --allow-write=. --allow-run --allow-net --allow-env --unstable apps/scrape/src/scrape.js
+deno run -q --allow-read=. --allow-write=. --allow-run --allow-net --allow-env apps/scrape/src/scrape.js
 
 # scrape-ng (node)
 # export vars from secrets/GOODREADS.env
 set -a && source secrets/GOODREADS.env && set +a
-node apps/scrape-ng/src/index.mjs
+bun apps/scrape-ng/src/index.ts --flags!!!!
 
 # pin to ipfs (sh)
 # references secrets/WEB3STORAGE.env
