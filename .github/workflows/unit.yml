@@ -31,10 +31,10 @@ jobs:
 
       - name: Report versions
         run: |
-          node --version
-          bun --version
-          deno --version
-          pnpm --version
+          echo "pnpm: $(pnpm --version)"
+          echo "node: $(node --version)"
+          echo "bun: $(bun --version)"
+          deno version
           cue version
 
       # pnpm i --frozen-lockfile
