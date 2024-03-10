@@ -25,6 +25,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
+      - uses: oven-sh/setup-bun@v1
+        with:
+          # 1.x is working but docs say to use 1.0.x : I want minor updates too!
+          bun-version: 1.x
       - uses: denoland/setup-deno@v1
         with:
           deno-version: v1.x
@@ -44,9 +48,10 @@ jobs:
 
       - name: Report versions
         run: |
+          echo "pnpm: $(pnpm --version)"
+          echo "node: $(node --version)"
+          echo "bun: $(bun --version)"
           deno --version
-          node --version
-          pnpm --version
           cue version
           jq --version
           w3 --version
@@ -71,7 +76,7 @@ jobs:
       - name: Pin to web3.storage (bash / w3 cli)
         run: ./apps/pin-sh/uploadToW3Storage.sh
 
-      #  J version disabled for now
+      #  JS version disabled for now
       # - name: Pin to web3.storage (node)
       #   run: node apps/pin/src/pin.js
 
