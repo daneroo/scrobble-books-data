@@ -170,7 +170,7 @@ async function fetchReadingProgress(
   authState: AuthState
 ): Promise<ReadingProgress> {
   const url = itemURL(reviewId);
-  const timeout = 2000;
+  const timeout = 2000; // tested with 2000ms to be optimal
   const response = await fetchWithTimeout(url, {}, timeout);
   if (!response.ok) {
     console.debug(`- response:${response.status} ${response.statusText}`);

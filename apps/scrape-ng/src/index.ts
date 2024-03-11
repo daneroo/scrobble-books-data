@@ -36,6 +36,14 @@ async function main() {
 
 await main();
 console.log("Done");
+// @ts-ignore
+console.warn("process._getActiveRequests:", process._getActiveRequests());
+// @ts-ignore
+console.warn("process._getActiveHandles:", process._getActiveHandles());
+console.log(
+  "Force Exiting... cause something is hangin' around! (pending promises?)"
+);
+process.exit(0);
 
 /**
  * Retrieves the credentials required for accessing the Goodreads API.
