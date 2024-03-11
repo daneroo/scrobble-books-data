@@ -12,14 +12,14 @@
       "isbn": "0812589165",
       "userName": "Daniel",
       "userRating": "4",
-      "userReadAt": "2022-06-26T00:00:00.000Z",
-      "userDateAdded": "2024-03-10T07:28:01.000Z",
+      "userReadAt": "2024-03-11T00:00:00.000Z",
+      "userDateAdded": "2024-03-11T07:22:22.000Z",
       "userDateCreated": "2022-06-22T08:03:52.000Z",
-      "userShelves": "currently-reading",
+      "userShelves": "",
       "userReview": "",
       "averageRating": "4.2",
       "bookPublished": "1998",
-      "description": "<a href=\"https://www.goodreads.com/book/show/133450.Dragon?utm_medium=api&amp;utm_source=rss\"><img alt=\"Dragon (Vlad Taltos, #8)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1704246410l/133450._SY75_.jpg\" /></a><br/>\n                                      author: Steven Brust<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 1998<br/>\n                                      rating: 4<br/>\n                                      read at: 2022/06/26<br/>\n                                      date added: 2024/03/09<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/133450.Dragon?utm_medium=api&amp;utm_source=rss\"><img alt=\"Dragon (Vlad Taltos, #8)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1704246410l/133450._SY75_.jpg\" /></a><br/>\n                                      author: Steven Brust<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 1998<br/>\n                                      rating: 4<br/>\n                                      read at: 2024/03/11<br/>\n                                      date added: 2024/03/11<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "288"
     },
     {
