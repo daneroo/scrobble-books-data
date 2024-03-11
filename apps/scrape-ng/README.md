@@ -6,11 +6,27 @@ Use playwright and cheerio to crawl goodreads (reviews)
 
 ## TODO
 
+- New Plan
+  - [ ] rss + updated for progress
+  - [ ] Prove minimal incremental plan: full compare of all combos: auth/no browser/html, shelves updated at, etc.
+    - read_count from shelf list === progress events
+    - shelves read? list?
+- [ ] Confirm that /review/show/$reviewId is identical auth/non-auth browser/html
 - [ ] Fail (or Retry with new Browser/Page) login (fail to navigate: throw)
+
+```txt
+- Authenticating...
+forURL: Timeout 10000ms exceeded.
+=========================== logs ===========================
+waiting for navigation to "https://www.goodreads.com/" until "load"
+  navigated to "https://www.goodreads.com/"
+  "domcontentloaded" event fired
+============================================================
+```
+
 - [x] bun added to GHActions - not invoked yet
   - [ ] bun test - which tests?
   - [ ] bun run (scrape-ng: no commit)
-- [x] fetchWithTimeout
 - [ ] fix html-list-auth shelves (wo/progress)
 - [ ] retry with backoff: delay between attempts and growing timeout
 - [ ] speed test fetch html even in browser can re-use same cheerio code
@@ -20,7 +36,6 @@ Use playwright and cheerio to crawl goodreads (reviews)
 - [ ] column specifiers as data (scraping context neutral?)
 - [ ] Robust/Selective fill in of reading progress here instead!
 - [ ] Runtime validation of items: ReviewItem[]
-
 - command line options
   - [ ] compare command
 - [ ] testing bun vs node:test
@@ -44,11 +59,17 @@ Use playwright and cheerio to crawl goodreads (reviews)
   | html        | auth    | 20       | 50.581s | 53.033s | 50.510s |
   | html        | no-auth | 20       | 36.706  | 38.081s | 37.072s |
 
-| w/progress | per_page |  Time #1 |          Time #2 |          Time #3 |      Avg |
-| ---------- | -------: | -------: | ---------------: | ---------------: | -------: |
-| browser    |      100 | 816.868s | webkit: 900.446s | firefox:818.294s | 845.203s |
-| browser    |      100 | 738.235s |         811.233s |         747.231s |          |
-| html       |      100 | 385.010s |         443.675s |         390.354s | 406.346s |
+- All reading progress is done unauthenticated in html/cheerio
+- Tested html:fetchReadingProgress:timeout:1000,2000 are the same
+- Try no parsing of reading progress (just fetch)
+
+| w/progress             | per_page |           Time #1 |          Time #2 |          Time #3 |      Avg |
+| ---------------------- | -------: | ----------------: | ---------------: | ---------------: | -------: |
+| browser                |      100 | chromium:816.868s | webkit: 900.446s | firefox:818.294s | 845.203s |
+| browser                |      100 |          738.235s |         811.233s |         747.231s | 765.566s |
+| html t:2000            |      100 |          395.914s |         382.303s |         381.541s | 386.586s |
+| html t:1000            |      100 |          394.382s |         384.599s |         390.761s | 389.914s |
+| html t:2000 no:cheerio |      100 |          377.379s |         370.422s |         364.945s | 370.915s |
 
 ## Navigation
 

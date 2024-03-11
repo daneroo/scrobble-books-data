@@ -1,3 +1,7 @@
+// We are using a Promise.all based timeout
+// as opposed to the AbortController method (below)
+// because bun's implementation does not work as of 2024-03-11
+
 export async function fetchWithTimeout(
   url: string,
   options: RequestInit = {},
