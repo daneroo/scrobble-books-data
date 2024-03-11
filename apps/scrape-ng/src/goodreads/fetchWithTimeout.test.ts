@@ -16,7 +16,7 @@ describe("fetchWithTimeout", () => {
     await expect(
       fetchWithTimeout("https://httpbin.org/delay/2", {}, 1000)
     ).rejects.toThrow(
-      "Fetch(https://httpbin.org/delay/2) timed out in 1000ms: The operation was aborted."
+      "Fetch(https://httpbin.org/delay/2) timed out in 1000ms."
     );
   });
 
