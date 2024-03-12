@@ -1,6 +1,6 @@
 import * as cheerio from "cheerio";
 
-import { fetchWithTimeout } from "./fetchWithTimeout";
+import { fetchWithRetryAndTimeout } from "./fetchHelpers";
 import type { ReadingProgress } from "./types";
 import { itemURL } from "./urls";
 
@@ -9,11 +9,18 @@ export async function fetchReadingProgress(
 ): Promise<ReadingProgress> {
   const url = itemURL(reviewId);
   const timeout = 2000; // tested with 2000ms to be optimal
-  const response = await fetchWithTimeout(url, {}, timeout);
-  if (!response.ok) {
-    console.debug(`- response:${response.status} ${response.statusText}`);
-    throw new Error(`Failed to fetch page: ${url}`);
-  }
+  const maxRetries = 5;
+
+  const response = await fetchWithRetryAndTimeout(
+    url,
+    {},
+    {
+      name: `fetchReadingProgress(${reviewId})`,
+      timeout: timeout,
+      maxRetries: maxRetries,
+    }
+  );
+
   const html = await response.text();
   const $ = cheerio.load(html);
 

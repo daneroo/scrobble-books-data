@@ -1,6 +1,6 @@
 import { describe, expect, test } from "bun:test";
 
-import { fetchWithTimeout } from "./fetchWithTimeout";
+import { fetchWithTimeout } from "./fetchHelpers";
 
 describe("fetchWithTimeout", () => {
   test("fetchWithTimeout returns response on success", async () => {

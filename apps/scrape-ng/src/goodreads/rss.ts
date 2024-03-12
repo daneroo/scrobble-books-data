@@ -1,9 +1,8 @@
 import path from "path";
 import Parser from "rss-parser";
 
+import { fetchWithRetryAndTimeout } from "./fetchHelpers";
 import { fetchReadingProgress } from "./fetchReadingProgress";
-import { fetchWithTimeout } from "./fetchWithTimeout";
-import { executeWithRetry } from "./retry";
 import type { Credentials, Feed, RSSItem, Shelf } from "./types";
 import { rssIterator, type RSSParams } from "./urls";
 
@@ -22,7 +21,6 @@ export async function fetchFeed(
   shelf: Shelf
 ): Promise<Feed> {
   const maxPages = 99;
-  const maxRetries = 5;
 
   const allItems: RSSItem[] = [];
 
@@ -33,11 +31,7 @@ export async function fetchFeed(
     maxPages
   )) {
     const start = +new Date();
-    const items = await executeWithRetry(
-      `fetchFeed(${JSON.stringify(shelf)})`,
-      () => fetchFeedPage(url, urlParams), // Operation to retry
-      maxRetries
-    );
+    const items = await fetchFeedPage(url, urlParams);
     allItems.push(...items);
     const elapsed = +new Date() - start;
     console.log(
@@ -69,26 +63,21 @@ export async function fetchFeed(
         `  - Skipping item with no reviewId: ${JSON.stringify(item)}`
       );
       continue;
-    } else {
-      const start = +new Date();
-      const readingProgress = await executeWithRetry(
-        `fetchReadingProgress(${reviewId})`,
-        () => fetchReadingProgress(reviewId), // Operation to retry
-        maxRetries
-      );
-      const elapsed = +new Date() - start;
-      console.log(
-        `  - Progress in ${elapsed}ms for ${item.reviewId} - ${item.author} - ${item.title}`
-      );
-      // override shelves in item
-      // TODO(daneroo): runtime validation that they are equivalent?
-      item.shelves = readingProgress.shelves;
-      // console.log(`    - shelves:${item.shelves}`);
-      // now timeline
-      // readingProgress.timeline.forEach((event) => {
-      //   console.log(`    - ${event.date}: ${event.event}`);
-      // });
     }
+    const start = +new Date();
+    const readingProgress = await fetchReadingProgress(reviewId);
+    const elapsed = +new Date() - start;
+    console.log(
+      `  - Progress in ${elapsed}ms for ${item.reviewId} - ${item.author} - ${item.title}`
+    );
+    // override shelves in item
+    // TODO(daneroo): runtime validation that they are equivalent?
+    item.shelves = readingProgress.shelves;
+    // console.log(`    - shelves:${item.shelves}`);
+    // now timeline
+    // readingProgress.timeline.forEach((event) => {
+    //   console.log(`    - ${event.date}: ${event.event}`);
+    // });
   }
 
   return feed;
@@ -100,14 +89,20 @@ async function fetchFeedPage(
 ): Promise<RSSItem[]> {
   // TODO(daneroo): optimize feedPage timeout
   const timeout = 5000;
+  const maxRetries = 5;
 
   console.log(`- Fetching page:${urlParams.page} of ${url}`);
-  const response = await fetchWithTimeout(url, {}, timeout);
 
-  if (!response.ok) {
-    console.debug(`- response:${response.status} ${response.statusText}`);
-    throw new Error(`Failed to fetch page: ${url}`);
-  }
+  const response = await fetchWithRetryAndTimeout(
+    url,
+    {},
+    {
+      name: `fetchFeedPage(${urlParams.shelf},${urlParams.page})`,
+      timeout: timeout,
+      maxRetries: maxRetries,
+    }
+  );
+
   const xml = await response.text();
   const parser = new Parser({
     customFields: {
