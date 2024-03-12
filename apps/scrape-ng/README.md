@@ -44,6 +44,48 @@ waiting for navigation to "https://www.goodreads.com/" until "load"
 - [ ] Document Navigation for scraping
 - [ ] add some tests
 
+## TODO RSS Instead of Review Listing
+
+## TODO Giving up on playwright, and review listing
+
+- [x] compare html/browser as is. (with auth) : `difft goodreads-html.json goodreads-browser.json`
+- [ ] re-run html/browser with auth - no reading progress
+  - shelves from list is broken in html
+  - saving pages as html - compare - ./data/review-list-auth-html-p1.html
+  - look at all the fields in the tbody
+
+### Fields in Review Listing
+
+```bash
+❯ grep 'class="field' tbody.html |sort|uniq -c
+  30     <td class="field actions">
+  30     <td class="field asin" style="display: none">
+  30     <td class="field author">
+  30     <td class="field avg_rating">
+  30     <td class="field checkbox" style="display: none">
+  30     <td class="field comments" style="display: none">
+  30     <td class="field cover">
+  30     <td class="field date_added">
+  30     <td class="field date_pub" style="display: none">
+  30     <td class="field date_pub_edition" style="display: none">
+  30     <td class="field date_read">
+  30     <td class="field date_started" style="display: none">
+  30     <td class="field format" style="display: none">
+  30     <td class="field isbn" style="display: none">
+  30     <td class="field isbn13" style="display: none">
+  30     <td class="field notes" style="display: none">
+  30     <td class="field num_pages" style="display: none">
+  30     <td class="field num_ratings" style="display: none">
+  30     <td class="field owned" style="display: none">
+  30     <td class="field position" style="display: none">
+  30     <td class="field rating">
+  30     <td class="field read_count" style="display: none">
+  30     <td class="field review" style="display: none">
+  30     <td class="field shelves">
+  30     <td class="field title">
+  30     <td class="field votes" style="display: none">
+```
+
 ## Performance
 
 - review listing: essentially same in browser and html - per_page=100 is faster but requires authentication

@@ -69,3 +69,43 @@ export async function* shelfIterator(
     // Assuming termination condition will be checked outside the iterator
   }
 }
+
+export interface RSSParams {
+  shelf: Shelf;
+  per_page: number;
+  page: number;
+}
+
+/**
+ * Generates the URL for a Goodreads list based on the provided user ID and list parameters.
+ * @param userId - The ID of the user whose list is being generated.
+ * @param rssParams - listing parameters, shelf, per_page, ...
+ * @returns The URL for the Goodreads list.
+ */
+export function rssURL(userId: string, rssParams: RSSParams): string {
+  const baseURL = `https://www.goodreads.com/review/list_rss/${userId}`;
+  const query = new URLSearchParams({
+    ...rssParams,
+    page: rssParams.page.toString(),
+    per_page: rssParams.per_page.toString(),
+  }).toString();
+  return `${baseURL}?${query}`;
+}
+
+export async function* rssIterator(
+  userId: string,
+  listOptions: ListOptions
+): AsyncIterableIterator<{ url: string; urlParams: RSSParams }> {
+  let page = 1;
+  while (true) {
+    const urlParams: RSSParams = {
+      shelf: listOptions.shelf,
+      per_page: listOptions.per_page,
+      page,
+    };
+    const url = rssURL(userId, urlParams);
+    yield { url, urlParams };
+    page++;
+    // Assuming termination condition will be checked outside the iterator
+  }
+}

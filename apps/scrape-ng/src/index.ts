@@ -1,12 +1,22 @@
 import fs from "fs/promises";
 
 import { fetchAllReviewItems } from "./goodreads/reviews";
+import { fetchFeed } from "./goodreads/rss";
 import type { Credentials, Engine, Shelf } from "./goodreads/types";
 
 async function main() {
   try {
     const credentials = getCredentials();
     console.log("- Got credentials, or would have exited early.");
+
+    const feed = await fetchFeed(credentials, {
+      shelf: "#ALL#",
+      per_page: 3,
+    });
+    if (+new Date() > 0) {
+      console.log("Early exit for testing.");
+      return;
+    }
 
     const engines: Engine[] = ["html", "browser"]; //["browser"]; //["html", "browser"];
     for (const engine of engines) {

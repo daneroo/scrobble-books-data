@@ -14,7 +14,23 @@ export type Shelf =
   | "read"
   | "to-read";
 
-// required options for shelfIterator
+export type Feed = {
+  title: string;
+  items: RSSItem[];
+};
+
+export type RSSItem = {
+  id: string;
+  reviewId: string;
+  title: string;
+  author: string;
+  readCount: string;
+  shelves: string[];
+  dateStartedValues: string[];
+  dateReadValues: string[];
+};
+
+// required options for shelfIterator, rssIterator
 export interface ListOptions {
   shelf: Shelf;
   per_page: number;
