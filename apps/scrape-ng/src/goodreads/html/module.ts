@@ -95,6 +95,11 @@ async function fetchReviewItemsInPage(
     }
   }
 
+  // const pageNumber = new URL(url).searchParams.get("page");
+  // const filename = `./data/review-list-html-auth-p${pageNumber}.html`;
+  // console.log(`- browser:Saving: ${filename}`);
+  // await fs.writeFile(filename, html);
+
   const $ = cheerio.load(html);
   const items = $("#booksBody") // this is a tbody
     .find("tr")

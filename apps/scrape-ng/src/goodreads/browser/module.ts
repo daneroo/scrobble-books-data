@@ -76,6 +76,12 @@ async function fetchReviewItemsInPage(
   const maxTimeout = 10000; // the default 30s might be too long, this is just being more explicit, in case we want to change it
   await page.goto(url, { waitUntil: "load", timeout: maxTimeout });
 
+  // const html = await page.content();
+  // const pageNumber = new URL(url).searchParams.get("page");
+  // const filename = `./data/review-list-browser-auth-p${pageNumber}.html`;
+  // console.log(`- browser:Saving: ${filename}`);
+  // await fs.writeFile(filename, html);
+
   // - wait for the table to be present (even if hidden)
   // this is simply 'table#books tbody#booksBody'
   const booksBodyLocator = page.locator("#booksBody");
