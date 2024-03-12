@@ -1,8 +1,10 @@
+import path from "path";
 import Parser from "rss-parser";
 
+import { fetchReadingProgress } from "./fetchReadingProgress";
 import { fetchWithTimeout } from "./fetchWithTimeout";
 import { executeWithRetry } from "./retry";
-import type { Credentials, Feed, ListOptions, RSSItem } from "./types";
+import type { Credentials, Feed, RSSItem, Shelf } from "./types";
 import { rssIterator, type RSSParams } from "./urls";
 
 /**
@@ -17,20 +19,22 @@ import { rssIterator, type RSSParams } from "./urls";
  */
 export async function fetchFeed(
   credentials: Credentials,
-  listOptions: ListOptions
+  shelf: Shelf
 ): Promise<Feed> {
-  const maxPages = 3;
+  const maxPages = 99;
   const maxRetries = 5;
 
   const allItems: RSSItem[] = [];
 
-  for await (const { url, urlParams } of rssIterator(
+  for await (const { url, urlParams, maxItemsPerPage } of rssIterator(
     credentials.GOODREADS_USER,
-    listOptions
+    credentials.GOODREADS_KEY,
+    shelf,
+    maxPages
   )) {
     const start = +new Date();
     const items = await executeWithRetry(
-      `fetchFeed(${JSON.stringify(listOptions)})`,
+      `fetchFeed(${JSON.stringify(shelf)})`,
       () => fetchFeedPage(url, urlParams), // Operation to retry
       maxRetries
     );
@@ -41,9 +45,11 @@ export async function fetchFeed(
         items.length
       } ${JSON.stringify(urlParams)}`
     );
-    // console.debug(`  - url:${url}`);
-    // termination conditions are in a inner function below
-    if (shouldTerminate(items, urlParams, maxPages)) {
+
+    // termination conditions
+    if (items.length === 0 || items.length < maxItemsPerPage) {
+      // items.length === 0 there are definitely no more items, so we can terminate.
+      // items.length < maxItemsPerPage this is the last page, so we can terminate early
       break;
     }
   }
@@ -51,8 +57,39 @@ export async function fetchFeed(
   const feed = {
     title: "Daniel's bookshelf: all",
     // lastBuildDate: stamp, // was for provenance, but we prefer not to cause file difference
-    items: [], // Where we will accumulate the pages items
+    items: allItems, // Where we will accumulate the pages items
   };
+
+  // TODO(daneroo): robust/selective fill in of reading progress here instead!
+  console.log(`- Fetching reading progress for ${allItems.length} items`);
+  for (const item of allItems) {
+    const { reviewId } = item;
+    if (!reviewId) {
+      console.warn(
+        `  - Skipping item with no reviewId: ${JSON.stringify(item)}`
+      );
+      continue;
+    } else {
+      const start = +new Date();
+      const readingProgress = await executeWithRetry(
+        `fetchReadingProgress(${reviewId})`,
+        () => fetchReadingProgress(reviewId), // Operation to retry
+        maxRetries
+      );
+      const elapsed = +new Date() - start;
+      console.log(
+        `  - Progress in ${elapsed}ms for ${item.reviewId} - ${item.author} - ${item.title}`
+      );
+      // override shelves in item
+      // TODO(daneroo): runtime validation that they are equivalent?
+      item.shelves = readingProgress.shelves;
+      // console.log(`    - shelves:${item.shelves}`);
+      // now timeline
+      // readingProgress.timeline.forEach((event) => {
+      //   console.log(`    - ${event.date}: ${event.event}`);
+      // });
+    }
+  }
 
   return feed;
 }
@@ -81,101 +118,64 @@ async function fetchFeedPage(
       ],
       item: [
         // all other fields are already present in the item object
-        "book_id",
-        "book_image_url",
-        "book_small_image_url",
-        "book_medium_image_url",
-        "book_large_image_url",
-        "book_description",
-        "book",
-        "author_name",
-        "isbn",
-        "user_name",
-        "user_rating",
+        "guid",
+        ["guid", "id"],
+        ["guid", "reviewId"],
+        // "book_id",
+        // "book_image_url",
+        // "book_small_image_url",
+        // "book_medium_image_url",
+        // "book_large_image_url",
+        // "book_description",
+        // "book", //  "$": {"id": "25895524"}, "num_pages": ["467"] }
+        ["author_name", "author"],
+        // "isbn",
+        // "user_name",
+        // "user_rating",
         "user_read_at",
         "user_date_added",
         "user_date_created",
         "user_shelves",
-        "user_review",
-        "average_rating",
-        "book_published",
-        "description",
+        // "user_review",
+        // "average_rating",
+        // "book_published",
+        // "description",
       ],
     },
   });
   // let feed = await parser.parseURL('https://www.reddit.com/.rss');
   const feedPage = await parser.parseString(xml);
   // console.log(feedPage?.title);
-  const items = feedPage?.items || [];
+  const feedItems = feedPage?.items || [];
   // console.log(JSON.stringify(feedPage, null, 2));
-  console.log(JSON.stringify(items[0], null, 2));
+  // console.log(JSON.stringify(feedItems[0], null, 2));
 
-  return [];
+  const items: RSSItem[] = feedItems.map((item) => {
+    // guid looks like: https://www.goodreads.com/review/show/6309249800?utm_medium=api&utm_source=rss
+    const guid = item.guid ?? "";
+    const reviewId = reviewIdFromGuid(guid);
+
+    return {
+      id: reviewId, // item.guid,
+      reviewId,
+      title: item.title ?? "BAD",
+      author: item.author ?? "BAD",
+      readCount: "0",
+      shelves: [item.user_shelves ?? ""], // comma separated?
+      dateStartedValues: [item.user_read_at ?? "BAD"],
+      dateReadValues: [item.user_read_at ?? "BAD"],
+    };
+  });
+  return items;
 }
 
-// TODO(daneroo): robust/selective fill in of reading progress here instead!
-// console.log(`- Fetching reading progress for ${allItems.length} items`);
-// for (const item of allItems) {
-//   const { reviewId } = item;
-//   if (!reviewId) {
-//     console.warn(
-//       `  - Skipping item with no reviewId: ${JSON.stringify(item)}`
-//     );
-//     continue;
-//   } else {
-//     const start = +new Date();
-//     const readingProgress = await executeWithRetry(
-//       `${fetchOptions.engine}:fetchReadingProgress(${reviewId})`,
-//       () => scrapingContext.fetchReadingProgress(reviewId), // Operation to retry
-//       maxRetries
-//     );
-//     const elapsed = +new Date() - start;
-//     console.log(
-//       `  - Progress in ${elapsed}ms for ${item.reviewId} - ${item.author} - ${item.title}`
-//     );
-//     // override shelves in item
-//     // TODO(daneroo): runtime validation that they are equivalent?
-//     item.shelves = readingProgress.shelves;
-//     // console.log(`    - shelves:${item.shelves}`);
-//     // now timeline
-//     // readingProgress.timeline.forEach((event) => {
-//     //   console.log(`    - ${event.date}: ${event.event}`);
-//     // });
-//   }
-// }
-
-/**
- * Termination condition for fetchFeed.
- * Called after every page fetch, termination conditions are:
- * - no items: items.length === 0
- * - less than per_page items: items.length < urlParams.per_page
- * - max pages exceeded: urlParams.page >= maxPages
- *
- * @param items - The array of review items.
- * @param urlParams - The parameters for the URL.
- * @param maxPages - The maximum number of pages.
- * @returns A boolean indicating whether the scraping process should terminate.
- */
-function shouldTerminate(
-  items: RSSItem[],
-  urlParams: RSSParams,
-  maxPages: number
-) {
-  if (items.length === 0) {
-    console.info(`- break: no items:${items.length}`);
-    return true;
+function reviewIdFromGuid(guid: string): string {
+  try {
+    const url = new URL(guid);
+    const reviewId = path.basename(url.pathname);
+    return reviewId;
+  } catch (e) {
+    console.error(`Error parsing guid:${guid}`);
+    return "";
   }
-  if (items.length < urlParams.per_page) {
-    console.info(
-      `- break: ${items.length} items < per_page:${urlParams.per_page} items, breaking`
-    );
-    return true;
-  }
-  if (urlParams.page >= maxPages) {
-    console.warn(
-      `- break page:${urlParams.page} of max:${maxPages} exceeded, breaking out of page loop.`
-    );
-    return true;
-  }
-  return false;
 }

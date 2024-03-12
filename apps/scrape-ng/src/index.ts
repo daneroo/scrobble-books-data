@@ -1,40 +1,19 @@
-import fs from "fs/promises";
+import * as fs from "fs/promises";
 
-import { fetchAllReviewItems } from "./goodreads/reviews";
 import { fetchFeed } from "./goodreads/rss";
-import type { Credentials, Engine, Shelf } from "./goodreads/types";
+import type { Credentials, Shelf } from "./goodreads/types";
 
 async function main() {
   try {
     const credentials = getCredentials();
     console.log("- Got credentials, or would have exited early.");
 
-    const feed = await fetchFeed(credentials, {
-      shelf: "#ALL#",
-      per_page: 3,
-    });
-    if (+new Date() > 0) {
-      console.log("Early exit for testing.");
-      return;
-    }
+    const shelf: Shelf = "#ALL#";
+    const feed = await fetchFeed(credentials, shelf);
+    console.log(`- Got feed:${feed.title} with ${feed.items.length} items`);
+    const bookFileJSON = `goodreads-rss.json`;
 
-    const engines: Engine[] = ["html", "browser"]; //["browser"]; //["html", "browser"];
-    for (const engine of engines) {
-      const shelf: Shelf = "#ALL#";
-      const listOptions = { shelf, per_page: engine === "browser" ? 100 : 100 };
-      const authenticate = true; // engine === "browser" ? true : false;
-      const items = await fetchAllReviewItems({
-        engine,
-        headless: true,
-        authenticate,
-        credentials,
-        listOptions,
-      });
-      // write the results to a file goodreads-${engine}.json (pretty printed)
-      const itemsFile = `goodreads-${engine}.json`;
-      await fs.writeFile(itemsFile, JSON.stringify(items, null, 2));
-      console.log(`- Wrote ${items.length} items to ${itemsFile}`);
-    }
+    await fs.writeFile(bookFileJSON, JSON.stringify(feed, null, 2));
   } catch (e) {
     if (e instanceof Error) {
       console.error(e.message);
@@ -51,7 +30,7 @@ console.warn("process._getActiveRequests:", process._getActiveRequests());
 // @ts-ignore
 console.warn("process._getActiveHandles:", process._getActiveHandles());
 console.log(
-  "Force Exiting... cause something is hangin' around! (pending promises?)"
+  "Force Exiting... cause something is hanging around! (pending promises?)"
 );
 process.exit(0);
 
@@ -60,20 +39,11 @@ process.exit(0);
  * @throws {Error} If the GOODREADS_USERNAME or GOODREADS_PASSWORD environment variables are missing.
  */
 function getCredentials(): Credentials {
-  const GOODREADS_USERNAME = process.env.GOODREADS_USERNAME;
-  const GOODREADS_PASSWORD = process.env.GOODREADS_PASSWORD;
   const GOODREADS_USER = process.env.GOODREADS_USER;
   const GOODREADS_KEY = process.env.GOODREADS_KEY;
   // null checks must be performed on fields for undefined check to propagate
-  if (
-    GOODREADS_USERNAME !== undefined &&
-    GOODREADS_PASSWORD !== undefined &&
-    GOODREADS_USER !== undefined &&
-    GOODREADS_KEY !== undefined
-  ) {
+  if (GOODREADS_USER !== undefined && GOODREADS_KEY !== undefined) {
     return {
-      GOODREADS_USERNAME,
-      GOODREADS_PASSWORD,
       GOODREADS_USER,
       GOODREADS_KEY,
     };

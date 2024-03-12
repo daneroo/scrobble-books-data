@@ -1,39 +1,9 @@
 // inward facing params of iteration
-import type { ListOptions, Shelf } from "./types";
-
-export interface ListParams {
-  shelf: Shelf;
-  page: number;
-  per_page: number;
-  // sort : noted
-  //   date_read is the default when logged in
-  //   date_added is the default when not logged in, and cannot be changed
-  //   so we set it to date_added, and order=d so that we get the same behavior
-  //   wether we are logged in or not.
-  sort: "date_added"; // | "date_read" | "date_updated"; // Fixed for now
-  order: "d"; // | "a"; // Fixed for now
-}
-
-/**
- * Generates the URL for a Goodreads list based on the provided user ID and list parameters.
- * @param userId - The ID of the user whose list is being generated.
- * @param listParams - listing parameters, shelf, per_page, ...
- * @returns The URL for the Goodreads list.
- */
-export function listURL(userId: string, listParams: ListParams): string {
-  const baseURL = `https://www.goodreads.com/review/list/${userId}`;
-  const query = new URLSearchParams({
-    ...listParams,
-    page: listParams.page.toString(),
-    per_page: listParams.per_page.toString(),
-    utf8: "✓",
-  }).toString();
-  return `${baseURL}?${query}`;
-}
+import type { Shelf } from "./types";
 
 /**
  * Generates the URL for a specific review on Goodreads.
- * This is where we get the reading progress and the shelf (when it;s broken in the list view)
+ * This is where we get the reading progress and the shelf(ves).
  *
  * @param reviewId - The reviewId of the item.
  * @returns The URL of the item on Goodreads.
@@ -42,38 +12,10 @@ export function itemURL(reviewId: string): string {
   return `https://www.goodreads.com/review/show/${reviewId}`;
 }
 
-/**
- * Asynchronous generator function that yields URLs and URL parameters for each page of a Goodreads shelf.
- *   We return the URL parameters as well, so that the caller can use them to terminate for example.
- *
- * @param userId - The ID of the user whose shelf is being iterated.
- * @param listOptions - The options for the shelf iteration.
- * @returns An async iterable iterator that yields objects containing the URL and URL parameters for each page.
- */
-export async function* shelfIterator(
-  userId: string,
-  listOptions: ListOptions
-): AsyncIterableIterator<{ url: string; urlParams: ListParams }> {
-  let page = 1;
-  while (true) {
-    const urlParams: ListParams = {
-      shelf: listOptions.shelf,
-      per_page: listOptions.per_page,
-      sort: "date_added",
-      order: "d",
-      page,
-    };
-    const url = listURL(userId, urlParams);
-    yield { url, urlParams };
-    page++;
-    // Assuming termination condition will be checked outside the iterator
-  }
-}
-
 export interface RSSParams {
   shelf: Shelf;
-  per_page: number;
   page: number;
+  key: string; // GOODREADS_KEY
 }
 
 /**
@@ -86,26 +28,48 @@ export function rssURL(userId: string, rssParams: RSSParams): string {
   const baseURL = `https://www.goodreads.com/review/list_rss/${userId}`;
   const query = new URLSearchParams({
     ...rssParams,
-    page: rssParams.page.toString(),
-    per_page: rssParams.per_page.toString(),
+    page: rssParams.page.toString(), // override page to string
   }).toString();
   return `${baseURL}?${query}`;
 }
 
+/**
+ * Generates an async iterator that yields pages of a Goodreads RSS feed for a given user and shelf.
+ * - maxPages is a safeguard against runaway iteration. but you can set maxPages to -1 to iterate without termination.
+ *   I suggest setting it a reasonable large value (50) to avoid infinite loops.
+ * - maxItemsPerPage is the known maximum number of items per page,
+ *   and is returned to the client so they might their iteration early (i.e. when items.length < itemsPerPage)
+ *
+ * @param userId - The Goodreads user ID whose feed to iterate.
+ * @param GOODREADS_KEY - The API key for Goodreads.
+ * @param shelf - The shelf to retrieve.
+ * @param maxPages - The maximum number of pages to iterate, this is a safeguard against runaway iteration. but you can set maxPages to -1 without termination.
+ * @returns An async iterator that yields objects containing the URL, params, and max items per page for each page.
+ */
 export async function* rssIterator(
   userId: string,
-  listOptions: ListOptions
-): AsyncIterableIterator<{ url: string; urlParams: RSSParams }> {
+  GOODREADS_KEY: string,
+  shelf: Shelf,
+  maxPages: number
+): AsyncIterableIterator<{
+  url: string;
+  urlParams: RSSParams;
+  maxItemsPerPage: number;
+}> {
   let page = 1;
-  while (true) {
+  // this is what we know the feed pages return as itemsPerPage
+  // we return it to the client so they might their iteration early (i.e. when items.length < itemsPerPage)
+  const maxItemsPerPage = 100;
+  while (maxPages < 0 || page <= maxPages) {
     const urlParams: RSSParams = {
-      shelf: listOptions.shelf,
-      per_page: listOptions.per_page,
+      shelf,
       page,
+      key: GOODREADS_KEY,
     };
     const url = rssURL(userId, urlParams);
-    yield { url, urlParams };
+    yield { url, urlParams, maxItemsPerPage };
     page++;
-    // Assuming termination condition will be checked outside the iterator
   }
+  // this can only be reached if maxPages>=0
+  // console.log(`rssIterator:done page:${page - 1} reached maxPages:${maxPages}`);
 }

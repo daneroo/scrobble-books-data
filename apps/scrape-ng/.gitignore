@@ -1,4 +1,2 @@
-goodreads-html.json
-goodreads-browser.json
+goodreads-rss.json
 node_modules/
-dist/

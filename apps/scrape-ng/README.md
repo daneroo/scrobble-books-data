@@ -7,84 +7,24 @@ Use playwright and cheerio to crawl goodreads (reviews)
 ## TODO
 
 - New Plan
-  - [ ] rss + updated for progress
-  - [ ] Prove minimal incremental plan: full compare of all combos: auth/no browser/html, shelves updated at, etc.
-    - read_count from shelf list === progress events
-    - shelves read? list?
-- [ ] Confirm that /review/show/$reviewId is identical auth/non-auth browser/html
-- [ ] Fail (or Retry with new Browser/Page) login (fail to navigate: throw)
 
-```txt
-- Authenticating...
-forURL: Timeout 10000ms exceeded.
-=========================== logs ===========================
-waiting for navigation to "https://www.goodreads.com/" until "load"
-  navigated to "https://www.goodreads.com/"
-  "domcontentloaded" event fired
-============================================================
-```
-
+- [ ] <https://github.com/rbren/rss-parser>
+- [ ] rss + match deno:scrape first
+- [ ] review listing
+  - [ ] speed test fetch html in parallel
+  - [ ] progress% (for currently-reading shelf)
+  - [ ] shelves (make multiple possible)
+  - [ ] reading count
+  - [ ] full events, other dates
 - [x] bun added to GHActions - not invoked yet
   - [ ] bun test - which tests?
   - [ ] bun run (scrape-ng: no commit)
-- [ ] fix html-list-auth shelves (wo/progress)
-- [ ] retry with backoff: delay between attempts and growing timeout
-- [ ] speed test fetch html even in browser can re-use same cheerio code
-- [ ] fetch/cheerio auth: see if shelves are present when cookies transferred
-  - new test for login: `window.ue.tag('review:list:signed_out', ue.main_scope)` vs `signed_in`
-- [ ] <https://github.com/rbren/rss-parser>
 - [ ] column specifiers as data (scraping context neutral?)
-- [ ] Robust/Selective fill in of reading progress here instead!
-- [ ] Runtime validation of items: ReviewItem[]
+- [ ] Runtime validation of items: RSSItem[] Zod
 - command line options
   - [ ] compare command
-- [ ] testing bun vs node:test
-- [ ] test and document the columns schema
-- [ ] run test on GitHub Actions/act
-- [ ] Document Navigation for scraping
-- [ ] add some tests
 
 ## TODO RSS Instead of Review Listing
-
-## TODO Giving up on playwright, and review listing
-
-- [x] compare html/browser as is. (with auth) : `difft goodreads-html.json goodreads-browser.json`
-- [ ] re-run html/browser with auth - no reading progress
-  - shelves from list is broken in html
-  - saving pages as html - compare - ./data/review-list-auth-html-p1.html
-  - look at all the fields in the tbody
-
-### Fields in Review Listing
-
-```bash
-❯ grep 'class="field' tbody.html |sort|uniq -c
-  30     <td class="field actions">
-  30     <td class="field asin" style="display: none">
-  30     <td class="field author">
-  30     <td class="field avg_rating">
-  30     <td class="field checkbox" style="display: none">
-  30     <td class="field comments" style="display: none">
-  30     <td class="field cover">
-  30     <td class="field date_added">
-  30     <td class="field date_pub" style="display: none">
-  30     <td class="field date_pub_edition" style="display: none">
-  30     <td class="field date_read">
-  30     <td class="field date_started" style="display: none">
-  30     <td class="field format" style="display: none">
-  30     <td class="field isbn" style="display: none">
-  30     <td class="field isbn13" style="display: none">
-  30     <td class="field notes" style="display: none">
-  30     <td class="field num_pages" style="display: none">
-  30     <td class="field num_ratings" style="display: none">
-  30     <td class="field owned" style="display: none">
-  30     <td class="field position" style="display: none">
-  30     <td class="field rating">
-  30     <td class="field read_count" style="display: none">
-  30     <td class="field review" style="display: none">
-  30     <td class="field shelves">
-  30     <td class="field title">
-  30     <td class="field votes" style="display: none">
-```
 
 ## Performance
 
@@ -127,12 +67,7 @@ We want to retrieve the list of all books for a user. These are called reviews l
 ## Setup
 
 ```bash
-pnpm install playwright cheerio # .. see package.json
-# actual browser need also to be installed (on MacOS: ~/Library/Caches/ms-playwright/)
-pnpx playwright install -h
-pnpx playwright install chrome
-pnpx playwright uninstall -h
-pnpx playwright uninstall
+pnpm install # .. see package.json
 
 # get your secrets
 set -a && source ../../secrets/GOODREADS.env && set +a
@@ -154,6 +89,4 @@ pnpm tsc --init # and fix it line by line using chatGPT, WTF
 
 ## References
 
-- [Blog](https://oxylabs.io/blog/playwright-web-scraping)
-- [Playwright](https://playwright.dev/)
-- [Puppeteer](https://pptr.dev/)
+- [RSS Parser](https://github.com/rbren/rss-parser)
