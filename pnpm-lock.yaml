@@ -20,6 +20,31 @@ importers:
 
   apps/scrape: {}
 
+  apps/scrape-browser:
+    dependencies:
+      cheerio:
+        specifier: 1.0.0-rc.12
+        version: 1.0.0-rc.12
+      playwright:
+        specifier: ^1.42.1
+        version: 1.42.1
+    devDependencies:
+      '@types/bun':
+        specifier: ^1.0.8
+        version: 1.0.8
+      '@types/cheerio':
+        specifier: ^0.22.35
+        version: 0.22.35
+      '@types/node':
+        specifier: ^20.11.24
+        version: 20.11.24
+      npm-check-updates:
+        specifier: ^16.14.15
+        version: 16.14.15
+      typescript:
+        specifier: ^5.3.3
+        version: 5.3.3
+
   apps/scrape-ng:
     dependencies:
       cheerio:
