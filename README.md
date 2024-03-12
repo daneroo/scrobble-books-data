@@ -70,10 +70,15 @@ pnpm git:log
 set -a && source secrets/GOODREADS.env && set +a
 deno run -q --allow-read=. --allow-write=. --allow-run --allow-net --allow-env apps/scrape/src/scrape.js
 
-# scrape-ng (node)
+# scrape-ng (bun)
 # export vars from secrets/GOODREADS.env
 set -a && source secrets/GOODREADS.env && set +a
-bun apps/scrape-ng/src/index.ts --flags!!!!
+bun apps/scrape-ng/src/index.ts # --flags!!!!
+
+# scrape-browser (bun) - deprecated
+# export vars from secrets/GOODREADS.env
+set -a && source secrets/GOODREADS.env && set +a
+bun apps/scrape-browser/src/index.ts # --flags!!!!
 
 # pin to ipfs (sh)
 # references secrets/WEB3STORAGE.env

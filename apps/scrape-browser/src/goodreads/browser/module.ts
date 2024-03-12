@@ -246,11 +246,15 @@ async function login(credentials: Credentials, page: Page): Promise<AuthState> {
   await page.click("#signInSubmit");
   // "#signInSubmit" is on https://www.goodreads.com/ap/signin
   // navigates to https://www.goodreads.com/
-  // TODO(daneroo) - Who should catch when this timeout throws?
-  await page.waitForURL("https://www.goodreads.com/", {
-    timeout: maxTimeout,
-    waitUntil: "load",
-  });
+  try {
+    await page.waitForURL("https://www.goodreads.com/", {
+      timeout: maxTimeout,
+      waitUntil: "load",
+    });
+  } catch (e) {
+    // console.error("Post login waitForURL failed", e);
+    throw new Error("Post Login waitForURL(https://www.goodreads.com/) failed");
+  }
 
   {
     const start = +new Date();

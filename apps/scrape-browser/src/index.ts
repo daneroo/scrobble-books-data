@@ -6,16 +6,22 @@ import type { Credentials, Engine, Shelf } from "./goodreads/types";
 async function main() {
   try {
     const credentials = getCredentials();
-    console.log("- Got credentials, or would have exited early.");
+    console.log("- Got credentials");
 
     const engines: Engine[] = ["html", "browser"]; //["browser"]; //["html", "browser"];
+    const shelf: Shelf = "#ALL#";
+    const listOptions = { shelf, per_page: 100 };
+    const authenticate = true;
+    const headless = false; // show you work!
+
+    console.log(`# Fetch using engines: ${engines}`);
+    console.log(`- first fetch all listing pages for selected shelf: ${shelf}`);
+    console.log(`- then fetch each review page for reading progress\n`);
     for (const engine of engines) {
-      const shelf: Shelf = "#ALL#";
-      const listOptions = { shelf, per_page: engine === "browser" ? 100 : 100 };
-      const authenticate = true; // engine === "browser" ? true : false;
+      console.log(`\n## Fetching items using *${engine}* engine`);
       const items = await fetchAllReviewItems({
         engine,
-        headless: true,
+        headless,
         authenticate,
         credentials,
         listOptions,

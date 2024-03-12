@@ -1,48 +1,16 @@
-# scrape-ng
+# scrape-browser
+
+This was abandoned but is kept for the playwright crawling code (for now).
+It turns out we can get everything we need from unauthenticated pages: rss feed + individual review pages.
 
 Use playwright and cheerio to crawl goodreads (reviews)
 
-- works bun - ts-node is OUT
+- works in bun - ts-node is OUT
 
 ## TODO
 
-- New Plan
-  - [ ] rss + updated for progress
-  - [ ] Prove minimal incremental plan: full compare of all combos: auth/no browser/html, shelves updated at, etc.
-    - read_count from shelf list === progress events
-    - shelves read? list?
-- [ ] Confirm that /review/show/$reviewId is identical auth/non-auth browser/html
-- [ ] Fail (or Retry with new Browser/Page) login (fail to navigate: throw)
-
-```txt
-- Authenticating...
-forURL: Timeout 10000ms exceeded.
-=========================== logs ===========================
-waiting for navigation to "https://www.goodreads.com/" until "load"
-  navigated to "https://www.goodreads.com/"
-  "domcontentloaded" event fired
-============================================================
-```
-
-- [x] bun added to GHActions - not invoked yet
-  - [ ] bun test - which tests?
-  - [ ] bun run (scrape-ng: no commit)
-- [ ] fix html-list-auth shelves (wo/progress)
-- [ ] retry with backoff: delay between attempts and growing timeout
-- [ ] speed test fetch html even in browser can re-use same cheerio code
-- [ ] fetch/cheerio auth: see if shelves are present when cookies transferred
-  - new test for login: `window.ue.tag('review:list:signed_out', ue.main_scope)` vs `signed_in`
-- [ ] <https://github.com/rbren/rss-parser>
-- [ ] column specifiers as data (scraping context neutral?)
-- [ ] Robust/Selective fill in of reading progress here instead!
-- [ ] Runtime validation of items: ReviewItem[]
-- command line options
-  - [ ] compare command
-- [ ] testing bun vs node:test
-- [ ] test and document the columns schema
-- [ ] run test on GitHub Actions/act
-- [ ] Document Navigation for scraping
-- [ ] add some tests
+- [ ] get rid of this app!
+- [ ] make the fields complete
 
 ## Performance
 
@@ -87,8 +55,9 @@ We want to retrieve the list of all books for a user. These are called reviews l
 ```bash
 pnpm install playwright cheerio # .. see package.json
 # actual browser need also to be installed (on MacOS: ~/Library/Caches/ms-playwright/)
+ls ~/Library/Caches/ms-playwright/
 pnpx playwright install -h
-pnpx playwright install chrome
+pnpx playwright install chromium
 pnpx playwright uninstall -h
 pnpx playwright uninstall
 
