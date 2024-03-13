@@ -2,7 +2,7 @@ import path from "path";
 import Parser from "rss-parser";
 
 import { fetchWithRetryAndTimeout } from "./fetchHelpers";
-import { fetchReadingProgress } from "./fetchReadingProgress";
+import { decorateAllItemsWithReadingProgress } from "./fetchReadingProgress";
 import type { Credentials, Feed, RSSItem, Shelf } from "./types";
 import { rssIterator, type RSSParams } from "./urls";
 
@@ -20,12 +20,13 @@ export async function fetchFeed(
   credentials: Credentials,
   shelf: Shelf
 ): Promise<Feed> {
-  const maxPages = 99;
+  const readingProgressConcurrency = 3;
+  const maxPages = 1;
 
   const allItems: RSSItem[] = [];
 
   for await (const { url, urlParams, maxItemsPerPage } of rssIterator(
-    credentials.GOODREADS_USER,
+    credentials.GOODREADS_USER, // might not always be the case, but fixed for now.
     credentials.GOODREADS_KEY,
     shelf,
     maxPages
@@ -49,36 +50,16 @@ export async function fetchFeed(
   }
 
   const feed = {
+    // TODO(daneroo): get the feed title from the (first page) feedPage
     title: "Daniel's bookshelf: all",
     // lastBuildDate: stamp, // was for provenance, but we prefer not to cause file difference
     items: allItems, // Where we will accumulate the pages items
   };
 
-  // TODO(daneroo): robust/selective fill in of reading progress here instead!
-  console.log(`- Fetching reading progress for ${allItems.length} items`);
-  for (const item of allItems) {
-    const { reviewId } = item;
-    if (!reviewId) {
-      console.warn(
-        `  - Skipping item with no reviewId: ${JSON.stringify(item)}`
-      );
-      continue;
-    }
-    const start = +new Date();
-    const readingProgress = await fetchReadingProgress(reviewId);
-    const elapsed = +new Date() - start;
-    console.log(
-      `  - Progress in ${elapsed}ms for ${item.reviewId} - ${item.author} - ${item.title}`
-    );
-    // override shelves in item
-    // TODO(daneroo): runtime validation that they are equivalent?
-    item.shelves = readingProgress.shelves;
-    // console.log(`    - shelves:${item.shelves}`);
-    // now timeline
-    // readingProgress.timeline.forEach((event) => {
-    //   console.log(`    - ${event.date}: ${event.event}`);
-    // });
-  }
+  await decorateAllItemsWithReadingProgress(
+    allItems,
+    readingProgressConcurrency
+  );
 
   return feed;
 }

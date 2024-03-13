@@ -16,7 +16,7 @@ async function main() {
     await fs.writeFile(bookFileJSON, JSON.stringify(feed, null, 2));
   } catch (e) {
     if (e instanceof Error) {
-      console.error(e.message);
+      console.error(`Fatal error: ${e.message}`, e.stack);
     } else {
       console.error("An unknown error occurred", e);
     }

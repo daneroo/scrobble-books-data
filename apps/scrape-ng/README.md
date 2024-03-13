@@ -89,4 +89,6 @@ pnpm tsc --init # and fix it line by line using chatGPT, WTF
 
 ## References
 
+- [Sindresorhus p-limit](https://github.com/sindresorhus/p-limit)
+  - [Sindresorhus promise fun](https://github.com/sindresorhus/promise-fun)
 - [RSS Parser](https://github.com/rbren/rss-parser)

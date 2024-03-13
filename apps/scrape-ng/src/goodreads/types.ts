@@ -32,4 +32,5 @@ export interface ReadingProgress {
   reviewId: string;
   shelves: string[];
   timeline: { date: string; event: string }[];
+  readCount: number;
 }
