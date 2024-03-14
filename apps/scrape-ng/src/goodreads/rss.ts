@@ -3,6 +3,7 @@ import Parser from "rss-parser";
 
 import { fetchWithRetryAndTimeout } from "./fetchHelpers";
 import { decorateAllItemsWithReadingProgress } from "./fetchReadingProgress";
+import { timeOne } from "./timeHelpers";
 import type { Credentials, Feed, RSSItem, Shelf } from "./types";
 import { rssIterator, type RSSParams } from "./urls";
 
@@ -31,15 +32,18 @@ export async function fetchFeed(
     shelf,
     maxPages
   )) {
-    const start = +new Date();
-    const items = await fetchFeedPage(url, urlParams);
-    allItems.push(...items);
-    const elapsed = +new Date() - start;
-    console.log(
-      `- page:${urlParams.page} in ${elapsed}ms items:${
-        items.length
-      } ${JSON.stringify(urlParams)}`
+    // const items = await fetchFeedPage(url, urlParams);
+    const items: RSSItem[] = await timeOne(
+      () => fetchFeedPage(url, urlParams),
+      (elapsed, result) =>
+        console.log(
+          `- page:${urlParams.page} in ${elapsed}ms items:${
+            result.length
+          } ${JSON.stringify(urlParams)}`
+        )
     );
+
+    allItems.push(...items);
 
     // termination conditions
     if (items.length === 0 || items.length < maxItemsPerPage) {

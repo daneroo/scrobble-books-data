@@ -2,12 +2,19 @@ import * as cheerio from "cheerio";
 import pLimit from "p-limit";
 
 import { fetchWithRetryAndTimeout } from "./fetchHelpers";
+import {
+  type MultipleResultsOperation,
+  timeMany,
+  timeOne,
+} from "./timeHelpers";
 import type { ReadingProgress, RSSItem } from "./types";
 import { itemURL } from "./urls";
 
 /**
  * Decorates all items with reading progress.
  * *Be careful*: This function mutates the input items.
+ *
+ * TODO(daneroo): remove the sequential implementation, once concurrency is proven
  *
  * @param items - The array of RSS items to decorate.
  * @param concurrency - The number of concurrent operations.
@@ -20,24 +27,40 @@ export async function decorateAllItemsWithReadingProgress(
   console.log(
     `- Decorating with reading progress for ${items.length} items (concurrency:${concurrency})`
   );
-  const start = +new Date();
-  if (concurrency === 1) {
+
+  // we have kept two implementations here, one sequential and one concurrent
+  // This is in case we need to revert to sequential if concurrency is causing issues
+  // *Note*: the items variable is being bound into the closure of the async function
+  async function sequential(): Promise<void[]> {
+    const voids: void[] = [];
     for (const item of items) {
-      await decorateItemWithReadingProgress(item);
+      const v = await decorateItemWithReadingProgress(item);
+      voids.push(v);
     }
-  } else {
+    return voids;
+  }
+  // *Note*: the items and concurrency variables are being bound into the closure of the async function
+  async function concurrent(): Promise<void[]> {
     const limit = pLimit(concurrency);
     const promises = items.map((item) => {
       return limit(async () => {
         await decorateItemWithReadingProgress(item);
       });
     });
-    await Promise.all(promises);
+    const voids = await Promise.all(promises);
+    return voids;
   }
-  const elapsed = +new Date() - start;
-  console.log(
-    `- Done in ${elapsed}ms for ${items.length} items (concurrency:${concurrency})`
-  );
+
+  const decorator: MultipleResultsOperation<void> =
+    concurrency === 1 ? sequential : concurrent;
+
+  await timeMany(decorator, (elapsed, rate, result) => {
+    console.log(
+      `- Decorated ${result.length} items in ${elapsed}ms  (${rate.toFixed(
+        2
+      )}/s concurrency:${concurrency})`
+    );
+  });
 }
 /**
  * Decorates an RSSItem with reading progress information.
@@ -54,12 +77,15 @@ export async function decorateItemWithReadingProgress(
     console.warn(`  - Skipping item with no reviewId (${reviewId})`);
     return;
   }
-  const start = +new Date();
-  const readingProgress = await fetchReadingProgress(reviewId);
-  const elapsed = +new Date() - start;
-  console.log(
-    `  - Progress in ${elapsed}ms for ${item.reviewId} - ${item.author} - ${item.title}`
+  // const readingProgress = await fetchReadingProgress(reviewId);
+  const readingProgress = await timeOne(
+    () => fetchReadingProgress(reviewId),
+    (elapsed, _result) =>
+      console.log(
+        `  - Progress in ${elapsed}ms for ${reviewId} - ${item.author} - ${item.title}`
+      )
   );
+
   item.shelves = readingProgress.shelves;
   item.readCount = readingProgress.readCount.toString();
 }
