@@ -5,7 +5,7 @@
   "type": "module",
   "main": "dist/index.js",
   "scripts": {
-    "start": "bun src/index.ts",
+    "start": "bun run src/index.ts",
     "test": "tsc --noEmit",
     "lint": "tsc --noEmit",
     "deps:check": "ncu",

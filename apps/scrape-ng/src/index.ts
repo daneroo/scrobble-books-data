@@ -5,15 +5,29 @@ import type { Credentials, Shelf } from "./goodreads/types";
 
 async function main() {
   try {
+    const opts = parseCommandLineArgs();
+    console.log({ opts });
+    const {
+      maxItems,
+      maxPages,
+      concurrency,
+      shelf,
+      verbosity,
+      outputFilename,
+    } = opts;
+
     const credentials = getCredentials();
     console.log("- Got credentials, or would have exited early.");
 
-    const shelf: Shelf = "#ALL#";
-    const feed = await fetchFeed(credentials, shelf);
+    const feed = await fetchFeed(credentials, {
+      shelf,
+      maxPages,
+      maxItems,
+      concurrency,
+    });
     console.log(`- Got feed:${feed.title} with ${feed.items.length} items`);
-    const bookFileJSON = `goodreads-rss.json`;
 
-    await fs.writeFile(bookFileJSON, JSON.stringify(feed, null, 2));
+    await fs.writeFile(outputFilename, JSON.stringify(feed, null, 2));
   } catch (e) {
     if (e instanceof Error) {
       console.error(`Fatal error: ${e.message}`, e.stack);
@@ -25,6 +39,7 @@ async function main() {
 
 await main();
 console.log("Done");
+// Following is just debug code meant to diagnose hanging process, and slow termination
 // @ts-ignore
 console.warn("process._getActiveRequests:", process._getActiveRequests());
 // @ts-ignore
@@ -33,6 +48,101 @@ console.log(
   "Force Exiting... cause something is hanging around! (pending promises?)"
 );
 process.exit(0);
+
+type CmdOptions = {
+  outputFilename: string;
+  maxItems: number;
+  maxPages: number;
+  concurrency: number;
+  shelf: Shelf;
+  verbosity: number;
+};
+
+function parseCommandLineArgs(): CmdOptions {
+  const args = process.argv.slice(2);
+  // this would make it work under node and deno
+  // if (typeof process !== "undefined") {
+  //   args = process.argv.slice(2);
+  // } else if (typeof Deno !== "undefined") {
+  //   args = Deno.args;
+  // }
+
+  const options: CmdOptions = {
+    outputFilename: "goodreads-rss-ng.json",
+    maxItems: -1, // default to ALL
+    maxPages: -1, // default to ALL
+    concurrency: 1, // default to sequential processing
+    shelf: "#ALL#", // default shelf
+    verbosity: 0, // default verbosity
+  };
+
+  for (let i = 0; i < args.length; i++) {
+    switch (args[i]) {
+      case "-o":
+      case "--output":
+        options.outputFilename = args[++i];
+        break;
+      case "-n":
+      case "--items":
+        options.maxItems = parseInt(args[++i], 10);
+        break;
+      case "-p":
+      case "--pages":
+        options.maxPages = parseInt(args[++i], 10);
+        break;
+      case "-c":
+      case "--concurrency":
+        options.concurrency = parseInt(args[++i], 10);
+        break;
+      case "-s":
+      case "--shelf":
+        // options.shelf = args[++i];
+        const shelfString = args[++i];
+        // TODO(daneroo): how do I make this sane in the types? perhaps we'll have a genral zod schema for types
+        const validShelves: string[] = [
+          "#ALL#",
+          "currently-reading",
+          "on-deck",
+          "read",
+          "to-read",
+        ];
+        if (validShelves.includes(shelfString)) {
+          options.shelf = shelfString as Shelf;
+        } else {
+          throw new Error(`Invalid shelf: ${shelfString}`);
+        }
+        break;
+      case "-v":
+        options.verbosity = 1;
+        break;
+      case "-vv":
+        options.verbosity = 2;
+        break;
+      case "-vvv":
+        options.verbosity = 3;
+        break;
+      case "-h":
+      case "--help":
+        console.log(`
+          Usage:
+            -n, --items        Max number of items (default: -1 means ALL)
+            -o, --output       Output file (default: goodreads-rss-ng.json)
+            -p, --pages        Max number of feed pages to retrieve (default: -1 means ALL)
+            -c, --concurrency  Max number of concurrent fetch operations (for reading progress)
+            -s, --shelf        Goodreads shelf to fetch (default: #ALL#)
+            -v, -vv, -vvv      Verbosity level (more 'v's for more verbose output)
+            -h, --help         Show help information
+
+          Examples:
+            command -n 20 -vvv  Run with 20 items with high verbosity
+            command --help      Show usage information
+        `);
+        process.exit(0);
+    }
+  }
+
+  return options;
+}
 
 /**
  * Retrieves the credentials required for accessing the Goodreads API.

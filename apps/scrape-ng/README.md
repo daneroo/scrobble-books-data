@@ -24,7 +24,19 @@ Use playwright and cheerio to crawl goodreads (reviews)
 - command line options
   - [ ] compare command
 
-## TODO RSS Instead of Review Listing
+## Development
+
+```bash
+time bun run src/index.ts -c 3
+
+time bun run src/index.ts -c 3 -p 1 -n 50 -o coco.json ; difft goodreads-rss-ng-c1-p1-n50.json coco.json
+
+time bun run src/index.ts -c 3 -p 1 -n 50 -o goodreads-rss-ng-c1-p1-n50.json
+# compare concurrency
+time bun run src/index.ts -c 1 -p 1 -o goodreads-rss-ng-c1-p1.json
+time bun run src/index.ts -c 3 -p 1 -o goodreads-rss-ng-c3-p1.json
+difft goodreads-rss-ng-c1-p1.json goodreads-rss-ng-c3-p1.json
+```
 
 ## Performance
 
@@ -73,7 +85,7 @@ pnpm install # .. see package.json
 set -a && source ../../secrets/GOODREADS.env && set +a
 pnpm start
 # or
-bun src/index.ts
+bun run src/index.ts
 ```
 
 ### Converting to Typescript

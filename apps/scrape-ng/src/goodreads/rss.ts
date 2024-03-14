@@ -7,6 +7,12 @@ import { timeOne } from "./timeHelpers";
 import type { Credentials, Feed, RSSItem, Shelf } from "./types";
 import { rssIterator, type RSSParams } from "./urls";
 
+export type FetchOptions = {
+  shelf: Shelf;
+  maxPages: number;
+  maxItems: number;
+  concurrency: number;
+};
 /**
  * Fetches all rss items with retry.
  *
@@ -19,12 +25,10 @@ import { rssIterator, type RSSParams } from "./urls";
  */
 export async function fetchFeed(
   credentials: Credentials,
-  shelf: Shelf
+  fetchOptions: FetchOptions
 ): Promise<Feed> {
-  const readingProgressConcurrency = 3;
-  const maxPages = 1;
-
   const allItems: RSSItem[] = [];
+  const { shelf, maxPages, maxItems, concurrency } = fetchOptions;
 
   for await (const { url, urlParams, maxItemsPerPage } of rssIterator(
     credentials.GOODREADS_USER, // might not always be the case, but fixed for now.
@@ -37,9 +41,7 @@ export async function fetchFeed(
       () => fetchFeedPage(url, urlParams),
       (elapsed, result) =>
         console.log(
-          `- page:${urlParams.page} in ${elapsed}ms items:${
-            result.length
-          } ${JSON.stringify(urlParams)}`
+          `- page:${urlParams.page} shelf:${urlParams.shelf} in ${elapsed}ms items:${result.length}`
         )
     );
 
@@ -53,17 +55,15 @@ export async function fetchFeed(
     }
   }
 
+  const maxedItems = maxItems < 0 ? allItems : allItems.slice(0, maxItems);
+  await decorateAllItemsWithReadingProgress(maxedItems, concurrency);
+
   const feed = {
     // TODO(daneroo): get the feed title from the (first page) feedPage
     title: "Daniel's bookshelf: all",
     // lastBuildDate: stamp, // was for provenance, but we prefer not to cause file difference
-    items: allItems, // Where we will accumulate the pages items
+    items: maxedItems, // Where we will accumulate the pages items
   };
-
-  await decorateAllItemsWithReadingProgress(
-    allItems,
-    readingProgressConcurrency
-  );
 
   return feed;
 }
