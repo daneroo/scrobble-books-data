@@ -1,10 +1,11 @@
 import * as fs from "fs/promises";
-import path from "path";
 
 import { fetchWithRetryAndTimeout } from "./fetchHelpers";
 import { timeOne } from "./timeHelpers";
 import type { Credentials, Feed, RSSItem, Shelf } from "./types";
 import { rssIterator, type RSSParams } from "./urls";
+import { mapFields } from "./xml/mapFields";
+import { parseXML } from "./xml/parseXML";
 import { validateXML } from "./xml/validateXML";
 
 export type FetchOptions = {
@@ -99,7 +100,9 @@ async function fetchFeedPage(url: string, urlParams: RSSParams): Promise<Feed> {
     console.log(`  - Wrote ${xmlFile}`);
   }
 
-  const feedPage = await validateXML(xml);
+  const xmlObject = await parseXML(xml);
+  // throws if invalid
+  const feedPage = validateXML(xmlObject);
   console.log(`- Validated rss-parser-raw-${urlParams.page}.json`);
 
   if (verbosity > 0) {
@@ -113,49 +116,9 @@ async function fetchFeedPage(url: string, urlParams: RSSParams): Promise<Feed> {
   // items is not present if there are no items, hence  ?? []
   const feedItems = feedPage.rss.channel.item ?? [];
 
-  // get zod to validate feedPage
-  // @ts-ignore
-  const items: RSSItem[] = feedItems.map((item) => {
-    // guid looks like: https://www.goodreads.com/review/show/6309249800?utm_medium=api&utm_source=rss
-    const reviewId = reviewIdFromGuid(item.guid);
-
-    const rssItem: RSSItem = {
-      reviewId,
-      id: item.guid,
-      title: item.title,
-      link: item.link,
-      bookId: item.book_id,
-      bookImageURL: item.book_image_url,
-      bookDescription: item.book_description,
-      authorName: item.author_name,
-      isbn: item.isbn,
-      userName: item.user_name,
-      userRating: item.user_rating,
-      userReadAt: item.user_read_at,
-      userDateAdded: item.user_date_added,
-      userDateCreated: item.user_date_created,
-      userShelves: item.user_shelves,
-      userReview: item.user_review,
-      averageRating: item.average_rating,
-      bookPublished: item.book_published,
-      description: item.description,
-      numPages: item.book.num_pages,
-    };
-    return rssItem;
-  });
+  const items: RSSItem[] = feedItems.map(mapFields);
   return {
     title: feedPage.rss.channel.title,
     items,
   };
-}
-
-function reviewIdFromGuid(guid: string): string {
-  try {
-    const url = new URL(guid);
-    const reviewId = path.basename(url.pathname);
-    return reviewId;
-  } catch (e) {
-    console.error(`Error parsing guid:${guid}`);
-    return "";
-  }
 }

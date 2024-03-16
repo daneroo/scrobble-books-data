@@ -1,9 +1,7 @@
 import { z } from "zod";
 
-import { parseXML } from "./parseXML";
-
-export async function validateXML(xml: string) {
-  const xmlObject = await parseXML(xml);
+type FeedPageType = z.infer<typeof feedPageSchema>;
+export function validateXML(xmlObject: any): FeedPageType {
   // validate parsed feedPage
   const zResult = feedPageSchema.safeParse(xmlObject);
 
@@ -37,7 +35,7 @@ const bookSchema = z.object({
   num_pages: z.string(),
 });
 
-const itemSchema = z.object({
+export const itemSchema = z.object({
   guid: z.string(),
   pubDate: z.string(),
   title: z.string(),
@@ -81,7 +79,7 @@ const rssSchema = z.object({
   channel: channelSchema,
 });
 
-const feedPageSchema = z.object({
+export const feedPageSchema = z.object({
   // "?xml": z.string(), // ignoreDeclaration:true
   rss: rssSchema,
 });

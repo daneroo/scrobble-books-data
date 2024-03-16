@@ -1,5 +1,6 @@
 import * as fs from "fs/promises";
 
+import { decorateAllItemsWithReadingProgress } from "./goodreads/fetchReadingProgress";
 import { fetchFeed } from "./goodreads/rss";
 import type { Credentials, Shelf } from "./goodreads/types";
 
@@ -22,12 +23,33 @@ async function main() {
     const feed = await fetchFeed(credentials, {
       shelf,
       maxPages,
-      maxItems,
-      concurrency,
     });
-    console.log(`- Got feed:${feed.title} with ${feed.items.length} items`);
 
+    // trim the items to maxItems
+    const allItems = feed.items;
+    // now decorate the items with reading progress
+    const maxedItems = maxItems < 0 ? allItems : allItems.slice(0, maxItems);
+    feed.items = maxedItems;
+    console.log(
+      `- Got feed:${feed.title} with ${allItems.length} items ${
+        maxedItems.length < allItems.length
+          ? ` (trimmed to ${maxedItems.length})`
+          : ""
+      }`
+    );
     await fs.writeFile(outputFilename, JSON.stringify(feed, null, 2));
+    console.log(`- Wrote ${outputFilename}`);
+
+    const outputFilenameWithProgress = outputFilename.replace(
+      ".json",
+      "-progress.json"
+    );
+    await decorateAllItemsWithReadingProgress(feed.items, concurrency);
+    await fs.writeFile(
+      outputFilenameWithProgress,
+      JSON.stringify(feed, null, 2)
+    );
+    console.log(`- Wrote ${outputFilenameWithProgress}`);
   } catch (e) {
     if (e instanceof Error) {
       console.error(`Fatal error: ${e.message}`, e.stack);

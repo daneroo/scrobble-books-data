@@ -2,6 +2,7 @@ import { describe, expect, test } from "bun:test";
 import * as fs from "fs/promises";
 import path from "path";
 
+import { parseXML } from "./parseXML";
 import { validateXML } from "./validateXML";
 
 describe("validateXML", () => {
@@ -13,7 +14,9 @@ describe("validateXML", () => {
       "goodreads-rss-ng-2-items.xml"
     );
     const xmlContent = await fs.readFile(xmlFilePath, "utf8");
-    const rssPage = await validateXML(xmlContent);
+    const xmlObject = await parseXML(xmlContent);
+
+    const rssPage = await validateXML(xmlObject);
     expect(rssPage).toBeDefined();
     // returned object should look like {rss: {channel: {item: [{}]}}}
     expect(rssPage.rss).toBeDefined();
@@ -31,10 +34,21 @@ describe("validateXML", () => {
       "goodreads-rss-ng-missing-guid.xml"
     );
     const xmlContent = await fs.readFile(xmlFilePath, "utf8");
-    // expect validateXML(xmlContent); to throw
-    expect(validateXML(xmlContent)).rejects.toThrow();
-    // message should contain 'guid'
-    expect(validateXML(xmlContent)).rejects.toThrow(/guid/);
-    expect(validateXML(xmlContent)).rejects.toThrow(/Required/);
+    const xmlObject = await parseXML(xmlContent);
+
+    try {
+      validateXML(xmlObject);
+      // Explicitly fail the test with a message if no error is thrown
+      throw new Error(
+        "This line should never be reached if validateXML is throwing as expected."
+      );
+    } catch (error) {
+      // Perform all assertions on the caught error
+      expect(error).toBeInstanceOf(Error); // Check that it's an Error instance
+      const errorMessage = (error as Error).message;
+      // Check that the message contains the expected content
+      expect(errorMessage).toMatch(/guid/);
+      expect(errorMessage).toMatch(/Required/);
+    }
   });
 });
