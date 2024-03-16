@@ -1,0 +1,23 @@
+{
+  "name": "universal-file",
+  "version": "1.0.0",
+  "description": "read/write text files in node,deno,bun",
+  "type": "module",
+  "main": "dist/index.mjs",
+  "scripts": {
+    "start": "bun run src/index.mjs",
+    "test": "bun test || true",
+    "lint": "tsc --noEmit",
+    "deps:check": "ncu",
+    "deps:update": "ncu -i"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/bun": "^1.0.8",
+    "@types/node": "^20.11.24",
+    "npm-check-updates": "^16.14.15",
+    "typescript": "^5.3.3"
+  }
+}
