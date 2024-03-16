@@ -18,7 +18,7 @@ export type Feed = {
 };
 
 export type RSSItem = {
-  reviewId: string;
+  // reviewId: string;
   id: string;
   title: string;
   link: string;

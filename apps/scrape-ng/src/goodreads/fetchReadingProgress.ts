@@ -1,5 +1,6 @@
 import * as cheerio from "cheerio";
 import pLimit from "p-limit";
+import path from "path";
 
 import { fetchWithRetryAndTimeout } from "./fetchHelpers";
 import {
@@ -71,7 +72,7 @@ export async function decorateAllItemsWithReadingProgress(
 export async function decorateItemWithReadingProgress(
   item: RSSItem
 ): Promise<void> {
-  const { reviewId } = item;
+  const reviewId = reviewIdFromGuid(item.id);
   if (!reviewId) {
     //TODO(daneroo): might even throw ger?
     console.warn(`  - Skipping item with no reviewId (${reviewId})`);
@@ -90,6 +91,17 @@ export async function decorateItemWithReadingProgress(
   // item.readCount = readingProgress.readCount.toString();
   // item.timeline = readingProgress.timeline;
   // item.progress = ...
+}
+
+function reviewIdFromGuid(guid: string): string {
+  try {
+    const url = new URL(guid);
+    const reviewId = path.basename(url.pathname);
+    return reviewId;
+  } catch (e) {
+    console.error(`Error parsing guid:${guid}`);
+    return "";
+  }
 }
 
 export async function fetchReadingProgress(
