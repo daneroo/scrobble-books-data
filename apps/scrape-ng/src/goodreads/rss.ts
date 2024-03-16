@@ -2,7 +2,6 @@ import * as fs from "fs/promises";
 import path from "path";
 
 import { fetchWithRetryAndTimeout } from "./fetchHelpers";
-import { decorateAllItemsWithReadingProgress } from "./fetchReadingProgress";
 import { timeOne } from "./timeHelpers";
 import type { Credentials, Feed, RSSItem, Shelf } from "./types";
 import { rssIterator, type RSSParams } from "./urls";
@@ -11,8 +10,6 @@ import { validateXML } from "./xml/validateXML";
 export type FetchOptions = {
   shelf: Shelf;
   maxPages: number;
-  maxItems: number;
-  concurrency: number;
 };
 /**
  * Fetches all rss items with retry.
@@ -29,50 +26,54 @@ export async function fetchFeed(
   fetchOptions: FetchOptions
 ): Promise<Feed> {
   const allItems: RSSItem[] = [];
-  const { shelf, maxPages, maxItems, concurrency } = fetchOptions;
+  const { shelf, maxPages } = fetchOptions;
 
+  let title = "";
   for await (const { url, urlParams, maxItemsPerPage } of rssIterator(
     credentials.GOODREADS_USER, // might not always be the case, but fixed for now.
     credentials.GOODREADS_KEY,
     shelf,
     maxPages
   )) {
-    // const items = await fetchFeedPage(url, urlParams);
-    const items: RSSItem[] = await timeOne(
+    const feedPage: Feed = await timeOne(
       () => fetchFeedPage(url, urlParams),
       (elapsed, result) =>
         console.log(
-          `- page:${urlParams.page} shelf:${urlParams.shelf} in ${elapsed}ms items:${result.length}`
+          `- page:${urlParams.page} shelf:${urlParams.shelf} in ${elapsed}ms items:${result.items.length}`
         )
     );
+    if (title === "") {
+      // console.log(`- Setting title:${feedPage.title}`);
+      title = feedPage.title;
+    } else if (title !== feedPage.title) {
+      console.warn(
+        `Title changed from ${title} to ${feedPage.title} on page:${urlParams.page}`
+      );
+    }
 
-    allItems.push(...items);
+    allItems.push(...feedPage.items);
 
     // termination conditions
-    if (items.length === 0 || items.length < maxItemsPerPage) {
+    if (
+      feedPage.items.length === 0 ||
+      feedPage.items.length < maxItemsPerPage
+    ) {
       // items.length === 0 there are definitely no more items, so we can terminate.
       // items.length < maxItemsPerPage this is the last page, so we can terminate early
       break;
     }
   }
 
-  const maxedItems = maxItems < 0 ? allItems : allItems.slice(0, maxItems);
-  await decorateAllItemsWithReadingProgress(maxedItems, concurrency);
-
   const feed = {
     // TODO(daneroo): get the feed title from the (first page) feedPage
-    title: "Daniel's bookshelf: all",
-    // lastBuildDate: stamp, // was for provenance, but we prefer not to cause file difference
-    items: maxedItems, // Where we will accumulate the pages items
+    title,
+    items: allItems, // Where we will accumulate the pages items
   };
 
   return feed;
 }
 
-async function fetchFeedPage(
-  url: string,
-  urlParams: RSSParams
-): Promise<RSSItem[]> {
+async function fetchFeedPage(url: string, urlParams: RSSParams): Promise<Feed> {
   // TODO(daneroo): optimize feedPage timeout
   const timeout = 5000;
   const maxRetries = 5;
@@ -142,7 +143,10 @@ async function fetchFeedPage(
     };
     return rssItem;
   });
-  return items;
+  return {
+    title: feedPage.rss.channel.title,
+    items,
+  };
 }
 
 function reviewIdFromGuid(guid: string): string {
