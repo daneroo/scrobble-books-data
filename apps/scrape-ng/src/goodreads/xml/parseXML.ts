@@ -19,7 +19,7 @@ export async function parseXML(xml: string): Promise<any> {
    * ignoreDeclaration: true,
    */
 
-  const alwaysArray = ["rss.item"]; // for case where there are 0 or 1 items
+  const alwaysArray = ["rss.channel.item"]; // for case where there are 0 or 1 items
   const parser = new XMLParser({
     ignoreDeclaration: true, // remove the <?xml ?> tag
     parseTagValue: false, // do not use strnum to parse nums

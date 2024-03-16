@@ -3,11 +3,10 @@ import path from "path";
 
 import { fetchWithRetryAndTimeout } from "./fetchHelpers";
 import { decorateAllItemsWithReadingProgress } from "./fetchReadingProgress";
-import { parseXML } from "./parseXML";
 import { timeOne } from "./timeHelpers";
 import type { Credentials, Feed, RSSItem, Shelf } from "./types";
 import { rssIterator, type RSSParams } from "./urls";
-import { feedPageSchema } from "./z-types";
+import { validateXML } from "./xml/validateXML";
 
 export type FetchOptions = {
   shelf: Shelf;
@@ -89,31 +88,27 @@ async function fetchFeedPage(
       maxRetries: maxRetries,
     }
   );
-
-  const xmlDataDir = "data/xml";
-  await fs.mkdir(xmlDataDir, { recursive: true });
-  const jsonDataDir = "data/rss-json";
-  await fs.mkdir(jsonDataDir, { recursive: true });
-
   const xml = await response.text();
-  const xmlFile = `${xmlDataDir}/goodreads-rss-ng-${urlParams.page}.xml`;
-  await fs.writeFile(xmlFile, xml);
-  console.log(`  - Wrote ${xmlFile}`);
-
-  const xmlObject = await parseXML(xml);
-  const jsonFile = `${jsonDataDir}/goodreads-rss-ng-${urlParams.page}.json`;
-  await fs.writeFile(jsonFile, JSON.stringify(xmlObject, null, 2));
-  console.log(`  - Wrote ${jsonFile}`);
-  // validate parsed feedPage
-  const zResult = feedPageSchema.safeParse(xmlObject);
-
-  if (!zResult.success) {
-    console.log("RSS Validation failed", zResult.error);
-    throw zResult.error;
+  const verbosity = 0;
+  if (verbosity > 0) {
+    const xmlDataDir = "data/xml";
+    await fs.mkdir(xmlDataDir, { recursive: true });
+    const xmlFile = `${xmlDataDir}/goodreads-rss-ng-${urlParams.page}.xml`;
+    await fs.writeFile(xmlFile, xml);
+    console.log(`  - Wrote ${xmlFile}`);
   }
+
+  const feedPage = await validateXML(xml);
   console.log(`- Validated rss-parser-raw-${urlParams.page}.json`);
 
-  const feedPage = zResult.data;
+  if (verbosity > 0) {
+    const jsonDataDir = "data/rss-json";
+    await fs.mkdir(jsonDataDir, { recursive: true });
+    const jsonFile = `${jsonDataDir}/goodreads-rss-ng-${urlParams.page}.json`;
+    await fs.writeFile(jsonFile, JSON.stringify(feedPage, null, 2));
+    console.log(`  - Wrote ${jsonFile}`);
+  }
+
   // items is not present if there are no items, hence  ?? []
   const feedItems = feedPage.rss.channel.item ?? [];
 

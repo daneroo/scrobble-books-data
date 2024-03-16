@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" >
+  <channel>
+    <xhtml:meta xmlns:xhtml="http://www.w3.org/1999/xhtml" name="robots" content="noindex" />
+    <title>Daniel's bookshelf: all</title>
+    <copyright><![CDATA[Copyright (C) 2024 Goodreads Inc. All rights reserved.]]>
+    </copyright>
+    <link><![CDATA[https://www.goodreads.com/review/list_rss/6883912?shelf=%23ALL%23&page=11&key=9C2oDNblCg8nchKHD5aYs_gzgVmR5mpfiCi8B7WP0_IS0jMW]]></link>
+    <atom:link href="https://www.goodreads.com/review/list_rss/6883912?shelf=%23ALL%23&amp;page=11&amp;key=9C2oDNblCg8nchKHD5aYs_gzgVmR5mpfiCi8B7WP0_IS0jMW" rel="self" type="application/rss+xml" />
+    <description><![CDATA[Daniel's bookshelf: all]]></description>
+    <language>en-US</language>
+    <lastBuildDate>Sat, 16 Mar 2024 10:35:22 -0700</lastBuildDate>
+    <ttl>60</ttl>
+    <image>
+      <title>Daniel's bookshelf: all</title>
+      <link><![CDATA[https://www.goodreads.com/review/list_rss/6883912?shelf=%23ALL%23&page=11&key=9C2oDNblCg8nchKHD5aYs_gzgVmR5mpfiCi8B7WP0_IS0jMW]]></link>
+      <width>144</width>
+      <height>41</height>
+      <url>https://www.goodreads.com/images/layout/goodreads_logo_144.jpg</url>
+    </image>
+    
+
+  </channel>
+</rss>

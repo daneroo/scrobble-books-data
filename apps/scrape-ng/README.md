@@ -2,28 +2,17 @@
 
 Use playwright and cheerio to crawl goodreads (reviews)
 
-- works bun - ts-node is OUT
+- works with bun - (deno later)
 
 ## TODO
 
-- New Plan
-
 - [ ] rss + match deno:scrape first
-- [ ] refactor
-  - [ ] xml/ parseXML, validateXML with Zod and fixtures
 - [ ] review listing
-  - [ ] speed test fetch html in parallel
   - [ ] progress% (for currently-reading shelf)
   - [ ] shelves (make multiple possible)
   - [ ] reading count
   - [ ] full events, other dates
-- [x] bun added to GHActions - not invoked yet
-  - [ ] bun test - which tests?
-  - [ ] bun run (scrape-ng: no commit)
-- [ ] column specifiers as data (scraping context neutral?)
-- [ ] Runtime validation of items: RSSItem[] Zod
-- command line options
-  - [ ] compare command
+- [ ] bun run (scrape-ng: no commit)
 
 ## Development
 

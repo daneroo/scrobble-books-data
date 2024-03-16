@@ -1,5 +1,19 @@
 import { z } from "zod";
 
+import { parseXML } from "./parseXML";
+
+export async function validateXML(xml: string) {
+  const xmlObject = await parseXML(xml);
+  // validate parsed feedPage
+  const zResult = feedPageSchema.safeParse(xmlObject);
+
+  if (!zResult.success) {
+    // console.log("RSS Validation failed", zResult.error);
+    throw zResult.error;
+  }
+  return zResult.data;
+}
+
 /**
  * validate the whole feedPage; i.e. the output of parseXML(rss-page.xml)
  * <xml/>
@@ -67,7 +81,7 @@ const rssSchema = z.object({
   channel: channelSchema,
 });
 
-export const feedPageSchema = z.object({
+const feedPageSchema = z.object({
   // "?xml": z.string(), // ignoreDeclaration:true
   rss: rssSchema,
 });
