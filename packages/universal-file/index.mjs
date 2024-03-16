@@ -29,6 +29,14 @@ export async function readFile(path) {
   return text;
 }
 
+/**
+ * Writes text to a file at the specified path.
+ * This function is universal and works in Deno, Bun, and Node.js environments.
+ *
+ * @param {string} path - The path of the file to write.
+ * @param {string} text - The text to write to the file.
+ * @returns {Promise<void>} A promise that resolves when the file has been written.
+ */
 export async function writeFile(path, text) {
   // Check for Deno
   if (typeof Deno !== "undefined") {
