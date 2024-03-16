@@ -18,14 +18,30 @@ export type Feed = {
 };
 
 export type RSSItem = {
-  id: string;
   reviewId: string;
+  id: string;
   title: string;
-  author: string;
-  readCount: string;
-  shelves: string[];
-  dateStartedValues: string[];
-  dateReadValues: string[];
+  link: string;
+  bookId: string;
+  bookImageURL: string;
+  bookDescription: string;
+  authorName: string;
+  isbn: string;
+  userName: string;
+  userRating: string;
+  userReadAt: string;
+  userDateAdded: string;
+  userDateCreated: string;
+  userShelves: string;
+  userReview: string;
+  averageRating: string;
+  bookPublished: string;
+  description: string;
+  numPages: string;
+  // readCount: string;
+  // shelves: string[];
+  // dateStartedValues: string[];
+  // dateReadValues: string[];
 };
 
 export interface ReadingProgress {

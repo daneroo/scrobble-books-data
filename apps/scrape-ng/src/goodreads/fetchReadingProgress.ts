@@ -82,12 +82,14 @@ export async function decorateItemWithReadingProgress(
     () => fetchReadingProgress(reviewId),
     (elapsed, _result) =>
       console.log(
-        `  - Progress in ${elapsed}ms for ${reviewId} - ${item.author} - ${item.title}`
+        `  - Progress in ${elapsed}ms for ${reviewId} - ${item.authorName} - ${item.title}`
       )
   );
 
-  item.shelves = readingProgress.shelves;
-  item.readCount = readingProgress.readCount.toString();
+  item.userShelves = readingProgress.shelves.join(", ");
+  // item.readCount = readingProgress.readCount.toString();
+  // item.timeline = readingProgress.timeline;
+  // item.progress = ...
 }
 
 export async function fetchReadingProgress(

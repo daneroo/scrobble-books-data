@@ -8,8 +8,9 @@ Use playwright and cheerio to crawl goodreads (reviews)
 
 - New Plan
 
-- [ ] <https://github.com/rbren/rss-parser>
 - [ ] rss + match deno:scrape first
+- [ ] refactor
+  - [ ] xml/ parseXML, validateXML with Zod and fixtures
 - [ ] review listing
   - [ ] speed test fetch html in parallel
   - [ ] progress% (for currently-reading shelf)
@@ -28,6 +29,10 @@ Use playwright and cheerio to crawl goodreads (reviews)
 
 ```bash
 time bun run src/index.ts -c 3
+
+time bun run src/index.ts -c 3 -p 1 -n 50 -o coco.json
+(cd ../../cue; cue vet check-output.cue ../apps/scrape-ng/coco.json) 2>&1 | more
+
 
 time bun run src/index.ts -c 3 -p 1 -n 50 -o coco.json ; difft goodreads-rss-ng-c1-p1-n50.json coco.json
 
@@ -103,4 +108,8 @@ pnpm tsc --init # and fix it line by line using chatGPT, WTF
 
 - [Sindresorhus p-limit](https://github.com/sindresorhus/p-limit)
   - [Sindresorhus promise fun](https://github.com/sindresorhus/promise-fun)
-- [RSS Parser](https://github.com/rbren/rss-parser)
+- [Fast-XML-Parser](https://github.com/NaturalIntelligence/fast-xml-parser)
+- Bundle size and compare
+  - [npm trends](https://npmtrends.com/fast-xml-parser-vs-xml2js)
+  - [pkg-size](https://pkg-size.dev/)
+  - [Bundlephobia](https://bundlephobia.com/)

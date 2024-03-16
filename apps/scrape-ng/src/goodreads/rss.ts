@@ -1,11 +1,13 @@
+import * as fs from "fs/promises";
 import path from "path";
-import Parser from "rss-parser";
 
 import { fetchWithRetryAndTimeout } from "./fetchHelpers";
 import { decorateAllItemsWithReadingProgress } from "./fetchReadingProgress";
+import { parseXML } from "./parseXML";
 import { timeOne } from "./timeHelpers";
 import type { Credentials, Feed, RSSItem, Shelf } from "./types";
 import { rssIterator, type RSSParams } from "./urls";
+import { feedPageSchema } from "./z-types";
 
 export type FetchOptions = {
   shelf: Shelf;
@@ -76,7 +78,7 @@ async function fetchFeedPage(
   const timeout = 5000;
   const maxRetries = 5;
 
-  console.log(`- Fetching page:${urlParams.page} of ${url}`);
+  console.log(`- Fetching page:${urlParams.page} of ${urlParams.shelf}`);
 
   const response = await fetchWithRetryAndTimeout(
     url,
@@ -88,63 +90,62 @@ async function fetchFeedPage(
     }
   );
 
-  const xml = await response.text();
-  const parser = new Parser({
-    customFields: {
-      feed: [
-        // all other fields are already present in the feed object
-        // "xhtml:meta"  // name robots - not needed
-        // "atom:link", // same as link - not needed
-      ],
-      item: [
-        // all other fields are already present in the item object
-        "guid",
-        ["guid", "id"],
-        ["guid", "reviewId"],
-        // "book_id",
-        // "book_image_url",
-        // "book_small_image_url",
-        // "book_medium_image_url",
-        // "book_large_image_url",
-        // "book_description",
-        // "book", //  "$": {"id": "25895524"}, "num_pages": ["467"] }
-        ["author_name", "author"],
-        // "isbn",
-        // "user_name",
-        // "user_rating",
-        "user_read_at",
-        "user_date_added",
-        "user_date_created",
-        "user_shelves",
-        // "user_review",
-        // "average_rating",
-        // "book_published",
-        // "description",
-      ],
-    },
-  });
-  // let feed = await parser.parseURL('https://www.reddit.com/.rss');
-  const feedPage = await parser.parseString(xml);
-  // console.log(feedPage?.title);
-  const feedItems = feedPage?.items || [];
-  // console.log(JSON.stringify(feedPage, null, 2));
-  // console.log(JSON.stringify(feedItems[0], null, 2));
+  const xmlDataDir = "data/xml";
+  await fs.mkdir(xmlDataDir, { recursive: true });
+  const jsonDataDir = "data/rss-json";
+  await fs.mkdir(jsonDataDir, { recursive: true });
 
+  const xml = await response.text();
+  const xmlFile = `${xmlDataDir}/goodreads-rss-ng-${urlParams.page}.xml`;
+  await fs.writeFile(xmlFile, xml);
+  console.log(`  - Wrote ${xmlFile}`);
+
+  const xmlObject = await parseXML(xml);
+  const jsonFile = `${jsonDataDir}/goodreads-rss-ng-${urlParams.page}.json`;
+  await fs.writeFile(jsonFile, JSON.stringify(xmlObject, null, 2));
+  console.log(`  - Wrote ${jsonFile}`);
+  // validate parsed feedPage
+  const zResult = feedPageSchema.safeParse(xmlObject);
+
+  if (!zResult.success) {
+    console.log("RSS Validation failed", zResult.error);
+    throw zResult.error;
+  }
+  console.log(`- Validated rss-parser-raw-${urlParams.page}.json`);
+
+  const feedPage = zResult.data;
+  // items is not present if there are no items, hence  ?? []
+  const feedItems = feedPage.rss.channel.item ?? [];
+
+  // get zod to validate feedPage
+  // @ts-ignore
   const items: RSSItem[] = feedItems.map((item) => {
     // guid looks like: https://www.goodreads.com/review/show/6309249800?utm_medium=api&utm_source=rss
-    const guid = item.guid ?? "";
-    const reviewId = reviewIdFromGuid(guid);
+    const reviewId = reviewIdFromGuid(item.guid);
 
-    return {
-      id: reviewId, // item.guid,
+    const rssItem: RSSItem = {
       reviewId,
-      title: item.title ?? "BAD",
-      author: item.author ?? "BAD",
-      readCount: "0",
-      shelves: [item.user_shelves ?? ""], // comma separated?
-      dateStartedValues: [item.user_read_at ?? "BAD"],
-      dateReadValues: [item.user_read_at ?? "BAD"],
+      id: item.guid,
+      title: item.title,
+      link: item.link,
+      bookId: item.book_id,
+      bookImageURL: item.book_image_url,
+      bookDescription: item.book_description,
+      authorName: item.author_name,
+      isbn: item.isbn,
+      userName: item.user_name,
+      userRating: item.user_rating,
+      userReadAt: item.user_read_at,
+      userDateAdded: item.user_date_added,
+      userDateCreated: item.user_date_created,
+      userShelves: item.user_shelves,
+      userReview: item.user_review,
+      averageRating: item.average_rating,
+      bookPublished: item.book_published,
+      description: item.description,
+      numPages: item.book.num_pages,
     };
+    return rssItem;
   });
   return items;
 }

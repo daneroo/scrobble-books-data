@@ -1,11 +1,11 @@
 packages:
-  # all packages in direct subdirs of apps/
+  # all packages in direct subdirectories of apps/
   - "apps/*"
   # Just cause it's not really an app but I want to invoke it's tests
   - "cue"
-  # all packages in direct subdirs of packages/
-  # - 'packages/*'
-  # all packages in subdirs of components/
+  # all packages in direct subdirectories of packages/
+  - "packages/*"
+  # all packages in subdirectories of components/
   # - 'components/**'
   # exclude packages that are inside test directories
   # - '!**/test/**'
