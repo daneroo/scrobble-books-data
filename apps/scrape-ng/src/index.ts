@@ -93,7 +93,7 @@ function parseCommandLineArgs(): CmdOptions {
     outputFilename: "goodreads-rss-ng.json",
     maxItems: -1, // default to ALL
     maxPages: -1, // default to ALL
-    concurrency: 1, // default to sequential processing
+    concurrency: 3, // default to concurrent (3) processing
     shelf: "#ALL#", // default shelf
     verbosity: 0, // default verbosity
   };
@@ -150,7 +150,7 @@ function parseCommandLineArgs(): CmdOptions {
             -n, --items        Max number of items (default: -1 means ALL)
             -o, --output       Output file (default: goodreads-rss-ng.json)
             -p, --pages        Max number of feed pages to retrieve (default: -1 means ALL)
-            -c, --concurrency  Max number of concurrent fetch operations (for reading progress)
+            -c, --concurrency  Max number of concurrent fetch operations for reading progress (default: ${options.concurrency})
             -s, --shelf        Goodreads shelf to fetch (default: #ALL#)
             -v, -vv, -vvv      Verbosity level (more 'v's for more verbose output)
             -h, --help         Show help information
