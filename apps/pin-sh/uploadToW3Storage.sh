@@ -5,8 +5,8 @@ set -euo pipefail
 # -u: Treat unset variables as an error
 # -o pipefail: Return a non-zero status if any command in a pipeline fails
 
-# This can be a file or a directory (repo root relative)
-ROOT_RELATIVE_UPLOAD_PATH=goodreads-rss.json
+# This can be file(s) or a directory (repo root relative)
+ROOT_RELATIVE_UPLOAD_PATH="goodreads-rss.json goodreads-rss-ng.json goodreads-rss-ng-progress.json"
 # This must be a file path (repo root relative)
 ROOT_RELATIVE_RESULT_PATH=goodreads-ipfs.json
 
@@ -75,7 +75,7 @@ print_header "Calculating space before upload"
 calulate_number_and_size_of_uploads
 
 print_header "Uploading file(s) to w3 storage (books)"
-echo "  uploading path: $ROOT_RELATIVE_UPLOAD_PATH"
+echo "  uploading path/files: $ROOT_RELATIVE_UPLOAD_PATH"
 
 rootCID=$(w3 up ${ROOT_RELATIVE_UPLOAD_PATH} --json | jq -r '.root."/"')
 echo "  uploaded CID: $rootCID"
