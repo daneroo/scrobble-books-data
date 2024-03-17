@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test": "pnpm run vet:RSS && pnpm run vet:output",
+    "test": "pnpm run vet:RSS && pnpm run vet:RSS-ng && pnpm run vet:output",
     "vet:RSS": "cue vet check-rss.cue goodreads-rss-p1-example.json",
-    "vet:output": "cue vet check-output.cue goodreads-rss-example.json"
+    "vet:RSS-ng": "cue vet check-rss-ng.cue goodreads-rss-ng-p1-example.json",
+    "vet:output": "cue vet check-output.cue goodreads-rss-example.json goodreads-rss-ng-example.json"
   }
 }

@@ -95,7 +95,7 @@ async function fetchFeedPage(url: string, urlParams: RSSParams): Promise<Feed> {
   if (verbosity > 0) {
     const xmlDataDir = "data/xml";
     await fs.mkdir(xmlDataDir, { recursive: true });
-    const xmlFile = `${xmlDataDir}/goodreads-rss-ng-${urlParams.page}.xml`;
+    const xmlFile = `${xmlDataDir}/goodreads-rss-ng-p${urlParams.page}.xml`;
     await fs.writeFile(xmlFile, xml);
     console.log(`  - Wrote ${xmlFile}`);
   }
@@ -103,12 +103,12 @@ async function fetchFeedPage(url: string, urlParams: RSSParams): Promise<Feed> {
   const xmlObject = await parseXML(xml);
   // throws if invalid
   const feedPage = validateXML(xmlObject);
-  console.log(`- Validated goodreads-rss-ng-${urlParams.page}.xml`);
+  console.log(`- Validated goodreads-rss-ng-p${urlParams.page}.xml`);
 
   if (verbosity > 0) {
     const jsonDataDir = "data/rss-json";
     await fs.mkdir(jsonDataDir, { recursive: true });
-    const jsonFile = `${jsonDataDir}/goodreads-rss-ng-${urlParams.page}.json`;
+    const jsonFile = `${jsonDataDir}/goodreads-rss-ng-p${urlParams.page}.json`;
     await fs.writeFile(jsonFile, JSON.stringify(feedPage, null, 2));
     console.log(`  - Wrote ${jsonFile}`);
   }
