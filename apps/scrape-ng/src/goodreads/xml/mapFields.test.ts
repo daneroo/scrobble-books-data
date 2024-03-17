@@ -70,7 +70,7 @@ describe("mapFields", () => {
       averageRating: "4.2",
       bookPublished: "2006",
       description:
-        '\n      <a href="https://www.goodreads.com/book/show/133453.Dzur?utm_medium=api&amp;utm_source=rss"><img alt="Dzur (Vlad Taltos, #10)" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388849702l/133453._SY75_.jpg" /></a><br/>\n                                      author: Steven Brust<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 2006<br/>\n                                      rating: 4<br/>\n                                      read at: 2022/07/03<br/>\n                                      date added: 2024/03/16<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>\n                                      ',
+        '<a href="https://www.goodreads.com/book/show/133453.Dzur?utm_medium=api&amp;utm_source=rss"><img alt="Dzur (Vlad Taltos, #10)" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388849702l/133453._SY75_.jpg" /></a><br/>\n                                      author: Steven Brust<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 2006<br/>\n                                      rating: 4<br/>\n                                      read at: 2022/07/03<br/>\n                                      date added: 2024/03/16<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>',
       numPages: "285",
     };
     expect(mapFields(item)).toEqual(expectedOutput);
@@ -125,6 +125,25 @@ describe("safeRoundAverageRating", () => {
     expect(result.roundedAverageRating).toBe("4.6");
     expect(result.descriptionWithRoundedRating).toBe(
       "This book has an average rating: 4.6"
+    );
+  });
+  test("round properly when Number(average_rating) is an integer (bug fix)", () => {
+    // Arrange
+    const input = {
+      average_rating: "4.00",
+      description:
+        "name: Daniel<br/>\n                                      average rating: 4.00<br/>\n                                      book published: <br/>",
+    };
+    // const average_rating = "4.567";
+    // const description = "This book has an average rating: 4.567";
+
+    // Act
+    const result = safeRoundedAverageRating(input);
+
+    // Assert
+    expect(result.roundedAverageRating).toBe("4.0");
+    expect(result.descriptionWithRoundedRating).toBe(
+      "name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: <br/>"
     );
   });
 });

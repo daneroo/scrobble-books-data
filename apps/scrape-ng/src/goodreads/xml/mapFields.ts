@@ -14,6 +14,7 @@ export function mapFields(item: FeedItemType): RSSItem {
   //     `  - pubDate:${item.pubDate} !== user_date_added:${item.user_date_added}`
   //   );
   // }
+
   // Round the average rating to 0.1 (toFixed(1)) to reduce commit noise
   const { roundedAverageRating, descriptionWithRoundedRating } =
     safeRoundedAverageRating({
@@ -21,6 +22,10 @@ export function mapFields(item: FeedItemType): RSSItem {
       description: item.description,
     });
 
+  // regarding whitespace, the parser's trimValues: true, should have removed leading/trailing whitespace
+  // but that does NOT affect CDATA sections <field><![CDATA[  value  ]]></field>
+  // we will explicitly trim the `description` field,
+  // but we might want to also look at `book_description` and `user_review`
   const rssItem: RSSItem = {
     id: item.guid,
     title: item.title,
@@ -39,7 +44,7 @@ export function mapFields(item: FeedItemType): RSSItem {
     userReview: item.user_review,
     averageRating: roundedAverageRating,
     bookPublished: item.book_published,
-    description: descriptionWithRoundedRating,
+    description: descriptionWithRoundedRating.trim(),
     numPages: safeIntAsString(item.book.num_pages),
   };
   return rssItem;
@@ -114,7 +119,7 @@ export function safeRoundedAverageRating({
   if (!isNaN(averageRating)) {
     const roundedAverageRating = averageRating.toFixed(1);
     const descriptionWithRoundedRating = description.replace(
-      `average rating: ${averageRating}`,
+      `average rating: ${average_rating}`,
       `average rating: ${roundedAverageRating}`
     );
     return {

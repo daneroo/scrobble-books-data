@@ -63,4 +63,24 @@ describe("parseXML", () => {
     expect(xmlObject).toBeDefined();
     expect(xmlObject.rss.channel.item).toBeInstanceOf(Array);
   });
+
+  test("text values should be trimmed", async () => {
+    const xmlContent = `<?xml version="1.0" encoding="UTF-8"?>
+    <root>
+      <field>  value  </field>
+    </root>`;
+
+    const xmlObject = await parseXML(xmlContent);
+    expect(xmlObject).toEqual({ root: { field: "value" } });
+  });
+  test("text CDATA values should not be trimmed", async () => {
+    const xmlContent = `<?xml version="1.0" encoding="UTF-8"?>
+    <root>
+      <field><![CDATA[  value  ]]></field>
+
+    </root>`;
+
+    const xmlObject = await parseXML(xmlContent);
+    expect(xmlObject).toEqual({ root: { field: "  value  " } });
+  });
 });

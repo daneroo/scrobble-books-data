@@ -16,13 +16,19 @@ export async function parseXML(xml: string): Promise<any> {
    * preserveOrder: false, (which is the default(
    *  preserveOrder causes the creation of  {"#text": "value"} for ALL text nodes
    *
-   * ignoreDeclaration: true,
+   * ignoreDeclaration: true, remove the <?xml ?> tag
+   * parseTagValue: false, do not use strnum to parse nums
+      
+   * trimValues: true, trim the text values (remove leading/trailing whitespace)
+   * DOES NOT affect CDATA sections <field><![CDATA[  value  ]]></field>
+   *
    */
 
   const alwaysArray = ["rss.channel.item"]; // for case where there are 0 or 1 items
   const parser = new XMLParser({
     ignoreDeclaration: true, // remove the <?xml ?> tag
     parseTagValue: false, // do not use strnum to parse nums
+    trimValues: true, // trim the text values
     isArray: (_tagName: string, jPath, _isLeafNode, _isAttribute) =>
       alwaysArray.includes(jPath),
   });
