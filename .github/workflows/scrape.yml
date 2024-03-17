@@ -65,12 +65,22 @@ jobs:
         run: |
           deno run --reload -q --allow-read --allow-write --allow-run --allow-net --allow-env apps/scrape/src/scrape.js
 
+      - name: Scrape Goodreads feed (ng)
+        run: |
+          bun apps/scrape-ng/src/index.ts
+
       - name: E2E - Validate Intermediate RSS files with CUE
-        run: cue vet check-rss.cue ../data/rss-json/goodreads-rss-p*.json
+        run: |
+          cue vet check-rss.cue ../data/rss-json/goodreads-rss-p*.json
+          cue vet check-rss-ng.cue ../data/rss-json/goodreads-rss-ng-p*.json
         working-directory: cue
 
-      - name: E2E - Validate Output with CUE
-        run: cue vet check-output.cue ../goodreads-rss.json
+      - name: E2E - Validate Output with CUE w/ng
+        run: |
+          echo "validate scrape output"
+          cue vet check-output.cue ../goodreads-rss.json
+          echo "validate scrape-ng output"
+          cue vet check-output.cue ../goodreads-rss-ng.json
         working-directory: cue
 
       - name: Pin to web3.storage (bash / w3 cli)
