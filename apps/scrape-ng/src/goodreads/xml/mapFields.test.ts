@@ -30,6 +30,7 @@ describe("mapFields", () => {
       book_large_image_url:
         "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388849702l/133453.jpg",
       book_description:
+        // leading whitespace to test trim
         "<div><b>In which Vlad Taltos confronts the Left Hand of the Jhereg...and discovers the game has more players than he thought</b><br /><br />Vlad Taltos, short-statured, short-lived human in an Empire of tall, long-lived Dragaerans, has always had to keep his wits about him. Long ago, he made a place for himself as a captain of the Jhereg, the noble house that runs the rackets in the great imperial city of Adrilankha. But love, revolution, betrayal, and revenge ensued, and for years now Vlad has been a man on the run, struggling to stay a step ahead of the Jhereg who would kill him without hesitation.<br /><br />Now Vlad's back in Adrilankha. The rackets he used to run are now under the control of the mysterious \"Left Hand of the Jhereg\"--a secretive cabal of women who report to no man. His ex-wife needs his help. His old enemies aren't sure whether they want to kill him, or talk to him and then kill him. A goddess may be playing tricks with his memory. And the Great Weapon he's carrying seems to have plans of its own...<br /><br />Picking up directly where <i>Issola</i> left off, <i>Dzur</i> gives us Vlad Taltos at his best--swashbuckling storytelling with a wry and gritty edge.<br /></div>",
       book: {
         num_pages: "285",
@@ -42,7 +43,8 @@ describe("mapFields", () => {
       user_date_added: "Sat, 16 Mar 2024 00:02:46 -0700",
       user_date_created: "Fri, 24 Jun 2022 22:59:43 -0700",
       user_shelves: "currently-reading",
-      user_review: "",
+      // add some whitespace to test trim
+      user_review: "  ",
       average_rating: "4.15",
       book_published: "2006",
       description:

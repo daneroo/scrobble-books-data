@@ -24,15 +24,14 @@ export function mapFields(item: FeedItemType): RSSItem {
 
   // regarding whitespace, the parser's trimValues: true, should have removed leading/trailing whitespace
   // but that does NOT affect CDATA sections <field><![CDATA[  value  ]]></field>
-  // we will explicitly trim the `description` field,
-  // but we might want to also look at `book_description` and `user_review`
+  // SO we will explicitly trim the `description`, `book_description` and `user_review` fields
   const rssItem: RSSItem = {
     id: item.guid,
     title: item.title,
     link: item.link,
     bookId: item.book_id,
     bookImageURL: item.book_image_url,
-    bookDescription: item.book_description,
+    bookDescription: item.book_description.trim(),
     authorName: item.author_name,
     isbn: item.isbn,
     userName: item.user_name,
@@ -41,7 +40,7 @@ export function mapFields(item: FeedItemType): RSSItem {
     userDateAdded: safeDate(item.user_date_added),
     userDateCreated: safeDate(item.user_date_created),
     userShelves: item.user_shelves,
-    userReview: item.user_review,
+    userReview: item.user_review.trim(),
     averageRating: roundedAverageRating,
     bookPublished: item.book_published,
     description: descriptionWithRoundedRating.trim(),
