@@ -37,7 +37,7 @@ const bookSchema = z.object({
 
 export const itemSchema = z.object({
   guid: z.string(),
-  pubDate: z.string(),
+  pubDate: z.string(), // ignore pubDate, it is always be equal to user_date_added
   title: z.string(),
   link: z.string(),
   book_id: z.string(),

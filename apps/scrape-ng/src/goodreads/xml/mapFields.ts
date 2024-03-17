@@ -3,11 +3,17 @@ import { z } from "zod";
 import { type RSSItem } from "../types";
 import { type itemSchema } from "./validateXML";
 
-type FeedItemType = z.infer<typeof itemSchema>;
+export type FeedItemType = z.infer<typeof itemSchema>;
 
 export function mapFields(item: FeedItemType): RSSItem {
   // guid looks like: https://www.goodreads.com/review/show/6309249800?utm_medium=api&utm_source=rss
 
+  // we ignore item.pubDate, it is to always be equal to user_date_added
+  // if (item.pubDate !== item.user_date_added) {
+  //   console.warn(
+  //     `  - pubDate:${item.pubDate} !== user_date_added:${item.user_date_added}`
+  //   );
+  // }
   // Round the average rating to 0.1 (toFixed(1)) to reduce commit noise
   const { roundedAverageRating, descriptionWithRoundedRating } =
     safeRoundedAverageRating({
@@ -39,7 +45,16 @@ export function mapFields(item: FeedItemType): RSSItem {
   return rssItem;
 }
 
-function safeDate(d: string): string {
+/**
+ * Converts a string representation of a date to an ISO string format.
+ * If the input string is not a valid date, an empty string is returned.
+ *
+ * TODO(daneroo): we should decide if dates (no time part) should be simply YYYY-MM-DD
+ *   because mapping 2024-01-01 to 2024-01-01T00:00:00.000Z may not be what we want
+ * @param d - The string representation of the date.
+ * @returns The ISO string representation of the date, or an empty string if the input is not a valid date.
+ */
+export function safeDate(d: string): string {
   try {
     return new Date(d).toISOString();
   } catch (e) {
@@ -51,19 +66,39 @@ function safeDate(d: string): string {
   return "";
 }
 
-function safeIntAsString(s: string): string {
+/**
+ * Converts a string to an integer and returns it as a string.
+ * If the input string is empty or cannot be parsed as an integer, it returns "0".
+ * This is is just for numPages
+ *
+ * @param s - The string to convert to an integer.
+ * @returns The input string converted to an integer as a string, or "0" if the conversion fails.
+ */
+export function safeIntAsString(s: string): string {
   if (s === "") {
     return "0";
   }
   const n = parseInt(s, 10);
   if (isNaN(n)) {
-    console.warn(`  - safeIntAsString: ${s} is not a number`);
+    // console.warn(`  - safeIntAsString: ${s} is not a number`);
     return "0";
   }
   return n.toString();
 }
 
-function safeRoundedAverageRating({
+/**
+ * Calculates the rounded average rating and updates the description field with the rounded rating.
+ * If the average rating is not a valid number, it returns the original values.
+ *
+ * This is just to reduce "commit noise" when the average rating changes.
+ * The average Rating appears in two fields, average_rating and description.
+ *
+ * @param {Object} params - The input parameters.
+ * @param {string} params.average_rating - The average rating.
+ * @param {string} params.description - The description.
+ * @returns {Object} - The rounded average rating and the description with the rounded rating.
+ */
+export function safeRoundedAverageRating({
   average_rating,
   description,
 }: {

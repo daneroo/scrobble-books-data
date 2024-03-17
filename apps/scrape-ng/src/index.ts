@@ -120,7 +120,7 @@ function parseCommandLineArgs(): CmdOptions {
       case "--shelf":
         // options.shelf = args[++i];
         const shelfString = args[++i];
-        // TODO(daneroo): how do I make this sane in the types? perhaps we'll have a genral zod schema for types
+        // TODO(daneroo): how do I make this sane in the types? perhaps we'll have a general zod schema for types
         const validShelves: string[] = [
           "#ALL#",
           "currently-reading",
