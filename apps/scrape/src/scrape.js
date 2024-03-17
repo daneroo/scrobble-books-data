@@ -1,5 +1,4 @@
 import { ensureDir, join, parseFeed } from "./deps.ts";
-
 import { fetcherXML } from "./fetcherXML.ts";
 
 // working directories for intermediate pages (upstream api is paged)
@@ -116,7 +115,7 @@ function cleanItem(item) {
   }
   const newItem = {};
   newItem.id = item?.id?.value ?? item?.id ?? "";
-  newItem.title = item?.title?.value ?? item?.tiels ?? "";
+  newItem.title = item?.title?.value ?? item?.title ?? "";
   newItem.link = item?.links?.[0]?.href ?? "";
 
   for (const [newName, oldName] of Object.entries(fieldMap)) {
