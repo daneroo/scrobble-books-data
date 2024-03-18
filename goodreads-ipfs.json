@@ -1,5 +1,9 @@
 {
   "rootCID": "bafybeidvhlafxtrdf3ifw3uokqqt22v33ts2hvyuacevoxew4lbxb47bve",
   "rootLink": "https://bafybeidvhlafxtrdf3ifw3uokqqt22v33ts2hvyuacevoxew4lbxb47bve.ipfs.w3s.link/",
-  "fileLink": "https://bafybeidvhlafxtrdf3ifw3uokqqt22v33ts2hvyuacevoxew4lbxb47bve.ipfs.w3s.link//goodreads-rss.json goodreads-rss-ng.json goodreads-rss-ng-progress.json"
+  "fileLinks": [
+    "https://bafybeidvhlafxtrdf3ifw3uokqqt22v33ts2hvyuacevoxew4lbxb47bve.ipfs.w3s.link/goodreads-rss.json",
+    "https://bafybeidvhlafxtrdf3ifw3uokqqt22v33ts2hvyuacevoxew4lbxb47bve.ipfs.w3s.link/goodreads-rss-ng.json",
+    "https://bafybeidvhlafxtrdf3ifw3uokqqt22v33ts2hvyuacevoxew4lbxb47bve.ipfs.w3s.link/goodreads-rss-ng-progress.json"
+  ]
 }
