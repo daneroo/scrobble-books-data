@@ -6,7 +6,7 @@ set -euo pipefail
 # -o pipefail: Return a non-zero status if any command in a pipeline fails
 
 # This can be file(s) or a directory (repo root relative)
-ROOT_RELATIVE_UPLOAD_PATH="goodreads-rss.json goodreads-rss-ng.json goodreads-rss-ng-progress.json"
+ROOT_RELATIVE_UPLOAD_PATHS="goodreads-rss.json goodreads-rss-ng.json goodreads-rss-ng-progress.json"
 # This must be a file path (repo root relative)
 ROOT_RELATIVE_RESULT_PATH=goodreads-ipfs.json
 
@@ -75,9 +75,9 @@ print_header "Calculating space before upload"
 calulate_number_and_size_of_uploads
 
 print_header "Uploading file(s) to w3 storage (books)"
-echo "  uploading path/files: $ROOT_RELATIVE_UPLOAD_PATH"
+echo "  uploading path/files: $ROOT_RELATIVE_UPLOAD_PATHS"
 
-rootCID=$(w3 up ${ROOT_RELATIVE_UPLOAD_PATH} --json | jq -r '.root."/"')
+rootCID=$(w3 up ${ROOT_RELATIVE_UPLOAD_PATHS} --json | jq -r '.root."/"')
 echo "  uploaded CID: $rootCID"
 
 print_header "Calculating space after upload"
@@ -99,23 +99,34 @@ calulate_number_and_size_of_uploads
 
 print_header "Link to uploaded file(s) and write result"
 rootLink="https://${rootCID}.ipfs.w3s.link/"
-fileLink="${rootLink}/${ROOT_RELATIVE_UPLOAD_PATH}"
-echo "  root CID: $rootCID"
-echo "  root link: $rootLink"
-echo "  file link: $fileLink"
-# Write a JSON file with the CID and both links to usinn my shell variables
-#  - rootCID
-#  - rootLink
-#  - fileLink
+
+# Initialize fileLinks as an empty string
+fileLinks=""
+# Split the paths and create links
+IFS=' ' read -ra PATHS <<< "$ROOT_RELATIVE_UPLOAD_PATHS"
+for path in "${PATHS[@]}"; do
+    # Construct the full file link
+    fileLink="${rootLink}${path}"
+    
+    # Append new link to the fileLinks string
+    [[ -n $fileLinks ]] && fileLinks+=","
+    fileLinks+="\"$fileLink\""
+done
+
 echo "  writing result to: $ROOT_RELATIVE_RESULT_PATH"
-jsonOutput=$(cat <<EOF
-{
-  "rootCID": "$rootCID",
-  "rootLink": "$rootLink",
-  "fileLink": "$fileLink"
-}
-EOF
-)
-echo "$jsonOutput" > $ROOT_RELATIVE_RESULT_PATH
+# Write the JSON output, piping to jq to format and validate the JSON
+echo "{
+  \"rootCID\": \"$rootCID\",
+  \"rootLink\": \"$rootLink\",
+  \"fileLinks\": [$fileLinks]
+}" | jq > "$ROOT_RELATIVE_RESULT_PATH"
+
+echo " root CID: $rootCID"
+echo " root link: $rootLink"
+echo " file links:"
+# cat $ROOT_RELATIVE_RESULT_PATH | jq .fileLinks
+cat "$ROOT_RELATIVE_RESULT_PATH" | jq -r '.fileLinks[]' | while read -r link; do
+    echo "  - $link"
+done
 
 print_header "Done"
