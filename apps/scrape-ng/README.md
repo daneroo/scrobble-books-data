@@ -1,32 +1,24 @@
 # scrape-ng
 
-Use playwright and cheerio to crawl goodreads (reviews)
+Use fast-rss-parser and cheerio to crawl goodreads (reviews for reading progress)
 
-- works with bun - (deno later)
+- works with bun - (deno later) - when we replace cheerio
 
 ## TODO
 
-- [ ] rss + match deno:scrape first
-- [ ] review listing
+- [x] rss + match deno:scrape first
+- [ ] review/progress listing
   - [ ] progress% (for currently-reading shelf)
-  - [ ] shelves (make multiple possible)
+  - [ ] shelves (make multiple possible long-term non-exclusinv)
   - [ ] reading count
-  - [ ] full events, other dates
-- [ ] bun run (scrape-ng: no commit)
+  - [ ] full timeline of events, other dates like shelved, etc
 
 ## Development
 
 ```bash
-time bun run src/index.ts -c 3
+time bun run src/index.ts -h
 
-time bun run src/index.ts -c 3 -p 1 -n 50 -o coco.json
-(cd ../../cue; cue vet check-output.cue ../apps/scrape-ng/coco.json) 2>&1 | more
-
-
-time bun run src/index.ts -c 3 -p 1 -n 50 -o coco.json ; difft goodreads-rss-ng-c1-p1-n50.json coco.json
-
-time bun run src/index.ts -c 3 -p 1 -n 50 -o goodreads-rss-ng-c1-p1-n50.json
-# compare concurrency
+# e.g. compare concurrency 1 and 3
 time bun run src/index.ts -c 1 -p 1 -o goodreads-rss-ng-c1-p1.json
 time bun run src/index.ts -c 3 -p 1 -o goodreads-rss-ng-c3-p1.json
 difft goodreads-rss-ng-c1-p1.json goodreads-rss-ng-c3-p1.json

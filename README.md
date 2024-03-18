@@ -7,17 +7,22 @@ Tracking reading data
 
 This repo archives the latest version of my reading data every 20 minutes.
 
-You can look at
-[the formatted data table here](https://flatgithub.com/daneroo/scrobble-books-data?filename=goodreads-rss.json&tab=items).
+You can look at the formatted data as tables here:
+
+- <https://flatgithub.com/daneroo/scrobble-books-data?filename=goodreads-rss.json&tab=items>
+- <https://flatgithub.com/daneroo/scrobble-books-data?filename=goodreads-rss-ng.json&tab=items>
+- <https://flatgithub.com/daneroo/scrobble-books-data?filename=goodreads-rss-ng-progress.json&tab=items>
 
 ## Description
 
 Performs 2 tasks as a cron trigger github action:
 
 - scrape latest reading data (goodreads)
-  - `goodreads-rss.json`
+  - [`goodreads-rss.json`](https://raw.githubusercontent.com/daneroo/scrobble-books-data/main/goodreads-rss.json)
+  - [`goodreads-rss-ng.json`](https://raw.githubusercontent.com/daneroo/scrobble-books-data/main/goodreads-rss-ng.json)
+  - [`goodreads-rss-ng-progress.json`](https://raw.githubusercontent.com/daneroo/scrobble-books-data/main/goodreads-rss-ng-progress.json)
 - pins the the file to web3.storage (ipfs)
-  - `goodreads-ipfs.json` contains the pinned CID
+  - [`goodreads-ipfs.json`](https://raw.githubusercontent.com/daneroo/scrobble-books-data/main/goodreads-ipfs.json) contains the pinned CID
 - commits any changes back to the repo
 
 The scraper was originally written with `deno` because we were using
@@ -29,12 +34,14 @@ Pinning should move to my own ipfs-cluster soon, RIGHT?
 
 ## Usage
 
-The data file ca be fetched (externally) at
+The data files ca be fetched (externally) at
 
-- <https://raw.githubusercontent.com/daneroo/scrobble-books-data/main/goodreads-rss.json>.
-- <https://raw.githubusercontent.com/daneroo/scrobble-books-data/main/goodreads-ipfs.json>.
+- <https://raw.githubusercontent.com/daneroo/scrobble-books-data/main/goodreads-rss.json>
+- <https://raw.githubusercontent.com/daneroo/scrobble-books-data/main/goodreads-rss-ng.json>
+- <https://raw.githubusercontent.com/daneroo/scrobble-books-data/main/goodreads-rss-ng-progress.json>
+- <https://raw.githubusercontent.com/daneroo/scrobble-books-data/main/goodreads-ipfs.json>
 
-The pinned CID's can be found at
+The pinned CID's can be found at (requires login)
 
 - [web3.storage console (books space - by DID)](https://console.web3.storage/space/did:key:z6MkmwcwCLmuTxY6mWhh9BVmj8t7EZ2rjKtc7cTVYhjN77jq)
 
@@ -52,8 +59,7 @@ pnpm git:log
 
 ## TODO
 
-- [ ] fix/test dev containers for node+deno
-- [ ] scrape-ng progress on goodreads with playwright (bun! why not!)
+- [ ] scrape-ng progress (only for currently-reading)
 - [ ] Problem with act -j (scrape|unit)
 - [ ] Re-implement apps/pin to use w3.storage (new)
   - <https://web3.storage/docs/w3up-client/>
