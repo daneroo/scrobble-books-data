@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/6370342168?utm_medium=api&utm_source=rss",
+      "title": "What Is a Quantum Field Theory?",
+      "link": "https://www.goodreads.com/review/show/6370342168?utm_medium=api&utm_source=rss",
+      "bookId": "59143221",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1639950767l/59143221._SX50_.jpg",
+      "bookDescription": "Quantum field theory (QFT) is one of the great achievements of physics, of profound interest to mathematicians. Most pedagogical texts on QFT are geared toward budding professional physicists, however, whereas mathematical accounts are abstract and difficult to relate to the physics. This book bridges the gap. While the treatment is rigorous whenever possible, the accent is not on formality but on explaining what the physicists do and why, using precise mathematical language. In particular, it covers in detail the mysterious procedure of renormalization. Written for readers with a mathematical background but no previous knowledge of physics and largely self-contained, it presents both basic physical ideas from special relativity and quantum mechanics and advanced mathematical concepts in complete detail. It will be of interest to mathematicians wanting to learn about QFT and, with nearly 300 exercises, also to physics students seeking greater rigor than they typically find in their courses. Erratum for the book can be found at <a target=\"_blank\" rel=\"noopener nofollow\" href=\"http://michel.talagrand.net/erratum.pdf\">michel.talagrand.net/erratum.pdf</a>.",
+      "authorName": "Michel Talagrand",
+      "isbn": "1316510271",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2024-03-24T15:30:41.000Z",
+      "userDateCreated": "2024-03-24T15:30:41.000Z",
+      "userShelves": "to-read",
+      "userReview": "",
+      "averageRating": "5.0",
+      "bookPublished": "",
+      "description": "<a href=\"https://www.goodreads.com/book/show/59143221-what-is-a-quantum-field-theory?utm_medium=api&amp;utm_source=rss\"><img alt=\"What Is a Quantum Field Theory?\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1639950767l/59143221._SX50_.jpg\" /></a><br/>\n                                      author: Michel Talagrand<br/>\n                                      name: Daniel<br/>\n                                      average rating: 5.0<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/03/24<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "numPages": "756"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/3103683716?utm_medium=api&utm_source=rss",
       "title": "Children of Dune (Dune, #3)",
       "link": "https://www.goodreads.com/review/show/3103683716?utm_medium=api&utm_source=rss",
