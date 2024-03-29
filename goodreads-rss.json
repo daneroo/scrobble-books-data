@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/6382888644?utm_medium=api&utm_source=rss",
+      "title": "Determined: A Science of Life without Free Will",
+      "link": "https://www.goodreads.com/review/show/6382888644?utm_medium=api&utm_source=rss",
+      "bookId": "83817782",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1685350965l/83817782._SY75_.jpg",
+      "bookDescription": "<b>One of our great behavioral scientists, the bestselling author of <i>Behave</i>, plumbs the depths of the science and philosophy of decision-making to mount a devastating case against free will, an argument with profound consequences.</b><br /><br />Robert Sapolsky's <i>Behave</i>, his now classic account of why humans do good and why they do bad, pointed toward an unsettling conclusion: we may not grasp the precise marriage of nature and nurture that creates the physics and chemistry at base of human behavior, but that doesn't mean it doesn't exist. Now, in <i>Determined</i>, Sapolsky takes his argument all the way, mounting a brilliant (and in his inimitable way, delightful) full-frontal assault on the pleasant fantasy that there's some separate self telling our biology what to do.<br /><br /><i>Determined</i> offers a marvelous synthesis of what we know about how consciousness works--the tight weave between reason and emotion, and between stimulus and response, in the moment and over a life. One by one, Sapolsky tackles all the major arguments for free will and takes them out, cutting a path through the thickets of chaos and complexity science and quantum physics, as well as touching ground on some of the wilder shores of philosophy. He shows us that the history of medicine is in no small part the history of learning that fewer and fewer things are somebody's \"fault\"; for example, for centuries we thought seizures were a sign of demonic possession. Yet as he acknowledges, it's very hard, and at times impossible, to uncouple from our zeal to judge others, and to judge ourselves. Sapolsky applies the new understanding of life beyond free will to some of our most essential questions around punishment, morality, and living well together.<i> </i>By the end, Sapolsky argues that while living our daily lives recognizing that we have no free will is going to be monumentally difficult, doing so is not going to result in anarchy, pointlessness and existential malaise. Instead, it will make for a much more humane world.",
+      "authorName": "Robert M. Sapolsky",
+      "isbn": "0525560971",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2024-03-29T01:31:21.000Z",
+      "userDateCreated": "2024-03-29T01:31:21.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "4.2",
+      "bookPublished": "2023",
+      "description": "<a href=\"https://www.goodreads.com/book/show/83817782-determined?utm_medium=api&amp;utm_source=rss\"><img alt=\"Determined: A Science of Life without Free Will\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1685350965l/83817782._SY75_.jpg\" /></a><br/>\n                                      author: Robert M. Sapolsky<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 2023<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/03/28<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "528"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/3103683716?utm_medium=api&utm_source=rss",
       "title": "Children of Dune (Dune, #3)",
       "link": "https://www.goodreads.com/review/show/3103683716?utm_medium=api&utm_source=rss",
