@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/6395048135?utm_medium=api&utm_source=rss",
+      "title": "The Beauty of Falling: A Life in Pursuit of Gravity",
+      "link": "https://www.goodreads.com/review/show/6395048135?utm_medium=api&utm_source=rss",
+      "bookId": "199701467",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1697253941l/199701467._SY75_.jpg",
+      "bookDescription": "A world-renowned physicist seeks gravity’s true nature and finds wisdom in embracing its force in her life<br /><br />Claudia de Rham has been playing with gravity her entire life. As a diver, experimenting with her body’s buoyancy in the Indian Ocean. As a pilot, soaring over Canadian waterfalls on dark mornings before beginning her daily scientific research. As an astronaut candidate, dreaming of the experience of flying free from Earth’s pull. And as a physicist, discovering new sides to gravity’s irresistible personality by exploring the limits of Einstein’s general theory of relativity. In The Beauty of Falling , de Rham shares captivating stories about her quest to gain intimacy with gravity, to understand both its feeling and fundamental nature. Her life’s pursuit led her from a twist of fate that snatched away her dream of becoming an astronaut to an exhilarating breakthrough at the very frontiers of gravitational physics.<br /><br />While many of us presume to know gravity quite well, the brightest scientists in history have yet to fully answer the simple what exactly is gravity? De Rham reveals how great minds—from Newton and Einstein to Stephen Hawking, Andrea Ghez, and Roger Penrose—led her to the edge of knowledge about this fundamental force. She found hints of a hidden side to gravity at the particle level where Einstein’s theory breaks down, leading her to develop a new theory of “massive gravity.” De Rham shares how her life’s path turned from a precipitous fall to an exquisite flight toward the discovery of something entirely new about our surprising, gravity-driven universe.",
+      "authorName": "Claudia de Rham",
+      "isbn": "0691237484",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2024-04-02T07:00:56.000Z",
+      "userDateCreated": "2024-04-02T07:00:56.000Z",
+      "userShelves": "to-read",
+      "userReview": "",
+      "averageRating": "4.8",
+      "bookPublished": "2024",
+      "description": "<a href=\"https://www.goodreads.com/book/show/199701467-the-beauty-of-falling?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Beauty of Falling: A Life in Pursuit of Gravity\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1697253941l/199701467._SY75_.jpg\" /></a><br/>\n                                      author: Claudia de Rham<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.8<br/>\n                                      book published: 2024<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/04/02<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "numPages": "232"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/6382888644?utm_medium=api&utm_source=rss",
       "title": "Determined: A Science of Life without Free Will",
       "link": "https://www.goodreads.com/review/show/6382888644?utm_medium=api&utm_source=rss",
