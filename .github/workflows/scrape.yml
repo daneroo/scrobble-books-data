@@ -8,8 +8,8 @@ on:
   schedule:
     # every 20 minutes
     # - cron: "1/20 * * * *"
-    # every hour
-    - cron: "0 * * * *"
+    # every 2 hours
+    - cron: "0 */2 * * *"
 
 jobs:
   scrape:
@@ -68,9 +68,10 @@ jobs:
         run: |
           deno run --reload -q --allow-read --allow-write --allow-run --allow-net --allow-env apps/scrape/src/scrape.js
 
-      - name: Scrape Goodreads feed (ng)
+      - name: Skipping Scrape Goodreads feed (ng)
         run: |
-          bun apps/scrape-ng/src/index.ts -c 2
+          # bun apps/scrape-ng/src/index.ts
+          echo "Skipping: bun apps/scrape-ng/src/index.ts"
 
       - name: E2E - Validate Intermediate RSS files with CUE
         run: |
