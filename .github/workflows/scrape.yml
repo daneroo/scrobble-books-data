@@ -67,7 +67,7 @@ jobs:
 
       - name: Scrape Goodreads feed (ng)
         run: |
-          bun apps/scrape-ng/src/index.ts
+          bun apps/scrape-ng/src/index.ts -c 2
 
       - name: E2E - Validate Intermediate RSS files with CUE
         run: |
