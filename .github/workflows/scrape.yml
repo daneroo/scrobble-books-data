@@ -68,10 +68,9 @@ jobs:
         run: |
           deno run --reload -q --allow-read --allow-write --allow-run --allow-net --allow-env apps/scrape/src/scrape.js
 
-      - name: Skipping Scrape Goodreads feed (ng)
+      - name: Scrape Goodreads feed (ng)
         run: |
-          # bun apps/scrape-ng/src/index.ts
-          echo "Skipping: bun apps/scrape-ng/src/index.ts"
+          bun apps/scrape-ng/src/index.ts
 
       - name: E2E - Validate Intermediate RSS files with CUE
         run: |
