@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/1608915257?utm_medium=api&utm_source=rss",
+      "title": "Nexus (Nexus, #1)",
+      "link": "https://www.goodreads.com/review/show/1608915257?utm_medium=api&utm_source=rss",
+      "bookId": "13642710",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347149654l/13642710._SY75_.jpg",
+      "bookDescription": "<b>Mankind gets an upgrade</b><br /><br />In the near future, the experimental nano-drug Nexus can link humans together, mind to mind. There are some who want to improve it. There are some who want to eradicate it. And there are others who just want to exploit it.<br /><br />When a young scientist is caught improving Nexus, he’s thrust over his head into a world of danger and international espionage – for there is far more at stake than anyone realizes.<br /><br />From the halls of academe to the halls of power, from the headquarters of an elite US agency in Washington DC to a secret lab beneath a top university in Shanghai, from the underground parties of San Francisco to the illegal biotech markets of Bangkok, from an international neuroscience conference to a remote monastery in the mountains of Thailand – Nexus is a thrill ride through a future on the brink of explosion.",
+      "authorName": "Ramez Naam",
+      "isbn": "0857662937",
+      "userName": "Daniel",
+      "userRating": "4",
+      "userReadAt": "2016-05-09T00:00:00.000Z",
+      "userDateAdded": "2024-04-05T07:49:41.000Z",
+      "userDateCreated": "2016-04-13T04:12:13.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "4.0",
+      "bookPublished": "2012",
+      "description": "<a href=\"https://www.goodreads.com/book/show/13642710-nexus?utm_medium=api&amp;utm_source=rss\"><img alt=\"Nexus (Nexus, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347149654l/13642710._SY75_.jpg\" /></a><br/>\n                                      author: Ramez Naam<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: 2012<br/>\n                                      rating: 4<br/>\n                                      read at: 2016/05/09<br/>\n                                      date added: 2024/04/05<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "460"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/6382888644?utm_medium=api&utm_source=rss",
       "title": "Determined: A Science of Life without Free Will",
       "link": "https://www.goodreads.com/review/show/6382888644?utm_medium=api&utm_source=rss",
@@ -21,27 +42,6 @@
       "bookPublished": "2023",
       "description": "<a href=\"https://www.goodreads.com/book/show/83817782-determined?utm_medium=api&amp;utm_source=rss\"><img alt=\"Determined: A Science of Life without Free Will\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1685350965l/83817782._SY75_.jpg\" /></a><br/>\n                                      author: Robert M. Sapolsky<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: 2023<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/04/04<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
       "numPages": "528"
-    },
-    {
-      "id": "https://www.goodreads.com/review/show/1608915257?utm_medium=api&utm_source=rss",
-      "title": "Nexus (Nexus, #1)",
-      "link": "https://www.goodreads.com/review/show/1608915257?utm_medium=api&utm_source=rss",
-      "bookId": "13642710",
-      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347149654l/13642710._SY75_.jpg",
-      "bookDescription": "<b>Mankind gets an upgrade</b><br /><br />In the near future, the experimental nano-drug Nexus can link humans together, mind to mind. There are some who want to improve it. There are some who want to eradicate it. And there are others who just want to exploit it.<br /><br />When a young scientist is caught improving Nexus, he’s thrust over his head into a world of danger and international espionage – for there is far more at stake than anyone realizes.<br /><br />From the halls of academe to the halls of power, from the headquarters of an elite US agency in Washington DC to a secret lab beneath a top university in Shanghai, from the underground parties of San Francisco to the illegal biotech markets of Bangkok, from an international neuroscience conference to a remote monastery in the mountains of Thailand – Nexus is a thrill ride through a future on the brink of explosion.",
-      "authorName": "Ramez Naam",
-      "isbn": "0857662937",
-      "userName": "Daniel",
-      "userRating": "4",
-      "userReadAt": "2016-05-09T00:00:00.000Z",
-      "userDateAdded": "2024-04-04T06:58:42.000Z",
-      "userDateCreated": "2016-04-13T04:12:13.000Z",
-      "userShelves": "currently-reading",
-      "userReview": "",
-      "averageRating": "4.0",
-      "bookPublished": "2012",
-      "description": "<a href=\"https://www.goodreads.com/book/show/13642710-nexus?utm_medium=api&amp;utm_source=rss\"><img alt=\"Nexus (Nexus, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347149654l/13642710._SY75_.jpg\" /></a><br/>\n                                      author: Ramez Naam<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: 2012<br/>\n                                      rating: 4<br/>\n                                      read at: 2016/05/09<br/>\n                                      date added: 2024/04/03<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
-      "numPages": "460"
     },
     {
       "id": "https://www.goodreads.com/review/show/6395048135?utm_medium=api&utm_source=rss",
@@ -14304,7 +14304,7 @@
     },
     {
       "id": "https://www.goodreads.com/review/show/3917645451?utm_medium=api&utm_source=rss",
-      "title": "The Crusades: The Authoritative History of the War for the Holy Land",
+      "title": "The Crusades",
       "link": "https://www.goodreads.com/review/show/3917645451?utm_medium=api&utm_source=rss",
       "bookId": "7282903",
       "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348662175l/7282903._SY75_.jpg",
@@ -14320,7 +14320,7 @@
       "userReview": "",
       "averageRating": "4.2",
       "bookPublished": "2010",
-      "description": "<a href=\"https://www.goodreads.com/book/show/7282903-the-crusades?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Crusades: The Authoritative History of the War for the Holy Land\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348662175l/7282903._SY75_.jpg\" /></a><br/>\n                                      author: Thomas Asbridge<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 2010<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/03/30<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/7282903-the-crusades?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Crusades\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348662175l/7282903._SY75_.jpg\" /></a><br/>\n                                      author: Thomas Asbridge<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 2010<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/03/30<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "784"
     },
     {
