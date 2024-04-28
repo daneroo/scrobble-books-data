@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/6461971083?utm_medium=api&utm_source=rss",
+      "title": "The Talented Mr. Ripley (Ripley, #1)",
+      "link": "https://www.goodreads.com/review/show/6461971083?utm_medium=api&utm_source=rss",
+      "bookId": "2247142",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1634841836l/2247142._SX50_.jpg",
+      "bookDescription": "Now a Netflix Series<br /><br />It’s here, in the first volume of Patricia Highsmith’s five-book Ripley series, that we are introduced to the suave Tom Ripley, a young striver seeking to leave behind his past as an orphan bullied for being a “sissy.” Newly arrived in the heady world of Manhattan, Ripley meets a wealthy industrialist who hires him to bring his playboy son, Dickie Greenleaf, back from gallivanting in Italy. Soon Ripley’s fascination with Dickie’s debonair lifestyle turns obsessive as he finds himself enraged by Dickie’s ambivalent affections for Marge, a charming American dilettante, and Ripley begins a deadly game.<br /><br />“Sinister and strangely alluring,” (Mark Harris, <em>Entertainment Weekly</em>) <em>The Talented Mr. Ripley</em> serves as an unforgettable introduction to this smooth confidence man, whose talent for self-invention is as unnerving—and unnervingly revealing of the American psyche—as ever.",
+      "authorName": "Patricia Highsmith",
+      "isbn": "0393332144",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2024-04-27T23:21:05.000Z",
+      "userDateCreated": "2024-04-27T23:21:05.000Z",
+      "userShelves": "to-read",
+      "userReview": "",
+      "averageRating": "4.0",
+      "bookPublished": "1955",
+      "description": "<a href=\"https://www.goodreads.com/book/show/2247142.The_Talented_Mr_Ripley?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Talented Mr. Ripley (Ripley, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1634841836l/2247142._SX50_.jpg\" /></a><br/>\n                                      author: Patricia Highsmith<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: 1955<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/04/27<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "numPages": "273"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/5841167014?utm_medium=api&utm_source=rss",
       "title": "Malice (The Faithful and the Fallen, #1)",
       "link": "https://www.goodreads.com/review/show/5841167014?utm_medium=api&utm_source=rss",
