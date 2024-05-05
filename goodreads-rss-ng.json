@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/6482765374?utm_medium=api&utm_source=rss",
+      "title": "Dubliners",
+      "link": "https://www.goodreads.com/review/show/6482765374?utm_medium=api&utm_source=rss",
+      "bookId": "11012",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1334138184l/11012._SX50_.jpg",
+      "bookDescription": "This work of art reflects life in Ireland at the turn of the last century, and by rejecting euphemism, reveals to the Irish their unromantic realities. Each of the 15 stories offers glimpses into the lives of ordinary Dubliners, and collectively they paint a portrait of a nation.",
+      "authorName": "James Joyce",
+      "isbn": "0192839993",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2024-05-05T19:59:41.000Z",
+      "userDateCreated": "2024-05-05T19:59:40.000Z",
+      "userShelves": "to-read",
+      "userReview": "",
+      "averageRating": "3.9",
+      "bookPublished": "1914",
+      "description": "<a href=\"https://www.goodreads.com/book/show/11012.Dubliners?utm_medium=api&amp;utm_source=rss\"><img alt=\"Dubliners\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1334138184l/11012._SX50_.jpg\" /></a><br/>\n                                      author: James Joyce<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: 1914<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/05/05<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "numPages": "207"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/6481341839?utm_medium=api&utm_source=rss",
       "title": "The Language of Power (The Steerswoman, #4)",
       "link": "https://www.goodreads.com/review/show/6481341839?utm_medium=api&utm_source=rss",
@@ -7199,9 +7220,9 @@
       "userDateCreated": "2022-10-13T07:32:54.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "4.4",
+      "averageRating": "4.5",
       "bookPublished": "2019",
-      "description": "<a href=\"https://www.goodreads.com/book/show/35606041-a-little-hatred?utm_medium=api&amp;utm_source=rss\"><img alt=\"A Little Hatred (The Age of Madness, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1558367199l/35606041._SY75_.jpg\" /></a><br/>\n                                      author: Joe Abercrombie<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.4<br/>\n                                      book published: 2019<br/>\n                                      rating: 4<br/>\n                                      read at: 2022/10/19<br/>\n                                      date added: 2022/10/19<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/35606041-a-little-hatred?utm_medium=api&amp;utm_source=rss\"><img alt=\"A Little Hatred (The Age of Madness, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1558367199l/35606041._SY75_.jpg\" /></a><br/>\n                                      author: Joe Abercrombie<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.5<br/>\n                                      book published: 2019<br/>\n                                      rating: 4<br/>\n                                      read at: 2022/10/19<br/>\n                                      date added: 2022/10/19<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "480"
     },
     {
