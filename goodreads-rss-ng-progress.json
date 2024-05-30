@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/6545084991?utm_medium=api&utm_source=rss",
+      "title": "The Inspector General",
+      "link": "https://www.goodreads.com/review/show/6545084991?utm_medium=api&utm_source=rss",
+      "bookId": "142262",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1415677867l/142262._SY75_.jpg",
+      "bookDescription": "Considered the high point of Gogol's writing for the stage and a masterpiece of dramatic satire, <i>The Inspector General</i> skewers the stupidity, greed, and venality of Russian provincial officials. When it is announced that the Inspector General is coming to visit incognito, Anton, the chief of police, hastens to clean up the town before his arrival. Local officials scurry to hide evidence of bribe-taking and other misdeeds, setting the stage for the arrival from St. Petersburg of Ivan, a penurious gambler and rake who is promptly taken by the townspeople to be the dreaded Inspector General. Ivan, and his servant, Osip, soon take advantage of the situation with hilarious results. First performed in 1836, the play transcends regional and national boundaries to offer a biting, highly entertaining glimpse of universal human foibles and failings.<br />",
+      "authorName": "Nikolai Gogol",
+      "isbn": "0486285006",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2024-05-30T03:35:40.000Z",
+      "userDateCreated": "2024-05-30T03:35:40.000Z",
+      "userShelves": "to-read",
+      "userReview": "",
+      "averageRating": "4.0",
+      "bookPublished": "1835",
+      "description": "<a href=\"https://www.goodreads.com/book/show/142262.The_Inspector_General?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Inspector General\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1415677867l/142262._SY75_.jpg\" /></a><br/>\n                                      author: Nikolai Gogol<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: 1835<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/05/29<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "numPages": "80"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/6534455861?utm_medium=api&utm_source=rss",
       "title": "Stalin: Paradoxes of Power, 1878-1928",
       "link": "https://www.goodreads.com/review/show/6534455861?utm_medium=api&utm_source=rss",
@@ -9530,9 +9551,9 @@
       "userDateCreated": "2022-05-24T05:45:37.000Z",
       "userShelves": "on-deck",
       "userReview": "",
-      "averageRating": "4.0",
+      "averageRating": "3.9",
       "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/59576734-losing-ourselves?utm_medium=api&amp;utm_source=rss\"><img alt=\"Losing Ourselves: Learning to Live without a Self\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1644336679l/59576734._SY75_.jpg\" /></a><br/>\n                                      author: Jay L. Garfield<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/05/23<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/59576734-losing-ourselves?utm_medium=api&amp;utm_source=rss\"><img alt=\"Losing Ourselves: Learning to Live without a Self\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1644336679l/59576734._SY75_.jpg\" /></a><br/>\n                                      author: Jay L. Garfield<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/05/23<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
       "numPages": "224"
     },
     {
