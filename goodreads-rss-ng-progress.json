@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/6556258628?utm_medium=api&utm_source=rss",
+      "title": "Deep Utopia: Life and Meaning in a Solved World",
+      "link": "https://www.goodreads.com/review/show/6556258628?utm_medium=api&utm_source=rss",
+      "bookId": "208707460",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1710531839l/208707460._SY75_.jpg",
+      "bookDescription": "<b>A greyhound catching the mechanical lure—what would he actually do with it? Has he given this any thought?</b><br /><br />Bostrom’s previous book, Paths, Dangers, Strategies changed the global conversation on AI and became a New York Times bestseller. It focused on what might happen if AI development goes wrong. But what if things go right?<br /><br />Suppose that we develop superintelligence safely, govern it well, and make good use of the cornucopian wealth and near magical technological powers that this technology can unlock. If this transition to the machine intelligence era goes well, human labor becomes obsolete. We would thus enter a condition of \"post-instrumentality\", in which our efforts are not needed for any practical purpose. Furthermore, at technological maturity, human nature becomes entirely malleable.<br /><br />Here we confront a challenge that is not technological but philosophical and spiritual. In such a solved world, what is the point of human existence? What gives meaning to life? What do we do all day?<br /><br />Deep Utopia shines new light on these old questions, and gives us glimpses of a different kind of existence, which might be ours in the future.",
+      "authorName": "Nick Bostrom",
+      "isbn": "1646871642",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2024-06-03T09:26:30.000Z",
+      "userDateCreated": "2024-06-03T09:26:30.000Z",
+      "userShelves": "to-read",
+      "userReview": "",
+      "averageRating": "3.0",
+      "bookPublished": "",
+      "description": "<a href=\"https://www.goodreads.com/book/show/208707460-deep-utopia?utm_medium=api&amp;utm_source=rss\"><img alt=\"Deep Utopia: Life and Meaning in a Solved World\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1710531839l/208707460._SY75_.jpg\" /></a><br/>\n                                      author: Nick Bostrom<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.0<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/06/03<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "numPages": "536"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/6534455861?utm_medium=api&utm_source=rss",
       "title": "Stalin: Paradoxes of Power, 1878-1928",
       "link": "https://www.goodreads.com/review/show/6534455861?utm_medium=api&utm_source=rss",
