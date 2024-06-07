@@ -9,6 +9,24 @@ This is what the [add-to-web3 GitHub Action](https://github.com/marketplace/acti
 _Note:_ local W3.Storage Credentials are in `~/Library/Preferences/w3access/w3cli.json`, and
 current Space is also stored in this file `~/.config/configstore/update-notifier-\@web3-storage/`
 
+## TODO
+
+looks like THE DELEGATE PROOFS needs to be updated:
+
+```txt
+client/dist/src/blob.js:176
+        throw new Error(`failed ${BlobCapabilities.add.can} invocation`, {
+              ^
+
+Error: failed space/blob/add invocation
+```
+
+Need to update:
+
+```bash
+W3_PROOF=$(w3 delegation create $AUDIENCE -c 'store/*' -c 'upload/*' --base64)
+```
+
 ## Approach
 
 using the `w3` cli, we can upload a file, and remove all other older files.
