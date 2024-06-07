@@ -47,7 +47,8 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y jq
 
       - name: Install @web3-storage/w3cli (for pin-sh)
-        run: npm install -g @web3-storage/w3cli
+        # Pinned to 7.6.2 because of breaking change: AGAIN!
+        run: npm install -g @web3-storage/w3clii@7.6.2
 
       - name: Report versions
         run: |
