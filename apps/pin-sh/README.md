@@ -13,6 +13,12 @@ current Space is also stored in this file `~/.config/configstore/update-notifier
 
 looks like THE DELEGATE PROOFS needs to be updated:
 
+Perhaps:
+
+```txt
+w3 delegation create did:key:z6M... --can 'space/*' --can 'upload/*' --can 'filecoin/*' --base64
+```
+
 ```txt
 client/dist/src/blob.js:176
         throw new Error(`failed ${BlobCapabilities.add.can} invocation`, {
