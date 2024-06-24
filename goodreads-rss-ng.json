@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/6611290946?utm_medium=api&utm_source=rss",
+      "title": "The Paper Menagerie and Other Stories",
+      "link": "https://www.goodreads.com/review/show/6611290946?utm_medium=api&utm_source=rss",
+      "bookId": "24885533",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1511290092l/24885533._SY75_.jpg",
+      "bookDescription": "A publishing event: Bestselling author Ken Liu selects his award-winning science fiction and fantasy tales for a groundbreaking collection—including a brand-new piece exclusive to this volume.<br /><br />With his debut novel, <i>The Grace of Kings</i>, taking the literary world by storm, Ken Liu now shares his finest short fiction in <i>The Paper Menagerie</i>. This mesmerizing collection features all of Ken’s award-winning and award-finalist stories, including: “The Man Who Ended History: A Documentary” (Finalist for the Hugo, Nebula, and Theodore Sturgeon Awards), “Mono No Aware” (Hugo Award winner), “The Waves” (Nebula Award finalist), “The Bookmaking Habits of Select Species” (Nebula and Sturgeon award finalists), “All the Flavors” (Nebula award finalist), “The Litigation Master and the Monkey King” (Nebula Award finalist), and the most awarded story in the genre’s history, “The Paper Menagerie” (The only story to win the Hugo, Nebula, and World Fantasy awards).<br /><br />A must-have for every science fiction and fantasy fan, this beautiful book is an anthology to savor.",
+      "authorName": "Ken Liu",
+      "isbn": "1481442546",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2024-06-24T01:26:54.000Z",
+      "userDateCreated": "2024-06-24T01:26:54.000Z",
+      "userShelves": "to-read",
+      "userReview": "",
+      "averageRating": "4.4",
+      "bookPublished": "2016",
+      "description": "<a href=\"https://www.goodreads.com/book/show/24885533-the-paper-menagerie-and-other-stories?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Paper Menagerie and Other Stories\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1511290092l/24885533._SY75_.jpg\" /></a><br/>\n                                      author: Ken Liu<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.4<br/>\n                                      book published: 2016<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/06/23<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "numPages": "450"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/6610439497?utm_medium=api&utm_source=rss",
       "title": "Making reliable distributed systems in the presence of software errors",
       "link": "https://www.goodreads.com/review/show/6610439497?utm_medium=api&utm_source=rss",
