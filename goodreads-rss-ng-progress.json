@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/6624891847?utm_medium=api&utm_source=rss",
+      "title": "Shadows Linger (The Chronicles of the Black Company, #2)",
+      "link": "https://www.goodreads.com/review/show/6624891847?utm_medium=api&utm_source=rss",
+      "bookId": "400881",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1436464351l/400881._SY75_.jpg",
+      "bookDescription": "<b>The second volume in an epic military fantasy series following a group of hard-bitten mercenaries waging war on behalf of The Lady, who may be the very infestation of evil itself </b>The Black Company stands against the rebels of the White Rose. They are tough men, proud of honoring their contracts. The Lady is evil, but so, too, are those who falsely profess to follow the White Rose, reincarnation of a centuries-dead heroine. Yet now some of the Company have discovered that the mute girl they rescued and sheltered is truly the White Rose reborn. Now there may be a path to the light, even for such as they. If they can survive it.At the Publisher's request, this title is being sold without Digital Rights Management Software (DRM) applied.",
+      "authorName": "Glen Cook",
+      "isbn": "0812508424",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2024-06-29T03:41:11.000Z",
+      "userDateCreated": "2024-06-29T03:41:11.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "4.2",
+      "bookPublished": "1984",
+      "description": "<a href=\"https://www.goodreads.com/book/show/400881.Shadows_Linger?utm_medium=api&amp;utm_source=rss\"><img alt=\"Shadows Linger (The Chronicles of the Black Company, #2)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1436464351l/400881._SY75_.jpg\" /></a><br/>\n                                      author: Glen Cook<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 1984<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/06/28<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "319"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/6620267989?utm_medium=api&utm_source=rss",
       "title": "The Rise of Metallurgy in Eurasia: Evolution, Organisation and Consumption of Early Metal in the Balkans",
       "link": "https://www.goodreads.com/review/show/6620267989?utm_medium=api&utm_source=rss",
