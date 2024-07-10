@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/4106894126?utm_medium=api&utm_source=rss",
+      "title": "Excession (Culture, #5)",
+      "link": "https://www.goodreads.com/review/show/4106894126?utm_medium=api&utm_source=rss",
+      "bookId": "12013",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1288930712l/12013._SY75_.jpg",
+      "bookDescription": "The international sensation Iain M. Banks offers readers a deeply imaginative, wittily satirical tale, proving once again that he is \"a talent to be reckoned with\" (\"Locus\"). In <i>Excession</i>, the Culture's espionage and dirty tricks section orders Diplomat Byr Gen-Hofoen to steal the soul of a long-dead starship captain. By accepting the mission, Byr irrevocably plunges himself into a conspiracy: one that could either lead the universe into an age of peace or to the brink of annihilation.",
+      "authorName": "Iain M. Banks",
+      "isbn": "0553575376",
+      "userName": "Daniel",
+      "userRating": "4",
+      "userReadAt": "2022-12-31T00:00:00.000Z",
+      "userDateAdded": "2024-07-10T08:21:44.000Z",
+      "userDateCreated": "2021-07-11T00:32:09.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "4.2",
+      "bookPublished": "1996",
+      "description": "<a href=\"https://www.goodreads.com/book/show/12013.Excession?utm_medium=api&amp;utm_source=rss\"><img alt=\"Excession (Culture, #5)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1288930712l/12013._SY75_.jpg\" /></a><br/>\n                                      author: Iain M. Banks<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 1996<br/>\n                                      rating: 4<br/>\n                                      read at: 2022/12/31<br/>\n                                      date added: 2024/07/10<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "500"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/6653616253?utm_medium=api&utm_source=rss",
       "title": "Bel-Ami",
       "link": "https://www.goodreads.com/review/show/6653616253?utm_medium=api&utm_source=rss",
@@ -21,27 +42,6 @@
       "bookPublished": "1885",
       "description": "<a href=\"https://www.goodreads.com/book/show/780581.Bel_Ami?utm_medium=api&amp;utm_source=rss\"><img alt=\"Bel-Ami\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1657539241l/780581._SY75_.jpg\" /></a><br/>\n                                      author: Guy de Maupassant<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: 1885<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/07/08<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
       "numPages": "416"
-    },
-    {
-      "id": "https://www.goodreads.com/review/show/4106894126?utm_medium=api&utm_source=rss",
-      "title": "Excession (Culture, #5)",
-      "link": "https://www.goodreads.com/review/show/4106894126?utm_medium=api&utm_source=rss",
-      "bookId": "12013",
-      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1288930712l/12013._SY75_.jpg",
-      "bookDescription": "The international sensation Iain M. Banks offers readers a deeply imaginative, wittily satirical tale, proving once again that he is \"a talent to be reckoned with\" (\"Locus\"). In <i>Excession</i>, the Culture's espionage and dirty tricks section orders Diplomat Byr Gen-Hofoen to steal the soul of a long-dead starship captain. By accepting the mission, Byr irrevocably plunges himself into a conspiracy: one that could either lead the universe into an age of peace or to the brink of annihilation.",
-      "authorName": "Iain M. Banks",
-      "isbn": "0553575376",
-      "userName": "Daniel",
-      "userRating": "4",
-      "userReadAt": "2022-12-31T00:00:00.000Z",
-      "userDateAdded": "2024-07-08T07:39:21.000Z",
-      "userDateCreated": "2021-07-11T00:32:09.000Z",
-      "userShelves": "currently-reading",
-      "userReview": "",
-      "averageRating": "4.2",
-      "bookPublished": "1996",
-      "description": "<a href=\"https://www.goodreads.com/book/show/12013.Excession?utm_medium=api&amp;utm_source=rss\"><img alt=\"Excession (Culture, #5)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1288930712l/12013._SY75_.jpg\" /></a><br/>\n                                      author: Iain M. Banks<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 1996<br/>\n                                      rating: 4<br/>\n                                      read at: 2022/12/31<br/>\n                                      date added: 2024/07/08<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
-      "numPages": "500"
     },
     {
       "id": "https://www.goodreads.com/review/show/6650808814?utm_medium=api&utm_source=rss",
@@ -17700,8 +17700,8 @@
       "userShelves": "",
       "userReview": "",
       "averageRating": "4.4",
-      "bookPublished": "2011",
-      "description": "<a href=\"https://www.goodreads.com/book/show/20839196-sapiens?utm_medium=api&amp;utm_source=rss\"><img alt=\"Sapiens: A Brief History of Humankind\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1712220398l/20839196._SX50_.jpg\" /></a><br/>\n                                      author: Yuval Noah Harari<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.4<br/>\n                                      book published: 2011<br/>\n                                      rating: 4<br/>\n                                      read at: <br/>\n                                      date added: 2020/04/24<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "bookPublished": "",
+      "description": "<a href=\"https://www.goodreads.com/book/show/20839196-sapiens?utm_medium=api&amp;utm_source=rss\"><img alt=\"Sapiens: A Brief History of Humankind\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1712220398l/20839196._SX50_.jpg\" /></a><br/>\n                                      author: Yuval Noah Harari<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.4<br/>\n                                      book published: <br/>\n                                      rating: 4<br/>\n                                      read at: <br/>\n                                      date added: 2020/04/24<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "443"
     },
     {
@@ -17952,8 +17952,8 @@
       "userShelves": "",
       "userReview": "",
       "averageRating": "4.3",
-      "bookPublished": "2011",
-      "description": "<a href=\"https://www.goodreads.com/book/show/23692271-sapiens?utm_medium=api&amp;utm_source=rss\"><img alt=\"Sapiens: A Brief History of Humankind\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1703329310l/23692271._SY75_.jpg\" /></a><br/>\n                                      author: Yuval Noah Harari<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: 2011<br/>\n                                      rating: 3<br/>\n                                      read at: 2020/03/25<br/>\n                                      date added: 2020/03/25<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "bookPublished": "",
+      "description": "<a href=\"https://www.goodreads.com/book/show/23692271-sapiens?utm_medium=api&amp;utm_source=rss\"><img alt=\"Sapiens: A Brief History of Humankind\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1703329310l/23692271._SY75_.jpg\" /></a><br/>\n                                      author: Yuval Noah Harari<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: <br/>\n                                      rating: 3<br/>\n                                      read at: 2020/03/25<br/>\n                                      date added: 2020/03/25<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "512"
     },
     {
