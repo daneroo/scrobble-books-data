@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/6674069864?utm_medium=api&utm_source=rss",
+      "title": "Why Machines Learn: The Elegant Math Behind Modern AI",
+      "link": "https://www.goodreads.com/review/show/6674069864?utm_medium=api&utm_source=rss",
+      "bookId": "195887568",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1696743557l/195887568._SY75_.jpg",
+      "bookDescription": "<b>A rich, narrative explanation of the mathematics that has brought us machine learning and the ongoing explosion of artificial intelligence</b><br /><br />Machine learning systems are making life-altering decisions for approving mortgage loans, determining whether a tumour is cancerous, or deciding whether someone gets bail. They now influence developments and discoveries in chemistry, biology, and physics—the study of genomes, extra-solar planets, even the intricacies of quantum systems. And all this before large language models such as ChatGPT came on the scene.<br /><br />We are living through a revolution in machine learning-powered AI that shows no signs of slowing down. This technology is based on relatively simple mathematical ideas, some of which go back centuries, including linear algebra and calculus, the stuff of seventeenth- and eighteenth-century mathematics. It took the birth and advancement of computer science and the kindling of 1990s computer chips designed for video games to ignite the explosion of AI that we see today. In this enlightening book, Anil Ananthaswamy explains the fundamental math behind machine learning, while suggesting intriguing links between artifical and natural intelligence. Might the same math underpin them both?<br /><br />As Ananthaswamy resonantly concludes, to make safe and effective use of artificial intelligence, we need to understand its profound capabilities and limitations, the clues to which lie in the math that makes machine learning possible.",
+      "authorName": "Anil Ananthaswamy",
+      "isbn": "0593185757",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2024-07-16T06:05:02.000Z",
+      "userDateCreated": "2024-07-16T06:05:02.000Z",
+      "userShelves": "on-deck",
+      "userReview": "",
+      "averageRating": "4.0",
+      "bookPublished": "",
+      "description": "<a href=\"https://www.goodreads.com/book/show/195887568-why-machines-learn?utm_medium=api&amp;utm_source=rss\"><img alt=\"Why Machines Learn: The Elegant Math Behind Modern AI\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1696743557l/195887568._SY75_.jpg\" /></a><br/>\n                                      author: Anil Ananthaswamy<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/07/15<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "numPages": "476"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/5551340970?utm_medium=api&utm_source=rss",
       "title": "Babel",
       "link": "https://www.goodreads.com/review/show/5551340970?utm_medium=api&utm_source=rss",
@@ -6821,9 +6842,9 @@
       "userDateCreated": "2022-12-24T07:54:26.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "3.5",
+      "averageRating": "3.6",
       "bookPublished": "2022",
-      "description": "<a href=\"https://www.goodreads.com/book/show/60747381-crassus?utm_medium=api&amp;utm_source=rss\"><img alt=\"Crassus: The First Tycoon (Ancient Lives)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1663381094l/60747381._SY75_.jpg\" /></a><br/>\n                                      author: Peter Stothard<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.5<br/>\n                                      book published: 2022<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/12/23<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/60747381-crassus?utm_medium=api&amp;utm_source=rss\"><img alt=\"Crassus: The First Tycoon (Ancient Lives)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1663381094l/60747381._SY75_.jpg\" /></a><br/>\n                                      author: Peter Stothard<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.6<br/>\n                                      book published: 2022<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/12/23<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "184"
     },
     {
