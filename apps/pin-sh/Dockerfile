@@ -1,6 +1,6 @@
 FROM node:lts
 
-RUN npm install -g @web3-storage/w3cli@7.6.2 && \
+RUN npm install -g @web3-storage/w3cli@7.8.2 && \
   apt update && \
   apt install -y jq
 

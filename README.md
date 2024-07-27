@@ -59,8 +59,6 @@ pnpm git:log
 
 ## TODO
 
-- [ ] Pinned @web3-storage/w3cli@7.6.2 to stop breakage, look like permission system has been overhauled AGAIN
-  - UPDATE W3_PROOF ?
 - [ ] scrape-ng progress (only for currently-reading)
 - [ ] Problem with act -j (scrape|unit)
 - [ ] Re-implement apps/pin to use w3.storage (new)

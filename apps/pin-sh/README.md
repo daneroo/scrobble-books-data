@@ -99,8 +99,9 @@ W3_PRINCIPAL=$(jq -r .key ci-key.json)
 AUDIENCE=$(jq -r .did ci-key.json)
 # Create a signed proof that you delegate capabilities to that key.
 # * using capabilities store/* and upload/* (we ned to list,create and delete from CI)
+# * after w3cli@7.6.2, we need to add capabilities: space/blob/add and space/index/add
 # * Could probably add expiration --exp
-W3_PROOF=$(w3 delegation create $AUDIENCE -c 'store/*' -c 'upload/*' --base64)
+W3_PROOF=$(w3 delegation create $AUDIENCE -c 'store/*' -c 'upload/*' -c 'space/blob/add' -c 'space/index/add' --base64)
 # Write the env file
 ENV_FILE_CONTENT=$(cat <<EOF
 W3_PRINCIPAL=${W3_PRINCIPAL}

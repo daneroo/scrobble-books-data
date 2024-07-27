@@ -47,8 +47,8 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y jq
 
       - name: Install @web3-storage/w3cli (for pin-sh)
-        # Pinned to 7.6.2 because of breaking change: AGAIN!
-        run: npm install -g @web3-storage/w3cli@7.6.2
+        # Pinned (to 7.8.2) because of frequent breaking changes
+        run: npm install -g @web3-storage/w3cli@7.8.2
 
       - name: Report versions
         run: |
@@ -58,7 +58,7 @@ jobs:
           deno --version
           cue version
           jq --version
-          # w3 --version
+          w3 --version
 
       # Get the stamp for the eventual commit message
       - name: Get current date stamp
@@ -88,8 +88,7 @@ jobs:
         working-directory: cue
 
       - name: Pin to web3.storage (bash / w3 cli)
-        run: echo "W3CLI BROKEN AGAIN"
-        # run: ./apps/pin-sh/uploadToW3Storage.sh
+        run: ./apps/pin-sh/uploadToW3Storage.sh
 
       #  JS version disabled for now
       # - name: Pin to web3.storage (node)
