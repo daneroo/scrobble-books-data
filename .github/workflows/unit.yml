@@ -11,7 +11,7 @@ jobs:
     #   GOODREADS_USER: ${{ secrets.GOODREADS_USER }}
     steps:
       - uses: actions/checkout@v4
-      - uses: pnpm/action-setup@v3
+      - uses: pnpm/action-setup@v4
         with:
           version: 8
           run_install: true

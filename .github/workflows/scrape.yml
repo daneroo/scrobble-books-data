@@ -21,7 +21,7 @@ jobs:
       W3_PROOF: ${{ secrets.W3_PROOF }}
     steps:
       - uses: actions/checkout@v4
-      - uses: pnpm/action-setup@v3
+      - uses: pnpm/action-setup@v4
         with:
           version: 8
           run_install: true
