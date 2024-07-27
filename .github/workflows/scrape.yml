@@ -58,7 +58,7 @@ jobs:
           deno --version
           cue version
           jq --version
-          w3 --version
+          # w3 --version
 
       # Get the stamp for the eventual commit message
       - name: Get current date stamp
