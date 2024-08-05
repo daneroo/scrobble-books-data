@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/6423787845?utm_medium=api&utm_source=rss",
+      "title": "Light in August",
+      "link": "https://www.goodreads.com/review/show/6423787845?utm_medium=api&utm_source=rss",
+      "bookId": "10979",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1355360091l/10979._SY75_.jpg",
+      "bookDescription": "<i>Light in August</i>, a novel that contrasts stark tragedy with hopeful perseverance in the face of mortality, which features some of Faulkner’s most memorable characters: guileless, dauntless Lena Grove, in search of the father of her unborn child; Reverend Gail Hightower, a lonely outcast haunted by visions of Confederate glory; and Joe Christmas, a desperate, enigmatic drifter consumed by his mixed ancestry.",
+      "authorName": "William Faulkner",
+      "isbn": "0679732268",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2024-08-05T07:04:15.000Z",
+      "userDateCreated": "2024-04-13T00:42:46.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "3.9",
+      "bookPublished": "1932",
+      "description": "<a href=\"https://www.goodreads.com/book/show/10979.Light_in_August?utm_medium=api&amp;utm_source=rss\"><img alt=\"Light in August\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1355360091l/10979._SY75_.jpg\" /></a><br/>\n                                      author: William Faulkner<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: 1932<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/08/05<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "507"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/6727919449?utm_medium=api&utm_source=rss",
       "title": "Power and Progress: Our Thousand-Year Struggle Over Technology and Prosperity",
       "link": "https://www.goodreads.com/review/show/6727919449?utm_medium=api&utm_source=rss",
@@ -21,27 +42,6 @@
       "bookPublished": "2023",
       "description": "<a href=\"https://www.goodreads.com/book/show/62315566-power-and-progress?utm_medium=api&amp;utm_source=rss\"><img alt=\"Power and Progress: Our Thousand-Year Struggle Over Technology and Prosperity\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1684146198l/62315566._SX50_.jpg\" /></a><br/>\n                                      author: Daron Acemoğlu<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.8<br/>\n                                      book published: 2023<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/08/04<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
       "numPages": "0"
-    },
-    {
-      "id": "https://www.goodreads.com/review/show/6423787845?utm_medium=api&utm_source=rss",
-      "title": "Light in August",
-      "link": "https://www.goodreads.com/review/show/6423787845?utm_medium=api&utm_source=rss",
-      "bookId": "10979",
-      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1355360091l/10979._SY75_.jpg",
-      "bookDescription": "<i>Light in August</i>, a novel that contrasts stark tragedy with hopeful perseverance in the face of mortality, which features some of Faulkner’s most memorable characters: guileless, dauntless Lena Grove, in search of the father of her unborn child; Reverend Gail Hightower, a lonely outcast haunted by visions of Confederate glory; and Joe Christmas, a desperate, enigmatic drifter consumed by his mixed ancestry.",
-      "authorName": "William Faulkner",
-      "isbn": "0679732268",
-      "userName": "Daniel",
-      "userRating": "0",
-      "userReadAt": "",
-      "userDateAdded": "2024-08-04T07:03:18.000Z",
-      "userDateCreated": "2024-04-13T00:42:46.000Z",
-      "userShelves": "currently-reading",
-      "userReview": "",
-      "averageRating": "3.9",
-      "bookPublished": "1932",
-      "description": "<a href=\"https://www.goodreads.com/book/show/10979.Light_in_August?utm_medium=api&amp;utm_source=rss\"><img alt=\"Light in August\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1355360091l/10979._SY75_.jpg\" /></a><br/>\n                                      author: William Faulkner<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: 1932<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/08/04<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
-      "numPages": "507"
     },
     {
       "id": "https://www.goodreads.com/review/show/4106810368?utm_medium=api&utm_source=rss",
@@ -14192,9 +14192,9 @@
       "userDateCreated": "2021-07-20T05:07:19.000Z",
       "userShelves": "on-deck",
       "userReview": "",
-      "averageRating": "4.4",
+      "averageRating": "4.3",
       "bookPublished": "2020",
-      "description": "<a href=\"https://www.goodreads.com/book/show/51777543-data-feminism?utm_medium=api&amp;utm_source=rss\"><img alt=\"Data Feminism\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1572991302l/51777543._SX50_.jpg\" /></a><br/>\n                                      author: Catherine D’Ignazio<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.4<br/>\n                                      book published: 2020<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/07/19<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/51777543-data-feminism?utm_medium=api&amp;utm_source=rss\"><img alt=\"Data Feminism\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1572991302l/51777543._SX50_.jpg\" /></a><br/>\n                                      author: Catherine D’Ignazio<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: 2020<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/07/19<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
       "numPages": "328"
     },
     {
