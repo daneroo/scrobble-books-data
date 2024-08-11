@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/6748078748?utm_medium=api&utm_source=rss",
+      "title": "Knife: Meditations After an Attempted Murder",
+      "link": "https://www.goodreads.com/review/show/6748078748?utm_medium=api&utm_source=rss",
+      "bookId": "199344846",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1697452251l/199344846._SY75_.jpg",
+      "bookDescription": "From internationally renowned writer and Booker Prize winner Salman Rushdie, a searing, deeply personal account of enduring—and surviving—an attempt on his life thirty years after the fatwa that was ordered against him<br /> <br />On the morning of August 12, 2022, Salman Rushdie was standing onstage at the Chautauqua Institution, preparing to give a lecture on the importance of keeping writers safe from harm, when a man in black—black clothes, black mask—rushed down the aisle toward him, wielding a knife. His first thought: So it’s you. Here you are.<br /><br />What followed was a horrific act of violence that shook the literary world and beyond. Now, for the first time, and in unforgettable detail, Rushdie relives the traumatic events of that day and its aftermath, as well as his journey toward physical recovery and the healing that was made possible by the love and support of his wife, Eliza, his family, his army of doctors and physical therapists, and his community of readers worldwide.<br /><br />Knife is Rushdie at the peak of his powers, writing with urgency, with gravity, with unflinching honesty. It is also a deeply moving reminder of literature’s capacity to make sense of the unthinkable, an intimate and life-affirming meditation on life, loss, love, art—and finding the strength to stand up again.",
+      "authorName": "Salman Rushdie",
+      "isbn": "0593730240",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2024-08-11T03:39:29.000Z",
+      "userDateCreated": "2024-08-11T03:39:29.000Z",
+      "userShelves": "to-read",
+      "userReview": "",
+      "averageRating": "4.1",
+      "bookPublished": "2024",
+      "description": "<a href=\"https://www.goodreads.com/book/show/199344846-knife?utm_medium=api&amp;utm_source=rss\"><img alt=\"Knife: Meditations After an Attempted Murder\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1697452251l/199344846._SY75_.jpg\" /></a><br/>\n                                      author: Salman Rushdie<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: 2024<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/08/10<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "numPages": "209"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/4979890278?utm_medium=api&utm_source=rss",
       "title": "Red Country",
       "link": "https://www.goodreads.com/review/show/4979890278?utm_medium=api&utm_source=rss",
