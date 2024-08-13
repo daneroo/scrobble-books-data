@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/6754547983?utm_medium=api&utm_source=rss",
+      "title": "Black Holes & Time Warps: Einstein's Outrageous Legacy",
+      "link": "https://www.goodreads.com/review/show/6754547983?utm_medium=api&utm_source=rss",
+      "bookId": "17362",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1427963810l/17362._SY75_.jpg",
+      "bookDescription": "<b>Ever since Albert Einstein's general theory of relativity burst upon the world in 1915 some of the most brilliant minds of our century have sought to decipher the mysteries bequeathed by that theory, a legacy so unthinkable in some respects that even Einstein himself rejected them.</b><br /><br />Which of these bizarre phenomena, if any, can really exist in our universe? Black holes, down which anything can fall but from which nothing can return; wormholes, short spacewarps connecting regions of the cosmos; singularities, where space and time are so violently warped that time ceases to exist and space becomes a kind of foam; gravitational waves, which carry symphonic accounts of collisions of black holes billions of years ago; and time machines, for traveling backward and forward in time.<br /><br />Kip Thorne, along with fellow theorists Stephen Hawking and Roger Penrose, a cadre of Russians, and earlier scientists such as Oppenheimer, Wheeler and Chandrasekhar, has been in the thick of the quest to secure answers. In this masterfully written and brilliantly informed work of scientific history and explanation, Dr. Thorne, the Feynman Professor of Theoretical Physics at Caltech, leads his readers through an elegant, always human, tapestry of interlocking themes, coming finally to a uniquely informed answer to the great question: what principles control our universe and why do physicists think they know the things they think they know? Stephen Hawking's <em>A Brief History of Time</em> has been one of the greatest best-sellers in publishing history. Anyone who struggled with that book will find here a more slowly paced but equally mind-stretching experience, with the added fascination of a rich historical and human component.",
+      "authorName": "Kip S. Thorne",
+      "isbn": "0393312763",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2024-08-13T09:04:14.000Z",
+      "userDateCreated": "2024-08-13T09:04:14.000Z",
+      "userShelves": "on-deck",
+      "userReview": "",
+      "averageRating": "4.2",
+      "bookPublished": "1994",
+      "description": "<a href=\"https://www.goodreads.com/book/show/17362.Black_Holes_Time_Warps?utm_medium=api&amp;utm_source=rss\"><img alt=\"Black Holes &amp; Time Warps: Einstein&#39;s Outrageous Legacy\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1427963810l/17362._SY75_.jpg\" /></a><br/>\n                                      author: Kip S. Thorne<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 1994<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/08/13<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "numPages": "624"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/4979890278?utm_medium=api&utm_source=rss",
       "title": "Red Country",
       "link": "https://www.goodreads.com/review/show/4979890278?utm_medium=api&utm_source=rss",
