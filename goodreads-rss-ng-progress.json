@@ -11,15 +11,15 @@
       "authorName": "Evan Winter",
       "isbn": "031648976X",
       "userName": "Daniel",
-      "userRating": "0",
-      "userReadAt": "",
-      "userDateAdded": "2024-08-20T07:27:36.000Z",
+      "userRating": "4",
+      "userReadAt": "2024-08-20T00:00:00.000Z",
+      "userDateAdded": "2024-08-21T05:42:09.000Z",
       "userDateCreated": "2024-07-20T07:52:07.000Z",
-      "userShelves": "currently-reading",
+      "userShelves": "",
       "userReview": "",
       "averageRating": "4.3",
       "bookPublished": "2017",
-      "description": "<a href=\"https://www.goodreads.com/book/show/41952489-the-rage-of-dragons?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Rage of Dragons (The Burning, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1553927196l/41952489._SY75_.jpg\" /></a><br/>\n                                      author: Evan Winter<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: 2017<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/08/20<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/41952489-the-rage-of-dragons?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Rage of Dragons (The Burning, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1553927196l/41952489._SY75_.jpg\" /></a><br/>\n                                      author: Evan Winter<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: 2017<br/>\n                                      rating: 4<br/>\n                                      read at: 2024/08/20<br/>\n                                      date added: 2024/08/20<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "535"
     },
     {
@@ -2474,9 +2474,9 @@
       "userDateCreated": "2024-02-24T08:19:51.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "4.1",
+      "averageRating": "4.0",
       "bookPublished": "2024",
-      "description": "<a href=\"https://www.goodreads.com/book/show/127306588-the-bezzle?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Bezzle (Martin Hench #2)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1690390791l/127306588._SY75_.jpg\" /></a><br/>\n                                      author: Cory Doctorow<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: 2024<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/02/24<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/127306588-the-bezzle?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Bezzle (Martin Hench #2)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1690390791l/127306588._SY75_.jpg\" /></a><br/>\n                                      author: Cory Doctorow<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: 2024<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/02/24<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "240"
     },
     {
