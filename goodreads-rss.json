@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/6808594507?utm_medium=api&utm_source=rss",
+      "title": "The Golden Road: How Ancient India Transformed the World",
+      "link": "https://www.goodreads.com/review/show/6808594507?utm_medium=api&utm_source=rss",
+      "bookId": "201608148",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1715854421l/201608148._SY75_.jpg",
+      "bookDescription": "For most of its modern history, India was fated to be on the receiving end of cultural influence from other civilisations. But this isn't the complete story. A full millennium earlier, India's major cultural exports – religion, art, technology, astronomy, mathematics, medicine, language and literature – were shaping civilisations, travelling as far as Afghanistan in the West and Japan in the East. Out of India came pioneering merchants, astronomers and astrologers, scientists and mathematicians, surgeons and sculptors, as well as holy men, monks and missionaries. In The Golden Road, <b>legendary historian William Dalrymple</b> highlights India's oft-forgotten position as a crucial economic and civilisational hub at the heart of the ancient and early medieval history of Eurasia. From Angkor to Ayutthaya, The Golden Road traces the cultural flow of Indian religions, languages, artistic and architectural forms and mathematics throughout the world. In this groundbreaking tome, <b>Dalrymple draws from a lifetime of scholarship to reinstate India as the great intellectual and philosophical superpower of ancient Asia.</b>",
+      "authorName": "William Dalrymple",
+      "isbn": "1639734147",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2024-09-01T09:06:43.000Z",
+      "userDateCreated": "2024-09-01T09:06:43.000Z",
+      "userShelves": "on-deck",
+      "userReview": "",
+      "averageRating": "4.9",
+      "bookPublished": "",
+      "description": "<a href=\"https://www.goodreads.com/book/show/201608148-the-golden-road?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Golden Road: How Ancient India Transformed the World\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1715854421l/201608148._SY75_.jpg\" /></a><br/>\n                                      author: William Dalrymple<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.9<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/09/01<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "numPages": "496"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/6800354679?utm_medium=api&utm_source=rss",
       "title": "Royal Assassin (Farseer Trilogy, #2)",
       "link": "https://www.goodreads.com/review/show/6800354679?utm_medium=api&utm_source=rss",
