@@ -11,15 +11,15 @@
       "authorName": "Jonathan Rauch",
       "isbn": "0815738862",
       "userName": "Daniel",
-      "userRating": "0",
-      "userReadAt": "",
-      "userDateAdded": "2024-09-02T06:35:08.000Z",
+      "userRating": "5",
+      "userReadAt": "2024-09-02T00:00:00.000Z",
+      "userDateAdded": "2024-09-03T05:00:14.000Z",
       "userDateCreated": "2024-06-22T23:59:27.000Z",
-      "userShelves": "currently-reading",
+      "userShelves": "",
       "userReview": "",
       "averageRating": "4.2",
       "bookPublished": "2021",
-      "description": "<a href=\"https://www.goodreads.com/book/show/54616040-the-constitution-of-knowledge?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Constitution of Knowledge: A Defense of Truth\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1623666829l/54616040._SX50_.jpg\" /></a><br/>\n                                      author: Jonathan Rauch<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 2021<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/09/01<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/54616040-the-constitution-of-knowledge?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Constitution of Knowledge: A Defense of Truth\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1623666829l/54616040._SX50_.jpg\" /></a><br/>\n                                      author: Jonathan Rauch<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 2021<br/>\n                                      rating: 5<br/>\n                                      read at: 2024/09/02<br/>\n                                      date added: 2024/09/02<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "318"
     },
     {
@@ -4658,9 +4658,9 @@
       "userDateCreated": "2023-10-19T09:27:14.000Z",
       "userShelves": "on-deck",
       "userReview": "",
-      "averageRating": "4.1",
+      "averageRating": "4.0",
       "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/72114452-goodbye-eastern-europe?utm_medium=api&amp;utm_source=rss\"><img alt=\"Goodbye, Eastern Europe: An Intimate History of a Divided Land\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1684781598l/72114452._SX50_.jpg\" /></a><br/>\n                                      author: Jacob Mikanowski<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/10/19<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/72114452-goodbye-eastern-europe?utm_medium=api&amp;utm_source=rss\"><img alt=\"Goodbye, Eastern Europe: An Intimate History of a Divided Land\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1684781598l/72114452._SX50_.jpg\" /></a><br/>\n                                      author: Jacob Mikanowski<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/10/19<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
       "numPages": "400"
     },
     {
