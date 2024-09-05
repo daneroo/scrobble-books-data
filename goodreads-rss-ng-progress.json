@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/6820509816?utm_medium=api&utm_source=rss",
+      "title": "The Princess Bride",
+      "link": "https://www.goodreads.com/review/show/6820509816?utm_medium=api&utm_source=rss",
+      "bookId": "21787",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327903636l/21787._SY75_.jpg",
+      "bookDescription": "What happens when the most beautiful girl in the world marries the handsomest prince of all time and he turns out to be...well...a lot less than the man of her dreams?<br /><br />As a boy, William Goldman claims, he loved to hear his father read the S. Morgenstern classic, <i>The Princess Bride</i>. But as a grown-up he discovered that the boring parts were left out of good old Dad's recitation, and only the \"good parts\" reached his ears.<br /><br />Now Goldman does Dad one better. He's reconstructed the \"Good Parts Version\" to delight wise kids and wide-eyed grownups everywhere.<br /><br />What's it about? Fencing. Fighting. True Love. Strong Hate. Harsh Revenge. A Few Giants. Lots of Bad Men. Lots of Good Men. Five or Six Beautiful Women. Beasties Monstrous and Gentle. Some Swell Escapes and Captures. Death, Lies, Truth, Miracles, and a Little Sex.<br /><br />In short, it's about everything.",
+      "authorName": "William Goldman",
+      "isbn": "0345418263",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2024-09-05T02:43:30.000Z",
+      "userDateCreated": "2024-09-05T02:43:30.000Z",
+      "userShelves": "to-read",
+      "userReview": "",
+      "averageRating": "4.3",
+      "bookPublished": "1973",
+      "description": "<a href=\"https://www.goodreads.com/book/show/21787.The_Princess_Bride?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Princess Bride\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327903636l/21787._SY75_.jpg\" /></a><br/>\n                                      author: William Goldman<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: 1973<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/09/04<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "numPages": "429"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/6800354679?utm_medium=api&utm_source=rss",
       "title": "Royal Assassin (Farseer Trilogy, #2)",
       "link": "https://www.goodreads.com/review/show/6800354679?utm_medium=api&utm_source=rss",
@@ -2327,9 +2348,9 @@
       "userDateCreated": "2024-04-02T07:00:56.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "4.1",
+      "averageRating": "4.0",
       "bookPublished": "2024",
-      "description": "<a href=\"https://www.goodreads.com/book/show/199701467-the-beauty-of-falling?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Beauty of Falling: A Life in Pursuit of Gravity\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1697253941l/199701467._SY75_.jpg\" /></a><br/>\n                                      author: Claudia de Rham<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: 2024<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/04/02<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/199701467-the-beauty-of-falling?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Beauty of Falling: A Life in Pursuit of Gravity\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1697253941l/199701467._SY75_.jpg\" /></a><br/>\n                                      author: Claudia de Rham<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: 2024<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/04/02<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "232"
     },
     {
