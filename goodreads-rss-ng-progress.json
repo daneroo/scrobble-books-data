@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/6826579537?utm_medium=api&utm_source=rss",
+      "title": "The Genetic Book of the Dead: A Darwinian Reverie",
+      "link": "https://www.goodreads.com/review/show/6826579537?utm_medium=api&utm_source=rss",
+      "bookId": "123202357",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1713680038l/123202357._SY75_.jpg",
+      "bookDescription": "One of the world's great science writers and a book that reflects on the vast arc of evolutionary history and what it tells us about life on earth. How much do we really know about our past? For centuries, we have yearned to learn more about our ancestors and piece together the story of how we came to be. But language can only record so much. And fossils can be even harder to decipher. We are left groping in the dark, forced to speculate and reconstruct ways of life based on fragments of information. But what if there was a better way? In The Genetic Book of the Dead , Richard Dawkins explores the untapped potential of DNA to transform and transcend our understanding of evolution. In the future, a zoologist presented with a hitherto unknown animal will be able to read its body and its genes as detailed descriptions of the world its ancestors inhibited. This 'book of the dead' would uncover the remarkable ways in which animals have overcome obstacles, adapted to their environments and, again and again, developed remarkably similar ways of finding solutions to life's problems. From the bestselling author of The Selfish Gene comes a revolutionary, vividly illustrated book that unlocks the door to a past more vivid, nuanced and fascinating than anything we have ever seen.",
+      "authorName": "Richard Dawkins",
+      "isbn": "1804548065",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2024-09-07T11:11:24.000Z",
+      "userDateCreated": "2024-09-07T11:11:24.000Z",
+      "userShelves": "on-deck",
+      "userReview": "",
+      "averageRating": "4.0",
+      "bookPublished": "",
+      "description": "<a href=\"https://www.goodreads.com/book/show/123202357-the-genetic-book-of-the-dead?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Genetic Book of the Dead: A Darwinian Reverie\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1713680038l/123202357._SY75_.jpg\" /></a><br/>\n                                      author: Richard Dawkins<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/09/07<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "numPages": "352"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/6800354556?utm_medium=api&utm_source=rss",
       "title": "Assassin's Quest (Farseer Trilogy, #3)",
       "link": "https://www.goodreads.com/review/show/6800354556?utm_medium=api&utm_source=rss",
