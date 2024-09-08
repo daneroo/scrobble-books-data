@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/6800354556?utm_medium=api&utm_source=rss",
+      "title": "Assassin's Quest (Farseer Trilogy, #3)",
+      "link": "https://www.goodreads.com/review/show/6800354556?utm_medium=api&utm_source=rss",
+      "bookId": "33396914",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1481883253l/33396914._SY75_.jpg",
+      "bookDescription": "King Shrewd is dead at the hands of his son Regal. As is Fitz--or so his enemies and friends believe. But with the help of his allies and his beast magic, he emerges from the grave, deeply scarred in body and soul. The kingdom also teeters toward ruin: Regal has plundered and abandoned the capital, while the rightful heir, Prince Verity, is lost to his mad quest--perhaps to death. Only Verity's return--or the heir his princess carries--can save the Six Duchies.<br /><br />But Fitz will not wait. Driven by loss and bitter memories, he undertakes a quest: to kill Regal. The journey casts him into deep waters, as he discovers wild currents of magic within him--currents that will either drown him or make him something more than he was.",
+      "authorName": "Robin Hobb",
+      "isbn": "",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2024-09-08T07:35:53.000Z",
+      "userDateCreated": "2024-08-29T07:49:33.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "4.2",
+      "bookPublished": "1997",
+      "description": "<a href=\"https://www.goodreads.com/book/show/33396914-assassin-s-quest?utm_medium=api&amp;utm_source=rss\"><img alt=\"Assassin&#39;s Quest (Farseer Trilogy, #3)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1481883253l/33396914._SY75_.jpg\" /></a><br/>\n                                      author: Robin Hobb<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 1997<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/09/08<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "757"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/4325616157?utm_medium=api&utm_source=rss",
       "title": "The Plantagenets: The Warrior Kings and Queens Who Made England",
       "link": "https://www.goodreads.com/review/show/4325616157?utm_medium=api&utm_source=rss",
@@ -42,27 +63,6 @@
       "bookPublished": "",
       "description": "<a href=\"https://www.goodreads.com/book/show/123202357-the-genetic-book-of-the-dead?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Genetic Book of the Dead: A Darwinian Reverie\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1713680038l/123202357._SY75_.jpg\" /></a><br/>\n                                      author: Richard Dawkins<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/09/07<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
       "numPages": "352"
-    },
-    {
-      "id": "https://www.goodreads.com/review/show/6800354556?utm_medium=api&utm_source=rss",
-      "title": "Assassin's Quest (Farseer Trilogy, #3)",
-      "link": "https://www.goodreads.com/review/show/6800354556?utm_medium=api&utm_source=rss",
-      "bookId": "33396914",
-      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1481883253l/33396914._SY75_.jpg",
-      "bookDescription": "King Shrewd is dead at the hands of his son Regal. As is Fitz--or so his enemies and friends believe. But with the help of his allies and his beast magic, he emerges from the grave, deeply scarred in body and soul. The kingdom also teeters toward ruin: Regal has plundered and abandoned the capital, while the rightful heir, Prince Verity, is lost to his mad quest--perhaps to death. Only Verity's return--or the heir his princess carries--can save the Six Duchies.<br /><br />But Fitz will not wait. Driven by loss and bitter memories, he undertakes a quest: to kill Regal. The journey casts him into deep waters, as he discovers wild currents of magic within him--currents that will either drown him or make him something more than he was.",
-      "authorName": "Robin Hobb",
-      "isbn": "",
-      "userName": "Daniel",
-      "userRating": "0",
-      "userReadAt": "",
-      "userDateAdded": "2024-09-07T08:27:25.000Z",
-      "userDateCreated": "2024-08-29T07:49:33.000Z",
-      "userShelves": "currently-reading",
-      "userReview": "",
-      "averageRating": "4.2",
-      "bookPublished": "1997",
-      "description": "<a href=\"https://www.goodreads.com/book/show/33396914-assassin-s-quest?utm_medium=api&amp;utm_source=rss\"><img alt=\"Assassin&#39;s Quest (Farseer Trilogy, #3)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1481883253l/33396914._SY75_.jpg\" /></a><br/>\n                                      author: Robin Hobb<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 1997<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/09/07<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
-      "numPages": "757"
     },
     {
       "id": "https://www.goodreads.com/review/show/6826203016?utm_medium=api&utm_source=rss",
@@ -2222,9 +2222,9 @@
       "userDateCreated": "2024-04-16T16:59:33.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "3.5",
+      "averageRating": "3.6",
       "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/191116876-the-importance-of-being-educable?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Importance of Being Educable: A New Theory of Human Uniqueness\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1719646463l/191116876._SY75_.jpg\" /></a><br/>\n                                      author: Leslie Valiant<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.5<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/04/16<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/191116876-the-importance-of-being-educable?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Importance of Being Educable: A New Theory of Human Uniqueness\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1719646463l/191116876._SY75_.jpg\" /></a><br/>\n                                      author: Leslie Valiant<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.6<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/04/16<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "272"
     },
     {
