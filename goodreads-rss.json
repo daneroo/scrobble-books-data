@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/6826203016?utm_medium=api&utm_source=rss",
+      "title": "An Army at Dawn: The War in North Africa, 1942-1943 (World War II Liberation Trilogy, #1)",
+      "link": "https://www.goodreads.com/review/show/6826203016?utm_medium=api&utm_source=rss",
+      "bookId": "541920",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1440057096l/541920._SY75_.jpg",
+      "bookDescription": "<b>\n  <blockquote>WINNER OF THE PULITZER PRIZE AND <i>NEW YORK TIMES</i> BESTSELLER</blockquote>\n</b><b>\n  <blockquote>In the first volume of his monumental trilogy about the liberation of Europe in WW II, Pulitzer Prize winner Rick Atkinson tells the riveting story of the war in North Africa</blockquote>\n</b>The liberation of Europe and the destruction of the Third Reich is a story of courage and enduring triumph, of calamity and miscalculation. In this first volume of the Liberation Trilogy, Rick Atkinson shows why no modern reader can understand the ultimate victory of the Allied powers without a grasp of the great drama that unfolded in North Africa in 1942 and 1943. That first year of the Allied war was a pivotal point in American history, the moment when the United States began to act like a great power.<br /><br />Beginning with the daring amphibious invasion in November 1942, An Army at Dawn follows the American and British armies as they fight the French in Morocco and Algeria, and then take on the Germans and Italians in Tunisia. Battle by battle, an inexperienced and sometimes poorly led army gradually becomes a superb fighting force. Central to the tale are the extraordinary but fallible commanders who come to dominate the battlefield: Eisenhower, Patton, Bradley, Montgomery, and Rommel.<br /><br />Brilliantly researched, rich with new material and vivid insights, Atkinson's narrative provides the definitive history of the war in North Africa.",
+      "authorName": "Rick Atkinson",
+      "isbn": "0805062882",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2024-09-15T12:17:03.000Z",
+      "userDateCreated": "2024-09-07T05:15:51.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "4.3",
+      "bookPublished": "2002",
+      "description": "<a href=\"https://www.goodreads.com/book/show/541920.An_Army_at_Dawn?utm_medium=api&amp;utm_source=rss\"><img alt=\"An Army at Dawn: The War in North Africa, 1942-1943 (World War II Liberation Trilogy, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1440057096l/541920._SY75_.jpg\" /></a><br/>\n                                      author: Rick Atkinson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: 2002<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/09/15<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "681"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/4325616157?utm_medium=api&utm_source=rss",
       "title": "The Plantagenets: The Warrior Kings and Queens Who Made England",
       "link": "https://www.goodreads.com/review/show/4325616157?utm_medium=api&utm_source=rss",
@@ -63,27 +84,6 @@
       "bookPublished": "",
       "description": "<a href=\"https://www.goodreads.com/book/show/123202357-the-genetic-book-of-the-dead?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Genetic Book of the Dead: A Darwinian Reverie\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1713680038l/123202357._SY75_.jpg\" /></a><br/>\n                                      author: Richard Dawkins<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/09/07<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
       "numPages": "352"
-    },
-    {
-      "id": "https://www.goodreads.com/review/show/6826203016?utm_medium=api&utm_source=rss",
-      "title": "An Army at Dawn: The War in North Africa, 1942-1943 (World War II Liberation Trilogy, #1)",
-      "link": "https://www.goodreads.com/review/show/6826203016?utm_medium=api&utm_source=rss",
-      "bookId": "541920",
-      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1440057096l/541920._SY75_.jpg",
-      "bookDescription": "<b>\n  <blockquote>WINNER OF THE PULITZER PRIZE AND <i>NEW YORK TIMES</i> BESTSELLER</blockquote>\n</b><b>\n  <blockquote>In the first volume of his monumental trilogy about the liberation of Europe in WW II, Pulitzer Prize winner Rick Atkinson tells the riveting story of the war in North Africa</blockquote>\n</b>The liberation of Europe and the destruction of the Third Reich is a story of courage and enduring triumph, of calamity and miscalculation. In this first volume of the Liberation Trilogy, Rick Atkinson shows why no modern reader can understand the ultimate victory of the Allied powers without a grasp of the great drama that unfolded in North Africa in 1942 and 1943. That first year of the Allied war was a pivotal point in American history, the moment when the United States began to act like a great power.<br /><br />Beginning with the daring amphibious invasion in November 1942, An Army at Dawn follows the American and British armies as they fight the French in Morocco and Algeria, and then take on the Germans and Italians in Tunisia. Battle by battle, an inexperienced and sometimes poorly led army gradually becomes a superb fighting force. Central to the tale are the extraordinary but fallible commanders who come to dominate the battlefield: Eisenhower, Patton, Bradley, Montgomery, and Rommel.<br /><br />Brilliantly researched, rich with new material and vivid insights, Atkinson's narrative provides the definitive history of the war in North Africa.",
-      "authorName": "Rick Atkinson",
-      "isbn": "0805062882",
-      "userName": "Daniel",
-      "userRating": "0",
-      "userReadAt": "",
-      "userDateAdded": "2024-09-07T05:15:51.000Z",
-      "userDateCreated": "2024-09-07T05:15:51.000Z",
-      "userShelves": "on-deck",
-      "userReview": "",
-      "averageRating": "4.3",
-      "bookPublished": "2002",
-      "description": "<a href=\"https://www.goodreads.com/book/show/541920.An_Army_at_Dawn?utm_medium=api&amp;utm_source=rss\"><img alt=\"An Army at Dawn: The War in North Africa, 1942-1943 (World War II Liberation Trilogy, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1440057096l/541920._SY75_.jpg\" /></a><br/>\n                                      author: Rick Atkinson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: 2002<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/09/06<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
-      "numPages": "681"
     },
     {
       "id": "https://www.goodreads.com/review/show/6826200797?utm_medium=api&utm_source=rss",
@@ -5442,7 +5442,7 @@
     },
     {
       "id": "https://www.goodreads.com/review/show/5737597986?utm_medium=api&utm_source=rss",
-      "title": "Code That Fits in Your Head: Heuristics for Software Engineering (Robert C. Martin Series)",
+      "title": "Code That Fits in Your Head: Heuristics for Software Engineering",
       "link": "https://www.goodreads.com/review/show/5737597986?utm_medium=api&utm_source=rss",
       "bookId": "59535925",
       "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1636006120l/59535925._SX50_.jpg",
@@ -5458,7 +5458,7 @@
       "userReview": "",
       "averageRating": "4.3",
       "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/59535925-code-that-fits-in-your-head?utm_medium=api&amp;utm_source=rss\"><img alt=\"Code That Fits in Your Head: Heuristics for Software Engineering (Robert C. Martin Series)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1636006120l/59535925._SX50_.jpg\" /></a><br/>\n                                      author: Mark Seemann<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/08/02<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/59535925-code-that-fits-in-your-head?utm_medium=api&amp;utm_source=rss\"><img alt=\"Code That Fits in Your Head: Heuristics for Software Engineering\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1636006120l/59535925._SX50_.jpg\" /></a><br/>\n                                      author: Mark Seemann<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/08/02<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
       "numPages": "416"
     },
     {
@@ -10125,12 +10125,12 @@
     },
     {
       "id": "https://www.goodreads.com/review/show/4868606568?utm_medium=api&utm_source=rss",
-      "title": "Mathematics and Computation",
+      "title": "Mathematics and Computation:  A Theory Revolutionizing Technology and Science",
       "link": "https://www.goodreads.com/review/show/4868606568?utm_medium=api&utm_source=rss",
       "bookId": "36615970",
       "bookImageURL": "https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png",
-      "bookDescription": "Avi Wigderson is one of the most prolific and creative theoretical computer scientists (in fact, he is one of the most prolific and creative scientists, period). Over the last several years, Avi had worked hard into distilling his vast knowledge of theoretical computer science and neighboring fields into a book surveying TCS, and in particular computational complexity, and its connections with mathematics and other areas.<br /><br />The book contains a high level overview of TCS, starting with the basics of complexity theory, and moving to areas such as circuit complexity, proof complexity, distributed computing, online algorithms, learning, and many more. Along the way there are interludes about the connections of TCS to many mathematical areas.<br /><br />The book is highly recommended for anyone, but in particular for undergraduate and beginning graduate students that are interested in complexity and related areas.<br /><br />Every TCS researcher should read Chapter 20 (“epilogue”) of the book. That chapter can be read on its own, and gives a bird-eye’s view of TCS and many of its past achievements, interactions with other sciences, and future directions. As anyone who knows Avi can attest, no one quite has as much a deep understanding of so many topics, and getting Avi’s point of view on any issue is always a treat. For example, the section on the firewall paradox for black holes gives an accessible taste of a fascinating (and highly technical) area where computational complexity intersects with some of the most basic questions in theoretical physics.<br /><br />Draft Link - <a target=\"_blank\" rel=\"noopener nofollow\" href=\"https://www.math.ias.edu/avi/book\">https://www.math.ias.edu/avi/book</a>",
-      "authorName": "Avi Widgerson",
+      "bookDescription": "Avi Wigderson is one of the most prolific and creative theoretical computer scientists (in fact, he is one of the most prolific and creative scientists, period). Over the last several years, Avi had worked hard into distilling his vast knowledge of theoretical computer science and neighboring fields into a book surveying TCS, and in particular computational complexity, and its connections with mathematics and other areas.<br /><br />The book contains a high level overview of TCS, starting with the basics of complexity theory, and moving to areas such as circuit complexity, proof complexity, distributed computing, online algorithms, learning, and many more. Along the way there are interludes about the connections of TCS to many mathematical areas.<br /><br />The book is highly recommended for anyone, but in particular for undergraduate and beginning graduate students that are interested in complexity and related areas.<br /><br />Every TCS researcher should read Chapter 20 (“epilogue”) of the book. That chapter can be read on its own, and gives a bird-eye’s view of TCS and many of its past achievements, interactions with other sciences, and future directions. As anyone who knows Avi can attest, no one quite has as much a deep understanding of so many topics, and getting Avi’s point of view on any issue is always a treat. For example, the section on the firewall paradox for black holes gives an accessible taste of a fascinating (and highly technical) area where computational complexity intersects with some of the most basic questions in theoretical physics.",
+      "authorName": "Avi Wigderson",
       "isbn": "",
       "userName": "Daniel",
       "userRating": "0",
@@ -10141,7 +10141,7 @@
       "userReview": "",
       "averageRating": "4.0",
       "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/36615970-mathematics-and-computation?utm_medium=api&amp;utm_source=rss\"><img alt=\"Mathematics and Computation\" src=\"https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png\" /></a><br/>\n                                      author: Avi Widgerson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/07/23<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/36615970-mathematics-and-computation?utm_medium=api&amp;utm_source=rss\"><img alt=\"Mathematics and Computation:  A Theory Revolutionizing Technology and Science\" src=\"https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png\" /></a><br/>\n                                      author: Avi Wigderson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/07/23<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
       "numPages": "368"
     },
     {
