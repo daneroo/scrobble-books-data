@@ -2,6 +2,48 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/6853237649?utm_medium=api&utm_source=rss",
+      "title": "Lord of Light",
+      "link": "https://www.goodreads.com/review/show/6853237649?utm_medium=api&utm_source=rss",
+      "bookId": "13821",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1330127327l/13821._SY75_.jpg",
+      "bookDescription": "Earth is long since dead. On a colony planet, a band of men has gained control of technology, made themselves immortal, and now rule their world as the gods of the Hindu pantheon. Only one dares oppose them: he who was once Siddhartha and is now Mahasamatman. Binder of Demons, Lord of Light.",
+      "authorName": "Roger Zelazny",
+      "isbn": "0060567236",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2024-09-17T04:56:56.000Z",
+      "userDateCreated": "2024-09-17T04:56:56.000Z",
+      "userShelves": "to-read",
+      "userReview": "",
+      "averageRating": "4.1",
+      "bookPublished": "1967",
+      "description": "<a href=\"https://www.goodreads.com/book/show/13821.Lord_of_Light?utm_medium=api&amp;utm_source=rss\"><img alt=\"Lord of Light\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1330127327l/13821._SY75_.jpg\" /></a><br/>\n                                      author: Roger Zelazny<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: 1967<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/09/16<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "numPages": "296"
+    },
+    {
+      "id": "https://www.goodreads.com/review/show/6853237632?utm_medium=api&utm_source=rss",
+      "title": "Nine Princes in Amber (The Chronicles of Amber, #1)",
+      "link": "https://www.goodreads.com/review/show/6853237632?utm_medium=api&utm_source=rss",
+      "bookId": "92121",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1416090973l/92121._SY75_.jpg",
+      "bookDescription": "Exiled to the Shadows for centuries, a man more than mortal awakens in an Earth hospital with no memory of his past—and is surrounded by enemies who hunger for his destruction. For Corwin is of the blood—the rightful successor to the throne of the real world. But to rule, he must conquer impossible realities and demonic assassins... and survive the ruthless machinations of the most insidious malevolence imaginable: his own family.",
+      "authorName": "Roger Zelazny",
+      "isbn": "0380014300",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2024-09-17T04:56:56.000Z",
+      "userDateCreated": "2024-09-17T04:56:56.000Z",
+      "userShelves": "to-read",
+      "userReview": "",
+      "averageRating": "4.1",
+      "bookPublished": "1970",
+      "description": "<a href=\"https://www.goodreads.com/book/show/92121.Nine_Princes_in_Amber?utm_medium=api&amp;utm_source=rss\"><img alt=\"Nine Princes in Amber (The Chronicles of Amber, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1416090973l/92121._SY75_.jpg\" /></a><br/>\n                                      author: Roger Zelazny<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: 1970<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/09/16<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "numPages": "175"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/6826200797?utm_medium=api&utm_source=rss",
       "title": "Among Others",
       "link": "https://www.goodreads.com/review/show/6826200797?utm_medium=api&utm_source=rss",
@@ -185,9 +227,9 @@
       "userDateCreated": "2024-09-01T09:06:43.000Z",
       "userShelves": "on-deck",
       "userReview": "",
-      "averageRating": "4.4",
+      "averageRating": "4.3",
       "bookPublished": "2024",
-      "description": "<a href=\"https://www.goodreads.com/book/show/201608148-the-golden-road?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Golden Road: How Ancient India Transformed the World\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1715854421l/201608148._SY75_.jpg\" /></a><br/>\n                                      author: William Dalrymple<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.4<br/>\n                                      book published: 2024<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/09/01<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/201608148-the-golden-road?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Golden Road: How Ancient India Transformed the World\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1715854421l/201608148._SY75_.jpg\" /></a><br/>\n                                      author: William Dalrymple<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: 2024<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/09/01<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
       "numPages": "496"
     },
     {
@@ -1445,9 +1487,9 @@
       "userDateCreated": "2024-04-10T12:38:09.000Z",
       "userShelves": "on-deck",
       "userReview": "",
-      "averageRating": "4.4",
+      "averageRating": "4.5",
       "bookPublished": "2025",
-      "description": "<a href=\"https://www.goodreads.com/book/show/212276037-the-devils?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Devils\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1716490016l/212276037._SY75_.jpg\" /></a><br/>\n                                      author: Joe Abercrombie<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.4<br/>\n                                      book published: 2025<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/06/14<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/212276037-the-devils?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Devils\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1716490016l/212276037._SY75_.jpg\" /></a><br/>\n                                      author: Joe Abercrombie<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.5<br/>\n                                      book published: 2025<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/06/14<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
       "numPages": "560"
     },
     {
@@ -8588,7 +8630,7 @@
       "averageRating": "4.2",
       "bookPublished": "2014",
       "description": "<a href=\"https://www.goodreads.com/book/show/23397921-sixth-of-the-dusk?utm_medium=api&amp;utm_source=rss\"><img alt=\"Sixth of the Dusk (The Cosmere)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1659764697l/23397921._SY75_.jpg\" /></a><br/>\n                                      author: Brandon Sanderson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 2014<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/10/23<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
-      "numPages": "59"
+      "numPages": "66"
     },
     {
       "id": "https://www.goodreads.com/review/show/5062798966?utm_medium=api&utm_source=rss",
