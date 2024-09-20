@@ -13,13 +13,13 @@
       "userName": "Daniel",
       "userRating": "5",
       "userReadAt": "2023-01-15T00:00:00.000Z",
-      "userDateAdded": "2024-09-18T05:15:00.000Z",
+      "userDateAdded": "2024-09-19T06:45:52.000Z",
       "userDateCreated": "2021-07-10T04:02:39.000Z",
       "userShelves": "currently-reading",
       "userReview": "",
       "averageRating": "4.2",
       "bookPublished": "2010",
-      "description": "<a href=\"https://www.goodreads.com/book/show/7937744-surface-detail?utm_medium=api&amp;utm_source=rss\"><img alt=\"Surface Detail (Culture, #9)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1287893375l/7937744._SY75_.jpg\" /></a><br/>\n                                      author: Iain M. Banks<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 2010<br/>\n                                      rating: 5<br/>\n                                      read at: 2023/01/15<br/>\n                                      date added: 2024/09/17<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/7937744-surface-detail?utm_medium=api&amp;utm_source=rss\"><img alt=\"Surface Detail (Culture, #9)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1287893375l/7937744._SY75_.jpg\" /></a><br/>\n                                      author: Iain M. Banks<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 2010<br/>\n                                      rating: 5<br/>\n                                      read at: 2023/01/15<br/>\n                                      date added: 2024/09/18<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
       "numPages": "627"
     },
     {
@@ -4070,9 +4070,9 @@
       "userDateCreated": "2023-10-25T08:44:30.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "4.3",
+      "averageRating": "4.2",
       "bookPublished": "2023",
-      "description": "<a href=\"https://www.goodreads.com/book/show/63946909-the-rigor-of-angels?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Rigor of Angels: Borges, Heisenberg, Kant, and the Ultimate Nature of Reality\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1684816550l/63946909._SY75_.jpg\" /></a><br/>\n                                      author: William Egginton<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: 2023<br/>\n                                      rating: 4<br/>\n                                      read at: 2023/12/27<br/>\n                                      date added: 2023/12/27<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/63946909-the-rigor-of-angels?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Rigor of Angels: Borges, Heisenberg, Kant, and the Ultimate Nature of Reality\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1684816550l/63946909._SY75_.jpg\" /></a><br/>\n                                      author: William Egginton<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 2023<br/>\n                                      rating: 4<br/>\n                                      read at: 2023/12/27<br/>\n                                      date added: 2023/12/27<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "368"
     },
     {
@@ -5589,7 +5589,7 @@
     },
     {
       "id": "https://www.goodreads.com/review/show/5737597986?utm_medium=api&utm_source=rss",
-      "title": "Code That Fits in Your Head: Heuristics for Software Engineering",
+      "title": "Code That Fits in Your Head: Heuristics for Software Engineering (Robert C. Martin Series)",
       "link": "https://www.goodreads.com/review/show/5737597986?utm_medium=api&utm_source=rss",
       "bookId": "59535925",
       "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1636006120l/59535925._SX50_.jpg",
@@ -5605,7 +5605,7 @@
       "userReview": "",
       "averageRating": "4.3",
       "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/59535925-code-that-fits-in-your-head?utm_medium=api&amp;utm_source=rss\"><img alt=\"Code That Fits in Your Head: Heuristics for Software Engineering\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1636006120l/59535925._SX50_.jpg\" /></a><br/>\n                                      author: Mark Seemann<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/08/02<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/59535925-code-that-fits-in-your-head?utm_medium=api&amp;utm_source=rss\"><img alt=\"Code That Fits in Your Head: Heuristics for Software Engineering (Robert C. Martin Series)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1636006120l/59535925._SX50_.jpg\" /></a><br/>\n                                      author: Mark Seemann<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/08/02<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
       "numPages": "416"
     },
     {
@@ -7031,9 +7031,9 @@
       "userDateCreated": "2023-02-21T14:07:24.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "4.2",
+      "averageRating": "4.1",
       "bookPublished": "2023",
-      "description": "<a href=\"https://www.goodreads.com/book/show/64408457-the-service-organization?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Service Organization: How to Deliver and Lead Successful Services, Sustainably\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1672647704l/64408457._SY75_.jpg\" /></a><br/>\n                                      author: Kate Tarling<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 2023<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/02/21<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/64408457-the-service-organization?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Service Organization: How to Deliver and Lead Successful Services, Sustainably\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1672647704l/64408457._SY75_.jpg\" /></a><br/>\n                                      author: Kate Tarling<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: 2023<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/02/21<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "0"
     },
     {
@@ -9153,8 +9153,8 @@
       "userShelves": "to-read",
       "userReview": "",
       "averageRating": "4.0",
-      "bookPublished": "1915",
-      "description": "<a href=\"https://www.goodreads.com/book/show/736131.The_Valley_of_Fear?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Valley of Fear (Sherlock Holmes, #7)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1390250081l/736131._SX50_.jpg\" /></a><br/>\n                                      author: Arthur Conan Doyle<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: 1915<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/09/27<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "bookPublished": "1914",
+      "description": "<a href=\"https://www.goodreads.com/book/show/736131.The_Valley_of_Fear?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Valley of Fear (Sherlock Holmes, #7)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1390250081l/736131._SX50_.jpg\" /></a><br/>\n                                      author: Arthur Conan Doyle<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: 1914<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/09/27<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "7"
     },
     {
@@ -9509,9 +9509,9 @@
       "userDateCreated": "2022-09-12T08:00:44.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "4.0",
+      "averageRating": "4.1",
       "bookPublished": "2021",
-      "description": "<a href=\"https://www.goodreads.com/book/show/56155133-the-man-from-the-future?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Man from the Future\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1632417945l/56155133._SY75_.jpg\" /></a><br/>\n                                      author: Ananyo Bhattacharya<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: 2021<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/09/12<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/56155133-the-man-from-the-future?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Man from the Future\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1632417945l/56155133._SY75_.jpg\" /></a><br/>\n                                      author: Ananyo Bhattacharya<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: 2021<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/09/12<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "354"
     },
     {
