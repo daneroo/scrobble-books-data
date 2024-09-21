@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/6862926688?utm_medium=api&utm_source=rss",
+      "title": "Machine Learning in Elixir: Learning to Learn with Nx and Axon",
+      "link": "https://www.goodreads.com/review/show/6862926688?utm_medium=api&utm_source=rss",
+      "bookId": "211808759",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1718969720l/211808759._SX50_.jpg",
+      "bookDescription": "",
+      "authorName": "Sean Moriarity",
+      "isbn": "",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2024-09-20T21:38:24.000Z",
+      "userDateCreated": "2024-09-20T21:38:24.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "0.0",
+      "bookPublished": "",
+      "description": "<a href=\"https://www.goodreads.com/book/show/211808759-machine-learning-in-elixir?utm_medium=api&amp;utm_source=rss\"><img alt=\"Machine Learning in Elixir: Learning to Learn with Nx and Axon\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1718969720l/211808759._SX50_.jpg\" /></a><br/>\n                                      author: Sean Moriarity<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/09/20<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "374"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/4105420607?utm_medium=api&utm_source=rss",
       "title": "Surface Detail (Culture, #9)",
       "link": "https://www.goodreads.com/review/show/4105420607?utm_medium=api&utm_source=rss",
@@ -13968,7 +13989,7 @@
     },
     {
       "id": "https://www.goodreads.com/review/show/4247323616?utm_medium=api&utm_source=rss",
-      "title": "1066 and Before All That: The Battle of Hastings, Anglo-Saxon and Norman England",
+      "title": "1066 and Before All That: The Battle of Hastings, Anglo-Saxon and Norman England (Very, Very Short History of England)",
       "link": "https://www.goodreads.com/review/show/4247323616?utm_medium=api&utm_source=rss",
       "bookId": "42794188",
       "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1542981945l/42794188._SX50_.jpg",
@@ -13984,8 +14005,8 @@
       "userReview": "",
       "averageRating": "3.9",
       "bookPublished": "2017",
-      "description": "<a href=\"https://www.goodreads.com/book/show/42794188-1066-and-before-all-that?utm_medium=api&amp;utm_source=rss\"><img alt=\"1066 and Before All That: The Battle of Hastings, Anglo-Saxon and Norman England\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1542981945l/42794188._SX50_.jpg\" /></a><br/>\n                                      author: Ed West<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: 2017<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/09/19<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
-      "numPages": "184"
+      "description": "<a href=\"https://www.goodreads.com/book/show/42794188-1066-and-before-all-that?utm_medium=api&amp;utm_source=rss\"><img alt=\"1066 and Before All That: The Battle of Hastings, Anglo-Saxon and Norman England (Very, Very Short History of England)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1542981945l/42794188._SX50_.jpg\" /></a><br/>\n                                      author: Ed West<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: 2017<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/09/19<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "numPages": "183"
     },
     {
       "id": "https://www.goodreads.com/review/show/4229340519?utm_medium=api&utm_source=rss",
