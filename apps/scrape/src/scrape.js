@@ -153,7 +153,7 @@ function cleanItem(item) {
 
 function prettyFeed({ title, items }) {
   const count = items.length;
-  console.log(`${title} count:${count}`);
+  console.log(`feed: ${title} count:${count}`);
   if (!items.length) {
     console.log("No items");
   }
@@ -165,4 +165,5 @@ function prettyFeed({ title, items }) {
       }`
     );
   }
+  console.log(`feed: ${title} count:${count}`);
 }
