@@ -4,7 +4,7 @@ export async function fetcherXML(URI: string, qs = {}) {
   const url = `${URI}?${qss}`;
   console.log(`-- fetching: ${url}`);
 
-  const maxRetries = 10;
+  const maxRetries = 15;
   // backoff and rate limiting: sleep 1000ms+ attempt*1000ms
   for (let attempt = 0; attempt < maxRetries; attempt++) {
     // linear backoff for sleep
