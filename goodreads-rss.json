@@ -6300,7 +6300,6 @@
       "bookPublished": "2001",
       "description": "<a href=\"https://www.goodreads.com/book/show/746817.Introduction_to_Cryptography_with_Coding_Theory?utm_medium=api&amp;utm_source=rss\"><img alt=\"Introduction to Cryptography with Coding Theory\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347722318l/746817._SX50_.jpg\" /></a><br/>\n                                      author: Wade Trappe<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.7<br/>\n                                      book published: 2001<br/>\n                                      rating: 4<br/>\n                                      read at: 2022/12/14<br/>\n                                      date added: 2023/05/01<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "600"
-<<<<<<< HEAD
     },
     {
       "id": "https://www.goodreads.com/review/show/5522013054?utm_medium=api&utm_source=rss",
@@ -22324,8 +22323,6 @@
       "bookPublished": "2011",
       "description": "<a href=\"https://www.goodreads.com/book/show/12150875-a-strange-wilderness?utm_medium=api&amp;utm_source=rss\"><img alt=\"A Strange Wilderness: The Lives of the Great Mathematicians\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328767521l/12150875._SX50_.jpg\" /></a><br/>\n                                      author: Amir D. Aczel<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.6<br/>\n                                      book published: 2011<br/>\n                                      rating: 4<br/>\n                                      read at: <br/>\n                                      date added: 2011/11/10<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "284"
-=======
->>>>>>> dca6daf9104266cd96437d6423b70603f5112f3c
     }
   ]
 }
