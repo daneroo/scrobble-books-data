@@ -356,7 +356,7 @@
       "averageRating": "4.3",
       "bookPublished": "2024",
       "description": "<a href=\"https://www.goodreads.com/book/show/201608148-the-golden-road?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Golden Road: How Ancient India Transformed the World\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1715854421l/201608148._SY75_.jpg\" /></a><br/>\n                                      author: William Dalrymple<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: 2024<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/09/01<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
-      "numPages": "496"
+      "numPages": "432"
     },
     {
       "id": "https://www.goodreads.com/review/show/6771898913?utm_medium=api&utm_source=rss",
@@ -9929,9 +9929,9 @@
       "userDateCreated": "2022-08-15T08:34:45.000Z",
       "userShelves": "on-deck",
       "userReview": "",
-      "averageRating": "4.1",
+      "averageRating": "4.0",
       "bookPublished": "2022",
-      "description": "<a href=\"https://www.goodreads.com/book/show/58863528-all-the-seas-of-the-world?utm_medium=api&amp;utm_source=rss\"><img alt=\"All the Seas of the World\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1646026102l/58863528._SY75_.jpg\" /></a><br/>\n                                      author: Guy Gavriel Kay<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: 2022<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/08/15<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/58863528-all-the-seas-of-the-world?utm_medium=api&amp;utm_source=rss\"><img alt=\"All the Seas of the World\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1646026102l/58863528._SY75_.jpg\" /></a><br/>\n                                      author: Guy Gavriel Kay<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: 2022<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/08/15<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
       "numPages": "528"
     },
     {
@@ -10299,7 +10299,7 @@
       "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1650084874l/60820532._SY75_.jpg",
       "bookDescription": "First comes love. Then comes marriage…<br /><br />Vlad Taltos is in love. With a former assassin who may just be better than he is at the Game. Women like this don’t come along every day and no way is he passing up a sure bet.<br /><br />So a wedding is being planned. Along with a shady deal gone wrong and a dead man who owes Vlad money. Setting up the first and trying to deal with the second is bad enough. And then bigger powers decide that Vlad is the perfect patsy to shake the power structure of the kingdom.<br /><br />More's the pity that his soul is sent walkabout to do it.<br /><br />How might Vlad get his soul back and have any shot at a happy ending? Well, there’s the tale…",
       "authorName": "Steven Brust",
-      "isbn": "",
+      "isbn": "1466889705",
       "userName": "Daniel",
       "userRating": "0",
       "userReadAt": "",
@@ -10611,8 +10611,8 @@
       "title": "Serious Cryptography: A Practical Introduction to Modern Encryption",
       "link": "https://www.goodreads.com/review/show/4766739747?utm_medium=api&utm_source=rss",
       "bookId": "36265193",
-      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1505784778l/36265193._SX50_.jpg",
-      "bookDescription": "This practical guide to modern encryption breaks down the fundamental mathematical concepts at the heart of cryptography without shying away from meaty discussions of how they work. You’ll learn about authenticated encryption, secure randomness, hash functions, block ciphers, and public-key techniques such as RSA and elliptic curve cryptography.You’ll also - Key concepts in cryptography, such as computational security, attacker models, and forward secrecy - The strengths and limitations of the TLS protocol behind HTTPS secure websites - Quantum computation and post-quantum cryptography - About various vulnerabilities by examining numerous code examples and use cases - How to choose the best algorithm or protocol and ask vendors the right questionsEach chapter includes a discussion of common implementation mistakes using real-world examples and details what could go wrong and how to avoid these pitfalls. Whether you’re a seasoned practitioner or a beginner looking to dive into the field, Serious Cryptography will provide a complete survey of modern encryption and its applications.",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1515592021l/36265193._SX50_.jpg",
+      "bookDescription": "This practical guide to modern encryption breaks down the fundamental mathematical concepts at the heart of cryptography without shying away from meaty discussions of how they work. You’ll learn about authenticated encryption, secure randomness, hash functions, block ciphers, and public-key techniques such as RSA and elliptic curve cryptography.<br /><br />You’ll also <br />- Key concepts in cryptography, such as computational security, attacker models, and forward secrecy<br />- The strengths and limitations of the TLS protocol behind HTTPS secure websites<br />- Quantum computation and post-quantum cryptography<br />- About various vulnerabilities by examining numerous code examples and use cases<br />- How to choose the best algorithm or protocol and ask vendors the right questions<br /><br />Each chapter includes a discussion of common implementation mistakes using real-world examples and details what could go wrong and how to avoid these pitfalls.<br /><br />Whether you’re a seasoned practitioner or a beginner looking to dive into the field, <em>Serious Cryptography</em> will provide a complete survey of modern encryption and its applications.",
       "authorName": "Jean-Philippe Aumasson",
       "isbn": "1593278829",
       "userName": "Daniel",
@@ -10622,9 +10622,9 @@
       "userDateCreated": "2022-06-06T05:56:20.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "4.3",
+      "averageRating": "4.2",
       "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/36265193-serious-cryptography?utm_medium=api&amp;utm_source=rss\"><img alt=\"Serious Cryptography: A Practical Introduction to Modern Encryption\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1505784778l/36265193._SX50_.jpg\" /></a><br/>\n                                      author: Jean-Philippe Aumasson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: <br/>\n                                      rating: 5<br/>\n                                      read at: 2022/07/01<br/>\n                                      date added: 2022/07/01<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/36265193-serious-cryptography?utm_medium=api&amp;utm_source=rss\"><img alt=\"Serious Cryptography: A Practical Introduction to Modern Encryption\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1515592021l/36265193._SX50_.jpg\" /></a><br/>\n                                      author: Jean-Philippe Aumasson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: <br/>\n                                      rating: 5<br/>\n                                      read at: 2022/07/01<br/>\n                                      date added: 2022/07/01<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "312"
     },
     {
@@ -20376,10 +20376,10 @@
       "title": "On Anarchism",
       "link": "https://www.goodreads.com/review/show/938148937?utm_medium=api&utm_source=rss",
       "bookId": "19248894",
-      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386380233l/19248894._SX50_.jpg",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1396886785l/19248894._SX50_.jpg",
       "bookDescription": "We all know what Noam Chomsky is against. His scathing analysis of everything that’s wrong with our society reaches more and more people every day. His brilliant critiques of — among other things — capitalism, imperialism, domestic repression and government propaganda have become mini-publishing industries unto themselves. But, in this flood of publishing and republishing, very little ever gets said about what exactly Chomsky stands for, his own personal politics, his vision of the future.<br /><br />Not, that is, until <i>Chomsky on Anarchism</i>, a groundbreaking new book that shows a different side of this best-selling author: the anarchist principles that have guided him since he was a teenager. This collection of Chomsky’s essays and inter-views includes numerous pieces that have never been published before, as well as rare material that first saw the light of day in hard-to-find pamphlets and anarchist periodicals. Taken together, they paint a fresh picture of Chomsky, showing his lifelong involvement with the anarchist community, his constant commitment to nonhierarchical models of political organization and his hopes for a future world without rulers.<br /><br />For anyone who’s been touched by Chomsky’s trenchant analysis of our current situation, as well as anyone looking for an intelligent and coherent discussion of anarchism itself, look no further than <i>Chomsky on Anarchism</i>.<br /><br /><b>Noam Chomsky</b> is one of the world’s leading intellectuals, the father of modern linguistics, an outspoken media and foreign policy critic and tireless activist. He lives in Boston, Massachusetts.",
       "authorName": "Noam Chomsky",
-      "isbn": "",
+      "isbn": "1595589511",
       "userName": "Daniel",
       "userRating": "0",
       "userReadAt": "",
@@ -20387,10 +20387,10 @@
       "userDateCreated": "2014-05-15T16:54:10.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "4.0",
+      "averageRating": "3.9",
       "bookPublished": "2005",
-      "description": "<a href=\"https://www.goodreads.com/book/show/19248894-on-anarchism?utm_medium=api&amp;utm_source=rss\"><img alt=\"On Anarchism\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386380233l/19248894._SX50_.jpg\" /></a><br/>\n                                      author: Noam Chomsky<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: 2005<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2015/02/14<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
-      "numPages": "191"
+      "description": "<a href=\"https://www.goodreads.com/book/show/19248894-on-anarchism?utm_medium=api&amp;utm_source=rss\"><img alt=\"On Anarchism\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1396886785l/19248894._SX50_.jpg\" /></a><br/>\n                                      author: Noam Chomsky<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: 2005<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2015/02/14<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "numPages": "128"
     },
     {
       "id": "https://www.goodreads.com/review/show/1167247818?utm_medium=api&utm_source=rss",
