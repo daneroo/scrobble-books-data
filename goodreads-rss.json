@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/6878411575?utm_medium=api&utm_source=rss",
+      "title": "Ship of Magic (Liveship Traders, #1)",
+      "link": "https://www.goodreads.com/review/show/6878411575?utm_medium=api&utm_source=rss",
+      "bookId": "45100",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1360507722l/45100._SY75_.jpg",
+      "bookDescription": "Bingtown is a hub of exotic trade and home to a merchant nobility famed for its liveships--rare vessels carved from wizardwood, which ripens magically into sentient awareness. The fortunes of one of Bingtown's oldest families rest on the newly awakened liveship Vivacia.<br /><br />For Althea Vestrit, the ship is her rightful legacy unjustly denied her--a legacy she will risk anything to reclaim. For Althea's young nephew Wintrow, wrenched from his religious studies and forced to serve aboard ship, Vivacia is a life sentence.<br /><br />But the fate of the Vestrit family--and the ship--may ultimately lie in the hands of an outsider. The ruthless pirate Kennit seeks a way to seize power over all the denizens of the Pirate Isles...and the first step of his plan requires him to capture his own liveship and bend it to his will....<br /><br /><br />From the Paperback edition.",
+      "authorName": "Robin Hobb",
+      "isbn": "000649885X",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2024-09-26T07:38:19.000Z",
+      "userDateCreated": "2024-09-26T06:49:20.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "4.2",
+      "bookPublished": "1998",
+      "description": "<a href=\"https://www.goodreads.com/book/show/45100.Ship_of_Magic?utm_medium=api&amp;utm_source=rss\"><img alt=\"Ship of Magic (Liveship Traders, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1360507722l/45100._SY75_.jpg\" /></a><br/>\n                                      author: Robin Hobb<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 1998<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/09/26<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "880"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/4659284133?utm_medium=api&utm_source=rss",
       "title": "The Exponential Age: How Accelerating Technology is Transforming Business, Politics and Society",
       "link": "https://www.goodreads.com/review/show/4659284133?utm_medium=api&utm_source=rss",
@@ -290,9 +311,9 @@
       "userDateCreated": "2024-09-07T11:11:24.000Z",
       "userShelves": "on-deck",
       "userReview": "",
-      "averageRating": "4.2",
+      "averageRating": "4.0",
       "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/123202357-the-genetic-book-of-the-dead?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Genetic Book of the Dead: A Darwinian Reverie\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1713680038l/123202357._SY75_.jpg\" /></a><br/>\n                                      author: Richard Dawkins<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/09/07<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/123202357-the-genetic-book-of-the-dead?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Genetic Book of the Dead: A Darwinian Reverie\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1713680038l/123202357._SY75_.jpg\" /></a><br/>\n                                      author: Richard Dawkins<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/09/07<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
       "numPages": "352"
     },
     {
