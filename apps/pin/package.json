@@ -6,14 +6,15 @@
   "main": "src/pin.js",
   "scripts": {
     "test": "node --test src/",
-    "deps:check": "ncu",
-    "deps:update": "ncu -i"
+    "deps:check": "npm-check-updates",
+    "deps:update": "npm-check-updates -u",
+    "deps:update:interactive": "npm-check-updates -i"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "web3.storage": "^4.5.4"
+    "web3.storage": "^4.5.5"
   },
   "devDependencies": {
     "npm-check-updates": "^17.1.3"
