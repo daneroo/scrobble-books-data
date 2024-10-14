@@ -22,7 +22,7 @@ jobs:
         with:
           # 1.x is working but docs say to use 1.0.x : I want minor updates too!
           bun-version: 1.x
-      - uses: denoland/setup-deno@v1
+      - uses: denoland/setup-deno@v2
         with:
           deno-version: v1.x
       - uses: cue-lang/setup-cue@v1.0.1
