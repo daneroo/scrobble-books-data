@@ -1,7 +1,6 @@
 # scrobble-books-data
 
 [![CI - lint and unit tests](https://github.com/daneroo/scrobble-books-data/actions/workflows/unit.yml/badge.svg?branch=main)](https://github.com/daneroo/scrobble-books-data/actions/workflows/unit.yml)
-[![vr scripts](https://badges.velociraptor.run/flat.svg)](https://velociraptor.run)
 
 Tracking reading data
 
@@ -12,6 +11,15 @@ You can look at the formatted data as tables here:
 - <https://flatgithub.com/daneroo/scrobble-books-data?filename=goodreads-rss.json&tab=items>
 - <https://flatgithub.com/daneroo/scrobble-books-data?filename=goodreads-rss-ng.json&tab=items>
 - <https://flatgithub.com/daneroo/scrobble-books-data?filename=goodreads-rss-ng-progress.json&tab=items>
+
+## TODO
+
+This is a great place to test migrating to deno workspaces
+
+- [ ] remove bun
+- [ ] replace  `pnpm -r ...`
+  - [ ] remove pnpm if possible
+- [ ] replace/validate "deps:update" for deno
 
 ## Description
 
