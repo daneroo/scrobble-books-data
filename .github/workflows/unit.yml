@@ -13,21 +13,24 @@ jobs:
       - uses: actions/checkout@v4
       - uses: pnpm/action-setup@v4
         with:
-          version: 9
+          # version: Optional when there is a packageManager field in the package.json
+          # version: 9
           run_install: true
       - uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "lts/*"
       - uses: oven-sh/setup-bun@v2
         with:
           # 1.x is working but docs say to use 1.0.x : I want minor updates too!
-          bun-version: 1.x
+          # reverted to latest for now, which is the default
+          bun-version: latest
       - uses: denoland/setup-deno@v2
         with:
-          deno-version: v1.x
+          deno-version: v2.x
       - uses: cue-lang/setup-cue@v1.0.1
         with:
-          version: "v0.7.1" # default is latest
+          # reverting to latest, which is the default. Working as of "v0.10.0"
+          version: latest
         id: install
 
       - name: Report versions
