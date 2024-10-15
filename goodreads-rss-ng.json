@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/6927053515?utm_medium=api&utm_source=rss",
+      "title": "Nexus: A Brief History of Information Networks from the Stone Age to AI",
+      "link": "https://www.goodreads.com/review/show/6927053515?utm_medium=api&utm_source=rss",
+      "bookId": "204927599",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1709986452l/204927599._SY75_.jpg",
+      "bookDescription": "For the last 100,000 years, we Sapiens have accumulated enormous power. But despite all our discoveries, inventions and conquests, we now find ourselves in an existential crisis. The world is on the verge of ecological collapse. Misinformation abounds. And we are rushing headlong into the age of AI – a new information network that threatens to annihilate us. If we are so wise, why are we so self-destructive?<br /><br />NEXUS considers how the flow of information has shaped us, and our world. Taking us from the Stone Age through the Bible, early modern witch-hunts, Stalinism, Nazism and the resurgence of populism today, Yuval Noah Harari asks us to consider the complex relationship between information and truth, bureaucracy and mythology, wisdom and power. He explores how different societies and political systems have wielded information to achieve their goals, for good and ill. And he addresses the urgent choices we face as non-human intelligence threatens our very existence.<br /><br />Information is not the raw material of truth; neither is it a mere weapon. NEXUS explores the hopeful middle ground between these extremes, and of rediscovering our shared humanity.",
+      "authorName": "Yuval Noah Harari",
+      "isbn": "059373422X",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2024-10-15T00:22:05.000Z",
+      "userDateCreated": "2024-10-15T00:22:05.000Z",
+      "userShelves": "to-read",
+      "userReview": "",
+      "averageRating": "4.1",
+      "bookPublished": "2024",
+      "description": "<a href=\"https://www.goodreads.com/book/show/204927599-nexus?utm_medium=api&amp;utm_source=rss\"><img alt=\"Nexus: A Brief History of Information Networks from the Stone Age to AI\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1709986452l/204927599._SY75_.jpg\" /></a><br/>\n                                      author: Yuval Noah Harari<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: 2024<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/10/14<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "numPages": "528"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/6895137037?utm_medium=api&utm_source=rss",
       "title": "Ship of Destiny (Liveship Traders, #3)",
       "link": "https://www.goodreads.com/review/show/6895137037?utm_medium=api&utm_source=rss",
@@ -1088,9 +1109,9 @@
       "userDateCreated": "2024-08-11T03:39:29.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "4.0",
+      "averageRating": "4.1",
       "bookPublished": "2024",
-      "description": "<a href=\"https://www.goodreads.com/book/show/199344846-knife?utm_medium=api&amp;utm_source=rss\"><img alt=\"Knife: Meditations After an Attempted Murder\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1697452251l/199344846._SY75_.jpg\" /></a><br/>\n                                      author: Salman Rushdie<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: 2024<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/08/10<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/199344846-knife?utm_medium=api&amp;utm_source=rss\"><img alt=\"Knife: Meditations After an Attempted Murder\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1697452251l/199344846._SY75_.jpg\" /></a><br/>\n                                      author: Salman Rushdie<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: 2024<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/08/10<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "209"
     },
     {
