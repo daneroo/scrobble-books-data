@@ -20,6 +20,15 @@ This is a great place to test migrating to deno workspaces
 - [ ] replace  `pnpm -r ...`
   - [ ] remove pnpm if possible
 - [ ] replace/validate "deps:update" for deno
+- _______________ Older _______________
+- [ ] scrape-ng progress (only for currently-reading)
+- [ ] Problem with act -j (scrape|unit)
+- [ ] Re-implement apps/pin to use w3.storage (new)
+  - <https://web3.storage/docs/w3up-client/>
+  - pnpm i @web3-storage/w3up-client
+- [ ] Use CBOR instead of files?
+- Clean up the data more
+  - Removed unused fields (description, etc)
 
 ## Description
 
@@ -64,17 +73,6 @@ pnpm act:unit
 pnpm act:scrape
 pnpm git:log
 ```
-
-## TODO
-
-- [ ] scrape-ng progress (only for currently-reading)
-- [ ] Problem with act -j (scrape|unit)
-- [ ] Re-implement apps/pin to use w3.storage (new)
-  - <https://web3.storage/docs/w3up-client/>
-  - pnpm i @web3-storage/w3up-client
-- [ ] Use CBOR instead of files?
-- Clean up the data more
-  - Removed unused fields (description, etc)
 
 ### Development
 
