@@ -20,6 +20,9 @@ importers:
 
   apps/scrape:
     dependencies:
+      '@mikaelporttila/rss':
+        specifier: npm:@jsr/mikaelporttila__rss@^1.1.1
+        version: '@jsr/mikaelporttila__rss@1.1.1'
       '@std/fs':
         specifier: npm:@jsr/std__fs@^1.0.4
         version: '@jsr/std__fs@1.0.4'
@@ -162,6 +165,12 @@ packages:
   '@isaacs/cliui@8.0.2':
     resolution: {integrity: sha512-O8jcjabXaleOG9DQ0+ARXWZBTfnP4WNAqzuiJK7ll44AmxGKv/J2M4TPjxjY3znBCfvBXFzucm1twdyFybFqEA==}
     engines: {node: '>=12'}
+
+  '@jsr/maxim-mazurok__sax-ts@1.2.13':
+    resolution: {integrity: sha512-axPU3osMW2+w5vu8gXXS+HvvCfId3rsi5Fw4aMNluQDQQ8EmvckFpUaXGvUQw/9a+DrQiW5atFszMXeNblundw==, tarball: https://npm.jsr.io/~/11/@jsr/maxim-mazurok__sax-ts/1.2.13.tgz}
+
+  '@jsr/mikaelporttila__rss@1.1.1':
+    resolution: {integrity: sha512-AH3vPpBsyqVggr02hZ4aq2Zr7oQlXbAtY8nDYv146jcBZ284aKzLR5tJoONBr/Ld2x4AkQ2a+4OplazjuRtMJw==, tarball: https://npm.jsr.io/~/11/@jsr/mikaelporttila__rss/1.1.1.tgz}
 
   '@jsr/std__assert@1.0.6':
     resolution: {integrity: sha512-lWRoX42lexkqLDxxVA6VG+zk++yiOI9udIqigeSpQu0N5ri6l665gkNLbisIAEDkiUg86FTRPb5sLdtUUNfkmg==, tarball: https://npm.jsr.io/~/11/@jsr/std__assert/1.0.6.tgz}
@@ -2125,6 +2134,12 @@ snapshots:
       strip-ansi-cjs: strip-ansi@6.0.1
       wrap-ansi: 8.1.0
       wrap-ansi-cjs: wrap-ansi@7.0.0
+
+  '@jsr/maxim-mazurok__sax-ts@1.2.13': {}
+
+  '@jsr/mikaelporttila__rss@1.1.1':
+    dependencies:
+      '@jsr/maxim-mazurok__sax-ts': 1.2.13
 
   '@jsr/std__assert@1.0.6':
     dependencies:
