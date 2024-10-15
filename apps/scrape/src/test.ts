@@ -1,4 +1,4 @@
-import { assertEquals } from "https://deno.land/std@0.140.0/testing/asserts.ts";
+import { assertEquals } from "@std/assert";
 
 // Simple name and function, compact form, but not configurable
 Deno.test("hello world #1", () => {

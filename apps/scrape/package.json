@@ -7,5 +7,10 @@
     "lint": "deno lint src",
     "deps:check": "deno run --allow-read=. --allow-write=. --allow-net https://deno.land/x/udd/main.ts --dry-run src/deps.ts",
     "deps:update": "deno run --allow-read=. --allow-write=. --allow-net https://deno.land/x/udd/main.ts src/deps.ts"
+  },
+  "devDependencies": { "@std/assert": "npm:@jsr/std__assert@^1.0.6" },
+  "dependencies": {
+    "@std/fs": "npm:@jsr/std__fs@^1.0.4",
+    "@std/path": "npm:@jsr/std__path@^1.0.6"
   }
 }
