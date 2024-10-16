@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/6929877190?utm_medium=api&utm_source=rss",
+      "title": "The Shadow of the Gods (The Bloodsworn Saga, #1)",
+      "link": "https://www.goodreads.com/review/show/6929877190?utm_medium=api&utm_source=rss",
+      "bookId": "55277083",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1615273224l/55277083._SY75_.jpg",
+      "bookDescription": "<i>This is the age of storm and murder.</i><br /><br />After the old gods warred and drove themselves to extinction, the cataclysm of their fall shattered the land of Vigrio.<br /><br />Now, power-hungry jarls carve out petty kingdoms, and monsters stalk the shadow-haunted woods and mountains. A world where the bones of the dead gods still hold great power, promising fame and fortune for those brave - or desperate - enough to seek them out.<br /><br />As whispers of war echo over the plains and across the fjords, fate follows the footsteps of three people: a huntress searching for her missing son, a jarl's daughter who has rejected privilege in pursuit of battle fame, and a thrall who has cast off his chains and now fights alongside the famed mercenaries known as the Bloodsworn.<br /><br />All three will shape the fate of the world, as it once more teeters on the edge of chaos.",
+      "authorName": "John Gwynne",
+      "isbn": "0316539880",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2024-10-16T01:05:22.000Z",
+      "userDateCreated": "2024-10-16T01:05:21.000Z",
+      "userShelves": "to-read",
+      "userReview": "",
+      "averageRating": "4.2",
+      "bookPublished": "2021",
+      "description": "<a href=\"https://www.goodreads.com/book/show/55277083-the-shadow-of-the-gods?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Shadow of the Gods (The Bloodsworn Saga, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1615273224l/55277083._SY75_.jpg\" /></a><br/>\n                                      author: John Gwynne<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 2021<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/10/15<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "numPages": "495"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/6927866869?utm_medium=api&utm_source=rss",
       "title": "Into the Unknown: The Quest to Understand the Mysteries of the Cosmos",
       "link": "https://www.goodreads.com/review/show/6927866869?utm_medium=api&utm_source=rss",
