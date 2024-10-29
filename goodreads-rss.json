@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/6962403777?utm_medium=api&utm_source=rss",
+      "title": "Spill (Little Brother)",
+      "link": "https://www.goodreads.com/review/show/6962403777?utm_medium=api&utm_source=rss",
+      "bookId": "218613145",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1725922289l/218613145._SY75_.jpg",
+      "bookDescription": "In a new <i>Little Brother </i>novella, there is no security in obscurity. But there can be redemption in mutual aid.<br /><br />At the Publisher's request, this title is being sold without Digital Rights Management Software (DRM) applied.",
+      "authorName": "Cory Doctorow",
+      "isbn": "1250351693",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2024-10-29T02:19:11.000Z",
+      "userDateCreated": "2024-10-29T02:19:11.000Z",
+      "userShelves": "to-read",
+      "userReview": "",
+      "averageRating": "4.5",
+      "bookPublished": "2024",
+      "description": "<a href=\"https://www.goodreads.com/book/show/218613145-spill?utm_medium=api&amp;utm_source=rss\"><img alt=\"Spill (Little Brother)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1725922289l/218613145._SY75_.jpg\" /></a><br/>\n                                      author: Cory Doctorow<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.5<br/>\n                                      book published: 2024<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/10/28<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "numPages": "111"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/6927053515?utm_medium=api&utm_source=rss",
       "title": "Nexus: A Brief History of Information Networks from the Stone Age to AI",
       "link": "https://www.goodreads.com/review/show/6927053515?utm_medium=api&utm_source=rss",
