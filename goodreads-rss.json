@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/7032325195?utm_medium=api&utm_source=rss",
+      "title": "Kaput: The End of the German Miracle",
+      "link": "https://www.goodreads.com/review/show/7032325195?utm_medium=api&utm_source=rss",
+      "bookId": "214631090",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1719035363l/214631090._SY75_.jpg",
+      "bookDescription": "<b>'Compelling' <em>Guardian</em><br /><br /> 'Eloquent and comprehensive'<em> Financial Times</em><br /><br /> 'Excellent'<em> The Telegraph</em><br /><br /> 'Astonishing'<em> The Times</em><br /><br /> 'An eye-opener' Gavin Esler</b><br /><br />Until recently, Germany appeared to be a paragon of economic and political success. Angela Merkel was widely seen as the true 'leader of the free world', and Germany's export-driven economic model seemed to deliver prosperity. But recent events – from Germany's dependence on Russian gas to its car industry's delays in the race to electric – have undermined this view.<br /><br />In <em>Kaput</em>, Wolfgang Münchau argues that the weaknesses of Germany's economy have, in fact, been brewing for decades. The neo-mercantilist policies of the German state, driven by close connections between the country's industrial and political elite, have left Germany technologically behind over-reliant on authoritarian Russia and China – and with little sign of being able to adapt to the digital realities of the 21st century. It is an essential read for anyone interested in the future of Europe's biggest economy.",
+      "authorName": "Wolfgang Münchau",
+      "isbn": "1800753446",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2024-11-25T10:07:09.000Z",
+      "userDateCreated": "2024-11-25T10:07:09.000Z",
+      "userShelves": "to-read",
+      "userReview": "",
+      "averageRating": "4.2",
+      "bookPublished": "",
+      "description": "<a href=\"https://www.goodreads.com/book/show/214631090-kaput?utm_medium=api&amp;utm_source=rss\"><img alt=\"Kaput: The End of the German Miracle\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1719035363l/214631090._SY75_.jpg\" /></a><br/>\n                                      author: Wolfgang Münchau<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/11/25<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "numPages": "220"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/4824148983?utm_medium=api&utm_source=rss",
       "title": "Hawk (Vlad Taltos, #14)",
       "link": "https://www.goodreads.com/review/show/4824148983?utm_medium=api&utm_source=rss",
