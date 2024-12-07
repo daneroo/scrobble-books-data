@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/5063541104?utm_medium=api&utm_source=rss",
+      "title": "Cycles of Time: An Extraordinary New View of the Universe",
+      "link": "https://www.goodreads.com/review/show/5063541104?utm_medium=api&utm_source=rss",
+      "bookId": "7947434",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320506839l/7947434._SY75_.jpg",
+      "bookDescription": "From the best-selling author of <i>The Emperor’s New Mind</i> and <i>The Road to Reality,</i> a groundbreaking book that provides new views on three of cosmology’s most profound questions: What, if anything, came before the Big Bang? What is the source of order in our universe? What is its ultimate future?<br /><br />Current understanding of our universe dictates that all matter will eventually thin out to zero density, with huge black holes finally evaporating away into massless energy. Roger Penrose—one of the most innovative mathematicians of our time—turns around this predominant picture of the universe’s “heat death,” arguing how the expected ultimate fate of our accelerating, expanding universe can actually be reinterpreted as the “Big Bang” of a new one.<br /><br />Along the way to this remarkable cosmological picture, Penrose sheds new light on basic principles that underlie the behavior of our universe, describing various standard and nonstandard cosmological models, the fundamental role of the cosmic microwave background, and the key status of black holes. Ideal for both the amateur astronomer and the advanced physicist—with plenty of exciting insights for each—<i>Cycles of Time</i> is certain to provoke and challenge.<br /><br />Intellectually thrilling and accessible, this is another essential guide to the universe from one of our preeminent thinkers.",
+      "authorName": "Roger Penrose",
+      "isbn": "0224080369",
+      "userName": "Daniel",
+      "userRating": "4",
+      "userReadAt": "2024-12-07T00:00:00.000Z",
+      "userDateAdded": "2024-12-07T08:38:22.000Z",
+      "userDateCreated": "2022-10-24T04:58:25.000Z",
+      "userShelves": "",
+      "userReview": "",
+      "averageRating": "4.0",
+      "bookPublished": "2010",
+      "description": "<a href=\"https://www.goodreads.com/book/show/7947434-cycles-of-time?utm_medium=api&amp;utm_source=rss\"><img alt=\"Cycles of Time: An Extraordinary New View of the Universe\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320506839l/7947434._SY75_.jpg\" /></a><br/>\n                                      author: Roger Penrose<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: 2010<br/>\n                                      rating: 4<br/>\n                                      read at: 2024/12/07<br/>\n                                      date added: 2024/12/07<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "numPages": "320"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/7063814383?utm_medium=api&utm_source=rss",
       "title": "Agyar",
       "link": "https://www.goodreads.com/review/show/7063814383?utm_medium=api&utm_source=rss",
@@ -21,27 +42,6 @@
       "bookPublished": "1993",
       "description": "<a href=\"https://www.goodreads.com/book/show/132210.Agyar?utm_medium=api&amp;utm_source=rss\"><img alt=\"Agyar\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1438705730l/132210._SY75_.jpg\" /></a><br/>\n                                      author: Steven Brust<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.7<br/>\n                                      book published: 1993<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/12/06<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
       "numPages": "256"
-    },
-    {
-      "id": "https://www.goodreads.com/review/show/5063541104?utm_medium=api&utm_source=rss",
-      "title": "Cycles of Time: An Extraordinary New View of the Universe",
-      "link": "https://www.goodreads.com/review/show/5063541104?utm_medium=api&utm_source=rss",
-      "bookId": "7947434",
-      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320506839l/7947434._SY75_.jpg",
-      "bookDescription": "From the best-selling author of <i>The Emperor’s New Mind</i> and <i>The Road to Reality,</i> a groundbreaking book that provides new views on three of cosmology’s most profound questions: What, if anything, came before the Big Bang? What is the source of order in our universe? What is its ultimate future?<br /><br />Current understanding of our universe dictates that all matter will eventually thin out to zero density, with huge black holes finally evaporating away into massless energy. Roger Penrose—one of the most innovative mathematicians of our time—turns around this predominant picture of the universe’s “heat death,” arguing how the expected ultimate fate of our accelerating, expanding universe can actually be reinterpreted as the “Big Bang” of a new one.<br /><br />Along the way to this remarkable cosmological picture, Penrose sheds new light on basic principles that underlie the behavior of our universe, describing various standard and nonstandard cosmological models, the fundamental role of the cosmic microwave background, and the key status of black holes. Ideal for both the amateur astronomer and the advanced physicist—with plenty of exciting insights for each—<i>Cycles of Time</i> is certain to provoke and challenge.<br /><br />Intellectually thrilling and accessible, this is another essential guide to the universe from one of our preeminent thinkers.",
-      "authorName": "Roger Penrose",
-      "isbn": "0224080369",
-      "userName": "Daniel",
-      "userRating": "4",
-      "userReadAt": "2022-10-28T00:00:00.000Z",
-      "userDateAdded": "2024-12-05T09:01:14.000Z",
-      "userDateCreated": "2022-10-24T04:58:25.000Z",
-      "userShelves": "currently-reading",
-      "userReview": "",
-      "averageRating": "4.0",
-      "bookPublished": "2010",
-      "description": "<a href=\"https://www.goodreads.com/book/show/7947434-cycles-of-time?utm_medium=api&amp;utm_source=rss\"><img alt=\"Cycles of Time: An Extraordinary New View of the Universe\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320506839l/7947434._SY75_.jpg\" /></a><br/>\n                                      author: Roger Penrose<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: 2010<br/>\n                                      rating: 4<br/>\n                                      read at: 2022/10/28<br/>\n                                      date added: 2024/12/05<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
-      "numPages": "320"
     },
     {
       "id": "https://www.goodreads.com/review/show/7052810554?utm_medium=api&utm_source=rss",
@@ -626,9 +626,9 @@
       "userDateCreated": "2024-10-15T00:22:05.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "4.1",
+      "averageRating": "4.2",
       "bookPublished": "2024",
-      "description": "<a href=\"https://www.goodreads.com/book/show/204927599-nexus?utm_medium=api&amp;utm_source=rss\"><img alt=\"Nexus: A Brief History of Information Networks from the Stone Age to AI\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1709986452l/204927599._SY75_.jpg\" /></a><br/>\n                                      author: Yuval Noah Harari<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: 2024<br/>\n                                      rating: 4<br/>\n                                      read at: 2024/11/02<br/>\n                                      date added: 2024/11/02<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/204927599-nexus?utm_medium=api&amp;utm_source=rss\"><img alt=\"Nexus: A Brief History of Information Networks from the Stone Age to AI\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1709986452l/204927599._SY75_.jpg\" /></a><br/>\n                                      author: Yuval Noah Harari<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 2024<br/>\n                                      rating: 4<br/>\n                                      read at: 2024/11/02<br/>\n                                      date added: 2024/11/02<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "528"
     },
     {
