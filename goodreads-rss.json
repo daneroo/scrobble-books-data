@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/7066785887?utm_medium=api&utm_source=rss",
+      "title": "Breakfast of Champions",
+      "link": "https://www.goodreads.com/review/show/7066785887?utm_medium=api&utm_source=rss",
+      "bookId": "4980",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327934446l/4980._SY75_.jpg",
+      "bookDescription": "<i>Alternate cover for this ISBN can be found <a href=\"https://www.goodreads.com/book/show/12502523-breakfast-of-champions\" rel=\"nofollow noopener\">here</a></i><br /><br />In <i>Breakfast of Champions,</i> one of Kurt Vonnegut’s most beloved characters, the aging writer Kilgore Trout, finds to his horror that a Midwest car dealer is taking his fiction as truth. What follows is murderously funny satire, as Vonnegut looks at war, sex, racism, success, politics, and pollution in America and reminds us how to see the truth.",
+      "authorName": "Kurt Vonnegut Jr.",
+      "isbn": "0385334206",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2024-12-08T08:02:21.000Z",
+      "userDateCreated": "2024-12-08T08:02:20.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "4.1",
+      "bookPublished": "1973",
+      "description": "<a href=\"https://www.goodreads.com/book/show/4980.Breakfast_of_Champions?utm_medium=api&amp;utm_source=rss\"><img alt=\"Breakfast of Champions\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327934446l/4980._SY75_.jpg\" /></a><br/>\n                                      author: Kurt Vonnegut Jr.<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: 1973<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/12/08<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "303"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/5063541104?utm_medium=api&utm_source=rss",
       "title": "Cycles of Time: An Extraordinary New View of the Universe",
       "link": "https://www.goodreads.com/review/show/5063541104?utm_medium=api&utm_source=rss",
