@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/6962403777?utm_medium=api&utm_source=rss",
+      "title": "Spill (Little Brother)",
+      "link": "https://www.goodreads.com/review/show/6962403777?utm_medium=api&utm_source=rss",
+      "bookId": "218613145",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1725922289l/218613145._SY75_.jpg",
+      "bookDescription": "In a new <i>Little Brother </i>novella, there is no security in obscurity. But there can be redemption in mutual aid.<br /><br />At the Publisher's request, this title is being sold without Digital Rights Management Software (DRM) applied.",
+      "authorName": "Cory Doctorow",
+      "isbn": "1250351693",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "2024-12-08T00:00:00.000Z",
+      "userDateAdded": "2024-12-09T05:08:05.000Z",
+      "userDateCreated": "2024-10-29T02:19:11.000Z",
+      "userShelves": "",
+      "userReview": "",
+      "averageRating": "4.4",
+      "bookPublished": "2024",
+      "description": "<a href=\"https://www.goodreads.com/book/show/218613145-spill?utm_medium=api&amp;utm_source=rss\"><img alt=\"Spill (Little Brother)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1725922289l/218613145._SY75_.jpg\" /></a><br/>\n                                      author: Cory Doctorow<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.4<br/>\n                                      book published: 2024<br/>\n                                      rating: 0<br/>\n                                      read at: 2024/12/08<br/>\n                                      date added: 2024/12/08<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "numPages": "111"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/7069233209?utm_medium=api&utm_source=rss",
       "title": "The Wall of Storms (The Dandelion Dynasty, #2)",
       "link": "https://www.goodreads.com/review/show/7069233209?utm_medium=api&utm_source=rss",
@@ -126,27 +147,6 @@
       "bookPublished": "-800",
       "description": "<a href=\"https://www.goodreads.com/book/show/77265004-the-iliad?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Iliad\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1681797700l/77265004._SY75_.jpg\" /></a><br/>\n                                      author: Homer<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: -800<br/>\n                                      rating: 4<br/>\n                                      read at: 2024/12/02<br/>\n                                      date added: 2024/12/02<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "848"
-    },
-    {
-      "id": "https://www.goodreads.com/review/show/6962403777?utm_medium=api&utm_source=rss",
-      "title": "Spill (Little Brother)",
-      "link": "https://www.goodreads.com/review/show/6962403777?utm_medium=api&utm_source=rss",
-      "bookId": "218613145",
-      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1725922289l/218613145._SY75_.jpg",
-      "bookDescription": "In a new <i>Little Brother </i>novella, there is no security in obscurity. But there can be redemption in mutual aid.<br /><br />At the Publisher's request, this title is being sold without Digital Rights Management Software (DRM) applied.",
-      "authorName": "Cory Doctorow",
-      "isbn": "1250351693",
-      "userName": "Daniel",
-      "userRating": "0",
-      "userReadAt": "",
-      "userDateAdded": "2024-12-02T08:18:33.000Z",
-      "userDateCreated": "2024-10-29T02:19:11.000Z",
-      "userShelves": "currently-reading",
-      "userReview": "",
-      "averageRating": "4.4",
-      "bookPublished": "2024",
-      "description": "<a href=\"https://www.goodreads.com/book/show/218613145-spill?utm_medium=api&amp;utm_source=rss\"><img alt=\"Spill (Little Brother)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1725922289l/218613145._SY75_.jpg\" /></a><br/>\n                                      author: Cory Doctorow<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.4<br/>\n                                      book published: 2024<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/12/02<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
-      "numPages": "111"
     },
     {
       "id": "https://www.goodreads.com/review/show/7044447114?utm_medium=api&utm_source=rss",
@@ -17426,9 +17426,9 @@
       "userDateCreated": "2021-03-21T05:36:05.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "0.0",
+      "averageRating": "3.6",
       "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/49089454-synchronicity?utm_medium=api&amp;utm_source=rss\"><img alt=\"Synchronicity: The Epic Quest to Understand the Quantum Nature of Cause and Effect\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1576635370l/49089454._SY75_.jpg\" /></a><br/>\n                                      author: Paul Halpern<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/03/20<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/49089454-synchronicity?utm_medium=api&amp;utm_source=rss\"><img alt=\"Synchronicity: The Epic Quest to Understand the Quantum Nature of Cause and Effect\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1576635370l/49089454._SY75_.jpg\" /></a><br/>\n                                      author: Paul Halpern<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.6<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/03/20<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "304"
     },
     {
