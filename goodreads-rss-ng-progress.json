@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/7123809303?utm_medium=api&utm_source=rss",
+      "title": "Premier de cordée",
+      "link": "https://www.goodreads.com/review/show/7123809303?utm_medium=api&utm_source=rss",
+      "bookId": "2801171",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1602220762l/2801171._SY75_.jpg",
+      "bookDescription": "\"Alors en équilibre sur un clou de soulier et le corps collé à la paroi, il se concentre pour tenir. Il sentit tout à coup que sa jambe était prise d'un tremblement de fatigue, il fit un brusque mouvement pour retrouver la prise de main, mais déjà il basculait. Ses doigts griffèrent le granit sans l'accrocher et il tomba à la renverse sans pousser un cri.\" Pour ramener à bon port le corps de son père, foudroyé en pleine ascension, Pierre est prêt à braver tous les dangers. À Chamonix, les guides se mobilisent: Servettaz était le meilleur d'entre eux. La montagne est une redoutable tueuse, elle sélectionne impitoyablement ses victimes. Celles-ci le savent bien qui la consomment comme une drogue, et la portent dans leur sang. Une histoire de passion, au courage et à la solidarité des hommes.",
+      "authorName": "Roger Frison-Roche",
+      "isbn": "2700310268",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2024-12-27T08:01:52.000Z",
+      "userDateCreated": "2024-12-27T08:01:52.000Z",
+      "userShelves": "on-deck",
+      "userReview": "",
+      "averageRating": "4.0",
+      "bookPublished": "1940",
+      "description": "<a href=\"https://www.goodreads.com/book/show/2801171-premier-de-cord-e?utm_medium=api&amp;utm_source=rss\"><img alt=\"Premier de cordée\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1602220762l/2801171._SY75_.jpg\" /></a><br/>\n                                      author: Roger Frison-Roche<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: 1940<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/12/27<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "numPages": "316"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/7092282605?utm_medium=api&utm_source=rss",
       "title": "Waves in an Impossible Sea: How Everyday Life Emerges from the Cosmic Ocean",
       "link": "https://www.goodreads.com/review/show/7092282605?utm_medium=api&utm_source=rss",
@@ -20261,9 +20282,9 @@
       "userDateCreated": "2019-05-14T23:48:10.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "4.3",
+      "averageRating": "4.2",
       "bookPublished": "2002",
-      "description": "<a href=\"https://www.goodreads.com/book/show/19605970-the-art-of-war-the-art-of-warfare?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Art of War/The Art of Warfare\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1387677448l/19605970._SY75_.jpg\" /></a><br/>\n                                      author: Sun Tzu<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: 2002<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2019/05/14<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/19605970-the-art-of-war-the-art-of-warfare?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Art of War/The Art of Warfare\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1387677448l/19605970._SY75_.jpg\" /></a><br/>\n                                      author: Sun Tzu<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 2002<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2019/05/14<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "143"
     },
     {
