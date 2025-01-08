@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/7189611429?utm_medium=api&utm_source=rss",
+      "title": "Money: The Unauthorised Biography",
+      "link": "https://www.goodreads.com/review/show/7189611429?utm_medium=api&utm_source=rss",
+      "bookId": "17307317",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1365924586l/17307317._SY75_.jpg",
+      "bookDescription": "<b>What is money, and how does it work?</b><br /><br />The conventional answer is that people once used sugar in the West Indies, tobacco in Virginia, and dried cod in Newfoundland, and that today's financial universe evolved from barter.<br /><br />Unfortunately, there is a problem with this story. It's wrong. And not just wrong, but dangerous.<br /><br /><i>Money: the Unauthorised Biography</i> unfolds a panoramic secret history and explains the truth about money: what it is, where it comes from, and how it works.<br /><br />Drawing on stories from throughout human history and around the globe, <i>Money</i> will radically rearrange your understanding of the world and shows how money can once again become the most powerful force for freedom we have ever known.",
+      "authorName": "Felix Martin",
+      "isbn": "1847922333",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2025-01-08T09:21:49.000Z",
+      "userDateCreated": "2025-01-08T09:21:49.000Z",
+      "userShelves": "on-deck",
+      "userReview": "",
+      "averageRating": "3.8",
+      "bookPublished": "2013",
+      "description": "<a href=\"https://www.goodreads.com/book/show/17307317-money?utm_medium=api&amp;utm_source=rss\"><img alt=\"Money: The Unauthorised Biography\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1365924586l/17307317._SY75_.jpg\" /></a><br/>\n                                      author: Felix Martin<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.8<br/>\n                                      book published: 2013<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/01/08<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "numPages": "336"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/7184792344?utm_medium=api&utm_source=rss",
       "title": "The Confusion, Part I (The Baroque Cycle, Vol. 2, Book 1)",
       "link": "https://www.goodreads.com/review/show/7184792344?utm_medium=api&utm_source=rss",
@@ -144,8 +165,8 @@
       "userShelves": "",
       "userReview": "",
       "averageRating": "4.0",
-      "bookPublished": "1914",
-      "description": "<a href=\"https://www.goodreads.com/book/show/736131.The_Valley_of_Fear?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Valley of Fear (Sherlock Holmes, #7)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1390250081l/736131._SX50_.jpg\" /></a><br/>\n                                      author: Arthur Conan Doyle<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: 1914<br/>\n                                      rating: 4<br/>\n                                      read at: 2025/01/01<br/>\n                                      date added: 2025/01/01<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "bookPublished": "1915",
+      "description": "<a href=\"https://www.goodreads.com/book/show/736131.The_Valley_of_Fear?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Valley of Fear (Sherlock Holmes, #7)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1390250081l/736131._SX50_.jpg\" /></a><br/>\n                                      author: Arthur Conan Doyle<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: 1915<br/>\n                                      rating: 4<br/>\n                                      read at: 2025/01/01<br/>\n                                      date added: 2025/01/01<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "7"
     },
     {
