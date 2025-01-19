@@ -5,7 +5,7 @@
   "type": "module",
   "main": "src/pin.js",
   "scripts": {
-    "test": "node --test src/",
+    "test": "node --test src/pin-test.js",
     "deps:check": "npm-check-updates",
     "deps:update": "npm-check-updates -u",
     "deps:update:interactive": "npm-check-updates -i"
