@@ -34,6 +34,7 @@
   "workspace": {
     "packageJson": {
       "dependencies": [
+        "npm:@jsr/mikaelporttila__rss@^1.1.1",
         "npm:@jsr/std__assert@^1.0.6",
         "npm:@jsr/std__fs@^1.0.4",
         "npm:@jsr/std__path@^1.0.6"

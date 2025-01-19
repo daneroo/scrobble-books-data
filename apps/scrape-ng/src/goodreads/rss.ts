@@ -74,6 +74,19 @@ export async function fetchFeed(
   return feed;
 }
 
+/**
+ * Wrapper for fs.mkdir to handle Bun bug (as of 2024-01-16 v1.1.45)
+ * where mkdir with recursive:true still throws EEXIST
+ */
+async function mkdirWithBugPatch(dir: string) {
+  try {
+    await fs.mkdir(dir, { recursive: true });
+  } catch (error) {
+    if (error instanceof Error && "code" in error && error.code !== "EEXIST")
+      throw error;
+  }
+}
+
 async function fetchFeedPage(url: string, urlParams: RSSParams): Promise<Feed> {
   // TODO(daneroo): optimize feedPage timeout
   const timeout = 5000;
@@ -94,7 +107,8 @@ async function fetchFeedPage(url: string, urlParams: RSSParams): Promise<Feed> {
   const verbosity = 1;
   if (verbosity > 0) {
     const xmlDataDir = "data/xml";
-    await fs.mkdir(xmlDataDir, { recursive: true });
+    // await fs.mkdir(xmlDataDir, { recursive: true }); // Bug in Bun v1.1.45
+    await mkdirWithBugPatch(xmlDataDir);
     const xmlFile = `${xmlDataDir}/goodreads-rss-ng-p${urlParams.page}.xml`;
     await fs.writeFile(xmlFile, xml);
     console.log(`  - Wrote ${xmlFile}`);
@@ -107,7 +121,8 @@ async function fetchFeedPage(url: string, urlParams: RSSParams): Promise<Feed> {
 
   if (verbosity > 0) {
     const jsonDataDir = "data/rss-json";
-    await fs.mkdir(jsonDataDir, { recursive: true });
+    // await fs.mkdir(jsonDataDir, { recursive: true }); // Bug in Bun v1.1.45
+    await mkdirWithBugPatch(jsonDataDir);
     const jsonFile = `${jsonDataDir}/goodreads-rss-ng-p${urlParams.page}.json`;
     await fs.writeFile(jsonFile, JSON.stringify(feedPage, null, 2));
     console.log(`  - Wrote ${jsonFile}`);
