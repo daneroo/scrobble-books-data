@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/7261640970?utm_medium=api&utm_source=rss",
+      "title": "Private Truths, Public Lies: The Social Consequences of Preference Falsification",
+      "link": "https://www.goodreads.com/review/show/7261640970?utm_medium=api&utm_source=rss",
+      "bookId": "1016932",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348708102l/1016932._SY75_.jpg",
+      "bookDescription": "Preference falsification, according to the economist Timur Kuran, is the act of misrepresenting one's wants under perceived social pressures. It happens frequently in everyday life, such as when we tell the host of a dinner party that we are enjoying the food when we actually find it bland. In Private Truths, Public Lies Kuran argues convincingly that the phenomenon not only is ubiquitous but has huge social and political consequences. Drawing on diverse intellectual traditions, including those rooted in economics, psychology, sociology, and political science, Kuran provides a unified theory of how preference falsification shapes collective decisions, orients structural change, sustains social stability, distorts human knowledge, and conceals political possibilities.<br /><br />A common effect of preference falsification is the preservation of widely disliked structures. Another is the conferment of an aura of stability on structures vulnerable to sudden collapse. When the support of a policy, tradition, or regime is largely contrived, a minor event may activate a bandwagon that generates massive yet unanticipated change.<br /><br />In distorting public opinion, preference falsification also corrupts public discourse and, hence, human knowledge. So structures held in place by preference falsification may, if the condition lasts long enough, achieve increasingly genuine acceptance. The book demonstrates how human knowledge and social structures co-evolve in complex and imperfectly predictable ways, without any guarantee of social efficiency.<br /><br />Private Truths, Public Lies uses its theoretical argument to illuminate an array of puzzling social phenomena. They include the unexpected fall of communism, the paucity, until recently, of open opposition to affirmative action in the United States, and the durability of the beliefs that have sustained India's caste system.",
+      "authorName": "Timur Kuran",
+      "isbn": "0674707583",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2025-01-27T08:44:36.000Z",
+      "userDateCreated": "2025-01-27T08:44:36.000Z",
+      "userShelves": "to-read",
+      "userReview": "",
+      "averageRating": "4.2",
+      "bookPublished": "1997",
+      "description": "<a href=\"https://www.goodreads.com/book/show/1016932.Private_Truths_Public_Lies?utm_medium=api&amp;utm_source=rss\"><img alt=\"Private Truths, Public Lies: The Social Consequences of Preference Falsification\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348708102l/1016932._SY75_.jpg\" /></a><br/>\n                                      author: Timur Kuran<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 1997<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/01/27<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "numPages": "440"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/5072810551?utm_medium=api&utm_source=rss",
       "title": "Mort (Discworld, #4; Death, #1)",
       "link": "https://www.goodreads.com/review/show/5072810551?utm_medium=api&utm_source=rss",
@@ -7640,9 +7661,9 @@
       "userDateCreated": "2023-07-06T04:15:33.000Z",
       "userShelves": "on-deck",
       "userReview": "",
-      "averageRating": "3.7",
+      "averageRating": "3.8",
       "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/41569567-a-casino-odyssey-in-cyberspace?utm_medium=api&amp;utm_source=rss\"><img alt=\"A Casino Odyssey in Cyberspace\" src=\"https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png\" /></a><br/>\n                                      author: Roger    Williams<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.7<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/07/05<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/41569567-a-casino-odyssey-in-cyberspace?utm_medium=api&amp;utm_source=rss\"><img alt=\"A Casino Odyssey in Cyberspace\" src=\"https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png\" /></a><br/>\n                                      author: Roger    Williams<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.8<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/07/05<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
       "numPages": "0"
     },
     {
