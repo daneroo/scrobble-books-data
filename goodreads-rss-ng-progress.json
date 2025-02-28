@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/7328662164?utm_medium=api&utm_source=rss",
+      "title": "Dodger",
+      "link": "https://www.goodreads.com/review/show/7328662164?utm_medium=api&utm_source=rss",
+      "bookId": "13516846",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1343828971l/13516846._SY75_.jpg",
+      "bookDescription": "<b>A storm.</b> Rain-lashed city streets. A flash of lightning. A scruffy lad sees a girl leap desperately from a horse-drawn carriage in a vain attempt to escape her captors. Can the lad stand by and let her be caught again? Of course not, because he's...Dodger.<br /><br />Seventeen-year-old Dodger may be a street urchin, but he gleans a living from London's sewers, and he knows a jewel when he sees one. He's not about to let anything happen to the unknown girl--not even if her fate impacts some of the most powerful people in England.<br /><br />From Dodger's encounter with the mad barber Sweeney Todd to his meetings with the great writer Charles Dickens and the calculating politician Benjamin Disraeli, history and fantasy intertwine in a breathtaking account of adventure and mystery.<br /><br />Beloved and bestselling author Sir Terry Pratchett combines high comedy with deep wisdom in this tale of an unexpected coming-of-age and one remarkable boy's rise in a complex and fascinating world.",
+      "authorName": "Terry Pratchett",
+      "isbn": "0062009494",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2025-02-28T07:46:24.000Z",
+      "userDateCreated": "2025-02-17T08:29:51.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "3.9",
+      "bookPublished": "2012",
+      "description": "<a href=\"https://www.goodreads.com/book/show/13516846-dodger?utm_medium=api&amp;utm_source=rss\"><img alt=\"Dodger\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1343828971l/13516846._SY75_.jpg\" /></a><br/>\n                                      author: Terry Pratchett<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: 2012<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/02/27<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "360"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/7227938871?utm_medium=api&utm_source=rss",
       "title": "Wonderful Life: The Burgess Shale and the Nature of History",
       "link": "https://www.goodreads.com/review/show/7227938871?utm_medium=api&utm_source=rss",
@@ -42,27 +63,6 @@
       "bookPublished": "1899",
       "description": "<a href=\"https://www.goodreads.com/book/show/661723.Bushido?utm_medium=api&amp;utm_source=rss\"><img alt=\"Bushido: The Soul of Japan (The ^AWay of the Warrior Series)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348666091l/661723._SX50_.jpg\" /></a><br/>\n                                      author: Inazo Nitobe<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: 1899<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/02/27<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "160"
-    },
-    {
-      "id": "https://www.goodreads.com/review/show/7328662164?utm_medium=api&utm_source=rss",
-      "title": "Dodger",
-      "link": "https://www.goodreads.com/review/show/7328662164?utm_medium=api&utm_source=rss",
-      "bookId": "13516846",
-      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1343828971l/13516846._SY75_.jpg",
-      "bookDescription": "<b>A storm.</b> Rain-lashed city streets. A flash of lightning. A scruffy lad sees a girl leap desperately from a horse-drawn carriage in a vain attempt to escape her captors. Can the lad stand by and let her be caught again? Of course not, because he's...Dodger.<br /><br />Seventeen-year-old Dodger may be a street urchin, but he gleans a living from London's sewers, and he knows a jewel when he sees one. He's not about to let anything happen to the unknown girl--not even if her fate impacts some of the most powerful people in England.<br /><br />From Dodger's encounter with the mad barber Sweeney Todd to his meetings with the great writer Charles Dickens and the calculating politician Benjamin Disraeli, history and fantasy intertwine in a breathtaking account of adventure and mystery.<br /><br />Beloved and bestselling author Sir Terry Pratchett combines high comedy with deep wisdom in this tale of an unexpected coming-of-age and one remarkable boy's rise in a complex and fascinating world.",
-      "authorName": "Terry Pratchett",
-      "isbn": "0062009494",
-      "userName": "Daniel",
-      "userRating": "0",
-      "userReadAt": "",
-      "userDateAdded": "2025-02-27T08:06:42.000Z",
-      "userDateCreated": "2025-02-17T08:29:51.000Z",
-      "userShelves": "currently-reading",
-      "userReview": "",
-      "averageRating": "3.9",
-      "bookPublished": "2012",
-      "description": "<a href=\"https://www.goodreads.com/book/show/13516846-dodger?utm_medium=api&amp;utm_source=rss\"><img alt=\"Dodger\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1343828971l/13516846._SY75_.jpg\" /></a><br/>\n                                      author: Terry Pratchett<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: 2012<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/02/27<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
-      "numPages": "360"
     },
     {
       "id": "https://www.goodreads.com/review/show/7358864743?utm_medium=api&utm_source=rss",
@@ -4112,9 +4112,9 @@
       "userDateCreated": "2024-06-03T09:26:30.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "3.9",
+      "averageRating": "3.8",
       "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/208707460-deep-utopia?utm_medium=api&amp;utm_source=rss\"><img alt=\"Deep Utopia: Life and Meaning in a Solved World\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1710531839l/208707460._SY75_.jpg\" /></a><br/>\n                                      author: Nick Bostrom<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/06/03<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/208707460-deep-utopia?utm_medium=api&amp;utm_source=rss\"><img alt=\"Deep Utopia: Life and Meaning in a Solved World\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1710531839l/208707460._SY75_.jpg\" /></a><br/>\n                                      author: Nick Bostrom<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.8<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/06/03<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "536"
     },
     {
