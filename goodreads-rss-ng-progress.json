@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/7373780895?utm_medium=api&utm_source=rss",
+      "title": "Reaper Man (Discworld, #11; Death, #2)",
+      "link": "https://www.goodreads.com/review/show/7373780895?utm_medium=api&utm_source=rss",
+      "bookId": "34517",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1389211958l/34517._SY75_.jpg",
+      "bookDescription": "Death is missing - presumed... er... gone.<br /><br />Which leads to the kind of chaos you always get when an important public service is withdrawn.<br /><br />Meanwhile, on a little farm far, far away, a tall dark stranger is turning out to be really good with a scythe. There's a harvest to be gathered in...",
+      "authorName": "Terry Pratchett",
+      "isbn": "0552152951",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2025-03-04T05:05:24.000Z",
+      "userDateCreated": "2025-03-04T05:05:12.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "4.3",
+      "bookPublished": "1991",
+      "description": "<a href=\"https://www.goodreads.com/book/show/34517.Reaper_Man?utm_medium=api&amp;utm_source=rss\"><img alt=\"Reaper Man (Discworld, #11; Death, #2)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1389211958l/34517._SY75_.jpg\" /></a><br/>\n                                      author: Terry Pratchett<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: 1991<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/03/03<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "289"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/7328662164?utm_medium=api&utm_source=rss",
       "title": "Dodger",
       "link": "https://www.goodreads.com/review/show/7328662164?utm_medium=api&utm_source=rss",
