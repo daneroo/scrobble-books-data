@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/7418876317?utm_medium=api&utm_source=rss",
+      "title": "Liars and Outliers: Enabling the Trust that Society Needs to Thrive",
+      "link": "https://www.goodreads.com/review/show/7418876317?utm_medium=api&utm_source=rss",
+      "bookId": "12046245",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347951586l/12046245._SX50_.jpg",
+      "bookDescription": "We don't demand a background check on the plumber who shows up to fix the leaky sink. We don't do a chemical analysis on food we eat.<br /><br />Trust and cooperation are the first problems we had to solve before we could become a social species. In the 21st century, they have become the most important problems we need to solve — again. Our global society has become so large and complex that our traditional trust mechanisms no longer work.<br /><br />Bruce Schneier, world-renowned for his level-headed thinking on security and technology, tackles this complex subject head-on. Society can't function without trust, and yet must function even when people are untrustworthy.<br /><br /><i>Liars and Outliers</i> reaches across academic disciplines to develop an understanding of trust, cooperation, and social stability. From the subtle social cues we use to recognize trustworthy people to the laws that punish the noncompliant, from the way our brains reward our honesty to the bank vaults that keep out the dishonest, keeping people cooperative is a delicate balance of rewards and punishments. It's a series of evolutionary tricks, social pressures, legal mechanisms, and physical barriers.<br /><br />In the absence of personal relationships, we have no choice but to substitute security for trust, compliance for trustworthiness. This progression has enabled society to scale to unprecedented complexity, but has also permitted massive global failures.<br /><br />At the same time, too much cooperation is bad. Without some level of rule-breaking, innovation and social progress become impossible. Society stagnates.<br /><br />Today's problems require new thinking, and <i>Liars and Outliers</i> provides that. It is essential that we learn to think clearly about trust. Our future depends on it.",
+      "authorName": "Bruce Schneier",
+      "isbn": "1118143302",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2025-03-20T08:44:52.000Z",
+      "userDateCreated": "2025-03-20T08:44:51.000Z",
+      "userShelves": "on-deck",
+      "userReview": "",
+      "averageRating": "3.8",
+      "bookPublished": "2012",
+      "description": "<a href=\"https://www.goodreads.com/book/show/12046245-liars-and-outliers?utm_medium=api&amp;utm_source=rss\"><img alt=\"Liars and Outliers: Enabling the Trust that Society Needs to Thrive\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347951586l/12046245._SX50_.jpg\" /></a><br/>\n                                      author: Bruce Schneier<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.8<br/>\n                                      book published: 2012<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/03/20<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "numPages": "348"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/6289608334?utm_medium=api&utm_source=rss",
       "title": "The Bezzle (Martin Hench, #2)",
       "link": "https://www.goodreads.com/review/show/6289608334?utm_medium=api&utm_source=rss",
