@@ -3629,9 +3629,9 @@
       "userDateCreated": "2024-07-21T05:54:15.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "4.4",
+      "averageRating": "4.3",
       "bookPublished": "2019",
-      "description": "<a href=\"https://www.goodreads.com/book/show/41564599-howling-dark?utm_medium=api&amp;utm_source=rss\"><img alt=\"Howling Dark (Sun Eater, #2)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1554659319l/41564599._SY75_.jpg\" /></a><br/>\n                                      author: Christopher Ruocchio<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.4<br/>\n                                      book published: 2019<br/>\n                                      rating: 4<br/>\n                                      read at: 2024/07/27<br/>\n                                      date added: 2024/07/27<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/41564599-howling-dark?utm_medium=api&amp;utm_source=rss\"><img alt=\"Howling Dark (Sun Eater, #2)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1554659319l/41564599._SY75_.jpg\" /></a><br/>\n                                      author: Christopher Ruocchio<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: 2019<br/>\n                                      rating: 4<br/>\n                                      read at: 2024/07/27<br/>\n                                      date added: 2024/07/27<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "688"
     },
     {
@@ -16345,7 +16345,7 @@
       "link": "https://www.goodreads.com/review/show/4223496557?utm_medium=api&utm_source=rss",
       "bookId": "102868",
       "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1519031842l/102868._SX50_.jpg",
-      "bookDescription": "Our first meeting with Sherlock Holmes. And John Watson's too! The young doctor is astonished by Holmes' many idiosyncrasies, including his talents on the violin.<br /><br />But it's not long before Sherlock Holmes, with Watson in tow, is working with Scotland Yard investigating the murder of two Americans whose deaths have some mysterious connection to sinister groups gathering power in both Britain and America.<br /><br />Here's where it all began, 'A Study in Scarlet.' Meet Sherlock Holmes, one of the world's leading consulting detectives - fictional of course!",
+      "bookDescription": "Our first meeting with Sherlock Holmes. And John Watson's too! They meet at the start of this volume, and the young doctor is astonished by Holmes' many idiosyncrasies, including his talents on the violin.<br /><br />But it's not long before Sherlock Holmes, with Watson in tow, is working with Scotland Yard investigating the murder of two Americans whose deaths have some mysterious connection to sinister groups gathering power in both Britain and America.<br /><br />Here's where it all began. 'A Study in Scarlet.' Meet Sherlock Holmes, one of the world's leading consulting detectives - fictional of course!",
       "authorName": "Arthur Conan Doyle",
       "isbn": "1420925539",
       "userName": "Daniel",
