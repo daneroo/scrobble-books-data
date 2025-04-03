@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/7458163688?utm_medium=api&utm_source=rss",
+      "title": "Small Gods (Discworld, #13)",
+      "link": "https://www.goodreads.com/review/show/7458163688?utm_medium=api&utm_source=rss",
+      "bookId": "34484",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1390899426l/34484._SY75_.jpg",
+      "bookDescription": "In the beginning was the Word.<br /><br />And the Word was: \"Hey, you!\" <br /><br />For Brutha the novice is the Chosen One. He wants peace and justice and brotherly love. <br /><br />He also wants the Inquisition to stop torturing him now, please...",
+      "authorName": "Terry Pratchett",
+      "isbn": "0552152978",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2025-04-03T02:51:41.000Z",
+      "userDateCreated": "2025-04-03T02:51:41.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "4.3",
+      "bookPublished": "1992",
+      "description": "<a href=\"https://www.goodreads.com/book/show/34484.Small_Gods?utm_medium=api&amp;utm_source=rss\"><img alt=\"Small Gods (Discworld, #13)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1390899426l/34484._SY75_.jpg\" /></a><br/>\n                                      author: Terry Pratchett<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: 1992<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/04/02<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "389"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/7418194407?utm_medium=api&utm_source=rss",
       "title": "Revenge of the Tipping Point: Overstories, Superspreaders, and the Rise of Social Engineering",
       "link": "https://www.goodreads.com/review/show/7418194407?utm_medium=api&utm_source=rss",
