@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/7489917247?utm_medium=api&utm_source=rss",
+      "title": "Soul Music (Discworld, #16; Death, #3)",
+      "link": "https://www.goodreads.com/review/show/7489917247?utm_medium=api&utm_source=rss",
+      "bookId": "34502",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1168566175l/34502._SY75_.jpg",
+      "bookDescription": "Other children get given xylophones. Susan just had to ask her grandfather to take his vest off. Yes. There's a Death in the family.It's hard to grow up normally when Grandfather rides a white horse and wields a scythe – especially when you have to take over the family business, and everyone mistakes you for the Tooth Fairy.And especially when you have to face the new and addictive music that has entered Discworld.It's lawless. It changes people.It's called \"Music With Rocks In.\"It's got a beat and you can dance to it, but...It's ALIVE.And it won't fade away.",
+      "authorName": "Terry Pratchett",
+      "isbn": "057506689X",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2025-04-15T07:38:06.000Z",
+      "userDateCreated": "2025-04-15T07:38:05.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "4.0",
+      "bookPublished": "1994",
+      "description": "<a href=\"https://www.goodreads.com/book/show/34502.Soul_Music?utm_medium=api&amp;utm_source=rss\"><img alt=\"Soul Music (Discworld, #16; Death, #3)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1168566175l/34502._SY75_.jpg\" /></a><br/>\n                                      author: Terry Pratchett<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: 1994<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/04/15<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "288"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/7474668124?utm_medium=api&utm_source=rss",
       "title": "Lords and Ladies (Discworld, #14; Witches, #4)",
       "link": "https://www.goodreads.com/review/show/7474668124?utm_medium=api&utm_source=rss",
