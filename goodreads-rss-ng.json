@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/7525089968?utm_medium=api&utm_source=rss",
+      "title": "The Tale of Gengi (2 VOLUME BOXED SET)",
+      "link": "https://www.goodreads.com/review/show/7525089968?utm_medium=api&utm_source=rss",
+      "bookId": "170128323",
+      "bookImageURL": "https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png",
+      "bookDescription": "Written centuries before the time of Shakespeare and even Chaucer, <i>The Tale of Genji</i> marks the birth of the novel - and after more than a millenium, this seminal work continues to enchant readers throughout the world. Lady Murasaki Shikibu and her tale's hero, Prince Genji, have had an unmatched influence on Japanese culture. Prince Genji manifests what was to become an image of the ideal Heian-era courtier; gentle and passionate, Genji is also a master poet, dancer, musician and painter. <i>The Tale of Genji</i> follows Prince Genji through his many loves, and varied passions. This book has influenced not only generations of courtiers and samurai of the distant past, but artists and painters even in modern times - episodes in the tale have been incorporated into the design of kimonos and handicrafts, and the four-line poems called <i>waka</i> which dance throughout this work have earned it a place as a classic text in the study of poetry.<br /><br />Lady Murasaki Shikibu, born in the year 978, was a member of the famed Fujiwara clan - one of the most influential families of the Heian period. Her literary ability quickly won her place in the entourage of the Empress Akiko, whose court valued the rare woman who was a master of writing. After the death of her husband, Murasaki Shikibu immersed herself in Buddhism, and the religion's influences permeate her writing.",
+      "authorName": "Murasaki Shikibu",
+      "isbn": "",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2025-04-28T08:01:04.000Z",
+      "userDateCreated": "2025-04-28T07:54:09.000Z",
+      "userShelves": "on-deck",
+      "userReview": "",
+      "averageRating": "3.4",
+      "bookPublished": "1000",
+      "description": "<a href=\"https://www.goodreads.com/book/show/170128323-the-tale-of-gengi?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Tale of Gengi (2 VOLUME BOXED SET)\" src=\"https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png\" /></a><br/>\n                                      author: Murasaki Shikibu<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.4<br/>\n                                      book published: 1000<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/04/28<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "numPages": "1090"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/4632082873?utm_medium=api&utm_source=rss",
       "title": "The Goblin Emperor (The Chronicles of Osreth, #1)",
       "link": "https://www.goodreads.com/review/show/4632082873?utm_medium=api&utm_source=rss",
@@ -13,13 +34,13 @@
       "userName": "Daniel",
       "userRating": "5",
       "userReadAt": "2022-03-30T00:00:00.000Z",
-      "userDateAdded": "2025-04-27T07:48:51.000Z",
+      "userDateAdded": "2025-04-28T07:12:25.000Z",
       "userDateCreated": "2022-03-27T04:49:23.000Z",
       "userShelves": "currently-reading",
       "userReview": "",
       "averageRating": "4.0",
       "bookPublished": "2014",
-      "description": "<a href=\"https://www.goodreads.com/book/show/17910048-the-goblin-emperor?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Goblin Emperor (The Chronicles of Osreth, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1373039517l/17910048._SX50_.jpg\" /></a><br/>\n                                      author: Katherine Addison<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: 2014<br/>\n                                      rating: 5<br/>\n                                      read at: 2022/03/30<br/>\n                                      date added: 2025/04/27<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/17910048-the-goblin-emperor?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Goblin Emperor (The Chronicles of Osreth, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1373039517l/17910048._SX50_.jpg\" /></a><br/>\n                                      author: Katherine Addison<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: 2014<br/>\n                                      rating: 5<br/>\n                                      read at: 2022/03/30<br/>\n                                      date added: 2025/04/28<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
       "numPages": "446"
     },
     {
@@ -4553,9 +4574,9 @@
       "userDateCreated": "2024-04-10T12:38:09.000Z",
       "userShelves": "on-deck",
       "userReview": "",
-      "averageRating": "4.5",
+      "averageRating": "4.4",
       "bookPublished": "2025",
-      "description": "<a href=\"https://www.goodreads.com/book/show/212276037-the-devils?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Devils (The Devils, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1716490016l/212276037._SY75_.jpg\" /></a><br/>\n                                      author: Joe Abercrombie<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.5<br/>\n                                      book published: 2025<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/06/14<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/212276037-the-devils?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Devils (The Devils, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1716490016l/212276037._SY75_.jpg\" /></a><br/>\n                                      author: Joe Abercrombie<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.4<br/>\n                                      book published: 2025<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/06/14<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
       "numPages": "560"
     },
     {
