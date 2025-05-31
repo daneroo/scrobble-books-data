@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/6417264411?utm_medium=api&utm_source=rss",
+      "title": "The Devils (The Devils, #1)",
+      "link": "https://www.goodreads.com/review/show/6417264411?utm_medium=api&utm_source=rss",
+      "bookId": "212276037",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1746869112l/212276037._SY75_.jpg",
+      "bookDescription": "Holy work sometimes requires unholy deeds.<br />Brother Diaz has been summoned to the Sacred City, where he is certain a commendation and grand holy assignment awaits him. But his new flock is made up of unrepentant murderers, practitioners of ghastly magic, and outright monsters, and the mission he is tasked with will require bloody measures from them all in order to achieve its righteous ends.<br /><br />Elves lurk at our borders and hunger for our flesh, while greedy princes care for nothing but their own ambitions and comfort. With a hellish journey before him, it's a good thing Brother Diaz has the devils on his side.",
+      "authorName": "Joe Abercrombie",
+      "isbn": "",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2025-05-31T06:49:11.000Z",
+      "userDateCreated": "2024-04-10T12:38:09.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "4.3",
+      "bookPublished": "2025",
+      "description": "<a href=\"https://www.goodreads.com/book/show/212276037-the-devils?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Devils (The Devils, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1746869112l/212276037._SY75_.jpg\" /></a><br/>\n                                      author: Joe Abercrombie<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: 2025<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/05/30<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "565"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/7421534755?utm_medium=api&utm_source=rss",
       "title": "Between Two Rivers: Ancient Mesopotamia and the Birth of History",
       "link": "https://www.goodreads.com/review/show/7421534755?utm_medium=api&utm_source=rss",
@@ -2058,27 +2079,6 @@
       "bookPublished": "",
       "description": "<a href=\"https://www.goodreads.com/book/show/200622289-goat?utm_medium=api&amp;utm_source=rss\"><img alt=\"GOAT: Who is the Greatest Economist of All Time?\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1698185056l/200622289._SX50_.jpg\" /></a><br/>\n                                      author: Tyler Cowen<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: <br/>\n                                      rating: 4<br/>\n                                      read at: 2024/12/24<br/>\n                                      date added: 2024/12/24<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "349"
-    },
-    {
-      "id": "https://www.goodreads.com/review/show/7098785581?utm_medium=api&utm_source=rss",
-      "title": "Odalisque (The Baroque Cycle, Vol. 1, Book 3)",
-      "link": "https://www.goodreads.com/review/show/7098785581?utm_medium=api&utm_source=rss",
-      "bookId": "829",
-      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1157396687l/829._SY75_.jpg",
-      "bookDescription": "The trials of Dr. Daniel Waterhouse and the Natural Philosophers increase one hundredfold in an England plagued by the impending war and royal insecurities -- as the beautiful and ambitious Eliza plays a most dangerous game as double agent and confidante of enemy kings.",
-      "authorName": "Neal Stephenson",
-      "isbn": "",
-      "userName": "Daniel",
-      "userRating": "4",
-      "userReadAt": "2024-12-23T00:00:00.000Z",
-      "userDateAdded": "2024-12-24T06:36:34.000Z",
-      "userDateCreated": "2024-12-19T07:56:25.000Z",
-      "userShelves": "",
-      "userReview": "",
-      "averageRating": "4.2",
-      "bookPublished": "2005",
-      "description": "<a href=\"https://www.goodreads.com/book/show/829.Odalisque?utm_medium=api&amp;utm_source=rss\"><img alt=\"Odalisque (The Baroque Cycle, Vol. 1, Book 3)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1157396687l/829._SY75_.jpg\" /></a><br/>\n                                      author: Neal Stephenson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 2005<br/>\n                                      rating: 4<br/>\n                                      read at: 2024/12/23<br/>\n                                      date added: 2024/12/23<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
-      "numPages": "464"
     }
   ]
 }
