@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/7669190082?utm_medium=api&utm_source=rss",
+      "title": "The Cambridge History of the Polar Regions",
+      "link": "https://www.goodreads.com/review/show/7669190082?utm_medium=api&utm_source=rss",
+      "bookId": "61421309",
+      "bookImageURL": "https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png",
+      "bookDescription": "The Cambridge History of the Polar Regions is a landmark collection drawing together the history of the Arctic and Antarctica from the earliest times to the present. Structured as a series of thematic chapters, an international team of scholars offer a range of perspectives from environmental history, the history of science and exploration, cultural history, and the more traditional approaches of political, social, economic, and imperial history. The volume considers the centrality of Indigenous experience and the urgent need to build action in the present on a thorough understanding of the past. Using historical research based on methods ranging from archives and print culture to archaeology and oral histories, these essays provide fresh analyses of the discovery of Antarctica, the disappearance of Sir John Franklin, the fate of the Norse colony in Greenland, the origins of the Antarctic Treaty, and much more. This is an invaluable resource for anyone interested in the history of our planet.",
+      "authorName": "Adrian Howkins",
+      "isbn": "1108555659",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2025-06-20T07:32:07.000Z",
+      "userDateCreated": "2025-06-20T07:32:07.000Z",
+      "userShelves": "to-read",
+      "userReview": "",
+      "averageRating": "0.0",
+      "bookPublished": "",
+      "description": "<a href=\"https://www.goodreads.com/book/show/61421309-the-cambridge-history-of-the-polar-regions?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Cambridge History of the Polar Regions\" src=\"https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png\" /></a><br/>\n                                      author: Adrian Howkins<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/06/20<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "numPages": "0"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/7666498733?utm_medium=api&utm_source=rss",
       "title": "Jingo (Discworld, #21; City Watch, #4)",
       "link": "https://www.goodreads.com/review/show/7666498733?utm_medium=api&utm_source=rss",
