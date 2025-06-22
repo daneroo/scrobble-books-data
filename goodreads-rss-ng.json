@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/426793453?utm_medium=api&utm_source=rss",
+      "title": "The Diamond Age: Or, a Young Lady's Illustrated Primer",
+      "link": "https://www.goodreads.com/review/show/426793453?utm_medium=api&utm_source=rss",
+      "bookId": "827",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388180931l/827._SY75_.jpg",
+      "bookDescription": "<i>The Diamond Age: Or, a Young Lady's Illustrated Primer</i> is a postcyberpunk novel by Neal Stephenson. It is to some extent a science fiction coming-of-age story, focused on a young girl named Nell, and set in a future world in which nanotechnology affects all aspects of life. The novel deals with themes of education, social class, ethnicity, and the nature of artificial intelligence.",
+      "authorName": "Neal Stephenson",
+      "isbn": "0553380966",
+      "userName": "Daniel",
+      "userRating": "5",
+      "userReadAt": "2019-12-09T00:00:00.000Z",
+      "userDateAdded": "2025-06-22T03:22:38.000Z",
+      "userDateCreated": "2012-10-03T07:49:37.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "4.2",
+      "bookPublished": "1995",
+      "description": "<a href=\"https://www.goodreads.com/book/show/827.The_Diamond_Age?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Diamond Age: Or, a Young Lady&#39;s Illustrated Primer\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388180931l/827._SY75_.jpg\" /></a><br/>\n                                      author: Neal Stephenson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 1995<br/>\n                                      rating: 5<br/>\n                                      read at: 2019/12/09<br/>\n                                      date added: 2025/06/21<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "499"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/7666498733?utm_medium=api&utm_source=rss",
       "title": "Jingo (Discworld, #21; City Watch, #4)",
       "link": "https://www.goodreads.com/review/show/7666498733?utm_medium=api&utm_source=rss",
@@ -2058,27 +2079,6 @@
       "bookPublished": "2004",
       "description": "<a href=\"https://www.goodreads.com/book/show/227967.The_Confusion_Part_I?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Confusion, Part I (The Baroque Cycle, Vol. 2, Book 1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1172882537l/227967._SY75_.jpg\" /></a><br/>\n                                      author: Neal Stephenson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.5<br/>\n                                      book published: 2004<br/>\n                                      rating: 4<br/>\n                                      read at: 2025/01/10<br/>\n                                      date added: 2025/01/10<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "608"
-    },
-    {
-      "id": "https://www.goodreads.com/review/show/7192491783?utm_medium=api&utm_source=rss",
-      "title": "Between Two Fires",
-      "link": "https://www.goodreads.com/review/show/7192491783?utm_medium=api&utm_source=rss",
-      "bookId": "13543121",
-      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1710293039l/13543121._SY75_.jpg",
-      "bookDescription": "The year is 1348. Thomas, a disgraced knight, has found a young girl alone in a dead Norman village. An orphan of the Black Death, and an almost unnerving picture of innocence, she tells Thomas that plague is only part of a larger cataclysm—that the fallen angels under Lucifer are rising in a second war on heaven, and that the world of men has fallen behind the lines of conflict.<br /><br />Is it delirium or is it faith? She believes she has seen the angels of God. She believes the righteous dead speak to her in dreams. And now she has convinced the faithless Thomas to shepherd her across a depraved landscape to Avignon. There, she tells Thomas, she will fulfill her mission to confront the evil that has devastated the earth, and to restore to this betrayed, murderous knight the nobility and hope of salvation he long abandoned.<br /><br />As hell unleashes its wrath, and as the true nature of the girl is revealed, Thomas will find himself on a macabre battleground of angels and demons, saints, and the risen dead, and in the midst of a desperate struggle for nothing less than the soul of man.",
-      "authorName": "Christopher Buehlman",
-      "isbn": "1937007863",
-      "userName": "Daniel",
-      "userRating": "0",
-      "userReadAt": "",
-      "userDateAdded": "2025-01-09T01:46:20.000Z",
-      "userDateCreated": "2025-01-09T01:46:15.000Z",
-      "userShelves": "to-read",
-      "userReview": "",
-      "averageRating": "4.2",
-      "bookPublished": "2012",
-      "description": "<a href=\"https://www.goodreads.com/book/show/13543121-between-two-fires?utm_medium=api&amp;utm_source=rss\"><img alt=\"Between Two Fires\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1710293039l/13543121._SY75_.jpg\" /></a><br/>\n                                      author: Christopher Buehlman<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 2012<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/01/08<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
-      "numPages": "432"
     }
   ]
 }
