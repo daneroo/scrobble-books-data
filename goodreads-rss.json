@@ -22343,7 +22343,7 @@
       "averageRating": "4.0",
       "bookPublished": "",
       "description": "<a href=\"https://www.goodreads.com/book/show/33369255-data-science-on-the-google-cloud-platform?utm_medium=api&amp;utm_source=rss\"><img alt=\"Data Science on the Google Cloud Platform: Implementing End-to-End Real-Time Data Pipelines: From Ingest to Machine Learning\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1517554773l/33369255._SX50_.jpg\" /></a><br/>\n                                      author: Valliappa Lakshmanan<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2018/08/24<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
-      "numPages": "404"
+      "numPages": "402"
     },
     {
       "id": "https://www.goodreads.com/review/show/2382316884?utm_medium=api&utm_source=rss",
@@ -23649,7 +23649,7 @@
     },
     {
       "id": "https://www.goodreads.com/review/show/829494570?utm_medium=api&utm_source=rss",
-      "title": "Implementing Appfog",
+      "title": "Implementing AppFog",
       "link": "https://www.goodreads.com/review/show/829494570?utm_medium=api&utm_source=rss",
       "bookId": "18961440",
       "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1677808105l/18961440._SX50_.jpg",
@@ -23665,7 +23665,7 @@
       "userReview": "I enjoyed going through this introductory material.<br /><br />The material is well laid out, and will get you to a fully deployed ruby/sinatra app, backed by a MySQL database in no-time flat.<br /><br />This material is specifically aimed towards newcomers to the AppFog PaaS.",
       "averageRating": "4.8",
       "bookPublished": "2013",
-      "description": "<a href=\"https://www.goodreads.com/book/show/18961440-implementing-appfog?utm_medium=api&amp;utm_source=rss\"><img alt=\"Implementing Appfog\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1677808105l/18961440._SX50_.jpg\" /></a><br/>\n                                      author: Matthew Nohr<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.8<br/>\n                                      book published: 2013<br/>\n                                      rating: 4<br/>\n                                      read at: 2014/01/20<br/>\n                                      date added: 2014/01/26<br/>\n                                      shelves: <br/>\n                                      review: <br/>I enjoyed going through this introductory material.<br /><br />The material is well laid out, and will get you to a fully deployed ruby/sinatra app, backed by a MySQL database in no-time flat.<br /><br />This material is specifically aimed towards newcomers to the AppFog PaaS.<br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/18961440-implementing-appfog?utm_medium=api&amp;utm_source=rss\"><img alt=\"Implementing AppFog\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1677808105l/18961440._SX50_.jpg\" /></a><br/>\n                                      author: Matthew Nohr<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.8<br/>\n                                      book published: 2013<br/>\n                                      rating: 4<br/>\n                                      read at: 2014/01/20<br/>\n                                      date added: 2014/01/26<br/>\n                                      shelves: <br/>\n                                      review: <br/>I enjoyed going through this introductory material.<br /><br />The material is well laid out, and will get you to a fully deployed ruby/sinatra app, backed by a MySQL database in no-time flat.<br /><br />This material is specifically aimed towards newcomers to the AppFog PaaS.<br/>",
       "numPages": "86"
     },
     {
