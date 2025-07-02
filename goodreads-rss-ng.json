@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/4676679091?utm_medium=api&utm_source=rss",
+      "title": "2034: A Novel of the Next World War",
+      "link": "https://www.goodreads.com/review/show/4676679091?utm_medium=api&utm_source=rss",
+      "bookId": "54211065",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1593385556l/54211065._SY75_.jpg",
+      "bookDescription": "On March 12, 2034, US Navy Commodore Sarah Hunt is on the bridge of her flagship, the guided missile destroyer USS John Paul Jones, conducting a routine freedom of navigation patrol in the South China Sea when her ship detects an unflagged trawler in clear distress, smoke billowing from its bridge. On that same day, US Marine aviator Major Chris \"Wedge\" Mitchell is flying an F35E Lightning over the Strait of Hormuz, testing a new stealth technology as he flirts with Iranian airspace.<p></p><p>By the end of that day, Wedge will be an Iranian prisoner, and Sarah Hunt's destroyer will lie at the bottom of the sea, sunk by the Chinese Navy. Iran and China have clearly coordinated their moves, which involve the use of powerful new forms of cyber weaponry that render US ships and planes defenseless. In a single day, America's faith in its military's strategic pre-eminence is in tatters. A new, terrifying era is at hand.</p><p></p><p>So begins a disturbingly plausible work of speculative fiction, co-authored by an award-winning novelist and decorated Marine veteran and the former commander of NATO, a legendary admiral who has spent much of his career strategically out maneuvering America's most tenacious adversaries.</p><p>Written with a powerful blend of geopolitical sophistication and literary, human empathy, 2034 takes us inside the minds of a global cast of characters--Americans, Chinese, Iranians, Russians, Indians--as a series of arrogant miscalculations on all sides leads the world into an intensifying international storm. In the end, China and the United States will have paid a staggering cost, one that forever alters the global balance of power.</p><p>Everything in 2034 is an imaginative extrapolation from present-day facts on the ground combined with the authors' years working at the highest and most classified levels of national security. Sometimes it takes a brilliant work of fiction to illuminate the most dire of warnings: 2034 is all too close at hand, and this cautionary tale presents the reader a dark yet possible future that we must do all we can to avoid.</p>",
+      "authorName": "Elliot Ackerman",
+      "isbn": "1984881256",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2025-07-02T07:45:49.000Z",
+      "userDateCreated": "2022-04-19T07:18:11.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "3.7",
+      "bookPublished": "2021",
+      "description": "<a href=\"https://www.goodreads.com/book/show/54211065-2034?utm_medium=api&amp;utm_source=rss\"><img alt=\"2034: A Novel of the Next World War\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1593385556l/54211065._SY75_.jpg\" /></a><br/>\n                                      author: Elliot Ackerman<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.7<br/>\n                                      book published: 2021<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/07/02<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "320"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/3947573921?utm_medium=api&utm_source=rss",
       "title": "Kinds of Minds: Toward an Understanding of Consciousness",
       "link": "https://www.goodreads.com/review/show/3947573921?utm_medium=api&utm_source=rss",
@@ -11,15 +32,15 @@
       "authorName": "Daniel C. Dennett",
       "isbn": "0465073514",
       "userName": "Daniel",
-      "userRating": "0",
-      "userReadAt": "",
-      "userDateAdded": "2025-07-01T07:03:01.000Z",
+      "userRating": "4",
+      "userReadAt": "2025-07-01T00:00:00.000Z",
+      "userDateAdded": "2025-07-02T06:10:23.000Z",
       "userDateCreated": "2021-04-16T05:48:38.000Z",
-      "userShelves": "currently-reading",
+      "userShelves": "",
       "userReview": "",
       "averageRating": "3.8",
       "bookPublished": "1996",
-      "description": "<a href=\"https://www.goodreads.com/book/show/2074.Kinds_of_Minds?utm_medium=api&amp;utm_source=rss\"><img alt=\"Kinds of Minds: Toward an Understanding of Consciousness\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388242069l/2074._SY75_.jpg\" /></a><br/>\n                                      author: Daniel C. Dennett<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.8<br/>\n                                      book published: 1996<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/07/01<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/2074.Kinds_of_Minds?utm_medium=api&amp;utm_source=rss\"><img alt=\"Kinds of Minds: Toward an Understanding of Consciousness\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388242069l/2074._SY75_.jpg\" /></a><br/>\n                                      author: Daniel C. Dennett<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.8<br/>\n                                      book published: 1996<br/>\n                                      rating: 4<br/>\n                                      read at: 2025/07/01<br/>\n                                      date added: 2025/07/01<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "184"
     },
     {
@@ -2058,27 +2079,6 @@
       "bookPublished": "2003",
       "description": "<a href=\"https://www.goodreads.com/book/show/227968.Currency?utm_medium=api&amp;utm_source=rss\"><img alt=\"Currency (The Baroque Cycle, Vol. 3, Book 2)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1308799105l/227968._SX50_.jpg\" /></a><br/>\n                                      author: Neal Stephenson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.4<br/>\n                                      book published: 2003<br/>\n                                      rating: 4<br/>\n                                      read at: 2025/01/19<br/>\n                                      date added: 2025/01/19<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "448"
-    },
-    {
-      "id": "https://www.goodreads.com/review/show/7227938396?utm_medium=api&utm_source=rss",
-      "title": "The Richness of Life: The Essential Stephen Jay Gould",
-      "link": "https://www.goodreads.com/review/show/7227938396?utm_medium=api&utm_source=rss",
-      "bookId": "33937",
-      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388363119l/33937._SY75_.jpg",
-      "bookDescription": "<i>\"Nature is so wondrously complex and varied that almost anything possible does happen....I rejoice in [its] multifariousness and leave the chimera of certainty to politicians and preachers.\"</i>—from <i>Ever Since Darwin</i><br /><br /><br />Upon his death in 2002, Stephen Jay Gould stood at the pinnacle among observers of the natural world, recognized by Congress as a \"living legend.\" His prodigious legacy—sixteen best-selling and prize-winning books, dozens of scientific papers, an unbroken series of three hundred essays in <i>Natural History</i>—combined to make Gould the most widely read science writer of our time. This indispensable collection of forty-eight pieces from his brilliant oeuvre includes selections from classics such as <i>Ever Since Darwin</i> and <i>The Mismeasure of Man</i>, plus articles and speeches never before published in book form.<br /><br /><br />This volume, the last that will bear his name, spotlights his elegance, depth, and sheer pleasure in our world—a true celebration of an extraordinary mind.",
-      "authorName": "Stephen Jay Gould",
-      "isbn": "0393064980",
-      "userName": "Daniel",
-      "userRating": "0",
-      "userReadAt": "",
-      "userDateAdded": "2025-01-18T07:35:14.000Z",
-      "userDateCreated": "2025-01-18T07:34:02.000Z",
-      "userShelves": "on-deck",
-      "userReview": "",
-      "averageRating": "4.3",
-      "bookPublished": "2006",
-      "description": "<a href=\"https://www.goodreads.com/book/show/33937.The_Richness_of_Life?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Richness of Life: The Essential Stephen Jay Gould\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388363119l/33937._SY75_.jpg\" /></a><br/>\n                                      author: Stephen Jay Gould<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: 2006<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/01/17<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
-      "numPages": "672"
     }
   ]
 }
