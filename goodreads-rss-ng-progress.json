@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/7719781273?utm_medium=api&utm_source=rss",
+      "title": "Dimension of Miracles (Dimension of Miracles #1)",
+      "link": "https://www.goodreads.com/review/show/7719781273?utm_medium=api&utm_source=rss",
+      "bookId": "668634",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1331708621l/668634._SY75_.jpg",
+      "bookDescription": "It had to be somewhere, Carmody knew that much. It was waiting for him, just as he had left it. But where? He only knew he was in the center of a galaxy in a universe of galaxies. Within them lay endless varieties of the planet Earth. And there was only one way to find his Earth he would have to visit each one. And he would have to hurry--because his search for home had turned into a race with death.",
+      "authorName": "Robert Sheckley",
+      "isbn": "0441148603",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2025-07-08T08:20:05.000Z",
+      "userDateCreated": "2025-07-08T08:20:04.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "3.9",
+      "bookPublished": "1968",
+      "description": "<a href=\"https://www.goodreads.com/book/show/668634.Dimension_of_Miracles?utm_medium=api&amp;utm_source=rss\"><img alt=\"Dimension of Miracles (Dimension of Miracles #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1331708621l/668634._SY75_.jpg\" /></a><br/>\n                                      author: Robert Sheckley<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: 1968<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/07/08<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "214"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/7710737092?utm_medium=api&utm_source=rss",
       "title": "2054",
       "link": "https://www.goodreads.com/review/show/7710737092?utm_medium=api&utm_source=rss",
@@ -2058,27 +2079,6 @@
       "bookPublished": "",
       "description": "<a href=\"https://www.goodreads.com/book/show/62050269-a-brief-history-of-intelligence?utm_medium=api&amp;utm_source=rss\"><img alt=\"A Brief History of Intelligence: Evolution, AI, and the Five Breakthroughs That Made Our Brains\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1678219676l/62050269._SX50_.jpg\" /></a><br/>\n                                      author: Max Solomon Bennett<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.4<br/>\n                                      book published: <br/>\n                                      rating: 4<br/>\n                                      read at: 2025/01/23<br/>\n                                      date added: 2025/01/23<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "432"
-    },
-    {
-      "id": "https://www.goodreads.com/review/show/7247467840?utm_medium=api&utm_source=rss",
-      "title": "The London Hanged: Crime and Civil Society in the Eighteenth Century",
-      "link": "https://www.goodreads.com/review/show/7247467840?utm_medium=api&utm_source=rss",
-      "bookId": "853078",
-      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1373998246l/853078._SX50_.jpg",
-      "bookDescription": "Peter Linebaugh’s groundbreaking history has become an inescapable part of any understanding of the rise of capitalism. In eighteenth-century London the spectacle of a hanging was not simply a form of punishing transgressors.<br /><br />Rather it evidently served the most sinister purpose—for a prvileged ruling class—of forcing the poor population of London to accept the criminalization of customary rights and the new forms of private property. Necessity drove the city’s poor into inevitable conflict with the changing property laws, such that all the working-class men and women of London had good reason to fear the example of Tyburn’s Triple Tree.<br /><br />In this new edition Peter Linebaugh reinforces his original arguments with responses to his critics based on an impressive array of historical sources. As the trend of capital punishment intensifies with the spread of global capitalism, The London Hanged also gains in contemporary relevance.",
-      "authorName": "Peter Linebaugh",
-      "isbn": "1859845762",
-      "userName": "Daniel",
-      "userRating": "0",
-      "userReadAt": "",
-      "userDateAdded": "2025-01-23T08:32:11.000Z",
-      "userDateCreated": "2025-01-23T08:32:11.000Z",
-      "userShelves": "to-read",
-      "userReview": "",
-      "averageRating": "4.3",
-      "bookPublished": "1991",
-      "description": "<a href=\"https://www.goodreads.com/book/show/853078.The_London_Hanged?utm_medium=api&amp;utm_source=rss\"><img alt=\"The London Hanged: Crime and Civil Society in the Eighteenth Century\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1373998246l/853078._SX50_.jpg\" /></a><br/>\n                                      author: Peter Linebaugh<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: 1991<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/01/23<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
-      "numPages": "522"
     }
   ]
 }

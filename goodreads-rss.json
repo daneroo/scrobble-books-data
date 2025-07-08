@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/7719781273?utm_medium=api&utm_source=rss",
+      "title": "Dimension of Miracles (Dimension of Miracles #1)",
+      "link": "https://www.goodreads.com/review/show/7719781273?utm_medium=api&utm_source=rss",
+      "bookId": "668634",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1331708621l/668634._SY75_.jpg",
+      "bookDescription": "It had to be somewhere, Carmody knew that much. It was waiting for him, just as he had left it. But where? He only knew he was in the center of a galaxy in a universe of galaxies. Within them lay endless varieties of the planet Earth. And there was only one way to find his Earth he would have to visit each one. And he would have to hurry--because his search for home had turned into a race with death.",
+      "authorName": "Robert Sheckley",
+      "isbn": "0441148603",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2025-07-08T08:20:05.000Z",
+      "userDateCreated": "2025-07-08T08:20:04.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "3.9",
+      "bookPublished": "1968",
+      "description": "<a href=\"https://www.goodreads.com/book/show/668634.Dimension_of_Miracles?utm_medium=api&amp;utm_source=rss\"><img alt=\"Dimension of Miracles (Dimension of Miracles #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1331708621l/668634._SY75_.jpg\" /></a><br/>\n                                      author: Robert Sheckley<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: 1968<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/07/08<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "214"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/7710737092?utm_medium=api&utm_source=rss",
       "title": "2054",
       "link": "https://www.goodreads.com/review/show/7710737092?utm_medium=api&utm_source=rss",
