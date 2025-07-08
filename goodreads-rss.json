@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/7719012560?utm_medium=api&utm_source=rss",
+      "title": "Priest of Bones (War for the Rose Throne, #1)",
+      "link": "https://www.goodreads.com/review/show/7719012560?utm_medium=api&utm_source=rss",
+      "bookId": "37884491",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1517589565l/37884491._SX50_.jpg",
+      "bookDescription": "The war is over, and army priest Tomas Piety heads home with Sergeant Bloody Anne at his side. But things have changed while he was away: his crime empire has been stolen and the people of Ellinburg--his people--have run out of food and hope and places to hide. Tomas sets out to reclaim what was his with help from Anne, his brother, Jochan, and his new gang: the Pious Men. But when he finds himself dragged into a web of political intrigue once again, everything gets more complicated.<br /><br />As the Pious Men fight shadowy foreign infiltrators in the back-street taverns, brothels, and gambling dens of Tomas's old life, it becomes clear: <br />The war is only just beginning.",
+      "authorName": "Peter McLean",
+      "isbn": "0451490215",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2025-07-08T01:31:55.000Z",
+      "userDateCreated": "2025-07-08T01:31:54.000Z",
+      "userShelves": "on-deck",
+      "userReview": "",
+      "averageRating": "3.9",
+      "bookPublished": "2018",
+      "description": "<a href=\"https://www.goodreads.com/book/show/37884491-priest-of-bones?utm_medium=api&amp;utm_source=rss\"><img alt=\"Priest of Bones (War for the Rose Throne, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1517589565l/37884491._SX50_.jpg\" /></a><br/>\n                                      author: Peter McLean<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: 2018<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/07/07<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "numPages": "331"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/7710737092?utm_medium=api&utm_source=rss",
       "title": "2054",
       "link": "https://www.goodreads.com/review/show/7710737092?utm_medium=api&utm_source=rss",
