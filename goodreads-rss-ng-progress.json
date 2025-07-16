@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/7742958677?utm_medium=api&utm_source=rss",
+      "title": "Ancillary Sword (Imperial Radch, #2)",
+      "link": "https://www.goodreads.com/review/show/7742958677?utm_medium=api&utm_source=rss",
+      "bookId": "20706284",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1597476183l/20706284._SY75_.jpg",
+      "bookDescription": "<i>Ancillary Sword</i> is the sequel to <i>Ancillary Justice</i>, the debut novel which won every major science fiction award in 2014 - and the only novel to have won the Hugo, the Nebula and the Arthur C. Clarke Awards.<br /><br />Breq is a soldier who used to be a warship. Once a weapon of conquest controlling thousands of minds, now she only has a single body and serves the emperor she swore to destroy.<br /><br />Given a new ship and a troublesome crew, Breq is ordered to the only place in the galaxy she will agree to go: Athoek station, to protect the family of a lieutenant she once knew - a lieutenant she murdered in cold blood.<br /><br />",
+      "authorName": "Ann Leckie",
+      "isbn": "0316246654",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2025-07-16T06:57:20.000Z",
+      "userDateCreated": "2025-07-16T06:57:19.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "4.0",
+      "bookPublished": "2014",
+      "description": "<a href=\"https://www.goodreads.com/book/show/20706284-ancillary-sword?utm_medium=api&amp;utm_source=rss\"><img alt=\"Ancillary Sword (Imperial Radch, #2)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1597476183l/20706284._SY75_.jpg\" /></a><br/>\n                                      author: Ann Leckie<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: 2014<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/07/15<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "359"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/7725458680?utm_medium=api&utm_source=rss",
       "title": "Ancillary Justice (Imperial Radch, #1)",
       "link": "https://www.goodreads.com/review/show/7725458680?utm_medium=api&utm_source=rss",
@@ -448,7 +469,7 @@
       "link": "https://www.goodreads.com/review/show/7665940189?utm_medium=api&utm_source=rss",
       "bookId": "228697879",
       "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1741285436l/228697879._SY75_.jpg",
-      "bookDescription": "<b>\"May prove to be the most important book of our time.”—Tim Urban, <i>Wait But Why</i></b><br /><br /><b>The scramble to create superhuman AI has put us on the path to extinction—but it’s not too late to change course, as two of the field’s earliest researchers explain in this clarion call for humanity.</b><br /><br /> In 2023, hundreds of AI luminaries signed an open letter warning that artificial intelligence poses a serious risk of human extinction. Since then, the AI race has only intensified. Companies and countries are rushing to build machines that will be smarter than any person. And the world is devastatingly unprepared for what would come next.<br />  <br /> For decades, two signatories of that letter—Eliezer Yudkowsky and Nate Soares—have studied how smarter-than-human intelligences will think, behave, and pursue their objectives. Their research says that sufficiently smart AIs will develop goals of their own that put them in conflict with us—and that if it comes to conflict, an artificial superintelligence would crush us. The contest wouldn’t even be close.<br />  <br /> How could a machine superintelligence wipe out our entire species? Why would it want to? Would it want anything at all? In this urgent book, Yudkowsky and Soares walk through the theory and the evidence, present one possible extinction scenario, and explain what it would take for humanity to survive. <br />  <br /> The world is racing to build something truly new under the sun. And if anyone builds it, everyone dies.<br /><br /><b>“The best no-nonsense, simple explanation of the AI risk problem I've ever read.”—Yishan Wong, Former CEO of Reddit</b>",
+      "bookDescription": "<b>The scramble to create superhuman AI has put us on the path to extinction—but it’s not too late to change course, as two of the field’s earliest researchers explain in this clarion call for humanity.<br /><br /> \"May prove to be the most important book of our time.”—Tim Urban, <i>Wait But Why</i></b><br /><br /> In 2023, hundreds of AI luminaries signed an open letter warning that artificial intelligence poses a serious risk of human extinction. Since then, the AI race has only intensified. Companies and countries are rushing to build machines that will be smarter than any person. And the world is devastatingly unprepared for what would come next.<br />  <br /> For decades, two signatories of that letter—Eliezer Yudkowsky and Nate Soares—have studied how smarter-than-human intelligences will think, behave, and pursue their objectives. Their research says that sufficiently smart AIs will develop goals of their own that put them in conflict with us—and that if it comes to conflict, an artificial superintelligence would crush us. The contest wouldn’t even be close.<br />  <br /> How could a machine superintelligence wipe out our entire species? Why would it want to? Would it want anything at all? In this urgent book, Yudkowsky and Soares walk through the theory and the evidence, present one possible extinction scenario, and explain what it would take for humanity to survive. <br />  <br /> The world is racing to build something truly new under the sun. And if anyone builds it, everyone dies.<br /><br /><b>“The best no-nonsense, simple explanation of the AI risk problem I've ever read.”—Yishan Wong, Former CEO of Reddit</b>",
       "authorName": "Eliezer Yudkowsky",
       "isbn": "0316595667",
       "userName": "Daniel",
@@ -2058,27 +2079,6 @@
       "bookPublished": "2023",
       "description": "<a href=\"https://www.goodreads.com/book/show/62873378-the-art-thief?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Art Thief\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1701688707l/62873378._SX50_.jpg\" /></a><br/>\n                                      author: Michael Finkel<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: 2023<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/01/30<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "224"
-    },
-    {
-      "id": "https://www.goodreads.com/review/show/7264786803?utm_medium=api&utm_source=rss",
-      "title": "Men at Arms (Discworld, #15; City Watch, #2)",
-      "link": "https://www.goodreads.com/review/show/7264786803?utm_medium=api&utm_source=rss",
-      "bookId": "400354",
-      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388215150l/400354._SY75_.jpg",
-      "bookDescription": "\"Be a MAN in the City Watch! The City Watch needs MEN!\"<br /><br />But what it's got includes Corporal Carrot (technically a dwarf), Lance-constable Cuddy (really a dwarf), Lance constable Detritus (a troll), Lance constable Angua (a woman... most of the time), and Corporal Nobbs (disqualified from the human race for shoving).<br /><br />And they need all the help they can get. Because they've only got twenty-four hours to clean up the town and this is Ankh-Morpork we're talking about...",
-      "authorName": "Terry Pratchett",
-      "isbn": "0061092193",
-      "userName": "Daniel",
-      "userRating": "5",
-      "userReadAt": "2025-01-30T00:00:00.000Z",
-      "userDateAdded": "2025-01-30T08:41:36.000Z",
-      "userDateCreated": "2025-01-28T04:37:07.000Z",
-      "userShelves": "",
-      "userReview": "",
-      "averageRating": "4.4",
-      "bookPublished": "1993",
-      "description": "<a href=\"https://www.goodreads.com/book/show/400354.Men_at_Arms?utm_medium=api&amp;utm_source=rss\"><img alt=\"Men at Arms (Discworld, #15; City Watch, #2)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388215150l/400354._SY75_.jpg\" /></a><br/>\n                                      author: Terry Pratchett<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.4<br/>\n                                      book published: 1993<br/>\n                                      rating: 5<br/>\n                                      read at: 2025/01/30<br/>\n                                      date added: 2025/01/30<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
-      "numPages": "377"
     }
   ]
 }
