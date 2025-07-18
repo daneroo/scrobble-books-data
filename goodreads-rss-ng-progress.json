@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/7748579618?utm_medium=api&utm_source=rss",
+      "title": "Ancillary Mercy (Imperial Radch, #3)",
+      "link": "https://www.goodreads.com/review/show/7748579618?utm_medium=api&utm_source=rss",
+      "bookId": "23533039",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1493642929l/23533039._SX50_.jpg",
+      "bookDescription": "<i>Ancillary Mercy</i> is the third book in the trilogy that began with <i>Ancillary Justice</i>.<br /><br />For a moment, things seemed to be under control for Breq, the soldier who used to be a warship. Then a search of Athoek Station's slums turns up someone who shouldn't exist and a messenger from the mysterious Presger empire arrives, as does Breq's old enemy, the divided, heavily armed, and possibly insane Anaander Mianaai—ruler of an empire at war with itself.<br /><br />Breq could flee with her ship and crew, but that would leave the people of Athoek in terrible danger. Breq has a desperate plan. The odds aren't good, but that's never stopped her before.",
+      "authorName": "Ann Leckie",
+      "isbn": "",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2025-07-18T03:34:25.000Z",
+      "userDateCreated": "2025-07-18T03:34:24.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "4.2",
+      "bookPublished": "2015",
+      "description": "<a href=\"https://www.goodreads.com/book/show/23533039-ancillary-mercy?utm_medium=api&amp;utm_source=rss\"><img alt=\"Ancillary Mercy (Imperial Radch, #3)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1493642929l/23533039._SX50_.jpg\" /></a><br/>\n                                      author: Ann Leckie<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 2015<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/07/17<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "328"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/7742958677?utm_medium=api&utm_source=rss",
       "title": "Ancillary Sword (Imperial Radch, #2)",
       "link": "https://www.goodreads.com/review/show/7742958677?utm_medium=api&utm_source=rss",
@@ -11,15 +32,15 @@
       "authorName": "Ann Leckie",
       "isbn": "0316246654",
       "userName": "Daniel",
-      "userRating": "0",
-      "userReadAt": "",
-      "userDateAdded": "2025-07-17T06:50:20.000Z",
+      "userRating": "4",
+      "userReadAt": "2025-07-17T00:00:00.000Z",
+      "userDateAdded": "2025-07-18T03:32:39.000Z",
       "userDateCreated": "2025-07-16T06:57:19.000Z",
-      "userShelves": "currently-reading",
+      "userShelves": "",
       "userReview": "",
       "averageRating": "4.0",
       "bookPublished": "2014",
-      "description": "<a href=\"https://www.goodreads.com/book/show/20706284-ancillary-sword?utm_medium=api&amp;utm_source=rss\"><img alt=\"Ancillary Sword (Imperial Radch, #2)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1597476183l/20706284._SY75_.jpg\" /></a><br/>\n                                      author: Ann Leckie<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: 2014<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/07/16<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/20706284-ancillary-sword?utm_medium=api&amp;utm_source=rss\"><img alt=\"Ancillary Sword (Imperial Radch, #2)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1597476183l/20706284._SY75_.jpg\" /></a><br/>\n                                      author: Ann Leckie<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: 2014<br/>\n                                      rating: 4<br/>\n                                      read at: 2025/07/17<br/>\n                                      date added: 2025/07/17<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "359"
     },
     {
@@ -2058,27 +2079,6 @@
       "bookPublished": "1929",
       "description": "<a href=\"https://www.goodreads.com/book/show/60552475-what-is-metaphysics-what-is-philosophy-and-other-writings?utm_medium=api&amp;utm_source=rss\"><img alt=\"What Is Metaphysics, What Is Philosophy and Other Writings\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1646476339l/60552475._SX50_.jpg\" /></a><br/>\n                                      author: Martin Heidegger<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.7<br/>\n                                      book published: 1929<br/>\n                                      rating: 4<br/>\n                                      read at: 2025/01/30<br/>\n                                      date added: 2025/01/30<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "0"
-    },
-    {
-      "id": "https://www.goodreads.com/review/show/7271919719?utm_medium=api&utm_source=rss",
-      "title": "The Art Thief",
-      "link": "https://www.goodreads.com/review/show/7271919719?utm_medium=api&utm_source=rss",
-      "bookId": "62873378",
-      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1701688707l/62873378._SX50_.jpg",
-      "bookDescription": "<b>One of the most remarkable true-crime narratives of the twenty-first the story of the world’s most prolific art thief, Stéphane Breitwieser.</b><br /><br />In this spellbinding portrait of obsession and flawed genius, the best-selling author of <i>The Stranger in the Woods</i> brings us into Breitwieser’s strange world—unlike most thieves, he never stole for money, keeping all his treasures in a single room where he could admire them.<br /><br />For centuries, works of art have been stolen in countless ways from all over the world, but no one has been quite as successful at it as the master thief Stéphane Breitwieser. Carrying out more than two hundred heists over nearly eight years—in museums and cathedrals all over Europe—Breitwieser, along with his girlfriend who worked as his lookout, stole more than three hundred objects, until it all fell apart in spectacular fashion.<br /><br />In <i>The Art Thief</i>, Michael Finkel brings us into Breitwieser’s strange and fascinating world. Unlike most thieves, Breitwieser never stole for money. Instead, he displayed all his treasures in a pair of secret rooms where he could admire them to his heart’s content. Possessed of a remarkable athleticism and an innate ability to circumvent practically any security system, Breitwieser managed to pull off a breathtaking number of audacious thefts. Yet these strange talents bred a growing disregard for risk and an addict’s need to score, leading Breitwieser to ignore his girlfriend’s pleas to stop—until one final act of hubris brought everything crashing down.<br /><br />This is a riveting story of art, crime, love, and an insatiable hunger to possess beauty at any cost.",
-      "authorName": "Michael Finkel",
-      "isbn": "0525657320",
-      "userName": "Daniel",
-      "userRating": "0",
-      "userReadAt": "",
-      "userDateAdded": "2025-01-30T08:52:43.000Z",
-      "userDateCreated": "2025-01-30T08:52:43.000Z",
-      "userShelves": "to-read",
-      "userReview": "",
-      "averageRating": "3.9",
-      "bookPublished": "2023",
-      "description": "<a href=\"https://www.goodreads.com/book/show/62873378-the-art-thief?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Art Thief\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1701688707l/62873378._SX50_.jpg\" /></a><br/>\n                                      author: Michael Finkel<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: 2023<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/01/30<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
-      "numPages": "224"
     }
   ]
 }
