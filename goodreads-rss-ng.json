@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/4616257872?utm_medium=api&utm_source=rss",
+      "title": "The Hacker and the State: Cyber Attacks and the New Normal of Geopolitics",
+      "link": "https://www.goodreads.com/review/show/4616257872?utm_medium=api&utm_source=rss",
+      "bookId": "51589806",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1574911946l/51589806._SX50_SY75_.jpg",
+      "bookDescription": "Packed with insider information based on interviews, declassified files, and forensic analysis of company reports, <i>The Hacker and the State</i> sets aside fantasies of cyber-annihilation to explore the real geopolitical competition of the digital age. Tracing the conflict of wills and interests among modern nations, Ben Buchanan reveals little-known details of how China, Russia, North Korea, Britain, and the United States hack one another in a relentless struggle for dominance. His analysis moves deftly from underseas cable taps to underground nuclear sabotage, from blackouts and data breaches to billion-dollar heists and election interference.<br /><br />Buchanan brings to life this continuous cycle of espionage and deception, attack and counterattack, destabilization and retaliation. He explains why cyber attacks are far less destructive than we anticipated, far more pervasive, and much harder to prevent. With little fanfare and far less scrutiny, they impact our banks, our tech and health systems, our democracy, and every aspect of our lives. Quietly, insidiously, they have reshaped our national-security priorities and transformed spycraft and statecraft.<br /><br />The contest for geopolitical advantage has moved into cyberspace. The United States and its allies can no longer dominate the way they once did. The nation that hacks best will triumph.",
+      "authorName": "Ben  Buchanan",
+      "isbn": "0674987551",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2025-07-22T06:43:42.000Z",
+      "userDateCreated": "2022-03-18T22:52:30.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "4.2",
+      "bookPublished": "2020",
+      "description": "<a href=\"https://www.goodreads.com/book/show/51589806-the-hacker-and-the-state?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Hacker and the State: Cyber Attacks and the New Normal of Geopolitics\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1574911946l/51589806._SX50_SY75_.jpg\" /></a><br/>\n                                      author: Ben  Buchanan<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 2020<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/07/21<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "384"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/6534489332?utm_medium=api&utm_source=rss",
       "title": "Why We Remember: Unlocking Memory's Power to Hold on to What Matters",
       "link": "https://www.goodreads.com/review/show/6534489332?utm_medium=api&utm_source=rss",
@@ -2058,27 +2079,6 @@
       "bookPublished": "1995",
       "description": "<a href=\"https://www.goodreads.com/book/show/4806.Longitude?utm_medium=api&amp;utm_source=rss\"><img alt=\"Longitude: The True Story of a Lone Genius Who Solved the Greatest Scientific Problem of His Time\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388462711l/4806._SY75_.jpg\" /></a><br/>\n                                      author: Dava Sobel<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: 1995<br/>\n                                      rating: 4<br/>\n                                      read at: 2025/02/02<br/>\n                                      date added: 2025/02/02<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "184"
-    },
-    {
-      "id": "https://www.goodreads.com/review/show/7271922158?utm_medium=api&utm_source=rss",
-      "title": "Sourcery (Discworld, #5; Rincewind, #3)",
-      "link": "https://www.goodreads.com/review/show/7271922158?utm_medium=api&utm_source=rss",
-      "bookId": "34499",
-      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1439607843l/34499._SY75_.jpg",
-      "bookDescription": "There was an eighth son of an eighth son. He was, quite naturally, a wizard. And there it should have ended. However (for reasons we'd better not go into), he had seven sons. And then he had an eighth son... a wizard squared... a source of magic... a Sourcerer.",
-      "authorName": "Terry Pratchett",
-      "isbn": "0061020672",
-      "userName": "Daniel",
-      "userRating": "3",
-      "userReadAt": "2025-02-02T00:00:00.000Z",
-      "userDateAdded": "2025-02-02T08:28:06.000Z",
-      "userDateCreated": "2025-01-30T08:54:45.000Z",
-      "userShelves": "",
-      "userReview": "",
-      "averageRating": "3.9",
-      "bookPublished": "1988",
-      "description": "<a href=\"https://www.goodreads.com/book/show/34499.Sourcery?utm_medium=api&amp;utm_source=rss\"><img alt=\"Sourcery (Discworld, #5; Rincewind, #3)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1439607843l/34499._SY75_.jpg\" /></a><br/>\n                                      author: Terry Pratchett<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: 1988<br/>\n                                      rating: 3<br/>\n                                      read at: 2025/02/02<br/>\n                                      date added: 2025/02/02<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
-      "numPages": "276"
     }
   ]
 }
