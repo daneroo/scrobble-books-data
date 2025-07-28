@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/7778216484?utm_medium=api&utm_source=rss",
+      "title": "When Minds Converse: A Social Genealogy of the Human Soul",
+      "link": "https://www.goodreads.com/review/show/7778216484?utm_medium=api&utm_source=rss",
+      "bookId": "223629149",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1736878461l/223629149._SY75_.jpg",
+      "bookDescription": "When Minds Converse argues that we do not speak because our human minds are special; our minds are special because we can speak. It maintains that six capacities characteristic of our species emerge as social skills in conversing with one another and that we internalize those skills in mentally communing with ourselves in thought. Philip Pettit defends a society-first view of the human mind and more broadly, the human soul, gesturing at how this philosophical anthropology can support universal ideals of equality, respect and freedom.<br /><br />Three of the abilities the book targets involve informational processing. Our capacity to update our beliefs and other attitudes intentionally, seeking out the judgments that we ought to make and the attitudes we ought to hold. Our capacity to rely on intentional reasoning, looking for the grounds on which to support judgments and looking at what our judgments in turn support. And our ability to direct perception intentionally, as we recruit it to the service of those capacities and learn to distinguish between appearance and reality. The other three capacities addressed have a relational character. Our ability to establish and uphold standards and values for one another and for ourselves, making tacit commitments to live by them. Our ability to ascribe and assume accountability, holding one another and ourselves responsible to those norms and values. And our ability to assume the status of persons, embracing the implications of those commitments in the persona we hold out to others, and indeed to ourselves. <br /><br />Pettit offers an empirically informed but philosophical defence of his view. In an extended thought experiment, a conceptual genealogy, he explores the likely, unplanned effects that the first appearance of language would have on the minds of humanoid creatures otherwise like us. The argument is that they would evolve a range of conversive practices and that the skills elicited by those practices are good models of the capacities targeted here. The genealogy does not try to explain how those practices and skills evolved among our forebears but, relying on the lessons of the thought experiment, seeks to shed light on their nature and role in our social and mental life.",
+      "authorName": "Philip Pettit",
+      "isbn": "019886311X",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2025-07-28T07:47:01.000Z",
+      "userDateCreated": "2025-07-28T07:46:55.000Z",
+      "userShelves": "on-deck",
+      "userReview": "",
+      "averageRating": "0.0",
+      "bookPublished": "",
+      "description": "<a href=\"https://www.goodreads.com/book/show/223629149-when-minds-converse?utm_medium=api&amp;utm_source=rss\"><img alt=\"When Minds Converse: A Social Genealogy of the Human Soul\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1736878461l/223629149._SY75_.jpg\" /></a><br/>\n                                      author: Philip Pettit<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/07/28<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "numPages": "384"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/7778045634?utm_medium=api&utm_source=rss",
       "title": "Golden Fool (Tawny Man, #2)",
       "link": "https://www.goodreads.com/review/show/7778045634?utm_medium=api&utm_source=rss",
