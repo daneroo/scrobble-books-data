@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/7813759284?utm_medium=api&utm_source=rss",
+      "title": "Sabriel (Abhorsen, #1)",
+      "link": "https://www.goodreads.com/review/show/7813759284?utm_medium=api&utm_source=rss",
+      "bookId": "518848",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1293655399l/518848._SY75_.jpg",
+      "bookDescription": "Sent to a boarding school in Ancelstierre as a young child, Sabriel has had little experience with the random power of Free Magic or the Dead who refuse to stay dead in the Old Kingdom. But during her final semester, her father, the Abhorsen, goes missing, and Sabriel knows she must enter the Old Kingdom to find him. <br /><br />With Sabriel, the first installment in the Abhorsen series, Garth Nix exploded onto the fantasy scene as a rising star, in a novel that takes readers to a world where the line between the living and the dead isn't always clear—and sometimes disappears altogether.",
+      "authorName": "Garth Nix",
+      "isbn": "0064471837",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2025-08-09T05:40:28.000Z",
+      "userDateCreated": "2025-08-09T05:40:27.000Z",
+      "userShelves": "to-read",
+      "userReview": "",
+      "averageRating": "4.2",
+      "bookPublished": "1995",
+      "description": "<a href=\"https://www.goodreads.com/book/show/518848.Sabriel?utm_medium=api&amp;utm_source=rss\"><img alt=\"Sabriel (Abhorsen, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1293655399l/518848._SY75_.jpg\" /></a><br/>\n                                      author: Garth Nix<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 1995<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/08/08<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "numPages": "491"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/7794599991?utm_medium=api&utm_source=rss",
       "title": "Fool's Fate (Tawny Man, #3)",
       "link": "https://www.goodreads.com/review/show/7794599991?utm_medium=api&utm_source=rss",
