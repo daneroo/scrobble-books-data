@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/7842177207?utm_medium=api&utm_source=rss",
+      "title": "Fool Moon (The Dresden Files, #2)",
+      "link": "https://www.goodreads.com/review/show/7842177207?utm_medium=api&utm_source=rss",
+      "bookId": "91477",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1661018595l/91477._SY75_.jpg",
+      "bookDescription": "<b>Harry Dresden — Wizard</b> Lost Items Found. Paranormal Investigations. Consulting. Advice. Reasonable Rates. No Love Potions, Endless Purses, or Other Entertainment. Business has been slow. Okay, business has been dead. And not even of the undead variety. You would think Chicago would have a little more action for the only professional wizard in the phone book. But lately, Harry Dresden hasn't been able to dredge up any kind of work — magical <i>or</i> mundane. But just when it looks like he can't afford his next meal, a murder comes along that requires his particular brand of supernatural expertise. A brutally mutilated corpse. Strange-looking paw prints. A full moon. Take three guesses--and the first two don't count...",
+      "authorName": "Jim  Butcher",
+      "isbn": "0451458125",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2025-08-19T04:48:20.000Z",
+      "userDateCreated": "2025-08-19T04:48:08.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "4.0",
+      "bookPublished": "2001",
+      "description": "<a href=\"https://www.goodreads.com/book/show/91477.Fool_Moon?utm_medium=api&amp;utm_source=rss\"><img alt=\"Fool Moon (The Dresden Files, #2)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1661018595l/91477._SY75_.jpg\" /></a><br/>\n                                      author: Jim  Butcher<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: 2001<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/08/18<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "424"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/7834999816?utm_medium=api&utm_source=rss",
       "title": "Priest of Crowns (War for the Rose Throne, #4)",
       "link": "https://www.goodreads.com/review/show/7834999816?utm_medium=api&utm_source=rss",
@@ -752,9 +773,9 @@
       "userDateCreated": "2025-06-30T02:40:18.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "3.9",
+      "averageRating": "4.0",
       "bookPublished": "2025",
-      "description": "<a href=\"https://www.goodreads.com/book/show/222728117-l-heure-des-pr-dateurs?utm_medium=api&amp;utm_source=rss\"><img alt=\"L&#39;heure des prédateurs\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1742361515l/222728117._SX50_.jpg\" /></a><br/>\n                                      author: Giuliano da Empoli<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: 2025<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/06/29<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/222728117-l-heure-des-pr-dateurs?utm_medium=api&amp;utm_source=rss\"><img alt=\"L&#39;heure des prédateurs\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1742361515l/222728117._SX50_.jpg\" /></a><br/>\n                                      author: Giuliano da Empoli<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: 2025<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/06/29<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "160"
     },
     {
