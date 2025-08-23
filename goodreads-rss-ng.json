@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/5403061935?utm_medium=api&utm_source=rss",
+      "title": "Quicksilver (The Baroque Cycle, Vol. 1, Book 1)",
+      "link": "https://www.goodreads.com/review/show/5403061935?utm_medium=api&utm_source=rss",
+      "bookId": "45277",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1490002404l/45277._SY75_.jpg",
+      "bookDescription": "In which Daniel Waterhouse, fearless thinker and courageous Puritan, pursues knowledge in the company of the greatest minds of Baroque-era Europe -- in a chaotic world where reason wars with the bloody ambitions of the mighty, and where catastrophe, natural or otherwise, can alter the political landscape overnight.<br />(back cover)",
+      "authorName": "Neal Stephenson",
+      "isbn": "0060833165",
+      "userName": "Daniel",
+      "userRating": "4",
+      "userReadAt": "2023-03-12T00:00:00.000Z",
+      "userDateAdded": "2025-08-22T22:01:40.000Z",
+      "userDateCreated": "2023-03-10T04:15:30.000Z",
+      "userShelves": "",
+      "userReview": "",
+      "averageRating": "4.2",
+      "bookPublished": "",
+      "description": "<a href=\"https://www.goodreads.com/book/show/45277.Quicksilver?utm_medium=api&amp;utm_source=rss\"><img alt=\"Quicksilver (The Baroque Cycle, Vol. 1, Book 1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1490002404l/45277._SY75_.jpg\" /></a><br/>\n                                      author: Neal Stephenson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: <br/>\n                                      rating: 4<br/>\n                                      read at: 2023/03/12<br/>\n                                      date added: 2025/08/22<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "numPages": "456"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/6416525330?utm_medium=api&utm_source=rss",
       "title": "The Grace of Kings (The Dandelion Dynasty, #1)",
       "link": "https://www.goodreads.com/review/show/6416525330?utm_medium=api&utm_source=rss",
@@ -2058,27 +2079,6 @@
       "bookPublished": "2008",
       "description": "<a href=\"https://www.goodreads.com/book/show/2845024-anathem?utm_medium=api&amp;utm_source=rss\"><img alt=\"Anathem\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1488349209l/2845024._SX50_.jpg\" /></a><br/>\n                                      author: Neal Stephenson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 2008<br/>\n                                      rating: 5<br/>\n                                      read at: 2025/03/13<br/>\n                                      date added: 2025/03/13<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "937"
-    },
-    {
-      "id": "https://www.goodreads.com/review/show/7393744853?utm_medium=api&utm_source=rss",
-      "title": "Two Dogmas of Empiricism",
-      "link": "https://www.goodreads.com/review/show/7393744853?utm_medium=api&utm_source=rss",
-      "bookId": "35958202",
-      "bookImageURL": "https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png",
-      "bookDescription": "Modern empiricism has been conditioned in large part by two dogmas. One is a belief in some fundamental cleavage between truths which are analytic, or grounded in meanings independently of matters of fact, and truth which are synthetic, or grounded in fact. The other dogma is reductionism: the belief that each meaningful statement is equivalent to some logical construct upon terms which refer to immediate experience. Both dogmas, I shall argue, are ill founded. One effect of abandoning them is, as we shall see, a blurring of the supposed boundary between speculative metaphysics and natural science. Another effect is a shift toward pragmatism.",
-      "authorName": "Willard Van Orman Quine",
-      "isbn": "",
-      "userName": "Daniel",
-      "userRating": "0",
-      "userReadAt": "",
-      "userDateAdded": "2025-03-11T05:25:58.000Z",
-      "userDateCreated": "2025-03-11T05:25:57.000Z",
-      "userShelves": "on-deck",
-      "userReview": "",
-      "averageRating": "4.0",
-      "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/35958202-two-dogmas-of-empiricism?utm_medium=api&amp;utm_source=rss\"><img alt=\"Two Dogmas of Empiricism\" src=\"https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png\" /></a><br/>\n                                      author: Willard Van Orman Quine<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/03/10<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
-      "numPages": "25"
     }
   ]
 }
