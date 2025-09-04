@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/7887779082?utm_medium=api&utm_source=rss",
+      "title": "Grey Sister (Book of the Ancestor, #2)",
+      "link": "https://www.goodreads.com/review/show/7887779082?utm_medium=api&utm_source=rss",
+      "bookId": "35530652",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1523384136l/35530652._SY75_.jpg",
+      "bookDescription": "Second novel in the brilliant series from the bestselling author of <i>Prince of Thorns</i>.<br /><br />In Mystic Class Nona Grey begins to learn the secrets of the universe. But so often even the deepest truths just make our choices harder. Before she leaves the Convent of Sweet Mercy Nona must choose her path and take the red of a Martial Sister, the grey of a Sister of Discretion, the blue of a Mystic Sister or the simple black of a Bride of the Ancestor and a life of prayer and service.<br /><br />All that stands between her and these choices are the pride of a thwarted assassin, the ambition of a would-be empress wielding the Inquisition like a blade, and the vengeance of the empire’s richest lord.<br /><br />As the world narrows around her, and her enemies attack her through the system she has sworn to, Nona must find her own path despite the competing pull of friendship, revenge, ambition, and loyalty.<br /><br />And in all this only one thing is certain. There will be blood.",
+      "authorName": "Mark  Lawrence",
+      "isbn": "0008152349",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2025-09-04T06:44:16.000Z",
+      "userDateCreated": "2025-09-04T06:44:05.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "4.3",
+      "bookPublished": "2018",
+      "description": "<a href=\"https://www.goodreads.com/book/show/35530652-grey-sister?utm_medium=api&amp;utm_source=rss\"><img alt=\"Grey Sister (Book of the Ancestor, #2)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1523384136l/35530652._SY75_.jpg\" /></a><br/>\n                                      author: Mark  Lawrence<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: 2018<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/09/03<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "416"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/6309249800?utm_medium=api&utm_source=rss",
       "title": "Red Sister (Book of the Ancestor, #1)",
       "link": "https://www.goodreads.com/review/show/6309249800?utm_medium=api&utm_source=rss",
