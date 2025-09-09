@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/7901200501?utm_medium=api&utm_source=rss",
+      "title": "Armageddon Averted: The Soviet Collapse, 1970-2000",
+      "link": "https://www.goodreads.com/review/show/7901200501?utm_medium=api&utm_source=rss",
+      "bookId": "482",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388250695l/482._SX50_.jpg",
+      "bookDescription": "In the Cold War era that dominated the second half of the twentieth century, nobody envisaged that the collapse of the Soviet Union would come from within, still less that it would happen meekly, without global conflagration.<br />In this brilliantly compact, original, engaging book, Stephen Kotkin shows that the Soviet collapse resulted not from military competition but, ironically, from the dynamism of Communist ideology, the long-held dream for \"socialism with a human face.\" The neo-liberal reforms in post-Soviet<br />Russia never took place, nor could they have, given the Soviet-era inheritance in the social, political, and economic landscape. Kotkin takes us deep into post-Stalin Soviet society and institutions, into the everyday hopes and secret political intrigues that affected 285 million people, before and<br />after 1991. He conveys the high drama of a superpower falling apart while armed to the teeth with millions of loyal troops and tens of thousands of weapons of mass destruction. Armageddon Averted vividly demonstrates the overriding importance of history, individual ambition, geopolitics, and<br />institutions, and deftly draws out contemporary Russia's contradictory predicament.",
+      "authorName": "Stephen Kotkin",
+      "isbn": "0195168941",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2025-09-09T05:54:19.000Z",
+      "userDateCreated": "2025-09-09T05:54:10.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "3.8",
+      "bookPublished": "2001",
+      "description": "<a href=\"https://www.goodreads.com/book/show/482.Armageddon_Averted?utm_medium=api&amp;utm_source=rss\"><img alt=\"Armageddon Averted: The Soviet Collapse, 1970-2000\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388250695l/482._SX50_.jpg\" /></a><br/>\n                                      author: Stephen Kotkin<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.8<br/>\n                                      book published: 2001<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/09/08<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "245"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/7892850530?utm_medium=api&utm_source=rss",
       "title": "The Gift of Therapy: An Open Letter to a New Generation of Therapists and Their Patients",
       "link": "https://www.goodreads.com/review/show/7892850530?utm_medium=api&utm_source=rss",
