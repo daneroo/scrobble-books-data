@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/7909866957?utm_medium=api&utm_source=rss",
+      "title": "Katabasis",
+      "link": "https://www.goodreads.com/review/show/7909866957?utm_medium=api&utm_source=rss",
+      "bookId": "210223811",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1738769146l/210223811._SY75_.jpg",
+      "bookDescription": "<b>Two graduate students must set aside their rivalry and journey to Hell to save their professor’s soul, perhaps at the cost of their own.</b><br /><br />Alice Law has only ever had one goal: to become one of the brightest minds in the field of Magick. She has sacrificed everything to make that a reality—her pride, her health, her love life, and most definitely her sanity. All to work with Professor Jacob Grimes at Cambridge, the greatest magician in the world—that is, until he dies in a magical accident that could possibly be her fault.<br /><br />Grimes is now in Hell, and she’s going in after him. Because his recommendation could hold her very future in his now incorporeal hands, and even death is not going to stop the pursuit of her dreams. Nor will the fact that her rival, Peter Murdoch, has come to the same conclusion.",
+      "authorName": "R.F. Kuang",
+      "isbn": "",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2025-09-12T18:50:19.000Z",
+      "userDateCreated": "2025-09-12T18:50:19.000Z",
+      "userShelves": "on-deck",
+      "userReview": "",
+      "averageRating": "4.0",
+      "bookPublished": "2025",
+      "description": "<a href=\"https://www.goodreads.com/book/show/210223811-katabasis?utm_medium=api&amp;utm_source=rss\"><img alt=\"Katabasis\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1738769146l/210223811._SY75_.jpg\" /></a><br/>\n                                      author: R.F. Kuang<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: 2025<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/09/12<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "numPages": "559"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/5059689352?utm_medium=api&utm_source=rss",
       "title": "The Peripheral (Jackpot #1)",
       "link": "https://www.goodreads.com/review/show/5059689352?utm_medium=api&utm_source=rss",
@@ -2058,27 +2079,6 @@
       "bookPublished": "1990",
       "description": "<a href=\"https://www.goodreads.com/book/show/12067.Good_Omens?utm_medium=api&amp;utm_source=rss\"><img alt=\"Good Omens: The Nice and Accurate Prophecies of Agnes Nutter, Witch\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1615552073l/12067._SY75_.jpg\" /></a><br/>\n                                      author: Terry Pratchett<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: 1990<br/>\n                                      rating: 5<br/>\n                                      read at: 2025/03/27<br/>\n                                      date added: 2025/03/27<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "491"
-    },
-    {
-      "id": "https://www.goodreads.com/review/show/7440039365?utm_medium=api&utm_source=rss",
-      "title": "Writing to Learn: How to Write--And Think--Clearly about Any Subject at All",
-      "link": "https://www.goodreads.com/review/show/7440039365?utm_medium=api&utm_source=rss",
-      "bookId": "585474",
-      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1437433633l/585474._SY75_.jpg",
-      "bookDescription": "This is an essential book for everyone who wants to write clearly about any subject and use writing as a means of learning.",
-      "authorName": "William Zinsser",
-      "isbn": "0062720406",
-      "userName": "Daniel",
-      "userRating": "0",
-      "userReadAt": "",
-      "userDateAdded": "2025-03-27T18:07:32.000Z",
-      "userDateCreated": "2025-03-27T18:07:32.000Z",
-      "userShelves": "on-deck",
-      "userReview": "",
-      "averageRating": "3.8",
-      "bookPublished": "1988",
-      "description": "<a href=\"https://www.goodreads.com/book/show/585474.Writing_to_Learn?utm_medium=api&amp;utm_source=rss\"><img alt=\"Writing to Learn: How to Write--And Think--Clearly about Any Subject at All\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1437433633l/585474._SY75_.jpg\" /></a><br/>\n                                      author: William Zinsser<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.8<br/>\n                                      book published: 1988<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/03/27<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
-      "numPages": "272"
     }
   ]
 }
