@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/7910980334?utm_medium=api&utm_source=rss",
+      "title": "The Psychology Book: Big Ideas Simply Explained",
+      "link": "https://www.goodreads.com/review/show/7910980334?utm_medium=api&utm_source=rss",
+      "bookId": "13766064",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1337573169l/13766064._SX50_.jpg",
+      "bookDescription": "Clearly explaining more than 100 groundbreaking ideas in the field, The Psychology Book uses accessible text and easy-to-follow graphics and illustrations to explain the complex theoretical and experimental foundations of psychology.<br /><br />From its philosophical roots through behaviorism, psychotherapy, and developmental psychology, The Psychology Book looks at all the greats from Pavlov and Skinner to Freud and Jung, and is an essential reference for students and anyone with an interest in how the mind works.",
+      "authorName": "Nigel C. Benson",
+      "isbn": "0756689708",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2025-09-13T05:52:35.000Z",
+      "userDateCreated": "2025-09-13T05:52:35.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "4.2",
+      "bookPublished": "2011",
+      "description": "<a href=\"https://www.goodreads.com/book/show/13766064-the-psychology-book?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Psychology Book: Big Ideas Simply Explained\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1337573169l/13766064._SX50_.jpg\" /></a><br/>\n                                      author: Nigel C. Benson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 2011<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/09/12<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "352"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/7892850530?utm_medium=api&utm_source=rss",
       "title": "The Gift of Therapy: An Open Letter to a New Generation of Therapists and Their Patients",
       "link": "https://www.goodreads.com/review/show/7892850530?utm_medium=api&utm_source=rss",
@@ -668,9 +689,9 @@
       "userDateCreated": "2025-07-28T20:02:15.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "4.1",
+      "averageRating": "0.0",
       "bookPublished": "2013",
-      "description": "<a href=\"https://www.goodreads.com/book/show/18947068-the-wilful-princess-and-the-piebald-prince?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Wilful Princess and the Piebald Prince\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1654573388l/18947068._SX50_.jpg\" /></a><br/>\n                                      author: Robin Hobb<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: 2013<br/>\n                                      rating: 5<br/>\n                                      read at: 2025/07/28<br/>\n                                      date added: 2025/07/28<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/18947068-the-wilful-princess-and-the-piebald-prince?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Wilful Princess and the Piebald Prince\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1654573388l/18947068._SX50_.jpg\" /></a><br/>\n                                      author: Robin Hobb<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: 2013<br/>\n                                      rating: 5<br/>\n                                      read at: 2025/07/28<br/>\n                                      date added: 2025/07/28<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "240"
     },
     {
@@ -2117,9 +2138,9 @@
       "userDateCreated": "2024-11-06T21:24:40.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "3.9",
+      "averageRating": "0.0",
       "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/122777271-the-wolf-girl-the-greeks-and-the-gods?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Wolf-Girl, the Greeks and the Gods: a Tale of the Persian Wars\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1676915364l/122777271._SX50_.jpg\" /></a><br/>\n                                      author: Tom Holland<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: <br/>\n                                      rating: 4<br/>\n                                      read at: 2025/03/25<br/>\n                                      date added: 2025/03/25<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/122777271-the-wolf-girl-the-greeks-and-the-gods?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Wolf-Girl, the Greeks and the Gods: a Tale of the Persian Wars\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1676915364l/122777271._SX50_.jpg\" /></a><br/>\n                                      author: Tom Holland<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: <br/>\n                                      rating: 4<br/>\n                                      read at: 2025/03/25<br/>\n                                      date added: 2025/03/25<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "206"
     },
     {
@@ -2222,9 +2243,9 @@
       "userDateCreated": "2025-03-20T08:44:51.000Z",
       "userShelves": "on-deck",
       "userReview": "",
-      "averageRating": "0.0",
+      "averageRating": "3.8",
       "bookPublished": "2012",
-      "description": "<a href=\"https://www.goodreads.com/book/show/12046245-liars-and-outliers?utm_medium=api&amp;utm_source=rss\"><img alt=\"Liars and Outliers: Enabling the Trust that Society Needs to Thrive\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347951586l/12046245._SX50_.jpg\" /></a><br/>\n                                      author: Bruce Schneier<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: 2012<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/03/20<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/12046245-liars-and-outliers?utm_medium=api&amp;utm_source=rss\"><img alt=\"Liars and Outliers: Enabling the Trust that Society Needs to Thrive\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347951586l/12046245._SX50_.jpg\" /></a><br/>\n                                      author: Bruce Schneier<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.8<br/>\n                                      book published: 2012<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/03/20<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
       "numPages": "348"
     },
     {
@@ -2348,9 +2369,9 @@
       "userDateCreated": "2025-03-11T05:25:50.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "0.0",
+      "averageRating": "4.1",
       "bookPublished": "1969",
-      "description": "<a href=\"https://www.goodreads.com/book/show/174470.Ontological_Relativity_and_Other_Essays?utm_medium=api&amp;utm_source=rss\"><img alt=\"Ontological Relativity and Other Essays\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348022484l/174470._SY75_.jpg\" /></a><br/>\n                                      author: Willard Van Orman Quine<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: 1969<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/03/10<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/174470.Ontological_Relativity_and_Other_Essays?utm_medium=api&amp;utm_source=rss\"><img alt=\"Ontological Relativity and Other Essays\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348022484l/174470._SY75_.jpg\" /></a><br/>\n                                      author: Willard Van Orman Quine<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: 1969<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/03/10<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "165"
     },
     {
@@ -3083,9 +3104,9 @@
       "userDateCreated": "2025-01-10T08:59:04.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "4.3",
+      "averageRating": "0.0",
       "bookPublished": "2004",
-      "description": "<a href=\"https://www.goodreads.com/book/show/2017.Solomon_s_Gold?utm_medium=api&amp;utm_source=rss\"><img alt=\"Solomon&#39;s Gold (The Baroque Cycle, Vol. 3, Book 1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1308799029l/2017._SX50_.jpg\" /></a><br/>\n                                      author: Neal Stephenson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: 2004<br/>\n                                      rating: 4<br/>\n                                      read at: 2025/01/17<br/>\n                                      date added: 2025/01/17<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/2017.Solomon_s_Gold?utm_medium=api&amp;utm_source=rss\"><img alt=\"Solomon&#39;s Gold (The Baroque Cycle, Vol. 3, Book 1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1308799029l/2017._SX50_.jpg\" /></a><br/>\n                                      author: Neal Stephenson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: 2004<br/>\n                                      rating: 4<br/>\n                                      read at: 2025/01/17<br/>\n                                      date added: 2025/01/17<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "448"
     },
     {
@@ -3230,9 +3251,9 @@
       "userDateCreated": "2025-01-08T09:21:49.000Z",
       "userShelves": "on-deck",
       "userReview": "",
-      "averageRating": "3.8",
+      "averageRating": "0.0",
       "bookPublished": "2013",
-      "description": "<a href=\"https://www.goodreads.com/book/show/17307317-money?utm_medium=api&amp;utm_source=rss\"><img alt=\"Money: The Unauthorised Biography\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1365924586l/17307317._SY75_.jpg\" /></a><br/>\n                                      author: Felix Martin<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.8<br/>\n                                      book published: 2013<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/01/08<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/17307317-money?utm_medium=api&amp;utm_source=rss\"><img alt=\"Money: The Unauthorised Biography\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1365924586l/17307317._SY75_.jpg\" /></a><br/>\n                                      author: Felix Martin<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: 2013<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/01/08<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
       "numPages": "336"
     },
     {
@@ -3713,9 +3734,9 @@
       "userDateCreated": "2024-12-07T06:10:04.000Z",
       "userShelves": "on-deck",
       "userReview": "",
-      "averageRating": "3.8",
+      "averageRating": "0.0",
       "bookPublished": "1993",
-      "description": "<a href=\"https://www.goodreads.com/book/show/132210.Agyar?utm_medium=api&amp;utm_source=rss\"><img alt=\"Agyar\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1438705730l/132210._SY75_.jpg\" /></a><br/>\n                                      author: Steven Brust<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.8<br/>\n                                      book published: 1993<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/12/06<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/132210.Agyar?utm_medium=api&amp;utm_source=rss\"><img alt=\"Agyar\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1438705730l/132210._SY75_.jpg\" /></a><br/>\n                                      author: Steven Brust<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: 1993<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/12/06<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
       "numPages": "256"
     },
     {
@@ -3818,9 +3839,9 @@
       "userDateCreated": "2024-11-27T06:54:07.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "4.2",
+      "averageRating": "0.0",
       "bookPublished": "2024",
-      "description": "<a href=\"https://www.goodreads.com/book/show/127278352-lyorn?utm_medium=api&amp;utm_source=rss\"><img alt=\"Lyorn (Vlad Taltos, #17)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1681793037l/127278352._SY75_.jpg\" /></a><br/>\n                                      author: Steven Brust<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 2024<br/>\n                                      rating: 5<br/>\n                                      read at: 2024/11/29<br/>\n                                      date added: 2024/11/29<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/127278352-lyorn?utm_medium=api&amp;utm_source=rss\"><img alt=\"Lyorn (Vlad Taltos, #17)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1681793037l/127278352._SY75_.jpg\" /></a><br/>\n                                      author: Steven Brust<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: 2024<br/>\n                                      rating: 5<br/>\n                                      read at: 2024/11/29<br/>\n                                      date added: 2024/11/29<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "288"
     },
     {
@@ -3881,9 +3902,9 @@
       "userDateCreated": "2022-07-04T05:25:35.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "0.0",
+      "averageRating": "4.3",
       "bookPublished": "2014",
-      "description": "<a href=\"https://www.goodreads.com/book/show/20519003-hawk?utm_medium=api&amp;utm_source=rss\"><img alt=\"Hawk (Vlad Taltos, #14)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1704254787l/20519003._SX50_.jpg\" /></a><br/>\n                                      author: Steven Brust<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: 2014<br/>\n                                      rating: 4<br/>\n                                      read at: 2024/11/25<br/>\n                                      date added: 2024/11/25<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/20519003-hawk?utm_medium=api&amp;utm_source=rss\"><img alt=\"Hawk (Vlad Taltos, #14)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1704254787l/20519003._SX50_.jpg\" /></a><br/>\n                                      author: Steven Brust<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: 2014<br/>\n                                      rating: 4<br/>\n                                      read at: 2024/11/25<br/>\n                                      date added: 2024/11/25<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "320"
     },
     {
@@ -4007,9 +4028,9 @@
       "userDateCreated": "2024-11-17T08:20:04.000Z",
       "userShelves": "on-deck",
       "userReview": "",
-      "averageRating": "0.0",
+      "averageRating": "4.3",
       "bookPublished": "2023",
-      "description": "<a href=\"https://www.goodreads.com/book/show/62919358-spies?utm_medium=api&amp;utm_source=rss\"><img alt=\"Spies: The Epic Intelligence War Between East and West\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1683735248l/62919358._SY75_.jpg\" /></a><br/>\n                                      author: Calder Walton<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: 2023<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/11/17<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/62919358-spies?utm_medium=api&amp;utm_source=rss\"><img alt=\"Spies: The Epic Intelligence War Between East and West\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1683735248l/62919358._SY75_.jpg\" /></a><br/>\n                                      author: Calder Walton<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: 2023<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/11/17<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
       "numPages": "688"
     },
     {
@@ -4112,9 +4133,9 @@
       "userDateCreated": "2022-02-09T07:52:16.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "0.0",
+      "averageRating": "3.7",
       "bookPublished": "2022",
-      "description": "<a href=\"https://www.goodreads.com/book/show/58085215-reality?utm_medium=api&amp;utm_source=rss\"><img alt=\"Reality+: Virtual Worlds and the Problems of Philosophy\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1631114243l/58085215._SY75_.jpg\" /></a><br/>\n                                      author: David J. Chalmers<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: 2022<br/>\n                                      rating: 4<br/>\n                                      read at: 2024/11/10<br/>\n                                      date added: 2024/11/10<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/58085215-reality?utm_medium=api&amp;utm_source=rss\"><img alt=\"Reality+: Virtual Worlds and the Problems of Philosophy\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1631114243l/58085215._SY75_.jpg\" /></a><br/>\n                                      author: David J. Chalmers<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.7<br/>\n                                      book published: 2022<br/>\n                                      rating: 4<br/>\n                                      read at: 2024/11/10<br/>\n                                      date added: 2024/11/10<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "544"
     },
     {
@@ -4322,9 +4343,9 @@
       "userDateCreated": "2024-10-04T08:35:26.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "4.1",
+      "averageRating": "0.0",
       "bookPublished": "2017",
-      "description": "<a href=\"https://www.goodreads.com/book/show/30753762-asteroid-hunters?utm_medium=api&amp;utm_source=rss\"><img alt=\"Asteroid Hunters (TED Books)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1489311732l/30753762._SX50_.jpg\" /></a><br/>\n                                      author: Carrie Nugent<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: 2017<br/>\n                                      rating: 4<br/>\n                                      read at: 2024/10/15<br/>\n                                      date added: 2024/10/15<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/30753762-asteroid-hunters?utm_medium=api&amp;utm_source=rss\"><img alt=\"Asteroid Hunters (TED Books)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1489311732l/30753762._SX50_.jpg\" /></a><br/>\n                                      author: Carrie Nugent<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: 2017<br/>\n                                      rating: 4<br/>\n                                      read at: 2024/10/15<br/>\n                                      date added: 2024/10/15<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "128"
     },
     {
@@ -4511,9 +4532,9 @@
       "userDateCreated": "2021-01-01T03:50:24.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "0.0",
+      "averageRating": "4.1",
       "bookPublished": "1999",
-      "description": "<a href=\"https://www.goodreads.com/book/show/54838190-pragmatic-programmer---edizione-del-20-anniversario?utm_medium=api&amp;utm_source=rss\"><img alt=\"Pragmatic Programmer - Edizione del 20° anniversario: Guida per artigiani del software che vogliono diventare maestri\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1596757298l/54838190._SX50_.jpg\" /></a><br/>\n                                      author: Andy   Hunt<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: 1999<br/>\n                                      rating: 4<br/>\n                                      read at: 2020/12/31<br/>\n                                      date added: 2024/10/02<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/54838190-pragmatic-programmer---edizione-del-20-anniversario?utm_medium=api&amp;utm_source=rss\"><img alt=\"Pragmatic Programmer - Edizione del 20° anniversario: Guida per artigiani del software che vogliono diventare maestri\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1596757298l/54838190._SX50_.jpg\" /></a><br/>\n                                      author: Andy   Hunt<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: 1999<br/>\n                                      rating: 4<br/>\n                                      read at: 2020/12/31<br/>\n                                      date added: 2024/10/02<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "477"
     },
     {
@@ -5645,9 +5666,9 @@
       "userDateCreated": "2024-07-15T07:15:24.000Z",
       "userShelves": "on-deck",
       "userReview": "",
-      "averageRating": "3.8",
+      "averageRating": "0.0",
       "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/45159167-designing-elixir-systems-with-otp?utm_medium=api&amp;utm_source=rss\"><img alt=\"Designing Elixir Systems with OTP\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1555488141l/45159167._SX50_.jpg\" /></a><br/>\n                                      author: James Edward Gray II<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.8<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/07/15<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/45159167-designing-elixir-systems-with-otp?utm_medium=api&amp;utm_source=rss\"><img alt=\"Designing Elixir Systems with OTP\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1555488141l/45159167._SX50_.jpg\" /></a><br/>\n                                      author: James Edward Gray II<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/07/15<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
       "numPages": "250"
     },
     {
@@ -6254,9 +6275,9 @@
       "userDateCreated": "2024-05-26T06:46:51.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "4.0",
+      "averageRating": "0.0",
       "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/20821221-stalin?utm_medium=api&amp;utm_source=rss\"><img alt=\"Stalin: Paradoxes of Power, 1878-1928\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1404915802l/20821221._SY75_.jpg\" /></a><br/>\n                                      author: Stephen Kotkin<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: <br/>\n                                      rating: 5<br/>\n                                      read at: 2024/06/08<br/>\n                                      date added: 2024/06/08<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/20821221-stalin?utm_medium=api&amp;utm_source=rss\"><img alt=\"Stalin: Paradoxes of Power, 1878-1928\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1404915802l/20821221._SY75_.jpg\" /></a><br/>\n                                      author: Stephen Kotkin<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: <br/>\n                                      rating: 5<br/>\n                                      read at: 2024/06/08<br/>\n                                      date added: 2024/06/08<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "976"
     },
     {
@@ -6884,9 +6905,9 @@
       "userDateCreated": "2024-04-17T06:46:34.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "4.1",
+      "averageRating": "0.0",
       "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/52206733-gene-wolfe-s-the-book-of-the-new-sun?utm_medium=api&amp;utm_source=rss\"><img alt=\"Gene Wolfe&#39;s The Book of the New Sun: A Chapter Guide\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1570019429l/52206733._SX50_SY75_.jpg\" /></a><br/>\n                                      author: Michael Andre-Driussi<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/04/16<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/52206733-gene-wolfe-s-the-book-of-the-new-sun?utm_medium=api&amp;utm_source=rss\"><img alt=\"Gene Wolfe&#39;s The Book of the New Sun: A Chapter Guide\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1570019429l/52206733._SX50_SY75_.jpg\" /></a><br/>\n                                      author: Michael Andre-Driussi<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/04/16<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "157"
     },
     {
@@ -7010,9 +7031,9 @@
       "userDateCreated": "2024-04-08T07:43:45.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "0.0",
+      "averageRating": "4.0",
       "bookPublished": "1922",
-      "description": "<a href=\"https://www.goodreads.com/book/show/19697160-the-wasteland?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Wasteland\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1387725409l/19697160._SX50_.jpg\" /></a><br/>\n                                      author: T.S. Eliot<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: 1922<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/04/08<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/19697160-the-wasteland?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Wasteland\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1387725409l/19697160._SX50_.jpg\" /></a><br/>\n                                      author: T.S. Eliot<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: 1922<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/04/08<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "24"
     },
     {
@@ -7157,9 +7178,9 @@
       "userDateCreated": "2024-03-24T15:30:41.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "0.0",
+      "averageRating": "4.5",
       "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/59143221-what-is-a-quantum-field-theory?utm_medium=api&amp;utm_source=rss\"><img alt=\"What Is a Quantum Field Theory?\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1639950767l/59143221._SX50_.jpg\" /></a><br/>\n                                      author: Michel Talagrand<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/03/24<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/59143221-what-is-a-quantum-field-theory?utm_medium=api&amp;utm_source=rss\"><img alt=\"What Is a Quantum Field Theory?\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1639950767l/59143221._SX50_.jpg\" /></a><br/>\n                                      author: Michel Talagrand<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.5<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/03/24<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "756"
     },
     {
@@ -7430,9 +7451,9 @@
       "userDateCreated": "2022-06-13T06:56:00.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "4.2",
+      "averageRating": "0.0",
       "bookPublished": "1990",
-      "description": "<a href=\"https://www.goodreads.com/book/show/133465.Phoenix?utm_medium=api&amp;utm_source=rss\"><img alt=\"Phoenix (Vlad Taltos, #5)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1682481910l/133465._SY75_.jpg\" /></a><br/>\n                                      author: Steven Brust<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 1990<br/>\n                                      rating: 5<br/>\n                                      read at: 2024/02/25<br/>\n                                      date added: 2024/02/25<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/133465.Phoenix?utm_medium=api&amp;utm_source=rss\"><img alt=\"Phoenix (Vlad Taltos, #5)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1682481910l/133465._SY75_.jpg\" /></a><br/>\n                                      author: Steven Brust<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: 1990<br/>\n                                      rating: 5<br/>\n                                      read at: 2024/02/25<br/>\n                                      date added: 2024/02/25<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "245"
     },
     {
@@ -7598,9 +7619,9 @@
       "userDateCreated": "2024-02-14T00:30:06.000Z",
       "userShelves": "on-deck",
       "userReview": "",
-      "averageRating": "0.0",
+      "averageRating": "3.5",
       "bookPublished": "2016",
-      "description": "<a href=\"https://www.goodreads.com/book/show/29957381-the-nordic-theory-of-everything?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Nordic Theory of Everything: In Search of a Better Life\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1479403681l/29957381._SY75_.jpg\" /></a><br/>\n                                      author: Anu Partanen<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: 2016<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/02/13<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/29957381-the-nordic-theory-of-everything?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Nordic Theory of Everything: In Search of a Better Life\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1479403681l/29957381._SY75_.jpg\" /></a><br/>\n                                      author: Anu Partanen<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.5<br/>\n                                      book published: 2016<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/02/13<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
       "numPages": "0"
     },
     {
@@ -7640,9 +7661,9 @@
       "userDateCreated": "2023-05-31T06:53:02.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "3.8",
+      "averageRating": "0.0",
       "bookPublished": "2021",
-      "description": "<a href=\"https://www.goodreads.com/book/show/55437277-the-horde?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Horde: How the Mongols Changed the World\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1624960168l/55437277._SY75_.jpg\" /></a><br/>\n                                      author: Marie Favereau<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.8<br/>\n                                      book published: 2021<br/>\n                                      rating: 3<br/>\n                                      read at: 2024/02/09<br/>\n                                      date added: 2024/02/09<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/55437277-the-horde?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Horde: How the Mongols Changed the World\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1624960168l/55437277._SY75_.jpg\" /></a><br/>\n                                      author: Marie Favereau<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: 2021<br/>\n                                      rating: 3<br/>\n                                      read at: 2024/02/09<br/>\n                                      date added: 2024/02/09<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "377"
     },
     {
@@ -7661,9 +7682,9 @@
       "userDateCreated": "2024-02-09T07:51:34.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "3.9",
+      "averageRating": "0.0",
       "bookPublished": "2023",
-      "description": "<a href=\"https://www.goodreads.com/book/show/58435340-quantum-radio?utm_medium=api&amp;utm_source=rss\"><img alt=\"Quantum Radio\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1678453226l/58435340._SX50_.jpg\" /></a><br/>\n                                      author: A.G. Riddle<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: 2023<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/02/08<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/58435340-quantum-radio?utm_medium=api&amp;utm_source=rss\"><img alt=\"Quantum Radio\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1678453226l/58435340._SX50_.jpg\" /></a><br/>\n                                      author: A.G. Riddle<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: 2023<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/02/08<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "17"
     },
     {
@@ -7787,9 +7808,9 @@
       "userDateCreated": "2024-01-30T03:06:44.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "3.8",
+      "averageRating": "0.0",
       "bookPublished": "1927",
-      "description": "<a href=\"https://www.goodreads.com/book/show/144354.An_Outline_of_Philosophy?utm_medium=api&amp;utm_source=rss\"><img alt=\"An Outline of Philosophy\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1172163147l/144354._SY75_.jpg\" /></a><br/>\n                                      author: Bertrand Russell<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.8<br/>\n                                      book published: 1927<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/01/29<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/144354.An_Outline_of_Philosophy?utm_medium=api&amp;utm_source=rss\"><img alt=\"An Outline of Philosophy\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1172163147l/144354._SY75_.jpg\" /></a><br/>\n                                      author: Bertrand Russell<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: 1927<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/01/29<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "264"
     },
     {
@@ -7850,9 +7871,9 @@
       "userDateCreated": "2024-01-30T03:00:45.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "4.2",
+      "averageRating": "0.0",
       "bookPublished": "2007",
-      "description": "<a href=\"https://www.goodreads.com/book/show/8412068-a-new-history-of-western-philosophy?utm_medium=api&amp;utm_source=rss\"><img alt=\"A New History of Western Philosophy\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1399215781l/8412068._SY75_.jpg\" /></a><br/>\n                                      author: Anthony Kenny<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 2007<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/01/29<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/8412068-a-new-history-of-western-philosophy?utm_medium=api&amp;utm_source=rss\"><img alt=\"A New History of Western Philosophy\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1399215781l/8412068._SY75_.jpg\" /></a><br/>\n                                      author: Anthony Kenny<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: 2007<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/01/29<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "1058"
     },
     {
@@ -8375,9 +8396,9 @@
       "userDateCreated": "2023-10-12T06:14:17.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "0.0",
+      "averageRating": "4.3",
       "bookPublished": "2023",
-      "description": "<a href=\"https://www.goodreads.com/book/show/123199472-sparks?utm_medium=api&amp;utm_source=rss\"><img alt=\"Sparks: China&#39;s Underground Historians and their Battle for the Future\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1690815502l/123199472._SY75_.jpg\" /></a><br/>\n                                      author: Ian  Johnson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: 2023<br/>\n                                      rating: 4<br/>\n                                      read at: 2024/01/09<br/>\n                                      date added: 2024/01/09<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/123199472-sparks?utm_medium=api&amp;utm_source=rss\"><img alt=\"Sparks: China&#39;s Underground Historians and their Battle for the Future\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1690815502l/123199472._SY75_.jpg\" /></a><br/>\n                                      author: Ian  Johnson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: 2023<br/>\n                                      rating: 4<br/>\n                                      read at: 2024/01/09<br/>\n                                      date added: 2024/01/09<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "400"
     },
     {
@@ -8522,9 +8543,9 @@
       "userDateCreated": "2023-10-25T08:44:30.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "4.2",
+      "averageRating": "0.0",
       "bookPublished": "2023",
-      "description": "<a href=\"https://www.goodreads.com/book/show/63946909-the-rigor-of-angels?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Rigor of Angels: Borges, Heisenberg, Kant, and the Ultimate Nature of Reality\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1684816550l/63946909._SY75_.jpg\" /></a><br/>\n                                      author: William Egginton<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 2023<br/>\n                                      rating: 4<br/>\n                                      read at: 2023/12/27<br/>\n                                      date added: 2023/12/27<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/63946909-the-rigor-of-angels?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Rigor of Angels: Borges, Heisenberg, Kant, and the Ultimate Nature of Reality\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1684816550l/63946909._SY75_.jpg\" /></a><br/>\n                                      author: William Egginton<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: 2023<br/>\n                                      rating: 4<br/>\n                                      read at: 2023/12/27<br/>\n                                      date added: 2023/12/27<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "368"
     },
     {
@@ -8648,9 +8669,9 @@
       "userDateCreated": "2023-07-18T06:09:55.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "3.7",
+      "averageRating": "0.0",
       "bookPublished": "1977",
-      "description": "<a href=\"https://www.goodreads.com/book/show/219205.Lord_Foul_s_Bane?utm_medium=api&amp;utm_source=rss\"><img alt=\"Lord Foul&#39;s Bane (The Chronicles of Thomas Covenant the Unbeliever, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1333217655l/219205._SY75_.jpg\" /></a><br/>\n                                      author: Stephen R. Donaldson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.7<br/>\n                                      book published: 1977<br/>\n                                      rating: 4<br/>\n                                      read at: 2023/12/13<br/>\n                                      date added: 2023/12/13<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/219205.Lord_Foul_s_Bane?utm_medium=api&amp;utm_source=rss\"><img alt=\"Lord Foul&#39;s Bane (The Chronicles of Thomas Covenant the Unbeliever, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1333217655l/219205._SY75_.jpg\" /></a><br/>\n                                      author: Stephen R. Donaldson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: 1977<br/>\n                                      rating: 4<br/>\n                                      read at: 2023/12/13<br/>\n                                      date added: 2023/12/13<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "480"
     },
     {
@@ -8816,9 +8837,9 @@
       "userDateCreated": "2023-11-30T22:23:50.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "3.9",
+      "averageRating": "0.0",
       "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/57941478-the-language-game?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Language Game: How Improvisation Created Language and Changed the World\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1626118997l/57941478._SY75_.jpg\" /></a><br/>\n                                      author: Morten H. Christiansen<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/11/30<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/57941478-the-language-game?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Language Game: How Improvisation Created Language and Changed the World\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1626118997l/57941478._SY75_.jpg\" /></a><br/>\n                                      author: Morten H. Christiansen<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/11/30<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "304"
     },
     {
@@ -8984,9 +9005,9 @@
       "userDateCreated": "2023-09-14T08:23:07.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "3.9",
+      "averageRating": "0.0",
       "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/39644283-the-prime-number-conspiracy?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Prime Number Conspiracy: The Biggest Ideas in Math from Quanta\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1533018816l/39644283._SX50_.jpg\" /></a><br/>\n                                      author: Thomas  Lin<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: <br/>\n                                      rating: 4<br/>\n                                      read at: 2023/11/09<br/>\n                                      date added: 2023/11/09<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/39644283-the-prime-number-conspiracy?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Prime Number Conspiracy: The Biggest Ideas in Math from Quanta\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1533018816l/39644283._SX50_.jpg\" /></a><br/>\n                                      author: Thomas  Lin<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: <br/>\n                                      rating: 4<br/>\n                                      read at: 2023/11/09<br/>\n                                      date added: 2023/11/09<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "336"
     },
     {
@@ -9425,9 +9446,9 @@
       "userDateCreated": "2023-06-28T22:49:31.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "3.8",
+      "averageRating": "0.0",
       "bookPublished": "2023",
-      "description": "<a href=\"https://www.goodreads.com/book/show/123249503-impromptu?utm_medium=api&amp;utm_source=rss\"><img alt=\"Impromptu: Amplifying Our Humanity Through AI\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1678892054l/123249503._SY75_.jpg\" /></a><br/>\n                                      author: Reid Hoffman<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.8<br/>\n                                      book published: 2023<br/>\n                                      rating: 3<br/>\n                                      read at: 2023/10/10<br/>\n                                      date added: 2023/10/10<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/123249503-impromptu?utm_medium=api&amp;utm_source=rss\"><img alt=\"Impromptu: Amplifying Our Humanity Through AI\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1678892054l/123249503._SY75_.jpg\" /></a><br/>\n                                      author: Reid Hoffman<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: 2023<br/>\n                                      rating: 3<br/>\n                                      read at: 2023/10/10<br/>\n                                      date added: 2023/10/10<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "234"
     },
     {
@@ -9488,9 +9509,9 @@
       "userDateCreated": "2023-09-29T01:41:58.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "4.1",
+      "averageRating": "0.0",
       "bookPublished": "2012",
-      "description": "<a href=\"https://www.goodreads.com/book/show/13608772-elliptic-tales?utm_medium=api&amp;utm_source=rss\"><img alt=\"Elliptic Tales: Curves, Counting, and Number Theory\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347493650l/13608772._SY75_.jpg\" /></a><br/>\n                                      author: Avner Ash<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: 2012<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/09/28<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/13608772-elliptic-tales?utm_medium=api&amp;utm_source=rss\"><img alt=\"Elliptic Tales: Curves, Counting, and Number Theory\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347493650l/13608772._SY75_.jpg\" /></a><br/>\n                                      author: Avner Ash<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: 2012<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/09/28<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "280"
     },
     {
@@ -9509,9 +9530,9 @@
       "userDateCreated": "2023-09-29T01:41:20.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "3.2",
+      "averageRating": "0.0",
       "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/34954061-modern-cryptography-and-elliptic-curves?utm_medium=api&amp;utm_source=rss\"><img alt=\"Modern Cryptography and Elliptic Curves: A Beginner&#39;s Guide (Student Mathematical Library) (Student Mathematical Library, 83)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1502944979l/34954061._SY75_.jpg\" /></a><br/>\n                                      author: Thomas R Shemanske<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.2<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/09/28<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/34954061-modern-cryptography-and-elliptic-curves?utm_medium=api&amp;utm_source=rss\"><img alt=\"Modern Cryptography and Elliptic Curves: A Beginner&#39;s Guide (Student Mathematical Library) (Student Mathematical Library, 83)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1502944979l/34954061._SY75_.jpg\" /></a><br/>\n                                      author: Thomas R Shemanske<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/09/28<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "252"
     },
     {
@@ -9698,9 +9719,9 @@
       "userDateCreated": "2023-09-12T19:52:35.000Z",
       "userShelves": "on-deck",
       "userReview": "",
-      "averageRating": "3.4",
+      "averageRating": "0.0",
       "bookPublished": "1857",
-      "description": "<a href=\"https://www.goodreads.com/book/show/1147633.Tom_Brown_s_Schooldays?utm_medium=api&amp;utm_source=rss\"><img alt=\"Tom Brown&#39;s Schooldays (Tom Brown, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1181403140l/1147633._SY75_.jpg\" /></a><br/>\n                                      author: Thomas Hughes<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.4<br/>\n                                      book published: 1857<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/09/12<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/1147633.Tom_Brown_s_Schooldays?utm_medium=api&amp;utm_source=rss\"><img alt=\"Tom Brown&#39;s Schooldays (Tom Brown, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1181403140l/1147633._SY75_.jpg\" /></a><br/>\n                                      author: Thomas Hughes<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: 1857<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/09/12<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
       "numPages": "466"
     },
     {
@@ -9929,9 +9950,9 @@
       "userDateCreated": "2023-07-31T04:51:33.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "4.2",
+      "averageRating": "0.0",
       "bookPublished": "2000",
-      "description": "<a href=\"https://www.goodreads.com/book/show/25946953-deadhouse-gates?utm_medium=api&amp;utm_source=rss\"><img alt=\"Deadhouse Gates (The Malazan Book of the Fallen, #2)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1437422225l/25946953._SX50_.jpg\" /></a><br/>\n                                      author: Steven Erikson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 2000<br/>\n                                      rating: 5<br/>\n                                      read at: 2023/08/23<br/>\n                                      date added: 2023/08/23<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/25946953-deadhouse-gates?utm_medium=api&amp;utm_source=rss\"><img alt=\"Deadhouse Gates (The Malazan Book of the Fallen, #2)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1437422225l/25946953._SX50_.jpg\" /></a><br/>\n                                      author: Steven Erikson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: 2000<br/>\n                                      rating: 5<br/>\n                                      read at: 2023/08/23<br/>\n                                      date added: 2023/08/23<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "699"
     },
     {
@@ -10034,9 +10055,9 @@
       "userDateCreated": "2023-08-02T08:06:49.000Z",
       "userShelves": "on-deck",
       "userReview": "",
-      "averageRating": "4.4",
+      "averageRating": "0.0",
       "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/59535925-code-that-fits-in-your-head?utm_medium=api&amp;utm_source=rss\"><img alt=\"Code That Fits in Your Head: Heuristics for Software Engineering (Robert C. Martin Series)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1636006120l/59535925._SX50_.jpg\" /></a><br/>\n                                      author: Mark Seemann<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.4<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/08/02<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/59535925-code-that-fits-in-your-head?utm_medium=api&amp;utm_source=rss\"><img alt=\"Code That Fits in Your Head: Heuristics for Software Engineering (Robert C. Martin Series)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1636006120l/59535925._SX50_.jpg\" /></a><br/>\n                                      author: Mark Seemann<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/08/02<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
       "numPages": "416"
     },
     {
@@ -10118,9 +10139,9 @@
       "userDateCreated": "2023-07-18T04:50:06.000Z",
       "userShelves": "on-deck",
       "userReview": "",
-      "averageRating": "3.5",
+      "averageRating": "0.0",
       "bookPublished": "2009",
-      "description": "<a href=\"https://www.goodreads.com/book/show/6476993-the-canterbury-tales?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Canterbury Tales: A Retelling\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442409841l/6476993._SY75_.jpg\" /></a><br/>\n                                      author: Peter Ackroyd<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.5<br/>\n                                      book published: 2009<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/07/17<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/6476993-the-canterbury-tales?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Canterbury Tales: A Retelling\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442409841l/6476993._SY75_.jpg\" /></a><br/>\n                                      author: Peter Ackroyd<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: 2009<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/07/17<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
       "numPages": "436"
     },
     {
@@ -10181,9 +10202,9 @@
       "userDateCreated": "2023-07-08T04:47:31.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "3.7",
+      "averageRating": "0.0",
       "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/34196225-the-forgetting-machine?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Forgetting Machine: Memory, Perception, and the &quot;Jennifer Aniston Neuron&quot;\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1502135343l/34196225._SX50_.jpg\" /></a><br/>\n                                      author: Rodrigo Quian Quiroga<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.7<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/07/07<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/34196225-the-forgetting-machine?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Forgetting Machine: Memory, Perception, and the &quot;Jennifer Aniston Neuron&quot;\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1502135343l/34196225._SX50_.jpg\" /></a><br/>\n                                      author: Rodrigo Quian Quiroga<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/07/07<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "170"
     },
     {
@@ -10811,9 +10832,9 @@
       "userDateCreated": "2023-04-18T05:08:59.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "3.5",
+      "averageRating": "0.0",
       "bookPublished": "2008",
-      "description": "<a href=\"https://www.goodreads.com/book/show/6033999-the-age-of-openness?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Age of Openness: China before Mao\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1368427513l/6033999._SY75_.jpg\" /></a><br/>\n                                      author: Frank Dikötter<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.5<br/>\n                                      book published: 2008<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/04/17<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/6033999-the-age-of-openness?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Age of Openness: China before Mao\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1368427513l/6033999._SY75_.jpg\" /></a><br/>\n                                      author: Frank Dikötter<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: 2008<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/04/17<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "140"
     },
     {
@@ -10832,9 +10853,9 @@
       "userDateCreated": "2023-04-18T05:08:37.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "4.0",
+      "averageRating": "0.0",
       "bookPublished": "2016",
-      "description": "<a href=\"https://www.goodreads.com/book/show/26073079-the-cultural-revolution?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Cultural Revolution: A People&#39;s History, 1962-1976\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1447080800l/26073079._SY75_.jpg\" /></a><br/>\n                                      author: Frank Dikötter<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: 2016<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/04/17<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/26073079-the-cultural-revolution?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Cultural Revolution: A People&#39;s History, 1962-1976\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1447080800l/26073079._SY75_.jpg\" /></a><br/>\n                                      author: Frank Dikötter<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: 2016<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/04/17<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "396"
     },
     {
@@ -11294,9 +11315,9 @@
       "userDateCreated": "2023-03-06T08:19:50.000Z",
       "userShelves": "on-deck",
       "userReview": "",
-      "averageRating": "3.9",
+      "averageRating": "0.0",
       "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/60747069-global-discord?utm_medium=api&amp;utm_source=rss\"><img alt=\"Global Discord: Values and Power in a Fractured World Order\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1668002332l/60747069._SY75_.jpg\" /></a><br/>\n                                      author: Paul Tucker<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/03/06<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/60747069-global-discord?utm_medium=api&amp;utm_source=rss\"><img alt=\"Global Discord: Values and Power in a Fractured World Order\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1668002332l/60747069._SY75_.jpg\" /></a><br/>\n                                      author: Paul Tucker<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/03/06<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
       "numPages": "552"
     },
     {
@@ -11756,9 +11777,9 @@
       "userDateCreated": "2023-01-18T09:13:52.000Z",
       "userShelves": "on-deck",
       "userReview": "",
-      "averageRating": "4.3",
+      "averageRating": "0.0",
       "bookPublished": "2022",
-      "description": "<a href=\"https://www.goodreads.com/book/show/60877734-backfire?utm_medium=api&amp;utm_source=rss\"><img alt=\"Backfire: How Sanctions Reshape the World Against U.S. Interests (Center on Global Energy Policy Series)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1659037074l/60877734._SY75_.jpg\" /></a><br/>\n                                      author: Agathe Demarais<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: 2022<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/01/18<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/60877734-backfire?utm_medium=api&amp;utm_source=rss\"><img alt=\"Backfire: How Sanctions Reshape the World Against U.S. Interests (Center on Global Energy Policy Series)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1659037074l/60877734._SY75_.jpg\" /></a><br/>\n                                      author: Agathe Demarais<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: 2022<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/01/18<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
       "numPages": "416"
     },
     {
@@ -12029,9 +12050,9 @@
       "userDateCreated": "2022-12-20T08:21:13.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "4.0",
+      "averageRating": "0.0",
       "bookPublished": "-322",
-      "description": "<a href=\"https://www.goodreads.com/book/show/551680.Orations_Volume_I?utm_medium=api&amp;utm_source=rss\"><img alt=\"Orations, Volume I: Orations 1–17 and 20: Olynthiacs. Philippics. Minor Public Orations (Greek and English Edition)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347761407l/551680._SY75_.jpg\" /></a><br/>\n                                      author: Demosthenes<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: -322<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/12/20<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/551680.Orations_Volume_I?utm_medium=api&amp;utm_source=rss\"><img alt=\"Orations, Volume I: Orations 1–17 and 20: Olynthiacs. Philippics. Minor Public Orations (Greek and English Edition)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347761407l/551680._SY75_.jpg\" /></a><br/>\n                                      author: Demosthenes<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: -322<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/12/20<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "640"
     },
     {
@@ -12911,9 +12932,9 @@
       "userDateCreated": "2022-10-23T21:15:31.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "4.1",
+      "averageRating": "0.0",
       "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/61285675-learning-typescript?utm_medium=api&amp;utm_source=rss\"><img alt=\"Learning TypeScript: Enhance Your Web Development Skills Using Type-Safe JavaScript\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1655169041l/61285675._SX50_.jpg\" /></a><br/>\n                                      author: Josh Goldberg<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: <br/>\n                                      rating: 4<br/>\n                                      read at: 2022/10/23<br/>\n                                      date added: 2022/10/23<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/61285675-learning-typescript?utm_medium=api&amp;utm_source=rss\"><img alt=\"Learning TypeScript: Enhance Your Web Development Skills Using Type-Safe JavaScript\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1655169041l/61285675._SX50_.jpg\" /></a><br/>\n                                      author: Josh Goldberg<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: <br/>\n                                      rating: 4<br/>\n                                      read at: 2022/10/23<br/>\n                                      date added: 2022/10/23<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "486"
     },
     {
@@ -13352,9 +13373,9 @@
       "userDateCreated": "2022-09-22T07:59:16.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "4.2",
+      "averageRating": "0.0",
       "bookPublished": "1971",
-      "description": "<a href=\"https://www.goodreads.com/book/show/142465.Flash_for_Freedom?utm_medium=api&amp;utm_source=rss\"><img alt=\"Flash for Freedom (The Flashman Papers #3)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1303914458l/142465._SY75_.jpg\" /></a><br/>\n                                      author: George MacDonald Fraser<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 1971<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/09/22<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/142465.Flash_for_Freedom?utm_medium=api&amp;utm_source=rss\"><img alt=\"Flash for Freedom (The Flashman Papers #3)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1303914458l/142465._SY75_.jpg\" /></a><br/>\n                                      author: George MacDonald Fraser<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: 1971<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/09/22<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "343"
     },
     {
@@ -13499,9 +13520,9 @@
       "userDateCreated": "2022-08-21T01:01:39.000Z",
       "userShelves": "on-deck",
       "userReview": "",
-      "averageRating": "3.7",
+      "averageRating": "0.0",
       "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/55801217-the-ascent-of-information?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Ascent of Information: Books, Bits, Genes, Machines, and Life&#39;s Unending Algorithm\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1607321730l/55801217._SY75_.jpg\" /></a><br/>\n                                      author: Caleb Scharf<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.7<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/09/18<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/55801217-the-ascent-of-information?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Ascent of Information: Books, Bits, Genes, Machines, and Life&#39;s Unending Algorithm\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1607321730l/55801217._SY75_.jpg\" /></a><br/>\n                                      author: Caleb Scharf<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/09/18<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
       "numPages": "352"
     },
     {
@@ -13583,9 +13604,9 @@
       "userDateCreated": "2022-09-17T00:59:54.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "4.1",
+      "averageRating": "0.0",
       "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/41998128-architects-of-intelligence?utm_medium=api&amp;utm_source=rss\"><img alt=\"Architects of Intelligence: The truth about AI from the people building it\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1537760364l/41998128._SY75_.jpg\" /></a><br/>\n                                      author: Martin Ford<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/09/16<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/41998128-architects-of-intelligence?utm_medium=api&amp;utm_source=rss\"><img alt=\"Architects of Intelligence: The truth about AI from the people building it\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1537760364l/41998128._SY75_.jpg\" /></a><br/>\n                                      author: Martin Ford<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/09/16<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "554"
     },
     {
@@ -14612,9 +14633,9 @@
       "userDateCreated": "2022-07-01T06:15:21.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "4.3",
+      "averageRating": "0.0",
       "bookPublished": "2003",
-      "description": "<a href=\"https://www.goodreads.com/book/show/2253976.Elliptic_Curves?utm_medium=api&amp;utm_source=rss\"><img alt=\"Elliptic Curves: Number Theory and Cryptography\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347561041l/2253976._SY75_.jpg\" /></a><br/>\n                                      author: Lawrence C. Washington<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: 2003<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/06/30<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/2253976.Elliptic_Curves?utm_medium=api&amp;utm_source=rss\"><img alt=\"Elliptic Curves: Number Theory and Cryptography\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347561041l/2253976._SY75_.jpg\" /></a><br/>\n                                      author: Lawrence C. Washington<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: 2003<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/06/30<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "532"
     },
     {
@@ -14948,9 +14969,9 @@
       "userDateCreated": "2022-05-20T20:11:44.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "0.0",
+      "averageRating": "4.5",
       "bookPublished": "2011",
-      "description": "<a href=\"https://www.goodreads.com/book/show/11092660-elles-ont-fait-l-am-rique?utm_medium=api&amp;utm_source=rss\"><img alt=\"Elles ont fait l’Amérique\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1315685608l/11092660._SX50_.jpg\" /></a><br/>\n                                      author: Serge Bouchard<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: 2011<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/05/20<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/11092660-elles-ont-fait-l-am-rique?utm_medium=api&amp;utm_source=rss\"><img alt=\"Elles ont fait l’Amérique\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1315685608l/11092660._SX50_.jpg\" /></a><br/>\n                                      author: Serge Bouchard<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.5<br/>\n                                      book published: 2011<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/05/20<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "448"
     },
     {
@@ -14969,9 +14990,9 @@
       "userDateCreated": "2022-05-20T20:11:45.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "0.0",
+      "averageRating": "4.5",
       "bookPublished": "2014",
-      "description": "<a href=\"https://www.goodreads.com/book/show/22229199-ils-ont-couru-l-am-rique?utm_medium=api&amp;utm_source=rss\"><img alt=\"Ils ont couru l&#39;Amérique\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1400558771l/22229199._SX50_.jpg\" /></a><br/>\n                                      author: Serge Bouchard<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: 2014<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/05/20<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/22229199-ils-ont-couru-l-am-rique?utm_medium=api&amp;utm_source=rss\"><img alt=\"Ils ont couru l&#39;Amérique\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1400558771l/22229199._SX50_.jpg\" /></a><br/>\n                                      author: Serge Bouchard<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.5<br/>\n                                      book published: 2014<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/05/20<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "420"
     },
     {
@@ -15452,9 +15473,9 @@
       "userDateCreated": "2022-04-07T04:14:38.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "0.0",
+      "averageRating": "3.5",
       "bookPublished": "1989",
-      "description": "<a href=\"https://www.goodreads.com/book/show/739828.The_Oxford_History_of_Ireland?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Oxford History of Ireland\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347659253l/739828._SX50_.jpg\" /></a><br/>\n                                      author: R.F. Foster<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: 1989<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/04/06<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/739828.The_Oxford_History_of_Ireland?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Oxford History of Ireland\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347659253l/739828._SX50_.jpg\" /></a><br/>\n                                      author: R.F. Foster<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.5<br/>\n                                      book published: 1989<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/04/06<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "368"
     },
     {
@@ -15767,9 +15788,9 @@
       "userDateCreated": "2022-03-18T10:03:12.000Z",
       "userShelves": "on-deck",
       "userReview": "",
-      "averageRating": "0.0",
+      "averageRating": "4.4",
       "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/59015075-market-tremors?utm_medium=api&amp;utm_source=rss\"><img alt=\"Market Tremors: Quantifying Structural Risks in Modern Financial Markets\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1631889942l/59015075._SY75_.jpg\" /></a><br/>\n                                      author: Hari P. Krishnan<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/03/18<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/59015075-market-tremors?utm_medium=api&amp;utm_source=rss\"><img alt=\"Market Tremors: Quantifying Structural Risks in Modern Financial Markets\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1631889942l/59015075._SY75_.jpg\" /></a><br/>\n                                      author: Hari P. Krishnan<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.4<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/03/18<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
       "numPages": "266"
     },
     {
@@ -16733,9 +16754,9 @@
       "userDateCreated": "2021-11-25T06:22:17.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "0.0",
+      "averageRating": "3.8",
       "bookPublished": "2021",
-      "description": "<a href=\"https://www.goodreads.com/book/show/54817585-know-thyself?utm_medium=api&amp;utm_source=rss\"><img alt=\"Know Thyself: The Science of Self-Awareness\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1603144118l/54817585._SY75_.jpg\" /></a><br/>\n                                      author: Stephen M. Fleming<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: 2021<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/11/24<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/54817585-know-thyself?utm_medium=api&amp;utm_source=rss\"><img alt=\"Know Thyself: The Science of Self-Awareness\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1603144118l/54817585._SY75_.jpg\" /></a><br/>\n                                      author: Stephen M. Fleming<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.8<br/>\n                                      book published: 2021<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/11/24<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "304"
     },
     {
@@ -16922,9 +16943,9 @@
       "userDateCreated": "2015-02-13T08:10:17.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "3.8",
+      "averageRating": "0.0",
       "bookPublished": "2015",
-      "description": "<a href=\"https://www.goodreads.com/book/show/22328555-to-explain-the-world?utm_medium=api&amp;utm_source=rss\"><img alt=\"To Explain the World: The Discovery of Modern Science\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1410766672l/22328555._SY75_.jpg\" /></a><br/>\n                                      author: Steven Weinberg<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.8<br/>\n                                      book published: 2015<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/11/06<br/>\n                                      date added: 2021/11/06<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/22328555-to-explain-the-world?utm_medium=api&amp;utm_source=rss\"><img alt=\"To Explain the World: The Discovery of Modern Science\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1410766672l/22328555._SY75_.jpg\" /></a><br/>\n                                      author: Steven Weinberg<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: 2015<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/11/06<br/>\n                                      date added: 2021/11/06<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "432"
     },
     {
@@ -17027,9 +17048,9 @@
       "userDateCreated": "2021-11-05T07:07:58.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "4.5",
+      "averageRating": "0.0",
       "bookPublished": "2015",
-      "description": "<a href=\"https://www.goodreads.com/book/show/26254109-the-princeton-companion-to-applied-mathematics?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Princeton Companion to Applied Mathematics\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1441761746l/26254109._SX50_.jpg\" /></a><br/>\n                                      author: Nicholas J.  Higham<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.5<br/>\n                                      book published: 2015<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/11/05<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/26254109-the-princeton-companion-to-applied-mathematics?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Princeton Companion to Applied Mathematics\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1441761746l/26254109._SX50_.jpg\" /></a><br/>\n                                      author: Nicholas J.  Higham<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: 2015<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/11/05<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "1032"
     },
     {
@@ -17174,9 +17195,9 @@
       "userDateCreated": "2021-10-17T09:22:48.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "4.7",
+      "averageRating": "0.0",
       "bookPublished": "1850",
-      "description": "<a href=\"https://www.goodreads.com/book/show/2199337.White_Jacket_Fiction_Classics_Sea_Stories?utm_medium=api&amp;utm_source=rss\"><img alt=\"White Jacket, Fiction, Classics, Sea Stories\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348071189l/2199337._SY75_.jpg\" /></a><br/>\n                                      author: Herman Melville<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.7<br/>\n                                      book published: 1850<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/10/17<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/2199337.White_Jacket_Fiction_Classics_Sea_Stories?utm_medium=api&amp;utm_source=rss\"><img alt=\"White Jacket, Fiction, Classics, Sea Stories\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348071189l/2199337._SY75_.jpg\" /></a><br/>\n                                      author: Herman Melville<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: 1850<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/10/17<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "336"
     },
     {
@@ -17258,9 +17279,9 @@
       "userDateCreated": "2021-10-09T10:44:04.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "4.0",
+      "averageRating": "0.0",
       "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/44525996-escape-from-rome?utm_medium=api&amp;utm_source=rss\"><img alt=\"Escape from Rome: The Failure of Empire and the Road to Prosperity (The Princeton Economic History of the Western World)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1558719133l/44525996._SY75_.jpg\" /></a><br/>\n                                      author: Walter Scheidel<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/10/09<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/44525996-escape-from-rome?utm_medium=api&amp;utm_source=rss\"><img alt=\"Escape from Rome: The Failure of Empire and the Road to Prosperity (The Princeton Economic History of the Western World)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1558719133l/44525996._SY75_.jpg\" /></a><br/>\n                                      author: Walter Scheidel<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/10/09<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "670"
     },
     {
@@ -18035,9 +18056,9 @@
       "userDateCreated": "2021-08-25T04:30:50.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "0.0",
+      "averageRating": "3.9",
       "bookPublished": "1669",
-      "description": "<a href=\"https://www.goodreads.com/book/show/420481.The_Diary_of_Samuel_Pepys?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Diary of Samuel Pepys\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328045306l/420481._SY75_.jpg\" /></a><br/>\n                                      author: Samuel Pepys<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: 1669<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/08/24<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/420481.The_Diary_of_Samuel_Pepys?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Diary of Samuel Pepys\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328045306l/420481._SY75_.jpg\" /></a><br/>\n                                      author: Samuel Pepys<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: 1669<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/08/24<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "1096"
     },
     {
@@ -18140,9 +18161,9 @@
       "userDateCreated": "2021-05-23T19:10:30.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "4.1",
+      "averageRating": "0.0",
       "bookPublished": "1592",
-      "description": "<a href=\"https://www.goodreads.com/book/show/53403847-monkey-king?utm_medium=api&amp;utm_source=rss\"><img alt=\"Monkey King\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1594484296l/53403847._SY75_.jpg\" /></a><br/>\n                                      author: Wu Cheng'en<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: 1592<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/08/12<br/>\n                                      date added: 2021/08/12<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/53403847-monkey-king?utm_medium=api&amp;utm_source=rss\"><img alt=\"Monkey King\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1594484296l/53403847._SY75_.jpg\" /></a><br/>\n                                      author: Wu Cheng'en<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: 1592<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/08/12<br/>\n                                      date added: 2021/08/12<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "339"
     },
     {
@@ -18203,9 +18224,9 @@
       "userDateCreated": "2020-05-07T04:57:16.000Z",
       "userShelves": "on-deck",
       "userReview": "",
-      "averageRating": "3.6",
+      "averageRating": "0.0",
       "bookPublished": "1982",
-      "description": "<a href=\"https://www.goodreads.com/book/show/672244.Helliconia_Spring?utm_medium=api&amp;utm_source=rss\"><img alt=\"Helliconia Spring (Helliconia, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1387750658l/672244._SY75_.jpg\" /></a><br/>\n                                      author: Brian W. Aldiss<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.6<br/>\n                                      book published: 1982<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/08/07<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/672244.Helliconia_Spring?utm_medium=api&amp;utm_source=rss\"><img alt=\"Helliconia Spring (Helliconia, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1387750658l/672244._SY75_.jpg\" /></a><br/>\n                                      author: Brian W. Aldiss<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: 1982<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/08/07<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
       "numPages": "400"
     },
     {
@@ -18581,9 +18602,9 @@
       "userDateCreated": "2021-05-22T05:46:24.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "4.3",
+      "averageRating": "0.0",
       "bookPublished": "2019",
-      "description": "<a href=\"https://www.goodreads.com/book/show/35297608-the-second-kind-of-impossible?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Second Kind of Impossible: The Extraordinary Quest for a New Form of Matter\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1545498683l/35297608._SY75_.jpg\" /></a><br/>\n                                      author: Paul J. Steinhardt<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: 2019<br/>\n                                      rating: 5<br/>\n                                      read at: 2021/07/18<br/>\n                                      date added: 2021/07/18<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/35297608-the-second-kind-of-impossible?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Second Kind of Impossible: The Extraordinary Quest for a New Form of Matter\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1545498683l/35297608._SY75_.jpg\" /></a><br/>\n                                      author: Paul J. Steinhardt<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: 2019<br/>\n                                      rating: 5<br/>\n                                      read at: 2021/07/18<br/>\n                                      date added: 2021/07/18<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "400"
     },
     {
@@ -18602,9 +18623,9 @@
       "userDateCreated": "2021-07-18T23:43:43.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "0.0",
+      "averageRating": "4.1",
       "bookPublished": "2007",
-      "description": "<a href=\"https://www.goodreads.com/book/show/885276.Endless_Universe?utm_medium=api&amp;utm_source=rss\"><img alt=\"Endless Universe: Beyond the Big Bang\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1440643992l/885276._SY75_.jpg\" /></a><br/>\n                                      author: Paul J. Steinhardt<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: 2007<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/07/18<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/885276.Endless_Universe?utm_medium=api&amp;utm_source=rss\"><img alt=\"Endless Universe: Beyond the Big Bang\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1440643992l/885276._SY75_.jpg\" /></a><br/>\n                                      author: Paul J. Steinhardt<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: 2007<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/07/18<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "304"
     },
     {
@@ -19358,9 +19379,9 @@
       "userDateCreated": "2016-06-12T07:01:51.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "0.0",
+      "averageRating": "3.8",
       "bookPublished": "2016",
-      "description": "<a href=\"https://www.goodreads.com/book/show/27189879-mapping-the-heavens?utm_medium=api&amp;utm_source=rss\"><img alt=\"Mapping the Heavens: The Radical Scientific Ideas That Reveal the Cosmos\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1444890911l/27189879._SY75_.jpg\" /></a><br/>\n                                      author: Priyamvada Natarajan<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: 2016<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/05/17<br/>\n                                      date added: 2021/05/17<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/27189879-mapping-the-heavens?utm_medium=api&amp;utm_source=rss\"><img alt=\"Mapping the Heavens: The Radical Scientific Ideas That Reveal the Cosmos\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1444890911l/27189879._SY75_.jpg\" /></a><br/>\n                                      author: Priyamvada Natarajan<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.8<br/>\n                                      book published: 2016<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/05/17<br/>\n                                      date added: 2021/05/17<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "288"
     },
     {
@@ -20387,9 +20408,9 @@
       "userDateCreated": "2021-03-14T00:58:40.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "0.0",
+      "averageRating": "3.7",
       "bookPublished": "2019",
-      "description": "<a href=\"https://www.goodreads.com/book/show/43197257-woke?utm_medium=api&amp;utm_source=rss\"><img alt=\"Woke: A Guide to Social Justice\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1544544412l/43197257._SY75_.jpg\" /></a><br/>\n                                      author: Titania McGrath<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: 2019<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/03/13<br/>\n                                      date added: 2021/03/13<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/43197257-woke?utm_medium=api&amp;utm_source=rss\"><img alt=\"Woke: A Guide to Social Justice\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1544544412l/43197257._SY75_.jpg\" /></a><br/>\n                                      author: Titania McGrath<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.7<br/>\n                                      book published: 2019<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/03/13<br/>\n                                      date added: 2021/03/13<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "150"
     },
     {
@@ -22928,9 +22949,9 @@
       "userDateCreated": "2019-05-12T00:54:26.000Z",
       "userShelves": "",
       "userReview": "This was a great introductory guided tour of Nats.<br />Fun read, and enough to get started!",
-      "averageRating": "0.0",
+      "averageRating": "3.1",
       "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/40531754-practical-nats?utm_medium=api&amp;utm_source=rss\"><img alt=\"Practical NATS: From Beginner to Pro\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1529038436l/40531754._SY75_.jpg\" /></a><br/>\n                                      author: Waldemar Quevedo<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: <br/>\n                                      rating: 4<br/>\n                                      read at: 2019/05/16<br/>\n                                      date added: 2019/05/16<br/>\n                                      shelves: <br/>\n                                      review: <br/>This was a great introductory guided tour of Nats.<br />Fun read, and enough to get started!<br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/40531754-practical-nats?utm_medium=api&amp;utm_source=rss\"><img alt=\"Practical NATS: From Beginner to Pro\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1529038436l/40531754._SY75_.jpg\" /></a><br/>\n                                      author: Waldemar Quevedo<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.1<br/>\n                                      book published: <br/>\n                                      rating: 4<br/>\n                                      read at: 2019/05/16<br/>\n                                      date added: 2019/05/16<br/>\n                                      shelves: <br/>\n                                      review: <br/>This was a great introductory guided tour of Nats.<br />Fun read, and enough to get started!<br/>",
       "numPages": "285"
     },
     {
@@ -23096,9 +23117,9 @@
       "userDateCreated": "2018-08-24T18:42:54.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "0.0",
+      "averageRating": "4.0",
       "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/33369255-data-science-on-the-google-cloud-platform?utm_medium=api&amp;utm_source=rss\"><img alt=\"Data Science on the Google Cloud Platform: Implementing End-to-End Real-Time Data Pipelines: From Ingest to Machine Learning\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1517554773l/33369255._SX50_.jpg\" /></a><br/>\n                                      author: Valliappa Lakshmanan<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2018/08/24<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/33369255-data-science-on-the-google-cloud-platform?utm_medium=api&amp;utm_source=rss\"><img alt=\"Data Science on the Google Cloud Platform: Implementing End-to-End Real-Time Data Pipelines: From Ingest to Machine Learning\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1517554773l/33369255._SX50_.jpg\" /></a><br/>\n                                      author: Valliappa Lakshmanan<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2018/08/24<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "402"
     },
     {
@@ -23138,9 +23159,9 @@
       "userDateCreated": "2018-02-28T09:04:49.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "4.3",
+      "averageRating": "0.0",
       "bookPublished": "2013",
-      "description": "<a href=\"https://www.goodreads.com/book/show/18600539-espresso-extraction?utm_medium=api&amp;utm_source=rss\"><img alt=\"Espresso Extraction: Measurement and Mastery\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1522311076l/18600539._SX50_.jpg\" /></a><br/>\n                                      author: Scott Rao<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: 2013<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2018/02/28<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/18600539-espresso-extraction?utm_medium=api&amp;utm_source=rss\"><img alt=\"Espresso Extraction: Measurement and Mastery\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1522311076l/18600539._SX50_.jpg\" /></a><br/>\n                                      author: Scott Rao<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: 2013<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2018/02/28<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "43"
     },
     {
@@ -23159,9 +23180,9 @@
       "userDateCreated": "2018-02-28T09:01:11.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "0.0",
+      "averageRating": "4.2",
       "bookPublished": "2008",
-      "description": "<a href=\"https://www.goodreads.com/book/show/3385279-the-professional-barista-s-handbook?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Professional Barista&#39;s Handbook\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1362760638l/3385279._SX50_.jpg\" /></a><br/>\n                                      author: Scott Rao<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: 2008<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2018/02/28<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/3385279-the-professional-barista-s-handbook?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Professional Barista&#39;s Handbook\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1362760638l/3385279._SX50_.jpg\" /></a><br/>\n                                      author: Scott Rao<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 2008<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2018/02/28<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "99"
     },
     {
@@ -23558,9 +23579,9 @@
       "userDateCreated": "2016-07-24T08:11:48.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "4.1",
+      "averageRating": "0.0",
       "bookPublished": "2015",
-      "description": "<a href=\"https://www.goodreads.com/book/show/23316494-the-vital-question?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Vital Question: Energy, Evolution, and the Origins of Complex Life\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1431628074l/23316494._SY75_.jpg\" /></a><br/>\n                                      author: Nick Lane<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: 2015<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2016/07/24<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/23316494-the-vital-question?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Vital Question: Energy, Evolution, and the Origins of Complex Life\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1431628074l/23316494._SY75_.jpg\" /></a><br/>\n                                      author: Nick Lane<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: 2015<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2016/07/24<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "368"
     },
     {
@@ -23852,9 +23873,9 @@
       "userDateCreated": "2015-07-10T02:47:47.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "0.0",
+      "averageRating": "4.4",
       "bookPublished": "1973",
-      "description": "<a href=\"https://www.goodreads.com/book/show/112247.The_Art_of_Computer_Programming_Volume_1?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Art of Computer Programming, Volume 1: Fundamental Algorithms\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388242904l/112247._SX50_.jpg\" /></a><br/>\n                                      author: Donald Ervin Knuth<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: 1973<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2015/07/09<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/112247.The_Art_of_Computer_Programming_Volume_1?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Art of Computer Programming, Volume 1: Fundamental Algorithms\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388242904l/112247._SX50_.jpg\" /></a><br/>\n                                      author: Donald Ervin Knuth<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.4<br/>\n                                      book published: 1973<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2015/07/09<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "672"
     },
     {
@@ -23894,9 +23915,9 @@
       "userDateCreated": "2015-03-25T07:43:24.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "3.9",
+      "averageRating": "0.0",
       "bookPublished": "2014",
-      "description": "<a href=\"https://www.goodreads.com/book/show/23347191-life-on-the-edge?utm_medium=api&amp;utm_source=rss\"><img alt=\"Life on the Edge: The Coming of Age of Quantum Biology\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1415095344l/23347191._SY75_.jpg\" /></a><br/>\n                                      author: Johnjoe McFadden<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: 2014<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2015/06/15<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/23347191-life-on-the-edge?utm_medium=api&amp;utm_source=rss\"><img alt=\"Life on the Edge: The Coming of Age of Quantum Biology\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1415095344l/23347191._SY75_.jpg\" /></a><br/>\n                                      author: Johnjoe McFadden<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: 2014<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2015/06/15<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "368"
     },
     {
@@ -24020,9 +24041,9 @@
       "userDateCreated": "2015-01-13T19:55:09.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "4.0",
+      "averageRating": "0.0",
       "bookPublished": "2013",
-      "description": "<a href=\"https://www.goodreads.com/book/show/21818365-thieves-emporium?utm_medium=api&amp;utm_source=rss\"><img alt=\"Thieves Emporium (The New Badlands)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1420788365l/21818365._SX50_.jpg\" /></a><br/>\n                                      author: Max  Hernández<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: 2013<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2015/01/13<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/21818365-thieves-emporium?utm_medium=api&amp;utm_source=rss\"><img alt=\"Thieves Emporium (The New Badlands)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1420788365l/21818365._SX50_.jpg\" /></a><br/>\n                                      author: Max  Hernández<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: 2013<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2015/01/13<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "420"
     },
     {
@@ -24062,9 +24083,9 @@
       "userDateCreated": "2014-12-15T01:00:21.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "4.2",
+      "averageRating": "0.0",
       "bookPublished": "2012",
-      "description": "<a href=\"https://www.goodreads.com/book/show/17288969-effective-javascript?utm_medium=api&amp;utm_source=rss\"><img alt=\"Effective JavaScript: 68 Specific Ways to Harness the Power of JavaScript\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1394330987l/17288969._SX50_.jpg\" /></a><br/>\n                                      author: David  Herman<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 2012<br/>\n                                      rating: 5<br/>\n                                      read at: <br/>\n                                      date added: 2014/12/14<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/17288969-effective-javascript?utm_medium=api&amp;utm_source=rss\"><img alt=\"Effective JavaScript: 68 Specific Ways to Harness the Power of JavaScript\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1394330987l/17288969._SX50_.jpg\" /></a><br/>\n                                      author: David  Herman<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: 2012<br/>\n                                      rating: 5<br/>\n                                      read at: <br/>\n                                      date added: 2014/12/14<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "216"
     },
     {
@@ -24083,9 +24104,9 @@
       "userDateCreated": "2014-12-15T01:00:12.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "4.1",
+      "averageRating": "0.0",
       "bookPublished": "2010",
-      "description": "<a href=\"https://www.goodreads.com/book/show/12326497-eloquent-javascript?utm_medium=api&amp;utm_source=rss\"><img alt=\"Eloquent JavaScript: A Modern Introduction to Programming\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1394329863l/12326497._SX50_.jpg\" /></a><br/>\n                                      author: Marijn Haverbeke<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: 2010<br/>\n                                      rating: 5<br/>\n                                      read at: <br/>\n                                      date added: 2014/12/14<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/12326497-eloquent-javascript?utm_medium=api&amp;utm_source=rss\"><img alt=\"Eloquent JavaScript: A Modern Introduction to Programming\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1394329863l/12326497._SX50_.jpg\" /></a><br/>\n                                      author: Marijn Haverbeke<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: 2010<br/>\n                                      rating: 5<br/>\n                                      read at: <br/>\n                                      date added: 2014/12/14<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "289"
     },
     {
@@ -24104,9 +24125,9 @@
       "userDateCreated": "2014-12-15T01:00:06.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "0.0",
+      "averageRating": "4.2",
       "bookPublished": "2008",
-      "description": "<a href=\"https://www.goodreads.com/book/show/6590008-javascript?utm_medium=api&amp;utm_source=rss\"><img alt=\"JavaScript: The Good Parts: The Good Parts\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328327382l/6590008._SX50_.jpg\" /></a><br/>\n                                      author: Douglas Crockford<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: 2008<br/>\n                                      rating: 5<br/>\n                                      read at: <br/>\n                                      date added: 2014/12/14<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/6590008-javascript?utm_medium=api&amp;utm_source=rss\"><img alt=\"JavaScript: The Good Parts: The Good Parts\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328327382l/6590008._SX50_.jpg\" /></a><br/>\n                                      author: Douglas Crockford<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 2008<br/>\n                                      rating: 5<br/>\n                                      read at: <br/>\n                                      date added: 2014/12/14<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "100"
     },
     {
@@ -24125,9 +24146,9 @@
       "userDateCreated": "2014-11-10T03:52:22.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "0.0",
+      "averageRating": "3.4",
       "bookPublished": "2013",
-      "description": "<a href=\"https://www.goodreads.com/book/show/16096109-the-new-digital-age?utm_medium=api&amp;utm_source=rss\"><img alt=\"The New Digital Age: Reshaping the Future of People, Nations and Business\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1364816597l/16096109._SX50_.jpg\" /></a><br/>\n                                      author: Eric Schmidt<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: 2013<br/>\n                                      rating: 3<br/>\n                                      read at: 2014/12/07<br/>\n                                      date added: 2014/12/07<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/16096109-the-new-digital-age?utm_medium=api&amp;utm_source=rss\"><img alt=\"The New Digital Age: Reshaping the Future of People, Nations and Business\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1364816597l/16096109._SX50_.jpg\" /></a><br/>\n                                      author: Eric Schmidt<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.4<br/>\n                                      book published: 2013<br/>\n                                      rating: 3<br/>\n                                      read at: 2014/12/07<br/>\n                                      date added: 2014/12/07<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "336"
     },
     {
@@ -24188,9 +24209,9 @@
       "userDateCreated": "2013-11-06T09:12:06.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "4.2",
+      "averageRating": "0.0",
       "bookPublished": "2012",
-      "description": "<a href=\"https://www.goodreads.com/book/show/15829488-the-straight-a-conspiracy?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Straight-A Conspiracy: A Student&#39;s Secret Guide to Ending the Stress of High School and Totally Ruling the World\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1345027756l/15829488._SX50_.jpg\" /></a><br/>\n                                      author: Hunter Maats<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 2012<br/>\n                                      rating: 4<br/>\n                                      read at: 2014/11/09<br/>\n                                      date added: 2014/11/09<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/15829488-the-straight-a-conspiracy?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Straight-A Conspiracy: A Student&#39;s Secret Guide to Ending the Stress of High School and Totally Ruling the World\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1345027756l/15829488._SX50_.jpg\" /></a><br/>\n                                      author: Hunter Maats<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: 2012<br/>\n                                      rating: 4<br/>\n                                      read at: 2014/11/09<br/>\n                                      date added: 2014/11/09<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "336"
     },
     {
@@ -24251,9 +24272,9 @@
       "userDateCreated": "2014-05-23T21:29:30.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "3.5",
+      "averageRating": "0.0",
       "bookPublished": "2013",
-      "description": "<a href=\"https://www.goodreads.com/book/show/21143394-power-and-liberty?utm_medium=api&amp;utm_source=rss\"><img alt=\"POWER AND LIBERTY\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1394252349l/21143394._SX50_.jpg\" /></a><br/>\n                                      author: Leo Tolstoy<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.5<br/>\n                                      book published: 2013<br/>\n                                      rating: 3<br/>\n                                      read at: 2014/05/23<br/>\n                                      date added: 2014/05/23<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/21143394-power-and-liberty?utm_medium=api&amp;utm_source=rss\"><img alt=\"POWER AND LIBERTY\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1394252349l/21143394._SX50_.jpg\" /></a><br/>\n                                      author: Leo Tolstoy<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: 2013<br/>\n                                      rating: 3<br/>\n                                      read at: 2014/05/23<br/>\n                                      date added: 2014/05/23<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "164"
     },
     {
@@ -24545,9 +24566,9 @@
       "userDateCreated": "2013-09-12T18:49:52.000Z",
       "userShelves": "",
       "userReview": "This succinct little book, was a nice companion to diving into deployment onto the AppFog PaaS.<br />The book is centered around deploying a rails app. (I think I would have preferred node personally).<br />All in all a practical little companion.",
-      "averageRating": "4.0",
+      "averageRating": "0.0",
       "bookPublished": "2013",
-      "description": "<a href=\"https://www.goodreads.com/book/show/18482905-instant-appfog?utm_medium=api&amp;utm_source=rss\"><img alt=\"Instant AppFog\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1378958837l/18482905._SX50_.jpg\" /></a><br/>\n                                      author: Pau Kiat Wee<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: 2013<br/>\n                                      rating: 3<br/>\n                                      read at: <br/>\n                                      date added: 2013/09/12<br/>\n                                      shelves: <br/>\n                                      review: <br/>This succinct little book, was a nice companion to diving into deployment onto the AppFog PaaS.<br />The book is centered around deploying a rails app. (I think I would have preferred node personally).<br />All in all a practical little companion.<br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/18482905-instant-appfog?utm_medium=api&amp;utm_source=rss\"><img alt=\"Instant AppFog\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1378958837l/18482905._SX50_.jpg\" /></a><br/>\n                                      author: Pau Kiat Wee<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: 2013<br/>\n                                      rating: 3<br/>\n                                      read at: <br/>\n                                      date added: 2013/09/12<br/>\n                                      shelves: <br/>\n                                      review: <br/>This succinct little book, was a nice companion to diving into deployment onto the AppFog PaaS.<br />The book is centered around deploying a rails app. (I think I would have preferred node personally).<br />All in all a practical little companion.<br/>",
       "numPages": "58"
     },
     {
@@ -24671,9 +24692,9 @@
       "userDateCreated": "2013-05-10T01:21:32.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "3.9",
+      "averageRating": "0.0",
       "bookPublished": "2009",
-      "description": "<a href=\"https://www.goodreads.com/book/show/16240774-foodist?utm_medium=api&amp;utm_source=rss\"><img alt=\"Foodist: Using Real Food and Real Science to Lose Weight Without Dieting\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1362958469l/16240774._SY75_.jpg\" /></a><br/>\n                                      author: Darya Pino Rose<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: 2009<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2013/05/09<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/16240774-foodist?utm_medium=api&amp;utm_source=rss\"><img alt=\"Foodist: Using Real Food and Real Science to Lose Weight Without Dieting\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1362958469l/16240774._SY75_.jpg\" /></a><br/>\n                                      author: Darya Pino Rose<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: 2009<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2013/05/09<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "336"
     },
     {
@@ -24776,9 +24797,9 @@
       "userDateCreated": "2013-04-08T13:59:48.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "4.2",
+      "averageRating": "0.0",
       "bookPublished": "2011",
-      "description": "<a href=\"https://www.goodreads.com/book/show/11415678-the-global-minotaur?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Global Minotaur: America, the True Origins of the Financial Crisis and the Future of the World Economy\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320384318l/11415678._SY75_.jpg\" /></a><br/>\n                                      author: Yanis Varoufakis<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 2011<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2013/04/08<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/11415678-the-global-minotaur?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Global Minotaur: America, the True Origins of the Financial Crisis and the Future of the World Economy\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320384318l/11415678._SY75_.jpg\" /></a><br/>\n                                      author: Yanis Varoufakis<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: 2011<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2013/04/08<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "252"
     },
     {
@@ -24923,9 +24944,9 @@
       "userDateCreated": "2011-11-05T07:19:46.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "3.8",
+      "averageRating": "0.0",
       "bookPublished": "1996",
-      "description": "<a href=\"https://www.goodreads.com/book/show/907447.Born_to_Rebel?utm_medium=api&amp;utm_source=rss\"><img alt=\"Born to Rebel: Birth Order, Family Dynamics and Creative Lives\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320486392l/907447._SY75_.jpg\" /></a><br/>\n                                      author: Frank J. Sulloway<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.8<br/>\n                                      book published: 1996<br/>\n                                      rating: 4<br/>\n                                      read at: <br/>\n                                      date added: 2013/01/16<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/907447.Born_to_Rebel?utm_medium=api&amp;utm_source=rss\"><img alt=\"Born to Rebel: Birth Order, Family Dynamics and Creative Lives\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320486392l/907447._SY75_.jpg\" /></a><br/>\n                                      author: Frank J. Sulloway<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: 1996<br/>\n                                      rating: 4<br/>\n                                      read at: <br/>\n                                      date added: 2013/01/16<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "672"
     },
     {
@@ -25280,9 +25301,9 @@
       "userDateCreated": "2013-01-16T18:24:39.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "0.0",
+      "averageRating": "3.9",
       "bookPublished": "2008",
-      "description": "<a href=\"https://www.goodreads.com/book/show/1735025.Leap_Before_You_Look?utm_medium=api&amp;utm_source=rss\"><img alt=\"Leap Before You Look: 72 Shortcuts for Getting Out of Your Mind and into the Moment\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348523267l/1735025._SX50_.jpg\" /></a><br/>\n                                      author: Arjuna Ardagh<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: 2008<br/>\n                                      rating: 3<br/>\n                                      read at: <br/>\n                                      date added: 2013/01/16<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/1735025.Leap_Before_You_Look?utm_medium=api&amp;utm_source=rss\"><img alt=\"Leap Before You Look: 72 Shortcuts for Getting Out of Your Mind and into the Moment\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348523267l/1735025._SX50_.jpg\" /></a><br/>\n                                      author: Arjuna Ardagh<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: 2008<br/>\n                                      rating: 3<br/>\n                                      read at: <br/>\n                                      date added: 2013/01/16<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "232"
     },
     {
@@ -25826,9 +25847,9 @@
       "userDateCreated": "2011-11-05T07:19:47.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "0.0",
+      "averageRating": "3.8",
       "bookPublished": "2001",
-      "description": "<a href=\"https://www.goodreads.com/book/show/700584.Weird_Ideas_That_Work?utm_medium=api&amp;utm_source=rss\"><img alt=\"Weird Ideas That Work: How to Build a Creative Company\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1393771490l/700584._SY75_.jpg\" /></a><br/>\n                                      author: Robert I. Sutton<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: 2001<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2011/11/11<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/700584.Weird_Ideas_That_Work?utm_medium=api&amp;utm_source=rss\"><img alt=\"Weird Ideas That Work: How to Build a Creative Company\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1393771490l/700584._SY75_.jpg\" /></a><br/>\n                                      author: Robert I. Sutton<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.8<br/>\n                                      book published: 2001<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2011/11/11<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "240"
     },
     {
@@ -25847,9 +25868,9 @@
       "userDateCreated": "2011-11-10T15:39:48.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "0.0",
+      "averageRating": "3.6",
       "bookPublished": "2011",
-      "description": "<a href=\"https://www.goodreads.com/book/show/12150875-a-strange-wilderness?utm_medium=api&amp;utm_source=rss\"><img alt=\"A Strange Wilderness: The Lives of the Great Mathematicians\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328767521l/12150875._SX50_.jpg\" /></a><br/>\n                                      author: Amir D. Aczel<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: 2011<br/>\n                                      rating: 4<br/>\n                                      read at: <br/>\n                                      date added: 2011/11/10<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/12150875-a-strange-wilderness?utm_medium=api&amp;utm_source=rss\"><img alt=\"A Strange Wilderness: The Lives of the Great Mathematicians\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328767521l/12150875._SX50_.jpg\" /></a><br/>\n                                      author: Amir D. Aczel<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.6<br/>\n                                      book published: 2011<br/>\n                                      rating: 4<br/>\n                                      read at: <br/>\n                                      date added: 2011/11/10<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "284"
     }
   ]
