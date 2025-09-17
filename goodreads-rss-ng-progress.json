@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/7921677910?utm_medium=api&utm_source=rss",
+      "title": "If Anyone Builds It, Everyone Dies: Why Superhuman AI Would Kill Us All",
+      "link": "https://www.goodreads.com/review/show/7921677910?utm_medium=api&utm_source=rss",
+      "bookId": "228646231",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1751650717l/228646231._SY75_.jpg",
+      "bookDescription": "<b>\"May prove to be the most important book of our time.”—Tim Urban, <i>Wait But Why</i></b><br /><br /><b>The scramble to create superhuman AI has put us on the path to extinction—but it’s not too late to change course, as two of the field’s earliest researchers explain in this clarion call for humanity.</b><br /><br /> In 2023, hundreds of AI luminaries signed an open letter warning that artificial intelligence poses a serious risk of human extinction. Since then, the AI race has only intensified. Companies and countries are rushing to build machines that will be smarter than any person. And the world is devastatingly unprepared for what would come next.<br />  <br /> For decades, two signatories of that letter—Eliezer Yudkowsky and Nate Soares—have studied how smarter-than-human intelligences will think, behave, and pursue their objectives. Their research says that sufficiently smart AIs will develop goals of their own that put them in conflict with us—and that if it comes to conflict, an artificial superintelligence would crush us. The contest wouldn’t even be close.<br />  <br /> How could a machine superintelligence wipe out our entire species? Why would it want to? Would it want anything at all? In this urgent book, Yudkowsky and Soares walk through the theory and the evidence, present one possible extinction scenario, and explain what it would take for humanity to survive. <br />  <br /> The world is racing to build something truly new under the sun. And if anyone builds it, everyone dies.<br /><br /><b>“The best no-nonsense, simple explanation of the AI risk problem I've ever read.”—Yishan Wong, Former CEO of Reddit</b>",
+      "authorName": "Eliezer Yudkowsky",
+      "isbn": "0316595640",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2025-09-17T05:48:33.000Z",
+      "userDateCreated": "2025-09-17T05:18:51.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "4.0",
+      "bookPublished": "",
+      "description": "<a href=\"https://www.goodreads.com/book/show/228646231-if-anyone-builds-it-everyone-dies?utm_medium=api&amp;utm_source=rss\"><img alt=\"If Anyone Builds It, Everyone Dies: Why Superhuman AI Would Kill Us All\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1751650717l/228646231._SY75_.jpg\" /></a><br/>\n                                      author: Eliezer Yudkowsky<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/09/16<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "272"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/4289132437?utm_medium=api&utm_source=rss",
       "title": "The Dying Earth (The Dying Earth, #1)",
       "link": "https://www.goodreads.com/review/show/4289132437?utm_medium=api&utm_source=rss",
@@ -12,14 +33,14 @@
       "isbn": "0671831526",
       "userName": "Daniel",
       "userRating": "4",
-      "userReadAt": "2023-01-12T00:00:00.000Z",
-      "userDateAdded": "2025-09-16T08:01:24.000Z",
+      "userReadAt": "2025-09-16T00:00:00.000Z",
+      "userDateAdded": "2025-09-17T04:48:29.000Z",
       "userDateCreated": "2021-10-15T07:16:21.000Z",
-      "userShelves": "currently-reading",
+      "userShelves": "",
       "userReview": "",
       "averageRating": "3.9",
       "bookPublished": "1950",
-      "description": "<a href=\"https://www.goodreads.com/book/show/951749.The_Dying_Earth?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Dying Earth (The Dying Earth, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1558264964l/951749._SY75_.jpg\" /></a><br/>\n                                      author: Jack Vance<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: 1950<br/>\n                                      rating: 4<br/>\n                                      read at: 2023/01/12<br/>\n                                      date added: 2025/09/16<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/951749.The_Dying_Earth?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Dying Earth (The Dying Earth, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1558264964l/951749._SY75_.jpg\" /></a><br/>\n                                      author: Jack Vance<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: 1950<br/>\n                                      rating: 4<br/>\n                                      read at: 2025/09/16<br/>\n                                      date added: 2025/09/16<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "156"
     },
     {
@@ -2058,27 +2079,6 @@
       "bookPublished": "2004",
       "description": "<a href=\"https://www.goodreads.com/book/show/17977.The_Ancestor_s_Tale?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Ancestor&#39;s Tale: A Pilgrimage to the Dawn of Evolution\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1423600058l/17977._SY75_.jpg\" /></a><br/>\n                                      author: Richard Dawkins<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: 2004<br/>\n                                      rating: 5<br/>\n                                      read at: 2025/04/08<br/>\n                                      date added: 2025/04/08<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "688"
-    },
-    {
-      "id": "https://www.goodreads.com/review/show/7458163688?utm_medium=api&utm_source=rss",
-      "title": "Small Gods (Discworld, #13)",
-      "link": "https://www.goodreads.com/review/show/7458163688?utm_medium=api&utm_source=rss",
-      "bookId": "34484",
-      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1390899426l/34484._SY75_.jpg",
-      "bookDescription": "In the beginning was the Word.<br /><br />And the Word was: \"Hey, you!\" <br /><br />For Brutha the novice is the Chosen One. He wants peace and justice and brotherly love. <br /><br />He also wants the Inquisition to stop torturing him now, please...",
-      "authorName": "Terry Pratchett",
-      "isbn": "0552152978",
-      "userName": "Daniel",
-      "userRating": "5",
-      "userReadAt": "2025-04-04T00:00:00.000Z",
-      "userDateAdded": "2025-04-05T06:50:57.000Z",
-      "userDateCreated": "2025-04-03T02:51:41.000Z",
-      "userShelves": "",
-      "userReview": "",
-      "averageRating": "4.3",
-      "bookPublished": "1992",
-      "description": "<a href=\"https://www.goodreads.com/book/show/34484.Small_Gods?utm_medium=api&amp;utm_source=rss\"><img alt=\"Small Gods (Discworld, #13)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1390899426l/34484._SY75_.jpg\" /></a><br/>\n                                      author: Terry Pratchett<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: 1992<br/>\n                                      rating: 5<br/>\n                                      read at: 2025/04/04<br/>\n                                      date added: 2025/04/04<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
-      "numPages": "389"
     }
   ]
 }
