@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/7933758615?utm_medium=api&utm_source=rss",
+      "title": "A Matter of Death and Life",
+      "link": "https://www.goodreads.com/review/show/7933758615?utm_medium=api&utm_source=rss",
+      "bookId": "55842121",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1606108166l/55842121._SY75_.jpg",
+      "bookDescription": "A year-long journey by the renowned psychiatrist and his writer wife after her terminal diagnosis, as they reflect on how to love and live without regret. Internationally acclaimed psychiatrist and author Irvin Yalom devoted his career to counseling those suffering from anxiety and grief. But never had he faced the need to counsel himself until his wife, esteemed feminist author Marilyn Yalom, was diagnosed with cancer. In A Matter of Death and Life , Marilyn and Irv share how they took on profound new Marilyn to die a good death, Irv to live on without her. In alternating accounts of their last months together and Irv's first months alone, they offer us a rare window into facing mortality and coping with the loss of one's beloved. The Yaloms had numerous blessings―a loving family, a Palo Alto home under a magnificent valley oak, a large circle of friends, avid readers around the world, and a long, fulfilling marriage―but they faced death as we all do. With the wisdom of those who have thought deeply, and the familiar warmth of teenage sweethearts who've grown up together, they investigate universal questions of intimacy, love, and grief. Informed by two lifetimes of experience, A Matter of Death and Life is an openhearted offering to anyone seeking support, solace, and a meaningful life.",
+      "authorName": "Irvin D. Yalom",
+      "isbn": "1503613763",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2025-09-22T01:55:04.000Z",
+      "userDateCreated": "2025-09-22T01:55:03.000Z",
+      "userShelves": "on-deck",
+      "userReview": "",
+      "averageRating": "4.4",
+      "bookPublished": "2021",
+      "description": "<a href=\"https://www.goodreads.com/book/show/55842121-a-matter-of-death-and-life?utm_medium=api&amp;utm_source=rss\"><img alt=\"A Matter of Death and Life\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1606108166l/55842121._SY75_.jpg\" /></a><br/>\n                                      author: Irvin D. Yalom<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.4<br/>\n                                      book published: 2021<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/09/21<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "numPages": "222"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/7910980334?utm_medium=api&utm_source=rss",
       "title": "The Psychology Book: Big Ideas Simply Explained",
       "link": "https://www.goodreads.com/review/show/7910980334?utm_medium=api&utm_source=rss",
@@ -2058,27 +2079,6 @@
       "bookPublished": "1994",
       "description": "<a href=\"https://www.goodreads.com/book/show/34502.Soul_Music?utm_medium=api&amp;utm_source=rss\"><img alt=\"Soul Music (Discworld, #16; Death, #3)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1168566175l/34502._SY75_.jpg\" /></a><br/>\n                                      author: Terry Pratchett<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: 1994<br/>\n                                      rating: 4<br/>\n                                      read at: 2025/04/18<br/>\n                                      date added: 2025/04/18<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "288"
-    },
-    {
-      "id": "https://www.goodreads.com/review/show/7474668124?utm_medium=api&utm_source=rss",
-      "title": "Lords and Ladies (Discworld, #14; Witches, #4)",
-      "link": "https://www.goodreads.com/review/show/7474668124?utm_medium=api&utm_source=rss",
-      "bookId": "34529",
-      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1469186110l/34529._SY75_.jpg",
-      "bookDescription": "The fairies are back - but this time they don't just want your teeth... <br /><br />Granny Weatherwax and her tiny coven are up against real elves.<br /><br />It's Midsummer Night.<br /><br />No time for dreaming...<br /><br />With full supporting cast of dwarfs, wizards, trolls, Morris dancers and one orang-utan. And lots of hey-nonny-nonny and blood all over the place.",
-      "authorName": "Terry Pratchett",
-      "isbn": "055215315X",
-      "userName": "Daniel",
-      "userRating": "5",
-      "userReadAt": "2025-04-13T00:00:00.000Z",
-      "userDateAdded": "2025-04-14T06:58:02.000Z",
-      "userDateCreated": "2025-04-09T08:09:50.000Z",
-      "userShelves": "",
-      "userReview": "",
-      "averageRating": "4.2",
-      "bookPublished": "1992",
-      "description": "<a href=\"https://www.goodreads.com/book/show/34529.Lords_and_Ladies?utm_medium=api&amp;utm_source=rss\"><img alt=\"Lords and Ladies (Discworld, #14; Witches, #4)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1469186110l/34529._SY75_.jpg\" /></a><br/>\n                                      author: Terry Pratchett<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 1992<br/>\n                                      rating: 5<br/>\n                                      read at: 2025/04/13<br/>\n                                      date added: 2025/04/13<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
-      "numPages": "352"
     }
   ]
 }
