@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/7943692397?utm_medium=api&utm_source=rss",
+      "title": "The Rapture of the Nerds",
+      "link": "https://www.goodreads.com/review/show/7943692397?utm_medium=api&utm_source=rss",
+      "bookId": "13538762",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1335124441l/13538762._SY75_.jpg",
+      "bookDescription": "Welcome to the fractured future, at the dusk of the twenty-first century.<br /><br />Earth has a population of roughly a billion hominids. For the most part, they are happy with their lot, living in a preserve at the bottom of a gravity well. Those who are unhappy have emigrated, joining one or another of the swarming densethinker clades that fog the inner solar system with a dust of molecular machinery so thick that it obscures the sun.<br /><br />The splintery metaconsciousness of the solar-system has largely sworn off its pre-post-human cousins dirtside, but its minds sometimes wander...and when that happens, it casually spams Earth's networks with plans for cataclysmically disruptive technologies that emulsify whole industries, cultures, and spiritual systems. A sane species would ignore these get-evolved-quick schemes, but there's always someone who'll take a bite from the forbidden apple.<br /><br />So until the overminds bore of stirring Earth's anthill, there's Tech Jury Service: random humans, selected arbitrarily, charged with assessing dozens of new inventions and ruling on whether to let them loose. Young Huw, a technophobic, misanthropic Welshman, has been selected for the latest jury, a task he does his best to perform despite an itchy technovirus, the apathy of the proletariat, and a couple of truly awful moments on bathroom floors.",
+      "authorName": "Cory Doctorow",
+      "isbn": "0765329107",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2025-09-25T18:56:17.000Z",
+      "userDateCreated": "2025-09-25T18:56:17.000Z",
+      "userShelves": "on-deck",
+      "userReview": "",
+      "averageRating": "3.3",
+      "bookPublished": "2012",
+      "description": "<a href=\"https://www.goodreads.com/book/show/13538762-the-rapture-of-the-nerds?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Rapture of the Nerds\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1335124441l/13538762._SY75_.jpg\" /></a><br/>\n                                      author: Cory Doctorow<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.3<br/>\n                                      book published: 2012<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/09/25<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "numPages": "351"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/7046468331?utm_medium=api&utm_source=rss",
       "title": "The Iliad",
       "link": "https://www.goodreads.com/review/show/7046468331?utm_medium=api&utm_source=rss",
@@ -941,9 +962,9 @@
       "userDateCreated": "2025-07-25T08:29:02.000Z",
       "userShelves": "on-deck",
       "userReview": "",
-      "averageRating": "2.6",
+      "averageRating": "2.5",
       "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/227828306-the-war-on-science?utm_medium=api&amp;utm_source=rss\"><img alt=\"The War on Science: Thirty-Nine Renowned Scientists and Scholars Speak Out About Current Threats to Free Speech, Open Inquiry, and the Scientific Process\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1741753585l/227828306._SY75_.jpg\" /></a><br/>\n                                      author: Lawrence M. Krauss<br/>\n                                      name: Daniel<br/>\n                                      average rating: 2.6<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/07/25<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/227828306-the-war-on-science?utm_medium=api&amp;utm_source=rss\"><img alt=\"The War on Science: Thirty-Nine Renowned Scientists and Scholars Speak Out About Current Threats to Free Speech, Open Inquiry, and the Scientific Process\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1741753585l/227828306._SY75_.jpg\" /></a><br/>\n                                      author: Lawrence M. Krauss<br/>\n                                      name: Daniel<br/>\n                                      average rating: 2.5<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/07/25<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
       "numPages": "480"
     },
     {
