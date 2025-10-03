@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/6467601943?utm_medium=api&utm_source=rss",
+      "title": "The Book That Wouldn’t Burn (The Library Trilogy, #1)",
+      "link": "https://www.goodreads.com/review/show/6467601943?utm_medium=api&utm_source=rss",
+      "bookId": "61612864",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1673645786l/61612864._SY75_.jpg",
+      "bookDescription": "A boy has lived his whole life trapped within a vast library, older than empires and larger than cities. <br /><br />A girl has spent hers in a tiny settlement out on the Dust where nightmares stalk and no one goes. <br /><br />The world has never even noticed them. That's about to change. <br /><br />Their stories spiral around each other, across worlds and time. This is a tale of truth and lies and hearts, and the blurring of one into another. A journey on which knowledge erodes certainty, and on which, though the pen may be mightier than the sword, blood will be spilled and cities burned.",
+      "authorName": "Mark  Lawrence",
+      "isbn": "0593437918",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2025-10-03T07:32:18.000Z",
+      "userDateCreated": "2024-04-30T02:02:09.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "3.9",
+      "bookPublished": "2023",
+      "description": "<a href=\"https://www.goodreads.com/book/show/61612864-the-book-that-wouldn-t-burn?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Book That Wouldn’t Burn (The Library Trilogy, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1673645786l/61612864._SY75_.jpg\" /></a><br/>\n                                      author: Mark  Lawrence<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: 2023<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/10/03<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "559"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/7892988672?utm_medium=api&utm_source=rss",
       "title": "When Everyone Knows That Everyone Knows...: Common Knowledge and the Mysteries of Money, Power, and Everyday Life",
       "link": "https://www.goodreads.com/review/show/7892988672?utm_medium=api&utm_source=rss",
@@ -38,9 +59,9 @@
       "userDateCreated": "2025-10-02T05:52:22.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "4.3",
+      "averageRating": "4.2",
       "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/222925312-against-the-machine?utm_medium=api&amp;utm_source=rss\"><img alt=\"Against the Machine: On the Unmaking of Humanity\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1741156315l/222925312._SY75_.jpg\" /></a><br/>\n                                      author: Paul Kingsnorth<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/10/01<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/222925312-against-the-machine?utm_medium=api&amp;utm_source=rss\"><img alt=\"Against the Machine: On the Unmaking of Humanity\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1741156315l/222925312._SY75_.jpg\" /></a><br/>\n                                      author: Paul Kingsnorth<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/10/01<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "0"
     },
     {
@@ -1592,9 +1613,9 @@
       "userDateCreated": "2025-06-19T01:52:18.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "4.3",
+      "averageRating": "4.4",
       "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/228697879-if-anyone-builds-it-everyone-dies?utm_medium=api&amp;utm_source=rss\"><img alt=\"If Anyone Builds It, Everyone Dies: Why Superhuman AI Would Kill Us All\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1755148210l/228697879._SY75_.jpg\" /></a><br/>\n                                      author: Eliezer Yudkowsky<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/06/18<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/228697879-if-anyone-builds-it-everyone-dies?utm_medium=api&amp;utm_source=rss\"><img alt=\"If Anyone Builds It, Everyone Dies: Why Superhuman AI Would Kill Us All\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1755148210l/228697879._SY75_.jpg\" /></a><br/>\n                                      author: Eliezer Yudkowsky<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.4<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/06/18<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "232"
     },
     {
@@ -2037,27 +2058,6 @@
       "bookPublished": "",
       "description": "<a href=\"https://www.goodreads.com/book/show/567610.How_to_Read_a_Book?utm_medium=api&amp;utm_source=rss\"><img alt=\"How to Read a Book: The Classic Guide to Intelligent Reading\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1310993739l/567610._SY75_.jpg\" /></a><br/>\n                                      author: Mortimer J. Adler<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: <br/>\n                                      rating: 4<br/>\n                                      read at: 2025/05/09<br/>\n                                      date added: 2025/05/09<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "442"
-    },
-    {
-      "id": "https://www.goodreads.com/review/show/7553594004?utm_medium=api&utm_source=rss",
-      "title": "Super Agers: An Evidence-Based Approach to Longevity",
-      "link": "https://www.goodreads.com/review/show/7553594004?utm_medium=api&utm_source=rss",
-      "bookId": "220160337",
-      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1730640080l/220160337._SY75_.jpg",
-      "bookDescription": "<b>\n  <i>Super Agers</i>\n</b><b> is a detailed guide to a revolution transforming human longevity. This is a breakthrough moment in the history of human health care. The person making that bold claim is one of the most respected medical researchers in the world, Eric Topol. </b><br /><br />Dr. Topol’s unprecedented, evidenced-based guide is about how you and your family and friends can benefit from new treatments coming available at a faster rate than ever. From his unique position as a leader overseeing millions in research funding, Dr. Topol also explains the fundamental reasons—from semaglutides to AI—that we can be confident these breakthroughs will continue. Ninety-five percent of Americans over sixty have at least one chronic disease and almost as many have two. That is the essential problem this revolution is solving. He explains the power of the new approaches to the worst chronic killers—diabetes/obesity, heart disease, cancer, and neurodegeneration—and how treatments can begin long before middle age, and even long after. In thirty years, we will have five times as many people at least one hundred years old and they will be healthier than ever because of the breakthroughs Dr. Topol describes.<br /> <br />The amazing discoveries Topol brings into sharp focus are deeply inspiring about our human potential. We can now realistically see how we can make considerable headway for preventing age-related diseases and may one day be able to slow the body-wide aging process itself.",
-      "authorName": "Eric Topol",
-      "isbn": "1668067668",
-      "userName": "Daniel",
-      "userRating": "0",
-      "userReadAt": "",
-      "userDateAdded": "2025-05-08T19:46:49.000Z",
-      "userDateCreated": "2025-05-08T19:46:48.000Z",
-      "userShelves": "on-deck",
-      "userReview": "",
-      "averageRating": "3.5",
-      "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/220160337-super-agers?utm_medium=api&amp;utm_source=rss\"><img alt=\"Super Agers: An Evidence-Based Approach to Longevity\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1730640080l/220160337._SY75_.jpg\" /></a><br/>\n                                      author: Eric Topol<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.5<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/05/08<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
-      "numPages": "464"
     }
   ]
 }
