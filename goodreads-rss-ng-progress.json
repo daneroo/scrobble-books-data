@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/3091254428?utm_medium=api&utm_source=rss",
+      "title": "Lifespan: Why We Age―and Why We Don't Have To",
+      "link": "https://www.goodreads.com/review/show/3091254428?utm_medium=api&utm_source=rss",
+      "bookId": "43723901",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1563164003l/43723901._SY75_.jpg",
+      "bookDescription": "It’s a seemingly undeniable truth that aging is inevitable. But what if everything we’ve been taught to believe about aging is wrong? What if we could choose our lifespan?<br /> <br />In this groundbreaking book, Dr. David Sinclair, leading world authority on genetics and longevity, reveals a bold new theory for why we age. As he writes: “Aging is a disease, and that disease is treatable.” <br /><br />This book takes us to the frontlines of research many from Dr. David Sinclair’s own lab at Harvard—that demonstrate how we can slow down, or even reverse, aging. The key is activating newly discovered vitality genes, the descendants of an ancient genetic survival circuit that is both the cause of aging and the key to reversing it.",
+      "authorName": "David A. Sinclair",
+      "isbn": "1501191977",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2025-10-04T20:45:19.000Z",
+      "userDateCreated": "2019-12-19T09:56:25.000Z",
+      "userShelves": "on-deck",
+      "userReview": "",
+      "averageRating": "4.1",
+      "bookPublished": "2019",
+      "description": "<a href=\"https://www.goodreads.com/book/show/43723901-lifespan?utm_medium=api&amp;utm_source=rss\"><img alt=\"Lifespan: Why We Age―and Why We Don&#39;t Have To\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1563164003l/43723901._SY75_.jpg\" /></a><br/>\n                                      author: David A. Sinclair<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: 2019<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/10/04<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "numPages": "432"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/6467601943?utm_medium=api&utm_source=rss",
       "title": "The Book That Wouldn’t Burn (The Library Trilogy, #1)",
       "link": "https://www.goodreads.com/review/show/6467601943?utm_medium=api&utm_source=rss",
@@ -2037,27 +2058,6 @@
       "bookPublished": "2022",
       "description": "<a href=\"https://www.goodreads.com/book/show/58724898-the-grief-of-stones?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Grief of Stones (The Cemeteries of Amalo, #2)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1637961242l/58724898._SX50_.jpg\" /></a><br/>\n                                      author: Katherine Addison<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: 2022<br/>\n                                      rating: 4<br/>\n                                      read at: 2025/05/09<br/>\n                                      date added: 2025/05/09<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "245"
-    },
-    {
-      "id": "https://www.goodreads.com/review/show/7440040673?utm_medium=api&utm_source=rss",
-      "title": "How to Read a Book: The Classic Guide to Intelligent Reading",
-      "link": "https://www.goodreads.com/review/show/7440040673?utm_medium=api&utm_source=rss",
-      "bookId": "567610",
-      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1310993739l/567610._SY75_.jpg",
-      "bookDescription": "<i>How to Read a Book,</i> originally published in 1940, has become a rare phenomenon, a <i>living</i> classic. It is the best and most successful guide to reading comprehension for the general reader. And now it has been completely rewritten and updated. <p> You are told about the various levels of reading and how to achieve them – from elementary reading, through systematic skimming and inspectional reading, to speed reading, you learn how to pigeonhole a book, X-ray it, extract the author's message, criticize. You are taught the different reading techniques for reading practical books, imaginative literature, plays, poetry, history, science and mathematics, philosophy and social science. </p><p> Finally, the authors offer a recommended reading list and supply reading tests whereby you can measure your own progress in reading skills, comprehension and speed.<br /><br />This a previously-published edition of <a href=\"https://www.goodreads.com/book/show/41878914-how-to-read-a-book\" rel=\"nofollow noopener\">ISBN 9780671212094</a></p>",
-      "authorName": "Mortimer J. Adler",
-      "isbn": "",
-      "userName": "Daniel",
-      "userRating": "4",
-      "userReadAt": "2025-05-09T00:00:00.000Z",
-      "userDateAdded": "2025-05-10T02:22:02.000Z",
-      "userDateCreated": "2025-03-27T18:08:07.000Z",
-      "userShelves": "",
-      "userReview": "",
-      "averageRating": "4.0",
-      "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/567610.How_to_Read_a_Book?utm_medium=api&amp;utm_source=rss\"><img alt=\"How to Read a Book: The Classic Guide to Intelligent Reading\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1310993739l/567610._SY75_.jpg\" /></a><br/>\n                                      author: Mortimer J. Adler<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: <br/>\n                                      rating: 4<br/>\n                                      read at: 2025/05/09<br/>\n                                      date added: 2025/05/09<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
-      "numPages": "442"
     }
   ]
 }
