@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/7919193290?utm_medium=api&utm_source=rss",
+      "title": "My Inventions",
+      "link": "https://www.goodreads.com/review/show/7919193290?utm_medium=api&utm_source=rss",
+      "bookId": "493",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1349108147l/493._SX50_.jpg",
+      "bookDescription": "Written by Nikola Tesla at the age of sixty-three, this autobiography is a fascinating glimpse into the interior life of a man who may have contributed more to the fields of electricity, radio, and television than any other person living or dead, a man certainly possessed of genius and one who some consider the most important man of the twentieth century.<br />My Inventions is a firsthand account not only of the art and science behind the conception, execution, and reception of Tesla's most famous inventions but of his early life and first creative efforts as well.",
+      "authorName": "Nikola Tesla",
+      "isbn": "1599869942",
+      "userName": "Daniel",
+      "userRating": "4",
+      "userReadAt": "2025-10-07T00:00:00.000Z",
+      "userDateAdded": "2025-10-08T01:42:58.000Z",
+      "userDateCreated": "2025-09-16T07:45:30.000Z",
+      "userShelves": "",
+      "userReview": "",
+      "averageRating": "3.9",
+      "bookPublished": "1935",
+      "description": "<a href=\"https://www.goodreads.com/book/show/493.My_Inventions?utm_medium=api&amp;utm_source=rss\"><img alt=\"My Inventions\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1349108147l/493._SX50_.jpg\" /></a><br/>\n                                      author: Nikola Tesla<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: 1935<br/>\n                                      rating: 4<br/>\n                                      read at: 2025/10/07<br/>\n                                      date added: 2025/10/07<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "numPages": "88"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/6467601943?utm_medium=api&utm_source=rss",
       "title": "The Book That Wouldn’t Burn (The Library Trilogy, #1)",
       "link": "https://www.goodreads.com/review/show/6467601943?utm_medium=api&utm_source=rss",
@@ -395,9 +416,9 @@
       "userDateCreated": "2025-09-17T05:18:51.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "4.2",
+      "averageRating": "4.3",
       "bookPublished": "2025",
-      "description": "<a href=\"https://www.goodreads.com/book/show/228646231-if-anyone-builds-it-everyone-dies?utm_medium=api&amp;utm_source=rss\"><img alt=\"If Anyone Builds It, Everyone Dies: Why Superhuman AI Would Kill Us All\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1751650717l/228646231._SY75_.jpg\" /></a><br/>\n                                      author: Eliezer Yudkowsky<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 2025<br/>\n                                      rating: 4<br/>\n                                      read at: 2025/09/19<br/>\n                                      date added: 2025/09/19<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/228646231-if-anyone-builds-it-everyone-dies?utm_medium=api&amp;utm_source=rss\"><img alt=\"If Anyone Builds It, Everyone Dies: Why Superhuman AI Would Kill Us All\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1751650717l/228646231._SY75_.jpg\" /></a><br/>\n                                      author: Eliezer Yudkowsky<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: 2025<br/>\n                                      rating: 4<br/>\n                                      read at: 2025/09/19<br/>\n                                      date added: 2025/09/19<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "272"
     },
     {
@@ -420,27 +441,6 @@
       "bookPublished": "1950",
       "description": "<a href=\"https://www.goodreads.com/book/show/951749.The_Dying_Earth?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Dying Earth (The Dying Earth, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1558264964l/951749._SY75_.jpg\" /></a><br/>\n                                      author: Jack Vance<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: 1950<br/>\n                                      rating: 4<br/>\n                                      read at: 2025/09/16<br/>\n                                      date added: 2025/09/16<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "156"
-    },
-    {
-      "id": "https://www.goodreads.com/review/show/7919193290?utm_medium=api&utm_source=rss",
-      "title": "My Inventions",
-      "link": "https://www.goodreads.com/review/show/7919193290?utm_medium=api&utm_source=rss",
-      "bookId": "493",
-      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1349108147l/493._SX50_.jpg",
-      "bookDescription": "Written by Nikola Tesla at the age of sixty-three, this autobiography is a fascinating glimpse into the interior life of a man who may have contributed more to the fields of electricity, radio, and television than any other person living or dead, a man certainly possessed of genius and one who some consider the most important man of the twentieth century.<br />My Inventions is a firsthand account not only of the art and science behind the conception, execution, and reception of Tesla's most famous inventions but of his early life and first creative efforts as well.",
-      "authorName": "Nikola Tesla",
-      "isbn": "1599869942",
-      "userName": "Daniel",
-      "userRating": "0",
-      "userReadAt": "",
-      "userDateAdded": "2025-09-16T07:45:30.000Z",
-      "userDateCreated": "2025-09-16T07:45:30.000Z",
-      "userShelves": "on-deck",
-      "userReview": "",
-      "averageRating": "3.9",
-      "bookPublished": "1935",
-      "description": "<a href=\"https://www.goodreads.com/book/show/493.My_Inventions?utm_medium=api&amp;utm_source=rss\"><img alt=\"My Inventions\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1349108147l/493._SX50_.jpg\" /></a><br/>\n                                      author: Nikola Tesla<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: 1935<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/09/16<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
-      "numPages": "88"
     },
     {
       "id": "https://www.goodreads.com/review/show/5059689352?utm_medium=api&utm_source=rss",
@@ -4406,9 +4406,9 @@
       "userDateCreated": "2024-11-17T08:20:04.000Z",
       "userShelves": "on-deck",
       "userReview": "",
-      "averageRating": "4.2",
+      "averageRating": "4.3",
       "bookPublished": "2023",
-      "description": "<a href=\"https://www.goodreads.com/book/show/62919358-spies?utm_medium=api&amp;utm_source=rss\"><img alt=\"Spies: The Epic Intelligence War Between East and West\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1683735248l/62919358._SY75_.jpg\" /></a><br/>\n                                      author: Calder Walton<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 2023<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/11/17<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/62919358-spies?utm_medium=api&amp;utm_source=rss\"><img alt=\"Spies: The Epic Intelligence War Between East and West\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1683735248l/62919358._SY75_.jpg\" /></a><br/>\n                                      author: Calder Walton<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: 2023<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/11/17<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
       "numPages": "688"
     },
     {
