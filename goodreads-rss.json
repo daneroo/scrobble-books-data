@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/7981501572?utm_medium=api&utm_source=rss",
+      "title": "Enshittification: Why Everything Suddenly Got Worse and What to Do About It",
+      "link": "https://www.goodreads.com/review/show/7981501572?utm_medium=api&utm_source=rss",
+      "bookId": "222376640",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1745430964l/222376640._SY75_.jpg",
+      "bookDescription": "<b>Explaining the process of the “enshittification” of digital platforms over time and what to do about it.<br /><br /></b>Cory Doctorow's <i>Enshittification</i> takes a witty yet incisive look at the tech landscape, where platforms like TikTok, Facebook, and Google start off great—before they inevitably turn terrible. In this contemporary moment of digital decline, Doctorow explores how tech giants lure users in with convenience and then degrade their services over time, squeezing profit at the cost of user experience. With a mix of sharp humor and deep insight, he unveils the slow creep of \"enshittification,\" turning the online world into a worse place, one algorithm at a time.",
+      "authorName": "Cory Doctorow",
+      "isbn": "0374619328",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2025-10-11T07:39:00.000Z",
+      "userDateCreated": "2025-10-10T08:48:54.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "4.3",
+      "bookPublished": "2025",
+      "description": "<a href=\"https://www.goodreads.com/book/show/222376640-enshittification?utm_medium=api&amp;utm_source=rss\"><img alt=\"Enshittification: Why Everything Suddenly Got Worse and What to Do About It\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1745430964l/222376640._SY75_.jpg\" /></a><br/>\n                                      author: Cory Doctorow<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: 2025<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/10/11<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "352"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/7981534800?utm_medium=api&utm_source=rss",
       "title": "The House of Silk (Horowitz's Holmes, #1)",
       "link": "https://www.goodreads.com/review/show/7981534800?utm_medium=api&utm_source=rss",
@@ -42,27 +63,6 @@
       "bookPublished": "2006",
       "description": "<a href=\"https://www.goodreads.com/book/show/1096665.Good_And_Real?utm_medium=api&amp;utm_source=rss\"><img alt=\"Good And Real: Demystifying Paradoxes from Physics to Ethics (A Bradford Book)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347713014l/1096665._SX50_.jpg\" /></a><br/>\n                                      author: Gary L. Drescher<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: 2006<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/10/10<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "347"
-    },
-    {
-      "id": "https://www.goodreads.com/review/show/7981501572?utm_medium=api&utm_source=rss",
-      "title": "Enshittification: Why Everything Suddenly Got Worse and What to Do About It",
-      "link": "https://www.goodreads.com/review/show/7981501572?utm_medium=api&utm_source=rss",
-      "bookId": "222376640",
-      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1745430964l/222376640._SY75_.jpg",
-      "bookDescription": "<b>Explaining the process of the “enshittification” of digital platforms over time and what to do about it.<br /><br /></b>Cory Doctorow's <i>Enshittification</i> takes a witty yet incisive look at the tech landscape, where platforms like TikTok, Facebook, and Google start off great—before they inevitably turn terrible. In this contemporary moment of digital decline, Doctorow explores how tech giants lure users in with convenience and then degrade their services over time, squeezing profit at the cost of user experience. With a mix of sharp humor and deep insight, he unveils the slow creep of \"enshittification,\" turning the online world into a worse place, one algorithm at a time.",
-      "authorName": "Cory Doctorow",
-      "isbn": "0374619328",
-      "userName": "Daniel",
-      "userRating": "0",
-      "userReadAt": "",
-      "userDateAdded": "2025-10-10T08:49:03.000Z",
-      "userDateCreated": "2025-10-10T08:48:54.000Z",
-      "userShelves": "currently-reading",
-      "userReview": "",
-      "averageRating": "4.3",
-      "bookPublished": "2025",
-      "description": "<a href=\"https://www.goodreads.com/book/show/222376640-enshittification?utm_medium=api&amp;utm_source=rss\"><img alt=\"Enshittification: Why Everything Suddenly Got Worse and What to Do About It\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1745430964l/222376640._SY75_.jpg\" /></a><br/>\n                                      author: Cory Doctorow<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: 2025<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/10/10<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
-      "numPages": "352"
     },
     {
       "id": "https://www.goodreads.com/review/show/7981466345?utm_medium=api&utm_source=rss",
@@ -17979,7 +17979,7 @@
     },
     {
       "id": "https://www.goodreads.com/review/show/4262679232?utm_medium=api&utm_source=rss",
-      "title": "American Gods",
+      "title": "American Gods: Tenth Anniversary (American Gods, #1)",
       "link": "https://www.goodreads.com/review/show/4262679232?utm_medium=api&utm_source=rss",
       "bookId": "30165203",
       "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1462924585l/30165203._SY75_.jpg",
@@ -17995,7 +17995,7 @@
       "userReview": "",
       "averageRating": "4.1",
       "bookPublished": "2001",
-      "description": "<a href=\"https://www.goodreads.com/book/show/30165203-american-gods?utm_medium=api&amp;utm_source=rss\"><img alt=\"American Gods\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1462924585l/30165203._SY75_.jpg\" /></a><br/>\n                                      author: Neil Gaiman<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: 2001<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/09/28<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/30165203-american-gods?utm_medium=api&amp;utm_source=rss\"><img alt=\"American Gods: Tenth Anniversary (American Gods, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1462924585l/30165203._SY75_.jpg\" /></a><br/>\n                                      author: Neil Gaiman<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: 2001<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/09/28<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "635"
     },
     {
