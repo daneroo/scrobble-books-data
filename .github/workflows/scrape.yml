@@ -96,7 +96,7 @@ jobs:
 
       # see docs at https://github.com/stefanzweifel/git-auto-commit-action
       - name: Commit back changes
-        uses: stefanzweifel/git-auto-commit-action@v6
+        uses: stefanzweifel/git-auto-commit-action@v7
         if: ${{ !env.ACT }} # only commit if not in a local test run
         with:
           commit_message: Latest book data ${{ env.stamp }}
