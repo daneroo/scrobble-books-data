@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/7992952945?utm_medium=api&utm_source=rss",
+      "title": "Troy (Stephen Fry's Great Mythology, #3)",
+      "link": "https://www.goodreads.com/review/show/7992952945?utm_medium=api&utm_source=rss",
+      "bookId": "53443339",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1589888687l/53443339._SY75_.jpg",
+      "bookDescription": "The story of Troy speaks to all of us—the kidnapping of Helen, a queen celebrated for her beauty, sees the Greeks launch a thousand ships against the city of Troy, to which they will lay siege for ten whole years. It is a terrible war with casualties on all sides as well as strained relations between allies, whose consequences become tragedies. <br /><br />In <i>Troy</i> you will find heroism and hatred, love and loss, revenge and regret, desire and despair. It is these human passions, written bloodily in the sands of a distant shore, that still speak to us today.",
+      "authorName": "Stephen Fry",
+      "isbn": "0241424585",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2025-10-14T20:45:26.000Z",
+      "userDateCreated": "2025-10-14T20:45:26.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "4.3",
+      "bookPublished": "2020",
+      "description": "<a href=\"https://www.goodreads.com/book/show/53443339-troy?utm_medium=api&amp;utm_source=rss\"><img alt=\"Troy (Stephen Fry&#39;s Great Mythology, #3)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1589888687l/53443339._SY75_.jpg\" /></a><br/>\n                                      author: Stephen Fry<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: 2020<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/10/14<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "414"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/4697937770?utm_medium=api&utm_source=rss",
       "title": "Exhalation",
       "link": "https://www.goodreads.com/review/show/4697937770?utm_medium=api&utm_source=rss",
@@ -2058,27 +2079,6 @@
       "bookPublished": "2025",
       "description": "<a href=\"https://www.goodreads.com/book/show/212276037-the-devils?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Devils (The Devils, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1746869112l/212276037._SY75_.jpg\" /></a><br/>\n                                      author: Joe Abercrombie<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: 2025<br/>\n                                      rating: 4<br/>\n                                      read at: 2025/06/09<br/>\n                                      date added: 2025/06/09<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "565"
-    },
-    {
-      "id": "https://www.goodreads.com/review/show/7634293279?utm_medium=api&utm_source=rss",
-      "title": "The AI Con: How to Fight Big Tech's Hype and Create the Future We Want",
-      "link": "https://www.goodreads.com/review/show/7634293279?utm_medium=api&utm_source=rss",
-      "bookId": "217432753",
-      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1737124238l/217432753._SY75_.jpg",
-      "bookDescription": "<strong>A smart, incisive look at the technologies sold as artificial intelligence, the drawbacks and pitfalls of technology sold under this banner, and why it’s crucial to recognize the many ways in which AI hype covers for a small set of power-hungry actors at work and in the world.</strong><br /><br />Is artificial intelligence going to take over the world? Have big tech scientists created an artificial lifeform that can think on its own? Is it going to put authors, artists, and others out of business? Are we about to enter an age where computers are better than humans at everything?<br /><br />The answer to these questions, linguist Emily M. Bender and sociologist Alex Hanna make clear, is “no,” “they wish,” “LOL,” and “definitely not.” This kind of thinking is a symptom of a phenomenon known as “AI hype.” Hype looks and smells It twists words and helps the rich get richer by justifying data theft, motivating surveillance capitalism, and devaluing human creativity in order to replace meaningful work with jobs that treat people like machines. In <em>The AI Con</em>, Bender and Hanna offer a sharp, witty, and wide-ranging take-down of AI hype across its many forms.<br /><br />Bender and Hanna show you how to spot AI hype, how to deconstruct it, and how to expose the power grabs it aims to hide. Armed with these tools, you will be prepared to push back against AI hype at work, as a consumer in the marketplace, as a skeptical newsreader, and as a citizen holding policymakers to account. Together, Bender and Hanna expose AI hype for what it a mask for Big Tech’s drive for profit, with little concern for who it affects.",
-      "authorName": "Emily M. Bender",
-      "isbn": "0063418568",
-      "userName": "Daniel",
-      "userRating": "0",
-      "userReadAt": "",
-      "userDateAdded": "2025-06-07T07:23:48.000Z",
-      "userDateCreated": "2025-06-07T07:23:48.000Z",
-      "userShelves": "to-read",
-      "userReview": "",
-      "averageRating": "3.8",
-      "bookPublished": "2025",
-      "description": "<a href=\"https://www.goodreads.com/book/show/217432753-the-ai-con?utm_medium=api&amp;utm_source=rss\"><img alt=\"The AI Con: How to Fight Big Tech&#39;s Hype and Create the Future We Want\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1737124238l/217432753._SY75_.jpg\" /></a><br/>\n                                      author: Emily M. Bender<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.8<br/>\n                                      book published: 2025<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/06/07<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
-      "numPages": "288"
     }
   ]
 }
