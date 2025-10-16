@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/7996184343?utm_medium=api&utm_source=rss",
+      "title": "The Undercover Economist Strikes Back: How to Run-or Ruin-an Economy",
+      "link": "https://www.goodreads.com/review/show/7996184343?utm_medium=api&utm_source=rss",
+      "bookId": "18079494",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1378758590l/18079494._SY75_.jpg",
+      "bookDescription": "<b>A provocative and lively exploration of the increasingly important world of macroeconomics, by the author of the bestselling <i>The Undercover Economist</i>.</b><br /><br /> Thanks to the worldwide financial upheaval, economics is no longer a topic we can ignore. From politicians to hedge-fund managers to middle-class IRA holders, everyone must pay attention to how and why the global economy works the way it does.<br /><br /> Enter <i>Financial Times</i> columnist and bestselling author Tim Harford. In this new book that demystifies macroeconomics, Harford strips away the spin, the hype, and the jargon to reveal the truth about how the world’s economy actually works. With the wit of a raconteur and the clear grasp of an expert, Harford explains what’s really happening beyond today’s headlines, why all of us should care, and what we can do about it to understand it better.<br />",
+      "authorName": "Tim Harford",
+      "isbn": "1594631409",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2025-10-16T02:07:30.000Z",
+      "userDateCreated": "2025-10-16T02:07:30.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "3.9",
+      "bookPublished": "2013",
+      "description": "<a href=\"https://www.goodreads.com/book/show/18079494-the-undercover-economist-strikes-back?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Undercover Economist Strikes Back: How to Run-or Ruin-an Economy\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1378758590l/18079494._SY75_.jpg\" /></a><br/>\n                                      author: Tim Harford<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: 2013<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/10/15<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "272"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/7992952945?utm_medium=api&utm_source=rss",
       "title": "Troy (Stephen Fry's Great Mythology, #3)",
       "link": "https://www.goodreads.com/review/show/7992952945?utm_medium=api&utm_source=rss",
@@ -11,15 +32,15 @@
       "authorName": "Stephen Fry",
       "isbn": "0241424585",
       "userName": "Daniel",
-      "userRating": "0",
-      "userReadAt": "",
-      "userDateAdded": "2025-10-15T02:29:39.000Z",
+      "userRating": "4",
+      "userReadAt": "2025-10-15T00:00:00.000Z",
+      "userDateAdded": "2025-10-16T00:43:30.000Z",
       "userDateCreated": "2025-10-14T20:45:26.000Z",
-      "userShelves": "currently-reading",
+      "userShelves": "",
       "userReview": "",
       "averageRating": "4.3",
       "bookPublished": "2020",
-      "description": "<a href=\"https://www.goodreads.com/book/show/53443339-troy?utm_medium=api&amp;utm_source=rss\"><img alt=\"Troy (Stephen Fry&#39;s Great Mythology, #3)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1589888687l/53443339._SY75_.jpg\" /></a><br/>\n                                      author: Stephen Fry<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: 2020<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/10/14<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/53443339-troy?utm_medium=api&amp;utm_source=rss\"><img alt=\"Troy (Stephen Fry&#39;s Great Mythology, #3)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1589888687l/53443339._SY75_.jpg\" /></a><br/>\n                                      author: Stephen Fry<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: 2020<br/>\n                                      rating: 4<br/>\n                                      read at: 2025/10/15<br/>\n                                      date added: 2025/10/15<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "414"
     },
     {
@@ -2058,27 +2079,6 @@
       "bookPublished": "2021",
       "description": "<a href=\"https://www.goodreads.com/book/show/18952403-the-veiled-throne?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Veiled Throne (The Dandelion Dynasty, #3)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1617258542l/18952403._SY75_.jpg\" /></a><br/>\n                                      author: Ken Liu<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: 2021<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/06/10<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "982"
-    },
-    {
-      "id": "https://www.goodreads.com/review/show/6417264411?utm_medium=api&utm_source=rss",
-      "title": "The Devils (The Devils, #1)",
-      "link": "https://www.goodreads.com/review/show/6417264411?utm_medium=api&utm_source=rss",
-      "bookId": "212276037",
-      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1746869112l/212276037._SY75_.jpg",
-      "bookDescription": "<i>Holy work sometimes requires unholy deeds.</i><br /><br />Brother Diaz has been summoned to the Sacred City, where he is certain a commendation and grand holy assignment awaits him. But his new flock is made up of unrepentant murderers, practitioners of ghastly magic, and outright monsters, and the mission he is tasked with will require bloody measures from them all in order to achieve its righteous ends.<br /><br />Elves lurk at our borders and hunger for our flesh, while greedy princes care for nothing but their own ambitions and comfort. With a hellish journey before him, it's a good thing Brother Diaz has the devils on his side.",
-      "authorName": "Joe Abercrombie",
-      "isbn": "",
-      "userName": "Daniel",
-      "userRating": "4",
-      "userReadAt": "2025-06-09T00:00:00.000Z",
-      "userDateAdded": "2025-06-10T06:40:15.000Z",
-      "userDateCreated": "2024-04-10T12:38:09.000Z",
-      "userShelves": "",
-      "userReview": "",
-      "averageRating": "4.3",
-      "bookPublished": "2025",
-      "description": "<a href=\"https://www.goodreads.com/book/show/212276037-the-devils?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Devils (The Devils, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1746869112l/212276037._SY75_.jpg\" /></a><br/>\n                                      author: Joe Abercrombie<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: 2025<br/>\n                                      rating: 4<br/>\n                                      read at: 2025/06/09<br/>\n                                      date added: 2025/06/09<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
-      "numPages": "565"
     }
   ]
 }
