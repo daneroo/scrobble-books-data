@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/8000420818?utm_medium=api&utm_source=rss",
+      "title": "2084: La fin du monde",
+      "link": "https://www.goodreads.com/review/show/8000420818?utm_medium=api&utm_source=rss",
+      "bookId": "26131294",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1440021648l/26131294._SX50_.jpg",
+      "bookDescription": "L’Abistan, immense empire, tire son nom du prophète Abi, \"délégué\" de Yölah sur terre. Son système est fondé sur l’amnésie et la soumission au dieu unique. Toute pensée personnelle est bannie, un système de surveillance omniprésent permet de connaître les idées et les actes déviants. Officiellement, le peuple unanime vit dans le bonheur de la foi sans questions. Le personnage central, Ati, met en doute les certitudes imposées. Il se lance dans une enquête sur l’existence d’un peuple de renégats, qui vit dans des ghettos, sans le recours de la religion… Boualem Sansal s’est imposé comme une des voix majeures de la littérature contemporaine. Au fil d’un récit débridé, plein d’innocence goguenarde, d’inventions cocasses ou inquiétantes, il s’inscrit dans la filiation d’Orwell pour brocarder les dérives et l’hypocrisie du radicalisme religieux qui menace les démocraties.Grand Prix du roman de l'Académie française 2015",
+      "authorName": "Boualem Sansal",
+      "isbn": "2072626153",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2025-10-17T21:12:35.000Z",
+      "userDateCreated": "2025-10-17T21:12:35.000Z",
+      "userShelves": "to-read",
+      "userReview": "",
+      "averageRating": "3.0",
+      "bookPublished": "2015",
+      "description": "<a href=\"https://www.goodreads.com/book/show/26131294-2084?utm_medium=api&amp;utm_source=rss\"><img alt=\"2084: La fin du monde\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1440021648l/26131294._SX50_.jpg\" /></a><br/>\n                                      author: Boualem Sansal<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.0<br/>\n                                      book published: 2015<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/10/17<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "numPages": "244"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/4697937770?utm_medium=api&utm_source=rss",
       "title": "Exhalation",
       "link": "https://www.goodreads.com/review/show/4697937770?utm_medium=api&utm_source=rss",
