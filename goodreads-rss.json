@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/8005109083?utm_medium=api&utm_source=rss",
+      "title": "All That We See or Seem (Julia Z, #1)",
+      "link": "https://www.goodreads.com/review/show/8005109083?utm_medium=api&utm_source=rss",
+      "bookId": "224004657",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1739903844l/224004657._SY75_.jpg",
+      "bookDescription": "<b>Award­ winning author Ken Liu returns with his first sci-fi thriller in a brand-new series following former “orphan hacker” Julia Z as she is thrust into a high-stakes adventure where she must use her cybersecurity and hacking skills to unravel a virtual reality mystery, rescue a kidnapped dream artist, and confront the blurred lines between technology, identity, and the power of shared dreams.</b><br /><br />Julia Z, a young woman who gained notoriety at fourteen as the “orphan hacker,” is trying to live a life of digital obscurity in a Boston suburb.<br /><br />But when a lawyer named Piers—whose famous artist wife, Elli, has been kidnapped by dangerous criminals—barges into her life, Julia decides to put the solitary life she has painstakingly created at risk as she can’t walk away from helping Piers and Elli, nor step away from the challenge of this digital puzzle. Elli is an onierofex, a dream artist, who can weave the dreams of an audience together through a shared virtual landscape, live, in a concert-like experience by tapping into each attendee’s waking dream and providing an emotionally resonant and narrative experience. While attendees’ dreams are anonymous, Julia discovers that Elli was also providing a one-on-one dream experience for the head of an international criminal enterprise, and he’s demanding his dreams in return for Elli.<br /><br />Unraveling the real and unreal leads Julia on an adventure that takes her across the country and deep into the shadows of her psyche.",
+      "authorName": "Ken Liu",
+      "isbn": "1668083175",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2025-10-19T19:51:05.000Z",
+      "userDateCreated": "2025-10-19T19:51:05.000Z",
+      "userShelves": "to-read",
+      "userReview": "",
+      "averageRating": "3.6",
+      "bookPublished": "2025",
+      "description": "<a href=\"https://www.goodreads.com/book/show/224004657-all-that-we-see-or-seem?utm_medium=api&amp;utm_source=rss\"><img alt=\"All That We See or Seem (Julia Z, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1739903844l/224004657._SY75_.jpg\" /></a><br/>\n                                      author: Ken Liu<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.6<br/>\n                                      book published: 2025<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/10/19<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "numPages": "416"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/5411859477?utm_medium=api&utm_source=rss",
       "title": "Prime Obsession: Bernhard Riemann and the Greatest Unsolved Problem in Mathematics",
       "link": "https://www.goodreads.com/review/show/5411859477?utm_medium=api&utm_source=rss",
@@ -2012,9 +2033,9 @@
       "userDateCreated": "2025-06-19T01:52:18.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "4.5",
+      "averageRating": "4.4",
       "bookPublished": "2025",
-      "description": "<a href=\"https://www.goodreads.com/book/show/228697879-if-anyone-builds-it-everyone-dies?utm_medium=api&amp;utm_source=rss\"><img alt=\"If Anyone Builds It, Everyone Dies: Why Superhuman AI Would Kill Us All\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1755148210l/228697879._SY75_.jpg\" /></a><br/>\n                                      author: Eliezer Yudkowsky<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.5<br/>\n                                      book published: 2025<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/06/18<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/228697879-if-anyone-builds-it-everyone-dies?utm_medium=api&amp;utm_source=rss\"><img alt=\"If Anyone Builds It, Everyone Dies: Why Superhuman AI Would Kill Us All\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1755148210l/228697879._SY75_.jpg\" /></a><br/>\n                                      author: Eliezer Yudkowsky<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.4<br/>\n                                      book published: 2025<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/06/18<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "232"
     },
     {
