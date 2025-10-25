@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/8018915352?utm_medium=api&utm_source=rss",
+      "title": "How Physics Makes Us Free",
+      "link": "https://www.goodreads.com/review/show/8018915352?utm_medium=api&utm_source=rss",
+      "bookId": "28192249",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1460908194l/28192249._SY75_.jpg",
+      "bookDescription": "In 1687 Isaac Newton ushered in a new scientific era in which laws of nature could be used to predict the movements of matter with almost perfect precision. Newton's physics also posed a profound challenge to our self-understanding, however, for the very same laws that keep airplanes in the air and rivers flowing downhill tell us that it is in principle possible to predict what each of us will do every second of our entire lives, given the early conditions of the universe. <br />Can it really be that even while you toss and turn late at night in the throes of an important decision and it seems like the scales of fate hang in the balance, that your decision is a foregone conclusion? Can it really be that everything you have done and everything you ever will do is determined by facts that were in place long before you were born? This problem is one of the staples of philosophical discussion. It is discussed by everyone from freshman in their first philosophy class, to theoretical physicists in bars after conferences. And yet there is no topic that remains more unsettling, and less well understood. <br />If you want to get behind the facade, past the bare statement of determinism, and really try to understand what physics is telling us in its own terms, read this book. The problem of free will raises all kinds of questions. What does it mean to make a decision, and what does it mean to say that our actions are determined? What are laws of nature? What are causes? What sorts of things are we, when viewed through the lenses of physics, and how do we fit into the natural order? Ismael provides a deeply informed account of what physics tells us about ourselves. The result is a vision that is abstract, alien, illuminating, and-Ismael argues-affirmative of most of what we all believe about our own freedom. Written in a jargon-free style, How Physics Makes Us Free provides an accessible and innovative take on a central question of human existence.<br />\"",
+      "authorName": "Jenann Ismael",
+      "isbn": "0190269448",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2025-10-25T09:10:23.000Z",
+      "userDateCreated": "2025-10-25T09:10:23.000Z",
+      "userShelves": "on-deck",
+      "userReview": "",
+      "averageRating": "3.7",
+      "bookPublished": "",
+      "description": "<a href=\"https://www.goodreads.com/book/show/28192249-how-physics-makes-us-free?utm_medium=api&amp;utm_source=rss\"><img alt=\"How Physics Makes Us Free\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1460908194l/28192249._SY75_.jpg\" /></a><br/>\n                                      author: Jenann Ismael<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.7<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/10/25<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "numPages": "288"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/8006535760?utm_medium=api&utm_source=rss",
       "title": "Essex Dogs (Essex Dogs, #1)",
       "link": "https://www.goodreads.com/review/show/8006535760?utm_medium=api&utm_source=rss",
@@ -4364,9 +4385,9 @@
       "userDateCreated": "2024-11-25T10:07:09.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "4.1",
+      "averageRating": "4.0",
       "bookPublished": "2006",
-      "description": "<a href=\"https://www.goodreads.com/book/show/214631090-kaput?utm_medium=api&amp;utm_source=rss\"><img alt=\"Kaput: The End of the German Miracle\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1719035363l/214631090._SY75_.jpg\" /></a><br/>\n                                      author: Wolfgang Münchau<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: 2006<br/>\n                                      rating: 4<br/>\n                                      read at: 2024/12/24<br/>\n                                      date added: 2024/12/24<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/214631090-kaput?utm_medium=api&amp;utm_source=rss\"><img alt=\"Kaput: The End of the German Miracle\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1719035363l/214631090._SY75_.jpg\" /></a><br/>\n                                      author: Wolfgang Münchau<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: 2006<br/>\n                                      rating: 4<br/>\n                                      read at: 2024/12/24<br/>\n                                      date added: 2024/12/24<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "220"
     },
     {
