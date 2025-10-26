@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/8022686043?utm_medium=api&utm_source=rss",
+      "title": "Beyond Vibe Coding: From Coder to AI-Era Developer",
+      "link": "https://www.goodreads.com/review/show/8022686043?utm_medium=api&utm_source=rss",
+      "bookId": "232301660",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1747084022l/232301660._SX50_.jpg",
+      "bookDescription": "",
+      "authorName": "Addy Osmani",
+      "isbn": "",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2025-10-26T21:35:38.000Z",
+      "userDateCreated": "2025-10-26T21:35:37.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "3.4",
+      "bookPublished": "",
+      "description": "<a href=\"https://www.goodreads.com/book/show/232301660-beyond-vibe-coding?utm_medium=api&amp;utm_source=rss\"><img alt=\"Beyond Vibe Coding: From Coder to AI-Era Developer\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1747084022l/232301660._SX50_.jpg\" /></a><br/>\n                                      author: Addy Osmani<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.4<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/10/26<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "252"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/7988917205?utm_medium=api&utm_source=rss",
       "title": "Breakneck: China's Quest to Engineer the Future",
       "link": "https://www.goodreads.com/review/show/7988917205?utm_medium=api&utm_source=rss",
