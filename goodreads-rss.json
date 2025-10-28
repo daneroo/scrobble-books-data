@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/7224569602?utm_medium=api&utm_source=rss",
+      "title": "The System of the World (The Baroque Cycle, Vol. 3, Book 3)",
+      "link": "https://www.goodreads.com/review/show/7224569602?utm_medium=api&utm_source=rss",
+      "bookId": "459504",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1251290378l/459504._SX50_.jpg",
+      "bookDescription": "In this concluding volume of Neal Stephenson's epic work, \"Half-Cocked Jack\" Shaftoe must escape the noose of Jack Ketch; the rivalry between Newton and Leibniz comes to a head; and Daniel Waterhouse pursues his dream to build the Logic Mill.<br /><br />The Baroque Cycle, Neal Stephenson's award-winning series, spans the late 17th and early 18th centuries, combining history, adventure, science, invention, piracy, and alchemy into one sweeping tale. It is a gloriously rich, entertaining, and endlessly inventive historical epic populated by the likes of Isaac Newton, William of Orange, Benjamin Franklin, and King Louis XIV, along with some of the most inventive literary characters in modern fiction.<br /><br />Audible's complete and unabridged presentation of The Baroque Cycle was produced in cooperation with Neal Stephenson. Each volume includes an exclusive introduction read by the author.",
+      "authorName": "Neal Stephenson",
+      "isbn": "0060895535",
+      "userName": "Daniel",
+      "userRating": "5",
+      "userReadAt": "2025-01-22T00:00:00.000Z",
+      "userDateAdded": "2025-10-28T20:03:47.000Z",
+      "userDateCreated": "2025-01-17T08:28:30.000Z",
+      "userShelves": "",
+      "userReview": "",
+      "averageRating": "4.5",
+      "bookPublished": "2004",
+      "description": "<a href=\"https://www.goodreads.com/book/show/459504.The_System_of_the_World?utm_medium=api&amp;utm_source=rss\"><img alt=\"The System of the World (The Baroque Cycle, Vol. 3, Book 3)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1251290378l/459504._SX50_.jpg\" /></a><br/>\n                                      author: Neal Stephenson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.5<br/>\n                                      book published: 2004<br/>\n                                      rating: 5<br/>\n                                      read at: 2025/01/22<br/>\n                                      date added: 2025/10/28<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "numPages": "368"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/8006214025?utm_medium=api&utm_source=rss",
       "title": "Journey to the Edge of Reason: The Life of Kurt Gödel",
       "link": "https://www.goodreads.com/review/show/8006214025?utm_medium=api&utm_source=rss",
@@ -4013,27 +4034,6 @@
       "numPages": "623"
     },
     {
-      "id": "https://www.goodreads.com/review/show/7224569602?utm_medium=api&utm_source=rss",
-      "title": "The System of the World (The Baroque Cycle, Vol. 3, Book 3)",
-      "link": "https://www.goodreads.com/review/show/7224569602?utm_medium=api&utm_source=rss",
-      "bookId": "459504",
-      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1251290378l/459504._SX50_.jpg",
-      "bookDescription": "In this concluding volume of Neal Stephenson's epic work, \"Half-Cocked Jack\" Shaftoe must escape the noose of Jack Ketch; the rivalry between Newton and Leibniz comes to a head; and Daniel Waterhouse pursues his dream to build the Logic Mill.<br /><br />The Baroque Cycle, Neal Stephenson's award-winning series, spans the late 17th and early 18th centuries, combining history, adventure, science, invention, piracy, and alchemy into one sweeping tale. It is a gloriously rich, entertaining, and endlessly inventive historical epic populated by the likes of Isaac Newton, William of Orange, Benjamin Franklin, and King Louis XIV, along with some of the most inventive literary characters in modern fiction.<br /><br />Audible's complete and unabridged presentation of The Baroque Cycle was produced in cooperation with Neal Stephenson. Each volume includes an exclusive introduction read by the author.",
-      "authorName": "Neal Stephenson",
-      "isbn": "0060895535",
-      "userName": "Daniel",
-      "userRating": "5",
-      "userReadAt": "2025-01-22T00:00:00.000Z",
-      "userDateAdded": "2025-01-22T08:35:40.000Z",
-      "userDateCreated": "2025-01-17T08:28:30.000Z",
-      "userShelves": "",
-      "userReview": "",
-      "averageRating": "4.5",
-      "bookPublished": "2004",
-      "description": "<a href=\"https://www.goodreads.com/book/show/459504.The_System_of_the_World?utm_medium=api&amp;utm_source=rss\"><img alt=\"The System of the World (The Baroque Cycle, Vol. 3, Book 3)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1251290378l/459504._SX50_.jpg\" /></a><br/>\n                                      author: Neal Stephenson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.5<br/>\n                                      book published: 2004<br/>\n                                      rating: 5<br/>\n                                      read at: 2025/01/22<br/>\n                                      date added: 2025/01/22<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
-      "numPages": "368"
-    },
-    {
       "id": "https://www.goodreads.com/review/show/7213573177?utm_medium=api&utm_source=rss",
       "title": "Currency (The Baroque Cycle, Vol. 3, Book 2)",
       "link": "https://www.goodreads.com/review/show/7213573177?utm_medium=api&utm_source=rss",
@@ -4932,8 +4932,8 @@
       "userShelves": "",
       "userReview": "",
       "averageRating": "3.7",
-      "bookPublished": "2024",
-      "description": "<a href=\"https://www.goodreads.com/book/show/199793426-polostan?utm_medium=api&amp;utm_source=rss\"><img alt=\"Polostan (Bomb Light #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1714031079l/199793426._SY75_.jpg\" /></a><br/>\n                                      author: Neal Stephenson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.7<br/>\n                                      book published: 2024<br/>\n                                      rating: 5<br/>\n                                      read at: 2024/11/20<br/>\n                                      date added: 2024/11/20<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "bookPublished": "2015",
+      "description": "<a href=\"https://www.goodreads.com/book/show/199793426-polostan?utm_medium=api&amp;utm_source=rss\"><img alt=\"Polostan (Bomb Light #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1714031079l/199793426._SY75_.jpg\" /></a><br/>\n                                      author: Neal Stephenson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.7<br/>\n                                      book published: 2015<br/>\n                                      rating: 5<br/>\n                                      read at: 2024/11/20<br/>\n                                      date added: 2024/11/20<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "303"
     },
     {
