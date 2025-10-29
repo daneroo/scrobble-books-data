@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/8029029432?utm_medium=api&utm_source=rss",
+      "title": "Permutation City",
+      "link": "https://www.goodreads.com/review/show/8029029432?utm_medium=api&utm_source=rss",
+      "bookId": "156784",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1287341300l/156784._SY75_.jpg",
+      "bookDescription": "The story of a man with a vision—immortality: for those who can afford it is found in cyberspace. <i>Permutation City</i> is the tale of a man with a vision—how to create immortality—and how that vision becomes something way beyond his control. Encompassing the lives and struggles of an artificial life junkie desperate to save her dying mother, a billionaire banker scarred by a terrible crime, the lovers for whom, in their timeless virtual world, love is not enough—and much more—Permutation City is filled with the sense of wonder.",
+      "authorName": "Greg Egan",
+      "isbn": "006105481X",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2025-10-29T07:35:16.000Z",
+      "userDateCreated": "2025-10-29T07:35:15.000Z",
+      "userShelves": "on-deck",
+      "userReview": "",
+      "averageRating": "4.1",
+      "bookPublished": "1994",
+      "description": "<a href=\"https://www.goodreads.com/book/show/156784.Permutation_City?utm_medium=api&amp;utm_source=rss\"><img alt=\"Permutation City\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1287341300l/156784._SY75_.jpg\" /></a><br/>\n                                      author: Greg Egan<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: 1994<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/10/29<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "numPages": "352"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/8007568097?utm_medium=api&utm_source=rss",
       "title": "Diaspora",
       "link": "https://www.goodreads.com/review/show/8007568097?utm_medium=api&utm_source=rss",
@@ -13,13 +34,13 @@
       "userName": "Daniel",
       "userRating": "0",
       "userReadAt": "",
-      "userDateAdded": "2025-10-29T05:01:55.000Z",
+      "userDateAdded": "2025-10-29T07:19:23.000Z",
       "userDateCreated": "2025-10-20T19:53:18.000Z",
       "userShelves": "currently-reading",
       "userReview": "",
       "averageRating": "4.1",
       "bookPublished": "1997",
-      "description": "<a href=\"https://www.goodreads.com/book/show/156785.Diaspora?utm_medium=api&amp;utm_source=rss\"><img alt=\"Diaspora\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1172264162l/156785._SY75_.jpg\" /></a><br/>\n                                      author: Greg Egan<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: 1997<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/10/28<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/156785.Diaspora?utm_medium=api&amp;utm_source=rss\"><img alt=\"Diaspora\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1172264162l/156785._SY75_.jpg\" /></a><br/>\n                                      author: Greg Egan<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: 1997<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/10/29<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
       "numPages": "443"
     },
     {
