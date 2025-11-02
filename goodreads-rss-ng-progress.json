@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/8038427192?utm_medium=api&utm_source=rss",
+      "title": "Wolves of Winter",
+      "link": "https://www.goodreads.com/review/show/8038427192?utm_medium=api&utm_source=rss",
+      "bookId": "198532521",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1693825685l/198532521._SY75_.jpg",
+      "bookDescription": "The epic sequel to Essex Dogs, continuing the New York Times bestselling historian's trilogy of novels following the fortunes of ten ordinary soldiers during the Hundred Years' War.<br /><br />For the Dogs, the war has only just begun. Caught up in the siege of Calais, in the midst of a brutal eleven-month blockade of a small port on the French coast, the band of brothers known as the Essex Dogs are no longer blindly walking into the unknown. But the men still have more questions than answers about what faces them - and why.<br /><br />What are they really fighting for? And why does the king care so much about taking such a small French town?<br /><br />Soon, their journey will reveal who really wants this war to last for a hundred years. And as the battle rages, they hear the first, faint, chesty rattle of a natural disaster that is sweeping towards the Dogs and their world . . .<br /><br />Spanning the siege city built outside Calais' walls, to the pirate ships patrolling the harbour, and into the dark corners of oligarchs' houses, where the deals that shape—and end—lives are made, this captivating and brutal story brings the 1300s effortlessly to life.",
+      "authorName": "Dan Jones",
+      "isbn": "0593653793",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2025-11-02T07:39:41.000Z",
+      "userDateCreated": "2025-11-02T07:39:40.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "4.0",
+      "bookPublished": "2023",
+      "description": "<a href=\"https://www.goodreads.com/book/show/198532521-wolves-of-winter?utm_medium=api&amp;utm_source=rss\"><img alt=\"Wolves of Winter\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1693825685l/198532521._SY75_.jpg\" /></a><br/>\n                                      author: Dan Jones<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: 2023<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/11/02<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "448"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/5165632125?utm_medium=api&utm_source=rss",
       "title": "The State of the Art (Culture, #4)",
       "link": "https://www.goodreads.com/review/show/5165632125?utm_medium=api&utm_source=rss",
@@ -2058,27 +2079,6 @@
       "bookPublished": "",
       "description": "<a href=\"https://www.goodreads.com/book/show/220457656-language-machines?utm_medium=api&amp;utm_source=rss\"><img alt=\"Language Machines: Cultural AI and the End of Remainder Humanism (Volume 74) (Posthumanities)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1731561301l/220457656._SY75_.jpg\" /></a><br/>\n                                      author: Leif Weatherby<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/07/08<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "264"
-    },
-    {
-      "id": "https://www.goodreads.com/review/show/7710737092?utm_medium=api&utm_source=rss",
-      "title": "2054",
-      "link": "https://www.goodreads.com/review/show/7710737092?utm_medium=api&utm_source=rss",
-      "bookId": "177192243",
-      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1686628439l/177192243._SY75_.jpg",
-      "bookDescription": "From the acclaimed authors of the runaway New York Times bestseller 2034 comes another explosive work of speculative fiction set twenty years further in the future, at a moment when a radical leap forward in artificial intelligence combines with America’s violent partisan divide to create an existential threat to the country, and the world<br /><br />It is twenty years after the catastrophic war between the United States and China that brought down the old American political order. A new party has emerged in the US, one that’s held power for over a decade. Efforts to cement its grip have resulted in mounting violent resistance. The American president has control of the media, but he is beginning to lose control of the streets. Many fear he’ll stop at nothing to remain in the White House. Suddenly, he collapses in the middle of an address to the nation. After an initial flurry of misinformation, the administration reluctantly announces his death. A cover-up ensues, conspiracy theories abound, and the country descends into a new type of civil war.<br /><br />A handful of elite actors from the worlds of computer science, intelligence, and business have a fairly good idea what happened. All signs point to a profound breakthrough in AI, of which the remote assassination of an American president is hardly the most game-changing ramification. The trail leads to an outpost in the Amazon rainforest, the last known whereabouts of the tech visionary who predicted this breakthrough. As some of the world’s great powers, old and new, state and nonstate alike, struggle to outmaneuver one another in this new Great Game of scientific discovery, the outcome becomes entangled with the fate of American democracy.<br /><br />Combining a deep understanding of AI, biotech, and the possibility of a coming Singularity, along with their signature geopolitical sophistication, Elliot Ackerman and Admiral James Stavridis have once again written a visionary work. 2054 is a novel that reads like a thriller even as it demands that we consider the trajectory of our society and its potentially calamitous destination.",
-      "authorName": "Elliot Ackerman",
-      "isbn": "0593489861",
-      "userName": "Daniel",
-      "userRating": "4",
-      "userReadAt": "2025-07-08T00:00:00.000Z",
-      "userDateAdded": "2025-07-08T08:02:52.000Z",
-      "userDateCreated": "2025-07-05T06:59:59.000Z",
-      "userShelves": "",
-      "userReview": "",
-      "averageRating": "3.2",
-      "bookPublished": "2024",
-      "description": "<a href=\"https://www.goodreads.com/book/show/177192243-2054?utm_medium=api&amp;utm_source=rss\"><img alt=\"2054\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1686628439l/177192243._SY75_.jpg\" /></a><br/>\n                                      author: Elliot Ackerman<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.2<br/>\n                                      book published: 2024<br/>\n                                      rating: 4<br/>\n                                      read at: 2025/07/08<br/>\n                                      date added: 2025/07/08<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
-      "numPages": "304"
     }
   ]
 }

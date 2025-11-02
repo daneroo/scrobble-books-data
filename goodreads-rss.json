@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/8038427192?utm_medium=api&utm_source=rss",
+      "title": "Wolves of Winter",
+      "link": "https://www.goodreads.com/review/show/8038427192?utm_medium=api&utm_source=rss",
+      "bookId": "198532521",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1693825685l/198532521._SY75_.jpg",
+      "bookDescription": "The epic sequel to Essex Dogs, continuing the New York Times bestselling historian's trilogy of novels following the fortunes of ten ordinary soldiers during the Hundred Years' War.<br /><br />For the Dogs, the war has only just begun. Caught up in the siege of Calais, in the midst of a brutal eleven-month blockade of a small port on the French coast, the band of brothers known as the Essex Dogs are no longer blindly walking into the unknown. But the men still have more questions than answers about what faces them - and why.<br /><br />What are they really fighting for? And why does the king care so much about taking such a small French town?<br /><br />Soon, their journey will reveal who really wants this war to last for a hundred years. And as the battle rages, they hear the first, faint, chesty rattle of a natural disaster that is sweeping towards the Dogs and their world . . .<br /><br />Spanning the siege city built outside Calais' walls, to the pirate ships patrolling the harbour, and into the dark corners of oligarchs' houses, where the deals that shape—and end—lives are made, this captivating and brutal story brings the 1300s effortlessly to life.",
+      "authorName": "Dan Jones",
+      "isbn": "0593653793",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2025-11-02T07:39:41.000Z",
+      "userDateCreated": "2025-11-02T07:39:40.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "4.0",
+      "bookPublished": "2023",
+      "description": "<a href=\"https://www.goodreads.com/book/show/198532521-wolves-of-winter?utm_medium=api&amp;utm_source=rss\"><img alt=\"Wolves of Winter\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1693825685l/198532521._SY75_.jpg\" /></a><br/>\n                                      author: Dan Jones<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: 2023<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/11/02<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "448"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/5165632125?utm_medium=api&utm_source=rss",
       "title": "The State of the Art (Culture, #4)",
       "link": "https://www.goodreads.com/review/show/5165632125?utm_medium=api&utm_source=rss",
