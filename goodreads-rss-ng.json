@@ -12,14 +12,14 @@
       "isbn": "1597800740",
       "userName": "Daniel",
       "userRating": "4",
-      "userReadAt": "2024-06-23T00:00:00.000Z",
-      "userDateAdded": "2025-11-02T00:26:31.000Z",
+      "userReadAt": "2025-11-01T00:00:00.000Z",
+      "userDateAdded": "2025-11-02T05:03:58.000Z",
       "userDateCreated": "2022-12-15T04:11:48.000Z",
-      "userShelves": "currently-reading",
+      "userShelves": "",
       "userReview": "",
       "averageRating": "3.8",
       "bookPublished": "1991",
-      "description": "<a href=\"https://www.goodreads.com/book/show/129131.The_State_of_the_Art?utm_medium=api&amp;utm_source=rss\"><img alt=\"The State of the Art (Culture, #4)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388240598l/129131._SY75_.jpg\" /></a><br/>\n                                      author: Iain M. Banks<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.8<br/>\n                                      book published: 1991<br/>\n                                      rating: 4<br/>\n                                      read at: 2024/06/23<br/>\n                                      date added: 2025/11/01<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/129131.The_State_of_the_Art?utm_medium=api&amp;utm_source=rss\"><img alt=\"The State of the Art (Culture, #4)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388240598l/129131._SY75_.jpg\" /></a><br/>\n                                      author: Iain M. Banks<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.8<br/>\n                                      book published: 1991<br/>\n                                      rating: 4<br/>\n                                      read at: 2025/11/01<br/>\n                                      date added: 2025/11/01<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "188"
     },
     {
