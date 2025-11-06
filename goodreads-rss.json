@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/8050059490?utm_medium=api&utm_source=rss",
+      "title": "Book of Lives: A Memoir of Sorts",
+      "link": "https://www.goodreads.com/review/show/8050059490?utm_medium=api&utm_source=rss",
+      "bookId": "223854625",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1739245711l/223854625._SY75_.jpg",
+      "bookDescription": "<b>How does one of the greatest storytellers of our time write her own life? The long-awaited memoir from one of our most lauded and influential cultural figures.</b><br /><br /><i>‘Every writer is at least two beings: the one who lives, and the one who writes. Though everything written must have passed through their minds, or mind, they are not the same.’</i><br /><br />Raised by ruggedly independent, scientifically minded parents – entomologist father, dietician mother – Atwood spent most of each year in the wild forest of northern Quebec. This childhood was unfettered and nomadic, sometimes isolated (on her eighth birthday: 'It sounds forlorn. It was forlorn. It gets more forlorn.’), but also thrilling and beautiful.<br /><br />From this unconventional start, Atwood unfolds the story of her life, linking seminal moments to the books that have shaped our literary landscape, from the cruel year that spawned <i>Cat’s Eye</i> to the Orwellian 1980s Berlin where she wrote <i>The Handmaid’s Tale</i>. In pages bursting with bohemian gatherings, her magical life with the wildly charismatic writer Graeme Gibson and major political turning points, we meet poets, bears, Hollywood actors and larger-than-life characters straight from the pages of an Atwood novel.<br /><br />As we travel with her along the course of her life, more and more is revealed about her writing, the connections between real life and art – and the workings of one of our greatest imaginations.",
+      "authorName": "Margaret Atwood",
+      "isbn": "038554751X",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2025-11-06T17:41:33.000Z",
+      "userDateCreated": "2025-11-06T17:41:33.000Z",
+      "userShelves": "to-read",
+      "userReview": "",
+      "averageRating": "4.7",
+      "bookPublished": "2025",
+      "description": "<a href=\"https://www.goodreads.com/book/show/223854625-book-of-lives?utm_medium=api&amp;utm_source=rss\"><img alt=\"Book of Lives: A Memoir of Sorts\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1739245711l/223854625._SY75_.jpg\" /></a><br/>\n                                      author: Margaret Atwood<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.7<br/>\n                                      book published: 2025<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/11/06<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "numPages": "624"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/8049136799?utm_medium=api&utm_source=rss",
       "title": "Us Against You (Beartown, #2)",
       "link": "https://www.goodreads.com/review/show/8049136799?utm_medium=api&utm_source=rss",
@@ -14045,9 +14066,9 @@
       "userDateCreated": "2022-10-13T07:32:54.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "4.4",
+      "averageRating": "4.5",
       "bookPublished": "2019",
-      "description": "<a href=\"https://www.goodreads.com/book/show/35606041-a-little-hatred?utm_medium=api&amp;utm_source=rss\"><img alt=\"A Little Hatred (The Age of Madness, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1558367199l/35606041._SY75_.jpg\" /></a><br/>\n                                      author: Joe Abercrombie<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.4<br/>\n                                      book published: 2019<br/>\n                                      rating: 4<br/>\n                                      read at: 2022/10/19<br/>\n                                      date added: 2022/10/19<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/35606041-a-little-hatred?utm_medium=api&amp;utm_source=rss\"><img alt=\"A Little Hatred (The Age of Madness, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1558367199l/35606041._SY75_.jpg\" /></a><br/>\n                                      author: Joe Abercrombie<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.5<br/>\n                                      book published: 2019<br/>\n                                      rating: 4<br/>\n                                      read at: 2022/10/19<br/>\n                                      date added: 2022/10/19<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "480"
     },
     {
