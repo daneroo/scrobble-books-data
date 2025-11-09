@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/8056413717?utm_medium=api&utm_source=rss",
+      "title": "We Need to Talk About Putin: Why the West Gets Him Wrong, and How to Get Him Right",
+      "link": "https://www.goodreads.com/review/show/8056413717?utm_medium=api&utm_source=rss",
+      "bookId": "40789161",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1598279805l/40789161._SY75_.jpg",
+      "bookDescription": "<b>A <i>The</i> <i>Times</i> best book of 2019</b><br /><br />'In fewer than 150 pithy pages, Galeotti sketches a bleak, but convincing picture of the man in the Kremlin and the political system that he dominates' - <i>The Times</i><br /><br /><b>Meet the world's most dangerous man. Or is he?</b><br /><br />Who is the real Vladimir Putin? What does he want? And what will he do next?<br /><br />Despite the millions of words written on Putin's Russia, the West still fails to truly understand one of the world's most powerful politicians, whose influence spans the globe and whose networks of power reach into the very heart of our daily lives.<br /><br />In this essential primer, Professor Mark Galeotti uncovers the man behind the myth, addressing the key misperceptions of Putin and explaining how we can decipher his motivations and next moves. From Putin’s early life in the KGB and his real relationship with the USA to his vision for the future of Russia – and the world – Galeotti draws on new Russian sources and explosive unpublished accounts to give unparalleled insight into the man at the heart of global politics.",
+      "authorName": "Mark Galeotti",
+      "isbn": "1473566029",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2025-11-09T09:49:18.000Z",
+      "userDateCreated": "2025-11-09T09:49:17.000Z",
+      "userShelves": "on-deck",
+      "userReview": "",
+      "averageRating": "3.8",
+      "bookPublished": "2019",
+      "description": "<a href=\"https://www.goodreads.com/book/show/40789161-we-need-to-talk-about-putin?utm_medium=api&amp;utm_source=rss\"><img alt=\"We Need to Talk About Putin: Why the West Gets Him Wrong, and How to Get Him Right\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1598279805l/40789161._SY75_.jpg\" /></a><br/>\n                                      author: Mark Galeotti<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.8<br/>\n                                      book published: 2019<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/11/09<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "numPages": "160"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/8056244662?utm_medium=api&utm_source=rss",
       "title": "Ingram: A Novel",
       "link": "https://www.goodreads.com/review/show/8056244662?utm_medium=api&utm_source=rss",
