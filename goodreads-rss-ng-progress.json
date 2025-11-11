@@ -122,9 +122,9 @@
       "userDateCreated": "2025-11-06T17:41:33.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "4.4",
+      "averageRating": "4.5",
       "bookPublished": "2025",
-      "description": "<a href=\"https://www.goodreads.com/book/show/223854625-book-of-lives?utm_medium=api&amp;utm_source=rss\"><img alt=\"Book of Lives: A Memoir of Sorts\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1739245711l/223854625._SY75_.jpg\" /></a><br/>\n                                      author: Margaret Atwood<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.4<br/>\n                                      book published: 2025<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/11/06<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/223854625-book-of-lives?utm_medium=api&amp;utm_source=rss\"><img alt=\"Book of Lives: A Memoir of Sorts\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1739245711l/223854625._SY75_.jpg\" /></a><br/>\n                                      author: Margaret Atwood<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.5<br/>\n                                      book published: 2025<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/11/06<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "624"
     },
     {
@@ -322,7 +322,7 @@
       "link": "https://www.goodreads.com/review/show/8022686043?utm_medium=api&utm_source=rss",
       "bookId": "232301660",
       "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1747084022l/232301660._SX50_.jpg",
-      "bookDescription": "",
+      "bookDescription": "AI is transforming software development, shifting programmers from writing code to collaborating with AI in an intent-driven workflow. Vibe coding—a prompt-first, exploratory approach where you describe what you want in natural language and let a large language model fill in the blanks—represents a radical shift in the developer's role from writing code to <i>directing</i> it. However, vibe coding comes with a serious Like a high-speed exploratory vehicle, it can take you off the beaten path quickly. <i>Beyond Vibe From Coder to AI-Era Developer</i> explores how AI-powered coding assistants like GitHub Copilot and OpenAI Codex are reshaping the way we build software, from automating routine coding tasks to influencing architecture and design decisions.<br /><br />Written by Addy Osmani, this guide provides developers, tech leads, and organizations with practical strategies to integrate AI into their workflows effectively. Learn how to formulate clear goals and constraints for the AI, review AI-generated code critically, and integrate those pieces into a coherent whole. Whether you're adopting AI tools today or preparing for the future of software engineering, this book offers insights and hands-on examples to keep your skills sharp in this evolving landscape.",
       "authorName": "Addy Osmani",
       "isbn": "",
       "userName": "Daniel",
