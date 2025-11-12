@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/5403061935?utm_medium=api&utm_source=rss",
+      "title": "Quicksilver (The Baroque Cycle, Vol. 1, Book 1)",
+      "link": "https://www.goodreads.com/review/show/5403061935?utm_medium=api&utm_source=rss",
+      "bookId": "45277",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1490002404l/45277._SY75_.jpg",
+      "bookDescription": "In which Daniel Waterhouse, fearless thinker and courageous Puritan, pursues knowledge in the company of the greatest minds of Baroque-era Europe -- in a chaotic world where reason wars with the bloody ambitions of the mighty, and where catastrophe, natural or otherwise, can alter the political landscape overnight.<br />(back cover)",
+      "authorName": "Neal Stephenson",
+      "isbn": "0060833165",
+      "userName": "Daniel",
+      "userRating": "4",
+      "userReadAt": "2023-03-12T00:00:00.000Z",
+      "userDateAdded": "2025-11-12T18:54:58.000Z",
+      "userDateCreated": "2023-03-10T04:15:30.000Z",
+      "userShelves": "",
+      "userReview": "",
+      "averageRating": "4.2",
+      "bookPublished": "2003",
+      "description": "<a href=\"https://www.goodreads.com/book/show/45277.Quicksilver?utm_medium=api&amp;utm_source=rss\"><img alt=\"Quicksilver (The Baroque Cycle, Vol. 1, Book 1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1490002404l/45277._SY75_.jpg\" /></a><br/>\n                                      author: Neal Stephenson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 2003<br/>\n                                      rating: 4<br/>\n                                      read at: 2023/03/12<br/>\n                                      date added: 2025/11/12<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "numPages": "456"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/8037689189?utm_medium=api&utm_source=rss",
       "title": "A Man Called Ove",
       "link": "https://www.goodreads.com/review/show/8037689189?utm_medium=api&utm_source=rss",
@@ -185,9 +206,9 @@
       "userDateCreated": "2025-11-06T17:41:33.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "4.4",
+      "averageRating": "4.5",
       "bookPublished": "2025",
-      "description": "<a href=\"https://www.goodreads.com/book/show/223854625-book-of-lives?utm_medium=api&amp;utm_source=rss\"><img alt=\"Book of Lives: A Memoir of Sorts\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1739245711l/223854625._SY75_.jpg\" /></a><br/>\n                                      author: Margaret Atwood<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.4<br/>\n                                      book published: 2025<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/11/06<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/223854625-book-of-lives?utm_medium=api&amp;utm_source=rss\"><img alt=\"Book of Lives: A Memoir of Sorts\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1739245711l/223854625._SY75_.jpg\" /></a><br/>\n                                      author: Margaret Atwood<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.5<br/>\n                                      book published: 2025<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/11/06<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "624"
     },
     {
@@ -1680,27 +1701,6 @@
       "bookPublished": "1917",
       "description": "<a href=\"https://www.goodreads.com/book/show/194349.His_Last_Bow?utm_medium=api&amp;utm_source=rss\"><img alt=\"His Last Bow (Sherlock Holmes, #8)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1529973461l/194349._SY75_.jpg\" /></a><br/>\n                                      author: Arthur Conan Doyle<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: 1917<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/08/23<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "301"
-    },
-    {
-      "id": "https://www.goodreads.com/review/show/5403061935?utm_medium=api&utm_source=rss",
-      "title": "Quicksilver (The Baroque Cycle, Vol. 1, Book 1)",
-      "link": "https://www.goodreads.com/review/show/5403061935?utm_medium=api&utm_source=rss",
-      "bookId": "45277",
-      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1490002404l/45277._SY75_.jpg",
-      "bookDescription": "In which Daniel Waterhouse, fearless thinker and courageous Puritan, pursues knowledge in the company of the greatest minds of Baroque-era Europe -- in a chaotic world where reason wars with the bloody ambitions of the mighty, and where catastrophe, natural or otherwise, can alter the political landscape overnight.<br />(back cover)",
-      "authorName": "Neal Stephenson",
-      "isbn": "0060833165",
-      "userName": "Daniel",
-      "userRating": "4",
-      "userReadAt": "2023-03-12T00:00:00.000Z",
-      "userDateAdded": "2025-08-22T22:01:40.000Z",
-      "userDateCreated": "2023-03-10T04:15:30.000Z",
-      "userShelves": "",
-      "userReview": "",
-      "averageRating": "4.2",
-      "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/45277.Quicksilver?utm_medium=api&amp;utm_source=rss\"><img alt=\"Quicksilver (The Baroque Cycle, Vol. 1, Book 1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1490002404l/45277._SY75_.jpg\" /></a><br/>\n                                      author: Neal Stephenson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: <br/>\n                                      rating: 4<br/>\n                                      read at: 2023/03/12<br/>\n                                      date added: 2025/08/22<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
-      "numPages": "456"
     },
     {
       "id": "https://www.goodreads.com/review/show/7842177207?utm_medium=api&utm_source=rss",
