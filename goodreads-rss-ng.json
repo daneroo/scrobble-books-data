@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/7645482068?utm_medium=api&utm_source=rss",
+      "title": "The Mesopotamian Riddle: An Archaeologist, a Soldier, a Clergyman, and the Race to Decipher the World's Oldest Writing",
+      "link": "https://www.goodreads.com/review/show/7645482068?utm_medium=api&utm_source=rss",
+      "bookId": "214152372",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1719020965l/214152372._SY75_.jpg",
+      "bookDescription": "<b>A rollicking adventure starring three free-spirited Victorians on a twenty-year quest to decipher cuneiform</b>, <b>the oldest writing in the world</b>—<b>from the <i>New York Times</i> bestselling author of <i>The Bad-Ass Librarians of Timbuktu</i>.</b><br /><br />It was one of history’s great vanishing acts.<br /> <br />Around 3,400 BCE—as humans were gathering in complex urban settlements—a scribe in the mud-walled city-state of Uruk picked up a reed stylus to press tiny symbols into clay. For three millennia, wedge shape cuneiform script would record the military conquests, scientific discoveries, and epic literature of the great Mesopotamian kingdoms of Sumer, Assyria, and Babylon and of Persia’s mighty Achaemenid Empire, along with precious minutiae about everyday life in the cradle of civilization. And then…the meaning of the characters was lost.<br /> <br />London, 1857. In an era obsessed with human progress, mysterious palaces emerging from the desert sands had captured the Victorian public’s imagination. Yet Europe’s best philologists struggled to decipher the bizarre inscriptions excavators were digging up.<br /> <br />Enter a swashbuckling archaeologist, a suave British military officer turned diplomat, and a cloistered Irish rector, all vying for glory in a race to decipher this script that would enable them to peek farther back into human history than ever before.<br /> <br />From the ruins of Persepolis to lawless outposts of the crumbling Ottoman Empire, <i>The Mesopotamian Riddle</i> whisks you on a wild adventure through the golden age of archaeology in an epic quest to understand our past.",
+      "authorName": "Joshua Hammer",
+      "isbn": "1668015447",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2025-11-13T08:28:39.000Z",
+      "userDateCreated": "2025-06-11T08:01:50.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "3.9",
+      "bookPublished": "2025",
+      "description": "<a href=\"https://www.goodreads.com/book/show/214152372-the-mesopotamian-riddle?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Mesopotamian Riddle: An Archaeologist, a Soldier, a Clergyman, and the Race to Decipher the World&#39;s Oldest Writing\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1719020965l/214152372._SY75_.jpg\" /></a><br/>\n                                      author: Joshua Hammer<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: 2025<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/11/13<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "400"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/8037689189?utm_medium=api&utm_source=rss",
       "title": "A Man Called Ove",
       "link": "https://www.goodreads.com/review/show/8037689189?utm_medium=api&utm_source=rss",
@@ -2058,27 +2079,6 @@
       "bookPublished": "",
       "description": "<a href=\"https://www.goodreads.com/book/show/223629149-when-minds-converse?utm_medium=api&amp;utm_source=rss\"><img alt=\"When Minds Converse: A Social Genealogy of the Human Soul\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1736878461l/223629149._SY75_.jpg\" /></a><br/>\n                                      author: Philip Pettit<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/07/28<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
       "numPages": "384"
-    },
-    {
-      "id": "https://www.goodreads.com/review/show/6930615807?utm_medium=api&utm_source=rss",
-      "title": "Fool's Errand (Tawny Man, #1)",
-      "link": "https://www.goodreads.com/review/show/6930615807?utm_medium=api&utm_source=rss",
-      "bookId": "68488",
-      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1759666405l/68488._SY75_.jpg",
-      "bookDescription": "<i>alternate cover for ISBN <a href=\"https://www.goodreads.com/search/search?q=9780006486015\" title=\"9780006486015\" rel=\"nofollow noopener\">9780006486015</a></i><br /><br />Fifteen years have passed since the end of the Red Ship War with the terrifying Outislanders. Since then, Fitz has wandered the world accompanied only by his wolf and Wit-partner, Nighteyes, finally settling in a tiny cottage as remote from Buckkeep and the Farseers as possible.<br /><br />But lately the world has come crashing in again. The Witted are being persecuted because of their magical bonds with animals; and young Prince Dutiful has gone missing just before his crucial diplomatic wedding to an Outislander princess. Fitz’s assignment to fetch Dutiful back in time for the ceremony seems very much like a fool’s errand, but the dangers ahead could signal the end of the Farseer reign.<br /><br />Cover illustration by John Howe<br /><br />",
-      "authorName": "Robin Hobb",
-      "isbn": "",
-      "userName": "Daniel",
-      "userRating": "5",
-      "userReadAt": "2025-07-27T00:00:00.000Z",
-      "userDateAdded": "2025-07-28T05:17:10.000Z",
-      "userDateCreated": "2024-10-16T08:44:59.000Z",
-      "userShelves": "",
-      "userReview": "",
-      "averageRating": "4.4",
-      "bookPublished": "2001",
-      "description": "<a href=\"https://www.goodreads.com/book/show/68488.Fool_s_Errand?utm_medium=api&amp;utm_source=rss\"><img alt=\"Fool&#39;s Errand (Tawny Man, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1759666405l/68488._SY75_.jpg\" /></a><br/>\n                                      author: Robin Hobb<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.4<br/>\n                                      book published: 2001<br/>\n                                      rating: 5<br/>\n                                      read at: 2025/07/27<br/>\n                                      date added: 2025/07/27<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
-      "numPages": "661"
     }
   ]
 }
