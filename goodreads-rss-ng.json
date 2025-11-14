@@ -11,15 +11,15 @@
       "authorName": "Joshua Hammer",
       "isbn": "1668015447",
       "userName": "Daniel",
-      "userRating": "0",
-      "userReadAt": "",
-      "userDateAdded": "2025-11-13T08:28:39.000Z",
+      "userRating": "5",
+      "userReadAt": "2025-11-13T00:00:00.000Z",
+      "userDateAdded": "2025-11-14T06:21:17.000Z",
       "userDateCreated": "2025-06-11T08:01:50.000Z",
-      "userShelves": "currently-reading",
+      "userShelves": "",
       "userReview": "",
       "averageRating": "3.9",
       "bookPublished": "2025",
-      "description": "<a href=\"https://www.goodreads.com/book/show/214152372-the-mesopotamian-riddle?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Mesopotamian Riddle: An Archaeologist, a Soldier, a Clergyman, and the Race to Decipher the World&#39;s Oldest Writing\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1719020965l/214152372._SY75_.jpg\" /></a><br/>\n                                      author: Joshua Hammer<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: 2025<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/11/13<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/214152372-the-mesopotamian-riddle?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Mesopotamian Riddle: An Archaeologist, a Soldier, a Clergyman, and the Race to Decipher the World&#39;s Oldest Writing\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1719020965l/214152372._SY75_.jpg\" /></a><br/>\n                                      author: Joshua Hammer<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: 2025<br/>\n                                      rating: 5<br/>\n                                      read at: 2025/11/13<br/>\n                                      date added: 2025/11/13<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "400"
     },
     {
@@ -185,9 +185,9 @@
       "userDateCreated": "2025-11-09T07:04:13.000Z",
       "userShelves": "on-deck",
       "userReview": "",
-      "averageRating": "4.2",
+      "averageRating": "4.1",
       "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/232941278-ingram?utm_medium=api&amp;utm_source=rss\"><img alt=\"Ingram: A Novel\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1746638493l/232941278._SX50_.jpg\" /></a><br/>\n                                      author: Louis C.K.<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/11/08<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/232941278-ingram?utm_medium=api&amp;utm_source=rss\"><img alt=\"Ingram: A Novel\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1746638493l/232941278._SX50_.jpg\" /></a><br/>\n                                      author: Louis C.K.<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/11/08<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
       "numPages": "0"
     },
     {
