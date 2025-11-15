@@ -13,7 +13,7 @@
       "userName": "Daniel",
       "userRating": "0",
       "userReadAt": "",
-      "userDateAdded": "2025-11-14T08:54:54.000Z",
+      "userDateAdded": "2025-11-15T07:40:20.000Z",
       "userDateCreated": "2023-07-14T04:34:10.000Z",
       "userShelves": "currently-reading",
       "userReview": "",
@@ -21,6 +21,27 @@
       "bookPublished": "2021",
       "description": "<a href=\"https://www.goodreads.com/book/show/54326421-my-old-home?utm_medium=api&amp;utm_source=rss\"><img alt=\"My Old Home: A Novel of Exile\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1597016798l/54326421._SY75_.jpg\" /></a><br/>\n                                      author: Orville Schell<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 2021<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/11/14<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
       "numPages": "624"
+    },
+    {
+      "id": "https://www.goodreads.com/review/show/8072002988?utm_medium=api&utm_source=rss",
+      "title": "The Elements of Marie Curie: How the Glow of Radium Lit a Path for Women in Science",
+      "link": "https://www.goodreads.com/review/show/8072002988?utm_medium=api&utm_source=rss",
+      "bookId": "208580608",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1716500981l/208580608._SY75_.jpg",
+      "bookDescription": "<b>The acclaimed Pulitzer Prize finalist and #1 New York Times bestselling author of Galileo’s Daughter crafts a luminous chronicle of the life and work of the most famous woman in the history of science, and the untold story of the many young women trained in her laboratory who were launched into stellar scientific careers of their own</b><br /><br />“Even now, nearly a century after her death, Marie Curie remains the only female scientist most people can name,” writes Dava Sobel at the opening of her shining portrait of the sole Nobel laureate decorated in two separate fields of science—Physics in 1903 with her husband Pierre and Chemistry by herself in 1911. And yet, Sobel makes clear, as brilliant and creative as she was in the laboratory, Marie Curie was equally passionate outside it. Grieving Pierre’s untimely death in 1906, she took his place as professor of physics at the Sorbonne; devotedly raised two brilliant daughters; drove a van she outfitted with x-ray equipment to the front lines of World War I; befriended Albert Einstein and other luminaries of twentieth-century physics; won support from two U.S. presidents; and inspired generations of young women the world over to pursue science as a way of life.<br /><br />As Sobel did so memorably in her portrait of Galileo through the prism of his daughter, she approaches Marie Curie from a unique angle, narrating her remarkable life of discovery and fame alongside the women who became her legacy—from France’s Marguerite Perey, who discovered the element francium, and Norway’s Ellen Gleditsch, to Mme. Curie’s elder daughter, Irène, winner of the 1935 Nobel Prize in Chemistry. For decades the only woman in the room at international scientific gatherings that probed new theories about the interior of the atom, Marie Curie traveled far and wide, despite constant illness, to share the secrets of radioactivity, a term she coined. Her two triumphant tours of the United States won her admirers for her modesty even as she was mobbed at every stop; her daughters, in Ève’s later recollection, “discovered all at once what the retiring woman with whom they had always lived meant to the world.”<br /><br />With the consummate skill that made bestsellers of Longitude and Galileo’s Daughter, and the appreciation for women in science at the heart of her most recent The Glass Universe, Dava Sobel has crafted a radiant biography and a masterpiece of storytelling, illuminating the life and enduring influence of one of the most consequential figures of our time.",
+      "authorName": "Dava Sobel",
+      "isbn": "0802163823",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2025-11-15T04:50:06.000Z",
+      "userDateCreated": "2025-11-15T04:50:06.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "3.9",
+      "bookPublished": "2024",
+      "description": "<a href=\"https://www.goodreads.com/book/show/208580608-the-elements-of-marie-curie?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Elements of Marie Curie: How the Glow of Radium Lit a Path for Women in Science\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1716500981l/208580608._SY75_.jpg\" /></a><br/>\n                                      author: Dava Sobel<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: 2024<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/11/14<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "318"
     },
     {
       "id": "https://www.goodreads.com/review/show/7645482068?utm_medium=api&utm_source=rss",
@@ -2058,27 +2079,6 @@
       "bookPublished": "2002",
       "description": "<a href=\"https://www.goodreads.com/book/show/45109.Golden_Fool?utm_medium=api&amp;utm_source=rss\"><img alt=\"Golden Fool (Tawny Man, #2)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388182007l/45109._SY75_.jpg\" /></a><br/>\n                                      author: Robin Hobb<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.4<br/>\n                                      book published: 2002<br/>\n                                      rating: 5<br/>\n                                      read at: 2025/08/02<br/>\n                                      date added: 2025/08/02<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "709"
-    },
-    {
-      "id": "https://www.goodreads.com/review/show/7779769918?utm_medium=api&utm_source=rss",
-      "title": "The Wilful Princess and the Piebald Prince",
-      "link": "https://www.goodreads.com/review/show/7779769918?utm_medium=api&utm_source=rss",
-      "bookId": "18947068",
-      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1654573388l/18947068._SX50_.jpg",
-      "bookDescription": "<p>Internationally-bestselling, critically-acclaimed author Robin Hobb takes readers deep into the history behind the Farseer series in this exclusive, new novella.</p><p>One of the darkest legends in the Realm of the Elderlings recounts the tale of the so-called Piebald Prince, a Witted pretender to the throne unseated by the actions of brave nobles so that the Farseer line could continue untainted. Now the truth behind the story is revealed through the account of Felicity, a low-born companion of the Princess Caution at Buckkeep.</p><p>With Felicity by her side, Caution grows into a headstrong Queen-in-Waiting. But when Caution gives birth to a bastard son who shares the piebald markings of his father s horse, Felicity is the one who raises him. And as the prince comes to power, political intrigue sparks dangerous whispers about the Wit that will change the kingdom forever…</p><p>Internationally-bestselling, critically-acclaimed author Robin Hobb takes readers deep into the history behind the Farseer series in this exclusive, new novella, 'The Willful Princess and the Piebald Prince.' In her trademark style, Hobb offers a revealing exploration of a family secret still reverberating generations later when assassin FitzChivalry Farseer comes onto the scene. Fans will not want to miss these tantalizing new insights into a much-beloved world and its unforgettable characters.</p>",
-      "authorName": "Robin Hobb",
-      "isbn": "0007498152",
-      "userName": "Daniel",
-      "userRating": "5",
-      "userReadAt": "2025-07-28T00:00:00.000Z",
-      "userDateAdded": "2025-07-29T05:40:33.000Z",
-      "userDateCreated": "2025-07-28T20:02:15.000Z",
-      "userShelves": "",
-      "userReview": "",
-      "averageRating": "4.1",
-      "bookPublished": "2013",
-      "description": "<a href=\"https://www.goodreads.com/book/show/18947068-the-wilful-princess-and-the-piebald-prince?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Wilful Princess and the Piebald Prince\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1654573388l/18947068._SX50_.jpg\" /></a><br/>\n                                      author: Robin Hobb<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: 2013<br/>\n                                      rating: 5<br/>\n                                      read at: 2025/07/28<br/>\n                                      date added: 2025/07/28<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
-      "numPages": "240"
     }
   ]
 }
