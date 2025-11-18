@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/8049163473?utm_medium=api&utm_source=rss",
+      "title": "And Every Morning the Way Home Gets Longer and Longer",
+      "link": "https://www.goodreads.com/review/show/8049163473?utm_medium=api&utm_source=rss",
+      "bookId": "31373633",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1472074835l/31373633._SX50_.jpg",
+      "bookDescription": "<b>A little book with a big heart!</b> <br /><br />From the <i>New York Times </i>bestselling author of <i>A Man Called Ove</i>,<i> My Grandmother Asked Me to Tell You She’s Sorry,</i> and <i>Britt-Marie Was Here</i> comes an exquisitely moving portrait of an elderly man’s struggle to hold on to his most precious memories, and his family’s efforts to care for him even as they must find a way to let go.<br /> <br />With all the same charm of his bestselling full-length novels, here Fredrik Backman once again reveals his unrivaled understanding of human nature and deep compassion for people in difficult circumstances. This is a tiny gem with a message you’ll treasure for a lifetime.",
+      "authorName": "Fredrik Backman",
+      "isbn": "1501160575",
+      "userName": "Daniel",
+      "userRating": "5",
+      "userReadAt": "2025-11-17T00:00:00.000Z",
+      "userDateAdded": "2025-11-18T06:02:20.000Z",
+      "userDateCreated": "2025-11-06T07:01:28.000Z",
+      "userShelves": "",
+      "userReview": "",
+      "averageRating": "4.3",
+      "bookPublished": "2015",
+      "description": "<a href=\"https://www.goodreads.com/book/show/31373633-and-every-morning-the-way-home-gets-longer-and-longer?utm_medium=api&amp;utm_source=rss\"><img alt=\"And Every Morning the Way Home Gets Longer and Longer\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1472074835l/31373633._SX50_.jpg\" /></a><br/>\n                                      author: Fredrik Backman<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: 2015<br/>\n                                      rating: 5<br/>\n                                      read at: 2025/11/17<br/>\n                                      date added: 2025/11/17<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "numPages": "97"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/7972930220?utm_medium=api&utm_source=rss",
       "title": "Beyond Weird",
       "link": "https://www.goodreads.com/review/show/7972930220?utm_medium=api&utm_source=rss",
@@ -315,27 +336,6 @@
       "bookPublished": "2025",
       "description": "<a href=\"https://www.goodreads.com/book/show/223854625-book-of-lives?utm_medium=api&amp;utm_source=rss\"><img alt=\"Book of Lives: A Memoir of Sorts\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1739245711l/223854625._SY75_.jpg\" /></a><br/>\n                                      author: Margaret Atwood<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.4<br/>\n                                      book published: 2025<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/11/06<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "602"
-    },
-    {
-      "id": "https://www.goodreads.com/review/show/8049163473?utm_medium=api&utm_source=rss",
-      "title": "And Every Morning the Way Home Gets Longer and Longer",
-      "link": "https://www.goodreads.com/review/show/8049163473?utm_medium=api&utm_source=rss",
-      "bookId": "31373633",
-      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1472074835l/31373633._SX50_.jpg",
-      "bookDescription": "<b>A little book with a big heart!</b> <br /><br />From the <i>New York Times </i>bestselling author of <i>A Man Called Ove</i>,<i> My Grandmother Asked Me to Tell You She’s Sorry,</i> and <i>Britt-Marie Was Here</i> comes an exquisitely moving portrait of an elderly man’s struggle to hold on to his most precious memories, and his family’s efforts to care for him even as they must find a way to let go.<br /> <br />With all the same charm of his bestselling full-length novels, here Fredrik Backman once again reveals his unrivaled understanding of human nature and deep compassion for people in difficult circumstances. This is a tiny gem with a message you’ll treasure for a lifetime.",
-      "authorName": "Fredrik Backman",
-      "isbn": "1501160575",
-      "userName": "Daniel",
-      "userRating": "0",
-      "userReadAt": "",
-      "userDateAdded": "2025-11-06T07:01:28.000Z",
-      "userDateCreated": "2025-11-06T07:01:28.000Z",
-      "userShelves": "on-deck",
-      "userReview": "",
-      "averageRating": "4.3",
-      "bookPublished": "2015",
-      "description": "<a href=\"https://www.goodreads.com/book/show/31373633-and-every-morning-the-way-home-gets-longer-and-longer?utm_medium=api&amp;utm_source=rss\"><img alt=\"And Every Morning the Way Home Gets Longer and Longer\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1472074835l/31373633._SX50_.jpg\" /></a><br/>\n                                      author: Fredrik Backman<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: 2015<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/11/05<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
-      "numPages": "97"
     },
     {
       "id": "https://www.goodreads.com/review/show/8044139720?utm_medium=api&utm_source=rss",
@@ -24233,7 +24233,7 @@
       "averageRating": "4.0",
       "bookPublished": "",
       "description": "<a href=\"https://www.goodreads.com/book/show/33369255-data-science-on-the-google-cloud-platform?utm_medium=api&amp;utm_source=rss\"><img alt=\"Data Science on the Google Cloud Platform: Implementing End-to-End Real-Time Data Pipelines: From Ingest to Machine Learning\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1517554773l/33369255._SX50_.jpg\" /></a><br/>\n                                      author: Valliappa Lakshmanan<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2018/08/24<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
-      "numPages": "402"
+      "numPages": "404"
     },
     {
       "id": "https://www.goodreads.com/review/show/2382316884?utm_medium=api&utm_source=rss",
