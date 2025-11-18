@@ -312,8 +312,8 @@
       "userShelves": "to-read",
       "userReview": "",
       "averageRating": "4.4",
-      "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/223854625-book-of-lives?utm_medium=api&amp;utm_source=rss\"><img alt=\"Book of Lives: A Memoir of Sorts\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1739245711l/223854625._SY75_.jpg\" /></a><br/>\n                                      author: Margaret Atwood<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.4<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/11/06<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "bookPublished": "2025",
+      "description": "<a href=\"https://www.goodreads.com/book/show/223854625-book-of-lives?utm_medium=api&amp;utm_source=rss\"><img alt=\"Book of Lives: A Memoir of Sorts\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1739245711l/223854625._SY75_.jpg\" /></a><br/>\n                                      author: Margaret Atwood<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.4<br/>\n                                      book published: 2025<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/11/06<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "602"
     },
     {
@@ -9228,7 +9228,7 @@
       "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1391052690l/60213._SY75_.jpg",
       "bookDescription": "Mesmerizing sci-fi from the author the Denver Post calls \"one of the literary giants of science fiction.\" <br /><br />The melancholy memoir of Alden Dennis Weer, an embittered old man living in a small midwestern town, reveals a miraculous dimension. For Weer's imagination has the power to obliterate time and reshape reality, transcending even death itself.",
       "authorName": "Gene Wolfe",
-      "isbn": "0312890338",
+      "isbn": "",
       "userName": "Daniel",
       "userRating": "0",
       "userReadAt": "",
