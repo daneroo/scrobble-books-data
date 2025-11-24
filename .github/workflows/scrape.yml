@@ -20,7 +20,7 @@ jobs:
       W3_PRINCIPAL: ${{ secrets.W3_PRINCIPAL }}
       W3_PROOF: ${{ secrets.W3_PROOF }}
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
       - uses: pnpm/action-setup@v4
         with:
           # version: Optional when there is a packageManager field in the package.json
