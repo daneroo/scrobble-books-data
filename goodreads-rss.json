@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/6900450701?utm_medium=api&utm_source=rss",
+      "title": "The Eagle and the Hart: The Tragedy of Richard II and Henry IV",
+      "link": "https://www.goodreads.com/review/show/6900450701?utm_medium=api&utm_source=rss",
+      "bookId": "77264775",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1709315458l/77264775._SY75_.jpg",
+      "bookDescription": "<b>\n  <b>From an acclaimed historian and author comes an epic the dual biography of Richard II and Henry IV, two cousins whose lives played out in extraordinary parallel, until Henry deposed the tyrant Richard and declared himself King of England.</b>\n</b><br />Richard of Bordeaux and Henry of Bolingbroke, cousins born just three months apart, were ten years old when Richard became king of England. They were thirty-two when Henry deposed him and became king in his place. Now, the story behind one of the strangest and most fateful events in English history (and the inspiration behind Shakespeare’s most celebrated history plays) is brought to vivid life by the acclaimed author of Blood and Roses, Helen Castor. <br /><br />Richard had birthright on his side, and a profound belief in his own God-given majesty. But beyond that, he lacked all qualities of leadership. A narcissist who did not understand or accept the principles that underpinned his rule, he was neither a warrior defending his kingdom, nor a lawgiver whose justice protected his people. Instead, he declared that “his laws were in his own mouth,” and acted accordingly. He sought to define as treason any resistance to his will and recruited a private army loyal to himself rather than the realm—and he intended to destroy those who tried to restrain him. <br /><br />Henry was everything Richard wasn't - a leader who inspired both loyalty and friendship, a soldier and a chivalric hero, dutiful, responsible, principled. After years of tension and conflict, Richard banished him and seized his vast inheritance. Richard had been crowned a king but he had become a tyrant, and as a tyrant—ruling by arbitrary will rather than established law—he was deposed by his cousin Henry, the only possible candidate to take his place. Henry was welcomed as a liberator, a champion of the people against his predecessor’s paranoid despotism. But within months he too was facing rebellion. Men knew that a deposer could in turn be deposed, and the new king found himself buffeted by unrest and by chronic ill-health until he seemed a shadow of his former self, trapped by political uncertainty and troubled by these signs that God might not, after all, endorse his actions. <br /><br />Captivating, immersive, and highly relevant to today’s times, The Eagle and the Hart is a story about what happens when a ruler prioritizes power over the interests of his own people. When a ruler demands loyalty to himself as an individual, rather than duty to the established constitution, and when he seeks to reshape reality rather than concede the force of verifiable truths. Above all, it is a story about how a nation was brought to the brink of catastrophe and disintegration—and, in the end, how it was brought back.",
+      "authorName": "Helen Castor",
+      "isbn": "0241419328",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2025-12-03T06:13:49.000Z",
+      "userDateCreated": "2024-10-04T07:50:58.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "4.4",
+      "bookPublished": "2024",
+      "description": "<a href=\"https://www.goodreads.com/book/show/77264775-the-eagle-and-the-hart?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Eagle and the Hart: The Tragedy of Richard II and Henry IV\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1709315458l/77264775._SY75_.jpg\" /></a><br/>\n                                      author: Helen Castor<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.4<br/>\n                                      book published: 2024<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/12/02<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "528"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/6480890389?utm_medium=api&utm_source=rss",
       "title": "The Steerswoman (The Steerswoman, #1)",
       "link": "https://www.goodreads.com/review/show/6480890389?utm_medium=api&utm_source=rss",
@@ -1092,27 +1113,6 @@
       "bookPublished": "1940",
       "description": "<a href=\"https://www.goodreads.com/book/show/154060.A_Mathematician_s_Apology?utm_medium=api&amp;utm_source=rss\"><img alt=\"A Mathematician&#39;s Apology\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348629338l/154060._SY75_.jpg\" /></a><br/>\n                                      author: G.H. Hardy<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: 1940<br/>\n                                      rating: 4<br/>\n                                      read at: 2025/10/21<br/>\n                                      date added: 2025/10/21<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "256"
-    },
-    {
-      "id": "https://www.goodreads.com/review/show/6900450701?utm_medium=api&utm_source=rss",
-      "title": "The Eagle and the Hart: The Tragedy of Richard II and Henry IV",
-      "link": "https://www.goodreads.com/review/show/6900450701?utm_medium=api&utm_source=rss",
-      "bookId": "77264775",
-      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1709315458l/77264775._SY75_.jpg",
-      "bookDescription": "<b>\n  <b>From an acclaimed historian and author comes an epic the dual biography of Richard II and Henry IV, two cousins whose lives played out in extraordinary parallel, until Henry deposed the tyrant Richard and declared himself King of England.</b>\n</b><br />Richard of Bordeaux and Henry of Bolingbroke, cousins born just three months apart, were ten years old when Richard became king of England. They were thirty-two when Henry deposed him and became king in his place. Now, the story behind one of the strangest and most fateful events in English history (and the inspiration behind Shakespeare’s most celebrated history plays) is brought to vivid life by the acclaimed author of Blood and Roses, Helen Castor. <br /><br />Richard had birthright on his side, and a profound belief in his own God-given majesty. But beyond that, he lacked all qualities of leadership. A narcissist who did not understand or accept the principles that underpinned his rule, he was neither a warrior defending his kingdom, nor a lawgiver whose justice protected his people. Instead, he declared that “his laws were in his own mouth,” and acted accordingly. He sought to define as treason any resistance to his will and recruited a private army loyal to himself rather than the realm—and he intended to destroy those who tried to restrain him. <br /><br />Henry was everything Richard wasn't - a leader who inspired both loyalty and friendship, a soldier and a chivalric hero, dutiful, responsible, principled. After years of tension and conflict, Richard banished him and seized his vast inheritance. Richard had been crowned a king but he had become a tyrant, and as a tyrant—ruling by arbitrary will rather than established law—he was deposed by his cousin Henry, the only possible candidate to take his place. Henry was welcomed as a liberator, a champion of the people against his predecessor’s paranoid despotism. But within months he too was facing rebellion. Men knew that a deposer could in turn be deposed, and the new king found himself buffeted by unrest and by chronic ill-health until he seemed a shadow of his former self, trapped by political uncertainty and troubled by these signs that God might not, after all, endorse his actions. <br /><br />Captivating, immersive, and highly relevant to today’s times, The Eagle and the Hart is a story about what happens when a ruler prioritizes power over the interests of his own people. When a ruler demands loyalty to himself as an individual, rather than duty to the established constitution, and when he seeks to reshape reality rather than concede the force of verifiable truths. Above all, it is a story about how a nation was brought to the brink of catastrophe and disintegration—and, in the end, how it was brought back.",
-      "authorName": "Helen Castor",
-      "isbn": "0241419328",
-      "userName": "Daniel",
-      "userRating": "0",
-      "userReadAt": "",
-      "userDateAdded": "2025-10-21T07:17:20.000Z",
-      "userDateCreated": "2024-10-04T07:50:58.000Z",
-      "userShelves": "on-deck",
-      "userReview": "",
-      "averageRating": "4.4",
-      "bookPublished": "2024",
-      "description": "<a href=\"https://www.goodreads.com/book/show/77264775-the-eagle-and-the-hart?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Eagle and the Hart: The Tragedy of Richard II and Henry IV\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1709315458l/77264775._SY75_.jpg\" /></a><br/>\n                                      author: Helen Castor<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.4<br/>\n                                      book published: 2024<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/10/21<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
-      "numPages": "528"
     },
     {
       "id": "https://www.goodreads.com/review/show/4697936961?utm_medium=api&utm_source=rss",
@@ -9068,9 +9068,9 @@
       "userDateCreated": "2024-02-20T09:16:42.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "3.9",
+      "averageRating": "3.8",
       "bookPublished": "2001",
-      "description": "<a href=\"https://www.goodreads.com/book/show/58536046-why-has-nobody-told-me-this-before?utm_medium=api&amp;utm_source=rss\"><img alt=\"Why Has Nobody Told Me This Before?\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1670001084l/58536046._SY75_.jpg\" /></a><br/>\n                                      author: Julie      Smith<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: 2001<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/02/20<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/58536046-why-has-nobody-told-me-this-before?utm_medium=api&amp;utm_source=rss\"><img alt=\"Why Has Nobody Told Me This Before?\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1670001084l/58536046._SY75_.jpg\" /></a><br/>\n                                      author: Julie      Smith<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.8<br/>\n                                      book published: 2001<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/02/20<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "368"
     },
     {
