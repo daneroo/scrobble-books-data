@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/6481341691?utm_medium=api&utm_source=rss",
+      "title": "The Outskirter's Secret (The Steerswoman, #2)",
+      "link": "https://www.goodreads.com/review/show/6481341691?utm_medium=api&utm_source=rss",
+      "bookId": "991724",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1674102588l/991724._SY75_.jpg",
+      "bookDescription": "Determined to learn the truth about the Guidestars--two points of light that hang motionless in the sky--Rowan sets out into the Outskirts, where barbarian tribes and the land itself could destroy her. Original.",
+      "authorName": "Rosemary Kirstein",
+      "isbn": "0345368851",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2025-12-06T08:49:41.000Z",
+      "userDateCreated": "2024-05-05T06:05:51.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "4.3",
+      "bookPublished": "1992",
+      "description": "<a href=\"https://www.goodreads.com/book/show/991724.The_Outskirter_s_Secret?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Outskirter&#39;s Secret (The Steerswoman, #2)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1674102588l/991724._SY75_.jpg\" /></a><br/>\n                                      author: Rosemary Kirstein<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: 1992<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/12/06<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "333"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/6433210989?utm_medium=api&utm_source=rss",
       "title": "The Importance of Being Educable: A New Theory of Human Uniqueness",
       "link": "https://www.goodreads.com/review/show/6433210989?utm_medium=api&utm_source=rss",
@@ -2058,27 +2079,6 @@
       "bookPublished": "2016",
       "description": "<a href=\"https://www.goodreads.com/book/show/18952381-the-wall-of-storms?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Wall of Storms (The Dandelion Dynasty, #2)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1455985460l/18952381._SY75_.jpg\" /></a><br/>\n                                      author: Ken Liu<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: 2016<br/>\n                                      rating: 4<br/>\n                                      read at: 2025/08/29<br/>\n                                      date added: 2025/08/29<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "880"
-    },
-    {
-      "id": "https://www.goodreads.com/review/show/6416525330?utm_medium=api&utm_source=rss",
-      "title": "The Grace of Kings (The Dandelion Dynasty, #1)",
-      "link": "https://www.goodreads.com/review/show/6416525330?utm_medium=api&utm_source=rss",
-      "bookId": "18952341",
-      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1743119277l/18952341._SY75_.jpg",
-      "bookDescription": "Wily, charming Kuni Garu, a bandit, and stern, fearless Mata Zyndu, the son of a deposed duke, seem like polar opposites. Yet, in the uprising against the emperor, the two quickly become the best of friends after a series of adventures fighting against vast conscripted armies, silk-draped airships, and shapeshifting gods. Once the emperor has been overthrown, however, they each find themselves the leader of separate factions—two sides with very different ideas about how the world should be run and the meaning of justice.",
-      "authorName": "Ken Liu",
-      "isbn": "1481424270",
-      "userName": "Daniel",
-      "userRating": "5",
-      "userReadAt": "2025-08-23T00:00:00.000Z",
-      "userDateAdded": "2025-08-24T02:49:29.000Z",
-      "userDateCreated": "2024-04-10T03:03:35.000Z",
-      "userShelves": "",
-      "userReview": "",
-      "averageRating": "3.8",
-      "bookPublished": "2015",
-      "description": "<a href=\"https://www.goodreads.com/book/show/18952341-the-grace-of-kings?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Grace of Kings (The Dandelion Dynasty, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1743119277l/18952341._SY75_.jpg\" /></a><br/>\n                                      author: Ken Liu<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.8<br/>\n                                      book published: 2015<br/>\n                                      rating: 5<br/>\n                                      read at: 2025/08/23<br/>\n                                      date added: 2025/08/23<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
-      "numPages": "640"
     }
   ]
 }
