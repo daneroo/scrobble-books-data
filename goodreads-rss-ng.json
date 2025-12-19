@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/8157822264?utm_medium=api&utm_source=rss",
+      "title": "Not a Drill (Jack Reacher, #18.5)",
+      "link": "https://www.goodreads.com/review/show/8157822264?utm_medium=api&utm_source=rss",
+      "bookId": "22535330",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1468020584l/22535330._SX50_.jpg",
+      "bookDescription": "<b>In this short story from Lee Child, Jack Reacher is again on the move. But even a pleasant hike on a beautiful summer day turns into a walk on the wild side . . . and perhaps something far more sinister.</b><br /><br />Jack Reacher is on the road, hitching a ride with some earnest young Canadians who are planning a hike through some of the last unspoiled wilderness in North America in the dense forests of Maine. They part ways after sharing a hot meal, and Reacher checks out a quiet town surrounded by countryside serene enough to cool even his raging wanderlust. But not for long. First the trail is suddenly and inexplicably closed. Then the military police show up in force. Maybe it's a drill. Or maybe it's trouble—the kind of trouble that always finds Reacher, no matter how far he travels off the beaten path.",
+      "authorName": "Lee Child",
+      "isbn": "0804178836",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2025-12-19T05:28:07.000Z",
+      "userDateCreated": "2025-12-19T05:28:02.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "3.7",
+      "bookPublished": "2014",
+      "description": "<a href=\"https://www.goodreads.com/book/show/22535330-not-a-drill?utm_medium=api&amp;utm_source=rss\"><img alt=\"Not a Drill (Jack Reacher, #18.5)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1468020584l/22535330._SX50_.jpg\" /></a><br/>\n                                      author: Lee Child<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.7<br/>\n                                      book published: 2014<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/12/18<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "52"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/8140085487?utm_medium=api&utm_source=rss",
       "title": "Why We Sleep: Unlocking the Power of Sleep and Dreams",
       "link": "https://www.goodreads.com/review/show/8140085487?utm_medium=api&utm_source=rss",
@@ -2058,27 +2079,6 @@
       "bookPublished": "2014",
       "description": "<a href=\"https://www.goodreads.com/book/show/24611819-the-peripheral?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Peripheral (Jackpot, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1574084339l/24611819._SY75_.jpg\" /></a><br/>\n                                      author: William Gibson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.8<br/>\n                                      book published: 2014<br/>\n                                      rating: 5<br/>\n                                      read at: 2025/09/13<br/>\n                                      date added: 2025/09/13<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "485"
-    },
-    {
-      "id": "https://www.goodreads.com/review/show/7892850530?utm_medium=api&utm_source=rss",
-      "title": "The Gift of Therapy: An Open Letter to a New Generation of Therapists and Their Patients",
-      "link": "https://www.goodreads.com/review/show/7892850530?utm_medium=api&utm_source=rss",
-      "bookId": "21025",
-      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1581004586l/21025._SY75_.jpg",
-      "bookDescription": "Anyone interested in psychotherapy or personal growth will rejoice at the publication of The Gift of Therapy, a masterwork from one of today's most accomplished psychological thinkers. From his thirty-five years as a practicing psychiatrist and as an award-winning author, Irvin D. Yalom imparts his unique wisdom in The Gift of Therapy. This remarkable guidebook for successful therapy is, as Yalom remarks, \"an idiosyncratic mÉlange of ideas and techniques that I have found useful in my work. These ideas are so personal, opinionated, and occasionally original that the reader is unlikely to encounter them elsewhere. I selected the eighty-five categories in this volume randomly guided by my passion for the task rather than any particular order or system.\" At once startlingly profound and irresistibly practical, Yalom's insights will help enrich the therapeutic process for a new generation of patients and counselors.",
-      "authorName": "Irvin D. Yalom",
-      "isbn": "0060938110",
-      "userName": "Daniel",
-      "userRating": "4",
-      "userReadAt": "2025-09-12T00:00:00.000Z",
-      "userDateAdded": "2025-09-13T01:21:06.000Z",
-      "userDateCreated": "2025-09-06T05:56:03.000Z",
-      "userShelves": "",
-      "userReview": "",
-      "averageRating": "4.3",
-      "bookPublished": "2001",
-      "description": "<a href=\"https://www.goodreads.com/book/show/21025.The_Gift_of_Therapy?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Gift of Therapy: An Open Letter to a New Generation of Therapists and Their Patients\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1581004586l/21025._SY75_.jpg\" /></a><br/>\n                                      author: Irvin D. Yalom<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: 2001<br/>\n                                      rating: 4<br/>\n                                      read at: 2025/09/12<br/>\n                                      date added: 2025/09/12<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
-      "numPages": "288"
     }
   ]
 }

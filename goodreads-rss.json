@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/8157822264?utm_medium=api&utm_source=rss",
+      "title": "Not a Drill (Jack Reacher, #18.5)",
+      "link": "https://www.goodreads.com/review/show/8157822264?utm_medium=api&utm_source=rss",
+      "bookId": "22535330",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1468020584l/22535330._SX50_.jpg",
+      "bookDescription": "<b>In this short story from Lee Child, Jack Reacher is again on the move. But even a pleasant hike on a beautiful summer day turns into a walk on the wild side . . . and perhaps something far more sinister.</b><br /><br />Jack Reacher is on the road, hitching a ride with some earnest young Canadians who are planning a hike through some of the last unspoiled wilderness in North America in the dense forests of Maine. They part ways after sharing a hot meal, and Reacher checks out a quiet town surrounded by countryside serene enough to cool even his raging wanderlust. But not for long. First the trail is suddenly and inexplicably closed. Then the military police show up in force. Maybe it's a drill. Or maybe it's trouble—the kind of trouble that always finds Reacher, no matter how far he travels off the beaten path.",
+      "authorName": "Lee Child",
+      "isbn": "0804178836",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2025-12-19T05:28:07.000Z",
+      "userDateCreated": "2025-12-19T05:28:02.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "3.7",
+      "bookPublished": "2014",
+      "description": "<a href=\"https://www.goodreads.com/book/show/22535330-not-a-drill?utm_medium=api&amp;utm_source=rss\"><img alt=\"Not a Drill (Jack Reacher, #18.5)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1468020584l/22535330._SX50_.jpg\" /></a><br/>\n                                      author: Lee Child<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.7<br/>\n                                      book published: 2014<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/12/18<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "52"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/8140085487?utm_medium=api&utm_source=rss",
       "title": "Why We Sleep: Unlocking the Power of Sleep and Dreams",
       "link": "https://www.goodreads.com/review/show/8140085487?utm_medium=api&utm_source=rss",
@@ -23936,9 +23957,9 @@
       "userDateCreated": "2018-06-17T22:32:00.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "3.7",
+      "averageRating": "3.9",
       "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/40540906-the-astronomical-almanac-2019---2023?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Astronomical Almanac (2019 - 2023): A Comprehensive Guide to Night Sky Events\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1529160208l/40540906._SX50_.jpg\" /></a><br/>\n                                      author: Richard J. Bartlett<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.7<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: 2020/03/31<br/>\n                                      date added: 2020/03/31<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/40540906-the-astronomical-almanac-2019---2023?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Astronomical Almanac (2019 - 2023): A Comprehensive Guide to Night Sky Events\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1529160208l/40540906._SX50_.jpg\" /></a><br/>\n                                      author: Richard J. Bartlett<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: 2020/03/31<br/>\n                                      date added: 2020/03/31<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "459"
     },
     {
