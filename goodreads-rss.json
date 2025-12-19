@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/8158169180?utm_medium=api&utm_source=rss",
+      "title": "Vermeer: A Life Lost and Found",
+      "link": "https://www.goodreads.com/review/show/8158169180?utm_medium=api&utm_source=rss",
+      "bookId": "228897774",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1741675731l/228897774._SY75_.jpg",
+      "bookDescription": "<b>The <i>Times </i>Art Book of the Year<br />A <i>Guardian </i>Book of the Year</b><br /><br />The paintings of Johannes Vermeer of Delft are some of the most beautiful, even sublime, in the history of art. Yet like the life of Vermeer himself, they are mysterious and have for centuries defied explanation. Following new leads, and drawing on a mass of historical evidence, some of it freshly uncovered in the archives of Delft and Rotterdam, Andrew Graham-Dixon paints a dramatically new picture of Vermeer, revealing many of the painter’s hitherto unknown friendships as well as his previously undetected allegiance to a radical movement driven underground by persecution.<br /><br />He also vividly evokes the world of the Dutch Republic as it was in its so-called Golden Age. This was a watery world of fortresses and flood plains, taverns rocked by argument and cities stunned by devastating attacks and all linked by a network of canals where a uniquely efficient public transport system, operated by horse-drawn passenger barge, enabled people, goods and ideas to glide effortlessly from one place to another. The author sets Vermeer firmly in the context of his time, revealing the patterns of patronage that make sense of his work, and also exposing the difficulties posed by his home life, which was dominated by his Jesuit mother-in law and disturbed by the psychotic behaviour of her only son.<br /><br />In the past Vermeer has been imagined as a remote and enigmatic figure, but he emerges from this new account as a man deeply engaged with his own well-travelled, a reader of books, a man personally connected to many of the most interesting people of his time, including merchants, philosophers, preachers, bankers and regents, as well as his childhood friend, a philanthropic baker named Hendrick van Buyten. Vermeer was also deeply affected by the struggles that shook his world, the Eighty Years War for Dutch independence and the yet more terrible Thirty Years War, which ravaged the neighbouring German lands and resulted in the deaths of millions. The author shows how he was moved to become a pacifist by such atrocities, and thereafter made many of his closest friends in the ranks of Europe’s first peace movement. A further revelation is that Vermeer’s closest collaborator and chief patron was a woman, as were many others in his immediate circle. These are all previously untold stories.<br /><br />The many piercingly direct descriptions of Vermeer’s pictures, which are the heart of the book, shed new light on the intentions of the artist. Nearly all of his best loved works, Graham-Dixon shows, were originally painted for a single significant location in Delft. In light of such discoveries every one of Vermeer’s major paintings, including <i>The Girl with a Pearl Earring</i>, <i>A View of Delft </i>and <i>The Milkmaid</i>, are reassessed and their meanings rethought. As a result the two great unresolved questions about Vermeer – why did he paint his pictures, and what do they mean? – are persuasively answered here for the first time.",
+      "authorName": "Andrew Graham-Dixon",
+      "isbn": "0141974907",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2025-12-19T11:08:40.000Z",
+      "userDateCreated": "2025-12-19T11:08:40.000Z",
+      "userShelves": "on-deck",
+      "userReview": "",
+      "averageRating": "4.1",
+      "bookPublished": "2025",
+      "description": "<a href=\"https://www.goodreads.com/book/show/228897774-vermeer?utm_medium=api&amp;utm_source=rss\"><img alt=\"Vermeer: A Life Lost and Found\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1741675731l/228897774._SY75_.jpg\" /></a><br/>\n                                      author: Andrew Graham-Dixon<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: 2025<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/12/19<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "numPages": "378"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/8157919323?utm_medium=api&utm_source=rss",
       "title": "High Heat (Jack Reacher, #17.5)",
       "link": "https://www.goodreads.com/review/show/8157919323?utm_medium=api&utm_source=rss",
