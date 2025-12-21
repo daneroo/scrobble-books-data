@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/8162545920?utm_medium=api&utm_source=rss",
+      "title": "Cleaning the Gold (Jack Reacher, #23.6; Will Trent, #8.5)",
+      "link": "https://www.goodreads.com/review/show/8162545920?utm_medium=api&utm_source=rss",
+      "bookId": "45302351",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1556208611l/45302351._SY75_.jpg",
+      "bookDescription": "<b>From <i>New York Times</i> bestselling authors Karin Slaughter and Lee Child comes this electrifying short story featuring their iconic characters Will Trent and Jack Reacher.<br /><br /><br />Twice the action.<br /><br />Twice the drama.<br /><br />Double the trouble. </b><br /><br />Will Trent is undercover at Fort Knox. His assignment: to investigate a twenty-two-year-old murder. His suspect’s name: Jack Reacher.<br /><br />Jack Reacher is in Fort Knox on his own mission: to bring down a dangerous criminal ring operating at the heart of America’s military. Except now Will Trent is on the scene.<br /><br />But there’s a bigger conspiracy at play—one that neither the special agent nor the ex-military cop could have anticipated. And the only option is for Jack Reacher and Will Trent to team up and play nicely. If they can…",
+      "authorName": "Karin Slaughter",
+      "isbn": "",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2025-12-21T04:59:33.000Z",
+      "userDateCreated": "2025-12-21T04:59:33.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "3.5",
+      "bookPublished": "2019",
+      "description": "<a href=\"https://www.goodreads.com/book/show/45302351-cleaning-the-gold?utm_medium=api&amp;utm_source=rss\"><img alt=\"Cleaning the Gold (Jack Reacher, #23.6; Will Trent, #8.5)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1556208611l/45302351._SY75_.jpg\" /></a><br/>\n                                      author: Karin Slaughter<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.5<br/>\n                                      book published: 2019<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/12/20<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "129"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/8161743602?utm_medium=api&utm_source=rss",
       "title": "The Fourth Man (Jack Reacher, #23.5)",
       "link": "https://www.goodreads.com/review/show/8161743602?utm_medium=api&utm_source=rss",
@@ -11,15 +32,15 @@
       "authorName": "Lee Child",
       "isbn": "",
       "userName": "Daniel",
-      "userRating": "0",
-      "userReadAt": "",
-      "userDateAdded": "2025-12-20T22:24:37.000Z",
+      "userRating": "4",
+      "userReadAt": "2025-12-20T00:00:00.000Z",
+      "userDateAdded": "2025-12-21T04:55:23.000Z",
       "userDateCreated": "2025-12-20T22:24:36.000Z",
-      "userShelves": "currently-reading",
+      "userShelves": "",
       "userReview": "",
       "averageRating": "3.9",
       "bookPublished": "2019",
-      "description": "<a href=\"https://www.goodreads.com/book/show/42642291-the-fourth-man?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Fourth Man (Jack Reacher, #23.5)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1541474726l/42642291._SY75_.jpg\" /></a><br/>\n                                      author: Lee Child<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: 2019<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/12/20<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/42642291-the-fourth-man?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Fourth Man (Jack Reacher, #23.5)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1541474726l/42642291._SY75_.jpg\" /></a><br/>\n                                      author: Lee Child<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: 2019<br/>\n                                      rating: 4<br/>\n                                      read at: 2025/12/20<br/>\n                                      date added: 2025/12/20<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "24"
     },
     {
@@ -2058,27 +2079,6 @@
       "bookPublished": "-800",
       "description": "<a href=\"https://www.goodreads.com/book/show/77265004-the-iliad?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Iliad\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1681797700l/77265004._SY75_.jpg\" /></a><br/>\n                                      author: Homer<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: -800<br/>\n                                      rating: 4<br/>\n                                      read at: 2025/09/26<br/>\n                                      date added: 2025/09/26<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "848"
-    },
-    {
-      "id": "https://www.goodreads.com/review/show/5134264397?utm_medium=api&utm_source=rss",
-      "title": "Invisible Cities",
-      "link": "https://www.goodreads.com/review/show/5134264397?utm_medium=api&utm_source=rss",
-      "bookId": "9809",
-      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1763827551l/9809._SY75_.jpg",
-      "bookDescription": "\"Kublai Khan does not necessarily believe everything Marco Polo says when he describes the cities visited on his expeditions, but the emperor of the Tartars does continue listening to the young Venetian with greater attention and curiosity than he shows any other messenger or explorer of his.\" So begins Italo Calvino's compilation of fragmentary urban images. As Marco tells the khan about Armilla, which \"has nothing that makes it seem a city, except the water pipes that rise vertically where the houses should be and spread out horizontally where the floors should be,\" the spider-web city of Octavia, and other marvelous burgs, it may be that he is creating them all out of his imagination, or perhaps he is recreating fine details of his native Venice over and over again, or perhaps he is simply recounting some of the myriad possible forms a city might take.",
-      "authorName": "Italo Calvino",
-      "isbn": "0156453800",
-      "userName": "Daniel",
-      "userRating": "4",
-      "userReadAt": "2025-09-21T00:00:00.000Z",
-      "userDateAdded": "2025-09-22T05:23:26.000Z",
-      "userDateCreated": "2022-11-30T04:16:45.000Z",
-      "userShelves": "",
-      "userReview": "",
-      "averageRating": "4.2",
-      "bookPublished": "1972",
-      "description": "<a href=\"https://www.goodreads.com/book/show/9809.Invisible_Cities?utm_medium=api&amp;utm_source=rss\"><img alt=\"Invisible Cities\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1763827551l/9809._SY75_.jpg\" /></a><br/>\n                                      author: Italo Calvino<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 1972<br/>\n                                      rating: 4<br/>\n                                      read at: 2025/09/21<br/>\n                                      date added: 2025/09/21<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
-      "numPages": "165"
     }
   ]
 }
