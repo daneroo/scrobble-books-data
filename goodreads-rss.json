@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/8162914904?utm_medium=api&utm_source=rss",
+      "title": "Persuader (Jack Reacher, #7)",
+      "link": "https://www.goodreads.com/review/show/8162914904?utm_medium=api&utm_source=rss",
+      "bookId": "455941",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1174926770l/455941._SY75_.jpg",
+      "bookDescription": "Jack Reacher. <br /><br />The ultimate loner. <br /><br />An elite ex-military cop who left the service years ago, he's moved from place to place...without family...without possessions...without commitments. <br /><br />And without fear. Which is good, because trouble--big, violent, complicated trouble--finds Reacher wherever he goes. And when trouble finds him, Reacher does not quit, not once...not ever. <br /><br />But some unfinished business has now found Reacher. And Reacher is a man who hates unfinished business. <br /><br />Ten years ago, a key investigation went sour and someone got away with murder. Now a chance encounter brings it all back. Now Reacher sees his one last shot. Some would call it vengeance. Some would call it redemption. Reacher would call it...justice.",
+      "authorName": "Lee Child",
+      "isbn": "0440241006",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2025-12-21T09:52:32.000Z",
+      "userDateCreated": "2025-12-21T09:52:18.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "4.1",
+      "bookPublished": "2003",
+      "description": "<a href=\"https://www.goodreads.com/book/show/455941.Persuader?utm_medium=api&amp;utm_source=rss\"><img alt=\"Persuader (Jack Reacher, #7)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1174926770l/455941._SY75_.jpg\" /></a><br/>\n                                      author: Lee Child<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: 2003<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/12/21<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "496"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/8162545920?utm_medium=api&utm_source=rss",
       "title": "Cleaning the Gold (Jack Reacher, #23.6; Will Trent, #8.5)",
       "link": "https://www.goodreads.com/review/show/8162545920?utm_medium=api&utm_source=rss",
