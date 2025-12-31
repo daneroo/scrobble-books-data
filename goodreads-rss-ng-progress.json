@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/8200457570?utm_medium=api&utm_source=rss",
+      "title": "Flybot",
+      "link": "https://www.goodreads.com/review/show/8200457570?utm_medium=api&utm_source=rss",
+      "bookId": "232957226",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1750932958l/232957226._SX50_.jpg",
+      "bookDescription": "<b>Mysterious tech, a devious AI and a couple of scientists in over their heads collide in the latest sci-fi adventure from the number one best-selling author of the Bobiverse series.</b><br /><br />Physicist Philip Moray is having a good day. He’s chipping away at his big work project. The lunch in the cafeteria is at least edible. And he’s looking forward to his end-of-the-day drink and a soak in the hot tub.<br /><br />Then, a strange device turns up in his office. A piece of technology he has never seen before–and shouldn’t even exist.<br /><br />Suddenly, corpses start turning up, eco-activists go on the attack, random people suffer bizarre symptoms. And every time the authorities get a lead, it traces right back to Philip and his colleague, Celia Hunt.<br /><br />Then, a mysterious caller contacts Philip–and, suddenly, staying out of jail is the very least of his problems.<br /><br />Apparently, that hot tub’s going to have to wait.",
+      "authorName": "Dennis E. Taylor",
+      "isbn": "",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2025-12-31T21:47:56.000Z",
+      "userDateCreated": "2025-12-31T21:47:55.000Z",
+      "userShelves": "on-deck",
+      "userReview": "",
+      "averageRating": "4.0",
+      "bookPublished": "",
+      "description": "<a href=\"https://www.goodreads.com/book/show/232957226-flybot?utm_medium=api&amp;utm_source=rss\"><img alt=\"Flybot\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1750932958l/232957226._SX50_.jpg\" /></a><br/>\n                                      author: Dennis E. Taylor<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/12/31<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "numPages": "0"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/8183385035?utm_medium=api&utm_source=rss",
       "title": "The Snow Leopard",
       "link": "https://www.goodreads.com/review/show/8183385035?utm_medium=api&utm_source=rss",
@@ -4158,27 +4179,6 @@
       "bookPublished": "1992",
       "description": "<a href=\"https://www.goodreads.com/book/show/34529.Lords_and_Ladies?utm_medium=api&amp;utm_source=rss\"><img alt=\"Lords and Ladies (Discworld, #14; Witches, #4)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1469186110l/34529._SY75_.jpg\" /></a><br/>\n                                      author: Terry Pratchett<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 1992<br/>\n                                      rating: 5<br/>\n                                      read at: 2025/04/13<br/>\n                                      date added: 2025/04/13<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "352"
-    },
-    {
-      "id": "https://www.goodreads.com/review/show/7338111946?utm_medium=api&utm_source=rss",
-      "title": "Ever Since Darwin: Reflections in Natural History",
-      "link": "https://www.goodreads.com/review/show/7338111946?utm_medium=api&utm_source=rss",
-      "bookId": "54209",
-      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1431172846l/54209._SY75_.jpg",
-      "bookDescription": "More than any other modern scientists, Stephen Jay Gould has opened up to millions the wonders of evolutionary biology. His genius as an essayist lies in his unmatched ability to use his knowledge of the world, including popular culture, to illuminate the realm of science.<br /><br />Ever Since Darwin, Stephen Jay Gould's first book, has sold more than a quarter of a million copies. Like all succeeding collections by this unique writer, it brings the art of the scientific essay to unparalleled heights.",
-      "authorName": "Stephen Jay Gould",
-      "isbn": "0393308189",
-      "userName": "Daniel",
-      "userRating": "4",
-      "userReadAt": "2025-04-13T00:00:00.000Z",
-      "userDateAdded": "2025-04-14T05:15:14.000Z",
-      "userDateCreated": "2025-02-20T04:59:51.000Z",
-      "userShelves": "",
-      "userReview": "",
-      "averageRating": "4.2",
-      "bookPublished": "1977",
-      "description": "<a href=\"https://www.goodreads.com/book/show/54209.Ever_Since_Darwin?utm_medium=api&amp;utm_source=rss\"><img alt=\"Ever Since Darwin: Reflections in Natural History\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1431172846l/54209._SY75_.jpg\" /></a><br/>\n                                      author: Stephen Jay Gould<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 1977<br/>\n                                      rating: 4<br/>\n                                      read at: 2025/04/13<br/>\n                                      date added: 2025/04/13<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
-      "numPages": "285"
     }
   ]
 }
