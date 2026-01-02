@@ -13,7 +13,7 @@
       "userName": "Daniel",
       "userRating": "0",
       "userReadAt": "",
-      "userDateAdded": "2026-01-01T08:43:13.000Z",
+      "userDateAdded": "2026-01-02T05:33:49.000Z",
       "userDateCreated": "2025-12-13T09:49:27.000Z",
       "userShelves": "currently-reading",
       "userReview": "",
@@ -21,6 +21,27 @@
       "bookPublished": "2014",
       "description": "<a href=\"https://www.goodreads.com/book/show/20758068-the-ark-before-noah?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Ark Before Noah: Decoding the Story of the Flood\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1393221176l/20758068._SX50_.jpg\" /></a><br/>\n                                      author: Irving Finkel<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: 2014<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/01/01<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
       "numPages": "432"
+    },
+    {
+      "id": "https://www.goodreads.com/review/show/5371626725?utm_medium=api&utm_source=rss",
+      "title": "Gardens of the Moon (Malazan Book of the Fallen, #1)",
+      "link": "https://www.goodreads.com/review/show/5371626725?utm_medium=api&utm_source=rss",
+      "bookId": "55399",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1548497031l/55399._SY75_.jpg",
+      "bookDescription": "<b>Vast legions of gods, mages, humans, dragons and all manner of creatures play out the fate of the Malazan Empire in this first book in a major epic fantasy series from Steven Erikson.</b><br /><br />The Malazan Empire simmers with discontent, bled dry by interminable warfare, bitter infighting and bloody confrontations with the formidable Anomander Rake and his Tiste Andii, ancient and implacable sorcerers. Even the imperial legions, long inured to the bloodshed, yearn for some respite. Yet Empress Laseen's rule remains absolute, enforced by her dread Claw assassins.<br /><br />For Sergeant Whiskeyjack and his squad of Bridgeburners, and for Tattersail, surviving cadre mage of the Second Legion, the aftermath of the siege of Pale should have been a time to mourn the many dead. But Darujhistan, last of the Free Cities of Genabackis, yet holds out. It is to this ancient citadel that Laseen turns her predatory gaze.<br /><br />However, it would appear that the Empire is not alone in this great game. Sinister, shadowbound forces are gathering as the gods themselves prepare to play their hand...<br /><br />Conceived and written on a panoramic scale, Gardens of the Moon is epic fantasy of the highest order--an enthralling adventure by an outstanding new voice.",
+      "authorName": "Steven Erikson",
+      "isbn": "0765348780",
+      "userName": "Daniel",
+      "userRating": "5",
+      "userReadAt": "2023-07-30T00:00:00.000Z",
+      "userDateAdded": "2026-01-02T04:55:36.000Z",
+      "userDateCreated": "2023-02-25T06:02:33.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "3.9",
+      "bookPublished": "1999",
+      "description": "<a href=\"https://www.goodreads.com/book/show/55399.Gardens_of_the_Moon?utm_medium=api&amp;utm_source=rss\"><img alt=\"Gardens of the Moon (Malazan Book of the Fallen, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1548497031l/55399._SY75_.jpg\" /></a><br/>\n                                      author: Steven Erikson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: 1999<br/>\n                                      rating: 5<br/>\n                                      read at: 2023/07/30<br/>\n                                      date added: 2026/01/01<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "666"
     },
     {
       "id": "https://www.goodreads.com/review/show/8200457570?utm_medium=api&utm_source=rss",
@@ -4158,27 +4179,6 @@
       "bookPublished": "1994",
       "description": "<a href=\"https://www.goodreads.com/book/show/34502.Soul_Music?utm_medium=api&amp;utm_source=rss\"><img alt=\"Soul Music (Discworld, #16; Death, #3)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1168566175l/34502._SY75_.jpg\" /></a><br/>\n                                      author: Terry Pratchett<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: 1994<br/>\n                                      rating: 4<br/>\n                                      read at: 2025/04/18<br/>\n                                      date added: 2025/04/18<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "288"
-    },
-    {
-      "id": "https://www.goodreads.com/review/show/7474668124?utm_medium=api&utm_source=rss",
-      "title": "Lords and Ladies (Discworld, #14; Witches, #4)",
-      "link": "https://www.goodreads.com/review/show/7474668124?utm_medium=api&utm_source=rss",
-      "bookId": "34529",
-      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1469186110l/34529._SY75_.jpg",
-      "bookDescription": "The fairies are back - but this time they don't just want your teeth... <br /><br />Granny Weatherwax and her tiny coven are up against real elves.<br /><br />It's Midsummer Night.<br /><br />No time for dreaming...<br /><br />With full supporting cast of dwarfs, wizards, trolls, Morris dancers and one orang-utan. And lots of hey-nonny-nonny and blood all over the place.",
-      "authorName": "Terry Pratchett",
-      "isbn": "055215315X",
-      "userName": "Daniel",
-      "userRating": "5",
-      "userReadAt": "2025-04-13T00:00:00.000Z",
-      "userDateAdded": "2025-04-14T06:58:02.000Z",
-      "userDateCreated": "2025-04-09T08:09:50.000Z",
-      "userShelves": "",
-      "userReview": "",
-      "averageRating": "4.2",
-      "bookPublished": "1992",
-      "description": "<a href=\"https://www.goodreads.com/book/show/34529.Lords_and_Ladies?utm_medium=api&amp;utm_source=rss\"><img alt=\"Lords and Ladies (Discworld, #14; Witches, #4)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1469186110l/34529._SY75_.jpg\" /></a><br/>\n                                      author: Terry Pratchett<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 1992<br/>\n                                      rating: 5<br/>\n                                      read at: 2025/04/13<br/>\n                                      date added: 2025/04/13<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
-      "numPages": "352"
     }
   ]
 }
