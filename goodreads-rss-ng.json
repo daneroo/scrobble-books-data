@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/8238109654?utm_medium=api&utm_source=rss",
+      "title": "Willful Child (Willful Child, #1)",
+      "link": "https://www.goodreads.com/review/show/8238109654?utm_medium=api&utm_source=rss",
+      "bookId": "20518786",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1418694657l/20518786._SY75_.jpg",
+      "bookDescription": "<i>These are the voyages of the starship, A.S.F. </i>Willful Child<i>. Its ongoing mission: to seek out strange new worlds on which to plant the Terran flag, to subjugate and if necessary obliterate new life life-forms, to boldly blow the...</i><br /><br />And so we join the not-terribly-bright but exceedingly cock-sure Captain Hadrian Sawback - a kind of James T Kirk crossed with 'American Dad' - and his motley crew on board the Starship Willful Child for a series of devil-may-care, near-calamitous and downright chaotic adventures through 'the infinite vastness of interstellar space'...<br /><br />The bestselling author of the acclaimed Malazan Book of the Fallen sequence has taken his life-long passion for 'Star Trek' and transformed it into a smart, inventive and hugely entertaining spoof on the whole mankind-exploring-space-for-the-good-of-all-species-but-trashing-stuff-with-a-lot-of-hi-tech-kit-along-the-way type over-blown adventure. The result is this smart. inventive, occasionally wildly OTT and often very funny novel that deftly parodies the genre while also paying fond homage to it.",
+      "authorName": "Steven Erikson",
+      "isbn": "0765374897",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2026-01-08T09:30:38.000Z",
+      "userDateCreated": "2026-01-08T09:30:38.000Z",
+      "userShelves": "to-read",
+      "userReview": "",
+      "averageRating": "3.5",
+      "bookPublished": "2014",
+      "description": "<a href=\"https://www.goodreads.com/book/show/20518786-willful-child?utm_medium=api&amp;utm_source=rss\"><img alt=\"Willful Child (Willful Child, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1418694657l/20518786._SY75_.jpg\" /></a><br/>\n                                      author: Steven Erikson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.5<br/>\n                                      book published: 2014<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/01/08<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "numPages": "352"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/5371626725?utm_medium=api&utm_source=rss",
       "title": "Gardens of the Moon (Malazan Book of the Fallen, #1)",
       "link": "https://www.goodreads.com/review/show/5371626725?utm_medium=api&utm_source=rss",
@@ -4158,27 +4179,6 @@
       "bookPublished": "1994",
       "description": "<a href=\"https://www.goodreads.com/book/show/884288.Interesting_Times?utm_medium=api&amp;utm_source=rss\"><img alt=\"Interesting Times (Discworld, #17; Rincewind, #5)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1430881376l/884288._SY75_.jpg\" /></a><br/>\n                                      author: Terry Pratchett<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: 1994<br/>\n                                      rating: 4<br/>\n                                      read at: 2025/04/23<br/>\n                                      date added: 2025/04/23<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "368"
-    },
-    {
-      "id": "https://www.goodreads.com/review/show/4954121647?utm_medium=api&utm_source=rss",
-      "title": "Troll Bridge (Discworld, #16.5)",
-      "link": "https://www.goodreads.com/review/show/4954121647?utm_medium=api&utm_source=rss",
-      "bookId": "12300570",
-      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1312625900l/12300570._SX50_.jpg",
-      "bookDescription": "Part of a short story tribute anthology to Tolkien, found in After the King: Stories In Honor of J.R.R. Tolkien, it was also reprinted in My Favorite Fantasy Story, in The Oxford Book of Fantasy Stories, in The Mammoth Book of Comic Fantasy and was finally released as free online fiction.",
-      "authorName": "Terry Pratchett",
-      "isbn": "",
-      "userName": "Daniel",
-      "userRating": "4",
-      "userReadAt": "2025-04-19T00:00:00.000Z",
-      "userDateAdded": "2025-04-19T07:42:15.000Z",
-      "userDateCreated": "2022-08-30T10:38:57.000Z",
-      "userShelves": "",
-      "userReview": "",
-      "averageRating": "4.1",
-      "bookPublished": "1992",
-      "description": "<a href=\"https://www.goodreads.com/book/show/12300570-troll-bridge?utm_medium=api&amp;utm_source=rss\"><img alt=\"Troll Bridge (Discworld, #16.5)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1312625900l/12300570._SX50_.jpg\" /></a><br/>\n                                      author: Terry Pratchett<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: 1992<br/>\n                                      rating: 4<br/>\n                                      read at: 2025/04/19<br/>\n                                      date added: 2025/04/19<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
-      "numPages": "10"
     }
   ]
 }
