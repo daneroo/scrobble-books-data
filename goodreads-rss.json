@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/8253344940?utm_medium=api&utm_source=rss",
+      "title": "Deadhouse Gates (Malazan Book of the Fallen, #2)",
+      "link": "https://www.goodreads.com/review/show/8253344940?utm_medium=api&utm_source=rss",
+      "bookId": "55401",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1385272744l/55401._SX50_.jpg",
+      "bookDescription": "In the vast dominion of Seven Cities, in the Holy Desert Raraku, the seer Sha'ik and her followers prepare for the long-prophesied uprising known as the Whirlwind. Unprecedented in size and savagery, this maelstrom of fanaticism and bloodlust will embroil the Malazan Empire in one of the bloodiest conflicts it has ever known, shaping destinies and giving birth to legends . . .<br /><br />Set in a brilliantly realized world ravaged by dark, uncontrollable magic, Deadhouse Gates is a novel of war, intrigue and betrayal confirms Steven Eirkson as a storyteller of breathtaking skill, imagination and originality--a new master of epic fantasy.",
+      "authorName": "Steven Erikson",
+      "isbn": "0765310023",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2026-01-12T06:29:53.000Z",
+      "userDateCreated": "2026-01-12T06:29:53.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "4.3",
+      "bookPublished": "2000",
+      "description": "<a href=\"https://www.goodreads.com/book/show/55401.Deadhouse_Gates?utm_medium=api&amp;utm_source=rss\"><img alt=\"Deadhouse Gates (Malazan Book of the Fallen, #2)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1385272744l/55401._SX50_.jpg\" /></a><br/>\n                                      author: Steven Erikson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: 2000<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/01/11<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "604"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/8237022036?utm_medium=api&utm_source=rss",
       "title": "The Dharma Bums",
       "link": "https://www.goodreads.com/review/show/8237022036?utm_medium=api&utm_source=rss",
@@ -13,13 +34,13 @@
       "userName": "Daniel",
       "userRating": "0",
       "userReadAt": "",
-      "userDateAdded": "2026-01-11T07:48:29.000Z",
+      "userDateAdded": "2026-01-12T06:29:24.000Z",
       "userDateCreated": "2026-01-08T01:48:56.000Z",
       "userShelves": "currently-reading",
       "userReview": "",
       "averageRating": "3.9",
       "bookPublished": "1958",
-      "description": "<a href=\"https://www.goodreads.com/book/show/412732.The_Dharma_Bums?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Dharma Bums\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1428986082l/412732._SY75_.jpg\" /></a><br/>\n                                      author: Jack Kerouac<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: 1958<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/01/10<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/412732.The_Dharma_Bums?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Dharma Bums\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1428986082l/412732._SY75_.jpg\" /></a><br/>\n                                      author: Jack Kerouac<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: 1958<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/01/11<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
       "numPages": "244"
     },
     {
@@ -5604,8 +5625,8 @@
       "userShelves": "",
       "userReview": "",
       "averageRating": "4.3",
-      "bookPublished": "-700",
-      "description": "<a href=\"https://www.goodreads.com/book/show/34068470-the-odyssey?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Odyssey\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1487351579l/34068470._SY75_.jpg\" /></a><br/>\n                                      author: Homer<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: -700<br/>\n                                      rating: 4<br/>\n                                      read at: 2025/01/03<br/>\n                                      date added: 2025/01/03<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "bookPublished": "",
+      "description": "<a href=\"https://www.goodreads.com/book/show/34068470-the-odyssey?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Odyssey\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1487351579l/34068470._SY75_.jpg\" /></a><br/>\n                                      author: Homer<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: <br/>\n                                      rating: 4<br/>\n                                      read at: 2025/01/03<br/>\n                                      date added: 2025/01/03<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "582"
     },
     {
@@ -6066,8 +6087,8 @@
       "userShelves": "on-deck",
       "userReview": "",
       "averageRating": "3.8",
-      "bookPublished": "-700",
-      "description": "<a href=\"https://www.goodreads.com/book/show/1381.The_Odyssey?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Odyssey\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1711957706l/1381._SY75_.jpg\" /></a><br/>\n                                      author: Homer<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.8<br/>\n                                      book published: -700<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/12/01<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "bookPublished": "",
+      "description": "<a href=\"https://www.goodreads.com/book/show/1381.The_Odyssey?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Odyssey\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1711957706l/1381._SY75_.jpg\" /></a><br/>\n                                      author: Homer<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.8<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/12/01<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
       "numPages": "541"
     },
     {
