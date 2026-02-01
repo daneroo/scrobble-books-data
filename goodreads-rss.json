@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/8319730206?utm_medium=api&utm_source=rss",
+      "title": "Jonathan Strange & Mr Norrell",
+      "link": "https://www.goodreads.com/review/show/8319730206?utm_medium=api&utm_source=rss",
+      "bookId": "14201",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1743119988l/14201._SY75_.jpg",
+      "bookDescription": "The year is 1806. England is beleaguered by the long war with Napoleon, and centuries have passed since practical magicians faded into the nation's past. But scholars of this glorious history discover that one remains: the reclusive Mr Norrell, whose displays of magic send a thrill through the country. <br /><br />Proceeding to London, he raises a beautiful woman from the dead and summons an army of ghostly ships to terrify the French. Yet the cautious, fussy Norrell is challenged by the emergence of another magician: the brilliant novice Jonathan Strange. <br /><br />Young, handsome and daring, Strange is the very antithesis of Norrell. So begins a dangerous battle between these two great men which overwhelms that between England and France. And their own obsessions and secret dabblings with the dark arts are going to cause more trouble than they can imagine.",
+      "authorName": "Susanna Clarke",
+      "isbn": "",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2026-02-01T06:01:48.000Z",
+      "userDateCreated": "2026-02-01T06:01:25.000Z",
+      "userShelves": "on-deck",
+      "userReview": "",
+      "averageRating": "3.9",
+      "bookPublished": "2004",
+      "description": "<a href=\"https://www.goodreads.com/book/show/14201.Jonathan_Strange_Mr_Norrell?utm_medium=api&amp;utm_source=rss\"><img alt=\"Jonathan Strange &amp; Mr Norrell\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1743119988l/14201._SY75_.jpg\" /></a><br/>\n                                      author: Susanna Clarke<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: 2004<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/01/31<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "numPages": "1006"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/5883696687?utm_medium=api&utm_source=rss",
       "title": "Memories of Ice (Malazan Book of the Fallen, #3)",
       "link": "https://www.goodreads.com/review/show/5883696687?utm_medium=api&utm_source=rss",
