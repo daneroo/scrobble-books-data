@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/8354852854?utm_medium=api&utm_source=rss",
+      "title": "The Last Continent (Discworld, #22; Rincewind, #6)",
+      "link": "https://www.goodreads.com/review/show/8354852854?utm_medium=api&utm_source=rss",
+      "bookId": "47994",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1332672492l/47994._SY75_.jpg",
+      "bookDescription": "This is the Discworld's last continent, a completely separate creation.<br /><br />It's hot. It's dry... very dry. There was this thing once called The Wet, which no one now believes in. Practically everything that's not poisonous is venomous. But it's the best bloody place in the world, all right?<br /><br />And it'll die in a few days, except...<br /><br />Who is this hero striding across the red desert? Champion sheep shearer, horse rider, road warrior, beer drinker, bush ranger, and someone who'll even eat a Meat Pie Floater when he's sober? A man in a hat, whose Luggage follows him on little legs, who's about to change history by preventing a swagman stealing a jumbuck by a billabong?<br /><br />Yes... all this place has between itself and wind-blown doom is Rincewind, the inept wizard who can't even spell wizard. He's the only hero left.<br /><br />Still... no worries, eh?",
+      "authorName": "Terry Pratchett",
+      "isbn": "0552154180",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2026-02-13T09:42:51.000Z",
+      "userDateCreated": "2026-02-13T07:18:30.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "4.0",
+      "bookPublished": "1998",
+      "description": "<a href=\"https://www.goodreads.com/book/show/47994.The_Last_Continent?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Last Continent (Discworld, #22; Rincewind, #6)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1332672492l/47994._SY75_.jpg\" /></a><br/>\n                                      author: Terry Pratchett<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: 1998<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/02/13<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "416"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/6481341839?utm_medium=api&utm_source=rss",
       "title": "The Language of Power (The Steerswoman, #4)",
       "link": "https://www.goodreads.com/review/show/6481341839?utm_medium=api&utm_source=rss",
@@ -11,15 +32,15 @@
       "authorName": "Rosemary Kirstein",
       "isbn": "034546835X",
       "userName": "Daniel",
-      "userRating": "0",
-      "userReadAt": "",
-      "userDateAdded": "2026-02-12T10:02:52.000Z",
+      "userRating": "4",
+      "userReadAt": "2026-02-12T00:00:00.000Z",
+      "userDateAdded": "2026-02-13T07:16:03.000Z",
       "userDateCreated": "2024-05-05T06:05:59.000Z",
-      "userShelves": "currently-reading",
+      "userShelves": "",
       "userReview": "",
       "averageRating": "4.3",
       "bookPublished": "2004",
-      "description": "<a href=\"https://www.goodreads.com/book/show/991722.The_Language_of_Power?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Language of Power (The Steerswoman, #4)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1391816183l/991722._SX50_.jpg\" /></a><br/>\n                                      author: Rosemary Kirstein<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: 2004<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/02/12<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/991722.The_Language_of_Power?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Language of Power (The Steerswoman, #4)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1391816183l/991722._SX50_.jpg\" /></a><br/>\n                                      author: Rosemary Kirstein<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: 2004<br/>\n                                      rating: 4<br/>\n                                      read at: 2026/02/12<br/>\n                                      date added: 2026/02/12<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "389"
     },
     {
@@ -14115,7 +14136,7 @@
     },
     {
       "id": "https://www.goodreads.com/review/show/5176558351?utm_medium=api&utm_source=rss",
-      "title": "Orations, Volume I: Orations 1-17 and 20: Olynthiacs. Philippics. Minor Public Orations (Loeb Classical Library)",
+      "title": "Orations, Volume I: Orations 1–17 and 20: Olynthiacs. Philippics. Minor Public Orations",
       "link": "https://www.goodreads.com/review/show/5176558351?utm_medium=api&utm_source=rss",
       "bookId": "551680",
       "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347761407l/551680._SY75_.jpg",
@@ -14131,7 +14152,7 @@
       "userReview": "",
       "averageRating": "4.0",
       "bookPublished": "-322",
-      "description": "<a href=\"https://www.goodreads.com/book/show/551680.Orations_Volume_I?utm_medium=api&amp;utm_source=rss\"><img alt=\"Orations, Volume I: Orations 1-17 and 20: Olynthiacs. Philippics. Minor Public Orations (Loeb Classical Library)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347761407l/551680._SY75_.jpg\" /></a><br/>\n                                      author: Demosthenes<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: -322<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/12/20<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/551680.Orations_Volume_I?utm_medium=api&amp;utm_source=rss\"><img alt=\"Orations, Volume I: Orations 1–17 and 20: Olynthiacs. Philippics. Minor Public Orations\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347761407l/551680._SY75_.jpg\" /></a><br/>\n                                      author: Demosthenes<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: -322<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/12/20<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "640"
     },
     {
