@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/6208284338?utm_medium=api&utm_source=rss",
+      "title": "House of Chains (Malazan Book of the Fallen, #4)",
+      "link": "https://www.goodreads.com/review/show/6208284338?utm_medium=api&utm_source=rss",
+      "bookId": "55398",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1548490548l/55398._SY75_.jpg",
+      "bookDescription": "<i>An alternate cover edition can be found <a href=\"https://www.goodreads.com/book/show/29081573-house-of-chains\" rel=\"nofollow noopener\">here</a>.</i><br /><br />In Northern Genabackis, a raiding party of savage tribal warriors descends from the mountains into the southern flatlands. Their intention is to wreak havoc amongst the despised lowlanders, but for the one named Karsa Orlong it marks the beginning of what will prove to be an extraordinary destiny.<br />Some years later, it is the aftermath of the Chain of Dogs. Tavore, the Adjunct to the Empress, has arrived in the last remaining Malazan stronghold of Seven Cities. New to command, she must hone twelve thousand soldiers, mostly raw recruits but for a handful of veterans of Coltaine's legendary march, into a force capable of challenging the massed hordes of Sha'ik's Whirlwind who lie in wait in the heart of the Holy Desert.<br />But waiting is never easy. The seer's warlords are locked into a power struggle that threatens the very soul of the rebellion, while Sha'ik herself suffers, haunted by the knowledge of her nemesis: her own sister, Tavore.<br />And so begins this awesome new chapter in Steven Erikson's acclaimed Malazan Book of the Fallen.",
+      "authorName": "Steven Erikson",
+      "isbn": "0765348810",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2026-02-21T05:20:19.000Z",
+      "userDateCreated": "2024-01-27T02:53:45.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "4.3",
+      "bookPublished": "2002",
+      "description": "<a href=\"https://www.goodreads.com/book/show/55398.House_of_Chains?utm_medium=api&amp;utm_source=rss\"><img alt=\"House of Chains (Malazan Book of the Fallen, #4)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1548490548l/55398._SY75_.jpg\" /></a><br/>\n                                      author: Steven Erikson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: 2002<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/02/20<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "1015"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/8364824360?utm_medium=api&utm_source=rss",
       "title": "Beyond the Quantum: A Quest for the Origin and Hidden Meaning of Quantum Mechanics",
       "link": "https://www.goodreads.com/review/show/8364824360?utm_medium=api&utm_source=rss",
@@ -1634,9 +1655,9 @@
       "userDateCreated": "2025-10-26T21:35:37.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "3.3",
+      "averageRating": "3.2",
       "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/232301660-beyond-vibe-coding?utm_medium=api&amp;utm_source=rss\"><img alt=\"Beyond Vibe Coding: From Coder to AI-Era Developer\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1747084022l/232301660._SX50_.jpg\" /></a><br/>\n                                      author: Addy Osmani<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.3<br/>\n                                      book published: <br/>\n                                      rating: 4<br/>\n                                      read at: 2025/10/29<br/>\n                                      date added: 2025/10/29<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/232301660-beyond-vibe-coding?utm_medium=api&amp;utm_source=rss\"><img alt=\"Beyond Vibe Coding: From Coder to AI-Era Developer\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1747084022l/232301660._SX50_.jpg\" /></a><br/>\n                                      author: Addy Osmani<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.2<br/>\n                                      book published: <br/>\n                                      rating: 4<br/>\n                                      read at: 2025/10/29<br/>\n                                      date added: 2025/10/29<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "252"
     },
     {
@@ -4158,27 +4179,6 @@
       "bookPublished": "",
       "description": "<a href=\"https://www.goodreads.com/book/show/217485822-monsoon?utm_medium=api&amp;utm_source=rss\"><img alt=\"Monsoon: Delicious Indian Recipes for Every Day and Season\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1740972129l/217485822._SX50_.jpg\" /></a><br/>\n                                      author: Asma Khan<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.8<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/05/16<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "415"
-    },
-    {
-      "id": "https://www.goodreads.com/review/show/7562321157?utm_medium=api&utm_source=rss",
-      "title": "Apple in China: The Capture of the World's Greatest Company",
-      "link": "https://www.goodreads.com/review/show/7562321157?utm_medium=api&utm_source=rss",
-      "bookId": "217410142",
-      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1737571239l/217410142._SY75_.jpg",
-      "bookDescription": "<b>*** THE </b><i>\n  <b>NEW YORK TIMES</b>\n</i><b> BESTSELLER *** </b><br /><br /><b>* WINNER OF THE SABEW BEST IN BUSINESS BOOK AWARDS 2025 FOR BUSINESS REPORTING * </b><br /><br /><b>What if the greatest business success story of the twenty-first century was hiding the West’s gravest mistake?</b><br /><br />For two decades, Apple poured billions into China, training millions of workers and building the most advanced supply and manufacturing system in history. But those same investments transferred knowledge, skills and power, handing China the tools to challenge America’s dominance and putting Apple in the middle of a new Cold War between two superpowers.<br /><br />Based on hundreds of exclusive interviews, Patrick McGee’s gripping exposé reveals Apple’s vulnerability for the first time – and shows how one company’s triumph inadvertently reshaped the global balance of power.<br /><br />‘Devastatingly clear’<b> </b><i>\n  <b>New York Times </b>\n</i><br /><br />‘Scrupulously reported’ <i>\n  <b>New Yorker</b>\n</i> <br /><br />‘Absolutely riveting’<b> Peter Frankopan  </b><br /><br />‘Disturbing and enlightening’<b> Chris Miller </b><br /><br />'This is the best book about Apple ever written’<b> Ben Thompson, </b><i>\n  <b>Stratechery</b>\n</i><b> </b>",
-      "authorName": "Patrick  McGee",
-      "isbn": "1398534382",
-      "userName": "Daniel",
-      "userRating": "5",
-      "userReadAt": "2025-05-15T00:00:00.000Z",
-      "userDateAdded": "2025-05-15T08:03:28.000Z",
-      "userDateCreated": "2025-05-12T08:24:50.000Z",
-      "userShelves": "",
-      "userReview": "",
-      "averageRating": "4.6",
-      "bookPublished": "2025",
-      "description": "<a href=\"https://www.goodreads.com/book/show/217410142-apple-in-china?utm_medium=api&amp;utm_source=rss\"><img alt=\"Apple in China: The Capture of the World&#39;s Greatest Company\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1737571239l/217410142._SY75_.jpg\" /></a><br/>\n                                      author: Patrick  McGee<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.6<br/>\n                                      book published: 2025<br/>\n                                      rating: 5<br/>\n                                      read at: 2025/05/15<br/>\n                                      date added: 2025/05/15<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
-      "numPages": "448"
     }
   ]
 }
