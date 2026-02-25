@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/8389572180?utm_medium=api&utm_source=rss",
+      "title": "Six Math Essentials",
+      "link": "https://www.goodreads.com/review/show/8389572180?utm_medium=api&utm_source=rss",
+      "bookId": "245645170",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1771334574l/245645170._SY75_.jpg",
+      "bookDescription": "<b><i>Six Math Essentials</i> by Terence Tao is a forthcoming title from Quanta Books.</b>",
+      "authorName": "Terence Tao",
+      "isbn": "0374621799",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2026-02-25T10:07:01.000Z",
+      "userDateCreated": "2026-02-25T10:07:01.000Z",
+      "userShelves": "on-deck",
+      "userReview": "",
+      "averageRating": "0.0",
+      "bookPublished": "",
+      "description": "<a href=\"https://www.goodreads.com/book/show/245645170-six-math-essentials?utm_medium=api&amp;utm_source=rss\"><img alt=\"Six Math Essentials\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1771334574l/245645170._SY75_.jpg\" /></a><br/>\n                                      author: Terence Tao<br/>\n                                      name: Daniel<br/>\n                                      average rating: 0.0<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/02/25<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "numPages": "160"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/6208284338?utm_medium=api&utm_source=rss",
       "title": "House of Chains (Malazan Book of the Fallen, #4)",
       "link": "https://www.goodreads.com/review/show/6208284338?utm_medium=api&utm_source=rss",
