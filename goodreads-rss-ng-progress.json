@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/8401282681?utm_medium=api&utm_source=rss",
+      "title": "Rainbows End",
+      "link": "https://www.goodreads.com/review/show/8401282681?utm_medium=api&utm_source=rss",
+      "bookId": "102439",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1316729149l/102439._SY75_.jpg",
+      "bookDescription": "Robert Gu is a recovering Alzheimer's patient. The world that he remembers was much as we know it today. Now, as he regains his faculties through a cure developed during the years of his near-fatal decline, he discovers that the world has changed and so has his place in it. He was a world-renowned poet. Now he is seventy-five years old, though by a medical miracle he looks much younger, and he’s starting over, for the first time unsure of his poetic gifts. Living with his son’s family, he has no choice but to learn how to cope with a new information age in which the virtual and the real are a seamless continuum, layers of reality built on digital views seen by a single person or millions, depending on your choice. But the consensus reality of the digital world is available only if, like his thirteen-year-old granddaughter Miri, you know how to wear your wireless access—through nodes designed into smart clothes—and to see the digital context—through smart contact lenses. <br /> <br />With knowledge comes risk. When Robert begins to re-train at Fairmont High, learning with other older people what is second nature to Miri and other teens at school, he unwittingly becomes part of a wide-ranging conspiracy to use technology as a tool for world domination. <br /> <br />In a world where every computer chip has Homeland Security built-in, this conspiracy is something that baffles even the most sophisticated security analysts, including Robert’s son and daughter-in law, two top people in the U.S. military. And even Miri, in her attempts to protect her grandfather, may be entangled in the plot. <br /> <br />As Robert becomes more deeply involved in conspiracy, he is shocked to learn of a radical change planned for the UCSD Geisel Library; all the books there, and worldwide, would cease to physically exist. He and his fellow re-trainees feel compelled to join protests against the change. With forces around the world converging on San Diego, both the conspiracy and the protest climax in a spectacular moment as unique and satisfying as it is unexpected.",
+      "authorName": "Vernor Vinge",
+      "isbn": "0812536363",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2026-03-01T18:25:28.000Z",
+      "userDateCreated": "2026-03-01T18:25:28.000Z",
+      "userShelves": "",
+      "userReview": "",
+      "averageRating": "3.8",
+      "bookPublished": "2006",
+      "description": "<a href=\"https://www.goodreads.com/book/show/102439.Rainbows_End?utm_medium=api&amp;utm_source=rss\"><img alt=\"Rainbows End\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1316729149l/102439._SY75_.jpg\" /></a><br/>\n                                      author: Vernor Vinge<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.8<br/>\n                                      book published: 2006<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/03/01<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "numPages": "381"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/8400064643?utm_medium=api&utm_source=rss",
       "title": "Night of Knives (Novels of the Malazan Empire, #1)",
       "link": "https://www.goodreads.com/review/show/8400064643?utm_medium=api&utm_source=rss",
@@ -2810,9 +2831,9 @@
       "userDateCreated": "2025-09-06T05:52:37.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "4.2",
+      "averageRating": "4.1",
       "bookPublished": "2019",
-      "description": "<a href=\"https://www.goodreads.com/book/show/40180010-mind-fixers?utm_medium=api&amp;utm_source=rss\"><img alt=\"Mind Fixers: Psychiatry&#39;s Troubled Search for the Biology of Mental Illness\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1549326640l/40180010._SX50_.jpg\" /></a><br/>\n                                      author: Anne Harrington<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 2019<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/09/05<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/40180010-mind-fixers?utm_medium=api&amp;utm_source=rss\"><img alt=\"Mind Fixers: Psychiatry&#39;s Troubled Search for the Biology of Mental Illness\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1549326640l/40180010._SX50_.jpg\" /></a><br/>\n                                      author: Anne Harrington<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: 2019<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/09/05<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "384"
     },
     {
@@ -4158,27 +4179,6 @@
       "bookPublished": "2023",
       "description": "<a href=\"https://www.goodreads.com/book/show/208430658-blood-over-bright-haven?utm_medium=api&amp;utm_source=rss\"><img alt=\"Blood Over Bright Haven\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1717354584l/208430658._SY75_.jpg\" /></a><br/>\n                                      author: M.L. Wang<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: 2023<br/>\n                                      rating: 4<br/>\n                                      read at: 2025/05/24<br/>\n                                      date added: 2025/05/24<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "428"
-    },
-    {
-      "id": "https://www.goodreads.com/review/show/7582581059?utm_medium=api&utm_source=rss",
-      "title": "Why Politicians Lie About Trade: ... and What You Need to Know About It",
-      "link": "https://www.goodreads.com/review/show/7582581059?utm_medium=api&utm_source=rss",
-      "bookId": "223225658",
-      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1735918833l/223225658._SY75_.jpg",
-      "bookDescription": "<b>FT Recommended Book on the Global Trade War</b><br /><br /><b>'It succeeds both in explaining how global trade works and how it affects things many voters actually care about' </b><i>– Financial Times</i><br /><br /><b>'My hero on this is Dmitry Grozoubinski, who has written the most beautiful book'<i> </i></b><i>– author Rory Stewart</i><br /><br /><i>Why Politicians Lie About Trade – and What You Need to Know About It</i> is your clear, witty crash‑course in <i>how global trade really works</i> – and how leaders weaponise it to win votes, wage culture wars and spin economic fairy tales.<br /><br />Written by former trade negotiator Dmitry Grozoubinski, this smart, highly readable book explains trade policy, not trade economics – no graphs, no jargon, just sharp stories, plain English and a built‑in “bullshit detector” for every grand promise about tariffs, trade deals and jobs.<br /><br /><b>What this book shows you</b>Across two parts – <i>How Trade Works</i> and <i>Trade and the Things You Actually Care About </i>– you’ll <br /><br />How modern trade policy works in practice – from goods trade and services trade to customs unions, single markets, free trade agreements (FTAs), trade facilitation and the World Trade Organization (WTO).Why protectionism is so tempting – and how tariffs, quotas, sanctions, trade embargoes and “keeping out foreign junk” are sold as painless fixes, even when they quietly destroy jobs, growth and innovation.What “trading on WTO terms” really means – and why it’s usually code for accepting the bare‑minimum market access on the same terms as the country your partners trust least.How trade agreements are really negotiated – secrecy, leaks, horse‑trading, rules of origin, regulatory standards, dispute settlement and why no deal is ever truly “win‑win for everyone”.Trade and jobs – how trade policy is endlessly blamed or praised for employment figures, how politicians on all sides massage the numbers, and why press releases about “hundreds of thousands of jobs created” should make you sceptical.Trade and national security, climate change and peace – from sanctions and export controls to green trade rules, economic interdependence and “trade for peace”.Along the way, Grozoubinski dissects Trump, Brexit, trade wars, culture‑war soundbites, populist protectionism and media myths that turn complex tradeoffs into easy slogans.<br /><br />If you’re tired of being dazzled by big numbers, empty promises and scary headlines about tariffs, trade wars and globalisation, this book hands you the tools to push back – calmly, confidently and with the facts on your side.<br /><br />Learn how global trade really works – before the next “world‑changing” trade deal hits the headlines.<br /><br /><b>\n  <u>Reviews</u>\n</b><br /><br /><b>'Despite being an entertaining read, this book is no joke.</b> Structured in two parts, it succeeds both in explaining how global trade works and in illustrating how the rather rarefied topic of international trade policy affects things many voters actually care jobs, national security, climate change, and so on.' <i>Felix Martin, Financial Times</i><br /><br /><b>'You will come out of it far more knowledgeable than you went in</b>, and shielded from some of the more egregious deceit politicians want to inf",
-      "authorName": "Dmitry Grozoubinski",
-      "isbn": "",
-      "userName": "Daniel",
-      "userRating": "4",
-      "userReadAt": "2025-05-20T00:00:00.000Z",
-      "userDateAdded": "2025-05-21T04:17:36.000Z",
-      "userDateCreated": "2025-05-19T20:16:27.000Z",
-      "userShelves": "",
-      "userReview": "",
-      "averageRating": "4.0",
-      "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/223225658-why-politicians-lie-about-trade?utm_medium=api&amp;utm_source=rss\"><img alt=\"Why Politicians Lie About Trade: ... and What You Need to Know About It\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1735918833l/223225658._SY75_.jpg\" /></a><br/>\n                                      author: Dmitry Grozoubinski<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: <br/>\n                                      rating: 4<br/>\n                                      read at: 2025/05/20<br/>\n                                      date added: 2025/05/20<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
-      "numPages": "328"
     }
   ]
 }

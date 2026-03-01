@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/8401282681?utm_medium=api&utm_source=rss",
+      "title": "Rainbows End",
+      "link": "https://www.goodreads.com/review/show/8401282681?utm_medium=api&utm_source=rss",
+      "bookId": "102439",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1316729149l/102439._SY75_.jpg",
+      "bookDescription": "Robert Gu is a recovering Alzheimer's patient. The world that he remembers was much as we know it today. Now, as he regains his faculties through a cure developed during the years of his near-fatal decline, he discovers that the world has changed and so has his place in it. He was a world-renowned poet. Now he is seventy-five years old, though by a medical miracle he looks much younger, and he’s starting over, for the first time unsure of his poetic gifts. Living with his son’s family, he has no choice but to learn how to cope with a new information age in which the virtual and the real are a seamless continuum, layers of reality built on digital views seen by a single person or millions, depending on your choice. But the consensus reality of the digital world is available only if, like his thirteen-year-old granddaughter Miri, you know how to wear your wireless access—through nodes designed into smart clothes—and to see the digital context—through smart contact lenses. <br /> <br />With knowledge comes risk. When Robert begins to re-train at Fairmont High, learning with other older people what is second nature to Miri and other teens at school, he unwittingly becomes part of a wide-ranging conspiracy to use technology as a tool for world domination. <br /> <br />In a world where every computer chip has Homeland Security built-in, this conspiracy is something that baffles even the most sophisticated security analysts, including Robert’s son and daughter-in law, two top people in the U.S. military. And even Miri, in her attempts to protect her grandfather, may be entangled in the plot. <br /> <br />As Robert becomes more deeply involved in conspiracy, he is shocked to learn of a radical change planned for the UCSD Geisel Library; all the books there, and worldwide, would cease to physically exist. He and his fellow re-trainees feel compelled to join protests against the change. With forces around the world converging on San Diego, both the conspiracy and the protest climax in a spectacular moment as unique and satisfying as it is unexpected.",
+      "authorName": "Vernor Vinge",
+      "isbn": "0812536363",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2026-03-01T18:25:28.000Z",
+      "userDateCreated": "2026-03-01T18:25:28.000Z",
+      "userShelves": "on-deck",
+      "userReview": "",
+      "averageRating": "3.8",
+      "bookPublished": "2006",
+      "description": "<a href=\"https://www.goodreads.com/book/show/102439.Rainbows_End?utm_medium=api&amp;utm_source=rss\"><img alt=\"Rainbows End\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1316729149l/102439._SY75_.jpg\" /></a><br/>\n                                      author: Vernor Vinge<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.8<br/>\n                                      book published: 2006<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/03/01<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "numPages": "381"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/8400064643?utm_medium=api&utm_source=rss",
       "title": "Night of Knives (Novels of the Malazan Empire, #1)",
       "link": "https://www.goodreads.com/review/show/8400064643?utm_medium=api&utm_source=rss",
@@ -2810,9 +2831,9 @@
       "userDateCreated": "2025-09-06T05:52:37.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "4.2",
+      "averageRating": "4.1",
       "bookPublished": "2019",
-      "description": "<a href=\"https://www.goodreads.com/book/show/40180010-mind-fixers?utm_medium=api&amp;utm_source=rss\"><img alt=\"Mind Fixers: Psychiatry&#39;s Troubled Search for the Biology of Mental Illness\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1549326640l/40180010._SX50_.jpg\" /></a><br/>\n                                      author: Anne Harrington<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 2019<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/09/05<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/40180010-mind-fixers?utm_medium=api&amp;utm_source=rss\"><img alt=\"Mind Fixers: Psychiatry&#39;s Troubled Search for the Biology of Mental Illness\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1549326640l/40180010._SX50_.jpg\" /></a><br/>\n                                      author: Anne Harrington<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: 2019<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/09/05<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "384"
     },
     {
