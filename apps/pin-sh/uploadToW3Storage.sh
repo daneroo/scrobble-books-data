@@ -45,7 +45,7 @@ env_vars_exist() {
   fi
 }
 
-# calulate number and size of uploads / with totals
+# calculate number and size of uploads / with totals
 calculate_number_and_size_of_uploads() {
   #  ❯ w3 ls --json
   # {"root":{"/":"bafybXXX"},"shards":[{"/":"bagbaieraYYY"}]}
