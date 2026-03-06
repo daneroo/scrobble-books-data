@@ -46,7 +46,7 @@ env_vars_exist() {
 }
 
 # calulate number and size of uploads / with totals
-calulate_number_and_size_of_uploads() {
+calculate_number_and_size_of_uploads() {
   #  ❯ w3 ls --json
   # {"root":{"/":"bafybXXX"},"shards":[{"/":"bagbaieraYYY"}]}
   # w3 ls --shards
@@ -71,8 +71,9 @@ w3 space add $W3_PROOF
 print_header "Showing added proof and capabilities"
 w3 proof ls
 
-print_header "Calculating space before upload"
-calulate_number_and_size_of_uploads
+print_header "Skipping: Calculating space before upload"
+# print_header "Calculating space before upload"
+# calculate_number_and_size_of_uploads
 
 print_header "Uploading file(s) to w3 storage (books)"
 echo "  uploading path/files: $ROOT_RELATIVE_UPLOAD_PATHS"
@@ -80,8 +81,9 @@ echo "  uploading path/files: $ROOT_RELATIVE_UPLOAD_PATHS"
 rootCID=$(w3 up ${ROOT_RELATIVE_UPLOAD_PATHS} --json | jq -r '.root."/"')
 echo "  uploaded CID: $rootCID"
 
-print_header "Calculating space after upload"
-calulate_number_and_size_of_uploads
+print_header "Skipping: Calculating space after upload"
+# print_header "Calculating space after upload"
+# calculate_number_and_size_of_uploads
 
 print_header "Trimming w3 storage (books)"
 for i in $(w3 ls); do
@@ -94,8 +96,9 @@ for i in $(w3 ls); do
   fi
 done
 
-print_header "Calculating space after trim"
-calulate_number_and_size_of_uploads
+print_header "Skipping: Calculating space after trim"
+# print_header "Calculating space after trim"
+# calculate_number_and_size_of_uploads
 
 print_header "Link to uploaded file(s) and write result"
 rootLink="https://${rootCID}.ipfs.w3s.link/"
