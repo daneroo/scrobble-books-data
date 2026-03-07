@@ -11,15 +11,15 @@
       "authorName": "Steven Erikson",
       "isbn": "0553813145",
       "userName": "Daniel",
-      "userRating": "0",
-      "userReadAt": "",
-      "userDateAdded": "2026-03-06T06:17:46.000Z",
+      "userRating": "5",
+      "userReadAt": "2026-03-06T00:00:00.000Z",
+      "userDateAdded": "2026-03-07T07:14:38.000Z",
       "userDateCreated": "2026-02-28T07:07:01.000Z",
-      "userShelves": "currently-reading",
+      "userShelves": "",
       "userReview": "",
       "averageRating": "4.4",
       "bookPublished": "2004",
-      "description": "<a href=\"https://www.goodreads.com/book/show/345299.Midnight_Tides?utm_medium=api&amp;utm_source=rss\"><img alt=\"Midnight Tides (Malazan Book of the Fallen, #5)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1366996057l/345299._SY75_.jpg\" /></a><br/>\n                                      author: Steven Erikson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.4<br/>\n                                      book published: 2004<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/03/05<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/345299.Midnight_Tides?utm_medium=api&amp;utm_source=rss\"><img alt=\"Midnight Tides (Malazan Book of the Fallen, #5)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1366996057l/345299._SY75_.jpg\" /></a><br/>\n                                      author: Steven Erikson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.4<br/>\n                                      book published: 2004<br/>\n                                      rating: 5<br/>\n                                      read at: 2026/03/06<br/>\n                                      date added: 2026/03/06<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "960"
     },
     {
@@ -2537,9 +2537,9 @@
       "userDateCreated": "2025-10-02T05:52:22.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "4.0",
+      "averageRating": "4.1",
       "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/222925312-against-the-machine?utm_medium=api&amp;utm_source=rss\"><img alt=\"Against the Machine: On the Unmaking of Humanity\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1741156315l/222925312._SY75_.jpg\" /></a><br/>\n                                      author: Paul Kingsnorth<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/10/01<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/222925312-against-the-machine?utm_medium=api&amp;utm_source=rss\"><img alt=\"Against the Machine: On the Unmaking of Humanity\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1741156315l/222925312._SY75_.jpg\" /></a><br/>\n                                      author: Paul Kingsnorth<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/10/01<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "366"
     },
     {
