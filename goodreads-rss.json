@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/8451934239?utm_medium=api&utm_source=rss",
+      "title": "Reaper's Gale (Malazan Book of the Fallen, #7)",
+      "link": "https://www.goodreads.com/review/show/8451934239?utm_medium=api&utm_source=rss",
+      "bookId": "459064",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1403011403l/459064._SY75_.jpg",
+      "bookDescription": "A truly epic fantasy series that has confirmed its author as one of the most original and exciting genre storytellers in years.<br /><br />Erikson’s ‘ Malazan Book of the Fallen ’ has been recognised the world-over by writers, critics and fans alike — in a recent review of The Bonehunters, the sixth chapter in this remarkable tale, the UK’s Interzone magazine hailed it ‘a masterpiece’ and ‘the benchmark for all future works in the field’, while the hugely influential genre website, Ottawa-based SF Site, declared ‘this series has clearly established itself as the most significant work of epic fantasy since Donaldson’s Chronicles of Thomas Covenant’.<br /><br />Now comes Reaper’s Gale — the seventh Tale of the Malazan Book of the Fallen — and neither Erikson nor the excitement are showing any sign of letting up. Mauled and now cut adrift by the Malazan Empire, Tavore and her now infamous 14th army have landed on the coast of a strange, unknown continent and find themselves facing an even more dangerous the Tiste Edur, a nightmarish empire pledged to serve the Crippled God…<br /><br />A brutal, harrowing novel of war, intrigue and dark, uncontrollable magic, this is fantasy at its most imaginative and storytelling at its most thrilling.<br /><br /><br />From the Trade Paperback edition.",
+      "authorName": "Steven Erikson",
+      "isbn": "0593046315",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2026-03-20T01:33:29.000Z",
+      "userDateCreated": "2026-03-20T01:33:29.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "4.4",
+      "bookPublished": "2007",
+      "description": "<a href=\"https://www.goodreads.com/book/show/459064.Reaper_s_Gale?utm_medium=api&amp;utm_source=rss\"><img alt=\"Reaper&#39;s Gale (Malazan Book of the Fallen, #7)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1403011403l/459064._SY75_.jpg\" /></a><br/>\n                                      author: Steven Erikson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.4<br/>\n                                      book published: 2007<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/03/19<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "1280"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/8428101025?utm_medium=api&utm_source=rss",
       "title": "The Bonehunters (Malazan Book of the Fallen, #6)",
       "link": "https://www.goodreads.com/review/show/8428101025?utm_medium=api&utm_source=rss",
