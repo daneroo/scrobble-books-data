@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/8467781213?utm_medium=api&utm_source=rss",
+      "title": "Recession: The Real Reasons Economies Shrink and What to Do About It",
+      "link": "https://www.goodreads.com/review/show/8467781213?utm_medium=api&utm_source=rss",
+      "bookId": "238142674",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1751991863l/238142674._SY75_.jpg",
+      "bookDescription": "<b>From a top economist, the real explanation for why recessions start, how long they last, and how to avoid them in the first place</b><br /><br />What causes a recession? Do recessions end on their own, or do they require external intervention? Does a recession in one country mean the rest of the world will follow? Are we in a recession now? <br /><br />Economic expert Tyler Goodspeed answers these questions and many more in <i>Recession</i>, a groundbreaking new analysis of economic contractions over the last four centuries. Combining the historian’s extensive primary source material and the economist’s arsenal of statistical analysis, this book rewrites what we know about recessions. Contrary to popular perception, recessions are not the inevitable bust that follows an unsustainable boom, and they do not operate like wildfires that clear out economic deadwood. Recessions are caused by adverse shocks like war and energy price spikes, and far from unleashing gales of creative destruction, after a recession, economic growth typically resumes the same trend as before—all pain, no gain. While recessions have become less frequent over time, decisions made by businesses and governments can prolong recessions, and Goodspeed offers guidance to avoid making recessions worse. Issuing an important corrective to economic thinking, <i>Recession</i> is essential reading for high-level policymakers and armchair economists alike.  <br /><br />",
+      "authorName": "Tyler Beck Goodspeed",
+      "isbn": "1541704940",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2026-03-25T21:50:36.000Z",
+      "userDateCreated": "2026-03-25T21:50:35.000Z",
+      "userShelves": "on-deck",
+      "userReview": "",
+      "averageRating": "4.8",
+      "bookPublished": "",
+      "description": "<a href=\"https://www.goodreads.com/book/show/238142674-recession?utm_medium=api&amp;utm_source=rss\"><img alt=\"Recession: The Real Reasons Economies Shrink and What to Do About It\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1751991863l/238142674._SY75_.jpg\" /></a><br/>\n                                      author: Tyler Beck Goodspeed<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.8<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/03/25<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "numPages": "320"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/8451934239?utm_medium=api&utm_source=rss",
       "title": "Reaper's Gale (Malazan Book of the Fallen, #7)",
       "link": "https://www.goodreads.com/review/show/8451934239?utm_medium=api&utm_source=rss",
