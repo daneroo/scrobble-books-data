@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/8476323355?utm_medium=api&utm_source=rss",
+      "title": "SpecOps (Expeditionary Force, #2)",
+      "link": "https://www.goodreads.com/review/show/8476323355?utm_medium=api&utm_source=rss",
+      "bookId": "30342581",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1464952346l/30342581._SY75_.jpg",
+      "bookDescription": "Colonel Joe Bishop made a promise and he's going to keep it; taking the captured alien starship Flying Dutchman back out.<br /><br />He doesn't agree when the UN decides to send almost 70 elite Special Operations troops, hotshot pilots, and scientists with him; the mission is a fool's errand he doesn't expect to ever return from. At least, this time, the Earth is safe, right?",
+      "authorName": "Craig Alanson",
+      "isbn": "",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2026-03-29T05:50:08.000Z",
+      "userDateCreated": "2026-03-29T05:50:08.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "4.2",
+      "bookPublished": "2016",
+      "description": "<a href=\"https://www.goodreads.com/book/show/30342581-specops?utm_medium=api&amp;utm_source=rss\"><img alt=\"SpecOps (Expeditionary Force, #2)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1464952346l/30342581._SY75_.jpg\" /></a><br/>\n                                      author: Craig Alanson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 2016<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/03/28<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "277"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/8471400772?utm_medium=api&utm_source=rss",
       "title": "Columbus Day (Expeditionary Force, #1)",
       "link": "https://www.goodreads.com/review/show/8471400772?utm_medium=api&utm_source=rss",
@@ -11,15 +32,15 @@
       "authorName": "Craig Alanson",
       "isbn": "1520126247",
       "userName": "Daniel",
-      "userRating": "0",
-      "userReadAt": "",
-      "userDateAdded": "2026-03-28T07:27:34.000Z",
+      "userRating": "5",
+      "userReadAt": "2026-03-28T00:00:00.000Z",
+      "userDateAdded": "2026-03-29T05:49:59.000Z",
       "userDateCreated": "2026-03-27T07:34:04.000Z",
-      "userShelves": "currently-reading",
+      "userShelves": "",
       "userReview": "",
       "averageRating": "4.2",
       "bookPublished": "2016",
-      "description": "<a href=\"https://www.goodreads.com/book/show/36449535-columbus-day?utm_medium=api&amp;utm_source=rss\"><img alt=\"Columbus Day (Expeditionary Force, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1508556358l/36449535._SY75_.jpg\" /></a><br/>\n                                      author: Craig Alanson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 2016<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/03/28<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/36449535-columbus-day?utm_medium=api&amp;utm_source=rss\"><img alt=\"Columbus Day (Expeditionary Force, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1508556358l/36449535._SY75_.jpg\" /></a><br/>\n                                      author: Craig Alanson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 2016<br/>\n                                      rating: 5<br/>\n                                      read at: 2026/03/28<br/>\n                                      date added: 2026/03/28<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "299"
     },
     {
@@ -4158,27 +4179,6 @@
       "bookPublished": "",
       "description": "<a href=\"https://www.goodreads.com/book/show/209839514-industrial-policy-for-the-united-states?utm_medium=api&amp;utm_source=rss\"><img alt=\"Industrial Policy for the United States: Winning the Competition for Good Jobs and High-Value Industries\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1721596261l/209839514._SY75_.jpg\" /></a><br/>\n                                      author: Marc Fasteau<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.7<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/06/19<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
       "numPages": "836"
-    },
-    {
-      "id": "https://www.goodreads.com/review/show/7665940189?utm_medium=api&utm_source=rss",
-      "title": "If Anyone Builds It, Everyone Dies: Why Superhuman AI Would Kill Us All",
-      "link": "https://www.goodreads.com/review/show/7665940189?utm_medium=api&utm_source=rss",
-      "bookId": "228697879",
-      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1755148210l/228697879._SY75_.jpg",
-      "bookDescription": "<b>INSTANT <i>NEW YORK TIMES </i>BESTSELLER | <i>The New Yorker</i>'s Best Books of 2025 | <i>The Guardian</i>'s Best Books of 2025 | A 2025 <i>Booklist </i>Editors' Choice Pick<br /><br /> The scramble to create superhuman AI has put us on the path to extinction—but it’s not too late to change course, as two of the field’s earliest researchers explain in this clarion call for humanity.<br /><br /> \"May prove to be the most important book of our time.”—Tim Urban, <i>Wait But Why</i></b><br /><br /> In 2023, hundreds of AI luminaries signed an open letter warning that artificial intelligence poses a serious risk of human extinction. Since then, the AI race has only intensified. Companies and countries are rushing to build machines that will be smarter than any person. And the world is devastatingly unprepared for what would come next.<br />  <br /> For decades, two signatories of that letter—Eliezer Yudkowsky and Nate Soares—have studied how smarter-than-human intelligences will think, behave, and pursue their objectives. Their research says that sufficiently smart AIs will develop goals of their own that put them in conflict with us—and that if it comes to conflict, an artificial superintelligence would crush us. The contest wouldn’t even be close.<br />  <br /> How could a machine superintelligence wipe out our entire species? Why would it want to? Would it want anything at all? In this urgent book, Yudkowsky and Soares walk through the theory and the evidence, present one possible extinction scenario, and explain what it would take for humanity to survive. <br />  <br /> The world is racing to build something truly new under the sun. And if anyone builds it, everyone dies.<br /><br /><b>“The best no-nonsense, simple explanation of the AI risk problem I've ever read.”—Yishan Wong, Former CEO of Reddit</b>",
-      "authorName": "Eliezer Yudkowsky",
-      "isbn": "0316595667",
-      "userName": "Daniel",
-      "userRating": "0",
-      "userReadAt": "",
-      "userDateAdded": "2025-06-19T01:52:19.000Z",
-      "userDateCreated": "2025-06-19T01:52:18.000Z",
-      "userShelves": "to-read",
-      "userReview": "",
-      "averageRating": "4.3",
-      "bookPublished": "2025",
-      "description": "<a href=\"https://www.goodreads.com/book/show/228697879-if-anyone-builds-it-everyone-dies?utm_medium=api&amp;utm_source=rss\"><img alt=\"If Anyone Builds It, Everyone Dies: Why Superhuman AI Would Kill Us All\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1755148210l/228697879._SY75_.jpg\" /></a><br/>\n                                      author: Eliezer Yudkowsky<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: 2025<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/06/18<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
-      "numPages": "232"
     }
   ]
 }
