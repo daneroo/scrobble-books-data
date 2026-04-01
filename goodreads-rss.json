@@ -11,15 +11,15 @@
       "authorName": "Craig Alanson",
       "isbn": "",
       "userName": "Daniel",
-      "userRating": "0",
-      "userReadAt": "",
-      "userDateAdded": "2026-04-01T07:18:40.000Z",
+      "userRating": "4",
+      "userReadAt": "2026-04-01T00:00:00.000Z",
+      "userDateAdded": "2026-04-01T18:40:46.000Z",
       "userDateCreated": "2026-03-29T05:50:08.000Z",
-      "userShelves": "currently-reading",
+      "userShelves": "",
       "userReview": "",
       "averageRating": "4.2",
       "bookPublished": "2016",
-      "description": "<a href=\"https://www.goodreads.com/book/show/30342581-specops?utm_medium=api&amp;utm_source=rss\"><img alt=\"SpecOps (Expeditionary Force, #2)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1464952346l/30342581._SY75_.jpg\" /></a><br/>\n                                      author: Craig Alanson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 2016<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/04/01<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/30342581-specops?utm_medium=api&amp;utm_source=rss\"><img alt=\"SpecOps (Expeditionary Force, #2)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1464952346l/30342581._SY75_.jpg\" /></a><br/>\n                                      author: Craig Alanson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 2016<br/>\n                                      rating: 4<br/>\n                                      read at: 2026/04/01<br/>\n                                      date added: 2026/04/01<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "277"
     },
     {
@@ -12708,7 +12708,7 @@
     },
     {
       "id": "https://www.goodreads.com/review/show/5737597986?utm_medium=api&utm_source=rss",
-      "title": "Code That Fits in Your Head: Heuristics for Software Engineering",
+      "title": "Code That Fits in Your Head: Heuristics for Software Engineering (Robert C. Martin Series)",
       "link": "https://www.goodreads.com/review/show/5737597986?utm_medium=api&utm_source=rss",
       "bookId": "59535925",
       "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1636006120l/59535925._SX50_.jpg",
@@ -12724,7 +12724,7 @@
       "userReview": "",
       "averageRating": "4.4",
       "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/59535925-code-that-fits-in-your-head?utm_medium=api&amp;utm_source=rss\"><img alt=\"Code That Fits in Your Head: Heuristics for Software Engineering\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1636006120l/59535925._SX50_.jpg\" /></a><br/>\n                                      author: Mark Seemann<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.4<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/08/02<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/59535925-code-that-fits-in-your-head?utm_medium=api&amp;utm_source=rss\"><img alt=\"Code That Fits in Your Head: Heuristics for Software Engineering (Robert C. Martin Series)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1636006120l/59535925._SX50_.jpg\" /></a><br/>\n                                      author: Mark Seemann<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.4<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/08/02<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
       "numPages": "416"
     },
     {
