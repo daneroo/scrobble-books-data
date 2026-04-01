@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/8484212961?utm_medium=api&utm_source=rss",
+      "title": "The Warehouse",
+      "link": "https://www.goodreads.com/review/show/8484212961?utm_medium=api&utm_source=rss",
+      "bookId": "45885120",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1558277132l/45885120._SY75_.jpg",
+      "bookDescription": "Cloud isn’t just a place to work. It’s a place to live. And when you’re here, you’ll never want to leave.<br /><br />Paxton never thought he’d be working for Cloud, the giant tech company that’s eaten much of the American economy. Much less that he’d be moving into one of the company’s sprawling live-work facilities. <br /><br />But compared to what’s left outside, Cloud’s bland chainstore life of gleaming entertainment halls, open-plan offices, and vast warehouses…well, it doesn’t seem so bad. It’s more than anyone else is offering. <br /><br />Zinnia never thought she’d be infiltrating Cloud. But now she’s undercover, inside the walls, risking it all to ferret out the company’s darkest secrets. And Paxton, with his ordinary little hopes and fears? He just might make the perfect pawn. If she can bear to sacrifice him. <br /><br />As the truth about Cloud unfolds, Zinnia must gamble everything on a desperate scheme—one that risks both their lives, even as it forces Paxton to question everything about the world he’s so carefully assembled here. <br /><br />Together, they’ll learn just how far the company will go…to make the world a better place. <br /><br />Set in the confines of a corporate panopticon that’s at once brilliantly imagined and terrifyingly real, <i> The Warehouse </i> is a near-future thriller about what happens when Big Brother meets Big Business--and who will pay the ultimate price.",
+      "authorName": "Rob Hart",
+      "isbn": "1984823795",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2026-03-31T23:23:31.000Z",
+      "userDateCreated": "2026-03-31T23:23:31.000Z",
+      "userShelves": "to-read",
+      "userReview": "",
+      "averageRating": "3.8",
+      "bookPublished": "2019",
+      "description": "<a href=\"https://www.goodreads.com/book/show/45885120-the-warehouse?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Warehouse\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1558277132l/45885120._SY75_.jpg\" /></a><br/>\n                                      author: Rob Hart<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.8<br/>\n                                      book published: 2019<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/03/31<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "numPages": "368"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/8479374708?utm_medium=api&utm_source=rss",
       "title": "The Infinity Machine: Demis Hassabis, DeepMind, and the Quest for Superintelligence",
       "link": "https://www.goodreads.com/review/show/8479374708?utm_medium=api&utm_source=rss",
