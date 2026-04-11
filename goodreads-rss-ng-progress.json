@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/8514629664?utm_medium=api&utm_source=rss",
+      "title": "The Colosseum (Wonders of the World)",
+      "link": "https://www.goodreads.com/review/show/8514629664?utm_medium=api&utm_source=rss",
+      "bookId": "1248751",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348948553l/1248751._SY75_.jpg",
+      "bookDescription": "Read the Bldg Blog interview with Mary Beard about the Wonders of the World series (Part I and Part II) Byron and Hitler were equally entranced by Rome's most famous monument, the Colosseum. Mid-Victorians admired the hundreds of varieties of flowers in its crannies and occasionally shuddered at its reputation for contagion, danger, and sexual temptation. Today it is the highlight of a tour of Italy for more than three million visitors a year, a concert arena for the likes of Paul McCartney, and a national symbol of opposition to the death penalty. Its ancient history is chockfull of romantic but erroneous myths. There is no evidence that any gladiator ever said \"Hail Caesar, those about to die...\" and we know of not one single Christian martyr who met his finish here. Yet the reality is much stranger than the legend as the authors, two prominent classical historians, explain in this absorbing account. We learn the details of how the arena was built and at what cost; we are introduced to the emperors who sometimes fought in gladiatorial games staged at the Colosseum; and we take measure of the audience who reveled in, or opposed, these games. The authors also trace the strange afterlife of the monument--as fortress, shrine of martyrs, church, and glue factory. Why are we so fascinated with this arena of death?",
+      "authorName": "Keith Hopkins",
+      "isbn": "0674018958",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2026-04-11T21:23:15.000Z",
+      "userDateCreated": "2026-04-11T21:23:15.000Z",
+      "userShelves": "",
+      "userReview": "",
+      "averageRating": "3.7",
+      "bookPublished": "2005",
+      "description": "<a href=\"https://www.goodreads.com/book/show/1248751.The_Colosseum?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Colosseum (Wonders of the World)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348948553l/1248751._SY75_.jpg\" /></a><br/>\n                                      author: Keith Hopkins<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.7<br/>\n                                      book published: 2005<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/04/11<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "numPages": "224"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/8513147568?utm_medium=api&utm_source=rss",
       "title": "A Walk Through Ancient Rome: A Tour of the Historical Sites That Shaped the City",
       "link": "https://www.goodreads.com/review/show/8513147568?utm_medium=api&utm_source=rss",
@@ -164,9 +185,9 @@
       "userDateCreated": "2026-03-30T07:44:17.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "4.4",
+      "averageRating": "4.5",
       "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/241434373-the-infinity-machine?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Infinity Machine: Demis Hassabis, DeepMind, and the Quest for Superintelligence\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1759148143l/241434373._SY75_.jpg\" /></a><br/>\n                                      author: Sebastian Mallaby<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.4<br/>\n                                      book published: <br/>\n                                      rating: 4<br/>\n                                      read at: 2026/04/02<br/>\n                                      date added: 2026/04/02<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/241434373-the-infinity-machine?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Infinity Machine: Demis Hassabis, DeepMind, and the Quest for Superintelligence\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1759148143l/241434373._SY75_.jpg\" /></a><br/>\n                                      author: Sebastian Mallaby<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.5<br/>\n                                      book published: <br/>\n                                      rating: 4<br/>\n                                      read at: 2026/04/02<br/>\n                                      date added: 2026/04/02<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "480"
     },
     {
