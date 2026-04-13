@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/7224569602?utm_medium=api&utm_source=rss",
+      "title": "The System of the World (The Baroque Cycle, Vol. 3, Book 3)",
+      "link": "https://www.goodreads.com/review/show/7224569602?utm_medium=api&utm_source=rss",
+      "bookId": "459504",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1251290378l/459504._SX50_.jpg",
+      "bookDescription": "In this concluding volume of Neal Stephenson's epic work, \"Half-Cocked Jack\" Shaftoe must escape the noose of Jack Ketch; the rivalry between Newton and Leibniz comes to a head; and Daniel Waterhouse pursues his dream to build the Logic Mill.<br /><br />The Baroque Cycle, Neal Stephenson's award-winning series, spans the late 17th and early 18th centuries, combining history, adventure, science, invention, piracy, and alchemy into one sweeping tale. It is a gloriously rich, entertaining, and endlessly inventive historical epic populated by the likes of Isaac Newton, William of Orange, Benjamin Franklin, and King Louis XIV, along with some of the most inventive literary characters in modern fiction.<br /><br />Audible's complete and unabridged presentation of The Baroque Cycle was produced in cooperation with Neal Stephenson. Each volume includes an exclusive introduction read by the author.",
+      "authorName": "Neal Stephenson",
+      "isbn": "0060895535",
+      "userName": "Daniel",
+      "userRating": "5",
+      "userReadAt": "2025-01-22T00:00:00.000Z",
+      "userDateAdded": "2026-04-12T23:51:20.000Z",
+      "userDateCreated": "2025-01-17T08:28:30.000Z",
+      "userShelves": "",
+      "userReview": "",
+      "averageRating": "4.5",
+      "bookPublished": "",
+      "description": "<a href=\"https://www.goodreads.com/book/show/459504.The_System_of_the_World?utm_medium=api&amp;utm_source=rss\"><img alt=\"The System of the World (The Baroque Cycle, Vol. 3, Book 3)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1251290378l/459504._SX50_.jpg\" /></a><br/>\n                                      author: Neal Stephenson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.5<br/>\n                                      book published: <br/>\n                                      rating: 5<br/>\n                                      read at: 2025/01/22<br/>\n                                      date added: 2026/04/12<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "numPages": "368"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/8471316618?utm_medium=api&utm_source=rss",
       "title": "Toll the Hounds (Malazan Book of the Fallen, #8)",
       "link": "https://www.goodreads.com/review/show/8471316618?utm_medium=api&utm_source=rss",
@@ -1893,11 +1914,11 @@
     },
     {
       "id": "https://www.goodreads.com/review/show/5403061935?utm_medium=api&utm_source=rss",
-      "title": "Quicksilver (The Baroque Cycle, Vol. 1, Book 1)",
+      "title": "Quicksilver (The Baroque Cycle (8-book), Book 1)",
       "link": "https://www.goodreads.com/review/show/5403061935?utm_medium=api&utm_source=rss",
       "bookId": "45277",
       "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1490002404l/45277._SY75_.jpg",
-      "bookDescription": "In which Daniel Waterhouse, fearless thinker and courageous Puritan, pursues knowledge in the company of the greatest minds of Baroque-era Europe -- in a chaotic world where reason wars with the bloody ambitions of the mighty, and where catastrophe, natural or otherwise, can alter the political landscape overnight.<br />(back cover)",
+      "bookDescription": "In which Daniel Waterhouse, fearless thinker and courageous Puritan, pursues knowledge in the company of the greatest minds of Baroque-era Europe -- in a chaotic world where reason wars with the bloody ambitions of the mighty, and where catastrophe, natural or otherwise, can alter the political landscape overnight.",
       "authorName": "Neal Stephenson",
       "isbn": "0060833165",
       "userName": "Daniel",
@@ -1909,7 +1930,7 @@
       "userReview": "",
       "averageRating": "4.2",
       "bookPublished": "2003",
-      "description": "<a href=\"https://www.goodreads.com/book/show/45277.Quicksilver?utm_medium=api&amp;utm_source=rss\"><img alt=\"Quicksilver (The Baroque Cycle, Vol. 1, Book 1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1490002404l/45277._SY75_.jpg\" /></a><br/>\n                                      author: Neal Stephenson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 2003<br/>\n                                      rating: 4<br/>\n                                      read at: 2023/03/12<br/>\n                                      date added: 2025/11/12<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/45277.Quicksilver_The_Baroque_Cycle?utm_medium=api&amp;utm_source=rss\"><img alt=\"Quicksilver (The Baroque Cycle (8-book), Book 1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1490002404l/45277._SY75_.jpg\" /></a><br/>\n                                      author: Neal Stephenson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 2003<br/>\n                                      rating: 4<br/>\n                                      read at: 2023/03/12<br/>\n                                      date added: 2025/11/12<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "456"
     },
     {
@@ -2288,27 +2309,6 @@
       "averageRating": "4.0",
       "bookPublished": "",
       "description": "<a href=\"https://www.goodreads.com/book/show/55298400-journey-to-the-edge-of-reason?utm_medium=api&amp;utm_source=rss\"><img alt=\"Journey to the Edge of Reason: The Life of Kurt Gödel\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1615001606l/55298400._SY75_.jpg\" /></a><br/>\n                                      author: Stephen Budiansky<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: <br/>\n                                      rating: 4<br/>\n                                      read at: 2025/10/28<br/>\n                                      date added: 2025/10/28<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
-      "numPages": "368"
-    },
-    {
-      "id": "https://www.goodreads.com/review/show/7224569602?utm_medium=api&utm_source=rss",
-      "title": "The System of the World (The Baroque Cycle, Vol. 3, Book 3)",
-      "link": "https://www.goodreads.com/review/show/7224569602?utm_medium=api&utm_source=rss",
-      "bookId": "459504",
-      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1251290378l/459504._SX50_.jpg",
-      "bookDescription": "In this concluding volume of Neal Stephenson's epic work, \"Half-Cocked Jack\" Shaftoe must escape the noose of Jack Ketch; the rivalry between Newton and Leibniz comes to a head; and Daniel Waterhouse pursues his dream to build the Logic Mill.<br /><br />The Baroque Cycle, Neal Stephenson's award-winning series, spans the late 17th and early 18th centuries, combining history, adventure, science, invention, piracy, and alchemy into one sweeping tale. It is a gloriously rich, entertaining, and endlessly inventive historical epic populated by the likes of Isaac Newton, William of Orange, Benjamin Franklin, and King Louis XIV, along with some of the most inventive literary characters in modern fiction.<br /><br />Audible's complete and unabridged presentation of The Baroque Cycle was produced in cooperation with Neal Stephenson. Each volume includes an exclusive introduction read by the author.",
-      "authorName": "Neal Stephenson",
-      "isbn": "0060895535",
-      "userName": "Daniel",
-      "userRating": "5",
-      "userReadAt": "2025-01-22T00:00:00.000Z",
-      "userDateAdded": "2025-10-28T20:03:47.000Z",
-      "userDateCreated": "2025-01-17T08:28:30.000Z",
-      "userShelves": "",
-      "userReview": "",
-      "averageRating": "4.5",
-      "bookPublished": "2004",
-      "description": "<a href=\"https://www.goodreads.com/book/show/459504.The_System_of_the_World?utm_medium=api&amp;utm_source=rss\"><img alt=\"The System of the World (The Baroque Cycle, Vol. 3, Book 3)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1251290378l/459504._SX50_.jpg\" /></a><br/>\n                                      author: Neal Stephenson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.5<br/>\n                                      book published: 2004<br/>\n                                      rating: 5<br/>\n                                      read at: 2025/01/22<br/>\n                                      date added: 2025/10/28<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "368"
     },
     {
@@ -6114,7 +6114,7 @@
     },
     {
       "id": "https://www.goodreads.com/review/show/7213573177?utm_medium=api&utm_source=rss",
-      "title": "Currency (The Baroque Cycle, Vol. 3, Book 2)",
+      "title": "Currency (The Baroque Cycle, Book 7)",
       "link": "https://www.goodreads.com/review/show/7213573177?utm_medium=api&utm_source=rss",
       "bookId": "227968",
       "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1308799105l/227968._SX50_.jpg",
@@ -6130,7 +6130,7 @@
       "userReview": "",
       "averageRating": "4.4",
       "bookPublished": "2003",
-      "description": "<a href=\"https://www.goodreads.com/book/show/227968.Currency?utm_medium=api&amp;utm_source=rss\"><img alt=\"Currency (The Baroque Cycle, Vol. 3, Book 2)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1308799105l/227968._SX50_.jpg\" /></a><br/>\n                                      author: Neal Stephenson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.4<br/>\n                                      book published: 2003<br/>\n                                      rating: 4<br/>\n                                      read at: 2025/01/19<br/>\n                                      date added: 2025/01/19<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/227968.Currency?utm_medium=api&amp;utm_source=rss\"><img alt=\"Currency (The Baroque Cycle, Book 7)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1308799105l/227968._SX50_.jpg\" /></a><br/>\n                                      author: Neal Stephenson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.4<br/>\n                                      book published: 2003<br/>\n                                      rating: 4<br/>\n                                      read at: 2025/01/19<br/>\n                                      date added: 2025/01/19<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "448"
     },
     {
@@ -6156,7 +6156,7 @@
     },
     {
       "id": "https://www.goodreads.com/review/show/7197430404?utm_medium=api&utm_source=rss",
-      "title": "Solomon's Gold (The Baroque Cycle, Vol. 3, Book 1)",
+      "title": "Solomon’s Gold (The Baroque Cycle, Book 6)",
       "link": "https://www.goodreads.com/review/show/7197430404?utm_medium=api&utm_source=rss",
       "bookId": "2017",
       "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1308799029l/2017._SX50_.jpg",
@@ -6172,7 +6172,7 @@
       "userReview": "",
       "averageRating": "4.3",
       "bookPublished": "2004",
-      "description": "<a href=\"https://www.goodreads.com/book/show/2017.Solomon_s_Gold?utm_medium=api&amp;utm_source=rss\"><img alt=\"Solomon&#39;s Gold (The Baroque Cycle, Vol. 3, Book 1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1308799029l/2017._SX50_.jpg\" /></a><br/>\n                                      author: Neal Stephenson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: 2004<br/>\n                                      rating: 4<br/>\n                                      read at: 2025/01/17<br/>\n                                      date added: 2025/01/17<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/2017.Solomon_s_Gold?utm_medium=api&amp;utm_source=rss\"><img alt=\"Solomon’s Gold (The Baroque Cycle, Book 6)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1308799029l/2017._SX50_.jpg\" /></a><br/>\n                                      author: Neal Stephenson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: 2004<br/>\n                                      rating: 4<br/>\n                                      read at: 2025/01/17<br/>\n                                      date added: 2025/01/17<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "448"
     },
     {
@@ -6219,7 +6219,7 @@
     },
     {
       "id": "https://www.goodreads.com/review/show/7184792829?utm_medium=api&utm_source=rss",
-      "title": "The Confusion, Part II (The Baroque Cycle, Vol. 2, Book 2)",
+      "title": "The Confusion, Part II (The Baroque Cycle, Vol. 2, Part 2)",
       "link": "https://www.goodreads.com/review/show/7184792829?utm_medium=api&utm_source=rss",
       "bookId": "1745057",
       "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1187670022l/1745057._SY75_.jpg",
@@ -6235,7 +6235,7 @@
       "userReview": "",
       "averageRating": "4.4",
       "bookPublished": "2012",
-      "description": "<a href=\"https://www.goodreads.com/book/show/1745057.The_Confusion_Part_II?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Confusion, Part II (The Baroque Cycle, Vol. 2, Book 2)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1187670022l/1745057._SY75_.jpg\" /></a><br/>\n                                      author: Neal Stephenson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.4<br/>\n                                      book published: 2012<br/>\n                                      rating: 4<br/>\n                                      read at: 2025/01/14<br/>\n                                      date added: 2025/01/14<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/1745057.The_Confusion_Part_II?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Confusion, Part II (The Baroque Cycle, Vol. 2, Part 2)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1187670022l/1745057._SY75_.jpg\" /></a><br/>\n                                      author: Neal Stephenson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.4<br/>\n                                      book published: 2012<br/>\n                                      rating: 4<br/>\n                                      read at: 2025/01/14<br/>\n                                      date added: 2025/01/14<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "0"
     },
     {
@@ -6261,7 +6261,7 @@
     },
     {
       "id": "https://www.goodreads.com/review/show/7184792344?utm_medium=api&utm_source=rss",
-      "title": "The Confusion, Part I (The Baroque Cycle, Vol. 2, Book 1)",
+      "title": "The Confusion, Part I (The Baroque Cycle, Vol. 2, Part 1)",
       "link": "https://www.goodreads.com/review/show/7184792344?utm_medium=api&utm_source=rss",
       "bookId": "227967",
       "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1172882537l/227967._SY75_.jpg",
@@ -6277,7 +6277,7 @@
       "userReview": "",
       "averageRating": "4.4",
       "bookPublished": "2004",
-      "description": "<a href=\"https://www.goodreads.com/book/show/227967.The_Confusion_Part_I?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Confusion, Part I (The Baroque Cycle, Vol. 2, Book 1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1172882537l/227967._SY75_.jpg\" /></a><br/>\n                                      author: Neal Stephenson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.4<br/>\n                                      book published: 2004<br/>\n                                      rating: 4<br/>\n                                      read at: 2025/01/10<br/>\n                                      date added: 2025/01/10<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/227967.The_Confusion_Part_I?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Confusion, Part I (The Baroque Cycle, Vol. 2, Part 1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1172882537l/227967._SY75_.jpg\" /></a><br/>\n                                      author: Neal Stephenson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.4<br/>\n                                      book published: 2004<br/>\n                                      rating: 4<br/>\n                                      read at: 2025/01/10<br/>\n                                      date added: 2025/01/10<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "608"
     },
     {
@@ -6555,7 +6555,7 @@
     },
     {
       "id": "https://www.goodreads.com/review/show/7098785581?utm_medium=api&utm_source=rss",
-      "title": "Odalisque (The Baroque Cycle, Vol. 1, Book 3)",
+      "title": "Odalisque (The Baroque Cycle, Book 3)",
       "link": "https://www.goodreads.com/review/show/7098785581?utm_medium=api&utm_source=rss",
       "bookId": "829",
       "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1157396687l/829._SY75_.jpg",
@@ -6571,12 +6571,12 @@
       "userReview": "",
       "averageRating": "4.2",
       "bookPublished": "2005",
-      "description": "<a href=\"https://www.goodreads.com/book/show/829.Odalisque?utm_medium=api&amp;utm_source=rss\"><img alt=\"Odalisque (The Baroque Cycle, Vol. 1, Book 3)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1157396687l/829._SY75_.jpg\" /></a><br/>\n                                      author: Neal Stephenson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 2005<br/>\n                                      rating: 4<br/>\n                                      read at: 2024/12/23<br/>\n                                      date added: 2024/12/23<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/829.Odalisque?utm_medium=api&amp;utm_source=rss\"><img alt=\"Odalisque (The Baroque Cycle, Book 3)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1157396687l/829._SY75_.jpg\" /></a><br/>\n                                      author: Neal Stephenson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 2005<br/>\n                                      rating: 4<br/>\n                                      read at: 2024/12/23<br/>\n                                      date added: 2024/12/23<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "464"
     },
     {
       "id": "https://www.goodreads.com/review/show/7098785388?utm_medium=api&utm_source=rss",
-      "title": "King of the Vagabonds (The Baroque Cycle, Vol. 1, Book 2)",
+      "title": "King of the Vagabonds (The Baroque Cycle, Book 2)",
       "link": "https://www.goodreads.com/review/show/7098785388?utm_medium=api&utm_source=rss",
       "bookId": "2016",
       "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1714762512l/2016._SY75_.jpg",
@@ -6592,7 +6592,7 @@
       "userReview": "",
       "averageRating": "4.2",
       "bookPublished": "2004",
-      "description": "<a href=\"https://www.goodreads.com/book/show/2016.King_of_the_Vagabonds?utm_medium=api&amp;utm_source=rss\"><img alt=\"King of the Vagabonds (The Baroque Cycle, Vol. 1, Book 2)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1714762512l/2016._SY75_.jpg\" /></a><br/>\n                                      author: Neal Stephenson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 2004<br/>\n                                      rating: 5<br/>\n                                      read at: 2024/12/21<br/>\n                                      date added: 2024/12/21<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/2016.King_of_the_Vagabonds?utm_medium=api&amp;utm_source=rss\"><img alt=\"King of the Vagabonds (The Baroque Cycle, Book 2)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1714762512l/2016._SY75_.jpg\" /></a><br/>\n                                      author: Neal Stephenson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 2004<br/>\n                                      rating: 5<br/>\n                                      read at: 2024/12/21<br/>\n                                      date added: 2024/12/21<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "400"
     },
     {
@@ -16229,9 +16229,9 @@
       "userDateCreated": "2022-09-18T07:35:24.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "4.2",
+      "averageRating": "4.3",
       "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/43190851-the-hundred-page-machine-learning-book?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Hundred-Page Machine Learning Book\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546285613l/43190851._SX50_.jpg\" /></a><br/>\n                                      author: Andriy Burkov<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/09/18<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/43190851-the-hundred-page-machine-learning-book?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Hundred-Page Machine Learning Book\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546285613l/43190851._SX50_.jpg\" /></a><br/>\n                                      author: Andriy Burkov<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/09/18<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
       "numPages": "159"
     },
     {
