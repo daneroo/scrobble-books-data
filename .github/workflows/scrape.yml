@@ -21,7 +21,7 @@ jobs:
       W3_PROOF: ${{ secrets.W3_PROOF }}
     steps:
       - uses: actions/checkout@v6
-      - uses: pnpm/action-setup@v4
+      - uses: pnpm/action-setup@v6
         with:
           # version: Optional when there is a packageManager field in the package.json
           # version: 9
