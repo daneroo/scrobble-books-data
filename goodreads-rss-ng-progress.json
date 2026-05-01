@@ -11,15 +11,15 @@
       "authorName": "Ferdinand Addis",
       "isbn": "1681775425",
       "userName": "Daniel",
-      "userRating": "0",
-      "userReadAt": "",
-      "userDateAdded": "2026-04-30T05:19:32.000Z",
+      "userRating": "4",
+      "userReadAt": "2026-04-30T00:00:00.000Z",
+      "userDateAdded": "2026-05-01T04:38:47.000Z",
       "userDateCreated": "2026-04-11T07:09:48.000Z",
       "userShelves": "",
       "userReview": "",
       "averageRating": "4.2",
       "bookPublished": "2018",
-      "description": "<a href=\"https://www.goodreads.com/book/show/34445249-the-eternal-city?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Eternal City: A History of Rome\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1520028617l/34445249._SY75_.jpg\" /></a><br/>\n                                      author: Ferdinand Addis<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 2018<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/04/29<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/34445249-the-eternal-city?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Eternal City: A History of Rome\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1520028617l/34445249._SY75_.jpg\" /></a><br/>\n                                      author: Ferdinand Addis<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 2018<br/>\n                                      rating: 4<br/>\n                                      read at: 2026/04/30<br/>\n                                      date added: 2026/04/30<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "632"
     },
     {
@@ -2306,9 +2306,9 @@
       "userDateCreated": "2025-10-26T21:35:37.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "3.2",
+      "averageRating": "3.1",
       "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/232301660-beyond-vibe-coding?utm_medium=api&amp;utm_source=rss\"><img alt=\"Beyond Vibe Coding: From Coder to AI-Era Developer\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1747084022l/232301660._SX50_.jpg\" /></a><br/>\n                                      author: Addy Osmani<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.2<br/>\n                                      book published: <br/>\n                                      rating: 4<br/>\n                                      read at: 2025/10/29<br/>\n                                      date added: 2025/10/29<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/232301660-beyond-vibe-coding?utm_medium=api&amp;utm_source=rss\"><img alt=\"Beyond Vibe Coding: From Coder to AI-Era Developer\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1747084022l/232301660._SX50_.jpg\" /></a><br/>\n                                      author: Addy Osmani<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.1<br/>\n                                      book published: <br/>\n                                      rating: 4<br/>\n                                      read at: 2025/10/29<br/>\n                                      date added: 2025/10/29<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "252"
     },
     {
