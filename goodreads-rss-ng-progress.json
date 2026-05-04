@@ -12,14 +12,14 @@
       "isbn": "",
       "userName": "Daniel",
       "userRating": "4",
-      "userReadAt": "2021-02-07T00:00:00.000Z",
-      "userDateAdded": "2026-05-04T04:05:33.000Z",
+      "userReadAt": "2026-05-03T00:00:00.000Z",
+      "userDateAdded": "2026-05-04T06:23:51.000Z",
       "userDateCreated": "2020-09-13T01:02:01.000Z",
       "userShelves": "",
       "userReview": "",
       "averageRating": "4.0",
       "bookPublished": "1968",
-      "description": "<a href=\"https://www.goodreads.com/book/show/13642.A_Wizard_of_Earthsea?utm_medium=api&amp;utm_source=rss\"><img alt=\"A Wizard of Earthsea (Earthsea Cycle, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1353424536l/13642._SY75_.jpg\" /></a><br/>\n                                      author: Ursula K. Le Guin<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: 1968<br/>\n                                      rating: 4<br/>\n                                      read at: 2021/02/07<br/>\n                                      date added: 2026/05/03<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/13642.A_Wizard_of_Earthsea?utm_medium=api&amp;utm_source=rss\"><img alt=\"A Wizard of Earthsea (Earthsea Cycle, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1353424536l/13642._SY75_.jpg\" /></a><br/>\n                                      author: Ursula K. Le Guin<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: 1968<br/>\n                                      rating: 4<br/>\n                                      read at: 2026/05/03<br/>\n                                      date added: 2026/05/03<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "183"
     },
     {
