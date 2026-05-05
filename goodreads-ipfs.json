@@ -1,9 +1,9 @@
 {
-  "rootCID": "bafybeidjwpxav43hk47p5fbgqiwrzs2ucx47d354l2y6ff4hce7fmznkku",
-  "rootLink": "https://bafybeidjwpxav43hk47p5fbgqiwrzs2ucx47d354l2y6ff4hce7fmznkku.ipfs.w3s.link/",
+  "rootCID": "bafybeifeq2w2f74l72m5lpdjk6hp5552dkmvtuab3iypoosy2rotibxtr4",
+  "rootLink": "https://bafybeifeq2w2f74l72m5lpdjk6hp5552dkmvtuab3iypoosy2rotibxtr4.ipfs.w3s.link/",
   "fileLinks": [
-    "https://bafybeidjwpxav43hk47p5fbgqiwrzs2ucx47d354l2y6ff4hce7fmznkku.ipfs.w3s.link/goodreads-rss.json",
-    "https://bafybeidjwpxav43hk47p5fbgqiwrzs2ucx47d354l2y6ff4hce7fmznkku.ipfs.w3s.link/goodreads-rss-ng.json",
-    "https://bafybeidjwpxav43hk47p5fbgqiwrzs2ucx47d354l2y6ff4hce7fmznkku.ipfs.w3s.link/goodreads-rss-ng-progress.json"
+    "https://bafybeifeq2w2f74l72m5lpdjk6hp5552dkmvtuab3iypoosy2rotibxtr4.ipfs.w3s.link/goodreads-rss.json",
+    "https://bafybeifeq2w2f74l72m5lpdjk6hp5552dkmvtuab3iypoosy2rotibxtr4.ipfs.w3s.link/goodreads-rss-ng.json",
+    "https://bafybeifeq2w2f74l72m5lpdjk6hp5552dkmvtuab3iypoosy2rotibxtr4.ipfs.w3s.link/goodreads-rss-ng-progress.json"
   ]
 }
