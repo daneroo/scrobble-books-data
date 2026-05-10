@@ -11,15 +11,15 @@
       "authorName": "Ursula K. Le Guin",
       "isbn": "141650964X",
       "userName": "Daniel",
-      "userRating": "0",
-      "userReadAt": "",
-      "userDateAdded": "2026-05-09T06:26:42.000Z",
+      "userRating": "4",
+      "userReadAt": "2026-05-09T00:00:00.000Z",
+      "userDateAdded": "2026-05-10T06:10:19.000Z",
       "userDateCreated": "2026-05-09T06:26:25.000Z",
-      "userShelves": "currently-reading",
+      "userShelves": "",
       "userReview": "",
       "averageRating": "4.1",
       "bookPublished": "1972",
-      "description": "<a href=\"https://www.goodreads.com/book/show/13667.The_Farthest_Shore?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Farthest Shore (Earthsea Cycle, #3)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388200537l/13667._SY75_.jpg\" /></a><br/>\n                                      author: Ursula K. Le Guin<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: 1972<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/05/08<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/13667.The_Farthest_Shore?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Farthest Shore (Earthsea Cycle, #3)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388200537l/13667._SY75_.jpg\" /></a><br/>\n                                      author: Ursula K. Le Guin<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: 1972<br/>\n                                      rating: 4<br/>\n                                      read at: 2026/05/09<br/>\n                                      date added: 2026/05/09<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "259"
     },
     {
@@ -1130,9 +1130,9 @@
       "userDateCreated": "2025-12-31T21:47:55.000Z",
       "userShelves": "on-deck",
       "userReview": "",
-      "averageRating": "4.0",
+      "averageRating": "3.9",
       "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/232957226-flybot?utm_medium=api&amp;utm_source=rss\"><img alt=\"Flybot\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1750932958l/232957226._SX50_.jpg\" /></a><br/>\n                                      author: Dennis E. Taylor<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/12/31<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/232957226-flybot?utm_medium=api&amp;utm_source=rss\"><img alt=\"Flybot\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1750932958l/232957226._SX50_.jpg\" /></a><br/>\n                                      author: Dennis E. Taylor<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/12/31<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
       "numPages": "0"
     },
     {
