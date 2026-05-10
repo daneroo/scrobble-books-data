@@ -17,8 +17,6 @@ jobs:
     env:
       GOODREADS_KEY: ${{ secrets.GOODREADS_KEY }}
       GOODREADS_USER: ${{ secrets.GOODREADS_USER }}
-      W3_PRINCIPAL: ${{ secrets.W3_PRINCIPAL }}
-      W3_PROOF: ${{ secrets.W3_PROOF }}
     steps:
       - uses: actions/checkout@v6
       - uses: pnpm/action-setup@v4
@@ -43,13 +41,6 @@ jobs:
           version: latest
         id: install
 
-      - name: Install jq (for pin-sh)
-        run: sudo apt-get update && sudo apt-get install -y jq
-
-      - name: Install @web3-storage/w3cli (for pin-sh)
-        # Pinned (to 7.8.2) because of frequent breaking changes
-        run: npm install -g @web3-storage/w3cli@7.8.2
-
       - name: Report versions
         run: |
           echo "pnpm: $(pnpm --version)"
@@ -57,8 +48,6 @@ jobs:
           echo "bun: $(bun --version)"
           deno --version
           cue version
-          jq --version
-          w3 --version
 
       # Get the stamp for the eventual commit message
       - name: Get current date stamp
@@ -87,15 +76,6 @@ jobs:
           cue vet check-output.cue ../goodreads-rss-ng.json
         working-directory: cue
 
-      - name: Pin to web3.storage (bash / w3 cli)
-        # as of 2026-05-09: deprecated, and turned off
-        run: echo "Skipping Storacha / web3.storage - deprecated"
-        # run: ./apps/pin-sh/uploadToW3Storage.sh
-
-      #  JS version disabled for now
-      # - name: Pin to web3.storage (node)
-      #   run: node apps/pin/src/pin.js
-
       # see docs at https://github.com/stefanzweifel/git-auto-commit-action
       - name: Commit back changes
         uses: stefanzweifel/git-auto-commit-action@v7
@@ -108,7 +88,7 @@ jobs:
           # See the `pathspec`-documentation for git
           # - https://git-scm.com/docs/git-add#Documentation/git-add.txt-ltpathspecgt82308203
           # - https://git-scm.com/docs/gitglossary#Documentation/gitglossary.txt-aiddefpathspecapathspec
-          file_pattern: goodreads-rss.json goodreads-rss-ng.json goodreads-rss-ng-progress.json goodreads-ipfs.json
+          file_pattern: goodreads-rss.json goodreads-rss-ng.json goodreads-rss-ng-progress.json
 
           # Optional commit user and author settings
           commit_user_name: Scrobble Books GitHub Actions Bot # defaults to "github-actions[bot]"
