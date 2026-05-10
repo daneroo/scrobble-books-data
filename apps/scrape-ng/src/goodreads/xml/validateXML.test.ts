@@ -48,7 +48,7 @@ describe("validateXML", () => {
       const errorMessage = (error as Error).message;
       // Check that the message contains the expected content
       expect(errorMessage).toMatch(/guid/);
-      expect(errorMessage).toMatch(/Required/);
+      expect(errorMessage).toMatch(/expected string/);
     }
   });
 });

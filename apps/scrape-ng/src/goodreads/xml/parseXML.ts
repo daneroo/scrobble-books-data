@@ -30,7 +30,7 @@ export async function parseXML(xml: string): Promise<any> {
     parseTagValue: false, // do not use strnum to parse nums
     trimValues: true, // trim the text values
     isArray: (_tagName: string, jPath, _isLeafNode, _isAttribute) =>
-      alwaysArray.includes(jPath),
+      alwaysArray.includes(jPath.toString()),
   });
   const result = parser.parse(xml);
   return result;

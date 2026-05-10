@@ -99,12 +99,7 @@ async function fetchReviewItemsInPage(
   const items = $("#booksBody") // this is a tbody
     .find("tr")
     .map((_, row) => {
-      // Extract the ID from the row's attributes (not $row)
-      // this gets typed wrong, it should be string|undefined, but TS thinks it's string
-      // const id = (row as cheerio.TagElement).attribs.id as string | undefined;
-      // but I will let it slide and validate the whole output later
-      //  Casting to TagElement is safe because <tr>, and necessary to access the attribs property
-      const id = (row as cheerio.TagElement).attribs.id;
+      const id = $(row).attr("id") ?? "";
       const reviewId = id.split("_")?.[1] ?? "";
 
       // Extract title, author, and readCount using Cheerio selectors
