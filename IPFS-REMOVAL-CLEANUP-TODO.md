@@ -75,8 +75,10 @@ Temporary checklist for fully removing deprecated Storacha/web3.storage/IPFS pin
 - [x] Search workflow files for leftover pinning setup.
   - [x] `rg -n "pin|ipfs|web3|w3cli|W3_|WEB3|jq|docker compose|goodreads-ipfs" .github`
 - [ ] Run the workflow-equivalent local checks that do not require GitHub secrets.
-  - [ ] `pnpm test`
-  - [ ] `pnpm lint`
+  - [x] `pnpm test`
+    - Note: passed in user shell; Codex runner hangs/fails before pnpm runs project tests.
+  - [x] `pnpm lint`
+    - Note: passed in user shell; Codex runner hangs/fails before pnpm runs project lint.
   - [ ] Scrape workflow dry run if practical: `pnpm act:scrape`
 - [x] Confirm the scheduled scrape still writes and commits only:
   - [x] `goodreads-rss.json`
@@ -85,34 +87,34 @@ Temporary checklist for fully removing deprecated Storacha/web3.storage/IPFS pin
 
 ## Clean Repo Data And Docs
 
-- [ ] Decide whether to delete `goodreads-ipfs.json`.
-  - [ ] Delete it if it should no longer be a published current artifact.
-  - [ ] Keep it only if it is intentionally retained as historical data, and document that clearly.
-- [ ] Update `README.md`.
-  - [ ] Remove the IPFS/web3.storage item from the current task description.
-  - [ ] Remove `goodreads-ipfs.json` from public data file links if the file is deleted.
-  - [ ] Remove web3.storage console references.
-  - [ ] Remove `apps/pin` and `apps/pin-sh` usage commands.
-  - [ ] Remove old TODOs about reimplementing web3.storage/w3up-client.
-  - [ ] Replace with a short historical note only if useful.
-- [ ] Update `secrets/README.md`.
-  - [ ] Remove the `WEB3STORAGE.env` section.
-  - [ ] Remove statements saying `WEB3STORAGE.env` is used by the scrape action.
-  - [ ] Keep only the Goodreads credential documentation that is still active.
+- [x] Decide whether to delete `goodreads-ipfs.json`.
+  - [x] Delete it if it should no longer be a published current artifact.
+  - [x] Keep it only if it is intentionally retained as historical data, and document that clearly.
+- [x] Update `README.md`.
+  - [x] Remove the IPFS/web3.storage item from the current task description.
+  - [x] Remove `goodreads-ipfs.json` from public data file links if the file is deleted.
+  - [x] Remove web3.storage console references.
+  - [x] Remove `apps/pin` and `apps/pin-sh` usage commands.
+  - [x] Remove old TODOs about reimplementing web3.storage/w3up-client.
+  - [x] Replace with a short historical note only if useful.
+- [x] Update `secrets/README.md`.
+  - [x] Remove the `WEB3STORAGE.env` section.
+  - [x] Remove statements saying `WEB3STORAGE.env` is used by the scrape action.
+  - [x] Keep only the Goodreads credential documentation that is still active.
 
 ## Clean Ignored Local Credentials
 
 These files are ignored by git, so this cleanup has to happen locally and should not expose their contents.
 
-- [ ] Delete local `secrets/WEB3STORAGE.env`.
-- [ ] Remove any W3/web3.storage/Storacha variables from local `secrets/GITHUB.env`.
-  - [ ] `W3_PRINCIPAL`
-  - [ ] `W3_PROOF`
-  - [ ] Any old `WEB3STORAGE_TOKEN` value, if present.
-- [ ] Check whether any generated web3.storage CLI config remains on this machine and remove it if no longer needed.
-  - [ ] `~/.config/configstore/update-notifier-@web3-storage/`
-  - [ ] Any other local `w3`/web3.storage config created while testing.
-- [ ] Keep `secrets/GOODREADS.env` and unrelated credentials unchanged.
+- [x] Delete local `secrets/WEB3STORAGE.env`.
+- [x] Remove any W3/web3.storage/Storacha variables from local `secrets/GITHUB.env`.
+  - [x] `W3_PRINCIPAL`
+  - [x] `W3_PROOF`
+  - [x] Any old `WEB3STORAGE_TOKEN` value, if present.
+- [x] Check whether any generated web3.storage CLI config remains on this machine and remove it if no longer needed.
+  - [x] `~/.config/configstore/update-notifier-@web3-storage/`
+  - [x] Any other local `w3`/web3.storage config created while testing.
+- [x] Keep `secrets/GOODREADS.env` and unrelated credentials unchanged.
 
 ## Clean GitHub Repository Secrets
 
@@ -125,23 +127,25 @@ This has to be done in GitHub repository settings or with `gh`.
   - [x] `GOODREADS_KEY`
   - [x] `GOODREADS_USER`
   - [ ] Any additional Goodreads login secrets used by the active scraper.
-- [ ] Run the GitHub Actions workflow manually after cleanup and confirm it passes.
+- [x] Run the GitHub Actions workflow manually after cleanup and confirm it passes.
 
 ## Verification
 
 - [ ] Search tracked source/docs for leftover pinning references without dumping ignored secret files.
   - [ ] `rg -n "ipfs|IPFS|storacha|Storacha|web3|web3.storage|w3cli|W3_PRINCIPAL|W3_PROOF|WEB3STORAGE|goodreads-ipfs|apps/pin|pin-sh" . --glob '!secrets/*' --glob '!node_modules/*' --glob '!data/*'`
   - [ ] Review any remaining hits and confirm they are intentional historical notes or unrelated text.
-- [ ] Check tracked files only for dependency and workflow leftovers.
-  - [ ] `git grep -n -E "web3.storage|@web3-storage|ipfs-car|w3cli|W3_PRINCIPAL|W3_PROOF|WEB3STORAGE|goodreads-ipfs|apps/pin|pin-sh"`
+- [x] Check tracked files only for dependency and workflow leftovers.
+  - [x] `git grep -n -E "web3.storage|@web3-storage|ipfs-car|w3cli|W3_PRINCIPAL|W3_PROOF|WEB3STORAGE|goodreads-ipfs|apps/pin|pin-sh"`
 - [ ] Check lines of code/package footprint changed as expected.
   - [ ] `git diff --stat`
   - [ ] `git diff -- .github/workflows/scrape.yml package.json pnpm-lock.yaml pnpm-workspace.yaml README.md secrets/README.md`
-- [ ] `pnpm test`
-- [ ] `pnpm lint`
+- [x] `pnpm test`
+  - Note: passed in user shell; Codex runner hangs/fails before pnpm runs project tests.
+- [x] `pnpm lint`
+  - Note: passed in user shell; Codex runner hangs/fails before pnpm runs project lint.
 - [ ] `git status --short`
 - [ ] Confirm no ignored secret file contents were accidentally staged.
-- [ ] Confirm CI passes on GitHub after merging or pushing the cleanup branch.
+- [x] Confirm CI passes on GitHub after merging or pushing the cleanup branch.
 
 ## Optional Follow-Up
 

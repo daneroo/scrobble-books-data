@@ -16,8 +16,6 @@ You can look at the formatted data as tables here:
 
 This is a great place to test migrating to deno workspaces
 
-- [ ] Remove "apps/{pin/pin-sh} to Storacha/web3.storage"
-  - or replace by pin to loacl ipfs?
 - [ ] remove bun
 - [ ] replace `pnpm -r ...`
   - [ ] remove pnpm if possible
@@ -25,9 +23,6 @@ This is a great place to test migrating to deno workspaces
 - -------------------- Older --------------------
 - [ ] scrape-ng progress (only for currently-reading)
 - [ ] Problem with act -j (scrape|unit)
-- [ ] Re-implement apps/pin to use w3.storage (new)
-  - <https://web3.storage/docs/w3up-client/>
-  - pnpm i @web3-storage/w3up-client
 - [ ] Use CBOR instead of files?
 - Clean up the data more
   - Removed unused fields (description, etc)
@@ -40,16 +35,10 @@ Performs 2 tasks as a cron trigger github action:
   - [`goodreads-rss.json`](https://raw.githubusercontent.com/daneroo/scrobble-books-data/main/goodreads-rss.json)
   - [`goodreads-rss-ng.json`](https://raw.githubusercontent.com/daneroo/scrobble-books-data/main/goodreads-rss-ng.json)
   - [`goodreads-rss-ng-progress.json`](https://raw.githubusercontent.com/daneroo/scrobble-books-data/main/goodreads-rss-ng-progress.json)
-- (deprecated as of may 2026) pins the the file to web3.storage (ipfs)
-  - [`goodreads-ipfs.json`](https://raw.githubusercontent.com/daneroo/scrobble-books-data/main/goodreads-ipfs.json) contains the pinned CID
 - commits any changes back to the repo
 
 The scraper was originally written with `deno` because we were using
 githubocto/flat@v3, which uses Deno/Typescript as it's post-processor.
-
-The pinning code was moved back to node, because the web3.storage client is unstable/broken with npm imports
-
-Pinning should move to my own ipfs-cluster soon, RIGHT?
 
 ## Usage
 
@@ -58,11 +47,6 @@ The data files ca be fetched (externally) at
 - <https://raw.githubusercontent.com/daneroo/scrobble-books-data/main/goodreads-rss.json>
 - <https://raw.githubusercontent.com/daneroo/scrobble-books-data/main/goodreads-rss-ng.json>
 - <https://raw.githubusercontent.com/daneroo/scrobble-books-data/main/goodreads-rss-ng-progress.json>
-- <https://raw.githubusercontent.com/daneroo/scrobble-books-data/main/goodreads-ipfs.json>
-
-The pinned CID's can be found at (requires login)
-
-- [web3.storage console (books space - by DID)](https://console.web3.storage/space/did:key:z6MkmwcwCLmuTxY6mWhh9BVmj8t7EZ2rjKtc7cTVYhjN77jq)
 
 Uses `pnpm` for orchestration, including for deno and github actions.
 
@@ -93,18 +77,6 @@ bun apps/scrape-ng/src/index.ts # --flags!!!!
 # export vars from secrets/GOODREADS.env
 set -a && source secrets/GOODREADS.env && set +a
 bun apps/scrape-browser/src/index.ts # --flags!!!!
-
-# pin to ipfs (sh)
-# references secrets/WEB3STORAGE.env
-docker compose -f apps/pin-sh/compose.yaml run --rm -it upload-to-web3storage
-# to force rebuild
-docker compose -f apps/pin-sh/compose.yaml build # --no-cache to really force rebuild
-
-# Deprecated 'till rewritten
-# pin to ipfs (node) - disabled for now
-# export vars from secrets/WEB3STORAGE.env
-set -a && source secrets/WEB3STORAGE.env && set +a
-node apps/pin/src/pin.js
 ```
 
 ### Dependency management
@@ -172,5 +144,3 @@ git log|grep 'Latest book data' | cut -c22-31 | uniq -c |head -n 10
 - [GitHub Action - Flat Data](https://github.com/marketplace/actions/flat-data)
 - [Git scraping: track changes over time by scraping to a Git repository](https://simonwillison.net/2020/Oct/9/git-scraping/)
 - [Fire Example](https://github.com/simonw/ca-fires-history)
-- [Web3.storage pinning](https://web3.storage/docs/how-tos/pinning-services-api/)
-- [we3.storage: ipfs-car](https://github.com/web3-storage/ipfs-car)
