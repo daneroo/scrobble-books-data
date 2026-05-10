@@ -88,7 +88,9 @@ jobs:
         working-directory: cue
 
       - name: Pin to web3.storage (bash / w3 cli)
-        run: ./apps/pin-sh/uploadToW3Storage.sh
+        # as of 2026-05-09: deprecated, and turned off
+        run: echo "Skipping Storacha / web3.storage - deprecated"
+        # run: ./apps/pin-sh/uploadToW3Storage.sh
 
       #  JS version disabled for now
       # - name: Pin to web3.storage (node)

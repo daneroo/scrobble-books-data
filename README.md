@@ -16,11 +16,13 @@ You can look at the formatted data as tables here:
 
 This is a great place to test migrating to deno workspaces
 
+- [ ] Remove "apps/{pin/pin-sh} to Storacha/web3.storage"
+  - or replace by pin to loacl ipfs?
 - [ ] remove bun
-- [ ] replace  `pnpm -r ...`
+- [ ] replace `pnpm -r ...`
   - [ ] remove pnpm if possible
 - [ ] replace/validate "deps:update" for deno
-- _______________ Older _______________
+- -------------------- Older --------------------
 - [ ] scrape-ng progress (only for currently-reading)
 - [ ] Problem with act -j (scrape|unit)
 - [ ] Re-implement apps/pin to use w3.storage (new)
@@ -38,7 +40,7 @@ Performs 2 tasks as a cron trigger github action:
   - [`goodreads-rss.json`](https://raw.githubusercontent.com/daneroo/scrobble-books-data/main/goodreads-rss.json)
   - [`goodreads-rss-ng.json`](https://raw.githubusercontent.com/daneroo/scrobble-books-data/main/goodreads-rss-ng.json)
   - [`goodreads-rss-ng-progress.json`](https://raw.githubusercontent.com/daneroo/scrobble-books-data/main/goodreads-rss-ng-progress.json)
-- pins the the file to web3.storage (ipfs)
+- (deprecated as of may 2026) pins the the file to web3.storage (ipfs)
   - [`goodreads-ipfs.json`](https://raw.githubusercontent.com/daneroo/scrobble-books-data/main/goodreads-ipfs.json) contains the pinned CID
 - commits any changes back to the repo
 

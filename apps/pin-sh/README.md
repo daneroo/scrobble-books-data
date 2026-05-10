@@ -1,5 +1,7 @@
 # ipfs pinning web3-storage (new) w3cli version
 
+**note: 2026-05-09** completely deprecated, and turned off
+
 Until we can rewrite the JS version of pinning, we will use the `w3` cli.
 
 OK, this is way to complicated to use from JS Code.

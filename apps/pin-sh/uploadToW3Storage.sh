@@ -5,6 +5,9 @@ set -euo pipefail
 # -u: Treat unset variables as an error
 # -o pipefail: Return a non-zero status if any command in a pipeline fails
 
+echo "As of 2026-05-09, this script is deprecated, and turned off"
+exit 0
+
 # This can be file(s) or a directory (repo root relative)
 ROOT_RELATIVE_UPLOAD_PATHS="goodreads-rss.json goodreads-rss-ng.json goodreads-rss-ng-progress.json"
 # This must be a file path (repo root relative)
