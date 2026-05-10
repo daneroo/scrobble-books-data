@@ -74,12 +74,15 @@ Temporary checklist for fully removing deprecated Storacha/web3.storage/IPFS pin
   - [x] Remove any Docker, Compose, npm global install, `jq`, or `w3` setup that was only for pinning.
 - [x] Search workflow files for leftover pinning setup.
   - [x] `rg -n "pin|ipfs|web3|w3cli|W3_|WEB3|jq|docker compose|goodreads-ipfs" .github`
-- [ ] Run the workflow-equivalent local checks that do not require GitHub secrets.
+- [x] Run the workflow-equivalent local checks that do not require GitHub secrets.
   - [x] `pnpm test`
     - Note: passed in user shell; Codex runner hangs/fails before pnpm runs project tests.
   - [x] `pnpm lint`
     - Note: passed in user shell; Codex runner hangs/fails before pnpm runs project lint.
-  - [ ] Scrape workflow dry run if practical: `pnpm act:scrape`
+  - [x] `pnpm act:unit`
+    - Note: passed in user shell; `act` unit job succeeded.
+  - [x] Scrape workflow dry run if practical: `pnpm act:scrape`
+    - Note: passed in user shell; `act` scrape job succeeded.
 - [x] Confirm the scheduled scrape still writes and commits only:
   - [x] `goodreads-rss.json`
   - [x] `goodreads-rss-ng.json`
@@ -131,9 +134,10 @@ This has to be done in GitHub repository settings or with `gh`.
 
 ## Verification
 
-- [ ] Search tracked source/docs for leftover pinning references without dumping ignored secret files.
-  - [ ] `rg -n "ipfs|IPFS|storacha|Storacha|web3|web3.storage|w3cli|W3_PRINCIPAL|W3_PROOF|WEB3STORAGE|goodreads-ipfs|apps/pin|pin-sh" . --glob '!secrets/*' --glob '!node_modules/*' --glob '!data/*'`
-  - [ ] Review any remaining hits and confirm they are intentional historical notes or unrelated text.
+- [x] Search tracked source/docs for leftover pinning references without dumping ignored secret files.
+  - [x] `rg -n "ipfs|IPFS|storacha|Storacha|web3|web3.storage|w3cli|W3_PRINCIPAL|W3_PROOF|WEB3STORAGE|goodreads-ipfs|apps/pin|pin-sh" . --glob '!secrets/*' --glob '!node_modules/*' --glob '!data/*'`
+  - [x] Review any remaining hits and confirm they are intentional historical notes or unrelated text.
+    - Note: remaining non-TODO `web3` hits are Goodreads book-description fixture/data text, not repo pinning code or docs.
 - [x] Check tracked files only for dependency and workflow leftovers.
   - [x] `git grep -n -E "web3.storage|@web3-storage|ipfs-car|w3cli|W3_PRINCIPAL|W3_PROOF|WEB3STORAGE|goodreads-ipfs|apps/pin|pin-sh"`
 - [ ] Check lines of code/package footprint changed as expected.
