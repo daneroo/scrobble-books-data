@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/8593922237?utm_medium=api&utm_source=rss",
+      "title": "The Last Question",
+      "link": "https://www.goodreads.com/review/show/8593922237?utm_medium=api&utm_source=rss",
+      "bookId": "4808763",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1274107046l/4808763._SX50_.jpg",
+      "bookDescription": "¿Es posible revertir el inevitable final del Universo, o el mundo debe acabar de todas formas? es la pregunta que desde un día del siglo XXI, hasta generaciones y generaciones posteriores en el tiempo, hacen los humanos a los ordenadores.<br /><br />En un relato aparentemente sencillo sobre un asunto sobrecogedor, el fin de los días, Asimov demuestra, una vez más, una mente preclara y una mano maestra para sobrecoger al lector y dejarlo en vilo, incluso después de la lectura.",
+      "authorName": "Isaac Asimov",
+      "isbn": "1884214495",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2026-05-11T23:38:33.000Z",
+      "userDateCreated": "2026-05-11T23:38:33.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "4.5",
+      "bookPublished": "1956",
+      "description": "<a href=\"https://www.goodreads.com/book/show/4808763-the-last-question?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Last Question\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1274107046l/4808763._SX50_.jpg\" /></a><br/>\n                                      author: Isaac Asimov<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.5<br/>\n                                      book published: 1956<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/05/11<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "9"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/8591860762?utm_medium=api&utm_source=rss",
       "title": "Tehanu (Earthsea Cycle, #4)",
       "link": "https://www.goodreads.com/review/show/8591860762?utm_medium=api&utm_source=rss",
