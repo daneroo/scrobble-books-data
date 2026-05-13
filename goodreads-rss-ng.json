@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/8597530414?utm_medium=api&utm_source=rss",
+      "title": "Tales from Earthsea (Earthsea Cycle, #5)",
+      "link": "https://www.goodreads.com/review/show/8597530414?utm_medium=api&utm_source=rss",
+      "bookId": "13659",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1309202073l/13659._SY75_.jpg",
+      "bookDescription": "Five stories of Ursula K. Le Guin's world-renowned realm of Earthsea are collected in one volume. Featuring two classic stories, two original tales, and a brand-new novella, as well as new maps and a special essay on Earthsea's history, languages, literature, and magic.<br /><br />The Finder <br />Darkrose and Diamond <br />The Bones of the Earth<br />On the High Marsh<br />Dragonfly",
+      "authorName": "Ursula K. Le Guin",
+      "isbn": "0441011241",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2026-05-13T06:03:10.000Z",
+      "userDateCreated": "2026-05-13T06:03:00.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "4.1",
+      "bookPublished": "2001",
+      "description": "<a href=\"https://www.goodreads.com/book/show/13659.Tales_from_Earthsea?utm_medium=api&amp;utm_source=rss\"><img alt=\"Tales from Earthsea (Earthsea Cycle, #5)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1309202073l/13659._SY75_.jpg\" /></a><br/>\n                                      author: Ursula K. Le Guin<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: 2001<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/05/12<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "280"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/8591860762?utm_medium=api&utm_source=rss",
       "title": "Tehanu (Earthsea Cycle, #4)",
       "link": "https://www.goodreads.com/review/show/8591860762?utm_medium=api&utm_source=rss",
@@ -1364,7 +1385,7 @@
       "averageRating": "4.0",
       "bookPublished": "2025",
       "description": "<a href=\"https://www.goodreads.com/book/show/222725518-empire-of-ai?utm_medium=api&amp;utm_source=rss\"><img alt=\"Empire of AI: Dreams and Nightmares in Sam Altman&#39;s OpenAI\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1734812256l/222725518._SY75_.jpg\" /></a><br/>\n                                      author: Karen Hao<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: 2025<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/12/20<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
-      "numPages": "496"
+      "numPages": "501"
     },
     {
       "id": "https://www.goodreads.com/review/show/8157919323?utm_medium=api&utm_source=rss",
