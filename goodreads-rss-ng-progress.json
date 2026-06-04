@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/8658017249?utm_medium=api&utm_source=rss",
+      "title": "Rocannon’s World",
+      "link": "https://www.goodreads.com/review/show/8658017249?utm_medium=api&utm_source=rss",
+      "bookId": "92610",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1300039756l/92610._SY75_.jpg",
+      "bookDescription": "A world shared by three native humanoid races - the cavern-dwelling Gdemiar, elvish Fiia, and warrior clan, Liuar - is suddenly invaded and conquered by a fleet of ships from the stars. Earth scientist Rocannon is on that world, and he sees his friends murdered and his spaceship destroyed. Marooned among alien peoples, he leads the battle to free this new world - and finds that legends grow around him even as he fights.",
+      "authorName": "Ursula K. Le Guin",
+      "isbn": "0441732968",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2026-06-04T06:58:29.000Z",
+      "userDateCreated": "2026-06-04T06:58:18.000Z",
+      "userShelves": "",
+      "userReview": "",
+      "averageRating": "3.8",
+      "bookPublished": "1966",
+      "description": "<a href=\"https://www.goodreads.com/book/show/92610.Rocannon_s_World?utm_medium=api&amp;utm_source=rss\"><img alt=\"Rocannon’s World\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1300039756l/92610._SY75_.jpg\" /></a><br/>\n                                      author: Ursula K. Le Guin<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.8<br/>\n                                      book published: 1966<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/06/03<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "258"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/8080554465?utm_medium=api&utm_source=rss",
       "title": "The Breath of the Gods: The History and Future of the Wind",
       "link": "https://www.goodreads.com/review/show/8080554465?utm_medium=api&utm_source=rss",
