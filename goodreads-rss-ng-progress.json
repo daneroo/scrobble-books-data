@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/8660417753?utm_medium=api&utm_source=rss",
+      "title": "Planet of Exile",
+      "link": "https://www.goodreads.com/review/show/8660417753?utm_medium=api&utm_source=rss",
+      "bookId": "201882",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1334148719l/201882._SY75_.jpg",
+      "bookDescription": "The Earth colony of Landin has been stranded on Werel for ten years. But ten of Werel's years are over 600 terrestrial years. <br /><br />The lonely and dwindling human settlement is beginning to feel the strain. Every winter—a season that lasts for 15 years—the Earthmen have neighbors: the humanoid hilfs, a nomadic people who only settle down for the cruel cold spell. The hilfs fear the Earthmen, whom they think of as witches and call the farborns. <br /><br />But hilfs and farborns have common enemies: the hordes of ravaging barbarians called gaals and eerie preying snow ghouls. Will they join forces or be annihilated?",
+      "authorName": "Ursula K. Le Guin",
+      "isbn": "0441669514",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2026-06-05T03:46:31.000Z",
+      "userDateCreated": "2026-06-05T03:46:31.000Z",
+      "userShelves": "",
+      "userReview": "",
+      "averageRating": "3.7",
+      "bookPublished": "1966",
+      "description": "<a href=\"https://www.goodreads.com/book/show/201882.Planet_of_Exile?utm_medium=api&amp;utm_source=rss\"><img alt=\"Planet of Exile\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1334148719l/201882._SY75_.jpg\" /></a><br/>\n                                      author: Ursula K. Le Guin<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.7<br/>\n                                      book published: 1966<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/06/04<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "126"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/8658017249?utm_medium=api&utm_source=rss",
       "title": "Rocannon’s World",
       "link": "https://www.goodreads.com/review/show/8658017249?utm_medium=api&utm_source=rss",
@@ -11,15 +32,15 @@
       "authorName": "Ursula K. Le Guin",
       "isbn": "0441732968",
       "userName": "Daniel",
-      "userRating": "0",
-      "userReadAt": "",
-      "userDateAdded": "2026-06-04T06:58:29.000Z",
+      "userRating": "4",
+      "userReadAt": "2026-06-04T00:00:00.000Z",
+      "userDateAdded": "2026-06-05T03:29:12.000Z",
       "userDateCreated": "2026-06-04T06:58:18.000Z",
       "userShelves": "",
       "userReview": "",
       "averageRating": "3.8",
       "bookPublished": "1966",
-      "description": "<a href=\"https://www.goodreads.com/book/show/92610.Rocannon_s_World?utm_medium=api&amp;utm_source=rss\"><img alt=\"Rocannon’s World\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1300039756l/92610._SY75_.jpg\" /></a><br/>\n                                      author: Ursula K. Le Guin<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.8<br/>\n                                      book published: 1966<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/06/03<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/92610.Rocannon_s_World?utm_medium=api&amp;utm_source=rss\"><img alt=\"Rocannon’s World\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1300039756l/92610._SY75_.jpg\" /></a><br/>\n                                      author: Ursula K. Le Guin<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.8<br/>\n                                      book published: 1966<br/>\n                                      rating: 4<br/>\n                                      read at: 2026/06/04<br/>\n                                      date added: 2026/06/04<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "258"
     },
     {
@@ -8669,9 +8690,9 @@
       "userDateCreated": "2024-08-11T03:39:29.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "3.9",
+      "averageRating": "4.0",
       "bookPublished": "2024",
-      "description": "<a href=\"https://www.goodreads.com/book/show/199344846-knife?utm_medium=api&amp;utm_source=rss\"><img alt=\"Knife: Meditations After an Attempted Murder\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1697452251l/199344846._SY75_.jpg\" /></a><br/>\n                                      author: Salman Rushdie<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: 2024<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/08/10<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/199344846-knife?utm_medium=api&amp;utm_source=rss\"><img alt=\"Knife: Meditations After an Attempted Murder\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1697452251l/199344846._SY75_.jpg\" /></a><br/>\n                                      author: Salman Rushdie<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: 2024<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/08/10<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "209"
     },
     {
@@ -13688,9 +13709,9 @@
       "userDateCreated": "2023-04-29T06:04:39.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "3.8",
+      "averageRating": "3.7",
       "bookPublished": "2023",
-      "description": "<a href=\"https://www.goodreads.com/book/show/60784417-red-team-blues?utm_medium=api&amp;utm_source=rss\"><img alt=\"Red Team Blues (Martin Hench, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1681104878l/60784417._SY75_.jpg\" /></a><br/>\n                                      author: Cory Doctorow<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.8<br/>\n                                      book published: 2023<br/>\n                                      rating: 4<br/>\n                                      read at: 2023/05/01<br/>\n                                      date added: 2023/05/01<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/60784417-red-team-blues?utm_medium=api&amp;utm_source=rss\"><img alt=\"Red Team Blues (Martin Hench, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1681104878l/60784417._SY75_.jpg\" /></a><br/>\n                                      author: Cory Doctorow<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.7<br/>\n                                      book published: 2023<br/>\n                                      rating: 4<br/>\n                                      read at: 2023/05/01<br/>\n                                      date added: 2023/05/01<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "213"
     },
     {
