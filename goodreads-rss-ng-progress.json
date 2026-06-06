@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/8662862489?utm_medium=api&utm_source=rss",
+      "title": "City of Illusions",
+      "link": "https://www.goodreads.com/review/show/8662862489?utm_medium=api&utm_source=rss",
+      "bookId": "201889",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1765313937l/201889._SY75_.jpg",
+      "bookDescription": "He was a fully grown man, alone in dense forest, with no trail to show where he had come from and no memory to tell who — or what — he was.<br />His eyes were not the eyes of a human.<br />The forest people took him in and raised him almost as a child, teaching him to speak, training him in forest lore, giving him all the knowledge they had. But they could not solve the riddle of his past, and at last he had to set out on a perilous quest to Es Toch, the City of the Shining, the Liars of Earth, the Enemy of Mankind.<br />There he would find his true self ... and a universe of danger.<br /><br />Cover illustration by Jack Gaughan",
+      "authorName": "Ursula K. Le Guin",
+      "isbn": "",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2026-06-06T03:26:41.000Z",
+      "userDateCreated": "2026-06-06T03:26:40.000Z",
+      "userShelves": "",
+      "userReview": "",
+      "averageRating": "4.0",
+      "bookPublished": "1967",
+      "description": "<a href=\"https://www.goodreads.com/book/show/201889.City_of_Illusions?utm_medium=api&amp;utm_source=rss\"><img alt=\"City of Illusions\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1765313937l/201889._SY75_.jpg\" /></a><br/>\n                                      author: Ursula K. Le Guin<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: 1967<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/06/05<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "160"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/8660417753?utm_medium=api&utm_source=rss",
       "title": "Planet of Exile",
       "link": "https://www.goodreads.com/review/show/8660417753?utm_medium=api&utm_source=rss",
@@ -752,9 +773,9 @@
       "userDateCreated": "2026-03-25T21:50:35.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "4.0",
+      "averageRating": "4.1",
       "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/238142674-recession?utm_medium=api&amp;utm_source=rss\"><img alt=\"Recession: The Real Reasons Economies Shrink and What to Do About It\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1774948554l/238142674._SY75_.jpg\" /></a><br/>\n                                      author: Tyler Beck Goodspeed<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/03/25<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/238142674-recession?utm_medium=api&amp;utm_source=rss\"><img alt=\"Recession: The Real Reasons Economies Shrink and What to Do About It\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1774948554l/238142674._SY75_.jpg\" /></a><br/>\n                                      author: Tyler Beck Goodspeed<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/03/25<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
       "numPages": "320"
     },
     {
