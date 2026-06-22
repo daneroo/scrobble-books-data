@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/8698460483?utm_medium=api&utm_source=rss",
+      "title": "Paradise (Expeditionary Force, #3)",
+      "link": "https://www.goodreads.com/review/show/8698460483?utm_medium=api&utm_source=rss",
+      "bookId": "32723950",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1477146657l/32723950._SY75_.jpg",
+      "bookDescription": "While the crew of the starship Flying Dutchman have been trying assure hostile aliens do not have access to Earth, the UN Expeditionary Force has been trapped on the planet they nicknamed 'Paradise'. The Flying Dutchman is headed back out on another mission, and the UN wants the ship to find out the status of the humans on Paradise. But Colonel Joe Bishop warns that they might not like what they find, and they can't do anything about it without endangering Earth.",
+      "authorName": "Craig Alanson",
+      "isbn": "",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2026-06-22T04:30:33.000Z",
+      "userDateCreated": "2026-06-19T03:50:19.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "4.3",
+      "bookPublished": "2016",
+      "description": "<a href=\"https://www.goodreads.com/book/show/32723950-paradise?utm_medium=api&amp;utm_source=rss\"><img alt=\"Paradise (Expeditionary Force, #3)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1477146657l/32723950._SY75_.jpg\" /></a><br/>\n                                      author: Craig Alanson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: 2016<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/06/21<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "285"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/5434491685?utm_medium=api&utm_source=rss",
       "title": "Millennium: The End of the World and the Forging of Christendom",
       "link": "https://www.goodreads.com/review/show/5434491685?utm_medium=api&utm_source=rss",
@@ -21,27 +42,6 @@
       "bookPublished": "2008",
       "description": "<a href=\"https://www.goodreads.com/book/show/5574571-millennium?utm_medium=api&amp;utm_source=rss\"><img alt=\"Millennium: The End of the World and the Forging of Christendom\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1329377253l/5574571._SY75_.jpg\" /></a><br/>\n                                      author: Tom Holland<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: 2008<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/06/19<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
       "numPages": "476"
-    },
-    {
-      "id": "https://www.goodreads.com/review/show/8698460483?utm_medium=api&utm_source=rss",
-      "title": "Paradise (Expeditionary Force, #3)",
-      "link": "https://www.goodreads.com/review/show/8698460483?utm_medium=api&utm_source=rss",
-      "bookId": "32723950",
-      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1477146657l/32723950._SY75_.jpg",
-      "bookDescription": "While the crew of the starship Flying Dutchman have been trying assure hostile aliens do not have access to Earth, the UN Expeditionary Force has been trapped on the planet they nicknamed 'Paradise'. The Flying Dutchman is headed back out on another mission, and the UN wants the ship to find out the status of the humans on Paradise. But Colonel Joe Bishop warns that they might not like what they find, and they can't do anything about it without endangering Earth.",
-      "authorName": "Craig Alanson",
-      "isbn": "",
-      "userName": "Daniel",
-      "userRating": "0",
-      "userReadAt": "",
-      "userDateAdded": "2026-06-19T05:15:01.000Z",
-      "userDateCreated": "2026-06-19T03:50:19.000Z",
-      "userShelves": "currently-reading",
-      "userReview": "",
-      "averageRating": "4.3",
-      "bookPublished": "2016",
-      "description": "<a href=\"https://www.goodreads.com/book/show/32723950-paradise?utm_medium=api&amp;utm_source=rss\"><img alt=\"Paradise (Expeditionary Force, #3)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1477146657l/32723950._SY75_.jpg\" /></a><br/>\n                                      author: Craig Alanson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: 2016<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/06/18<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
-      "numPages": "285"
     },
     {
       "id": "https://www.goodreads.com/review/show/8680744970?utm_medium=api&utm_source=rss",
@@ -20324,9 +20324,9 @@
       "userDateCreated": "2021-10-13T07:46:43.000Z",
       "userShelves": "to-read",
       "userReview": "",
-      "averageRating": "4.0",
+      "averageRating": "3.9",
       "bookPublished": "2017",
-      "description": "<a href=\"https://www.goodreads.com/book/show/39286958-measure-what-matters?utm_medium=api&amp;utm_source=rss\"><img alt=\"Measure What Matters\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1521104315l/39286958._SY75_.jpg\" /></a><br/>\n                                      author: John Doerr<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: 2017<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/10/13<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/39286958-measure-what-matters?utm_medium=api&amp;utm_source=rss\"><img alt=\"Measure What Matters\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1521104315l/39286958._SY75_.jpg\" /></a><br/>\n                                      author: John Doerr<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: 2017<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/10/13<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "299"
     },
     {
