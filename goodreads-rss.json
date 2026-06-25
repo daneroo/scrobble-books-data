@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/8714961883?utm_medium=api&utm_source=rss",
+      "title": "Trouble on Paradise (Expeditionary Force, #3.5)",
+      "link": "https://www.goodreads.com/review/show/8714961883?utm_medium=api&utm_source=rss",
+      "bookId": "34670700",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1490304102l/34670700._SY75_.jpg",
+      "bookDescription": "Book '3.5' in the ExForce While the crew of the UN Expeditionary Force's pirate starship Flying Dutchman are enjoying a luxury vacation cruise (not!), UNEF troops are still stranded on an alien-controlled planet. Major Emily Perkins and her team are busy picking up the pieces, and it's not easy, because there is trouble on Paradise...",
+      "authorName": "Craig Alanson",
+      "isbn": "",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2026-06-25T08:23:01.000Z",
+      "userDateCreated": "2026-06-25T08:23:00.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "4.2",
+      "bookPublished": "2017",
+      "description": "<a href=\"https://www.goodreads.com/book/show/34670700-trouble-on-paradise?utm_medium=api&amp;utm_source=rss\"><img alt=\"Trouble on Paradise (Expeditionary Force, #3.5)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1490304102l/34670700._SY75_.jpg\" /></a><br/>\n                                      author: Craig Alanson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 2017<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/06/25<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "167"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/8698460483?utm_medium=api&utm_source=rss",
       "title": "Paradise (Expeditionary Force, #3)",
       "link": "https://www.goodreads.com/review/show/8698460483?utm_medium=api&utm_source=rss",
