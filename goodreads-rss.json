@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/8735165433?utm_medium=api&utm_source=rss",
+      "title": "Death of the Author",
+      "link": "https://www.goodreads.com/review/show/8735165433?utm_medium=api&utm_source=rss",
+      "bookId": "214329001",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1734381178l/214329001._SX50_.jpg",
+      "bookDescription": "<i>The future of storytelling is here.</i><br /><br />Life has thrown Zelu some curveballs over the years, but when she's suddenly dropped from her university job and her latest novel is rejected, all in the middle of her sister's wedding, her life is upended. Disabled, unemployed and from a nosy, high-achieving, judgmental family, she's not sure what comes next.<br /><br />In her hotel room that night, she takes the risk that will define her life - she decides to write a book VERY unlike her others. A science fiction drama about androids and AI after the extinction of humanity. And everything changes.<br /><br />What follows is a tale of love and loss, fame and infamy, of extraordinary events in one world, and another. And as Zelu's life evolves, the lines between fiction and reality begin to blur.<br /><br />Because sometimes a story really <i>does</i> have the power to reshape the world.",
+      "authorName": "Nnedi Okorafor",
+      "isbn": "0063391155",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2026-07-02T09:57:32.000Z",
+      "userDateCreated": "2026-07-02T09:57:32.000Z",
+      "userShelves": "on-deck",
+      "userReview": "",
+      "averageRating": "3.9",
+      "bookPublished": "2025",
+      "description": "<a href=\"https://www.goodreads.com/book/show/214329001-death-of-the-author?utm_medium=api&amp;utm_source=rss\"><img alt=\"Death of the Author\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1734381178l/214329001._SX50_.jpg\" /></a><br/>\n                                      author: Nnedi Okorafor<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: 2025<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/07/02<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "numPages": "448"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/6853237632?utm_medium=api&utm_source=rss",
       "title": "Nine Princes in Amber (The Chronicles of Amber, #1)",
       "link": "https://www.goodreads.com/review/show/6853237632?utm_medium=api&utm_source=rss",
