@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/8737872368?utm_medium=api&utm_source=rss",
+      "title": "The Guns of Avalon (The Chronicles of Amber, #2)",
+      "link": "https://www.goodreads.com/review/show/8737872368?utm_medium=api&utm_source=rss",
+      "bookId": "62012",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1368213721l/62012._SY75_.jpg",
+      "bookDescription": "Across the worlds of Shadow, Corwin, prince of blood royal, heir to the throne of Amber, gathers his forces for an assault that will yield up to him the crown that is rightfully his. But, a growing darkness of his own doing threatens his plans, an evil that stretches to the heart of the perfect kingdom itself where the demonic forces of Chaos mass to annihilate Amber and all who would rule there.<br /><br />One of the most revered names in sf and fantasy, the incomparable Roger Zelazny was honored with numerous prizes—including six Hugo and three Nebula Awards—over the course of his legendary career. Among his more than fifty books, arguably Zelazny’s most popular literary creations were his extraordinary Amber novels. The Guns of Avalon is the second book of The Chronicles of Amber.",
+      "authorName": "Roger Zelazny",
+      "isbn": "",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2026-07-03T07:25:52.000Z",
+      "userDateCreated": "2026-07-03T07:25:40.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "4.1",
+      "bookPublished": "1972",
+      "description": "<a href=\"https://www.goodreads.com/book/show/62012.The_Guns_of_Avalon?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Guns of Avalon (The Chronicles of Amber, #2)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1368213721l/62012._SY75_.jpg\" /></a><br/>\n                                      author: Roger Zelazny<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: 1972<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/07/03<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "223"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/8735165433?utm_medium=api&utm_source=rss",
       "title": "Death of the Author",
       "link": "https://www.goodreads.com/review/show/8735165433?utm_medium=api&utm_source=rss",
