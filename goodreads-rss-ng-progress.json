@@ -332,9 +332,9 @@
       "userDateCreated": "2026-06-13T04:22:52.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "4.4",
+      "averageRating": "4.3",
       "bookPublished": "2026",
-      "description": "<a href=\"https://www.goodreads.com/book/show/245645195-the-reverse-centaur-s-guide-to-life-after-ai?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Reverse Centaur&#39;s Guide to Life After AI\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1772829981l/245645195._SY75_.jpg\" /></a><br/>\n                                      author: Cory Doctorow<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.4<br/>\n                                      book published: 2026<br/>\n                                      rating: 4<br/>\n                                      read at: 2026/06/13<br/>\n                                      date added: 2026/06/13<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/245645195-the-reverse-centaur-s-guide-to-life-after-ai?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Reverse Centaur&#39;s Guide to Life After AI\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1772829981l/245645195._SY75_.jpg\" /></a><br/>\n                                      author: Cory Doctorow<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: 2026<br/>\n                                      rating: 4<br/>\n                                      read at: 2026/06/13<br/>\n                                      date added: 2026/06/13<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "240"
     },
     {
@@ -1487,9 +1487,9 @@
       "userDateCreated": "2026-02-10T16:12:11.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "4.1",
+      "averageRating": "4.0",
       "bookPublished": "2026",
-      "description": "<a href=\"https://www.goodreads.com/book/show/231127455-the-laws-of-thought?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Laws of Thought: The Quest for a Mathematical Theory of the Mind\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1749527183l/231127455._SY75_.jpg\" /></a><br/>\n                                      author: Tom  Griffiths<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: 2026<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/02/10<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/231127455-the-laws-of-thought?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Laws of Thought: The Quest for a Mathematical Theory of the Mind\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1749527183l/231127455._SY75_.jpg\" /></a><br/>\n                                      author: Tom  Griffiths<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: 2026<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/02/10<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
       "numPages": "400"
     },
     {
@@ -4448,9 +4448,9 @@
       "userDateCreated": "2025-08-10T06:46:12.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "3.7",
+      "averageRating": "3.6",
       "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/228262505-why-plato-matters-now?utm_medium=api&amp;utm_source=rss\"><img alt=\"Why Plato Matters Now\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1740233612l/228262505._SY75_.jpg\" /></a><br/>\n                                      author: Angie Hobbs<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.7<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/08/09<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/228262505-why-plato-matters-now?utm_medium=api&amp;utm_source=rss\"><img alt=\"Why Plato Matters Now\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1740233612l/228262505._SY75_.jpg\" /></a><br/>\n                                      author: Angie Hobbs<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.6<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/08/09<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
       "numPages": "228"
     },
     {
@@ -13506,7 +13506,7 @@
     },
     {
       "id": "https://www.goodreads.com/review/show/5737597986?utm_medium=api&utm_source=rss",
-      "title": "Code That Fits in Your Head: Heuristics for Software Engineering",
+      "title": "Code That Fits in Your Head: Heuristics for Software Engineering (Robert C. Martin Series)",
       "link": "https://www.goodreads.com/review/show/5737597986?utm_medium=api&utm_source=rss",
       "bookId": "59535925",
       "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1636006120l/59535925._SX50_.jpg",
@@ -13522,7 +13522,7 @@
       "userReview": "",
       "averageRating": "4.4",
       "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/59535925-code-that-fits-in-your-head?utm_medium=api&amp;utm_source=rss\"><img alt=\"Code That Fits in Your Head: Heuristics for Software Engineering\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1636006120l/59535925._SX50_.jpg\" /></a><br/>\n                                      author: Mark Seemann<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.4<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/08/02<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/59535925-code-that-fits-in-your-head?utm_medium=api&amp;utm_source=rss\"><img alt=\"Code That Fits in Your Head: Heuristics for Software Engineering (Robert C. Martin Series)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1636006120l/59535925._SX50_.jpg\" /></a><br/>\n                                      author: Mark Seemann<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.4<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2023/08/02<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
       "numPages": "416"
     },
     {
@@ -28546,7 +28546,7 @@
       "link": "https://www.goodreads.com/review/show/508199716?utm_medium=api&utm_source=rss",
       "bookId": "14098",
       "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1446584518l/14098._SX50_.jpg",
-      "bookDescription": "What if you could profoundly change your life just by becoming more mindful of your breathing? According to Jon Kabat-Zinn, you can. What if paying attention on purpose (and nonjudgmentally) could improve your health? Again, according to Dr. Kabat-Zinn--it can.<br /><br />On <i>Mindfulness for Beginners, </i> this internationally known scientist, bestselling author, and teacher who brought mindfulness meditation into the mainstream of medicine and society gives you immediate access to a practice that can potentially add years to your life, and will certainly enhance the quality of your moments and your years.<br /><br />Join Dr. Kabat-Zinn to:<br /><br />Explore five guided meditations that lead you breath-by-breath into the essence of Mindfulness-Based Stress Reduction (MBSR), a program offered in medical clinics and hospitals around the world<br />- Cultivate the Seven Key Attitudinal Factors of MBSR--qualities of heart and mind that lay the foundation for mindfulness practice and for seeing and accepting things as they are as a first step to working wisely and compassionately with stress, pain, illness, and sorrow as well as life's joys and pleasures<br />- Free yourself from limiting perspectives, and become more intimate with your own boundless awareness<br /><br />You're already in the perfect moment for inhabiting this liberating awareness, which is always available, teaches Jon Kabat-Zinn. With <i>Mindfulness for Beginners</i>, he invites you to cultivate mindfulness as if your life depended on it, which it surely does, and experience the magnitude and beauty of who you already are.<br /><br /><b>Course objectives: </b><br /><br />Apply an understanding of the concept of mindfulness<br />- Utilize simple guided meditations led by Kabat-Zinn<br />- List the ethical and attitudinal foundations necessary to cultivating mindfulness<br />- Assess how we can choose where to focus our awareness<br />- Plan to use mindfulness to help us develop compassion and insight into our true nature",
+      "bookDescription": "",
       "authorName": "Jon Kabat-Zinn",
       "isbn": "1591794641",
       "userName": "Daniel",
