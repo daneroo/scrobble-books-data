@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/8774323098?utm_medium=api&utm_source=rss",
+      "title": "The Hand of Oberon (The Chronicles of Amber, #4)",
+      "link": "https://www.goodreads.com/review/show/8774323098?utm_medium=api&utm_source=rss",
+      "bookId": "116982",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1417644788l/116982._SY75_.jpg",
+      "bookDescription": "Across the mysterious Black Road, demons swarm into Shadow. The ancient, secret source of the royal family's power is revealed, &amp; an unholy pact between a prince of the realm &amp; the forces of Chaos threaten all the known worlds with absolute obliteration. The hour of battle is at hand. Now Corwin and the remaining princes of Amber must call upon all their superhuman powers to defeat their brother-turned-traitor before he can walk the magical Pattern that created Amber and remake the universe in his own image.",
+      "authorName": "Roger Zelazny",
+      "isbn": "",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2026-07-16T05:16:50.000Z",
+      "userDateCreated": "2026-07-16T05:16:11.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "4.2",
+      "bookPublished": "1976",
+      "description": "<a href=\"https://www.goodreads.com/book/show/116982.The_Hand_of_Oberon?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Hand of Oberon (The Chronicles of Amber, #4)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1417644788l/116982._SY75_.jpg\" /></a><br/>\n                                      author: Roger Zelazny<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 1976<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/07/15<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "188"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/5072782470?utm_medium=api&utm_source=rss",
       "title": "Suldrun's Garden (Lyonesse, #1)",
       "link": "https://www.goodreads.com/review/show/5072782470?utm_medium=api&utm_source=rss",
@@ -19590,8 +19611,8 @@
       "userShelves": "on-deck",
       "userReview": "",
       "averageRating": "4.1",
-      "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/320.One_Hundred_Years_of_Solitude?utm_medium=api&amp;utm_source=rss\"><img alt=\"One Hundred Years of Solitude\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327881361l/320._SX50_.jpg\" /></a><br/>\n                                      author: Gabriel García Márquez<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/02/02<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "bookPublished": "1967",
+      "description": "<a href=\"https://www.goodreads.com/book/show/320.One_Hundred_Years_of_Solitude?utm_medium=api&amp;utm_source=rss\"><img alt=\"One Hundred Years of Solitude\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327881361l/320._SX50_.jpg\" /></a><br/>\n                                      author: Gabriel García Márquez<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: 1967<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/02/02<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
       "numPages": "417"
     },
     {
