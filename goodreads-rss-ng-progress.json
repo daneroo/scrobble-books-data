@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/8776982314?utm_medium=api&utm_source=rss",
+      "title": "Sign of the Unicorn (The Chronicles of Amber, #3)",
+      "link": "https://www.goodreads.com/review/show/8776982314?utm_medium=api&utm_source=rss",
+      "bookId": "239917",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1368213756l/239917._SY75_.jpg",
+      "bookDescription": "He who rules Amber rules the one true world. He who thwarts Amber invites the wrath of Amber betrayed. <br /><br />An unseen enemy of immense strength has seized a Prince of the Blood, and now threatens the perfect kingdom by striking at the very core of its power - the secret knowledge of Shadow.<br /><br />When Corwin summons forces to defend the throne, he finds himself challenged by royal conspirators, hideous demons, supernatural patterns and the ominous unknown that suddenly transcends all he ever suspected about the true nature of Amber.<br /><br />One of the most revered names in sf and fantasy, the incomparable Roger Zelazny was honored with numerous prizes—including six Hugo and three Nebula Awards—over the course of his legendary career. Among his more than fifty books, arguably Zelazny’s most popular literary creations were his extraordinary Amber novels.",
+      "authorName": "Roger Zelazny",
+      "isbn": "0380008319",
+      "userName": "Daniel",
+      "userRating": "4",
+      "userReadAt": "2026-07-16T00:00:00.000Z",
+      "userDateAdded": "2026-07-17T04:16:00.000Z",
+      "userDateCreated": "2026-07-17T04:14:56.000Z",
+      "userShelves": "",
+      "userReview": "",
+      "averageRating": "4.1",
+      "bookPublished": "1975",
+      "description": "<a href=\"https://www.goodreads.com/book/show/239917.Sign_of_the_Unicorn?utm_medium=api&amp;utm_source=rss\"><img alt=\"Sign of the Unicorn (The Chronicles of Amber, #3)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1368213756l/239917._SY75_.jpg\" /></a><br/>\n                                      author: Roger Zelazny<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: 1975<br/>\n                                      rating: 4<br/>\n                                      read at: 2026/07/16<br/>\n                                      date added: 2026/07/16<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "numPages": "192"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/8774323098?utm_medium=api&utm_source=rss",
       "title": "The Hand of Oberon (The Chronicles of Amber, #4)",
       "link": "https://www.goodreads.com/review/show/8774323098?utm_medium=api&utm_source=rss",
@@ -1592,9 +1613,9 @@
       "userDateCreated": "2026-02-10T16:12:11.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "4.0",
+      "averageRating": "4.1",
       "bookPublished": "2026",
-      "description": "<a href=\"https://www.goodreads.com/book/show/231127455-the-laws-of-thought?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Laws of Thought: The Quest for a Mathematical Theory of the Mind\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1749527183l/231127455._SY75_.jpg\" /></a><br/>\n                                      author: Tom  Griffiths<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: 2026<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/02/10<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/231127455-the-laws-of-thought?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Laws of Thought: The Quest for a Mathematical Theory of the Mind\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1749527183l/231127455._SY75_.jpg\" /></a><br/>\n                                      author: Tom  Griffiths<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: 2026<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/02/10<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
       "numPages": "400"
     },
     {
