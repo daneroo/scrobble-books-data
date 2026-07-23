@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/8793576225?utm_medium=api&utm_source=rss",
+      "title": "Shards of Honor (Vorkosigan Saga, #1)",
+      "link": "https://www.goodreads.com/review/show/8793576225?utm_medium=api&utm_source=rss",
+      "bookId": "531792",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1681493311l/531792._SY75_.jpg",
+      "bookDescription": "When Cordelia Naismith and her survey crew are attacked by a renegade group from Barrayar, she is taken prisoner by Aral Vorkosigan, commander of the Barrayan ship that has been taken over by an ambitious and ruthless crew member. Aral and Cordelia survive countless mishaps while their mutual admiration and even stronger feelings emerge.",
+      "authorName": "Lois McMaster Bujold",
+      "isbn": "0671720872",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2026-07-23T01:53:17.000Z",
+      "userDateCreated": "2026-07-23T01:53:17.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "3.8",
+      "bookPublished": "1986",
+      "description": "<a href=\"https://www.goodreads.com/book/show/531792.Shards_of_Honor?utm_medium=api&amp;utm_source=rss\"><img alt=\"Shards of Honor (Vorkosigan Saga, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1681493311l/531792._SY75_.jpg\" /></a><br/>\n                                      author: Lois McMaster Bujold<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.8<br/>\n                                      book published: 1986<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/07/22<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "313"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/8665706782?utm_medium=api&utm_source=rss",
       "title": "The Book of Doors",
       "link": "https://www.goodreads.com/review/show/8665706782?utm_medium=api&utm_source=rss",
