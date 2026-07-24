@@ -26,7 +26,7 @@ items: [...#item]
 	numPages:        #NumPages
 }
 
-#Shelves:    "" | "currently-reading" | "to-read" | "on-deck" // "read" should replace ""
+#Shelves:    "" | "currently-reading" | "to-read" | "on-deck" | "did-not-finish" // "read" should replace ""
 #UserRating: "0" | "1" | "2" | "3" | "4" | "5"
 
 #AvgRating: =~"[0-9].[0-9]{1,2}$" // 0.0, 4.75
