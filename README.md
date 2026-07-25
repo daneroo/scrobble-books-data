@@ -16,12 +16,13 @@ You can look at the formatted data as tables here:
 
 This is a great place to test migrating to deno workspaces
 
-- [ ] remove bun
-- [ ] replace `pnpm -r ...`
-  - [ ] remove pnpm if possible
-- [ ] replace/validate "deps:update" for deno
+- [ ] bun workspace - remove deno
+  - [ ] verify deps:check, deps:update
+- [ ] AGENTS: thoughts and docs
+- [ ] scrape-ng progress (only for currently-reading?)
+  - [ ] augment schema for progress
+  - [ ] validate and redeploy associated app scrobbleCast/site
 - -------------------- Older --------------------
-- [ ] scrape-ng progress (only for currently-reading)
 - [ ] Problem with act -j (scrape|unit)
 - [ ] Use CBOR instead of files?
 - Clean up the data more
