@@ -11,15 +11,15 @@
       "authorName": "Roger Zelazny",
       "isbn": "",
       "userName": "Daniel",
-      "userRating": "0",
-      "userReadAt": "",
-      "userDateAdded": "2026-07-29T06:37:38.000Z",
+      "userRating": "4",
+      "userReadAt": "2026-07-29T00:00:00.000Z",
+      "userDateAdded": "2026-07-30T06:10:51.000Z",
       "userDateCreated": "2026-07-28T06:55:41.000Z",
-      "userShelves": "currently-reading",
+      "userShelves": "",
       "userReview": "",
       "averageRating": "4.1",
       "bookPublished": "1985",
-      "description": "<a href=\"https://www.goodreads.com/book/show/536790.Trumps_of_Doom?utm_medium=api&amp;utm_source=rss\"><img alt=\"Trumps of Doom (The Chronicles of Amber, #6)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1418027077l/536790._SY75_.jpg\" /></a><br/>\n                                      author: Roger Zelazny<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: 1985<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/07/28<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/536790.Trumps_of_Doom?utm_medium=api&amp;utm_source=rss\"><img alt=\"Trumps of Doom (The Chronicles of Amber, #6)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1418027077l/536790._SY75_.jpg\" /></a><br/>\n                                      author: Roger Zelazny<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: 1985<br/>\n                                      rating: 4<br/>\n                                      read at: 2026/07/29<br/>\n                                      date added: 2026/07/29<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "184"
     },
     {
@@ -25407,8 +25407,8 @@
       "userShelves": "",
       "userReview": "",
       "averageRating": "4.1",
-      "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/170448.Animal_Farm?utm_medium=api&amp;utm_source=rss\"><img alt=\"Animal Farm\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1325861570l/170448._SY75_.jpg\" /></a><br/>\n                                      author: George Orwell<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2020/05/06<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "bookPublished": "1945",
+      "description": "<a href=\"https://www.goodreads.com/book/show/170448.Animal_Farm?utm_medium=api&amp;utm_source=rss\"><img alt=\"Animal Farm\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1325861570l/170448._SY75_.jpg\" /></a><br/>\n                                      author: George Orwell<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: 1945<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2020/05/06<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "141"
     },
     {
