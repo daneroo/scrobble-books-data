@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/8886307417?utm_medium=api&utm_source=rss",
+      "title": "Labyrinth (Vorkosigan Saga, #5.2)",
+      "link": "https://www.goodreads.com/review/show/8886307417?utm_medium=api&utm_source=rss",
+      "bookId": "7195389",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328032566l/7195389._SX50_.jpg",
+      "bookDescription": "[A Miles Vorkosigan Story] Twenty-three year old Lieutenant Miles Vorkosigan challenges the criminal underground on the planet Jackson's Whole to rescue a research scientist. [Publisher's Note: \"Labyrinth\" was originally published as a stand-alone novella in the August 1989 issue of Analog. It was then included in the novel \"Borders of Infinity\" (October 1989). For the novel, Ms. Bujold added a short \"framing story\" that tied the three novellas together by setting up each as a flashback that Miles experiences while recovering from bone-replacement surgery. Fictionwise is publishing these novellas separately, but we decided to leave in Ms. Bujold's short framing story for those who may also wish to read the other two novellas (\"The Mountains of Mourning\" and \"The Borders of Infinity\").] Analog Reader's Choice Winner, Locus Poll Award Nominee",
+      "authorName": "Lois McMaster Bujold",
+      "isbn": "1590623827",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2026-08-24T03:12:21.000Z",
+      "userDateCreated": "2026-08-24T03:12:21.000Z",
+      "userShelves": "",
+      "userReview": "",
+      "averageRating": "4.1",
+      "bookPublished": "1989",
+      "description": "<a href=\"https://www.goodreads.com/book/show/7195389-labyrinth?utm_medium=api&amp;utm_source=rss\"><img alt=\"Labyrinth (Vorkosigan Saga, #5.2)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328032566l/7195389._SX50_.jpg\" /></a><br/>\n                                      author: Lois McMaster Bujold<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: 1989<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/08/23<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "91"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/8880917365?utm_medium=api&utm_source=rss",
       "title": "Ethan of Athos (Vorkosigan Saga, #3)",
       "link": "https://www.goodreads.com/review/show/8880917365?utm_medium=api&utm_source=rss",
@@ -11,15 +32,15 @@
       "authorName": "Lois McMaster Bujold",
       "isbn": "067165604X",
       "userName": "Daniel",
-      "userRating": "0",
-      "userReadAt": "",
-      "userDateAdded": "2026-08-23T07:26:11.000Z",
+      "userRating": "4",
+      "userReadAt": "2026-08-23T00:00:00.000Z",
+      "userDateAdded": "2026-08-24T03:11:18.000Z",
       "userDateCreated": "2026-08-22T06:36:33.000Z",
       "userShelves": "",
       "userReview": "",
       "averageRating": "3.8",
       "bookPublished": "1986",
-      "description": "<a href=\"https://www.goodreads.com/book/show/990093.Ethan_of_Athos?utm_medium=api&amp;utm_source=rss\"><img alt=\"Ethan of Athos (Vorkosigan Saga, #3)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1365244555l/990093._SY75_.jpg\" /></a><br/>\n                                      author: Lois McMaster Bujold<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.8<br/>\n                                      book published: 1986<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/08/23<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/990093.Ethan_of_Athos?utm_medium=api&amp;utm_source=rss\"><img alt=\"Ethan of Athos (Vorkosigan Saga, #3)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1365244555l/990093._SY75_.jpg\" /></a><br/>\n                                      author: Lois McMaster Bujold<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.8<br/>\n                                      book published: 1986<br/>\n                                      rating: 4<br/>\n                                      read at: 2026/08/23<br/>\n                                      date added: 2026/08/23<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "237"
     },
     {
@@ -248,9 +269,9 @@
       "userDateCreated": "2026-08-13T11:26:07.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "4.4",
+      "averageRating": "4.3",
       "bookPublished": "2026",
-      "description": "<a href=\"https://www.goodreads.com/book/show/243856566-what-happened-to-liberal-democracy?utm_medium=api&amp;utm_source=rss\"><img alt=\"What Happened to Liberal Democracy?: Remaking a Politics of Shared Prosperity\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1778698327l/243856566._SY75_.jpg\" /></a><br/>\n                                      author: Daron Acemoğlu<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.4<br/>\n                                      book published: 2026<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/08/13<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/243856566-what-happened-to-liberal-democracy?utm_medium=api&amp;utm_source=rss\"><img alt=\"What Happened to Liberal Democracy?: Remaking a Politics of Shared Prosperity\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1778698327l/243856566._SY75_.jpg\" /></a><br/>\n                                      author: Daron Acemoğlu<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: 2026<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/08/13<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
       "numPages": "416"
     },
     {
@@ -17111,9 +17132,9 @@
       "userDateCreated": "2022-09-30T08:18:59.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "4.1",
+      "averageRating": "4.0",
       "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/59475212-command?utm_medium=api&amp;utm_source=rss\"><img alt=\"Command: The Politics of Military Operations from Korea to Ukraine\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1653769181l/59475212._SY75_.jpg\" /></a><br/>\n                                      author: Lawrence Freedman<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/09/30<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/59475212-command?utm_medium=api&amp;utm_source=rss\"><img alt=\"Command: The Politics of Military Operations from Korea to Ukraine\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1653769181l/59475212._SY75_.jpg\" /></a><br/>\n                                      author: Lawrence Freedman<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/09/30<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "608"
     },
     {
