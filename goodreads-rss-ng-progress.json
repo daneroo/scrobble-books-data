@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/8869640622?utm_medium=api&utm_source=rss",
+      "title": "Essentialism: The Disciplined Pursuit of Less",
+      "link": "https://www.goodreads.com/review/show/8869640622?utm_medium=api&utm_source=rss",
+      "bookId": "19776547",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1755208457l/19776547._SY75_.jpg",
+      "bookDescription": "THE LIFE-CHANGING NEW YORK TIMES BESTSELLER • MORE THAN TWO MILLION COPIES SOLD • Now in a 10th anniversary edition featuring a new introduction and bonus 21-day challenge.<br /><br />“Essentialism holds the keys to solving one of the great puzzles of life: How can we do less but accomplish more?”—Adam Grant, bestselling author of Think Again<br /><br />Essentialism isn’t about getting more done in less time. It’s about getting only the right things done.<br /><br />Have you ever found yourself stretched too thin?<br />Are you often busy but not productive?<br />Do you feel like your time is constantly being hijacked?<br /><br />If you answered yes to any of these, the way out is the Way of the Essentialist.<br /> <br />Essentialism is more than a time-management technique. It is a systematic discipline for discerning what is absolutely essential, then eliminating everything that is not, so we can make the highest possible contribution toward the things that really matter.<br /> <br />By forcing us to apply more selective criteria for where to spend our precious time and energy, the disciplined pursuit of less empowers us to reclaim control of our own choices, instead of giving others the implicit permission to choose for us.<br /> <br />Essentialism is not one more thing to do. It’s a whole new way of doing less, but better, in every area of our lives. Join the millions of people who have used Essentialism to change their outlook on the world.",
+      "authorName": "Greg McKeown",
+      "isbn": "0804137390",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2026-08-24T06:22:34.000Z",
+      "userDateCreated": "2026-08-18T06:13:24.000Z",
+      "userShelves": "",
+      "userReview": "",
+      "averageRating": "4.1",
+      "bookPublished": "2011",
+      "description": "<a href=\"https://www.goodreads.com/book/show/19776547-essentialism?utm_medium=api&amp;utm_source=rss\"><img alt=\"Essentialism: The Disciplined Pursuit of Less\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1755208457l/19776547._SY75_.jpg\" /></a><br/>\n                                      author: Greg McKeown<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: 2011<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/08/23<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "290"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/8886307417?utm_medium=api&utm_source=rss",
       "title": "Labyrinth (Vorkosigan Saga, #5.2)",
       "link": "https://www.goodreads.com/review/show/8886307417?utm_medium=api&utm_source=rss",
@@ -11,15 +32,15 @@
       "authorName": "Lois McMaster Bujold",
       "isbn": "1590623827",
       "userName": "Daniel",
-      "userRating": "0",
-      "userReadAt": "",
-      "userDateAdded": "2026-08-24T03:12:21.000Z",
+      "userRating": "4",
+      "userReadAt": "2026-08-23T00:00:00.000Z",
+      "userDateAdded": "2026-08-24T05:45:40.000Z",
       "userDateCreated": "2026-08-24T03:12:21.000Z",
       "userShelves": "",
       "userReview": "",
       "averageRating": "4.1",
       "bookPublished": "1989",
-      "description": "<a href=\"https://www.goodreads.com/book/show/7195389-labyrinth?utm_medium=api&amp;utm_source=rss\"><img alt=\"Labyrinth (Vorkosigan Saga, #5.2)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328032566l/7195389._SX50_.jpg\" /></a><br/>\n                                      author: Lois McMaster Bujold<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: 1989<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/08/23<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/7195389-labyrinth?utm_medium=api&amp;utm_source=rss\"><img alt=\"Labyrinth (Vorkosigan Saga, #5.2)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328032566l/7195389._SX50_.jpg\" /></a><br/>\n                                      author: Lois McMaster Bujold<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: 1989<br/>\n                                      rating: 4<br/>\n                                      read at: 2026/08/23<br/>\n                                      date added: 2026/08/23<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "91"
     },
     {
@@ -84,27 +105,6 @@
       "bookPublished": "1990",
       "description": "<a href=\"https://www.goodreads.com/book/show/68483.The_Vor_Game?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Vor Game (Vorkosigan Saga, #6)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1681495470l/68483._SY75_.jpg\" /></a><br/>\n                                      author: Lois McMaster Bujold<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: 1990<br/>\n                                      rating: 4<br/>\n                                      read at: 2026/08/19<br/>\n                                      date added: 2026/08/19<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "346"
-    },
-    {
-      "id": "https://www.goodreads.com/review/show/8869640622?utm_medium=api&utm_source=rss",
-      "title": "Essentialism: The Disciplined Pursuit of Less",
-      "link": "https://www.goodreads.com/review/show/8869640622?utm_medium=api&utm_source=rss",
-      "bookId": "19776547",
-      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1755208457l/19776547._SY75_.jpg",
-      "bookDescription": "THE LIFE-CHANGING NEW YORK TIMES BESTSELLER • MORE THAN TWO MILLION COPIES SOLD • Now in a 10th anniversary edition featuring a new introduction and bonus 21-day challenge.<br /><br />“Essentialism holds the keys to solving one of the great puzzles of life: How can we do less but accomplish more?”—Adam Grant, bestselling author of Think Again<br /><br />Essentialism isn’t about getting more done in less time. It’s about getting only the right things done.<br /><br />Have you ever found yourself stretched too thin?<br />Are you often busy but not productive?<br />Do you feel like your time is constantly being hijacked?<br /><br />If you answered yes to any of these, the way out is the Way of the Essentialist.<br /> <br />Essentialism is more than a time-management technique. It is a systematic discipline for discerning what is absolutely essential, then eliminating everything that is not, so we can make the highest possible contribution toward the things that really matter.<br /> <br />By forcing us to apply more selective criteria for where to spend our precious time and energy, the disciplined pursuit of less empowers us to reclaim control of our own choices, instead of giving others the implicit permission to choose for us.<br /> <br />Essentialism is not one more thing to do. It’s a whole new way of doing less, but better, in every area of our lives. Join the millions of people who have used Essentialism to change their outlook on the world.",
-      "authorName": "Greg McKeown",
-      "isbn": "0804137390",
-      "userName": "Daniel",
-      "userRating": "0",
-      "userReadAt": "",
-      "userDateAdded": "2026-08-18T06:13:24.000Z",
-      "userDateCreated": "2026-08-18T06:13:24.000Z",
-      "userShelves": "",
-      "userReview": "",
-      "averageRating": "4.1",
-      "bookPublished": "2011",
-      "description": "<a href=\"https://www.goodreads.com/book/show/19776547-essentialism?utm_medium=api&amp;utm_source=rss\"><img alt=\"Essentialism: The Disciplined Pursuit of Less\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1755208457l/19776547._SY75_.jpg\" /></a><br/>\n                                      author: Greg McKeown<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: 2011<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/08/17<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
-      "numPages": "290"
     },
     {
       "id": "https://www.goodreads.com/review/show/8860680260?utm_medium=api&utm_source=rss",
@@ -5883,7 +5883,7 @@
     },
     {
       "id": "https://www.goodreads.com/review/show/6417264411?utm_medium=api&utm_source=rss",
-      "title": "The Devils (The Devils, #1)",
+      "title": "The Devils (The Devils #1)",
       "link": "https://www.goodreads.com/review/show/6417264411?utm_medium=api&utm_source=rss",
       "bookId": "212276037",
       "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1746869112l/212276037._SY75_.jpg",
@@ -5899,7 +5899,7 @@
       "userReview": "",
       "averageRating": "4.2",
       "bookPublished": "2025",
-      "description": "<a href=\"https://www.goodreads.com/book/show/212276037-the-devils?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Devils (The Devils, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1746869112l/212276037._SY75_.jpg\" /></a><br/>\n                                      author: Joe Abercrombie<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 2025<br/>\n                                      rating: 4<br/>\n                                      read at: 2025/06/09<br/>\n                                      date added: 2025/06/09<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/212276037-the-devils?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Devils (The Devils #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1746869112l/212276037._SY75_.jpg\" /></a><br/>\n                                      author: Joe Abercrombie<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 2025<br/>\n                                      rating: 4<br/>\n                                      read at: 2025/06/09<br/>\n                                      date added: 2025/06/09<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "565"
     },
     {
@@ -19281,7 +19281,7 @@
     },
     {
       "id": "https://www.goodreads.com/review/show/4653958163?utm_medium=api&utm_source=rss",
-      "title": "The Oxford History of Ireland",
+      "title": "The Oxford History of Ireland: Reissue",
       "link": "https://www.goodreads.com/review/show/4653958163?utm_medium=api&utm_source=rss",
       "bookId": "739828",
       "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347659253l/739828._SX50_.jpg",
@@ -19297,7 +19297,7 @@
       "userReview": "",
       "averageRating": "3.5",
       "bookPublished": "1989",
-      "description": "<a href=\"https://www.goodreads.com/book/show/739828.The_Oxford_History_of_Ireland?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Oxford History of Ireland\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347659253l/739828._SX50_.jpg\" /></a><br/>\n                                      author: R.F. Foster<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.5<br/>\n                                      book published: 1989<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/04/06<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/739828.The_Oxford_History_of_Ireland?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Oxford History of Ireland: Reissue\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347659253l/739828._SX50_.jpg\" /></a><br/>\n                                      author: R.F. Foster<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.5<br/>\n                                      book published: 1989<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/04/06<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "368"
     },
     {
