@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/8908926484?utm_medium=api&utm_source=rss",
+      "title": "Broken China: How the Economic Miracle Shattered and What it Means for the World",
+      "link": "https://www.goodreads.com/review/show/8908926484?utm_medium=api&utm_source=rss",
+      "bookId": "248051399",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1771158598l/248051399._SY75_.jpg",
+      "bookDescription": "",
+      "authorName": "Logan Wright",
+      "isbn": "1509570675",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2026-09-01T05:44:21.000Z",
+      "userDateCreated": "2026-09-01T05:44:21.000Z",
+      "userShelves": "",
+      "userReview": "",
+      "averageRating": "2.0",
+      "bookPublished": "",
+      "description": "<a href=\"https://www.goodreads.com/book/show/248051399-broken-china?utm_medium=api&amp;utm_source=rss\"><img alt=\"Broken China: How the Economic Miracle Shattered and What it Means for the World\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1771158598l/248051399._SY75_.jpg\" /></a><br/>\n                                      author: Logan Wright<br/>\n                                      name: Daniel<br/>\n                                      average rating: 2.0<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/08/31<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "numPages": "272"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/8894837906?utm_medium=api&utm_source=rss",
       "title": "Mirror Dance (Vorkosigan Saga, #8)",
       "link": "https://www.goodreads.com/review/show/8894837906?utm_medium=api&utm_source=rss",
@@ -7830,8 +7851,8 @@
       "userShelves": "",
       "userReview": "",
       "averageRating": "4.2",
-      "bookPublished": "-750",
-      "description": "<a href=\"https://www.goodreads.com/book/show/34068470-the-odyssey?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Odyssey\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1487351579l/34068470._SY75_.jpg\" /></a><br/>\n                                      author: Homer<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: -750<br/>\n                                      rating: 4<br/>\n                                      read at: 2025/01/03<br/>\n                                      date added: 2025/01/03<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "bookPublished": "-800",
+      "description": "<a href=\"https://www.goodreads.com/book/show/34068470-the-odyssey?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Odyssey\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1487351579l/34068470._SY75_.jpg\" /></a><br/>\n                                      author: Homer<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: -800<br/>\n                                      rating: 4<br/>\n                                      read at: 2025/01/03<br/>\n                                      date added: 2025/01/03<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "582"
     },
     {
@@ -8271,8 +8292,8 @@
       "userShelves": "",
       "userReview": "",
       "averageRating": "3.8",
-      "bookPublished": "-750",
-      "description": "<a href=\"https://www.goodreads.com/book/show/1381.The_Odyssey?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Odyssey\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1711957706l/1381._SY75_.jpg\" /></a><br/>\n                                      author: Homer<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.8<br/>\n                                      book published: -750<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/12/01<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "bookPublished": "-800",
+      "description": "<a href=\"https://www.goodreads.com/book/show/1381.The_Odyssey?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Odyssey\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1711957706l/1381._SY75_.jpg\" /></a><br/>\n                                      author: Homer<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.8<br/>\n                                      book published: -800<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/12/01<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
       "numPages": "541"
     },
     {
