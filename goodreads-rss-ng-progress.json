@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/8917500423?utm_medium=api&utm_source=rss",
+      "title": "Komarr (Vorkosigan Saga, #11)",
+      "link": "https://www.goodreads.com/review/show/8917500423?utm_medium=api&utm_source=rss",
+      "bookId": "61884",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1322572043l/61884._SY75_.jpg",
+      "bookDescription": "Komarr could be a garden with a thousand more years' work, or an uninhabitable wasteland if the terraforming fails. Now, the solar mirror vital to the terraforming of the conquered planet has been shattered by a ship hurtling off course. The Emperor of Barrayar sends his newest imperial auditor, Lord Miles Vorkosigan, to find out why. The choice is not a popular one on Komarr, where a betrayal a generation before drenched the name of Vorkosigan in blood. Thus, the Komarrans surrounding Miles could be loyal subjects, potential hostages, innocent victims, or rebels ready for revenge. Lies within lies, treachery within treachery, Miles is caught in a race against time to stop a plot that could exile him from Barrayar forever. His burning hope lies in an unexpected ally, one with wounds as deep and honor as beleaguered as his own.",
+      "authorName": "Lois McMaster Bujold",
+      "isbn": "0671578081",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2026-09-04T04:53:37.000Z",
+      "userDateCreated": "2026-09-04T04:53:37.000Z",
+      "userShelves": "",
+      "userReview": "",
+      "averageRating": "4.3",
+      "bookPublished": "1998",
+      "description": "<a href=\"https://www.goodreads.com/book/show/61884.Komarr?utm_medium=api&amp;utm_source=rss\"><img alt=\"Komarr (Vorkosigan Saga, #11)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1322572043l/61884._SY75_.jpg\" /></a><br/>\n                                      author: Lois McMaster Bujold<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: 1998<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/09/03<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "366"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/8912074460?utm_medium=api&utm_source=rss",
       "title": "Memory (Vorkosigan Saga, #10)",
       "link": "https://www.goodreads.com/review/show/8912074460?utm_medium=api&utm_source=rss",
@@ -11,15 +32,15 @@
       "authorName": "Lois McMaster Bujold",
       "isbn": "2290052302",
       "userName": "Daniel",
-      "userRating": "0",
-      "userReadAt": "",
-      "userDateAdded": "2026-09-03T08:33:45.000Z",
+      "userRating": "5",
+      "userReadAt": "2026-09-03T00:00:00.000Z",
+      "userDateAdded": "2026-09-04T04:43:08.000Z",
       "userDateCreated": "2026-09-02T04:46:46.000Z",
       "userShelves": "",
       "userReview": "",
       "averageRating": "4.4",
       "bookPublished": "1996",
-      "description": "<a href=\"https://www.goodreads.com/book/show/61880.Memory?utm_medium=api&amp;utm_source=rss\"><img alt=\"Memory (Vorkosigan Saga, #10)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1460274588l/61880._SY75_.jpg\" /></a><br/>\n                                      author: Lois McMaster Bujold<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.4<br/>\n                                      book published: 1996<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/09/03<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/61880.Memory?utm_medium=api&amp;utm_source=rss\"><img alt=\"Memory (Vorkosigan Saga, #10)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1460274588l/61880._SY75_.jpg\" /></a><br/>\n                                      author: Lois McMaster Bujold<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.4<br/>\n                                      book published: 1996<br/>\n                                      rating: 5<br/>\n                                      read at: 2026/09/03<br/>\n                                      date added: 2026/09/03<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "509"
     },
     {
@@ -3447,7 +3468,7 @@
     },
     {
       "id": "https://www.goodreads.com/review/show/8061828590?utm_medium=api&utm_source=rss",
-      "title": "The Asian Financial Crisis 1995–98: Birth of the Age of Debt",
+      "title": "The Asian Financial Crisis 1995-98: Birth of the Age of Debt",
       "link": "https://www.goodreads.com/review/show/8061828590?utm_medium=api&utm_source=rss",
       "bookId": "57283124",
       "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1618852972l/57283124._SX50_.jpg",
@@ -3463,7 +3484,7 @@
       "userReview": "",
       "averageRating": "3.8",
       "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/57283124-the-asian-financial-crisis-1995-98?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Asian Financial Crisis 1995–98: Birth of the Age of Debt\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1618852972l/57283124._SX50_.jpg\" /></a><br/>\n                                      author: Russell Napier<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.8<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/11/11<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/57283124-the-asian-financial-crisis-1995-98?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Asian Financial Crisis 1995-98: Birth of the Age of Debt\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1618852972l/57283124._SX50_.jpg\" /></a><br/>\n                                      author: Russell Napier<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.8<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/11/11<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "388"
     },
     {
@@ -19722,7 +19743,7 @@
     },
     {
       "id": "https://www.goodreads.com/review/show/4615206551?utm_medium=api&utm_source=rss",
-      "title": "Market Tremors: Quantifying Structural Risks in Modern Financial Markets",
+      "title": "Market Tremors: Quantifying Structural Risks in Modern Financial Markets (Economics and Finance)",
       "link": "https://www.goodreads.com/review/show/4615206551?utm_medium=api&utm_source=rss",
       "bookId": "59015075",
       "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1631889942l/59015075._SY75_.jpg",
@@ -19738,7 +19759,7 @@
       "userReview": "",
       "averageRating": "4.4",
       "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/59015075-market-tremors?utm_medium=api&amp;utm_source=rss\"><img alt=\"Market Tremors: Quantifying Structural Risks in Modern Financial Markets\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1631889942l/59015075._SY75_.jpg\" /></a><br/>\n                                      author: Hari P. Krishnan<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.4<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/03/18<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/59015075-market-tremors?utm_medium=api&amp;utm_source=rss\"><img alt=\"Market Tremors: Quantifying Structural Risks in Modern Financial Markets (Economics and Finance)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1631889942l/59015075._SY75_.jpg\" /></a><br/>\n                                      author: Hari P. Krishnan<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.4<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2022/03/18<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
       "numPages": "266"
     },
     {
