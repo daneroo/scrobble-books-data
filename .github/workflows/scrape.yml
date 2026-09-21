@@ -35,7 +35,7 @@ jobs:
       - uses: denoland/setup-deno@v2
         with:
           deno-version: v2.x
-      - uses: cue-lang/setup-cue@v1.0.1
+      - uses: cue-lang/setup-cue@v2.0.0
         with:
           # reverting to latest, which is the default. Working as of "v0.10.0"
           version: latest
