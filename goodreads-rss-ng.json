@@ -11,15 +11,15 @@
       "authorName": "Lois McMaster Bujold",
       "isbn": "1439133948",
       "userName": "Daniel",
-      "userRating": "0",
-      "userReadAt": "",
-      "userDateAdded": "2026-09-20T07:59:40.000Z",
+      "userRating": "4",
+      "userReadAt": "2026-09-20T00:00:00.000Z",
+      "userDateAdded": "2026-09-21T05:00:56.000Z",
       "userDateCreated": "2026-09-19T08:26:48.000Z",
-      "userShelves": "currently-reading",
+      "userShelves": "",
       "userReview": "",
       "averageRating": "4.0",
       "bookPublished": "2010",
-      "description": "<a href=\"https://www.goodreads.com/book/show/7841670-cryoburn?utm_medium=api&amp;utm_source=rss\"><img alt=\"CryoBurn (Vorkosigan Saga, #14)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1269879970l/7841670._SY75_.jpg\" /></a><br/>\n                                      author: Lois McMaster Bujold<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: 2010<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/09/20<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/7841670-cryoburn?utm_medium=api&amp;utm_source=rss\"><img alt=\"CryoBurn (Vorkosigan Saga, #14)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1269879970l/7841670._SY75_.jpg\" /></a><br/>\n                                      author: Lois McMaster Bujold<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: 2010<br/>\n                                      rating: 4<br/>\n                                      read at: 2026/09/20<br/>\n                                      date added: 2026/09/20<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "345"
     },
     {
@@ -5981,9 +5981,9 @@
       "userDateCreated": "2025-06-23T13:05:59.000Z",
       "userShelves": "on-deck",
       "userReview": "",
-      "averageRating": "4.3",
+      "averageRating": "4.2",
       "bookPublished": "2025",
-      "description": "<a href=\"https://www.goodreads.com/book/show/209047303-the-party-s-interests-come-first?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Party&#39;s Interests Come First: The Life of Xi Zhongxun, Father of Xi Jinping\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1735447265l/209047303._SY75_.jpg\" /></a><br/>\n                                      author: Joseph Torigian<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: 2025<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/06/23<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/209047303-the-party-s-interests-come-first?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Party&#39;s Interests Come First: The Life of Xi Zhongxun, Father of Xi Jinping\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1735447265l/209047303._SY75_.jpg\" /></a><br/>\n                                      author: Joseph Torigian<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 2025<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2025/06/23<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
       "numPages": "718"
     },
     {
