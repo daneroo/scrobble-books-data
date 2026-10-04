@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/8998678738?utm_medium=api&utm_source=rss",
+      "title": "The Eureka Machine: Why AI Is the Key to Unlocking a New Era of Scientific Discoveries",
+      "link": "https://www.goodreads.com/review/show/8998678738?utm_medium=api&utm_source=rss",
+      "bookId": "246181969",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1767715173l/246181969._SY75_.jpg",
+      "bookDescription": "<b>An AI expert reveals the transformative potential of artificial intelligence to usher in a new era of scientific discovery</b><br /><br /> Researchers are publishing more papers than ever before, but human expertise has grown narrower and the rate of scientific progress is slowing.<br /><br /> AI will reverse this trend. AI pioneer Richard Socher argues that AI will usher in a century’s worth of breakthroughs in just the next decade as each stage of the scientific process—from hypothesis to experiment, from data to theory—is connected and transformed. <i>The Eureka Machine</i> pulls back the curtain on how AI is already revolutionizing fields as diverse as medicine, cell biology, economics, neuroscience, and astronomy. The results? Radically sped-up timelines for drug development, simulated life-forms accurate down to the subcellular level, and a nascent ability to read and record thoughts (even dreams!). Every branch of science will be transformed, but none more than the new science of intelligence itself. The future, predicts Socher, is a superintelligence that can continuously improve itself until it hits the theoretical upper bound of capability.<br /><br /> Essential reading for funders, founders, researchers, skeptics, and anyone curious about what the AI future will hold, <i>The Eureka Machine</i> reveals the foundation for a coming era of supercharged scientific discovery.",
+      "authorName": "Richard Socher",
+      "isbn": "1541705793",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2026-10-04T17:00:24.000Z",
+      "userDateCreated": "2026-10-04T17:00:15.000Z",
+      "userShelves": "on-deck",
+      "userReview": "",
+      "averageRating": "4.3",
+      "bookPublished": "",
+      "description": "<a href=\"https://www.goodreads.com/book/show/246181969-the-eureka-machine?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Eureka Machine: Why AI Is the Key to Unlocking a New Era of Scientific Discoveries\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1767715173l/246181969._SY75_.jpg\" /></a><br/>\n                                      author: Richard Socher<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/10/04<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "numPages": "261"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/8709469260?utm_medium=api&utm_source=rss",
       "title": "2084 (A Novel of Future War)",
       "link": "https://www.goodreads.com/review/show/8709469260?utm_medium=api&utm_source=rss",
@@ -29379,27 +29400,6 @@
       "bookPublished": "2008",
       "description": "<a href=\"https://www.goodreads.com/book/show/1735025.Leap_Before_You_Look?utm_medium=api&amp;utm_source=rss\"><img alt=\"Leap Before You Look: 72 Shortcuts for Getting Out of Your Mind and into the Moment\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348523267l/1735025._SX50_.jpg\" /></a><br/>\n                                      author: Arjuna Ardagh<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: 2008<br/>\n                                      rating: 3<br/>\n                                      read at: <br/>\n                                      date added: 2013/01/16<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "232"
-    },
-    {
-      "id": "https://www.goodreads.com/review/show/508214814?utm_medium=api&utm_source=rss",
-      "title": "The Upside of Irrationality: The Unexpected Benefits of Defying Logic at Work and at Home",
-      "link": "https://www.goodreads.com/review/show/508214814?utm_medium=api&utm_source=rss",
-      "bookId": "7815744",
-      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1268511997l/7815744._SY75_.jpg",
-      "bookDescription": "Behavioral economist and New York Times bestselling author of Predictably Irrational Dan Ariely offers a much-needed take on the irrational decisions that influence our dating lives, our workplace experiences, and our temptation to cheat in any and all areas. Fans of Freakonomics, Survival of the Sickest, and Malcolm Gladwell’s Blink and The Tipping Point will find many thought-provoking insights in The Upside of Irrationality.<br /><br />How can large bonuses sometimes make CEOs less productive?<br /><br />Why is revenge so important to us?<br /><br />How can confusing directions actually help us?<br /><br />Why is there a difference between what we think will make us happy and what really makes us happy?<br /><br />In his groundbreaking book, Predictably Irrational, Ariely revealed the multiple biases that lead us to make unwise decisions. Now, in The Upside of Irrationality, he exposes the surprising negative and positive effects irrationality can have on our lives. Focusing on our behaviors at work and in relationships, he offers new insights and eye-opening truths about what really motivates us on the job, how one unwise action can become a long-term bad habit, how we learn to love the ones we’re with, and more. The Upside of Irrationality will change the way we see ourselves at work and at home—and cast our irrational behaviors in a more nuanced light.",
-      "authorName": "Dan Ariely",
-      "isbn": "0061995037",
-      "userName": "Daniel",
-      "userRating": "4",
-      "userReadAt": "",
-      "userDateAdded": "2013-01-16T18:24:00.000Z",
-      "userDateCreated": "2013-01-16T18:24:00.000Z",
-      "userShelves": "",
-      "userReview": "",
-      "averageRating": "4.0",
-      "bookPublished": "2010",
-      "description": "<a href=\"https://www.goodreads.com/book/show/7815744-the-upside-of-irrationality?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Upside of Irrationality: The Unexpected Benefits of Defying Logic at Work and at Home\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1268511997l/7815744._SY75_.jpg\" /></a><br/>\n                                      author: Dan Ariely<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: 2010<br/>\n                                      rating: 4<br/>\n                                      read at: <br/>\n                                      date added: 2013/01/16<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
-      "numPages": "334"
     }
   ]
 }

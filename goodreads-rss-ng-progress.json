@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/8998678738?utm_medium=api&utm_source=rss",
+      "title": "The Eureka Machine: Why AI Is the Key to Unlocking a New Era of Scientific Discoveries",
+      "link": "https://www.goodreads.com/review/show/8998678738?utm_medium=api&utm_source=rss",
+      "bookId": "246181969",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1767715173l/246181969._SY75_.jpg",
+      "bookDescription": "<b>An AI expert reveals the transformative potential of artificial intelligence to usher in a new era of scientific discovery</b><br /><br /> Researchers are publishing more papers than ever before, but human expertise has grown narrower and the rate of scientific progress is slowing.<br /><br /> AI will reverse this trend. AI pioneer Richard Socher argues that AI will usher in a century’s worth of breakthroughs in just the next decade as each stage of the scientific process—from hypothesis to experiment, from data to theory—is connected and transformed. <i>The Eureka Machine</i> pulls back the curtain on how AI is already revolutionizing fields as diverse as medicine, cell biology, economics, neuroscience, and astronomy. The results? Radically sped-up timelines for drug development, simulated life-forms accurate down to the subcellular level, and a nascent ability to read and record thoughts (even dreams!). Every branch of science will be transformed, but none more than the new science of intelligence itself. The future, predicts Socher, is a superintelligence that can continuously improve itself until it hits the theoretical upper bound of capability.<br /><br /> Essential reading for funders, founders, researchers, skeptics, and anyone curious about what the AI future will hold, <i>The Eureka Machine</i> reveals the foundation for a coming era of supercharged scientific discovery.",
+      "authorName": "Richard Socher",
+      "isbn": "1541705793",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2026-10-04T17:00:24.000Z",
+      "userDateCreated": "2026-10-04T17:00:15.000Z",
+      "userShelves": "",
+      "userReview": "",
+      "averageRating": "4.3",
+      "bookPublished": "",
+      "description": "<a href=\"https://www.goodreads.com/book/show/246181969-the-eureka-machine?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Eureka Machine: Why AI Is the Key to Unlocking a New Era of Scientific Discoveries\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1767715173l/246181969._SY75_.jpg\" /></a><br/>\n                                      author: Richard Socher<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/10/04<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "numPages": "261"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/8709469260?utm_medium=api&utm_source=rss",
       "title": "2084 (A Novel of Future War)",
       "link": "https://www.goodreads.com/review/show/8709469260?utm_medium=api&utm_source=rss",
