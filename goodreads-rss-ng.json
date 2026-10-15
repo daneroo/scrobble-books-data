@@ -122,9 +122,9 @@
       "userDateCreated": "2026-09-19T09:18:58.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "4.4",
+      "averageRating": "4.5",
       "bookPublished": "2026",
-      "description": "<a href=\"https://www.goodreads.com/book/show/245645193-the-agi-chronicles?utm_medium=api&amp;utm_source=rss\"><img alt=\"The AGI Chronicles: The Inside Story of the Race to Create an Artificial Superintelligence\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1779161677l/245645193._SY75_.jpg\" /></a><br/>\n                                      author: Kevin Roose<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.4<br/>\n                                      book published: 2026<br/>\n                                      rating: 4<br/>\n                                      read at: 2026/10/11<br/>\n                                      date added: 2026/10/11<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/245645193-the-agi-chronicles?utm_medium=api&amp;utm_source=rss\"><img alt=\"The AGI Chronicles: The Inside Story of the Race to Create an Artificial Superintelligence\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1779161677l/245645193._SY75_.jpg\" /></a><br/>\n                                      author: Kevin Roose<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.5<br/>\n                                      book published: 2026<br/>\n                                      rating: 4<br/>\n                                      read at: 2026/10/11<br/>\n                                      date added: 2026/10/11<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "448"
     },
     {
@@ -332,9 +332,9 @@
       "userDateCreated": "2026-10-02T00:12:58.000Z",
       "userShelves": "on-deck",
       "userReview": "",
-      "averageRating": "4.1",
+      "averageRating": "4.2",
       "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/244709901-the-new-dark-ages?utm_medium=api&amp;utm_source=rss\"><img alt=\"The New Dark Ages: The Death of Reading and the Dawn of the Post-Literate Society\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1773977645l/244709901._SX50_.jpg\" /></a><br/>\n                                      author: James Marriott<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/10/01<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/244709901-the-new-dark-ages?utm_medium=api&amp;utm_source=rss\"><img alt=\"The New Dark Ages: The Death of Reading and the Dawn of the Post-Literate Society\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1773977645l/244709901._SX50_.jpg\" /></a><br/>\n                                      author: James Marriott<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/10/01<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
       "numPages": "208"
     },
     {
@@ -1214,9 +1214,9 @@
       "userDateCreated": "2026-07-23T09:40:37.000Z",
       "userShelves": "on-deck",
       "userReview": "",
-      "averageRating": "4.0",
+      "averageRating": "3.9",
       "bookPublished": "2026",
-      "description": "<a href=\"https://www.goodreads.com/book/show/235699949-original-sin?utm_medium=api&amp;utm_source=rss\"><img alt=\"Original Sin: On the Genetics of Vice, the Problem of Blame, and the Future of Forgiveness\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1753842510l/235699949._SY75_.jpg\" /></a><br/>\n                                      author: Kathryn Paige Harden<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: 2026<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/07/25<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/235699949-original-sin?utm_medium=api&amp;utm_source=rss\"><img alt=\"Original Sin: On the Genetics of Vice, the Problem of Blame, and the Future of Forgiveness\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1753842510l/235699949._SY75_.jpg\" /></a><br/>\n                                      author: Kathryn Paige Harden<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: 2026<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/07/25<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
       "numPages": "320"
     },
     {
@@ -28605,7 +28605,7 @@
     },
     {
       "id": "https://www.goodreads.com/review/show/924226825?utm_medium=api&utm_source=rss",
-      "title": "The Long Hard Road Out of Hell: From a frightened Ohio schoolboy to Anton LaVey's ordained Antichrist—the raw, uncensored memoir of shock rock's most feared icon.",
+      "title": "The Long Hard Road Out of Hell",
       "link": "https://www.goodreads.com/review/show/924226825?utm_medium=api&utm_source=rss",
       "bookId": "19121625",
       "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386044127l/19121625._SY75_.jpg",
@@ -28621,7 +28621,7 @@
       "userReview": "",
       "averageRating": "3.8",
       "bookPublished": "1998",
-      "description": "<a href=\"https://www.goodreads.com/book/show/19121625-the-long-hard-road-out-of-hell?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Long Hard Road Out of Hell: From a frightened Ohio schoolboy to Anton LaVey&#39;s ordained Antichrist—the raw, uncensored memoir of shock rock&#39;s most feared icon.\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386044127l/19121625._SY75_.jpg\" /></a><br/>\n                                      author: Marilyn Manson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.8<br/>\n                                      book published: 1998<br/>\n                                      rating: 5<br/>\n                                      read at: <br/>\n                                      date added: 2014/04/29<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/19121625-the-long-hard-road-out-of-hell?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Long Hard Road Out of Hell\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386044127l/19121625._SY75_.jpg\" /></a><br/>\n                                      author: Marilyn Manson<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.8<br/>\n                                      book published: 1998<br/>\n                                      rating: 5<br/>\n                                      read at: <br/>\n                                      date added: 2014/04/29<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "413"
     },
     {
