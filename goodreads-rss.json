@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/9047081205?utm_medium=api&utm_source=rss",
+      "title": "Time Travel: A History",
+      "link": "https://www.goodreads.com/review/show/9047081205?utm_medium=api&utm_source=rss",
+      "bookId": "28587584",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1472314681l/28587584._SX50_.jpg",
+      "bookDescription": "From the acclaimed author of <i>The Information</i> and <i>Chaos,</i> a mind-bending exploration of time travel: its subversive origins, its evolution in literature and science, and its influence on our understanding of time itself. <br /><br />Gleick's story begins at the turn of the twentieth century with the young H. G. Wells writing and rewriting the fantastic tale that became his first book, an international sensation, <i>The Time Machine.</i> A host of forces were converging to transmute the human understanding of time, some philosophical and some technological the electric telegraph, the steam railroad, the discovery of buried civilizations, and the perfection of clocks. <br /><br />Gleick tracks the evolution of time travel as an idea in the culture from Marcel Proust to <i>Doctor Who,</i> from Woody Allen to Jorge Luis Borges. He explores the inevitable looping paradoxes and examines the porous boundary between pulp fiction and modern physics. Finally, he delves into a temporal shift that is unsettling our own moment: the instantaneous wired world, with its all-consuming present and vanishing future.",
+      "authorName": "James Gleick",
+      "isbn": "0307908801",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2026-10-23T02:16:31.000Z",
+      "userDateCreated": "2026-10-23T02:16:30.000Z",
+      "userShelves": "currently-reading",
+      "userReview": "",
+      "averageRating": "3.6",
+      "bookPublished": "2016",
+      "description": "<a href=\"https://www.goodreads.com/book/show/28587584-time-travel?utm_medium=api&amp;utm_source=rss\"><img alt=\"Time Travel: A History\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1472314681l/28587584._SX50_.jpg\" /></a><br/>\n                                      author: James Gleick<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.6<br/>\n                                      book published: 2016<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/10/22<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "304"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/7829828565?utm_medium=api&utm_source=rss",
       "title": "Prince of Thorns (Broken Empire, #1)",
       "link": "https://www.goodreads.com/review/show/7829828565?utm_medium=api&utm_source=rss",
@@ -311,9 +332,9 @@
       "userDateCreated": "2026-10-06T18:37:59.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "4.4",
+      "averageRating": "4.3",
       "bookPublished": "2026",
-      "description": "<a href=\"https://www.goodreads.com/book/show/244382759-the-nerd-reich?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Nerd Reich: Silicon Valley Fascism and the War on Democracy\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1764053152l/244382759._SY75_.jpg\" /></a><br/>\n                                      author: Gil Duran<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.4<br/>\n                                      book published: 2026<br/>\n                                      rating: 4<br/>\n                                      read at: 2026/10/08<br/>\n                                      date added: 2026/10/08<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/244382759-the-nerd-reich?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Nerd Reich: Silicon Valley Fascism and the War on Democracy\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1764053152l/244382759._SY75_.jpg\" /></a><br/>\n                                      author: Gil Duran<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: 2026<br/>\n                                      rating: 4<br/>\n                                      read at: 2026/10/08<br/>\n                                      date added: 2026/10/08<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "352"
     },
     {
@@ -1855,7 +1876,7 @@
       "link": "https://www.goodreads.com/review/show/8641792659?utm_medium=api&utm_source=rss",
       "bookId": "241374208",
       "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1762861492l/241374208._SY75_.jpg",
-      "bookDescription": "<b>“The most interesting book I’ve ever read about math.” ―Kevin Roose, </b><b>\n  <i>New York Times </i>\n</b><b>tech columnist and co-host of the <i>Hard Fork</i> podcast</b><br /><br /><b><i>The Proof in the Code</i> tells the inside story of Lean, a computer program that answers the age-old How do you know if something is true? <br /></b><br />It began as an obscure bug-checking program at Microsoft Research developed by a lone computer engineer named Leo de Moura. Then an unlikely crew of mathematical misfits caught wind of it and began to adopt it with messianic zeal. Their goal was to create a truth machine that could provide the rarest of all commodities in a complete, 100 percent guarantee that something is true. Its Lean. <br /><br />As the movement grew and strengthened the program’s capabilities, it drew in two of the world’s most prominent Peter Scholze and Terence Tao. Google DeepMind, Meta AI, and other tech firms started using the program to supercharge computer reasoning. Now it’s remaking the multi-thousand-year history of how mathematicians work, collaborate, and assess truth, while charting a new path in the march toward machine intelligence. <br /><br />In <i>The Proof in the Code</i>, Kevin Hartnett tells the definitive story of the birth and rise of Lean, and how a growing movement is transforming the enterprise of mathematics and ushering in a new era of human–computer collaboration. An engrossing, character driven narrative filled with insights about the future of math, computers, and AI, this brilliant work of journalism from one of the world’s leading math writers offers a profound answer to the Can computers reveal universal truths?",
+      "bookDescription": "<b>“The most interesting book I’ve ever read about math.” ―Kevin Roose, </b><b>\n  <i>New York Times </i>\n</b><b>tech columnist and co-host of the Hard Fork podcast</b><br /><br /><b><i>The Proof in the Code</i> tells the inside story of Lean, a computer program that answers the age-old How do you know if something is true? <br /></b><br />It began as an obscure bug-checking program at Microsoft Research developed by a lone computer engineer named Leo de Moura. Then an unlikely crew of mathematical misfits caught wind of it and began to adopt it with messianic zeal. Their goal was to create a truth machine that could provide the rarest of all commodities in a complete, 100 percent guarantee that something is true. Its Lean. <br /><br />As the movement grew and strengthened the program’s capabilities, it drew in two of the world’s most prominent Peter Scholze and Terence Tao. Google DeepMind, Meta AI, and other tech firms started using the program to supercharge computer reasoning. Now it’s remaking the multi-thousand-year history of how mathematicians work, collaborate, and assess truth, while charting a new path in the march toward machine intelligence. <br /><br />In <i>The Proof in the Code</i>, Kevin Hartnett tells the definitive story of the birth and rise of Lean, and how a growing movement is transforming the enterprise of mathematics and ushering in a new era of human–computer collaboration. An engrossing, character driven narrative filled with insights about the future of math, computers, and AI, this brilliant work of journalism from one of the world’s leading math writers offers a profound answer to the Can computers reveal universal truths?",
       "authorName": "Kevin Hartnett",
       "isbn": "0374620059",
       "userName": "Daniel",
@@ -29379,27 +29400,6 @@
       "bookPublished": "1976",
       "description": "<a href=\"https://www.goodreads.com/book/show/61535.The_Selfish_Gene?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Selfish Gene\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1366758096l/61535._SY75_.jpg\" /></a><br/>\n                                      author: Richard Dawkins<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 1976<br/>\n                                      rating: 4<br/>\n                                      read at: <br/>\n                                      date added: 2013/01/16<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "360"
-    },
-    {
-      "id": "https://www.goodreads.com/review/show/231375256?utm_medium=api&utm_source=rss",
-      "title": "The Trouble with Physics: The Rise of String Theory, the Fall of a Science and What Comes Next",
-      "link": "https://www.goodreads.com/review/show/231375256?utm_medium=api&utm_source=rss",
-      "bookId": "108939",
-      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347467901l/108939._SY75_.jpg",
-      "bookDescription": "What is string theory? Why does it matter to our understanding of the universe? And what if it is wrong?<br /><br />\"The Trouble with Physics\" is a groundbreaking account of the state of modern physics: of how we got from Einstein and Relativity through quantum mechanics to the strange and bizarre predictions of string theory, full of unseen dimensions and multiple universes.<br /><br />Lee Smolin not only provides a brilliant layman's overview of current research as we attempt to build a \"theory of everything,\" but also questions many of the assumptions that lie behind string theory. In doing so, he describes some of the daring, outlandish ideas that will propel research in years to come.",
-      "authorName": "Lee Smolin",
-      "isbn": "0618551050",
-      "userName": "Daniel",
-      "userRating": "3",
-      "userReadAt": "",
-      "userDateAdded": "2013-01-16T18:38:26.000Z",
-      "userDateCreated": "2011-11-05T07:19:46.000Z",
-      "userShelves": "",
-      "userReview": "",
-      "averageRating": "4.0",
-      "bookPublished": "2006",
-      "description": "<a href=\"https://www.goodreads.com/book/show/108939.The_Trouble_with_Physics?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Trouble with Physics: The Rise of String Theory, the Fall of a Science and What Comes Next\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347467901l/108939._SY75_.jpg\" /></a><br/>\n                                      author: Lee Smolin<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: 2006<br/>\n                                      rating: 3<br/>\n                                      read at: <br/>\n                                      date added: 2013/01/16<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
-      "numPages": "392"
     }
   ]
 }
