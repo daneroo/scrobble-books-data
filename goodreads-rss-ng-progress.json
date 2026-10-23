@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/9048601696?utm_medium=api&utm_source=rss",
+      "title": "Stoner",
+      "link": "https://www.goodreads.com/review/show/9048601696?utm_medium=api&utm_source=rss",
+      "bookId": "166997",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1742326950l/166997._SY75_.jpg",
+      "bookDescription": "William Stoner is born at the end of the nineteenth century into a dirt-poor Missouri farming family. Sent to the state university to study agronomy, he instead falls in love with English literature and embraces a scholar’s life, so different from the hardscrabble existence he has known. And yet as the years pass, Stoner encounters a succession of disappointments: marriage into a “proper” family estranges him from his parents; his career is stymied; his wife and daughter turn coldly away from him; a transforming experience of new love ends under threat of scandal. Driven ever deeper within himself, Stoner rediscovers the stoic silence of his forebears and confronts an essential solitude.<br /><br />John Williams’s luminous and deeply moving novel is a work of quiet perfection. William Stoner emerges from it not only as an archetypal American, but as an unlikely existential hero, standing, like a figure in a painting by Edward Hopper, in stark relief against an unforgiving world.",
+      "authorName": "John  Williams",
+      "isbn": "1590171993",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2026-10-23T18:55:39.000Z",
+      "userDateCreated": "2026-10-23T18:55:37.000Z",
+      "userShelves": "",
+      "userReview": "",
+      "averageRating": "4.4",
+      "bookPublished": "1965",
+      "description": "<a href=\"https://www.goodreads.com/book/show/166997.Stoner?utm_medium=api&amp;utm_source=rss\"><img alt=\"Stoner\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1742326950l/166997._SY75_.jpg\" /></a><br/>\n                                      author: John  Williams<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.4<br/>\n                                      book published: 1965<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/10/23<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "numPages": "292"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/9047374292?utm_medium=api&utm_source=rss",
       "title": "King of Thorns (Broken Empire, #2)",
       "link": "https://www.goodreads.com/review/show/9047374292?utm_medium=api&utm_source=rss",
@@ -416,9 +437,9 @@
       "userDateCreated": "2026-10-06T07:54:54.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "3.3",
+      "averageRating": "3.4",
       "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/248163797-sea-change?utm_medium=api&amp;utm_source=rss\"><img alt=\"Sea Change: America&#39;s New Great Game in the Arctic Circle\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1774667362l/248163797._SY75_.jpg\" /></a><br/>\n                                      author: Rana Foroohar<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.3<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/10/06<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/248163797-sea-change?utm_medium=api&amp;utm_source=rss\"><img alt=\"Sea Change: America&#39;s New Great Game in the Arctic Circle\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1774667362l/248163797._SY75_.jpg\" /></a><br/>\n                                      author: Rana Foroohar<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.4<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/10/06<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "272"
     },
     {
@@ -458,9 +479,9 @@
       "userDateCreated": "2026-10-04T17:00:15.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "3.8",
+      "averageRating": "3.9",
       "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/246181969-the-eureka-machine?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Eureka Machine: Why AI Is the Key to Unlocking a New Era of Scientific Discoveries\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1791611308l/246181969._SY75_.jpg\" /></a><br/>\n                                      author: Richard Socher<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.8<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/10/04<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/246181969-the-eureka-machine?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Eureka Machine: Why AI Is the Key to Unlocking a New Era of Scientific Discoveries\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1791611308l/246181969._SY75_.jpg\" /></a><br/>\n                                      author: Richard Socher<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/10/04<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
       "numPages": "261"
     },
     {
@@ -1718,9 +1739,9 @@
       "userDateCreated": "2026-06-29T09:09:31.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "4.0",
+      "averageRating": "3.9",
       "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/241039567-after-the-fall?utm_medium=api&amp;utm_source=rss\"><img alt=\"After the Fall: From the End of History to the Crisis of Democracy, How Politicians Broke Our World\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1777560029l/241039567._SY75_.jpg\" /></a><br/>\n                                      author: Ian Shapiro<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/06/29<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/241039567-after-the-fall?utm_medium=api&amp;utm_source=rss\"><img alt=\"After the Fall: From the End of History to the Crisis of Democracy, How Politicians Broke Our World\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1777560029l/241039567._SY75_.jpg\" /></a><br/>\n                                      author: Ian Shapiro<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/06/29<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
       "numPages": "320"
     },
     {
@@ -23852,9 +23873,9 @@
       "userDateCreated": "2021-05-23T07:44:09.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "4.1",
+      "averageRating": "4.0",
       "bookPublished": "1592",
-      "description": "<a href=\"https://www.goodreads.com/book/show/100237.Monkey?utm_medium=api&amp;utm_source=rss\"><img alt=\"Monkey: The Journey to the West\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347431752l/100237._SY75_.jpg\" /></a><br/>\n                                      author: Wu Cheng'en<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: 1592<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/05/23<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/100237.Monkey?utm_medium=api&amp;utm_source=rss\"><img alt=\"Monkey: The Journey to the West\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347431752l/100237._SY75_.jpg\" /></a><br/>\n                                      author: Wu Cheng'en<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: 1592<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2021/05/23<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "306"
     },
     {
