@@ -30,6 +30,9 @@ This is a great place to test migrating to deno workspaces
     - logged-in book page shows "Your rating: 4.50"
     - unauthenticated `review/show/<id>` now redirects to sign-in
   - [ ] once sourced: zod / `RSSItem` types, and consumers (scrobbleCast/site)
+- [ ] Account for the `did-not-finish` shelf
+  - cue `#Shelves` already allows it; scrape-ng `Shelf` type does not
+  - no items on that shelf yet - verify how it appears in RSS `user_shelves`, and in consumers (scrobbleCast/site)
 - -------------------- Older --------------------
 - [ ] Problem with act -j (scrape|unit)
 - [ ] Use CBOR instead of files?
