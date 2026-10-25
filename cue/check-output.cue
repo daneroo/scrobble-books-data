@@ -26,8 +26,9 @@ items: [...#item]
 	numPages:        #NumPages
 }
 
-#Shelves:    "" | "currently-reading" | "to-read" | "on-deck" | "did-not-finish" // "read" should replace ""
-#UserRating: "0" | "1" | "2" | "3" | "4" | "5"
+#Shelves: "" | "currently-reading" | "to-read" | "on-deck" | "did-not-finish" // "read" should replace ""
+
+#UserRating: =~"^[0-5](\\.[0-9]{1,2})?$" // 0 (unrated), 4, 4.5, 4.25, 4.50
 
 #AvgRating: =~"[0-9].[0-9]{1,2}$" // 0.0, 4.75
 

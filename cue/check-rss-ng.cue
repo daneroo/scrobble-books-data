@@ -19,8 +19,8 @@ import "time"
 	author_name:       string
 	isbn:              #INTSTRING_OR_EMPTY | string // 125086593X
 	user_name:         string
-	user_rating:       #INTSTRING_OR_EMPTY
-	user_read_at:      string // this should work but does not: "" | time.Format(time.RFC1123Z)
+	user_rating:       #DECIMALSTRING_OR_EMPTY // goodreads allows fractional (4.5) ratings since 2026-10
+	user_read_at:      string                  // this should work but does not: "" | time.Format(time.RFC1123Z)
 	user_date_added:   time.Format(time.RFC1123Z)
 	user_date_created: time.Format(time.RFC1123Z)
 	user_shelves:      string

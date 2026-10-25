@@ -17,11 +17,19 @@ You can look at the formatted data as tables here:
 This is a great place to test migrating to deno workspaces
 
 - [ ] bun workspace - remove deno
+  - [ ] consolidate on the bun scraper (`apps/scrape-ng`): retire deno `apps/scrape`, `goodreads-rss.json` and `check-rss.cue`
   - [ ] verify deps:check, deps:update
 - [ ] AGENTS: thoughts and docs
 - [ ] scrape-ng progress (only for currently-reading?)
   - [ ] augment schema for progress
   - [ ] validate and redeploy associated app scrobbleCast/site
+- [ ] Fractional user ratings (Goodreads allows .25 steps since 2026-10)
+  - [x] cue: `user_rating` / `#UserRating` accept decimals (`4.5`, `4.25`, `4.50`)
+  - [ ] find a source: RSS `user_rating` is integer-only (4.5 -> `4`)
+    - first known instance: _Time Travel: A History_ (James Gleick) - bookId 28587584, review 9047081205
+    - logged-in book page shows "Your rating: 4.50"
+    - unauthenticated `review/show/<id>` now redirects to sign-in
+  - [ ] once sourced: zod / `RSSItem` types, and consumers (scrobbleCast/site)
 - -------------------- Older --------------------
 - [ ] Problem with act -j (scrape|unit)
 - [ ] Use CBOR instead of files?
