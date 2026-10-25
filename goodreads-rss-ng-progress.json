@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/9047374292?utm_medium=api&utm_source=rss",
+      "title": "King of Thorns (Broken Empire, #2)",
+      "link": "https://www.goodreads.com/review/show/9047374292?utm_medium=api&utm_source=rss",
+      "bookId": "12891107",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1322539112l/12891107._SY75_.jpg",
+      "bookDescription": "<b>In book two of the Broken Empire trilogy, the boy who would be king has gained the throne—but the crown is a heavy weight to bear...</b><br /><br />At age nine, Prince Honorous Jorg Ancrath vowed to avenge his slaughtered mother and brother—and to punish his father for not doing so. At fifteen, he began to fulfill that vow. Now, at eighteen, he must fight for what he has taken by torture and treachery.<br /><br />Haunted by the pain of his past, and plagued by nightmares of the atrocities he has committed, King Jorg is filled with rage. And even as his need for revenge continues to consume him, an overwhelming enemy force marches on his castle.<br /><br />Jorg knows that he cannot win a fair fight. But he has found a long-hidden cache of ancient artifacts. Some might call them magic. Jorg is not certain—all he knows is that their secrets can be put to terrible use in the coming battle...",
+      "authorName": "Mark  Lawrence",
+      "isbn": "1937007472",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2026-10-25T07:52:04.000Z",
+      "userDateCreated": "2026-10-23T04:58:17.000Z",
+      "userShelves": "",
+      "userReview": "",
+      "averageRating": "4.2",
+      "bookPublished": "2012",
+      "description": "<a href=\"https://www.goodreads.com/book/show/12891107-king-of-thorns?utm_medium=api&amp;utm_source=rss\"><img alt=\"King of Thorns (Broken Empire, #2)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1322539112l/12891107._SY75_.jpg\" /></a><br/>\n                                      author: Mark  Lawrence<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 2012<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/10/25<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
+      "numPages": "449"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/9047081205?utm_medium=api&utm_source=rss",
       "title": "Time Travel: A History",
       "link": "https://www.goodreads.com/review/show/9047081205?utm_medium=api&utm_source=rss",
@@ -21,27 +42,6 @@
       "bookPublished": "2016",
       "description": "<a href=\"https://www.goodreads.com/book/show/28587584-time-travel?utm_medium=api&amp;utm_source=rss\"><img alt=\"Time Travel: A History\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1472314681l/28587584._SX50_.jpg\" /></a><br/>\n                                      author: James Gleick<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.6<br/>\n                                      book published: 2016<br/>\n                                      rating: 4<br/>\n                                      read at: 2026/10/24<br/>\n                                      date added: 2026/10/24<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "304"
-    },
-    {
-      "id": "https://www.goodreads.com/review/show/9047374292?utm_medium=api&utm_source=rss",
-      "title": "King of Thorns (Broken Empire, #2)",
-      "link": "https://www.goodreads.com/review/show/9047374292?utm_medium=api&utm_source=rss",
-      "bookId": "12891107",
-      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1322539112l/12891107._SY75_.jpg",
-      "bookDescription": "<b>In book two of the Broken Empire trilogy, the boy who would be king has gained the throne—but the crown is a heavy weight to bear...</b><br /><br />At age nine, Prince Honorous Jorg Ancrath vowed to avenge his slaughtered mother and brother—and to punish his father for not doing so. At fifteen, he began to fulfill that vow. Now, at eighteen, he must fight for what he has taken by torture and treachery.<br /><br />Haunted by the pain of his past, and plagued by nightmares of the atrocities he has committed, King Jorg is filled with rage. And even as his need for revenge continues to consume him, an overwhelming enemy force marches on his castle.<br /><br />Jorg knows that he cannot win a fair fight. But he has found a long-hidden cache of ancient artifacts. Some might call them magic. Jorg is not certain—all he knows is that their secrets can be put to terrible use in the coming battle...",
-      "authorName": "Mark  Lawrence",
-      "isbn": "1937007472",
-      "userName": "Daniel",
-      "userRating": "0",
-      "userReadAt": "",
-      "userDateAdded": "2026-10-24T07:55:39.000Z",
-      "userDateCreated": "2026-10-23T04:58:17.000Z",
-      "userShelves": "",
-      "userReview": "",
-      "averageRating": "4.2",
-      "bookPublished": "2012",
-      "description": "<a href=\"https://www.goodreads.com/book/show/12891107-king-of-thorns?utm_medium=api&amp;utm_source=rss\"><img alt=\"King of Thorns (Broken Empire, #2)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1322539112l/12891107._SY75_.jpg\" /></a><br/>\n                                      author: Mark  Lawrence<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 2012<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/10/24<br/>\n                                      shelves: currently-reading<br/>\n                                      review: <br/><br/>",
-      "numPages": "449"
     },
     {
       "id": "https://www.goodreads.com/review/show/9049757250?utm_medium=api&utm_source=rss",
@@ -27275,9 +27275,9 @@
       "userDateCreated": "2019-08-20T05:24:38.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "4.2",
+      "averageRating": "4.1",
       "bookPublished": "1868",
-      "description": "<a href=\"https://www.goodreads.com/book/show/656.War_and_Peace?utm_medium=api&amp;utm_source=rss\"><img alt=\"War and Peace\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1413215930l/656._SY75_.jpg\" /></a><br/>\n                                      author: Leo Tolstoy<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: 1868<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2019/08/19<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/656.War_and_Peace?utm_medium=api&amp;utm_source=rss\"><img alt=\"War and Peace\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1413215930l/656._SY75_.jpg\" /></a><br/>\n                                      author: Leo Tolstoy<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: 1868<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2019/08/19<br/>\n                                      shelves: to-read<br/>\n                                      review: <br/><br/>",
       "numPages": "1392"
     },
     {
