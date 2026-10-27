@@ -500,9 +500,9 @@
       "userDateCreated": "2026-06-23T07:14:39.000Z",
       "userShelves": "",
       "userReview": "",
-      "averageRating": "3.6",
+      "averageRating": "3.5",
       "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/240075221-2084?utm_medium=api&amp;utm_source=rss\"><img alt=\"2084 (A Novel of Future War)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1755606278l/240075221._SY75_.jpg\" /></a><br/>\n                                      author: Elliot Ackerman<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.6<br/>\n                                      book published: <br/>\n                                      rating: 4<br/>\n                                      read at: 2026/10/04<br/>\n                                      date added: 2026/10/04<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/240075221-2084?utm_medium=api&amp;utm_source=rss\"><img alt=\"2084 (A Novel of Future War)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1755606278l/240075221._SY75_.jpg\" /></a><br/>\n                                      author: Elliot Ackerman<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.5<br/>\n                                      book published: <br/>\n                                      rating: 4<br/>\n                                      read at: 2026/10/04<br/>\n                                      date added: 2026/10/04<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "259"
     },
     {
@@ -521,9 +521,9 @@
       "userDateCreated": "2026-10-04T17:00:15.000Z",
       "userShelves": "on-deck",
       "userReview": "",
-      "averageRating": "3.9",
+      "averageRating": "4.0",
       "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/246181969-the-eureka-machine?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Eureka Machine: Why AI Is the Key to Unlocking a New Era of Scientific Discoveries\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1791611308l/246181969._SY75_.jpg\" /></a><br/>\n                                      author: Richard Socher<br/>\n                                      name: Daniel<br/>\n                                      average rating: 3.9<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/10/04<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/246181969-the-eureka-machine?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Eureka Machine: Why AI Is the Key to Unlocking a New Era of Scientific Discoveries\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1791611308l/246181969._SY75_.jpg\" /></a><br/>\n                                      author: Richard Socher<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/10/04<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
       "numPages": "261"
     },
     {
@@ -3846,7 +3846,7 @@
     },
     {
       "id": "https://www.goodreads.com/review/show/4262679232?utm_medium=api&utm_source=rss",
-      "title": "American Gods (American Gods, #1)",
+      "title": "American Gods",
       "link": "https://www.goodreads.com/review/show/4262679232?utm_medium=api&utm_source=rss",
       "bookId": "30165203",
       "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1462924585l/30165203._SY75_.jpg",
@@ -3862,7 +3862,7 @@
       "userReview": "",
       "averageRating": "4.1",
       "bookPublished": "2001",
-      "description": "<a href=\"https://www.goodreads.com/book/show/30165203-american-gods?utm_medium=api&amp;utm_source=rss\"><img alt=\"American Gods (American Gods, #1)\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1462924585l/30165203._SY75_.jpg\" /></a><br/>\n                                      author: Neil Gaiman<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: 2001<br/>\n                                      rating: 5<br/>\n                                      read at: 2025/11/28<br/>\n                                      date added: 2025/11/28<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/30165203-american-gods?utm_medium=api&amp;utm_source=rss\"><img alt=\"American Gods\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1462924585l/30165203._SY75_.jpg\" /></a><br/>\n                                      author: Neil Gaiman<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: 2001<br/>\n                                      rating: 5<br/>\n                                      read at: 2025/11/28<br/>\n                                      date added: 2025/11/28<br/>\n                                      shelves: <br/>\n                                      review: <br/><br/>",
       "numPages": "635"
     },
     {
@@ -26761,7 +26761,7 @@
       "link": "https://www.goodreads.com/review/show/2935226383?utm_medium=api&utm_source=rss",
       "bookId": "35604796",
       "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1500753932l/35604796._SY75_.jpg",
-      "bookDescription": "<b>The untold story of the heretical thinkers who dared to question the nature of our quantum universe</b><br />Every physicist agrees quantum mechanics is among humanity's finest scientific achievements. But ask what it means, and the result will be a brawl. For a century, most physicists have followed Niels Bohr's Copenhagen interpretation and dismissed questions about the reality underlying quantum physics as meaningless. A mishmash of solipsism and poor reasoning, Copenhagen endured, as Bohr's students vigorously protected his legacy, and the physics community favored practical experiments over philosophical arguments. As a result, questioning the status quo long meant professional ruin. And yet, from the 1920s to today, physicists like John Bell, David Bohm, and Hugh Everett persisted in seeking the true meaning of quantum mechanics. <i>What Is Real?</i> is the gripping story of this battle of ideas and of the courageous scientists who dared to stand up for truth.<br />",
+      "bookDescription": "<b>The untold story of the heretical thinkers who dared to question the nature of our quantum universe</b><br /><br />Every physicist agrees quantum mechanics is among humanity's finest scientific achievements. But ask what it means, and the result will be a brawl. For a century, most physicists have followed Niels Bohr's Copenhagen interpretation and dismissed questions about the reality underlying quantum physics as meaningless. A mishmash of solipsism and poor reasoning, Copenhagen endured, as Bohr's students vigorously protected his legacy, and the physics community favored practical experiments over philosophical arguments. As a result, questioning the status quo long meant professional ruin. And yet, from the 1920s to today, physicists like John Bell, David Bohm, and Hugh Everett persisted in seeking the true meaning of quantum mechanics. <i>What Is Real?</i> is the gripping story of this battle of ideas and of the courageous scientists who dared to stand up for truth.",
       "authorName": "Adam  Becker",
       "isbn": "0465096050",
       "userName": "Daniel",
