@@ -1,15 +1,17 @@
 name: Scrape latest book data
 
 on:
-  push:
-    branches:
-      - main
+  # push and schedule are disabled until the new scraper lands:
+  # the Goodreads RSS feed returns 404 since 2026-10-28, so every run fails.
+  # push:
+  #   branches:
+  #     - main
   workflow_dispatch:
-  schedule:
-    # every 20 minutes
-    # - cron: "1/20 * * * *"
-    # every 2 hours
-    - cron: "0 */2 * * *"
+  # schedule:
+  #   # every 20 minutes
+  #   # - cron: "1/20 * * * *"
+  #   # every 2 hours
+  #   - cron: "0 */2 * * *"
 
 jobs:
   scrape:
