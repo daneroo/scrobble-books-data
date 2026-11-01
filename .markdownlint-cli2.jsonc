@@ -1,0 +1,17 @@
+{
+  // Single source for markdownlint-cli2: rule config + behavior in one file.
+  // Adapted from prosodio. The prettier-compatible preset disables rules that
+  // conflict with prettier (line length, list/indent style, etc.); prettier is
+  // not set up here yet, but will own spacing and wrapping when it is.
+  // markdownlint catches the structural problems prettier does not (e.g.
+  // duplicate headings, bare URLs, unlabeled fences).
+  // gitignore: true makes globbing skip node_modules, data/, .pnpm-store/.
+  "gitignore": true,
+  // Vendored agent skills — installed by `npx skills`, hash-pinned in
+  // skills-lock.json; not ours to lint. .claude/skills/* are symlinks into
+  // .agents/skills/, which globbing follows, so ignore both paths.
+  "ignores": [".agents/**", ".claude/skills/**"],
+  "config": {
+    "extends": "markdownlint/style/prettier",
+  },
+}
