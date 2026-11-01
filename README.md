@@ -4,13 +4,17 @@
 
 Tracking reading data
 
-This repo archives the latest version of my reading data every 20 minutes.
+This repo archives the latest version of my reading data.
 
-You can look at the formatted data as tables here:
+Scraping is paused: Goodreads retired the RSS feed (404 since 2026-10-28), so
+the data is frozen as of 2026-10-27. A replacement scraper is in progress.
 
-- <https://flatgithub.com/daneroo/scrobble-books-data?filename=goodreads-rss.json&tab=items>
-- <https://flatgithub.com/daneroo/scrobble-books-data?filename=goodreads-rss-ng.json&tab=items>
-- <https://flatgithub.com/daneroo/scrobble-books-data?filename=goodreads-rss-ng-progress.json&tab=items>
+Browse the data in the browser (flatgithub.com is gone):
+
+- [Datasette Lite: goodreads-rss.json](https://lite.datasette.io/?json=https://raw.githubusercontent.com/daneroo/scrobble-books-data/main/goodreads-rss.json)
+  — browse, facet, SQL
+- Coming soon: Datasette Lite links for the new output files, and a DuckDB
+  ([shell.duckdb.org](https://shell.duckdb.org/)) query
 
 ## TODO
 
