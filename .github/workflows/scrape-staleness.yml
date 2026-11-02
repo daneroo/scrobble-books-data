@@ -1,0 +1,37 @@
+name: Scrape staleness check
+
+# The data is published by hand (#32): fail when it hasn't been for 48 hours.
+on:
+  schedule:
+    - cron: "23 */6 * * *"
+  workflow_dispatch:
+
+jobs:
+  staleness:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Fail if a published file is more than 48 hours old
+        run: |
+          now=$(date +%s)
+          stale=0
+          fix="— run: bun run publish (on main, on the Mac)"
+          for file in goodreads.json goodreads-rss.json; do
+            committed=$(git log -1 --format=%ct -- "$file")
+            if [ -z "$committed" ]; then
+              echo "::error::$file has never been committed $fix"
+              stale=1
+              continue
+            fi
+            age=$(( now - committed ))
+            echo "$file: last committed $(( age / 3600 )) hours ago"
+            if [ "$age" -gt $(( 48 * 3600 )) ]; then
+              echo "::error::$file is stale: last committed $(( age / 3600 )) hours ago (limit 48) $fix"
+              stale=1
+            fi
+          done
+          exit $stale

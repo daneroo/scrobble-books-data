@@ -5,11 +5,13 @@
 Tracking reading data
 
 This repo archives the latest version of my reading data, scraped from Goodreads
-by a GitHub Actions workflow that commits the results back to `main`.
+and committed to `main`.
 
-Scraping is paused: Goodreads retired the RSS feed (404 since 2026-10-28), so
-the data is frozen as of 2026-10-27. A replacement scraper is in progress
-([#23](https://github.com/daneroo/scrobble-books-data/issues/23)).
+Goodreads retired the RSS feed (404 since 2026-10-28) and shows GitHub's servers
+a captcha, so the new scraper
+([#23](https://github.com/daneroo/scrobble-books-data/issues/23)) runs by hand
+on my Mac until a runner is chosen (see Usage). `scrape-staleness.yml` fails
+when `goodreads.json` or `goodreads-rss.json` hasn't been committed in 48 hours.
 
 Browse the data in the browser (flatgithub.com is gone):
 
@@ -44,8 +46,9 @@ A bun workspace.
     - `scrape-browser` — an early Playwright prototype
 - `cue/` — the CUE schema for the published files (`check-output.cue`), with
   example files
-- `.github/workflows/` — `scrape.yml` (scrape and commit, manual-only while
-  paused), `unit.yml` (CI: `bun run ci`)
+- `.github/workflows/` — `scrape-staleness.yml` (fails when the published data
+  is over 48 hours old), `scrape.yml` (old RSS scrape, disabled), `unit.yml`
+  (CI: `bun run ci`)
 - `thoughts/BACKLOG.md` — idea inbox
 - `docs/` — lasting reference (agent docs)
 
@@ -61,6 +64,12 @@ bun run outdated # dependency updates (bun run outdated:fix to apply)
 bun run git:log  # scrape commits per day
 
 bun run scrape --help  # the new scraper: the single entry point
+```
+
+Publish by hand, at least daily:
+
+```bash
+bun run publish  # on main, clean tree: pulls, scrapes, prints the commit-and-push line
 ```
 
 Prettier and the linters skip the vendored agent skills, the published data

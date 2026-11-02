@@ -2,25 +2,22 @@
 
 Canonical instructions for agents and humans. `CLAUDE.md` points here.
 
-scrobble-books-data scrapes Goodreads reading data on a GitHub Actions schedule
-and commits the JSON outputs (`goodreads-rss.json` and the two
-`goodreads-rss-ng*.json` files) to `main`.
+scrobble-books-data scrapes Goodreads reading data and commits the JSON outputs
+(`goodreads.json` and `goodreads-rss.json`) to `main`. The user publishes by
+hand with `bun run publish`; `scrape-staleness.yml` fails when either file is
+over 48 hours old.
 
 ## Git
 
 - Development happens on a branch, never directly on `main`.
-- The one exception: `scrape.yml` pushes its updated data (`Latest book data …`
-  commits) straight to `main` on every run, so `main` moves on its own.
+- The one exception: the user's manual publish commits the data
+  (`Latest book data …` commits) straight to `main`, so `main` moves on its own.
 - Commit or push only when the user asks for it at that moment, or when
   finishing a ticket (below). Open PRs or merge to `main` only when asked.
 
 ## Working on a ticket
 
-Issue #23 is split into sub-issues #24–#34, done in number order (except #34,
-which runs after #31 and before #32) on the one branch `23-replace-rss-scrapers`
-(no other branches).
-
-- Start: the user types `/implement #N` on that branch.
+- Start: the user types `/implement #N` on the ticket's branch.
 - If a criterion needs the user (an approval, a hand check, a secret, a run),
   ask in the session.
 - Finish, without asking:
@@ -48,10 +45,14 @@ published data.
 - `cue/` — schema checks for the outputs, with examples: `check-output.cue`
   (`goodreads-rss.json`), `check-goodreads.cue` (`goodreads.json` and its
   segments)
-- `.github/workflows/` — `scrape.yml` (old scrape, paused), `unit.yml` (CI:
+- `.github/workflows/` — `scrape-staleness.yml` (fails when the published data
+  is over 48 hours old), `scrape.yml` (old scrape, disabled), `unit.yml` (CI:
   `bun run ci`)
 - `bun run scrape` — the single entry point of the new scraper; options in
   `bun run scrape --help`
+- `bun run publish` — the one exception: it wraps git around the scraper (on
+  `main`, clean tree, pull, scrape) and prints the commit-and-push line; it
+  never commits or pushes itself
 - `docs/` — lasting reference (agents, ADRs)
 - `thoughts/BACKLOG.md` — idea inbox; other `thoughts/` files are temporary
 - `data/` — gitignored, volatile (outputs, scratch)

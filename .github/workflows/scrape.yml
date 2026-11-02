@@ -1,22 +1,14 @@
 name: Scrape latest book data
 
 on:
-  # push and schedule are disabled until the new scraper lands (#32):
-  # the Goodreads RSS feed returns 404 since 2026-10-28, so every run fails.
-  # The old-scraper steps below are kept for reference until #32 replaces them;
-  # they no longer run (no RSS feed, and scrape-ng's deps aren't installed).
-  # push:
-  #   branches:
-  #     - main
+  # Disabled (#32): the RSS feed is gone (404 since 2026-10-28) and GitHub's
+  # servers get a captcha from Goodreads; the data is now published by hand.
+  # The job never runs (if: false); the file stays for reference until #33.
   workflow_dispatch:
-  # schedule:
-  #   # every 20 minutes
-  #   # - cron: "1/20 * * * *"
-  #   # every 2 hours
-  #   - cron: "0 */2 * * *"
 
 jobs:
   scrape:
+    if: false
     runs-on: ubuntu-latest
     env:
       GOODREADS_KEY: ${{ secrets.GOODREADS_KEY }}
