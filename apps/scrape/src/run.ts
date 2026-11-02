@@ -8,6 +8,7 @@ import {
   formatCompleteness,
 } from "./list/scrape.ts";
 import { PageTemporaryError, type PageSource } from "./pages/source.ts";
+import { fetchReviewPages, withProgress } from "./review/scrape.ts";
 import {
   resetRunFiles,
   runFiles,
@@ -18,7 +19,8 @@ import type { Outcome } from "./report.ts";
 
 export interface RunOptions {
   user: string;
-  source: PageSource;
+  /** One per page type: each has its own timeout (T2) and failure step. */
+  sources: { list: PageSource; review: PageSource };
   flow: Flow;
   /** The gitignored data directory: segments, raw pages, staged output. */
   dataDir: string;
@@ -36,20 +38,22 @@ export interface RunOptions {
 
 /**
  * The scrape after login: fetch and parse every list page, check
- * completeness, write the segments and `goodreads.json`, run CUE, then
- * publish. Fail-closed: any failure is returned named, and nothing is
- * published.
+ * completeness, fetch and parse every book's review page, check its shelf,
+ * write the segments and `goodreads.json`, run CUE, then publish.
+ * Fail-closed: any failure is returned named, and nothing is published.
  */
 export async function runScrape(options: RunOptions): Promise<Outcome> {
-  const { user, source, flow, dataDir, publishPath, cueSchema, signal, log } =
+  const { user, sources, flow, dataDir, publishPath, cueSchema, signal, log } =
     options;
   const bodies = new Map<number, string>();
+  // review pages are written as they arrive, not held in memory
+  const reviewWrites: Promise<unknown>[] = [];
   let step: Step = "list-pages";
   try {
     await resetRunFiles(dataDir);
     const pages = await fetchListPages({
       user,
-      source,
+      source: sources.list,
       flow,
       onBody: (page, body) => bodies.set(page, body),
     });
@@ -58,15 +62,36 @@ export async function runScrape(options: RunOptions): Promise<Outcome> {
     const completeness = checkCompleteness(pages);
     log(formatCompleteness(completeness));
 
+    step = "review-pages";
+    const listItems = pages.flatMap((page) => page.items);
+    const reviews = await fetchReviewPages({
+      items: listItems,
+      source: sources.review,
+      flow,
+      onBody: (reviewId, body) =>
+        reviewWrites.push(
+          Bun.write(
+            join(runFiles(dataDir).pages, `review-${reviewId}.html`),
+            body,
+          ),
+        ),
+    });
+
+    step = "checks";
+    const items = withProgress(listItems, reviews);
+    log(`review page shelves match the list: ${items.length} books`);
+
     step = "outputs";
     signal?.throwIfAborted();
-    const goodreads = {
-      userFullName: pages[0]!.userFullName,
-      items: pages.flatMap((page) => page.items),
-    };
+    const goodreads = { userFullName: pages[0]!.userFullName, items };
+    let next = 0;
+    const segments = pages.map((page) => ({
+      page: page.page,
+      items: items.slice(next, (next += page.items.length)),
+    }));
     await writeOutputs({
       goodreads,
-      pages,
+      segments,
       dataDir,
       publishPath,
       cueSchema,
@@ -76,6 +101,7 @@ export async function runScrape(options: RunOptions): Promise<Outcome> {
       ok: true,
       books: completeness.books,
       pages: completeness.pages,
+      reviewPages: reviews.length,
       published: publishPath,
     };
   } catch (error) {
@@ -86,11 +112,12 @@ export async function runScrape(options: RunOptions): Promise<Outcome> {
   } finally {
     // kept on success and on failure, for debugging (X3)
     const dir = runFiles(dataDir).pages;
-    await Promise.all(
-      [...bodies].map(([page, body]) =>
+    await Promise.all([
+      ...reviewWrites,
+      ...[...bodies].map(([page, body]) =>
         Bun.write(join(dir, segmentName(page, "html")), body),
       ),
-    );
+    ]);
   }
 }
 

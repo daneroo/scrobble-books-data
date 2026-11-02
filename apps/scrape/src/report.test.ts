@@ -13,12 +13,21 @@ const cookie =
 describe("report", () => {
   test("a run that wrote its outputs passes with exit 0", () => {
     const { lines, exitCode } = report(
-      { ok: true, cookie, books: 1450, pages: 15, published: "goodreads.json" },
+      {
+        ok: true,
+        cookie,
+        books: 1450,
+        pages: 15,
+        reviewPages: 1450,
+        published: "goodreads.json",
+      },
       secrets,
     );
     expect(exitCode).toBe(0);
     expect(lines.join("\n")).toContain("PASS");
-    expect(lines.join("\n")).toContain("1450 books from 15 list pages");
+    expect(lines.join("\n")).toContain(
+      "1450 books from 15 list pages and 1450 review pages",
+    );
   });
 
   test.each([
@@ -111,7 +120,14 @@ describe("report", () => {
 
   test("redaction leaves short cookie values alone, so the log stays readable", () => {
     const { lines } = report(
-      { ok: true, cookie, books: 1450, pages: 15, published: "goodreads.json" },
+      {
+        ok: true,
+        cookie,
+        books: 1450,
+        pages: 15,
+        reviewPages: 1450,
+        published: "goodreads.json",
+      },
       secrets,
     );
     // `locale=en` must not turn every "en" into [redacted]; a passing run

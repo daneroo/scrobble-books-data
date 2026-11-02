@@ -22,6 +22,13 @@ import "time"
 	averageRating:      =~"^[0-9]\\.[0-9]{2}$" // all editions, as shown: 3.58
 	bookPublishedText:  #PageDate | =~"^-?[0-9]{1,4}$" | "unknown"
 	numPages:           =~"^[0-9]+$" // "0" when unknown
+	timeline!: [...#timelineRow] // the review page's, in page order, as shown
+})
+
+// One row of the reading timeline, uninterpreted.
+#timelineRow: close({
+	dateText: #TimelineDate | "" // "" when the row has no date
+	event:    string & !=""      // "Shelved as: on-deck", "44.0%", "Started Reading (Hardcover Edition)"
 })
 
 #ExclusiveShelf: "to-read" | "currently-reading" | "read" | "did-not-finish" | "on-deck"
@@ -33,3 +40,5 @@ import "time"
 
 #PageDate: =~"^(\(#Month) ([0-9]{2}, )?)?[0-9]{4}$" // Oct 24, 2026 | Oct 2026 | 2026
 #Day:      time.Format("2006-01-02")
+
+#TimelineDate: =~"^(.* )?[0-9]{4}$" // text ending in a year: October 23, 2026 | January, 1997 | 2021

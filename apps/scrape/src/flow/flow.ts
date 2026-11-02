@@ -1,4 +1,5 @@
 import { realClock, type Clock } from "./clock.ts";
+import { LIMITS } from "../limits.ts";
 
 /** How requests flow: how many at once, and how fast they start. */
 export interface FlowSettings {
@@ -50,18 +51,15 @@ export class FlowFailure extends Error {
   }
 }
 
-/** Attempts per request, the first included. */
-const MAX_ATTEMPTS = 4;
-/** Backoff before the first retry; it doubles for each one after. */
-const FIRST_BACKOFF_MS = 2000;
-/** Each backoff varies by up to this fraction, either way. */
-const JITTER = 0.25;
-/** The longest `Retry-After` waited out; a longer one means stop. */
-const MAX_RETRY_AFTER_MS = 60_000;
-/** More retries than this in a run means we're being throttled. */
-const MAX_RETRIES_PER_RUN = 20;
-/** This many temporary failures in a row means we're being throttled. */
-const MAX_FAILURES_IN_A_ROW = 5;
+// the limits, reviewed together in ../limits.ts
+const {
+  attemptsPerRequest: MAX_ATTEMPTS,
+  backoffStepMs: BACKOFF_STEP_MS,
+  backoffJitter: JITTER,
+  maxRetryAfterMs: MAX_RETRY_AFTER_MS,
+  retriesPerRun: MAX_RETRIES_PER_RUN,
+  failuresInARow: MAX_FAILURES_IN_A_ROW,
+} = LIMITS;
 
 /** What the flow controller reports, for the log and for calibration. */
 export type FlowEvent =
@@ -73,6 +71,10 @@ export type FlowEvent =
       /** The attempt that succeeded, from 1. */
       attempt: number;
       ms: number;
+      /** Requests of this batch done so far, this one included. */
+      done: number;
+      /** Requests in this batch. */
+      total: number;
     }
   | {
       /** A request failed with a temporary error, and will be retried. */
@@ -103,9 +105,9 @@ export function formatEvent(event: FlowEvent): string {
   const millis = (ms: number) => `${Math.round(ms)}ms`;
   switch (event.type) {
     case "request": {
-      const { batch, label, attempt, ms } = event;
+      const { batch, label, attempt, ms, done, total } = event;
       const retried = attempt > 1 ? ` (attempt ${attempt})` : "";
-      return `${batch}: ${label} in ${millis(ms)}${retried}`;
+      return `${batch}: ${done}/${total} ${label} in ${millis(ms)}${retried}`;
     }
     case "retry": {
       const { batch, label, attempt, reason, delayMs } = event;
@@ -200,6 +202,8 @@ export function createFlow(settings: FlowSettings, deps: FlowDeps = {}): Flow {
           label: task.label,
           attempt,
           ms,
+          done: stats.latenciesMs.length,
+          total: stats.total,
         });
         return result;
       } catch (error) {
@@ -242,7 +246,8 @@ export function createFlow(settings: FlowSettings, deps: FlowDeps = {}): Flow {
    */
   function retryDelayMs(error: TemporaryError, attempt: number): number {
     const jitter = 1 + JITTER * (2 * random() - 1);
-    const backoffMs = FIRST_BACKOFF_MS * 2 ** (attempt - 1) * jitter;
+    // linear: retry n waits n steps
+    const backoffMs = BACKOFF_STEP_MS * attempt * jitter;
     const { retryAfterMs } = error;
     if (retryAfterMs === undefined) return backoffMs;
     if (retryAfterMs > MAX_RETRY_AFTER_MS) {
@@ -262,7 +267,12 @@ export function createFlow(settings: FlowSettings, deps: FlowDeps = {}): Flow {
   ): Promise<T[]> {
     if (run.signal.aborted) throw run.signal.reason;
     const results = new Array<T>(tasks.length);
-    const stats: BatchStats = { name, retries: 0, latenciesMs: [] };
+    const stats: BatchStats = {
+      name,
+      total: tasks.length,
+      retries: 0,
+      latenciesMs: [],
+    };
     const startMs = clock.now();
     let next = 0;
 
@@ -322,6 +332,8 @@ function checkSettings({ concurrency, ratePerSecond }: FlowSettings): void {
 
 interface BatchStats {
   name: string;
+  /** Requests in the batch. */
+  total: number;
   retries: number;
   /** Of each successful attempt. */
   latenciesMs: number[];

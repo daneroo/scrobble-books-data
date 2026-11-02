@@ -2,7 +2,11 @@ import * as cheerio from "cheerio";
 import { z } from "zod";
 
 import { ScrapeFailure } from "../failure.ts";
-import { EXCLUSIVE_SHELVES, Item, type ExclusiveShelf } from "../goodreads.ts";
+import {
+  EXCLUSIVE_SHELVES,
+  ListItem,
+  type ExclusiveShelf,
+} from "../goodreads.ts";
 
 /** One list page, parsed and validated. */
 export interface ListPage {
@@ -12,7 +16,7 @@ export interface ListPage {
   /** The sidebar's count for each exclusive shelf. */
   counts: Record<ExclusiveShelf, number>;
   /** In page order. */
-  items: Item[];
+  items: ListItem[];
 }
 
 const SidebarCounts = z.strictObject(
@@ -76,7 +80,7 @@ export function parseListPage(
             url,
           }),
       );
-      const parsed = Item.safeParse(raw);
+      const parsed = ListItem.safeParse(raw);
       if (!parsed.success)
         throw new ScrapeFailure({
           step: "list-pages",
@@ -206,7 +210,7 @@ function isoDay(value: string): string {
 }
 
 /** Each issue as `field: message (got value)`. */
-function describeIssues(
+export function describeIssues(
   error: z.ZodError,
   raw: Record<string, unknown>,
 ): string {

@@ -4,8 +4,8 @@ import { FlowFailure } from "./flow.ts";
 import { flowSettings } from "./settings.ts";
 
 describe("flow settings", () => {
-  test("the defaults are concurrency 2 and at most 2 requests/s", () => {
-    expect(flowSettings([])).toEqual({ concurrency: 2, ratePerSecond: 2 });
+  test("the defaults are concurrency 3 and at most 6 requests/s", () => {
+    expect(flowSettings([])).toEqual({ concurrency: 3, ratePerSecond: 6 });
   });
 
   test("the command line sets them", () => {
@@ -16,9 +16,9 @@ describe("flow settings", () => {
   });
 
   test("other arguments are left alone", () => {
-    expect(flowSettings(["--pages", "2", "-c", "3"])).toEqual({
-      concurrency: 3,
-      ratePerSecond: 2,
+    expect(flowSettings(["--pages", "2", "-c", "1"])).toEqual({
+      concurrency: 1,
+      ratePerSecond: 6,
     });
   });
 

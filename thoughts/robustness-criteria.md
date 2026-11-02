@@ -69,8 +69,8 @@ The commit history of the published files is the best evidence of what worked.
   - _Why:_ retrying a redirect to sign-in, a 404 or a 202 WAF challenge hides
     the cause and keeps hitting the WAF. Network errors aren't in #23's retried
     list yet; they're proposed here.
-- **R3 · change.** At most 4 attempts per request; backoff 2 s, 4 s, 8 s, each
-  ±25% jitter.
+- **R3 · change.** At most 6 attempts per request; linear backoff 2 s, 4 s, 6 s,
+  8 s, 10 s, each ±25% jitter (4 attempts, doubling, before #30).
   - _Was:_ deno 15 attempts, up to 120 s per page (`fetcherXML.ts:7`); ng 5
     attempts (`goodreads/rss.ts:93`, `goodreads/fetchReadingProgress.ts:112`)
     with no delay (`goodreads/fetchHelpers.ts:83-91`).
@@ -79,8 +79,9 @@ The commit history of the published files is the best evidence of what worked.
 - **R4 · new.** A `Retry-After` on 429 or 503 is honoured up to 60 s; longer
   fails the run as `throttled`.
   - _Why:_ Goodreads says how long to wait; longer than a minute means stop.
-- **R5 · new.** Retry budget: more than 20 retries in a run, or 5 temporary
-  failures in a row, fails the run as `throttled`. Numbers to calibrate.
+- **R5 · new.** Retry budget: more than 100 retries in a run (20 before the
+  first real run, #30), or 10 temporary failures in a row (5 before #30), fails
+  the run as `throttled`. Numbers to calibrate.
   - _Why:_ many retries mean throttling; pushing on risks a WAF block of the
     account or IP.
 - **R6 · keep.** Every retry is logged: URL path, attempt, status or error,
@@ -277,6 +278,9 @@ Each stops the run, exits non-zero and writes nothing: `throttled` (R4, R5),
 To #23's retried list: network errors (R2).
 
 ## Request limits and calibration
+
+Every limit lives in `apps/scrape/src/limits.ts`, with its current value and the
+evidence for it (#30). Concurrency is 3 since #30.
 
 **Proposed defaults:**
 

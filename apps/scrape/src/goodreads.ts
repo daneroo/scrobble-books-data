@@ -26,7 +26,26 @@ const PUBLISHED = new RegExp(
   `^((${MONTH} (\\d{2}, )?)?\\d{4}|-?\\d{1,4}|unknown)$`,
 );
 
-export const Item = z.strictObject({
+/**
+ * A date as a review page's timeline shows it, uninterpreted: text ending in
+ * a year. Seen on real pages: "October 23, 2026", "January, 1997", "2021".
+ */
+const TIMELINE_DATE = /^(.* )?\d{4}$/;
+
+/**
+ * One row of a review page's reading timeline, as shown, uninterpreted. The
+ * owner-only "Add a date" link is not part of it.
+ */
+export const TimelineRow = z.strictObject({
+  /** "October 23, 2026", "January, 1997" or "2021"; `""` when the row has no date. */
+  dateText: z.union([z.literal(""), z.string().regex(TIMELINE_DATE)]),
+  /** The rest of the row: "Shelved as: on-deck", "44.0%", "Started Reading (Hardcover Edition)". */
+  event: z.string().min(1),
+});
+export type TimelineRow = z.infer<typeof TimelineRow>;
+
+/** A book's fields from its list page row. */
+export const ListItem = z.strictObject({
   /** From the row's `review_<id>`; the old `id` and `link` are URLs of it. */
   reviewId: z.string().regex(/^\d+$/),
   /** HTML-decoded, with the series, e.g. "A Drop of Corruption (Ana and Din Mysteries, #2)". */
@@ -48,6 +67,16 @@ export const Item = z.strictObject({
   bookPublishedText: z.string().regex(PUBLISHED),
   /** Whole pages, no commas; "0" when unknown. */
   numPages: z.string().regex(/^\d+$/),
+});
+export type ListItem = z.infer<typeof ListItem>;
+
+/** A book: its list page row, and its reading progress from its review page. */
+export const Item = ListItem.extend({
+  /**
+   * The review page's reading timeline, in page order, as shown. Its
+   * exclusive shelf is checked to equal `userExclusiveShelf`.
+   */
+  timeline: z.array(TimelineRow),
 });
 export type Item = z.infer<typeof Item>;
 

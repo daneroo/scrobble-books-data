@@ -2,7 +2,8 @@
  * The scraper's single entry point: `bun run scrape`. See HELP below.
  *
  * It logs in once, fetches every list page through the flow controller,
- * checks completeness, and writes `goodreads.json` (list-page fields) plus
+ * checks completeness, fetches every book's review page (exclusive shelf and
+ * reading timeline) and checks its shelf, and writes `goodreads.json` plus
  * one segment per list page, all checked by CUE. Any failure fails closed.
  */
 import { join } from "node:path";
@@ -11,6 +12,7 @@ import { parseArgs } from "node:util";
 import { ScrapeFailure, type Failure } from "./failure.ts";
 import { createFlow, formatEvent, type Flow } from "./flow/flow.ts";
 import { flowSettings } from "./flow/settings.ts";
+import { LIMITS } from "./limits.ts";
 import { login } from "./login/login.ts";
 import { signedInSource } from "./pages/source.ts";
 import { redactor, report, type Outcome, type Secrets } from "./report.ts";
@@ -21,29 +23,32 @@ const ROOT = join(import.meta.dir, "../../..");
 const PUBLISH_PATH = join(ROOT, "goodreads.json");
 /** Segments, raw pages and the staged output (gitignored). */
 const DATA_DIR = join(ROOT, "data/scrape");
-/** Per list page, body included (T2). */
-const LIST_PAGE_TIMEOUT_MS = 30_000;
-/** For the whole run (T3). */
-const RUN_DEADLINE_MS = 30 * 60_000;
+const {
+  listPageTimeoutMs: LIST_PAGE_TIMEOUT_MS,
+  reviewPageTimeoutMs: REVIEW_PAGE_TIMEOUT_MS,
+  runDeadlineMs: RUN_DEADLINE_MS,
+} = LIMITS;
 
 const HELP = `Usage: bun run scrape [options]
 
 Logs in to Goodreads once, fetches every list page (all shelves, 100 books a
-page), checks that every book is there exactly once, and writes:
+page), checks that every book is there exactly once, then fetches every
+book's review page and checks that its shelf equals the list page's. Writes:
 
-  goodreads.json          the list-page fields of every book (repo root)
+  goodreads.json          every book: its list-page fields and its reading
+                          timeline, as shown (repo root)
   data/scrape/segments/   one file per list page, in the same schema
-  data/scrape/pages/      the raw list pages, as fetched
+  data/scrape/pages/      the raw list and review pages, as fetched
 
 CUE checks goodreads.json and every segment before goodreads.json is written.
 Any failure is named, exits 1, and leaves goodreads.json as it was.
 
 Options:
   -c, --concurrency N  Requests in flight at most; 1 is strictly sequential.
-                       Default 2.
+                       Default ${LIMITS.concurrency}.
   --rate R|none        The maximum number of requests started per second
                        (e.g. 2, or 0.5 for one every 2 s), or "none" for no
-                       cap. Default 2.
+                       cap. Default ${LIMITS.ratePerSecond}.
   --interactive        Open a visible browser and sign in by hand, including
                        any "verify it's you" step. Use it the first time, and
                        whenever a headless login is blocked.
@@ -149,15 +154,23 @@ async function main(args: string[]): Promise<Outcome | "help"> {
       return fail(failureOf(error, "login"));
     }
 
-    const source = signedInSource({
-      cookie,
-      userAgent,
-      timeoutMs: LIST_PAGE_TIMEOUT_MS,
-      step: "list-pages",
-    });
+    const sources = {
+      list: signedInSource({
+        cookie,
+        userAgent,
+        timeoutMs: LIST_PAGE_TIMEOUT_MS,
+        step: "list-pages",
+      }),
+      review: signedInSource({
+        cookie,
+        userAgent,
+        timeoutMs: REVIEW_PAGE_TIMEOUT_MS,
+        step: "review-pages",
+      }),
+    };
     const outcome = await runScrape({
       user: secrets.user,
-      source,
+      sources,
       flow,
       dataDir: DATA_DIR,
       publishPath: PUBLISH_PATH,

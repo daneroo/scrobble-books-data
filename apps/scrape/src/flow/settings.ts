@@ -1,11 +1,12 @@
 import { parseArgs } from "node:util";
 
+import { LIMITS } from "../limits.ts";
 import { FlowFailure, type FlowSettings } from "./flow.ts";
 
 /** How one flag is read: its name, its default, and how to parse it. */
 interface SettingSpec<T> {
   flag: string;
-  /** The default: approved in #26, about 12 min for a full run. */
+  /** The default, from `LIMITS`. */
   fallback: T;
   /** The value, or `undefined` if malformed. */
   parse(value: string): T | undefined;
@@ -15,14 +16,14 @@ interface SettingSpec<T> {
 
 const CONCURRENCY: SettingSpec<number> = {
   flag: "concurrency",
-  fallback: 2,
+  fallback: LIMITS.concurrency,
   parse: (value) => (/^[1-9]\d*$/.test(value) ? Number(value) : undefined),
   expected: "a whole number, at least 1",
 };
 
 const RATE: SettingSpec<number | null> = {
   flag: "rate",
-  fallback: 2,
+  fallback: LIMITS.ratePerSecond,
   parse(value) {
     if (value === "none") return null;
     if (!/^\d+(\.\d+)?$/.test(value)) return undefined;
@@ -35,7 +36,7 @@ const RATE: SettingSpec<number | null> = {
 /**
  * The flow settings, from the command line only: `--concurrency N` (or
  * `-c N`) and `--rate R|none` (max requests started per second), else the
- * defaults (2, and 2/s). Other arguments are ignored. A malformed value throws
+ * defaults in `LIMITS`. Other arguments are ignored. A malformed value throws
  * a `bad-config` FlowFailure.
  */
 export function flowSettings(argv: readonly string[]): FlowSettings {

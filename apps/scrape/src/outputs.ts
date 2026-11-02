@@ -2,8 +2,7 @@ import { mkdir, rename, rm } from "node:fs/promises";
 import { dirname, join } from "node:path";
 
 import { ScrapeFailure } from "./failure.ts";
-import type { Goodreads } from "./goodreads.ts";
-import type { ListPage } from "./list/parse.ts";
+import type { Goodreads, Item } from "./goodreads.ts";
 
 /** The CUE schema for `goodreads.json` and the segments. */
 export const GOODREADS_CUE = join(
@@ -16,7 +15,7 @@ export function runFiles(dataDir: string) {
   return {
     /** One segment per list page: `list-p01.json`, … */
     segments: join(dataDir, "segments"),
-    /** The raw list pages, as fetched (X3). */
+    /** The raw list and review pages, as fetched (X3). */
     pages: join(dataDir, "pages"),
     /** `goodreads.json`, before CUE passes and it is published. */
     staged: join(dataDir, "goodreads.json"),
@@ -50,24 +49,28 @@ function serialize(value: Goodreads): string {
  */
 export async function writeOutputs(options: {
   goodreads: Goodreads;
-  pages: readonly ListPage[];
+  /** One per list page: its books, with their progress. */
+  segments: readonly { page: number; items: Item[] }[];
   dataDir: string;
   publishPath: string;
   cueSchema?: string;
   /** Once aborted (the run deadline), nothing is published. */
   signal?: AbortSignal;
 }): Promise<void> {
-  const { goodreads, pages, dataDir, publishPath } = options;
+  const { goodreads, segments, dataDir, publishPath } = options;
   const { cueSchema = GOODREADS_CUE } = options;
   const files = runFiles(dataDir);
-  const segmentPaths = pages.map((page) =>
-    join(files.segments, segmentName(page.page)),
+  const segmentPaths = segments.map((segment) =>
+    join(files.segments, segmentName(segment.page)),
   );
   await Promise.all(
-    pages.map((page, i) =>
+    segments.map((segment, i) =>
       Bun.write(
         segmentPaths[i]!,
-        serialize({ userFullName: goodreads.userFullName, items: page.items }),
+        serialize({
+          userFullName: goodreads.userFullName,
+          items: segment.items,
+        }),
       ),
     ),
   );

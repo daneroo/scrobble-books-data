@@ -1,7 +1,8 @@
 import type { PageState } from "./login/classify.ts";
 
 /** Where a run failed. */
-export type Step = "setup" | "login" | "list-pages" | "checks" | "outputs";
+export type Step =
+  "setup" | "login" | "list-pages" | "review-pages" | "checks" | "outputs";
 
 /**
  * Named failure modes. Each one ends the run with a non-zero exit, and no
@@ -37,6 +38,8 @@ export type Step = "setup" | "login" | "list-pages" | "checks" | "outputs";
  * - `count-mismatch`: unique books per exclusive shelf differ from the
  *   sidebar, or the sidebar changed during the run (C3).
  * - `duplicate-book`: a book is listed twice (C3).
+ * - `shelf-mismatch`: a review page's exclusive shelf differs from the list
+ *   page's.
  *
  * The run:
  * - `cue-failure`: CUE rejected a segment or `goodreads.json` (X5).
@@ -65,6 +68,7 @@ export type FailureMode =
   | "page-size"
   | "count-mismatch"
   | "duplicate-book"
+  | "shelf-mismatch"
   | "cue-failure"
   | "run-timeout"
   | "error";

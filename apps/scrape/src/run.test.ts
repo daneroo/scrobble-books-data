@@ -24,8 +24,10 @@ import {
   madeUpIds,
   realList,
   renderPage,
+  reviewPage,
   rowLike,
   savedRows,
+  SAVED_REVIEWS,
   type FakeGoodreads,
   type Override,
   type Row,
@@ -57,20 +59,24 @@ async function run(
     { concurrency: 2, ratePerSecond: 2 },
     { clock, random: () => 0.5, onEvent: (event) => events.push(event) },
   );
-  const source = signedInSource({
-    cookie: "session=abc123",
-    userAgent: "Mozilla/5.0 Chrome",
-    timeoutMs: 30_000,
-    step: "list-pages",
-    fetch: fake.fetch,
-    clock,
-  });
+  const source = (step: "list-pages" | "review-pages", timeoutMs: number) =>
+    signedInSource({
+      cookie: "session=abc123",
+      userAgent: "Mozilla/5.0 Chrome",
+      timeoutMs,
+      step,
+      fetch: fake.fetch,
+      clock,
+    });
   const publishPath = join(dir, "goodreads.json");
   const dataDir = join(dir, "data");
   const outcome: Outcome = await clock.settle(
     runScrape({
       user: FIXTURE_USER,
-      source,
+      sources: {
+        list: source("list-pages", 30_000),
+        review: source("review-pages", 15_000),
+      },
       flow,
       dataDir,
       publishPath,
@@ -146,8 +152,11 @@ describe("a full run", () => {
     );
 
     expect(published?.userFullName).toBe("Pat Reader");
-    // the first row: currently reading, unrated, no read date
-    expect(published?.items[0]).toEqual({
+    // the first row: currently reading, unrated, no read date (its review
+    // page isn't saved, so its timeline is made up: left out here)
+    const { timeline, ...first } = published!.items[0]!;
+    expect(timeline).toBeArray();
+    expect(first).toEqual({
       reviewId: "9069353168",
       title: "A Drop of Corruption (Ana and Din Mysteries, #2)",
       bookId: "213618143",
@@ -192,6 +201,80 @@ describe("a full run", () => {
     });
   });
 
+  test("fetches every book's review page and stores its timeline as shown", async () => {
+    const fake = fakeGoodreads(realList());
+    const { published, segment } = await run(fake);
+
+    expect(new Set(fake.reviewRequests).size).toBe(1450);
+    expect(fake.reviewRequests).toHaveLength(1450);
+    // percentages, and the shelves it went through
+    const taintedCup = [
+      { dateText: "October 23, 2026", event: "Shelved as: to-read" },
+      { dateText: "October 23, 2026", event: "Shelved" },
+      { dateText: "October 23, 2026", event: "Shelved as: on-deck" },
+      { dateText: "October 27, 2026", event: "Started Reading" },
+      { dateText: "October 28, 2026", event: "11.0%" },
+      { dateText: "October 29, 2026", event: "44.0%" },
+      { dateText: "October 30, 2026", event: "72.0%" },
+      { dateText: "October 31, 2026", event: "99.0%" },
+      { dateText: "October 31, 2026", event: "Finished Reading" },
+    ];
+    const item = published?.items.find(
+      (i) => i.reviewId === SAVED_REVIEWS.taintedCup,
+    );
+    expect(item?.userExclusiveShelf).toBe("read");
+    expect(item?.timeline).toEqual(taintedCup);
+    // the segment has it too
+    const inSegment = (await segment("list-p01.json")).items.find(
+      (i) => i.reviewId === SAVED_REVIEWS.taintedCup,
+    );
+    expect(inSegment?.timeline).toEqual(taintedCup);
+  });
+
+  test("an undated timeline row has dateText '', without the 'Add a date' link (Debt)", async () => {
+    const { published } = await run(fakeGoodreads(realList()));
+    const debt = published?.items.find(
+      (i) => i.reviewId === SAVED_REVIEWS.debt,
+    );
+    expect(debt?.userRating).toBe(4.25);
+    expect(debt?.timeline).toEqual([
+      { dateText: "October 21, 2026", event: "Started Reading" },
+      { dateText: "October 21, 2026", event: "Shelved" },
+      { dateText: "October 21, 2026", event: "Shelved as: on-deck" },
+      { dateText: "", event: "Finished Reading" },
+      { dateText: "October 26, 2026", event: "Started Reading" },
+      { dateText: "October 26, 2026", event: "25.0%" },
+      { dateText: "October 27, 2026", event: "52.0%" },
+      { dateText: "October 28, 2026", event: "76.0%" },
+      { dateText: "October 29, 2026", event: "99.0%" },
+      { dateText: "October 29, 2026", event: "Finished Reading" },
+    ]);
+  });
+
+  test("a re-read of another edition keeps the edition in the event (Essentialism)", async () => {
+    const { published } = await run(fakeGoodreads(realList()));
+    const essentialism = published?.items.find(
+      (i) => i.reviewId === SAVED_REVIEWS.essentialism,
+    );
+    expect(essentialism?.userExclusiveShelf).toBe("currently-reading");
+    // whitespace as a browser shows it: "September  6" in the page
+    expect(essentialism?.timeline).toEqual([
+      {
+        dateText: "May 17, 2023",
+        event: "Started Reading (Hardcover Edition)",
+      },
+      { dateText: "May 17, 2023", event: "Shelved (Hardcover Edition)" },
+      {
+        dateText: "May 28, 2023",
+        event: "Finished Reading (Hardcover Edition)",
+      },
+      { dateText: "August 17, 2026", event: "Started Reading" },
+      { dateText: "August 17, 2026", event: "Shelved" },
+      { dateText: "August 23, 2026", event: "14.0%" },
+      { dateText: "September 6, 2026", event: "23.0%" },
+    ]);
+  });
+
   test("the request sends the cookie and the login browser's User-Agent", async () => {
     const fake = fakeGoodreads(realList());
     await run(fake);
@@ -199,12 +282,13 @@ describe("a full run", () => {
     expect(fake.firstHeaders?.get("user-agent")).toBe("Mozilla/5.0 Chrome");
   });
 
-  test("the log shows the rate achieved for the list pages", async () => {
+  test("the log shows the rate achieved for the list and review pages", async () => {
     const { events } = await run(fakeGoodreads(realList()));
     const batches = events.filter((event) => event.type === "batch");
     expect(batches.map((batch) => [batch.batch, batch.requests])).toEqual([
       ["list page 1", 1],
       ["list pages 2-15", 14],
+      ["review pages", 1450],
     ]);
   });
 });
@@ -311,10 +395,10 @@ describe("fail-closed, through the page source", () => {
       ),
     });
     const { events } = await expectFailedClosed(fake, "too-many-requests");
-    expect(fake.requests).toEqual([1, 1, 1, 1]);
+    expect(fake.requests).toEqual([1, 1, 1, 1, 1, 1]);
     const retries = events.filter((event) => event.type === "retry");
     expect(retries.map((event) => event.delayMs)).toEqual([
-      10_000, 10_000, 10_000,
+      10_000, 10_000, 10_000, 10_000, 10_000,
     ]);
   });
 
@@ -323,7 +407,7 @@ describe("fail-closed, through the page source", () => {
       override: onPage(4, () => new Response("busy", { status: 503 })),
     });
     await expectFailedClosed(fake, "server-error");
-    expect(fake.requests.filter((page) => page === 4)).toHaveLength(4);
+    expect(fake.requests.filter((page) => page === 4)).toHaveLength(6);
   });
 
   test("a 503 that clears on retry is fine", async () => {
@@ -342,7 +426,7 @@ describe("fail-closed, through the page source", () => {
     const { failure } = await expectFailedClosed(fake, "timeout");
     expect(failure.detail).toContain("30s");
     expect(failure.detail).toContain("page 2");
-    expect(fake.requests.filter((page) => page === 2)).toHaveLength(4);
+    expect(fake.requests.filter((page) => page === 2)).toHaveLength(6);
   });
 
   test("a network error is retried, then network-error", async () => {
@@ -352,7 +436,7 @@ describe("fail-closed, through the page source", () => {
       ),
     });
     await expectFailedClosed(fake, "network-error");
-    expect(fake.requests.filter((page) => page === 2)).toHaveLength(4);
+    expect(fake.requests.filter((page) => page === 2)).toHaveLength(6);
   });
 });
 
@@ -561,6 +645,138 @@ describe("fail-closed, completeness", () => {
   });
 });
 
+describe("fail-closed, review pages", () => {
+  test("a review page shelf that differs from the list page's is shelf-mismatch", async () => {
+    const list = realList();
+    const book = list[150]!;
+    const other = book.shelf === "read" ? "to-read" : "read";
+    const fake = fakeGoodreads(list, {
+      review: (row) =>
+        row.reviewId === book.reviewId
+          ? new Response(reviewPage({ ...row, shelf: other }))
+          : undefined,
+    });
+    const { failure } = await expectFailedClosed(fake, "shelf-mismatch");
+    expect(failure.step).toBe("checks");
+    expect(failure.detail).toBe(
+      `book ${book.bookId} (review ${book.reviewId}) is ${book.shelf} on the list page, ${other} on its review page`,
+    );
+  });
+
+  test("a review page redirected to sign-in is redirect-to-sign-in; its body is kept", async () => {
+    const list = realList();
+    const book = list[700]!;
+    const fake = fakeGoodreads(list, {
+      review: (row) =>
+        row.reviewId === book.reviewId
+          ? new Response("moved", {
+              status: 302,
+              headers: { location: "https://www.goodreads.com/user/sign_in" },
+            })
+          : undefined,
+    });
+    const { failure } = await expectFailedClosed(fake, "redirect-to-sign-in");
+    expect(failure.step).toBe("review-pages");
+    expect(failure.detail).toContain(`/review/show/${book.reviewId}`);
+    const kept = Bun.file(
+      join(dir, "data", "pages", `review-${book.reviewId}.html`),
+    );
+    expect(await kept.text()).toBe("moved");
+  });
+
+  test("a review page that never answers times out at 15s, is retried, then timeout", async () => {
+    const book = realList()[3]!;
+    const fake = fakeGoodreads(realList(), {
+      review: (row, signal) =>
+        row.reviewId === book.reviewId ? hang(signal) : undefined,
+    });
+    const { failure } = await expectFailedClosed(fake, "timeout");
+    expect(failure.detail).toContain(`/review/show/${book.reviewId}`);
+    expect(failure.detail).toContain("15s");
+    expect(
+      fake.reviewRequests.filter((id) => id === book.reviewId),
+    ).toHaveLength(6);
+  });
+
+  test("a review page with no shelf in its heading is layout-change, naming it", async () => {
+    const book = realList()[42]!;
+    const fake = fakeGoodreads(realList(), {
+      review: (row) =>
+        row.reviewId === book.reviewId
+          ? new Response(
+              reviewPage(row).replace(/\?shelf=[a-z-]+/, "?sort=title"),
+            )
+          : undefined,
+    });
+    const { failure } = await expectFailedClosed(fake, "layout-change");
+    expect(failure.detail).toBe(
+      `review page ${book.reviewId}: no shelf link in the heading`,
+    );
+  });
+
+  test("a review page with no reading timeline is layout-change", async () => {
+    const book = realList()[42]!;
+    const fake = fakeGoodreads(realList(), {
+      review: (row) =>
+        row.reviewId === book.reviewId
+          ? new Response(
+              reviewPage(row).replace(
+                'class="readingTimeline"',
+                'class="somethingElse"',
+              ),
+            )
+          : undefined,
+    });
+    const { failure } = await expectFailedClosed(fake, "layout-change");
+    expect(failure.detail).toBe(
+      `review page ${book.reviewId}: no reading timeline`,
+    );
+  });
+
+  test("a partial timeline date (a year, or a month and year) is stored as shown", async () => {
+    // as on real review pages: "2021 – Finished Reading" (4090256573) and
+    // "January, 1997" (3846910217)
+    const book = realList()[42]!;
+    const fake = fakeGoodreads(realList(), {
+      review: (row) =>
+        row.reviewId === book.reviewId
+          ? new Response(
+              reviewPage(row)
+                .replace("October 26, 2026", "2021")
+                .replace("October 27, 2026", "January, 1997"),
+            )
+          : undefined,
+    });
+    const { published } = await run(fake);
+    const item = published?.items.find((i) => i.reviewId === book.reviewId);
+    expect(item?.timeline[4]).toEqual({
+      dateText: "2021",
+      event: "Started Reading",
+    });
+    expect(item?.timeline[6]).toEqual({
+      dateText: "January, 1997",
+      event: "52.0%",
+    });
+  });
+
+  test("a timeline date in another format is parse-failure, naming the page and row", async () => {
+    const book = realList()[42]!;
+    const fake = fakeGoodreads(realList(), {
+      review: (row) =>
+        row.reviewId === book.reviewId
+          ? new Response(
+              reviewPage(row).replace("October 26, 2026", "2026-10-26"),
+            )
+          : undefined,
+    });
+    const { failure } = await expectFailedClosed(fake, "parse-failure");
+    expect(failure.detail).toContain(
+      `review page ${book.reviewId}: timeline row 5: dateText`,
+    );
+    expect(failure.detail).toContain('"2026-10-26"');
+  });
+});
+
 describe("fail-closed, outputs", () => {
   test("a CUE failure is cue-failure, and nothing is published", async () => {
     const schema = join(dir, "strict.cue");
@@ -583,7 +799,8 @@ describe("fail-closed, outputs", () => {
       cueSchema: schema,
     });
     expect((await readdir(join(dir, "data", "segments"))).length).toBe(15);
-    expect((await readdir(join(dir, "data", "pages"))).length).toBe(15);
+    // 15 list pages and 1450 review pages
+    expect((await readdir(join(dir, "data", "pages"))).length).toBe(1465);
   });
 });
 

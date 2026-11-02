@@ -141,7 +141,7 @@ describe("flow controller", () => {
     expect(w.starts).toEqual([0, 250]);
   });
 
-  test("a temporary error is retried after 2 s, then 4 s", async () => {
+  test("a temporary error is retried after 2 s, then 4 s (linear)", async () => {
     const { clock, flow, flaky } = setup();
     const { task, attempts } = flaky(
       "/page",
@@ -153,7 +153,7 @@ describe("flow controller", () => {
     expect(attempts).toEqual([0, 2010, 6020]);
   });
 
-  test("a request gets 4 attempts; the 4th temporary error is fatal", async () => {
+  test("a request gets 6 attempts; the 6th temporary error is fatal", async () => {
     const { clock, flow, flaky } = setup();
     const last = new TemporaryError("status 503");
     const { task, attempts } = flaky(
@@ -162,12 +162,15 @@ describe("flow controller", () => {
         new TemporaryError("timeout"),
         new TemporaryError("status 502"),
         new TemporaryError("status 429"),
+        new TemporaryError("timeout"),
+        new TemporaryError("timeout"),
         last,
       ],
       "never",
     );
     expect(await failure(clock.settle(flow.batch("pages", [task])))).toBe(last);
-    expect(attempts).toEqual([0, 2010, 6020, 14030]);
+    // waits 2, 4, 6, 8, 10 s
+    expect(attempts).toEqual([0, 2010, 6020, 12030, 20040, 30050]);
   });
 
   test("any other error is fatal at once, with no retry", async () => {
@@ -346,17 +349,17 @@ describe("flow controller", () => {
   const timeouts = (n: number) =>
     Array.from({ length: n }, () => new TemporaryError("timeout"));
 
-  test("5 temporary failures in a row fail the run as throttled", async () => {
+  test("10 temporary failures in a row fail the run as throttled", async () => {
     const { clock, flow, flaky } = setup({ concurrency: 2 });
-    // both fail together at 10 ms and 2020 ms; at 6030 ms the 5th failure
-    // (a's 3rd) stops the run and aborts b's 3rd attempt
-    const a = flaky("/a", timeouts(3), "a");
-    const b = flaky("/b", timeouts(3), "b");
+    // both fail together, 10 ms after each attempt; the 10th failure (b's
+    // 5th) stops the run before either gets a 6th attempt
+    const a = flaky("/a", timeouts(6), "a");
+    const b = flaky("/b", timeouts(6), "b");
     expect(
       await failureMode(clock.settle(flow.batch("pages", [a.task, b.task]))),
     ).toBe("throttled");
-    expect(a.attempts).toEqual([0, 2010, 6020]);
-    expect(b.attempts).toEqual([0, 2010, 6020]);
+    expect(a.attempts).toEqual([0, 2010, 6020, 12030, 20040]);
+    expect(b.attempts).toEqual([0, 2010, 6020, 12030, 20040]);
     expect(clock.pending).toBe(0);
   });
 
@@ -370,11 +373,11 @@ describe("flow controller", () => {
     ]);
   });
 
-  test("more than 20 retries in a run fail it as throttled, across batches", async () => {
+  test("more than 100 retries in a run fail it as throttled, across batches", async () => {
     const { clock, flow, flaky } = setup({ concurrency: 1 });
     const retriedOnce = (n: number) =>
       Array.from({ length: n }, (_, i) => flaky(`/${i}`, timeouts(1), i).task);
-    await clock.settle(flow.batch("list", retriedOnce(20)));
+    await clock.settle(flow.batch("list", retriedOnce(100)));
     expect(
       await failureMode(clock.settle(flow.batch("reviews", retriedOnce(1)))),
     ).toBe("throttled");
@@ -426,8 +429,24 @@ describe("flow controller", () => {
     const tasks = [task("/a", 120, 1), flaky("/b", timeouts(1), 2).task];
     await clock.settle(flow.batch("reviews", tasks));
     expect(events.filter((e) => e.type === "request")).toEqual([
-      { type: "request", batch: "reviews", label: "/a", attempt: 1, ms: 120 },
-      { type: "request", batch: "reviews", label: "/b", attempt: 2, ms: 10 },
+      {
+        type: "request",
+        batch: "reviews",
+        label: "/a",
+        attempt: 1,
+        ms: 120,
+        done: 1,
+        total: 2,
+      },
+      {
+        type: "request",
+        batch: "reviews",
+        label: "/b",
+        attempt: 2,
+        ms: 10,
+        done: 2,
+        total: 2,
+      },
     ]);
   });
 
@@ -471,7 +490,7 @@ describe("flow controller", () => {
         delayMs: 2345.6,
       }),
     ).toBe(
-      "reviews: retry /review/show/42 after attempt 1/4 (status 503), waiting 2.3s",
+      "reviews: retry /review/show/42 after attempt 1/6 (status 503), waiting 2.3s",
     );
     expect(
       formatEvent({
@@ -480,7 +499,9 @@ describe("flow controller", () => {
         label: "/review/show/42",
         attempt: 2,
         ms: 412.7,
+        done: 523,
+        total: 1450,
       }),
-    ).toBe("reviews: /review/show/42 in 413ms (attempt 2)");
+    ).toBe("reviews: 523/1450 /review/show/42 in 413ms (attempt 2)");
   });
 });

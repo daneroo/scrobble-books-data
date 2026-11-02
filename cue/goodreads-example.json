@@ -13,7 +13,25 @@
       "userExclusiveShelf": "currently-reading",
       "averageRating": "4.47",
       "bookPublishedText": "Apr 01, 2025",
-      "numPages": "461"
+      "numPages": "461",
+      "timeline": [
+        {
+          "dateText": "November 1, 2026",
+          "event": "Started Reading"
+        },
+        {
+          "dateText": "November 1, 2026",
+          "event": "Shelved"
+        },
+        {
+          "dateText": "November 1, 2026",
+          "event": "14.0%"
+        },
+        {
+          "dateText": "November 2, 2026",
+          "event": "33.0%"
+        }
+      ]
     },
     {
       "reviewId": "9043895547",
@@ -27,7 +45,49 @@
       "userExclusiveShelf": "read",
       "averageRating": "4.21",
       "bookPublishedText": "Jul 12, 2011",
-      "numPages": "534"
+      "numPages": "534",
+      "timeline": [
+        {
+          "dateText": "October 21, 2026",
+          "event": "Started Reading"
+        },
+        {
+          "dateText": "October 21, 2026",
+          "event": "Shelved"
+        },
+        {
+          "dateText": "October 21, 2026",
+          "event": "Shelved as: on-deck"
+        },
+        {
+          "dateText": "",
+          "event": "Finished Reading"
+        },
+        {
+          "dateText": "October 26, 2026",
+          "event": "Started Reading"
+        },
+        {
+          "dateText": "October 26, 2026",
+          "event": "25.0%"
+        },
+        {
+          "dateText": "October 27, 2026",
+          "event": "52.0%"
+        },
+        {
+          "dateText": "October 28, 2026",
+          "event": "76.0%"
+        },
+        {
+          "dateText": "October 29, 2026",
+          "event": "99.0%"
+        },
+        {
+          "dateText": "October 29, 2026",
+          "event": "Finished Reading"
+        }
+      ]
     },
     {
       "reviewId": "8977513831",
@@ -41,7 +101,45 @@
       "userExclusiveShelf": "read",
       "averageRating": "4.33",
       "bookPublishedText": "May 24, 2017",
-      "numPages": "278"
+      "numPages": "278",
+      "timeline": [
+        {
+          "dateText": "September 26, 2026",
+          "event": "Started Reading"
+        },
+        {
+          "dateText": "September 26, 2026",
+          "event": "Shelved"
+        },
+        {
+          "dateText": "September 27, 2026",
+          "event": "10.0%"
+        },
+        {
+          "dateText": "September 28, 2026",
+          "event": "24.0%"
+        },
+        {
+          "dateText": "September 29, 2026",
+          "event": "31.0%"
+        },
+        {
+          "dateText": "September 29, 2026",
+          "event": "55.0%"
+        },
+        {
+          "dateText": "September 30, 2026",
+          "event": "68.0%"
+        },
+        {
+          "dateText": "October 1, 2026",
+          "event": "99.0%"
+        },
+        {
+          "dateText": "October 1, 2026",
+          "event": "Finished Reading"
+        }
+      ]
     },
     {
       "reviewId": "8933967943",
@@ -55,7 +153,29 @@
       "userExclusiveShelf": "read",
       "averageRating": "4.16",
       "bookPublishedText": "Jan 01, 2002",
-      "numPages": "0"
+      "numPages": "0",
+      "timeline": [
+        {
+          "dateText": "September 9, 2026",
+          "event": "Started Reading"
+        },
+        {
+          "dateText": "September 9, 2026",
+          "event": "Shelved"
+        },
+        {
+          "dateText": "September 9, 2026",
+          "event": "0%"
+        },
+        {
+          "dateText": "September 10, 2026",
+          "event": "0%"
+        },
+        {
+          "dateText": "September 10, 2026",
+          "event": "Finished Reading"
+        }
+      ]
     },
     {
       "reviewId": "8557895838",
@@ -69,7 +189,17 @@
       "userExclusiveShelf": "on-deck",
       "averageRating": "5.00",
       "bookPublishedText": "Feb 15, 2026",
-      "numPages": "320"
+      "numPages": "320",
+      "timeline": [
+        {
+          "dateText": "April 28, 2026",
+          "event": "Shelved as: on-deck"
+        },
+        {
+          "dateText": "April 28, 2026",
+          "event": "Shelved"
+        }
+      ]
     }
   ]
 }

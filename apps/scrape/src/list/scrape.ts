@@ -1,16 +1,17 @@
 import { ScrapeFailure } from "../failure.ts";
 import type { Flow, Task } from "../flow/flow.ts";
 import { EXCLUSIVE_SHELVES, type ExclusiveShelf } from "../goodreads.ts";
+import { LIMITS } from "../limits.ts";
 import type { PageSource } from "../pages/source.ts";
 import { parseListPage, type ListPage } from "./parse.ts";
 
 /** Rows on every list page but the last. */
 export const PER_PAGE = 100;
 /**
- * The most list pages a run fetches (40,000 books). It only guards against
- * an endless loop; reaching it fails the run.
+ * The most list pages a run fetches. It only guards against an endless
+ * loop; reaching it fails the run.
  */
-export const MAX_PAGES = 400;
+export const MAX_PAGES = LIMITS.maxListPages;
 
 /** A list page: all shelves, 100 per page, date added, newest first. */
 export function listPageUrl(user: string, page: number): string {
