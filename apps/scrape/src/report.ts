@@ -43,7 +43,7 @@ function summarize(outcome: Outcome): Report {
   }
   return {
     lines: [
-      `PASS: ${outcome.books} books from ${outcome.pages} list pages and ${outcome.reviewPages} review pages; wrote ${outcome.published} and ${outcome.pages} segments`,
+      `PASS: ${outcome.books} books from ${outcome.pages} list pages and ${outcome.reviewPages} review pages; wrote ${outcome.published}, goodreads-rss.json beside it, and ${outcome.pages} segments`,
     ],
     exitCode: 0,
   };

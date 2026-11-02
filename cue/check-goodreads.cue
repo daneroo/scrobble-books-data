@@ -13,6 +13,7 @@ import "time"
 	reviewId:           #Digits
 	title:              string & !=""
 	bookId:             #Digits
+	bookURL:            =~"^https://www\\.goodreads\\.com/book/show/[0-9]+" // the title link, with its slug
 	bookImageURL:       =~"^https://"
 	isbn:               #ISBN | ""
 	userRating:         number & >=0 & <=5 // fractional: 4.25, 4.5; 0 is unrated
@@ -22,6 +23,8 @@ import "time"
 	averageRating:      =~"^[0-9]\\.[0-9]$" // all editions, toFixed(1): 3.58 → 3.6
 	bookPublishedText:  #PageDate | =~"^-?[0-9]{1,4}$" | "unknown"
 	numPages:           =~"^[0-9]+$" // "0" when unknown
+	userDateAddedDay!: #Day   // the review page's review date
+	userReview!:       string // the review page's, as HTML; "" when none
 	timeline!: [...#timelineRow] // the review page's, in page order, as shown
 })
 

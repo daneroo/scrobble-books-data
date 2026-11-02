@@ -38,7 +38,7 @@ export async function fetchReviewPages({
 }
 
 /**
- * Adds each book's timeline, once every review page's exclusive shelf
+ * Adds each book's review date, review and timeline, once every review page's exclusive shelf
  * equals its list page's; otherwise `shelf-mismatch`, listing every book
  * that differs. `reviews` is in the order of `items`.
  */
@@ -61,5 +61,8 @@ export function withProgress(
       detail: mismatches.join("; "),
     });
   }
-  return items.map((item, i) => ({ ...item, timeline: reviews[i]!.timeline }));
+  return items.map((item, i) => {
+    const { userDateAddedDay, userReview, timeline } = reviews[i]!;
+    return { ...item, userDateAddedDay, userReview, timeline };
+  });
 }

@@ -164,6 +164,7 @@ function rawItem(
     reviewId: row.attr("id")?.replace(/^review_/, ""),
     title: title.attr("title"),
     bookId: cover.find("[data-resource-id]").first().attr("data-resource-id"),
+    bookURL: absolute(title.attr("href")),
     bookImageURL: cover.find("img").first().attr("src"),
     isbn: text("isbn"),
     userRating:
@@ -192,6 +193,13 @@ function rawItem(
         ? "0"
         : (/^([\d,]+) pp$/.exec(pages)?.[1]?.replaceAll(",", "") ?? pages),
   };
+}
+
+/** "/book/show/1-x" → "https://www.goodreads.com/book/show/1-x". */
+function absolute(href: string | undefined): string | undefined {
+  return href === undefined
+    ? undefined
+    : new URL(href, "https://www.goodreads.com").href;
 }
 
 /** "4.25" → 4.25; anything else is left as it is, for zod to reject. */

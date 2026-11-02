@@ -25,7 +25,8 @@
     "act:unit": "act -j unit --container-architecture linux/amd64",
     "act:scrape": "act -j scrape --secret-file secrets/GITHUB.env --container-architecture linux/amd64",
     "git:log": "echo 'Recent Scraping Commits'; git log | grep 'Latest book data' | cut -c22-31 | uniq -c | head -n 10; echo 'git pull?'",
-    "scrape": "bun --env-file=secrets/GITHUB.env apps/scrape/src/scrape.ts"
+    "scrape": "bun --env-file=secrets/GITHUB.env apps/scrape/src/scrape.ts",
+    "compare": "bun apps/scrape/src/compat/compare.ts"
   },
   "devDependencies": {
     "@eslint/js": "10.0.1",

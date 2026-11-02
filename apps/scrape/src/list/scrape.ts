@@ -13,9 +13,13 @@ export const PER_PAGE = 100;
  */
 export const MAX_PAGES = LIMITS.maxListPages;
 
-/** A list page: all shelves, 100 per page, date added, newest first. */
+/**
+ * A list page: all shelves, 100 per page, last updated first: the order of
+ * the RSS feed, and of the reference copy (#31). An update on Goodreads
+ * during a run shifts the pages, and the completeness checks fail that run.
+ */
 export function listPageUrl(user: string, page: number): string {
-  return `https://www.goodreads.com/review/list/${user}?shelf=%23ALL%23&per_page=${PER_PAGE}&sort=date_added&order=d&page=${page}`;
+  return `https://www.goodreads.com/review/list/${user}?shelf=%23ALL%23&per_page=${PER_PAGE}&sort=date_updated&order=d&page=${page}`;
 }
 
 export interface FetchListPagesOptions {

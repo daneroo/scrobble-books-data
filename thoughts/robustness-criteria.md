@@ -252,7 +252,8 @@ The commit history of the published files is the best evidence of what worked.
   - _Why:_ both did it to cut commit noise, and the reference copy has it.
 - **S8 · keep.** Output is deterministic: the same Goodreads data gives a
   byte-identical file (no timestamps, stable order, 2-space JSON). The order is
-  the list order (`date_added` descending), as in the reference copy.
+  the list order, last updated first (`sort=date_updated`), as in the reference
+  copy (corrected in #31: it was `date_added`, which the reference is not in).
   - _Was:_ deno left out `lastBuildDate` (`scrape.js:24`); S7.
   - _Why:_ no diff when nothing changed.
 - **S9 · change.** The feed `title` is a constant, taken from the reference

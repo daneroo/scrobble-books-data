@@ -51,6 +51,8 @@ export const ListItem = z.strictObject({
   /** HTML-decoded, with the series, e.g. "A Drop of Corruption (Ana and Din Mysteries, #2)". */
   title: z.string().min(1),
   bookId: z.string().regex(/^\d+$/),
+  /** The title's link, with its slug: "https://www.goodreads.com/book/show/6617037-debt". */
+  bookURL: z.url().regex(/^https:\/\/www\.goodreads\.com\/book\/show\/\d+/),
   bookImageURL: z.url({ protocol: /^https$/ }),
   /** Trimmed; `""` when the edition has none. */
   isbn: z.string().regex(/^([0-9X]{10}|[0-9X]{13})?$/),
@@ -76,6 +78,13 @@ export type ListItem = z.infer<typeof ListItem>;
 /** A book: its list page row, and its reading progress from its review page. */
 export const Item = ListItem.extend({
   /**
+   * The review page's review date, `YYYY-MM-DD` (a US Pacific calendar
+   * day): the read date for a read book, the shelving date otherwise (#28).
+   */
+  userDateAddedDay: z.iso.date(),
+  /** The review page's review, as HTML (`<br />`), trimmed; `""` when there is none. */
+  userReview: z.string(),
+  /**
    * The review page's reading timeline, in page order, as shown. Its
    * exclusive shelf is checked to equal `userExclusiveShelf`.
    */
@@ -86,7 +95,7 @@ export type Item = z.infer<typeof Item>;
 export const Goodreads = z.strictObject({
   /** The user's full name, from the list page title. */
   userFullName: z.string().min(1),
-  /** In list order: date added, newest first. */
+  /** In list order: last updated first, as the RSS feed was. */
   items: z.array(Item),
 });
 export type Goodreads = z.infer<typeof Goodreads>;

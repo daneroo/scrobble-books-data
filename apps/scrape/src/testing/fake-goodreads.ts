@@ -51,18 +51,22 @@ function part(html: string, pattern: RegExp): string {
 
 /**
  * A slim review page made of _Debt_'s saved page parts: its signed-in
- * marker script, its heading and its Reading Progress box. Served for every
+ * marker script, its heading, its review date and its Reading Progress box. Served for every
  * book without a saved page, so a full run stays fast.
  */
 const slimReviewPage = (() => {
   const debt = reviewFixtures.get(SAVED_REVIEWS.debt)!;
   const marker = part(debt, /<script[^>]*>[^<]*:signed_in'[\s\S]*?<\/script>/);
   const heading = part(debt, /<h1>[\s\S]*?<\/h1>/);
+  const reviewDate = part(
+    debt,
+    /<div class="right dtreviewed[\s\S]*?<span class="value-title" title="[\d-]+"><\/span>\s*<\/div>/,
+  );
   const progress = part(
     debt,
     /<div class=" clearFloats bigBox"><div class="h2Container gradientHeaderContainer"><h2 class="brownBackground">Reading Progress[\s\S]*?<div class="bigBoxBottom"><\/div><\/div>/,
   );
-  return `<!DOCTYPE html>\n<html>\n<head>\n${marker}\n</head>\n<body>\n${heading}\n${progress}\n</body>\n</html>\n`;
+  return `<!DOCTYPE html>\n<html>\n<head>\n${marker}\n</head>\n<body>\n${heading}\n${reviewDate}\n${progress}\n</body>\n</html>\n`;
 })();
 
 /**

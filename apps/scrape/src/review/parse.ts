@@ -15,9 +15,14 @@ export interface ReviewPage {
   exclusiveShelf: ExclusiveShelf;
   /** The reading timeline, in page order, as shown. */
   timeline: TimelineRow[];
+  /** The review date, `YYYY-MM-DD`. */
+  userDateAddedDay: string;
+  /** The review, as HTML, trimmed; `""` when there is none. */
+  userReview: string;
 }
 
 const Shelf = z.enum(EXCLUSIVE_SHELVES);
+const Day = z.iso.date();
 
 /**
  * Parses a signed-in review page (`review/show/<reviewId>`): the exclusive
@@ -25,7 +30,9 @@ const Shelf = z.enum(EXCLUSIVE_SHELVES);
  * validated with zod as it is parsed (S1).
  *
  * A timeline row is "date – event", or just "event" when it has no date.
- * The owner-only "Add a date" link of an undated row is left out.
+ * The owner-only "Add a date" link of an undated row is left out. The
+ * review date comes from the review's header, and the review is its HTML
+ * exactly as in the page source (`<br />`), trimmed.
  *
  * Throws a `ScrapeFailure`: `layout-change` when a part of the page is
  * missing (S3), `parse-failure` when a value fails its schema. Both name the
@@ -36,7 +43,8 @@ export function parseReviewPage(
   reviewId: string,
   url: string,
 ): ReviewPage {
-  const $ = cheerio.load(html);
+  // source locations: the review is cut from the page source as it is
+  const $ = cheerio.load(html, { sourceCodeLocationInfo: true });
   const where = `review page ${reviewId}`;
   const fail = (mode: "layout-change" | "parse-failure", detail: string) =>
     new ScrapeFailure({
@@ -95,5 +103,33 @@ export function parseReviewPage(
       return parsed.data;
     });
 
-  return { exclusiveShelf: exclusiveShelf.data, timeline };
+  const dateTitle = $(".dtreviewed .value-title[title]");
+  if (dateTitle.length !== 1)
+    throw fail("layout-change", "no review date in the review header");
+  const day = dateTitle.attr("title");
+  const userDateAddedDay = Day.safeParse(day);
+  if (!userDateAddedDay.success)
+    throw fail(
+      "parse-failure",
+      `review date: ${describeIssues(userDateAddedDay.error, { day })}`,
+    );
+
+  const body = $("[itemprop=reviewBody]");
+  if (body.length > 1) throw fail("layout-change", "more than one review");
+  const location = body[0]?.sourceCodeLocation;
+  if (body.length === 1 && (!location?.startTag || !location.endTag))
+    throw fail("layout-change", "the review has no source location");
+  const userReview =
+    location?.startTag && location.endTag
+      ? html
+          .slice(location.startTag.endOffset, location.endTag.startOffset)
+          .trim()
+      : "";
+
+  return {
+    exclusiveShelf: exclusiveShelf.data,
+    timeline,
+    userDateAddedDay: userDateAddedDay.data,
+    userReview,
+  };
 }

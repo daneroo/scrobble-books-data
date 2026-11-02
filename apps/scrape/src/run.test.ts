@@ -14,6 +14,7 @@ import { ScrapeFailure, type FailureMode } from "./failure.ts";
 import { createFlow, type FlowEvent } from "./flow/flow.ts";
 import { VirtualClock } from "./flow/virtual-clock.ts";
 import type { Goodreads } from "./goodreads.ts";
+import { listPageUrl } from "./list/scrape.ts";
 import { signedInSource } from "./pages/source.ts";
 import { report, type Outcome } from "./report.ts";
 import { runScrape } from "./run.ts";
@@ -144,6 +145,16 @@ describe("a full run", () => {
     expect(lines.join("\n")).toContain(
       "counts match the sidebar: to-read 448, currently-reading 8, read 786, did-not-finish 0, on-deck 208; 1450 books on 15 pages",
     );
+
+    // the compatibility file, beside it, in the same order
+    const compat = (await Bun.file(join(dir, "goodreads-rss.json")).json()) as {
+      title: string;
+      items: { bookId: string }[];
+    };
+    expect(compat.title).toBe("Daniel's bookshelf: all");
+    expect(compat.items.map((item) => item.bookId)).toEqual(
+      published!.items.map((item) => item.bookId),
+    );
   });
 
   test("the saved page's rows are stored as Goodreads shows them", async () => {
@@ -155,12 +166,17 @@ describe("a full run", () => {
     expect(published?.userFullName).toBe("Pat Reader");
     // the first row: currently reading, unrated, no read date (its review
     // page isn't saved, so its timeline is made up: left out here)
-    const { timeline, ...first } = published!.items[0]!;
+    const { timeline, userDateAddedDay, userReview, ...first } =
+      published!.items[0]!;
     expect(timeline).toBeArray();
+    expect(userDateAddedDay).toMatch(/^\d{4}-\d{2}-\d{2}$/);
+    expect(userReview).toBe("");
     expect(first).toEqual({
       reviewId: "9069353168",
       title: "A Drop of Corruption (Ana and Din Mysteries, #2)",
       bookId: "213618143",
+      bookURL:
+        "https://www.goodreads.com/book/show/213618143-a-drop-of-corruption",
       bookImageURL:
         "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1723703506l/213618143._SY75_.jpg",
       isbn: "0593723821",
@@ -277,6 +293,49 @@ describe("a full run", () => {
     ]);
   });
 
+  test("the review date comes from the review page: the read date, or the shelving date", async () => {
+    const { published } = await run(fakeGoodreads(realList()));
+    const day = (reviewId: string) =>
+      published?.items.find((i) => i.reviewId === reviewId)?.userDateAddedDay;
+    expect(day(SAVED_REVIEWS.taintedCup)).toBe("2026-10-31");
+    expect(day(SAVED_REVIEWS.debt)).toBe("2026-10-29");
+    // currently reading: the day it was shelved again
+    expect(day(SAVED_REVIEWS.essentialism)).toBe("2026-08-17");
+  });
+
+  test("a review is kept as the page source has it: <br />, entities, trimmed", async () => {
+    const review =
+      "This thoughtful retelling of the West&#39;s heritage &amp; more.<br />Well worth the read.";
+    const fake = fakeGoodreads(realList(), {
+      review: (row) =>
+        row.reviewId === SAVED_REVIEWS.debt
+          ? new Response(
+              reviewPage(row).replace(
+                "</h1>",
+                `</h1>\n<div class="reviewText mediumText description readable" itemprop='reviewBody'>\n  \n  ${review}\n</div>`,
+              ),
+            )
+          : undefined,
+    });
+    const { published } = await run(fake);
+    const items = published?.items ?? [];
+    expect(
+      items.find((i) => i.reviewId === SAVED_REVIEWS.debt)?.userReview,
+    ).toBe(review);
+    expect(items.filter((i) => i.userReview !== "")).toHaveLength(1);
+  });
+
+  test("the list is sorted last updated first, as the RSS feed and the reference were", () => {
+    const { searchParams } = new URL(listPageUrl(FIXTURE_USER, 2));
+    expect(Object.fromEntries(searchParams)).toEqual({
+      shelf: "#ALL#",
+      per_page: "100",
+      sort: "date_updated",
+      order: "d",
+      page: "2",
+    });
+  });
+
   test("the request sends the cookie and the login browser's User-Agent", async () => {
     const fake = fakeGoodreads(realList());
     await run(fake);
@@ -318,6 +377,7 @@ async function expectFailedClosed(
   expect(failure.mode).toBe(mode);
   expect(result.exitCode).toBe(1);
   expect(result.published).toBeUndefined();
+  expect(await Bun.file(join(dir, "goodreads-rss.json")).exists()).toBe(false);
   expect(await Bun.file(join(dir, "goodreads.json.tmp")).exists()).toBe(false);
   return { ...result, failure };
 }
