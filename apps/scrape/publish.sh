@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-# bun run publish (#32): on main, runs the scraper, then prints the one-line
+# bun run publish [scrape options] (#32): on main, runs the scraper with any
+# given options (e.g. --interactive), then prints the one-line
 # command that commits and pushes the data. It never commits or pushes itself.
 set -euo pipefail
 cd "$(git rev-parse --show-toplevel)"
@@ -18,7 +19,7 @@ git pull --ff-only
 
 stamp=$(date -u +%Y-%m-%dT%H:%M:%SZ)
 
-if ! bun run scrape; then
+if ! bun run scrape "$@"; then
   echo "publish: the scrape failed; stopping" >&2
   exit 1
 fi

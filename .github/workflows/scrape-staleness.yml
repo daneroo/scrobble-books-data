@@ -1,10 +1,16 @@
 name: Scrape staleness check
 
 # The data is published by hand (#32): fail when it hasn't been for 48 hours.
+# A manual run can set a lower limit (max_age_hours) to test the failure.
 on:
   schedule:
     - cron: "23 */6 * * *"
   workflow_dispatch:
+    inputs:
+      max_age_hours:
+        description: "Fail when a file is older than this (scheduled runs: 48)"
+        type: number
+        default: 48
 
 jobs:
   staleness:
@@ -15,7 +21,9 @@ jobs:
           ref: main
           fetch-depth: 0
 
-      - name: Fail if a published file is more than 48 hours old
+      - name: Fail if a published file is too old (48 hours unless set)
+        env:
+          MAX_AGE_HOURS: ${{ inputs.max_age_hours || 48 }}
         run: |
           now=$(date +%s)
           stale=0
@@ -29,8 +37,8 @@ jobs:
             fi
             age=$(( now - committed ))
             echo "$file: last committed $(( age / 3600 )) hours ago"
-            if [ "$age" -gt $(( 48 * 3600 )) ]; then
-              echo "::error::$file is stale: last committed $(( age / 3600 )) hours ago (limit 48) $fix"
+            if [ "$age" -gt $(( MAX_AGE_HOURS * 3600 )) ]; then
+              echo "::error::$file is stale: last committed $(( age / 3600 )) hours ago (limit $MAX_AGE_HOURS) $fix"
               stale=1
             fi
           done
