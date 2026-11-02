@@ -4,126 +4,89 @@
 
 Tracking reading data
 
-This repo archives the latest version of my reading data.
+This repo archives the latest version of my reading data, scraped from Goodreads
+and committed to `main`.
 
-Scraping is paused: Goodreads retired the RSS feed (404 since 2026-10-28), so
-the data is frozen as of 2026-10-27. A replacement scraper is in progress.
+Goodreads retired the RSS feed (404 since 2026-10-28) and shows GitHub's servers
+a captcha, so the new scraper
+([#23](https://github.com/daneroo/scrobble-books-data/issues/23)) runs by hand
+on my Mac until a runner is chosen (see Usage). `scrape-staleness.yml` fails
+when `goodreads.json` or `goodreads-rss.json` hasn't been committed in 48 hours.
 
 Browse the data in the browser (flatgithub.com is gone):
 
 - [Datasette Lite: goodreads-rss.json](https://lite.datasette.io/?json=https://raw.githubusercontent.com/daneroo/scrobble-books-data/main/goodreads-rss.json)
   — browse, facet, SQL
-- Coming soon: Datasette Lite links for the new output files, and a DuckDB
-  ([shell.duckdb.org](https://shell.duckdb.org/)) query
 
-## TODO
+## Published files
 
-This is a great place to test migrating to deno workspaces
+At the repo root, fetched externally from raw.githubusercontent.com:
 
-- [ ] bun workspace - remove deno
-  - [ ] consolidate on the bun scraper (`apps/scrape-ng`): retire deno `apps/scrape`, `goodreads-rss.json` and `check-rss.cue`
-  - [ ] verify deps:check, deps:update
-- [ ] AGENTS: thoughts and docs
-- [ ] scrape-ng progress (only for currently-reading?)
-  - [ ] augment schema for progress
-  - [ ] validate and redeploy associated app scrobbleCast/site
-- [ ] Fractional user ratings (Goodreads allows .25 steps since 2026-10)
-  - [x] cue: `user_rating` / `#UserRating` accept decimals (`4.5`, `4.25`, `4.50`)
-  - [ ] find a source: RSS `user_rating` is integer-only (4.5 -> `4`)
-    - first known instance: _Time Travel: A History_ (James Gleick) - bookId 28587584, review 9047081205
-    - logged-in book page shows "Your rating: 4.50"
-    - unauthenticated `review/show/<id>` now redirects to sign-in
-  - [ ] once sourced: zod / `RSSItem` types, and consumers (scrobbleCast/site)
-- [ ] Account for the `did-not-finish` shelf
-  - cue `#Shelves` already allows it; scrape-ng `Shelf` type does not
-  - no items on that shelf yet - verify how it appears in RSS `user_shelves`, and in consumers (scrobbleCast/site)
-- -------------------- Older --------------------
-- [ ] Problem with act -j (scrape|unit)
-- [ ] Use CBOR instead of files?
-- Clean up the data more
-  - Removed unused fields (description, etc)
+- [`goodreads-rss.json`](https://raw.githubusercontent.com/daneroo/scrobble-books-data/main/goodreads-rss.json)
+  — read by the scrobbleCast site; its path and shape must not change
+- [`goodreads-rss-ng.json`](https://raw.githubusercontent.com/daneroo/scrobble-books-data/main/goodreads-rss-ng.json)
+- [`goodreads-rss-ng-progress.json`](https://raw.githubusercontent.com/daneroo/scrobble-books-data/main/goodreads-rss-ng-progress.json)
+- [`goodreads-rss-ng-2026-10-27T15.37Z.json`](https://raw.githubusercontent.com/daneroo/scrobble-books-data/main/goodreads-rss-ng-2026-10-27T15.37Z.json)
+  — reference copy of the last good `goodreads-rss-ng.json` (from `bb27463ed`,
+  data stamped 2026-10-27T15:37:58Z), byte-identical; the new scraper is
+  compared against it. Same format as `goodreads-rss.json`, but complete: 1447
+  books, where `goodreads-rss.json` stopped at 1400
 
-## Description
+## Layout
 
-Performs 2 tasks as a cron trigger github action:
+A bun workspace.
 
-- scrape latest reading data (goodreads)
-  - [`goodreads-rss.json`](https://raw.githubusercontent.com/daneroo/scrobble-books-data/main/goodreads-rss.json)
-  - [`goodreads-rss-ng.json`](https://raw.githubusercontent.com/daneroo/scrobble-books-data/main/goodreads-rss-ng.json)
-  - [`goodreads-rss-ng-progress.json`](https://raw.githubusercontent.com/daneroo/scrobble-books-data/main/goodreads-rss-ng-progress.json)
-- commits any changes back to the repo
+- `apps/` — scrapers:
+  - `scrape` — the new logged-in scraper
+  - the rest are read-only references now that the RSS feed is gone:
+    - `scrape-deno` — the original deno RSS scraper (written for
+      githubocto/flat, which used Deno as its post-processor); wrote
+      `goodreads-rss.json`
+    - `scrape-ng` — the bun RSS scraper; wrote the two `-ng` files
+    - `scrape-browser` — an early Playwright prototype
+- `cue/` — the CUE schema for the published files (`check-output.cue`), with
+  example files
+- `.github/workflows/` — `scrape-staleness.yml` (fails when the published data
+  is over 48 hours old), `scrape.yml` (old RSS scrape, disabled), `unit.yml`
+  (CI: `bun run ci`)
+- `thoughts/BACKLOG.md` — idea inbox
+- `docs/` — lasting reference (agent docs)
 
-The scraper was originally written with `deno` because we were using
-githubocto/flat@v3, which uses Deno/Typescript as it's post-processor.
+The old scrapers are outside the workspace and excluded from the `ci` gate.
 
 ## Usage
 
-The data files ca be fetched (externally) at
-
-- <https://raw.githubusercontent.com/daneroo/scrobble-books-data/main/goodreads-rss.json>
-- <https://raw.githubusercontent.com/daneroo/scrobble-books-data/main/goodreads-rss-ng.json>
-- <https://raw.githubusercontent.com/daneroo/scrobble-books-data/main/goodreads-rss-ng-progress.json>
-
-Uses `pnpm` for orchestration, including for deno and github actions.
-
 ```bash
-pnpm test
-pnpm lint
-pnpm deps:check
-pnpm deps:update
-pnpm act:unit
-pnpm act:scrape
-pnpm git:log
+bun install
+bun run ci       # the gate: format check, ESLint, markdownlint, tsc, bun test, CUE
+bun run fmt      # fix formatting when ci fails
+bun run outdated # dependency updates (bun run outdated:fix to apply)
+bun run git:log  # scrape commits per day
+
+bun run scrape --help  # the new scraper: the single entry point
 ```
 
-### Development
+Publish by hand, at least daily:
 
 ```bash
-# scrape (deno)
-# export vars from secrets/GOODREADS.env
-set -a && source secrets/GOODREADS.env && set +a
-deno run -q --allow-read=. --allow-write=. --allow-run --allow-net --allow-env apps/scrape/src/scrape.js
-
-# scrape-ng (bun)
-# export vars from secrets/GOODREADS.env
-set -a && source secrets/GOODREADS.env && set +a
-bun apps/scrape-ng/src/index.ts # --flags!!!!
-
-# scrape-browser (bun) - deprecated
-# export vars from secrets/GOODREADS.env
-set -a && source secrets/GOODREADS.env && set +a
-bun apps/scrape-browser/src/index.ts # --flags!!!!
+bun run publish  # on main, clean tree: pulls, scrapes, prints the commit-and-push line
+bun run publish --interactive  # the same, signing in by hand (scrape options pass through)
 ```
 
-### Dependency management
-
-Uses `npm-check-updates / ncu` for node, and `https://deno.land/x/udd/main.ts` for deno.
-
-```bash
-pnpm run deps:check
-pnpm run deps:update
-```
+Prettier and the linters skip the vendored agent skills, the published data
+files and the old scrapers.
 
 ## Testing GitHub Actions locally
 
-Note: _npm caching turned off_
+With [act](https://github.com/nektos/act) and Docker:
 
 ```bash
-pnpm act:unit
-pnpm act:scrape
+bun run act:unit   # act -j unit --container-architecture linux/amd64
+bun run act:scrape # adds --secret-file secrets/GITHUB.env; never commits
 ```
 
-Equivalent to:
-
-```bash
-# CI/unit tests
-act -j unit
-act -j unit --container-architecture linux/amd64
-
-# Local run of scheduled scrape job
-act -j scrape --secret-file secrets/GITHUB.env
-act -j scrape --secret-file secrets/GITHUB.env --container-architecture linux/amd64
-```
+The scrape workflow's commit step is guarded by `!env.ACT`, so a local run never
+commits.
 
 ## Monitoring actions' commits
 
@@ -131,28 +94,19 @@ Check the git logs for frequency of scrape action commits: i.e. number of commit
 per day
 
 ```bash
-pnpm git:log
+bun run git:log
 ## equivalent to:
-git log|grep 'Latest book data' | cut -c22-31 | uniq -c |head -n 10
+git log | grep 'Latest book data' | cut -c22-31 | uniq -c | head -n 10
 ```
 
 ## Validating with `cue`
 
+`bun run cue` vets the example files; to vet the published file:
+
 ```bash
 (cd cue; cue fmt)
 (cd cue; cue vet check-output.cue ../goodreads-rss.json)
-
-# rss output (per page)
-# all at once
-(cd cue; cue vet check-rss.cue ../data/rss-json/goodreads-rss-p*.json)
-# invoke per page
-(cd cue; for i in ../data/rss-json/goodreads-rss-p*json; do echo $i; cue vet check-rss.cue $i ; done)
 ```
-
-## Upstream PR for setup-cue
-
-- <https://github.com/cue-lang/setup-cue/pull/10>
-- I am currently using my own fork (pinned to main)
 
 ## References
 

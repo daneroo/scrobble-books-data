@@ -1,39 +1,23 @@
 name: Scrape latest book data
 
 on:
-  # push and schedule are disabled until the new scraper lands:
-  # the Goodreads RSS feed returns 404 since 2026-10-28, so every run fails.
-  # push:
-  #   branches:
-  #     - main
+  # Disabled (#32): the RSS feed is gone (404 since 2026-10-28) and GitHub's
+  # servers get a captcha from Goodreads; the data is now published by hand.
+  # The job never runs (if: false); the file stays for reference until #33.
   workflow_dispatch:
-  # schedule:
-  #   # every 20 minutes
-  #   # - cron: "1/20 * * * *"
-  #   # every 2 hours
-  #   - cron: "0 */2 * * *"
 
 jobs:
   scrape:
+    if: false
     runs-on: ubuntu-latest
     env:
       GOODREADS_KEY: ${{ secrets.GOODREADS_KEY }}
       GOODREADS_USER: ${{ secrets.GOODREADS_USER }}
     steps:
       - uses: actions/checkout@v7
-      - uses: pnpm/action-setup@v6.1.0
-        with:
-          # version: Optional when there is a packageManager field in the package.json
-          # version: 9
-          run_install: true
-      - uses: actions/setup-node@v7
-        with:
-          node-version: "lts/*"
       - uses: oven-sh/setup-bun@v2
         with:
-          # 1.x is working but docs say to use 1.0.x : I want minor updates too!
-          # reverted to latest for now, which is the default
-          bun-version: latest
+          bun-version-file: package.json
       - uses: denoland/setup-deno@v2
         with:
           deno-version: v2.x
@@ -45,8 +29,6 @@ jobs:
 
       - name: Report versions
         run: |
-          echo "pnpm: $(pnpm --version)"
-          echo "node: $(node --version)"
           echo "bun: $(bun --version)"
           deno --version
           cue version
@@ -58,17 +40,11 @@ jobs:
       - name: Scrape Goodreads feed
         # deno run w/ reload seems to have fixed CI issues
         run: |
-          deno run --reload -q --allow-read --allow-write --allow-run --allow-net --allow-env apps/scrape/src/scrape.js
+          deno run --reload -q --allow-read --allow-write --allow-run --allow-net --allow-env apps/scrape-deno/src/scrape.js
 
       - name: Scrape Goodreads feed (ng)
         run: |
           bun apps/scrape-ng/src/index.ts
-
-      - name: E2E - Validate Intermediate RSS files with CUE
-        run: |
-          cue vet check-rss.cue ../data/rss-json/goodreads-rss-p*.json
-          cue vet check-rss-ng.cue ../data/rss-json/goodreads-rss-ng-p*.json
-        working-directory: cue
 
       - name: E2E - Validate Output with CUE w/ng
         run: |
@@ -90,7 +66,9 @@ jobs:
           # See the `pathspec`-documentation for git
           # - https://git-scm.com/docs/git-add#Documentation/git-add.txt-ltpathspecgt82308203
           # - https://git-scm.com/docs/gitglossary#Documentation/gitglossary.txt-aiddefpathspecapathspec
-          file_pattern: goodreads-rss.json goodreads-rss-ng.json goodreads-rss-ng-progress.json
+          file_pattern:
+            goodreads-rss.json goodreads-rss-ng.json
+            goodreads-rss-ng-progress.json
 
           # Optional commit user and author settings
           commit_user_name: Scrobble Books GitHub Actions Bot # defaults to "github-actions[bot]"
