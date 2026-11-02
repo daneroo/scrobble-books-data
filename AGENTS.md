@@ -11,7 +11,24 @@ and commits the JSON outputs (`goodreads-rss.json` and the two
 - Development happens on a branch, never directly on `main`.
 - The one exception: `scrape.yml` pushes its updated data (`Latest book data …`
   commits) straight to `main` on every run, so `main` moves on its own.
-- Commit or push only when the user asks for it at that moment.
+- Commit or push only when the user asks for it at that moment, or when
+  finishing a ticket (below). Open PRs or merge to `main` only when asked.
+
+## Working on a ticket
+
+Issue #23 is split into sub-issues #24–#33, done in number order on the one
+branch `23-replace-rss-scrapers` (no other branches).
+
+- Start: the user types `/implement #N` on that branch.
+- If a criterion needs the user (an approval, a hand check, a secret, a run),
+  ask in the session.
+- Finish, without asking:
+  1. `bun run ci` passes
+  2. commit, then push the branch
+  3. comment on the ticket: each acceptance criterion, met or not, and how it
+     was checked; list any human step still open
+  4. close the ticket
+- `thoughts/BACKLOG.md` holds only ideas no ticket covers.
 
 ## Quality
 
