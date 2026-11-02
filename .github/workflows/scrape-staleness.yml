@@ -4,7 +4,7 @@ name: Scrape staleness check
 # A manual run can set a lower limit (max_age_hours) to test the failure.
 on:
   schedule:
-    - cron: "23 */6 * * *"
+    - cron: "17 */6 * * *"
   workflow_dispatch:
     inputs:
       max_age_hours:
