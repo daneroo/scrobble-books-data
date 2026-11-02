@@ -65,7 +65,7 @@ unexplained fields in 549 books. Open: `userDateAdded` 58 (section 5) and
     5.00, 1 rating; 137801530 0.0, 0 ratings.
 - Consistent with it: The Odyssey (1.3 M ratings) differs by 0.3, which no
   recent change could cause.
-- Histogram of abs(delta), rounded to 0.1, from `data/compare.txt`:
+- Histogram of abs(delta), rounded to 0.1, from `apps/scrape/compare.txt`:
 
   | abs(delta) | Books                  |
   | ---------- | ---------------------- |
@@ -98,7 +98,7 @@ The compare rule (2026-11-02) compares the three date fields as days:
 - A difference is explained, in this order: changed after the cutoff (either day
   after 2026-10-27); for `userDateAdded` only, a timeline event in
   `goodreads.json` dated the reference's day. Explained ones are listed with
-  their reason in their own section of `data/compare.txt`.
+  their reason in their own section of `apps/scrape/compare.txt`.
 
 Results:
 
