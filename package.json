@@ -11,7 +11,7 @@
     "!apps/scrape-browser"
   ],
   "scripts": {
-    "test": "bun test --pass-with-no-tests",
+    "test": "bun test --pass-with-no-tests --timeout 60000",
     "check": "tsc --noEmit",
     "fmt": "prettier --write .",
     "fmt:check": "prettier --check .",

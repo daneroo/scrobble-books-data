@@ -45,9 +45,10 @@ export class VirtualClock implements Clock {
    * Runs `promise` to completion: lets pending work run, then jumps to the
    * next timer, until the promise settles. With no timer pending, it waits
    * in real time for real I/O (files, a subprocess); it fails if that goes
-   * on for `idleLimitMs`.
+   * on for `idleLimitMs` (30 s: reading 2915 saved pages takes over 3 s on
+   * a GitHub runner).
    */
-  async settle<T>(promise: Promise<T>, idleLimitMs = 3000): Promise<T> {
+  async settle<T>(promise: Promise<T>, idleLimitMs = 30_000): Promise<T> {
     let settled = false;
     const watched = promise.finally(() => {
       settled = true;
