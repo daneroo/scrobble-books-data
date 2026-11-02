@@ -66,8 +66,12 @@ export const LIMITS = {
    * can't trip it.
    */
   failuresInARow: 10,
-  /** The whole run, login included, must end within this (T3). */
-  runDeadlineMs: 30 * 60_000,
+  /**
+   * The whole run, login included, must end within this (T3). Was 30 min;
+   * the slowest run we test, -c 1 --rate 0.5, needs about 97 min (2,917
+   * requests at 0.5/s), so 120 leaves room.
+   */
+  runDeadlineMs: 120 * 60_000,
   /** More list pages than this (40,000 books) fails the run (C1). */
   maxListPages: 400,
 } as const;

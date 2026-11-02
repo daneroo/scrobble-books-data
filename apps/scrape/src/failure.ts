@@ -51,7 +51,7 @@ export type Step =
  *
  * The run:
  * - `cue-failure`: CUE rejected a segment or `goodreads.json` (X5).
- * - `run-timeout`: the run passed its 30 min deadline (T3).
+ * - `run-timeout`: the run passed its run deadline (T3).
  * - `error`: anything unexpected (browser launch, a bug).
  */
 export type FailureMode =
