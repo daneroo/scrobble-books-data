@@ -108,29 +108,39 @@ export function signedInSource(options: SignedInSourceOptions): PageSource {
       done.abort();
     }
 
-    const state = classifyPage({ url, status, html: body });
-    if (status === 200 && state === "signed-in")
-      return { url, status, headers, body };
-    const location = headers.get("location");
-    const mode =
-      state === "unknown" && status !== 200
-        ? "http-error"
-        : failureModeFor(state);
-    throw new ScrapeFailure(
-      {
-        step,
-        mode,
-        detail:
-          `${where} is ${state}, status ${status}` +
-          (location === null ? "" : `, redirected to ${location}`),
-        url,
-        status,
-      },
-      { body },
-    );
+    return acceptPage({ url, status, headers, body }, step);
   }
 
   return { get };
+}
+
+/**
+ * The page if it is a signed-in 200; otherwise a `ScrapeFailure` naming
+ * what it is, with its body kept: a redirect, a 202 WAF challenge, a 4xx, a
+ * signed-out 200, or a 200 with no known marker.
+ */
+export function acceptPage(page: Page, step: Step): Page {
+  const { url, status, headers, body } = page;
+  const where = describeUrl(url);
+  const state = classifyPage({ url, status, html: body });
+  if (status === 200 && state === "signed-in") return page;
+  const location = headers.get("location");
+  const mode =
+    state === "unknown" && status !== 200
+      ? "http-error"
+      : failureModeFor(state);
+  throw new ScrapeFailure(
+    {
+      step,
+      mode,
+      detail:
+        `${where} is ${state}, status ${status}` +
+        (location === null ? "" : `, redirected to ${location}`),
+      url,
+      status,
+    },
+    { body },
+  );
 }
 
 /** "/review/list/<user> page 3": the path, and the page if there is one. */

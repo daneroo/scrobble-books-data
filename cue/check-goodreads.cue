@@ -19,7 +19,7 @@ import "time"
 	userReadAtText:     #PageDate | ""     // the newest read date, as shown
 	userDateCreatedDay: #Day
 	userExclusiveShelf: #ExclusiveShelf
-	averageRating:      =~"^[0-9]\\.[0-9]{2}$" // all editions, as shown: 3.58
+	averageRating:      =~"^[0-9]\\.[0-9]$" // all editions, toFixed(1): 3.58 → 3.6
 	bookPublishedText:  #PageDate | =~"^-?[0-9]{1,4}$" | "unknown"
 	numPages:           =~"^[0-9]+$" // "0" when unknown
 	timeline!: [...#timelineRow] // the review page's, in page order, as shown

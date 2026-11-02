@@ -1,5 +1,3 @@
-import { join } from "node:path";
-
 import { ScrapeFailure, type Failure, type Step } from "./failure.ts";
 import { FlowFailure, type Flow } from "./flow/flow.ts";
 import {
@@ -7,20 +5,22 @@ import {
   fetchListPages,
   formatCompleteness,
 } from "./list/scrape.ts";
+import { pageSaver, readThrough } from "./pages/cache.ts";
 import { PageTemporaryError, type PageSource } from "./pages/source.ts";
 import { fetchReviewPages, withProgress } from "./review/scrape.ts";
-import {
-  resetRunFiles,
-  runFiles,
-  segmentName,
-  writeOutputs,
-} from "./outputs.ts";
+import { resetRunFiles, runFiles, writeOutputs } from "./outputs.ts";
 import type { Outcome } from "./report.ts";
 
 export interface RunOptions {
   user: string;
   /** One per page type: each has its own timeout (T2) and failure step. */
   sources: { list: PageSource; review: PageSource };
+  /**
+   * `--cached`: a page already saved in the data directory is read from
+   * there, not fetched; the others are fetched and saved. Otherwise the
+   * saved pages are cleared first, and every page is fetched and saved.
+   */
+  cached?: boolean;
   flow: Flow;
   /** The gitignored data directory: segments, raw pages, staged output. */
   dataDir: string;
@@ -43,19 +43,26 @@ export interface RunOptions {
  * Fail-closed: any failure is returned named, and nothing is published.
  */
 export async function runScrape(options: RunOptions): Promise<Outcome> {
-  const { user, sources, flow, dataDir, publishPath, cueSchema, signal, log } =
-    options;
-  const bodies = new Map<number, string>();
-  // review pages are written as they arrive, not held in memory
-  const reviewWrites: Promise<unknown>[] = [];
+  const { user, flow, dataDir, publishPath, cueSchema, signal, log } = options;
+  const { cached = false } = options;
+  const pagesDir = runFiles(dataDir).pages;
+  const saver = pageSaver(pagesDir);
+  const source = (fetching: PageSource, step: Step) =>
+    cached
+      ? readThrough(saver.wrap(fetching), pagesDir, step)
+      : saver.wrap(fetching);
+  const sources = {
+    list: source(options.sources.list, "list-pages"),
+    review: source(options.sources.review, "review-pages"),
+  };
   let step: Step = "list-pages";
   try {
-    await resetRunFiles(dataDir);
+    await resetRunFiles(dataDir, { keepPages: cached });
+    if (cached) log(`cached: reading the pages saved in ${pagesDir}`);
     const pages = await fetchListPages({
       user,
       source: sources.list,
       flow,
-      onBody: (page, body) => bodies.set(page, body),
     });
 
     step = "checks";
@@ -68,13 +75,6 @@ export async function runScrape(options: RunOptions): Promise<Outcome> {
       items: listItems,
       source: sources.review,
       flow,
-      onBody: (reviewId, body) =>
-        reviewWrites.push(
-          Bun.write(
-            join(runFiles(dataDir).pages, `review-${reviewId}.html`),
-            body,
-          ),
-        ),
     });
 
     step = "checks";
@@ -110,14 +110,8 @@ export async function runScrape(options: RunOptions): Promise<Outcome> {
     if (failure.mode === "run-timeout") failure.step = step;
     return { ok: false, failure };
   } finally {
-    // kept on success and on failure, for debugging (X3)
-    const dir = runFiles(dataDir).pages;
-    await Promise.all([
-      ...reviewWrites,
-      ...[...bodies].map(([page, body]) =>
-        Bun.write(join(dir, segmentName(page, "html")), body),
-      ),
-    ]);
+    // kept on success and on failure, for debugging (X3), and for --cached
+    await saver.flushed();
   }
 }
 

@@ -28,6 +28,7 @@ describe("bun run scrape", () => {
       "-c,",
       "--rate R|none",
       "--interactive",
+      "--cached",
       "--help",
     ])
       expect(stdout).toContain(option);

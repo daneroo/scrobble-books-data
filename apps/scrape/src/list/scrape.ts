@@ -22,8 +22,6 @@ export interface FetchListPagesOptions {
   user: string;
   source: PageSource;
   flow: Flow;
-  /** Receives each page's raw body as it arrives, a rejected one too. */
-  onBody?: (page: number, body: string) => void;
 }
 
 /**
@@ -35,23 +33,13 @@ export async function fetchListPages({
   user,
   source,
   flow,
-  onBody,
 }: FetchListPagesOptions): Promise<ListPage[]> {
   const task = (page: number): Task<ListPage> => {
     const url = listPageUrl(user, page);
     return {
       label: `list page ${page}`,
       async run(signal) {
-        let body: string;
-        try {
-          ({ body } = await source.get(url, signal));
-        } catch (error) {
-          // a rejected page is the one most worth seeing (X3)
-          if (error instanceof ScrapeFailure && error.body !== undefined)
-            onBody?.(page, error.body);
-          throw error;
-        }
-        onBody?.(page, body);
+        const { body } = await source.get(url, signal);
         return parseListPage(body, page, url);
       },
     };

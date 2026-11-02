@@ -6,7 +6,7 @@
  * shelves and counts.
  */
 import { afterEach, beforeEach, describe, expect, test } from "bun:test";
-import { mkdtemp, readdir, rm } from "node:fs/promises";
+import { mkdtemp, readdir, rm, unlink } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 
@@ -50,7 +50,7 @@ const secrets = {
 /** Runs the scrape against `fake` on a virtual clock, with the default flow. */
 async function run(
   fake: FakeGoodreads,
-  options: { cueSchema?: string; signal?: AbortSignal } = {},
+  options: { cueSchema?: string; signal?: AbortSignal; cached?: boolean } = {},
 ) {
   const clock = new VirtualClock();
   const events: FlowEvent[] = [];
@@ -77,6 +77,7 @@ async function run(
         list: source("list-pages", 30_000),
         review: source("review-pages", 15_000),
       },
+      cached: options.cached,
       flow,
       dataDir,
       publishPath,
@@ -167,7 +168,8 @@ describe("a full run", () => {
       userReadAtText: "",
       userDateCreatedDay: "2026-11-01",
       userExclusiveShelf: "currently-reading",
-      averageRating: "4.47",
+      // shown as 4.47; toFixed(1), as the compatibility file (S7)
+      averageRating: "4.5",
       bookPublishedText: "Apr 01, 2025",
       numPages: "461",
     });
@@ -192,7 +194,7 @@ describe("a full run", () => {
         "https://s.gr-assets.com/assets/nophoto/book/50x75-1b903c9eac1b2ba789662c08a0ae41e6.png",
       isbn: "139812219X",
       userExclusiveShelf: "on-deck",
-      averageRating: "5.00",
+      averageRating: "5.0",
     });
     // a read date with no day, and no ISBN
     expect(byReview.get("8977513831")).toMatchObject({
@@ -309,7 +311,7 @@ const hang = (signal: AbortSignal) =>
 async function expectFailedClosed(
   fake: FakeGoodreads,
   mode: FailureMode,
-  options: { cueSchema?: string; signal?: AbortSignal } = {},
+  options: { cueSchema?: string; signal?: AbortSignal; cached?: boolean } = {},
 ) {
   const result = await run(fake, options);
   const failure = failedWith(result.outcome);
@@ -801,6 +803,67 @@ describe("fail-closed, outputs", () => {
     expect((await readdir(join(dir, "data", "segments"))).length).toBe(15);
     // 15 list pages and 1450 review pages
     expect((await readdir(join(dir, "data", "pages"))).length).toBe(1465);
+  });
+});
+
+describe("--cached: a read-through cache of the raw pages", () => {
+  const pagesDir = () => join(dir, "data", "pages");
+
+  test("a second run with every page saved fetches nothing, and writes the same goodreads.json", async () => {
+    const first = await run(fakeGoodreads(realList()));
+    const again = fakeGoodreads(realList());
+    const second = await run(again, { cached: true });
+
+    expect(second.outcome.ok).toBe(true);
+    expect(again.requests).toEqual([]);
+    expect(again.reviewRequests).toEqual([]);
+    expect(second.published).toEqual(first.published!);
+    expect(await second.segments()).toHaveLength(15);
+    expect((await readdir(pagesDir())).length).toBe(1465);
+  });
+
+  test("a page not saved is fetched and saved; the saved ones are not", async () => {
+    await run(fakeGoodreads(realList()));
+    await unlink(join(pagesDir(), "list-p03.html"));
+    await unlink(join(pagesDir(), `review-${SAVED_REVIEWS.debt}.html`));
+    const again = fakeGoodreads(realList());
+    const { outcome } = await run(again, { cached: true });
+
+    expect(outcome.ok).toBe(true);
+    expect(again.requests).toEqual([3]);
+    expect(again.reviewRequests).toEqual([SAVED_REVIEWS.debt]);
+    expect(await Bun.file(join(pagesDir(), "list-p03.html")).exists()).toBe(
+      true,
+    );
+  });
+
+  test("a saved rejected page fails as a fetched one does", async () => {
+    await run(fakeGoodreads(realList()));
+    await Bun.write(join(pagesDir(), "list-p02.html"), "gone");
+    const again = fakeGoodreads(realList());
+    const { outcome, exitCode } = await run(again, { cached: true });
+
+    const failure = failedWith(outcome);
+    expect([failure.mode, failure.step, exitCode]).toEqual([
+      "layout-change",
+      "list-pages",
+      1,
+    ]);
+    expect(failure.detail).toContain("page 2");
+    expect(again.requests).toEqual([]);
+  });
+
+  test("without it, the saved pages are cleared and every page is fetched", async () => {
+    await run(fakeGoodreads(realList()));
+    await Bun.write(join(pagesDir(), "review-1.html"), "stale");
+    const again = fakeGoodreads(realList());
+    await run(again);
+
+    expect(again.requests).toHaveLength(15);
+    expect(again.reviewRequests).toHaveLength(1450);
+    expect(await Bun.file(join(pagesDir(), "review-1.html")).exists()).toBe(
+      false,
+    );
   });
 });
 

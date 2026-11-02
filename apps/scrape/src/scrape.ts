@@ -5,6 +5,7 @@
  * checks completeness, fetches every book's review page (exclusive shelf and
  * reading timeline) and checks its shelf, and writes `goodreads.json` plus
  * one segment per list page, all checked by CUE. Any failure fails closed.
+ * With `--cached`, a page saved by an earlier run is read, not fetched.
  */
 import { join } from "node:path";
 import { parseArgs } from "node:util";
@@ -44,6 +45,13 @@ CUE checks goodreads.json and every segment before goodreads.json is written.
 Any failure is named, exits 1, and leaves goodreads.json as it was.
 
 Options:
+  --cached             A read-through cache of the raw pages: a page already
+                       in data/scrape/pages/ is read from there, any other
+                       is fetched and saved there. Without it, that folder
+                       is cleared and every page is fetched. No expiry: to
+                       refresh, run without --cached. Login is as usual.
+                       Saved pages are paced like fetched ones; with every
+                       page saved, --rate none skips the wait.
   -c, --concurrency N  Requests in flight at most; 1 is strictly sequential.
                        Default ${LIMITS.concurrency}.
   --rate R|none        The maximum number of requests started per second
@@ -78,6 +86,7 @@ if (outcome !== "help") {
 
 async function main(args: string[]): Promise<Outcome | "help"> {
   let interactive: boolean;
+  let cached: boolean;
   let flow: Flow;
   const deadline = new AbortController();
   // every log line is redacted (X4); the cookie is added once there is one
@@ -87,6 +96,7 @@ async function main(args: string[]): Promise<Outcome | "help"> {
       args,
       options: {
         interactive: { type: "boolean" },
+        cached: { type: "boolean" },
         concurrency: { type: "string", short: "c" },
         rate: { type: "string" },
         help: { type: "boolean", short: "h" },
@@ -99,6 +109,7 @@ async function main(args: string[]): Promise<Outcome | "help"> {
       return "help";
     }
     interactive = values.interactive ?? false;
+    cached = values.cached ?? false;
     flow = createFlow(flowSettings(args), {
       signal: deadline.signal,
       onEvent: (event) => console.log(redact(formatEvent(event))),
@@ -171,6 +182,7 @@ async function main(args: string[]): Promise<Outcome | "help"> {
     const outcome = await runScrape({
       user: secrets.user,
       sources,
+      cached,
       flow,
       dataDir: DATA_DIR,
       publishPath: PUBLISH_PATH,

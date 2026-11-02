@@ -184,7 +184,7 @@ function rawItem(
       cell("date_added").find("span").first().text().trim(),
     ),
     userExclusiveShelf: shelves.length === 1 ? shelves[0] : shelves,
-    averageRating: text("avg_rating"),
+    averageRating: oneDecimal(text("avg_rating")),
     bookPublishedText: text("date_pub"),
     // "1,280 pp" → "1280"; "unknown" → "0", as in the reference
     numPages:
@@ -199,6 +199,15 @@ function decimal(value: string | undefined): unknown {
   return value !== undefined && /^\d+(\.\d+)?$/.test(value)
     ? Number(value)
     : value;
+}
+
+/**
+ * "3.58" → "3.6", with `toFixed(1)` as the compatibility file has always
+ * done (S7), to cut commit noise; anything else is left as it is, for zod to
+ * reject.
+ */
+function oneDecimal(value: string): string {
+  return /^\d\.\d{2}$/.test(value) ? Number(value).toFixed(1) : value;
 }
 
 /** "Nov 01, 2026" → "2026-11-01"; anything else is left as it is. */

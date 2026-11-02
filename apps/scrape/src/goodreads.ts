@@ -61,8 +61,11 @@ export const ListItem = z.strictObject({
   /** The day the book was added, `YYYY-MM-DD` (a US Pacific calendar day). */
   userDateCreatedDay: z.iso.date(),
   userExclusiveShelf: z.enum(EXCLUSIVE_SHELVES),
-  /** The all-editions average, as shown ("3.58"); the RSS had the edition's. */
-  averageRating: z.string().regex(/^\d\.\d{2}$/),
+  /**
+   * The all-editions average, shown as "3.58", kept with `toFixed(1)`: "3.6"
+   * (S7). The RSS had the edition's average.
+   */
+  averageRating: z.string().regex(/^\d\.\d$/),
   /** The work's original publication, as shown: "Sep 27, 2016", "2016", "-550", "unknown". */
   bookPublishedText: z.string().regex(PUBLISHED),
   /** Whole pages, no commas; "0" when unknown. */

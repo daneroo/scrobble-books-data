@@ -22,19 +22,25 @@ export function runFiles(dataDir: string) {
   };
 }
 
-/** Empties the run's local files, so nothing is left from an earlier run. */
-export async function resetRunFiles(dataDir: string): Promise<void> {
+/**
+ * Empties the run's local files, so nothing is left from an earlier run;
+ * with `keepPages` (`--cached`), the raw pages stay, to be read again.
+ */
+export async function resetRunFiles(
+  dataDir: string,
+  { keepPages = false } = {},
+): Promise<void> {
   const files = runFiles(dataDir);
   await rm(files.segments, { recursive: true, force: true });
-  await rm(files.pages, { recursive: true, force: true });
+  if (!keepPages) await rm(files.pages, { recursive: true, force: true });
   await rm(files.staged, { force: true });
   await mkdir(files.segments, { recursive: true });
   await mkdir(files.pages, { recursive: true });
 }
 
 /** `list-p01.json`, … sorted in page order. */
-export function segmentName(page: number, extension = "json"): string {
-  return `list-p${String(page).padStart(2, "0")}.${extension}`;
+export function segmentName(page: number): string {
+  return `list-p${String(page).padStart(2, "0")}.json`;
 }
 
 /** Deterministic (S8): 2-space JSON, as the published files have always been. */

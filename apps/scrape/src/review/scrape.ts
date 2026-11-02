@@ -13,8 +13,6 @@ export interface FetchReviewPagesOptions {
   items: readonly ListItem[];
   source: PageSource;
   flow: Flow;
-  /** Receives each page's raw body as it arrives, a rejected one too. */
-  onBody?: (reviewId: string, body: string) => void;
 }
 
 /**
@@ -25,23 +23,13 @@ export async function fetchReviewPages({
   items,
   source,
   flow,
-  onBody,
 }: FetchReviewPagesOptions): Promise<ReviewPage[]> {
   const task = ({ reviewId }: ListItem): Task<ReviewPage> => {
     const url = reviewPageUrl(reviewId);
     return {
       label: `review page ${reviewId}`,
       async run(signal) {
-        let body: string;
-        try {
-          ({ body } = await source.get(url, signal));
-        } catch (error) {
-          // a rejected page is the one most worth seeing (X3)
-          if (error instanceof ScrapeFailure && error.body !== undefined)
-            onBody?.(reviewId, error.body);
-          throw error;
-        }
-        onBody?.(reviewId, body);
+        const { body } = await source.get(url, signal);
         return parseReviewPage(body, reviewId, url);
       },
     };
