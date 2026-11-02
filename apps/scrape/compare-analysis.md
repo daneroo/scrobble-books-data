@@ -2,10 +2,14 @@
 
 Reference: `goodreads-rss-ng-2026-10-27T15.37Z.json` (1447 books, the cutoff).
 Output: `goodreads-rss.json` from the 09:06 run on 2026-11-02 (1450 books).
-Source of the counts: `apps/scrape/compare-2026-11-02.txt` (`bun run compare`).
+Source of the counts: `apps/scrape/compare.txt` (`bun run compare`).
 
 Status per group: **accepted** (reason checked against data), **open** (needs a
 decision), **fix** (the comparison or mapping must change).
+
+Current compare (with the date rule): 130 explained date differences, 1022
+unexplained fields in 549 books. Open: `userDateAdded` 58 (section 5) and
+`bookDescription` 25 (section 6). Everything else is accepted.
 
 ## 1. Books: changed, new, moved
 
@@ -21,8 +25,8 @@ decision), **fix** (the comparison or mapping must change).
 - **Moved: accepted.** The Tainted Cup, finished 2026-10-31; the list is sorted
   by last updated.
 - **Moved: accepted.** Saving Byzantium and Polar Regions, now positions 1 and
-  2: switching an edition counts as an update. `data/compare.txt` doesn't list
-  moves; section 8 checks the order independently.
+  2: switching an edition counts as an update. Compare reports 3 moved books;
+  section 8 also checks the order independently.
 - **Fields of the 2 switched books: accepted.** Compare now compares paired
   books. Each difference is the new edition's own data:
   - Saving Byzantium: bookId; bookImageURL (no photo → a cover); isbn 139812219X
@@ -82,11 +86,28 @@ decision), **fix** (the comparison or mapping must change).
 - Not done: fetching the editions list to publish the edition's own average (one
   page per work, about 1450 more requests per run).
 
-## 4. userDateCreated: 0 differences
+## 4. Dates: how compare reads them; userDateCreated and userReadAt
 
-Goodreads pages show a day only, the US Pacific day. Compared as the reference's
-`America/Los_Angeles` day, all 1447 match. The time of day is lost (approved in
-#28). **Accepted.** Storage format is a #34 review item.
+The compare rule (2026-11-02) compares the three date fields as days:
+
+- `userDateCreated`, `userDateAdded`: the reference has real moments (none of
+  1447 is at midnight UTC), read as their `America/Los_Angeles` day.
+- `userReadAt`: the reference has day labels (all 724 are midnight UTC), read as
+  their first 10 characters, no conversion.
+- The output side: its first 10 characters (the day the page shows).
+- A difference is explained, in this order: changed after the cutoff (either day
+  after 2026-10-27); for `userDateAdded` only, a timeline event in
+  `goodreads.json` dated the reference's day. Explained ones are listed with
+  their reason in their own section of `data/compare.txt`.
+
+Results:
+
+- `userDateCreated`: 0 differences. The time of day is lost (approved in #28).
+  **Accepted.**
+- `userReadAt`: 2, both changed after the cutoff (Debt, The Tainted Cup).
+  **Accepted.**
+- Storage format of dates, and proving each field's meaning with a test book:
+  #34 review items.
 
 ## 5. userDateAdded: 186 books on another day
 
@@ -111,6 +132,8 @@ Goodreads pages show a day only, the US Pacific day. Compared as the reference's
     are rated read books; 9 share 2013-01-16 and 5 share 2012-02-04, which
     suggests bulk edits (ratings or reviews, which the timeline doesn't show).
     Unproven.
+- In compare: the 128 are explained (2 after the cutoff, 126 timeline event);
+  the 58 are listed as unexplained. Status: **open** (the 58).
 
 ## 6. bookDescription: 25 books (58 before the fixes)
 
@@ -153,11 +176,13 @@ The 25 left: the output is exactly what the book page shows today.
 
 Status: **open**, awaiting the user's acceptance.
 
-## 7. description: 530 books
+## 7. description: 532 books
 
-Built from the fields above (average rating, date added, rating, read date,
-shelves, title). The implementer checked that nothing else differs. Reviewed
-last; it follows the decisions above.
+The RSS summary block (cover link, then author, name, average rating, book
+published, rating, read at, date added, shelves, review), not the blurb. Built
+only from other fields. All 532 differences come from parts whose source field
+already differs (section 8), so it adds none of its own. Its status follows the
+fields above.
 
 ## 8. Independent checks (coordinator, 2026-11-02)
 

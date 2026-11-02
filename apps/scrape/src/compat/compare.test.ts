@@ -5,6 +5,7 @@ import {
   identical,
   listChanged,
   listDifferences,
+  listExplained,
   pacificDay,
   summarize,
 } from "./compare.ts";
@@ -176,13 +177,17 @@ describe("compare", () => {
         }),
       ),
     );
-    expect(otherDay.differences).toEqual([
+    // another day: a difference (here explained, after the cutoff)
+    expect(otherDay.differences).toEqual([]);
+    expect(otherDay.explained).toEqual([
       {
         bookId: "1",
         title: "Book 1",
         field: "userDateAdded",
         reference: "2026-10-26 (2026-10-27T06:58:07.000Z)",
         output: "2026-10-29 (2026-10-29T00:00:00.000Z)",
+        rule: "changed after the cutoff",
+        reason: "changed after the cutoff",
       },
     ]);
   });
@@ -209,5 +214,141 @@ describe("compare", () => {
         output: "x",
       },
     ]);
+  });
+});
+
+describe("dates: explained differences (real books of the 2026-11-02 run)", () => {
+  test("changed after the cutoff: Debt, read on 2026-10-29", () => {
+    const debt = {
+      title: "Debt: The First 5,000 Years",
+      userDateCreated: "2026-10-21T20:24:32.000Z",
+    };
+    const result = compare(
+      file(
+        item("6617037", {
+          ...debt,
+          userDateAdded: "2026-10-27T06:58:07.000Z",
+          userReadAt: "",
+        }),
+      ),
+      file(
+        item("6617037", {
+          ...debt,
+          userDateCreated: "2026-10-21T00:00:00.000Z",
+          userDateAdded: "2026-10-29T00:00:00.000Z",
+          userReadAt: "2026-10-29T00:00:00.000Z",
+        }),
+      ),
+    );
+    expect(result.differences).toEqual([]);
+    expect(
+      result.explained.map(({ field, rule, reason }) => [field, rule, reason]),
+    ).toEqual([
+      ["userReadAt", "changed after the cutoff", "changed after the cutoff"],
+      ["userDateAdded", "changed after the cutoff", "changed after the cutoff"],
+    ]);
+    expect(listExplained(result)).toContain(
+      '6617037\tuserDateAdded\t"2026-10-26 (2026-10-27T06:58:07.000Z)" → "2026-10-29 (2026-10-29T00:00:00.000Z)"\tchanged after the cutoff\tDebt: The First 5,000 Years',
+    );
+  });
+
+  test("timeline event on the reference day: Cryptonomicon, finished 2025-02-12", () => {
+    const cryptonomicon = {
+      title: "Cryptonomicon",
+      userReadAt: "2025-02-12T00:00:00.000Z",
+    };
+    const timeline = [
+      { dateText: "", event: "Finished Reading" },
+      { dateText: "November 5, 2011", event: "Shelved" },
+      { dateText: "February 3, 2025", event: "Started Reading" },
+      { dateText: "February 4, 2025", event: "9.0%" },
+      { dateText: "February 5, 2025", event: "19.0%" },
+      { dateText: "February 6, 2025", event: "33.0%" },
+      { dateText: "February 7, 2025", event: "46.0%" },
+      { dateText: "February 8, 2025", event: "60.0%" },
+      { dateText: "February 9, 2025", event: "66.0%" },
+      { dateText: "February 10, 2025", event: "74.0%" },
+      { dateText: "February 12, 2025", event: "99.0%" },
+      { dateText: "February 12, 2025", event: "Finished Reading" },
+    ];
+    const result = compare(
+      file(
+        item("816", {
+          ...cryptonomicon,
+          userDateAdded: "2025-02-12T08:10:08.000Z",
+          userDateCreated: "2011-11-05T07:19:46.000Z",
+        }),
+      ),
+      file(
+        item("816", {
+          ...cryptonomicon,
+          userDateAdded: "2011-11-05T00:00:00.000Z",
+          userDateCreated: "2011-11-05T00:00:00.000Z",
+        }),
+      ),
+      new Map([["816", timeline]]),
+    );
+    expect(result.differences).toEqual([]);
+    expect(result.explained).toEqual([
+      {
+        bookId: "816",
+        title: "Cryptonomicon",
+        field: "userDateAdded",
+        reference: "2025-02-12 (2025-02-12T08:10:08.000Z)",
+        output: "2011-11-05 (2011-11-05T00:00:00.000Z)",
+        rule: "timeline event",
+        reason: "last updated 2025-02-12: 99.0%, Finished Reading",
+      },
+    ]);
+    // userReadAt is already a day in the reference: no Pacific conversion
+    expect(result.explained.map(({ field }) => field)).not.toContain(
+      "userReadAt",
+    );
+  });
+
+  test("unexplained: Broken China 248051399, no timeline entry on 2026-09-29", () => {
+    const brokenChina = {
+      title:
+        "Broken China: How the Economic Miracle Shattered and What it Means for the World",
+      userReadAt: "",
+    };
+    const result = compare(
+      file(
+        item("248051399", {
+          ...brokenChina,
+          userDateAdded: "2026-09-30T04:00:49.000Z",
+          userDateCreated: "2026-09-01T05:44:21.000Z",
+        }),
+      ),
+      file(
+        item("248051399", {
+          ...brokenChina,
+          userDateAdded: "2026-08-31T00:00:00.000Z",
+          userDateCreated: "2026-08-31T00:00:00.000Z",
+        }),
+      ),
+      new Map([
+        [
+          "248051399",
+          [
+            { dateText: "August 31, 2026", event: "Shelved as: on-deck" },
+            { dateText: "August 31, 2026", event: "Shelved" },
+          ],
+        ],
+      ]),
+    );
+    expect(result.explained).toEqual([]);
+    expect(result.differences).toEqual([
+      {
+        bookId: "248051399",
+        title: brokenChina.title,
+        field: "userDateAdded",
+        reference: "2026-09-29 (2026-09-30T04:00:49.000Z)",
+        output: "2026-08-31 (2026-08-31T00:00:00.000Z)",
+      },
+    ]);
+    expect(summarize(result)).toContain(
+      "unexplained differences: 1 fields, in 1 of the books in both",
+    );
   });
 });
