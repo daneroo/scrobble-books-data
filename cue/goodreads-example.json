@@ -1,0 +1,75 @@
+{
+  "userFullName": "Pat Reader",
+  "items": [
+    {
+      "reviewId": "9069353168",
+      "title": "A Drop of Corruption (Ana and Din Mysteries, #2)",
+      "bookId": "213618143",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1723703506l/213618143._SY75_.jpg",
+      "isbn": "0593723821",
+      "userRating": 0,
+      "userReadAtText": "",
+      "userDateCreatedDay": "2026-11-01",
+      "userExclusiveShelf": "currently-reading",
+      "averageRating": "4.47",
+      "bookPublishedText": "Apr 01, 2025",
+      "numPages": "461"
+    },
+    {
+      "reviewId": "9043895547",
+      "title": "Debt: The First 5,000 Years",
+      "bookId": "6617037",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1728517587l/6617037._SY75_.jpg",
+      "isbn": "1933633867",
+      "userRating": 4.25,
+      "userReadAtText": "Oct 29, 2026",
+      "userDateCreatedDay": "2026-10-21",
+      "userExclusiveShelf": "read",
+      "averageRating": "4.21",
+      "bookPublishedText": "Jul 12, 2011",
+      "numPages": "534"
+    },
+    {
+      "reviewId": "8977513831",
+      "title": "Black Ops (Expeditionary Force, #4)",
+      "bookId": "35224512",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1495742445l/35224512._SX50_.jpg",
+      "isbn": "",
+      "userRating": 4,
+      "userReadAtText": "Oct 2026",
+      "userDateCreatedDay": "2026-09-26",
+      "userExclusiveShelf": "read",
+      "averageRating": "4.33",
+      "bookPublishedText": "May 24, 2017",
+      "numPages": "278"
+    },
+    {
+      "reviewId": "8933967943",
+      "title": "Winterfair Gifts (Vorkosigan Saga, #13.1)",
+      "bookId": "3746202",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1266884477l/3746202._SY75_.jpg",
+      "isbn": "1433250195",
+      "userRating": 4,
+      "userReadAtText": "Sep 10, 2026",
+      "userDateCreatedDay": "2026-09-09",
+      "userExclusiveShelf": "read",
+      "averageRating": "4.16",
+      "bookPublishedText": "Jan 01, 2002",
+      "numPages": "0"
+    },
+    {
+      "reviewId": "8557895838",
+      "title": "Saving Byzantium: The Struggle to Salvage an Empire",
+      "bookId": "229141546",
+      "bookImageURL": "https://s.gr-assets.com/assets/nophoto/book/50x75-1b903c9eac1b2ba789662c08a0ae41e6.png",
+      "isbn": "139812219X",
+      "userRating": 0,
+      "userReadAtText": "",
+      "userDateCreatedDay": "2026-04-28",
+      "userExclusiveShelf": "on-deck",
+      "averageRating": "5.00",
+      "bookPublishedText": "Feb 15, 2026",
+      "numPages": "320"
+    }
+  ]
+}

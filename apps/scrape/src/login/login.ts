@@ -3,16 +3,20 @@ import { join } from "node:path";
 import { chromium, type BrowserContext, type Page } from "playwright";
 
 import { classifyPage, type PageState } from "./classify.ts";
-import { failureModeFor, type Failure } from "./failure.ts";
+import { failureModeFor, type Failure } from "../failure.ts";
 
 export interface Credentials {
   email: string;
   password: string;
 }
 
-/** Credentials in; either a session cookie, or a named failure. */
+/**
+ * Credentials in; either a session cookie and the browser's User-Agent (to
+ * send with it, P7), or a named failure.
+ */
 export type LoginResult =
-  { ok: true; cookie: string } | { ok: false; failure: Failure };
+  | { ok: true; cookie: string; userAgent: string }
+  | { ok: false; failure: Failure };
 
 const SIGN_IN_URL = "https://www.goodreads.com/user/sign_in";
 const COOKIE_URL = "https://www.goodreads.com/";
@@ -67,7 +71,7 @@ export async function login(
     await page.goto(COOKIE_URL, { waitUntil: "load" });
     if ((await settleReuse(page)) === "signed-in") {
       console.log("login: reusing the saved session");
-      return { ok: true, cookie: await cookieOf(context) };
+      return await signedIn(context, page);
     }
 
     await page.goto(SIGN_IN_URL, { waitUntil: "load" });
@@ -84,7 +88,7 @@ export async function login(
           `not signed in after 10 minutes (page is ${state})`,
         );
       }
-      return { ok: true, cookie: await cookieOf(context) };
+      return await signedIn(context, page);
     }
 
     // Goodreads offers several sign-in choices; email goes to Amazon sign-in.
@@ -110,7 +114,7 @@ export async function login(
         `after sign-in, the page is ${state}`,
       );
     }
-    return { ok: true, cookie: await cookieOf(context) };
+    return await signedIn(context, page);
   } finally {
     await context.close();
   }
@@ -126,6 +130,15 @@ async function headedUserAgent(): Promise<string> {
   } finally {
     await browser.close();
   }
+}
+
+/** The session: the cookie, and the User-Agent the browser sent with it. */
+async function signedIn(
+  context: BrowserContext,
+  page: Page,
+): Promise<LoginResult> {
+  const userAgent = await page.evaluate(() => navigator.userAgent);
+  return { ok: true, cookie: await cookieOf(context), userAgent };
 }
 
 /** The Goodreads cookies as one `Cookie` header value. */

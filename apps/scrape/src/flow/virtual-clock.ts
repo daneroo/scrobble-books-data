@@ -43,20 +43,30 @@ export class VirtualClock implements Clock {
 
   /**
    * Runs `promise` to completion: lets pending work run, then jumps to the
-   * next timer, until the promise settles. Fails if it waits on nothing.
+   * next timer, until the promise settles. With no timer pending, it waits
+   * in real time for real I/O (files, a subprocess); it fails if that goes
+   * on for `idleLimitMs`.
    */
-  async settle<T>(promise: Promise<T>): Promise<T> {
+  async settle<T>(promise: Promise<T>, idleLimitMs = 3000): Promise<T> {
     let settled = false;
     const watched = promise.finally(() => {
       settled = true;
     });
     // the caller awaits `watched`; don't report the rejection twice
     watched.catch(() => {});
+    let idleSinceMs: number | undefined;
     for (;;) {
       await new Promise((resolve) => setImmediate(resolve));
       if (settled) return watched;
       const next = [...this.#timers].sort((a, b) => a.at - b.at)[0];
-      if (next === undefined) throw new Error("deadlock: no timer pending");
+      if (next === undefined) {
+        idleSinceMs ??= performance.now();
+        if (performance.now() - idleSinceMs > idleLimitMs)
+          throw new Error("deadlock: no timer pending");
+        await new Promise((resolve) => setTimeout(resolve, 1));
+        continue;
+      }
+      idleSinceMs = undefined;
       this.#now = next.at;
       this.#timers.delete(next);
       next.resolve();

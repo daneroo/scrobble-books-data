@@ -20,3 +20,6 @@ apps/scrape-browser/
 # CUE example files are samples of the published data, kept as the scraper
 # wrote them.
 cue/*-example.json
+
+# Saved Goodreads pages (scrubbed): kept byte for byte as Goodreads sent them.
+apps/scrape/fixtures/

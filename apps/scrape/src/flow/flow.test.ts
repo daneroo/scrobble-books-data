@@ -212,6 +212,48 @@ describe("flow controller", () => {
     expect(w.starts).toEqual([]);
   });
 
+  test("an outside signal (the run deadline) ends the run like a fatal error", async () => {
+    const clock = new VirtualClock();
+    const deadline = new AbortController();
+    const flow = createFlow(
+      { concurrency: 2, ratePerSecond: null },
+      { clock, onEvent: () => {}, signal: deadline.signal },
+    );
+    const late = new Error("run-timeout");
+    const ends: number[] = [];
+    const slow: Task<void> = {
+      label: "slow",
+      run: (signal) =>
+        clock.sleep(60_000, signal).finally(() => ends.push(clock.now())),
+    };
+    void clock.sleep(1000).then(() => deadline.abort(late));
+    const batch = flow.batch("pages", [slow, slow, slow]);
+    expect(await failure(clock.settle(batch))).toBe(late);
+    // both in flight were aborted at the deadline; the third never started
+    expect(ends).toEqual([1000, 1000]);
+    expect(clock.pending).toBe(0);
+    // and a later batch rejects at once
+    expect(await failure(flow.batch("more", [slow]))).toBe(late);
+  });
+
+  test("an outside signal already aborted fails the first batch at once", async () => {
+    const late = new Error("run-timeout");
+    const flow = createFlow(
+      { concurrency: 1, ratePerSecond: null },
+      { onEvent: () => {}, signal: AbortSignal.abort(late) },
+    );
+    let started = false;
+    const task: Task<number> = {
+      label: "x",
+      run: async () => {
+        started = true;
+        return 1;
+      },
+    };
+    expect(await failure(flow.batch("pages", [task]))).toBe(late);
+    expect(started).toBe(false);
+  });
+
   test("a fatal error in one batch aborts another running alongside", async () => {
     const { clock, flow, watch, flaky } = setup({ concurrency: 2 });
     const w = watch();

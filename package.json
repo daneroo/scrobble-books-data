@@ -18,7 +18,7 @@
     "lint": "bun run lint:js && bun run lint:md",
     "lint:js": "eslint .",
     "lint:md": "markdownlint-cli2 \"**/*.md\"",
-    "cue": "cd cue && cue vet check-output.cue goodreads-rss-example.json goodreads-rss-ng-example.json",
+    "cue": "cd cue && cue vet check-output.cue goodreads-rss-example.json goodreads-rss-ng-example.json && cue vet check-goodreads.cue goodreads-example.json",
     "ci": "bun run fmt:check && bun run lint && bun run check && bun run test && bun run cue",
     "outdated": "bun outdated -r",
     "outdated:fix": "bun update -i -r",

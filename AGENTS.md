@@ -45,7 +45,9 @@ published data.
 - `apps/` — scrapers. `scrape` is the new scraper. `scrape-deno`, `scrape-ng`
   (bun) and `scrape-browser` (Playwright prototype) are read-only references:
   outside the workspace and excluded from the gate.
-- `cue/` — schema checks for the outputs (`check-output.cue`), with examples
+- `cue/` — schema checks for the outputs, with examples: `check-output.cue`
+  (`goodreads-rss.json`), `check-goodreads.cue` (`goodreads.json` and its
+  segments)
 - `.github/workflows/` — `scrape.yml` (old scrape, paused), `unit.yml` (CI:
   `bun run ci`)
 - `bun run scrape` — the single entry point of the new scraper; options in

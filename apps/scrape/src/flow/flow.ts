@@ -126,6 +126,11 @@ export interface FlowDeps {
   random?: () => number;
   /** Receives every event; by default, logs it. */
   onEvent?: (event: FlowEvent) => void;
+  /**
+   * Ends the run from outside, e.g. the run deadline (T3): when it aborts,
+   * the run stops as on a fatal error, with the signal's reason.
+   */
+  signal?: AbortSignal;
 }
 
 /** The one way requests reach Goodreads after login, for a whole run. */
@@ -157,6 +162,11 @@ export function createFlow(settings: FlowSettings, deps: FlowDeps = {}): Flow {
     settings.ratePerSecond === null ? 0 : 1000 / settings.ratePerSecond;
   // aborted, with the error, by the run's first fatal error
   const run = new AbortController();
+  const { signal: outside } = deps;
+  if (outside?.aborted) run.abort(outside.reason);
+  outside?.addEventListener("abort", () => run.abort(outside.reason), {
+    once: true,
+  });
   // when the next request may start
   let nextStartMs = -Infinity;
   // the retry budget

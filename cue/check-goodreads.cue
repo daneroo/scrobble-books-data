@@ -1,0 +1,35 @@
+// check-goodreads.cue: goodreads.json, and each segment (one list page).
+// The zod twin is apps/scrape/src/goodreads.ts; keep the two in step.
+import "time"
+
+#Goodreads
+
+#Goodreads: close({
+	userFullName: string & !=""
+	items: [...#item]
+})
+
+#item: close({
+	reviewId:           #Digits
+	title:              string & !=""
+	bookId:             #Digits
+	bookImageURL:       =~"^https://"
+	isbn:               #ISBN | ""
+	userRating:         number & >=0 & <=5 // fractional: 4.25, 4.5; 0 is unrated
+	userReadAtText:     #PageDate | ""     // the newest read date, as shown
+	userDateCreatedDay: #Day
+	userExclusiveShelf: #ExclusiveShelf
+	averageRating:      =~"^[0-9]\\.[0-9]{2}$" // all editions, as shown: 3.58
+	bookPublishedText:  #PageDate | =~"^-?[0-9]{1,4}$" | "unknown"
+	numPages:           =~"^[0-9]+$" // "0" when unknown
+})
+
+#ExclusiveShelf: "to-read" | "currently-reading" | "read" | "did-not-finish" | "on-deck"
+
+#Digits: =~"^[0-9]+$"
+#ISBN:   =~"^[0-9X]{10}$" | =~"^[0-9X]{13}$"
+
+#Month: "(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)"
+
+#PageDate: =~"^(\(#Month) ([0-9]{2}, )?)?[0-9]{4}$" // Oct 24, 2026 | Oct 2026 | 2026
+#Day:      time.Format("2006-01-02")

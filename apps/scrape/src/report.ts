@@ -1,12 +1,14 @@
 import type { Failure } from "./failure.ts";
 
-/** The result of a login test run: login, then fetch one list page. */
+/** The result of a run. The cookie is only there to keep it out of the log. */
 export type Outcome =
   | {
       ok: true;
-      cookie: string;
-      loginMs: number;
-      listPage: { status: number; bytes: number };
+      cookie?: string;
+      books: number;
+      pages: number;
+      /** Where `goodreads.json` was written. */
+      published: string;
     }
   | { ok: false; cookie?: string; failure: Failure };
 
@@ -40,7 +42,7 @@ function summarize(outcome: Outcome): Report {
   }
   return {
     lines: [
-      `PASS: signed in (${outcome.loginMs}ms); list page ${outcome.listPage.status}, signed-in marker found, ${outcome.listPage.bytes} bytes`,
+      `PASS: ${outcome.books} books from ${outcome.pages} list pages; wrote ${outcome.published} and ${outcome.pages} segments`,
     ],
     exitCode: 0,
   };
@@ -50,8 +52,14 @@ function summarize(outcome: Outcome): Report {
 // replacing them everywhere would garble the log.
 const MIN_COOKIE_VALUE_LENGTH = 6;
 
-/** Replaces every secret, the cookie and each long cookie value. */
-function redactor(secrets: Secrets, cookie = ""): (line: string) => string {
+/**
+ * Replaces every secret, the cookie and each long cookie value. Every log
+ * line goes through it (X4).
+ */
+export function redactor(
+  secrets: Secrets,
+  cookie = "",
+): (line: string) => string {
   const cookieValues = cookie
     .split(";")
     .map((pair) => pair.slice(pair.indexOf("=") + 1).trim())
