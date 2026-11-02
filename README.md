@@ -24,10 +24,11 @@ At the repo root, fetched externally from raw.githubusercontent.com:
   — read by the scrobbleCast site; its path and shape must not change
 - [`goodreads-rss-ng.json`](https://raw.githubusercontent.com/daneroo/scrobble-books-data/main/goodreads-rss-ng.json)
 - [`goodreads-rss-ng-progress.json`](https://raw.githubusercontent.com/daneroo/scrobble-books-data/main/goodreads-rss-ng-progress.json)
-- [`goodreads-rss-2026-10-27T20.19Z.json`](https://raw.githubusercontent.com/daneroo/scrobble-books-data/main/goodreads-rss-2026-10-27T20.19Z.json)
-  — reference copy of the last good `goodreads-rss.json` (from `bb27463ed`,
-  still current at the last successful run, 2026-10-27T20:19Z), byte-identical;
-  the new scraper is compared against it
+- [`goodreads-rss-ng-2026-10-27T15.37Z.json`](https://raw.githubusercontent.com/daneroo/scrobble-books-data/main/goodreads-rss-ng-2026-10-27T15.37Z.json)
+  — reference copy of the last good `goodreads-rss-ng.json` (from `bb27463ed`,
+  data stamped 2026-10-27T15:37:58Z), byte-identical; the new scraper is
+  compared against it. Same format as `goodreads-rss.json`, but complete: 1447
+  books, where `goodreads-rss.json` stopped at 1400
 
 ## Layout
 

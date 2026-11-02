@@ -1,19 +1,12 @@
 name: Login test
 
 # Manual only. Logs in to Goodreads headless and fetches one signed-in list
-# page, to find out whether login works from GitHub's datacenter IPs.
-# Writes and commits nothing, and uploads no artifacts (the repo is public).
+# page. Writes and commits nothing, and uploads no artifacts (the repo is public).
+# Do not run it on GitHub: from GitHub's datacenter IPs the Goodreads WAF answers
+# with a captcha (run 41378685712), and every try risks more blocking.
 # Locally: `bun run act:login-test`.
 on:
   workflow_dispatch:
-  # Temporary, until cutover (#32): workflow_dispatch only works from main, so
-  # also run on pushes to the #23 branch. Repeat a run with "Re-run all jobs"
-  # (or `gh run rerun <id>`).
-  push:
-    branches: [23-replace-rss-scrapers]
-    paths:
-      - apps/scrape/**
-      - .github/workflows/login-test.yml
 
 permissions:
   contents: read
