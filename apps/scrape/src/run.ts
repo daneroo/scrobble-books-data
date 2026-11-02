@@ -7,6 +7,8 @@ import {
 } from "./list/scrape.ts";
 import { pageSaver, readThrough } from "./pages/cache.ts";
 import { PageTemporaryError, type PageSource } from "./pages/source.ts";
+import { fetchBookPages, withBookFields } from "./book/scrape.ts";
+import { checkReference } from "./compat/reference.ts";
 import { fetchReviewPages, withProgress } from "./review/scrape.ts";
 import { resetRunFiles, runFiles, writeOutputs } from "./outputs.ts";
 import type { Outcome } from "./report.ts";
@@ -14,13 +16,18 @@ import type { Outcome } from "./report.ts";
 export interface RunOptions {
   user: string;
   /** One per page type: each has its own timeout (T2) and failure step. */
-  sources: { list: PageSource; review: PageSource };
+  sources: { list: PageSource; review: PageSource; book: PageSource };
   /**
    * `--cached`: a page already saved in the data directory is read from
    * there, not fetched; the others are fetched and saved. Otherwise the
    * saved pages are cleared first, and every page is fetched and saved.
    */
   cached?: boolean;
+  /**
+   * The reference copy for C6: every one of its books must be on the list.
+   * `bun run scrape` always sets it; tests give their own.
+   */
+  referencePath: string;
   flow: Flow;
   /** The gitignored data directory: segments, raw pages, staged output. */
   dataDir: string;
@@ -54,6 +61,7 @@ export async function runScrape(options: RunOptions): Promise<Outcome> {
   const sources = {
     list: source(options.sources.list, "list-pages"),
     review: source(options.sources.review, "review-pages"),
+    book: source(options.sources.book, "book-pages"),
   };
   let step: Step = "list-pages";
   try {
@@ -68,9 +76,14 @@ export async function runScrape(options: RunOptions): Promise<Outcome> {
     step = "checks";
     const completeness = checkCompleteness(pages);
     log(formatCompleteness(completeness));
+    const listItems = pages.flatMap((page) => page.items);
+    const { books: referenceBooks } = await checkReference(
+      listItems,
+      options.referencePath,
+    );
+    log(`every book of the reference is on the list: ${referenceBooks} books`);
 
     step = "review-pages";
-    const listItems = pages.flatMap((page) => page.items);
     const reviews = await fetchReviewPages({
       items: listItems,
       source: sources.review,
@@ -78,8 +91,16 @@ export async function runScrape(options: RunOptions): Promise<Outcome> {
     });
 
     step = "checks";
-    const items = withProgress(listItems, reviews);
-    log(`review page shelves match the list: ${items.length} books`);
+    const reviewed = withProgress(listItems, reviews);
+    log(`review page shelves match the list: ${reviewed.length} books`);
+
+    step = "book-pages";
+    const books = await fetchBookPages({
+      items: listItems,
+      source: sources.book,
+      flow,
+    });
+    const items = withBookFields(reviewed, books);
 
     step = "outputs";
     signal?.throwIfAborted();
@@ -102,6 +123,7 @@ export async function runScrape(options: RunOptions): Promise<Outcome> {
       books: completeness.books,
       pages: completeness.pages,
       reviewPages: reviews.length,
+      bookPages: books.length,
       published: publishPath,
     };
   } catch (error) {

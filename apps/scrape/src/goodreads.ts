@@ -84,6 +84,10 @@ export const Item = ListItem.extend({
   userDateAddedDay: z.iso.date(),
   /** The review page's review, as HTML (`<br />`), trimmed; `""` when there is none. */
   userReview: z.string(),
+  /** The book page's description, as HTML (`<br />`, `<i>`), as shown, trimmed (S4). */
+  bookDescription: z.string(),
+  /** The book page's primary contributor, as shown: spacing kept ("Mark  Lawrence"). */
+  authorName: z.string().min(1),
   /**
    * The review page's reading timeline, in page order, as shown. Its
    * exclusive shelf is checked to equal `userExclusiveShelf`.

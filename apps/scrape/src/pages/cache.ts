@@ -9,7 +9,7 @@ import { acceptPage, type PageSource } from "./source.ts";
 
 /**
  * The file a page is saved under: `list-p01.html` (by its `page`
- * parameter), `review-<reviewId>.html`.
+ * parameter), `review-<reviewId>.html`, `book-<bookId>.html`.
  */
 export function pageFileName(url: string): string {
   const { pathname, searchParams } = new URL(url);
@@ -19,12 +19,16 @@ export function pageFileName(url: string): string {
   }
   const review = /^\/review\/show\/(\d+)$/.exec(pathname);
   if (review !== null) return `review-${review[1]}.html`;
+  // "/book/show/6617037-debt", "/book/show/1111.The_Power_Broker"
+  const book = /^\/book\/show\/(\d+)(?:[-.]|$)/.exec(pathname);
+  if (book !== null) return `book-${book[1]}.html`;
   throw new Error(`no saved-page name for ${pathname}`);
 }
 
 /**
  * Saves every page `source` returns into `dir`, and the body of a rejected
- * one too: it is the one most worth seeing (X3).
+ * one too, as `rejected-<name>`: it is the one most worth seeing (X3), and
+ * the read-through cache must never serve it as the page.
  */
 export function pageSaver(dir: string): {
   wrap(source: PageSource): PageSource;
@@ -43,7 +47,9 @@ export function pageSaver(dir: string): {
           return page;
         } catch (error) {
           if (error instanceof ScrapeFailure && error.body !== undefined)
-            save(url, error.body);
+            writes.push(
+              Bun.write(join(dir, `rejected-${pageFileName(url)}`), error.body),
+            );
           throw error;
         }
       },
@@ -59,6 +65,7 @@ export function pageSaver(dir: string): {
  * there, any other is got from `source`. A saved page is checked as a
  * fetched 200 is, so a saved rejected page (a sign-in redirect, a 404 body)
  * fails the same way. No expiry: a run without `--cached` refreshes it all.
+ * `has` lets the flow controller start a saved page with no wait.
  */
 export function readThrough(
   source: PageSource,
@@ -66,6 +73,7 @@ export function readThrough(
   step: Step,
 ): PageSource {
   return {
+    has: (url) => Bun.file(join(dir, pageFileName(url))).exists(),
     async get(url, signal) {
       const file = Bun.file(join(dir, pageFileName(url)));
       if (!(await file.exists())) return source.get(url, signal);

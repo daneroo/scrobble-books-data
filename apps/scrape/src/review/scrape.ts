@@ -28,6 +28,7 @@ export async function fetchReviewPages({
     const url = reviewPageUrl(reviewId);
     return {
       label: `review page ${reviewId}`,
+      cached: async () => (await source.has?.(url)) ?? false,
       async run(signal) {
         const { body } = await source.get(url, signal);
         return parseReviewPage(body, reviewId, url);
@@ -45,7 +46,7 @@ export async function fetchReviewPages({
 export function withProgress(
   items: readonly ListItem[],
   reviews: readonly ReviewPage[],
-): Item[] {
+): Omit<Item, "bookDescription" | "authorName">[] {
   const mismatches = items.flatMap((item, i) => {
     const review = reviews[i]!;
     return review.exclusiveShelf === item.userExclusiveShelf

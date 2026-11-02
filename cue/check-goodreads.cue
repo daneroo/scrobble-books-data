@@ -25,6 +25,8 @@ import "time"
 	numPages:           =~"^[0-9]+$" // "0" when unknown
 	userDateAddedDay!: #Day   // the review page's review date
 	userReview!:       string // the review page's, as HTML; "" when none
+	bookDescription!:  string        // the book page's, as HTML
+	authorName!:       string & !="" // the book page's primary contributor, as shown
 	timeline!: [...#timelineRow] // the review page's, in page order, as shown
 })
 

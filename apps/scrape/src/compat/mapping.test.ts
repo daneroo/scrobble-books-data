@@ -42,22 +42,17 @@ const dominion: Item = {
   userDateAddedDay: "2021-04-04",
   userReview:
     "This thoughtful and sweeping retelling of the West's cultural heritage leaves me with more questions than answers, as I suspect is it's insight.<br />Well worth the read.",
+  bookDescription: byBook("43885149").bookDescription,
+  authorName: "Tom Holland",
   timeline: [],
 };
 
 describe("toCompatItem", () => {
-  test("Dominion equals the reference, but for the book-page fields and the time of day", () => {
+  test("Dominion equals the reference, but for the time of day", () => {
     const expected = byBook("43885149");
     const got = toCompatItem(dominion, "Daniel Lauzon");
     expect(got).toEqual({
       ...expected,
-      // from the book page, not stored yet
-      bookDescription: "",
-      authorName: "",
-      description: expected.description.replace(
-        "author: Tom Holland<br/>",
-        "author: <br/>",
-      ),
       // no page has the time of day: an approved difference (#28)
       userDateAdded: "2021-04-04T00:00:00.000Z",
       userDateCreated: "2021-03-25T00:00:00.000Z",

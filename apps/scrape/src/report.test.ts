@@ -19,6 +19,7 @@ describe("report", () => {
         books: 1450,
         pages: 15,
         reviewPages: 1450,
+        bookPages: 1450,
         published: "goodreads.json",
       },
       secrets,
@@ -26,7 +27,7 @@ describe("report", () => {
     expect(exitCode).toBe(0);
     expect(lines.join("\n")).toContain("PASS");
     expect(lines.join("\n")).toContain(
-      "1450 books from 15 list pages and 1450 review pages",
+      "1450 books from 15 list pages, 1450 review pages and 1450 book pages",
     );
   });
 
@@ -126,6 +127,7 @@ describe("report", () => {
         books: 1450,
         pages: 15,
         reviewPages: 1450,
+        bookPages: 1450,
         published: "goodreads.json",
       },
       secrets,

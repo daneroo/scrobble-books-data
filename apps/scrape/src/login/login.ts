@@ -46,9 +46,12 @@ export interface LoginOptions {
 /**
  * Logs in to Goodreads in a browser that keeps its profile between runs.
  *
- * 1. If the saved session is still signed in, it is reused: no login.
- * 2. Interactive: a visible browser opens on the sign-in page, and the user
- *    signs in by hand (including any "verify it's you" step).
+ * 1. Interactive: a visible browser opens and always waits for the user to
+ *    sign in by hand (including any "verify it's you" step). A saved
+ *    session is signed out first, with the page's own "Sign out" link.
+ *    Nothing is fetched until the user has signed in.
+ * 2. Headless: if the saved session is still signed in, it is reused: no
+ *    login.
  * 3. Otherwise: a headless sign-in through Amazon with the credentials. After
  *    submitting, it waits for the real page's signed-in or signed-out marker:
  *    an AWS WAF JavaScript challenge page can come first and clears on its own.
@@ -69,9 +72,22 @@ export async function login(
     page.setDefaultTimeout(ELEMENT_TIMEOUT_MS);
 
     await page.goto(COOKIE_URL, { waitUntil: "load" });
-    if ((await settleReuse(page)) === "signed-in") {
+    const saved = await settleReuse(page);
+    if (saved === "signed-in" && !interactive) {
       console.log("login: reusing the saved session");
       return await signedIn(context, page);
+    }
+    if (saved === "signed-in") {
+      // interactive: the user signs in by hand, every time
+      const state = await signOut(page);
+      if (state !== "signed-out") {
+        return failure(
+          page,
+          "layout-change",
+          `could not sign out of the saved session first (page is ${state})`,
+        );
+      }
+      console.log("login: signed out of the saved session");
     }
 
     await page.goto(SIGN_IN_URL, { waitUntil: "load" });
@@ -157,6 +173,25 @@ async function settleReuse(page: Page): Promise<PageState> {
   while (Date.now() < deadline) {
     state = await stateOf(page);
     if (state === "signed-in" || state === "signed-out") return state;
+    await page.waitForTimeout(POLL_MS);
+  }
+  return state;
+}
+
+/**
+ * Clicks the page's own "Sign out" link (Goodreads sends it as a POST), then
+ * waits for a signed-out page.
+ */
+async function signOut(page: Page): Promise<PageState> {
+  const link = page.locator('a[href^="/user/sign_out"]').first();
+  // the link sits in a closed menu: click it from the page, as a user would
+  if (!(await attempt(() => link.dispatchEvent("click"))))
+    return await stateOf(page);
+  const deadline = Date.now() + SETTLE_TIMEOUT_MS;
+  let state: PageState = "unknown";
+  while (Date.now() < deadline) {
+    state = await stateOf(page);
+    if (state === "signed-out") return state;
     await page.waitForTimeout(POLL_MS);
   }
   return state;

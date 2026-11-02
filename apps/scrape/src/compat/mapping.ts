@@ -57,9 +57,6 @@ export function toCompat(goodreads: Goodreads): Compat {
  * - `userShelves`: `""` for read, otherwise the exclusive shelf;
  * - `bookPublished`: the year, `""` when unknown;
  * - `description`: the RSS's HTML summary, rebuilt from these fields.
- *
- * `bookDescription` and `authorName` come from the book page, not stored
- * yet: `""` until then.
  */
 export function toCompatItem(item: Item, userFullName: string): CompatItem {
   const link = `https://www.goodreads.com/review/show/${item.reviewId}?utm_medium=api&utm_source=rss`;
@@ -69,8 +66,8 @@ export function toCompatItem(item: Item, userFullName: string): CompatItem {
     link,
     bookId: item.bookId,
     bookImageURL: item.bookImageURL,
-    bookDescription: "",
-    authorName: "",
+    bookDescription: item.bookDescription,
+    authorName: item.authorName,
     isbn: item.isbn,
     userName: userFullName.split(" ")[0]!,
     userRating: String(Math.floor(item.userRating)),

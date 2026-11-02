@@ -18,6 +18,16 @@ describe("classifyPage", () => {
     ).toBe("signed-in");
   });
 
+  test("a book page whose embedded page data says signedIn is signed-in", () => {
+    expect(
+      classifyPage({
+        url: "https://www.goodreads.com/book/show/6617037-debt",
+        status: 200,
+        html: `<script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{"authContextParams":{"signedIn":true,"role":"user"}}}}</script>`,
+      }),
+    ).toBe("signed-in");
+  });
+
   test("a Goodreads page tagged signed_out is signed-out", () => {
     expect(
       classifyPage({

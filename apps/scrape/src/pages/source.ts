@@ -17,6 +17,8 @@ export interface Page {
  */
 export interface PageSource {
   get(url: string, signal: AbortSignal): Promise<Page>;
+  /** True when `get` would read the page from the cache, with no request. */
+  has?(url: string): Promise<boolean>;
 }
 
 /** The temporary failures a page source names (R2, X1). */

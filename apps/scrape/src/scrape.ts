@@ -3,7 +3,8 @@
  *
  * It logs in once, fetches every list page through the flow controller,
  * checks completeness, fetches every book's review page (exclusive shelf and
- * reading timeline) and checks its shelf, and writes `goodreads.json` plus
+ * reading timeline) and checks its shelf, fetches every book page
+ * (description and author), and writes `goodreads.json` plus
  * `goodreads-rss.json` (its compatibility mapping) and one segment per list
  * page, all checked by CUE. Any failure fails closed.
  * With `--cached`, a page saved by an earlier run is read, not fetched.
@@ -14,6 +15,7 @@ import { parseArgs } from "node:util";
 import { ScrapeFailure, type Failure } from "./failure.ts";
 import { createFlow, formatEvent, type Flow } from "./flow/flow.ts";
 import { flowSettings } from "./flow/settings.ts";
+import { REFERENCE_PATH } from "./compat/reference.ts";
 import { LIMITS } from "./limits.ts";
 import { login } from "./login/login.ts";
 import { signedInSource } from "./pages/source.ts";
@@ -28,6 +30,7 @@ const DATA_DIR = join(ROOT, "data/scrape");
 const {
   listPageTimeoutMs: LIST_PAGE_TIMEOUT_MS,
   reviewPageTimeoutMs: REVIEW_PAGE_TIMEOUT_MS,
+  bookPageTimeoutMs: BOOK_PAGE_TIMEOUT_MS,
   runDeadlineMs: RUN_DEADLINE_MS,
 } = LIMITS;
 
@@ -35,14 +38,17 @@ const HELP = `Usage: bun run scrape [options]
 
 Logs in to Goodreads once, fetches every list page (all shelves, 100 books a
 page), checks that every book is there exactly once, then fetches every
-book's review page and checks that its shelf equals the list page's. Writes:
+book's review page and checks that its shelf equals the list page's, then
+every book's page (description and author). Until cutover, every book of the
+reference copy (goodreads-rss-ng-2026-10-27T15.37Z.json) must be on the list,
+or the run fails as unexpected-shrink (C6). Writes:
 
   goodreads.json          every book: its list-page fields and its reading
                           timeline, as shown (repo root)
   goodreads-rss.json      the compatibility file, mapped from goodreads.json
                           in the old RSS formats (repo root)
   data/scrape/segments/   one file per list page, in the same schema
-  data/scrape/pages/      the raw list and review pages, as fetched
+  data/scrape/pages/      the raw list, review and book pages, as fetched
 
 CUE checks both files and every segment before either file is written. Any
 failure is named, exits 1, and leaves both files as they were.
@@ -53,20 +59,22 @@ Options:
                        is fetched and saved there. Without it, that folder
                        is cleared and every page is fetched. No expiry: to
                        refresh, run without --cached. Login is as usual.
-                       Saved pages are paced like fetched ones; with every
-                       page saved, --rate none skips the wait.
+                       A saved page is read at once, with no wait under the
+                       rate cap: --rate applies to fetched pages only.
   -c, --concurrency N  Requests in flight at most; 1 is strictly sequential.
                        Default ${LIMITS.concurrency}.
   --rate R|none        The maximum number of requests started per second
                        (e.g. 2, or 0.5 for one every 2 s), or "none" for no
                        cap. Default ${LIMITS.ratePerSecond}.
   --interactive        Open a visible browser and sign in by hand, including
-                       any "verify it's you" step. Use it the first time, and
-                       whenever a headless login is blocked.
+                       any "verify it's you" step: it always waits for you,
+                       signing a saved session out first, and fetches
+                       nothing until you have signed in. Use it the first
+                       time, and whenever a headless login is blocked.
   -h, --help           Show this help.
 
-Login: a still-valid saved session (secrets/browser-profile, gitignored) is
-reused, with no login at all. Otherwise it signs in headless with the
+Login: without --interactive, a still-valid saved session
+(secrets/browser-profile, gitignored) is reused, with no login at all. Otherwise it signs in headless with the
 credentials, once; it never retries a login.
 
 Credentials are read from secrets/GITHUB.env: GOODREADS_USER (always), and
@@ -181,11 +189,18 @@ async function main(args: string[]): Promise<Outcome | "help"> {
         timeoutMs: REVIEW_PAGE_TIMEOUT_MS,
         step: "review-pages",
       }),
+      book: signedInSource({
+        cookie,
+        userAgent,
+        timeoutMs: BOOK_PAGE_TIMEOUT_MS,
+        step: "book-pages",
+      }),
     };
     const outcome = await runScrape({
       user: secrets.user,
       sources,
       cached,
+      referencePath: REFERENCE_PATH,
       flow,
       dataDir: DATA_DIR,
       publishPath: PUBLISH_PATH,

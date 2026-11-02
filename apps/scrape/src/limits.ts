@@ -12,7 +12,7 @@
  * two in a row, and every one retried succeeded on attempt 2.
  */
 export const LIMITS = {
-  // ── Pacing (P2, P4), the defaults of --concurrency and --rate ──
+  // ── Concurrency and the rate cap (P2, P4): the defaults of --concurrency and --rate ──
 
   /** Requests in flight at most. 3, as scrape-ng and the prototype ran. */
   concurrency: 3,
@@ -32,6 +32,11 @@ export const LIMITS = {
    * answer seen was 3.8 s; a timeout is a stall, fine on retry.
    */
   reviewPageTimeoutMs: 15_000,
+  /**
+   * A book page must answer, body included, within this (T2). Seen in #28:
+   * 1.0–1.8 s, about 380 KB; set as the review pages, to be calibrated.
+   */
+  bookPageTimeoutMs: 15_000,
   /**
    * Attempts per request, the first included; then it fails the run (R3).
    * Was 4; a real run (#30) had requests that needed 3.

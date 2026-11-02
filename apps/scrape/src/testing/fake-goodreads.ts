@@ -82,6 +82,19 @@ export function reviewPage(row: Row): string {
   );
 }
 
+/**
+ * The slim book page cut from _Debt_'s real one (only the book, its author
+ * and the signed-in flag), served for every book under its own id.
+ */
+const bookFixture = await Bun.file(
+  join(import.meta.dir, "../../fixtures/book-6617037.html"),
+).text();
+
+/** A book's page: _Debt_'s, under the book's id. */
+export function bookPage(row: Row): string {
+  return bookFixture.replace('"legacyId":6617037', `"legacyId":${row.bookId}`);
+}
+
 /** The user id in the scrubbed fixture. */
 export const FIXTURE_USER = "1000000";
 
@@ -200,6 +213,12 @@ export type Override = (
   signal: AbortSignal,
 ) => Response | undefined | Promise<Response | undefined>;
 
+/** Answers one book page request; `undefined` serves the page as usual. */
+export type BookOverride = (
+  row: Row,
+  signal: AbortSignal,
+) => Response | undefined | Promise<Response | undefined>;
+
 /** Answers one review page request; `undefined` serves the page as usual. */
 export type ReviewOverride = (
   row: Row,
@@ -212,6 +231,8 @@ export interface FakeGoodreads {
   requests: number[];
   /** The review ids whose review page was requested, in order. */
   reviewRequests: string[];
+  /** The book ids whose book page was requested, in order. */
+  bookRequests: string[];
   /** The headers of the first request. */
   firstHeaders?: Headers;
 }
@@ -219,7 +240,7 @@ export interface FakeGoodreads {
 /**
  * Serves list pages from `list`, which a test may change between requests
  * (in `before`). The sidebar counts follow the list, unless `counts` is set.
- * Serves the review page of every book on the list.
+ * Serves the review page and the book page of every book on the list.
  */
 export function fakeGoodreads(
   list: Row[],
@@ -228,6 +249,7 @@ export function fakeGoodreads(
     before?: (page: number, list: Row[]) => void;
     counts?: Record<ExclusiveShelf, number>;
     review?: ReviewOverride;
+    book?: BookOverride;
   } = {},
 ): FakeGoodreads {
   const html = (body: string) =>
@@ -238,8 +260,21 @@ export function fakeGoodreads(
   const fake: FakeGoodreads = {
     requests: [],
     reviewRequests: [],
+    bookRequests: [],
     async fetch(url, init) {
       const { pathname, searchParams } = new URL(url);
+      const bookId = /^\/book\/show\/(\d+)/.exec(pathname)?.[1];
+      if (bookId !== undefined) {
+        fake.bookRequests.push(bookId);
+        const row = list.find((r) => r.bookId === bookId);
+        if (row === undefined)
+          return new Response("not found", { status: 404 });
+        const answer = await options.book?.(
+          row,
+          init.signal ?? new AbortController().signal,
+        );
+        return answer ?? html(bookPage(row));
+      }
       const reviewId = /^\/review\/show\/(\d+)$/.exec(pathname)?.[1];
       if (reviewId !== undefined) {
         fake.reviewRequests.push(reviewId);

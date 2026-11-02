@@ -133,6 +133,24 @@ describe("flow controller", () => {
     expect(w.starts).toEqual([0, 500, 1000, 1500, 2000, 2500]);
   });
 
+  test("a cached task starts at once, and takes no turn under the rate cap", async () => {
+    const { clock, flow, watch } = setup({ concurrency: 1, ratePerSecond: 2 });
+    const w = watch();
+    const cached = (label: string) => ({
+      ...w.timed(label, 10, label),
+      cached: () => Promise.resolve(true),
+    });
+    const tasks = [
+      cached("c1"),
+      cached("c2"),
+      cached("c3"),
+      w.timed("f1", 10, "f1"),
+      w.timed("f2", 10, "f2"),
+    ];
+    await clock.settle(flow.batch("pages", tasks));
+    expect(w.starts).toEqual([0, 10, 20, 30, 530]);
+  });
+
   test("the rate cap holds across batches", async () => {
     const { clock, flow, watch } = setup({ concurrency: 2, ratePerSecond: 4 });
     const w = watch();

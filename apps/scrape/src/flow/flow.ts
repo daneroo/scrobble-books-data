@@ -14,6 +14,11 @@ export interface Task<T> {
   /** Names the request in the log, e.g. its URL path. Never a secret. */
   label: string;
   run(signal: AbortSignal): Promise<T>;
+  /**
+   * True when the task makes no request (a page read from the cache): it
+   * starts at once, with no wait under the rate cap.
+   */
+  cached?(): Promise<boolean>;
 }
 
 /**
@@ -176,7 +181,7 @@ export function createFlow(settings: FlowSettings, deps: FlowDeps = {}): Flow {
   let failuresInARow = 0;
 
   /** Waits for this request's turn under the rate cap. */
-  async function paced(): Promise<void> {
+  async function waitForRateCap(): Promise<void> {
     const nowMs = clock.now();
     const atMs = Math.max(nowMs, nextStartMs);
     nextStartMs = atMs + intervalMs;
@@ -189,7 +194,7 @@ export function createFlow(settings: FlowSettings, deps: FlowDeps = {}): Flow {
     stats: BatchStats,
   ): Promise<T> {
     for (let attempt = 1; ; attempt++) {
-      await paced();
+      if (!(await task.cached?.())) await waitForRateCap();
       const startMs = clock.now();
       try {
         const result = await task.run(run.signal);

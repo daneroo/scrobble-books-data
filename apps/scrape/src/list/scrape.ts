@@ -42,6 +42,7 @@ export async function fetchListPages({
     const url = listPageUrl(user, page);
     return {
       label: `list page ${page}`,
+      cached: async () => (await source.has?.(url)) ?? false,
       async run(signal) {
         const { body } = await source.get(url, signal);
         return parseListPage(body, page, url);

@@ -29,6 +29,8 @@ export function classifyPage(page: PageView): PageState {
   if (html.includes("ap_email") || html.includes("ap_password"))
     return "sign-in-form";
   if (html.includes(":signed_in'")) return "signed-in";
+  // book pages carry no tag: their embedded page data says it
+  if (html.includes('"authContextParams":{"signedIn":true')) return "signed-in";
   if (html.includes(":signed_out'")) return "signed-out";
   return "unknown";
 }

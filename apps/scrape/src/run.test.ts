@@ -23,6 +23,7 @@ import {
   fakeGoodreads,
   FIXTURE_USER,
   madeUpIds,
+  bookPage,
   realList,
   renderPage,
   reviewPage,
@@ -51,16 +52,35 @@ const secrets = {
 /** Runs the scrape against `fake` on a virtual clock, with the default flow. */
 async function run(
   fake: FakeGoodreads,
-  options: { cueSchema?: string; signal?: AbortSignal; cached?: boolean } = {},
+  options: {
+    cueSchema?: string;
+    signal?: AbortSignal;
+    cached?: boolean;
+    /** The reference's books (C6); by default, every book on the fake list. */
+    reference?: { bookId: string; title: string }[];
+  } = {},
 ) {
   const clock = new VirtualClock();
+  const referencePath = join(dir, "reference.json");
+  await Bun.write(
+    referencePath,
+    JSON.stringify({
+      title: "Daniel's bookshelf: all",
+      items:
+        options.reference ??
+        realList().map(({ bookId }) => ({ bookId, title: `Book ${bookId}` })),
+    }),
+  );
   const events: FlowEvent[] = [];
   const lines: string[] = [];
   const flow = createFlow(
     { concurrency: 2, ratePerSecond: 2 },
     { clock, random: () => 0.5, onEvent: (event) => events.push(event) },
   );
-  const source = (step: "list-pages" | "review-pages", timeoutMs: number) =>
+  const source = (
+    step: "list-pages" | "review-pages" | "book-pages",
+    timeoutMs: number,
+  ) =>
     signedInSource({
       cookie: "session=abc123",
       userAgent: "Mozilla/5.0 Chrome",
@@ -77,8 +97,10 @@ async function run(
       sources: {
         list: source("list-pages", 30_000),
         review: source("review-pages", 15_000),
+        book: source("book-pages", 15_000),
       },
       cached: options.cached,
+      referencePath,
       flow,
       dataDir,
       publishPath,
@@ -166,8 +188,19 @@ describe("a full run", () => {
     expect(published?.userFullName).toBe("Pat Reader");
     // the first row: currently reading, unrated, no read date (its review
     // page isn't saved, so its timeline is made up: left out here)
-    const { timeline, userDateAddedDay, userReview, ...first } =
-      published!.items[0]!;
+    const {
+      timeline,
+      userDateAddedDay,
+      userReview,
+      bookDescription,
+      authorName,
+      ...first
+    } = published!.items[0]!;
+    // its book page is Debt's, served under its id
+    expect([bookDescription.slice(0, 20), authorName]).toEqual([
+      "The classic work on ",
+      "David Graeber",
+    ]);
     expect(timeline).toBeArray();
     expect(userDateAddedDay).toMatch(/^\d{4}-\d{2}-\d{2}$/);
     expect(userReview).toBe("");
@@ -336,6 +369,62 @@ describe("a full run", () => {
     });
   });
 
+  test("every book page is fetched at its title link, and gives description and author", async () => {
+    const fake = fakeGoodreads(realList());
+    const { published } = await run(fake);
+    expect(fake.bookRequests).toHaveLength(1450);
+    expect(new Set(fake.bookRequests).size).toBe(1450);
+    const debt = published?.items.find(
+      (i) => i.reviewId === SAVED_REVIEWS.debt,
+    );
+    expect(debt?.authorName).toBe("David Graeber");
+    expect(debt?.bookDescription).toStartWith(
+      "The classic work on debt, now is a special tenth anniversary edition",
+    );
+    expect(debt?.bookDescription).toContain("<br /><br />");
+    // the schema's order: the book page's fields, then the timeline
+    expect(Object.keys(debt!).slice(-3)).toEqual([
+      "bookDescription",
+      "authorName",
+      "timeline",
+    ]);
+  });
+
+  test("a description is trimmed, as the reference is (S4)", async () => {
+    const fake = fakeGoodreads(realList(), {
+      book: (row) =>
+        row.reviewId === SAVED_REVIEWS.debt
+          ? new Response(
+              bookPage(row).replace(
+                '"description":"The classic work',
+                '"description":"\\n  The classic work',
+              ),
+            )
+          : undefined,
+    });
+    const { published } = await run(fake);
+    expect(
+      published?.items.find((i) => i.reviewId === SAVED_REVIEWS.debt)
+        ?.bookDescription,
+    ).toStartWith("The classic work on debt");
+  });
+
+  test("an author name keeps its spacing as shown (King of Thorns: 'Mark  Lawrence')", async () => {
+    const fake = fakeGoodreads(realList(), {
+      book: (row) =>
+        row.reviewId === SAVED_REVIEWS.debt
+          ? new Response(
+              bookPage(row).replace('"David Graeber"', '"Mark  Lawrence"'),
+            )
+          : undefined,
+    });
+    const { published } = await run(fake);
+    expect(
+      published?.items.find((i) => i.reviewId === SAVED_REVIEWS.debt)
+        ?.authorName,
+    ).toBe("Mark  Lawrence");
+  });
+
   test("the request sends the cookie and the login browser's User-Agent", async () => {
     const fake = fakeGoodreads(realList());
     await run(fake);
@@ -343,13 +432,14 @@ describe("a full run", () => {
     expect(fake.firstHeaders?.get("user-agent")).toBe("Mozilla/5.0 Chrome");
   });
 
-  test("the log shows the rate achieved for the list and review pages", async () => {
+  test("the log shows the rate achieved for the list, review and book pages", async () => {
     const { events } = await run(fakeGoodreads(realList()));
     const batches = events.filter((event) => event.type === "batch");
     expect(batches.map((batch) => [batch.batch, batch.requests])).toEqual([
       ["list page 1", 1],
       ["list pages 2-15", 14],
       ["review pages", 1450],
+      ["book pages", 1450],
     ]);
   });
 });
@@ -370,7 +460,7 @@ const hang = (signal: AbortSignal) =>
 async function expectFailedClosed(
   fake: FakeGoodreads,
   mode: FailureMode,
-  options: { cueSchema?: string; signal?: AbortSignal; cached?: boolean } = {},
+  options: Parameters<typeof run>[1] = {},
 ) {
   const result = await run(fake, options);
   const failure = failedWith(result.outcome);
@@ -741,7 +831,7 @@ describe("fail-closed, review pages", () => {
     expect(failure.step).toBe("review-pages");
     expect(failure.detail).toContain(`/review/show/${book.reviewId}`);
     const kept = Bun.file(
-      join(dir, "data", "pages", `review-${book.reviewId}.html`),
+      join(dir, "data", "pages", `rejected-review-${book.reviewId}.html`),
     );
     expect(await kept.text()).toBe("moved");
   });
@@ -839,6 +929,83 @@ describe("fail-closed, review pages", () => {
   });
 });
 
+describe("fail-closed, book pages", () => {
+  test("a book page without its page data is layout-change, naming it", async () => {
+    const fake = fakeGoodreads(realList(), {
+      book: (row) =>
+        row.reviewId === SAVED_REVIEWS.debt
+          ? new Response(
+              bookPage(row).replace(
+                /<script id="__NEXT_DATA__"[\s\S]*?<\/script>/,
+                '<script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{"authContextParams":{"signedIn":true}}}}</script>',
+              ),
+            )
+          : undefined,
+    });
+    const { failure } = await expectFailedClosed(fake, "layout-change");
+    expect(failure.step).toBe("book-pages");
+    expect(failure.detail).toContain("book page 6617037");
+  });
+
+  test("a book page of another book is layout-change", async () => {
+    const fake = fakeGoodreads(realList(), {
+      book: (row) =>
+        row.reviewId === SAVED_REVIEWS.debt
+          ? new Response(bookPage({ ...row, bookId: "1" }))
+          : undefined,
+    });
+    const { failure } = await expectFailedClosed(fake, "layout-change");
+    expect(failure.detail).toContain("0 books with this id");
+  });
+
+  test("a book page with no signed-in flag is layout-change", async () => {
+    const fake = fakeGoodreads(realList(), {
+      book: (row) =>
+        row.reviewId === SAVED_REVIEWS.debt
+          ? new Response(
+              bookPage(row).replace('"signedIn":true', '"signedIn":false'),
+            )
+          : undefined,
+    });
+    const { failure } = await expectFailedClosed(fake, "layout-change");
+    expect(failure.step).toBe("book-pages");
+  });
+});
+
+describe("C6: every book of the reference is on the list", () => {
+  test("a reference book missing from the list is unexpected-shrink, naming it, before any review page", async () => {
+    const reference = [
+      ...realList().map(({ bookId }) => ({ bookId, title: `Book ${bookId}` })),
+      { bookId: "999999999", title: "A Removed Book" },
+    ];
+    const fake = fakeGoodreads(realList());
+    const { failure, lines } = await expectFailedClosed(
+      fake,
+      "unexpected-shrink",
+      { reference },
+    );
+    expect(failure.step).toBe("checks");
+    expect(failure.detail).toBe(
+      "1 of the reference's 1451 books are missing: 999999999 (A Removed Book)",
+    );
+    expect(fake.reviewRequests).toEqual([]);
+    expect(lines.join("\n")).not.toContain("every book of the reference");
+  });
+
+  test("books added since the reference are fine", async () => {
+    const reference = realList()
+      .slice(3)
+      .map(({ bookId }) => ({ bookId, title: `Book ${bookId}` }));
+    const { outcome, lines } = await run(fakeGoodreads(realList()), {
+      reference,
+    });
+    expect(outcome.ok).toBe(true);
+    expect(lines).toContain(
+      "every book of the reference is on the list: 1447 books",
+    );
+  });
+});
+
 describe("fail-closed, outputs", () => {
   test("a CUE failure is cue-failure, and nothing is published", async () => {
     const schema = join(dir, "strict.cue");
@@ -861,8 +1028,8 @@ describe("fail-closed, outputs", () => {
       cueSchema: schema,
     });
     expect((await readdir(join(dir, "data", "segments"))).length).toBe(15);
-    // 15 list pages and 1450 review pages
-    expect((await readdir(join(dir, "data", "pages"))).length).toBe(1465);
+    // 15 list pages, 1450 review pages and 1450 book pages
+    expect((await readdir(join(dir, "data", "pages"))).length).toBe(2915);
   });
 });
 
@@ -875,27 +1042,38 @@ describe("--cached: a read-through cache of the raw pages", () => {
     const second = await run(again, { cached: true });
 
     expect(second.outcome.ok).toBe(true);
+    // saved pages take no turn under the rate cap (2/s here): 2915 pages
+    // would otherwise take over 24 min
+    const batchMs = second.events.flatMap((event) =>
+      event.type === "batch" ? [event.elapsedMs] : [],
+    );
+    expect(batchMs).toEqual([0, 0, 0, 0]);
     expect(again.requests).toEqual([]);
     expect(again.reviewRequests).toEqual([]);
+    expect(again.bookRequests).toEqual([]);
     expect(second.published).toEqual(first.published!);
     expect(await second.segments()).toHaveLength(15);
-    expect((await readdir(pagesDir())).length).toBe(1465);
-  });
+    expect((await readdir(pagesDir())).length).toBe(2915);
+    // two full runs of 2915 pages
+  }, 30_000);
 
   test("a page not saved is fetched and saved; the saved ones are not", async () => {
     await run(fakeGoodreads(realList()));
     await unlink(join(pagesDir(), "list-p03.html"));
     await unlink(join(pagesDir(), `review-${SAVED_REVIEWS.debt}.html`));
+    await unlink(join(pagesDir(), "book-6617037.html"));
     const again = fakeGoodreads(realList());
     const { outcome } = await run(again, { cached: true });
 
     expect(outcome.ok).toBe(true);
     expect(again.requests).toEqual([3]);
     expect(again.reviewRequests).toEqual([SAVED_REVIEWS.debt]);
+    expect(again.bookRequests).toEqual(["6617037"]);
     expect(await Bun.file(join(pagesDir(), "list-p03.html")).exists()).toBe(
       true,
     );
-  });
+    // two full runs of 2915 pages
+  }, 30_000);
 
   test("a saved rejected page fails as a fetched one does", async () => {
     await run(fakeGoodreads(realList()));
@@ -911,7 +1089,8 @@ describe("--cached: a read-through cache of the raw pages", () => {
     ]);
     expect(failure.detail).toContain("page 2");
     expect(again.requests).toEqual([]);
-  });
+    // two full runs of 2915 pages
+  }, 30_000);
 
   test("without it, the saved pages are cleared and every page is fetched", async () => {
     await run(fakeGoodreads(realList()));
@@ -921,21 +1100,42 @@ describe("--cached: a read-through cache of the raw pages", () => {
 
     expect(again.requests).toHaveLength(15);
     expect(again.reviewRequests).toHaveLength(1450);
+    expect(again.bookRequests).toHaveLength(1450);
     expect(await Bun.file(join(pagesDir(), "review-1.html")).exists()).toBe(
       false,
     );
-  });
+    // two full runs of 2915 pages
+  }, 30_000);
 });
 
 describe("debugging and the deadline", () => {
-  test("a rejected page's body is kept with the raw pages", async () => {
+  test("a rejected page's body is kept with the raw pages, under its own name", async () => {
     const fake = fakeGoodreads(realList(), {
       override: onPage(2, () => new Response("gone", { status: 404 })),
     });
     await expectFailedClosed(fake, "http-error");
-    const kept = Bun.file(join(dir, "data", "pages", "list-p02.html"));
-    expect(await kept.text()).toBe("gone");
+    const pages = join(dir, "data", "pages");
+    expect(await Bun.file(join(pages, "rejected-list-p02.html")).text()).toBe(
+      "gone",
+    );
+    expect(await Bun.file(join(pages, "list-p02.html")).exists()).toBe(false);
   });
+
+  test("with --cached, a page rejected last run (a WAF 202) is fetched again, not served", async () => {
+    let challenge = true;
+    const first = fakeGoodreads(realList(), {
+      book: (row) =>
+        challenge && row.reviewId === SAVED_REVIEWS.debt
+          ? new Response("", { status: 202 })
+          : undefined,
+    });
+    await expectFailedClosed(first, "waf-challenge");
+    challenge = false;
+    const again = fakeGoodreads(realList());
+    const { outcome } = await run(again, { cached: true });
+    expect(outcome.ok).toBe(true);
+    expect(again.bookRequests).toContain("6617037");
+  }, 30_000);
 
   test("the run deadline, passed before the outputs, is run-timeout: nothing published", async () => {
     const deadline = new AbortController();
