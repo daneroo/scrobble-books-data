@@ -56,16 +56,19 @@ export const ListItem = z.strictObject({
   isbn: z.string().regex(/^([0-9X]{10}|[0-9X]{13})?$/),
   /** Fractional, as rated: 4.25, 4.5; 0 is unrated. */
   userRating: z.number().min(0).max(5),
-  /** The day the book was added, `YYYY-MM-DD` (a US Pacific calendar day). */
-  userDateCreatedDay: z.iso.date(),
+  /**
+   * The list's "date added", `YYYY-MM-DD` (a US Pacific calendar day); never
+   * changed in 163 scrapes, 2024-03 to 2026-10.
+   */
+  userAddedDay: z.iso.date(),
   userExclusiveShelf: z.enum(EXCLUSIVE_SHELVES),
   /**
-   * The all-editions average, shown as "3.58", kept with `toFixed(1)`: "3.6"
-   * (S7). The RSS had the edition's average.
+   * The work's all-editions average, shown as "3.58", kept with `toFixed(1)`:
+   * "3.6" (S7). The RSS had the edition's average.
    */
-  averageRating: z.string().regex(/^\d\.\d$/),
-  /** The work's original publication, as shown: "Sep 27, 2016", "2016", "-550", "unknown". */
-  bookPublishedText: z.string().regex(PUBLISHED),
+  workAverageRating: z.string().regex(/^\d\.\d$/),
+  /** The list's "date pub", the work's original publication, as shown: "Sep 27, 2016", "2016", "-550", "unknown". */
+  workPublishedText: z.string().regex(PUBLISHED),
   /** Whole pages, no commas; "0" when unknown. */
   numPages: z.string().regex(/^\d+$/),
 });
@@ -74,10 +77,13 @@ export type ListItem = z.infer<typeof ListItem>;
 /** A book: its list page row, and its reading progress from its review page. */
 export const Item = ListItem.extend({
   /**
-   * The review page's review date, `YYYY-MM-DD` (a US Pacific calendar
-   * day): the read date for a read book, the shelving date otherwise (#28).
+   * The review page's `dtreviewed` date, `YYYY-MM-DD` (a US Pacific calendar
+   * day). It has no single meaning; on the 2026-11-02 data it equals:
+   * - not read (664): the date added;
+   * - read: the latest finish (604), an earlier finish (44), a day inside a
+   *   month-only finish (24), the date added (102), none of these (12).
    */
-  userDateAddedDay: z.iso.date(),
+  reviewPageDay: z.iso.date(),
   /** The review page's review, as HTML (`<br />`), trimmed; `""` when there is none. */
   userReview: z.string(),
   /** The book page's description, as HTML (`<br />`, `<i>`), as shown, trimmed (S4). */

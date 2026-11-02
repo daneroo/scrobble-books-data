@@ -63,7 +63,7 @@ export function withProgress(
     });
   }
   return items.map((item, i) => {
-    const { userDateAddedDay, userReview, timeline } = reviews[i]!;
-    return { ...item, userDateAddedDay, userReview, timeline };
+    const { reviewPageDay, userReview, timeline } = reviews[i]!;
+    return { ...item, reviewPageDay, userReview, timeline };
   });
 }

@@ -164,7 +164,7 @@ The user's decisions, 2026-11-02:
   shelving date otherwise. If so, it differs for about 156 books (11%): 94 read
   and 62 not read.
 
-- Stored: `userDateAddedDay`, `YYYY-MM-DD` (a US Pacific calendar day).
+- Stored: `reviewPageDay`, `YYYY-MM-DD` (a US Pacific calendar day).
 - Compat: `YYYY-MM-DDT00:00:00.000Z`. Approved difference: the time of day for
   every book, and the date where it differs. #31 counts both and validates the
   date once by hand, with GraphQL.
@@ -176,7 +176,7 @@ The user's decisions, 2026-11-02:
 - Source: list, `.field.date_added span`: `Oct 22, 2026`.
 - Checked: it equals the reference's US Pacific date for 1447/1447. No page has
   the time of day.
-- Stored: `userDateCreatedDay`, `YYYY-MM-DD`.
+- Stored: `userAddedDay`, `YYYY-MM-DD`.
 - Compat: `YYYY-MM-DDT00:00:00.000Z`. Approved difference: the time of day, for
   every book.
 
@@ -208,7 +208,7 @@ The user's decisions, 2026-11-02:
   has the edition average (`Book.stats` is `null`).
 - Compat: `toFixed(1)`, as scrape-ng did to avoid commit noise. 394/1447 differ
   now: an approved difference (decision 4).
-- Stored: `averageRating`, with its new meaning documented.
+- Stored: `workAverageRating`, the work's all-editions average.
 
 ### `bookPublished`
 
@@ -216,7 +216,7 @@ The user's decisions, 2026-11-02:
   `Sep 27, 2016`, `2016`, `-550` or `unknown`.
 - Checked: compat = the trailing `-?\d+`, `unknown` → `""`: 1447/1447.
   (`date_pub_edition` would differ for 755.)
-- Stored: `bookPublishedText`, raw.
+- Stored: `workPublishedText`, raw.
 
 ### `numPages`
 

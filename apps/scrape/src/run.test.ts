@@ -190,7 +190,7 @@ describe("a full run", () => {
     // page isn't saved, so its timeline is made up: left out here)
     const {
       timeline,
-      userDateAddedDay,
+      reviewPageDay,
       userReview,
       bookDescription,
       authorName,
@@ -202,7 +202,7 @@ describe("a full run", () => {
       "David Graeber",
     ]);
     expect(timeline).toBeArray();
-    expect(userDateAddedDay).toMatch(/^\d{4}-\d{2}-\d{2}$/);
+    expect(reviewPageDay).toMatch(/^\d{4}-\d{2}-\d{2}$/);
     expect(userReview).toBe("");
     expect(first).toEqual({
       reviewId: "9069353168",
@@ -214,18 +214,18 @@ describe("a full run", () => {
         "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1723703506l/213618143._SY75_.jpg",
       isbn: "0593723821",
       userRating: 0,
-      userDateCreatedDay: "2026-11-01",
+      userAddedDay: "2026-11-01",
       userExclusiveShelf: "currently-reading",
       // shown as 4.47; toFixed(1), as the compatibility file (S7)
-      averageRating: "4.5",
-      bookPublishedText: "Apr 01, 2025",
+      workAverageRating: "4.5",
+      workPublishedText: "Apr 01, 2025",
       numPages: "461",
     });
     // a fractional rating
     expect(byReview.get("9043895547")).toMatchObject({
       title: "Debt: The First 5,000 Years",
       userRating: 4.25,
-      userDateCreatedDay: "2026-10-21",
+      userAddedDay: "2026-10-21",
       userExclusiveShelf: "read",
       numPages: "534",
     });
@@ -233,7 +233,7 @@ describe("a full run", () => {
     expect(byReview.get("8933967943")).toMatchObject({
       title: "Winterfair Gifts (Vorkosigan Saga, #13.1)",
       numPages: "0",
-      bookPublishedText: "Jan 01, 2002",
+      workPublishedText: "Jan 01, 2002",
     });
     // no cover, an ISBN ending in X
     expect(byReview.get("8557895838")).toMatchObject({
@@ -241,7 +241,7 @@ describe("a full run", () => {
         "https://s.gr-assets.com/assets/nophoto/book/50x75-1b903c9eac1b2ba789662c08a0ae41e6.png",
       isbn: "139812219X",
       userExclusiveShelf: "on-deck",
-      averageRating: "5.0",
+      workAverageRating: "5.0",
     });
     // no ISBN
     expect(byReview.get("8977513831")).toMatchObject({
@@ -326,7 +326,7 @@ describe("a full run", () => {
   test("the review date comes from the review page: the read date, or the shelving date", async () => {
     const { published } = await run(fakeGoodreads(realList()));
     const day = (reviewId: string) =>
-      published?.items.find((i) => i.reviewId === reviewId)?.userDateAddedDay;
+      published?.items.find((i) => i.reviewId === reviewId)?.reviewPageDay;
     expect(day(SAVED_REVIEWS.taintedCup)).toBe("2026-10-31");
     expect(day(SAVED_REVIEWS.debt)).toBe("2026-10-29");
     // currently reading: the day it was shelved again

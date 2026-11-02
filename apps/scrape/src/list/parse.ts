@@ -173,12 +173,10 @@ function rawItem(
           stars.attr("data-pre-release") === "true"
           ? 0
           : undefined,
-    userDateCreatedDay: isoDay(
-      cell("date_added").find("span").first().text().trim(),
-    ),
+    userAddedDay: isoDay(cell("date_added").find("span").first().text().trim()),
     userExclusiveShelf: shelves.length === 1 ? shelves[0] : shelves,
-    averageRating: oneDecimal(text("avg_rating")),
-    bookPublishedText: text("date_pub"),
+    workAverageRating: oneDecimal(text("avg_rating")),
+    workPublishedText: text("date_pub"),
     // "1,280 pp" → "1280"; "unknown" → "0", as in the reference
     numPages:
       pages === "unknown"

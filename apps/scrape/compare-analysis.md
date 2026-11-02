@@ -8,8 +8,8 @@ Status per group: **accepted** (reason checked against data), **open** (needs a
 decision), **fix** (the comparison or mapping must change).
 
 Current compare (with the date rule): 130 explained date differences, 1022
-unexplained fields in 549 books. Open: `userDateAdded` 58 (section 5).
-Everything else is accepted.
+unexplained fields in 549 books. All groups are accepted by the user
+(2026-11-02).
 
 ## 1. Books: changed, new, moved
 
@@ -133,7 +133,8 @@ Results:
     suggests bulk edits (ratings or reviews, which the timeline doesn't show).
     Unproven.
 - In compare: the 128 are explained (2 after the cutoff, 126 timeline event);
-  the 58 are listed as unexplained. Status: **open** (the 58).
+  the 58 are listed as unexplained. Status: **accepted** (user, 2026-11-02): a
+  compat-only problem; the old field meant "last updated", which no page shows.
 
 ## 6. bookDescription: 25 books, accepted (58 before the fixes)
 

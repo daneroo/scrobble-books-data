@@ -17,12 +17,12 @@ import "time"
 	bookImageURL:       =~"^https://"
 	isbn:               #ISBN | ""
 	userRating:         number & >=0 & <=5 // fractional: 4.25, 4.5; 0 is unrated
-	userDateCreatedDay: #Day
+	userAddedDay:       #Day // the list's "date added"
 	userExclusiveShelf: #ExclusiveShelf
-	averageRating:      =~"^[0-9]\\.[0-9]$" // all editions, toFixed(1): 3.58 → 3.6
-	bookPublishedText:  #PageDate | =~"^-?[0-9]{1,4}$" | "unknown"
+	workAverageRating:  =~"^[0-9]\\.[0-9]$" // the work's, all editions, toFixed(1): 3.58 → 3.6
+	workPublishedText:  #PageDate | =~"^-?[0-9]{1,4}$" | "unknown" // the list's "date pub"
 	numPages:           =~"^[0-9]+$" // "0" when unknown
-	userDateAddedDay!: #Day   // the review page's review date
+	reviewPageDay!:    #Day   // the review page's dtreviewed date; no single meaning
 	userReview!:       string // the review page's, as HTML; "" when none
 	bookDescription!:  string        // the book page's, as HTML
 	authorName!:       string & !="" // the book page's primary contributor, as shown

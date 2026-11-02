@@ -16,7 +16,7 @@ export interface ReviewPage {
   /** The reading timeline, in page order, as shown. */
   timeline: TimelineRow[];
   /** The review date, `YYYY-MM-DD`. */
-  userDateAddedDay: string;
+  reviewPageDay: string;
   /** The review, as HTML, trimmed; `""` when there is none. */
   userReview: string;
 }
@@ -107,11 +107,11 @@ export function parseReviewPage(
   if (dateTitle.length !== 1)
     throw fail("layout-change", "no review date in the review header");
   const day = dateTitle.attr("title");
-  const userDateAddedDay = Day.safeParse(day);
-  if (!userDateAddedDay.success)
+  const reviewPageDay = Day.safeParse(day);
+  if (!reviewPageDay.success)
     throw fail(
       "parse-failure",
-      `review date: ${describeIssues(userDateAddedDay.error, { day })}`,
+      `review date: ${describeIssues(reviewPageDay.error, { day })}`,
     );
 
   const body = $("[itemprop=reviewBody]");
@@ -129,7 +129,7 @@ export function parseReviewPage(
   return {
     exclusiveShelf: exclusiveShelf.data,
     timeline,
-    userDateAddedDay: userDateAddedDay.data,
+    reviewPageDay: reviewPageDay.data,
     userReview,
   };
 }

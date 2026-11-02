@@ -74,13 +74,13 @@ export function toCompatItem(item: Item, userFullName: string): CompatItem {
     userName: userFullName.split(" ")[0]!,
     userRating: String(Math.floor(item.userRating)),
     userReadAt: readAt(item.timeline),
-    userDateAdded: midnight(item.userDateAddedDay),
-    userDateCreated: midnight(item.userDateCreatedDay),
+    userDateAdded: midnight(item.reviewPageDay),
+    userDateCreated: midnight(item.userAddedDay),
     userShelves:
       item.userExclusiveShelf === "read" ? "" : item.userExclusiveShelf,
     userReview: item.userReview,
-    averageRating: item.averageRating,
-    bookPublished: year(item.bookPublishedText),
+    averageRating: item.workAverageRating,
+    bookPublished: year(item.workPublishedText),
   };
   // the reference's key order: description, then numPages
   return {
