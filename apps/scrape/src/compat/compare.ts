@@ -42,8 +42,8 @@ export interface Comparison {
    */
   changed: { from: string; to: string; title: string }[];
   /**
-   * Books in both that moved: the fewest whose removal leaves the rest in
-   * the reference's relative order.
+   * Books in both (changed bookIds included) that moved: the fewest whose
+   * removal leaves the rest in the reference's relative order.
    */
   moved: { bookId: string; title: string }[];
   differences: Difference[];
@@ -64,16 +64,36 @@ export function pacificDay(timestamp: string): string {
 
 /**
  * Compares `output` with `reference`, field by field, exactly; the two dates
- * by day.
+ * by day. A changed bookId's two books are compared like any other.
  */
 export function compare(reference: Compat, output: Compat): Comparison {
   const outputs = new Map(output.items.map((item) => [item.bookId, item]));
   const references = new Set(reference.items.map((item) => item.bookId));
   const brief = ({ bookId, title }: CompatItem) => ({ bookId, title });
 
-  const differences: Difference[] = [];
+  const missing = reference.items
+    .filter((item) => !outputs.has(item.bookId))
+    .map(brief);
+  const added = output.items
+    .filter((item) => !references.has(item.bookId))
+    .map(brief);
+  const changed = missing.flatMap(({ bookId, title }) =>
+    added
+      .filter((book) => book.title === title)
+      .map((book) => ({ from: bookId, to: book.bookId, title })),
+  );
+
+  // each reference book's output book: the same bookId, or its changed one
+  const counterpart = new Map<string, CompatItem>();
   for (const ref of reference.items) {
     const out = outputs.get(ref.bookId);
+    if (out !== undefined) counterpart.set(ref.bookId, out);
+  }
+  for (const { from, to } of changed) counterpart.set(from, outputs.get(to)!);
+
+  const differences: Difference[] = [];
+  for (const ref of reference.items) {
+    const out = counterpart.get(ref.bookId);
     if (out === undefined) continue;
     const fields = new Set([...Object.keys(ref), ...Object.keys(out)]);
     for (const field of fields as Set<keyof CompatItem>) {
@@ -96,23 +116,19 @@ export function compare(reference: Compat, output: Compat): Comparison {
     }
   }
 
-  const inBoth = output.items.filter((item) => references.has(item.bookId));
-  const moved = movedItems(
-    reference.items.filter((item) => outputs.has(item.bookId)),
-    inBoth,
-  ).map(brief);
-
-  const missing = reference.items
-    .filter((item) => !outputs.has(item.bookId))
-    .map(brief);
-  const added = output.items
-    .filter((item) => !references.has(item.bookId))
-    .map(brief);
-  const changed = missing.flatMap(({ bookId, title }) =>
-    added
-      .filter((book) => book.title === title)
-      .map((book) => ({ from: bookId, to: book.bookId, title })),
+  // the reference bookId of each output book that has a counterpart
+  const referenceIdOf = new Map(
+    [...counterpart].map(([refId, out]) => [out.bookId, refId]),
   );
+  const moved = movedIds(
+    reference.items
+      .filter((item) => counterpart.has(item.bookId))
+      .map((item) => item.bookId),
+    output.items.flatMap((item) => {
+      const refId = referenceIdOf.get(item.bookId);
+      return refId === undefined ? [] : [refId];
+    }),
+  ).map((refId) => brief(counterpart.get(refId)!));
 
   return {
     ...(reference.title === output.title
@@ -129,15 +145,15 @@ export function compare(reference: Compat, output: Compat): Comparison {
 }
 
 /**
- * The items of `output` not on a longest run in the reference's relative
+ * The ids of `output` not on a longest run in the reference's relative
  * order (a longest increasing subsequence of reference positions).
  */
-function movedItems(
-  reference: readonly CompatItem[],
-  output: readonly CompatItem[],
-): CompatItem[] {
-  const position = new Map(reference.map((item, i) => [item.bookId, i]));
-  const seq = output.map((item) => position.get(item.bookId)!);
+function movedIds(
+  reference: readonly string[],
+  output: readonly string[],
+): string[] {
+  const position = new Map(reference.map((id, i) => [id, i]));
+  const seq = output.map((id) => position.get(id)!);
   // tails[k]: the index in seq ending the best run of length k + 1
   const tails: number[] = [];
   const previous: number[] = [];

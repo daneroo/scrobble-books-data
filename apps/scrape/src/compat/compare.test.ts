@@ -99,6 +99,30 @@ describe("compare", () => {
     expect(summarize(result)).toContain("  2 → 5 Book 2");
   });
 
+  test("a changed bookId's two books are compared field by field", () => {
+    const result = compare(
+      file(item("1"), item("2", { averageRating: "0.0" })),
+      file(item("1"), item("5", { title: "Book 2", averageRating: "5.0" })),
+    );
+    const pair = result.differences.filter(({ bookId }) => bookId === "2");
+    expect(pair.map(({ field }) => field)).toContain("bookId");
+    expect(pair).toContainEqual({
+      bookId: "2",
+      title: "Book 2",
+      field: "averageRating",
+      reference: "0.0",
+      output: "5.0",
+    });
+  });
+
+  test("a changed bookId that moved is listed as moved", () => {
+    const result = compare(
+      file(item("1"), item("2"), item("3")),
+      file(item("5", { title: "Book 3" }), item("1"), item("2")),
+    );
+    expect(result.moved).toEqual([{ bookId: "5", title: "Book 3" }]);
+  });
+
   test("a different order or title is a difference", () => {
     const reordered = compare(
       file(item("1"), item("2")),
