@@ -17,7 +17,6 @@ import "time"
 	bookImageURL:       =~"^https://"
 	isbn:               #ISBN | ""
 	userRating:         number & >=0 & <=5 // fractional: 4.25, 4.5; 0 is unrated
-	userReadAtText:     #PageDate | ""     // the newest read date, as shown
 	userDateCreatedDay: #Day
 	userExclusiveShelf: #ExclusiveShelf
 	averageRating:      =~"^[0-9]\\.[0-9]$" // all editions, toFixed(1): 3.58 → 3.6

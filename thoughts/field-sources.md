@@ -138,10 +138,13 @@ The user's decisions, 2026-11-02:
 
 ### `userReadAt` (exact for scrobbleCast)
 
-- Source: list, the first `.date_read_value` (the newest read comes first):
-  `Oct 24, 2026`, `Oct 2026` or `2026`.
-- Checked: 1445/1447 + 2 changed, including the 73 books read more than once.
-- Stored: `userReadAtText`, raw.
+- Source: the review page's timeline (`timeline`): the latest dated "Finished
+  Reading" entry with no "(… Edition)" marker. Its date is `October 24, 2026`,
+  `October, 2026` or `2026`.
+- Checked: identical to the list page's read date for all 726 books with a read
+  date; the other 724 have none (447 to-read, 208 on-deck, 8 currently-reading,
+  61 read with an undated finish).
+- Stored: nothing of its own; it comes from `timeline`.
 - Compat: `YYYY-MM-DDT00:00:00.000Z`, with a missing month or day as `01`.
 
 ### `userDateAdded`

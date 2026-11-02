@@ -157,7 +157,6 @@ function rawItem(
     .find("a.shelfLink")
     .toArray()
     .map((a) => $(a).text().trim());
-  const readDates = cell("date_read").find(".date_read_value");
   const pages = text("num_pages");
 
   return {
@@ -173,13 +172,6 @@ function rawItem(
         : // a book not yet published can't be rated: 0, as unrated (#28)
           stars.attr("data-pre-release") === "true"
           ? 0
-          : undefined,
-    // the newest read comes first
-    userReadAtText:
-      readDates.length > 0
-        ? readDates.first().text().trim()
-        : text("date_read").startsWith("not set")
-          ? ""
           : undefined,
     userDateCreatedDay: isoDay(
       cell("date_added").find("span").first().text().trim(),

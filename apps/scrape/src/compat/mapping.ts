@@ -3,7 +3,7 @@
  * old RSS conventions, which scrobbleCast reads. Sources and decisions:
  * `thoughts/field-sources.md` (#28). The CUE check is `cue/check-output.cue`.
  */
-import type { Goodreads, Item } from "../goodreads.ts";
+import type { Goodreads, Item, TimelineRow } from "../goodreads.ts";
 
 /** The feed title, a constant from the reference copy (S9). */
 export const FEED_TITLE = "Daniel's bookshelf: all";
@@ -73,7 +73,7 @@ export function toCompatItem(item: Item, userFullName: string): CompatItem {
     isbn: item.isbn,
     userName: userFullName.split(" ")[0]!,
     userRating: String(Math.floor(item.userRating)),
-    userReadAt: readAt(item.userReadAtText),
+    userReadAt: readAt(item.timeline),
     userDateAdded: midnight(item.userDateAddedDay),
     userDateCreated: midnight(item.userDateCreatedDay),
     userShelves:
@@ -116,29 +116,49 @@ function description(
 }
 
 const MONTHS = [
-  "Jan",
-  "Feb",
-  "Mar",
-  "Apr",
+  "January",
+  "February",
+  "March",
+  "April",
   "May",
-  "Jun",
-  "Jul",
-  "Aug",
-  "Sep",
-  "Oct",
-  "Nov",
-  "Dec",
+  "June",
+  "July",
+  "August",
+  "September",
+  "October",
+  "November",
+  "December",
 ];
 
-/** "Oct 24, 2026", "Oct 2026", "2026" → midnight UTC of that day; "" stays "". */
-export function readAt(text: string): string {
-  if (text === "") return "";
-  const match = /^(?:([A-Z][a-z]{2}) (?:(\d{2}), )?)?(\d{4})$/.exec(text);
+/**
+ * The read date, from the timeline: the latest dated "Finished Reading"
+ * entry with no "(… Edition)" marker, at midnight UTC; `""` when there is
+ * none.
+ */
+export function readAt(timeline: readonly TimelineRow[]): string {
+  const days = timeline
+    .filter(
+      ({ event, dateText }) => event === "Finished Reading" && dateText !== "",
+    )
+    .map(({ dateText }) => timelineDay(dateText))
+    .sort();
+  return days.length === 0 ? "" : midnight(days.at(-1)!);
+}
+
+/**
+ * "October 23, 2026" → "2026-10-23", "January, 1997" → "1997-01-01",
+ * "2021" → "2021-01-01": a missing month or day is `01`.
+ */
+export function timelineDay(dateText: string): string {
+  const match = /^(?:([A-Z][a-z]+)(?: (\d{1,2}))?, )?(\d{4})$/.exec(dateText);
   const month = match?.[1] === undefined ? 0 : MONTHS.indexOf(match[1]);
   if (match === null || month < 0)
-    throw new Error(`read date not understood: ${JSON.stringify(text)}`);
+    throw new Error(
+      `timeline date not understood: ${JSON.stringify(dateText)}`,
+    );
   const mm = String(month + 1).padStart(2, "0");
-  return midnight(`${match[3]}-${mm}-${match[2] ?? "01"}`);
+  const dd = (match[2] ?? "01").padStart(2, "0");
+  return `${match[3]}-${mm}-${dd}`;
 }
 
 /** "2026-10-24" → "2026-10-24T00:00:00.000Z". */

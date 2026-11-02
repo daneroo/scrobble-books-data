@@ -214,7 +214,6 @@ describe("a full run", () => {
         "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1723703506l/213618143._SY75_.jpg",
       isbn: "0593723821",
       userRating: 0,
-      userReadAtText: "",
       userDateCreatedDay: "2026-11-01",
       userExclusiveShelf: "currently-reading",
       // shown as 4.47; toFixed(1), as the compatibility file (S7)
@@ -226,7 +225,6 @@ describe("a full run", () => {
     expect(byReview.get("9043895547")).toMatchObject({
       title: "Debt: The First 5,000 Years",
       userRating: 4.25,
-      userReadAtText: "Oct 29, 2026",
       userDateCreatedDay: "2026-10-21",
       userExclusiveShelf: "read",
       numPages: "534",
@@ -245,10 +243,9 @@ describe("a full run", () => {
       userExclusiveShelf: "on-deck",
       averageRating: "5.0",
     });
-    // a read date with no day, and no ISBN
+    // no ISBN
     expect(byReview.get("8977513831")).toMatchObject({
       isbn: "",
-      userReadAtText: "Oct 2026",
     });
   });
 
@@ -606,10 +603,6 @@ function editRow(
   return list;
 }
 
-/** The index in the real list of the saved row with this review id. */
-const savedIndex = (reviewId: string) =>
-  savedRows.findIndex((row) => row.reviewId === reviewId);
-
 describe("rows", () => {
   test("a book not yet published can't be rated: its rating is 0", async () => {
     // markup as on the real page 2 (Six Math Essentials)
@@ -621,20 +614,6 @@ describe("rows", () => {
     );
     const { published } = await run(fakeGoodreads(list));
     expect(published?.items[0]?.userRating).toBe(0);
-  });
-
-  test("a book read more than once keeps the newest read date, shown first", async () => {
-    const list = editRow(realList(), savedIndex("9043895547"), (html) =>
-      html.replace(
-        '<span class="date_read_value">Oct 29, 2026</span>',
-        '<span class="date_read_value">Oct 29, 2026</span></div><div><span class="date_read_value">Mar 2019</span>',
-      ),
-    );
-    const { published } = await run(fakeGoodreads(list));
-    const debt = published?.items.find(
-      (item) => item.reviewId === "9043895547",
-    );
-    expect(debt?.userReadAtText).toBe("Oct 29, 2026");
   });
 });
 

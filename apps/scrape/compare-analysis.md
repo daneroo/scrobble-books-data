@@ -8,8 +8,8 @@ Status per group: **accepted** (reason checked against data), **open** (needs a
 decision), **fix** (the comparison or mapping must change).
 
 Current compare (with the date rule): 130 explained date differences, 1022
-unexplained fields in 549 books. Open: `userDateAdded` 58 (section 5) and
-`bookDescription` 25 (section 6). Everything else is accepted.
+unexplained fields in 549 books. Open: `userDateAdded` 58 (section 5).
+Everything else is accepted.
 
 ## 1. Books: changed, new, moved
 
@@ -135,46 +135,58 @@ Results:
 - In compare: the 128 are explained (2 after the cutoff, 126 timeline event);
   the 58 are listed as unexplained. Status: **open** (the 58).
 
-## 6. bookDescription: 25 books (58 before the fixes)
+## 6. bookDescription: 25 books, accepted (58 before the fixes)
 
 Fixed: 13 whitespace-only (trim, S4); 33 links (the reference adds
 `rel="nofollow noopener"` to links without rel; the mapping now does too).
 
-The 25 left: the output is exactly what the book page shows today.
+The 25 left: the output is exactly what the book page shows today. Evidence: the
+differing part of each, "was" (reference) → "now" (output), from
+`apps/scrape/compare.txt`, shown to the user in full before the decision.
 
-- **Rewritten or reformatted on Goodreads** (new blurbs, `<b>` wrappers,
-  spacing), 15:
-  - 1873
-  - The Nerd Reich
-  - The Last Contract of Isako
-  - The Proof in the Code
-  - Beyond the Quantum
-  - American Happiness and Discontents
-  - Writing to Learn
-  - Asteroid Hunters
-  - The Beauty of Falling
-  - The Equation That Couldn't Be Solved
-  - Adventures in Group Theory
-  - The Tragedy of Liberation
-  - Market Tremors
-  - Practical NATS
-  - A Short Border Handbook
-- **Description now in another language on the page**, 2:
-  - The Everlasting (Spanish)
-  - The Sword of Kaigen (Italian)
-- **Link or image shown differently** (the page has a bare or shortened URL, no
-  link, or "[image]"), 7:
-  - What Is a Quantum Field Theory?
-  - Encyclopedia of Mathematical Physics
-  - Quantum Paradoxes
-  - Covariant Loop Quantum Gravity
-  - Paperless
-  - The Hope of Elantris
-  - Why We Get Fat
-- **`http://` on a Goodreads link where the reference has `https://`**, 1:
-  - The Pillars of the Earth
+- **Text added, rewritten or reformatted on Goodreads**, 15:
+  - 1873 (241125423): adds " • Named a Best Book of the Year by Publishers
+    Weekly".
+  - The Nerd Reich (244382759): the opening quote changed ("This transfixing
+    debut…" → "A haunting picture of the political project…").
+  - The Last Contract of Isako (123163998): "from the author of the modern
+    fantasy classic Jade City" removed.
+  - The Proof in the Code (241374208): adds "One of Publishers Weekly's Best
+    Books of 2026".
+  - Beyond the Quantum (232967492): adds "MP3 CD Format"; text in bold.
+  - American Happiness and Discontents (57094553): same text, now in bold.
+  - Writing to Learn (585474): one sentence → that sentence in bold plus a
+    longer description.
+  - Asteroid Hunters (30753762): same text, now in bold.
+  - The Beauty of Falling (199701467): same text, now in bold.
+  - The Equation That Couldn't Be Solved (233873): spacing around line breaks.
+  - Adventures in Group Theory (4996537): a space → a paragraph break.
+  - The Tragedy of Liberation (17287091): bold, and the cited title in italics.
+  - Market Tremors (59015075): a double space → a paragraph break.
+  - Practical NATS (40531754): "Practical NATS" in italics.
+  - A Short Border Handbook (3161679): wrapped in a double bold tag.
+- **Description now in another language**, 2. Both shelved editions are English
+  editions (book page language: English); the wrong-language text is Goodreads'
+  data. The user chose not to switch editions:
+  - The Everlasting (225699786, Tor Books hardcover): English → Spanish.
+  - The Sword of Kaigen (41886271, Kindle edition): English → Italian.
+- **Link or image in the reference, plain text on the page now**, 7:
+  - What Is a Quantum Field Theory? (59143221): link →
+    "michel.talagrand.net/erratum.pdf".
+  - Encyclopedia of Mathematical Physics (1112346): link →
+    "www.info.sciencedirect.com".
+  - Quantum Paradoxes (784381): link → "www.wiley-vch.de/supplements/".
+  - Covariant Loop Quantum Gravity (22575601): link → a shortened URL ending
+    "...".
+  - Paperless (13641406): link → a shortened URL ending "...".
+  - The Hope of Elantris (10852065): "annotation" link → the word only.
+  - Why We Get Fat (8727466): an `<img>` → the text "[image]".
+- **Protocol**, 1:
+  - The Pillars of the Earth (5043): a Goodreads link `https://` → `http://`.
 
-Status: **open**, awaiting the user's acceptance.
+Status: **accepted, all 25** (user, 2026-11-02, after reviewing the list above).
+`goodreads-rss.json` publishes what the book page shows today; 2 books get a
+non-English blurb and 7 lose a link or image.
 
 ## 7. description: 532 books
 
@@ -203,6 +215,6 @@ code:
   shelves 2, and the link and cover header 4 (the 2 switched books, the 2
   renamed titles). Nothing else differs.
 
-Not checked against the reference: the `goodreads.json` fields that are not
-mapped into `goodreads-rss.json` (the timeline, `userReadAtText`, the fractional
-rating). Only CUE and zod check them.
+Not checked against the reference: the `goodreads.json` data that is not mapped
+into `goodreads-rss.json` (the timeline, apart from the finish dates that now
+give `userReadAt`, and the fractional rating). Only CUE and zod check them.

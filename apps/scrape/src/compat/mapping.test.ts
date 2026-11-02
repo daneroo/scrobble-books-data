@@ -6,6 +6,7 @@ import type { Item } from "../goodreads.ts";
 import {
   FEED_TITLE,
   readAt,
+  timelineDay,
   toCompat,
   withRel,
   toCompatItem,
@@ -34,7 +35,6 @@ const dominion: Item = {
     "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1550694436l/43885149._SY75_.jpg",
   isbn: "0465093507",
   userRating: 5,
-  userReadAtText: "Apr 04, 2021",
   userDateCreatedDay: "2021-03-25",
   userExclusiveShelf: "read",
   averageRating: "4.3",
@@ -45,7 +45,17 @@ const dominion: Item = {
     "This thoughtful and sweeping retelling of the West's cultural heritage leaves me with more questions than answers, as I suspect is it's insight.<br />Well worth the read.",
   bookDescription: byBook("43885149").bookDescription,
   authorName: "Tom Holland",
-  timeline: [],
+  // the real timeline: the read date is its "Finished Reading"
+  timeline: [
+    { dateText: "March 25, 2021", event: "Shelved as: to-read" },
+    { dateText: "March 25, 2021", event: "Shelved" },
+    { dateText: "March 30, 2021", event: "Shelved as: on-deck" },
+    { dateText: "April 1, 2021", event: "Started Reading" },
+    { dateText: "April 1, 2021", event: "17.0%" },
+    { dateText: "April 2, 2021", event: "50.0%" },
+    { dateText: "April 3, 2021", event: "76.0%" },
+    { dateText: "April 4, 2021", event: "Finished Reading" },
+  ],
 };
 
 describe("toCompatItem", () => {
@@ -126,16 +136,60 @@ describe("bookDescription links", () => {
 
 describe("dates and years", () => {
   test.each([
-    ["Oct 24, 2026", "2026-10-24T00:00:00.000Z"],
-    ["Oct 2026", "2026-10-01T00:00:00.000Z"],
-    ["2026", "2026-01-01T00:00:00.000Z"],
-    ["", ""],
-  ])("read date %p → %p", (text, iso) => {
-    expect(readAt(text)).toBe(iso);
+    ["October 23, 2026", "2026-10-23"],
+    ["April 4, 2021", "2021-04-04"],
+    ["February, 1997", "1997-02-01"],
+    ["2021", "2021-01-01"],
+  ])("timeline date %p → %p", (text, day) => {
+    expect(timelineDay(text)).toBe(day);
   });
 
-  test("a read date in another format throws", () => {
-    expect(() => readAt("24/10/2026")).toThrow("read date not understood");
+  test("a timeline date in another format throws", () => {
+    expect(() => timelineDay("24/10/2026")).toThrow(
+      "timeline date not understood",
+    );
+  });
+
+  // the "Finished Reading" rows of real timelines
+  test("read date: the latest dated Finished Reading (Dune, read twice)", () => {
+    expect(
+      readAt([
+        { dateText: "", event: "Finished Reading (Paperback Edition)" },
+        { dateText: "January 2, 2020", event: "Finished Reading" },
+        { dateText: "March 7, 2024", event: "Finished Reading" },
+      ]),
+    ).toBe("2024-03-07T00:00:00.000Z");
+  });
+
+  test("read date: an (… Edition) entry is not counted, even if later (Helgoland)", () => {
+    expect(
+      readAt([
+        { dateText: "2021", event: "Finished Reading" },
+        {
+          dateText: "July 6, 2021",
+          event: "Finished Reading (Hardcover Edition)",
+        },
+      ]),
+    ).toBe("2021-01-01T00:00:00.000Z");
+  });
+
+  test("read date: a missing day is 01 (Bridge of Birds)", () => {
+    expect(
+      readAt([
+        { dateText: "", event: "Finished Reading" },
+        { dateText: "February, 1997", event: "Finished Reading" },
+      ]),
+    ).toBe("1997-02-01T00:00:00.000Z");
+  });
+
+  test('read date: "" with no dated Finished Reading', () => {
+    expect(readAt([{ dateText: "", event: "Finished Reading" }])).toBe("");
+    expect(
+      readAt([
+        { dateText: "August 31, 2026", event: "Shelved as: on-deck" },
+        { dateText: "August 31, 2026", event: "Shelved" },
+      ]),
+    ).toBe("");
   });
 
   test.each([

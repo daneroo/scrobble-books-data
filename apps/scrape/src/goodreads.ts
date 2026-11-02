@@ -19,9 +19,7 @@ export const EXCLUSIVE_SHELVES = [
 export type ExclusiveShelf = (typeof EXCLUSIVE_SHELVES)[number];
 
 const MONTH = "(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)";
-/** "Oct 24, 2026", "Oct 2026" or "2026", as the list page shows a date. */
-const PAGE_DATE = new RegExp(`^(${MONTH} (\\d{2}, )?)?\\d{4}$`);
-/** A publication date: a page date, or a bare year, which may be BC. */
+/** A publication date: "Oct 24, 2026", "Oct 2026", "2026", or a bare year, which may be BC. */
 const PUBLISHED = new RegExp(
   `^((${MONTH} (\\d{2}, )?)?\\d{4}|-?\\d{1,4}|unknown)$`,
 );
@@ -58,8 +56,6 @@ export const ListItem = z.strictObject({
   isbn: z.string().regex(/^([0-9X]{10}|[0-9X]{13})?$/),
   /** Fractional, as rated: 4.25, 4.5; 0 is unrated. */
   userRating: z.number().min(0).max(5),
-  /** The newest read date as shown ("Oct 24, 2026", "Oct 2026", "2026"); `""` when not set. */
-  userReadAtText: z.union([z.literal(""), z.string().regex(PAGE_DATE)]),
   /** The day the book was added, `YYYY-MM-DD` (a US Pacific calendar day). */
   userDateCreatedDay: z.iso.date(),
   userExclusiveShelf: z.enum(EXCLUSIVE_SHELVES),
