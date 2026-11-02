@@ -5,48 +5,36 @@ import { flowSettings } from "./settings.ts";
 
 describe("flow settings", () => {
   test("the defaults are concurrency 2 and at most 2 requests/s", () => {
-    expect(flowSettings([], {})).toEqual({ concurrency: 2, ratePerSecond: 2 });
+    expect(flowSettings([])).toEqual({ concurrency: 2, ratePerSecond: 2 });
   });
 
-  test("the environment sets them", () => {
-    expect(
-      flowSettings([], { SCRAPE_CONCURRENCY: "3", SCRAPE_RATE: "0.5" }),
-    ).toEqual({ concurrency: 3, ratePerSecond: 0.5 });
-  });
-
-  test("the command line wins over the environment", () => {
-    expect(
-      flowSettings(["--concurrency", "1", "--rate=4"], {
-        SCRAPE_CONCURRENCY: "3",
-        SCRAPE_RATE: "0.5",
-      }),
-    ).toEqual({ concurrency: 1, ratePerSecond: 4 });
+  test("the command line sets them", () => {
+    expect(flowSettings(["--concurrency", "1", "--rate=4"])).toEqual({
+      concurrency: 1,
+      ratePerSecond: 4,
+    });
   });
 
   test("other arguments are left alone", () => {
-    expect(flowSettings(["--pages", "2", "-c", "3"], {})).toEqual({
+    expect(flowSettings(["--pages", "2", "-c", "3"])).toEqual({
       concurrency: 3,
       ratePerSecond: 2,
     });
   });
 
   test("rate none means no cap", () => {
-    expect(flowSettings(["--rate", "none"], {}).ratePerSecond).toBeNull();
-    expect(flowSettings([], { SCRAPE_RATE: "none" }).ratePerSecond).toBeNull();
+    expect(flowSettings(["--rate", "none"]).ratePerSecond).toBeNull();
   });
 
   /** The error `flowSettings` throws; fails the test if it returns. */
-  function badConfig(
-    argv: string[],
-    env: Record<string, string> = {},
-  ): FlowFailure {
+  function badConfig(argv: string[]): FlowFailure {
     try {
-      flowSettings(argv, env);
+      flowSettings(argv);
     } catch (error) {
       if (error instanceof FlowFailure) return error;
       throw error;
     }
-    throw new Error(`no error for ${JSON.stringify({ argv, env })}`);
+    throw new Error(`no error for ${JSON.stringify(argv)}`);
   }
 
   test.each([
@@ -65,12 +53,5 @@ describe("flow settings", () => {
     const error = badConfig(argv);
     expect(error.mode).toBe("bad-config");
     expect(error.message).toContain(argv[0]!.slice(2));
-  });
-
-  test("a malformed environment value is bad-config, naming the variable", () => {
-    const error = badConfig([], { SCRAPE_CONCURRENCY: "3x" });
-    expect(error.mode).toBe("bad-config");
-    expect(error.message).toContain("SCRAPE_CONCURRENCY");
-    expect(error.message).toContain('"3x"');
   });
 });

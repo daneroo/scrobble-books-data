@@ -122,7 +122,7 @@ The commit history of the published files is the best evidence of what worked.
   - _Was:_ ng fetched list pages one at a time (`goodreads/rss.ts:33-45`) and
     used `p-limit` only for review pages.
 - **P2 · change.** A concurrency limit (max requests in flight), set from the
-  CLI or the environment.
+  CLI only (no env vars).
   - _Was:_ ng `p-limit`, CLI `-c` only, default 3 (`index.ts:96,115-117`).
 - **P3 · change.** Concurrency `1` is strictly sequential, through the same code
   path.
@@ -130,7 +130,7 @@ The commit history of the published files is the best evidence of what worked.
     (`goodreads/fetchReadingProgress.ts:35-42,55-56`).
   - _Why:_ the same fallback, without a second implementation to keep in sync.
 - **P4 · change.** A rate cap (a minimum interval between request starts), from
-  the CLI or the environment.
+  the CLI only (no env vars).
   - _Was:_ deno slept ≥ 1 s before every request (`fetcherXML.ts:11-12`); ng had
     no cap.
   - _Why:_ deno's pacing is part of what made it reliable. Concurrency alone
