@@ -41,11 +41,12 @@ branch `23-replace-rss-scrapers` (no other branches).
 A bun workspace; the root holds only tooling, agent and docs files, and the
 published data.
 
-- `apps/` — scrapers. `scrape-deno`, `scrape-ng` (bun) and `scrape-browser`
-  (Playwright prototype) are read-only references: outside the workspace and
-  excluded from the gate.
+- `apps/` — scrapers. `scrape` is the new scraper. `scrape-deno`, `scrape-ng`
+  (bun) and `scrape-browser` (Playwright prototype) are read-only references:
+  outside the workspace and excluded from the gate.
 - `cue/` — schema checks for the outputs (`check-output.cue`), with examples
-- `.github/workflows/` — `scrape.yml` (scrape), `unit.yml` (CI: `bun run ci`)
+- `.github/workflows/` — `scrape.yml` (scrape), `unit.yml` (CI: `bun run ci`),
+  `login-test.yml` (manual: headless login + one list page; writes nothing)
 - `docs/` — lasting reference (agents, ADRs)
 - `thoughts/BACKLOG.md` — idea inbox; other `thoughts/` files are temporary
 - `data/` — gitignored, volatile (outputs, scratch)

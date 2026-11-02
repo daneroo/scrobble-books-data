@@ -1,0 +1,38 @@
+name: Login test
+
+# Manual only. Logs in to Goodreads headless and fetches one signed-in list
+# page, to find out whether login works from GitHub's datacenter IPs.
+# Writes and commits nothing, and uploads no artifacts (the repo is public).
+# Locally: `bun run act:login-test`.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  login-test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version-file: package.json
+
+      - name: Install dependencies
+        run: bun install --frozen-lockfile
+
+      - name: Install the Playwright browser
+        run: bun x playwright install --with-deps --only-shell chromium
+        working-directory: apps/scrape
+
+      - name: Log in and fetch one list page
+        run: bun run login-test
+        working-directory: apps/scrape
+        env:
+          # GOODREADS_USERNAME is the sign-in email; GOODREADS_USER is the
+          # numeric user id in list URLs.
+          GOODREADS_USERNAME: ${{ secrets.GOODREADS_USERNAME }}
+          GOODREADS_PASSWORD: ${{ secrets.GOODREADS_PASSWORD }}
+          GOODREADS_USER: ${{ secrets.GOODREADS_USER }}

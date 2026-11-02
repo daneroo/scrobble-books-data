@@ -1,0 +1,11 @@
+{
+  "name": "scrape",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "login-test": "bun src/login-test.ts"
+  },
+  "dependencies": {
+    "playwright": "1.64.1"
+  }
+}

@@ -24,6 +24,7 @@
     "outdated:fix": "bun update -i -r",
     "act:unit": "act -j unit --container-architecture linux/amd64",
     "act:scrape": "act -j scrape --secret-file secrets/GITHUB.env --container-architecture linux/amd64",
+    "act:login-test": "act workflow_dispatch -j login-test --secret-file secrets/GITHUB.env --container-architecture linux/amd64",
     "git:log": "echo 'Recent Scraping Commits'; git log | grep 'Latest book data' | cut -c22-31 | uniq -c | head -n 10; echo 'git pull?'"
   },
   "devDependencies": {
