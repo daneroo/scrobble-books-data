@@ -2,6 +2,34 @@
   "userFullName": "Daniel Lauzon",
   "items": [
     {
+      "reviewId": "9073338679",
+      "title": "A Trade of Blood (Ana and Din Mysteries, #3)",
+      "bookId": "102615935",
+      "bookURL": "https://www.goodreads.com/book/show/102615935-a-trade-of-blood",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1775157169l/102615935._SY75_.jpg",
+      "isbn": "",
+      "userRating": 0,
+      "userAddedDay": "2026-11-02",
+      "userExclusiveShelf": "on-deck",
+      "workAverageRating": "4.5",
+      "workPublishedText": "Aug 04, 2026",
+      "numPages": "400",
+      "reviewPageDay": "2026-11-02",
+      "userReview": "",
+      "bookDescription": "An Ana and Din Mystery<br /><br /><b>Brilliant detective Ana Dolabra must prove a man's innocence to stop a civil war in the third book of the series that began with <i>The Tainted Cup</i>, named an Edgar, Hugo, and World Fantasy Award Finalist and one of the best books of the year (<i>New York Times Book Review</i>, NPR, <i>Elle</i>)—from the bestselling author of The Founders Trilogy.</b><br /><br />In the canton of Sapirdad, two of the Empire’s most powerful families are moments away from going to war with each other, their hundreds of retainers gathered with swords drawn. If blood is spilt, the whole of the empire may be plunged into starvation and chaos.<br /><br />To de-escalate matters, someone must do the impossible: prove that one family’s eldest son is innocent of a gruesome and unforgivable murder, despite the incontrovertible evidence against him.<br /><br />It is with this undertaking that the great detective Ana Dolabra is tasked, her assistant Din at her side—and the two find themselves racing with great speed and little dignity to the scene.<br /><br />As ever, the impossible proves little obstacle for the deadly combination of Ana’s intellect and Din’s keen eye, and mere hours after riding into the dusty town, Ana glimpses the greater pattern behind the crime. A deeper, subtler web of death is being woven in plain sight, by a mastermind with an ancient magical technology at his disposal.<br /><br />But even Ana's uncanny insight is of little use when each new suspect she uncovers ends up dead--with each new killing calculated to bring tensions between the two rival clans past the boiling point. And as Din pursues their adversary through the canton's wild ranges, sprawling ranches, and reeking slaughterhouses, he finds his loyalties divided in unexpected ways.",
+      "authorName": "Robert Jackson Bennett",
+      "timeline": [
+        {
+          "dateText": "November 2, 2026",
+          "event": "Shelved as: on-deck"
+        },
+        {
+          "dateText": "November 2, 2026",
+          "event": "Shelved"
+        }
+      ]
+    },
+    {
       "reviewId": "7669190082",
       "title": "The Cambridge History of the Polar Regions",
       "bookId": "78278039",
