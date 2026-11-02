@@ -1,17 +1,27 @@
 {
   // Single source for markdownlint-cli2: rule config + behavior in one file.
   // Adapted from prosodio. The prettier-compatible preset disables rules that
-  // conflict with prettier (line length, list/indent style, etc.); prettier is
-  // not set up here yet, but will own spacing and wrapping when it is.
-  // markdownlint catches the structural problems prettier does not (e.g.
-  // duplicate headings, bare URLs, unlabeled fences).
-  // gitignore: true makes globbing skip node_modules, data/, .pnpm-store/.
+  // conflict with prettier (line length, list/indent style, etc.); prettier
+  // owns spacing and wrapping. markdownlint catches the structural problems
+  // prettier does not (e.g. duplicate headings, bare URLs, unlabeled fences).
+  // gitignore: true makes globbing skip node_modules and data/.
   "gitignore": true,
   // Vendored agent skills — installed by `npx skills`, hash-pinned in
   // skills-lock.json; not ours to lint. .claude/skills/* are symlinks into
   // .agents/skills/, which globbing follows, so ignore both paths.
-  "ignores": [".agents/**", ".claude/skills/**"],
+  // The old scrapers are read-only references, not part of the gate.
+  "ignores": [
+    ".agents/**",
+    ".claude/skills/**",
+    "apps/scrape-deno/**",
+    "apps/scrape-ng/**",
+    "apps/scrape-browser/**",
+  ],
   "config": {
+    // The preset ships in the `markdownlint` package, so it is a direct root
+    // devDependency: Bun's isolated install doesn't hoist transitive deps.
+    // Pin it to the exact version markdownlint-cli2 depends on (see
+    // bun.lock); bump both together.
     "extends": "markdownlint/style/prettier",
   },
 }

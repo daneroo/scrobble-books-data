@@ -2,8 +2,8 @@
 secrets/*
 !secrets/README.md
 
-# Don't check these in, some of them change every run
+# volatile local outputs / scratch (some of them change every run)
 data/
+
+# dependencies (bun install)
 node_modules/
-# for the devcontainer
-.pnpm-store/

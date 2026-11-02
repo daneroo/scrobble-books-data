@@ -1,0 +1,22 @@
+# Generated artifacts — do not reformat.
+bun.lock
+
+# Published data, written by the scrape workflow (and the dated reference
+# copy, which must stay byte-identical): formatting them is corruption.
+/goodreads*.json
+
+# Vendored agent skills — installed by `npx skills`, hash-pinned in
+# skills-lock.json; reformatting drifts them from upstream. .claude/skills/*
+# are symlinks into .agents/skills/.
+.agents/
+.claude/skills/
+skills-lock.json
+
+# Old scrapers: read-only references, not part of the gate.
+apps/scrape-deno/
+apps/scrape-ng/
+apps/scrape-browser/
+
+# CUE example files are samples of the published data, kept as the scraper
+# wrote them.
+cue/*-example.json

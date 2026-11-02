@@ -3,7 +3,8 @@
 Canonical instructions for agents and humans. `CLAUDE.md` points here.
 
 scrobble-books-data scrapes Goodreads reading data on a GitHub Actions schedule
-and commits the JSON outputs (`goodreads-rss*.json`) to `main`.
+and commits the JSON outputs (`goodreads-rss.json` and the two
+`goodreads-rss-ng*.json` files) to `main`.
 
 ## Git
 
@@ -14,16 +15,23 @@ and commits the JSON outputs (`goodreads-rss*.json`) to `main`.
 
 ## Quality
 
-- `bunx markdownlint-cli2 "**/*.md"` — after editing markdown
-- TODO: replace with script targets (bun or just), one gate (`ci`) covering
-  source + markdown lint/format, tests, and CUE validation, as in prosodio
+- `bun run ci` — after every edit, before every commit: format check (Prettier),
+  ESLint, markdownlint, `tsc`, `bun test`, CUE on the example files
+- `bun run fmt` — fix formatting when `ci` fails
 
 ## Layout
 
-- `apps/` — scrapers: `scrape` (deno, legacy), `scrape-ng` (bun),
-  `scrape-browser` (Playwright prototype)
-- `cue/` — schema checks for the outputs (`check-output.cue`)
-- `.github/workflows/` — `scrape.yml` (scheduled scrape), `unit.yml` (CI)
+A bun workspace; the root holds only tooling, agent and docs files, and the
+published data.
+
+- `apps/` — scrapers. `scrape-deno`, `scrape-ng` (bun) and `scrape-browser`
+  (Playwright prototype) are read-only references: outside the workspace and
+  excluded from the gate.
+- `cue/` — schema checks for the outputs (`check-output.cue`), with examples
+- `.github/workflows/` — `scrape.yml` (scrape), `unit.yml` (CI: `bun run ci`)
+- `docs/` — lasting reference (agents, ADRs)
+- `thoughts/BACKLOG.md` — idea inbox; other `thoughts/` files are temporary
+- `data/` — gitignored, volatile (outputs, scratch)
 
 ## Agent skills
 

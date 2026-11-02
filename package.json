@@ -1,19 +1,42 @@
 {
   "name": "scrobble-books-data",
-  "version": "1.0.0",
-  "description": "",
+  "type": "module",
+  "private": true,
+  "packageManager": "bun@1.4.4",
+  "workspaces": [
+    "packages/*",
+    "apps/*",
+    "!apps/scrape-deno",
+    "!apps/scrape-ng",
+    "!apps/scrape-browser"
+  ],
   "scripts": {
-    "build": "pnpm -r build",
-    "test": "pnpm -r test",
-    "lint": "pnpm -r lint",
-    "deps:check": "pnpm -r deps:check",
-    "deps:update": "pnpm -r deps:update",
+    "test": "bun test --pass-with-no-tests",
+    "check": "tsc --noEmit",
+    "fmt": "prettier --write .",
+    "fmt:check": "prettier --check .",
+    "lint": "bun run lint:js && bun run lint:md",
+    "lint:js": "eslint .",
+    "lint:md": "markdownlint-cli2 \"**/*.md\"",
+    "cue": "cd cue && cue vet check-output.cue goodreads-rss-example.json goodreads-rss-ng-example.json",
+    "ci": "bun run fmt:check && bun run lint && bun run check && bun run test && bun run cue",
+    "outdated": "bun outdated -r",
+    "outdated:fix": "bun update -i -r",
     "act:unit": "act -j unit --container-architecture linux/amd64",
     "act:scrape": "act -j scrape --secret-file secrets/GITHUB.env --container-architecture linux/amd64",
-    "git:log": "echo 'Recent Scraping Commits' ;git log|grep 'Latest book data' | cut -c22-31 | uniq -c |head -n 10; echo 'git pull?'"
+    "git:log": "echo 'Recent Scraping Commits'; git log | grep 'Latest book data' | cut -c22-31 | uniq -c | head -n 10; echo 'git pull?'"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "packageManager": "pnpm@9.12.1+sha512.e5a7e52a4183a02d5931057f7a0dbff9d5e9ce3161e33fa68ae392125b79282a8a8a470a51dfc8a0ed86221442eb2fb57019b0990ed24fab519bf0e1bc5ccfc4"
+  "devDependencies": {
+    "@eslint/js": "10.0.1",
+    "@types/bun": "1.4.4",
+    "eslint": "10.14.0",
+    "markdownlint": "0.42.0",
+    "markdownlint-cli2": "0.24.0",
+    "prettier": "3.9.10",
+    "typescript": "6.0.3",
+    "typescript-eslint": "8.72.1"
+  },
+  "prettier": {
+    "proseWrap": "always"
+  }
 }
