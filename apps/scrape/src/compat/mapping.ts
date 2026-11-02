@@ -55,6 +55,8 @@ export function toCompat(goodreads: Goodreads): Compat {
  * - dates as `YYYY-MM-DDT00:00:00.000Z`: the time of day is not on any page
  *   (an approved difference), and a missing month or day is `01`;
  * - `userShelves`: `""` for read, otherwise the exclusive shelf;
+ * - `bookDescription`: as stored, with `rel="nofollow noopener"` on every
+ *   link that has no `rel`, as the RSS had;
  * - `bookPublished`: the year, `""` when unknown;
  * - `description`: the RSS's HTML summary, rebuilt from these fields.
  */
@@ -66,7 +68,7 @@ export function toCompatItem(item: Item, userFullName: string): CompatItem {
     link,
     bookId: item.bookId,
     bookImageURL: item.bookImageURL,
-    bookDescription: item.bookDescription,
+    bookDescription: withRel(item.bookDescription),
     authorName: item.authorName,
     isbn: item.isbn,
     userName: userFullName.split(" ")[0]!,
@@ -156,6 +158,19 @@ export function year(text: string): string {
   if (match === null)
     throw new Error(`publication date not understood: ${JSON.stringify(text)}`);
   return match[1]!;
+}
+
+/**
+ * Adds ` rel="nofollow noopener"` to every `<a …>` tag that has no `rel`, as
+ * the RSS did: it makes 33 books' descriptions equal the reference, and
+ * changes none that already did (#31).
+ */
+export function withRel(html: string): string {
+  return html.replace(/<a\b([^>]*)>/g, (tag, attributes: string) =>
+    /\brel=/.test(attributes)
+      ? tag
+      : `<a${attributes} rel="nofollow noopener">`,
+  );
 }
 
 /** As the RSS escaped the title in `alt`. */

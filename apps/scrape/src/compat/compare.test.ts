@@ -1,6 +1,12 @@
 import { describe, expect, test } from "bun:test";
 
-import { compare, identical, listDifferences, summarize } from "./compare.ts";
+import {
+  compare,
+  identical,
+  listDifferences,
+  pacificDay,
+  summarize,
+} from "./compare.ts";
 import type { Compat, CompatItem } from "./mapping.ts";
 
 const item = (
@@ -18,8 +24,8 @@ const item = (
   userName: "Daniel",
   userRating: "0",
   userReadAt: "",
-  userDateAdded: "2026-10-01T00:00:00.000Z",
-  userDateCreated: "2026-10-01T00:00:00.000Z",
+  userDateAdded: "2026-10-01T19:00:00.000Z",
+  userDateCreated: "2026-10-01T19:00:00.000Z",
   userShelves: "to-read",
   userReview: "",
   averageRating: "4.0",
@@ -102,6 +108,55 @@ describe("compare", () => {
       file(...["4", "1", "2", "3", "5"].map((id) => item(id))),
     );
     expect(moved.moved).toEqual([{ bookId: "4", title: "Book 4" }]);
+  });
+
+  test("the two dates are compared by their America/Los_Angeles day, not the time", () => {
+    // Debt in the reference: 06:58 UTC is 23:58 the day before in Pacific time
+    const ref = file(
+      item("1", {
+        userDateAdded: "2026-10-27T06:58:07.000Z",
+        userDateCreated: "2026-10-21T20:24:32.000Z",
+      }),
+    );
+    const sameDays = compare(
+      ref,
+      file(
+        item("1", {
+          userDateAdded: "2026-10-26T00:00:00.000Z",
+          userDateCreated: "2026-10-21T00:00:00.000Z",
+        }),
+      ),
+    );
+    expect(sameDays.differences).toEqual([]);
+
+    const otherDay = compare(
+      ref,
+      file(
+        item("1", {
+          userDateAdded: "2026-10-29T00:00:00.000Z",
+          userDateCreated: "2026-10-21T00:00:00.000Z",
+        }),
+      ),
+    );
+    expect(otherDay.differences).toEqual([
+      {
+        bookId: "1",
+        title: "Book 1",
+        field: "userDateAdded",
+        reference: "2026-10-26 (2026-10-27T06:58:07.000Z)",
+        output: "2026-10-29 (2026-10-29T00:00:00.000Z)",
+      },
+    ]);
+  });
+
+  test("daylight saving time: −7 in summer, −8 in winter, by the named zone", () => {
+    // 07:30 UTC: 00:30 Pacific in summer (PDT, −7), 23:30 the day before in
+    // winter (PST, −8); a fixed −7 would put the winter one on the 15th
+    expect(pacificDay("2026-07-15T07:30:00.000Z")).toBe("2026-07-15");
+    expect(pacificDay("2026-01-15T07:30:00.000Z")).toBe("2026-01-14");
+    // the switch back to PST, 2026-11-01 at 09:00 UTC
+    expect(pacificDay("2026-11-01T07:30:00.000Z")).toBe("2026-11-01");
+    expect(pacificDay("2026-11-02T07:30:00.000Z")).toBe("2026-11-01");
   });
 
   test("a field present on one side only is listed as absent", () => {

@@ -7,6 +7,7 @@ import {
   FEED_TITLE,
   readAt,
   toCompat,
+  withRel,
   toCompatItem,
   year,
   type CompatItem,
@@ -93,6 +94,33 @@ describe("toCompatItem", () => {
     expect(got.description).toContain(
       'alt="Tom &amp; Jerry&#39;s &quot;Best&quot; &lt;1&gt;"',
     );
+  });
+});
+
+describe("bookDescription links", () => {
+  test('a link with no rel gets rel="nofollow noopener", as the RSS had (House of Chains)', () => {
+    expect(
+      withRel(
+        '<i>See <a href="https://www.goodreads.com/book/show/29081573-house-of-chains">here</a>.</i>',
+      ),
+    ).toBe(
+      '<i>See <a href="https://www.goodreads.com/book/show/29081573-house-of-chains" rel="nofollow noopener">here</a>.</i>',
+    );
+  });
+
+  test("a link that has a rel is left as it is; text without links too", () => {
+    const kept =
+      '<a target="_blank" rel="noopener" href="https://example.com">x</a> and <abbr>y</abbr>';
+    expect(withRel(kept)).toBe(kept);
+    expect(withRel("<b>No links</b><br />")).toBe("<b>No links</b><br />");
+  });
+
+  test("goodreads.json keeps the book page's links; only the compatibility file adds rel", () => {
+    const html = '<a href="https://example.com">x</a>';
+    expect(
+      toCompatItem({ ...dominion, bookDescription: html }, "Daniel")
+        .bookDescription,
+    ).toBe('<a href="https://example.com" rel="nofollow noopener">x</a>');
   });
 });
 

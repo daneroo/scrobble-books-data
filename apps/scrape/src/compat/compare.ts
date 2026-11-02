@@ -4,6 +4,13 @@
  * every field exactly. Nothing is tolerated: every difference is listed, to
  * be explained and approved by the user.
  *
+ * One rule, approved in #28 and #31: `userDateCreated` and `userDateAdded`
+ * are compared by day. No page has the time of day, so the output stores the
+ * day shown (a US Pacific day) as `YYYY-MM-DDT00:00:00.000Z`. The reference
+ * timestamp is turned into its America/Los_Angeles day with the named zone
+ * (−7 in summer, −8 in winter, on the right dates; never a fixed offset);
+ * the output's day is its first 10 characters, with no conversion.
+ *
  * Prints a summary, writes every difference to `data/compare.txt`, and exits
  * 1 when there is any difference.
  */
@@ -37,7 +44,23 @@ export interface Comparison {
   differences: Difference[];
 }
 
-/** Compares `output` with `reference`, field by field, exactly. */
+/** Compared by day: no page has the time of day (#28). */
+const BY_DAY = new Set<keyof CompatItem>(["userDateCreated", "userDateAdded"]);
+
+/**
+ * "2026-10-27T06:58:07.000Z" → "2026-10-26": the day in America/Los_Angeles,
+ * by the named zone, so daylight saving time applies on the right dates.
+ */
+export function pacificDay(timestamp: string): string {
+  return new Date(timestamp).toLocaleDateString("en-CA", {
+    timeZone: "America/Los_Angeles",
+  });
+}
+
+/**
+ * Compares `output` with `reference`, field by field, exactly; the two dates
+ * by day.
+ */
 export function compare(reference: Compat, output: Compat): Comparison {
   const outputs = new Map(output.items.map((item) => [item.bookId, item]));
   const references = new Set(reference.items.map((item) => item.bookId));
@@ -49,8 +72,14 @@ export function compare(reference: Compat, output: Compat): Comparison {
     if (out === undefined) continue;
     const fields = new Set([...Object.keys(ref), ...Object.keys(out)]);
     for (const field of fields as Set<keyof CompatItem>) {
-      const was = String(ref[field] ?? "(absent)");
-      const now = String(out[field] ?? "(absent)");
+      let was = String(ref[field] ?? "(absent)");
+      let now = String(out[field] ?? "(absent)");
+      if (BY_DAY.has(field) && was !== "" && now !== "") {
+        // listed as "day (as stored)", so the timestamp stays visible
+        was = `${pacificDay(was)} (${was})`;
+        now = `${now.slice(0, 10)} (${now})`;
+        if (was.slice(0, 10) === now.slice(0, 10)) continue;
+      }
       if (was !== now)
         differences.push({
           bookId: ref.bookId,
