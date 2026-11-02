@@ -3,6 +3,7 @@ import { describe, expect, test } from "bun:test";
 import {
   compare,
   identical,
+  listChanged,
   listDifferences,
   pacificDay,
   summarize,
@@ -83,6 +84,19 @@ describe("compare", () => {
     expect(result.moved).toEqual([]);
     expect(summarize(result)).toContain("missing from the output: 1");
     expect(summarize(result)).toContain("  2 Book 2");
+  });
+
+  test("a missing book and a new one with the same title are a changed bookId", () => {
+    const result = compare(
+      file(item("1"), item("2")),
+      file(item("1"), item("5", { title: "Book 2" })),
+    );
+    expect(result.changed).toEqual([{ from: "2", to: "5", title: "Book 2" }]);
+    expect(listChanged(result)).toEqual([
+      "changed bookIds (same title): 1",
+      "  2 → 5 Book 2",
+    ]);
+    expect(summarize(result)).toContain("  2 → 5 Book 2");
   });
 
   test("a different order or title is a difference", () => {

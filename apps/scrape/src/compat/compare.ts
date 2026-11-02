@@ -37,6 +37,11 @@ export interface Comparison {
   /** In the output, not in the reference. */
   added: { bookId: string; title: string }[];
   /**
+   * Changed bookIds (an edition switch): a missing book and a new one with
+   * the same title.
+   */
+  changed: { from: string; to: string; title: string }[];
+  /**
    * Books in both that moved: the fewest whose removal leaves the rest in
    * the reference's relative order.
    */
@@ -97,18 +102,27 @@ export function compare(reference: Compat, output: Compat): Comparison {
     inBoth,
   ).map(brief);
 
+  const missing = reference.items
+    .filter((item) => !outputs.has(item.bookId))
+    .map(brief);
+  const added = output.items
+    .filter((item) => !references.has(item.bookId))
+    .map(brief);
+  const changed = missing.flatMap(({ bookId, title }) =>
+    added
+      .filter((book) => book.title === title)
+      .map((book) => ({ from: bookId, to: book.bookId, title })),
+  );
+
   return {
     ...(reference.title === output.title
       ? {}
       : { title: { reference: reference.title, output: output.title } }),
     referenceBooks: reference.items.length,
     outputBooks: output.items.length,
-    missing: reference.items
-      .filter((item) => !outputs.has(item.bookId))
-      .map(brief),
-    added: output.items
-      .filter((item) => !references.has(item.bookId))
-      .map(brief),
+    missing,
+    added,
+    changed,
     moved,
     differences,
   };
@@ -158,6 +172,7 @@ export function summarize(comparison: Comparison): string[] {
   for (const { bookId, title } of missing) lines.push(`  ${bookId} ${title}`);
   lines.push(`new in the output: ${added.length}`);
   for (const { bookId, title } of added) lines.push(`  ${bookId} ${title}`);
+  lines.push(...listChanged(comparison));
   lines.push(`moved, among the books in both: ${comparison.moved.length}`);
   for (const { bookId, title } of comparison.moved)
     lines.push(`  ${bookId} ${title}`);
@@ -174,6 +189,16 @@ export function summarize(comparison: Comparison): string[] {
   ))
     lines.push(`  ${field}: ${ids.size} books`);
   return lines;
+}
+
+/** The changed bookIds section: old → new, with the title. */
+export function listChanged(comparison: Comparison): string[] {
+  return [
+    `changed bookIds (same title): ${comparison.changed.length}`,
+    ...comparison.changed.map(
+      ({ from, to, title }) => `  ${from} → ${to} ${title}`,
+    ),
+  ];
 }
 
 /** Every difference, one per line: book, field, reference → output. */
@@ -208,7 +233,14 @@ if (import.meta.main) {
   );
   console.log(`reference: ${referencePath}\noutput:    ${outputPath}`);
   for (const line of summarize(comparison)) console.log(line);
-  await Bun.write(listPath, listDifferences(comparison).join("\n") + "\n");
+  await Bun.write(
+    listPath,
+    [
+      ...listChanged(comparison),
+      "differences:",
+      ...listDifferences(comparison),
+    ].join("\n") + "\n",
+  );
   console.log(`every difference: ${listPath}`);
   process.exitCode = identical(comparison) ? 0 : 1;
 }

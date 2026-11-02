@@ -2,6 +2,64 @@
   "userFullName": "Daniel Lauzon",
   "items": [
     {
+      "reviewId": "7669190082",
+      "title": "The Cambridge History of the Polar Regions",
+      "bookId": "78278039",
+      "bookURL": "https://www.goodreads.com/book/show/78278039-the-cambridge-history-of-the-polar-regions",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1673870952l/78278039._SY75_.jpg",
+      "isbn": "1108429939",
+      "userRating": 0,
+      "userReadAtText": "",
+      "userDateCreatedDay": "2025-06-20",
+      "userExclusiveShelf": "to-read",
+      "averageRating": "5.0",
+      "bookPublishedText": "unknown",
+      "numPages": "850",
+      "userDateAddedDay": "2025-06-20",
+      "userReview": "",
+      "bookDescription": "The Cambridge History of the Polar Regions is a landmark collection drawing together the history of the Arctic and Antarctica from the earliest times to the present. Structured as a series of thematic chapters, an international team of scholars offer a range of perspectives from environmental history, the history of science and exploration, cultural history, and the more traditional approaches of political, social, economic, and imperial history. The volume considers the centrality of Indigenous experience and the urgent need to build action in the present on a thorough understanding of the past. Using historical research based on methods ranging from archives and print culture to archaeology and oral histories, these essays provide fresh analyses of the discovery of Antarctica, the disappearance of Sir John Franklin, the fate of the Norse colony in Greenland, the origins of the Antarctic Treaty, and much more. This is an invaluable resource for anyone interested in the history of our planet.",
+      "authorName": "Adrian Howkins",
+      "timeline": [
+        {
+          "dateText": "June 20, 2025",
+          "event": "Shelved as: to-read"
+        },
+        {
+          "dateText": "June 20, 2025",
+          "event": "Shelved"
+        }
+      ]
+    },
+    {
+      "reviewId": "8557895838",
+      "title": "Saving Byzantium: The Struggle to Salvage an Empire",
+      "bookId": "252111820",
+      "bookURL": "https://www.goodreads.com/book/show/252111820-saving-byzantium",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1778553010l/252111820._SX50_.jpg",
+      "isbn": "",
+      "userRating": 0,
+      "userReadAtText": "",
+      "userDateCreatedDay": "2026-04-28",
+      "userExclusiveShelf": "on-deck",
+      "averageRating": "5.0",
+      "bookPublishedText": "Feb 15, 2026",
+      "numPages": "320",
+      "userDateAddedDay": "2026-04-28",
+      "userReview": "",
+      "bookDescription": "In this compelling, readable and revisionist book, historian Laura Bolick makes a powerful case that the fall of Constantinople, which marked the end of the ancient Roman and Byzantine Empire, was not inevitable, as most historians have argued. Basing her opinion on the activities of two significant Byzantine officials, Iohannes Bessarion and Isidore of Kiev, Laura Bolick analyses the efforts that they made to galvanise the Roman Catholic west into forming a crusade that would defend Constantinople from the encroaching Ottoman Turks. As the book shows, the Byzantine emissaries faced formidable obstacles, notably the strong divisions between Roman Catholic Christianity in the West and Orthodox Christianity in the east. They also had to navigate mutual suspicion and indifference. The book charts their continuing efforts to surmount the difficulties in order to promote a spiritual, cultural, political and military alliance against the Ottomans. Although Constantinople would eventually fall, this book provides a new insight into this momentous period of history and one that is sure to stimulate renewed interest and discussion.",
+      "authorName": "Laura Bolick",
+      "timeline": [
+        {
+          "dateText": "April 28, 2026",
+          "event": "Shelved as: on-deck"
+        },
+        {
+          "dateText": "April 28, 2026",
+          "event": "Shelved"
+        }
+      ]
+    },
+    {
       "reviewId": "9069353168",
       "title": "A Drop of Corruption (Ana and Din Mysteries, #2)",
       "bookId": "213618143",
@@ -5150,35 +5208,6 @@
       ]
     },
     {
-      "reviewId": "8557895838",
-      "title": "Saving Byzantium: The Struggle to Salvage an Empire",
-      "bookId": "229141546",
-      "bookURL": "https://www.goodreads.com/book/show/229141546-saving-byzantium",
-      "bookImageURL": "https://s.gr-assets.com/assets/nophoto/book/50x75-1b903c9eac1b2ba789662c08a0ae41e6.png",
-      "isbn": "139812219X",
-      "userRating": 0,
-      "userReadAtText": "",
-      "userDateCreatedDay": "2026-04-28",
-      "userExclusiveShelf": "on-deck",
-      "averageRating": "5.0",
-      "bookPublishedText": "Feb 15, 2026",
-      "numPages": "320",
-      "userDateAddedDay": "2026-04-28",
-      "userReview": "",
-      "bookDescription": "In this compelling, readable and revisionist book, historian Laura Bolick makes a powerful case that the fall of Constantinople, which marked the end of the ancient Roman and Byzantine Empire, was not inevitable, as most historians have argued. Basing her opinion on the activities of two significant Byzantine officials, Iohannes Bessarion and Isidore of Kiev, Laura Bolick analyses the efforts that they made to galvanise the Roman Catholic west into forming a crusade that would defend Constantinople from the encroaching Ottoman Turks. As the book shows, the Byzantine emissaries faced formidable obstacles, notably the strong divisions between Roman Catholic Christianity in the West and Orthodox Christianity in the east. They also had to navigate mutual suspicion and indifference. The book charts their continuing efforts to surmount the difficulties in order to promote a spiritual, cultural, political and military alliance against the Ottomans. Although Constantinople would eventually fall, this book provides a new insight into this momentous period of history and one that is sure to stimulate renewed interest and discussion.",
-      "authorName": "Laura Bolick",
-      "timeline": [
-        {
-          "dateText": "April 28, 2026",
-          "event": "Shelved as: on-deck"
-        },
-        {
-          "dateText": "April 28, 2026",
-          "event": "Shelved"
-        }
-      ]
-    },
-    {
       "reviewId": "8471316499",
       "title": "Dust of Dreams (Malazan Book of the Fallen, #9)",
       "bookId": "4703427",
@@ -6322,7 +6351,7 @@
       "userReadAtText": "",
       "userDateCreatedDay": "2026-02-25",
       "userExclusiveShelf": "on-deck",
-      "averageRating": "3.2",
+      "averageRating": "3.3",
       "bookPublishedText": "unknown",
       "numPages": "128",
       "userDateAddedDay": "2026-02-25",
@@ -14071,35 +14100,6 @@
         {
           "dateText": "June 20, 2025",
           "event": "Shelved as: on-deck"
-        }
-      ]
-    },
-    {
-      "reviewId": "7669190082",
-      "title": "The Cambridge History of the Polar Regions",
-      "bookId": "61421309",
-      "bookURL": "https://www.goodreads.com/book/show/61421309-the-cambridge-history-of-the-polar-regions",
-      "bookImageURL": "https://s.gr-assets.com/assets/nophoto/book/50x75-1b903c9eac1b2ba789662c08a0ae41e6.png",
-      "isbn": "1108555659",
-      "userRating": 0,
-      "userReadAtText": "",
-      "userDateCreatedDay": "2025-06-20",
-      "userExclusiveShelf": "to-read",
-      "averageRating": "5.0",
-      "bookPublishedText": "unknown",
-      "numPages": "0",
-      "userDateAddedDay": "2025-06-20",
-      "userReview": "",
-      "bookDescription": "The Cambridge History of the Polar Regions is a landmark collection drawing together the history of the Arctic and Antarctica from the earliest times to the present. Structured as a series of thematic chapters, an international team of scholars offer a range of perspectives from environmental history, the history of science and exploration, cultural history, and the more traditional approaches of political, social, economic, and imperial history. The volume considers the centrality of Indigenous experience and the urgent need to build action in the present on a thorough understanding of the past. Using historical research based on methods ranging from archives and print culture to archaeology and oral histories, these essays provide fresh analyses of the discovery of Antarctica, the disappearance of Sir John Franklin, the fate of the Norse colony in Greenland, the origins of the Antarctic Treaty, and much more. This is an invaluable resource for anyone interested in the history of our planet.",
-      "authorName": "Adrian Howkins",
-      "timeline": [
-        {
-          "dateText": "June 20, 2025",
-          "event": "Shelved as: to-read"
-        },
-        {
-          "dateText": "June 20, 2025",
-          "event": "Shelved"
         }
       ]
     },

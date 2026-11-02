@@ -77,11 +77,20 @@ export async function runScrape(options: RunOptions): Promise<Outcome> {
     const completeness = checkCompleteness(pages);
     log(formatCompleteness(completeness));
     const listItems = pages.flatMap((page) => page.items);
-    const { books: referenceBooks } = await checkReference(
+    const { books: referenceBooks, missing } = await checkReference(
       listItems,
       options.referencePath,
     );
-    log(`every book of the reference is on the list: ${referenceBooks} books`);
+    if (missing.length === 0) {
+      log(
+        `every book of the reference is on the list: ${referenceBooks} books`,
+      );
+    } else {
+      log(
+        `changed bookIds: ${missing.length} of the reference's ${referenceBooks} bookIds are not on the list`,
+      );
+      for (const { bookId, title } of missing) log(`  ${bookId} ${title}`);
+    }
 
     step = "review-pages";
     const reviews = await fetchReviewPages({

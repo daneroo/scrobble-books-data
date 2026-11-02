@@ -40,8 +40,9 @@ Logs in to Goodreads once, fetches every list page (all shelves, 100 books a
 page), checks that every book is there exactly once, then fetches every
 book's review page and checks that its shelf equals the list page's, then
 every book's page (description and author). Until cutover, every book of the
-reference copy (goodreads-rss-ng-2026-10-27T15.37Z.json) must be on the list,
-or the run fails as unexpected-shrink (C6). Writes:
+reference copy (goodreads-rss-ng-2026-10-27T15.37Z.json) is checked against
+the list; a reference bookId not on it is reported, with its title, under
+"changed bookIds" (C6). Writes:
 
   goodreads.json          every book: its list-page fields and its reading
                           timeline, as shown (repo root)

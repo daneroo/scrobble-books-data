@@ -973,22 +973,19 @@ describe("fail-closed, book pages", () => {
 });
 
 describe("C6: every book of the reference is on the list", () => {
-  test("a reference book missing from the list is unexpected-shrink, naming it, before any review page", async () => {
+  test("a reference bookId not on the list is reported with its title, and the run goes on", async () => {
     const reference = [
       ...realList().map(({ bookId }) => ({ bookId, title: `Book ${bookId}` })),
-      { bookId: "999999999", title: "A Removed Book" },
+      { bookId: "999999999", title: "A Switched Edition" },
     ];
-    const fake = fakeGoodreads(realList());
-    const { failure, lines } = await expectFailedClosed(
-      fake,
-      "unexpected-shrink",
-      { reference },
+    const { outcome, lines } = await run(fakeGoodreads(realList()), {
+      reference,
+    });
+    expect(outcome.ok).toBe(true);
+    expect(lines).toContain(
+      "changed bookIds: 1 of the reference's 1451 bookIds are not on the list",
     );
-    expect(failure.step).toBe("checks");
-    expect(failure.detail).toBe(
-      "1 of the reference's 1451 books are missing: 999999999 (A Removed Book)",
-    );
-    expect(fake.reviewRequests).toEqual([]);
+    expect(lines).toContain("  999999999 A Switched Edition");
     expect(lines.join("\n")).not.toContain("every book of the reference");
   });
 
