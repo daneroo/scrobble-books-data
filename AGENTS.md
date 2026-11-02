@@ -16,8 +16,9 @@ and commits the JSON outputs (`goodreads-rss.json` and the two
 
 ## Working on a ticket
 
-Issue #23 is split into sub-issues #24–#33, done in number order on the one
-branch `23-replace-rss-scrapers` (no other branches).
+Issue #23 is split into sub-issues #24–#34, done in number order (except #34,
+which runs after #31 and before #32) on the one branch `23-replace-rss-scrapers`
+(no other branches).
 
 - Start: the user types `/implement #N` on that branch.
 - If a criterion needs the user (an approval, a hand check, a secret, a run),
@@ -45,8 +46,10 @@ published data.
   (bun) and `scrape-browser` (Playwright prototype) are read-only references:
   outside the workspace and excluded from the gate.
 - `cue/` — schema checks for the outputs (`check-output.cue`), with examples
-- `.github/workflows/` — `scrape.yml` (scrape), `unit.yml` (CI: `bun run ci`),
-  `login-test.yml` (manual: headless login + one list page; writes nothing)
+- `.github/workflows/` — `scrape.yml` (old scrape, paused), `unit.yml` (CI:
+  `bun run ci`)
+- `bun run scrape` — the single entry point of the new scraper; options in
+  `bun run scrape --help`
 - `docs/` — lasting reference (agents, ADRs)
 - `thoughts/BACKLOG.md` — idea inbox; other `thoughts/` files are temporary
 - `data/` — gitignored, volatile (outputs, scratch)

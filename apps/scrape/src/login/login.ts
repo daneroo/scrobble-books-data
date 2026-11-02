@@ -1,4 +1,6 @@
-import { chromium, type Page } from "playwright";
+import { join } from "node:path";
+
+import { chromium, type BrowserContext, type Page } from "playwright";
 
 import { classifyPage, type PageState } from "./classify.ts";
 import { failureModeFor, type Failure } from "./failure.ts";
@@ -21,29 +23,69 @@ const SETTLE_TIMEOUT_MS = 30_000;
 const POLL_MS = 500;
 
 /**
- * Logs in to Goodreads through its Amazon sign-in, in a fresh headless
- * browser.
- *
- * After submitting, it waits for the real page's signed-in or signed-out
- * marker: an AWS WAF JavaScript challenge page can come first and clears on
- * its own.
+ * The saved browser profile (gitignored, under `secrets/`). Amazon remembers
+ * a device by it, so reusing it avoids "verify it's you" on every login, and
+ * a still-valid session needs no login at all.
  */
-export async function login(credentials: Credentials): Promise<LoginResult> {
-  const browser = await chromium.launch({ headless: true });
+const PROFILE_DIR = join(
+  import.meta.dir,
+  "../../../../secrets/browser-profile",
+);
+/** How long to wait for the user to sign in by hand. */
+const INTERACTIVE_TIMEOUT_MS = 10 * 60_000;
+
+export interface LoginOptions {
+  /** Open a visible browser and wait for the user to sign in by hand. */
+  interactive?: boolean;
+}
+
+/**
+ * Logs in to Goodreads in a browser that keeps its profile between runs.
+ *
+ * 1. If the saved session is still signed in, it is reused: no login.
+ * 2. Interactive: a visible browser opens on the sign-in page, and the user
+ *    signs in by hand (including any "verify it's you" step).
+ * 3. Otherwise: a headless sign-in through Amazon with the credentials. After
+ *    submitting, it waits for the real page's signed-in or signed-out marker:
+ *    an AWS WAF JavaScript challenge page can come first and clears on its own.
+ */
+export async function login(
+  credentials: Credentials,
+  { interactive = false }: LoginOptions = {},
+): Promise<LoginResult> {
+  // Headless Chromium says "HeadlessChrome" in its user agent; present as
+  // the same Chrome, headed.
+  const userAgent = interactive ? undefined : await headedUserAgent();
+  const context = await chromium.launchPersistentContext(PROFILE_DIR, {
+    headless: !interactive,
+    userAgent,
+  });
   try {
-    // Headless Chromium says "HeadlessChrome" in its user agent; present as
-    // the same Chrome, headed.
-    const probe = await browser.newPage();
-    const userAgent = (await probe.evaluate(() => navigator.userAgent)).replace(
-      "HeadlessChrome",
-      "Chrome",
-    );
-    await probe.close();
-    const context = await browser.newContext({ userAgent });
-    const page = await context.newPage();
+    const page = context.pages()[0] ?? (await context.newPage());
     page.setDefaultTimeout(ELEMENT_TIMEOUT_MS);
 
+    await page.goto(COOKIE_URL, { waitUntil: "load" });
+    if ((await settleReuse(page)) === "signed-in") {
+      console.log("login: reusing the saved session");
+      return { ok: true, cookie: await cookieOf(context) };
+    }
+
     await page.goto(SIGN_IN_URL, { waitUntil: "load" });
+
+    if (interactive) {
+      console.log(
+        "login: sign in in the browser window (you have 10 minutes); it closes by itself when done",
+      );
+      const state = await waitForSignIn(page);
+      if (state !== "signed-in") {
+        return failure(
+          page,
+          "error",
+          `not signed in after 10 minutes (page is ${state})`,
+        );
+      }
+      return { ok: true, cookie: await cookieOf(context) };
+    }
 
     // Goodreads offers several sign-in choices; email goes to Amazon sign-in.
     if (!(await attempt(() => page.click('a:has-text("Sign in with email")'))))
@@ -68,12 +110,55 @@ export async function login(credentials: Credentials): Promise<LoginResult> {
         `after sign-in, the page is ${state}`,
       );
     }
-    const cookies = await context.cookies(COOKIE_URL);
-    const cookie = cookies.map((c) => `${c.name}=${c.value}`).join("; ");
-    return { ok: true, cookie };
+    return { ok: true, cookie: await cookieOf(context) };
+  } finally {
+    await context.close();
+  }
+}
+
+/** The headless browser's user agent, with "HeadlessChrome" made "Chrome". */
+async function headedUserAgent(): Promise<string> {
+  const browser = await chromium.launch({ headless: true });
+  try {
+    const probe = await browser.newPage();
+    const agent = await probe.evaluate(() => navigator.userAgent);
+    return agent.replace("HeadlessChrome", "Chrome");
   } finally {
     await browser.close();
   }
+}
+
+/** The Goodreads cookies as one `Cookie` header value. */
+async function cookieOf(context: BrowserContext): Promise<string> {
+  const cookies = await context.cookies(COOKIE_URL);
+  return cookies.map((c) => `${c.name}=${c.value}`).join("; ");
+}
+
+/**
+ * On the home page, waits briefly past a WAF challenge for the signed-in or
+ * signed-out marker.
+ */
+async function settleReuse(page: Page): Promise<PageState> {
+  const deadline = Date.now() + SETTLE_TIMEOUT_MS;
+  let state: PageState = "unknown";
+  while (Date.now() < deadline) {
+    state = await stateOf(page);
+    if (state === "signed-in" || state === "signed-out") return state;
+    await page.waitForTimeout(POLL_MS);
+  }
+  return state;
+}
+
+/** Waits for the user to finish signing in by hand. */
+async function waitForSignIn(page: Page): Promise<PageState> {
+  const deadline = Date.now() + INTERACTIVE_TIMEOUT_MS;
+  let state: PageState = "unknown";
+  while (Date.now() < deadline) {
+    state = await stateOf(page);
+    if (state === "signed-in") return state;
+    await page.waitForTimeout(POLL_MS);
+  }
+  return state;
 }
 
 /** Runs one Playwright action; false if it timed out or found nothing. */

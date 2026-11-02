@@ -45,8 +45,7 @@ A bun workspace.
 - `cue/` — the CUE schema for the published files (`check-output.cue`), with
   example files
 - `.github/workflows/` — `scrape.yml` (scrape and commit, manual-only while
-  paused), `unit.yml` (CI: `bun run ci`), `login-test.yml` (manual: headless
-  login and one signed-in list page; writes nothing)
+  paused), `unit.yml` (CI: `bun run ci`)
 - `thoughts/BACKLOG.md` — idea inbox
 - `docs/` — lasting reference (agent docs)
 
@@ -61,9 +60,7 @@ bun run fmt      # fix formatting when ci fails
 bun run outdated # dependency updates (bun run outdated:fix to apply)
 bun run git:log  # scrape commits per day
 
-# login test: headless login, then one signed-in list page (exit 0 = pass)
-set -a && source secrets/GITHUB.env && set +a && bun run --filter scrape login-test
-bun run act:login-test # the same workflow, locally under act (needs Docker)
+bun run scrape --help  # the new scraper: the single entry point
 ```
 
 Prettier and the linters skip the vendored agent skills, the published data

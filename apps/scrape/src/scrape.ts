@@ -1,10 +1,8 @@
 /**
- * Login test: log in headless, then fetch one signed-in list page with the
- * session cookie. Writes nothing. Exits 0 on a signed-in 200 page, 1 on any
- * named failure.
+ * The scraper's single entry point: `bun run scrape`. See HELP below.
  *
- * Env: GOODREADS_USERNAME (the email), GOODREADS_PASSWORD, GOODREADS_USER
- * (the numeric user id in list URLs).
+ * For now it logs in, then fetches one signed-in list page and checks it.
+ * The full scrape (all list pages to goodreads.json) comes in #29.
  */
 import { classifyPage } from "./login/classify.ts";
 import { failureModeFor, type Failure } from "./login/failure.ts";
@@ -19,17 +17,51 @@ const secrets: Secrets = {
   user: process.env.GOODREADS_USER ?? "",
 };
 
+const HELP = `Usage: bun run scrape [--interactive] [--help]
+
+Scrapes Goodreads. For now it only logs in and checks one signed-in list
+page; the full scrape comes in #29. Writes nothing except the saved browser
+profile in secrets/browser-profile (gitignored).
+
+Login: a still-valid saved session is reused, with no login at all.
+Otherwise it signs in headless with the credentials.
+
+Options:
+  --interactive  Open a visible browser and sign in by hand, including any
+                 "verify it's you" step. Use it the first time, and whenever
+                 a headless login is blocked.
+  --help         Show this help.
+
+Credentials are read from secrets/GITHUB.env: GOODREADS_USER (always), and
+GOODREADS_USERNAME (the email) and GOODREADS_PASSWORD (headless login only).
+`;
+
+const args = process.argv.slice(2);
+if (args.includes("--help") || args.includes("-h")) {
+  console.log(HELP);
+  process.exit(0);
+}
+const unknown = args.filter((arg) => arg !== "--interactive");
+if (unknown.length > 0) {
+  console.error(`unknown option: ${unknown.join(" ")}\n\n${HELP}`);
+  process.exit(1);
+}
+const interactive = args.includes("--interactive");
+
 const outcome = await run(secrets);
 const { lines, exitCode } = report(outcome, secrets);
 for (const line of lines) (exitCode === 0 ? console.log : console.error)(line);
 process.exit(exitCode);
 
 async function run({ email, password, user }: Secrets): Promise<Outcome> {
-  const missing = Object.entries({
-    GOODREADS_USERNAME: email,
-    GOODREADS_PASSWORD: password,
-    GOODREADS_USER: user,
-  })
+  const required = interactive
+    ? { GOODREADS_USER: user }
+    : {
+        GOODREADS_USERNAME: email,
+        GOODREADS_PASSWORD: password,
+        GOODREADS_USER: user,
+      };
+  const missing = Object.entries(required)
     .filter(([, value]) => value === "")
     .map(([name]) => name);
   if (missing.length > 0) {
@@ -43,7 +75,7 @@ async function run({ email, password, user }: Secrets): Promise<Outcome> {
   const start = Date.now();
   let cookie: string;
   try {
-    const result = await login({ email, password });
+    const result = await login({ email, password }, { interactive });
     if (!result.ok) return fail(result.failure);
     cookie = result.cookie;
   } catch (error) {
