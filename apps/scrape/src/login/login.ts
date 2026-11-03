@@ -72,7 +72,14 @@ export async function login(
     page.setDefaultTimeout(ELEMENT_TIMEOUT_MS);
 
     await page.goto(COOKIE_URL, { waitUntil: "load" });
+    const checkStart = Date.now();
     const saved = await settleReuse(page);
+    if (saved !== "signed-in") {
+      // diagnostic: what the home-page check actually saw (2026-11-03)
+      console.log(
+        `login: home-page check: ${saved} at ${page.url()} after ${((Date.now() - checkStart) / 1000).toFixed(1)}s`,
+      );
+    }
     if (saved === "signed-in" && !interactive) {
       console.log("login: reusing the saved session");
       return await signedIn(context, page);
@@ -112,8 +119,11 @@ export async function login(
     // Untested: login has no test seam (it would need a fake Goodreads served
     // inside the browser). Checked by hand only, 2026-11-03: with a valid
     // session, the sign-in URL redirects to the home page, classified
-    // signed-in. Proof in a real run: the log line below.
-    if ((await stateOf(page)) === "signed-in") {
+    // signed-in. Proof in a real run: the log lines below.
+    const signInState = await stateOf(page);
+    // diagnostic: what the sign-in page actually showed (2026-11-03)
+    console.log(`login: sign-in page: ${signInState} at ${page.url()}`);
+    if (signInState === "signed-in") {
       console.log(
         "login: reusing the saved session (signed in on the sign-in page)",
       );
