@@ -26,6 +26,10 @@ Legend:
 | 1   | 0.5  | 1:49:36 | 3    | 0.22 · 0/0/0/0/0 | 0.45 · 17/0/0/0/0 | 0.49 · 0/0/0/0/0 |
 | 2   | 1.5  | 0:37:27 | 1    | 0.44 · 0/0/0/0/0 | 1.39 · 24/1/0/0/0 | 1.4 · 0/0/0/0/0  |
 | 3   | 2.2  | 0:25:42 | 1    | 0.60 · 0/0/0/0/0 | 2.08 · 20/0/0/0/0 | 1.95 · 0/0/0/0/0 |
+| 3   | 2.2  | 0:26:41 | 2    | 0.61 · 0/0/0/0/0 | 2.07 · 22/0/0/0/0 | ~2.0 · 0/0/0/0/0 |
+| 3   | 2.2  | 0:23:37 | 0    | 0.61 · 0/0/0/0/0 | 2.12 · 17/0/0/0/0 | 2.08 · 1/0/0/0/0 |
+| 3   | 2.2  | 0:27:45 | 3    | 0.67 · 0/0/0/0/0 | 1.99 · 29/1/0/0/0 | ~2.0 · 0/0/0/0/0 |
+| 3   | 2.2  | 0:24:34 | 0    | 0.63 · 0/0/0/0/0 | 2.03 · 26/1/0/0/0 | 2.00 · 0/0/0/0/0 |
 | 4   | 3.0  | 0:19:30 | 1    | 0.79 · 0/0/0/0/0 | 2.86 · 17/0/0/0/0 | 2.6 · 1/0/0/0/0  |
 | 6   | 4.5  | 0:13:19 | 1    | 0.38 · 1/0/0/0/0 | 4.23 · 13/1/0/0/0 | 4.26 · 1/0/0/0/0 |
 | 10  | 7.5  | 0:07:10 | 0    | 1.42 · 0/0/0/0/0 | 6.93 · 25/0/0/0/0 | 7.27 · 0/0/0/0/0 |
@@ -40,6 +44,13 @@ Latency of fetched pages (ms), ~the same at every setting:
 
 ## Observations
 
+- At `-c 3 --rate 2.2`, 5 runs all passed, in 23–28 min, with 0–3 WAF failures
+  each: the `--cached` restarts make the time predictable.
+- After a WAF challenge, each `--cached` restart at `-c 3` got the next WAF
+  challenge 5:02–5:03 later (5 of 5): the login plus AWS WAF's default 300 s
+  challenge immunity for a fresh `aws-waf-token`. At `-c 1`, restarts lasted
+  12–20 min. Suggests: once flagged, each fresh token buys 5 min; renewing it
+  before then might avoid restarts. Untested.
 - Only book pages got a WAF challenge (status 202); list and review pages never.
 - Every retry was "no response in 15s", almost all on review pages: ~1.3% of
   review requests never answer, then succeed on retry. Answers are fast (slowest
@@ -59,9 +70,6 @@ Latency of fetched pages (ms), ~the same at every setting:
 
 ## Next
 
-- 4 runs of `-c 3 --rate 2.2`, the likely setting for scheduled runs, to see how
-  much attempts and book pages per attempt vary at one setting.
-- `-c 6 --rate 4.5`.
 - Faster runs by fetching less: an incremental run (list pages, then only the
   books that moved up the "last updated" order) for frequent runs, with a
   periodic full run. Unproven: which actions move a book up must be checked
