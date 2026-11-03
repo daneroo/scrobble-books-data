@@ -7,7 +7,7 @@
 set -uo pipefail
 cd "$(git rev-parse --show-toplevel)"
 
-MAX_ATTEMPTS=10 # then give up
+MAX_ATTEMPTS=100 # then we stop
 PAUSE_S=60      # before each --cached restart
 
 log=data/logs/scrape-waf-continue.log
