@@ -107,6 +107,19 @@ export async function login(
       return await signedIn(context, page);
     }
 
+    // The home-page check can fail to tell (e.g. right after a WAF challenge)
+    // while the saved session is valid: the sign-in page then shows signed in.
+    // Untested: login has no test seam (it would need a fake Goodreads served
+    // inside the browser). Checked by hand only, 2026-11-03: with a valid
+    // session, the sign-in URL redirects to the home page, classified
+    // signed-in. Proof in a real run: the log line below.
+    if ((await stateOf(page)) === "signed-in") {
+      console.log(
+        "login: reusing the saved session (signed in on the sign-in page)",
+      );
+      return await signedIn(context, page);
+    }
+
     // Goodreads offers several sign-in choices; email goes to Amazon sign-in.
     if (!(await attempt(() => page.click('a:has-text("Sign in with email")'))))
       return await missing(page, "no 'Sign in with email' link");
