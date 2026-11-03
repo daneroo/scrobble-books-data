@@ -39,7 +39,7 @@ while true; do
 done
 
 note "experiment end: $result"
-archive=data/logs/scrape-waf-continue-until-$(date -u +%Y-%m-%dT%H-%M).log
+archive=data/logs/scrape-waf-continue-until-$(date -u +%Y-%m-%dT%H-%MZ).log
 mv "$log" "$archive"
 echo "waf-experiment: $result; log: $archive"
 [ "$status" -eq 0 ]
