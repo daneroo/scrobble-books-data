@@ -2,6 +2,46 @@
   "userFullName": "Daniel Lauzon",
   "items": [
     {
+      "reviewId": "9069353168",
+      "title": "A Drop of Corruption (Ana and Din Mysteries, #2)",
+      "bookId": "213618143",
+      "bookURL": "https://www.goodreads.com/book/show/213618143-a-drop-of-corruption",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1723703506l/213618143._SY75_.jpg",
+      "isbn": "0593723821",
+      "userRating": 0,
+      "userAddedDay": "2026-11-01",
+      "userExclusiveShelf": "currently-reading",
+      "workAverageRating": "4.5",
+      "workPublishedText": "Apr 01, 2025",
+      "numPages": "461",
+      "reviewPageDay": "2026-11-01",
+      "userReview": "",
+      "bookDescription": "<b>The brilliant detective Ana Dolabra may have finally met her match in the gripping sequel to <i>The Tainted Cup</i>—from the bestselling author of <i>The Founders Trilogy</i>.</b><br /><br />In the canton of Yarrowdale, at the very edge of the Empire’s reach, an impossible crime has occurred. A Treasury officer has disappeared into thin air—abducted from his quarters while the door and windows remained locked from the inside, in a building whose entrances and exits are all under constant guard.<br /><br />To solve the case, the Empire calls on its most brilliant and mercurial investigator, the great Ana Dolabra. At her side, as always, is her bemused assistant Dinios Kol.<br /><br />Before long, Ana’s discovered that they’re not investigating a disappearance, but a murder—and that the killing was just the first chess move by an adversary who seems to be able to pass through warded doors like a ghost, and who can predict every one of Ana’s moves as though they can see the future.<br /><br />Worse still, the killer seems to be targeting the high-security compound known as the Shroud. Here, the Empire's greatest minds dissect fallen Titans to harness the volatile magic found in their blood. Should it fall, the destruction would be terrible indeed—and the Empire itself will grind to a halt, robbed of the magic that allows its wheels of power to turn.<br /><br />Din has seen Ana solve impossible cases before. But this time, with the stakes higher than ever and Ana seemingly a step behind their adversary at every turn, he fears that his superior has finally met an enemy she can’t defeat.",
+      "authorName": "Robert Jackson Bennett",
+      "timeline": [
+        {
+          "dateText": "November 1, 2026",
+          "event": "Started Reading"
+        },
+        {
+          "dateText": "November 1, 2026",
+          "event": "Shelved"
+        },
+        {
+          "dateText": "November 1, 2026",
+          "event": "14.0%"
+        },
+        {
+          "dateText": "November 2, 2026",
+          "event": "33.0%"
+        },
+        {
+          "dateText": "November 3, 2026",
+          "event": "53.0%"
+        }
+      ]
+    },
+    {
       "reviewId": "9073338679",
       "title": "A Trade of Blood (Ana and Din Mysteries, #3)",
       "bookId": "102615935",
@@ -82,42 +122,6 @@
         {
           "dateText": "April 28, 2026",
           "event": "Shelved"
-        }
-      ]
-    },
-    {
-      "reviewId": "9069353168",
-      "title": "A Drop of Corruption (Ana and Din Mysteries, #2)",
-      "bookId": "213618143",
-      "bookURL": "https://www.goodreads.com/book/show/213618143-a-drop-of-corruption",
-      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1723703506l/213618143._SY75_.jpg",
-      "isbn": "0593723821",
-      "userRating": 0,
-      "userAddedDay": "2026-11-01",
-      "userExclusiveShelf": "currently-reading",
-      "workAverageRating": "4.5",
-      "workPublishedText": "Apr 01, 2025",
-      "numPages": "461",
-      "reviewPageDay": "2026-11-01",
-      "userReview": "",
-      "bookDescription": "<b>The brilliant detective Ana Dolabra may have finally met her match in the gripping sequel to <i>The Tainted Cup</i>—from the bestselling author of <i>The Founders Trilogy</i>.</b><br /><br />In the canton of Yarrowdale, at the very edge of the Empire’s reach, an impossible crime has occurred. A Treasury officer has disappeared into thin air—abducted from his quarters while the door and windows remained locked from the inside, in a building whose entrances and exits are all under constant guard.<br /><br />To solve the case, the Empire calls on its most brilliant and mercurial investigator, the great Ana Dolabra. At her side, as always, is her bemused assistant Dinios Kol.<br /><br />Before long, Ana’s discovered that they’re not investigating a disappearance, but a murder—and that the killing was just the first chess move by an adversary who seems to be able to pass through warded doors like a ghost, and who can predict every one of Ana’s moves as though they can see the future.<br /><br />Worse still, the killer seems to be targeting the high-security compound known as the Shroud. Here, the Empire's greatest minds dissect fallen Titans to harness the volatile magic found in their blood. Should it fall, the destruction would be terrible indeed—and the Empire itself will grind to a halt, robbed of the magic that allows its wheels of power to turn.<br /><br />Din has seen Ana solve impossible cases before. But this time, with the stakes higher than ever and Ana seemingly a step behind their adversary at every turn, he fears that his superior has finally met an enemy she can’t defeat.",
-      "authorName": "Robert Jackson Bennett",
-      "timeline": [
-        {
-          "dateText": "November 1, 2026",
-          "event": "Started Reading"
-        },
-        {
-          "dateText": "November 1, 2026",
-          "event": "Shelved"
-        },
-        {
-          "dateText": "November 1, 2026",
-          "event": "14.0%"
-        },
-        {
-          "dateText": "November 2, 2026",
-          "event": "33.0%"
         }
       ]
     },
@@ -859,7 +863,7 @@
       "userRating": 0,
       "userAddedDay": "2026-10-12",
       "userExclusiveShelf": "on-deck",
-      "workAverageRating": "3.9",
+      "workAverageRating": "3.8",
       "workPublishedText": "1983",
       "numPages": "288",
       "reviewPageDay": "2026-10-12",
@@ -968,7 +972,7 @@
       "numPages": "352",
       "reviewPageDay": "2026-10-08",
       "userReview": "",
-      "bookDescription": "<b><i>NEW YORK TIMES</i> BESTSELLER </b>• <b> </b><b>“A haunting picture of the political project pursued and abetted by a confederacy of Silicon Valley elites. Their goal is nothing less than to destroy liberal democracy. . . . In the fractured attention economy in which we all now reside, it’s easy to know these disparate facts and still have only a vague understanding of their larger significance. It is the mastery of such diverse particulars that makes Gil Durán’s new book, <i>The Nerd Reich</i>, so valuable.”</b><b> —Sue Halpern, <i>The New York Review of Books</i></b><br /> <br /> <b>A fearless and urgent chronicle of the tech-authoritarian movement from its early days in San Francisco politics to its current moment on the international stage, exploring the wild and dystopian ambition of the technocrats at its center, and offering a road map to resistance.</b><br /><br />When Silicon Valley says it is ‘‘moving fast and breaking things,’’ the world interprets the chaos as a necessary cost of innovation. Gil Durán reveals something far more a decades-long campaign to replace elected governments with corporate rule.<br /> <br /> Drawing on insider political experience and new investigations, Durán traces this ideology from its philosophical roots in <i>The Sovereign Individual</i> by James Dale Davidson and Lord William Rees-Mogg. He introduces its modern apostles—Peter Thiel, Marc Andreessen, Balaji Srinivasan, and Elon Musk—and shows how the promise of technological liberation has transformed into a global movement for digital feudalism, powered by cryptocurrency, artificial intelligence, and the algorithmic propaganda of social media.<br /> <br /> <i>The Nerd Reich</i> explains the origins, strategies, and ambitions of Silicon Valley’s war on democracy for the first time. From San Francisco’s weaponized elections and secret billionaire projects to the White House, Durán exposes how the world’s richest men are building a new political order.<br /> <br /> <i>The Nerd Reich</i> is more than a hidden history, it’s an urgent democracy is being dismantled not by coups or tanks, but by code, capital, and the illusion of innovation. Durán insists there is still time to fight back—if we act now.",
+      "bookDescription": "<b><i>NEW YORK TIMES</i> BESTSELLER </b>• <b> </b><b>“A haunting picture of the political project pursued and abetted by a confederacy of Silicon Valley elites. Their goal is nothing less than to destroy liberal democracy....In the fractured attention economy in which we all now reside, it’s easy to know these disparate facts and still have only a vague understanding of their larger significance. It is the mastery of such diverse particulars that makes Gil Durán’s new book, <i>The Nerd Reich</i>, so valuable.”</b><b> —Sue Halpern, <i>The New York Review of Books</i></b><br /> <br /> <b>A fearless and urgent chronicle of the tech-authoritarian movement from its early days in San Francisco politics to its current moment on the international stage, exploring the wild and dystopian ambition of the technocrats at its center, and offering a road map to resistance.</b><br /><br />When Silicon Valley says it is ‘‘moving fast and breaking things,’’ the world interprets the chaos as a necessary cost of innovation. Gil Durán reveals something far more a decades-long campaign to replace elected governments with corporate rule.<br /> <br /> Drawing on insider political experience and new investigations, Durán traces this ideology from its philosophical roots in <i>The Sovereign Individual</i> by James Dale Davidson and Lord William Rees-Mogg. He introduces its modern apostles—Peter Thiel, Marc Andreessen, Balaji Srinivasan, and Elon Musk—and shows how the promise of technological liberation has transformed into a global movement for digital feudalism, powered by cryptocurrency, artificial intelligence, and the algorithmic propaganda of social media.<br /> <br /> <i>The Nerd Reich</i> explains the origins, strategies, and ambitions of Silicon Valley’s war on democracy for the first time. From San Francisco’s weaponized elections and secret billionaire projects to the White House, Durán exposes how the world’s richest men are building a new political order.<br /> <br /> <i>The Nerd Reich</i> is more than a hidden history, it’s an urgent democracy is being dismantled not by coups or tanks, but by code, capital, and the illusion of innovation. Durán insists there is still time to fight back—if we act now.",
       "authorName": "Gil Duran",
       "timeline": [
         {
@@ -22755,7 +22759,7 @@
       "userRating": 0,
       "userAddedDay": "2024-07-15",
       "userExclusiveShelf": "on-deck",
-      "workAverageRating": "4.3",
+      "workAverageRating": "4.4",
       "workPublishedText": "Jul 16, 2024",
       "numPages": "494",
       "reviewPageDay": "2024-07-15",
@@ -29328,7 +29332,7 @@
       "numPages": "651",
       "reviewPageDay": "2023-11-03",
       "userReview": "",
-      "bookDescription": "Su una montagna ai confini dell'Impero di Kaigen vivono i guerrieri più potenti del mondo, capaci di sollevare il mare e di brandire lame di ghiaccio. Per centinaia di anni, i combattenti della penisola di Kusanagi hanno tenuto a bada i nemici dell'impero, tanto che quel loro gelido pezzo di mondo è noto come \"la Spada di Kaigen\". Nato nella leggendaria famiglia Matsuda, il quattordicenne Mamoru ha sempre saputo qual è il suo destino: padroneggiare le tecniche di combattimento segrete della sua stirpe e proteggere la patria. Ma l'arrivo di uno straniero svelerà cosa si cela dietro la presunta età di pace di Kaigen, e Mamoru si accorgerà che l'impero che gli hanno insegnato a difendere è fondato su menzogne. E soprattutto scoprirà che sua madre Misaki non è la mansueta donna di casa che ha sempre conosciuto. Quando, con le nozze, è entrata nella famiglia Matsuda, ha messo da parte la sua spada assieme al suo passato. Ma ora che dal mare sembra giungere il pericolo di un'invasione, la fiera guerriera che è in lei non può più nascondersi.",
+      "bookDescription": "<b>Epická fantasy, v ktorej sa elementálna mágia a strhujúce súboje stretávajú s hlboko ľudským príbehom o rodine, vojne a cene oddanosti.</b><br /><br />Na zasneženom polostrove Kusanagi, na samom okraji Kaigenskej ríše, žijú bojovníci, o ktorých sa rozprávajú legendy. Dokážu ovládať ľad i more a po stáročia chránia hranice impéria. Ich sila je taká obávaná, že ich kraj nazývajú Mečom Kaigenu.<br /><br />Štrnásťročný Mamoru Macuda od detstva pozná svoje poslanie: osvojiť si bojové umenie svojho rodu a jedného dňa brániť vlasť po boku svojich predkov. Keď však do Kusanagi príde cudzinec s informáciami o svete za hranicami polostrova, Mamoru prvýkrát zapochybuje o všetkom, čo ho učili. Čo ak mier, na ktorý je Kaigen taký hrdý, nie je tým, čím sa zdá? A čo ak ríša, za ktorú má položiť život, celé generácie klame vlastným ľuďom?<br /><br />Jeho matka Misaki kedysi patrila medzi výnimočné bojovníčky. Po svadbe sa však rozhodla odložiť meč a žiť ako poslušná manželka a matka. Teraz sa však spoza mora blíži nepriateľ, jej syn začína klásť nebezpečné otázky a žena, ktorou kedysi bola, sa opäť prebúdza.<br /><br /><i>Meč Kaigenu</i> je veľkolepá fantasy o vojne a jej následkoch, rodine, cti, strate a cene slepej oddanosti. <i>M. L. Wangová</i>, autorka bestsellera <i>Krv nad oázou svetla</i>, spája strhujúce súboje, elementálnu mágiu a svet inšpirovaný východoázijskými bojovými tradíciami s intímnym príbehom matky a syna, ktorí musia prehodnotiť všetko, čomu verili.",
       "authorName": "M.L. Wang",
       "timeline": [
         {
@@ -42840,7 +42844,7 @@
       "numPages": "336",
       "reviewPageDay": "2021-10-17",
       "userReview": "",
-      "bookDescription": "The mixture of journalism, history and fiction; the presentation of a sequence of striking characters; the metaphor of a sailing ship as the world in miniature—all of these prefigure his next novel, Moby-Dick. The symbolism of the color white, introduced in this novel in the form of the narrator's jacket, is more fully expanded upon in Moby-Dick, where it becomes an all-encompassing \"blankness.\" Melville's (best known for his classic whaling novel) The White Jacket written by Herman Melville (best known for his classic whaling novel) was first published in 1850 and is considered to be a semi-biographical book, written from Melville's own personal experiences while returning home to the Atlantic Coast from the South Seas with the American Navy on a man-o-war vessel. In the note preceding the novel, Melville states, \"In the year 1843 I shipped as 'ordinary seaman' on board of a United States frigate then lying in a harbor of the Pacific Ocean. After remaining in this frigate for more than a year, I was discharged from the service . . .\"",
+      "bookDescription": "<strong>The mixture of journalism, history and fiction; the presentation of a sequence of striking characters;</strong> the metaphor of a sailing ship as the world in miniature-all of these prefigure his next novel, Moby-Dick. The symbolism of the color white, introduced in this novel in the form of the narrator's jacket, is more fully expanded upon in Moby-Dick, where it becomes an all-encompassing \"blankness.\"<br /><br />Melville's (best known for his classic whaling novel) The White Jacket written by Herman Melville (best known for his classic whaling novel) was first published in 1850 and is considered to be a semi-biographical book, written from Melville's own personal experiences while returning home to the Atlantic Coast from the South Seas with the American Navy on a man-o-war vessel. In the note preceding the novel, Melville states, \"In the year 1843 I shipped as 'ordinary seaman' on board of a United States frigate then lying in a harbor of the Pacific Ocean. After remaining in this frigate for more than a year, I was discharged from the service . . .\"",
       "authorName": "Herman Melville",
       "timeline": [
         {
