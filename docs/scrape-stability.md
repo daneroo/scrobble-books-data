@@ -17,9 +17,8 @@ experiment in `data/logs/`.
 
 Legend:
 
-- `c`, `rate`: `-c`, `--rate`; `Time`: whole experiment; `#`: attempts until one
-  passes, so WAF challenges + other failures + 1 (at `-c 1`: 3 WAF challenges, 1
-  login failure)
+- `c`, `rate`: `-c`, `--rate`; `Time`: whole experiment; `#`: attempts
+  (failures + 1)
 - List, Review, Book: `rate · r1/r2/r3/r4/r5`, the rate per second (fetched
   pages only) and the pages that needed 1, 2, 3, 4, 5 retries
 
