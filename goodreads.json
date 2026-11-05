@@ -38,6 +38,10 @@
         {
           "dateText": "November 3, 2026",
           "event": "53.0%"
+        },
+        {
+          "dateText": "November 4, 2026",
+          "event": "64.0%"
         }
       ]
     },
@@ -1299,7 +1303,7 @@
       "userRating": 0,
       "userAddedDay": "2026-10-01",
       "userExclusiveShelf": "on-deck",
-      "workAverageRating": "4.2",
+      "workAverageRating": "4.1",
       "workPublishedText": "unknown",
       "numPages": "208",
       "reviewPageDay": "2026-10-01",
@@ -9004,7 +9008,7 @@
       "numPages": "388",
       "reviewPageDay": "2025-11-11",
       "userReview": "",
-      "bookDescription": "In the space of a few months, across Asia, a miracle became a nightmare. This was the Asian Financial Crisis of 1995–98.<br /><br />In this economic crisis hundreds of people died in rioting, political strong men were removed and hundreds of billions of dollars were lost by investors.<br /><br />This crisis saw the US dollar value of some Asian stock markets decline by ninety percent. Why did almost no one see it coming?<br /><br />The Asian Financial Crisis 1995–98 charts Russell Napier’s personal journey during that crisis as he wrote daily for institutional investors about an increasingly uncertain future. Relying on contemporaneous commentary, it charts the mistakes and successes of investors in the battle for investment survival in Asia from 1995–98.<br /><br />This is not just a guide for investors navigating financial markets, but also an explanation of how this crisis created the foundations of an age of debt that has changed the modern world.",
+      "bookDescription": "In the space of a few months, across Asia, a miracle became a nightmare. This was the Asian Financial Crisis of 1995–98.<br /><br />In this economic crisis hundreds of people died in rioting, political strong men were removed and hundreds of billions of dollars were lost by investors. <br /><br />This crisis saw the US dollar value of some Asian stock markets decline by ninety percent. Why did almost no one see it coming? <br /><br /><i>The Asian Financial Crisis 1995–98</i> charts Russell Napier’s personal journey during that crisis as he wrote daily for institutional investors about an increasingly uncertain future. Relying on contemporaneous commentary, it charts the mistakes and successes of investors in the battle for investment survival in Asia from 1995–98. <br /><br />This is not just a guide for investors navigating financial markets, but also an explanation of how this crisis created the foundations of an age of debt that has changed the modern world.",
       "authorName": "Russell Napier",
       "timeline": [
         {
@@ -41172,7 +41176,7 @@
       "userAddedDay": "2022-02-02",
       "userExclusiveShelf": "to-read",
       "workAverageRating": "4.3",
-      "workPublishedText": "Jan 01, 2001",
+      "workPublishedText": "Jan 2001",
       "numPages": "487",
       "reviewPageDay": "2022-02-02",
       "userReview": "",
