@@ -2,6 +2,34 @@
   "userFullName": "Daniel Lauzon",
   "items": [
     {
+      "reviewId": "9079447267",
+      "title": "The Primacy of Doubt: From Quantum Physics to Climate Change, How the Science of Uncertainty Can Help Us Understand Our Chaotic World",
+      "bookId": "60383041",
+      "bookURL": "https://www.goodreads.com/book/show/60383041-the-primacy-of-doubt",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1665472977l/60383041._SY75_.jpg",
+      "isbn": "1541619714",
+      "userRating": 0,
+      "userAddedDay": "2026-11-04",
+      "userExclusiveShelf": "on-deck",
+      "workAverageRating": "4.0",
+      "workPublishedText": "unknown",
+      "numPages": "320",
+      "reviewPageDay": "2026-11-04",
+      "userReview": "",
+      "bookDescription": "<b>“Quite possibly the best popular science book I’ve ever read” (<i>Popular Science</i>) shows how the tools that enabled us to overcome the uncertainty of the weather will enable us to find new answers to modern science's most pressing questions</b> Why does your weather app say “There’s a 10% chance of rain” instead of “It will be sunny tomorrow”? In large part this is due to the insight of Tim Palmer, who made uncertainty essential to the study of weather and climate. Now he wants to apply it to how we study everything else.   In <i>The Primacy of Doubt</i>, Palmer argues that embracing the mathematics of uncertainty is vital to understanding ourselves and the universe around us. Whether we want to predict climate change or market crashes, understand how the brain is able to outpace supercomputers, or find a theory that links quantum and cosmological physics, Palmer shows how his vision of mathematical uncertainty provides new insights into some of the deepest problems in science. The result is a revolution—one that shows that power begins by embracing what we don’t know.",
+      "authorName": "Tim   Palmer",
+      "timeline": [
+        {
+          "dateText": "November 4, 2026",
+          "event": "Shelved as: on-deck"
+        },
+        {
+          "dateText": "November 4, 2026",
+          "event": "Shelved"
+        }
+      ]
+    },
+    {
       "reviewId": "9069353168",
       "title": "A Drop of Corruption (Ana and Din Mysteries, #2)",
       "bookId": "213618143",
@@ -1303,7 +1331,7 @@
       "userRating": 0,
       "userAddedDay": "2026-10-01",
       "userExclusiveShelf": "on-deck",
-      "workAverageRating": "4.1",
+      "workAverageRating": "4.2",
       "workPublishedText": "unknown",
       "numPages": "208",
       "reviewPageDay": "2026-10-01",
@@ -22763,7 +22791,7 @@
       "userRating": 0,
       "userAddedDay": "2024-07-15",
       "userExclusiveShelf": "on-deck",
-      "workAverageRating": "4.4",
+      "workAverageRating": "4.3",
       "workPublishedText": "Jul 16, 2024",
       "numPages": "494",
       "reviewPageDay": "2024-07-15",

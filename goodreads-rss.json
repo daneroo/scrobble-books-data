@@ -2,6 +2,27 @@
   "title": "Daniel's bookshelf: all",
   "items": [
     {
+      "id": "https://www.goodreads.com/review/show/9079447267?utm_medium=api&utm_source=rss",
+      "title": "The Primacy of Doubt: From Quantum Physics to Climate Change, How the Science of Uncertainty Can Help Us Understand Our Chaotic World",
+      "link": "https://www.goodreads.com/review/show/9079447267?utm_medium=api&utm_source=rss",
+      "bookId": "60383041",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1665472977l/60383041._SY75_.jpg",
+      "bookDescription": "<b>“Quite possibly the best popular science book I’ve ever read” (<i>Popular Science</i>) shows how the tools that enabled us to overcome the uncertainty of the weather will enable us to find new answers to modern science's most pressing questions</b> Why does your weather app say “There’s a 10% chance of rain” instead of “It will be sunny tomorrow”? In large part this is due to the insight of Tim Palmer, who made uncertainty essential to the study of weather and climate. Now he wants to apply it to how we study everything else.   In <i>The Primacy of Doubt</i>, Palmer argues that embracing the mathematics of uncertainty is vital to understanding ourselves and the universe around us. Whether we want to predict climate change or market crashes, understand how the brain is able to outpace supercomputers, or find a theory that links quantum and cosmological physics, Palmer shows how his vision of mathematical uncertainty provides new insights into some of the deepest problems in science. The result is a revolution—one that shows that power begins by embracing what we don’t know.",
+      "authorName": "Tim   Palmer",
+      "isbn": "1541619714",
+      "userName": "Daniel",
+      "userRating": "0",
+      "userReadAt": "",
+      "userDateAdded": "2026-11-04T00:00:00.000Z",
+      "userDateCreated": "2026-11-04T00:00:00.000Z",
+      "userShelves": "on-deck",
+      "userReview": "",
+      "averageRating": "4.0",
+      "bookPublished": "",
+      "description": "<a href=\"https://www.goodreads.com/book/show/60383041-the-primacy-of-doubt?utm_medium=api&amp;utm_source=rss\"><img alt=\"The Primacy of Doubt: From Quantum Physics to Climate Change, How the Science of Uncertainty Can Help Us Understand Our Chaotic World\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1665472977l/60383041._SY75_.jpg\" /></a><br/>\n                                      author: Tim   Palmer<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.0<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/11/04<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "numPages": "320"
+    },
+    {
       "id": "https://www.goodreads.com/review/show/9069353168?utm_medium=api&utm_source=rss",
       "title": "A Drop of Corruption (Ana and Din Mysteries, #2)",
       "link": "https://www.goodreads.com/review/show/9069353168?utm_medium=api&utm_source=rss",
@@ -710,9 +731,9 @@
       "userDateCreated": "2026-10-01T00:00:00.000Z",
       "userShelves": "on-deck",
       "userReview": "",
-      "averageRating": "4.1",
+      "averageRating": "4.2",
       "bookPublished": "",
-      "description": "<a href=\"https://www.goodreads.com/book/show/244709901-the-new-dark-ages?utm_medium=api&amp;utm_source=rss\"><img alt=\"The New Dark Ages: The Death of Reading and the Dawn of the Post-Literate Society\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1773977645l/244709901._SX50_.jpg\" /></a><br/>\n                                      author: James Marriott<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.1<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/10/01<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/244709901-the-new-dark-ages?utm_medium=api&amp;utm_source=rss\"><img alt=\"The New Dark Ages: The Death of Reading and the Dawn of the Post-Literate Society\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1773977645l/244709901._SX50_.jpg\" /></a><br/>\n                                      author: James Marriott<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.2<br/>\n                                      book published: <br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2026/10/01<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
       "numPages": "208"
     },
     {
@@ -10958,9 +10979,9 @@
       "userDateCreated": "2024-07-15T00:00:00.000Z",
       "userShelves": "on-deck",
       "userReview": "",
-      "averageRating": "4.4",
+      "averageRating": "4.3",
       "bookPublished": "2024",
-      "description": "<a href=\"https://www.goodreads.com/book/show/195887568-why-machines-learn?utm_medium=api&amp;utm_source=rss\"><img alt=\"Why Machines Learn: The Elegant Math Behind Modern AI\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1696743557l/195887568._SY75_.jpg\" /></a><br/>\n                                      author: Anil Ananthaswamy<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.4<br/>\n                                      book published: 2024<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/07/15<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
+      "description": "<a href=\"https://www.goodreads.com/book/show/195887568-why-machines-learn?utm_medium=api&amp;utm_source=rss\"><img alt=\"Why Machines Learn: The Elegant Math Behind Modern AI\" src=\"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1696743557l/195887568._SY75_.jpg\" /></a><br/>\n                                      author: Anil Ananthaswamy<br/>\n                                      name: Daniel<br/>\n                                      average rating: 4.3<br/>\n                                      book published: 2024<br/>\n                                      rating: 0<br/>\n                                      read at: <br/>\n                                      date added: 2024/07/15<br/>\n                                      shelves: on-deck<br/>\n                                      review: <br/><br/>",
       "numPages": "494"
     },
     {
