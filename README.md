@@ -59,9 +59,9 @@ The old scrapers are outside the workspace and excluded from the `ci` gate.
 Publish by hand, at least daily:
 
 ```bash
-bun run publish  # on main, clean tree: pulls, scrapes until a run passes, commits and pushes the data
-bun run publish -c 3 --rate 2.2  # scrape options pass through (defaults: -c 3 --rate 6)
-bun run publish --interactive  # the same, signing in by hand on the first attempt
+bun run publish                  # scrape until a run passes, commit, push
+bun run publish -c 3 --rate 2.2  # options pass through (defaults: -c 3 --rate 6)
+bun run publish --interactive    # sign in by hand first
 ```
 
 ```bash
