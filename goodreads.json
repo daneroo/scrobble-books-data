@@ -2,34 +2,6 @@
   "userFullName": "Daniel Lauzon",
   "items": [
     {
-      "reviewId": "9079447267",
-      "title": "The Primacy of Doubt: From Quantum Physics to Climate Change, How the Science of Uncertainty Can Help Us Understand Our Chaotic World",
-      "bookId": "60383041",
-      "bookURL": "https://www.goodreads.com/book/show/60383041-the-primacy-of-doubt",
-      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1665472977l/60383041._SY75_.jpg",
-      "isbn": "1541619714",
-      "userRating": 0,
-      "userAddedDay": "2026-11-04",
-      "userExclusiveShelf": "on-deck",
-      "workAverageRating": "4.0",
-      "workPublishedText": "unknown",
-      "numPages": "320",
-      "reviewPageDay": "2026-11-04",
-      "userReview": "",
-      "bookDescription": "<b>“Quite possibly the best popular science book I’ve ever read” (<i>Popular Science</i>) shows how the tools that enabled us to overcome the uncertainty of the weather will enable us to find new answers to modern science's most pressing questions</b> Why does your weather app say “There’s a 10% chance of rain” instead of “It will be sunny tomorrow”? In large part this is due to the insight of Tim Palmer, who made uncertainty essential to the study of weather and climate. Now he wants to apply it to how we study everything else.   In <i>The Primacy of Doubt</i>, Palmer argues that embracing the mathematics of uncertainty is vital to understanding ourselves and the universe around us. Whether we want to predict climate change or market crashes, understand how the brain is able to outpace supercomputers, or find a theory that links quantum and cosmological physics, Palmer shows how his vision of mathematical uncertainty provides new insights into some of the deepest problems in science. The result is a revolution—one that shows that power begins by embracing what we don’t know.",
-      "authorName": "Tim   Palmer",
-      "timeline": [
-        {
-          "dateText": "November 4, 2026",
-          "event": "Shelved as: on-deck"
-        },
-        {
-          "dateText": "November 4, 2026",
-          "event": "Shelved"
-        }
-      ]
-    },
-    {
       "reviewId": "9069353168",
       "title": "A Drop of Corruption (Ana and Din Mysteries, #2)",
       "bookId": "213618143",
@@ -70,6 +42,38 @@
         {
           "dateText": "November 4, 2026",
           "event": "64.0%"
+        },
+        {
+          "dateText": "November 4, 2026",
+          "event": "82.0%"
+        }
+      ]
+    },
+    {
+      "reviewId": "9079447267",
+      "title": "The Primacy of Doubt: From Quantum Physics to Climate Change, How the Science of Uncertainty Can Help Us Understand Our Chaotic World",
+      "bookId": "60383041",
+      "bookURL": "https://www.goodreads.com/book/show/60383041-the-primacy-of-doubt",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1665472977l/60383041._SY75_.jpg",
+      "isbn": "1541619714",
+      "userRating": 0,
+      "userAddedDay": "2026-11-04",
+      "userExclusiveShelf": "on-deck",
+      "workAverageRating": "4.0",
+      "workPublishedText": "unknown",
+      "numPages": "320",
+      "reviewPageDay": "2026-11-04",
+      "userReview": "",
+      "bookDescription": "<b>“Quite possibly the best popular science book I’ve ever read” (<i>Popular Science</i>) shows how the tools that enabled us to overcome the uncertainty of the weather will enable us to find new answers to modern science's most pressing questions</b> Why does your weather app say “There’s a 10% chance of rain” instead of “It will be sunny tomorrow”? In large part this is due to the insight of Tim Palmer, who made uncertainty essential to the study of weather and climate. Now he wants to apply it to how we study everything else.   In <i>The Primacy of Doubt</i>, Palmer argues that embracing the mathematics of uncertainty is vital to understanding ourselves and the universe around us. Whether we want to predict climate change or market crashes, understand how the brain is able to outpace supercomputers, or find a theory that links quantum and cosmological physics, Palmer shows how his vision of mathematical uncertainty provides new insights into some of the deepest problems in science. The result is a revolution—one that shows that power begins by embracing what we don’t know.",
+      "authorName": "Tim   Palmer",
+      "timeline": [
+        {
+          "dateText": "November 4, 2026",
+          "event": "Shelved as: on-deck"
+        },
+        {
+          "dateText": "November 4, 2026",
+          "event": "Shelved"
         }
       ]
     },
@@ -144,7 +148,7 @@
       "numPages": "320",
       "reviewPageDay": "2026-04-28",
       "userReview": "",
-      "bookDescription": "In this compelling, readable and revisionist book, historian Laura Bolick makes a powerful case that the fall of Constantinople, which marked the end of the ancient Roman and Byzantine Empire, was not inevitable, as most historians have argued. Basing her opinion on the activities of two significant Byzantine officials, Iohannes Bessarion and Isidore of Kiev, Laura Bolick analyses the efforts that they made to galvanise the Roman Catholic west into forming a crusade that would defend Constantinople from the encroaching Ottoman Turks. As the book shows, the Byzantine emissaries faced formidable obstacles, notably the strong divisions between Roman Catholic Christianity in the West and Orthodox Christianity in the east. They also had to navigate mutual suspicion and indifference. The book charts their continuing efforts to surmount the difficulties in order to promote a spiritual, cultural, political and military alliance against the Ottomans. Although Constantinople would eventually fall, this book provides a new insight into this momentous period of history and one that is sure to stimulate renewed interest and discussion.",
+      "bookDescription": "In this compelling, readable and revisionist book, historian Laura Bolick challenges the traditional argument that the Byzantine Empire’s fate, in the final decades of the fifteenth century, was inevitable collapse. Basing her opinion on the activities of two significant Byzantine officials, Iohannes Bessarion and Isidore of Kiev, Laura Bolick analyses the efforts that they made to galvanise the Roman Catholic west into forming a crusade that would defend Constantinople from the encroaching Ottoman Turks.As Saving Byzantium shows, these men, the dedicated champions of Byzantium, faced formidable obstacles, notably the strong divisions between Roman Catholic Christianity in the west and Orthodox Christianity in the east. They also had to navigate mutual suspicion and indifference. The book charts their continuing efforts to surmount these difficulties in order to promote a spiritual, cultural, political and military alliance against the Ottomans.Although the empire would eventually fall, Saving Byzantium provides a new insight into this momentous period of history and one that is sure to stimulate renewed interest and discussion.",
       "authorName": "Laura Bolick",
       "timeline": [
         {
@@ -895,7 +899,7 @@
       "userRating": 0,
       "userAddedDay": "2026-10-12",
       "userExclusiveShelf": "on-deck",
-      "workAverageRating": "3.8",
+      "workAverageRating": "3.9",
       "workPublishedText": "1983",
       "numPages": "288",
       "reviewPageDay": "2026-10-12",
@@ -1004,7 +1008,7 @@
       "numPages": "352",
       "reviewPageDay": "2026-10-08",
       "userReview": "",
-      "bookDescription": "<b><i>NEW YORK TIMES</i> BESTSELLER </b>• <b> </b><b>“A haunting picture of the political project pursued and abetted by a confederacy of Silicon Valley elites. Their goal is nothing less than to destroy liberal democracy....In the fractured attention economy in which we all now reside, it’s easy to know these disparate facts and still have only a vague understanding of their larger significance. It is the mastery of such diverse particulars that makes Gil Durán’s new book, <i>The Nerd Reich</i>, so valuable.”</b><b> —Sue Halpern, <i>The New York Review of Books</i></b><br /> <br /> <b>A fearless and urgent chronicle of the tech-authoritarian movement from its early days in San Francisco politics to its current moment on the international stage, exploring the wild and dystopian ambition of the technocrats at its center, and offering a road map to resistance.</b><br /><br />When Silicon Valley says it is ‘‘moving fast and breaking things,’’ the world interprets the chaos as a necessary cost of innovation. Gil Durán reveals something far more a decades-long campaign to replace elected governments with corporate rule.<br /> <br /> Drawing on insider political experience and new investigations, Durán traces this ideology from its philosophical roots in <i>The Sovereign Individual</i> by James Dale Davidson and Lord William Rees-Mogg. He introduces its modern apostles—Peter Thiel, Marc Andreessen, Balaji Srinivasan, and Elon Musk—and shows how the promise of technological liberation has transformed into a global movement for digital feudalism, powered by cryptocurrency, artificial intelligence, and the algorithmic propaganda of social media.<br /> <br /> <i>The Nerd Reich</i> explains the origins, strategies, and ambitions of Silicon Valley’s war on democracy for the first time. From San Francisco’s weaponized elections and secret billionaire projects to the White House, Durán exposes how the world’s richest men are building a new political order.<br /> <br /> <i>The Nerd Reich</i> is more than a hidden history, it’s an urgent democracy is being dismantled not by coups or tanks, but by code, capital, and the illusion of innovation. Durán insists there is still time to fight back—if we act now.",
+      "bookDescription": "<b><i>NEW YORK TIMES</i> BESTSELLER </b>• <b> </b><b>“A haunting picture of the political project pursued and abetted by a confederacy of Silicon Valley elites. Their goal is nothing less than to destroy liberal democracy....In the fractured attention economy in which we all now reside, it’s easy to know these disparate facts and still have only a vague understanding of their larger significance. It is the mastery of such diverse particulars that makes Gil Durán’s new book, <i>The Nerd Reich</i>, so valuable.”</b><b> —<i>The New York Review of Books</i></b><br /> <br /> <b>A fearless and urgent chronicle of the tech-authoritarian movement from its early days in San Francisco politics to its current moment on the international stage, exploring the wild and dystopian ambition of the technocrats at its center, and offering a road map to resistance.</b><br /><br />When Silicon Valley says it is ‘‘moving fast and breaking things,’’ the world interprets the chaos as a necessary cost of innovation. Gil Durán reveals something far more a decades-long campaign to replace elected governments with corporate rule.<br /> <br /> Drawing on insider political experience and new investigations, Durán traces this ideology from its philosophical roots in <i>The Sovereign Individual</i> by James Dale Davidson and Lord William Rees-Mogg. He introduces its modern apostles—Peter Thiel, Marc Andreessen, Balaji Srinivasan, and Elon Musk—and shows how the promise of technological liberation has transformed into a global movement for digital feudalism, powered by cryptocurrency, artificial intelligence, and the algorithmic propaganda of social media.<br /> <br /> <i>The Nerd Reich</i> explains the origins, strategies, and ambitions of Silicon Valley’s war on democracy for the first time. From San Francisco’s weaponized elections and secret billionaire projects to the White House, Durán exposes how the world’s richest men are building a new political order.<br /> <br /> <i>The Nerd Reich</i> is more than a hidden history, it’s an urgent democracy is being dismantled not by coups or tanks, but by code, capital, and the illusion of innovation. Durán insists there is still time to fight back—if we act now.",
       "authorName": "Gil Duran",
       "timeline": [
         {
@@ -1455,7 +1459,7 @@
       "userRating": 0,
       "userAddedDay": "2026-08-31",
       "userExclusiveShelf": "on-deck",
-      "workAverageRating": "4.3",
+      "workAverageRating": "4.4",
       "workPublishedText": "unknown",
       "numPages": "272",
       "reviewPageDay": "2026-08-31",
@@ -1960,7 +1964,7 @@
       "numPages": "320",
       "reviewPageDay": "2026-09-08",
       "userReview": "",
-      "bookDescription": "UNA LEYENDA<br />Sir Una la Eterna es la mayor heroína del Dominio. La huérfana que desenvainó la espada del tejo, que se convirtió en caballera, que mató al último dragón, encontró el cáliz de la vida y murió por la corona y por el reino. Su leyenda perdura.<br /><br />UNA MENTIRA<br />Siglos después, Owen Mallory, un soldado caído en desgracia e investigador de segunda, dedica su vida al mito de Una la Eterna, abandonando una prometedora carrera para defender el reino. Tras la guerra, regresa roto y perdido hasta que encuentra una nueva razón para vivir entre las páginas de un misterioso libro.<br /><br />SU HISTORIA<br />Tras viajar a través del tiempo, Owen deberá servir de cronista de la última hazaña de Una y asegurarse de que llega a su trágico final, incluso después de conocer a la compleja mujer tras el mito. No sabe si será capaz de verla morir... ni cuántas veces lo ha hecho ya. Si quieren cambiar el destino de Una, tendrán que reescribir la historia misma.",
+      "bookDescription": "<b>From Alix E. Harrow, the <i>New York Times</i> bestselling author of <i>Starling House</i>, comes a moving and genre-defying quest about the lady-knight whose legend built a nation, and the cowardly historian sent back through time to make sure she plays her part–even if it breaks his heart.</b><br /><br />Sir Una Everlasting was Dominion’s greatest the orphaned girl who became a knight, who died for queen and country. Her legend lives on in songs and stories, in children’s books and recruiting posters—but her life as it truly happened has been forgotten.<br /><br />Centuries later, Owen Mallory—failed soldier, struggling scholar—falls in love with the tale of Una Everlasting. Her story takes him to war, to the archives—and then into the past itself. Una and Owen are tangled together in time, bound to retell the same story over and over again, no matter what it costs.<br /><br />But that story always ends the same way. If they want to rewrite Una’s legend—if they want to tell a different story--they’ll have to rewrite history itself.<br /><br /><br />\"Alix E. Harrow is an exceptional, undeniable talent.\" —Olivie Blake, <i>New York </i>Times bestselling author of <i>The Atlas Six</i><br /><br />\"An utter masterpiece… I loved every single page.\" —Rachel Gillig, <i>New York Times </i>and <i>USA Today</i> bestselling author of <i>One Dark Window</i><br /><br />At the Publisher's request, this title is being sold without Digital Rights Management Software (DRM) applied.",
       "authorName": "Alix E. Harrow",
       "timeline": [
         {
@@ -54376,7 +54380,7 @@
       "numPages": "164",
       "reviewPageDay": "2014-05-23",
       "userReview": "",
-      "bookDescription": "In this essay, Tolstoy maintains his theory of great men as the myths and tickets of history. History, he asserts, must give up the idea that great men rule us, and busy itself with the discovery of the idea of humanity. One looks for the overthrow of the French Empire not in this or that decision of Napoleon, but in the various factors down to the corporal who enlisted for the bounty once too often. What causes that great motion, the People, to brim over into an historic event? Nobody nowadays believes that the French Revolution happened because Marie-Antoinette was somewhat careless with her jewellery; but many people believe that Churchill, or Stalin, “won the war”, or that Hitler, personally, lost it. Moreover, the whole defence of Nazi war criminals — “we acted under orders” — is relevant to Tolstoy’s it is not your great men who order history. It is a combination of circumstances in which the great man acts merely as the reference-card in the history book. It is not denied that they too like all other individuals play their part in history; but that role is not so decisive as those who wish to avoid responsibility admit. “The great are only great because we are on our knees\".",
+      "bookDescription": "In this essay, Tolstoy maintains his theory of great men as the myths and tickets of history. History, he asserts, must give up the idea that great men rule us, and busy itself with the discovery of the idea of humanity. One looks for the overthrow of the French Empire not in this or that decision of Napoleon, but in the various factors down to the corporal who enlisted for the bounty once too often. What causes that great motion, the People, to brim over into an historic event? Nobody nowadays believes that the French Revolution happened because Marie-Antoinette was somewhat careless with her jewellery; but many people believe that Churchill, or Stalin, “won the war”, or that Hitler, personally, lost it. Moreover, the whole defence of Nazi war criminals — “we acted under orders” — is relevant to Tolstoy’s it is not your great men who order history. It is a combination of circumstances in which the great man acts merely as the reference-card in the history book. It is not denied that they too like all other individuals play their part in history; but that role is not so decisive as those who wish to avoid responsibility admit.<br /><br />“The great are only great because we are on our knees\".",
       "authorName": "Leo Tolstoy",
       "timeline": [
         {
