@@ -6,5 +6,5 @@
   request with status 202 and a JavaScript challenge page instead of the page.
   Cleared by a fresh `aws-waf-token` cookie (a browser load of a Goodreads
   page). Trigger unknown: assumed per source IP, perhaps with rate; unproven.
-- **Attempts**: publish runs needed until one passes (`waf-experiment.sh`). The
+- **Attempts**: scrape runs one `bun run publish` needs until one passes. The
   aggregate stability measure: 1 is a clean run.

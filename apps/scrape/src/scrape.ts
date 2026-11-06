@@ -122,7 +122,12 @@ async function main(args: string[]): Promise<Outcome | "help"> {
     }
     interactive = values.interactive ?? false;
     cached = values.cached ?? false;
-    flow = createFlow(flowSettings(args), {
+    const settings = flowSettings(args);
+    // the settings in effect, defaults included, at the top of every run
+    console.log(
+      `scrape: -c ${settings.concurrency} --rate ${settings.ratePerSecond ?? "none"}, --cached ${cached ? "yes" : "no"}, --interactive ${interactive ? "yes" : "no"}`,
+    );
+    flow = createFlow(settings, {
       signal: deadline.signal,
       onEvent: (event) => console.log(redact(formatEvent(event))),
     });

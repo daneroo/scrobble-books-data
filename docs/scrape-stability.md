@@ -8,10 +8,10 @@ Terms (rate limit, WAF challenge, attempts): see [GLOSSARY.md](../GLOSSARY.md).
 
 ## Method
 
-`bash apps/scrape/waf-experiment.sh -c C --rate R`: attempt 1 is a full publish
-(15 list, 1451 review, 1451 book pages, saved session); after a failure it waits
-60 s and reruns with `--cached` (only missing pages are fetched). One log per
-experiment in `data/logs/`.
+`bash apps/scrape/waf-experiment.sh -c C --rate R` (since merged into
+`bun run publish`): attempt 1 is a full publish (15 list, 1451 review, 1451 book
+pages, saved session); after a failure it waits 60 s and reruns with `--cached`
+(only missing pages are fetched). One log per experiment in `data/logs/`.
 
 ## Results
 

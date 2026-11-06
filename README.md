@@ -69,7 +69,7 @@ bun run scrape --help  # the new scraper: the single entry point
 Publish by hand, at least daily:
 
 ```bash
-bun run publish  # on main, clean tree: pulls, scrapes, prints the commit-and-push line
+bun run publish  # on main, clean tree: pulls, scrapes until a run passes, commits and pushes the data
 bun run publish --interactive  # the same, signing in by hand (scrape options pass through)
 ```
 

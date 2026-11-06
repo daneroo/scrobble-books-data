@@ -51,8 +51,9 @@ published data.
 - `bun run scrape` — the single entry point of the new scraper; options in
   `bun run scrape --help`
 - `bun run publish` — the one exception: it wraps git around the scraper (on
-  `main`, clean tree, pull, scrape) and prints the commit-and-push line; it
-  never commits or pushes itself
+  `main`, clean tree, pull), scrapes until a run passes (each restart with
+  `--cached`, after a minute), then commits the two data files and pushes if
+  they changed; log in `data/logs/`
 - `docs/` — lasting reference (agents, ADRs)
 - `thoughts/BACKLOG.md` — idea inbox; other `thoughts/` files are temporary
 - `data/` — gitignored, volatile (outputs, scratch)

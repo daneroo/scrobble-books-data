@@ -48,6 +48,15 @@ describe("bun run scrape", () => {
     expect(stderr).toContain(named);
   });
 
+  test("every run starts with the settings in effect, defaults included", async () => {
+    expect((await scrape()).stdout).toContain(
+      "scrape: -c 3 --rate 6, --cached no, --interactive no",
+    );
+    expect(
+      (await scrape("-c", "1", "--rate", "none", "--cached")).stdout,
+    ).toContain("scrape: -c 1 --rate none, --cached yes, --interactive no");
+  });
+
   test("missing credentials fail before any login", async () => {
     const { code, stderr } = await scrape();
     expect(code).toBe(1);
