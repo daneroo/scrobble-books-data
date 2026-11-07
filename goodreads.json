@@ -2,19 +2,55 @@
   "userFullName": "Daniel Lauzon",
   "items": [
     {
+      "reviewId": "9020767097",
+      "title": "The Man Who Knew Infinity: A Life of the Genius Ramanujan",
+      "bookId": "106139",
+      "bookURL": "https://www.goodreads.com/book/show/106139.The_Man_Who_Knew_Infinity",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348207994l/106139._SY75_.jpg",
+      "isbn": "0349104522",
+      "userRating": 0,
+      "userAddedDay": "2026-10-12",
+      "userExclusiveShelf": "currently-reading",
+      "workAverageRating": "4.0",
+      "workPublishedText": "1991",
+      "numPages": "438",
+      "reviewPageDay": "2026-10-12",
+      "userReview": "",
+      "bookDescription": "In 1913, a young unschooled Indian clerk wrote a letter to G H Hardy, begging the pre-eminent English mathematician's opinion on several ideas he had about numbers. Realising the letter was the work of a genius, Hardy arranged for Srinivasa Ramanujan to come to England. Thus began one of the most improbable and productive collaborations ever chronicled. With a passion for rich and evocative detail, Robert Kanigel takes us from the temples and slums of Madras to the courts and chapels of Cambridge University, where the devout Hindu Ramanujan, 'the Prince of Intuition,' tested his brilliant theories alongside the sophisticated and eccentric Hardy, 'the Apostle of Proof'. In time, Ramanujan's creative intensity took its he died at the age of thirty-two and left behind a magical and inspired legacy that is still being plumbed for its secrets today.",
+      "authorName": "Robert Kanigel",
+      "timeline": [
+        {
+          "dateText": "October 12, 2026",
+          "event": "Shelved as: on-deck"
+        },
+        {
+          "dateText": "October 12, 2026",
+          "event": "Shelved"
+        },
+        {
+          "dateText": "November 5, 2026",
+          "event": "Started Reading"
+        },
+        {
+          "dateText": "November 5, 2026",
+          "event": "10.0%"
+        }
+      ]
+    },
+    {
       "reviewId": "9069353168",
       "title": "A Drop of Corruption (Ana and Din Mysteries, #2)",
       "bookId": "213618143",
       "bookURL": "https://www.goodreads.com/book/show/213618143-a-drop-of-corruption",
       "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1723703506l/213618143._SY75_.jpg",
       "isbn": "0593723821",
-      "userRating": 0,
+      "userRating": 5,
       "userAddedDay": "2026-11-01",
-      "userExclusiveShelf": "currently-reading",
+      "userExclusiveShelf": "read",
       "workAverageRating": "4.5",
       "workPublishedText": "Apr 01, 2025",
       "numPages": "461",
-      "reviewPageDay": "2026-11-01",
+      "reviewPageDay": "2026-11-05",
       "userReview": "",
       "bookDescription": "<b>The brilliant detective Ana Dolabra may have finally met her match in the gripping sequel to <i>The Tainted Cup</i>—from the bestselling author of <i>The Founders Trilogy</i>.</b><br /><br />In the canton of Yarrowdale, at the very edge of the Empire’s reach, an impossible crime has occurred. A Treasury officer has disappeared into thin air—abducted from his quarters while the door and windows remained locked from the inside, in a building whose entrances and exits are all under constant guard.<br /><br />To solve the case, the Empire calls on its most brilliant and mercurial investigator, the great Ana Dolabra. At her side, as always, is her bemused assistant Dinios Kol.<br /><br />Before long, Ana’s discovered that they’re not investigating a disappearance, but a murder—and that the killing was just the first chess move by an adversary who seems to be able to pass through warded doors like a ghost, and who can predict every one of Ana’s moves as though they can see the future.<br /><br />Worse still, the killer seems to be targeting the high-security compound known as the Shroud. Here, the Empire's greatest minds dissect fallen Titans to harness the volatile magic found in their blood. Should it fall, the destruction would be terrible indeed—and the Empire itself will grind to a halt, robbed of the magic that allows its wheels of power to turn.<br /><br />Din has seen Ana solve impossible cases before. But this time, with the stakes higher than ever and Ana seemingly a step behind their adversary at every turn, he fears that his superior has finally met an enemy she can’t defeat.",
       "authorName": "Robert Jackson Bennett",
@@ -46,6 +82,14 @@
         {
           "dateText": "November 4, 2026",
           "event": "82.0%"
+        },
+        {
+          "dateText": "November 5, 2026",
+          "event": "99.0%"
+        },
+        {
+          "dateText": "November 5, 2026",
+          "event": "Finished Reading"
         }
       ]
     },
@@ -862,34 +906,6 @@
       ]
     },
     {
-      "reviewId": "9020767097",
-      "title": "The Man Who Knew Infinity: A Life of the Genius Ramanujan",
-      "bookId": "106139",
-      "bookURL": "https://www.goodreads.com/book/show/106139.The_Man_Who_Knew_Infinity",
-      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348207994l/106139._SY75_.jpg",
-      "isbn": "0349104522",
-      "userRating": 0,
-      "userAddedDay": "2026-10-12",
-      "userExclusiveShelf": "on-deck",
-      "workAverageRating": "4.0",
-      "workPublishedText": "1991",
-      "numPages": "438",
-      "reviewPageDay": "2026-10-12",
-      "userReview": "",
-      "bookDescription": "In 1913, a young unschooled Indian clerk wrote a letter to G H Hardy, begging the pre-eminent English mathematician's opinion on several ideas he had about numbers. Realising the letter was the work of a genius, Hardy arranged for Srinivasa Ramanujan to come to England. Thus began one of the most improbable and productive collaborations ever chronicled. With a passion for rich and evocative detail, Robert Kanigel takes us from the temples and slums of Madras to the courts and chapels of Cambridge University, where the devout Hindu Ramanujan, 'the Prince of Intuition,' tested his brilliant theories alongside the sophisticated and eccentric Hardy, 'the Apostle of Proof'. In time, Ramanujan's creative intensity took its he died at the age of thirty-two and left behind a magical and inspired legacy that is still being plumbed for its secrets today.",
-      "authorName": "Robert Kanigel",
-      "timeline": [
-        {
-          "dateText": "October 12, 2026",
-          "event": "Shelved as: on-deck"
-        },
-        {
-          "dateText": "October 12, 2026",
-          "event": "Shelved"
-        }
-      ]
-    },
-    {
       "reviewId": "9020758718",
       "title": "The Mind-Body Problem",
       "bookId": "74787",
@@ -1123,7 +1139,7 @@
       "userRating": 0,
       "userAddedDay": "2026-10-06",
       "userExclusiveShelf": "to-read",
-      "workAverageRating": "4.0",
+      "workAverageRating": "4.1",
       "workPublishedText": "unknown",
       "numPages": "272",
       "reviewPageDay": "2026-10-06",
@@ -1203,7 +1219,7 @@
       "userRating": 0,
       "userAddedDay": "2026-10-04",
       "userExclusiveShelf": "on-deck",
-      "workAverageRating": "4.2",
+      "workAverageRating": "4.3",
       "workPublishedText": "unknown",
       "numPages": "261",
       "reviewPageDay": "2026-10-04",
@@ -3723,7 +3739,7 @@
       "userRating": 5,
       "userAddedDay": "2026-05-02",
       "userExclusiveShelf": "read",
-      "workAverageRating": "4.5",
+      "workAverageRating": "4.4",
       "workPublishedText": "Mar 28, 2025",
       "numPages": "768",
       "reviewPageDay": "2026-07-01",
@@ -15036,7 +15052,7 @@
       "numPages": "400",
       "reviewPageDay": "2025-05-04",
       "userReview": "",
-      "bookDescription": "<b><i>New York Times </i>bestselling author Cory Doctorow returns to the world of <i>Red Team Blues</i> to bring us the origin story of Martin Hench and the most powerful new tool for crime ever the personal computer.</b><br /><br />The year is 1986. The city is San Francisco. Here, Martin Hench will invent the forensic accountant--what a bounty hunter is to people, he is to money--but for now he's an MIT dropout odd-jobbing his way around a city still reeling from the invention of a revolutionary new technology that will change everything about crime forever, one we now take completely for granted.<br /><br />When Marty finds himself hired by Silicon Valley PC startup the Three Wise Men to investigate a group of disgruntled ex-employees who've founded a competitor startup, he quickly realizes he's on the wrong side. Marty ditches the greasy old guys running Three Wise Men without a second thought, utterly infatuated with the electric atmosphere of Magenta Women's Enterprise. Located in the heart of the Mission, this group of brilliant young women found themselves exhausted by the predatory business practices of Three Wise Men and set out to beat them at their own game, making better computers and driving Three Wise Men out of business. But this optimistic startup, fueled by young love and California-style burritos, has no idea the depth of the evil they're seeking to unroot or the risks they run. <br /><br />In this company-eat-company city, Martin and his friends will be lucky to escape with their lives.<br /><br />At the Publisher's request, this title is being sold without Digital Rights Management Software (DRM) applied.",
+      "bookDescription": "<b><i>New York Times </i>bestselling author Cory Doctorow returns to the world of <i>Red Team Blues</i> to bring us the origin story of Martin Hench and the most powerful new tool for crime ever the personal computer.</b><br /><br />The year is 1986. The city is San Francisco. Here, Martin Hench will invent the forensic accountant--what a bounty hunter is to people, he is to money--but for now he's an MIT dropout odd-jobbing his way around a city still reeling from the invention of a revolutionary new technology that will change everything about crime forever, one we now take completely for granted.<br /><br />When Marty finds himself hired by Silicon Valley PC startup Fidelity Computing to investigate a group of disgruntled ex-employees who've founded a competitor startup, he quickly realizes he's on the wrong side. Marty ditches the greasy old guys running Fidelity Computing without a second thought, utterly infatuated with the electric atmosphere of Computing Freedom. Located in the heart of the Mission, this group of brilliant young women found themselves exhausted by the predatory business practices of Fidelity Computing and set out to beat them at their own game, making better computers and driving Fidelity Computing out of business. But this optimistic startup, fueled by young love and California-style burritos, has no idea the depth of the evil they're seeking to unroot or the risks they run.<br /><br />In this company-eat-company city, Martin and his friends will be lucky to escape with their lives.",
       "authorName": "Cory Doctorow",
       "timeline": [
         {
@@ -28932,7 +28948,7 @@
       "numPages": "368",
       "reviewPageDay": "2023-11-28",
       "userReview": "",
-      "bookDescription": "It's thirty years from now and we're making progress, mitigating climate change, slowly but surely. But what about all the angry people who can't let go?<br /><br />For young Americans a generation from now, climate change isn't controversial, it's just an overwhelming fact of life. But so are the great efforts to contain and mitigate it. Entire cities are being moved inland from the rising seas. Vast clean-energy projects are springing up everywhere. Disaster relief, the mitigation of floods and superstorms, has become a skill for which tens of millions of people are trained every year. The effort is global. It employs everyone who wants to work. Even when national politics oscillates back to right-wing leaders, the momentum is too great; these vast programmes cannot be stopped in their tracks.<br /><br />But there are still those Americans who cling to their red trucker caps, their grievances, their anger, their nostalgia for the golden age of assault rifles. Their 'alternative' news sources reassure them their resentment is right and pure and 'climate change' is a con.<br /><br />They're your grandfather, your uncle, your great-aunt. They're not going anywhere. And they're armed to the teeth.",
+      "bookDescription": "It’s thirty years from now. We’re making progress, mitigating climate change, slowly but surely. But what about all the angry old people who can’t let go?<br /><br />For young Americans a generation from now, climate change isn't controversial. It's just an overwhelming fact of life. And so are the great efforts to contain and mitigate it. Entire cities are being moved inland from the rising seas. Vast clean-energy projects are springing up everywhere. Disaster relief, the mitigation of floods and superstorms, has become a skill for which tens of millions of people are trained every year. The effort is global. It employs everyone who wants to work. Even when national politics oscillates back to right-wing leaders, the momentum is too great; these vast programs cannot be stopped in their tracks.<br /><br />But there are still those Americans, mostly elderly, who cling to their red baseball caps, their grievances, their huge vehicles, their anger. To their \"alternative\" news sources that reassure them that their resentment is right and pure and that \"climate change\" is just a giant scam.<br /><br />And they're your grandfather, your uncle, your great-aunt. And they're not going anywhere. And they’re armed to the teeth.<br /><br /><i>The Lost Cause</i> What do we do about people who cling to the belief that their own children are the enemy? When, in fact, they're often the elders that we love?",
       "authorName": "Cory Doctorow",
       "timeline": [
         {
@@ -40908,7 +40924,7 @@
       "numPages": "540",
       "reviewPageDay": "2022-02-08",
       "userReview": "",
-      "bookDescription": "Metaphysics asks questions about for example, do numbers really exist? Metametaphysics asks questions about for example, do its questions have determinate answers? If so, are these answers deep and important, or are they merely a matter of how we use words? What is the proper methodology for their resolution? These questions have received a heightened degree of attention lately with new varieties of ontological deflationism and pluralism challenging the kind of realism that has become orthodoxy in contemporary analytic metaphysics.<br /><br />This volume concerns the status and ambitions of metaphysics as a discipline. It brings together many of the central figures in the debate with their most recent work on the semantics, epistemology, and methodology of metaphysics.",
+      "bookDescription": "Metaphysics asks questions about for example, do numbers really exist? Metametaphysics asks questions about for example, do its questions have determinate answers? If so, are these answers deep and important, or are they merely a matter of how we use words? What is the proper methodology for their resolution? These questions have received a heightened degree of attention lately with new varieties of ontological deflationism and pluralism challenging the kind of realism that has become orthodoxy in contemporary analytic metaphysics. <br /><br />This volume concerns the status and ambitions of metaphysics as a discipline. It brings together many of the central figures in the debate with their most recent work on the semantics, epistemology, and methodology of metaphysics.",
       "authorName": "David J. Chalmers",
       "timeline": [
         {
@@ -47848,7 +47864,7 @@
       "numPages": "274",
       "reviewPageDay": "2021-03-30",
       "userReview": "",
-      "bookDescription": "<b>An international business expert helps you understand and navigate cultural differences in this \"brilliant guide to what all business leaders need to know right now\" (Marshall Goldsmith, author of the <i>New York Times</i> and global bestseller <i>What Got You Here Won't Get You There</i>)</b><br /><br /> When it comes to communication styles, Americans precede anything negative with three nice comments; French, Dutch, Israelis, and Germans get straight to the point; Latin Americans and Asians are steeped in hierarchy; Scandinavians think the best boss is just one of the crowd. It's no surprise that when they try and talk to each other, chaos breaks out.<br /><br /> In <i>The Culture Map</i>, INSEAD professor Erin Meyer is your guide through this subtle, sometimes treacherous terrain in which people from starkly different backgrounds are expected to work harmoniously together. She provides a field-tested model for decoding how cultural differences impact international business, and combines a smart analytical framework with practical, actionable advice.",
+      "bookDescription": "<b>An essential and practical guide to understanding and navigating cultural differences in the workplace.</b><br /><br /><b>“A brilliant guide to what all business leaders need to know right now.” —Marshall Goldsmith, author of the </b><i>\n  <b>New York Times</b>\n</i><b> bestseller </b><i>\n  <b>What Got You Here Won’t Get You There</b>\n</i><br /><br />When it comes to communication styles, Americans precede anything negative with three nice comments; French, Dutch, Israelis, and Germans get straight to the point; Latin Americans and Asians are steeped in hierarchy; Scandinavians think the best boss is just one of the crowd. It's no surprise that when they try and talk to each other, chaos breaks out.<br /><br />In <i>The Culture Map</i>, INSEAD professor Erin Meyer is your guide through this subtle, sometimes treacherous terrain in which people from starkly different backgrounds are expected to work harmoniously together. She provides a field-tested model for decoding how cultural differences impact international business, and combines a smart analytical framework with practical, actionable advice.",
       "authorName": "Erin Meyer",
       "timeline": [
         {
@@ -51032,7 +51048,7 @@
       "numPages": "16",
       "reviewPageDay": "2020-05-30",
       "userReview": "",
-      "bookDescription": "At once wildly original and stuffed with irresistible nostalgia, READY PLAYER ONE is a spectacularly genre-busting, ambitious, and charming debut—part quest novel, part love story, and part virtual space opera set in a universe where spell-slinging mages battle giant Japanese robots, entire planets are inspired by <i>Blade Runner</i>, and flying DeLoreans achieve light speed.<br /><br />It’s the year 2044, and the real world is an ugly place. <br /><br />Like most of humanity, Wade Watts escapes his grim surroundings by spending his waking hours jacked into the OASIS, a sprawling virtual utopia that lets you be anything you want to be, a place where you can live and play and fall in love on any of ten thousand planets. <br /><br />And like most of humanity, Wade dreams of being the one to discover the ultimate lottery ticket that lies concealed within this virtual world. For somewhere inside this giant networked playground, OASIS creator James Halliday has hidden a series of fiendish puzzles that will yield massive fortune—and remarkable power—to whoever can unlock them.   <br /><br />For years, millions have struggled fruitlessly to attain this prize, knowing only that Halliday’s riddles are based in the pop culture he loved—that of the late twentieth century. And for years, millions have found in this quest another means of escape, retreating into happy, obsessive study of Halliday’s icons. Like many of his contemporaries, Wade is as comfortable debating the finer points of John Hughes’s oeuvre, playing Pac-Man, or reciting Devo lyrics as he is scrounging power to run his OASIS rig.<br /><br />And then Wade stumbles upon the first puzzle.<br /><br />Suddenly the whole world is watching, and thousands of competitors join the hunt—among them certain powerful players who are willing to commit very real murder to beat Wade to this prize. Now the only way for Wade to survive and preserve everything he knows is to<i> win</i>. But to do so, he may have to leave behind his oh-so-perfect virtual existence and face up to life—and love—in the real world he’s always been so desperate to escape. <br /> <br />A world at stake.<br />A quest for the ultimate prize.<br /><b>Are you ready?</b>",
+      "bookDescription": "<b>#1 <i>NEW YORK TIMES </i>BESTSELLER </b>• <b>Now a major motion picture directed by Steven Spielberg.</b><br /><br /> <b>“Enchanting . . . <i>Willy Wonka </i>meets <i>The Matrix</i>.”—<i>USA Today </i>• “As one adventure leads expertly to the next, time simply evaporates.”—<i>Entertainment Weekly</i></b><br /><br /> <i>A world at stake. A quest for the ultimate prize. Are you ready?</i><br /><br /> In the year 2045, reality is an ugly place. The only time Wade Watts really feels alive is when he’s jacked into the OASIS, a vast virtual world where most of humanity spends their days.<br /><br /> When the eccentric creator of the OASIS dies, he leaves behind a series of fiendish puzzles, based on his obsession with the pop culture of decades past. Whoever is first to solve them will inherit his vast fortune—and control of the OASIS itself. <br /><br /> Then Wade cracks the first clue. Suddenly he’s beset by rivals who’ll kill to take this prize. The race is on—and the only way to survive is to win.<br /><br /> <b>NAMED ONE OF THE BEST BOOKS OF THE YEAR BY <i>Entertainment Weekly </i>• <i>San Francisco Chronicle </i>• <i>Village Voice </i>• <i>Chicago Sun-Times </i>• <i>iO9 </i>• <i>The AV Club</i></b><br /><br /> “Delightful . . . the grown-up’s Harry Potter.”<b>—<i>HuffPost</i></b><br /><br /> “An addictive read . . . part intergalactic scavenger hunt, part romance, and all heart.”<b>—CNN</b><br /><br /> “A most excellent ride . . . Cline stuffs his novel with a cornucopia of pop culture, as if to wink to the reader.”<b>—<i>Boston Globe</i></b><br /><br /> “Ridiculously fun and large-hearted . . . Cline is that rare writer who can translate his own dorky enthusiasms into prose that’s both hilarious and compassionate.”<b>—NPR</b><br /><br /> “[A] fantastic page-turner . . . starts out like a simple bit of fun and winds up feeling like a rich and plausible picture of future friendships in a world not too distant from our own.”<b>—<i>iO9</i></b><br /><br />",
       "authorName": "Ernest Cline",
       "timeline": [
         {
