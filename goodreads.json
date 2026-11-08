@@ -38,6 +38,10 @@
         {
           "dateText": "November 6, 2026",
           "event": "29.0%"
+        },
+        {
+          "dateText": "November 7, 2026",
+          "event": "52.0%"
         }
       ]
     },
@@ -1479,7 +1483,7 @@
       "userRating": 0,
       "userAddedDay": "2026-08-31",
       "userExclusiveShelf": "on-deck",
-      "workAverageRating": "4.4",
+      "workAverageRating": "4.3",
       "workPublishedText": "unknown",
       "numPages": "272",
       "reviewPageDay": "2026-08-31",
@@ -3743,7 +3747,7 @@
       "userRating": 5,
       "userAddedDay": "2026-05-02",
       "userExclusiveShelf": "read",
-      "workAverageRating": "4.4",
+      "workAverageRating": "4.5",
       "workPublishedText": "Mar 28, 2025",
       "numPages": "768",
       "reviewPageDay": "2026-07-01",
@@ -22695,7 +22699,7 @@
       "userRating": 0,
       "userAddedDay": "2024-03-04",
       "userExclusiveShelf": "to-read",
-      "workAverageRating": "4.2",
+      "workAverageRating": "4.1",
       "workPublishedText": "unknown",
       "numPages": "397",
       "reviewPageDay": "2024-03-04",
