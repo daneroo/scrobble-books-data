@@ -2,19 +2,59 @@
   "userFullName": "Daniel Lauzon",
   "items": [
     {
+      "reviewId": "9073338679",
+      "title": "A Trade of Blood (Ana and Din Mysteries, #3)",
+      "bookId": "102615935",
+      "bookURL": "https://www.goodreads.com/book/show/102615935-a-trade-of-blood",
+      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1775157169l/102615935._SY75_.jpg",
+      "isbn": "",
+      "userRating": 0,
+      "userAddedDay": "2026-11-02",
+      "userExclusiveShelf": "currently-reading",
+      "workAverageRating": "4.5",
+      "workPublishedText": "Aug 04, 2026",
+      "numPages": "400",
+      "reviewPageDay": "2026-11-02",
+      "userReview": "",
+      "bookDescription": "An Ana and Din Mystery<br /><br /><b>Brilliant detective Ana Dolabra must prove a man's innocence to stop a civil war in the third book of the series that began with <i>The Tainted Cup</i>, named an Edgar, Hugo, and World Fantasy Award Finalist and one of the best books of the year (<i>New York Times Book Review</i>, NPR, <i>Elle</i>)—from the bestselling author of The Founders Trilogy.</b><br /><br />In the canton of Sapirdad, two of the Empire’s most powerful families are moments away from going to war with each other, their hundreds of retainers gathered with swords drawn. If blood is spilt, the whole of the empire may be plunged into starvation and chaos.<br /><br />To de-escalate matters, someone must do the impossible: prove that one family’s eldest son is innocent of a gruesome and unforgivable murder, despite the incontrovertible evidence against him.<br /><br />It is with this undertaking that the great detective Ana Dolabra is tasked, her assistant Din at her side—and the two find themselves racing with great speed and little dignity to the scene.<br /><br />As ever, the impossible proves little obstacle for the deadly combination of Ana’s intellect and Din’s keen eye, and mere hours after riding into the dusty town, Ana glimpses the greater pattern behind the crime. A deeper, subtler web of death is being woven in plain sight, by a mastermind with an ancient magical technology at his disposal.<br /><br />But even Ana's uncanny insight is of little use when each new suspect she uncovers ends up dead--with each new killing calculated to bring tensions between the two rival clans past the boiling point. And as Din pursues their adversary through the canton's wild ranges, sprawling ranches, and reeking slaughterhouses, he finds his loyalties divided in unexpected ways.",
+      "authorName": "Robert Jackson Bennett",
+      "timeline": [
+        {
+          "dateText": "November 2, 2026",
+          "event": "Shelved as: on-deck"
+        },
+        {
+          "dateText": "November 2, 2026",
+          "event": "Shelved"
+        },
+        {
+          "dateText": "November 10, 2026",
+          "event": "Started Reading"
+        },
+        {
+          "dateText": "November 10, 2026",
+          "event": "20.0%"
+        },
+        {
+          "dateText": "November 10, 2026",
+          "event": "48.0%"
+        }
+      ]
+    },
+    {
       "reviewId": "9020767097",
       "title": "The Man Who Knew Infinity: A Life of the Genius Ramanujan",
       "bookId": "106139",
       "bookURL": "https://www.goodreads.com/book/show/106139.The_Man_Who_Knew_Infinity",
       "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348207994l/106139._SY75_.jpg",
       "isbn": "0349104522",
-      "userRating": 0,
+      "userRating": 4,
       "userAddedDay": "2026-10-12",
-      "userExclusiveShelf": "currently-reading",
+      "userExclusiveShelf": "read",
       "workAverageRating": "4.0",
       "workPublishedText": "1991",
       "numPages": "438",
-      "reviewPageDay": "2026-10-12",
+      "reviewPageDay": "2026-11-09",
       "userReview": "",
       "bookDescription": "In 1913, a young unschooled Indian clerk wrote a letter to G H Hardy, begging the pre-eminent English mathematician's opinion on several ideas he had about numbers. Realising the letter was the work of a genius, Hardy arranged for Srinivasa Ramanujan to come to England. Thus began one of the most improbable and productive collaborations ever chronicled. With a passion for rich and evocative detail, Robert Kanigel takes us from the temples and slums of Madras to the courts and chapels of Cambridge University, where the devout Hindu Ramanujan, 'the Prince of Intuition,' tested his brilliant theories alongside the sophisticated and eccentric Hardy, 'the Apostle of Proof'. In time, Ramanujan's creative intensity took its he died at the age of thirty-two and left behind a magical and inspired legacy that is still being plumbed for its secrets today.",
       "authorName": "Robert Kanigel",
@@ -46,6 +86,14 @@
         {
           "dateText": "November 8, 2026",
           "event": "82.0%"
+        },
+        {
+          "dateText": "November 9, 2026",
+          "event": "99.0%"
+        },
+        {
+          "dateText": "November 9, 2026",
+          "event": "Finished Reading"
         }
       ]
     },
@@ -129,34 +177,6 @@
         },
         {
           "dateText": "November 4, 2026",
-          "event": "Shelved"
-        }
-      ]
-    },
-    {
-      "reviewId": "9073338679",
-      "title": "A Trade of Blood (Ana and Din Mysteries, #3)",
-      "bookId": "102615935",
-      "bookURL": "https://www.goodreads.com/book/show/102615935-a-trade-of-blood",
-      "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1775157169l/102615935._SY75_.jpg",
-      "isbn": "",
-      "userRating": 0,
-      "userAddedDay": "2026-11-02",
-      "userExclusiveShelf": "on-deck",
-      "workAverageRating": "4.5",
-      "workPublishedText": "Aug 04, 2026",
-      "numPages": "400",
-      "reviewPageDay": "2026-11-02",
-      "userReview": "",
-      "bookDescription": "An Ana and Din Mystery<br /><br /><b>Brilliant detective Ana Dolabra must prove a man's innocence to stop a civil war in the third book of the series that began with <i>The Tainted Cup</i>, named an Edgar, Hugo, and World Fantasy Award Finalist and one of the best books of the year (<i>New York Times Book Review</i>, NPR, <i>Elle</i>)—from the bestselling author of The Founders Trilogy.</b><br /><br />In the canton of Sapirdad, two of the Empire’s most powerful families are moments away from going to war with each other, their hundreds of retainers gathered with swords drawn. If blood is spilt, the whole of the empire may be plunged into starvation and chaos.<br /><br />To de-escalate matters, someone must do the impossible: prove that one family’s eldest son is innocent of a gruesome and unforgivable murder, despite the incontrovertible evidence against him.<br /><br />It is with this undertaking that the great detective Ana Dolabra is tasked, her assistant Din at her side—and the two find themselves racing with great speed and little dignity to the scene.<br /><br />As ever, the impossible proves little obstacle for the deadly combination of Ana’s intellect and Din’s keen eye, and mere hours after riding into the dusty town, Ana glimpses the greater pattern behind the crime. A deeper, subtler web of death is being woven in plain sight, by a mastermind with an ancient magical technology at his disposal.<br /><br />But even Ana's uncanny insight is of little use when each new suspect she uncovers ends up dead--with each new killing calculated to bring tensions between the two rival clans past the boiling point. And as Din pursues their adversary through the canton's wild ranges, sprawling ranches, and reeking slaughterhouses, he finds his loyalties divided in unexpected ways.",
-      "authorName": "Robert Jackson Bennett",
-      "timeline": [
-        {
-          "dateText": "November 2, 2026",
-          "event": "Shelved as: on-deck"
-        },
-        {
-          "dateText": "November 2, 2026",
           "event": "Shelved"
         }
       ]
@@ -927,7 +947,7 @@
       "userRating": 0,
       "userAddedDay": "2026-10-12",
       "userExclusiveShelf": "on-deck",
-      "workAverageRating": "3.9",
+      "workAverageRating": "3.8",
       "workPublishedText": "1983",
       "numPages": "288",
       "reviewPageDay": "2026-10-12",
@@ -1363,7 +1383,7 @@
       "userRating": 0,
       "userAddedDay": "2026-10-01",
       "userExclusiveShelf": "on-deck",
-      "workAverageRating": "4.2",
+      "workAverageRating": "4.1",
       "workPublishedText": "unknown",
       "numPages": "208",
       "reviewPageDay": "2026-10-01",
@@ -1487,7 +1507,7 @@
       "userRating": 0,
       "userAddedDay": "2026-08-31",
       "userExclusiveShelf": "on-deck",
-      "workAverageRating": "4.4",
+      "workAverageRating": "4.3",
       "workPublishedText": "unknown",
       "numPages": "272",
       "reviewPageDay": "2026-08-31",
@@ -3751,7 +3771,7 @@
       "userRating": 5,
       "userAddedDay": "2026-05-02",
       "userExclusiveShelf": "read",
-      "workAverageRating": "4.5",
+      "workAverageRating": "4.4",
       "workPublishedText": "Mar 28, 2025",
       "numPages": "768",
       "reviewPageDay": "2026-07-01",
@@ -4044,7 +4064,7 @@
       "numPages": "528",
       "reviewPageDay": "2026-06-17",
       "userReview": "",
-      "bookDescription": "A battle-worn corporate samurai undertakes one last mission on a merciless planet where death is always a mere breath away, in this standalone dystopian epic. <br /><br />LIVE BY THE CODE. DIE BY THE KNIFE.<br /><br />Isako is a legendary swordswoman, but every legend must come to an end. When her long-time client unexpectedly retires, she plans to follow—to walk out into the frozen wasteland of their planet with her head held high and her family enriched by her death. But when she's offered a final mission, she can't refuse, especially when she realizes who lies at the center of it Martim, her last—and worst—apprentice, who's somehow made his way to the top. As she's thrust into a world of corporate espionage and shadowy secrets, what she uncovers could forever change humanity's existence among the stars.",
+      "bookDescription": "<b>A battle-worn corporate samurai undertakes one last mission on a merciless planet where death is always a mere breath away, in this standalone science fiction epic from the author of the modern fantasy classic <em>Jade City.</em> </b><br /><br /><b>LIVE BY THE CODE. DIE BY THE KNIFE.</b><br /><br />On the merciless planet of Aquilo, where your job determines your worth, legendary swordswoman Isako commands the highest price. But every legend must come to an end. When her longtime client unexpectedly retires, she plans to follow—to walk out into Aquilo's frozen wasteland with her head high and her family enriched by her death. But when she's offered a final mission, she can't refuse, especially when she realizes who lies at its center: Martim, her last—and worst—apprentice, who's somehow made his way to the top. As she's thrust into a world of corporate espionage and shadowy secrets, what she uncovers could forever change humanity's existence among the stars.<br /><br /><em>The Last Contract of Isako</em> is epic science fiction like only Fonda Lee can write it—set in a world where money trumps loyalty, the elite have the power to extend life or end it, and one woman in the twilight of her calling must decide what's ultimately worth living—or dying—for.",
       "authorName": "Fonda Lee",
       "timeline": [
         {
@@ -6303,7 +6323,7 @@
       "userRating": 0,
       "userAddedDay": "2026-02-25",
       "userExclusiveShelf": "on-deck",
-      "workAverageRating": "3.3",
+      "workAverageRating": "3.6",
       "workPublishedText": "unknown",
       "numPages": "128",
       "reviewPageDay": "2026-02-25",
@@ -11144,7 +11164,7 @@
       "numPages": "306",
       "reviewPageDay": "2025-09-28",
       "userReview": "",
-      "bookDescription": "Written in Irv Yalom's inimitable story-telling style, Staring at the Sun is a profoundly encouraging approach to the universal issue of mortality. In this magisterial opus, capping a lifetime of work and personal experience, Dr. Yalom helps us recognize that the fear of death is at the heart of much of our anxiety. Such recognition is often catalyzed by an \"awakening experience\"—a dream, or loss (the death of a loved one, divorce, loss of a job or home), illness, trauma, or aging. Once we confront our own mortality, Dr. Yalom writes, we are inspired to rearrange our priorities, communicate more deeply with those we love, appreciate more keenly the beauty of life, and increase our willingness to take the risks necessary for personal fulfillment.",
+      "bookDescription": "Written in Irv Yalom's inimitable story-telling style, <i>Staring at the Sun</i> is a profoundly encouraging approach to the universal issue of mortality. In this magisterial opus, capping a lifetime of work and personal experience, Dr. Yalom helps us recognize that the fear of death is at the heart of much of our anxiety. Such recognition is often catalyzed by an \"awakening experience\"—a dream, or loss (the death of a loved one, divorce, loss of a job or home), illness, trauma, or aging.Once we confront our own mortality, Dr. Yalom writes, we are inspired to rearrange our priorities, communicate more deeply with those we love, appreciate more keenly the beauty of life, and increase our willingness to take the risks necessary for personal fulfillment.",
       "authorName": "Irvin D. Yalom",
       "timeline": [
         {
@@ -16043,7 +16063,7 @@
       "userRating": 4,
       "userAddedDay": "2024-02-24",
       "userExclusiveShelf": "read",
-      "workAverageRating": "4.1",
+      "workAverageRating": "4.0",
       "workPublishedText": "Feb 20, 2024",
       "numPages": "230",
       "reviewPageDay": "2025-03-19",
@@ -17356,7 +17376,7 @@
       "numPages": "448",
       "reviewPageDay": "2025-01-27",
       "userReview": "",
-      "bookDescription": "Preference falsification, according to the economist Timur Kuran, is the act of misrepresenting one's wants under perceived social pressures. It happens frequently in everyday life, such as when we tell the host of a dinner party that we are enjoying the food when we actually find it bland. In Private Truths, Public Lies Kuran argues convincingly that the phenomenon not only is ubiquitous but has huge social and political consequences. Drawing on diverse intellectual traditions, including those rooted in economics, psychology, sociology, and political science, Kuran provides a unified theory of how preference falsification shapes collective decisions, orients structural change, sustains social stability, distorts human knowledge, and conceals political possibilities.<br /><br />A common effect of preference falsification is the preservation of widely disliked structures. Another is the conferment of an aura of stability on structures vulnerable to sudden collapse. When the support of a policy, tradition, or regime is largely contrived, a minor event may activate a bandwagon that generates massive yet unanticipated change.<br /><br />In distorting public opinion, preference falsification also corrupts public discourse and, hence, human knowledge. So structures held in place by preference falsification may, if the condition lasts long enough, achieve increasingly genuine acceptance. The book demonstrates how human knowledge and social structures co-evolve in complex and imperfectly predictable ways, without any guarantee of social efficiency.<br /><br />Private Truths, Public Lies uses its theoretical argument to illuminate an array of puzzling social phenomena. They include the unexpected fall of communism, the paucity, until recently, of open opposition to affirmative action in the United States, and the durability of the beliefs that have sustained India's caste system.",
+      "bookDescription": "Preference falsification, according to the economist Timur Kuran, is the act of misrepresenting one's wants under perceived social pressures. It happens frequently in everyday life, such as when we tell the host of a dinner party that we are enjoying the food when we actually find it bland. In <i>Private Truths, Public Lies</i> Kuran argues convincingly that the phenomenon not only is ubiquitous but has huge social and political consequences. Drawing on diverse intellectual traditions, including those rooted in economics, psychology, sociology, and political science, Kuran provides a unified theory of how preference falsification shapes collective decisions, orients structural change, sustains social stability, distorts human knowledge, and conceals political possibilities.<br /><br />A common effect of preference falsification is the preservation of widely disliked structures. Another is the conferment of an aura of stability on structures vulnerable to sudden collapse. When the support of a policy, tradition, or regime is largely contrived, a minor event may activate a bandwagon that generates massive yet unanticipated change.<br /><br />In distorting public opinion, preference falsification also corrupts public discourse and, hence, human knowledge. So structures held in place by preference falsification may, if the condition lasts long enough, achieve increasingly genuine acceptance. The book demonstrates how human knowledge and social structures co-evolve in complex and imperfectly predictable ways, without any guarantee of social efficiency.<br /><br /><i>Private Truths, Public Lies</i> uses its theoretical argument to illuminate an array of puzzling social phenomena. They include the unexpected fall of communism, the paucity, until recently, of open opposition to affirmative action in the United States, and the durability of the beliefs that have sustained India's caste system.",
       "authorName": "Timur Kuran",
       "timeline": [
         {
@@ -25187,7 +25207,7 @@
       "userRating": 0,
       "userAddedDay": "2024-04-14",
       "userExclusiveShelf": "to-read",
-      "workAverageRating": "3.9",
+      "workAverageRating": "4.0",
       "workPublishedText": "1992",
       "numPages": "162",
       "reviewPageDay": "2024-04-14",
@@ -26735,7 +26755,7 @@
       "userRating": 3,
       "userAddedDay": "2023-05-30",
       "userExclusiveShelf": "read",
-      "workAverageRating": "3.8",
+      "workAverageRating": "3.9",
       "workPublishedText": "Apr 20, 2021",
       "numPages": "377",
       "reviewPageDay": "2024-02-09",
@@ -27048,7 +27068,7 @@
       "numPages": "288",
       "reviewPageDay": "2024-01-29",
       "userReview": "",
-      "bookDescription": "This book provides an in-depth, problem-oriented introduction to philosophical analysis using an extremely clear, readable approach. The Fourth Edition does not only update coverage throughout the book, but also restores the introductory chapter— Words and the World —the most distinguished, widely acclaimed feature of the first two editions.",
+      "bookDescription": "<b> </b> This book provides an in-depth, problem-oriented introduction to philosophical analysis using an extremely clear, readable approach. <b> </b> The <i>Fourth Edition</i> does not only update coverage throughout the book, but also restores the introductory chapter—<i>Words and the World</i>—the most distinguished, widely acclaimed feature of the first two editions.",
       "authorName": "John Hospers",
       "timeline": [
         {
@@ -38648,7 +38668,7 @@
       "numPages": "756",
       "reviewPageDay": "2022-06-28",
       "userReview": "",
-      "bookDescription": "An unparalleled learning tool and guide to error correction coding<br /><br />Error correction coding techniques allow the detection and correction of errors occurring during the transmission of data in digital communication systems. These techniques are nearly universally employed in modern communication systems, and are thus an important component of the modern information economy.<br /><br />Error Correction Mathematical Methods and Algorithms provides a comprehensive introduction to both the theoretical and practical aspects of error correction coding, with a presentation suitable for a wide variety of audiences, including graduate students in electrical engineering, mathematics, or computer science. The pedagogy is arranged so that the mathematical concepts are presented incrementally, followed immediately by applications to coding. A large number of exercises expand and deepen students' understanding. A unique feature of the book is a set of programming laboratories, supplemented with over 250 programs and functions on an associated Web site, which provides hands-on experience and a better understanding of the material. These laboratories lead students through the implementation and evaluation of Hamming codes, CRC codes, BCH and R-S codes, convolutional codes, turbo codes, and LDPC codes.<br /><br />This text offers both \"classical\" coding theory-such as Hamming, BCH, Reed-Solomon, Reed-Muller, and convolutional codes-as well as modern codes and decoding methods, including turbo codes, LDPC codes, repeat-accumulate codes, space time codes, factor graphs, soft-decision decoding, Guruswami-Sudan decoding, EXIT charts, and iterative decoding. Theoretical complements on performance and bounds are presented. Coding is also put into its communications and information theoretic context and connections are drawn to public key cryptosystems.<br /><br />Ideal as a classroom resource and a professional reference, this thorough guide will benefit electrical and computer engineers, mathematicians, students, researchers, and scientists.",
+      "bookDescription": "An unparalleled learning tool and guide to error correction coding<br /> <br /> Error correction coding techniques allow the detection and correction of errors occurring during the transmission of data in digital communication systems. These techniques are nearly universally employed in modern communication systems, and are thus an important component of the modern information economy.<br /> <br /> Error Correction Mathematical Methods and Algorithms provides a comprehensive introduction to both the theoretical and practical aspects of error correction coding, with a presentation suitable for a wide variety of audiences, including graduate students in electrical engineering, mathematics, or computer science. The pedagogy is arranged so that the mathematical concepts are presented incrementally, followed immediately by applications to coding. A large number of exercises expand and deepen students' understanding. A unique feature of the book is a set of programming laboratories, supplemented with over 250 programs and functions on an associated Web site, which provides hands-on experience and a better understanding of the material. These laboratories lead students through the implementation and evaluation of Hamming codes, CRC codes, BCH and R-S codes, convolutional codes, turbo codes, and LDPC codes.<br /> <br /> This text offers both \"classical\" coding theory-such as Hamming, BCH, Reed-Solomon, Reed-Muller, and convolutional codes-as well as modern codes and decoding methods, including turbo codes, LDPC codes, repeat-accumulate codes, space time codes, factor graphs, soft-decision decoding, Guruswami-Sudan decoding, EXIT charts, and iterative decoding. Theoretical complements on performance and bounds are presented. Coding is also put into its communications and information theoretic context and connections are drawn to public key cryptosystems.<br /> <br /> Ideal as a classroom resource and a professional reference, this thorough guide will benefit electrical and computer engineers, mathematicians, students, researchers, and scientists.",
       "authorName": "Todd K. Moon",
       "timeline": [
         {
@@ -42556,7 +42576,7 @@
       "numPages": "750",
       "reviewPageDay": "2020-08-23",
       "userReview": "",
-      "bookDescription": "Spacetime and Geometry: An Introduction to General Relativity provides a lucid and thoroughly modern introduction to general relativity. With an accessible and lively writing style, it introduces modern techniques to what can often be a formal and intimidating subject. Readers are led from the physics of flat spacetime (special relativity), through the intricacies of differential geometry and Einstein's equations, and on to exciting applications such as black holes, gravitational radiation, and cosmology.",
+      "bookDescription": "<i>Spacetime and An Introduction to General Relativity</i> provides a lucid and thoroughly modern introduction to general relativity. With an accessible and lively writing style, it introduces modern techniques to what can often be a formal and intimidating subject. Readers are led from the physics of flat spacetime (special relativity), through the intricacies of differential geometry and Einstein's equations, and on to exciting applications such as black holes, gravitational radiation, and cosmology.",
       "authorName": "Sean Carroll",
       "timeline": [
         {
@@ -42588,7 +42608,7 @@
       "numPages": "3500",
       "reviewPageDay": "2021-11-05",
       "userReview": "",
-      "bookDescription": "The Encyclopedia of Mathematical Physics provides a complete resource for researchers, students and lecturers with an interest in mathematical physics. It enables readers to access basic information on topics peripheral to their own areas, to provide a repository of the core information in the area that can be used to refresh the researcher’s own memory banks, and aid teachers in directing students to entries relevant to their course-work. The Encyclopedia does contain information that has been distilled, organised and presented as a complete reference tool to the user and a landmark to the body of knowledge that has accumulated in this domain. It also is a stimulus for new researchers working in mathematical physics or in areas using the methods originating from work in mathematical physics by providing them with focused high quality background information. Editorial Jean-Pierre Françoise, Université Pierre et Marie Curie, Paris, FranceGregory L. Naber, Drexel University, Philadelphia, PA, USATsou Sheung Tsun, University of Oxford, UK Also available online via ScienceDirect (2006) – featuring extensive browsing, searching, and internal cross-referencing between articles in the work, plus dynamic linking to journal articles and abstract databases, making navigation flexible and easy. For more information, pricing options and availability visit www.info.sciencedirect.com.",
+      "bookDescription": "<i>The Encyclopedia of Mathematical Physics</i> provides a complete resource for researchers, students and lecturers with an interest in mathematical physics. It enables readers to access basic information on topics peripheral to their own areas, to provide a repository of the core information in the area that can be used to refresh the researcher’s own memory banks, and aid teachers in directing students to entries relevant to their course-work. The Encyclopedia does contain information that has been distilled, organised and presented as a complete reference tool to the user and a landmark to the body of knowledge that has accumulated in this domain. It also is a stimulus for new researchers working in mathematical physics or in areas using the methods originating from work in mathematical physics by providing them with focused high quality background information.<br /><br />Editorial Jean-Pierre Françoise, Université Pierre et Marie Curie, Paris, FranceGregory L. Naber, Drexel University, Philadelphia, PA, USATsou Sheung Tsun, University of Oxford, UK<br /><br />Also available online via ScienceDirect (2006) – featuring extensive browsing, searching, and internal cross-referencing between articles in the work, plus dynamic linking to journal articles and abstract databases, making navigation flexible and easy. For more information, pricing options and availability visit www.info.sciencedirect.com.<br /><br />First comprehensive interdisciplinary coverage Mathematical Physics explained to stimulate new developments and foster new applications of its methods to other fields Written by an international group of experts Contains several undergraduate-level introductory articles to facilitate acquisition of new expertis Thematic index and extensive cross-referencing to provide easy access and quick search functionality Also available online with active linking",
       "authorName": "Jean-Pierre Françoise",
       "timeline": [
         {
@@ -47320,7 +47340,7 @@
       "numPages": "777",
       "reviewPageDay": "2013-05-07",
       "userReview": "",
-      "bookDescription": "Douglas Hofstadter's book is concerned directly with the nature of “maps” or links between formal systems. However, according to Hofstadter, the formal system that underlies all mental activity transcends the system that supports it. If life can grow out of the formal chemical substrate of the cell, if consciousness can emerge out of a formal system of firing neurons, then so too will computers attain human intelligence. Gödel, Escher, Bach is a wonderful exploration of fascinating ideas at the heart of cognitive science: meaning, reduction, recursion, and much more.",
+      "bookDescription": "Douglas Hofstadter's book is concerned directly with the nature of “maps” or links between formal systems. However, according to Hofstadter, the formal system that underlies all mental activity transcends the system that supports it. If life can grow out of the formal chemical substrate of the cell, if consciousness can emerge out of a formal system of firing neurons, then so too will computers attain human intelligence. <i>Gödel, Escher, Bach</i> is a wonderful exploration of fascinating ideas at the heart of cognitive science: meaning, reduction, recursion, and much more.",
       "authorName": "Douglas R. Hofstadter",
       "timeline": [
         {
