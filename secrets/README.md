@@ -6,11 +6,9 @@ The .env files can be brought into shell scope with `source` or `.`
 set -a && source secrets/<file>.env && set +a
 ```
 
-## GITHUB.env
-
-`GOODREADS.env` is used in the scrape action.
-
 ## GOODREADS.env
+
+Read by `bun run scrape` (and so `bun run publish`).
 
 ```bash
 # Needed for Goodreads scraping (rss feed in xml)

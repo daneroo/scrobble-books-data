@@ -78,7 +78,7 @@ Login: without --interactive, a still-valid saved session
 (secrets/browser-profile, gitignored) is reused, with no login at all. Otherwise it signs in headless with the
 credentials, once; it never retries a login.
 
-Credentials are read from secrets/GITHUB.env: GOODREADS_USER (always), and
+Credentials are read from secrets/GOODREADS.env: GOODREADS_USER (always), and
 GOODREADS_USERNAME (the email) and GOODREADS_PASSWORD (headless login only).
 `;
 

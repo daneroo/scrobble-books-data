@@ -82,12 +82,8 @@ files and the old scrapers.
 With [act](https://github.com/nektos/act) and Docker:
 
 ```bash
-bun run act:unit   # act -j unit --container-architecture linux/amd64
-bun run act:scrape # adds --secret-file secrets/GITHUB.env; never commits
+bun run act:unit # act -j unit --container-architecture linux/amd64
 ```
-
-The scrape workflow's commit step is guarded by `!env.ACT`, so a local run never
-commits.
 
 ## Monitoring actions' commits
 
