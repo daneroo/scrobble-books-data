@@ -2,11 +2,7 @@ import { describe, expect, test } from "bun:test";
 
 import { redactor, report } from "./report.ts";
 
-const secrets = {
-  email: "reader@example.com",
-  password: "hunter2-correct-horse",
-  user: "12345678",
-};
+const secrets = { user: "12345678" };
 const cookie =
   "session-id=147-8833201-5521342; at-main=Atza|IwEBIExampleTokenValue; locale=en";
 
@@ -62,7 +58,7 @@ describe("report", () => {
     },
   );
 
-  test("the email, password, user id, cookie and cookie values never appear", () => {
+  test("the user id, cookie and cookie values never appear", () => {
     const { lines } = report(
       {
         ok: false,
@@ -70,7 +66,7 @@ describe("report", () => {
         failure: {
           step: "list-pages",
           mode: "error",
-          detail: `fetch failed for reader@example.com with hunter2-correct-horse, sent ${cookie}, then Atza|IwEBIExampleTokenValue and 147-8833201-5521342`,
+          detail: `fetch failed for 12345678, sent ${cookie}, then Atza|IwEBIExampleTokenValue and 147-8833201-5521342`,
           url: "https://www.goodreads.com/review/list/12345678",
         },
       },
@@ -78,8 +74,6 @@ describe("report", () => {
     );
     const text = lines.join("\n");
     for (const value of [
-      secrets.email,
-      secrets.password,
       secrets.user,
       cookie,
       "Atza|IwEBIExampleTokenValue",
@@ -95,28 +89,14 @@ describe("report", () => {
       {
         ok: false,
         failure: {
-          step: "login",
+          step: "list-pages",
           mode: "error",
-          detail:
-            "POST email=reader%40example.com&password=hunter2-correct-horse failed",
+          detail: "GET user=p%40ss%20word%26more failed",
         },
       },
-      { ...secrets, password: "p@ss word&more" },
+      { user: "p@ss word&more" },
     );
-    const text = lines.join("\n");
-    expect(text).not.toContain("reader%40example.com");
-    const { lines: lines2 } = report(
-      {
-        ok: false,
-        failure: {
-          step: "login",
-          mode: "error",
-          detail: "pw=p%40ss%20word%26more",
-        },
-      },
-      { ...secrets, password: "p@ss word&more" },
-    );
-    expect(lines2.join("\n")).not.toContain("p%40ss%20word%26more");
+    expect(lines.join("\n")).not.toContain("p%40ss%20word%26more");
   });
 
   test("redaction leaves short cookie values alone, so the log stays readable", () => {

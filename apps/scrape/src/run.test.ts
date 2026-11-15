@@ -43,11 +43,7 @@ afterEach(async () => {
   await rm(dir, { recursive: true, force: true });
 });
 
-const secrets = {
-  email: "reader@example.com",
-  password: "pw",
-  user: FIXTURE_USER,
-};
+const secrets = { user: FIXTURE_USER };
 
 /** Runs the scrape against `fake` on a virtual clock, with the default flow. */
 async function run(

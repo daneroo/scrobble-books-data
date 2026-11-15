@@ -133,6 +133,21 @@ const afterLastRow = fixture.lastIndexOf("</tr>") + "</tr>".length;
 const head = fixture.slice(0, firstRow);
 const tail = fixture.slice(afterLastRow);
 
+/**
+ * The home page: the saved list page's signed-in marker script, as is or
+ * tagged signed out.
+ */
+export function homePage({ signedIn }: { signedIn: boolean }): string {
+  const marker = part(
+    fixture,
+    /<script[^>]*>[^<]*:signed_in'[\s\S]*?<\/script>/,
+  );
+  const tagged = signedIn
+    ? marker
+    : marker.replaceAll(":signed_in'", ":signed_out'");
+  return `<!DOCTYPE html>\n<html>\n<head>\n${tagged}\n</head>\n<body></body>\n</html>\n`;
+}
+
 /** The saved page's 100 rows, as they are. */
 export const savedRows: readonly Row[] = [
   ...fixture

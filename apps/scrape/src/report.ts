@@ -16,8 +16,6 @@ export type Outcome =
 
 /** Values that must never reach a log. */
 export interface Secrets {
-  email: string;
-  password: string;
   user: string;
 }
 
@@ -66,13 +64,7 @@ export function redactor(
     .split(";")
     .map((pair) => pair.slice(pair.indexOf("=") + 1).trim())
     .filter((value) => value.length >= MIN_COOKIE_VALUE_LENGTH);
-  const values = [
-    secrets.email,
-    secrets.password,
-    secrets.user,
-    cookie,
-    ...cookieValues,
-  ]
+  const values = [secrets.user, cookie, ...cookieValues]
     .flatMap((value) => [value, encodeURIComponent(value)])
     .filter((value) => value !== "")
     // longest first, so the whole cookie goes before its parts

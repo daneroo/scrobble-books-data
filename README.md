@@ -65,7 +65,7 @@ Publishing has stopped (see Where we are). Until then it ran by hand:
 ```bash
 bun run publish                  # scrape until a run passes, commit, push
 bun run publish -c 3 --rate 2.2  # options pass through (defaults: -c 3 --rate 6)
-bun run publish --interactive    # sign in by hand first
+bun run login                    # sign in by hand first; the scraper never signs in
 ```
 
 ```bash

@@ -2,8 +2,7 @@
 # bun run publish [scrape options], e.g. -c 3 --rate 2.2 (#32)
 # On main with a clean tree: pulls, then scrapes until a run passes. Attempt 1
 # is a full scrape; after a failure it waits PAUSE_S and reruns with --cached
-# (only the pages still missing are fetched), keeping the other options but
-# not --interactive (the restarts reuse the session just signed in). On a
+# (only the pages still missing are fetched), keeping the other options. On a
 # pass, if the data changed, it commits goodreads.json and goodreads-rss.json
 # (only) and pushes. Everything goes to data/logs/publish.log, archived with
 # the end time when the run ends.
@@ -44,11 +43,6 @@ if ! git pull --ff-only 2>&1 | tee -a "$log"; then
   finish "git pull failed" 1
 fi
 
-restart_args=()
-for arg in "$@"; do
-  [ "$arg" = --interactive ] || restart_args+=("$arg")
-done
-
 attempt=1
 args=("$@")
 while true; do
@@ -62,7 +56,7 @@ while true; do
     finish "gave up after $attempt attempts" 1
   fi
   attempt=$((attempt + 1))
-  args=(--cached ${restart_args[@]+"${restart_args[@]}"})
+  args=(--cached "$@")
   note "waiting ${PAUSE_S}s"
   sleep "$PAUSE_S"
 done

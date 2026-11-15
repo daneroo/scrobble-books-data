@@ -27,7 +27,6 @@ describe("bun run scrape", () => {
       "--concurrency N",
       "-c,",
       "--rate R|none",
-      "--interactive",
       "--cached",
       "--help",
     ])
@@ -50,11 +49,11 @@ describe("bun run scrape", () => {
 
   test("every run starts with the settings in effect, defaults included", async () => {
     expect((await scrape()).stdout).toContain(
-      "scrape: -c 3 --rate 6, --cached no, --interactive no",
+      "scrape: -c 3 --rate 6, --cached no",
     );
     expect(
       (await scrape("-c", "1", "--rate", "none", "--cached")).stdout,
-    ).toContain("scrape: -c 1 --rate none, --cached yes, --interactive no");
+    ).toContain("scrape: -c 1 --rate none, --cached yes");
   });
 
   test("missing credentials fail before any login", async () => {

@@ -49,6 +49,9 @@ published data.
   `bun run ci`)
 - `bun run scrape` — the single entry point of the new scraper; options in
   `bun run scrape --help`
+- `bun run login` — a visible browser on `secrets/browser-profile/` at the
+  Goodreads home page, left to the user; on close it prints "signed in" or
+  "signed out"; the scraper never signs in
 - `bun run publish` — the one exception: it wraps git around the scraper (on
   `main`, clean tree, pull), scrapes until a run passes (each restart with
   `--cached`, after a minute), then commits the two data files and pushes if

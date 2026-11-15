@@ -1,8 +1,8 @@
 /**
  * The scraper's single entry point: `bun run scrape`. See HELP below.
  *
- * It logs in once, fetches every list page through the flow controller,
- * checks completeness, fetches every book's review page (exclusive shelf and
+ * It uses the session saved by `bun run login` (it never signs in),
+ * fetches every list page through the flow controller, checks completeness, fetches every book's review page (exclusive shelf and
  * reading timeline) and checks its shelf, fetches every book page
  * (description, author and review update), and writes `goodreads.json` and
  * one segment per list page, all checked by CUE. Any failure fails closed.
@@ -15,7 +15,7 @@ import { ScrapeFailure, type Failure } from "./failure.ts";
 import { createFlow, formatEvent, type Flow } from "./flow/flow.ts";
 import { flowSettings } from "./flow/settings.ts";
 import { LIMITS } from "./limits.ts";
-import { login } from "./login/login.ts";
+import { savedSession } from "./login/login.ts";
 import { signedInSource } from "./pages/source.ts";
 import { redactor, report, type Outcome, type Secrets } from "./report.ts";
 import { failureOf, runScrape } from "./run.ts";
@@ -34,8 +34,8 @@ const {
 
 const HELP = `Usage: bun run scrape [options]
 
-Logs in to Goodreads once, fetches every list page (all shelves, 100 books a
-page), checks that every book is there exactly once, then fetches every
+Uses the Goodreads session saved by bun run login, fetches every list page
+(all shelves, 100 books a page), checks that every book is there exactly once, then fetches every
 book's review page and checks that its shelf equals the list page's, then
 every book's page (description, author and review update). Writes:
 
@@ -53,32 +53,24 @@ Options:
                        in data/scrape/pages/ is read from there, any other
                        is fetched and saved there. Without it, that folder
                        is cleared and every page is fetched. No expiry: to
-                       refresh, run without --cached. Login is as usual.
-                       A saved page is read at once, with no wait under the
-                       rate cap: --rate applies to fetched pages only.
+                       refresh, run without --cached. A saved page is
+                       read at once, with no wait under the rate cap:
+                       --rate applies to fetched pages only.
   -c, --concurrency N  Requests in flight at most; 1 is strictly sequential.
                        Default ${LIMITS.concurrency}.
   --rate R|none        The maximum number of requests started per second
                        (e.g. 2, or 0.5 for one every 2 s), or "none" for no
                        cap. Default ${LIMITS.ratePerSecond}.
-  --interactive        Open a visible browser and sign in by hand, including
-                       any "verify it's you" step: it always waits for you,
-                       signing a saved session out first, and fetches
-                       nothing until you have signed in. Use it the first
-                       time, and whenever a headless login is blocked.
   -h, --help           Show this help.
 
-Login: without --interactive, a still-valid saved session
-(secrets/browser-profile, gitignored) is reused, with no login at all. Otherwise it signs in headless with the
-credentials, once; it never retries a login.
+Sign-in: it never signs in. It uses the session that bun run login saved in
+secrets/browser-profile/ (gitignored); signed out, it fails as signed-out:
+run bun run login.
 
-Credentials are read from secrets/GOODREADS.env: GOODREADS_USER (always), and
-GOODREADS_USERNAME (the email) and GOODREADS_PASSWORD (headless login only).
+GOODREADS_USER is read from secrets/GOODREADS.env.
 `;
 
 const secrets: Secrets = {
-  email: process.env.GOODREADS_USERNAME ?? "",
-  password: process.env.GOODREADS_PASSWORD ?? "",
   user: process.env.GOODREADS_USER ?? "",
 };
 
@@ -91,7 +83,6 @@ if (outcome !== "help") {
 }
 
 async function main(args: string[]): Promise<Outcome | "help"> {
-  let interactive: boolean;
   let cached: boolean;
   let flow: Flow;
   const deadline = new AbortController();
@@ -101,7 +92,6 @@ async function main(args: string[]): Promise<Outcome | "help"> {
     const { values } = parseArgs({
       args,
       options: {
-        interactive: { type: "boolean" },
         cached: { type: "boolean" },
         concurrency: { type: "string", short: "c" },
         rate: { type: "string" },
@@ -114,12 +104,11 @@ async function main(args: string[]): Promise<Outcome | "help"> {
       console.log(HELP);
       return "help";
     }
-    interactive = values.interactive ?? false;
     cached = values.cached ?? false;
     const settings = flowSettings(args);
     // the settings in effect, defaults included, at the top of every run
     console.log(
-      `scrape: -c ${settings.concurrency} --rate ${settings.ratePerSecond ?? "none"}, --cached ${cached ? "yes" : "no"}, --interactive ${interactive ? "yes" : "no"}`,
+      `scrape: -c ${settings.concurrency} --rate ${settings.ratePerSecond ?? "none"}, --cached ${cached ? "yes" : "no"}`,
     );
     flow = createFlow(settings, {
       signal: deadline.signal,
@@ -133,22 +122,11 @@ async function main(args: string[]): Promise<Outcome | "help"> {
     });
   }
 
-  const missing = Object.entries(
-    interactive
-      ? { GOODREADS_USER: secrets.user }
-      : {
-          GOODREADS_USERNAME: secrets.email,
-          GOODREADS_PASSWORD: secrets.password,
-          GOODREADS_USER: secrets.user,
-        },
-  )
-    .filter(([, value]) => value === "")
-    .map(([name]) => name);
-  if (missing.length > 0) {
+  if (secrets.user === "") {
     return fail({
       step: "setup",
       mode: "missing-credentials",
-      detail: `unset: ${missing.join(", ")}`,
+      detail: "unset: GOODREADS_USER",
     });
   }
 
@@ -165,11 +143,9 @@ async function main(args: string[]): Promise<Outcome | "help"> {
     let cookie: string;
     let userAgent: string;
     try {
-      const result = await login(
-        { email: secrets.email, password: secrets.password },
-        { interactive },
-      );
+      const result = await savedSession();
       if (!result.ok) return fail(result.failure);
+      console.log("login: reusing the saved session");
       ({ cookie, userAgent } = result);
       redact = redactor(secrets, cookie);
     } catch (error) {
