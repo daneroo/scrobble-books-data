@@ -1,6 +1,5 @@
-/** The compatibility mapping, against rows of the reference copy. */
+/** The compatibility mapping. */
 import { describe, expect, test } from "bun:test";
-import { join } from "node:path";
 
 import type { Item } from "../goodreads.ts";
 import {
@@ -11,19 +10,7 @@ import {
   withRel,
   toCompatItem,
   year,
-  type CompatItem,
 } from "./mapping.ts";
-
-const REFERENCE = join(
-  import.meta.dir,
-  "../../../../goodreads-rss-ng-2026-10-27T15.37Z.json",
-);
-const reference = (await Bun.file(REFERENCE).json()) as {
-  title: string;
-  items: CompatItem[];
-};
-const byBook = (bookId: string) =>
-  reference.items.find((item) => item.bookId === bookId)!;
 
 /** _Dominion_, as goodreads.json has it: read, rated 5, with a review. */
 const dominion: Item = {
@@ -43,7 +30,8 @@ const dominion: Item = {
   reviewPageDay: "2021-04-04",
   userReview:
     "This thoughtful and sweeping retelling of the West's cultural heritage leaves me with more questions than answers, as I suspect is it's insight.<br />Well worth the read.",
-  bookDescription: byBook("43885149").bookDescription,
+  bookDescription:
+    '<b>A "marvelous" (<i>Economist</i>) account of how the Christian Revolution forged the Western imagination.</b><br /><br />Crucifixion, the Romans believed, was the worst fate imaginable, a punishment reserved for slaves. How astonishing it was, then, that people should have come to believe that one particular victim of crucifixion--an obscure provincial by the name of Jesus--was to be worshipped as a god. <i>Dominion</i> explores the implications of this shocking conviction as they have reverberated throughout history. Today, the West remains utterly saturated by Christian assumptions. As Tom Holland demonstrates, our morals and ethics are not universal but are instead the fruits of a very distinctive civilization. Concepts such as secularism, liberalism, science, and homosexuality are deeply rooted in a Christian seedbed. From Babylon to the Beatles, Saint Michael to #MeToo, <i>Dominion</i> tells the story of how Christianity transformed the modern world.',
   authorName: "Tom Holland",
   // the real timeline: the read date is its "Finished Reading"
   timeline: [
@@ -59,21 +47,7 @@ const dominion: Item = {
 };
 
 describe("toCompatItem", () => {
-  test("Dominion equals the reference, but for the time of day", () => {
-    const expected = byBook("43885149");
-    const got = toCompatItem(dominion, "Daniel Lauzon");
-    expect(got).toEqual({
-      ...expected,
-      // no page has the time of day: an approved difference (#28)
-      userDateAdded: "2021-04-04T00:00:00.000Z",
-      userDateCreated: "2021-03-25T00:00:00.000Z",
-    });
-    // the reference's key order, which the published file keeps
-    expect(Object.keys(got)).toEqual(Object.keys(expected));
-  });
-
   test("a fractional rating is floored: Time Travel 4.5 → '4', Debt 4.25 → '4'", () => {
-    expect(byBook("28587584").userRating).toBe("4");
     for (const userRating of [4.5, 4.25])
       expect(
         toCompatItem({ ...dominion, userRating }, "Daniel").userRating,
@@ -202,12 +176,11 @@ describe("dates and years", () => {
   });
 });
 
-test("the file: the reference's title, the items in list order", () => {
+test("the file: the feed title, the items in list order", () => {
   const compat = toCompat({
     userFullName: "Daniel Lauzon",
     items: [dominion, { ...dominion, reviewId: "1", bookId: "2" }],
   });
-  expect(compat.title).toBe(reference.title);
   expect(compat.title).toBe(FEED_TITLE);
   expect(compat.items.map((item) => item.bookId)).toEqual(["43885149", "2"]);
 });

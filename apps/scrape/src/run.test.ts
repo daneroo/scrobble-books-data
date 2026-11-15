@@ -56,21 +56,9 @@ async function run(
     cueSchema?: string;
     signal?: AbortSignal;
     cached?: boolean;
-    /** The reference's books (C6); by default, every book on the fake list. */
-    reference?: { bookId: string; title: string }[];
   } = {},
 ) {
   const clock = new VirtualClock();
-  const referencePath = join(dir, "reference.json");
-  await Bun.write(
-    referencePath,
-    JSON.stringify({
-      title: "Daniel's bookshelf: all",
-      items:
-        options.reference ??
-        realList().map(({ bookId }) => ({ bookId, title: `Book ${bookId}` })),
-    }),
-  );
   const events: FlowEvent[] = [];
   const lines: string[] = [];
   const flow = createFlow(
@@ -100,7 +88,6 @@ async function run(
         book: source("book-pages", 15_000),
       },
       cached: options.cached,
-      referencePath,
       flow,
       dataDir,
       publishPath,
@@ -948,37 +935,6 @@ describe("fail-closed, book pages", () => {
     });
     const { failure } = await expectFailedClosed(fake, "layout-change");
     expect(failure.step).toBe("book-pages");
-  });
-});
-
-describe("C6: every book of the reference is on the list", () => {
-  test("a reference bookId not on the list is reported with its title, and the run goes on", async () => {
-    const reference = [
-      ...realList().map(({ bookId }) => ({ bookId, title: `Book ${bookId}` })),
-      { bookId: "999999999", title: "A Switched Edition" },
-    ];
-    const { outcome, lines } = await run(fakeGoodreads(realList()), {
-      reference,
-    });
-    expect(outcome.ok).toBe(true);
-    expect(lines).toContain(
-      "changed bookIds: 1 of the reference's 1451 bookIds are not on the list",
-    );
-    expect(lines).toContain("  999999999 A Switched Edition");
-    expect(lines.join("\n")).not.toContain("every book of the reference");
-  });
-
-  test("books added since the reference are fine", async () => {
-    const reference = realList()
-      .slice(3)
-      .map(({ bookId }) => ({ bookId, title: `Book ${bookId}` }));
-    const { outcome, lines } = await run(fakeGoodreads(realList()), {
-      reference,
-    });
-    expect(outcome.ok).toBe(true);
-    expect(lines).toContain(
-      "every book of the reference is on the list: 1447 books",
-    );
   });
 });
 

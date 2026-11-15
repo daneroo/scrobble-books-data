@@ -15,7 +15,6 @@ import { parseArgs } from "node:util";
 import { ScrapeFailure, type Failure } from "./failure.ts";
 import { createFlow, formatEvent, type Flow } from "./flow/flow.ts";
 import { flowSettings } from "./flow/settings.ts";
-import { REFERENCE_PATH } from "./compat/reference.ts";
 import { LIMITS } from "./limits.ts";
 import { login } from "./login/login.ts";
 import { signedInSource } from "./pages/source.ts";
@@ -39,10 +38,7 @@ const HELP = `Usage: bun run scrape [options]
 Logs in to Goodreads once, fetches every list page (all shelves, 100 books a
 page), checks that every book is there exactly once, then fetches every
 book's review page and checks that its shelf equals the list page's, then
-every book's page (description and author). Until cutover, every book of the
-reference copy (goodreads-rss-ng-2026-10-27T15.37Z.json) is checked against
-the list; a reference bookId not on it is reported, with its title, under
-"changed bookIds" (C6). Writes:
+every book's page (description and author). Writes:
 
   goodreads.json          every book: its list-page fields and its reading
                           timeline, as shown (repo root)
@@ -206,7 +202,6 @@ async function main(args: string[]): Promise<Outcome | "help"> {
       user: secrets.user,
       sources,
       cached,
-      referencePath: REFERENCE_PATH,
       flow,
       dataDir: DATA_DIR,
       publishPath: PUBLISH_PATH,

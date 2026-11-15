@@ -46,8 +46,6 @@ export type Step =
  * - `duplicate-book`: a book is listed twice (C3).
  * - `shelf-mismatch`: a review page's exclusive shelf differs from the list
  *   page's.
- * - `unexpected-shrink`: a book of the reference copy is not on the list
- *   (C6, until cutover).
  *
  * The run:
  * - `cue-failure`: CUE rejected a segment or `goodreads.json` (X5).
@@ -77,7 +75,6 @@ export type FailureMode =
   | "count-mismatch"
   | "duplicate-book"
   | "shelf-mismatch"
-  | "unexpected-shrink"
   | "cue-failure"
   | "run-timeout"
   | "error";

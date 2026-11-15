@@ -8,10 +8,14 @@ This repo archives the latest version of my reading data, scraped from Goodreads
 and committed to `main`.
 
 Goodreads retired the RSS feed (404 since 2026-10-28) and shows GitHub's servers
-a captcha, so the new scraper
-([#23](https://github.com/daneroo/scrobble-books-data/issues/23)) runs by hand
-on my Mac until a runner is chosen (see Usage). `scrape-staleness.yml` fails
-when `goodreads.json` or `goodreads-rss.json` hasn't been committed in 48 hours.
+a captcha, so the new scraper (`apps/scrape`) ran by hand on my Mac.
+
+**Where we are (2026-11-14):** the last publish was 2026-11-14T23:42Z
+(`952ab52ff`). The data on `main` is frozen from then until the new scraper
+([#36](https://github.com/daneroo/scrobble-books-data/issues/36)) replaces it.
+`scrape-staleness.yml` fails when `goodreads.json` or `goodreads-rss.json`
+hasn't been committed in 48 hours, so it fails from 2026-11-16 until it is
+changed.
 
 Browse the data in the browser (flatgithub.com is gone):
 
@@ -20,17 +24,18 @@ Browse the data in the browser (flatgithub.com is gone):
 
 ## Published files
 
-At the repo root, fetched externally from raw.githubusercontent.com:
+At the repo root, fetched externally from raw.githubusercontent.com, all frozen:
 
+- [`goodreads.json`](https://raw.githubusercontent.com/daneroo/scrobble-books-data/main/goodreads.json)
+  — the new file: every book, its list-page fields and its reading timeline.
+  Last written 2026-11-14T23:42Z.
 - [`goodreads-rss.json`](https://raw.githubusercontent.com/daneroo/scrobble-books-data/main/goodreads-rss.json)
-  — read by the scrobbleCast site; its path and shape must not change
-- [`goodreads-rss-ng.json`](https://raw.githubusercontent.com/daneroo/scrobble-books-data/main/goodreads-rss-ng.json)
-- [`goodreads-rss-ng-progress.json`](https://raw.githubusercontent.com/daneroo/scrobble-books-data/main/goodreads-rss-ng-progress.json)
-- [`goodreads-rss-ng-2026-10-27T15.37Z.json`](https://raw.githubusercontent.com/daneroo/scrobble-books-data/main/goodreads-rss-ng-2026-10-27T15.37Z.json)
-  — reference copy of the last good `goodreads-rss-ng.json` (from `bb27463ed`,
-  data stamped 2026-10-27T15:37:58Z), byte-identical; the new scraper is
-  compared against it. Same format as `goodreads-rss.json`, but complete: 1447
-  books, where `goodreads-rss.json` stopped at 1400
+  — historical, in the old RSS format, mapped from `goodreads.json`; still read
+  by the scrobbleCast site, so its path and shape must not change until
+  scrobbleCast reads `goodreads.json`. Last written 2026-11-14T23:42Z.
+- [`goodreads-rss-ng.json`](https://raw.githubusercontent.com/daneroo/scrobble-books-data/main/goodreads-rss-ng.json),
+  [`goodreads-rss-ng-progress.json`](https://raw.githubusercontent.com/daneroo/scrobble-books-data/main/goodreads-rss-ng-progress.json)
+  — the old bun RSS scraper's output, last written 2026-10-27.
 
 ## Layout
 
@@ -56,7 +61,7 @@ The old scrapers are outside the workspace and excluded from the `ci` gate.
 
 ## Usage
 
-Publish by hand, at least daily:
+Publishing has stopped (see Where we are). Until then it ran by hand:
 
 ```bash
 bun run publish                  # scrape until a run passes, commit, push

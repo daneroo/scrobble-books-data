@@ -8,7 +8,6 @@ import {
 import { pageSaver, readThrough } from "./pages/cache.ts";
 import { PageTemporaryError, type PageSource } from "./pages/source.ts";
 import { fetchBookPages, withBookFields } from "./book/scrape.ts";
-import { checkReference } from "./compat/reference.ts";
 import { fetchReviewPages, withProgress } from "./review/scrape.ts";
 import { resetRunFiles, runFiles, writeOutputs } from "./outputs.ts";
 import type { Outcome } from "./report.ts";
@@ -23,11 +22,6 @@ export interface RunOptions {
    * saved pages are cleared first, and every page is fetched and saved.
    */
   cached?: boolean;
-  /**
-   * The reference copy for C6: every one of its books must be on the list.
-   * `bun run scrape` always sets it; tests give their own.
-   */
-  referencePath: string;
   flow: Flow;
   /** The gitignored data directory: segments, raw pages, staged output. */
   dataDir: string;
@@ -77,20 +71,6 @@ export async function runScrape(options: RunOptions): Promise<Outcome> {
     const completeness = checkCompleteness(pages);
     log(formatCompleteness(completeness));
     const listItems = pages.flatMap((page) => page.items);
-    const { books: referenceBooks, missing } = await checkReference(
-      listItems,
-      options.referencePath,
-    );
-    if (missing.length === 0) {
-      log(
-        `every book of the reference is on the list: ${referenceBooks} books`,
-      );
-    } else {
-      log(
-        `changed bookIds: ${missing.length} of the reference's ${referenceBooks} bookIds are not on the list`,
-      );
-      for (const { bookId, title } of missing) log(`  ${bookId} ${title}`);
-    }
 
     step = "review-pages";
     const reviews = await fetchReviewPages({

@@ -25,7 +25,6 @@
     "act:unit": "act -j unit --container-architecture linux/amd64",
     "git:log": "echo 'Recent Scraping Commits'; git log | grep 'Latest book data' | cut -c22-31 | uniq -c | head -n 10; echo 'git pull?'",
     "scrape": "bun --env-file=secrets/GOODREADS.env apps/scrape/src/scrape.ts",
-    "compare": "bun apps/scrape/src/compat/compare.ts",
     "publish": "bash apps/scrape/publish.sh"
   },
   "devDependencies": {
