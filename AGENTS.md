@@ -4,7 +4,7 @@ Canonical instructions for agents and humans. `CLAUDE.md` points here.
 
 scrobble-books-data scrapes Goodreads reading data and commits the JSON output
 (`goodreads.json`) to `main`; `goodreads-rss.json` stays there, frozen, no
-longer written. The user publishes by hand with `bun run scrape --publish`;
+longer written. The user publishes by hand with `bun run publish`;
 `scrape-staleness.yml` fails when `goodreads.json` is over 48 hours old.
 
 ## Git
@@ -51,11 +51,12 @@ published data.
 - `bun run login` — a visible browser on `secrets/browser-profile/` at the
   Goodreads home page, left to the user; on close it prints "signed in" or
   "signed out"; the scraper never signs in
-- `bun run scrape --publish` — the one exception: it wraps git around the scrape
-  (on `main`, clean tree, pull), then commits `goodreads.json` alone and pushes
-  if it changed. A run restarts itself after a WAF challenge or too many retries
-  (60 s apart, at most 100), reusing the pages it fetched; raw pages are deleted
-  at the end unless `--save-pages`; logs in `data/logs/`, the last 20 kept
+- `bun run publish` (`bun run scrape --publish`) — the one exception: it wraps
+  git around the scrape (on `main`, clean tree, pull), then commits
+  `goodreads.json` alone and pushes if it changed. A run restarts itself after a
+  WAF challenge or too many retries (60 s apart, at most 100), reusing the pages
+  it fetched; raw pages are deleted at the end unless `--save-pages`; logs in
+  `data/logs/`, the last 20 kept
 - `docs/` — lasting reference (agents, ADRs)
 - `thoughts/BACKLOG.md` — idea inbox; other `thoughts/` files are temporary
 - `data/` — gitignored, volatile (outputs, scratch)

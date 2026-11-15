@@ -64,8 +64,8 @@ scrobbleCast reads `goodreads.json`:
 
 ```bash
 bun run login                       # sign in by hand first; the scraper never signs in
-bun run scrape --publish            # on main: pull, scrape (restarts included), commit goodreads.json, push
-bun run scrape --publish -c 3 --rate 2.2  # defaults: -c 3 --rate 6
+bun run publish                     # = bun run scrape --publish; on main: pull, scrape (restarts included), commit goodreads.json, push
+bun run publish -c 3 --rate 2.2     # defaults: -c 3 --rate 6
 ```
 
 ```bash

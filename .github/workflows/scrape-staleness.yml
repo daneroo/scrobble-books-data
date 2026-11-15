@@ -34,7 +34,7 @@ jobs:
         run: |
           now=$(date +%s)
           stale=0
-          fix="— run: bun run scrape --publish (on main, on the Mac)"
+          fix="— run: bun run publish (on main, on the Mac)"
           for file in goodreads.json; do
             committed=$(git log -1 --format=%ct -- "$file")
             if [ -z "$committed" ]; then
