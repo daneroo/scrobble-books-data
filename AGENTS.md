@@ -2,10 +2,10 @@
 
 Canonical instructions for agents and humans. `CLAUDE.md` points here.
 
-scrobble-books-data scrapes Goodreads reading data and commits the JSON outputs
-(`goodreads.json` and `goodreads-rss.json`) to `main`. The user publishes by
-hand with `bun run publish`; `scrape-staleness.yml` fails when either file is
-over 48 hours old.
+scrobble-books-data scrapes Goodreads reading data and commits the JSON output
+(`goodreads.json`) to `main`; `goodreads-rss.json` stays there, frozen, no
+longer written. The user publishes by hand with `bun run publish`;
+`scrape-staleness.yml` fails when `goodreads.json` is over 48 hours old.
 
 ## Git
 
@@ -42,9 +42,8 @@ published data.
 - `apps/` — scrapers. `scrape` is the new scraper. `scrape-deno`, `scrape-ng`
   (bun) and `scrape-browser` (Playwright prototype) are read-only references:
   outside the workspace and excluded from the gate.
-- `cue/` — schema checks for the outputs, with examples: `check-output.cue`
-  (`goodreads-rss.json`), `check-goodreads.cue` (`goodreads.json` and its
-  segments)
+- `cue/` — the schema check for the output, with an example:
+  `check-goodreads.cue` (`goodreads.json` and its segments)
 - `.github/workflows/` — `scrape-staleness.yml` (fails when the published data
   is over 48 hours old), `scrape.yml` (old scrape, disabled), `unit.yml` (CI:
   `bun run ci`)

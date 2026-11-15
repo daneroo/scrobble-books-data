@@ -1,10 +1,9 @@
 /**
- * The `goodreads.json` schema, also used by each segment (one list page).
- *
- * A field keeps its old `goodreads-rss.json` name only where the meaning and
- * format are the same; otherwise it has a new name (#23). Sources and
- * decisions: `thoughts/field-sources.md` (#28). The CUE twin is
- * `cue/check-goodreads.cue`; keep the two in step.
+ * The `goodreads.json` schema, also used by each segment (one list page): a
+ * plain array, one flat object per book, with the 17 fields of the Output
+ * resolution (#44). Dates are ISO 8601 UTC; a day a page shows (US Pacific)
+ * is stored as the start of that day in `America/Los_Angeles`, in UTC. The
+ * CUE twin is `cue/check-goodreads.cue`; keep the two in step.
  */
 import { z } from "zod";
 
@@ -17,12 +16,6 @@ export const EXCLUSIVE_SHELVES = [
   "on-deck",
 ] as const;
 export type ExclusiveShelf = (typeof EXCLUSIVE_SHELVES)[number];
-
-const MONTH = "(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)";
-/** A publication date: "Oct 24, 2026", "Oct 2026", "2026", or a bare year, which may be BC. */
-const PUBLISHED = new RegExp(
-  `^((${MONTH} (\\d{2}, )?)?\\d{4}|-?\\d{1,4}|unknown)$`,
-);
 
 /**
  * A date as a review page's timeline shows it, uninterpreted: text ending in
@@ -57,33 +50,34 @@ export const ListItem = z.strictObject({
   /** Fractional, as rated: 4.25, 4.5; 0 is unrated. */
   userRating: z.number().min(0).max(5),
   /**
-   * The list's "date added", `YYYY-MM-DD` (a US Pacific calendar day); never
-   * changed in 163 scrapes, 2024-03 to 2026-10.
+   * The list's "date added", a US Pacific day, as the start of that day in
+   * UTC: "Nov 01, 2026" → "2026-11-01T07:00:00.000Z".
    */
-  userAddedDay: z.iso.date(),
+  userAddedAt: z.iso.datetime(),
   userExclusiveShelf: z.enum(EXCLUSIVE_SHELVES),
   /**
-   * The work's all-editions average, shown as "3.58", kept with `toFixed(1)`:
-   * "3.6" (S7). The RSS had the edition's average.
+   * The average over all editions, shown as "4.04", kept with `toFixed(1)`:
+   * "4.0". One decimal only to avoid flapping: every scrape that changes the
+   * data is committed, and a second decimal would change almost every day.
    */
-  workAverageRating: z.string().regex(/^\d\.\d$/),
-  /** The list's "date pub", the work's original publication, as shown: "Sep 27, 2016", "2016", "-550", "unknown". */
-  workPublishedText: z.string().regex(PUBLISHED),
+  averageRating: z.string().regex(/^\d\.\d$/),
+  /** The list's "date pub", the original publication, as shown: "Sep 27, 2016", "2016", "-550", "unknown". */
+  bookPublished: z.string(),
   /** Whole pages, no commas; "0" when unknown. */
   numPages: z.string().regex(/^\d+$/),
 });
 export type ListItem = z.infer<typeof ListItem>;
 
-/** A book: its list page row, and its reading progress from its review page. */
+/**
+ * A book: its list page row, its review and timeline from its review page,
+ * and its description, author and review update from its book page.
+ */
 export const Item = ListItem.extend({
   /**
-   * The review page's `dtreviewed` date, `YYYY-MM-DD` (a US Pacific calendar
-   * day). It has no single meaning; on the 2026-11-02 data it equals:
-   * - not read (664): the date added;
-   * - read: the latest finish (604), an earlier finish (44), a day inside a
-   *   month-only finish (24), the date added (102), none of these (12).
+   * The last update of the user's review record: the book page's `updatedAt`
+   * (#39). Absent when the book has no rating or review.
    */
-  reviewPageDay: z.iso.date(),
+  reviewUpdatedAt: z.iso.datetime().optional(),
   /** The review page's review, as HTML (`<br />`), trimmed; `""` when there is none. */
   userReview: z.string(),
   /** The book page's description, as HTML (`<br />`, `<i>`), as shown, trimmed (S4). */
@@ -98,10 +92,6 @@ export const Item = ListItem.extend({
 });
 export type Item = z.infer<typeof Item>;
 
-export const Goodreads = z.strictObject({
-  /** The user's full name, from the list page title. */
-  userFullName: z.string().min(1),
-  /** In list order: last updated first, as the RSS feed was. */
-  items: z.array(Item),
-});
+/** Every book, in list order: last updated first. */
+export const Goodreads = z.array(Item);
 export type Goodreads = z.infer<typeof Goodreads>;

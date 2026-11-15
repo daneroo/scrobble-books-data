@@ -13,9 +13,8 @@ a captcha, so the new scraper (`apps/scrape`) ran by hand on my Mac.
 **Where we are (2026-11-14):** the last publish was 2026-11-14T23:42Z
 (`952ab52ff`). The data on `main` is frozen from then until the new scraper
 ([#36](https://github.com/daneroo/scrobble-books-data/issues/36)) replaces it.
-`scrape-staleness.yml` fails when `goodreads.json` or `goodreads-rss.json`
-hasn't been committed in 48 hours, so it fails from 2026-11-16 until it is
-changed.
+`scrape-staleness.yml` fails when `goodreads.json` hasn't been committed in 48
+hours, so it fails from 2026-11-16 until it is changed.
 
 Browse the data in the browser (flatgithub.com is gone):
 
@@ -30,9 +29,9 @@ At the repo root, fetched externally from raw.githubusercontent.com, all frozen:
   — the new file: every book, its list-page fields and its reading timeline.
   Last written 2026-11-14T23:42Z.
 - [`goodreads-rss.json`](https://raw.githubusercontent.com/daneroo/scrobble-books-data/main/goodreads-rss.json)
-  — historical, in the old RSS format, mapped from `goodreads.json`; still read
-  by the scrobbleCast site, so its path and shape must not change until
-  scrobbleCast reads `goodreads.json`. Last written 2026-11-14T23:42Z.
+  — historical, in the old RSS format; no longer written. Still read by the
+  scrobbleCast site, so it stays at this path, frozen, until scrobbleCast reads
+  `goodreads.json`. Last written 2026-11-14T23:42Z.
 - [`goodreads-rss-ng.json`](https://raw.githubusercontent.com/daneroo/scrobble-books-data/main/goodreads-rss-ng.json),
   [`goodreads-rss-ng-progress.json`](https://raw.githubusercontent.com/daneroo/scrobble-books-data/main/goodreads-rss-ng-progress.json)
   — the old bun RSS scraper's output, last written 2026-10-27.
@@ -49,8 +48,8 @@ A bun workspace.
       `goodreads-rss.json`
     - `scrape-ng` — the bun RSS scraper; wrote the two `-ng` files
     - `scrape-browser` — an early Playwright prototype
-- `cue/` — the CUE schema for the published files (`check-output.cue`), with
-  example files
+- `cue/` — the CUE schema for `goodreads.json` (`check-goodreads.cue`), with an
+  example file
 - `.github/workflows/` — `scrape-staleness.yml` (fails when the published data
   is over 48 hours old), `scrape.yml` (old RSS scrape, disabled), `unit.yml`
   (CI: `bun run ci`)
@@ -107,7 +106,7 @@ git log | grep 'Latest book data' | cut -c22-31 | uniq -c | head -n 10
 
 ```bash
 (cd cue; cue fmt)
-(cd cue; cue vet check-output.cue ../goodreads-rss.json)
+(cd cue; cue vet check-goodreads.cue ../goodreads.json)
 ```
 
 ## References

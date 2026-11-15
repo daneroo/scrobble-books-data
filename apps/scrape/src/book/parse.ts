@@ -9,11 +9,18 @@ export interface BookPage {
   bookDescription: string;
   /** The primary contributor's name, as shown, spacing kept. */
   authorName: string;
+  /**
+   * The last update of the user's review record, ISO 8601 UTC; absent when
+   * the book has no rating or review.
+   */
+  reviewUpdatedAt?: string;
 }
 
 const Fields = z.strictObject({
   bookDescription: z.string(),
   authorName: z.string().min(1),
+  /** Milliseconds since the epoch, as the page has it. */
+  reviewUpdatedAt: z.number().int().positive().optional(),
 });
 
 /** The page data, down to the Apollo cache: entries by key. */
@@ -37,7 +44,10 @@ const NEXT_DATA =
  * - `bookDescription`: the `Book`'s `description`, trimmed, as the
  *   reference is (S4, #31);
  * - `authorName`: the `name` of the `Contributor` its
- *   `primaryContributorEdge` points to.
+ *   `primaryContributorEdge` points to;
+ * - `reviewUpdatedAt`: the `updatedAt` of the user's `Review`, through the
+ *   `Book`'s `viewerShelving` and that `Shelving`'s `review` (#39); the
+ *   `Shelving` has no `review` when the book has no rating or review.
  *
  * Throws a `ScrapeFailure`: `layout-change` when the data, the book or the
  * contributor is missing, `parse-failure` when a value fails its schema.
@@ -82,15 +92,28 @@ export function parseBookPage(
   if (contributor === undefined)
     throw fail("layout-change", "no primary contributor");
 
+  const shelving = state[refOf(book.viewerShelving) ?? ""];
+  const review = state[refOf(shelving?.review) ?? ""];
+
   const raw = {
     bookDescription:
       typeof book.description === "string"
         ? book.description.trim()
         : book.description,
     authorName: contributor.name,
+    reviewUpdatedAt: review?.updatedAt,
   };
   const parsed = Fields.safeParse(raw);
   if (!parsed.success)
     throw fail("parse-failure", describeIssues(parsed.error, raw));
-  return parsed.data;
+  const { reviewUpdatedAt, ...fields } = parsed.data;
+  return reviewUpdatedAt === undefined
+    ? fields
+    : { ...fields, reviewUpdatedAt: new Date(reviewUpdatedAt).toISOString() };
+}
+
+/** The key an Apollo reference (`{ __ref }`) points to, if it is one. */
+function refOf(value: unknown): string | undefined {
+  const ref = (value as { __ref?: unknown } | null | undefined)?.__ref;
+  return typeof ref === "string" ? ref : undefined;
 }

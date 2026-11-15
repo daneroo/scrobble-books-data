@@ -83,16 +83,28 @@ export function reviewPage(row: Row): string {
 }
 
 /**
- * The slim book page cut from _Debt_'s real one (only the book, its author
- * and the signed-in flag), served for every book under its own id.
+ * The slim book page cut from _Debt_'s real one (only the book, its author,
+ * the viewer's review update and the signed-in flag), served for every book
+ * under its own id.
  */
 const bookFixture = await Bun.file(
   join(import.meta.dir, "../../fixtures/book-6617037.html"),
 ).text();
 
-/** A book's page: _Debt_'s, under the book's id. */
+/** _Debt_'s book id. */
+const DEBT_BOOK = "6617037";
+
+/**
+ * A book's page: _Debt_'s, under the book's id. Only _Debt_ keeps the
+ * viewer's review: the other books' shelving has none, as for a book with no
+ * rating or review.
+ */
 export function bookPage(row: Row): string {
-  return bookFixture.replace('"legacyId":6617037', `"legacyId":${row.bookId}`);
+  const page =
+    row.bookId === DEBT_BOOK
+      ? bookFixture
+      : bookFixture.replace(',"review":{"__ref":"Review:viewer"}', "");
+  return page.replace(`"legacyId":${DEBT_BOOK}`, `"legacyId":${row.bookId}`);
 }
 
 /** The user id in the scrubbed fixture. */

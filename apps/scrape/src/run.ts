@@ -93,7 +93,7 @@ export async function runScrape(options: RunOptions): Promise<Outcome> {
 
     step = "outputs";
     signal?.throwIfAborted();
-    const goodreads = { userFullName: pages[0]!.userFullName, items };
+    const goodreads = items;
     let next = 0;
     const segments = pages.map((page) => ({
       page: page.page,

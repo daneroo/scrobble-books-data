@@ -1,7 +1,6 @@
 import { mkdir, rename, rm } from "node:fs/promises";
 import { dirname, join } from "node:path";
 
-import { toCompat, type Compat } from "./compat/mapping.ts";
 import { ScrapeFailure } from "./failure.ts";
 import type { Goodreads, Item } from "./goodreads.ts";
 
@@ -10,17 +9,6 @@ export const GOODREADS_CUE = join(
   import.meta.dir,
   "../../../cue/check-goodreads.cue",
 );
-
-/** The CUE schema for `goodreads-rss.json`, the compatibility file. */
-export const COMPAT_CUE = join(
-  import.meta.dir,
-  "../../../cue/check-output.cue",
-);
-
-/** `goodreads-rss.json`, published next to `goodreads.json`. */
-export function compatPath(publishPath: string): string {
-  return join(dirname(publishPath), "goodreads-rss.json");
-}
 
 /** Where a run keeps its local files, under the gitignored data directory. */
 export function runFiles(dataDir: string) {
@@ -31,8 +19,6 @@ export function runFiles(dataDir: string) {
     pages: join(dataDir, "pages"),
     /** `goodreads.json`, before CUE passes and it is published. */
     staged: join(dataDir, "goodreads.json"),
-    /** `goodreads-rss.json`, likewise. */
-    stagedCompat: join(dataDir, "goodreads-rss.json"),
   };
 }
 
@@ -48,7 +34,6 @@ export async function resetRunFiles(
   await rm(files.segments, { recursive: true, force: true });
   if (!keepPages) await rm(files.pages, { recursive: true, force: true });
   await rm(files.staged, { force: true });
-  await rm(files.stagedCompat, { force: true });
   await mkdir(files.segments, { recursive: true });
   await mkdir(files.pages, { recursive: true });
 }
@@ -59,14 +44,13 @@ export function segmentName(page: number): string {
 }
 
 /** Deterministic (S8): 2-space JSON, as the published files have always been. */
-function serialize(value: Goodreads | Compat): string {
+function serialize(value: Goodreads): string {
   return JSON.stringify(value, null, 2);
 }
 
 /**
- * Writes the segments, `goodreads.json` and `goodreads-rss.json` (the
- * compatibility mapping of `goodreads.json`) to the data directory, runs CUE
- * on all of them (X5), and only then moves the two files into place (X2).
+ * Writes the segments and `goodreads.json` to the data directory, runs CUE
+ * on all of them (X5), and only then moves `goodreads.json` into place (X2).
  * A CUE failure throws a `cue-failure` and publishes nothing.
  */
 export async function writeOutputs(options: {
@@ -87,25 +71,16 @@ export async function writeOutputs(options: {
   );
   await Promise.all(
     segments.map((segment, i) =>
-      Bun.write(
-        segmentPaths[i]!,
-        serialize({
-          userFullName: goodreads.userFullName,
-          items: segment.items,
-        }),
-      ),
+      Bun.write(segmentPaths[i]!, serialize(segment.items)),
     ),
   );
   await Bun.write(files.staged, serialize(goodreads));
-  await Bun.write(files.stagedCompat, serialize(toCompat(goodreads)));
 
   await vet(cueSchema, [files.staged, ...segmentPaths]);
-  await vet(COMPAT_CUE, [files.stagedCompat]);
   options.signal?.throwIfAborted();
 
   await mkdir(dirname(publishPath), { recursive: true });
   await publish(files.staged, publishPath);
-  await publish(files.stagedCompat, compatPath(publishPath));
 }
 
 /** Copies `staged` to `path` through a temporary file and a rename. */

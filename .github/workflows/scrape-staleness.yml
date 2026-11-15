@@ -28,7 +28,7 @@ jobs:
           now=$(date +%s)
           stale=0
           fix="— run: bun run publish (on main, on the Mac)"
-          for file in goodreads.json goodreads-rss.json; do
+          for file in goodreads.json; do
             committed=$(git log -1 --format=%ct -- "$file")
             if [ -z "$committed" ]; then
               echo "::error::$file has never been committed $fix"

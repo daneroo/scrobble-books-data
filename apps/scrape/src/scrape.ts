@@ -4,9 +4,8 @@
  * It logs in once, fetches every list page through the flow controller,
  * checks completeness, fetches every book's review page (exclusive shelf and
  * reading timeline) and checks its shelf, fetches every book page
- * (description and author), and writes `goodreads.json` plus
- * `goodreads-rss.json` (its compatibility mapping) and one segment per list
- * page, all checked by CUE. Any failure fails closed.
+ * (description, author and review update), and writes `goodreads.json` and
+ * one segment per list page, all checked by CUE. Any failure fails closed.
  * With `--cached`, a page saved by an earlier run is read, not fetched.
  */
 import { join } from "node:path";
@@ -38,17 +37,16 @@ const HELP = `Usage: bun run scrape [options]
 Logs in to Goodreads once, fetches every list page (all shelves, 100 books a
 page), checks that every book is there exactly once, then fetches every
 book's review page and checks that its shelf equals the list page's, then
-every book's page (description and author). Writes:
+every book's page (description, author and review update). Writes:
 
-  goodreads.json          every book: its list-page fields and its reading
-                          timeline, as shown (repo root)
-  goodreads-rss.json      the compatibility file, mapped from goodreads.json
-                          in the old RSS formats (repo root)
+  goodreads.json          every book: its list-page fields, its review and
+                          reading timeline, its description and author (repo
+                          root)
   data/scrape/segments/   one file per list page, in the same schema
   data/scrape/pages/      the raw list, review and book pages, as fetched
 
-CUE checks both files and every segment before either file is written. Any
-failure is named, exits 1, and leaves both files as they were.
+CUE checks goodreads.json and every segment before it is written. Any
+failure is named, exits 1, and leaves goodreads.json as it was.
 
 Options:
   --cached             A read-through cache of the raw pages: a page already

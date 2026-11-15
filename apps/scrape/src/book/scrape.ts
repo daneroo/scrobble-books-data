@@ -31,15 +31,23 @@ export function fetchBookPages({
 }
 
 /**
- * Adds each book's description and author, before its timeline (the
- * schema's order). `books` is in the order of `items`.
+ * Adds each book's review update, description and author, in the schema's
+ * order: the review update before the review, the description and author
+ * before the timeline. `books` is in the order of `items`.
  */
 export function withBookFields(
   items: readonly Omit<Item, keyof BookPage>[],
   books: readonly BookPage[],
 ): Item[] {
-  return items.map(({ timeline, ...item }, i) => {
-    const { bookDescription, authorName } = books[i]!;
-    return { ...item, bookDescription, authorName, timeline };
+  return items.map(({ userReview, timeline, ...item }, i) => {
+    const { reviewUpdatedAt, bookDescription, authorName } = books[i]!;
+    return {
+      ...item,
+      ...(reviewUpdatedAt === undefined ? {} : { reviewUpdatedAt }),
+      userReview,
+      bookDescription,
+      authorName,
+      timeline,
+    };
   });
 }
