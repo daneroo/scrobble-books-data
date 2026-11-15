@@ -15,14 +15,11 @@ export interface ReviewPage {
   exclusiveShelf: ExclusiveShelf;
   /** The reading timeline, in page order, as shown. */
   timeline: TimelineRow[];
-  /** The review date, `YYYY-MM-DD`. */
-  reviewPageDay: string;
   /** The review, as HTML, trimmed; `""` when there is none. */
   userReview: string;
 }
 
 const Shelf = z.enum(EXCLUSIVE_SHELVES);
-const Day = z.iso.date();
 
 /**
  * Parses a signed-in review page (`review/show/<reviewId>`): the exclusive
@@ -31,8 +28,7 @@ const Day = z.iso.date();
  *
  * A timeline row is "date – event", or just "event" when it has no date.
  * The owner-only "Add a date" link of an undated row is left out. The
- * review date comes from the review's header, and the review is its HTML
- * exactly as in the page source (`<br />`), trimmed.
+ * review is its HTML exactly as in the page source (`<br />`), trimmed.
  *
  * Throws a `ScrapeFailure`: `layout-change` when a part of the page is
  * missing (S3), `parse-failure` when a value fails its schema. Both name the
@@ -103,17 +99,6 @@ export function parseReviewPage(
       return parsed.data;
     });
 
-  const dateTitle = $(".dtreviewed .value-title[title]");
-  if (dateTitle.length !== 1)
-    throw fail("layout-change", "no review date in the review header");
-  const day = dateTitle.attr("title");
-  const reviewPageDay = Day.safeParse(day);
-  if (!reviewPageDay.success)
-    throw fail(
-      "parse-failure",
-      `review date: ${describeIssues(reviewPageDay.error, { day })}`,
-    );
-
   const body = $("[itemprop=reviewBody]");
   if (body.length > 1) throw fail("layout-change", "more than one review");
   const location = body[0]?.sourceCodeLocation;
@@ -129,7 +114,6 @@ export function parseReviewPage(
   return {
     exclusiveShelf: exclusiveShelf.data,
     timeline,
-    reviewPageDay: reviewPageDay.data,
     userReview,
   };
 }

@@ -83,16 +83,28 @@ export function reviewPage(row: Row): string {
 }
 
 /**
- * The slim book page cut from _Debt_'s real one (only the book, its author
- * and the signed-in flag), served for every book under its own id.
+ * The slim book page cut from _Debt_'s real one (only the book, its author,
+ * the viewer's review update and the signed-in flag), served for every book
+ * under its own id.
  */
 const bookFixture = await Bun.file(
   join(import.meta.dir, "../../fixtures/book-6617037.html"),
 ).text();
 
-/** A book's page: _Debt_'s, under the book's id. */
+/** _Debt_'s book id. */
+const DEBT_BOOK = "6617037";
+
+/**
+ * A book's page: _Debt_'s, under the book's id. Only _Debt_ keeps the
+ * viewer's review: the other books' shelving has none, as for a book with no
+ * rating or review.
+ */
 export function bookPage(row: Row): string {
-  return bookFixture.replace('"legacyId":6617037', `"legacyId":${row.bookId}`);
+  const page =
+    row.bookId === DEBT_BOOK
+      ? bookFixture
+      : bookFixture.replace(',"review":{"__ref":"Review:viewer"}', "");
+  return page.replace(`"legacyId":${DEBT_BOOK}`, `"legacyId":${row.bookId}`);
 }
 
 /** The user id in the scrubbed fixture. */
@@ -120,6 +132,21 @@ const firstRow = fixture.indexOf('<tr id="review_');
 const afterLastRow = fixture.lastIndexOf("</tr>") + "</tr>".length;
 const head = fixture.slice(0, firstRow);
 const tail = fixture.slice(afterLastRow);
+
+/**
+ * The home page: the saved list page's signed-in marker script, as is or
+ * tagged signed out.
+ */
+export function homePage({ signedIn }: { signedIn: boolean }): string {
+  const marker = part(
+    fixture,
+    /<script[^>]*>[^<]*:signed_in'[\s\S]*?<\/script>/,
+  );
+  const tagged = signedIn
+    ? marker
+    : marker.replaceAll(":signed_in'", ":signed_out'");
+  return `<!DOCTYPE html>\n<html>\n<head>\n${tagged}\n</head>\n<body></body>\n</html>\n`;
+}
 
 /** The saved page's 100 rows, as they are. */
 export const savedRows: readonly Row[] = [

@@ -8,15 +8,14 @@ set -a && source secrets/<file>.env && set +a
 
 ## GOODREADS.env
 
-Read by `bun run scrape` (and so `bun run publish`).
+Read by `bun run scrape`.
 
 ```bash
-# Needed for Goodreads scraping (rss feed in xml)
+# the Goodreads user id, as in /review/list/<id>
 GOODREADS_USER=nnnn
-## Not sure this is actually needed, but still used in rss fetch url param key=
-GOODREADS_KEY=xxxxx
-
-# Needed for Goodreads scraping (login creds for scrape-ng/playwright)
-GOODREADS_USERNAME=aaaaa
-GOODREADS_PASSWORD=xyzxyz
 ```
+
+## browser-profile/
+
+The Goodreads session: kept by `bun run login` (the user signs in by hand), read
+by `bun run scrape`.

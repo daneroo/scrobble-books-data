@@ -391,7 +391,7 @@ describe("flow controller", () => {
     ]);
   });
 
-  test("more than 100 retries in a run fail it as throttled, across batches", async () => {
+  test("more than 100 retries in a pass fail it as throttled, across batches", async () => {
     const { clock, flow, flaky } = setup({ concurrency: 1 });
     const retriedOnce = (n: number) =>
       Array.from({ length: n }, (_, i) => flaky(`/${i}`, timeouts(1), i).task);

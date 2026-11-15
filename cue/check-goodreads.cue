@@ -1,13 +1,12 @@
 // check-goodreads.cue: goodreads.json, and each segment (one list page).
 // The zod twin is apps/scrape/src/goodreads.ts; keep the two in step.
+// Dates are ISO 8601 UTC; a day a page shows (US Pacific) is the start of
+// that day in America/Los_Angeles, in UTC.
 import "time"
 
 #Goodreads
 
-#Goodreads: close({
-	userFullName: string & !=""
-	items: [...#item]
-})
+#Goodreads: [...#item]
 
 #item: close({
 	reviewId:           #Digits
@@ -17,12 +16,12 @@ import "time"
 	bookImageURL:       =~"^https://"
 	isbn:               #ISBN | ""
 	userRating:         number & >=0 & <=5 // fractional: 4.25, 4.5; 0 is unrated
-	userAddedDay:       #Day // the list's "date added"
+	userAddedAt:        #Time // the list's "date added": start of that Pacific day
 	userExclusiveShelf: #ExclusiveShelf
-	workAverageRating:  =~"^[0-9]\\.[0-9]$" // the work's, all editions, toFixed(1): 3.58 → 3.6
-	workPublishedText:  #PageDate | =~"^-?[0-9]{1,4}$" | "unknown" // the list's "date pub"
+	averageRating:      =~"^[0-9]\\.[0-9]$" // all editions, toFixed(1): 4.04 → 4.0, only to avoid flapping
+	bookPublished:      string // the list's "date pub", as shown
 	numPages:           =~"^[0-9]+$" // "0" when unknown
-	reviewPageDay!:    #Day   // the review page's dtreviewed date; no single meaning
+	reviewUpdatedAt?:  #Time  // the book page's updatedAt of the user's review; absent when unrated and unreviewed
 	userReview!:       string // the review page's, as HTML; "" when none
 	bookDescription!:  string        // the book page's, as HTML
 	authorName!:       string & !="" // the book page's primary contributor, as shown
@@ -40,9 +39,6 @@ import "time"
 #Digits: =~"^[0-9]+$"
 #ISBN:   =~"^[0-9X]{10}$" | =~"^[0-9X]{13}$"
 
-#Month: "(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)"
-
-#PageDate: =~"^(\(#Month) ([0-9]{2}, )?)?[0-9]{4}$" // Oct 24, 2026 | Oct 2026 | 2026
-#Day:      time.Format("2006-01-02")
+#Time: time.Time & =~"Z$" // ISO 8601 UTC: 2026-11-01T07:00:00.000Z
 
 #TimelineDate: =~"^(.* )?[0-9]{4}$" // text ending in a year: October 23, 2026 | January, 1997 | 2021

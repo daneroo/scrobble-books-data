@@ -16,8 +16,6 @@ export type Outcome =
 
 /** Values that must never reach a log. */
 export interface Secrets {
-  email: string;
-  password: string;
   user: string;
 }
 
@@ -44,7 +42,7 @@ function summarize(outcome: Outcome): Report {
   }
   return {
     lines: [
-      `PASS: ${outcome.books} books from ${outcome.pages} list pages, ${outcome.reviewPages} review pages and ${outcome.bookPages} book pages; wrote ${outcome.published}, goodreads-rss.json beside it, and ${outcome.pages} segments`,
+      `PASS: ${outcome.books} books from ${outcome.pages} list pages, ${outcome.reviewPages} review pages and ${outcome.bookPages} book pages; wrote ${outcome.published}`,
     ],
     exitCode: 0,
   };
@@ -66,13 +64,7 @@ export function redactor(
     .split(";")
     .map((pair) => pair.slice(pair.indexOf("=") + 1).trim())
     .filter((value) => value.length >= MIN_COOKIE_VALUE_LENGTH);
-  const values = [
-    secrets.email,
-    secrets.password,
-    secrets.user,
-    cookie,
-    ...cookieValues,
-  ]
+  const values = [secrets.user, cookie, ...cookieValues]
     .flatMap((value) => [value, encodeURIComponent(value)])
     .filter((value) => value !== "")
     // longest first, so the whole cookie goes before its parts

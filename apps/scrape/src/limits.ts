@@ -52,14 +52,14 @@ export const LIMITS = {
   /** A longer `Retry-After` fails the run as `throttled` (R4). */
   maxRetryAfterMs: 60_000,
 
-  // ── The whole run (R5, T3, C1) ──
+  // ── One pass (R5, T3, C1) ──
 
   /**
-   * More retries than this in one run fails it as `throttled` (R5). Was
+   * More retries than this in one pass fails it as `throttled` (R5). Was
    * 20, which the first real run passed with ~2% timeouts (21 retries
    * after ~1060 of 1465 requests); 100 is about 3× that run's pace.
    */
-  retriesPerRun: 100,
+  retriesPerPass: 100,
   /**
    * This many temporary failures in a row fails the run as `throttled` (R5).
    * Was 5; more than one request's 6 attempts, so one stalled request alone
@@ -67,11 +67,21 @@ export const LIMITS = {
    */
   failuresInARow: 10,
   /**
-   * The whole run, login included, must end within this (T3). Was 30 min;
+   * One pass, its session read included, must end within this (T3). Was 30 min;
    * the slowest run we test, -c 1 --rate 0.5, needs about 97 min (2,917
    * requests at 0.5/s), so 120 leaves room.
    */
-  runDeadlineMs: 120 * 60_000,
+  passDeadlineMs: 120 * 60_000,
   /** More list pages than this (40,000 books) fails the run (C1). */
   maxListPages: 400,
+
+  // ── The whole run: restarts (#50) ──
+
+  /**
+   * After a pass fails on a WAF challenge or on too many retries, wait this
+   * long, then restart. As `publish.sh` did.
+   */
+  restartWaitMs: 60_000,
+  /** At most this many restarts; then the run fails with the last failure. */
+  restartsPerRun: 100,
 } as const;

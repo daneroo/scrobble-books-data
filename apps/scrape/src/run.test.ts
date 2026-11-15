@@ -1,6 +1,6 @@
 /**
  * The scrape after login, through the page source (seam 1) to the output
- * files (seam 2): fetch → parse → zod → completeness → segments and
+ * files (seam 2): fetch → parse → zod → completeness →
  * `goodreads.json` → CUE, and the exit status. No Goodreads calls: pages come
  * from a fake built from the saved, scrubbed list page, with the real
  * shelves and counts.
@@ -43,11 +43,7 @@ afterEach(async () => {
   await rm(dir, { recursive: true, force: true });
 });
 
-const secrets = {
-  email: "reader@example.com",
-  password: "pw",
-  user: FIXTURE_USER,
-};
+const secrets = { user: FIXTURE_USER };
 
 /** Runs the scrape against `fake` on a virtual clock, with the default flow. */
 async function run(
@@ -55,7 +51,7 @@ async function run(
   options: {
     cueSchema?: string;
     signal?: AbortSignal;
-    cached?: boolean;
+    reusePages?: boolean;
   } = {},
 ) {
   const clock = new VirtualClock();
@@ -87,7 +83,7 @@ async function run(
         review: source("review-pages", 15_000),
         book: source("book-pages", 15_000),
       },
-      cached: options.cached,
+      reusePages: options.reusePages,
       flow,
       dataDir,
       publishPath,
@@ -105,9 +101,6 @@ async function run(
     published: (await published.exists())
       ? ((await published.json()) as Goodreads)
       : undefined,
-    segments: async () => (await readdir(join(dataDir, "segments"))).sort(),
-    segment: async (name: string) =>
-      (await Bun.file(join(dataDir, "segments", name)).json()) as Goodreads,
   };
 }
 
@@ -120,20 +113,17 @@ function failedWith(outcome: Outcome) {
 describe("a full run", () => {
   test("fetches all 15 pages and writes all 1450 books, with the real counts", async () => {
     const fake = fakeGoodreads(realList());
-    const { outcome, exitCode, published, segments, segment, lines } =
-      await run(fake);
+    const { outcome, exitCode, published, lines } = await run(fake);
 
     expect(outcome.ok).toBe(true);
     expect(exitCode).toBe(0);
     expect(fake.requests.sort((a, b) => a - b)).toEqual(
       Array.from({ length: 15 }, (_, i) => i + 1),
     );
-    expect(published?.items).toHaveLength(1450);
-    expect(new Set(published?.items.map((item) => item.bookId)).size).toBe(
-      1450,
-    );
+    expect(published).toHaveLength(1450);
+    expect(new Set(published?.map((item) => item.bookId)).size).toBe(1450);
     const shelves: Record<string, number> = {};
-    for (const item of published?.items ?? [])
+    for (const item of published ?? [])
       shelves[item.userExclusiveShelf] =
         (shelves[item.userExclusiveShelf] ?? 0) + 1;
     expect(shelves).toEqual({
@@ -143,53 +133,35 @@ describe("a full run", () => {
       "on-deck": 208,
     });
 
-    // one segment per list page, in the same schema
-    const names = await segments();
-    expect(names).toHaveLength(15);
-    const sizes = await Promise.all(
-      names.map(async (name) => (await segment(name)).items.length),
-    );
-    expect(sizes).toEqual([...Array<number>(14).fill(100), 50]);
+    // no segments; the staged copy is deleted once published
+    expect(await readdir(join(dir, "data"))).toEqual(["pages"]);
 
     expect(lines.join("\n")).toContain(
       "counts match the sidebar: to-read 448, currently-reading 8, read 786, did-not-finish 0, on-deck 208; 1450 books on 15 pages",
     );
 
-    // the compatibility file, beside it, in the same order
-    const compat = (await Bun.file(join(dir, "goodreads-rss.json")).json()) as {
-      title: string;
-      items: { bookId: string }[];
-    };
-    expect(compat.title).toBe("Daniel's bookshelf: all");
-    expect(compat.items.map((item) => item.bookId)).toEqual(
-      published!.items.map((item) => item.bookId),
+    // goodreads.json only: no compatibility file beside it
+    expect(await Bun.file(join(dir, "goodreads-rss.json")).exists()).toBe(
+      false,
     );
   });
 
   test("the saved page's rows are stored as Goodreads shows them", async () => {
     const { published } = await run(fakeGoodreads(realList()));
-    const byReview = new Map(
-      published?.items.map((item) => [item.reviewId, item]),
-    );
+    const byReview = new Map(published?.map((item) => [item.reviewId, item]));
 
-    expect(published?.userFullName).toBe("Pat Reader");
+    // a plain array, one flat object per book
+    expect(published).toBeArray();
     // the first row: currently reading, unrated, no read date (its review
     // page isn't saved, so its timeline is made up: left out here)
-    const {
-      timeline,
-      reviewPageDay,
-      userReview,
-      bookDescription,
-      authorName,
-      ...first
-    } = published!.items[0]!;
+    const { timeline, userReview, bookDescription, authorName, ...first } =
+      published![0]!;
     // its book page is Debt's, served under its id
     expect([bookDescription.slice(0, 20), authorName]).toEqual([
       "The classic work on ",
       "David Graeber",
     ]);
     expect(timeline).toBeArray();
-    expect(reviewPageDay).toMatch(/^\d{4}-\d{2}-\d{2}$/);
     expect(userReview).toBe("");
     expect(first).toEqual({
       reviewId: "9069353168",
@@ -201,18 +173,19 @@ describe("a full run", () => {
         "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1723703506l/213618143._SY75_.jpg",
       isbn: "0593723821",
       userRating: 0,
-      userAddedDay: "2026-11-01",
+      // "Nov 01, 2026": the start of that Pacific day (PDT), in UTC
+      userAddedAt: "2026-11-01T07:00:00.000Z",
       userExclusiveShelf: "currently-reading",
-      // shown as 4.47; toFixed(1), as the compatibility file (S7)
-      workAverageRating: "4.5",
-      workPublishedText: "Apr 01, 2025",
+      // shown as 4.47; toFixed(1), only to avoid flapping
+      averageRating: "4.5",
+      bookPublished: "Apr 01, 2025",
       numPages: "461",
     });
     // a fractional rating
     expect(byReview.get("9043895547")).toMatchObject({
       title: "Debt: The First 5,000 Years",
       userRating: 4.25,
-      userAddedDay: "2026-10-21",
+      userAddedAt: "2026-10-21T07:00:00.000Z",
       userExclusiveShelf: "read",
       numPages: "534",
     });
@@ -220,7 +193,7 @@ describe("a full run", () => {
     expect(byReview.get("8933967943")).toMatchObject({
       title: "Winterfair Gifts (Vorkosigan Saga, #13.1)",
       numPages: "0",
-      workPublishedText: "Jan 01, 2002",
+      bookPublished: "Jan 01, 2002",
     });
     // no cover, an ISBN ending in X
     expect(byReview.get("8557895838")).toMatchObject({
@@ -228,7 +201,7 @@ describe("a full run", () => {
         "https://s.gr-assets.com/assets/nophoto/book/50x75-1b903c9eac1b2ba789662c08a0ae41e6.png",
       isbn: "139812219X",
       userExclusiveShelf: "on-deck",
-      workAverageRating: "5.0",
+      averageRating: "5.0",
     });
     // no ISBN
     expect(byReview.get("8977513831")).toMatchObject({
@@ -238,7 +211,7 @@ describe("a full run", () => {
 
   test("fetches every book's review page and stores its timeline as shown", async () => {
     const fake = fakeGoodreads(realList());
-    const { published, segment } = await run(fake);
+    const { published } = await run(fake);
 
     expect(new Set(fake.reviewRequests).size).toBe(1450);
     expect(fake.reviewRequests).toHaveLength(1450);
@@ -254,23 +227,16 @@ describe("a full run", () => {
       { dateText: "October 31, 2026", event: "99.0%" },
       { dateText: "October 31, 2026", event: "Finished Reading" },
     ];
-    const item = published?.items.find(
+    const item = published?.find(
       (i) => i.reviewId === SAVED_REVIEWS.taintedCup,
     );
     expect(item?.userExclusiveShelf).toBe("read");
     expect(item?.timeline).toEqual(taintedCup);
-    // the segment has it too
-    const inSegment = (await segment("list-p01.json")).items.find(
-      (i) => i.reviewId === SAVED_REVIEWS.taintedCup,
-    );
-    expect(inSegment?.timeline).toEqual(taintedCup);
   });
 
   test("an undated timeline row has dateText '', without the 'Add a date' link (Debt)", async () => {
     const { published } = await run(fakeGoodreads(realList()));
-    const debt = published?.items.find(
-      (i) => i.reviewId === SAVED_REVIEWS.debt,
-    );
+    const debt = published?.find((i) => i.reviewId === SAVED_REVIEWS.debt);
     expect(debt?.userRating).toBe(4.25);
     expect(debt?.timeline).toEqual([
       { dateText: "October 21, 2026", event: "Started Reading" },
@@ -288,7 +254,7 @@ describe("a full run", () => {
 
   test("a re-read of another edition keeps the edition in the event (Essentialism)", async () => {
     const { published } = await run(fakeGoodreads(realList()));
-    const essentialism = published?.items.find(
+    const essentialism = published?.find(
       (i) => i.reviewId === SAVED_REVIEWS.essentialism,
     );
     expect(essentialism?.userExclusiveShelf).toBe("currently-reading");
@@ -310,14 +276,15 @@ describe("a full run", () => {
     ]);
   });
 
-  test("the review date comes from the review page: the read date, or the shelving date", async () => {
+  test("the review update comes from the book page, absent with no rating or review", async () => {
     const { published } = await run(fakeGoodreads(realList()));
-    const day = (reviewId: string) =>
-      published?.items.find((i) => i.reviewId === reviewId)?.reviewPageDay;
-    expect(day(SAVED_REVIEWS.taintedCup)).toBe("2026-10-31");
-    expect(day(SAVED_REVIEWS.debt)).toBe("2026-10-29");
-    // currently reading: the day it was shelved again
-    expect(day(SAVED_REVIEWS.essentialism)).toBe("2026-08-17");
+    const debt = published?.find((i) => i.reviewId === SAVED_REVIEWS.debt);
+    // updatedAt 1793334364552 ms
+    expect(debt?.reviewUpdatedAt).toBe("2026-10-30T04:26:04.552Z");
+    // the other books' pages have no review in the viewer's shelving
+    const first = published![0]!;
+    expect(first.reviewUpdatedAt).toBeUndefined();
+    expect("reviewUpdatedAt" in first).toBe(false);
   });
 
   test("a review is kept as the page source has it: <br />, entities, trimmed", async () => {
@@ -335,7 +302,7 @@ describe("a full run", () => {
           : undefined,
     });
     const { published } = await run(fake);
-    const items = published?.items ?? [];
+    const items = published ?? [];
     expect(
       items.find((i) => i.reviewId === SAVED_REVIEWS.debt)?.userReview,
     ).toBe(review);
@@ -358,16 +325,28 @@ describe("a full run", () => {
     const { published } = await run(fake);
     expect(fake.bookRequests).toHaveLength(1450);
     expect(new Set(fake.bookRequests).size).toBe(1450);
-    const debt = published?.items.find(
-      (i) => i.reviewId === SAVED_REVIEWS.debt,
-    );
+    const debt = published?.find((i) => i.reviewId === SAVED_REVIEWS.debt);
     expect(debt?.authorName).toBe("David Graeber");
     expect(debt?.bookDescription).toStartWith(
       "The classic work on debt, now is a special tenth anniversary edition",
     );
     expect(debt?.bookDescription).toContain("<br /><br />");
-    // the schema's order: the book page's fields, then the timeline
-    expect(Object.keys(debt!).slice(-3)).toEqual([
+    // the schema's order: the 17 fields of the Output resolution (#44)
+    expect(Object.keys(debt!)).toEqual([
+      "reviewId",
+      "title",
+      "bookId",
+      "bookURL",
+      "bookImageURL",
+      "isbn",
+      "userRating",
+      "userAddedAt",
+      "userExclusiveShelf",
+      "averageRating",
+      "bookPublished",
+      "numPages",
+      "reviewUpdatedAt",
+      "userReview",
       "bookDescription",
       "authorName",
       "timeline",
@@ -388,7 +367,7 @@ describe("a full run", () => {
     });
     const { published } = await run(fake);
     expect(
-      published?.items.find((i) => i.reviewId === SAVED_REVIEWS.debt)
+      published?.find((i) => i.reviewId === SAVED_REVIEWS.debt)
         ?.bookDescription,
     ).toStartWith("The classic work on debt");
   });
@@ -404,8 +383,7 @@ describe("a full run", () => {
     });
     const { published } = await run(fake);
     expect(
-      published?.items.find((i) => i.reviewId === SAVED_REVIEWS.debt)
-        ?.authorName,
+      published?.find((i) => i.reviewId === SAVED_REVIEWS.debt)?.authorName,
     ).toBe("Mark  Lawrence");
   });
 
@@ -451,7 +429,6 @@ async function expectFailedClosed(
   expect(failure.mode).toBe(mode);
   expect(result.exitCode).toBe(1);
   expect(result.published).toBeUndefined();
-  expect(await Bun.file(join(dir, "goodreads-rss.json")).exists()).toBe(false);
   expect(await Bun.file(join(dir, "goodreads.json.tmp")).exists()).toBe(false);
   return { ...result, failure };
 }
@@ -600,7 +577,7 @@ describe("rows", () => {
       ),
     );
     const { published } = await run(fakeGoodreads(list));
-    expect(published?.items[0]?.userRating).toBe(0);
+    expect(published?.[0]?.userRating).toBe(0);
   });
 });
 
@@ -866,7 +843,7 @@ describe("fail-closed, review pages", () => {
           : undefined,
     });
     const { published } = await run(fake);
-    const item = published?.items.find((i) => i.reviewId === book.reviewId);
+    const item = published?.find((i) => i.reviewId === book.reviewId);
     expect(item?.timeline[4]).toEqual({
       dateText: "2021",
       event: "Started Reading",
@@ -941,7 +918,7 @@ describe("fail-closed, book pages", () => {
 describe("fail-closed, outputs", () => {
   test("a CUE failure is cue-failure, and nothing is published", async () => {
     const schema = join(dir, "strict.cue");
-    await Bun.write(schema, 'items: [...{numPages: "1"}]\n');
+    await Bun.write(schema, '[...{numPages: "1"}]\n');
     const { failure } = await expectFailedClosed(
       fakeGoodreads(realList()),
       "cue-failure",
@@ -953,25 +930,24 @@ describe("fail-closed, outputs", () => {
     expect(failure.detail).toContain("numPages");
   });
 
-  test("the segments and raw pages stay in the data directory after a failure", async () => {
+  test("the raw pages stay in the data directory after a failed pass, for a restart", async () => {
     const schema = join(dir, "strict.cue");
-    await Bun.write(schema, 'items: [...{numPages: "1"}]\n');
+    await Bun.write(schema, '[...{numPages: "1"}]\n');
     await expectFailedClosed(fakeGoodreads(realList()), "cue-failure", {
       cueSchema: schema,
     });
-    expect((await readdir(join(dir, "data", "segments"))).length).toBe(15);
     // 15 list pages, 1450 review pages and 1450 book pages
     expect((await readdir(join(dir, "data", "pages"))).length).toBe(2915);
   });
 });
 
-describe("--cached: a read-through cache of the raw pages", () => {
+describe("a restart reads back the pages an earlier pass saved", () => {
   const pagesDir = () => join(dir, "data", "pages");
 
   test("a second run with every page saved fetches nothing, and writes the same goodreads.json", async () => {
     const first = await run(fakeGoodreads(realList()));
     const again = fakeGoodreads(realList());
-    const second = await run(again, { cached: true });
+    const second = await run(again, { reusePages: true });
 
     expect(second.outcome.ok).toBe(true);
     // saved pages take no turn under the rate cap (2/s here): 2915 pages
@@ -984,7 +960,6 @@ describe("--cached: a read-through cache of the raw pages", () => {
     expect(again.reviewRequests).toEqual([]);
     expect(again.bookRequests).toEqual([]);
     expect(second.published).toEqual(first.published!);
-    expect(await second.segments()).toHaveLength(15);
     expect((await readdir(pagesDir())).length).toBe(2915);
     // two full runs of 2915 pages
   }, 30_000);
@@ -995,7 +970,7 @@ describe("--cached: a read-through cache of the raw pages", () => {
     await unlink(join(pagesDir(), `review-${SAVED_REVIEWS.debt}.html`));
     await unlink(join(pagesDir(), "book-6617037.html"));
     const again = fakeGoodreads(realList());
-    const { outcome } = await run(again, { cached: true });
+    const { outcome } = await run(again, { reusePages: true });
 
     expect(outcome.ok).toBe(true);
     expect(again.requests).toEqual([3]);
@@ -1011,7 +986,7 @@ describe("--cached: a read-through cache of the raw pages", () => {
     await run(fakeGoodreads(realList()));
     await Bun.write(join(pagesDir(), "list-p02.html"), "gone");
     const again = fakeGoodreads(realList());
-    const { outcome, exitCode } = await run(again, { cached: true });
+    const { outcome, exitCode } = await run(again, { reusePages: true });
 
     const failure = failedWith(outcome);
     expect([failure.mode, failure.step, exitCode]).toEqual([
@@ -1024,7 +999,7 @@ describe("--cached: a read-through cache of the raw pages", () => {
     // two full runs of 2915 pages
   }, 30_000);
 
-  test("without it, the saved pages are cleared and every page is fetched", async () => {
+  test("a first pass clears the saved pages and fetches every page", async () => {
     await run(fakeGoodreads(realList()));
     await Bun.write(join(pagesDir(), "review-1.html"), "stale");
     const again = fakeGoodreads(realList());
@@ -1053,7 +1028,7 @@ describe("debugging and the deadline", () => {
     expect(await Bun.file(join(pages, "list-p02.html")).exists()).toBe(false);
   });
 
-  test("with --cached, a page rejected last run (a WAF 202) is fetched again, not served", async () => {
+  test("on a restart, a page rejected by the earlier pass (a WAF 202) is fetched again, not served", async () => {
     let challenge = true;
     const first = fakeGoodreads(realList(), {
       book: (row) =>
@@ -1064,7 +1039,7 @@ describe("debugging and the deadline", () => {
     await expectFailedClosed(first, "waf-challenge");
     challenge = false;
     const again = fakeGoodreads(realList());
-    const { outcome } = await run(again, { cached: true });
+    const { outcome } = await run(again, { reusePages: true });
     expect(outcome.ok).toBe(true);
     expect(again.bookRequests).toContain("6617037");
   }, 30_000);

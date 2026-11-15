@@ -173,10 +173,12 @@ function rawItem(
           stars.attr("data-pre-release") === "true"
           ? 0
           : undefined,
-    userAddedDay: isoDay(cell("date_added").find("span").first().text().trim()),
+    userAddedAt: pacificDayStart(
+      cell("date_added").find("span").first().text().trim(),
+    ),
     userExclusiveShelf: shelves.length === 1 ? shelves[0] : shelves,
-    workAverageRating: oneDecimal(text("avg_rating")),
-    workPublishedText: text("date_pub"),
+    averageRating: oneDecimal(text("avg_rating")),
+    bookPublished: text("date_pub"),
     // "1,280 pp" → "1280"; "unknown" → "0", as in the reference
     numPages:
       pages === "unknown"
@@ -200,20 +202,43 @@ function decimal(value: string | undefined): unknown {
 }
 
 /**
- * "3.58" → "3.6", with `toFixed(1)` as the compatibility file has always
- * done (S7), to cut commit noise; anything else is left as it is, for zod to
- * reject.
+ * "3.58" → "3.6", with `toFixed(1)` (4.05 → "4.0": not half-up), only to
+ * avoid flapping; anything else is left as it is, for zod to reject.
  */
 function oneDecimal(value: string): string {
   return /^\d\.\d{2}$/.test(value) ? Number(value).toFixed(1) : value;
 }
 
-/** "Nov 01, 2026" → "2026-11-01"; anything else is left as it is. */
-function isoDay(value: string): string {
+/**
+ * A US Pacific day as the start of that day in `America/Los_Angeles`, in
+ * UTC: "Nov 01, 2026" → "2026-11-01T07:00:00.000Z" (PDT),
+ * "Dec 01, 2026" → "2026-12-01T08:00:00.000Z" (PST); anything else is left
+ * as it is, for zod to reject.
+ */
+export function pacificDayStart(value: string): string {
   const match = /^([A-Z][a-z]{2}) (\d{2}), (\d{4})$/.exec(value);
   const month = match === null ? -1 : MONTHS.indexOf(match[1]!);
   if (match === null || month < 0) return value;
-  return `${match[3]}-${String(month + 1).padStart(2, "0")}-${match[2]}`;
+  const midnightUtc = Date.UTC(Number(match[3]), month, Number(match[2]));
+  // the clocks change at 2 a.m., so midnight has the previous evening's offset
+  return new Date(midnightUtc - pacificOffsetMs(midnightUtc)).toISOString();
+}
+
+const PACIFIC = new Intl.DateTimeFormat("en-US", {
+  timeZone: "America/Los_Angeles",
+  timeZoneName: "longOffset",
+});
+
+/** The offset of `America/Los_Angeles` from UTC at `ms`: -7 h or -8 h. */
+function pacificOffsetMs(ms: number): number {
+  const name = PACIFIC.formatToParts(ms).find(
+    (part) => part.type === "timeZoneName",
+  )?.value;
+  const match = /^GMT([+-])(\d{2}):(\d{2})$/.exec(name ?? "");
+  if (match === null)
+    throw new Error(`no Pacific offset: ${JSON.stringify(name)}`);
+  const minutes = Number(match[2]) * 60 + Number(match[3]);
+  return (match[1] === "-" ? -1 : 1) * minutes * 60_000;
 }
 
 /** Each issue as `field: message (got value)`. */

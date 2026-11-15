@@ -1,7 +1,8 @@
 name: Scrape staleness check
 
-# The data is published by hand (#32): fail when it hasn't been for 48 hours.
-# A manual run can set a lower limit (max_age_hours) to test the failure.
+# The data is published by hand (#32): fail when it hasn't been for 48 hours,
+# or when goodreads.json fails its CUE check. A manual run can set a lower
+# limit (max_age_hours) to test the failure.
 on:
   schedule:
     - cron: "17 */6 * * *"
@@ -20,6 +21,12 @@ jobs:
         with:
           ref: main
           fetch-depth: 0
+      - uses: cue-lang/setup-cue@v2.0.0
+        with:
+          version: v0.17.1
+
+      - name: Check goodreads.json against its CUE schema
+        run: cue vet cue/check-goodreads.cue goodreads.json
 
       - name: Fail if a published file is too old (48 hours unless set)
         env:
@@ -28,7 +35,7 @@ jobs:
           now=$(date +%s)
           stale=0
           fix="— run: bun run publish (on main, on the Mac)"
-          for file in goodreads.json goodreads-rss.json; do
+          for file in goodreads.json; do
             committed=$(git log -1 --format=%ct -- "$file")
             if [ -z "$committed" ]; then
               echo "::error::$file has never been committed $fix"
