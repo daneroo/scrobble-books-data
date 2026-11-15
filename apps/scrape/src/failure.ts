@@ -137,3 +137,23 @@ export function failureModeFor(state: PageState): FailureMode {
       return "layout-change";
   }
 }
+
+/**
+ * The failures that end a pass but not the run: a WAF challenge (a 202,
+ * #50), and too many retries (a request out of attempts, or the pass out of
+ * its retry budget, #49). The run waits, then restarts. Every other failure
+ * is not temporary: the run fails at once.
+ */
+const RESTARTED: ReadonlySet<FailureMode> = new Set<FailureMode>([
+  "waf-challenge",
+  "timeout",
+  "network-error",
+  "server-error",
+  "too-many-requests",
+  "throttled",
+]);
+
+/** True when a pass that failed with `failure` is followed by a restart. */
+export function restarts(failure: Failure): boolean {
+  return RESTARTED.has(failure.mode);
+}

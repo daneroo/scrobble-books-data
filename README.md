@@ -51,8 +51,7 @@ A bun workspace.
 - `cue/` — the CUE schema for `goodreads.json` (`check-goodreads.cue`), with an
   example file
 - `.github/workflows/` — `scrape-staleness.yml` (fails when the published data
-  is over 48 hours old), `scrape.yml` (old RSS scrape, disabled), `unit.yml`
-  (CI: `bun run ci`)
+  is over 48 hours old, or fails its CUE check), `unit.yml` (CI: `bun run ci`)
 - `thoughts/BACKLOG.md` — idea inbox
 - `docs/` — lasting reference (agent docs)
 
@@ -60,12 +59,13 @@ The old scrapers are outside the workspace and excluded from the `ci` gate.
 
 ## Usage
 
-Publishing has stopped (see Where we are). Until then it ran by hand:
+Publishing has stopped (see Where we are); it resumes, by hand, once
+scrobbleCast reads `goodreads.json`:
 
 ```bash
-bun run publish                  # scrape until a run passes, commit, push
-bun run publish -c 3 --rate 2.2  # options pass through (defaults: -c 3 --rate 6)
-bun run login                    # sign in by hand first; the scraper never signs in
+bun run login                       # sign in by hand first; the scraper never signs in
+bun run scrape --publish            # on main: pull, scrape (restarts included), commit goodreads.json, push
+bun run scrape --publish -c 3 --rate 2.2  # defaults: -c 3 --rate 6
 ```
 
 ```bash

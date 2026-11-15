@@ -1,6 +1,6 @@
 /**
  * The scrape after login, through the page source (seam 1) to the output
- * files (seam 2): fetch → parse → zod → completeness → segments and
+ * files (seam 2): fetch → parse → zod → completeness →
  * `goodreads.json` → CUE, and the exit status. No Goodreads calls: pages come
  * from a fake built from the saved, scrubbed list page, with the real
  * shelves and counts.
@@ -51,7 +51,7 @@ async function run(
   options: {
     cueSchema?: string;
     signal?: AbortSignal;
-    cached?: boolean;
+    reusePages?: boolean;
   } = {},
 ) {
   const clock = new VirtualClock();
@@ -83,7 +83,7 @@ async function run(
         review: source("review-pages", 15_000),
         book: source("book-pages", 15_000),
       },
-      cached: options.cached,
+      reusePages: options.reusePages,
       flow,
       dataDir,
       publishPath,
@@ -101,9 +101,6 @@ async function run(
     published: (await published.exists())
       ? ((await published.json()) as Goodreads)
       : undefined,
-    segments: async () => (await readdir(join(dataDir, "segments"))).sort(),
-    segment: async (name: string) =>
-      (await Bun.file(join(dataDir, "segments", name)).json()) as Goodreads,
   };
 }
 
@@ -116,8 +113,7 @@ function failedWith(outcome: Outcome) {
 describe("a full run", () => {
   test("fetches all 15 pages and writes all 1450 books, with the real counts", async () => {
     const fake = fakeGoodreads(realList());
-    const { outcome, exitCode, published, segments, segment, lines } =
-      await run(fake);
+    const { outcome, exitCode, published, lines } = await run(fake);
 
     expect(outcome.ok).toBe(true);
     expect(exitCode).toBe(0);
@@ -137,13 +133,8 @@ describe("a full run", () => {
       "on-deck": 208,
     });
 
-    // one segment per list page, in the same schema
-    const names = await segments();
-    expect(names).toHaveLength(15);
-    const sizes = await Promise.all(
-      names.map(async (name) => (await segment(name)).length),
-    );
-    expect(sizes).toEqual([...Array<number>(14).fill(100), 50]);
+    // no segments; the staged copy is deleted once published
+    expect(await readdir(join(dir, "data"))).toEqual(["pages"]);
 
     expect(lines.join("\n")).toContain(
       "counts match the sidebar: to-read 448, currently-reading 8, read 786, did-not-finish 0, on-deck 208; 1450 books on 15 pages",
@@ -220,7 +211,7 @@ describe("a full run", () => {
 
   test("fetches every book's review page and stores its timeline as shown", async () => {
     const fake = fakeGoodreads(realList());
-    const { published, segment } = await run(fake);
+    const { published } = await run(fake);
 
     expect(new Set(fake.reviewRequests).size).toBe(1450);
     expect(fake.reviewRequests).toHaveLength(1450);
@@ -241,11 +232,6 @@ describe("a full run", () => {
     );
     expect(item?.userExclusiveShelf).toBe("read");
     expect(item?.timeline).toEqual(taintedCup);
-    // the segment has it too
-    const inSegment = (await segment("list-p01.json")).find(
-      (i) => i.reviewId === SAVED_REVIEWS.taintedCup,
-    );
-    expect(inSegment?.timeline).toEqual(taintedCup);
   });
 
   test("an undated timeline row has dateText '', without the 'Add a date' link (Debt)", async () => {
@@ -944,25 +930,24 @@ describe("fail-closed, outputs", () => {
     expect(failure.detail).toContain("numPages");
   });
 
-  test("the segments and raw pages stay in the data directory after a failure", async () => {
+  test("the raw pages stay in the data directory after a failed pass, for a restart", async () => {
     const schema = join(dir, "strict.cue");
     await Bun.write(schema, '[...{numPages: "1"}]\n');
     await expectFailedClosed(fakeGoodreads(realList()), "cue-failure", {
       cueSchema: schema,
     });
-    expect((await readdir(join(dir, "data", "segments"))).length).toBe(15);
     // 15 list pages, 1450 review pages and 1450 book pages
     expect((await readdir(join(dir, "data", "pages"))).length).toBe(2915);
   });
 });
 
-describe("--cached: a read-through cache of the raw pages", () => {
+describe("a restart reads back the pages an earlier pass saved", () => {
   const pagesDir = () => join(dir, "data", "pages");
 
   test("a second run with every page saved fetches nothing, and writes the same goodreads.json", async () => {
     const first = await run(fakeGoodreads(realList()));
     const again = fakeGoodreads(realList());
-    const second = await run(again, { cached: true });
+    const second = await run(again, { reusePages: true });
 
     expect(second.outcome.ok).toBe(true);
     // saved pages take no turn under the rate cap (2/s here): 2915 pages
@@ -975,7 +960,6 @@ describe("--cached: a read-through cache of the raw pages", () => {
     expect(again.reviewRequests).toEqual([]);
     expect(again.bookRequests).toEqual([]);
     expect(second.published).toEqual(first.published!);
-    expect(await second.segments()).toHaveLength(15);
     expect((await readdir(pagesDir())).length).toBe(2915);
     // two full runs of 2915 pages
   }, 30_000);
@@ -986,7 +970,7 @@ describe("--cached: a read-through cache of the raw pages", () => {
     await unlink(join(pagesDir(), `review-${SAVED_REVIEWS.debt}.html`));
     await unlink(join(pagesDir(), "book-6617037.html"));
     const again = fakeGoodreads(realList());
-    const { outcome } = await run(again, { cached: true });
+    const { outcome } = await run(again, { reusePages: true });
 
     expect(outcome.ok).toBe(true);
     expect(again.requests).toEqual([3]);
@@ -1002,7 +986,7 @@ describe("--cached: a read-through cache of the raw pages", () => {
     await run(fakeGoodreads(realList()));
     await Bun.write(join(pagesDir(), "list-p02.html"), "gone");
     const again = fakeGoodreads(realList());
-    const { outcome, exitCode } = await run(again, { cached: true });
+    const { outcome, exitCode } = await run(again, { reusePages: true });
 
     const failure = failedWith(outcome);
     expect([failure.mode, failure.step, exitCode]).toEqual([
@@ -1015,7 +999,7 @@ describe("--cached: a read-through cache of the raw pages", () => {
     // two full runs of 2915 pages
   }, 30_000);
 
-  test("without it, the saved pages are cleared and every page is fetched", async () => {
+  test("a first pass clears the saved pages and fetches every page", async () => {
     await run(fakeGoodreads(realList()));
     await Bun.write(join(pagesDir(), "review-1.html"), "stale");
     const again = fakeGoodreads(realList());
@@ -1044,7 +1028,7 @@ describe("debugging and the deadline", () => {
     expect(await Bun.file(join(pages, "list-p02.html")).exists()).toBe(false);
   });
 
-  test("with --cached, a page rejected last run (a WAF 202) is fetched again, not served", async () => {
+  test("on a restart, a page rejected by the earlier pass (a WAF 202) is fetched again, not served", async () => {
     let challenge = true;
     const first = fakeGoodreads(realList(), {
       book: (row) =>
@@ -1055,7 +1039,7 @@ describe("debugging and the deadline", () => {
     await expectFailedClosed(first, "waf-challenge");
     challenge = false;
     const again = fakeGoodreads(realList());
-    const { outcome } = await run(again, { cached: true });
+    const { outcome } = await run(again, { reusePages: true });
     expect(outcome.ok).toBe(true);
     expect(again.bookRequests).toContain("6617037");
   }, 30_000);

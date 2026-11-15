@@ -42,7 +42,7 @@ function summarize(outcome: Outcome): Report {
   }
   return {
     lines: [
-      `PASS: ${outcome.books} books from ${outcome.pages} list pages, ${outcome.reviewPages} review pages and ${outcome.bookPages} book pages; wrote ${outcome.published} and ${outcome.pages} segments`,
+      `PASS: ${outcome.books} books from ${outcome.pages} list pages, ${outcome.reviewPages} review pages and ${outcome.bookPages} book pages; wrote ${outcome.published}`,
     ],
     exitCode: 0,
   };

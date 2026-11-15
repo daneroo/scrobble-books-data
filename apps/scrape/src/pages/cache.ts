@@ -1,5 +1,5 @@
 /**
- * The raw pages of a run, saved under one name per URL; `--cached` reads
+ * The raw pages of a run, saved under one name per URL; a restart reads
  * them back instead of fetching them again.
  */
 import { join } from "node:path";
@@ -61,10 +61,10 @@ export function pageSaver(dir: string): {
 }
 
 /**
- * A read-through cache (`--cached`): a page saved in `dir` is read from
+ * A read-through cache (a restart): a page saved in `dir` is read from
  * there, any other is got from `source`. A saved page is checked as a
  * fetched 200 is, so a saved rejected page (a sign-in redirect, a 404 body)
- * fails the same way. No expiry: a run without `--cached` refreshes it all.
+ * fails the same way. No expiry: a new run starts empty.
  * `has` lets the flow controller start a saved page with no wait.
  */
 export function readThrough(

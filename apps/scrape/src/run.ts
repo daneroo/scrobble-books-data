@@ -17,19 +17,20 @@ export interface RunOptions {
   /** One per page type: each has its own timeout (T2) and failure step. */
   sources: { list: PageSource; review: PageSource; book: PageSource };
   /**
-   * `--cached`: a page already saved in the data directory is read from
-   * there, not fetched; the others are fetched and saved. Otherwise the
-   * saved pages are cleared first, and every page is fetched and saved.
+   * A restart: a page an earlier pass of this run saved in the data
+   * directory is read from there, not fetched; the others are fetched and
+   * saved. Otherwise (the first pass) the saved pages are cleared first, and
+   * every page is fetched and saved.
    */
-  cached?: boolean;
+  reusePages?: boolean;
   flow: Flow;
-  /** The gitignored data directory: segments, raw pages, staged output. */
+  /** The gitignored data directory: raw pages, staged output. */
   dataDir: string;
   /** Where `goodreads.json` is published once every check passes. */
   publishPath: string;
   cueSchema?: string;
   /**
-   * The run deadline (T3), also given to the flow controller: once it
+   * The pass deadline (T3), also given to the flow controller: once it
    * aborts, nothing more is written or published.
    */
   signal?: AbortSignal;
@@ -38,18 +39,19 @@ export interface RunOptions {
 }
 
 /**
- * The scrape after login: fetch and parse every list page, check
- * completeness, fetch and parse every book's review page, check its shelf,
- * write the segments and `goodreads.json`, run CUE, then publish.
- * Fail-closed: any failure is returned named, and nothing is published.
+ * One pass of the scrape, after the session is read: fetch and parse every
+ * list page, check completeness, fetch and parse every book's review page,
+ * check its shelf, fetch every book page, write `goodreads.json`, run CUE,
+ * then publish. Fail-closed: any failure is returned named, and nothing is
+ * published.
  */
 export async function runScrape(options: RunOptions): Promise<Outcome> {
   const { user, flow, dataDir, publishPath, cueSchema, signal, log } = options;
-  const { cached = false } = options;
+  const { reusePages = false } = options;
   const pagesDir = runFiles(dataDir).pages;
   const saver = pageSaver(pagesDir);
   const source = (fetching: PageSource, step: Step) =>
-    cached
+    reusePages
       ? readThrough(saver.wrap(fetching), pagesDir, step)
       : saver.wrap(fetching);
   const sources = {
@@ -59,8 +61,8 @@ export async function runScrape(options: RunOptions): Promise<Outcome> {
   };
   let step: Step = "list-pages";
   try {
-    await resetRunFiles(dataDir, { keepPages: cached });
-    if (cached) log(`cached: reading the pages saved in ${pagesDir}`);
+    await resetRunFiles(dataDir, { keepPages: reusePages });
+    if (reusePages) log(`restart: reading the pages saved in ${pagesDir}`);
     const pages = await fetchListPages({
       user,
       source: sources.list,
@@ -93,15 +95,8 @@ export async function runScrape(options: RunOptions): Promise<Outcome> {
 
     step = "outputs";
     signal?.throwIfAborted();
-    const goodreads = items;
-    let next = 0;
-    const segments = pages.map((page) => ({
-      page: page.page,
-      items: items.slice(next, (next += page.items.length)),
-    }));
     await writeOutputs({
-      goodreads,
-      segments,
+      goodreads: items,
       dataDir,
       publishPath,
       cueSchema,
@@ -121,7 +116,7 @@ export async function runScrape(options: RunOptions): Promise<Outcome> {
     if (failure.mode === "run-timeout") failure.step = step;
     return { ok: false, failure };
   } finally {
-    // kept on success and on failure, for debugging (X3), and for --cached
+    // kept until the end of the run, for a restart to read
     await saver.flushed();
   }
 }

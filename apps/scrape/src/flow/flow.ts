@@ -62,7 +62,7 @@ const {
   backoffStepMs: BACKOFF_STEP_MS,
   backoffJitter: JITTER,
   maxRetryAfterMs: MAX_RETRY_AFTER_MS,
-  retriesPerRun: MAX_RETRIES_PER_RUN,
+  retriesPerPass: MAX_RETRIES_PER_PASS,
   failuresInARow: MAX_FAILURES_IN_A_ROW,
 } = LIMITS;
 
@@ -140,7 +140,7 @@ export interface FlowDeps {
   signal?: AbortSignal;
 }
 
-/** The one way requests reach Goodreads after login, for a whole run. */
+/** The one way requests reach Goodreads after login, for one pass. */
 export interface Flow {
   /**
    * Runs every task; resolves with their results in input order.
@@ -153,7 +153,7 @@ export interface Flow {
 }
 
 /**
- * The flow controller for one run. Concurrency, the rate cap and the retry
+ * The flow controller for one pass. Concurrency, the rate cap and the retry
  * budget hold across all of its batches.
  *
  * Throws a `bad-config` FlowFailure for settings out of range.
@@ -238,8 +238,8 @@ export function createFlow(settings: FlowSettings, deps: FlowDeps = {}): Flow {
     const why =
       failuresInARow >= MAX_FAILURES_IN_A_ROW
         ? `${failuresInARow} temporary failures in a row`
-        : retries > MAX_RETRIES_PER_RUN
-          ? `more than ${MAX_RETRIES_PER_RUN} retries in this run`
+        : retries > MAX_RETRIES_PER_PASS
+          ? `more than ${MAX_RETRIES_PER_PASS} retries in this pass`
           : null;
     if (why !== null)
       throw new FlowFailure("throttled", `${why}, the last: ${error.message}`);

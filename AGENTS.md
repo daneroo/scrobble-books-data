@@ -4,7 +4,7 @@ Canonical instructions for agents and humans. `CLAUDE.md` points here.
 
 scrobble-books-data scrapes Goodreads reading data and commits the JSON output
 (`goodreads.json`) to `main`; `goodreads-rss.json` stays there, frozen, no
-longer written. The user publishes by hand with `bun run publish`;
+longer written. The user publishes by hand with `bun run scrape --publish`;
 `scrape-staleness.yml` fails when `goodreads.json` is over 48 hours old.
 
 ## Git
@@ -43,19 +43,19 @@ published data.
   (bun) and `scrape-browser` (Playwright prototype) are read-only references:
   outside the workspace and excluded from the gate.
 - `cue/` — the schema check for the output, with an example:
-  `check-goodreads.cue` (`goodreads.json` and its segments)
+  `check-goodreads.cue` (`goodreads.json`)
 - `.github/workflows/` — `scrape-staleness.yml` (fails when the published data
-  is over 48 hours old), `scrape.yml` (old scrape, disabled), `unit.yml` (CI:
-  `bun run ci`)
+  is over 48 hours old, or fails its CUE check), `unit.yml` (CI: `bun run ci`)
 - `bun run scrape` — the single entry point of the new scraper; options in
   `bun run scrape --help`
 - `bun run login` — a visible browser on `secrets/browser-profile/` at the
   Goodreads home page, left to the user; on close it prints "signed in" or
   "signed out"; the scraper never signs in
-- `bun run publish` — the one exception: it wraps git around the scraper (on
-  `main`, clean tree, pull), scrapes until a run passes (each restart with
-  `--cached`, after a minute), then commits the two data files and pushes if
-  they changed; log in `data/logs/`
+- `bun run scrape --publish` — the one exception: it wraps git around the scrape
+  (on `main`, clean tree, pull), then commits `goodreads.json` alone and pushes
+  if it changed. A run restarts itself after a WAF challenge or too many retries
+  (60 s apart, at most 100), reusing the pages it fetched; raw pages are deleted
+  at the end unless `--save-pages`; logs in `data/logs/`, the last 20 kept
 - `docs/` — lasting reference (agents, ADRs)
 - `thoughts/BACKLOG.md` — idea inbox; other `thoughts/` files are temporary
 - `data/` — gitignored, volatile (outputs, scratch)
