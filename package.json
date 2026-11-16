@@ -24,6 +24,8 @@
     "outdated:fix": "bun update -i -r",
     "act:unit": "act -j unit --container-architecture linux/amd64",
     "git:log": "echo 'Recent Scraping Commits'; git log | grep 'Latest book data' | cut -c22-31 | uniq -c | head -n 10; echo 'git pull?'",
+    "browser:install": "bun apps/scrape/node_modules/playwright/cli.js install chromium",
+    "cron": "bun apps/scrape/src/cron.ts",
     "login": "bun apps/scrape/src/login.ts",
     "scrape": "bun --env-file=secrets/GOODREADS.env apps/scrape/src/scrape.ts",
     "publish": "bun run scrape --publish"
@@ -31,12 +33,13 @@
   "devDependencies": {
     "@eslint/js": "10.0.1",
     "@types/bun": "1.4.4",
-    "eslint": "10.14.0",
-    "markdownlint": "0.42.0",
-    "markdownlint-cli2": "0.24.0",
-    "prettier": "3.9.10",
+    "@types/yargs": "17.0.35",
+    "eslint": "10.15.0",
+    "markdownlint": "0.42.1",
+    "markdownlint-cli2": "0.24.1",
+    "prettier": "3.10.1",
     "typescript": "6.0.3",
-    "typescript-eslint": "8.72.1"
+    "typescript-eslint": "8.73.0"
   },
   "prettier": {
     "proseWrap": "always"

@@ -1,5 +1,5 @@
 /**
- * The scraper's single entry point: `bun run scrape`. See HELP below.
+ * The scraper's single entry point: `bun run scrape`.
  *
  * A run is one or more passes. Each pass reads the session saved by
  * `bun run login` (it never signs in), fetches every list page through the
@@ -8,19 +8,26 @@
  * `goodreads.json`, checked by CUE. A pass that fails on a WAF challenge or
  * on too many retries is restarted after 60 s, reusing the pages fetched so
  * far; any other failure ends the run. `--publish` adds the git steps.
+ * `--help` is generated from SCRAPE.
  */
 import { join } from "node:path";
-import { parseArgs } from "node:util";
 
+import { parseCommand, SCRAPE_OPTIONS, type Command } from "./cli.ts";
 import { ScrapeFailure, type Failure } from "./failure.ts";
 import { realClock, type Clock } from "./flow/clock.ts";
 import { createFlow, formatEvent, type FlowSettings } from "./flow/flow.ts";
 import { flowSettings } from "./flow/settings.ts";
 import { LIMITS } from "./limits.ts";
 import { savedSession, type SessionResult } from "./login/login.ts";
-import { openRunLog, type RunLogOptions } from "./logs.ts";
+import {
+  LOGS_KEPT,
+  openRunLog,
+  printToConsole,
+  type RunLogOptions,
+} from "./logs.ts";
 import { removeRunFiles } from "./outputs.ts";
 import { signedInSource } from "./pages/source.ts";
+import { progressLines } from "./progress.ts";
 import { afterScrape, beforeScrape } from "./publish.ts";
 import { redactor, report, type Outcome, type Secrets } from "./report.ts";
 import { runWithRestarts } from "./restart.ts";
@@ -28,44 +35,21 @@ import { failureOf, runScrape } from "./run.ts";
 
 const ROOT = join(import.meta.dir, "../../..");
 
-const HELP = `Usage: bun run scrape [options]
+/** `bun run scrape`, for `--help`. */
+export const SCRAPE: Command = {
+  name: "bun run scrape",
+  description: `Uses the Goodreads session saved by bun run login, fetches every list page (all shelves, 100 books a page), checks that every book is there exactly once, then fetches every book's review page and checks that its shelf equals the list page's, then every book's page (description, author and review update). Writes goodreads.json (repo root): every book, its list-page fields, its review and reading timeline, its description and author.
 
-Uses the Goodreads session saved by bun run login, fetches every list page
-(all shelves, 100 books a page), checks that every book is there exactly once, then fetches every
-book's review page and checks that its shelf equals the list page's, then
-every book's page (description, author and review update). Writes
-goodreads.json (repo root): every book, its list-page fields, its review and
-reading timeline, its description and author.
+CUE checks goodreads.json before it is written. Any failure is named, exits 1, and leaves goodreads.json as it was.
 
-CUE checks goodreads.json before it is written. Any failure is named, exits
-1, and leaves goodreads.json as it was.
+Restarts: a pass that fails on a WAF challenge (a 202) or on too many retries is restarted after ${LIMITS.restartWaitMs / 1000} s, at most ${LIMITS.restartsPerRun} times; a restart reads the pages already fetched in this run instead of fetching them again. Any other failure ends the run at once.
 
-Restarts: a pass that fails on a WAF challenge (a 202) or on too many
-retries is restarted after ${LIMITS.restartWaitMs / 1000} s, at most ${LIMITS.restartsPerRun} times; a restart
-reads the pages already fetched in this run instead of fetching them again.
-Any other failure ends the run at once.
+On disk: the raw pages go to data/scrape/pages/ during the run, and are deleted when it ends. The log goes to data/logs/, with every line; stdout shows each stage's progress at most every 10 s. The last ${LOGS_KEPT} logs are kept; a log left by a run that did not end is archived as interrupted.`,
+  options: SCRAPE_OPTIONS,
+  epilogue: `Sign-in: it never signs in. It uses the session that bun run login saved in secrets/browser-profile/ (gitignored); signed out, it fails as signed-out: run bun run login.
 
-On disk: the raw pages go to data/scrape/pages/ during the run, and are
-deleted when it ends. The log goes to data/logs/; the last 20 are kept.
-
-Options:
-  --publish            Git steps around the scrape: on main with a clean
-                       tree, git pull; then scrape; then, if goodreads.json
-                       changed, commit it alone and push.
-  --save-pages         Keep the raw pages in data/scrape/pages/ after the run.
-  -c, --concurrency N  Requests in flight at most; 1 is strictly sequential.
-                       Default ${LIMITS.concurrency}.
-  --rate R|none        The maximum number of requests started per second
-                       (e.g. 2, or 0.5 for one every 2 s), or "none" for no
-                       cap. Default ${LIMITS.ratePerSecond}.
-  -h, --help           Show this help.
-
-Sign-in: it never signs in. It uses the session that bun run login saved in
-secrets/browser-profile/ (gitignored); signed out, it fails as signed-out:
-run bun run login.
-
-GOODREADS_USER is read from secrets/GOODREADS.env.
-`;
+GOODREADS_USER is read from secrets/GOODREADS.env.`,
+};
 
 /** What a run reads and writes; tests replace each one. */
 export interface MainDeps {
@@ -93,30 +77,20 @@ if (import.meta.main) {
 /** Runs `bun run scrape` with `args`; resolves with the exit code. */
 export async function main(args: string[], deps: MainDeps): Promise<number> {
   const { root, clock = realClock, now = () => new Date() } = deps;
-  let values: { publish?: boolean; "save-pages"?: boolean; help?: boolean } =
-    {};
+  const parsed = await parseCommand(SCRAPE, args);
+  if (parsed.kind === "help") {
+    (deps.print ?? printToConsole)(parsed.text, "out");
+    return 0;
+  }
+  let values: Record<string, unknown> = {};
   let settings: FlowSettings | undefined;
   let badConfig: string | undefined;
   try {
-    ({ values } = parseArgs({
-      args,
-      options: {
-        publish: { type: "boolean" },
-        "save-pages": { type: "boolean" },
-        concurrency: { type: "string", short: "c" },
-        rate: { type: "string" },
-        help: { type: "boolean", short: "h" },
-      },
-      strict: true,
-      allowPositionals: false,
-    }));
+    if (parsed.kind === "error") throw new Error(parsed.message);
+    values = parsed.values;
     settings = flowSettings(args);
   } catch (error) {
     badConfig = `${error instanceof Error ? error.message : String(error)}; see --help`;
-  }
-  if (values.help) {
-    console.log(HELP);
-    return 0;
   }
 
   const secrets: Secrets = { user: deps.env.GOODREADS_USER ?? "" };
@@ -140,8 +114,10 @@ export async function main(args: string[], deps: MainDeps): Promise<number> {
     return end(1);
   };
 
-  const publish = values.publish ?? false;
-  const savePages = values["save-pages"] ?? false;
+  if (runLog.interrupted !== undefined)
+    log(`log: archived a run that did not end: ${runLog.interrupted}`);
+  const publish = values.publish === true;
+  const savePages = values["save-pages"] === true;
   if (settings === undefined)
     return fail({ step: "setup", mode: "bad-config", detail: badConfig ?? "" });
   const flowIn: FlowSettings = settings;
@@ -185,6 +161,8 @@ export async function main(args: string[], deps: MainDeps): Promise<number> {
         dataDir,
         publishPath: join(root, "goodreads.json"),
         log,
+        logFile: (line) => runLog.fileOnly(redact(line)),
+        now,
         onCookie: (cookie) => cookies.push(cookie),
       });
     },
@@ -213,9 +191,13 @@ async function runPass(options: {
   dataDir: string;
   publishPath: string;
   log: (line: string) => void;
+  /** Writes a line to the log file only. */
+  logFile: (line: string) => void;
+  now: () => Date;
   onCookie: (cookie: string) => void;
 }): Promise<Outcome> {
   const { n, user, settings, deps, clock, dataDir, publishPath, log } = options;
+  const { logFile, now } = options;
   const { session = savedSession } = deps;
   const deadline = new AbortController();
   const timer = setTimeout(() => {
@@ -240,11 +222,18 @@ async function runPass(options: {
       return { ok: false, failure: failureOf(error, "login") };
     }
 
+    // per-request lines to the log file only; stdout gets compact progress
+    const progress = progressLines({ clock, now });
     const flow = createFlow(settings, {
       clock,
       random: deps.random,
       signal: deadline.signal,
-      onEvent: (event) => log(formatEvent(event)),
+      onEvent: (event) => {
+        if (event.type !== "request") return log(formatEvent(event));
+        logFile(formatEvent(event));
+        const line = progress(event);
+        if (line !== undefined) log(line);
+      },
     });
     const source = (
       step: "list-pages" | "review-pages" | "book-pages",

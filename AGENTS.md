@@ -50,13 +50,21 @@ published data.
   `bun run scrape --help`
 - `bun run login` — a visible browser on `secrets/browser-profile/` at the
   Goodreads home page, left to the user; on close it prints "signed in" or
-  "signed out"; the scraper never signs in
+  "signed out"; the scraper never signs in. `--help` opens no browser
+- `bun run cron` — runs `bun run scrape` (same options) as a child at minute 4
+  of every second hour, UTC; no run at start; a fire time during a run is
+  skipped and logged; SIGTERM stops the child, then cron
+- `bun run browser:install` — the one way to install Chromium: the pinned
+  Playwright's installer (`--with-deps` in CI and Docker); never
+  `bunx playwright`
 - `bun run publish` (`bun run scrape --publish`) — the one exception: it wraps
   git around the scrape (on `main`, clean tree, pull), then commits
   `goodreads.json` alone and pushes if it changed. A run restarts itself after a
   WAF challenge or too many retries (60 s apart, at most 100), reusing the pages
-  it fetched; raw pages are deleted at the end unless `--save-pages`; logs in
-  `data/logs/`, the last 20 kept
+  it fetched; raw pages are deleted at the end unless `--save-pages`; stdout
+  shows each stage's progress at most every 10 s, the log has every line; logs
+  in `data/logs/`, the last 100 kept, a run that did not end archived as
+  interrupted
 - `docs/` — lasting reference (agents, ADRs)
 - `thoughts/BACKLOG.md` — idea inbox; other `thoughts/` files are temporary
 - `data/` — gitignored, volatile (outputs, scratch)

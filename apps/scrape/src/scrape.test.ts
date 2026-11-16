@@ -12,7 +12,6 @@ import { join } from "node:path";
 import { VirtualClock } from "./flow/virtual-clock.ts";
 import type { Goodreads } from "./goodreads.ts";
 import type { SessionResult } from "./login/login.ts";
-import { LOGS_KEPT } from "./logs.ts";
 import { main } from "./scrape.ts";
 import {
   fakeGoodreads,
@@ -92,7 +91,7 @@ const published = async (root: string) =>
   (await Bun.file(join(root, "goodreads.json")).json()) as Goodreads;
 
 describe("bun run scrape", () => {
-  test("--help documents every option, and what --rate means", async () => {
+  test("--help prints generated help: every option, and what --rate means", async () => {
     const proc = Bun.spawn(["bun", ENTRY, "--help"], {
       stdout: "pipe",
       stderr: "pipe",
@@ -103,31 +102,37 @@ describe("bun run scrape", () => {
       new Response(proc.stdout).text(),
     ]);
     expect(code).toBe(0);
+    expect(stdout).toStartWith("bun run scrape [options]");
     for (const option of [
       "--publish",
       "--save-pages",
-      "--concurrency N",
-      "-c,",
-      "--rate R|none",
-      "--help",
+      "-c, --concurrency",
+      "--rate",
+      "-h, --help",
+      "[boolean]",
     ])
       expect(stdout).toContain(option);
     expect(stdout).not.toContain("--cached");
     expect(stdout.replace(/\s+/g, " ")).toContain(
-      "--rate R|none The maximum number of requests started per second",
+      "The maximum number of requests started per second",
     );
+    // no run: no log
+    expect(stdout).not.toContain("scrape: -c");
   });
 
   test.each([
     [["--rate", "fast"], "--rate"],
     [["-c", "0"], "--concurrency"],
-    [["--bogus"], "--bogus"],
-    [["--cached"], "--cached"],
+    [["--rate"], "rate"],
+    [["--bogus"], "bogus"],
+    [["--cached"], "cached"],
+    [["extra"], "extra"],
   ])("%p is bad-config, exit 1, before any session", async (args, named) => {
     const { code, text, sessions } = await scrape(tmp, undefined, args);
     expect(code).toBe(1);
     expect(text).toContain("FAIL: setup bad-config");
     expect(text).toContain(named);
+    expect(text).toContain("see --help");
     expect(sessions).toBe(0);
   });
 
@@ -154,6 +159,39 @@ describe("bun run scrape", () => {
     expect(code).toBe(1);
     expect(text).toContain("FAIL: setup missing-credentials");
     expect(sessions).toBe(0);
+  });
+});
+
+describe("stdout", () => {
+  test("shows each batch's progress at most every 10 s, stage first, padded; the log has every request", async () => {
+    // 1 request/s: the 100 review pages take 100 s
+    const run = await scrape(tmp, oneListPage(), ["-c", "1", "--rate", "1"]);
+    expect(run.code).toBe(0);
+    const review = run.lines.filter((line) => /^\S+Z review /.test(line));
+    // the count padded for 1457/1457, the rate for 99.9/s
+    expect(review[0]).toBe("2026-11-14T12:00:00Z review    11/100   1.0/s");
+    expect(review.map((line) => line.split(/\s+/)[2])).toEqual([
+      "11/100",
+      "21/100",
+      "31/100",
+      "41/100",
+      "51/100",
+      "61/100",
+      "71/100",
+      "81/100",
+      "91/100",
+    ]);
+    expect(run.lines.filter((line) => /^\S+Z book /.test(line))).toHaveLength(
+      9,
+    );
+    // no per-request line on stdout, but every one in the log
+    expect(run.text).not.toContain("review pages: 1/100");
+    const log = await run.log();
+    expect(log).toContain("review pages: 1/100");
+    expect(log).toContain("review pages: 100/100");
+    for (const line of run.lines.slice(0, -1)) expect(log).toContain(line);
+    // the batch's end still shows
+    expect(run.text).toContain("review pages: 100 requests in");
   });
 });
 
@@ -285,30 +323,53 @@ describe("on disk", () => {
     );
   });
 
-  test("the log has every line printed, and only the last 20 logs are kept", async () => {
+  test("the log has every line printed, and only the last 100 logs are kept", async () => {
     const logs = join(tmp, "data", "logs");
-    // 25 older logs, the oldest first
-    for (let i = 0; i < 25; i++) {
-      const path = join(logs, `old-${String(i).padStart(2, "0")}.log`);
+    // 105 older logs, the oldest first
+    const name = (i: number) => `old-${String(i).padStart(3, "0")}.log`;
+    for (let i = 0; i < 105; i++) {
+      const path = join(logs, name(i));
       await Bun.write(path, "old\n");
-      const at = new Date(Date.UTC(2026, 0, 1 + i));
+      const at = new Date(Date.UTC(2026, 0, 1, i));
       await utimes(path, at, at);
     }
     const run = await scrape(tmp, oneListPage(), []);
     expect(run.code).toBe(0);
     const kept = (await readdir(logs)).sort();
-    expect(kept).toHaveLength(LOGS_KEPT);
+    expect(kept).toHaveLength(100);
     expect(kept).toContain(run.logName);
-    // the 19 newest old ones stay
-    expect(kept.filter((name) => name.startsWith("old-"))).toEqual(
-      Array.from(
-        { length: 19 },
-        (_, i) => `old-${String(i + 6).padStart(2, "0")}.log`,
-      ),
+    // the 99 newest old ones stay
+    expect(kept.filter((file) => file.startsWith("old-"))).toEqual(
+      Array.from({ length: 99 }, (_, i) => name(i + 6)),
     );
     const log = await run.log();
     for (const line of run.lines.slice(0, -1)) expect(log).toContain(line);
     expect(log).toContain("PASS: 100 books");
+  });
+
+  test("a live log left by a run that did not end is archived as interrupted", async () => {
+    const logs = join(tmp, "data", "logs");
+    const live = join(logs, "scrape.log");
+    await Bun.write(live, "pass 1: start\nreview pages: 12/100\n");
+    const at = new Date("2026-11-14T10:30:00Z");
+    await utimes(live, at, at);
+
+    const run = await scrape(tmp, oneListPage(), []);
+    expect(run.code).toBe(0);
+    const archived = join(
+      logs,
+      "scrape-until-2026-11-14T10-30-00Z-interrupted.log",
+    );
+    expect(await Bun.file(archived).text()).toBe(
+      "pass 1: start\nreview pages: 12/100\n",
+    );
+    expect((await readdir(logs)).sort()).toEqual([
+      "scrape-until-2026-11-14T10-30-00Z-interrupted.log",
+      run.logName,
+    ]);
+    expect(run.text).toContain(
+      `log: archived a run that did not end: ${archived}`,
+    );
   });
 
   test("the log never shows the user or the cookie", async () => {
