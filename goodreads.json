@@ -1,17 +1,53 @@
 [
   {
+    "reviewId": "9029791751",
+    "title": "Lords of Finance: The Bankers Who Broke the World",
+    "bookId": "6025160",
+    "bookURL": "https://www.goodreads.com/book/show/6025160-lords-of-finance",
+    "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1441544240l/6025160._SY75_.jpg",
+    "isbn": "159420182X",
+    "userRating": 0,
+    "userAddedAt": "2026-10-16T07:00:00.000Z",
+    "userExclusiveShelf": "currently-reading",
+    "averageRating": "4.0",
+    "bookPublished": "2009",
+    "numPages": "564",
+    "userReview": "",
+    "bookDescription": "<b>With penetrating insights for today, this vital history of the world economic collapse of the late 1920s offers unforgettable portraits of the four men whose personal and professional actions as heads of their respective central banks changed the course of the twentieth century</b><br /><br /> It is commonly believed that the Great Depression that began in 1929 resulted from a confluence of events beyond any one person’s or government’s control. In fact, as Liaquat Ahamed reveals, it was the decisions taken by a small number of central bankers that were the primary cause of the economic meltdown, the effects of which set the stage for World War II and reverberated for decades.<br /><br /> In <i>Lords of Finance</i>, we meet the neurotic and enigmatic Montagu Norman of the Bank of England, the xenophobic and suspicious Émile Moreau of the Banque de France, the arrogant yet brilliant Hjalmar Schacht of the Reichsbank, and Benjamin Strong of the Federal Reserve Bank of New York, whose façade of energy and drive masked a deeply wounded and overburdened man. After the First World War, these central bankers attempted to reconstruct the world of international finance. Despite their differences, they were united by a common fear—that the greatest threat to capitalism was inflation— and by a common vision that the solution was to turn back the clock and return the world to the gold standard.<br /><br /> For a brief period in the mid-1920s they appeared to have succeeded. The world’s currencies were stabilized and capital began flowing freely across the globe. But beneath the veneer of boom-town prosperity, cracks started to appear in the financial system. The gold standard that all had believed would provide an umbrella of stability proved to be a straitjacket, and the world economy began that terrible downward spiral known as the Great Depression.<br /><br /> As yet another period of economic turmoil makes headlines today, the Great Depression and the year 1929 remain the benchmark for true financial mayhem. Offering a new understanding of the global nature of financial crises, <i>Lords of Finance</i> is a potent reminder of the enormous impact that the decisions of central bankers can have, of their fallibility, and of the terrible human consequences that can result when they are wrong.",
+    "authorName": "Liaquat Ahamed",
+    "timeline": [
+      {
+        "dateText": "October 16, 2026",
+        "event": "Shelved"
+      },
+      {
+        "dateText": "October 16, 2026",
+        "event": "Shelved as: on-deck"
+      },
+      {
+        "dateText": "November 15, 2026",
+        "event": "Started Reading"
+      },
+      {
+        "dateText": "November 16, 2026",
+        "event": "4.0%"
+      }
+    ]
+  },
+  {
     "reviewId": "9108470710",
     "title": "The Secret (Broken Empire)",
     "bookId": "28901473",
     "bookURL": "https://www.goodreads.com/book/show/28901473-the-secret",
     "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1486733870l/28901473._SX50_.jpg",
     "isbn": "",
-    "userRating": 0,
+    "userRating": 4,
     "userAddedAt": "2026-11-15T08:00:00.000Z",
-    "userExclusiveShelf": "currently-reading",
+    "userExclusiveShelf": "read",
     "averageRating": "3.7",
     "bookPublished": "Aug 25, 2015",
     "numPages": "1",
+    "reviewUpdatedAt": "2026-11-16T07:32:13.045Z",
     "userReview": "",
     "bookDescription": "\"The Secret\" was published in the anthology Blackguards: Tales of Assassins, Mercenaries, and Rogues.<br /><br />About this story, author Mark Lawrence says, \"'The Secret' is set in the world where my Broken Empire and Red Queen's War trilogies take place. I've been writing short stories based on the various members of Jorg Ancrath's brotherhood of the road, exploring their origins. When I saw that the Blackguards anthology was seeking tales of assassins, I thought it was time to write about Brother Sim.\"<br /><br />Narrated by: Tim Gerard Reynolds<br />Length: 29 mins",
     "authorName": "Mark  Lawrence",
@@ -27,6 +63,14 @@
       {
         "dateText": "November 15, 2026",
         "event": "Shelved"
+      },
+      {
+        "dateText": "November 15, 2026",
+        "event": "99.0%"
+      },
+      {
+        "dateText": "November 15, 2026",
+        "event": "Finished Reading"
       }
     ]
   },
@@ -971,33 +1015,6 @@
       {
         "dateText": "October 18, 2026",
         "event": "Finished Reading"
-      }
-    ]
-  },
-  {
-    "reviewId": "9029791751",
-    "title": "Lords of Finance: The Bankers Who Broke the World",
-    "bookId": "6025160",
-    "bookURL": "https://www.goodreads.com/book/show/6025160-lords-of-finance",
-    "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1441544240l/6025160._SY75_.jpg",
-    "isbn": "159420182X",
-    "userRating": 0,
-    "userAddedAt": "2026-10-16T07:00:00.000Z",
-    "userExclusiveShelf": "on-deck",
-    "averageRating": "4.0",
-    "bookPublished": "2009",
-    "numPages": "564",
-    "userReview": "",
-    "bookDescription": "<b>With penetrating insights for today, this vital history of the world economic collapse of the late 1920s offers unforgettable portraits of the four men whose personal and professional actions as heads of their respective central banks changed the course of the twentieth century</b><br /><br /> It is commonly believed that the Great Depression that began in 1929 resulted from a confluence of events beyond any one person’s or government’s control. In fact, as Liaquat Ahamed reveals, it was the decisions taken by a small number of central bankers that were the primary cause of the economic meltdown, the effects of which set the stage for World War II and reverberated for decades.<br /><br /> In <i>Lords of Finance</i>, we meet the neurotic and enigmatic Montagu Norman of the Bank of England, the xenophobic and suspicious Émile Moreau of the Banque de France, the arrogant yet brilliant Hjalmar Schacht of the Reichsbank, and Benjamin Strong of the Federal Reserve Bank of New York, whose façade of energy and drive masked a deeply wounded and overburdened man. After the First World War, these central bankers attempted to reconstruct the world of international finance. Despite their differences, they were united by a common fear—that the greatest threat to capitalism was inflation— and by a common vision that the solution was to turn back the clock and return the world to the gold standard.<br /><br /> For a brief period in the mid-1920s they appeared to have succeeded. The world’s currencies were stabilized and capital began flowing freely across the globe. But beneath the veneer of boom-town prosperity, cracks started to appear in the financial system. The gold standard that all had believed would provide an umbrella of stability proved to be a straitjacket, and the world economy began that terrible downward spiral known as the Great Depression.<br /><br /> As yet another period of economic turmoil makes headlines today, the Great Depression and the year 1929 remain the benchmark for true financial mayhem. Offering a new understanding of the global nature of financial crises, <i>Lords of Finance</i> is a potent reminder of the enormous impact that the decisions of central bankers can have, of their fallibility, and of the terrible human consequences that can result when they are wrong.",
-    "authorName": "Liaquat Ahamed",
-    "timeline": [
-      {
-        "dateText": "October 16, 2026",
-        "event": "Shelved"
-      },
-      {
-        "dateText": "October 16, 2026",
-        "event": "Shelved as: on-deck"
       }
     ]
   },
@@ -36148,7 +36165,7 @@
     "numPages": "303",
     "reviewUpdatedAt": "2022-09-28T01:28:35.668Z",
     "userReview": "",
-    "bookDescription": "Um guia dos curiosos para os tempos de internet, feito por uma das maiores personalidades da era digital.<br /><br />Garoto prodígio da NASA, Randall Munroe tornou-se conhecido com a icônica série em quadrinhos XKCD, que passou a publicar na internet em 2005. Desde então, milhões de pessoas visitam semanalmente o xkcd.com em busca de suas figuras desenhadas com palitinhos e seus comentários sobre ciência, tecnologia e amor. Munroe não tem exatamente leitores, e sim um séquito de seguidores apaixonados.<br /><br />Mas os fãs do XKCD costumam fazer perguntas estranhas a Munroe. O que aconteceria se você rebatesse uma bola de beisebol a 90% da velocidade da luz? Qual a velocidade máxima permitida para passar de carro por uma lombada sem morrer? Se os robôs causassem o apocalipse, quanto tempo a humanidade duraria? Em busca de atender a curiosidade de seus leitores, Munroe criou o também imensamente popular ™E se??, um blog destinado a resolver essas e outras grandes questões da humanidade. <br /><br />Para encontrar as respostas, Munroe cria complexas simulações computadorizadas, lê dezenas de memorandos do exército, resolve equações diferenciais e consulta operadores de usinas nucleares. Suas respostas são uma obra-prima da clareza e do humor. Em geral elas terminam com a aniquilação da humanidade, ou pelo menos numa grande explosão.<br /><br />Nas listas dos mais vendidos mesmo antes de ser publicado, E se? traz questões nunca antes respondidas, além de versões expandidas e atualizadas das perguntas mais populares do blog. Leitura obrigatória não só para os fãs do XKCD, mas para todos que já se viram considerando hipóteses absurdas e descabidas. Randall Munroe está ao seu lado.",
+    "bookDescription": "<b>From the creator of the wildly popular webcomic <i>xkcd</i>, hilarious and informative answers to important questions you probably never thought to ask.</b><br /><br />Millions of people visit the <i>xkcd</i> website each week to read Randall Munroe’s iconic webcomic. His stick-figure drawings about science, technology, language, and love have a large and passionate following.<br /><br />Fans of <i>xkcd</i> ask Munroe a lot of strange questions. What if you tried to hit a baseball pitched at 90 percent the speed of light? How fast can you hit a speed bump while driving and live? If there was a robot apocalypse, how long would humanity last?<br /><br />In pursuit of answers, Munroe runs computer simulations, pores over stacks of declassified military research memos, solves differential equations, and consults with nuclear reactor operators. His responses are masterpieces of clarity and hilarity, complemented by signature xkcd comics. They often predict the complete annihilation of humankind, or at least a really big explosion.<br /><br />The book features new and never-before-answered questions, along with updated and expanded versions of the most popular answers from the <i>xkcd</i> website. What If? will be required reading for <i>xkcd</i> fans and anyone who loves to ponder the hypothetical.",
     "authorName": "Randall Munroe",
     "timeline": [
       {
