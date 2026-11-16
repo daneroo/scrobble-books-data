@@ -1,4 +1,4 @@
 #!/bin/bash
 # The desktop opens a terminal in /app; run `bun run login` in it (#58).
 export PLAYWRIGHT_BROWSERS_PATH=/ms-playwright
-cd /app && xterm -fa Monospace -fs 12
+cd /app && exec xterm -fa Monospace -fs 16
