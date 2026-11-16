@@ -1,17 +1,49 @@
 [
   {
+    "reviewId": "9108470710",
+    "title": "The Secret (Broken Empire)",
+    "bookId": "28901473",
+    "bookURL": "https://www.goodreads.com/book/show/28901473-the-secret",
+    "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1486733870l/28901473._SX50_.jpg",
+    "isbn": "",
+    "userRating": 0,
+    "userAddedAt": "2026-11-15T08:00:00.000Z",
+    "userExclusiveShelf": "currently-reading",
+    "averageRating": "3.7",
+    "bookPublished": "Aug 25, 2015",
+    "numPages": "1",
+    "userReview": "",
+    "bookDescription": "\"The Secret\" was published in the anthology Blackguards: Tales of Assassins, Mercenaries, and Rogues.<br /><br />About this story, author Mark Lawrence says, \"'The Secret' is set in the world where my Broken Empire and Red Queen's War trilogies take place. I've been writing short stories based on the various members of Jorg Ancrath's brotherhood of the road, exploring their origins. When I saw that the Blackguards anthology was seeking tales of assassins, I thought it was time to write about Brother Sim.\"<br /><br />Narrated by: Tim Gerard Reynolds<br />Length: 29 mins",
+    "authorName": "Mark  Lawrence",
+    "timeline": [
+      {
+        "dateText": "November 15, 2026",
+        "event": "Started Reading"
+      },
+      {
+        "dateText": "November 15, 2026",
+        "event": "Shelved as: to-read"
+      },
+      {
+        "dateText": "November 15, 2026",
+        "event": "Shelved"
+      }
+    ]
+  },
+  {
     "reviewId": "9103001028",
     "title": "Emperor of Thorns (Broken Empire, #3)",
     "bookId": "15985373",
     "bookURL": "https://www.goodreads.com/book/show/15985373-emperor-of-thorns",
     "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1352546239l/15985373._SY75_.jpg",
     "isbn": "0425256855",
-    "userRating": 0,
+    "userRating": 4,
     "userAddedAt": "2026-11-13T08:00:00.000Z",
-    "userExclusiveShelf": "currently-reading",
+    "userExclusiveShelf": "read",
     "averageRating": "4.2",
     "bookPublished": "Aug 01, 2013",
     "numPages": "434",
+    "reviewUpdatedAt": "2026-11-16T06:14:57.557Z",
     "userReview": "",
     "bookDescription": "The path to the throne is broken - only the broken may walk it.<br /><br />To reach the throne requires that a man journey. Even a path paved with good intentions can lead to hell, and my intentions were never good.<br /><br />The Hundred converge for Congression to politic upon the corpse of Empire, and while they talk the Dead King makes his move, and I make mine. The world is cracked, time has run through, leaving us clutching at the end days, the future so bright that those who see it are the first to burn. These are the days that have waited for us all our lives. These are my days. I will stand before the Hundred and they will listen. I will take the throne whoever seeks to thwart me, living or dead, and if I must be the last emperor then I will make of it such an ending.<br /><br />This is where the wise man turns away. This is where the holy kneel and call on God. These are the last miles, my brothers. Don't look to me to save you. Don't think I will not spend you. Run if you have the wit. Pray if you have the soul. Stand your ground if courage is yours. But don't follow me.<br /><br />Follow me, and I will break your heart.",
     "authorName": "Mark  Lawrence",
@@ -35,6 +67,14 @@
       {
         "dateText": "November 14, 2026",
         "event": "64.0%"
+      },
+      {
+        "dateText": "November 15, 2026",
+        "event": "99.0%"
+      },
+      {
+        "dateText": "November 15, 2026",
+        "event": "Finished Reading"
       }
     ]
   },
@@ -48,7 +88,7 @@
     "userRating": 0,
     "userAddedAt": "2026-11-14T08:00:00.000Z",
     "userExclusiveShelf": "currently-reading",
-    "averageRating": "4.4",
+    "averageRating": "4.3",
     "bookPublished": "Oct 13, 2026",
     "numPages": "448",
     "userReview": "",
@@ -87,7 +127,7 @@
     "userRating": 4,
     "userAddedAt": "2026-02-25T08:00:00.000Z",
     "userExclusiveShelf": "read",
-    "averageRating": "3.7",
+    "averageRating": "3.8",
     "bookPublished": "unknown",
     "numPages": "128",
     "reviewUpdatedAt": "2026-11-14T04:50:21.207Z",
@@ -28239,7 +28279,7 @@
     "userRating": 4,
     "userAddedAt": "2023-08-29T07:00:00.000Z",
     "userExclusiveShelf": "read",
-    "averageRating": "3.7",
+    "averageRating": "3.8",
     "bookPublished": "Jan 01, 2012",
     "numPages": "304",
     "reviewUpdatedAt": "2023-12-24T06:14:51.198Z",
@@ -29324,7 +29364,7 @@
     "numPages": "651",
     "reviewUpdatedAt": "2023-11-03T07:00:17.136Z",
     "userReview": "",
-    "bookDescription": "<b>Epická fantasy, v ktorej sa elementálna mágia a strhujúce súboje stretávajú s hlboko ľudským príbehom o rodine, vojne a cene oddanosti.</b><br /><br />Na zasneženom polostrove Kusanagi, na samom okraji Kaigenskej ríše, žijú bojovníci, o ktorých sa rozprávajú legendy. Dokážu ovládať ľad i more a po stáročia chránia hranice impéria. Ich sila je taká obávaná, že ich kraj nazývajú Mečom Kaigenu.<br /><br />Štrnásťročný Mamoru Macuda od detstva pozná svoje poslanie: osvojiť si bojové umenie svojho rodu a jedného dňa brániť vlasť po boku svojich predkov. Keď však do Kusanagi príde cudzinec s informáciami o svete za hranicami polostrova, Mamoru prvýkrát zapochybuje o všetkom, čo ho učili. Čo ak mier, na ktorý je Kaigen taký hrdý, nie je tým, čím sa zdá? A čo ak ríša, za ktorú má položiť život, celé generácie klame vlastným ľuďom?<br /><br />Jeho matka Misaki kedysi patrila medzi výnimočné bojovníčky. Po svadbe sa však rozhodla odložiť meč a žiť ako poslušná manželka a matka. Teraz sa však spoza mora blíži nepriateľ, jej syn začína klásť nebezpečné otázky a žena, ktorou kedysi bola, sa opäť prebúdza.<br /><br /><i>Meč Kaigenu</i> je veľkolepá fantasy o vojne a jej následkoch, rodine, cti, strate a cene slepej oddanosti. <i>M. L. Wangová</i>, autorka bestsellera <i>Krv nad oázou svetla</i>, spája strhujúce súboje, elementálnu mágiu a svet inšpirovaný východoázijskými bojovými tradíciami s intímnym príbehom matky a syna, ktorí musia prehodnotiť všetko, čomu verili.",
+    "bookDescription": "On a mountainside at the edge of the Kaigenese Empire live the most powerful warriors in the world, superhumans capable of raising the sea and wielding blades of ice. For hundreds of years, the fighters of the Kusanagi Peninsula have held the Empire's enemies at bay, earning their frozen spit of land the name 'The Sword of Kaigen.' Born into Kusanagi's legendary Matsuda family, fourteen-year-old Mamoru has always known his purpose: to master his family's fighting techniques and defend his homeland. But when an outsider arrives and pulls back the curtain on Kaigen's alleged age of peace, Mamoru realizes that he might not have much time to become the fighter he was bred to be. Worse, the empire he was bred to defend may stand on a foundation of lies.<br /><br />Misaki told herself that she left the passions of her youth behind when she married into the Matsuda house. Determined to be a good housewife and mother, she hid away her sword, along with everything from her days as a fighter in a faraway country. But with her growing son asking questions about the outside world, the threat of an impending invasion looming across the sea, and her frigid husband grating on her nerves, Misaki finds the fighter in her clawing its way back to the surface.<br /><br />When the winds of war reach their peninsula, will the Matsuda family have the strength to defend their empire? Or will they tear each other apart before the true enemies even reach their shores?",
     "authorName": "M.L. Wang",
     "timeline": [
       {
@@ -42343,7 +42383,7 @@
     "userRating": 0,
     "userAddedAt": "2021-11-05T07:00:00.000Z",
     "userExclusiveShelf": "to-read",
-    "averageRating": "4.5",
+    "averageRating": "4.6",
     "bookPublished": "Jan 01, 2015",
     "numPages": "1032",
     "userReview": "",
