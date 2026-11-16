@@ -88,7 +88,7 @@ describe("bun run cron", () => {
     expect(cron.scheduled).toBe(1);
     expect(cron.children).toHaveLength(0);
     expect(cron.lines).toEqual([
-      "2026-11-16T15:30:00Z cron: at minute 4 of every second hour, UTC (4 */2 * * *): bun run scrape --publish; next run 2026-11-16T16:04:00Z",
+      "2026-11-16T15:30:00Z cron: schedule 4 */2 * * * (UTC): bun run scrape --publish; next run 2026-11-16T16:04:00Z",
     ]);
     cron.terminate();
     expect(await cron.running).toBe(0);

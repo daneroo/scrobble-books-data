@@ -21,7 +21,7 @@ const TZ = "UTC";
 /** `bun run cron`, for `--help`. */
 export const CRON: Command = {
   name: "bun run cron",
-  description: `Runs bun run scrape, with the options given here, as a child process at minute 4 of every second hour, UTC (${SCHEDULE}). No run at start. A fire time while a run is still going is skipped and logged. Prints a line when a run starts, is skipped or ends (exit code, duration, log file), and passes the run's output through. SIGTERM or SIGINT signals the run, waits for it to end, and exits.`,
+  description: `Runs bun run scrape, with the options given here, as a child process on the schedule ${SCHEDULE}, in UTC. No run at start. A fire time while a run is still going is skipped and logged. Prints a line when a run starts, is skipped or ends (exit code, duration, log file), and passes the run's output through. SIGTERM or SIGINT signals the run, waits for it to end, and exits.`,
   options: SCRAPE_OPTIONS,
   epilogue: "The options are bun run scrape's; see bun run scrape --help.",
 };
@@ -92,9 +92,7 @@ export async function main(args: string[], deps: CronDeps): Promise<number> {
     const at = Bun.cron.parse(SCHEDULE, now(), { tz: TZ });
     return `next run ${at === null ? "none" : stamp(at)}`;
   };
-  say(
-    `at minute 4 of every second hour, UTC (${SCHEDULE}): ${command}; ${next()}`,
-  );
+  say(`schedule ${SCHEDULE} (UTC): ${command}; ${next()}`);
 
   /** The child running, if one is; only closures change it. */
   type Running = { child: Child; started: Date; ended: Promise<void> };
