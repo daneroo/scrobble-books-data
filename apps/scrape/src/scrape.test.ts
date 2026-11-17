@@ -1,8 +1,8 @@
 /**
  * The entry point, `bun run scrape`: a whole run, its restarts, what it
- * leaves on disk, its log, and the `--publish` git steps. None of these
- * reach Goodreads: pages come from the fake Goodreads, the session is a
- * stub, git runs on temporary repositories, time is a virtual clock.
+ * leaves on disk, its log, and the `--publish` upload. None of these
+ * reach Goodreads or S3: pages come from the fake Goodreads, the session is
+ * a stub, the upload is recorded, time is a virtual clock.
  */
 import { afterEach, beforeEach, describe, expect, test } from "bun:test";
 import { mkdtemp, readdir, rm, utimes } from "node:fs/promises";
@@ -45,7 +45,11 @@ async function scrape(
   root: string,
   fake: FakeGoodreads | undefined,
   args: string[],
-  options: { user?: string; session?: () => Promise<SessionResult> } = {},
+  options: {
+    user?: string;
+    session?: () => Promise<SessionResult>;
+    upload?: (path: string) => Promise<string>;
+  } = {},
 ) {
   const clock = new VirtualClock();
   const lines: string[] = [];
@@ -70,6 +74,7 @@ async function scrape(
       random: () => 0.5,
       now: () => NOW,
       print: (line) => lines.push(line),
+      upload: options.upload,
     }),
   );
   const logs = join(root, "data", "logs");
@@ -381,125 +386,102 @@ describe("on disk", () => {
 });
 
 describe("--publish", () => {
-  /** Runs git in `cwd`; throws on failure. */
-  async function git(cwd: string, ...args: string[]): Promise<string> {
-    const proc = Bun.spawn(["git", ...args], {
-      cwd,
-      stdout: "pipe",
-      stderr: "pipe",
-    });
-    const [code, stdout, stderr] = await Promise.all([
-      proc.exited,
-      new Response(proc.stdout).text(),
-      new Response(proc.stderr).text(),
-    ]);
-    if (code !== 0) throw new Error(`git ${args.join(" ")}: ${stderr}`);
-    return stdout.trim();
+  /** An upload that records the file it was given, as it was then. */
+  function recordingUpload(fail?: string) {
+    const uploads: { path: string; books: number }[] = [];
+    const upload = async (path: string) => {
+      const books = ((await Bun.file(path).json()) as Goodreads).length;
+      uploads.push({ path, books });
+      if (fail !== undefined) throw new Error(fail);
+      return "s3://bucket/goodreads.json";
+    };
+    return { uploads, upload };
   }
 
-  /** A clone of `remote`, set up to commit with no signing or hooks. */
-  async function clone(remote: string, name: string): Promise<string> {
-    const path = join(tmp, name);
-    await git(tmp, "clone", "--quiet", remote, path);
-    await git(path, "config", "user.name", "Test");
-    await git(path, "config", "user.email", "test@example.invalid");
-    await git(path, "config", "commit.gpgsign", "false");
-    await git(path, "config", "core.hooksPath", "/dev/null");
-    return path;
-  }
-
-  /**
-   * A bare remote on `main`, with `goodreads.json` and a `.gitignore` of
-   * `data/`, as the repo has; `seed` pushes to it, `root` is where the
-   * scraper runs.
-   */
-  async function repos() {
-    const remote = join(tmp, "remote.git");
-    await git(tmp, "init", "--quiet", "--bare", "-b", "main", remote);
-    const seed = await clone(remote, "seed");
-    await git(seed, "checkout", "--quiet", "-b", "main");
-    await Bun.write(join(seed, ".gitignore"), "data/\n");
-    await Bun.write(join(seed, "goodreads.json"), "[]\n");
-    await git(seed, "add", ".");
-    await git(seed, "commit", "--quiet", "-m", "seed");
-    await git(seed, "push", "--quiet", "-u", "origin", "main");
-    const root = await clone(remote, "root");
-    return { remote, seed, root };
-  }
-
-  const subjects = async (repo: string) =>
-    (await git(repo, "log", "--format=%s", "main")).split("\n");
-
-  test("refuses to run off main: no session, no request, no commit", async () => {
-    const { remote, root } = await repos();
-    await git(root, "checkout", "--quiet", "-b", "other");
-    const fake = oneListPage();
-    const run = await scrape(root, fake, ["--publish"]);
-    expect(run.code).toBe(1);
-    expect(run.text).toContain("publish: on 'other', not main; stopping");
-    expect(run.sessions).toBe(0);
-    expect(fake.requests).toEqual([]);
-    expect(await subjects(remote)).toEqual(["seed"]);
-  });
-
-  test("refuses a tree that is not clean", async () => {
-    const { root } = await repos();
-    await Bun.write(join(root, "stray.txt"), "x");
-    const run = await scrape(root, oneListPage(), ["--publish"]);
-    expect(run.code).toBe(1);
-    expect(run.text).toContain(
-      "publish: the working tree is not clean; stopping",
-    );
-    expect(run.sessions).toBe(0);
-  });
-
-  test("pulls, scrapes, commits goodreads.json alone, and pushes", async () => {
-    const { remote, seed, root } = await repos();
-    // a commit the scraper's clone doesn't have yet
-    await Bun.write(join(seed, "NOTE.md"), "note\n");
-    await git(seed, "add", "NOTE.md");
-    await git(seed, "commit", "--quiet", "-m", "note");
-    await git(seed, "push", "--quiet");
-
-    const run = await scrape(root, oneListPage(), ["--publish"]);
+  test("uploads goodreads.json after a passing run", async () => {
+    const { uploads, upload } = recordingUpload();
+    const run = await scrape(tmp, oneListPage(), ["--publish"], { upload });
     expect(run.code).toBe(0);
-    expect(await Bun.file(join(root, "NOTE.md")).exists()).toBe(true);
-    expect(await subjects(remote)).toEqual([
-      "Latest book data 2026-11-14T12:00:00Z",
-      "note",
-      "seed",
+    expect(uploads).toEqual([
+      { path: join(tmp, "goodreads.json"), books: 100 },
     ]);
-    expect(
-      await git(remote, "show", "--name-only", "--format=", "main"),
-    ).toEqual("goodreads.json");
-    expect(await published(root)).toHaveLength(100);
     expect(run.text).toContain(
-      "run end: passed after 1 pass; publish: committed and pushed",
+      "run end: passed after 1 pass; publish: uploaded to s3://bucket/goodreads.json",
     );
-    // the log stays out of git: data/ is ignored
-    expect(await git(root, "status", "--porcelain")).toBe("");
   });
 
-  test("commits nothing when goodreads.json did not change", async () => {
-    const { remote, root } = await repos();
-    expect((await scrape(root, oneListPage(), ["--publish"])).code).toBe(0);
-    const again = await scrape(root, oneListPage(), ["--publish"]);
-    expect(again.code).toBe(0);
-    expect(again.text).toContain("publish: nothing changed");
-    expect(await subjects(remote)).toEqual([
-      "Latest book data 2026-11-14T12:00:00Z",
-      "seed",
+  test("uploads after every passing run, changed or not", async () => {
+    const { uploads, upload } = recordingUpload();
+    for (const run of [1, 2])
+      expect(
+        (await scrape(tmp, oneListPage(), ["--publish"], { upload })).code,
+        `run ${run}`,
+      ).toBe(0);
+    expect(uploads).toHaveLength(2);
+  });
+
+  test("a run that restarts, then passes, uploads once, at the end", async () => {
+    const { uploads, upload } = recordingUpload();
+    let pass = 0;
+    const fake = fakeGoodreads([...savedRows], {
+      book: (row) =>
+        pass === 1 && row.bookId === DEBT_BOOK
+          ? new Response("", { status: 202 })
+          : undefined,
+    });
+    const run = await scrape(tmp, fake, ["--publish"], {
+      upload,
+      session: async () => {
+        pass++;
+        return { ok: true, cookie: "session=abc123", userAgent: "UA" };
+      },
+    });
+    expect(run.code).toBe(0);
+    expect(run.sessions).toBe(2);
+    expect(uploads).toEqual([
+      { path: join(tmp, "goodreads.json"), books: 100 },
     ]);
+    expect(run.text).toContain("run end: passed after 2 passes; publish:");
   });
 
-  test("a failed run commits nothing", async () => {
-    const { remote, root } = await repos();
+  test("a failed run uploads nothing", async () => {
+    const { uploads, upload } = recordingUpload();
     const fake = fakeGoodreads([...savedRows], {
       override: () => new Response("gone", { status: 404 }),
     });
-    const run = await scrape(root, fake, ["--publish"]);
+    const run = await scrape(tmp, fake, ["--publish"], { upload });
     expect(run.code).toBe(1);
-    expect(await subjects(remote)).toEqual(["seed"]);
-    expect(await git(root, "status", "--porcelain")).toBe("");
+    expect(uploads).toEqual([]);
+  });
+
+  test("a failed upload fails the run", async () => {
+    const { upload } = recordingUpload("Access Denied");
+    const run = await scrape(tmp, oneListPage(), ["--publish"], { upload });
+    expect(run.code).toBe(1);
+    expect(run.text).toContain(
+      "run end: passed after 1 pass; publish: upload failed: Access Denied",
+    );
+  });
+
+  test("without --publish, nothing is uploaded", async () => {
+    const { uploads, upload } = recordingUpload();
+    expect((await scrape(tmp, oneListPage(), [], { upload })).code).toBe(0);
+    expect(uploads).toEqual([]);
+  });
+
+  test("with no S3 key, --publish fails at setup, before any session", async () => {
+    const fake = oneListPage();
+    const run = await scrape(tmp, fake, ["--publish"]);
+    expect(run.code).toBe(1);
+    expect(run.text).toContain("FAIL: setup missing-credentials");
+    for (const name of [
+      "S3_ACCESS_KEY_ID",
+      "S3_SECRET_ACCESS_KEY",
+      "S3_BUCKET",
+      "S3_REGION",
+    ])
+      expect(run.text).toContain(name);
+    expect(run.sessions).toBe(0);
+    expect(fake.requests).toEqual([]);
   });
 });

@@ -12,7 +12,7 @@ export const SCRAPE_OPTIONS = {
   publish: {
     type: "boolean",
     describe:
-      "Git steps around the scrape: on main with a clean tree, git pull; then scrape; then, if goodreads.json changed, commit it alone and push.",
+      "After a passing run, upload goodreads.json to S3 (the key in secrets/S3.env), changed or not. No git.",
   },
   "save-pages": {
     type: "boolean",

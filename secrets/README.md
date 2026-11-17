@@ -18,7 +18,8 @@ GOODREADS_USER=nnnn
 ## S3.env
 
 Written by `infra/s3/setup.sh`: the key of the app user, which can only write
-`goodreads.json` in the bucket, in the variables Bun's S3 client reads.
+`goodreads.json` in the bucket. Read by `bun run scrape --publish`, which reads
+only these four variables.
 
 ```bash
 # im-scrobble-books-app: write goodreads.json in im-scrobble-books, nothing else (infra/s3/setup.sh)

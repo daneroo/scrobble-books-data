@@ -7,7 +7,8 @@
  * and checks its shelf, fetches every book page, and writes
  * `goodreads.json`, checked by CUE. A pass that fails on a WAF challenge or
  * on too many retries is restarted after 60 s, reusing the pages fetched so
- * far; any other failure ends the run. `--publish` adds the git steps.
+ * far; any other failure ends the run. `--publish` uploads a passing
+ * run's `goodreads.json` to S3 (upload.ts); the scraper never runs git.
  * `--help` is generated from SCRAPE.
  */
 import { join } from "node:path";
@@ -28,10 +29,10 @@ import {
 import { removeRunFiles } from "./outputs.ts";
 import { signedInSource } from "./pages/source.ts";
 import { progressLines } from "./progress.ts";
-import { afterScrape, beforeScrape } from "./publish.ts";
 import { redactor, report, type Outcome, type Secrets } from "./report.ts";
 import { runWithRestarts } from "./restart.ts";
 import { failureOf, runScrape } from "./run.ts";
+import { readS3Env, s3Upload, type S3Env, type Upload } from "./upload.ts";
 
 const ROOT = join(import.meta.dir, "../../..");
 
@@ -48,6 +49,8 @@ On disk: the raw pages go to data/scrape/pages/ during the run, and are deleted 
   options: SCRAPE_OPTIONS,
   epilogue: `Sign-in: it never signs in. It uses the session that bun run login saved in secrets/browser-profile/ (gitignored); signed out, it fails as signed-out: run bun run login.
 
+Publish: with --publish, a passing run uploads goodreads.json to S3, with the key in secrets/S3.env; every passing run, changed or not. A failed run uploads nothing; a failed upload fails the run.
+
 GOODREADS_USER is read from secrets/GOODREADS.env.`,
 };
 
@@ -55,22 +58,27 @@ GOODREADS_USER is read from secrets/GOODREADS.env.`,
 export interface MainDeps {
   /** The repository root: `goodreads.json`, `data/`. */
   root: string;
-  env: { GOODREADS_USER?: string };
+  env: { GOODREADS_USER?: string } & S3Env;
   /** Reads the saved session, once per pass. */
   session?: () => Promise<SessionResult>;
   /** The transport; tests serve pages through a fake Goodreads. */
   fetch?: (url: string, init: RequestInit) => Promise<Response>;
   clock?: Clock;
   random?: () => number;
-  /** Wall-clock time: commit stamps and log names. */
+  /** Wall-clock time: pass stamps and log names. */
   now?: () => Date;
   print?: RunLogOptions["print"];
+  /** `--publish`; by default the S3 upload with the key in `env`. */
+  upload?: Upload;
 }
 
 if (import.meta.main) {
   process.exitCode = await main(process.argv.slice(2), {
     root: ROOT,
-    env: { GOODREADS_USER: process.env.GOODREADS_USER },
+    env: {
+      GOODREADS_USER: process.env.GOODREADS_USER,
+      ...readS3Env(process.env),
+    },
   });
 }
 
@@ -134,21 +142,26 @@ export async function main(args: string[], deps: MainDeps): Promise<number> {
     });
   }
 
-  if (publish) {
-    const stop = await beforeScrape({ root, log });
-    if (stop !== undefined) {
-      logError(`publish: ${stop}`);
-      return end(1);
+  let upload: Upload | undefined = publish ? deps.upload : undefined;
+  if (publish && upload === undefined) {
+    const s3 = s3Upload(deps.env);
+    if (!s3.ok) {
+      return fail({
+        step: "setup",
+        mode: "missing-credentials",
+        detail: `unset: ${s3.missing.join(", ")} (secrets/S3.env)`,
+      });
     }
+    upload = s3.upload;
   }
 
   const dataDir = join(root, "data/scrape");
-  let stamp = "";
+  const publishPath = join(root, "goodreads.json");
   const { outcome, passes } = await runWithRestarts({
     clock,
     log,
     pass: async (n) => {
-      stamp = now()
+      const stamp = now()
         .toISOString()
         .replace(/\.\d+Z$/, "Z");
       log(`pass ${n}: start ${stamp}`);
@@ -159,7 +172,7 @@ export async function main(args: string[], deps: MainDeps): Promise<number> {
         deps,
         clock,
         dataDir,
-        publishPath: join(root, "goodreads.json"),
+        publishPath,
         log,
         logFile: (line) => runLog.fileOnly(redact(line)),
         now,
@@ -172,13 +185,19 @@ export async function main(args: string[], deps: MainDeps): Promise<number> {
   const { lines, exitCode } = report(outcome, secrets);
   for (const line of lines) (exitCode === 0 ? log : logError)(line);
   const ending = `${outcome.ok ? "passed" : "failed"} after ${passes} ${passes === 1 ? "pass" : "passes"}`;
-  if (!publish || !outcome.ok) {
+  if (upload === undefined || !outcome.ok) {
     log(`run end: ${ending}`);
     return end(exitCode);
   }
-  const { ok, result } = await afterScrape({ root, log, stamp });
-  (ok ? log : logError)(`run end: ${ending}; publish: ${result}`);
-  return end(ok ? 0 : 1);
+  try {
+    const where = await upload(publishPath);
+    log(`run end: ${ending}; publish: uploaded to ${where}`);
+    return end(0);
+  } catch (error) {
+    const why = error instanceof Error ? error.message : String(error);
+    logError(`run end: ${ending}; publish: upload failed: ${why}`);
+    return end(1);
+  }
 }
 
 /** One pass: the session, a new flow, then the scrape. */

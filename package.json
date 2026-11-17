@@ -27,7 +27,7 @@
     "browser:install": "bun apps/scrape/node_modules/playwright/cli.js install chromium",
     "cron": "bun apps/scrape/src/cron.ts",
     "login": "bun apps/scrape/src/login.ts",
-    "scrape": "bun --env-file=secrets/GOODREADS.env apps/scrape/src/scrape.ts",
+    "scrape": "bun --env-file=secrets/GOODREADS.env --env-file=secrets/S3.env apps/scrape/src/scrape.ts",
     "publish": "bun run scrape --publish"
   },
   "devDependencies": {

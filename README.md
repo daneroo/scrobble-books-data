@@ -8,13 +8,12 @@ This repo archives the latest version of my reading data, scraped from Goodreads
 and committed to `main`.
 
 Goodreads retired the RSS feed (404 since 2026-10-28) and shows GitHub's servers
-a captcha, so the new scraper (`apps/scrape`) ran by hand on my Mac.
+a captcha, so the new scraper (`apps/scrape`) runs outside GitHub.
 
-**Where we are (2026-11-14):** the last publish was 2026-11-14T23:42Z
-(`952ab52ff`). The data on `main` is frozen from then until the new scraper
-([#36](https://github.com/daneroo/scrobble-books-data/issues/36)) replaces it.
-`scrape-staleness.yml` fails when `goodreads.json` hasn't been committed in 48
-hours, so it fails from 2026-11-16 until it is changed.
+**Publishing:** a passing `bun run publish` uploads `goodreads.json` to one
+public S3 object, <https://im-scrobble-books.s3.amazonaws.com/goodreads.json>.
+`mirror-scrape-s3.yml` commits it to `main` every two hours when it changed, and
+fails when it is over 48 hours old.
 
 Browse the data in the browser (flatgithub.com is gone):
 
@@ -23,11 +22,11 @@ Browse the data in the browser (flatgithub.com is gone):
 
 ## Published files
 
-At the repo root, fetched externally from raw.githubusercontent.com, all frozen:
+At the repo root, fetched externally from raw.githubusercontent.com:
 
 - [`goodreads.json`](https://raw.githubusercontent.com/daneroo/scrobble-books-data/main/goodreads.json)
   — the new file: every book, its list-page fields and its reading timeline.
-  Last written 2026-11-14T23:42Z.
+  Mirrored from the S3 object.
 - [`goodreads-rss.json`](https://raw.githubusercontent.com/daneroo/scrobble-books-data/main/goodreads-rss.json)
   — historical, in the old RSS format; no longer written. Still read by the
   scrobbleCast site, so it stays at this path, frozen, until scrobbleCast reads
@@ -50,8 +49,9 @@ A bun workspace.
     - `scrape-browser` — an early Playwright prototype
 - `cue/` — the CUE schema for `goodreads.json` (`check-goodreads.cue`), with an
   example file
-- `.github/workflows/` — `scrape-staleness.yml` (fails when the published data
-  is over 48 hours old, or fails its CUE check), `unit.yml` (CI: `bun run ci`)
+- `.github/workflows/` — `mirror-scrape-s3.yml` (commits the S3 object to `main`
+  if it changed; fails when it is over 48 hours old, or fails its CUE check),
+  `unit.yml` (CI: `bun run ci`)
 - `thoughts/BACKLOG.md` — idea inbox
 - `docs/` — lasting reference (agent docs)
 
@@ -59,12 +59,9 @@ The old scrapers are outside the workspace and excluded from the `ci` gate.
 
 ## Usage
 
-Publishing has stopped (see Where we are); it resumes, by hand, once
-scrobbleCast reads `goodreads.json`:
-
 ```bash
 bun run login                       # sign in by hand first; the scraper never signs in
-bun run publish                     # = bun run scrape --publish; on main: pull, scrape (restarts included), commit goodreads.json, push
+bun run publish                     # = bun run scrape --publish; scrape (restarts included), then upload goodreads.json to S3
 bun run publish -c 3 --rate 2.2     # defaults: -c 3 --rate 6
 ```
 
