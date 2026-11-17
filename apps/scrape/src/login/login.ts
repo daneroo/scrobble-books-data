@@ -21,6 +21,14 @@ const SETTLE_TIMEOUT_MS = 30_000;
 const POLL_MS = 500;
 
 /**
+ * Every launch uses the full browser, with or without a window. Since
+ * Playwright 1.65, the headless shell (the default without a window) and
+ * the full browser cannot read each other's cookies (measured), so a
+ * sign-in in `bun run login` was invisible to the scrape.
+ */
+const BROWSER = { channel: "chromium" } as const;
+
+/**
  * The saved browser profile (gitignored, under `secrets/`), written by
  * `bun run login`. Amazon remembers a device by it, so reusing it avoids
  * "verify it's you" on every sign-in.
@@ -47,6 +55,7 @@ export async function login({
   origin = GOODREADS,
 }: ProfileOptions = {}): Promise<SessionResult> {
   const context = await chromium.launchPersistentContext(profileDir, {
+    ...BROWSER,
     headless: false,
   });
   try {
@@ -86,6 +95,7 @@ export async function savedSession({
   // the same Chrome, headed.
   const userAgent = await headedUserAgent();
   const context = await chromium.launchPersistentContext(profileDir, {
+    ...BROWSER,
     headless: true,
     userAgent,
   });
@@ -121,7 +131,7 @@ async function firstPage(context: BrowserContext): Promise<Page> {
 
 /** The headless browser's user agent, with "HeadlessChrome" made "Chrome". */
 async function headedUserAgent(): Promise<string> {
-  const browser = await chromium.launch({ headless: true });
+  const browser = await chromium.launch({ ...BROWSER, headless: true });
   try {
     const probe = await browser.newPage();
     const agent = await probe.evaluate(() => navigator.userAgent);
