@@ -1,31 +1,39 @@
-# From the #58 prototype: `bun run login` in a desktop streamed to a browser
-# tab. The base is chosen in apps/scrape/Dockerfile; the Selkies lines below
-# are the fallback, to swap in with its base. The scrape and cron come with #59.
+# Run through the root Justfile: `just` lists the recipes.
+# scrape: always on, cron. login: the sign-in desktop, only when asked.
+
+x-common: &common
+  build:
+    context: ../..
+    dockerfile: apps/scrape/Dockerfile
+  image: scrobble-scrape
+  restart: unless-stopped
+  shm_size: 1gb
+  logging:
+    driver: json-file
+    options:
+      max-size: "5m"
+  volumes:
+    - ../../secrets/GOODREADS.env:/app/secrets/GOODREADS.env:ro
+    - ../../secrets/S3.env:/app/secrets/S3.env:ro
+    - ./secrets/browser-profile:/app/secrets/browser-profile
+    - ./data:/app/data
+    - ./config/autostart:/startapp.sh:ro
+
 services:
   scrape:
-    build:
-      context: ../..
-      dockerfile: apps/scrape/Dockerfile
-    shm_size: 1gb
-    # jlesage: http://<host>:5800
+    <<: *common
+    entrypoint: ["bun", "run", "cron", "--publish"]
+    init: true # reaps Chromium's orphans; SIGTERM reaches cron
+    user: ${USER_ID:-1000}:${GROUP_ID:-1000}
+    environment:
+      HOME: /tmp # the host user has no home in the image
+
+  login:
+    <<: *common
+    profiles: [login]
     ports:
       - "5800:5800"
     environment:
-      # the host user's IDs, so the profile on the host stays theirs
       USER_ID: ${USER_ID:-1000}
       GROUP_ID: ${GROUP_ID:-1000}
-      # restart the terminal if it is closed, instead of stopping the container
-      KEEP_APP_RUNNING: 1
-    volumes:
-      - ${PROFILE_DIR:?set PROFILE_DIR to the host directory for the browser
-        profile}:/app/secrets/browser-profile
-      - ./config/autostart:/startapp.sh:ro
-    # Selkies: https://<host>:3001
-    # ports:
-    #   - "3001:3001"
-    # environment:
-    #   PUID: ${PUID:-1000}
-    #   PGID: ${PGID:-1000}
-    # volumes:
-    #   - ${PROFILE_DIR:?...}:/app/secrets/browser-profile
-    #   - ./config/autostart:/defaults/autostart:ro
+      KEEP_APP_RUNNING: 1 # closing the terminal restarts it

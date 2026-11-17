@@ -51,9 +51,10 @@ published data.
   `bun run ci`)
 - `bun run scrape` — the single entry point of the new scraper; options in
   `bun run scrape --help`
-- `bun run login` — a visible browser on `secrets/browser-profile/` at the
-  Goodreads home page, left to the user; on close it prints "signed in" or
-  "signed out"; the scraper never signs in. `--help` opens no browser
+- `bun run login` — local, or in `just docker-login`'s desktop: a visible
+  browser on `secrets/browser-profile/` at the Goodreads home page, left to the
+  user; on close it prints "signed in" or "signed out"; the scraper never signs
+  in. `--help` opens no browser
 - `bun run cron` — runs `bun run scrape` (same options) as a child at minute 4
   of every second hour, UTC; no run at start; a fire time during a run is
   skipped and logged; SIGTERM stops the child, then cron
@@ -73,6 +74,18 @@ published data.
   show and tear down the S3 bucket and its write-only app user; setup writes
   `secrets/S3.env`; `verify.sh` overwrites the public object with the repo's
   `goodreads.json`. Agents never run setup or teardown
+- `Justfile` — Docker only (the bun scripts are for local): `just docker-start`
+  (`scrape`), `docker-logs`, `docker-stop`, `docker-login` (`login` until
+  Enter), `docker-pins` (the Dockerfile's images are pinned as `tag@sha256:…`,
+  the tag the intent; it checks each against its tag and says how to update);
+  the one way to operate `infra/scrape/compose.yaml`; README.md's "Usage" points
+  to it
+- `infra/scrape/` — `compose.yaml`: one image (`apps/scrape/Dockerfile`, its
+  build context an allowlist in `Dockerfile.dockerignore`), two services:
+  `scrape`, always on, `bun run cron --publish`; `login`, behind a profile, a
+  desktop on port 5800 for `bun run login`. The secrets come read-only from
+  `secrets/`; the container's own profile and data, apart from local ones, are
+  `infra/scrape/secrets/browser-profile/` and `infra/scrape/data/` (gitignored)
 - `docs/` — lasting reference (agents, ADRs)
 - `thoughts/BACKLOG.md` — idea inbox; other `thoughts/` files are temporary
 - `data/` — gitignored, volatile (outputs, scratch)

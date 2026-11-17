@@ -52,6 +52,9 @@ A bun workspace.
 - `.github/workflows/` — `mirror-scrape-s3.yml` (commits the S3 object to `main`
   if it changed; fails when it is over 48 hours old, or fails its CUE check),
   `unit.yml` (CI: `bun run ci`)
+- `Justfile` — the Docker recipes (`just` lists them)
+- `infra/` — `scrape/` (the Docker compose file), `s3/` (the S3 bucket's
+  scripts)
 - `thoughts/BACKLOG.md` — idea inbox
 - `docs/` — lasting reference (agent docs)
 
@@ -59,11 +62,17 @@ The old scrapers are outside the workspace and excluded from the `ci` gate.
 
 ## Usage
 
+Use bun for local, just for Docker. Each keeps its own browser profile and data.
+The scraper never signs in: when runs fail as signed-out, run the login again.
+
 ```bash
-bun run login                       # sign in by hand first; the scraper never signs in
-bun run publish                     # = bun run scrape --publish; scrape (restarts included), then upload goodreads.json to S3
-bun run publish -c 3 --rate 2.2     # defaults: -c 3 --rate 6
+bun run login     # local: sign in by hand
+bun run publish   # local: scrape, then upload goodreads.json to S3
+
+just              # Docker: list the recipes (docker-start, docker-login, ...)
 ```
+
+## Development
 
 ```bash
 bun install
