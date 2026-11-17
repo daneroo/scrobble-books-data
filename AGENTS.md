@@ -65,6 +65,10 @@ published data.
   shows each stage's progress at most every 10 s, the log has every line; logs
   in `data/logs/`, the last 100 kept, a run that did not end archived as
   interrupted
+- `infra/s3/` — scripts the user runs (`im-dan` AWS profile) to set up, check,
+  show and tear down the S3 bucket and its write-only app user; setup writes
+  `secrets/S3.env`; `verify.sh` overwrites the public object with the repo's
+  `goodreads.json`. Agents never run setup or teardown
 - `docs/` — lasting reference (agents, ADRs)
 - `thoughts/BACKLOG.md` — idea inbox; other `thoughts/` files are temporary
 - `data/` — gitignored, volatile (outputs, scratch)
