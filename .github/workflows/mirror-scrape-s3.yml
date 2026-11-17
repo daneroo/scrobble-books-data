@@ -1,0 +1,85 @@
+name: Mirror the published data from S3
+
+# Mirror (GLOSSARY.md): fetch the published goodreads.json from its public S3
+# object, fail when its Last-Modified is over 48 hours old (the scraper has
+# stalled), check it with CUE, and commit it to main if it changed. A manual
+# run can set a lower limit (max_age_hours) to test the failure.
+on:
+  schedule:
+    - cron: "40 */2 * * *"
+  workflow_dispatch:
+    inputs:
+      max_age_hours:
+        description:
+          "Fail when the object is older than this many hours, 0 or more
+          (scheduled runs: 48)"
+        type: number
+        default: 48
+
+concurrency:
+  group: mirror-scrape-s3
+
+permissions:
+  contents: write
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    env:
+      URL: https://im-scrobble-books.s3.amazonaws.com/goodreads.json
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+      - uses: cue-lang/setup-cue@v2.0.0
+        with:
+          version: v0.17.1
+
+      - name: Fetch the published goodreads.json
+        run: |
+          headers="${RUNNER_TEMP}/headers.txt"
+          curl -fsS -D "${headers}" -o goodreads.json "${URL}"
+          modified=$(grep -i '^last-modified:' "${headers}" | cut -d' ' -f2- | tr -d '\r' || true)
+          if [ -z "${modified}" ]; then
+            echo "::error::no Last-Modified header from ${URL}"
+            exit 1
+          fi
+          echo "Last-Modified: ${modified}"
+          echo "modified=$(date -u -d "${modified}" +%s)" >> "${GITHUB_ENV}"
+          echo "stamp=$(date -u -d "${modified}" +%Y-%m-%dT%H:%M:%SZ)" >> "${GITHUB_ENV}"
+
+      - name: Fail if the object is too old (48 hours unless set)
+        env:
+          # empty on a scheduled run; 0 is a valid limit, so no `|| 48`
+          MAX_AGE_HOURS: ${{ inputs.max_age_hours }}
+        run: |
+          MAX_AGE_HOURS="${MAX_AGE_HOURS:-48}"
+          limit=$(awk -v h="${MAX_AGE_HOURS}" 'BEGIN { printf "%d", h * 3600 }')
+          age=$(( $(date +%s) - modified ))
+          echo "goodreads.json: published $(( age / 60 )) minutes ago (${stamp})"
+          if [ "${age}" -gt "${limit}" ]; then
+            echo "::error::goodreads.json is stale: published $(( age / 60 )) minutes ago (limit ${MAX_AGE_HOURS}) — the scraper has not published; check its logs"
+            exit 1
+          fi
+
+      - name: Check goodreads.json against its CUE schema
+        run: cue vet cue/check-goodreads.cue goodreads.json
+
+      # see https://github.com/stefanzweifel/git-auto-commit-action
+      - name: Commit goodreads.json if it changed
+        id: commit
+        uses: stefanzweifel/git-auto-commit-action@v7
+        if: ${{ !env.ACT }} # only commit if not in a local test run
+        with:
+          commit_message: Latest book data ${{ env.stamp }}
+          file_pattern: goodreads.json
+          commit_user_name: Scrobble Books GitHub Actions Bot
+
+      - name: Report
+        if: ${{ !env.ACT }}
+        run: |
+          if [ "${{ steps.commit.outputs.changes_detected }}" = "true" ]; then
+            echo "committed: Latest book data ${stamp}"
+          else
+            echo "no change: main already has this goodreads.json"
+          fi

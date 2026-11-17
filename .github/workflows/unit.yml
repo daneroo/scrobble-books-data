@@ -23,8 +23,7 @@ jobs:
         run: bun install --frozen-lockfile
 
       - name: Install Chromium (the session test runs a headless browser)
-        working-directory: apps/scrape
-        run: bunx playwright install --with-deps chromium
+        run: bun run browser:install --with-deps
 
       - name: Run the ci gate
         run: bun run ci

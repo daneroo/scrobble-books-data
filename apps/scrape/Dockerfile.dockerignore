@@ -1,0 +1,10 @@
+# An allowlist: only what apps/scrape/Dockerfile copies goes to the build
+# (never secrets/, data/ or .git). Docker does not read .gitignore.
+*
+!package.json
+!bun.lock
+!apps/scrape/package.json
+!apps/scrape/src
+apps/scrape/src/**/*.test.ts
+apps/scrape/src/testing
+!cue/check-goodreads.cue
