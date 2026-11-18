@@ -31,8 +31,9 @@ docker-login: mounts
     #!/usr/bin/env bash
     set -euo pipefail
     {{ compose }} --profile login up -d --build login
-    # stopped on Enter, Ctrl-C or any exit: never left running
-    trap '{{ compose }} --profile login stop login' EXIT
+    # stopped and removed on Enter, Ctrl-C or any exit (as docker run --rm);
+    # the profile stays on the host
+    trap '{{ compose }} --profile login rm --stop --force login' EXIT
     echo "Open http://$(hostname):5800, run bun run login in its terminal, sign in, close the browser."
     echo "The session is saved in infra/scrape/secrets/browser-profile/."
     read -r -p "Press Enter when done, to stop the desktop. " _
