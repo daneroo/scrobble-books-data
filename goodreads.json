@@ -1,5 +1,32 @@
 [
   {
+    "reviewId": "6426924398",
+    "title": "Tree: My Encounters with Trees",
+    "bookId": "247691896",
+    "bookURL": "https://www.goodreads.com/book/show/247691896-tree",
+    "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1788365421l/247691896._SY75_.jpg",
+    "isbn": "0063443465",
+    "userRating": 0,
+    "userAddedAt": "2024-04-14T07:00:00.000Z",
+    "userExclusiveShelf": "to-read",
+    "averageRating": "4.0",
+    "bookPublished": "1992",
+    "numPages": "192",
+    "userReview": "",
+    "bookDescription": "** A London Review Bookshop Bestseller **<br /><br />'Translated into English for the first time after a hugely successful 2022 reissue in Japan, this classic text, which features prominently in Wim Wenders’ film Perfect Days, takes us on a “beautiful, pensive” journey through trees in Japan.' -- Caroline Sanderson, The Bookseller<br /><br /><br />A Japanese classic, Tree invites us to foster peace in our lives by connecting with trees.<br /><br />Cherry blossom, hinoki, ezo spruce. Persimmon, maple, cypress. The trees of Japan are wondrous emblems of beauty that cast a spell on those who venture to its unique landscape.<br /><br />As a child, Aya Kōda realized they were more than mere objects of beauty. Gifted a sapling by her father, she discovered that we depend on trees as much as they do on us. Markers of time passing, they clear the air and regenerate our earth – while we are responsible to care for their future.<br /><br />Following her travels around Japan, as she witnesses landslides, lumber and forests of falling ash, Tree is a beautiful series of essays that contemplate the most distinctive and eternal features of our natural world. A modern classic translated for the first time, Kōda’s voice echoes down the generations, to remind us that trees hold a mirror to what we cherish on earth, and what we choose to leave behind.<br /><br />Featured in Wim Winders’ Oscar-nominated film Perfect Days and now in English for the first time, translated from Japanese by Charlotte Goff.",
+    "authorName": "Aya Kōda",
+    "timeline": [
+      {
+        "dateText": "April 14, 2024",
+        "event": "Shelved"
+      },
+      {
+        "dateText": "April 14, 2024",
+        "event": "Shelved as: to-read"
+      }
+    ]
+  },
+  {
     "reviewId": "9029791751",
     "title": "Lords of Finance: The Bankers Who Broke the World",
     "bookId": "6025160",
@@ -5752,7 +5779,7 @@
     "numPages": "480",
     "reviewUpdatedAt": "2026-04-02T22:03:36.777Z",
     "userReview": "",
-    "bookDescription": "<b>An Instant <i>New York Times </i>Bestseller • One of NPR's Best Books of the Year • Nominated for the <i>Financial Times </i>Business Book of the Year <br /><br />From one of our leading chroniclers of the intersection of innovation and capitalism, a landmark reckoning—based on unprecedented access—with one of the world’s most brilliant and driven tech visionaries, and his game-changing company</b><br /><br />Even by the standard of a tech industry stacked with so-called geniuses, Demis Hassabis is a special case. Born poor in North London to immigrant parents, a chess prodigy by age five and wizard coder in his teens, he turned down a seven figure offer before turning 18 to feed his insatiable scientific curiosity at Cambridge. Later, he added a neuroscience PhD to his computer science skills to pursue the dream of artificial general intelligence, the ultimate goal being to unravel the mysteries of biology and theoretical physics and to usher in super-abundance. Alongside a small group of fellow travelers, that is the path he is still on, leading the AI research at Google, winning a Nobel Prize along the way, and imagining machines that will compound, or possibly supplant, the human understanding of the universe.<br /><br />Hassabis has given Sebastian Mallaby a great deal of his time, sitting for over thirty hours of conversation. But Mallaby has also drawn from Hassabis's detractors, such as his estranged cofounder Mustafa Suleyman; from his rivals, such as OpenAI's leading scientist Ilya Sutskever; and from academic pioneers who now fear for human survival, such as Nobel laureate Geoffrey Hinton. The result is a revelatory account of a singular figure and his company and a profound reckoning with this protean field as it leaps from the periphery to the center of our consciousness.<br /><br />No one questions Hassabis’s brilliance. There are those who, like Elon Musk, have at times regarded him as an \"evil genius.\" He is in a game where the stakes are matched only by the exorbitant costs — for talent, and for compute. Celebrated scientists pursue the technology because they cannot resist the sweetness of discovery. Others pursue it for money or power. The inventors believe they control their technology, but often, the technology controls them.<br /><br />Despite Hassabis’s pivotal role inside Google’s engine room, this is not a Silicon Valley story. Hassabis deals with the Valley and takes its money, but remains outside and furiously critical of it, lambasting its leaders in conversation with Mallaby. The end of this race cannot be known, but as this great book shows us, Hassabis's quest to will a new form of cognition into the world is a defining story for our era.",
+    "bookDescription": "<b>An Instant <i>New York Times </i>Bestseller • Named a Best Book of the Year by NPR, <i>Bloomberg</i>, and <i>The Financial Times</i> • Nominated for <i>The Financial Times </i>Business Book of the Year <br /><br />From one of our leading chroniclers of the intersection of innovation and capitalism, a landmark reckoning—based on unprecedented access—with one of the world’s most brilliant and driven tech visionaries, and his game-changing company</b><br /><br />Even by the standard of a tech industry stacked with so-called geniuses, Demis Hassabis is a special case. Born poor in North London to immigrant parents, a chess prodigy by age five and wizard coder in his teens, he turned down a seven figure offer before turning 18 to feed his insatiable scientific curiosity at Cambridge. Later, he added a neuroscience PhD to his computer science skills to pursue the dream of artificial general intelligence, the ultimate goal being to unravel the mysteries of biology and theoretical physics and to usher in super-abundance. Alongside a small group of fellow travelers, that is the path he is still on, leading the AI research at Google, winning a Nobel Prize along the way, and imagining machines that will compound, or possibly supplant, the human understanding of the universe.<br /><br />Hassabis has given Sebastian Mallaby a great deal of his time, sitting for over thirty hours of conversation. But Mallaby has also drawn from Hassabis's detractors, such as his estranged cofounder Mustafa Suleyman; from his rivals, such as OpenAI's leading scientist Ilya Sutskever; and from academic pioneers who now fear for human survival, such as Nobel laureate Geoffrey Hinton. The result is a revelatory account of a singular figure and his company and a profound reckoning with this protean field as it leaps from the periphery to the center of our consciousness.<br /><br />No one questions Hassabis’s brilliance. There are those who, like Elon Musk, have at times regarded him as an \"evil genius.\" He is in a game where the stakes are matched only by the exorbitant costs — for talent, and for compute. Celebrated scientists pursue the technology because they cannot resist the sweetness of discovery. Others pursue it for money or power. The inventors believe they control their technology, but often, the technology controls them.<br /><br />Despite Hassabis’s pivotal role inside Google’s engine room, this is not a Silicon Valley story. Hassabis deals with the Valley and takes its money, but remains outside and furiously critical of it, lambasting its leaders in conversation with Mallaby. The end of this race cannot be known, but as this great book shows us, Hassabis's quest to will a new form of cognition into the world is a defining story for our era.",
     "authorName": "Sebastian Mallaby",
     "timeline": [
       {
@@ -25204,33 +25231,6 @@
       {
         "dateText": "April 14, 2024",
         "event": "Finished Reading"
-      }
-    ]
-  },
-  {
-    "reviewId": "6426924398",
-    "title": "木",
-    "bookId": "5750174",
-    "bookURL": "https://www.goodreads.com/book/show/5750174",
-    "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1697951091l/5750174._SX50_.jpg",
-    "isbn": "4103077026",
-    "userRating": 0,
-    "userAddedAt": "2024-04-14T07:00:00.000Z",
-    "userExclusiveShelf": "to-read",
-    "averageRating": "4.0",
-    "bookPublished": "1992",
-    "numPages": "162",
-    "userReview": "",
-    "bookDescription": "木々草花を愛(め)でる心こそ、財産である<br />樹木を愛でるは心の養い、何よりの財産――。父露伴のそんな思いから著者は樹木とともに育てられた。そして木々をいつくしみ、愛でることのできる感受性を持つ大人へと成長した。<br />著者が娘を持つようになったとき、この娘の周囲に木々草花の存在はなくなっていた。露伴は著者に、子を連れて植木市にいき、そこで彼女の気に入ったものを買い与えよと小銭入れを渡した。果たして子は、市で一番高価で立派な鉢植えの藤を選んだ。父露伴から預かった小銭ではとても贖えるものではなかった。次に選んだものは山椒の木だった。<br />山椒の木をもって帰宅すると、事情を知った父露伴はみるみる不機嫌になった……。<br />「多少値の張る買物であったにせよ、その藤を子の心の養いにしてやろうと、なぜ思わないのか、その藤をきっかけに、どの花をもいとおしむことを教えてやれば、それはこの子一生の心のうるおい、女一代の目の楽しみにもなろう、もしまたもっと深い機縁があれば、子供は藤から蔦へ、蔦からもみじへ、松へ杉へと関心の芽を伸ばさないとはかぎらない、そうなればそれはもう、その子が財産をもったも同じこと、これ以上の価値はない（略）」<br /><br />北は北海道、南は屋久島<br />富良野、屋久島、安倍峠、鳶山（とんびやま）、桜島、江戸川、四日市、福島と著者は木々と逢いに行く。<br />ゆく先々で出逢ったその木の来し方、行く末に思いを馳せる。富良野ではえぞ松、屋久島では樹齢七千二百年の縄紋杉、安倍峠ではアカヤシオ、オオイタヤメイゲツ、富山県の鳶山では鮮烈なもみじ、桜島では灰を被った蝶形花をつけたデイゴ、山梨県北巨摩郡では神代桜、江戸川では松、四日市では楠、福島県岩代（二本松市）では杉沢の大杉。<br />次は縄紋杉に出会った時のファーストインプレッション。<br />「本当のところを打明ければ、私はおびえていた。おびえているから考えることもなみを外れるし、並外れを考えるから、またそれにおびえる。この杉は、なにか我々のいまだ知らぬものに、移行しつつあるのではなかろうか、などと平常を外れたことを思ったりして、だいぶイカレていたのだが（略）」<br /><br />著者の透徹した眼は、木々の存在の向こうに、人間の業や生死の淵源まで見通す。生命の手触りを達意の名文で掬い取った、日本文学を代表するまごうかたなき名随筆。",
-    "authorName": "Aya Kōda",
-    "timeline": [
-      {
-        "dateText": "April 14, 2024",
-        "event": "Shelved"
-      },
-      {
-        "dateText": "April 14, 2024",
-        "event": "Shelved as: to-read"
       }
     ]
   },
