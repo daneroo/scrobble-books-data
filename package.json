@@ -3,13 +3,18 @@
   "type": "module",
   "private": true,
   "packageManager": "bun@1.4.4",
-  "workspaces": [
-    "packages/*",
-    "apps/*",
-    "!apps/scrape-deno",
-    "!apps/scrape-ng",
-    "!apps/scrape-browser"
-  ],
+  "workspaces": {
+    "packages": [
+      "packages/*",
+      "apps/*",
+      "!apps/scrape-deno",
+      "!apps/scrape-ng",
+      "!apps/scrape-browser"
+    ],
+    "catalog": {
+      "playwright": "1.65.1"
+    }
+  },
   "scripts": {
     "test": "bun test --pass-with-no-tests --timeout 60000",
     "check": "tsc --noEmit",
@@ -24,11 +29,16 @@
     "outdated:fix": "bun update -i -r",
     "act:unit": "act -j unit --container-architecture linux/amd64",
     "git:log": "echo 'Recent Scraping Commits'; git log | grep 'Latest book data' | cut -c22-31 | uniq -c | head -n 10; echo 'git pull?'",
-    "browser:install": "bun apps/scrape/node_modules/playwright/cli.js install chromium",
+    "setup": "sh -c 'bun install \"$@\" && bun run browser:install' setup",
+    "browser:install": "playwright install chromium --no-shell $(command -v apt-get >/dev/null && echo --with-deps)",
+    "browser:list": "playwright install --list",
     "cron": "bun apps/scrape/src/cron.ts",
     "login": "bun apps/scrape/src/login.ts",
     "scrape": "bun --env-file=secrets/GOODREADS.env --env-file=secrets/S3.env apps/scrape/src/scrape.ts",
     "publish": "bun run scrape --publish"
+  },
+  "dependencies": {
+    "playwright": "catalog:"
   },
   "devDependencies": {
     "@eslint/js": "10.0.1",

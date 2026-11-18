@@ -58,9 +58,9 @@ published data.
 - `bun run cron` — runs `bun run scrape` (same options) as a child at minute 4
   of every second hour, UTC; no run at start; a fire time during a run is
   skipped and logged; SIGTERM stops the child, then cron
-- `bun run browser:install` — the one way to install Chromium: the pinned
-  Playwright's installer (`--with-deps` in CI and Docker); never
-  `bunx playwright`
+- `bun run setup` — `bun install`, then `bun run browser:install`: the pinned
+  Playwright's Chromium (`--no-shell`), with `--with-deps` where `apt-get`
+  exists (Docker, CI); never `bunx playwright`
 - `bun run publish` (`bun run scrape --publish`) — after every passing run,
   changed or not, uploads `goodreads.json` to the S3 object
   (`apps/scrape/src/upload.ts`, the key in `secrets/S3.env`); a failed run

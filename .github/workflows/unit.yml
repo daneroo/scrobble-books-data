@@ -14,16 +14,15 @@ jobs:
         with:
           version: v0.17.1
 
-      - name: Report versions
+      - name:
+          Install dependencies and Chromium (the session test runs a browser)
+        run: bun run setup --frozen-lockfile
+
+      - name: Report versions and browsers
         run: |
           echo "bun: $(bun --version)"
           cue version
-
-      - name: Install dependencies
-        run: bun install --frozen-lockfile
-
-      - name: Install Chromium (the session test runs a headless browser)
-        run: bun run browser:install --with-deps
+          bun run browser:list
 
       - name: Run the ci gate
         run: bun run ci

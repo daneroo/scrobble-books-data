@@ -66,6 +66,8 @@ Use bun for local, just for Docker. Each keeps its own browser profile and data.
 The scraper never signs in: when runs fail as signed-out, run the login again.
 
 ```bash
+bun run setup     # bun install, then the pinned Chromium
+
 bun run login     # local: sign in by hand
 bun run publish   # local: scrape, then upload goodreads.json to S3
 

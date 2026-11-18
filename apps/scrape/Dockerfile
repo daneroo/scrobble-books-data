@@ -22,10 +22,9 @@ RUN add-pkg xterm && set-cont-env APP_NAME "scrobble login" && mkdir -p /config/
 WORKDIR /app
 COPY package.json bun.lock ./
 COPY apps/scrape/package.json apps/scrape/
-# Chromium only by `bun run browser:install`, the pinned Playwright's own
-# installer, never `bunx playwright` (it fetches a newer Chromium)
-RUN bun install --frozen-lockfile --production && \
-    bun run browser:install --with-deps && \
+# bun run setup: bun install, then the pinned Playwright's Chromium, with its
+# system libraries (apt); never `bunx playwright` (it fetches a newer Chromium)
+RUN bun run setup --frozen-lockfile --production && \
     chmod -R a+rX /ms-playwright && \
     rm -rf /var/lib/apt/lists/*
 COPY cue/check-goodreads.cue cue/
