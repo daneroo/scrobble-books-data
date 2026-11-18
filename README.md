@@ -17,7 +17,7 @@ fails when it is over 48 hours old.
 
 Browse the data in the browser (flatgithub.com is gone):
 
-- [Datasette Lite: goodreads-rss.json](https://lite.datasette.io/?json=https://raw.githubusercontent.com/daneroo/scrobble-books-data/main/goodreads-rss.json)
+- [Datasette Lite: goodreads.json](https://lite.datasette.io/?json=https://im-scrobble-books.s3.amazonaws.com/goodreads.json)
   — browse, facet, SQL
 
 ## Published files

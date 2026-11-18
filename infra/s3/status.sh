@@ -22,8 +22,12 @@ echo "Bucket policy"
 aws s3api get-bucket-policy --bucket "${BUCKET}" --query Policy --output text | jq .
 
 echo
-echo "Anonymous HEAD ${PUBLIC_URL}"
-curl -sSI "${PUBLIC_URL}" | grep -iE '^(HTTP|last-modified|content-length|content-type|etag)'
+echo "Bucket CORS"
+aws s3api get-bucket-cors --bucket "${BUCKET}"
+
+echo
+echo "Anonymous HEAD ${PUBLIC_URL}, from a browser page (Origin: https://lite.datasette.io)"
+curl -sSI -H 'Origin: https://lite.datasette.io' "${PUBLIC_URL}" | grep -iE '^(HTTP|last-modified|content-length|content-type|etag|access-control-allow-origin)'
 
 echo
 echo "User ${USERNAME}"

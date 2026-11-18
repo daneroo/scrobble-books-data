@@ -22,7 +22,8 @@ These operations are done using a more privileged user (`im-dan`, set in
 ### Setup
 
 - Create the bucket, allow a public bucket policy (public ACLs stay blocked),
-  set its policy (public `GetObject` on `goodreads.json`)
+  set its policy (public `GetObject` on `goodreads.json`), and its CORS rule
+  (`cors.sh`)
 - Create the user, its policy `im-scrobble-books-app-policy` (`PutObject` on
   `goodreads.json`), attach it to the user
 - Create an access key, written to `secrets/S3.env`
@@ -31,6 +32,15 @@ Stops at the first step that fails, and at once if `secrets/S3.env` exists.
 
 ```bash
 infra/s3/setup.sh
+```
+
+### CORS
+
+- GET and HEAD from any origin (`cors.json`), for browser pages; run by setup,
+  or alone on the existing bucket
+
+```bash
+infra/s3/cors.sh
 ```
 
 ### Verify
@@ -44,8 +54,9 @@ infra/s3/verify.sh
 
 ### Status
 
-- The bucket, its public access block and policy, the public object's headers,
-  the user, its keys and when they were last used, the policy
+- The bucket, its public access block, policy and CORS rule, the public object's
+  headers (as a browser page gets them), the user, its keys and when they were
+  last used, the policy
 
 ```bash
 infra/s3/status.sh

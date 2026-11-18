@@ -29,6 +29,9 @@ echo "Setting the bucket policy: public read of ${OBJECT}"
 aws s3api put-bucket-policy --bucket "${BUCKET}" --policy file://bucket-policy.json
 
 echo
+./cors.sh
+
+echo
 echo "Creating user ${USERNAME}"
 aws iam create-user --user-name "${USERNAME}"
 
