@@ -175,7 +175,7 @@
     "userRating": 4,
     "userAddedAt": "2026-02-25T08:00:00.000Z",
     "userExclusiveShelf": "read",
-    "averageRating": "3.8",
+    "averageRating": "3.9",
     "bookPublished": "unknown",
     "numPages": "128",
     "reviewUpdatedAt": "2026-11-14T04:50:21.207Z",
@@ -21087,7 +21087,7 @@
     "bookPublished": "unknown",
     "numPages": "374",
     "userReview": "",
-    "bookDescription": "",
+    "bookDescription": "Stable Diffusion, ChatGPT, Whisper - these are just a few examples of incredible applications powered by developments in machine learning. Despite the ubiquity of machine learning applications running in production, there are only a few viable language choices for data science and machine learning tasks. Elixir's Nx project seeks to change that. With Nx, you can leverage the power of machine learning in your applications, using the battle-tested Erlang VM in a pragmatic language like Elixir. In this book, you'll learn how to leverage Elixir and the Nx ecosystem to solve real-world problems in computer vision, natural language processing, and more.<br /><br />The Elixir Nx project aims to make machine learning possible without the need to leave Elixir for solutions in other languages. And even if concepts like linear models and logistic regression are new to you, you'll be using them and much more to solve real-world problems in no time.<br /><br />Start with the basics of the Nx programming paradigm - how it differs from the Elixir programming style you're used to and how it enables you to write machine learning algorithms. Use your understanding of this paradigm to implement foundational machine learning algorithms from scratch. Go deeper and discover the power of deep learning with Axon. Unlock the power of Elixir and learn how to build and deploy machine learning models and pipelines anywhere. Learn how to analyze, visualize, and explain your data and models.<br /><br />Discover how to use machine learning to solve diverse problems from image recognition to content recommendation - all in your favorite programming language.<br /><br /><b>What You </b><br /><br />You'll need a computer with a working installation of Elixir v1.12 and Erlang/OTP 24. For some of the more compute intensive examples, you'll want to use EXLA, which currently only supports x86-64 platforms. While not explicitly required, some examples will demonstrate programs running on accelerators such as CUDA/ROCm enabled GPUs and Google TPUs. Most of these programs will still run fine on a regular CPU, just for much longer periods of time.",
     "authorName": "Sean Moriarity",
     "timeline": [
       {
@@ -25217,7 +25217,7 @@
     "userRating": 0,
     "userAddedAt": "2024-04-14T07:00:00.000Z",
     "userExclusiveShelf": "to-read",
-    "averageRating": "3.9",
+    "averageRating": "4.0",
     "bookPublished": "1992",
     "numPages": "162",
     "userReview": "",
@@ -31967,7 +31967,7 @@
     "numPages": "292",
     "reviewUpdatedAt": "2023-05-06T22:05:27.645Z",
     "userReview": "",
-    "bookDescription": "A New York Times Science Bestseller<br /><br />What if you had to take an art class in which you were only taught how to paint a fence? What if you were never shown the paintings of van Gogh and Picasso, weren’t even told they existed? Alas, this is how math is taught, and so for most of us it becomes the intellectual equivalent of watching paint dry.<br /><br />In Love and Math , renowned mathematician Edward Frenkel reveals a side of math we’ve never seen, suffused with all the beauty and elegance of a work of art. In this heartfelt and passionate book, Frenkel shows that mathematics, far from occupying a specialist niche, goes to the heart of all matter, uniting us across cultures, time, and space.<br /><br />Love and Math tells two intertwined stories: of the wonders of mathematics and of one young man’s journey learning and living it. Having braved a discriminatory educational system to become one of the twenty-first century’s leading mathematicians, Frenkel now works on one of the biggest ideas to come out of math in the last 50 years: the Langlands Program. Considered by many to be a Grand Unified Theory of mathematics, the Langlands Program enables researchers to translate findings from one field to another so that they can solve problems, such as Fermat’s last theorem, that had seemed intractable before.<br /><br />At its core, Love and Math is a story about accessing a new way of thinking, which can enrich our lives and empower us to better understand the world and our place in it. It is an invitation to discover the magic hidden universe of mathematics.",
+    "bookDescription": "<b>A <i>New York Times</i> Science Bestseller</b><br /><br />What if you had to take an art class in which you were only taught how to paint a fence? What if you were never shown the paintings of van Gogh and Picasso, weren’t even told they existed? Alas, this is how math is taught, and so for most of us it becomes the intellectual equivalent of watching paint dry.<br /><br />In <i>Love and Math</i>, renowned mathematician Edward Frenkel reveals a side of math we’ve never seen, suffused with all the beauty and elegance of a work of art. In this heartfelt and passionate book, Frenkel shows that mathematics, far from occupying a specialist niche, goes to the heart of all matter, uniting us across cultures, time, and space.<br /><br /><i>Love and Math</i> tells two intertwined of the wonders of mathematics and of one young man’s journey learning and living it. Having braved a discriminatory educational system to become one of the twenty-first century’s leading mathematicians, Frenkel now works on one of the biggest ideas to come out of math in the last 50 the Langlands Program. Considered by many to be a Grand Unified Theory of mathematics, the Langlands Program enables researchers to translate findings from one field to another so that they can solve problems, such as Fermat’s last theorem, that had seemed intractable before.<br /><br />At its core, <i>Love and Math</i> is a story about accessing a new way of thinking, which can enrich our lives and empower us to better understand the world and our place in it. It is an invitation to discover the magic hidden universe of mathematics.<br />",
     "authorName": "Edward Frenkel",
     "timeline": [
       {
