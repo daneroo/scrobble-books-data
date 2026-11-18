@@ -1,32 +1,5 @@
 [
   {
-    "reviewId": "6426924398",
-    "title": "Tree: My Encounters with Trees",
-    "bookId": "247691896",
-    "bookURL": "https://www.goodreads.com/book/show/247691896-tree",
-    "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1788365421l/247691896._SY75_.jpg",
-    "isbn": "0063443465",
-    "userRating": 0,
-    "userAddedAt": "2024-04-14T07:00:00.000Z",
-    "userExclusiveShelf": "to-read",
-    "averageRating": "4.0",
-    "bookPublished": "1992",
-    "numPages": "192",
-    "userReview": "",
-    "bookDescription": "** A London Review Bookshop Bestseller **<br /><br />'Translated into English for the first time after a hugely successful 2022 reissue in Japan, this classic text, which features prominently in Wim Wenders’ film Perfect Days, takes us on a “beautiful, pensive” journey through trees in Japan.' -- Caroline Sanderson, The Bookseller<br /><br /><br />A Japanese classic, Tree invites us to foster peace in our lives by connecting with trees.<br /><br />Cherry blossom, hinoki, ezo spruce. Persimmon, maple, cypress. The trees of Japan are wondrous emblems of beauty that cast a spell on those who venture to its unique landscape.<br /><br />As a child, Aya Kōda realized they were more than mere objects of beauty. Gifted a sapling by her father, she discovered that we depend on trees as much as they do on us. Markers of time passing, they clear the air and regenerate our earth – while we are responsible to care for their future.<br /><br />Following her travels around Japan, as she witnesses landslides, lumber and forests of falling ash, Tree is a beautiful series of essays that contemplate the most distinctive and eternal features of our natural world. A modern classic translated for the first time, Kōda’s voice echoes down the generations, to remind us that trees hold a mirror to what we cherish on earth, and what we choose to leave behind.<br /><br />Featured in Wim Winders’ Oscar-nominated film Perfect Days and now in English for the first time, translated from Japanese by Charlotte Goff.",
-    "authorName": "Aya Kōda",
-    "timeline": [
-      {
-        "dateText": "April 14, 2024",
-        "event": "Shelved"
-      },
-      {
-        "dateText": "April 14, 2024",
-        "event": "Shelved as: to-read"
-      }
-    ]
-  },
-  {
     "reviewId": "9029791751",
     "title": "Lords of Finance: The Bankers Who Broke the World",
     "bookId": "6025160",
@@ -62,6 +35,37 @@
       {
         "dateText": "November 17, 2026",
         "event": "17.0%"
+      },
+      {
+        "dateText": "November 18, 2026",
+        "event": "36.0%"
+      }
+    ]
+  },
+  {
+    "reviewId": "6426924398",
+    "title": "Tree: My Encounters with Trees",
+    "bookId": "247691896",
+    "bookURL": "https://www.goodreads.com/book/show/247691896-tree",
+    "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1788365421l/247691896._SY75_.jpg",
+    "isbn": "0063443465",
+    "userRating": 0,
+    "userAddedAt": "2024-04-14T07:00:00.000Z",
+    "userExclusiveShelf": "to-read",
+    "averageRating": "3.9",
+    "bookPublished": "1992",
+    "numPages": "192",
+    "userReview": "",
+    "bookDescription": "** A London Review Bookshop Bestseller **<br /><br />'Translated into English for the first time after a hugely successful 2022 reissue in Japan, this classic text, which features prominently in Wim Wenders’ film Perfect Days, takes us on a “beautiful, pensive” journey through trees in Japan.' -- Caroline Sanderson, The Bookseller<br /><br /><br />A Japanese classic, Tree invites us to foster peace in our lives by connecting with trees.<br /><br />Cherry blossom, hinoki, ezo spruce. Persimmon, maple, cypress. The trees of Japan are wondrous emblems of beauty that cast a spell on those who venture to its unique landscape.<br /><br />As a child, Aya Kōda realized they were more than mere objects of beauty. Gifted a sapling by her father, she discovered that we depend on trees as much as they do on us. Markers of time passing, they clear the air and regenerate our earth – while we are responsible to care for their future.<br /><br />Following her travels around Japan, as she witnesses landslides, lumber and forests of falling ash, Tree is a beautiful series of essays that contemplate the most distinctive and eternal features of our natural world. A modern classic translated for the first time, Kōda’s voice echoes down the generations, to remind us that trees hold a mirror to what we cherish on earth, and what we choose to leave behind.<br /><br />Featured in Wim Winders’ Oscar-nominated film Perfect Days and now in English for the first time, translated from Japanese by Charlotte Goff.",
+    "authorName": "Aya Kōda",
+    "timeline": [
+      {
+        "dateText": "April 14, 2024",
+        "event": "Shelved"
+      },
+      {
+        "dateText": "April 14, 2024",
+        "event": "Shelved as: to-read"
       }
     ]
   },
@@ -202,7 +206,7 @@
     "userRating": 4,
     "userAddedAt": "2026-02-25T08:00:00.000Z",
     "userExclusiveShelf": "read",
-    "averageRating": "3.9",
+    "averageRating": "3.8",
     "bookPublished": "unknown",
     "numPages": "128",
     "reviewUpdatedAt": "2026-11-14T04:50:21.207Z",
