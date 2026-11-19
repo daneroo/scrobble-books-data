@@ -39,6 +39,10 @@
       {
         "dateText": "November 18, 2026",
         "event": "36.0%"
+      },
+      {
+        "dateText": "November 18, 2026",
+        "event": "60.0%"
       }
     ]
   },
@@ -36542,7 +36546,7 @@
     "userRating": 0,
     "userAddedAt": "2022-09-18T07:00:00.000Z",
     "userExclusiveShelf": "on-deck",
-    "averageRating": "4.3",
+    "averageRating": "4.2",
     "bookPublished": "unknown",
     "numPages": "159",
     "userReview": "",
