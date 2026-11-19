@@ -2,9 +2,8 @@
  * Every limit that bounds or ends a run, in one place, to be reviewed.
  *
  * Each one is a plain number, so a bound reads as one sentence. The values
- * are provisional: they come from the robustness criteria (#26,
- * `thoughts/robustness-criteria.md`) and from the first real full run
- * (#30, 2026-11-02), and are reviewed in calibration.
+ * are provisional: they come from the robustness criteria (#26) and from
+ * the first real full run (#30, 2026-11-02), and are reviewed in calibration.
  *
  * First real run, list and review pages at concurrency 2, 2/s: no 429, 503
  * or 202; review pages p50 618 ms, p95 978 ms, p99 1.7 s, max 3.8 s; 21 of
@@ -14,7 +13,7 @@
 export const LIMITS = {
   // ── Concurrency and the rate cap (P2, P4): the defaults of --concurrency and --rate ──
 
-  /** Requests in flight at most. 3, as scrape-ng and the prototype ran. */
+  /** Requests in flight at most. 3, as the old scrapers ran (#26). */
   concurrency: 3,
   /**
    * Requests started per second at most, across all requests in flight.

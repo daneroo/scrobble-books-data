@@ -31,22 +31,12 @@ At the repo root, fetched externally from raw.githubusercontent.com:
   — historical, in the old RSS format; no longer written. Still read by the
   scrobbleCast site, so it stays at this path, frozen, until scrobbleCast reads
   `goodreads.json`. Last written 2026-11-14T23:42Z.
-- [`goodreads-rss-ng.json`](https://raw.githubusercontent.com/daneroo/scrobble-books-data/main/goodreads-rss-ng.json),
-  [`goodreads-rss-ng-progress.json`](https://raw.githubusercontent.com/daneroo/scrobble-books-data/main/goodreads-rss-ng-progress.json)
-  — the old bun RSS scraper's output, last written 2026-10-27.
 
 ## Layout
 
 A bun workspace.
 
-- `apps/` — scrapers:
-  - `scrape` — the new logged-in scraper
-  - the rest are read-only references now that the RSS feed is gone:
-    - `scrape-deno` — the original deno RSS scraper (written for
-      githubocto/flat, which used Deno as its post-processor); wrote
-      `goodreads-rss.json`
-    - `scrape-ng` — the bun RSS scraper; wrote the two `-ng` files
-    - `scrape-browser` — an early Playwright prototype
+- `apps/scrape` — the logged-in scraper
 - `cue/` — the CUE schema for `goodreads.json` (`check-goodreads.cue`), with an
   example file
 - `.github/workflows/` — `mirror-scrape-s3.yml` (commits the S3 object to `main`
@@ -57,8 +47,6 @@ A bun workspace.
   scripts)
 - `thoughts/BACKLOG.md` — idea inbox
 - `docs/` — lasting reference (agent docs)
-
-The old scrapers are outside the workspace and excluded from the `ci` gate.
 
 ## Usage
 
@@ -83,11 +71,11 @@ bun run fmt      # fix formatting when ci fails
 bun run outdated # dependency updates (bun run outdated:fix to apply)
 bun run git:log  # scrape commits per day
 
-bun run scrape --help  # the new scraper: the single entry point
+bun run scrape --help  # the scraper: the single entry point
 ```
 
-Prettier and the linters skip the vendored agent skills, the published data
-files and the old scrapers.
+Prettier and the linters skip the vendored agent skills and the published data
+files.
 
 ## Testing GitHub Actions locally
 
