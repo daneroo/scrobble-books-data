@@ -9,14 +9,7 @@
   // Vendored agent skills — installed by `npx skills`, hash-pinned in
   // skills-lock.json; not ours to lint. .claude/skills/* are symlinks into
   // .agents/skills/, which globbing follows, so ignore both paths.
-  // The old scrapers are read-only references, not part of the gate.
-  "ignores": [
-    ".agents/**",
-    ".claude/skills/**",
-    "apps/scrape-deno/**",
-    "apps/scrape-ng/**",
-    "apps/scrape-browser/**",
-  ],
+  "ignores": [".agents/**", ".claude/skills/**"],
   "config": {
     // The preset ships in the `markdownlint` package, so it is a direct root
     // devDependency: Bun's isolated install doesn't hoist transitive deps.

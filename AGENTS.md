@@ -39,9 +39,7 @@ hours old. `goodreads-rss.json` stays on `main`, frozen, no longer written.
 A bun workspace; the root holds only tooling, agent and docs files, and the
 published data.
 
-- `apps/` — scrapers. `scrape` is the new scraper. `scrape-deno`, `scrape-ng`
-  (bun) and `scrape-browser` (Playwright prototype) are read-only references:
-  outside the workspace and excluded from the gate.
+- `apps/scrape` — the scraper
 - `cue/` — the schema check for the output, with an example:
   `check-goodreads.cue` (`goodreads.json`)
 - `.github/workflows/` — `mirror-scrape-s3.yml` (at minute 40 of every second
@@ -49,7 +47,7 @@ published data.
   over 48 hours old or it fails its CUE check, commits it to `main` as
   `Latest book data <Last-Modified>` if it changed), `unit.yml` (CI:
   `bun run ci`)
-- `bun run scrape` — the single entry point of the new scraper; options in
+- `bun run scrape` — the single entry point of the scraper; options in
   `bun run scrape --help`
 - `bun run login` — local, or in `just docker-login`'s desktop: a visible
   browser on `secrets/browser-profile/` at the Goodreads home page, left to the

@@ -6,10 +6,7 @@
   "workspaces": {
     "packages": [
       "packages/*",
-      "apps/*",
-      "!apps/scrape-deno",
-      "!apps/scrape-ng",
-      "!apps/scrape-browser"
+      "apps/*"
     ],
     "catalog": {
       "playwright": "1.65.1"
