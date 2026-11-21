@@ -17,7 +17,9 @@
   - bookImageURL: kept; can't be built from bookId.
   - timeline: kept as is. Later: structure, invariants.
 
-## User dates (open, as a group)
+- Naming: keep the RSS names (no book*/user* prefix on every field).
+
+## User dates (names locked; values in implementation)
 
 - userAddedAt
 - userReadCount, userFirstReadAt, userLastReadAt: from the timeline, with the

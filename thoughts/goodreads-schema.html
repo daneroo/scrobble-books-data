@@ -1,0 +1,450 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>goodreads.json schema</title>
+    <style>
+      :root {
+        --locked: #16a34a;
+        --decided: #2563eb;
+        --proposed: #d97706;
+        --open: #dc2626;
+        --ink: #1f2328;
+        --muted: #6b7280;
+        --line: #e5e7eb;
+        --mono: ui-monospace, "SF Mono", Menlo, monospace;
+      }
+      body {
+        font:
+          14px/1.45 -apple-system,
+          system-ui,
+          sans-serif;
+        color: var(--ink);
+        background: #fafaf9;
+        margin: 0;
+        padding: 32px 24px 64px;
+      }
+      main {
+        max-width: 980px;
+        margin: 0 auto;
+      }
+      h1 {
+        font-size: 24px;
+        margin: 0;
+        letter-spacing: -0.01em;
+      }
+      h1 code {
+        font-family: var(--mono);
+        font-size: 22px;
+      }
+      .sub {
+        color: var(--muted);
+        margin: 4px 0 18px;
+      }
+      .legend {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 14px;
+        margin-bottom: 26px;
+        font-size: 13px;
+        color: var(--muted);
+      }
+      .pill {
+        display: inline-block;
+        font-size: 11px;
+        font-weight: 600;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        padding: 1px 7px;
+        border-radius: 999px;
+        color: white;
+        background: var(--s);
+        white-space: nowrap;
+      }
+      .locked {
+        --s: var(--locked);
+      }
+      .decided {
+        --s: var(--decided);
+      }
+      .proposed {
+        --s: var(--proposed);
+      }
+      .open {
+        --s: var(--open);
+      }
+      section {
+        background: white;
+        border: 1px solid var(--line);
+        border-radius: 10px;
+        margin: 0 0 18px;
+        overflow: hidden;
+      }
+      section > header {
+        display: flex;
+        align-items: baseline;
+        gap: 10px;
+        padding: 10px 16px;
+        border-bottom: 1px solid var(--line);
+        background: #f6f7f9;
+      }
+      section > header h2 {
+        font-size: 15px;
+        margin: 0;
+      }
+      section > header .why {
+        color: var(--muted);
+        font-size: 13px;
+      }
+      .field {
+        display: grid;
+        grid-template-columns: 190px 120px 60px 1fr 90px;
+        gap: 4px 14px;
+        align-items: baseline;
+        padding: 9px 16px;
+        border-bottom: 1px solid var(--line);
+        border-left: 4px solid var(--s);
+      }
+      .field:last-child {
+        border-bottom: 0;
+      }
+      .name {
+        font-family: var(--mono);
+        font-weight: 600;
+      }
+      .name s {
+        color: var(--muted);
+        font-weight: 400;
+        font-size: 12px;
+      }
+      .type {
+        font-family: var(--mono);
+        font-size: 12px;
+        color: #7c3aed;
+      }
+      .src {
+        font-family: var(--mono);
+        font-size: 11px;
+        text-align: center;
+        border-radius: 4px;
+        padding: 0 4px;
+      }
+      .src.list {
+        background: #dbeafe;
+      }
+      .src.review {
+        background: #fce7f3;
+      }
+      .src.book {
+        background: #ede9fe;
+      }
+      .src.none {
+        background: #f3f4f6;
+        color: var(--muted);
+      }
+      .ex {
+        font-family: var(--mono);
+        font-size: 12px;
+        color: #374151;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      .field > .pill {
+        justify-self: end;
+      }
+      .note {
+        grid-column: 1 / -1;
+        font-size: 13px;
+        color: #374151;
+      }
+      .note b {
+        color: var(--open);
+        font-weight: 600;
+      }
+      .dropped {
+        color: var(--muted);
+        font-size: 13px;
+        padding: 12px 16px;
+      }
+      .dropped code {
+        font-family: var(--mono);
+        text-decoration: line-through;
+      }
+      .top {
+        font-family: var(--mono);
+        font-size: 13px;
+        background: #111827;
+        color: #e5e7eb;
+        border-radius: 10px;
+        padding: 12px 16px;
+        margin-bottom: 18px;
+      }
+      .top .c {
+        color: #9ca3af;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1><code>goodreads.json</code>: the schema, annotated</h1>
+      <p class="sub">
+        Working view for #61. Examples are <i>The Diamond Age</i> (book 827,
+        read 3 times) from <code>goodreads.json</code> at fe3f2682c; values
+        marked "would be" don't exist yet.
+      </p>
+
+      <div class="legend">
+        <span
+          ><span class="pill locked">locked</span> in the file, settled</span
+        >
+        <span
+          ><span class="pill decided">decided</span> settled, not built
+          yet</span
+        >
+        <span
+          ><span class="pill proposed">proposed</span> name or idea, not
+          settled</span
+        >
+        <span><span class="pill open">open</span> a question to answer</span>
+        <span
+          ><span class="src list">list</span>
+          <span class="src review">review</span>
+          <span class="src book">book</span> page it comes from</span
+        >
+      </div>
+
+      <div class="top">
+        [ { …one object per book on your shelves… }, … ]
+        <span class="c">&nbsp;&nbsp;// a plain array, keyed by id</span>
+      </div>
+
+      <section>
+        <header>
+          <h2>1 · Identity</h2>
+          <span class="why">the key, and the links it carries</span>
+        </header>
+        <div class="field decided">
+          <span class="name">id <s>reviewId</s></span
+          ><span class="type">digits</span><span class="src list">list</span
+          ><span class="ex">"426793453"</span
+          ><span class="pill decided">decided</span>
+          <div class="note">
+            The primary key; the RSS name. Published as <code>id</code>; parsing
+            may keep <code>reviewId</code> (the URLs use it).
+          </div>
+        </div>
+        <div class="field locked">
+          <span class="name">bookId</span><span class="type">digits</span
+          ><span class="src list">list</span><span class="ex">"827"</span
+          ><span class="pill locked">locked</span>
+          <div class="note">The edition on the shelf.</div>
+        </div>
+        <div class="field decided">
+          <span class="name">workId</span><span class="type">digits</span
+          ><span class="src list">list</span
+          ><span class="ex">would be the work's id</span
+          ><span class="pill decided">decided</span>
+          <div class="note">
+            All editions of the book; from the row's
+            <code>/work/editions/&lt;workId&gt;</code> link. 28 works have two
+            entries (56): kept as two books; with workId, fixed case by case on
+            Goodreads where acceptable.
+          </div>
+        </div>
+        <div class="field locked">
+          <span class="name">bookURL</span><span class="type">https URL</span
+          ><span class="src list">list</span
+          ><span class="ex"
+            >"https://www.goodreads.com/book/show/827.The_Diamond_Age"</span
+          ><span class="pill locked">locked</span>
+          <div class="note">Can't be built from bookId.</div>
+        </div>
+      </section>
+
+      <section>
+        <header>
+          <h2>2 · The book</h2>
+          <span class="why">what Goodreads says about it</span>
+        </header>
+        <div class="field locked">
+          <span class="name">title</span><span class="type">string</span
+          ><span class="src list">list</span
+          ><span class="ex"
+            >"The Diamond Age: Or, a Young Lady's Illustrated Primer"</span
+          ><span class="pill locked">locked</span>
+        </div>
+        <div class="field locked">
+          <span class="name">authorName</span><span class="type">string</span
+          ><span class="src book">book</span
+          ><span class="ex">"Neal Stephenson"</span
+          ><span class="pill locked">locked</span>
+        </div>
+        <div class="field locked">
+          <span class="name">bookImageURL</span
+          ><span class="type">https URL</span><span class="src list">list</span
+          ><span class="ex">"…/books/1388180931l/827._SY75_.jpg"</span
+          ><span class="pill locked">locked</span>
+          <div class="note">Can't be built from bookId.</div>
+        </div>
+        <div class="field locked">
+          <span class="name">isbn</span><span class="type">string | ""</span
+          ><span class="src list">list</span><span class="ex">"0553380966"</span
+          ><span class="pill locked">locked</span>
+        </div>
+        <div class="field locked">
+          <span class="name">numPages</span><span class="type">digits</span
+          ><span class="src list">list</span><span class="ex">"499"</span
+          ><span class="pill locked">locked</span>
+        </div>
+        <div class="field locked">
+          <span class="name">averageRating</span><span class="type">"d.d"</span
+          ><span class="src list">list</span><span class="ex">"4.2"</span
+          ><span class="pill locked">locked</span>
+          <div class="note">All editions' average, one decimal.</div>
+        </div>
+        <div class="field locked">
+          <span class="name">bookDescription</span><span class="type">HTML</span
+          ><span class="src book">book</span
+          ><span class="ex"
+            >"&lt;i&gt;The Diamond Age: Or, a Young Lady's…"</span
+          ><span class="pill locked">locked</span>
+        </div>
+        <div class="field open">
+          <span class="name">bookPublished</span><span class="type">string</span
+          ><span class="src list">list</span><span class="ex">"Feb 1995"</span
+          ><span class="pill open">open</span>
+          <div class="note">
+            <b>Open:</b> keep as shown, or normalize when it parses
+            unambiguously. Goes with the dates.
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <header>
+          <h2>3 · Your shelving</h2>
+          <span class="why">shelves, rating, review</span>
+        </header>
+        <div class="field locked">
+          <span class="name">userExclusiveShelf</span
+          ><span class="type">string</span><span class="src list">list</span
+          ><span class="ex">"read"</span><span class="pill locked">locked</span>
+          <div class="note">The one exclusive shelf.</div>
+        </div>
+        <div class="field decided">
+          <span class="name">userShelves</span><span class="type">string[]</span
+          ><span class="src list">list</span
+          ><span class="ex">would be ["read"]</span
+          ><span class="pill decided">decided</span>
+          <div class="note">
+            Every shelf, exclusive and not: e.g. ["currently-reading",
+            "long-term"]. <b>Open:</b> the exclusive list from the sidebar
+            (above the divider), not hard-coded? Ship the code before adding
+            books to non-exclusive shelves.
+          </div>
+        </div>
+        <div class="field locked">
+          <span class="name">userRating</span
+          ><span class="type">number 0–5</span><span class="src list">list</span
+          ><span class="ex">5</span><span class="pill locked">locked</span>
+          <div class="note">Fractional allowed (4.25, 4.5); 0 is unrated.</div>
+        </div>
+        <div class="field locked">
+          <span class="name">userReview</span><span class="type">HTML</span
+          ><span class="src review">review</span><span class="ex">""</span
+          ><span class="pill locked">locked</span>
+        </div>
+      </section>
+
+      <section>
+        <header>
+          <h2>4 · Your dates</h2>
+          <span class="why"
+            >names locked; all ISO UTC, but precision differs: a Pacific day
+            (read dates sometimes a month or a year, padded to the 1st),
+            userUpdatedAt milliseconds or a day on fallback</span
+          >
+        </header>
+        <div class="field locked">
+          <span class="name">userAddedAt</span><span class="type">ISO UTC</span
+          ><span class="src list">list</span
+          ><span class="ex">"2012-10-03T07:00:00.000Z"</span
+          ><span class="pill locked">locked</span>
+          <div class="note">
+            Date added, a Pacific day, stored as its start in UTC. Check: the
+            timeline's one "Shelved" row has the same day (1458/1458).
+          </div>
+        </div>
+        <div class="field decided">
+          <span class="name">userUpdatedAt <s>reviewUpdatedAt</s></span
+          ><span class="type">ISO UTC</span><span class="src book">book</span
+          ><span class="ex">"2025-06-28T04:41:42.475Z"</span
+          ><span class="pill decided">decided</span>
+          <div class="note">
+            The crux: last updated, tied to the list's sort key. The book page's
+            <code>updatedAt</code> when present (770/1447), definitive.
+            <b>Open:</b> the fallback, the review page date or the latest dated
+            timeline row; analysed in implementation.
+          </div>
+        </div>
+        <div class="field decided">
+          <span class="name">userReadCount</span><span class="type">number</span
+          ><span class="src review">review</span
+          ><span class="ex">would be 3</span
+          ><span class="pill decided">decided</span>
+          <div class="note">
+            One group with first and last read, per entry: the plain "Finished
+            Reading" rows (rows ending "(… Edition)" are another entry's).
+            <b>Open:</b> invariants (unmatched, undated, missing
+            Started/Finished pairs), analysed in implementation.
+          </div>
+        </div>
+        <div class="field decided">
+          <span class="name">userFirstReadAt</span
+          ><span class="type">ISO UTC</span
+          ><span class="src review">review</span
+          ><span class="ex">would be 2012-11-23</span
+          ><span class="pill decided">decided</span>
+        </div>
+        <div class="field decided">
+          <span class="name">userLastReadAt</span
+          ><span class="type">ISO UTC</span
+          ><span class="src review">review</span
+          ><span class="ex">would be 2025-06-27</span
+          ><span class="pill decided">decided</span>
+          <div class="note">
+            The RSS's <code>userReadAt</code>. Some read books have no read date
+            (61 today).
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <header>
+          <h2>5 · Timeline</h2>
+          <span class="why">the raw reading history behind the dates</span>
+        </header>
+        <div class="field locked">
+          <span class="name">timeline</span
+          ><span class="type">{dateText, event}[]</span
+          ><span class="src review">review</span
+          ><span class="ex">13 rows: "June 27, 2025 – Finished Reading", …</span
+          ><span class="pill locked">locked</span>
+          <div class="note">
+            Kept as shown. <b>Open:</b> its semantics, and how it gives the
+            dates and the read count.
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="dropped">
+          Dropped from the RSS: <code>link</code> (= id),
+          <code>userName</code> (always "Daniel"), <code>description</code>
+          (built from the other fields).
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
