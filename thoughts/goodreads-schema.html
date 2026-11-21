@@ -196,17 +196,12 @@
 
       <div class="legend">
         <span
-          ><span class="pill locked">locked</span> in the file, settled</span
+          ><span class="pill locked">implemented</span> already in today's
+          file</span
         >
         <span
-          ><span class="pill decided">decided</span> settled, not built
-          yet</span
+          ><span class="pill decided">to build</span> decided, needs code</span
         >
-        <span
-          ><span class="pill proposed">proposed</span> name or idea, not
-          settled</span
-        >
-        <span><span class="pill open">open</span> a question to answer</span>
         <span
           ><span class="src list">list</span>
           <span class="src review">review</span>
@@ -228,7 +223,7 @@
           <span class="name">id <s>reviewId</s></span
           ><span class="type">digits</span><span class="src list">list</span
           ><span class="ex">"426793453"</span
-          ><span class="pill decided">decided</span>
+          ><span class="pill decided">to build</span>
           <div class="note">
             The primary key; the RSS name. Published as <code>id</code>; parsing
             may keep <code>reviewId</code> (the URLs use it).
@@ -237,14 +232,14 @@
         <div class="field locked">
           <span class="name">bookId</span><span class="type">digits</span
           ><span class="src list">list</span><span class="ex">"827"</span
-          ><span class="pill locked">locked</span>
+          ><span class="pill locked">implemented</span>
           <div class="note">The edition on the shelf.</div>
         </div>
         <div class="field decided">
           <span class="name">workId</span><span class="type">digits</span
           ><span class="src list">list</span
           ><span class="ex">would be the work's id</span
-          ><span class="pill decided">decided</span>
+          ><span class="pill decided">to build</span>
           <div class="note">
             All editions of the book; from the row's
             <code>/work/editions/&lt;workId&gt;</code> link. 28 works have two
@@ -257,7 +252,7 @@
           ><span class="src list">list</span
           ><span class="ex"
             >"https://www.goodreads.com/book/show/827.The_Diamond_Age"</span
-          ><span class="pill locked">locked</span>
+          ><span class="pill locked">implemented</span>
           <div class="note">Can't be built from bookId.</div>
         </div>
       </section>
@@ -272,35 +267,35 @@
           ><span class="src list">list</span
           ><span class="ex"
             >"The Diamond Age: Or, a Young Lady's Illustrated Primer"</span
-          ><span class="pill locked">locked</span>
+          ><span class="pill locked">implemented</span>
         </div>
         <div class="field locked">
           <span class="name">authorName</span><span class="type">string</span
           ><span class="src book">book</span
           ><span class="ex">"Neal Stephenson"</span
-          ><span class="pill locked">locked</span>
+          ><span class="pill locked">implemented</span>
         </div>
         <div class="field locked">
           <span class="name">bookImageURL</span
           ><span class="type">https URL</span><span class="src list">list</span
           ><span class="ex">"…/books/1388180931l/827._SY75_.jpg"</span
-          ><span class="pill locked">locked</span>
+          ><span class="pill locked">implemented</span>
           <div class="note">Can't be built from bookId.</div>
         </div>
         <div class="field locked">
           <span class="name">isbn</span><span class="type">string | ""</span
           ><span class="src list">list</span><span class="ex">"0553380966"</span
-          ><span class="pill locked">locked</span>
+          ><span class="pill locked">implemented</span>
         </div>
         <div class="field locked">
           <span class="name">numPages</span><span class="type">digits</span
           ><span class="src list">list</span><span class="ex">"499"</span
-          ><span class="pill locked">locked</span>
+          ><span class="pill locked">implemented</span>
         </div>
         <div class="field locked">
           <span class="name">averageRating</span><span class="type">"d.d"</span
           ><span class="src list">list</span><span class="ex">"4.2"</span
-          ><span class="pill locked">locked</span>
+          ><span class="pill locked">implemented</span>
           <div class="note">All editions' average, one decimal.</div>
         </div>
         <div class="field locked">
@@ -308,15 +303,16 @@
           ><span class="src book">book</span
           ><span class="ex"
             >"&lt;i&gt;The Diamond Age: Or, a Young Lady's…"</span
-          ><span class="pill locked">locked</span>
+          ><span class="pill locked">implemented</span>
         </div>
-        <div class="field open">
+        <div class="field decided">
           <span class="name">bookPublished</span><span class="type">string</span
-          ><span class="src list">list</span><span class="ex">"Feb 1995"</span
-          ><span class="pill open">open</span>
+          ><span class="src list">list</span
+          ><span class="ex">"1995-02" (shown "Feb 1995")</span
+          ><span class="pill decided">to build</span>
           <div class="note">
-            <b>Open:</b> keep as shown, or normalize when it parses
-            unambiguously. Goes with the dates.
+            Normalized to ISO 8601 at the precision shown, when it parses
+            reliably: "2023-11-05", "2027-01", "1995", "-0750".
           </div>
         </div>
       </section>
@@ -329,14 +325,15 @@
         <div class="field locked">
           <span class="name">userExclusiveShelf</span
           ><span class="type">string</span><span class="src list">list</span
-          ><span class="ex">"read"</span><span class="pill locked">locked</span>
+          ><span class="ex">"read"</span
+          ><span class="pill locked">implemented</span>
           <div class="note">The one exclusive shelf.</div>
         </div>
         <div class="field decided">
           <span class="name">userShelves</span><span class="type">string[]</span
           ><span class="src list">list</span
           ><span class="ex">would be ["read"]</span
-          ><span class="pill decided">decided</span>
+          ><span class="pill decided">to build</span>
           <div class="note">
             Every shelf, exclusive and not: e.g. ["currently-reading",
             "long-term"]. <b>Open:</b> the exclusive list from the sidebar
@@ -347,13 +344,13 @@
         <div class="field locked">
           <span class="name">userRating</span
           ><span class="type">number 0–5</span><span class="src list">list</span
-          ><span class="ex">5</span><span class="pill locked">locked</span>
+          ><span class="ex">5</span><span class="pill locked">implemented</span>
           <div class="note">Fractional allowed (4.25, 4.5); 0 is unrated.</div>
         </div>
         <div class="field locked">
           <span class="name">userReview</span><span class="type">HTML</span
           ><span class="src review">review</span><span class="ex">""</span
-          ><span class="pill locked">locked</span>
+          ><span class="pill locked">implemented</span>
         </div>
       </section>
 
@@ -370,7 +367,7 @@
           <span class="name">userAddedAt</span><span class="type">ISO UTC</span
           ><span class="src list">list</span
           ><span class="ex">"2012-10-03T07:00:00.000Z"</span
-          ><span class="pill locked">locked</span>
+          ><span class="pill locked">implemented</span>
           <div class="note">
             Date added, a Pacific day, stored as its start in UTC. Check: the
             timeline's one "Shelved" row has the same day (1458/1458).
@@ -380,7 +377,7 @@
           <span class="name">userUpdatedAt <s>reviewUpdatedAt</s></span
           ><span class="type">ISO UTC</span><span class="src book">book</span
           ><span class="ex">"2025-06-28T04:41:42.475Z"</span
-          ><span class="pill decided">decided</span>
+          ><span class="pill decided">to build</span>
           <div class="note">
             The crux: last updated, tied to the list's sort key. The book page's
             <code>updatedAt</code> when present (770/1447), definitive.
@@ -392,7 +389,7 @@
           <span class="name">userReadCount</span><span class="type">number</span
           ><span class="src review">review</span
           ><span class="ex">would be 3</span
-          ><span class="pill decided">decided</span>
+          ><span class="pill decided">to build</span>
           <div class="note">
             One group with first and last read, per entry: the plain "Finished
             Reading" rows (rows ending "(… Edition)" are another entry's).
@@ -405,14 +402,14 @@
           ><span class="type">ISO UTC</span
           ><span class="src review">review</span
           ><span class="ex">would be 2012-11-23</span
-          ><span class="pill decided">decided</span>
+          ><span class="pill decided">to build</span>
         </div>
         <div class="field decided">
           <span class="name">userLastReadAt</span
           ><span class="type">ISO UTC</span
           ><span class="src review">review</span
           ><span class="ex">would be 2025-06-27</span
-          ><span class="pill decided">decided</span>
+          ><span class="pill decided">to build</span>
           <div class="note">
             The RSS's <code>userReadAt</code>. Some read books have no read date
             (61 today).
@@ -430,7 +427,7 @@
           ><span class="type">{dateText, event}[]</span
           ><span class="src review">review</span
           ><span class="ex">13 rows: "June 27, 2025 – Finished Reading", …</span
-          ><span class="pill locked">locked</span>
+          ><span class="pill locked">implemented</span>
           <div class="note">
             Kept as shown. <b>Open:</b> its semantics, and how it gives the
             dates and the read count.

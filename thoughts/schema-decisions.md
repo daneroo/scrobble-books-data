@@ -7,7 +7,7 @@
   - id: keep the RSS name, not reviewId.
   - userExclusiveShelf: settled.
   - userShelves: all shelves, an array; later. Open: fixed or dynamic list.
-  - bookPublished: a string. Open: keep as shown, or normalize.
+  - bookPublished: a string, normalized to ISO 8601 at the precision shown.
   - userRating: settled. A number, fractional (4.25, 4.5).
 - Section 3: settled.
 - Section 4: settled; dates decided below.
@@ -18,14 +18,15 @@
   - timeline: kept as is. Later: structure, invariants.
 
 - Naming: keep the RSS names (no book*/user* prefix on every field).
+- workId: add it; 28 works have two entries, kept as two books.
 
 ## User dates (names locked; values in implementation)
 
 - userAddedAt
-- userReadCount, userFirstReadAt, userLastReadAt: from the timeline, with the
-  list's read_count and date_read as inputs.
-- userUpdatedAt (was userDateAdded): the crux; tied to the sort key; no good
-  source; study it over time.
+- userReadCount, userFirstReadAt, userLastReadAt: per entry, from the plain
+  "Finished Reading" rows (the list's read_count also counts other editions).
+- userUpdatedAt (was userDateAdded): the crux; tied to the sort key; the book
+  page's updatedAt when present, fallback analysed in implementation.
 
 Read cases:
 

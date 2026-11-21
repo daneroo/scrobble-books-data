@@ -8,8 +8,9 @@
    - names locked: userAddedAt, userUpdatedAt, userReadCount/First/Last;
      precision differs (day, month or year; ms), stated per field
    - timeline: semantics, and the invariants to verify
-   - bookPublished: related, independent: keep as shown, or normalize
-4. shelves: userShelves, every shelf, an array; fixed or dynamic list.
+4. bookPublished: a book field, normalized; see bookPublished. May share the
+   dates ticket.
+5. shelves: userShelves, every shelf, an array; fixed or dynamic list.
 
 ## Multiple editions
 
@@ -37,6 +38,13 @@
   definitive analysis is done in implementation.
   - entry point: Finished Reading
   - unmatched / undated / missing Started Reading / Finished Reading pairs
+
+## bookPublished
+
+- A string, normalized to ISO 8601 at the precision shown when it parses
+  reliably; examine every case, make it robust. Seen today: "Nov 05, 2023" →
+  "2023-11-05" (865), "Jan 2027" → "2027-01" (151), "1995" (306), "-750" →
+  "-0750" (11), "100" → "0100" (2), "unknown" (123).
 
 ## Shelves
 
