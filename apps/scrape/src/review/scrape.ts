@@ -5,8 +5,8 @@ import type { PageSource } from "../pages/source.ts";
 import { parseReviewPage, type ReviewPage } from "./parse.ts";
 
 /** A book's review page. */
-export function reviewPageUrl(reviewId: string): string {
-  return `https://www.goodreads.com/review/show/${reviewId}`;
+export function reviewPageUrl(id: string): string {
+  return `https://www.goodreads.com/review/show/${id}`;
 }
 
 export interface FetchReviewPagesOptions {
@@ -24,14 +24,14 @@ export async function fetchReviewPages({
   source,
   flow,
 }: FetchReviewPagesOptions): Promise<ReviewPage[]> {
-  const task = ({ reviewId }: ListItem): Task<ReviewPage> => {
-    const url = reviewPageUrl(reviewId);
+  const task = ({ id }: ListItem): Task<ReviewPage> => {
+    const url = reviewPageUrl(id);
     return {
-      label: `review page ${reviewId}`,
+      label: `review page ${id}`,
       cached: async () => (await source.has?.(url)) ?? false,
       async run(signal) {
         const { body } = await source.get(url, signal);
-        return parseReviewPage(body, reviewId, url);
+        return parseReviewPage(body, id, url);
       },
     };
   };
@@ -52,7 +52,7 @@ export function withProgress(
     return review.exclusiveShelf === item.userExclusiveShelf
       ? []
       : [
-          `book ${item.bookId} (review ${item.reviewId}) is ${item.userExclusiveShelf} on the list page, ${review.exclusiveShelf} on its review page`,
+          `book ${item.bookId} (review ${item.id}) is ${item.userExclusiveShelf} on the list page, ${review.exclusiveShelf} on its review page`,
         ];
   });
   if (mismatches.length > 0) {

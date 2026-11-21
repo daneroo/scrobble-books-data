@@ -160,7 +160,7 @@ function rawItem(
   const pages = text("num_pages");
 
   return {
-    reviewId: row.attr("id")?.replace(/^review_/, ""),
+    id: row.attr("id")?.replace(/^review_/, ""),
     title: title.attr("title"),
     bookId: cover.find("[data-resource-id]").first().attr("data-resource-id"),
     bookURL: absolute(title.attr("href")),

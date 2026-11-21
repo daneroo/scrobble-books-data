@@ -22,7 +22,7 @@ export interface ReviewPage {
 const Shelf = z.enum(EXCLUSIVE_SHELVES);
 
 /**
- * Parses a signed-in review page (`review/show/<reviewId>`): the exclusive
+ * Parses a signed-in review page (`review/show/<id>`): the exclusive
  * shelf from the heading, and the reading timeline, raw. Each value is
  * validated with zod as it is parsed (S1).
  *
@@ -36,12 +36,12 @@ const Shelf = z.enum(EXCLUSIVE_SHELVES);
  */
 export function parseReviewPage(
   html: string,
-  reviewId: string,
+  id: string,
   url: string,
 ): ReviewPage {
   // source locations: the review is cut from the page source as it is
   const $ = cheerio.load(html, { sourceCodeLocationInfo: true });
-  const where = `review page ${reviewId}`;
+  const where = `review page ${id}`;
   const fail = (mode: "layout-change" | "parse-failure", detail: string) =>
     new ScrapeFailure({
       step: "review-pages",

@@ -1,6 +1,6 @@
 [
   {
-    "reviewId": "9069353168",
+    "id": "9069353168",
     "title": "A Drop of Corruption (Ana and Din Mysteries, #2)",
     "bookId": "213618143",
     "bookURL": "https://www.goodreads.com/book/show/213618143-a-drop-of-corruption",
@@ -35,7 +35,7 @@
     ]
   },
   {
-    "reviewId": "9043895547",
+    "id": "9043895547",
     "title": "Debt: The First 5,000 Years",
     "bookId": "6617037",
     "bookURL": "https://www.goodreads.com/book/show/6617037-debt",
@@ -95,7 +95,7 @@
     ]
   },
   {
-    "reviewId": "8977513831",
+    "id": "8977513831",
     "title": "Black Ops (Expeditionary Force, #4)",
     "bookId": "35224512",
     "bookURL": "https://www.goodreads.com/book/show/35224512-black-ops",
@@ -151,7 +151,7 @@
     ]
   },
   {
-    "reviewId": "8933967943",
+    "id": "8933967943",
     "title": "Winterfair Gifts (Vorkosigan Saga, #13.1)",
     "bookId": "3746202",
     "bookURL": "https://www.goodreads.com/book/show/3746202-winterfair-gifts",
@@ -191,7 +191,7 @@
     ]
   },
   {
-    "reviewId": "8557895838",
+    "id": "8557895838",
     "title": "Saving Byzantium: The Struggle to Salvage an Empire",
     "bookId": "229141546",
     "bookURL": "https://www.goodreads.com/book/show/229141546-saving-byzantium",

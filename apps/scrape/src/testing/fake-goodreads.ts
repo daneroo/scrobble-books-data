@@ -74,7 +74,7 @@ const slimReviewPage = (() => {
  * page with the heading's shelf set to the book's shelf.
  */
 export function reviewPage(row: Row): string {
-  const saved = reviewFixtures.get(row.reviewId);
+  const saved = reviewFixtures.get(row.id);
   if (saved !== undefined) return saved;
   return slimReviewPage.replace(
     /(<h1><a href="[^"]*\?shelf=)read"/,
@@ -121,7 +121,7 @@ export const REAL_COUNTS: Readonly<Record<ExclusiveShelf, number>> = {
 
 /** One list row: its markup and what it stands for. */
 export interface Row {
-  reviewId: string;
+  id: string;
   bookId: string;
   shelf: ExclusiveShelf;
   html: string;
@@ -159,7 +159,7 @@ export const savedRows: readonly Row[] = [
   const shelf = /<a class="shelfLink"[^>]*>([^<]*)<\/a>/.exec(html)?.[1];
   if (bookId === undefined || shelf === undefined)
     throw new Error(`fixture row ${match[1]}: no book id or shelf`);
-  return { reviewId: match[1]!, bookId, shelf: shelf as ExclusiveShelf, html };
+  return { id: match[1]!, bookId, shelf: shelf as ExclusiveShelf, html };
 });
 
 /** Replaces a whole number (not part of a longer one) everywhere. */
@@ -170,10 +170,10 @@ function replaceId(html: string, from: string, to: string): string {
 /** A row like `row`, under new ids and on `shelf`. */
 export function rowLike(
   row: Row,
-  ids: { reviewId: string; bookId: string },
+  ids: { id: string; bookId: string },
   shelf: ExclusiveShelf = row.shelf,
 ): Row {
-  let html = replaceId(row.html, row.reviewId, ids.reviewId);
+  let html = replaceId(row.html, row.id, ids.id);
   html = replaceId(html, row.bookId, ids.bookId);
   html = html.replace(
     /(<a class="shelfLink"[^>]*href="[^"]*shelf=)[^"]*("[^>]*>)[^<]*(<\/a>)/,
@@ -183,9 +183,9 @@ export function rowLike(
 }
 
 /** The ids of the `n`th made-up row; they never collide with saved ones. */
-export function madeUpIds(n: number): { reviewId: string; bookId: string } {
+export function madeUpIds(n: number): { id: string; bookId: string } {
   return {
-    reviewId: String(7_000_000_000 + n),
+    id: String(7_000_000_000 + n),
     bookId: String(900_000_000 + n),
   };
 }
@@ -302,10 +302,10 @@ export function fakeGoodreads(
         );
         return answer ?? html(bookPage(row));
       }
-      const reviewId = /^\/review\/show\/(\d+)$/.exec(pathname)?.[1];
-      if (reviewId !== undefined) {
-        fake.reviewRequests.push(reviewId);
-        const row = list.find((r) => r.reviewId === reviewId);
+      const id = /^\/review\/show\/(\d+)$/.exec(pathname)?.[1];
+      if (id !== undefined) {
+        fake.reviewRequests.push(id);
+        const row = list.find((r) => r.id === id);
         if (row === undefined)
           return new Response("not found", { status: 404 });
         const answer = await options.review?.(

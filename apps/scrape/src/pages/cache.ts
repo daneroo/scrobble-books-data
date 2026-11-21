@@ -9,7 +9,7 @@ import { acceptPage, type PageSource } from "./source.ts";
 
 /**
  * The file a page is saved under: `list-p01.html` (by its `page`
- * parameter), `review-<reviewId>.html`, `book-<bookId>.html`.
+ * parameter), `review-<id>.html`, `book-<bookId>.html`.
  */
 export function pageFileName(url: string): string {
   const { pathname, searchParams } = new URL(url);

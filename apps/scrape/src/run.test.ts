@@ -148,9 +148,9 @@ describe("a full run", () => {
 
   test("the saved page's rows are stored as Goodreads shows them", async () => {
     const { published } = await run(fakeGoodreads(realList()));
-    const byReview = new Map(published?.map((item) => [item.reviewId, item]));
+    const byId = new Map(published?.map((item) => [item.id, item]));
 
-    // a plain array, one flat object per book
+    // a plain array, one flat object per entry
     expect(published).toBeArray();
     // the first row: currently reading, unrated, no read date (its review
     // page isn't saved, so its timeline is made up: left out here)
@@ -164,7 +164,7 @@ describe("a full run", () => {
     expect(timeline).toBeArray();
     expect(userReview).toBe("");
     expect(first).toEqual({
-      reviewId: "9069353168",
+      id: "9069353168",
       title: "A Drop of Corruption (Ana and Din Mysteries, #2)",
       bookId: "213618143",
       bookURL:
@@ -182,7 +182,7 @@ describe("a full run", () => {
       numPages: "461",
     });
     // a fractional rating
-    expect(byReview.get("9043895547")).toMatchObject({
+    expect(byId.get("9043895547")).toMatchObject({
       title: "Debt: The First 5,000 Years",
       userRating: 4.25,
       userAddedAt: "2026-10-21T07:00:00.000Z",
@@ -190,13 +190,13 @@ describe("a full run", () => {
       numPages: "534",
     });
     // unknown page count
-    expect(byReview.get("8933967943")).toMatchObject({
+    expect(byId.get("8933967943")).toMatchObject({
       title: "Winterfair Gifts (Vorkosigan Saga, #13.1)",
       numPages: "0",
       bookPublished: "Jan 01, 2002",
     });
     // no cover, an ISBN ending in X
-    expect(byReview.get("8557895838")).toMatchObject({
+    expect(byId.get("8557895838")).toMatchObject({
       bookImageURL:
         "https://s.gr-assets.com/assets/nophoto/book/50x75-1b903c9eac1b2ba789662c08a0ae41e6.png",
       isbn: "139812219X",
@@ -204,9 +204,20 @@ describe("a full run", () => {
       averageRating: "5.0",
     });
     // no ISBN
-    expect(byReview.get("8977513831")).toMatchObject({
+    expect(byId.get("8977513831")).toMatchObject({
       isbn: "",
     });
+  });
+
+  test("every entry is keyed by id, its review id: /review/show/<id> is its review page", async () => {
+    const fake = fakeGoodreads(realList());
+    const { published } = await run(fake);
+    const ids = published!.map((item) => item.id);
+    expect(published!.filter((item) => "reviewId" in item)).toEqual([]);
+    expect(ids.every((id) => /^\d+$/.test(id))).toBe(true);
+    expect(new Set(ids).size).toBe(1450);
+    // the review pages fetched are exactly the entries' ids
+    expect(new Set(fake.reviewRequests)).toEqual(new Set(ids));
   });
 
   test("fetches every book's review page and stores its timeline as shown", async () => {
@@ -227,16 +238,14 @@ describe("a full run", () => {
       { dateText: "October 31, 2026", event: "99.0%" },
       { dateText: "October 31, 2026", event: "Finished Reading" },
     ];
-    const item = published?.find(
-      (i) => i.reviewId === SAVED_REVIEWS.taintedCup,
-    );
+    const item = published?.find((i) => i.id === SAVED_REVIEWS.taintedCup);
     expect(item?.userExclusiveShelf).toBe("read");
     expect(item?.timeline).toEqual(taintedCup);
   });
 
   test("an undated timeline row has dateText '', without the 'Add a date' link (Debt)", async () => {
     const { published } = await run(fakeGoodreads(realList()));
-    const debt = published?.find((i) => i.reviewId === SAVED_REVIEWS.debt);
+    const debt = published?.find((i) => i.id === SAVED_REVIEWS.debt);
     expect(debt?.userRating).toBe(4.25);
     expect(debt?.timeline).toEqual([
       { dateText: "October 21, 2026", event: "Started Reading" },
@@ -255,7 +264,7 @@ describe("a full run", () => {
   test("a re-read of another edition keeps the edition in the event (Essentialism)", async () => {
     const { published } = await run(fakeGoodreads(realList()));
     const essentialism = published?.find(
-      (i) => i.reviewId === SAVED_REVIEWS.essentialism,
+      (i) => i.id === SAVED_REVIEWS.essentialism,
     );
     expect(essentialism?.userExclusiveShelf).toBe("currently-reading");
     // whitespace as a browser shows it: "September  6" in the page
@@ -278,7 +287,7 @@ describe("a full run", () => {
 
   test("the review update comes from the book page, absent with no rating or review", async () => {
     const { published } = await run(fakeGoodreads(realList()));
-    const debt = published?.find((i) => i.reviewId === SAVED_REVIEWS.debt);
+    const debt = published?.find((i) => i.id === SAVED_REVIEWS.debt);
     // updatedAt 1793334364552 ms
     expect(debt?.reviewUpdatedAt).toBe("2026-10-30T04:26:04.552Z");
     // the other books' pages have no review in the viewer's shelving
@@ -292,7 +301,7 @@ describe("a full run", () => {
       "This thoughtful retelling of the West&#39;s heritage &amp; more.<br />Well worth the read.";
     const fake = fakeGoodreads(realList(), {
       review: (row) =>
-        row.reviewId === SAVED_REVIEWS.debt
+        row.id === SAVED_REVIEWS.debt
           ? new Response(
               reviewPage(row).replace(
                 "</h1>",
@@ -303,9 +312,9 @@ describe("a full run", () => {
     });
     const { published } = await run(fake);
     const items = published ?? [];
-    expect(
-      items.find((i) => i.reviewId === SAVED_REVIEWS.debt)?.userReview,
-    ).toBe(review);
+    expect(items.find((i) => i.id === SAVED_REVIEWS.debt)?.userReview).toBe(
+      review,
+    );
     expect(items.filter((i) => i.userReview !== "")).toHaveLength(1);
   });
 
@@ -325,15 +334,15 @@ describe("a full run", () => {
     const { published } = await run(fake);
     expect(fake.bookRequests).toHaveLength(1450);
     expect(new Set(fake.bookRequests).size).toBe(1450);
-    const debt = published?.find((i) => i.reviewId === SAVED_REVIEWS.debt);
+    const debt = published?.find((i) => i.id === SAVED_REVIEWS.debt);
     expect(debt?.authorName).toBe("David Graeber");
     expect(debt?.bookDescription).toStartWith(
       "The classic work on debt, now is a special tenth anniversary edition",
     );
     expect(debt?.bookDescription).toContain("<br /><br />");
-    // the schema's order: the 17 fields of the Output resolution (#44)
+    // the schema's order: id first, every field in place
     expect(Object.keys(debt!)).toEqual([
-      "reviewId",
+      "id",
       "title",
       "bookId",
       "bookURL",
@@ -356,7 +365,7 @@ describe("a full run", () => {
   test("a description is trimmed, as the reference is (S4)", async () => {
     const fake = fakeGoodreads(realList(), {
       book: (row) =>
-        row.reviewId === SAVED_REVIEWS.debt
+        row.id === SAVED_REVIEWS.debt
           ? new Response(
               bookPage(row).replace(
                 '"description":"The classic work',
@@ -367,15 +376,14 @@ describe("a full run", () => {
     });
     const { published } = await run(fake);
     expect(
-      published?.find((i) => i.reviewId === SAVED_REVIEWS.debt)
-        ?.bookDescription,
+      published?.find((i) => i.id === SAVED_REVIEWS.debt)?.bookDescription,
     ).toStartWith("The classic work on debt");
   });
 
   test("an author name keeps its spacing as shown (King of Thorns: 'Mark  Lawrence')", async () => {
     const fake = fakeGoodreads(realList(), {
       book: (row) =>
-        row.reviewId === SAVED_REVIEWS.debt
+        row.id === SAVED_REVIEWS.debt
           ? new Response(
               bookPage(row).replace('"David Graeber"', '"Mark  Lawrence"'),
             )
@@ -383,7 +391,7 @@ describe("a full run", () => {
     });
     const { published } = await run(fake);
     expect(
-      published?.find((i) => i.reviewId === SAVED_REVIEWS.debt)?.authorName,
+      published?.find((i) => i.id === SAVED_REVIEWS.debt)?.authorName,
     ).toBe("Mark  Lawrence");
   });
 
@@ -591,7 +599,7 @@ describe("fail-closed, parsing", () => {
       "parse-failure",
     );
     expect(failure.detail).toContain(
-      `list page 2, row 1 (review_${list[100]!.reviewId})`,
+      `list page 2, row 1 (review_${list[100]!.id})`,
     );
     expect(failure.detail).toContain("userRating");
     expect(failure.detail).toContain('"lots"');
@@ -743,27 +751,27 @@ describe("fail-closed, completeness", () => {
 describe("fail-closed, review pages", () => {
   test("a review page shelf that differs from the list page's is shelf-mismatch", async () => {
     const list = realList();
-    const book = list[150]!;
-    const other = book.shelf === "read" ? "to-read" : "read";
+    const entry = list[150]!;
+    const other = entry.shelf === "read" ? "to-read" : "read";
     const fake = fakeGoodreads(list, {
       review: (row) =>
-        row.reviewId === book.reviewId
+        row.id === entry.id
           ? new Response(reviewPage({ ...row, shelf: other }))
           : undefined,
     });
     const { failure } = await expectFailedClosed(fake, "shelf-mismatch");
     expect(failure.step).toBe("checks");
     expect(failure.detail).toBe(
-      `book ${book.bookId} (review ${book.reviewId}) is ${book.shelf} on the list page, ${other} on its review page`,
+      `book ${entry.bookId} (review ${entry.id}) is ${entry.shelf} on the list page, ${other} on its review page`,
     );
   });
 
   test("a review page redirected to sign-in is redirect-to-sign-in; its body is kept", async () => {
     const list = realList();
-    const book = list[700]!;
+    const entry = list[700]!;
     const fake = fakeGoodreads(list, {
       review: (row) =>
-        row.reviewId === book.reviewId
+        row.id === entry.id
           ? new Response("moved", {
               status: 302,
               headers: { location: "https://www.goodreads.com/user/sign_in" },
@@ -772,32 +780,29 @@ describe("fail-closed, review pages", () => {
     });
     const { failure } = await expectFailedClosed(fake, "redirect-to-sign-in");
     expect(failure.step).toBe("review-pages");
-    expect(failure.detail).toContain(`/review/show/${book.reviewId}`);
+    expect(failure.detail).toContain(`/review/show/${entry.id}`);
     const kept = Bun.file(
-      join(dir, "data", "pages", `rejected-review-${book.reviewId}.html`),
+      join(dir, "data", "pages", `rejected-review-${entry.id}.html`),
     );
     expect(await kept.text()).toBe("moved");
   });
 
   test("a review page that never answers times out at 15s, is retried, then timeout", async () => {
-    const book = realList()[3]!;
+    const entry = realList()[3]!;
     const fake = fakeGoodreads(realList(), {
-      review: (row, signal) =>
-        row.reviewId === book.reviewId ? hang(signal) : undefined,
+      review: (row, signal) => (row.id === entry.id ? hang(signal) : undefined),
     });
     const { failure } = await expectFailedClosed(fake, "timeout");
-    expect(failure.detail).toContain(`/review/show/${book.reviewId}`);
+    expect(failure.detail).toContain(`/review/show/${entry.id}`);
     expect(failure.detail).toContain("15s");
-    expect(
-      fake.reviewRequests.filter((id) => id === book.reviewId),
-    ).toHaveLength(6);
+    expect(fake.reviewRequests.filter((id) => id === entry.id)).toHaveLength(6);
   });
 
   test("a review page with no shelf in its heading is layout-change, naming it", async () => {
-    const book = realList()[42]!;
+    const entry = realList()[42]!;
     const fake = fakeGoodreads(realList(), {
       review: (row) =>
-        row.reviewId === book.reviewId
+        row.id === entry.id
           ? new Response(
               reviewPage(row).replace(/\?shelf=[a-z-]+/, "?sort=title"),
             )
@@ -805,15 +810,15 @@ describe("fail-closed, review pages", () => {
     });
     const { failure } = await expectFailedClosed(fake, "layout-change");
     expect(failure.detail).toBe(
-      `review page ${book.reviewId}: no shelf link in the heading`,
+      `review page ${entry.id}: no shelf link in the heading`,
     );
   });
 
   test("a review page with no reading timeline is layout-change", async () => {
-    const book = realList()[42]!;
+    const entry = realList()[42]!;
     const fake = fakeGoodreads(realList(), {
       review: (row) =>
-        row.reviewId === book.reviewId
+        row.id === entry.id
           ? new Response(
               reviewPage(row).replace(
                 'class="readingTimeline"',
@@ -823,18 +828,16 @@ describe("fail-closed, review pages", () => {
           : undefined,
     });
     const { failure } = await expectFailedClosed(fake, "layout-change");
-    expect(failure.detail).toBe(
-      `review page ${book.reviewId}: no reading timeline`,
-    );
+    expect(failure.detail).toBe(`review page ${entry.id}: no reading timeline`);
   });
 
   test("a partial timeline date (a year, or a month and year) is stored as shown", async () => {
     // as on real review pages: "2021 – Finished Reading" (4090256573) and
     // "January, 1997" (3846910217)
-    const book = realList()[42]!;
+    const entry = realList()[42]!;
     const fake = fakeGoodreads(realList(), {
       review: (row) =>
-        row.reviewId === book.reviewId
+        row.id === entry.id
           ? new Response(
               reviewPage(row)
                 .replace("October 26, 2026", "2021")
@@ -843,7 +846,7 @@ describe("fail-closed, review pages", () => {
           : undefined,
     });
     const { published } = await run(fake);
-    const item = published?.find((i) => i.reviewId === book.reviewId);
+    const item = published?.find((i) => i.id === entry.id);
     expect(item?.timeline[4]).toEqual({
       dateText: "2021",
       event: "Started Reading",
@@ -855,10 +858,10 @@ describe("fail-closed, review pages", () => {
   });
 
   test("a timeline date in another format is parse-failure, naming the page and row", async () => {
-    const book = realList()[42]!;
+    const entry = realList()[42]!;
     const fake = fakeGoodreads(realList(), {
       review: (row) =>
-        row.reviewId === book.reviewId
+        row.id === entry.id
           ? new Response(
               reviewPage(row).replace("October 26, 2026", "2026-10-26"),
             )
@@ -866,7 +869,7 @@ describe("fail-closed, review pages", () => {
     });
     const { failure } = await expectFailedClosed(fake, "parse-failure");
     expect(failure.detail).toContain(
-      `review page ${book.reviewId}: timeline row 5: dateText`,
+      `review page ${entry.id}: timeline row 5: dateText`,
     );
     expect(failure.detail).toContain('"2026-10-26"');
   });
@@ -876,7 +879,7 @@ describe("fail-closed, book pages", () => {
   test("a book page without its page data is layout-change, naming it", async () => {
     const fake = fakeGoodreads(realList(), {
       book: (row) =>
-        row.reviewId === SAVED_REVIEWS.debt
+        row.id === SAVED_REVIEWS.debt
           ? new Response(
               bookPage(row).replace(
                 /<script id="__NEXT_DATA__"[\s\S]*?<\/script>/,
@@ -893,7 +896,7 @@ describe("fail-closed, book pages", () => {
   test("a book page of another book is layout-change", async () => {
     const fake = fakeGoodreads(realList(), {
       book: (row) =>
-        row.reviewId === SAVED_REVIEWS.debt
+        row.id === SAVED_REVIEWS.debt
           ? new Response(bookPage({ ...row, bookId: "1" }))
           : undefined,
     });
@@ -904,7 +907,7 @@ describe("fail-closed, book pages", () => {
   test("a book page with no signed-in flag is layout-change", async () => {
     const fake = fakeGoodreads(realList(), {
       book: (row) =>
-        row.reviewId === SAVED_REVIEWS.debt
+        row.id === SAVED_REVIEWS.debt
           ? new Response(
               bookPage(row).replace('"signedIn":true', '"signedIn":false'),
             )
@@ -1032,7 +1035,7 @@ describe("debugging and the deadline", () => {
     let challenge = true;
     const first = fakeGoodreads(realList(), {
       book: (row) =>
-        challenge && row.reviewId === SAVED_REVIEWS.debt
+        challenge && row.id === SAVED_REVIEWS.debt
           ? new Response("", { status: 202 })
           : undefined,
     });
