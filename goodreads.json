@@ -1488,7 +1488,7 @@
     "userRating": 0,
     "userAddedAt": "2026-10-06T07:00:00.000Z",
     "userExclusiveShelf": "to-read",
-    "averageRating": "4.0",
+    "averageRating": "4.1",
     "bookPublished": "unknown",
     "numPages": "272",
     "userReview": "",
@@ -16974,7 +16974,7 @@
     "userRating": 0,
     "userAddedAt": "2025-02-18T08:00:00.000Z",
     "userExclusiveShelf": "to-read",
-    "averageRating": "3.6",
+    "averageRating": "3.7",
     "bookPublished": "Jan 01, 1832",
     "numPages": "304",
     "userReview": "",
@@ -41973,7 +41973,7 @@
     "bookPublished": "1991",
     "numPages": "0",
     "userReview": "",
-    "bookDescription": "Technology doesn't flow smoothly; it's the big surprises that matter, and Yale computer expert David Gelernter sees one such giant leap right on the horizon. Today's small scale software programs are about to be joined by vast public software works that will revolutionize computing and transform society as a whole. One such vast program is the \"Mirror World.\"<br />Imagine looking at your computer screen and seeing reality--an image of your city, for instance, complete with moving traffic patterns, or a picture that sketches the state of an entire far-flung corporation at this second. These representations are called Mirror Worlds, and according to Gelernter they will soon be available to everyone. Mirror Worlds are high-tech voodoo by interacting with the images, you interact with reality. Indeed, Mirror Worlds will revolutionize the use of computers, transforming them from (mere) handy tools to crystal balls which will allow us to see the world more vividly and see into it more deeply. Reality will be replaced gradually, piece-by-piece, by a software imitation; we will live inside the imitation; and the surprising thing is--this will be a great humanistic advance. We gain control over our world, plus a huge new measure of insight and vision.<br />In this fascinating book--part speculation, part explanation--Gelernter takes us on a tour of the computer technology of the near future. Mirror Worlds, he contends, will allow us to explore the world in unprecedented depth and detail without ever changing out of our pajamas. A hospital administrator might wander through an entire medical complex via a desktop computer. Any citizen might explore the performance of the local schools, chat electronically with teachers and other Mirror World visitors, plant software agents to report back on interesting topics; decide to run for the local school board, hire a campaign manager, and conduct the better part of the campaign itself--all by interacting with the Mirror World.<br />Gelernter doesn't just speculate about how this amazing new software will be used--he shows us how it will be made, explaining carefully and in detail how to build a Mirror World using technology already available. We learn about \"disembodied machines,\" \"trellises,\" \"ensembles,\" and other computer components which sound obscure, but which Gelernter explains using familiar metaphors and terms. (He tells us that a Mirror World is a microcosm just like a Japanese garden or a Gothic cathedral, and that a computer program is translated by the computer in the same way a symphony is translated by a violinist into music.)<br />Mirror Worlds offers a lucid and humanistic account of the coming software revolution, told by a computer scientist at the cutting edge of his field.",
+    "bookDescription": "Technology doesn't flow smoothly; it's the big surprises that matter, and Yale computer expert David Gelernter sees one such giant leap right on the horizon. Today's small scale software programs are about to be joined by vast public software works that will revolutionize computing and transform society as a whole. One such vast program is the \"Mirror World.\"<br /> Imagine looking at your computer screen and seeing reality--an image of your city, for instance, complete with moving traffic patterns, or a picture that sketches the state of an entire far-flung corporation at this second. These representations are called Mirror Worlds, and according to Gelernter they will soon be available to everyone. Mirror Worlds are high-tech voodoo by interacting with the images, you interact with reality. Indeed, Mirror Worlds will revolutionize the use of computers, transforming them from (mere) handy tools to crystal balls which will allow us to see the world more vividly and see <em>into</em> it more deeply. Reality will be replaced gradually, piece-by-piece, by a software imitation; we will live inside the imitation; and the surprising thing is--this will be a great <em>humanistic</em> advance. We gain control over our world, plus a huge new measure of insight and vision.<br /> In this fascinating book--part speculation, part explanation--Gelernter takes us on a tour of the computer technology of the near future. Mirror Worlds, he contends, will allow us to explore the world in unprecedented depth and detail without ever changing out of our pajamas. A hospital administrator might wander through an entire medical complex via a desktop computer. Any citizen might explore the performance of the local schools, chat electronically with teachers and other Mirror World visitors, plant software agents to report back on interesting topics; decide to run for the local school board, hire a campaign manager, and conduct the better part of the campaign itself--all by interacting with the Mirror World.<br /> Gelernter doesn't just speculate about how this amazing new software will be used--he shows us how it will be made, explaining carefully and in detail how to build a Mirror World using technology already available. We learn about \"disembodied machines,\" \"trellises,\" \"ensembles,\" and other computer components which sound obscure, but which Gelernter explains using familiar metaphors and terms. (He tells us that a Mirror World is a microcosm just like a Japanese garden or a Gothic cathedral, and that a computer program is translated by the computer in the same way a symphony is translated by a violinist into music.) <br /> <em>Mirror Worlds</em> offers a lucid and humanistic account of the coming software revolution, told by a computer scientist at the cutting edge of his field.",
     "authorName": "David Gelernter",
     "timeline": [
       {
@@ -50068,7 +50068,7 @@
   },
   {
     "reviewId": "3640374364",
-    "title": "Fossil Men: The Quest for the Oldest Skeleton and the Origins of Humankind ― A Detective Story of Human Origins",
+    "title": "Fossil Men: The Quest for the Oldest Skeleton and the Origins of Humankind",
     "bookId": "30653582",
     "bookURL": "https://www.goodreads.com/book/show/30653582-fossil-men",
     "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1597760117l/30653582._SY75_.jpg",
