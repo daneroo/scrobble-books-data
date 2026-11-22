@@ -1,7 +1,8 @@
 // check-goodreads.cue: goodreads.json, a plain array, one flat object per
 // entry (a book on the user's shelves), in list order, last updated first.
 // The zod twin is apps/scrape/src/goodreads.ts, with the same comments; keep
-// the two in step, with the example goodreads-example.json.
+// the two in step, with the example goodreads-example.json and the page
+// docs/goodreads-schema.html.
 //
 // Each field comes from one of three signed-in pages (userUpdatedAt from
 // the book page, or else the review page), all on

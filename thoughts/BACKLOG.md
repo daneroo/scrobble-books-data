@@ -22,3 +22,7 @@ here. Promote an idea to a GitHub issue, then delete the line.
       list's, by Goodreads' "date updated"). A count, not per entry: which entry
       of a pair is off can't be told. ~45 expected (2026-11-21); a jump means
       Goodreads changed something.
+- [ ] ci-speed — `bun run ci` takes about 140 s, about 130 of them in
+      `run.test.ts`: 84 tests, each a full run against the fake Goodreads. Make
+      them faster (shared runs, smaller fake lists) without losing what they
+      check.

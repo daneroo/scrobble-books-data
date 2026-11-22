@@ -2,7 +2,8 @@
  * The `goodreads.json` schema: a plain array, one flat object per entry (a
  * book on the user's shelves), in list order, last updated first. The CUE
  * twin is `cue/check-goodreads.cue`, with the same comments; keep the two in
- * step, with the example `cue/goodreads-example.json`.
+ * step, with the example `cue/goodreads-example.json` and the page
+ * `docs/goodreads-schema.html`.
  *
  * Each field comes from one of three signed-in pages (`userUpdatedAt` from
  * the book page, or else the review page), all on
