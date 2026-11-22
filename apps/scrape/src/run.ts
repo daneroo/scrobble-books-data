@@ -11,7 +11,12 @@ import { fetchBookPages, withBookFields } from "./book/scrape.ts";
 import { fetchReviewPages, withProgress } from "./review/scrape.ts";
 import { resetRunFiles, runFiles, writeOutputs } from "./outputs.ts";
 import type { Item } from "./goodreads.ts";
-import type { Outcome, RepeatedWork, ShelvedDayMismatch } from "./report.ts";
+import type {
+  Outcome,
+  ReadCountMismatch,
+  RepeatedWork,
+  ShelvedDayMismatch,
+} from "./report.ts";
 import { dayStart, shelvedDates } from "./review/timeline.ts";
 
 export interface RunOptions {
@@ -45,8 +50,10 @@ export interface RunOptions {
  * list page, check completeness, fetch and parse every book's review page,
  * check its shelf, fetch every book page, write `goodreads.json`, run CUE,
  * then publish. Fail-closed: any failure is returned named, and nothing is
- * published. A work on the list more than once, or a `userAddedAt` off its
- * timeline's "Shelved" day, is no failure: it is returned, for a warning.
+ * published. A work on the list more than once, a `userAddedAt` off its
+ * timeline's "Shelved" day, a `userReadCount` off its list row's "# times
+ * read", or a book on "read" with no finish, is no failure: it is returned,
+ * for a warning.
  */
 export async function runScrape(options: RunOptions): Promise<Outcome> {
   const { user, flow, dataDir, publishPath, cueSchema, signal, log } = options;
@@ -114,6 +121,14 @@ export async function runScrape(options: RunOptions): Promise<Outcome> {
       published: publishPath,
       repeatedWorks: repeatedWorks(items),
       shelvedDayMismatches: shelvedDayMismatches(items),
+      readCountMismatches: readCountMismatches(
+        items,
+        pages.flatMap((page) => page.timesRead),
+      ),
+      readWithoutFinish: items
+        .filter((item) => item.userExclusiveShelf === "read")
+        .filter((item) => item.userReadCount === 0)
+        .map((item) => item.id),
     };
   } catch (error) {
     const failure = failureOf(error, step);
@@ -147,6 +162,24 @@ function shelvedDayMismatches(items: readonly Item[]): ShelvedDayMismatch[] {
     const dates = shelvedDates(timeline);
     const agrees = dates.length === 1 && dayStart(dates[0]!) === userAddedAt;
     return agrees ? [] : [{ id, userAddedAt, shelvedDates: dates }];
+  });
+}
+
+/**
+ * Each entry whose list row's "# times read" is not its `userReadCount`,
+ * plus 1 on "currently-reading" (Goodreads counts the read in progress), in
+ * list order. `timesRead` is in the order of `items`.
+ */
+function readCountMismatches(
+  items: readonly Item[],
+  timesRead: readonly number[],
+): ReadCountMismatch[] {
+  return items.flatMap(({ id, userExclusiveShelf, userReadCount }, i) => {
+    const inProgress = userExclusiveShelf === "currently-reading" ? 1 : 0;
+    const listed = timesRead[i]!;
+    return listed === userReadCount + inProgress
+      ? []
+      : [{ id, userExclusiveShelf, userReadCount, timesRead: listed }];
   });
 }
 

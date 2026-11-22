@@ -4,6 +4,7 @@ import type { Item, ListItem } from "../goodreads.ts";
 import type { PageSource } from "../pages/source.ts";
 import type { BookPage } from "../book/parse.ts";
 import { parseReviewPage, type ReviewPage } from "./parse.ts";
+import { readsOf } from "./timeline.ts";
 
 /** An entry once its review page is read: no book page fields yet. */
 export type Reviewed = Omit<Item, keyof BookPage | "userUpdatedAt">;
@@ -43,9 +44,11 @@ export async function fetchReviewPages({
 }
 
 /**
- * Adds each book's review and timeline, once every review page's exclusive shelf
- * equals its list page's; otherwise `shelf-mismatch`, listing every book
- * that differs. `reviews` is in the order of `items`.
+ * Adds each book's reads, review and timeline, once every review page's
+ * exclusive shelf equals its list page's; otherwise `shelf-mismatch`,
+ * listing every book that differs. A finish dated in no known format is
+ * `parse-failure`, naming its review page. `reviews` is in the order of
+ * `items`.
  */
 export function withProgress(
   items: readonly ListItem[],
@@ -68,6 +71,14 @@ export function withProgress(
   }
   return items.map((item, i) => {
     const { userReview, timeline } = reviews[i]!;
-    return { ...item, userReview, timeline };
+    const { reads, unknownDates } = readsOf(timeline);
+    if (unknownDates.length > 0)
+      throw new ScrapeFailure({
+        step: "checks",
+        mode: "parse-failure",
+        detail: `review page ${item.id}: a "Finished Reading" date is not a day, a month or a year: ${unknownDates.map((date) => JSON.stringify(date)).join(", ")}`,
+        url: reviewPageUrl(item.id),
+      });
+    return { ...item, ...reads, userReview, timeline };
   });
 }

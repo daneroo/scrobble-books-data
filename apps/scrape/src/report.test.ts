@@ -19,6 +19,8 @@ describe("report", () => {
         published: "goodreads.json",
         repeatedWorks: [],
         shelvedDayMismatches: [],
+        readCountMismatches: [],
+        readWithoutFinish: [],
       },
       secrets,
     );
@@ -113,6 +115,8 @@ describe("report", () => {
         published: "goodreads.json",
         repeatedWorks: [],
         shelvedDayMismatches: [],
+        readCountMismatches: [],
+        readWithoutFinish: [],
       },
       secrets,
     );

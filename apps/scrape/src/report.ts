@@ -1,4 +1,5 @@
 import type { Failure } from "./failure.ts";
+import type { ExclusiveShelf } from "./goodreads.ts";
 
 /** A work on the list more than once: one `id` per edition, in list order. */
 export interface RepeatedWork {
@@ -16,6 +17,18 @@ export interface ShelvedDayMismatch {
   userAddedAt: string;
   /** The dates of the entry's own "Shelved" rows, as shown. */
   shelvedDates: string[];
+}
+
+/**
+ * A list row's "# times read" that is not its `userReadCount`, plus 1 on
+ * "currently-reading": none on 2026-11-21 (1458 agreed).
+ */
+export interface ReadCountMismatch {
+  id: string;
+  userExclusiveShelf: ExclusiveShelf;
+  userReadCount: number;
+  /** The list row's "# times read". */
+  timesRead: number;
 }
 
 /** The result of a run. The cookie is only there to keep it out of the log. */
@@ -39,6 +52,18 @@ export type Outcome =
        * warning, counted on screen; the list itself is kept here, as data.
        */
       shelvedDayMismatches: ShelvedDayMismatch[];
+      /**
+       * Each list row's "# times read" off its `userReadCount`, in list
+       * order: a warning, counted on screen; the list itself is kept here,
+       * as data.
+       */
+      readCountMismatches: ReadCountMismatch[];
+      /**
+       * The `id` of each book on "read" with a `userReadCount` of 0, in list
+       * order (none on 2026-11-21: 793 of 793 had a finish): a warning,
+       * counted on screen; the list itself is kept here, as data.
+       */
+      readWithoutFinish: string[];
     }
   | { ok: false; cookie?: string; failure: Failure };
 
@@ -82,6 +107,17 @@ function summarize(outcome: Outcome): Report {
         'WARN: 1 book has a userAddedAt off its "Shelved" row\'s day',
         (n) =>
           `WARN: ${n} books have a userAddedAt off their "Shelved" row's day`,
+      ),
+      ...countLine(
+        outcome.readCountMismatches.length,
+        'WARN: 1 book has a userReadCount off its list row\'s "# times read"',
+        (n) =>
+          `WARN: ${n} books have a userReadCount off their list rows' "# times read"`,
+      ),
+      ...countLine(
+        outcome.readWithoutFinish.length,
+        'WARN: 1 book on "read" has no finish',
+        (n) => `WARN: ${n} books on "read" have no finish`,
       ),
     ],
     exitCode: 0,

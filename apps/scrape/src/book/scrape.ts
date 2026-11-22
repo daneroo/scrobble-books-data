@@ -35,16 +35,26 @@ export function fetchBookPages({
 
 /**
  * Adds each book's work, `userUpdatedAt`, description and author, in the
- * schema's order: the work and `userUpdatedAt` before the review, the
- * description and author before the timeline. `userUpdatedAt` is the book
- * page's `updatedAt`, or else the latest day of the entry's own timeline
- * rows; with neither, `parse-failure`. `books` is in the order of `items`.
+ * schema's order: the work, `userUpdatedAt` and the reads before the
+ * review, the description and author before the timeline. `userUpdatedAt`
+ * is the book page's `updatedAt`, or else the latest day of the entry's own
+ * timeline rows; with neither, `parse-failure`. A read date is absent, not
+ * `undefined`, when no finish is dated. `books` is in the order of
+ * `items`.
  */
 export function withBookFields(
   items: readonly Reviewed[],
   books: readonly BookPage[],
 ): Item[] {
-  return items.map(({ userReview, timeline, ...item }, i) => {
+  return items.map((reviewed, i) => {
+    const {
+      userReadCount,
+      userFirstReadAt,
+      userLastReadAt,
+      userReview,
+      timeline,
+      ...item
+    } = reviewed;
     const { workId, updatedAt, bookDescription, authorName } = books[i]!;
     const userUpdatedAt = updatedAt ?? latestOwnDay(timeline);
     if (userUpdatedAt === undefined)
@@ -58,6 +68,9 @@ export function withBookFields(
       ...item,
       workId,
       userUpdatedAt,
+      userReadCount,
+      ...(userFirstReadAt === undefined ? {} : { userFirstReadAt }),
+      ...(userLastReadAt === undefined ? {} : { userLastReadAt }),
       userReview,
       bookDescription,
       authorName,

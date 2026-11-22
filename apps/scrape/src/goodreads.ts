@@ -270,6 +270,58 @@ export const Item = ListItem.extend({
    */
   userUpdatedAt: z.iso.datetime(),
   /**
+   * How many times the user finished this edition: its own reads only, never
+   * another edition's.
+   *
+   * - Page: review page; checked against the list page.
+   * - Elements: the entry's `timeline`: its own rows (not ending in
+   *   " (<format> Edition)") whose event is "Finished Reading".
+   * - Checks: the list row's "# times read" (the hidden `read_count` cell,
+   *   digits, `parse-failure` otherwise) equals it, plus 1 for a book on
+   *   "currently-reading"; when it does not, a run that passes ends with a
+   *   warning counting those entries (1458 of 1458 agreed on 2026-11-21). A
+   *   book on "read" has at least 1; when it does not, a run that passes
+   *   ends with a warning counting those books (793 of 793 had 1 or more).
+   * - Transform: the number of those rows, dated or not: a book marked read
+   *   with no date is read once.
+   * - Format: an integer, 0 or more.
+   * - Not checked, as it does not always hold (1458 entries on 2026-11-21):
+   *   a finish has a date (80 undated); a finish follows its own "Started
+   *   Reading" (81 do not, 80 of them undated); a "Started Reading" ends in
+   *   a finish (16 do not: 9 currently reading, 7 followed by another
+   *   start); both rows of a start and its finish are dated (13 are not); a
+   *   book with a finish is on "read" (3 are not: 2 on-deck, 1 to-read).
+   */
+  userReadCount: z.number().int().min(0),
+  /**
+   * When the user first finished this edition, at the precision shown;
+   * absent when none of its finishes is dated.
+   *
+   * - Page: review page.
+   * - Elements: the dates of the entry's own "Finished Reading" rows, as in
+   *   `userReadCount`; an undated one is left out.
+   * - Checks: each date is a day, "October 31, 2026", a month, "February,
+   *   1997", or a year, "2021" (`parse-failure` otherwise, naming the
+   *   review page).
+   * - Transform: each as the start of that US Pacific day in
+   *   `America/Los_Angeles`, in UTC, a month padded to its 1st, a year to
+   *   January 1st; the earliest.
+   * - Format: ISO 8601 UTC, a day at best: "2012-11-23T08:00:00.000Z".
+   *   Of 795 dated finishes on 2026-11-21, 793 showed a day, 1 a month,
+   *   1 a year; 28 of those days, a 1st, are only a month on the list
+   *   ("Mar 2015" for "March 1, 2015"): a 1st may stand for its month.
+   * - Not checked, as it does not always hold: a finish is on or after
+   *   `userAddedAt` (14 of 1458 entries have one before it).
+   */
+  userFirstReadAt: z.iso.datetime().optional(),
+  /**
+   * When the user last finished this edition, at the precision shown;
+   * absent when none of its finishes is dated. As `userFirstReadAt`, the
+   * latest instead of the earliest: "2025-06-27T07:00:00.000Z"; equal to it
+   * when there is one dated finish.
+   */
+  userLastReadAt: z.iso.datetime().optional(),
+  /**
    * The user's review, as HTML.
    *
    * - Page: review page.

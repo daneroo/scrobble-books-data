@@ -7,8 +7,9 @@
  * seen in #28: to-read 448, currently-reading 8, read 786, did-not-finish 0,
  * on-deck 208, 1450 books. Page 1 is the saved page itself; the other rows
  * are its rows again, under new review, book and work ids, on the shelves
- * needed to reach those counts, and last, the real row of the other edition
- * of _Essentialism_, so one work is on the list twice.
+ * needed to reach those counts, and last, the real rows of _The Diamond Age_,
+ * _The Great Code_ and the other edition of _Essentialism_, so one work is on
+ * the list twice.
  */
 import { join } from "node:path";
 
@@ -18,8 +19,8 @@ export const FIXTURE = join(import.meta.dir, "../../fixtures/list-page-1.html");
 
 /**
  * The saved, scrubbed review pages of the spot-check books, by review id;
- * the first three are on the saved list page, the last is the other edition
- * of _Essentialism_, last on the list.
+ * the first three are on the saved list page, the others are last on the
+ * list, from their real rows.
  */
 export const SAVED_REVIEWS = {
   /** _The Tainted Cup_: read, with percentages. */
@@ -34,6 +35,17 @@ export const SAVED_REVIEWS = {
    * (data/61-pages).
    */
   otherEssentialism: "5557855762",
+  /**
+   * _The Diamond Age_: read 3 times, started, progress, finished; only its
+   * heading, review date and Reading Progress box (data/61-pages).
+   */
+  diamondAge: "426793453",
+  /**
+   * _The Great Code_: marked read, with no dates: an undated "Finished
+   * Reading" row and no "Started Reading"; only its heading, review date and
+   * Reading Progress box (data/61-pages).
+   */
+  greatCode: "231375252",
 } as const;
 
 const reviewFixtures = new Map<string, string>(
@@ -208,12 +220,21 @@ export const savedRows: readonly Row[] = rowsIn(
 /** The review id of the other edition of _Essentialism_, on the read shelf. */
 export const OTHER_ESSENTIALISM = "5557855762";
 
-/** Its real list row, scrubbed; not on the saved page. */
-const otherEssentialism: Row = rowsIn(
-  await Bun.file(
-    join(import.meta.dir, `../../fixtures/list-row-${OTHER_ESSENTIALISM}.html`),
-  ).text(),
-)[0]!;
+/** A real list row, scrubbed, by its review id; not on the saved page. */
+async function savedRow(id: string): Promise<Row> {
+  return rowsIn(
+    await Bun.file(
+      join(import.meta.dir, `../../fixtures/list-row-${id}.html`),
+    ).text(),
+  )[0]!;
+}
+
+/** The real rows last on the list, in list order. */
+const lastRows: readonly Row[] = await Promise.all(
+  [SAVED_REVIEWS.diamondAge, SAVED_REVIEWS.greatCode, OTHER_ESSENTIALISM].map(
+    savedRow,
+  ),
+);
 
 /** Replaces a whole number (not part of a longer one) everywhere. */
 function replaceId(html: string, from: string, to: string): string {
@@ -249,13 +270,36 @@ export function madeUpIds(n: number): {
   };
 }
 
+/** A row's "# times read", its number after the cell's opening. */
+export const TIMES_READ =
+  /(field read_count"[^>]*><label># times read<\/label><div class="value">\s*)\d+/;
+
+/** _Debt_'s own "Finished Reading" rows, one undated: the slim page's. */
+const SLIM_READS = 2;
+
+/**
+ * `row` with its "# times read" as Goodreads gives it for the review page
+ * served: a saved page's row is real, as it is; a slim page has _Debt_'s
+ * reads, plus 1 on "currently-reading", the read in progress (so on all
+ * 1458 real rows on 2026-11-21).
+ */
+function withTimesRead(row: Row): Row {
+  if (reviewFixtures.has(row.id)) return row;
+  if (!TIMES_READ.test(row.html))
+    throw new Error(`row ${row.id}: no "# times read"`);
+  const times = SLIM_READS + (row.shelf === "currently-reading" ? 1 : 0);
+  return { ...row, html: row.html.replace(TIMES_READ, `$1${times}`) };
+}
+
 /**
  * The full list: 1450 rows with the real counts, page 1 the saved page, the
- * other edition of _Essentialism_ last.
+ * real rows of _The Diamond Age_, _The Great Code_ and the other edition of
+ * _Essentialism_ last. Each row's "# times read" agrees with the review page
+ * served.
  */
 export function realList(): Row[] {
   const remaining = { ...REAL_COUNTS };
-  for (const row of [...savedRows, otherEssentialism]) remaining[row.shelf]--;
+  for (const row of [...savedRows, ...lastRows]) remaining[row.shelf]--;
   const shelves = (Object.keys(remaining) as ExclusiveShelf[]).flatMap(
     (shelf) => Array<ExclusiveShelf>(remaining[shelf]).fill(shelf),
   );
@@ -267,8 +311,8 @@ export function realList(): Row[] {
     ...mixed.map((shelf, i) =>
       rowLike(savedRows[i % savedRows.length]!, madeUpIds(i), shelf),
     ),
-    otherEssentialism,
-  ];
+    ...lastRows,
+  ].map(withTimesRead);
 }
 
 /** Counts per exclusive shelf. */

@@ -31,6 +31,7 @@ import {
   rowLike,
   savedRows,
   SAVED_REVIEWS,
+  TIMES_READ,
   type FakeGoodreads,
   type Override,
   type Row,
@@ -156,7 +157,8 @@ describe("a full run", () => {
     // a plain array, one flat object per entry
     expect(published).toBeArray();
     // the first row: currently reading, unrated, no read date (its review
-    // page isn't saved, so its timeline is made up: left out here)
+    // page isn't saved, so its timeline is made up: left out here, and its
+    // reads, made up too, are only there)
     const { timeline, userReview, bookDescription, authorName, ...first } =
       published![0]!;
     // its book page is Debt's, served under its id
@@ -186,6 +188,9 @@ describe("a full run", () => {
       workId: "125997193",
       // no updatedAt on its book page: its "Shelved" row's day, its latest
       userUpdatedAt: "2026-11-01T07:00:00.000Z",
+      userReadCount: expect.any(Number),
+      userFirstReadAt: expect.any(String),
+      userLastReadAt: expect.any(String),
     });
     // a fractional rating
     expect(byId.get("9043895547")).toMatchObject({
@@ -417,6 +422,196 @@ describe("a full run", () => {
     );
   });
 
+  test("a book read 3 times has userReadCount 3, first and last its first and last finish (The Diamond Age)", async () => {
+    const { published } = await run(fakeGoodreads(realList()));
+    const item = published?.find((i) => i.id === SAVED_REVIEWS.diamondAge);
+    // its real "Finished Reading" rows: November 23, 2012 (PST),
+    // December 9, 2019, June 27, 2025 (PDT)
+    expect(item).toMatchObject({
+      userReadCount: 3,
+      userFirstReadAt: "2012-11-23T08:00:00.000Z",
+      userLastReadAt: "2025-06-27T07:00:00.000Z",
+    });
+  });
+
+  test("a book marked read with no dates is read once, with no first or last read (The Great Code)", async () => {
+    const { published } = await run(fakeGoodreads(realList()));
+    const item = published?.find((i) => i.id === SAVED_REVIEWS.greatCode);
+    expect(item?.timeline).toEqual([
+      { dateText: "", event: "Finished Reading" },
+      { dateText: "November 5, 2011", event: "Shelved" },
+    ]);
+    expect(item?.userReadCount).toBe(1);
+    expect(item && "userFirstReadAt" in item).toBe(false);
+    expect(item && "userLastReadAt" in item).toBe(false);
+  });
+
+  test("another edition's finishes are not counted; an undated finish is (Essentialism, Debt)", async () => {
+    const { published } = await run(fakeGoodreads(realList()));
+    const byId = new Map(published?.map((item) => [item.id, item]));
+    // currently reading the Kindle edition: the Hardcover's finish, May 28,
+    // 2023, is the other entry's
+    const kindle = byId.get(SAVED_REVIEWS.essentialism);
+    expect(kindle?.userReadCount).toBe(0);
+    expect(kindle && "userFirstReadAt" in kindle).toBe(false);
+    // the Hardcover: its own finish only, not the Kindle's rows of 2026
+    expect(byId.get(SAVED_REVIEWS.otherEssentialism)).toMatchObject({
+      userReadCount: 1,
+      userFirstReadAt: "2023-05-28T07:00:00.000Z",
+      userLastReadAt: "2023-05-28T07:00:00.000Z",
+    });
+    // an undated finish, then October 29, 2026: read twice, one date
+    expect(byId.get(SAVED_REVIEWS.debt)).toMatchObject({
+      userReadCount: 2,
+      userFirstReadAt: "2026-10-29T07:00:00.000Z",
+      userLastReadAt: "2026-10-29T07:00:00.000Z",
+    });
+  });
+
+  test("a finish dated by a month or a year is padded to its 1st day; first and last by time, not page order", async () => {
+    // as on real review pages: "February, 1997", a year, "1990", last
+    const entry = realList()[42]!;
+    const fake = fakeGoodreads(realList(), {
+      review: (row) =>
+        row.id === entry.id
+          ? new Response(
+              reviewPage(row)
+                .replace(
+                  "October 21, 2026\n&ndash;\n<span>\nStarted Reading",
+                  "February, 1997\n&ndash;\n<span>\nFinished Reading",
+                )
+                .replace(
+                  "October 29, 2026\n&ndash;\n<span>",
+                  "1990\n&ndash;\n<span>",
+                ),
+            )
+          : undefined,
+    });
+    const { published } = await run(fake);
+    const item = published?.find((i) => i.id === entry.id);
+    expect(
+      item?.timeline.filter((row) => row.event === "Finished Reading"),
+    ).toEqual([
+      { dateText: "February, 1997", event: "Finished Reading" },
+      { dateText: "", event: "Finished Reading" },
+      { dateText: "1990", event: "Finished Reading" },
+    ]);
+    // January 1, 1990 and February 1, 1997, both PST
+    expect(item).toMatchObject({
+      userReadCount: 3,
+      userFirstReadAt: "1990-01-01T08:00:00.000Z",
+      userLastReadAt: "1997-02-01T08:00:00.000Z",
+    });
+  });
+
+  test("a finish dated in another format is parse-failure, naming the review page", async () => {
+    const entry = realList()[42]!;
+    const fake = fakeGoodreads(realList(), {
+      review: (row) =>
+        row.id === entry.id
+          ? new Response(
+              reviewPage(row).replace(
+                "October 29, 2026\n&ndash;\n<span>",
+                "Fall 2026\n&ndash;\n<span>",
+              ),
+            )
+          : undefined,
+    });
+    const { failure } = await expectFailedClosed(fake, "parse-failure");
+    expect(failure.step).toBe("checks");
+    expect(failure.detail).toBe(
+      `review page ${entry.id}: a "Finished Reading" date is not a day, a month or a year: "Fall 2026"`,
+    );
+    expect(failure.url).toBe(
+      `https://www.goodreads.com/review/show/${entry.id}`,
+    );
+  });
+
+  test('every book on "read" has a finish: no warning', async () => {
+    const { outcome, reportLines } = await run(fakeGoodreads(realList()));
+    expect(outcome.ok && outcome.readWithoutFinish).toEqual([]);
+    expect(reportLines.join("\n")).not.toContain("no finish");
+  });
+
+  test('a book on "read" with no finish of its own is a warning, still passing; the ids stay in the outcome', async () => {
+    // The Great Code, its one, undated, "Finished Reading" row gone
+    const fake = fakeGoodreads(realList(), {
+      review: (row) =>
+        row.id === SAVED_REVIEWS.greatCode
+          ? new Response(
+              reviewPage(row).replace(
+                /<div class='readingTimeline__row'>(?:(?!readingTimeline__row)[\s\S])*?Finished Reading[\s\S]*?<\/div>\n<\/div>\n/,
+                "",
+              ),
+            )
+          : undefined,
+    });
+    const { outcome, published, reportLines, exitCode } = await run(fake);
+    expect(exitCode).toBe(0);
+    const item = published?.find((i) => i.id === SAVED_REVIEWS.greatCode);
+    expect(item?.timeline).toEqual([
+      { dateText: "November 5, 2011", event: "Shelved" },
+    ]);
+    expect(item?.userReadCount).toBe(0);
+    // on screen, the count only
+    expect(reportLines).toContain('WARN: 1 book on "read" has no finish');
+    expect(outcome.ok && outcome.readWithoutFinish).toEqual([
+      SAVED_REVIEWS.greatCode,
+    ]);
+  });
+
+  test('every list row\'s "# times read" is its userReadCount, plus 1 when currently reading: no warning', async () => {
+    const { outcome, reportLines } = await run(fakeGoodreads(realList()));
+    expect(outcome.ok && outcome.readCountMismatches).toEqual([]);
+    expect(reportLines.join("\n")).not.toContain("times read");
+  });
+
+  test('a "# times read" off its userReadCount is a warning, still passing; the details stay in the outcome', async () => {
+    // The Diamond Age, read 3 times: its real row says 3
+    const list = realList().map((row) =>
+      row.id === SAVED_REVIEWS.diamondAge
+        ? {
+            ...row,
+            html: row.html.replace(TIMES_READ, (_, cell: string) => `${cell}4`),
+          }
+        : row,
+    );
+    const { outcome, published, reportLines, exitCode } = await run(
+      fakeGoodreads(list),
+    );
+    expect(exitCode).toBe(0);
+    expect(published).toHaveLength(1450);
+    // on screen, the count only
+    expect(reportLines).toContain(
+      'WARN: 1 book has a userReadCount off its list row\'s "# times read"',
+    );
+    expect(outcome.ok && outcome.readCountMismatches).toEqual([
+      {
+        id: SAVED_REVIEWS.diamondAge,
+        userExclusiveShelf: "read",
+        userReadCount: 3,
+        timesRead: 4,
+      },
+    ]);
+  });
+
+  test('a "# times read" that is not a number is parse-failure, naming the page and row', async () => {
+    const list = realList();
+    list[3] = {
+      ...list[3]!,
+      html: list[3]!.html.replace(TIMES_READ, "$1twice"),
+    };
+    const { failure } = await expectFailedClosed(
+      fakeGoodreads(list),
+      "parse-failure",
+    );
+    expect(failure.step).toBe("list-pages");
+    expect(failure.detail).toStartWith(
+      `list page 1, row 4 (review_${list[3]!.id}): timesRead:`,
+    );
+    expect(failure.detail).toContain('(got "twice")');
+  });
+
   test('every userAddedAt is its timeline\'s "Shelved" day: no warning', async () => {
     const { outcome, reportLines } = await run(fakeGoodreads(realList()));
     expect(outcome.ok && outcome.shelvedDayMismatches).toEqual([]);
@@ -512,6 +707,9 @@ describe("a full run", () => {
       "numPages",
       "workId",
       "userUpdatedAt",
+      "userReadCount",
+      "userFirstReadAt",
+      "userLastReadAt",
       "userReview",
       "bookDescription",
       "authorName",

@@ -17,7 +17,18 @@ export interface ListPage {
   counts: Record<ExclusiveShelf, number>;
   /** In page order. */
   items: ListItem[];
+  /**
+   * Each row's "# times read", in the order of `items`: only checked against
+   * `userReadCount`, never published.
+   */
+  timesRead: number[];
 }
+
+/**
+ * A row's "# times read": the text of its hidden `read_count` cell,
+ * whitespace collapsed, trimmed; digits, "3".
+ */
+const TimesRead = z.string().regex(/^\d+$/);
 
 const SidebarCounts = z.strictObject(
   Object.fromEntries(
@@ -65,11 +76,11 @@ export function parseListPage(
       `sidebar: ${describeIssues(checked.error, counts)}`,
     );
 
-  const items = $('tr[id^="review_"]')
+  const rows = $('tr[id^="review_"]')
     .toArray()
     .map((tr, index) => {
       const row = `${where}, row ${index + 1} (${$(tr).attr("id")})`;
-      const raw = rawItem(
+      const { timesRead, ...raw } = rawItem(
         $,
         $(tr),
         (detail) =>
@@ -80,18 +91,29 @@ export function parseListPage(
             url,
           }),
       );
-      const parsed = ListItem.safeParse(raw);
-      if (!parsed.success)
-        throw new ScrapeFailure({
+      const invalid = (error: z.ZodError, values: Record<string, unknown>) =>
+        new ScrapeFailure({
           step: "list-pages",
           mode: "parse-failure",
-          detail: `${row}: ${describeIssues(parsed.error, raw)}`,
+          detail: `${row}: ${describeIssues(error, values)}`,
           url,
         });
-      return parsed.data;
+      const parsed = ListItem.safeParse(raw);
+      if (!parsed.success) throw invalid(parsed.error, raw);
+      const times = z.strictObject({ timesRead: TimesRead }).safeParse({
+        timesRead,
+      });
+      if (!times.success) throw invalid(times.error, { timesRead });
+      return { item: parsed.data, timesRead: Number(times.data.timesRead) };
     });
 
-  return { page, userFullName, counts: checked.data, items };
+  return {
+    page,
+    userFullName,
+    counts: checked.data,
+    items: rows.map((r) => r.item),
+    timesRead: rows.map((r) => r.timesRead),
+  };
 }
 
 /**
@@ -184,6 +206,8 @@ function rawItem(
       pages === "unknown"
         ? "0"
         : (/^([\d,]+) pp$/.exec(pages)?.[1]?.replaceAll(",", "") ?? pages),
+    // checked against userReadCount, not published
+    timesRead: text("read_count"),
   };
 }
 
