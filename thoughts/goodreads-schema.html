@@ -332,22 +332,26 @@
           <span class="why">shelves, rating, review</span>
         </header>
         <div class="field locked">
-          <span class="name">userExclusiveShelf</span
-          ><span class="type">string</span><span class="src list">list</span
-          ><span class="ex">"read"</span
-          ><span class="pill locked">implemented</span>
-          <div class="note">The one exclusive shelf.</div>
-        </div>
-        <div class="field decided">
-          <span class="name">userShelves</span><span class="type">string[]</span
+          <span class="name">userShelf</span><span class="type">string</span
           ><span class="src list">list</span
-          ><span class="ex">would be ["read"]</span
-          ><span class="pill decided">to build</span>
+          ><span class="ex">"currently-reading"</span
+          ><span class="pill locked">implemented</span>
           <div class="note">
-            Every shelf, exclusive and not: e.g. ["currently-reading",
-            "long-term"]. <b>Open:</b> the exclusive list from the sidebar
-            (above the divider), not hard-coded? Ship the code before adding
-            books to non-exclusive shelves.
+            Goodreads' exclusive shelf, one and only one: the row's one
+            <code>?shelf=</code> link. Was <code>userExclusiveShelf</code>.
+          </div>
+        </div>
+        <div class="field locked">
+          <span class="name">userTags</span><span class="type">string[]</span
+          ><span class="src list">list</span
+          ><span class="ex">["long-term"]</span
+          ><span class="pill locked">implemented</span>
+          <div class="note">
+            Non-exclusive shelves, which Goodreads' UI now calls tags: the row's
+            <code>?tag=</code> links, in row order; [] when none. Replaces the
+            planned <code>userShelves</code>. Exclusive or not is the link's own
+            parameter, not a fixed list. Each tag's count is checked against the
+            sidebar, as each shelf's is.
           </div>
         </div>
         <div class="field locked">
