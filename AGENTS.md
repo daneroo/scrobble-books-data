@@ -85,6 +85,7 @@ published data.
   `secrets/`; the container's own profile and data, apart from local ones, are
   `infra/scrape/secrets/browser-profile/` and `infra/scrape/data/` (gitignored)
 - `docs/` — lasting reference (agents, ADRs)
+- `docs/goodreads-schema.html` — the `goodreads.json` schema, field by field
 - `thoughts/BACKLOG.md` — idea inbox; other `thoughts/` files are temporary
 - `data/` — gitignored, volatile (outputs, scratch)
 

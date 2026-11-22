@@ -6,8 +6,11 @@
  * The list holds only the real exclusive shelves with their real counts as
  * seen in #28: to-read 448, currently-reading 8, read 786, did-not-finish 0,
  * on-deck 208, 1450 books. Page 1 is the saved page itself; the other rows
- * are its rows again, under new review and book ids, on the shelves needed
- * to reach those counts.
+ * are its rows again, under new review, book and work ids, on the shelves
+ * needed to reach those counts, and last, the real rows of three ancient
+ * works (their publication year negative or of 3 digits), _The Diamond Age_,
+ * _The Great Code_, the other edition of _Essentialism_, so one work is on
+ * the list twice, and _Critique of Pure Reason_, the one book with a tag.
  */
 import { join } from "node:path";
 
@@ -16,8 +19,9 @@ import type { ExclusiveShelf } from "../goodreads.ts";
 export const FIXTURE = join(import.meta.dir, "../../fixtures/list-page-1.html");
 
 /**
- * The saved, scrubbed review pages of the three spot-check books, by review
- * id; all three are on the saved list page.
+ * The saved, scrubbed review pages of the spot-check books, by review id;
+ * the first three are on the saved list page, the others are last on the
+ * list, from their real rows.
  */
 export const SAVED_REVIEWS = {
   /** _The Tainted Cup_: read, with percentages. */
@@ -26,6 +30,29 @@ export const SAVED_REVIEWS = {
   debt: "9043895547",
   /** _Essentialism_: currently reading, a re-read of another edition. */
   essentialism: "8869640622",
+  /**
+   * The other _Essentialism_: read in 2023, then rows of the Kindle edition
+   * in 2026; only its heading, review date and Reading Progress box
+   * (data/61-pages).
+   */
+  otherEssentialism: "5557855762",
+  /**
+   * _The Diamond Age_: read 3 times, started, progress, finished; only its
+   * heading, review date and Reading Progress box (data/61-pages).
+   */
+  diamondAge: "426793453",
+  /**
+   * _The Great Code_: marked read, with no dates: an undated "Finished
+   * Reading" row and no "Started Reading"; only its heading, review date and
+   * Reading Progress box (data/61-pages).
+   */
+  greatCode: "231375252",
+  /**
+   * _Critique of Pure Reason_: currently reading, and tagged long-term, with
+   * its "Shelved as: long-term" row; only its heading, review date and
+   * Reading Progress box (data/61-pages, `-long-term`).
+   */
+  critique: "4039959353",
 } as const;
 
 const reviewFixtures = new Map<string, string>(
@@ -49,6 +76,9 @@ function part(html: string, pattern: RegExp): string {
   return match;
 }
 
+/** _Debt_'s own "Shelved" row, as the page source has it. */
+const DEBT_SHELVED = "October 21, 2026\n&ndash; Shelved\n";
+
 /**
  * A slim review page made of _Debt_'s saved page parts: its signed-in
  * marker script, its heading, its review date and its Reading Progress box. Served for every
@@ -66,20 +96,34 @@ const slimReviewPage = (() => {
     debt,
     /<div class=" clearFloats bigBox"><div class="h2Container gradientHeaderContainer"><h2 class="brownBackground">Reading Progress[\s\S]*?<div class="bigBoxBottom"><\/div><\/div>/,
   );
+  if (!progress.includes(DEBT_SHELVED))
+    throw new Error("review fixture: no Shelved row");
   return `<!DOCTYPE html>\n<html>\n<head>\n${marker}\n</head>\n<body>\n${heading}\n${reviewDate}\n${progress}\n</body>\n</html>\n`;
 })();
 
 /**
  * A book's review page: its saved page if there is one, otherwise the slim
- * page with the heading's shelf set to the book's shelf.
+ * page with the heading's shelf set to the book's shelf, and the "Shelved"
+ * row's date set to the row's date added, as on every real page.
  */
 export function reviewPage(row: Row): string {
-  const saved = reviewFixtures.get(row.reviewId);
+  const saved = reviewFixtures.get(row.id);
   if (saved !== undefined) return saved;
-  return slimReviewPage.replace(
-    /(<h1><a href="[^"]*\?shelf=)read"/,
-    `$1${row.shelf}"`,
-  );
+  return slimReviewPage
+    .replace(/(<h1><a href="[^"]*\?shelf=)read"/, `$1${row.shelf}"`)
+    .replace(DEBT_SHELVED, `${dateAdded(row)}\n&ndash; Shelved\n`);
+}
+
+/**
+ * A row's date added as a timeline shows a day: its `date_added` span's
+ * title, "November 01, 2026", without the day's leading zero.
+ */
+function dateAdded(row: Row): string {
+  const title = /field date_added">[\s\S]*?<span title="([^"]*)"/.exec(
+    row.html,
+  )?.[1];
+  if (title === undefined) throw new Error(`row ${row.id}: no date added`);
+  return title.replace(/ 0(\d),/, " $1,");
 }
 
 /**
@@ -94,17 +138,22 @@ const bookFixture = await Bun.file(
 /** _Debt_'s book id. */
 const DEBT_BOOK = "6617037";
 
+/** _Debt_'s work id. */
+const DEBT_WORK = "6811142";
+
 /**
- * A book's page: _Debt_'s, under the book's id. Only _Debt_ keeps the
- * viewer's review: the other books' shelving has none, as for a book with no
- * rating or review.
+ * A book's page: _Debt_'s, under the book's id and work id. Only _Debt_
+ * keeps the viewer's review: the other books' shelving has none, as for a
+ * book with no rating or review.
  */
 export function bookPage(row: Row): string {
   const page =
     row.bookId === DEBT_BOOK
       ? bookFixture
       : bookFixture.replace(',"review":{"__ref":"Review:viewer"}', "");
-  return page.replace(`"legacyId":${DEBT_BOOK}`, `"legacyId":${row.bookId}`);
+  return page
+    .replace(`"legacyId":${DEBT_BOOK}`, `"legacyId":${row.bookId}`)
+    .replace(`"legacyId":${DEBT_WORK}`, `"legacyId":${row.workId}`);
 }
 
 /** The user id in the scrubbed fixture. */
@@ -121,8 +170,10 @@ export const REAL_COUNTS: Readonly<Record<ExclusiveShelf, number>> = {
 
 /** One list row: its markup and what it stands for. */
 export interface Row {
-  reviewId: string;
+  id: string;
   bookId: string;
+  /** The book's work: its book page's `Work`. */
+  workId: string;
   shelf: ExclusiveShelf;
   html: string;
 }
@@ -148,19 +199,68 @@ export function homePage({ signedIn }: { signedIn: boolean }): string {
   return `<!DOCTYPE html>\n<html>\n<head>\n${tagged}\n</head>\n<body></body>\n</html>\n`;
 }
 
+/**
+ * The saved rows in `html`, as they are; the work id from each row's
+ * `/work/editions/<workId>` link, the real work of its book page.
+ */
+function rowsIn(html: string): Row[] {
+  return [...html.matchAll(/<tr id="review_(\d+)"[\s\S]*?<\/tr>/g)].map(
+    (match) => {
+      const row = match[0];
+      const bookId = /data-resource-id="(\d+)"/.exec(row)?.[1];
+      const workId = /href="\/work\/editions\/(\d+)"/.exec(row)?.[1];
+      const shelf = /<a class="shelfLink"[^>]*\?shelf=[^>]*>([^<]*)<\/a>/.exec(
+        row,
+      )?.[1];
+      if (bookId === undefined || workId === undefined || shelf === undefined)
+        throw new Error(`fixture row ${match[1]}: no book id, work or shelf`);
+      const id = match[1]!;
+      const asShelf = shelf as ExclusiveShelf;
+      return { id, bookId, workId, shelf: asShelf, html: row };
+    },
+  );
+}
+
 /** The saved page's 100 rows, as they are. */
-export const savedRows: readonly Row[] = [
-  ...fixture
-    .slice(firstRow, afterLastRow)
-    .matchAll(/<tr id="review_(\d+)"[\s\S]*?<\/tr>/g),
-].map((match) => {
-  const html = match[0];
-  const bookId = /data-resource-id="(\d+)"/.exec(html)?.[1];
-  const shelf = /<a class="shelfLink"[^>]*>([^<]*)<\/a>/.exec(html)?.[1];
-  if (bookId === undefined || shelf === undefined)
-    throw new Error(`fixture row ${match[1]}: no book id or shelf`);
-  return { reviewId: match[1]!, bookId, shelf: shelf as ExclusiveShelf, html };
-});
+export const savedRows: readonly Row[] = rowsIn(
+  fixture.slice(firstRow, afterLastRow),
+);
+
+/** The review id of the other edition of _Essentialism_, on the read shelf. */
+export const OTHER_ESSENTIALISM = "5557855762";
+
+/**
+ * The review ids of real rows of works published before the year 1000,
+ * scrubbed, last on the list; their review pages are not saved.
+ */
+export const ANCIENT_WORKS = {
+  /** _The Iliad_: published "-750", on "read". */
+  iliad: "7046468331",
+  /** _The Aeneid_: published "-19", on "on-deck". */
+  aeneid: "3964785038",
+  /** _The Age of Alexander_: published "100", on "to-read". */
+  ageOfAlexander: "5176558435",
+} as const;
+
+/** A real list row, scrubbed, by its review id; not on the saved page. */
+async function savedRow(id: string): Promise<Row> {
+  return rowsIn(
+    await Bun.file(
+      join(import.meta.dir, `../../fixtures/list-row-${id}.html`),
+    ).text(),
+  )[0]!;
+}
+
+/** The real rows last on the list. */
+const lastRows: readonly Row[] = await Promise.all(
+  [
+    ...Object.values(ANCIENT_WORKS),
+    SAVED_REVIEWS.diamondAge,
+    SAVED_REVIEWS.greatCode,
+    OTHER_ESSENTIALISM,
+    SAVED_REVIEWS.critique,
+  ].map(savedRow),
+);
 
 /** Replaces a whole number (not part of a longer one) everywhere. */
 function replaceId(html: string, from: string, to: string): string {
@@ -170,11 +270,12 @@ function replaceId(html: string, from: string, to: string): string {
 /** A row like `row`, under new ids and on `shelf`. */
 export function rowLike(
   row: Row,
-  ids: { reviewId: string; bookId: string },
+  ids: { id: string; bookId: string; workId: string },
   shelf: ExclusiveShelf = row.shelf,
 ): Row {
-  let html = replaceId(row.html, row.reviewId, ids.reviewId);
+  let html = replaceId(row.html, row.id, ids.id);
   html = replaceId(html, row.bookId, ids.bookId);
+  html = replaceId(html, row.workId, ids.workId);
   html = html.replace(
     /(<a class="shelfLink"[^>]*href="[^"]*shelf=)[^"]*("[^>]*>)[^<]*(<\/a>)/,
     `$1${shelf}$2${shelf}$3`,
@@ -183,29 +284,69 @@ export function rowLike(
 }
 
 /** The ids of the `n`th made-up row; they never collide with saved ones. */
-export function madeUpIds(n: number): { reviewId: string; bookId: string } {
+export function madeUpIds(n: number): {
+  id: string;
+  bookId: string;
+  workId: string;
+} {
   return {
-    reviewId: String(7_000_000_000 + n),
+    id: String(7_000_000_000 + n),
     bookId: String(900_000_000 + n),
+    workId: String(800_000_000 + n),
   };
 }
 
-/** The full list: 1450 rows with the real counts, page 1 the saved page. */
+/** A row's "# times read", its number after the cell's opening. */
+export const TIMES_READ =
+  /(field read_count"[^>]*><label># times read<\/label><div class="value">\s*)\d+/;
+
+/** _Debt_'s own "Finished Reading" rows, one undated: the slim page's. */
+const SLIM_READS = 2;
+
+/**
+ * `row` with its "# times read" as Goodreads gives it for the review page
+ * served: a saved page's row is real, as it is; a slim page has _Debt_'s
+ * reads, plus 1 on "currently-reading", the read in progress (so on all
+ * 1458 real rows on 2026-11-21).
+ */
+function withTimesRead(row: Row): Row {
+  if (reviewFixtures.has(row.id)) return row;
+  if (!TIMES_READ.test(row.html))
+    throw new Error(`row ${row.id}: no "# times read"`);
+  const times = SLIM_READS + (row.shelf === "currently-reading" ? 1 : 0);
+  return { ...row, html: row.html.replace(TIMES_READ, `$1${times}`) };
+}
+
+/**
+ * The full list: 1450 rows with the real counts, page 1 the saved page, the
+ * real rows of the three ancient works, _The Diamond Age_, _The Great Code_,
+ * the other edition of _Essentialism_ and _Critique of Pure Reason_ last.
+ * Each row's "# times read" agrees with the review page served.
+ */
 export function realList(): Row[] {
   const remaining = { ...REAL_COUNTS };
-  for (const row of savedRows) remaining[row.shelf]--;
+  for (const row of [...savedRows, ...lastRows]) remaining[row.shelf]--;
   const shelves = (Object.keys(remaining) as ExclusiveShelf[]).flatMap(
     (shelf) => Array<ExclusiveShelf>(remaining[shelf]).fill(shelf),
   );
-  // interleave the shelves, so each page has a mix
+  // interleave the shelves, so each page has a mix: every 7th, or the next
+  // step with no factor in common with the length, so each is taken once
   shelves.sort((a, b) => a.localeCompare(b));
-  const mixed = shelves.map((_, i) => shelves[(i * 7) % shelves.length]!);
+  let step = 7;
+  while (gcd(step, shelves.length) !== 1) step++;
+  const mixed = shelves.map((_, i) => shelves[(i * step) % shelves.length]!);
   return [
     ...savedRows,
     ...mixed.map((shelf, i) =>
       rowLike(savedRows[i % savedRows.length]!, madeUpIds(i), shelf),
     ),
-  ];
+    ...lastRows,
+  ].map(withTimesRead);
+}
+
+/** The greatest common divisor of two positive integers. */
+function gcd(a: number, b: number): number {
+  return b === 0 ? a : gcd(b, a % b);
 }
 
 /** Counts per exclusive shelf. */
@@ -217,10 +358,15 @@ export function countsOf(rows: readonly Row[]): Record<ExclusiveShelf, number> {
   return counts;
 }
 
-/** A list page: the saved page's frame, with these rows and sidebar counts. */
+/**
+ * A list page: the saved page's frame, with these rows and sidebar counts;
+ * each tag's sidebar count is its rows' in `list`, the whole list, as on the
+ * captured page (data/61-pages/list-p12-long-term.html: "long-term (1)").
+ */
 export function renderPage(
   rows: readonly Row[],
   counts: Readonly<Record<ExclusiveShelf, number>> = countsOf(rows),
+  list: readonly Row[] = rows,
 ): string {
   let frame = head;
   for (const [shelf, count] of Object.entries(counts)) {
@@ -229,6 +375,11 @@ export function renderPage(
       `$1${count}$2`,
     );
   }
+  frame = frame.replace(
+    /(tag=([^"]+)">[^<]*&lrm;\()\d+(\))/g,
+    (_, before: string, tag: string, after: string) =>
+      `${before}${list.filter((row) => row.html.includes(`?tag=${tag}"`)).length}${after}`,
+  );
   return frame + rows.map((row) => row.html).join("\n") + tail;
 }
 
@@ -302,10 +453,10 @@ export function fakeGoodreads(
         );
         return answer ?? html(bookPage(row));
       }
-      const reviewId = /^\/review\/show\/(\d+)$/.exec(pathname)?.[1];
-      if (reviewId !== undefined) {
-        fake.reviewRequests.push(reviewId);
-        const row = list.find((r) => r.reviewId === reviewId);
+      const id = /^\/review\/show\/(\d+)$/.exec(pathname)?.[1];
+      if (id !== undefined) {
+        fake.reviewRequests.push(id);
+        const row = list.find((r) => r.id === id);
         if (row === undefined)
           return new Response("not found", { status: 404 });
         const answer = await options.review?.(
@@ -327,7 +478,7 @@ export function fakeGoodreads(
       if (answer !== undefined) return answer;
       options.before?.(page, list);
       const rows = list.slice((page - 1) * 100, page * 100);
-      return html(renderPage(rows, options.counts ?? countsOf(list)));
+      return html(renderPage(rows, options.counts ?? countsOf(list), list));
     },
   };
   return fake;

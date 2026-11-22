@@ -85,11 +85,12 @@ export interface Completeness {
 /**
  * Checks that the list pages hold every book exactly once (C2, C3):
  *
- * 1. every page's sidebar equals page 1's, or the list changed during the
- *    run (`count-mismatch`);
+ * 1. every page's sidebar equals page 1's, its exclusive shelves and its
+ *    tags, or the list changed during the run (`count-mismatch`);
  * 2. every page but the last has exactly 100 rows, the last 1 to 100
  *    (`page-size`);
- * 3. the unique books on each exclusive shelf equal its sidebar count
+ * 3. the unique books on each exclusive shelf, and with each tag, equal
+ *    its sidebar count, and every tag on a row is in the sidebar
  *    (`count-mismatch`): a list that shifted during the run can hide a gap
  *    behind a duplicate, and keep the row count right;
  * 4. no book is listed twice (`duplicate-book`).
@@ -103,17 +104,23 @@ export function checkCompleteness(pages: readonly ListPage[]): Completeness {
   if (first === undefined) throw fail("page-size", "no list pages");
 
   for (const page of pages) {
-    const changed = EXCLUSIVE_SHELVES.filter(
-      (shelf) => page.counts[shelf] !== first.counts[shelf],
-    );
+    // a tag is named apart: a shelf and a tag may share a name
+    const sidebar = (p: ListPage): Record<string, number> => ({
+      ...p.counts,
+      ...Object.fromEntries(
+        Object.entries(p.tagCounts).map(([tag, n]) => [`tag ${tag}`, n]),
+      ),
+    });
+    const [now, then] = [sidebar(page), sidebar(first)];
+    const changed = [
+      ...new Set([...Object.keys(then), ...Object.keys(now)]),
+    ].filter((name) => now[name] !== then[name]);
+    const shown = (counts: Record<string, number>) =>
+      changed.map((name) => `${name} ${counts[name] ?? "none"}`).join(", ");
     if (changed.length > 0) {
       throw fail(
         "count-mismatch",
-        `the list changed during the run: page ${page.page}'s sidebar has ${changed
-          .map((shelf) => `${shelf} ${page.counts[shelf]}`)
-          .join(
-            ", ",
-          )}, page 1's ${changed.map((shelf) => `${shelf} ${first.counts[shelf]}`).join(", ")}`,
+        `the list changed during the run: page ${page.page}'s sidebar has ${shown(now)}, page 1's ${shown(then)}`,
       );
     }
   }
@@ -134,6 +141,9 @@ export function checkCompleteness(pages: readonly ListPage[]): Completeness {
   const unique = Object.fromEntries(
     EXCLUSIVE_SHELVES.map((shelf) => [shelf, new Set<string>()]),
   ) as Record<ExclusiveShelf, Set<string>>;
+  const tagged = new Map<string, Set<string>>(
+    Object.keys(first.tagCounts).map((tag) => [tag, new Set()]),
+  );
   for (const page of pages) {
     for (const item of page.items) {
       const before = seen.get(item.bookId);
@@ -142,23 +152,33 @@ export function checkCompleteness(pages: readonly ListPage[]): Completeness {
           `book ${item.bookId} on pages ${before} and ${page.page}`,
         );
       else seen.set(item.bookId, page.page);
-      unique[item.userExclusiveShelf].add(item.bookId);
+      unique[item.userShelf].add(item.bookId);
+      for (const tag of item.userTags) {
+        if (!tagged.has(tag)) tagged.set(tag, new Set());
+        tagged.get(tag)!.add(item.bookId);
+      }
     }
   }
 
   const counts = first.counts;
-  const short = EXCLUSIVE_SHELVES.filter(
-    (shelf) => unique[shelf].size !== counts[shelf],
-  );
+  const short = [
+    ...EXCLUSIVE_SHELVES.filter(
+      (shelf) => unique[shelf].size !== counts[shelf],
+    ).map(
+      (shelf) => `${shelf} ${unique[shelf].size} (sidebar ${counts[shelf]})`,
+    ),
+    ...[...tagged]
+      .filter(([tag, books]) => books.size !== first.tagCounts[tag])
+      .map(([tag, books]) =>
+        tag in first.tagCounts
+          ? `${tag} ${books.size} (sidebar ${first.tagCounts[tag]})`
+          : `${tag} ${books.size} (not in the sidebar)`,
+      ),
+  ];
   if (short.length > 0) {
     throw fail(
       "count-mismatch",
-      `unique books per shelf differ from the sidebar: ${short
-        .map(
-          (shelf) =>
-            `${shelf} ${unique[shelf].size} (sidebar ${counts[shelf]})`,
-        )
-        .join(", ")}` +
+      `unique books per shelf or tag differ from the sidebar: ${short.join(", ")}` +
         (duplicates.length > 0
           ? `; listed twice: ${duplicates.join(", ")}`
           : ""),

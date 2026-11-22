@@ -47,6 +47,7 @@ A bun workspace.
   scripts)
 - `thoughts/BACKLOG.md` — idea inbox
 - `docs/` — lasting reference (agent docs)
+- `docs/goodreads-schema.html` — the `goodreads.json` schema, field by field
 
 ## Usage
 

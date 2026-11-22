@@ -12,7 +12,7 @@ import { describeIssues } from "../list/parse.ts";
 /** One review page, parsed and validated. */
 export interface ReviewPage {
   /** From the heading's link to the shelf: "… ?shelf=read". */
-  exclusiveShelf: ExclusiveShelf;
+  shelf: ExclusiveShelf;
   /** The reading timeline, in page order, as shown. */
   timeline: TimelineRow[];
   /** The review, as HTML, trimmed; `""` when there is none. */
@@ -22,7 +22,7 @@ export interface ReviewPage {
 const Shelf = z.enum(EXCLUSIVE_SHELVES);
 
 /**
- * Parses a signed-in review page (`review/show/<reviewId>`): the exclusive
+ * Parses a signed-in review page (`review/show/<id>`): the exclusive
  * shelf from the heading, and the reading timeline, raw. Each value is
  * validated with zod as it is parsed (S1).
  *
@@ -36,12 +36,12 @@ const Shelf = z.enum(EXCLUSIVE_SHELVES);
  */
 export function parseReviewPage(
   html: string,
-  reviewId: string,
+  id: string,
   url: string,
 ): ReviewPage {
   // source locations: the review is cut from the page source as it is
   const $ = cheerio.load(html, { sourceCodeLocationInfo: true });
-  const where = `review page ${reviewId}`;
+  const where = `review page ${id}`;
   const fail = (mode: "layout-change" | "parse-failure", detail: string) =>
     new ScrapeFailure({
       step: "review-pages",
@@ -57,11 +57,11 @@ export function parseReviewPage(
     heading.attr("href")!,
     "https://www.goodreads.com",
   ).searchParams.get("shelf");
-  const exclusiveShelf = Shelf.safeParse(shelf);
-  if (!exclusiveShelf.success)
+  const parsed = Shelf.safeParse(shelf);
+  if (!parsed.success)
     throw fail(
       "parse-failure",
-      `heading shelf: ${describeIssues(exclusiveShelf.error, { shelf })}`,
+      `heading shelf: ${describeIssues(parsed.error, { shelf })}`,
     );
 
   const box = $(".readingTimeline");
@@ -112,7 +112,7 @@ export function parseReviewPage(
       : "";
 
   return {
-    exclusiveShelf: exclusiveShelf.data,
+    shelf: parsed.data,
     timeline,
     userReview,
   };

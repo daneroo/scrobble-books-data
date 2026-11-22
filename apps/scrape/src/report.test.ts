@@ -17,6 +17,11 @@ describe("report", () => {
         reviewPages: 1450,
         bookPages: 1450,
         published: "goodreads.json",
+        repeatedWorks: [],
+        shelvedDayMismatches: [],
+        readCountMismatches: [],
+        readWithoutFinish: [],
+        publishedAsShown: [],
       },
       secrets,
     );
@@ -109,6 +114,11 @@ describe("report", () => {
         reviewPages: 1450,
         bookPages: 1450,
         published: "goodreads.json",
+        repeatedWorks: [],
+        shelvedDayMismatches: [],
+        readCountMismatches: [],
+        readWithoutFinish: [],
+        publishedAsShown: [],
       },
       secrets,
     );

@@ -1,6 +1,6 @@
 [
   {
-    "reviewId": "9069353168",
+    "id": "9069353168",
     "title": "A Drop of Corruption (Ana and Din Mysteries, #2)",
     "bookId": "213618143",
     "bookURL": "https://www.goodreads.com/book/show/213618143-a-drop-of-corruption",
@@ -8,10 +8,16 @@
     "isbn": "0593723821",
     "userRating": 0,
     "userAddedAt": "2026-11-01T07:00:00.000Z",
-    "userExclusiveShelf": "currently-reading",
+    "userShelf": "currently-reading",
+    "userTags": [],
     "averageRating": "4.5",
-    "bookPublished": "Apr 01, 2025",
+    "bookPublished": "2025-04-01",
     "numPages": "461",
+    "workId": "125997193",
+    "userUpdatedAt": "2026-11-02T08:00:00.000Z",
+    "userReadCount": 0,
+    "userFirstReadAt": "",
+    "userLastReadAt": "",
     "userReview": "",
     "bookDescription": "<b>The brilliant detective Ana Dolabra may have finally met her match in the gripping sequel to <i>The Tainted Cup</i>—from the bestselling author of <i>The Founders Trilogy</i>.</b><br /><br />In the canton of Yarrowdale, at the very edge of the Empire’s reach, an impossible crime has occurred. A Treasury officer has disappeared into thin air—abducted from his quarters while the door and windows remained locked from the inside, in a building whose entrances and exits are all under constant guard.<br /><br />To solve the case, the Empire calls on its most brilliant and mercurial investigator, the great Ana Dolabra. At her side, as always, is her bemused assistant Dinios Kol.<br /><br />Before long, Ana’s discovered that they’re not investigating a disappearance, but a murder—and that the killing was just the first chess move by an adversary who seems to be able to pass through warded doors like a ghost, and who can predict every one of Ana’s moves as though they can see the future.<br /><br />Worse still, the killer seems to be targeting the high-security compound known as the Shroud. Here, the Empire's greatest minds dissect fallen Titans to harness the volatile magic found in their blood. Should it fall, the destruction would be terrible indeed—and the Empire itself will grind to a halt, robbed of the magic that allows its wheels of power to turn.<br /><br />Din has seen Ana solve impossible cases before. But this time, with the stakes higher than ever and Ana seemingly a step behind their adversary at every turn, he fears that his superior has finally met an enemy she can’t defeat.",
     "authorName": "Robert Jackson Bennett",
@@ -35,7 +41,7 @@
     ]
   },
   {
-    "reviewId": "9043895547",
+    "id": "9043895547",
     "title": "Debt: The First 5,000 Years",
     "bookId": "6617037",
     "bookURL": "https://www.goodreads.com/book/show/6617037-debt",
@@ -43,11 +49,16 @@
     "isbn": "1933633867",
     "userRating": 4.25,
     "userAddedAt": "2026-10-21T07:00:00.000Z",
-    "userExclusiveShelf": "read",
+    "userShelf": "read",
+    "userTags": [],
     "averageRating": "4.2",
-    "bookPublished": "Jul 12, 2011",
+    "bookPublished": "2011-07-12",
     "numPages": "534",
-    "reviewUpdatedAt": "2026-10-30T04:26:04.552Z",
+    "workId": "6811142",
+    "userUpdatedAt": "2026-10-30T04:26:04.552Z",
+    "userReadCount": 2,
+    "userFirstReadAt": "2026-10-29T07:00:00.000Z",
+    "userLastReadAt": "2026-10-29T07:00:00.000Z",
     "userReview": "",
     "bookDescription": "The classic work on debt, now is a special tenth anniversary edition with a new introduction by Thomas Piketty<br /><br />Before there was money, there was debt.<br />Every economics textbook says the same Money was invented to replace onerous and complicated barter systems—to relieve ancient people from having to haul their goods to market. The problem with this version of history? There’s not a shred of evidence to support it.<br /><br />Here anthropologist David Graeber presents a stunning reversal of conventional wisdom. He shows that for more than 5,000 years, since the beginnings of the first agrarian empires, humans have used elaborate credit systems to buy and sell goods—that is, long before the invention of coins or cash. It is in this era, Graeber argues, that we also first encounter a society divided into debtors and creditors.<br /><br />Graeber shows that arguments about debt and debt forgiveness have been at the center of political debates from Italy to China, as well as sparking innumerable insurrections. He also brilliantly demonstrates that the language of the ancient works of law and religion (words like “guilt,” “sin,” and “redemption”) derive in large part from ancient debates about debt, and shape even our most basic ideas of right and wrong. We are still fighting these battles today without knowing it.<br /><br /> The First 5,000 Years is a fascinating chronicle of this little known history—as well as how it has defined human history. It shows how debt has defined our human past, and what that means for our economic future.",
     "authorName": "David Graeber",
@@ -95,7 +106,7 @@
     ]
   },
   {
-    "reviewId": "8977513831",
+    "id": "8977513831",
     "title": "Black Ops (Expeditionary Force, #4)",
     "bookId": "35224512",
     "bookURL": "https://www.goodreads.com/book/show/35224512-black-ops",
@@ -103,11 +114,16 @@
     "isbn": "",
     "userRating": 4,
     "userAddedAt": "2026-09-26T07:00:00.000Z",
-    "userExclusiveShelf": "read",
+    "userShelf": "read",
+    "userTags": [],
     "averageRating": "4.3",
-    "bookPublished": "May 24, 2017",
+    "bookPublished": "2017-05-24",
     "numPages": "278",
-    "reviewUpdatedAt": "2026-10-02T05:57:15.202Z",
+    "workId": "56568343",
+    "userUpdatedAt": "2026-10-02T05:57:15.202Z",
+    "userReadCount": 1,
+    "userFirstReadAt": "2026-10-01T07:00:00.000Z",
+    "userLastReadAt": "2026-10-01T07:00:00.000Z",
     "userReview": "",
     "bookDescription": "The elite crew of the pirate ship UNS Flying Dutchman had a simple mission: determining whether the Thuranin are sending another starship to Earth. Along the way, they became sidetracked by securing a future for the UNEF troops on the planet Paradise. When asked whether Earth was now safe, their ancient alien AI responded 'Not so much'... now they have to deal with the consequences.",
     "authorName": "Craig Alanson",
@@ -151,7 +167,7 @@
     ]
   },
   {
-    "reviewId": "8933967943",
+    "id": "8933967943",
     "title": "Winterfair Gifts (Vorkosigan Saga, #13.1)",
     "bookId": "3746202",
     "bookURL": "https://www.goodreads.com/book/show/3746202-winterfair-gifts",
@@ -159,11 +175,16 @@
     "isbn": "1433250195",
     "userRating": 4,
     "userAddedAt": "2026-09-09T07:00:00.000Z",
-    "userExclusiveShelf": "read",
+    "userShelf": "read",
+    "userTags": [],
     "averageRating": "4.2",
-    "bookPublished": "Jan 01, 2002",
+    "bookPublished": "2002-01-01",
     "numPages": "0",
-    "reviewUpdatedAt": "2026-09-11T06:27:29.813Z",
+    "workId": "60198",
+    "userUpdatedAt": "2026-09-11T06:27:29.813Z",
+    "userReadCount": 1,
+    "userFirstReadAt": "2026-09-10T07:00:00.000Z",
+    "userLastReadAt": "2026-09-10T07:00:00.000Z",
     "userReview": "",
     "bookDescription": "This Hugo-nominated novella adds a delightful extra chapter to Bujold's Vorkosigan series, describing the wedding of Miles and Ekaterin and events leading up to it. In the festive season of Winterfair on the planet Barrayar, Lord Miles Vorkosigan is making elaborate preparations for his wedding. The long-awaited event stirs up romance and intrigue among his eccentric family and friends, particularly for bioengineered space mercenary Sergeant Taura and shy, diffident Armsman Roic. But Miles also has an enemy who is plotting to turn the romantic ceremony into a festival of death. Winterfair Gifts offers another of Bujold's witty, character-centered science fiction plots with a twist of romance.",
     "authorName": "Lois McMaster Bujold",
@@ -191,7 +212,7 @@
     ]
   },
   {
-    "reviewId": "8557895838",
+    "id": "8557895838",
     "title": "Saving Byzantium: The Struggle to Salvage an Empire",
     "bookId": "229141546",
     "bookURL": "https://www.goodreads.com/book/show/229141546-saving-byzantium",
@@ -199,10 +220,16 @@
     "isbn": "139812219X",
     "userRating": 0,
     "userAddedAt": "2026-04-28T07:00:00.000Z",
-    "userExclusiveShelf": "on-deck",
+    "userShelf": "on-deck",
+    "userTags": [],
     "averageRating": "5.0",
-    "bookPublished": "Feb 15, 2026",
+    "bookPublished": "2026-02-15",
     "numPages": "320",
+    "workId": "240875002",
+    "userUpdatedAt": "2026-04-28T07:00:00.000Z",
+    "userReadCount": 0,
+    "userFirstReadAt": "",
+    "userLastReadAt": "",
     "userReview": "",
     "bookDescription": "In this compelling, readable and revisionist book, historian Laura Bolick makes a powerful case that the fall of Constantinople, which marked the end of the ancient Roman and Byzantine Empire, was not inevitable, as most historians have argued. Basing her opinion on the activities of two significant Byzantine officials, Iohannes Bessarion and Isidore of Kiev, Laura Bolick analyses the efforts that they made to galvanise the Roman Catholic west into forming a crusade that would defend Constantinople from the encroaching Ottoman Turks. As the book shows, the Byzantine emissaries faced formidable obstacles, notably the strong divisions between Roman Catholic Christianity in the West and Orthodox Christianity in the east. They also had to navigate mutual suspicion and indifference. The book charts their continuing efforts to surmount the difficulties in order to promote a spiritual, cultural, political and military alliance against the Ottomans. Although Constantinople would eventually fall, this book provides a new insight into this momentous period of history and one that is sure to stimulate renewed interest and discussion.",
     "authorName": "Laura Bolick",
@@ -214,6 +241,53 @@
       {
         "dateText": "April 28, 2026",
         "event": "Shelved"
+      }
+    ]
+  },
+  {
+    "id": "4039959353",
+    "title": "Critique of Pure Reason",
+    "bookId": "18288",
+    "bookURL": "https://www.goodreads.com/book/show/18288.Critique_of_Pure_Reason",
+    "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1757108780l/18288._SY75_.jpg",
+    "isbn": "0521657296",
+    "userRating": 0,
+    "userAddedAt": "2021-06-03T07:00:00.000Z",
+    "userShelf": "currently-reading",
+    "userTags": [
+      "long-term"
+    ],
+    "averageRating": "4.0",
+    "bookPublished": "1781",
+    "numPages": "785",
+    "workId": "1072226",
+    "userUpdatedAt": "2026-11-21T08:00:00.000Z",
+    "userReadCount": 0,
+    "userFirstReadAt": "",
+    "userLastReadAt": "",
+    "userReview": "",
+    "bookDescription": "<b>\n  <i>'The purpose of this critique of pure speculative reason consists in the attempt to change the old procedure of metaphysics and to bring about a complete revolution'</i>\n</b><br /><br />Kant's <i>Critique of Pure Reason</i> (1781) is the central text of modern philosophy. It presents a profound and challenging investigation into the nature of human reason, its knowledge and its illusions. Reason, Kant argues, is the seat of certain concepts that precede experience and make it possible, but we are not therefore entitled to draw conclusions about the natural world from these concepts. The <i>Critique</i> brings together the two opposing schools of philosophy: rationalism, which grounds all our knowledge in reason, and empiricism, which traces all our knowledge to experience. Kant's transcendental idealism indicates a third way that goes far beyond these alternatives.<br /><br />Marcus Weigelt's lucid re-working of Max Müller's classic translation makes the <i>Critique</i> accessible to a new generation of readers. His informative introduction places the work in context and elucidates Kant's main arguments. This edition also contains a bibliography and explanatory notes.",
+    "authorName": "Immanuel Kant",
+    "timeline": [
+      {
+        "dateText": "June 3, 2021",
+        "event": "Shelved as: on-deck"
+      },
+      {
+        "dateText": "June 3, 2021",
+        "event": "Shelved"
+      },
+      {
+        "dateText": "June 7, 2021",
+        "event": "Started Reading"
+      },
+      {
+        "dateText": "June 7, 2021",
+        "event": "10.0%"
+      },
+      {
+        "dateText": "November 21, 2026",
+        "event": "Shelved as: long-term"
       }
     ]
   }

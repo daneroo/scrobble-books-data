@@ -238,7 +238,7 @@ describe("restarts", () => {
     let pass = 0;
     const fake = fakeGoodreads([...savedRows], {
       review: (row) =>
-        pass === 1 && row.reviewId === SAVED_REVIEWS.debt
+        pass === 1 && row.id === SAVED_REVIEWS.debt
           ? new Response("", { status: 503 })
           : undefined,
     });

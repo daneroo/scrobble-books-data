@@ -19,10 +19,12 @@ import { signedInSource } from "./pages/source.ts";
 import { report, type Outcome } from "./report.ts";
 import { runScrape } from "./run.ts";
 import {
+  ANCIENT_WORKS,
   countsOf,
   fakeGoodreads,
   FIXTURE_USER,
   madeUpIds,
+  OTHER_ESSENTIALISM,
   bookPage,
   realList,
   renderPage,
@@ -30,6 +32,7 @@ import {
   rowLike,
   savedRows,
   SAVED_REVIEWS,
+  TIMES_READ,
   type FakeGoodreads,
   type Override,
   type Row,
@@ -93,11 +96,13 @@ async function run(
     }),
   );
   const published = Bun.file(publishPath);
+  const { lines: reportLines, exitCode } = report(outcome, secrets);
   return {
     outcome,
     events,
     lines,
-    exitCode: report(outcome, secrets).exitCode,
+    reportLines,
+    exitCode,
     published: (await published.exists())
       ? ((await published.json()) as Goodreads)
       : undefined,
@@ -124,8 +129,7 @@ describe("a full run", () => {
     expect(new Set(published?.map((item) => item.bookId)).size).toBe(1450);
     const shelves: Record<string, number> = {};
     for (const item of published ?? [])
-      shelves[item.userExclusiveShelf] =
-        (shelves[item.userExclusiveShelf] ?? 0) + 1;
+      shelves[item.userShelf] = (shelves[item.userShelf] ?? 0) + 1;
     expect(shelves).toEqual({
       "to-read": 448,
       "currently-reading": 8,
@@ -148,12 +152,13 @@ describe("a full run", () => {
 
   test("the saved page's rows are stored as Goodreads shows them", async () => {
     const { published } = await run(fakeGoodreads(realList()));
-    const byReview = new Map(published?.map((item) => [item.reviewId, item]));
+    const byId = new Map(published?.map((item) => [item.id, item]));
 
-    // a plain array, one flat object per book
+    // a plain array, one flat object per entry
     expect(published).toBeArray();
     // the first row: currently reading, unrated, no read date (its review
-    // page isn't saved, so its timeline is made up: left out here)
+    // page isn't saved, so its timeline is made up: left out here, and its
+    // reads, made up too, are only there)
     const { timeline, userReview, bookDescription, authorName, ...first } =
       published![0]!;
     // its book page is Debt's, served under its id
@@ -164,7 +169,7 @@ describe("a full run", () => {
     expect(timeline).toBeArray();
     expect(userReview).toBe("");
     expect(first).toEqual({
-      reviewId: "9069353168",
+      id: "9069353168",
       title: "A Drop of Corruption (Ana and Din Mysteries, #2)",
       bookId: "213618143",
       bookURL:
@@ -175,38 +180,128 @@ describe("a full run", () => {
       userRating: 0,
       // "Nov 01, 2026": the start of that Pacific day (PDT), in UTC
       userAddedAt: "2026-11-01T07:00:00.000Z",
-      userExclusiveShelf: "currently-reading",
+      userShelf: "currently-reading",
+      userTags: [],
       // shown as 4.47; toFixed(1), only to avoid flapping
       averageRating: "4.5",
-      bookPublished: "Apr 01, 2025",
+      // "Apr 01, 2025"
+      bookPublished: "2025-04-01",
       numPages: "461",
+      workId: "125997193",
+      // no updatedAt on its book page: its "Shelved" row's day, its latest
+      userUpdatedAt: "2026-11-01T07:00:00.000Z",
+      userReadCount: expect.any(Number),
+      userFirstReadAt: expect.any(String),
+      userLastReadAt: expect.any(String),
     });
     // a fractional rating
-    expect(byReview.get("9043895547")).toMatchObject({
+    expect(byId.get("9043895547")).toMatchObject({
       title: "Debt: The First 5,000 Years",
       userRating: 4.25,
       userAddedAt: "2026-10-21T07:00:00.000Z",
-      userExclusiveShelf: "read",
+      userShelf: "read",
       numPages: "534",
     });
     // unknown page count
-    expect(byReview.get("8933967943")).toMatchObject({
+    expect(byId.get("8933967943")).toMatchObject({
       title: "Winterfair Gifts (Vorkosigan Saga, #13.1)",
       numPages: "0",
-      bookPublished: "Jan 01, 2002",
+      // "Jan 01, 2002"
+      bookPublished: "2002-01-01",
     });
     // no cover, an ISBN ending in X
-    expect(byReview.get("8557895838")).toMatchObject({
+    expect(byId.get("8557895838")).toMatchObject({
       bookImageURL:
         "https://s.gr-assets.com/assets/nophoto/book/50x75-1b903c9eac1b2ba789662c08a0ae41e6.png",
       isbn: "139812219X",
-      userExclusiveShelf: "on-deck",
+      userShelf: "on-deck",
       averageRating: "5.0",
     });
     // no ISBN
-    expect(byReview.get("8977513831")).toMatchObject({
+    expect(byId.get("8977513831")).toMatchObject({
       isbn: "",
     });
+  });
+
+  test("bookPublished is ISO 8601 at the precision shown; unknown is ''", async () => {
+    const { published } = await run(fakeGoodreads(realList()));
+    const byId = new Map(published?.map((item) => [item.id, item]));
+    const bookPublished = (id: string) => byId.get(id)?.bookPublished;
+    // each format on the real list pages of 2026-11-21, as Goodreads shows it
+    expect({
+      // "Jul 12, 2011": a day (Debt)
+      day: bookPublished(SAVED_REVIEWS.debt),
+      // "Aug 2012": a month (King of Thorns)
+      month: bookPublished("9047374292"),
+      // "1954": a year (The Eagle of the Ninth)
+      year: bookPublished("9037327663"),
+      // "-750", "-19": a year before the year 1, padded to 4 digits
+      iliad: bookPublished(ANCIENT_WORKS.iliad),
+      aeneid: bookPublished(ANCIENT_WORKS.aeneid),
+      // "100": a year of 3 digits, padded
+      ageOfAlexander: bookPublished(ANCIENT_WORKS.ageOfAlexander),
+      // "unknown" (Shocks, Crises, and False Alarms)
+      unknown: bookPublished("9049757250"),
+    }).toEqual({
+      day: "2011-07-12",
+      month: "2012-08",
+      year: "1954",
+      iliad: "-0750",
+      aeneid: "-0019",
+      ageOfAlexander: "0100",
+      unknown: "",
+    });
+  });
+
+  test("every entry is keyed by id, its review id: /review/show/<id> is its review page", async () => {
+    const fake = fakeGoodreads(realList());
+    const { published } = await run(fake);
+    const ids = published!.map((item) => item.id);
+    expect(published!.filter((item) => "reviewId" in item)).toEqual([]);
+    expect(ids.every((id) => /^\d+$/.test(id))).toBe(true);
+    expect(new Set(ids).size).toBe(1450);
+    // the review pages fetched are exactly the entries' ids
+    expect(new Set(fake.reviewRequests)).toEqual(new Set(ids));
+  });
+
+  test("every entry has its work, from its book page; two editions of Essentialism share one", async () => {
+    const { published } = await run(fakeGoodreads(realList()));
+    expect(published!.filter((item) => !/^\d+$/.test(item.workId))).toEqual([]);
+    // the two real editions, with their real work (data/61-pages)
+    expect(
+      published!
+        .filter((item) => item.workId === "25369241")
+        .map(({ id, bookId }) => ({ id, bookId })),
+    ).toEqual([
+      { id: SAVED_REVIEWS.essentialism, bookId: "19776547" },
+      { id: OTHER_ESSENTIALISM, bookId: "18077875" },
+    ]);
+    // Debt's real work
+    expect(
+      published!.find((item) => item.id === SAVED_REVIEWS.debt)?.workId,
+    ).toBe("6811142");
+  });
+
+  test("a work on the list twice is kept as two entries, and the run ends with a warning, still passing", async () => {
+    const { outcome, published, reportLines, exitCode } = await run(
+      fakeGoodreads(realList()),
+    );
+    expect(exitCode).toBe(0);
+    expect(published).toHaveLength(1450);
+    expect(reportLines[0]).toStartWith("PASS: ");
+    // on screen, the count only
+    expect(reportLines.slice(1)).toEqual([
+      "WARN: 2 works have more than one entry",
+    ]);
+    // the list, in list order: Essentialism, then Shards of Honour and
+    // Shards of Honor, both real rows of the saved page
+    expect(outcome.ok && outcome.repeatedWorks).toEqual([
+      {
+        workId: "25369241",
+        ids: [SAVED_REVIEWS.essentialism, OTHER_ESSENTIALISM],
+      },
+      { workId: "9673658", ids: ["8793576225", "8760104438"] },
+    ]);
   });
 
   test("fetches every book's review page and stores its timeline as shown", async () => {
@@ -227,16 +322,14 @@ describe("a full run", () => {
       { dateText: "October 31, 2026", event: "99.0%" },
       { dateText: "October 31, 2026", event: "Finished Reading" },
     ];
-    const item = published?.find(
-      (i) => i.reviewId === SAVED_REVIEWS.taintedCup,
-    );
-    expect(item?.userExclusiveShelf).toBe("read");
+    const item = published?.find((i) => i.id === SAVED_REVIEWS.taintedCup);
+    expect(item?.userShelf).toBe("read");
     expect(item?.timeline).toEqual(taintedCup);
   });
 
   test("an undated timeline row has dateText '', without the 'Add a date' link (Debt)", async () => {
     const { published } = await run(fakeGoodreads(realList()));
-    const debt = published?.find((i) => i.reviewId === SAVED_REVIEWS.debt);
+    const debt = published?.find((i) => i.id === SAVED_REVIEWS.debt);
     expect(debt?.userRating).toBe(4.25);
     expect(debt?.timeline).toEqual([
       { dateText: "October 21, 2026", event: "Started Reading" },
@@ -255,9 +348,9 @@ describe("a full run", () => {
   test("a re-read of another edition keeps the edition in the event (Essentialism)", async () => {
     const { published } = await run(fakeGoodreads(realList()));
     const essentialism = published?.find(
-      (i) => i.reviewId === SAVED_REVIEWS.essentialism,
+      (i) => i.id === SAVED_REVIEWS.essentialism,
     );
-    expect(essentialism?.userExclusiveShelf).toBe("currently-reading");
+    expect(essentialism?.userShelf).toBe("currently-reading");
     // whitespace as a browser shows it: "September  6" in the page
     expect(essentialism?.timeline).toEqual([
       {
@@ -276,15 +369,341 @@ describe("a full run", () => {
     ]);
   });
 
-  test("the review update comes from the book page, absent with no rating or review", async () => {
+  test("userUpdatedAt is the book page's updatedAt, to the millisecond (Debt)", async () => {
     const { published } = await run(fakeGoodreads(realList()));
-    const debt = published?.find((i) => i.reviewId === SAVED_REVIEWS.debt);
-    // updatedAt 1793334364552 ms
-    expect(debt?.reviewUpdatedAt).toBe("2026-10-30T04:26:04.552Z");
-    // the other books' pages have no review in the viewer's shelving
-    const first = published![0]!;
-    expect(first.reviewUpdatedAt).toBeUndefined();
-    expect("reviewUpdatedAt" in first).toBe(false);
+    const debt = published?.find((i) => i.id === SAVED_REVIEWS.debt);
+    // updatedAt 1793334364552 ms, a day after its last timeline row
+    expect(debt?.userUpdatedAt).toBe("2026-10-30T04:26:04.552Z");
+    expect(published!.filter((item) => "reviewUpdatedAt" in item)).toEqual([]);
+    expect(published!.filter((item) => !item.userUpdatedAt)).toEqual([]);
+  });
+
+  test("without updatedAt, userUpdatedAt is the latest day of its own timeline rows, as that Pacific day's start", async () => {
+    // only Debt's book page keeps its Review: every other entry falls back
+    const { published } = await run(fakeGoodreads(realList()));
+    const byId = new Map(published?.map((item) => [item.id, item]));
+    // "October 31, 2026 – Finished Reading" (PDT); its real updatedAt,
+    // 2026-10-31T07:55:10.459Z, is that same Pacific day
+    expect(byId.get(SAVED_REVIEWS.taintedCup)?.userUpdatedAt).toBe(
+      "2026-10-31T07:00:00.000Z",
+    );
+    // "May 28, 2023 – Finished Reading": the later rows of the Kindle
+    // edition (August 17, 2026) are another entry's; its real updatedAt,
+    // 2023-05-29T05:42:53.255Z, is that same Pacific day
+    expect(byId.get(SAVED_REVIEWS.otherEssentialism)?.userUpdatedAt).toBe(
+      "2023-05-28T07:00:00.000Z",
+    );
+    // "September 6, 2026 – 23.0%", after the Hardcover edition's rows
+    expect(byId.get(SAVED_REVIEWS.essentialism)?.userUpdatedAt).toBe(
+      "2026-09-06T07:00:00.000Z",
+    );
+    // the first row: its "Shelved" row, November 1, 2026, is its latest
+    expect(published![0]!.userUpdatedAt).toBe("2026-11-01T07:00:00.000Z");
+  });
+
+  test("the fallback skips undated rows and partial dates, and keeps PST", async () => {
+    // as on real review pages: "2021" and "January, 1997" are not days
+    const entry = realList()[42]!;
+    const fake = fakeGoodreads(realList(), {
+      review: (row) =>
+        row.id === entry.id
+          ? new Response(
+              reviewPage(row)
+                .replace(
+                  "October 28, 2026\n&ndash;\n<div",
+                  "December 3, 2026\n&ndash;\n<div",
+                )
+                .replace(
+                  "October 29, 2026\n&ndash;\n<div",
+                  "January, 2027\n&ndash;\n<div",
+                )
+                .replace(
+                  "October 29, 2026\n&ndash;\n<span>",
+                  "2027\n&ndash;\n<span>",
+                ),
+            )
+          : undefined,
+    });
+    const { published } = await run(fake);
+    const item = published?.find((i) => i.id === entry.id);
+    expect(item?.timeline.slice(-3)).toEqual([
+      { dateText: "December 3, 2026", event: "76.0%" },
+      { dateText: "January, 2027", event: "99.0%" },
+      { dateText: "2027", event: "Finished Reading" },
+    ]);
+    // December 3, 2026 starts at 08:00 UTC (PST)
+    expect(item?.userUpdatedAt).toBe("2026-12-03T08:00:00.000Z");
+  });
+
+  test("no updatedAt and no day of its own in the timeline is parse-failure, naming the review page", async () => {
+    const entry = realList()[42]!;
+    const fake = fakeGoodreads(realList(), {
+      review: (row) =>
+        row.id === entry.id
+          ? new Response(
+              reviewPage(row).replace(/[A-Z][a-z]+ \d{1,2}, (\d{4})/g, "$1"),
+            )
+          : undefined,
+    });
+    const { failure } = await expectFailedClosed(fake, "parse-failure");
+    expect(failure.step).toBe("checks");
+    expect(failure.detail).toBe(
+      `review page ${entry.id}: no updatedAt on its book page, and no day in its own timeline rows`,
+    );
+    expect(failure.url).toBe(
+      `https://www.goodreads.com/review/show/${entry.id}`,
+    );
+  });
+
+  test("a book read 3 times has userReadCount 3, first and last its first and last finish (The Diamond Age)", async () => {
+    const { published } = await run(fakeGoodreads(realList()));
+    const item = published?.find((i) => i.id === SAVED_REVIEWS.diamondAge);
+    // its real "Finished Reading" rows: November 23, 2012 (PST),
+    // December 9, 2019, June 27, 2025 (PDT)
+    expect(item).toMatchObject({
+      userReadCount: 3,
+      userFirstReadAt: "2012-11-23T08:00:00.000Z",
+      userLastReadAt: "2025-06-27T07:00:00.000Z",
+    });
+  });
+
+  test("a tagged book has its shelf, and its tags in row order; every other book has none (Critique of Pure Reason)", async () => {
+    const { outcome, published } = await run(fakeGoodreads(realList()));
+    expect(outcome.ok).toBe(true);
+    const item = published?.find((i) => i.id === SAVED_REVIEWS.critique);
+    // its real row: a ?shelf=currently-reading link, then ?tag=long-term
+    expect(item).toMatchObject({
+      title: "Critique of Pure Reason",
+      userShelf: "currently-reading",
+      userTags: ["long-term"],
+    });
+    // tagging adds a timeline row, its latest: the fallback's day
+    expect(item?.timeline.at(-1)).toEqual({
+      dateText: "November 21, 2026",
+      event: "Shelved as: long-term",
+    });
+    expect(item?.userUpdatedAt).toBe("2026-11-21T08:00:00.000Z");
+    expect(
+      published?.filter((i) => i.userTags.length > 0).map((i) => i.id),
+    ).toEqual([SAVED_REVIEWS.critique]);
+  });
+
+  test('a book marked read with no dates is read once, its first and last read "" (The Great Code)', async () => {
+    const { published } = await run(fakeGoodreads(realList()));
+    const item = published?.find((i) => i.id === SAVED_REVIEWS.greatCode);
+    expect(item?.timeline).toEqual([
+      { dateText: "", event: "Finished Reading" },
+      { dateText: "November 5, 2011", event: "Shelved" },
+    ]);
+    expect(item).toMatchObject({
+      userReadCount: 1,
+      userFirstReadAt: "",
+      userLastReadAt: "",
+    });
+  });
+
+  test("another edition's finishes are not counted; an undated finish is (Essentialism, Debt)", async () => {
+    const { published } = await run(fakeGoodreads(realList()));
+    const byId = new Map(published?.map((item) => [item.id, item]));
+    // currently reading the Kindle edition: the Hardcover's finish, May 28,
+    // 2023, is the other entry's
+    const kindle = byId.get(SAVED_REVIEWS.essentialism);
+    expect(kindle).toMatchObject({
+      userReadCount: 0,
+      userFirstReadAt: "",
+      userLastReadAt: "",
+    });
+    // the Hardcover: its own finish only, not the Kindle's rows of 2026
+    expect(byId.get(SAVED_REVIEWS.otherEssentialism)).toMatchObject({
+      userReadCount: 1,
+      userFirstReadAt: "2023-05-28T07:00:00.000Z",
+      userLastReadAt: "2023-05-28T07:00:00.000Z",
+    });
+    // an undated finish, then October 29, 2026: read twice, one date
+    expect(byId.get(SAVED_REVIEWS.debt)).toMatchObject({
+      userReadCount: 2,
+      userFirstReadAt: "2026-10-29T07:00:00.000Z",
+      userLastReadAt: "2026-10-29T07:00:00.000Z",
+    });
+  });
+
+  test("a finish dated by a month or a year is padded to its 1st day; first and last by time, not page order", async () => {
+    // as on real review pages: "February, 1997", a year, "1990", last
+    const entry = realList()[42]!;
+    const fake = fakeGoodreads(realList(), {
+      review: (row) =>
+        row.id === entry.id
+          ? new Response(
+              reviewPage(row)
+                .replace(
+                  "October 21, 2026\n&ndash;\n<span>\nStarted Reading",
+                  "February, 1997\n&ndash;\n<span>\nFinished Reading",
+                )
+                .replace(
+                  "October 29, 2026\n&ndash;\n<span>",
+                  "1990\n&ndash;\n<span>",
+                ),
+            )
+          : undefined,
+    });
+    const { published } = await run(fake);
+    const item = published?.find((i) => i.id === entry.id);
+    expect(
+      item?.timeline.filter((row) => row.event === "Finished Reading"),
+    ).toEqual([
+      { dateText: "February, 1997", event: "Finished Reading" },
+      { dateText: "", event: "Finished Reading" },
+      { dateText: "1990", event: "Finished Reading" },
+    ]);
+    // January 1, 1990 and February 1, 1997, both PST
+    expect(item).toMatchObject({
+      userReadCount: 3,
+      userFirstReadAt: "1990-01-01T08:00:00.000Z",
+      userLastReadAt: "1997-02-01T08:00:00.000Z",
+    });
+  });
+
+  test("a finish dated in another format is parse-failure, naming the review page", async () => {
+    const entry = realList()[42]!;
+    const fake = fakeGoodreads(realList(), {
+      review: (row) =>
+        row.id === entry.id
+          ? new Response(
+              reviewPage(row).replace(
+                "October 29, 2026\n&ndash;\n<span>",
+                "Fall 2026\n&ndash;\n<span>",
+              ),
+            )
+          : undefined,
+    });
+    const { failure } = await expectFailedClosed(fake, "parse-failure");
+    expect(failure.step).toBe("checks");
+    expect(failure.detail).toBe(
+      `review page ${entry.id}: a "Finished Reading" date is not a day, a month or a year: "Fall 2026"`,
+    );
+    expect(failure.url).toBe(
+      `https://www.goodreads.com/review/show/${entry.id}`,
+    );
+  });
+
+  test('every book on "read" has a finish: no warning', async () => {
+    const { outcome, reportLines } = await run(fakeGoodreads(realList()));
+    expect(outcome.ok && outcome.readWithoutFinish).toEqual([]);
+    expect(reportLines.join("\n")).not.toContain("no finish");
+  });
+
+  test('a book on "read" with no finish of its own is a warning, still passing; the ids stay in the outcome', async () => {
+    // The Great Code, its one, undated, "Finished Reading" row gone
+    const fake = fakeGoodreads(realList(), {
+      review: (row) =>
+        row.id === SAVED_REVIEWS.greatCode
+          ? new Response(
+              reviewPage(row).replace(
+                /<div class='readingTimeline__row'>(?:(?!readingTimeline__row)[\s\S])*?Finished Reading[\s\S]*?<\/div>\n<\/div>\n/,
+                "",
+              ),
+            )
+          : undefined,
+    });
+    const { outcome, published, reportLines, exitCode } = await run(fake);
+    expect(exitCode).toBe(0);
+    const item = published?.find((i) => i.id === SAVED_REVIEWS.greatCode);
+    expect(item?.timeline).toEqual([
+      { dateText: "November 5, 2011", event: "Shelved" },
+    ]);
+    expect(item?.userReadCount).toBe(0);
+    // on screen, the count only
+    expect(reportLines).toContain('WARN: 1 book on "read" has no finish');
+    expect(outcome.ok && outcome.readWithoutFinish).toEqual([
+      SAVED_REVIEWS.greatCode,
+    ]);
+  });
+
+  test('every list row\'s "# times read" is its userReadCount, plus 1 when currently reading: no warning', async () => {
+    const { outcome, reportLines } = await run(fakeGoodreads(realList()));
+    expect(outcome.ok && outcome.readCountMismatches).toEqual([]);
+    expect(reportLines.join("\n")).not.toContain("times read");
+  });
+
+  test('a "# times read" off its userReadCount is a warning, still passing; the details stay in the outcome', async () => {
+    // The Diamond Age, read 3 times: its real row says 3
+    const list = realList().map((row) =>
+      row.id === SAVED_REVIEWS.diamondAge
+        ? {
+            ...row,
+            html: row.html.replace(TIMES_READ, (_, cell: string) => `${cell}4`),
+          }
+        : row,
+    );
+    const { outcome, published, reportLines, exitCode } = await run(
+      fakeGoodreads(list),
+    );
+    expect(exitCode).toBe(0);
+    expect(published).toHaveLength(1450);
+    // on screen, the count only
+    expect(reportLines).toContain(
+      'WARN: 1 book has a userReadCount off its list row\'s "# times read"',
+    );
+    expect(outcome.ok && outcome.readCountMismatches).toEqual([
+      {
+        id: SAVED_REVIEWS.diamondAge,
+        userShelf: "read",
+        userReadCount: 3,
+        timesRead: 4,
+      },
+    ]);
+  });
+
+  test('a "# times read" that is not a number is parse-failure, naming the page and row', async () => {
+    const list = realList();
+    list[3] = {
+      ...list[3]!,
+      html: list[3]!.html.replace(TIMES_READ, "$1twice"),
+    };
+    const { failure } = await expectFailedClosed(
+      fakeGoodreads(list),
+      "parse-failure",
+    );
+    expect(failure.step).toBe("list-pages");
+    expect(failure.detail).toStartWith(
+      `list page 1, row 4 (review_${list[3]!.id}): timesRead:`,
+    );
+    expect(failure.detail).toContain('(got "twice")');
+  });
+
+  test('every userAddedAt is its timeline\'s "Shelved" day: no warning', async () => {
+    const { outcome, reportLines } = await run(fakeGoodreads(realList()));
+    expect(outcome.ok && outcome.shelvedDayMismatches).toEqual([]);
+    expect(reportLines.join("\n")).not.toContain("Shelved");
+  });
+
+  test('a userAddedAt off its "Shelved" row\'s day is a warning, still passing; the details stay in the outcome', async () => {
+    const entry = realList()[42]!;
+    const fake = fakeGoodreads(realList(), {
+      review: (row) =>
+        row.id === entry.id
+          ? new Response(
+              reviewPage(row).replace(
+                /\n[^\n]*\n&ndash; Shelved\n/,
+                "\nJanuary 2, 2026\n&ndash; Shelved\n",
+              ),
+            )
+          : undefined,
+    });
+    const { outcome, published, reportLines, exitCode } = await run(fake);
+    expect(exitCode).toBe(0);
+    expect(published).toHaveLength(1450);
+    // on screen, the count only
+    expect(reportLines).toContain(
+      'WARN: 1 book has a userAddedAt off its "Shelved" row\'s day',
+    );
+    expect(outcome.ok && outcome.shelvedDayMismatches).toEqual([
+      {
+        id: entry.id,
+        userAddedAt: published!.find((i) => i.id === entry.id)!.userAddedAt,
+        shelvedDates: ["January 2, 2026"],
+      },
+    ]);
   });
 
   test("a review is kept as the page source has it: <br />, entities, trimmed", async () => {
@@ -292,7 +711,7 @@ describe("a full run", () => {
       "This thoughtful retelling of the West&#39;s heritage &amp; more.<br />Well worth the read.";
     const fake = fakeGoodreads(realList(), {
       review: (row) =>
-        row.reviewId === SAVED_REVIEWS.debt
+        row.id === SAVED_REVIEWS.debt
           ? new Response(
               reviewPage(row).replace(
                 "</h1>",
@@ -303,9 +722,9 @@ describe("a full run", () => {
     });
     const { published } = await run(fake);
     const items = published ?? [];
-    expect(
-      items.find((i) => i.reviewId === SAVED_REVIEWS.debt)?.userReview,
-    ).toBe(review);
+    expect(items.find((i) => i.id === SAVED_REVIEWS.debt)?.userReview).toBe(
+      review,
+    );
     expect(items.filter((i) => i.userReview !== "")).toHaveLength(1);
   });
 
@@ -325,15 +744,15 @@ describe("a full run", () => {
     const { published } = await run(fake);
     expect(fake.bookRequests).toHaveLength(1450);
     expect(new Set(fake.bookRequests).size).toBe(1450);
-    const debt = published?.find((i) => i.reviewId === SAVED_REVIEWS.debt);
+    const debt = published?.find((i) => i.id === SAVED_REVIEWS.debt);
     expect(debt?.authorName).toBe("David Graeber");
     expect(debt?.bookDescription).toStartWith(
       "The classic work on debt, now is a special tenth anniversary edition",
     );
     expect(debt?.bookDescription).toContain("<br /><br />");
-    // the schema's order: the 17 fields of the Output resolution (#44)
+    // the schema's order: id first, every field in place
     expect(Object.keys(debt!)).toEqual([
-      "reviewId",
+      "id",
       "title",
       "bookId",
       "bookURL",
@@ -341,22 +760,32 @@ describe("a full run", () => {
       "isbn",
       "userRating",
       "userAddedAt",
-      "userExclusiveShelf",
+      "userShelf",
+      "userTags",
       "averageRating",
       "bookPublished",
       "numPages",
-      "reviewUpdatedAt",
+      "workId",
+      "userUpdatedAt",
+      "userReadCount",
+      "userFirstReadAt",
+      "userLastReadAt",
       "userReview",
       "bookDescription",
       "authorName",
       "timeline",
     ]);
+    // every entry has the same keys, in the same order, dated or not
+    const keys = Object.keys(debt!).join();
+    expect(
+      published?.filter((item) => Object.keys(item).join() !== keys),
+    ).toEqual([]);
   });
 
   test("a description is trimmed, as the reference is (S4)", async () => {
     const fake = fakeGoodreads(realList(), {
       book: (row) =>
-        row.reviewId === SAVED_REVIEWS.debt
+        row.id === SAVED_REVIEWS.debt
           ? new Response(
               bookPage(row).replace(
                 '"description":"The classic work',
@@ -367,15 +796,14 @@ describe("a full run", () => {
     });
     const { published } = await run(fake);
     expect(
-      published?.find((i) => i.reviewId === SAVED_REVIEWS.debt)
-        ?.bookDescription,
+      published?.find((i) => i.id === SAVED_REVIEWS.debt)?.bookDescription,
     ).toStartWith("The classic work on debt");
   });
 
   test("an author name keeps its spacing as shown (King of Thorns: 'Mark  Lawrence')", async () => {
     const fake = fakeGoodreads(realList(), {
       book: (row) =>
-        row.reviewId === SAVED_REVIEWS.debt
+        row.id === SAVED_REVIEWS.debt
           ? new Response(
               bookPage(row).replace('"David Graeber"', '"Mark  Lawrence"'),
             )
@@ -383,7 +811,7 @@ describe("a full run", () => {
     });
     const { published } = await run(fake);
     expect(
-      published?.find((i) => i.reviewId === SAVED_REVIEWS.debt)?.authorName,
+      published?.find((i) => i.id === SAVED_REVIEWS.debt)?.authorName,
     ).toBe("Mark  Lawrence");
   });
 
@@ -579,6 +1007,28 @@ describe("rows", () => {
     const { published } = await run(fakeGoodreads(list));
     expect(published?.[0]?.userRating).toBe(0);
   });
+
+  test("a publication date in another format is kept as shown, with a warning, still passing", async () => {
+    // made up: no other format on the real list pages of 2026-11-21
+    const list = editRow(realList(), 0, (html) =>
+      html.replace(
+        /(date pub<\/label><div class="value">\s*)Apr 01, 2025/,
+        "$1Spring 1990",
+      ),
+    );
+    const { outcome, published, reportLines, exitCode } = await run(
+      fakeGoodreads(list),
+    );
+    expect(exitCode).toBe(0);
+    expect(published?.[0]?.bookPublished).toBe("Spring 1990");
+    // on screen, the count only; the entry and its value, in the outcome
+    expect(reportLines).toContain(
+      "WARN: 1 book has a bookPublished kept as shown",
+    );
+    expect(outcome.ok && outcome.publishedAsShown).toEqual([
+      { id: list[0]!.id, bookPublished: "Spring 1990" },
+    ]);
+  });
 });
 
 describe("fail-closed, parsing", () => {
@@ -591,10 +1041,29 @@ describe("fail-closed, parsing", () => {
       "parse-failure",
     );
     expect(failure.detail).toContain(
-      `list page 2, row 1 (review_${list[100]!.reviewId})`,
+      `list page 2, row 1 (review_${list[100]!.id})`,
     );
     expect(failure.detail).toContain("userRating");
     expect(failure.detail).toContain('"lots"');
+  });
+
+  test("a publication day not in the calendar is parse-failure, naming the page and row", async () => {
+    // made up: every day on the real list pages of 2026-11-21 is real
+    const list = editRow(realList(), 100, (html) =>
+      html.replace(
+        /(date pub<\/label><div class="value">\s*)[^\n<]+/,
+        "$1Feb 30, 2023",
+      ),
+    );
+    const { failure } = await expectFailedClosed(
+      fakeGoodreads(list),
+      "parse-failure",
+    );
+    expect(failure.detail).toContain(
+      `list page 2, row 1 (review_${list[100]!.id})`,
+    );
+    expect(failure.detail).toContain("bookPublished");
+    expect(failure.detail).toContain('"Feb 30, 2023"');
   });
 
   test("a missing cell is layout-change, naming the page and row", async () => {
@@ -609,12 +1078,12 @@ describe("fail-closed, parsing", () => {
     expect(failure.detail).toContain("isbn");
   });
 
-  test("a book on a non-exclusive shelf too is parse-failure: it isn't stored yet", async () => {
-    // long-term is the real non-exclusive shelf in the sidebar (0 books)
+  test("a row with two shelf links is parse-failure, naming the page and row", async () => {
+    // made up: every real row has one ?shelf= link, its exclusive shelf
     const list = editRow(realList(), 0, (html) =>
       html.replace(
         /(<a class="shelfLink"[^>]*>[^<]*<\/a>)/,
-        '$1<a class="shelfLink" href="https://www.goodreads.com/review/list/1000000?shelf=long-term">long-term</a>',
+        '$1<a class="shelfLink" href="https://www.goodreads.com/review/list/1000000?shelf=read">read</a>',
       ),
     );
     const { failure } = await expectFailedClosed(
@@ -622,7 +1091,36 @@ describe("fail-closed, parsing", () => {
       "parse-failure",
     );
     expect(failure.detail).toContain("list page 1, row 1");
-    expect(failure.detail).toContain("long-term");
+    expect(failure.detail).toContain("userShelf");
+  });
+
+  test("a row with no shelf link, only tags, is parse-failure, naming the page and row", async () => {
+    // made up: the row's one shelf link made a tag link
+    const list = editRow(realList(), 0, (html) =>
+      html.replace(/(<a class="shelfLink"[^>]*href="[^"]*)\?shelf=/, "$1?tag="),
+    );
+    const { failure } = await expectFailedClosed(
+      fakeGoodreads(list),
+      "parse-failure",
+    );
+    expect(failure.detail).toContain("list page 1, row 1");
+    expect(failure.detail).toContain("userShelf");
+  });
+
+  test("a shelf link that is neither a shelf nor a tag is parse-failure, naming the page and row", async () => {
+    // made up: every real shelf link has ?shelf= or ?tag=
+    const list = editRow(realList(), 0, (html) =>
+      html.replace(
+        /(<a class="shelfLink"[^>]*>[^<]*<\/a>)/,
+        '$1<a class="shelfLink" href="https://www.goodreads.com/review/list/1000000?label=x">x</a>',
+      ),
+    );
+    const { failure } = await expectFailedClosed(
+      fakeGoodreads(list),
+      "parse-failure",
+    );
+    expect(failure.detail).toContain("list page 1, row 1");
+    expect(failure.detail).toContain("neither a shelf nor a tag");
   });
 
   test("a page with no sidebar is layout-change", async () => {
@@ -642,6 +1140,88 @@ describe("fail-closed, parsing", () => {
     });
     const { failure } = await expectFailedClosed(fake, "layout-change");
     expect(failure.detail).toContain("list page 1");
+  });
+});
+
+describe("the sidebar", () => {
+  /** The real list, every page's sidebar edited. */
+  function sidebarEdited(edit: (html: string) => string): FakeGoodreads {
+    return fakeGoodreads(realList(), {
+      override: async (page, _request, signal) => {
+        const ok = await fakeGoodreads(realList()).fetch(
+          `https://www.goodreads.com/review/list/${FIXTURE_USER}?page=${page}`,
+          { signal },
+        );
+        const before = await ok.text();
+        const html = edit(before);
+        if (html === before) throw new Error("the edit changed nothing");
+        return new Response(html, { status: 200 });
+      },
+    });
+  }
+  /** The sidebar entry of `shelf=on-deck` or `tag=long-term`, its div. */
+  const entry = (link: string) =>
+    new RegExp(
+      `\\s*<div class="userShelf">\\s*<a [^>]*${link}"[\\s\\S]*?</div>`,
+    );
+  const divider = '<div class="horizontalGreyDivider"></div>';
+
+  test("as on the captured page: the exclusive shelves counted, the tag long-term (1) ignored", async () => {
+    const fake = fakeGoodreads(realList());
+    const page = await fake.fetch(
+      `https://www.goodreads.com/review/list/${FIXTURE_USER}?page=1`,
+      {},
+    );
+    expect(await page.text()).toContain('tag=long-term">long-term  &lrm;(1)');
+    const { outcome, lines } = await run(fake);
+    expect(outcome.ok).toBe(true);
+    expect(lines.join("\n")).toContain(
+      "counts match the sidebar: to-read 448, currently-reading 8, read 786, did-not-finish 0, on-deck 208; 1450 books",
+    );
+  });
+
+  test("a tag's count off its books' is count-mismatch, as a shelf's is", async () => {
+    // made up: the captured page has long-term (1), its one book's
+    const fake = sidebarEdited((html) =>
+      html.replace(
+        'tag=long-term">long-term  &lrm;(1)',
+        'tag=long-term">long-term  &lrm;(2)',
+      ),
+    );
+    const { failure } = await expectFailedClosed(fake, "count-mismatch");
+    expect(failure.detail).toContain("long-term 1 (sidebar 2)");
+  });
+
+  test("a tag on a row but not in the sidebar is count-mismatch", async () => {
+    // made up: the sidebar without its long-term entry
+    const fake = sidebarEdited((html) =>
+      html.replace(entry("tag=long-term"), ""),
+    );
+    const { failure } = await expectFailedClosed(fake, "count-mismatch");
+    expect(failure.detail).toContain("long-term 1 (not in the sidebar)");
+  });
+
+  test("a tag above the divider is ignored: tags are told by their link, not their place", async () => {
+    // made up: on every real page, the tags come after the divider
+    const fake = sidebarEdited((html) => {
+      const tag = entry("tag=long-term").exec(html)![0];
+      return html
+        .replace(tag, "")
+        .replace('<div id="paginatedShelfList" class="stacked">', `$&${tag}`);
+    });
+    const { outcome } = await run(fake);
+    expect(outcome.ok).toBe(true);
+  });
+
+  test("a shelf below the divider is counted: shelves are told by their link, not their place", async () => {
+    // made up: on every real page, the shelves come before the divider
+    const fake = sidebarEdited((html) => {
+      const shelf = entry("shelf=on-deck").exec(html)![0];
+      return html.replace(shelf, "").replace(divider, `${divider}${shelf}`);
+    });
+    const { outcome, lines } = await run(fake);
+    expect(outcome.ok).toBe(true);
+    expect(lines.join("\n")).toContain("on-deck 208; 1450 books");
   });
 });
 
@@ -695,7 +1275,7 @@ describe("fail-closed, completeness", () => {
     const fake = fakeGoodreads(list, {
       override: (page) =>
         page === 3
-          ? new Response(renderPage(list.slice(200, 299), countsOf(list)))
+          ? new Response(renderPage(list.slice(200, 299), countsOf(list), list))
           : undefined,
     });
     const { failure } = await expectFailedClosed(fake, "page-size");
@@ -708,7 +1288,11 @@ describe("fail-closed, completeness", () => {
       override: (page) =>
         page === 15
           ? new Response(
-              renderPage([...list.slice(1400), list[1399]!], countsOf(list)),
+              renderPage(
+                [...list.slice(1400), list[1399]!],
+                countsOf(list),
+                list,
+              ),
             )
           : undefined,
     });
@@ -743,27 +1327,27 @@ describe("fail-closed, completeness", () => {
 describe("fail-closed, review pages", () => {
   test("a review page shelf that differs from the list page's is shelf-mismatch", async () => {
     const list = realList();
-    const book = list[150]!;
-    const other = book.shelf === "read" ? "to-read" : "read";
+    const entry = list[150]!;
+    const other = entry.shelf === "read" ? "to-read" : "read";
     const fake = fakeGoodreads(list, {
       review: (row) =>
-        row.reviewId === book.reviewId
+        row.id === entry.id
           ? new Response(reviewPage({ ...row, shelf: other }))
           : undefined,
     });
     const { failure } = await expectFailedClosed(fake, "shelf-mismatch");
     expect(failure.step).toBe("checks");
     expect(failure.detail).toBe(
-      `book ${book.bookId} (review ${book.reviewId}) is ${book.shelf} on the list page, ${other} on its review page`,
+      `book ${entry.bookId} (review ${entry.id}) is ${entry.shelf} on the list page, ${other} on its review page`,
     );
   });
 
   test("a review page redirected to sign-in is redirect-to-sign-in; its body is kept", async () => {
     const list = realList();
-    const book = list[700]!;
+    const entry = list[700]!;
     const fake = fakeGoodreads(list, {
       review: (row) =>
-        row.reviewId === book.reviewId
+        row.id === entry.id
           ? new Response("moved", {
               status: 302,
               headers: { location: "https://www.goodreads.com/user/sign_in" },
@@ -772,32 +1356,29 @@ describe("fail-closed, review pages", () => {
     });
     const { failure } = await expectFailedClosed(fake, "redirect-to-sign-in");
     expect(failure.step).toBe("review-pages");
-    expect(failure.detail).toContain(`/review/show/${book.reviewId}`);
+    expect(failure.detail).toContain(`/review/show/${entry.id}`);
     const kept = Bun.file(
-      join(dir, "data", "pages", `rejected-review-${book.reviewId}.html`),
+      join(dir, "data", "pages", `rejected-review-${entry.id}.html`),
     );
     expect(await kept.text()).toBe("moved");
   });
 
   test("a review page that never answers times out at 15s, is retried, then timeout", async () => {
-    const book = realList()[3]!;
+    const entry = realList()[3]!;
     const fake = fakeGoodreads(realList(), {
-      review: (row, signal) =>
-        row.reviewId === book.reviewId ? hang(signal) : undefined,
+      review: (row, signal) => (row.id === entry.id ? hang(signal) : undefined),
     });
     const { failure } = await expectFailedClosed(fake, "timeout");
-    expect(failure.detail).toContain(`/review/show/${book.reviewId}`);
+    expect(failure.detail).toContain(`/review/show/${entry.id}`);
     expect(failure.detail).toContain("15s");
-    expect(
-      fake.reviewRequests.filter((id) => id === book.reviewId),
-    ).toHaveLength(6);
+    expect(fake.reviewRequests.filter((id) => id === entry.id)).toHaveLength(6);
   });
 
   test("a review page with no shelf in its heading is layout-change, naming it", async () => {
-    const book = realList()[42]!;
+    const entry = realList()[42]!;
     const fake = fakeGoodreads(realList(), {
       review: (row) =>
-        row.reviewId === book.reviewId
+        row.id === entry.id
           ? new Response(
               reviewPage(row).replace(/\?shelf=[a-z-]+/, "?sort=title"),
             )
@@ -805,15 +1386,15 @@ describe("fail-closed, review pages", () => {
     });
     const { failure } = await expectFailedClosed(fake, "layout-change");
     expect(failure.detail).toBe(
-      `review page ${book.reviewId}: no shelf link in the heading`,
+      `review page ${entry.id}: no shelf link in the heading`,
     );
   });
 
   test("a review page with no reading timeline is layout-change", async () => {
-    const book = realList()[42]!;
+    const entry = realList()[42]!;
     const fake = fakeGoodreads(realList(), {
       review: (row) =>
-        row.reviewId === book.reviewId
+        row.id === entry.id
           ? new Response(
               reviewPage(row).replace(
                 'class="readingTimeline"',
@@ -823,18 +1404,16 @@ describe("fail-closed, review pages", () => {
           : undefined,
     });
     const { failure } = await expectFailedClosed(fake, "layout-change");
-    expect(failure.detail).toBe(
-      `review page ${book.reviewId}: no reading timeline`,
-    );
+    expect(failure.detail).toBe(`review page ${entry.id}: no reading timeline`);
   });
 
   test("a partial timeline date (a year, or a month and year) is stored as shown", async () => {
     // as on real review pages: "2021 – Finished Reading" (4090256573) and
     // "January, 1997" (3846910217)
-    const book = realList()[42]!;
+    const entry = realList()[42]!;
     const fake = fakeGoodreads(realList(), {
       review: (row) =>
-        row.reviewId === book.reviewId
+        row.id === entry.id
           ? new Response(
               reviewPage(row)
                 .replace("October 26, 2026", "2021")
@@ -843,7 +1422,7 @@ describe("fail-closed, review pages", () => {
           : undefined,
     });
     const { published } = await run(fake);
-    const item = published?.find((i) => i.reviewId === book.reviewId);
+    const item = published?.find((i) => i.id === entry.id);
     expect(item?.timeline[4]).toEqual({
       dateText: "2021",
       event: "Started Reading",
@@ -855,10 +1434,10 @@ describe("fail-closed, review pages", () => {
   });
 
   test("a timeline date in another format is parse-failure, naming the page and row", async () => {
-    const book = realList()[42]!;
+    const entry = realList()[42]!;
     const fake = fakeGoodreads(realList(), {
       review: (row) =>
-        row.reviewId === book.reviewId
+        row.id === entry.id
           ? new Response(
               reviewPage(row).replace("October 26, 2026", "2026-10-26"),
             )
@@ -866,7 +1445,7 @@ describe("fail-closed, review pages", () => {
     });
     const { failure } = await expectFailedClosed(fake, "parse-failure");
     expect(failure.detail).toContain(
-      `review page ${book.reviewId}: timeline row 5: dateText`,
+      `review page ${entry.id}: timeline row 5: dateText`,
     );
     expect(failure.detail).toContain('"2026-10-26"');
   });
@@ -876,7 +1455,7 @@ describe("fail-closed, book pages", () => {
   test("a book page without its page data is layout-change, naming it", async () => {
     const fake = fakeGoodreads(realList(), {
       book: (row) =>
-        row.reviewId === SAVED_REVIEWS.debt
+        row.id === SAVED_REVIEWS.debt
           ? new Response(
               bookPage(row).replace(
                 /<script id="__NEXT_DATA__"[\s\S]*?<\/script>/,
@@ -893,7 +1472,7 @@ describe("fail-closed, book pages", () => {
   test("a book page of another book is layout-change", async () => {
     const fake = fakeGoodreads(realList(), {
       book: (row) =>
-        row.reviewId === SAVED_REVIEWS.debt
+        row.id === SAVED_REVIEWS.debt
           ? new Response(bookPage({ ...row, bookId: "1" }))
           : undefined,
     });
@@ -901,10 +1480,37 @@ describe("fail-closed, book pages", () => {
     expect(failure.detail).toContain("0 books with this id");
   });
 
+  test("a book page without its work is layout-change, naming it", async () => {
+    const fake = fakeGoodreads(realList(), {
+      book: (row) =>
+        row.id === SAVED_REVIEWS.debt
+          ? new Response(
+              bookPage(row).replace(/"work":\{"__ref":"[^"]*"\},/, ""),
+            )
+          : undefined,
+    });
+    const { failure } = await expectFailedClosed(fake, "layout-change");
+    expect(failure.detail).toBe("book page 6617037: no work");
+  });
+
+  test("a work id that is not a positive integer is parse-failure", async () => {
+    const fake = fakeGoodreads(realList(), {
+      book: (row) =>
+        row.id === SAVED_REVIEWS.debt
+          ? new Response(
+              bookPage(row).replace('"legacyId":6811142', '"legacyId":"x"'),
+            )
+          : undefined,
+    });
+    const { failure } = await expectFailedClosed(fake, "parse-failure");
+    expect(failure.detail).toContain("book page 6617037: workId");
+    expect(failure.detail).toContain('(got "x")');
+  });
+
   test("a book page with no signed-in flag is layout-change", async () => {
     const fake = fakeGoodreads(realList(), {
       book: (row) =>
-        row.reviewId === SAVED_REVIEWS.debt
+        row.id === SAVED_REVIEWS.debt
           ? new Response(
               bookPage(row).replace('"signedIn":true', '"signedIn":false'),
             )
@@ -1032,7 +1638,7 @@ describe("debugging and the deadline", () => {
     let challenge = true;
     const first = fakeGoodreads(realList(), {
       book: (row) =>
-        challenge && row.reviewId === SAVED_REVIEWS.debt
+        challenge && row.id === SAVED_REVIEWS.debt
           ? new Response("", { status: 202 })
           : undefined,
     });

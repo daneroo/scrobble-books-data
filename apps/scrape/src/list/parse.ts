@@ -15,9 +15,22 @@ export interface ListPage {
   userFullName: string;
   /** The sidebar's count for each exclusive shelf. */
   counts: Record<ExclusiveShelf, number>;
+  /** The sidebar's count for each tag, by name: "long-term" → 1. */
+  tagCounts: Record<string, number>;
   /** In page order. */
   items: ListItem[];
+  /**
+   * Each row's "# times read", in the order of `items`: only checked against
+   * `userReadCount`, never published.
+   */
+  timesRead: number[];
 }
+
+/**
+ * A row's "# times read": the text of its hidden `read_count` cell,
+ * whitespace collapsed, trimmed; digits, "3".
+ */
+const TimesRead = z.string().regex(/^\d+$/);
 
 const SidebarCounts = z.strictObject(
   Object.fromEntries(
@@ -55,9 +68,10 @@ export function parseListPage(
   if (userFullName === undefined)
     throw fail("layout-change", "no user name in the title");
 
-  const counts = sidebarCounts($);
-  if (counts === undefined)
+  const sidebar = sidebarCounts($);
+  if (sidebar === undefined)
     throw fail("layout-change", "no exclusive shelves in the sidebar");
+  const { counts, tagCounts } = sidebar;
   const checked = SidebarCounts.safeParse(counts);
   if (!checked.success)
     throw fail(
@@ -65,60 +79,78 @@ export function parseListPage(
       `sidebar: ${describeIssues(checked.error, counts)}`,
     );
 
-  const items = $('tr[id^="review_"]')
+  const rows = $('tr[id^="review_"]')
     .toArray()
     .map((tr, index) => {
       const row = `${where}, row ${index + 1} (${$(tr).attr("id")})`;
-      const raw = rawItem(
+      const { timesRead, ...raw } = rawItem(
         $,
         $(tr),
-        (detail) =>
+        (mode, detail) =>
           new ScrapeFailure({
             step: "list-pages",
-            mode: "layout-change",
+            mode,
             detail: `${row}: ${detail}`,
             url,
           }),
       );
-      const parsed = ListItem.safeParse(raw);
-      if (!parsed.success)
-        throw new ScrapeFailure({
+      const invalid = (error: z.ZodError, values: Record<string, unknown>) =>
+        new ScrapeFailure({
           step: "list-pages",
           mode: "parse-failure",
-          detail: `${row}: ${describeIssues(parsed.error, raw)}`,
+          detail: `${row}: ${describeIssues(error, values)}`,
           url,
         });
-      return parsed.data;
+      const parsed = ListItem.safeParse(raw);
+      if (!parsed.success) throw invalid(parsed.error, raw);
+      const times = z.strictObject({ timesRead: TimesRead }).safeParse({
+        timesRead,
+      });
+      if (!times.success) throw invalid(times.error, { timesRead });
+      return { item: parsed.data, timesRead: Number(times.data.timesRead) };
     });
 
-  return { page, userFullName, counts: checked.data, items };
+  return {
+    page,
+    userFullName,
+    counts: checked.data,
+    tagCounts,
+    items: rows.map((r) => r.item),
+    timesRead: rows.map((r) => r.timesRead),
+  };
 }
 
 /**
- * The sidebar's exclusive shelves: the shelf links above the divider, each
- * "Read ‎(786)" with `shelf=read` in its link. Non-exclusive shelves come
- * after the divider.
+ * The sidebar's counts, told apart by each entry's link, wherever it is: an
+ * exclusive shelf's has a `shelf` parameter, "Read ‎(786)" with
+ * `shelf=read`; a tag's a `tag` parameter, "long-term ‎(1)" with
+ * `tag=long-term`. An entry with a link that has neither, or with no count,
+ * or no exclusive shelf at all, is no sidebar.
  */
 function sidebarCounts(
   $: cheerio.CheerioAPI,
-): Record<string, number> | undefined {
+):
+  | { counts: Record<string, number>; tagCounts: Record<string, number> }
+  | undefined {
   const list = $("#paginatedShelfList");
   if (list.length === 0) return undefined;
   const counts: Record<string, number> = {};
+  const tagCounts: Record<string, number> = {};
   for (const child of list.children().toArray()) {
-    const el = $(child);
-    if (el.hasClass("horizontalGreyDivider")) break;
-    const link = el.find("a").first();
+    const link = $(child).find("a").first();
     const href = link.attr("href");
-    const shelf =
-      href === undefined
-        ? null
-        : new URL(href, "https://www.goodreads.com").searchParams.get("shelf");
+    // the divider has no link
+    if (href === undefined) continue;
+    const params = new URL(href, "https://www.goodreads.com").searchParams;
+    const shelf = params.get("shelf");
+    const tag = params.get("tag");
     const count = /\((\d+)\)\s*$/.exec(link.text())?.[1];
-    if (shelf === null || count === undefined) return undefined;
-    counts[shelf] = Number(count);
+    if (count === undefined) return undefined;
+    if (shelf !== null) counts[shelf] = Number(count);
+    else if (tag !== null) tagCounts[tag] = Number(count);
+    else return undefined;
   }
-  return Object.keys(counts).length === 0 ? undefined : counts;
+  return Object.keys(counts).length === 0 ? undefined : { counts, tagCounts };
 }
 
 const MONTHS = [
@@ -136,16 +168,23 @@ const MONTHS = [
   "Dec",
 ];
 
-/** One row's values, before validation. A missing cell throws. */
+/**
+ * One row's values, before validation. A missing cell throws
+ * `layout-change`; a shelf link that is neither a shelf nor a tag,
+ * `parse-failure`.
+ */
 function rawItem(
   $: cheerio.CheerioAPI,
   row: ReturnType<cheerio.CheerioAPI>,
-  missing: (detail: string) => ScrapeFailure,
+  fail: (
+    mode: "layout-change" | "parse-failure",
+    detail: string,
+  ) => ScrapeFailure,
 ): Record<string, unknown> {
   /** A cell's value element; it must exist. */
   const cell = (name: string) => {
     const value = row.find(`td.field.${name} > div.value`);
-    if (value.length !== 1) throw missing(`no ${name} cell`);
+    if (value.length !== 1) throw fail("layout-change", `no ${name} cell`);
     return value;
   };
   const text = (name: string) => cell(name).text().replace(/\s+/g, " ").trim();
@@ -153,14 +192,26 @@ function rawItem(
   const cover = cell("cover");
   const title = cell("title").find("a[title]").first();
   const stars = cell("rating").find(".stars");
-  const shelves = cell("shelves")
-    .find("a.shelfLink")
-    .toArray()
-    .map((a) => $(a).text().trim());
+  // a shelf link is `?shelf=read`, a tag link `?tag=long-term`, as in the
+  // sidebar
+  const shelves: string[] = [];
+  const tags: string[] = [];
+  for (const a of cell("shelves").find("a.shelfLink").toArray()) {
+    const href = $(a).attr("href") ?? "";
+    const params = new URL(href, "https://www.goodreads.com").searchParams;
+    const name = $(a).text().trim();
+    if (params.has("shelf")) shelves.push(name);
+    else if (params.has("tag")) tags.push(name);
+    else
+      throw fail(
+        "parse-failure",
+        `a shelf link that is neither a shelf nor a tag: ${JSON.stringify(href)}`,
+      );
+  }
   const pages = text("num_pages");
 
   return {
-    reviewId: row.attr("id")?.replace(/^review_/, ""),
+    id: row.attr("id")?.replace(/^review_/, ""),
     title: title.attr("title"),
     bookId: cover.find("[data-resource-id]").first().attr("data-resource-id"),
     bookURL: absolute(title.attr("href")),
@@ -176,15 +227,44 @@ function rawItem(
     userAddedAt: pacificDayStart(
       cell("date_added").find("span").first().text().trim(),
     ),
-    userExclusiveShelf: shelves.length === 1 ? shelves[0] : shelves,
+    // exactly one, or zod rejects the list
+    userShelf: shelves.length === 1 ? shelves[0] : shelves,
+    userTags: tags,
     averageRating: oneDecimal(text("avg_rating")),
-    bookPublished: text("date_pub"),
+    bookPublished: isoPublished(text("date_pub")),
     // "1,280 pp" → "1280"; "unknown" → "0", as in the reference
     numPages:
       pages === "unknown"
         ? "0"
         : (/^([\d,]+) pp$/.exec(pages)?.[1]?.replaceAll(",", "") ?? pages),
+    // checked against userReadCount, not published
+    timesRead: text("read_count"),
   };
+}
+
+/**
+ * A publication date as shown, as ISO 8601 at the precision shown: a day,
+ * "Nov 05, 2023" → "2023-11-05"; a month, "Jan 2027" → "2027-01"; a year,
+ * padded to 4 digits, its sign kept, "1995", "100" → "0100", "-750" →
+ * "-0750"; "unknown" → "". A day that is not in the calendar ("Feb 30,
+ * 2023") is left as it is, for zod to reject; any other text is left as
+ * shown.
+ */
+function isoPublished(shown: string): string {
+  if (shown === "unknown") return "";
+  const year = /^(-?)(\d{1,4})$/.exec(shown);
+  if (year !== null) return `${year[1]}${year[2]!.padStart(4, "0")}`;
+  const date = /^([A-Z][a-z]{2}) (?:(\d{2}), )?(\d{4})$/.exec(shown);
+  const month = date === null ? -1 : MONTHS.indexOf(date[1]!);
+  if (date === null || month < 0) return shown;
+  const iso = `${date[3]}-${String(month + 1).padStart(2, "0")}`;
+  if (date[2] === undefined) return iso;
+  // an impossible day rolls over into the next month; setUTCFullYear, as
+  // Date.UTC would take a year under 100 for 19xx
+  const day = Number(date[2]);
+  const real = new Date(0);
+  real.setUTCFullYear(Number(date[3]), month, day);
+  return real.getUTCDate() === day ? `${iso}-${date[2]}` : shown;
 }
 
 /** "/book/show/1-x" → "https://www.goodreads.com/book/show/1-x". */
@@ -219,7 +299,19 @@ export function pacificDayStart(value: string): string {
   const match = /^([A-Z][a-z]{2}) (\d{2}), (\d{4})$/.exec(value);
   const month = match === null ? -1 : MONTHS.indexOf(match[1]!);
   if (match === null || month < 0) return value;
-  const midnightUtc = Date.UTC(Number(match[3]), month, Number(match[2]));
+  return pacificMidnight(Number(match[3]), month, Number(match[2]));
+}
+
+/**
+ * The start of a US Pacific day (`month` from 0) in `America/Los_Angeles`,
+ * in UTC, ISO 8601: (2026, 10, 1) → "2026-11-01T07:00:00.000Z" (PDT).
+ */
+export function pacificMidnight(
+  year: number,
+  month: number,
+  day: number,
+): string {
+  const midnightUtc = Date.UTC(year, month, day);
   // the clocks change at 2 a.m., so midnight has the previous evening's offset
   return new Date(midnightUtc - pacificOffsetMs(midnightUtc)).toISOString();
 }
