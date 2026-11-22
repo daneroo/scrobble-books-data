@@ -45,7 +45,7 @@
     "markdownlint": "0.42.1",
     "markdownlint-cli2": "0.24.1",
     "prettier": "3.10.1",
-    "typescript": "6.0.3",
+    "typescript": "7.0.2",
     "typescript-eslint": "8.73.0"
   },
   "prettier": {
