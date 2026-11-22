@@ -488,16 +488,18 @@ describe("a full run", () => {
     ).toEqual([SAVED_REVIEWS.critique]);
   });
 
-  test("a book marked read with no dates is read once, with no first or last read (The Great Code)", async () => {
+  test('a book marked read with no dates is read once, its first and last read "" (The Great Code)', async () => {
     const { published } = await run(fakeGoodreads(realList()));
     const item = published?.find((i) => i.id === SAVED_REVIEWS.greatCode);
     expect(item?.timeline).toEqual([
       { dateText: "", event: "Finished Reading" },
       { dateText: "November 5, 2011", event: "Shelved" },
     ]);
-    expect(item?.userReadCount).toBe(1);
-    expect(item && "userFirstReadAt" in item).toBe(false);
-    expect(item && "userLastReadAt" in item).toBe(false);
+    expect(item).toMatchObject({
+      userReadCount: 1,
+      userFirstReadAt: "",
+      userLastReadAt: "",
+    });
   });
 
   test("another edition's finishes are not counted; an undated finish is (Essentialism, Debt)", async () => {
@@ -506,8 +508,11 @@ describe("a full run", () => {
     // currently reading the Kindle edition: the Hardcover's finish, May 28,
     // 2023, is the other entry's
     const kindle = byId.get(SAVED_REVIEWS.essentialism);
-    expect(kindle?.userReadCount).toBe(0);
-    expect(kindle && "userFirstReadAt" in kindle).toBe(false);
+    expect(kindle).toMatchObject({
+      userReadCount: 0,
+      userFirstReadAt: "",
+      userLastReadAt: "",
+    });
     // the Hardcover: its own finish only, not the Kindle's rows of 2026
     expect(byId.get(SAVED_REVIEWS.otherEssentialism)).toMatchObject({
       userReadCount: 1,
@@ -770,6 +775,11 @@ describe("a full run", () => {
       "authorName",
       "timeline",
     ]);
+    // every entry has the same keys, in the same order, dated or not
+    const keys = Object.keys(debt!).join();
+    expect(
+      published?.filter((item) => Object.keys(item).join() !== keys),
+    ).toEqual([]);
   });
 
   test("a description is trimmed, as the reference is (S4)", async () => {

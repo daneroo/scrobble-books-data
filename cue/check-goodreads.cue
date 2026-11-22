@@ -171,10 +171,11 @@ import "time"
 	//     Aeneid, 19 BC), padded to 4, "-750" → "-0750" (11: -19 to -800).
 	//     Not shifted to ISO 8601's astronomical years, where 1 BC is "0000"
 	//     and "-0750" is 751 BC;
-	//   - "unknown" → "" (123).
+	//   - "unknown" → "" (123);
+	//   - an empty cell stays "" (never seen).
 	// - Format: a string: "YYYY-MM-DD", a real day; "YYYY-MM"; a year, "YYYY"
-	//   or "-YYYY"; "" when unknown; otherwise the text as shown, never in a
-	//   format above or ISO-shaped like one ("2023-02-30").
+	//   or "-YYYY"; "" when unknown or the cell is empty; otherwise the text
+	//   as shown, never in a format above or ISO-shaped like one ("2023-02-30").
 	bookPublished: #IsoPublished | #PublishedShownText
 
 	// The edition's page count.
@@ -252,7 +253,8 @@ import "time"
 	userReadCount!: int & >=0
 
 	// When the user first finished this edition, at the precision shown;
-	// absent when none of its finishes is dated.
+	// "" when none of its finishes is dated, so every entry has the same
+	// keys.
 	// - Page: review page.
 	// - Elements: the dates of the entry's own "Finished Reading" rows, as in
 	//   userReadCount; an undated one is left out.
@@ -262,19 +264,20 @@ import "time"
 	// - Transform: each as the start of that US Pacific day in
 	//   America/Los_Angeles, in UTC, a month padded to its 1st, a year to
 	//   January 1st; the earliest.
-	// - Format: ISO 8601 UTC, a day at best: "2012-11-23T08:00:00.000Z". Of
-	//   795 dated finishes on 2026-11-21, 793 showed a day, 1 a month, 1 a
-	//   year; 28 of those days, a 1st, are only a month on the list
-	//   ("Mar 2015" for "March 1, 2015"): a 1st may stand for its month.
+	// - Format: ISO 8601 UTC, a day at best: "2012-11-23T08:00:00.000Z"; ""
+	//   when none is dated. Of 795 dated finishes on 2026-11-21, 793 showed a
+	//   day, 1 a month, 1 a year; 28 of those days, a 1st, are only a month
+	//   on the list ("Mar 2015" for "March 1, 2015"): a 1st may stand for its
+	//   month.
 	// - Not checked, as it does not always hold: a finish is on or after
 	//   userAddedAt (14 of 1458 entries have one before it).
-	userFirstReadAt?: #Time
+	userFirstReadAt!: #Time | ""
 
 	// When the user last finished this edition, at the precision shown;
-	// absent when none of its finishes is dated. As userFirstReadAt, the
+	// "" when none of its finishes is dated. As userFirstReadAt, the
 	// latest instead of the earliest: "2025-06-27T07:00:00.000Z"; equal to
 	// it when there is one dated finish.
-	userLastReadAt?: #Time
+	userLastReadAt!: #Time | ""
 
 	// The user's review, as HTML.
 	// - Page: review page.
@@ -339,7 +342,8 @@ import "time"
 #Time: time.Time & =~"Z$" // ISO 8601 UTC: 2026-11-01T07:00:00.000Z
 
 // bookPublished normalized: a real day, 2023-11-05; a month, 2027-01; a year,
-// 1995 | 0100 | -0750; "" when unknown. Any other value is kept as shown.
+// 1995 | 0100 | -0750; "" when unknown or the cell is empty. Any other value
+// is kept as shown.
 #IsoPublished: (=~"^[0-9]{4}-[0-9]{2}-[0-9]{2}$" & time.Format("2006-01-02")) |
 	(=~"^[0-9]{4}-[0-9]{2}$" & time.Format("2006-01")) |
 	=~"^-?[0-9]{4}$" |

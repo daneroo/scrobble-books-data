@@ -38,8 +38,7 @@ export function fetchBookPages({
  * schema's order: the work, `userUpdatedAt` and the reads before the
  * review, the description and author before the timeline. `userUpdatedAt`
  * is the book page's `updatedAt`, or else the latest day of the entry's own
- * timeline rows; with neither, `parse-failure`. A read date is absent, not
- * `undefined`, when no finish is dated. `books` is in the order of
+ * timeline rows; with neither, `parse-failure`. `books` is in the order of
  * `items`.
  */
 export function withBookFields(
@@ -69,8 +68,8 @@ export function withBookFields(
       workId,
       userUpdatedAt,
       userReadCount,
-      ...(userFirstReadAt === undefined ? {} : { userFirstReadAt }),
-      ...(userLastReadAt === undefined ? {} : { userLastReadAt }),
+      userFirstReadAt,
+      userLastReadAt,
       userReview,
       bookDescription,
       authorName,

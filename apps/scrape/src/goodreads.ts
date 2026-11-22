@@ -68,8 +68,8 @@ const ISO_SHAPED = /^\d{4}-\d{2}(-\d{2})?$/;
 
 /**
  * `bookPublished` normalized: a real day, "2023-11-05"; a month, "2027-01";
- * a year, "1995", "0100", "-0750"; `""` when unknown. Any other value is
- * kept as shown.
+ * a year, "1995", "0100", "-0750"; `""` when unknown or the cell is empty.
+ * Any other value is kept as shown.
  */
 export const IsoPublished = z.union([
   z.iso.date(),
@@ -262,10 +262,11 @@ export const ListItem = z.strictObject({
    *     Aeneid_, 19 BC), padded to 4, "-750" → "-0750" (11: -19 to -800).
    *     Not shifted to ISO 8601's astronomical years, where 1 BC is "0000"
    *     and "-0750" is 751 BC;
-   *   - "unknown" → `""` (123).
+   *   - "unknown" → `""` (123);
+   *   - an empty cell stays `""` (never seen).
    * - Format: a string: "YYYY-MM-DD", a real day; "YYYY-MM"; a year, "YYYY"
-   *   or "-YYYY"; `""` when unknown; otherwise the text as shown, never in a
-   *   format above or ISO-shaped like one ("2023-02-30").
+   *   or "-YYYY"; `""` when unknown or the cell is empty; otherwise the text
+   *   as shown, never in a format above or ISO-shaped like one ("2023-02-30").
    */
   bookPublished: z.union([
     IsoPublished,
@@ -367,7 +368,8 @@ export const Item = ListItem.extend({
   userReadCount: z.number().int().min(0),
   /**
    * When the user first finished this edition, at the precision shown;
-   * absent when none of its finishes is dated.
+   * `""` when none of its finishes is dated, so every entry has the same
+   * keys.
    *
    * - Page: review page.
    * - Elements: the dates of the entry's own "Finished Reading" rows, as in
@@ -378,21 +380,22 @@ export const Item = ListItem.extend({
    * - Transform: each as the start of that US Pacific day in
    *   `America/Los_Angeles`, in UTC, a month padded to its 1st, a year to
    *   January 1st; the earliest.
-   * - Format: ISO 8601 UTC, a day at best: "2012-11-23T08:00:00.000Z".
-   *   Of 795 dated finishes on 2026-11-21, 793 showed a day, 1 a month,
-   *   1 a year; 28 of those days, a 1st, are only a month on the list
-   *   ("Mar 2015" for "March 1, 2015"): a 1st may stand for its month.
+   * - Format: ISO 8601 UTC, a day at best: "2012-11-23T08:00:00.000Z"; `""`
+   *   when none is dated. Of 795 dated finishes on 2026-11-21, 793 showed a
+   *   day, 1 a month, 1 a year; 28 of those days, a 1st, are only a month on
+   *   the list ("Mar 2015" for "March 1, 2015"): a 1st may stand for its
+   *   month.
    * - Not checked, as it does not always hold: a finish is on or after
    *   `userAddedAt` (14 of 1458 entries have one before it).
    */
-  userFirstReadAt: z.iso.datetime().optional(),
+  userFirstReadAt: z.union([z.iso.datetime(), z.literal("")]),
   /**
    * When the user last finished this edition, at the precision shown;
-   * absent when none of its finishes is dated. As `userFirstReadAt`, the
+   * `""` when none of its finishes is dated. As `userFirstReadAt`, the
    * latest instead of the earliest: "2025-06-27T07:00:00.000Z"; equal to it
    * when there is one dated finish.
    */
-  userLastReadAt: z.iso.datetime().optional(),
+  userLastReadAt: z.union([z.iso.datetime(), z.literal("")]),
   /**
    * The user's review, as HTML.
    *

@@ -95,14 +95,15 @@ function readDayStart(dateText: string): string | undefined {
 /** An entry's reads, from its own "Finished Reading" rows. */
 export interface Reads {
   userReadCount: number;
-  userFirstReadAt?: string;
-  userLastReadAt?: string;
+  userFirstReadAt: string;
+  userLastReadAt: string;
 }
 
 /**
  * The entry's reads: one per own "Finished Reading" row, dated or not; the
- * first and last of the dated ones. A dated finish in no known format is
- * returned in `unknownDates`, as shown, for the caller to fail on.
+ * first and last of the dated ones, `""` when none is dated. A dated finish
+ * in no known format is returned in `unknownDates`, as shown, for the
+ * caller to fail on.
  */
 export function readsOf(timeline: readonly TimelineRow[]): {
   reads: Reads;
@@ -122,10 +123,10 @@ export function readsOf(timeline: readonly TimelineRow[]): {
     .map(({ day }) => day)
     .filter((day) => day !== undefined)
     .sort();
-  const reads: Reads = { userReadCount: finishes.length };
-  if (days.length > 0) {
-    reads.userFirstReadAt = days[0]!;
-    reads.userLastReadAt = days.at(-1)!;
-  }
+  const reads: Reads = {
+    userReadCount: finishes.length,
+    userFirstReadAt: days[0] ?? "",
+    userLastReadAt: days.at(-1) ?? "",
+  };
   return { reads, unknownDates };
 }
