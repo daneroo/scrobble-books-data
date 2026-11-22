@@ -20,3 +20,8 @@ here. Promote an idea to a GitHub issue, then delete the line.
       restarts, a failure's details, warnings (works with more than one entry,
       read-group oddities, unparsed `bookPublished`), publishing. Built on a run
       record (settings, stages, requests): the run's provenance.
+- [ ] update-order — a warning (count only) and one entry in the run report:
+      adjacent entries whose `userUpdatedAt` is out of the file's order (the
+      list's, by Goodreads' "date updated"). A count, not per entry: which entry
+      of a pair is off can't be told. ~45 expected (2026-11-21); a jump means
+      Goodreads changed something.
