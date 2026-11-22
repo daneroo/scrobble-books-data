@@ -5,10 +5,6 @@
     <title>goodreads.json schema</title>
     <style>
       :root {
-        --locked: #16a34a;
-        --decided: #2563eb;
-        --proposed: #d97706;
-        --open: #dc2626;
         --ink: #1f2328;
         --muted: #6b7280;
         --line: #e5e7eb;
@@ -41,38 +37,6 @@
         color: var(--muted);
         margin: 4px 0 18px;
       }
-      .legend {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 14px;
-        margin-bottom: 26px;
-        font-size: 13px;
-        color: var(--muted);
-      }
-      .pill {
-        display: inline-block;
-        font-size: 11px;
-        font-weight: 600;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        padding: 1px 7px;
-        border-radius: 999px;
-        color: white;
-        background: var(--s);
-        white-space: nowrap;
-      }
-      .locked {
-        --s: var(--locked);
-      }
-      .decided {
-        --s: var(--decided);
-      }
-      .proposed {
-        --s: var(--proposed);
-      }
-      .open {
-        --s: var(--open);
-      }
       section {
         background: white;
         border: 1px solid var(--line);
@@ -98,12 +62,11 @@
       }
       .field {
         display: grid;
-        grid-template-columns: 190px 120px 60px 1fr 90px;
+        grid-template-columns: 190px 110px 1fr;
         gap: 4px 14px;
         align-items: baseline;
         padding: 9px 16px;
         border-bottom: 1px solid var(--line);
-        border-left: 4px solid var(--s);
       }
       .field:last-child {
         border-bottom: 0;
@@ -112,12 +75,8 @@
         font-family: var(--mono);
         font-weight: 600;
       }
-      .name s {
-        color: var(--muted);
-        font-weight: 400;
-        font-size: 12px;
-      }
       .type {
+        grid-column: 1 / -1;
         font-family: var(--mono);
         font-size: 12px;
         color: #7c3aed;
@@ -138,10 +97,6 @@
       .src.book {
         background: #ede9fe;
       }
-      .src.none {
-        background: #f3f4f6;
-        color: var(--muted);
-      }
       .ex {
         font-family: var(--mono);
         font-size: 12px;
@@ -150,26 +105,10 @@
         text-overflow: ellipsis;
         white-space: nowrap;
       }
-      .field > .pill {
-        justify-self: end;
-      }
       .note {
         grid-column: 1 / -1;
         font-size: 13px;
         color: #374151;
-      }
-      .note b {
-        color: var(--open);
-        font-weight: 600;
-      }
-      .dropped {
-        color: var(--muted);
-        font-size: 13px;
-        padding: 12px 16px;
-      }
-      .dropped code {
-        font-family: var(--mono);
-        text-decoration: line-through;
       }
       .top {
         font-family: var(--mono);
@@ -189,29 +128,20 @@
     <main>
       <h1><code>goodreads.json</code>: the schema, annotated</h1>
       <p class="sub">
-        Working view for #61. Examples are <i>The Diamond Age</i> (book 827,
-        read 3 times) from <code>goodreads.json</code> at fe3f2682c; values
-        marked "would be" don't exist yet.
+        Field by field, as zod (<code>apps/scrape/src/goodreads.ts</code>) and
+        CUE (<code>cue/check-goodreads.cue</code>) check it; their comments give
+        each field's page elements, checks and transform. Examples are
+        <i>The Diamond Age</i> (book 827, read 3 times) from the run of
+        2026-11-22.
       </p>
-
-      <div class="legend">
-        <span
-          ><span class="pill locked">implemented</span> already in today's
-          file</span
-        >
-        <span
-          ><span class="pill decided">to build</span> decided, needs code</span
-        >
-        <span
-          ><span class="src list">list</span>
-          <span class="src review">review</span>
-          <span class="src book">book</span> page it comes from</span
-        >
-      </div>
 
       <div class="top">
         [ { …one object per book on your shelves… }, … ]
-        <span class="c">&nbsp;&nbsp;// a plain array, keyed by id</span>
+        <span class="c"
+          >&nbsp;&nbsp;// a plain array, in list order (last updated first);
+          each object closed: these fields and no other, all required, so every
+          entry has the same keys</span
+        >
       </div>
 
       <section>
@@ -219,41 +149,46 @@
           <h2>1 · Identity</h2>
           <span class="why">the key, and the links it carries</span>
         </header>
-        <div class="field locked">
-          <span class="name">id <s>reviewId</s></span
-          ><span class="type">digits</span><span class="src list">list</span
-          ><span class="ex">"426793453"</span
-          ><span class="pill locked">implemented</span>
+        <div class="field">
+          <span class="name">id</span><span class="src list">list</span
+          ><span class="ex">"426793453"</span>
+          <span class="type">string, required: digits, ^\d+$</span>
           <div class="note">
-            The primary key; the RSS name; the Goodreads review id
-            (<code>/review/show/&lt;id&gt;</code>).
+            The key: the Goodreads review id
+            (<code>/review/show/&lt;id&gt;</code>, the review page).
           </div>
         </div>
-        <div class="field locked">
-          <span class="name">bookId</span><span class="type">digits</span
-          ><span class="src list">list</span><span class="ex">"827"</span
-          ><span class="pill locked">implemented</span>
-          <div class="note">The edition on the shelf.</div>
+        <div class="field">
+          <span class="name">bookId</span><span class="src list">list</span
+          ><span class="ex">"827"</span>
+          <span class="type">string, required: digits, ^\d+$</span>
+          <div class="note">The edition; no book id is listed twice.</div>
         </div>
-        <div class="field locked">
-          <span class="name">workId</span><span class="type">digits</span
-          ><span class="src book">book</span><span class="ex">"2181158"</span
-          ><span class="pill locked">implemented</span>
+        <div class="field">
+          <span class="name">workId</span><span class="src book">book</span
+          ><span class="ex">"2181158"</span>
+          <span class="type">string, required: digits, ^\d+$</span>
           <div class="note">
-            All editions of the book; the book page's <code>Work</code>
+            All editions of the book: the book page's <code>Work</code>
             <code>legacyId</code>. Not the list row's
             <code>/work/editions/&lt;workId&gt;</code> link: rows with an empty
-            format cell have none (3 on 2026-11-21). 28 works have two entries
-            (56): kept as two books; a run warns with their count.
+            format cell have none (3 on 2026-11-21). Entries of the same work
+            are kept, one per edition; a run warns with the count of works with
+            more than one entry.
           </div>
         </div>
-        <div class="field locked">
-          <span class="name">bookURL</span><span class="type">https URL</span
-          ><span class="src list">list</span
+        <div class="field">
+          <span class="name">bookURL</span><span class="src list">list</span
           ><span class="ex"
             >"https://www.goodreads.com/book/show/827.The_Diamond_Age"</span
-          ><span class="pill locked">implemented</span>
-          <div class="note">Can't be built from bookId.</div>
+          >
+          <span class="type"
+            >string, required: a URL,
+            ^https://www\.goodreads\.com/book/show/\d+</span
+          >
+          <div class="note">
+            The book page, with its slug; can't be built from bookId.
+          </div>
         </div>
       </section>
 
@@ -262,66 +197,82 @@
           <h2>2 · The book</h2>
           <span class="why">what Goodreads says about it</span>
         </header>
-        <div class="field locked">
-          <span class="name">title</span><span class="type">string</span
-          ><span class="src list">list</span
+        <div class="field">
+          <span class="name">title</span><span class="src list">list</span
           ><span class="ex"
             >"The Diamond Age: Or, a Young Lady's Illustrated Primer"</span
-          ><span class="pill locked">implemented</span>
+          >
+          <span class="type">string, required: not empty</span>
+          <div class="note">The edition's title, with its series.</div>
         </div>
-        <div class="field locked">
-          <span class="name">authorName</span><span class="type">string</span
-          ><span class="src book">book</span
-          ><span class="ex">"Neal Stephenson"</span
-          ><span class="pill locked">implemented</span>
-        </div>
-        <div class="field locked">
-          <span class="name">bookImageURL</span
-          ><span class="type">https URL</span><span class="src list">list</span
-          ><span class="ex">"…/books/1388180931l/827._SY75_.jpg"</span
-          ><span class="pill locked">implemented</span>
-          <div class="note">Can't be built from bookId.</div>
-        </div>
-        <div class="field locked">
-          <span class="name">isbn</span><span class="type">string | ""</span
-          ><span class="src list">list</span><span class="ex">"0553380966"</span
-          ><span class="pill locked">implemented</span>
-        </div>
-        <div class="field locked">
-          <span class="name">numPages</span><span class="type">digits</span
-          ><span class="src list">list</span><span class="ex">"499"</span
-          ><span class="pill locked">implemented</span>
-        </div>
-        <div class="field locked">
-          <span class="name">averageRating</span><span class="type">"d.d"</span
-          ><span class="src list">list</span><span class="ex">"4.2"</span
-          ><span class="pill locked">implemented</span>
+        <div class="field">
+          <span class="name">authorName</span><span class="src book">book</span
+          ><span class="ex">"Neal Stephenson"</span>
+          <span class="type">string, required: not empty</span>
           <div class="note">
-            The list's "avg rating" column, one decimal. Not proven to be all
-            editions' average: <i>1Q84</i> and <i>Quicksilver</i> differ per
-            edition.
+            The primary contributor, as shown, spacing kept: two spaces in
+            <code>"Mark&nbsp; Lawrence"</code>.
           </div>
         </div>
-        <div class="field locked">
-          <span class="name">bookDescription</span><span class="type">HTML</span
+        <div class="field">
+          <span class="name">bookImageURL</span
+          ><span class="src list">list</span
+          ><span class="ex">"…/books/1388180931l/827._SY75_.jpg"</span>
+          <span class="type">string, required: an https URL, ^https://</span>
+          <div class="note">
+            The list's small cover, or Goodreads' placeholder; can't be built
+            from bookId.
+          </div>
+        </div>
+        <div class="field">
+          <span class="name">isbn</span><span class="src list">list</span
+          ><span class="ex">"0553380966"</span>
+          <span class="type"
+            >string, required: ^([0-9X]{10}|[0-9X]{13})?$, "" when none</span
+          >
+        </div>
+        <div class="field">
+          <span class="name">numPages</span><span class="src list">list</span
+          ><span class="ex">"499"</span>
+          <span class="type">string, required: digits, ^\d+$</span>
+          <div class="note">"1,280 pp" → "1280"; "unknown" → "0".</div>
+        </div>
+        <div class="field">
+          <span class="name">averageRating</span
+          ><span class="src list">list</span><span class="ex">"4.2"</span>
+          <span class="type">string, required: ^\d\.\d$</span>
+          <div class="note">
+            The list's "avg rating" column, rounded to one decimal with
+            <code>toFixed(1)</code> (4.05 → "4.0") only to avoid flapping. Not
+            proven to be all editions' average: <i>1Q84</i> and
+            <i>Quicksilver</i> differ per edition.
+          </div>
+        </div>
+        <div class="field">
+          <span class="name">bookDescription</span
           ><span class="src book">book</span
           ><span class="ex"
             >"&lt;i&gt;The Diamond Age: Or, a Young Lady's…"</span
-          ><span class="pill locked">implemented</span>
+          >
+          <span class="type">string, required: HTML, may be ""</span>
         </div>
-        <div class="field locked">
+        <div class="field">
           <span class="name">bookPublished</span
-          ><span class="type">ISO date | ""</span
           ><span class="src list">list</span
-          ><span class="ex">"1995-02" (shown "Feb 1995")</span
-          ><span class="pill locked">implemented</span>
+          ><span class="ex">"1995-02" (shown "Feb 1995")</span>
+          <span class="type"
+            >string, required: "YYYY-MM-DD" (a real day) | "YYYY-MM" (month
+            01–12) | ^-?\d{4}$ | "" | the text as shown, never in a format the
+            list shows and this normalizes, nor ISO-shaped like one</span
+          >
           <div class="note">
-            ISO 8601 at the precision shown: "Nov 05, 2023" → "2023-11-05"
-            (865), "Jan 2027" → "2027-01" (151), "1995" (306), "100" → "0100"
-            (2), "-750" → "-0750" (11; BC as Goodreads gives it, not
-            astronomical), "unknown" → "" (123). An impossible day fails the
-            run; other text is kept as shown, with a warning (none on
-            2026-11-21).
+            The work's original publication date, ISO 8601 at the precision
+            shown: "Nov 05, 2023" → "2023-11-05" (865), "Jan 2027" → "2027-01"
+            (151), "1995" (306), "100" → "0100" (2), "-750" → "-0750" (11; BC as
+            Goodreads gives it, not astronomical), "unknown" → "" (123), an
+            empty cell stays "" (never seen); counts of 2026-11-21. An
+            impossible day fails the run; other text is kept as shown, with a
+            warning (none on 2026-11-21).
           </div>
         </div>
       </section>
@@ -329,41 +280,47 @@
       <section>
         <header>
           <h2>3 · Your shelving</h2>
-          <span class="why">shelves, rating, review</span>
+          <span class="why">shelf, tags, rating, review</span>
         </header>
-        <div class="field locked">
-          <span class="name">userShelf</span><span class="type">string</span
-          ><span class="src list">list</span
-          ><span class="ex">"currently-reading"</span
-          ><span class="pill locked">implemented</span>
+        <div class="field">
+          <span class="name">userShelf</span><span class="src list">list</span
+          ><span class="ex">"read"</span>
+          <span class="type"
+            >string, required: "to-read" | "currently-reading" | "read" |
+            "did-not-finish" | "on-deck"</span
+          >
           <div class="note">
             Goodreads' exclusive shelf, one and only one: the row's one
-            <code>?shelf=</code> link. Was <code>userExclusiveShelf</code>.
+            <code>?shelf=</code> link; equal to the review page's heading shelf.
+            Each shelf's count is checked against the sidebar.
           </div>
         </div>
-        <div class="field locked">
-          <span class="name">userTags</span><span class="type">string[]</span
-          ><span class="src list">list</span
-          ><span class="ex">["long-term"]</span
-          ><span class="pill locked">implemented</span>
+        <div class="field">
+          <span class="name">userTags</span><span class="src list">list</span
+          ><span class="ex">[]</span>
+          <span class="type">string[], required: each not empty</span>
           <div class="note">
-            Non-exclusive shelves, which Goodreads' UI now calls tags: the row's
-            <code>?tag=</code> links, in row order; [] when none. Replaces the
-            planned <code>userShelves</code>. Exclusive or not is the link's own
-            parameter, not a fixed list. Each tag's count is checked against the
-            sidebar, as each shelf's is.
+            Non-exclusive shelves, which Goodreads' UI calls tags: the row's
+            <code>?tag=</code> links, in row order; [] when none (<i
+              >Critique of Pure Reason</i
+            >: ["long-term"]). Exclusive or not is the link's own parameter, not
+            a fixed list. Each tag's count is checked against the sidebar, as
+            each shelf's is.
           </div>
         </div>
-        <div class="field locked">
-          <span class="name">userRating</span
-          ><span class="type">number 0–5</span><span class="src list">list</span
-          ><span class="ex">5</span><span class="pill locked">implemented</span>
-          <div class="note">Fractional allowed (4.25, 4.5); 0 is unrated.</div>
+        <div class="field">
+          <span class="name">userRating</span><span class="src list">list</span
+          ><span class="ex">5</span>
+          <span class="type">number, required: 0 to 5</span>
+          <div class="note">
+            Fractional as rated (4.25, 4.5); 0 is unrated, and a pre-release
+            book is 0.
+          </div>
         </div>
-        <div class="field locked">
-          <span class="name">userReview</span><span class="type">HTML</span
-          ><span class="src review">review</span><span class="ex">""</span
-          ><span class="pill locked">implemented</span>
+        <div class="field">
+          <span class="name">userReview</span
+          ><span class="src review">review</span><span class="ex">""</span>
+          <span class="type">string, required: HTML, "" when none</span>
         </div>
       </section>
 
@@ -371,69 +328,73 @@
         <header>
           <h2>4 · Your dates</h2>
           <span class="why"
-            >names locked; all ISO UTC, but precision differs: a Pacific day
-            (read dates sometimes a month or a year, padded to the 1st),
-            userUpdatedAt milliseconds or a day on fallback</span
+            >all ISO 8601 UTC, but precision differs: a US Pacific day, as its
+            start in UTC (read dates sometimes a month or a year, padded to the
+            1st); userUpdatedAt milliseconds, or a day on fallback</span
           >
         </header>
-        <div class="field locked">
-          <span class="name">userAddedAt</span><span class="type">ISO UTC</span
-          ><span class="src list">list</span
-          ><span class="ex">"2012-10-03T07:00:00.000Z"</span
-          ><span class="pill locked">implemented</span>
+        <div class="field">
+          <span class="name">userAddedAt</span><span class="src list">list</span
+          ><span class="ex">"2012-10-03T07:00:00.000Z"</span>
+          <span class="type">string, required: ISO 8601 UTC datetime</span>
           <div class="note">
-            Date added, a Pacific day, stored as its start in UTC. A run warns
-            (a count) when the timeline's one "Shelved" row has another day (0
-            of 1458).
+            Date added, a Pacific day. A run warns (a count) when the timeline's
+            one "Shelved" row of the entry's own edition has another day, or
+            there is not exactly one (0 of 1458 on 2026-11-21).
           </div>
         </div>
-        <div class="field locked">
-          <span class="name">userUpdatedAt <s>reviewUpdatedAt</s></span
-          ><span class="type">ISO UTC</span
+        <div class="field">
+          <span class="name">userUpdatedAt</span
           ><span
             ><span class="src book">book</span>
             <span class="src review">review</span></span
-          ><span class="ex">"2025-06-28T04:41:42.475Z"</span
-          ><span class="pill locked">implemented</span>
+          ><span class="ex">"2025-06-28T04:41:42.475Z"</span>
+          <span class="type">string, required: ISO 8601 UTC datetime</span>
           <div class="note">
             Best effort: close to Goodreads' "date updated" (the list's sort
             key), not exactly it; never proof of a change. The book page's
-            <code>updatedAt</code> when present (774/1458, to the ms); else the
-            latest dated row of the entry's own timeline (a day). Against the
-            RSS of 2026-10-27: same day on 732/770 and 656/677. The file's order
-            is the exact signal of what changed last.
+            <code>updatedAt</code> when present (to the ms); else the latest
+            whole-day row of the entry's own timeline (a day); with neither, the
+            run fails. Against the RSS of 2026-10-27: same day on 732/770 and
+            656/677. The file's order is the exact signal of what changed last.
           </div>
         </div>
-        <div class="field locked">
-          <span class="name">userReadCount</span><span class="type">number</span
-          ><span class="src review">review</span><span class="ex">3</span
-          ><span class="pill locked">implemented</span>
+        <div class="field">
+          <span class="name">userReadCount</span
+          ><span class="src review">review</span><span class="ex">3</span>
+          <span class="type">number, required: an integer, 0 or more</span>
           <div class="note">
-            One group with first and last read, per entry: its own "Finished
-            Reading" rows, dated or not (rows ending "(… Edition)" are another
-            entry's). <i>The Great Code</i>: 1, no dates. A run warns (a count)
-            when the list's <code>read_count</code> differs (it is this + 1 on
-            currently-reading), or a book on read has no finish. Undated,
-            unpaired and early finishes are counted in the code comments.
+            The entry's own "Finished Reading" rows, dated or not (rows ending
+            "(… Edition)" are another edition's). <i>The Great Code</i>: 1, no
+            dates. A run warns (a count) when the list's
+            <code>read_count</code> differs (it is this + 1 on
+            currently-reading), or a book on read has no finish.
           </div>
         </div>
-        <div class="field locked">
+        <div class="field">
           <span class="name">userFirstReadAt</span
-          ><span class="type">ISO UTC</span
           ><span class="src review">review</span
-          ><span class="ex">"2012-11-23T08:00:00.000Z"</span
-          ><span class="pill locked">implemented</span>
-        </div>
-        <div class="field locked">
-          <span class="name">userLastReadAt</span
-          ><span class="type">ISO UTC</span
-          ><span class="src review">review</span
-          ><span class="ex">"2025-06-27T07:00:00.000Z"</span
-          ><span class="pill locked">implemented</span>
+          ><span class="ex">"2012-11-23T08:00:00.000Z"</span>
+          <span class="type"
+            >string, required: ISO 8601 UTC datetime, "" when none is
+            dated</span
+          >
           <div class="note">
-            The RSS's <code>userReadAt</code>. First and last: the earliest and
-            latest dated finish; absent when none is dated. A month or a year is
-            padded to the 1st, and a 1st may stand for its month.
+            The earliest dated own finish; "" when none is dated. A month or a
+            year is padded to the 1st, and a 1st may stand for its month.
+          </div>
+        </div>
+        <div class="field">
+          <span class="name">userLastReadAt</span
+          ><span class="src review">review</span
+          ><span class="ex">"2025-06-27T07:00:00.000Z"</span>
+          <span class="type"
+            >string, required: ISO 8601 UTC datetime, "" when none is
+            dated</span
+          >
+          <div class="note">
+            As userFirstReadAt, the latest instead; equal to it with one dated
+            finish.
           </div>
         </div>
       </section>
@@ -443,24 +404,24 @@
           <h2>5 · Timeline</h2>
           <span class="why">the raw reading history behind the dates</span>
         </header>
-        <div class="field locked">
+        <div class="field">
           <span class="name">timeline</span
-          ><span class="type">{dateText, event}[]</span
           ><span class="src review">review</span
-          ><span class="ex">13 rows: "June 27, 2025 – Finished Reading", …</span
-          ><span class="pill locked">implemented</span>
+          ><span class="ex"
+            >13 rows, first {"dateText": "October 3, 2012", "event": "Shelved"},
+            …</span
+          >
+          <span class="type"
+            >{dateText, event}[], required; each row closed: dateText, string,
+            ^(.* )?\d{4}$ or ""; event, string, not empty</span
+          >
           <div class="note">
-            Kept as shown. The provenance of the read group and of
+            Kept as shown, in page order; never empty on real pages. dateText is
+            the text before the row's first en dash, its precision as shown
+            ("October 23, 2026", "January, 1997", "2021"), "" when none. The
+            provenance of userReadCount, userFirstReadAt, userLastReadAt and of
             <code>userUpdatedAt</code>'s fallback.
           </div>
-        </div>
-      </section>
-
-      <section>
-        <div class="dropped">
-          Dropped from the RSS: <code>link</code> (= id),
-          <code>userName</code> (always "Daniel"), <code>description</code>
-          (built from the other fields).
         </div>
       </section>
     </main>
