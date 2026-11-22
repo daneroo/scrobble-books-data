@@ -239,5 +239,50 @@
         "event": "Shelved"
       }
     ]
+  },
+  {
+    "id": "4039959353",
+    "title": "Critique of Pure Reason",
+    "bookId": "18288",
+    "bookURL": "https://www.goodreads.com/book/show/18288.Critique_of_Pure_Reason",
+    "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1757108780l/18288._SY75_.jpg",
+    "isbn": "0521657296",
+    "userRating": 0,
+    "userAddedAt": "2021-06-03T07:00:00.000Z",
+    "userShelf": "currently-reading",
+    "userTags": [
+      "long-term"
+    ],
+    "averageRating": "4.0",
+    "bookPublished": "1781",
+    "numPages": "785",
+    "workId": "1072226",
+    "userUpdatedAt": "2026-11-21T08:00:00.000Z",
+    "userReadCount": 0,
+    "userReview": "",
+    "bookDescription": "<b>\n  <i>'The purpose of this critique of pure speculative reason consists in the attempt to change the old procedure of metaphysics and to bring about a complete revolution'</i>\n</b><br /><br />Kant's <i>Critique of Pure Reason</i> (1781) is the central text of modern philosophy. It presents a profound and challenging investigation into the nature of human reason, its knowledge and its illusions. Reason, Kant argues, is the seat of certain concepts that precede experience and make it possible, but we are not therefore entitled to draw conclusions about the natural world from these concepts. The <i>Critique</i> brings together the two opposing schools of philosophy: rationalism, which grounds all our knowledge in reason, and empiricism, which traces all our knowledge to experience. Kant's transcendental idealism indicates a third way that goes far beyond these alternatives.<br /><br />Marcus Weigelt's lucid re-working of Max Müller's classic translation makes the <i>Critique</i> accessible to a new generation of readers. His informative introduction places the work in context and elucidates Kant's main arguments. This edition also contains a bibliography and explanatory notes.",
+    "authorName": "Immanuel Kant",
+    "timeline": [
+      {
+        "dateText": "June 3, 2021",
+        "event": "Shelved as: on-deck"
+      },
+      {
+        "dateText": "June 3, 2021",
+        "event": "Shelved"
+      },
+      {
+        "dateText": "June 7, 2021",
+        "event": "Started Reading"
+      },
+      {
+        "dateText": "June 7, 2021",
+        "event": "10.0%"
+      },
+      {
+        "dateText": "November 21, 2026",
+        "event": "Shelved as: long-term"
+      }
+    ]
   }
 ]
