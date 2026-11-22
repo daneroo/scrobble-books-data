@@ -5,8 +5,8 @@
 - Section 1: settled.
 - Section 2:
   - id: keep the RSS name, not reviewId.
-  - userExclusiveShelf: settled.
-  - userShelves: all shelves, an array; later. Open: fixed or dynamic list.
+  - userExclusiveShelf: renamed userShelf (#75), the one exclusive shelf.
+  - userShelves: replaced by userTags (#75), the tags, an array.
   - bookPublished: a string, normalized to ISO 8601 at the precision shown.
   - userRating: settled. A number, fractional (4.25, 4.5).
 - Section 3: settled.

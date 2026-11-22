@@ -10,7 +10,7 @@
    - timeline: semantics, and the invariants to verify
 4. bookPublished: a book field, normalized; see bookPublished. May share the
    dates ticket.
-5. shelves: userShelves, every shelf, an array; fixed or dynamic list.
+5. shelf and tags: userShelf and userTags (#75).
 
 ## Multiple editions
 
@@ -49,11 +49,9 @@
 
 ## Shelves
 
-- userShelves: every shelf on the row, an array; userExclusiveShelf: the one
-  that is exclusive.
-- Exclusive list: from the sidebar (above the divider), not hard-coded? Open.
-- Test: put one real book on a non-exclusive shelf, save the list page, parse it
-  offline first.
-- Rollout order: the code that accepts several shelves ships first; then add
-  books to non-exclusive shelves. The other way round, every cron run fails
-  (nothing published).
+- Done (#75): userShelf (was userExclusiveShelf), the row's one `shelf=` link;
+  userTags, its `tag=` links, `[]` when none. Shelf or tag is told by the link,
+  in rows and sidebar. The 5 exclusive shelves stay a fixed list. Shelf and tag
+  counts both checked against the sidebar (count-mismatch).
+- Critique of Pure Reason stays tagged long-term: main's scraper fails on it
+  until the merge; Docker is stopped meanwhile.
