@@ -14,3 +14,9 @@ here. Promote an idea to a GitHub issue, then delete the line.
 - [ ] incremental-scrape — stop a run early once no more entries have been
       updated, against a reference data set (perhaps a database); it would make
       the raw pages on disk moot.
+- [ ] run-report — a detailed report of each run, most likely JSON, replaced by
+      every run, to observe a run from outside (the log is too obtuse):
+      settings, stages, timings and latency per page kind, retries and WAF
+      restarts, a failure's details, warnings (works with more than one entry,
+      read-group oddities, unparsed `bookPublished`), publishing. Built on a run
+      record (settings, stages, requests): the run's provenance.

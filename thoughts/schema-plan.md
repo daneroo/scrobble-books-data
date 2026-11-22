@@ -15,7 +15,8 @@
 ## Multiple editions
 
 - 28 works have two entries (two editions); 56 entries.
-- workId: add it (list row, no extra requests); pairs them exactly.
+- workId: add it (book page `Work.legacyId`, no extra requests; not the list
+  row's link, missing when the format cell is empty); pairs them exactly.
 - Fallback: two entries, treated as two books. Not blocking.
 - Timeline: each entry shows its own rows plus the other's
   Shelved/Started/Finished as `<event> (<format> Edition)`. All Finished rows

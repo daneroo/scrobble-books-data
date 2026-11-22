@@ -219,14 +219,14 @@
           <h2>1 · Identity</h2>
           <span class="why">the key, and the links it carries</span>
         </header>
-        <div class="field decided">
+        <div class="field locked">
           <span class="name">id <s>reviewId</s></span
           ><span class="type">digits</span><span class="src list">list</span
           ><span class="ex">"426793453"</span
-          ><span class="pill decided">to build</span>
+          ><span class="pill locked">implemented</span>
           <div class="note">
-            The primary key; the RSS name. Published as <code>id</code>; parsing
-            may keep <code>reviewId</code> (the URLs use it).
+            The primary key; the RSS name; the Goodreads review id
+            (<code>/review/show/&lt;id&gt;</code>).
           </div>
         </div>
         <div class="field locked">
@@ -235,16 +235,16 @@
           ><span class="pill locked">implemented</span>
           <div class="note">The edition on the shelf.</div>
         </div>
-        <div class="field decided">
+        <div class="field locked">
           <span class="name">workId</span><span class="type">digits</span
-          ><span class="src list">list</span
-          ><span class="ex">would be the work's id</span
-          ><span class="pill decided">to build</span>
+          ><span class="src book">book</span><span class="ex">"2181158"</span
+          ><span class="pill locked">implemented</span>
           <div class="note">
-            All editions of the book; from the row's
-            <code>/work/editions/&lt;workId&gt;</code> link. 28 works have two
-            entries (56): kept as two books; with workId, fixed case by case on
-            Goodreads where acceptable.
+            All editions of the book; the book page's <code>Work</code>
+            <code>legacyId</code>. Not the list row's
+            <code>/work/editions/&lt;workId&gt;</code> link: rows with an empty
+            format cell have none (3 on 2026-11-21). 28 works have two entries
+            (56): kept as two books; a run warns with their count.
           </div>
         </div>
         <div class="field locked">

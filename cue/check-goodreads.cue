@@ -148,6 +148,8 @@ import "time"
 	// - Page: book page.
 	// - Elements: in apolloState, the legacyId of the Work that the Book's
 	//   work points to; a page without that Work fails (layout-change).
+	//   Not the list row's /work/editions/<workId> link: a row with an
+	//   empty format cell has none (3 on 2026-11-21).
 	// - Checks: a positive integer (parse-failure otherwise).
 	// - Transform: the number as digits.
 	// - Format: digits, "25369241"; /work/editions/<workId> lists its
