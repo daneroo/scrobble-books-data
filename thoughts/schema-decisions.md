@@ -24,9 +24,10 @@
 
 - userAddedAt
 - userReadCount, userFirstReadAt, userLastReadAt: per entry, from the plain
-  "Finished Reading" rows (the list's read_count also counts other editions).
-- userUpdatedAt (was userDateAdded): the crux; tied to the sort key; the book
-  page's updatedAt when present, fallback analysed in implementation.
+  "Finished Reading" rows (the list's read_count is this + 1 on
+  currently-reading).
+- userUpdatedAt (was userDateAdded): best effort; the book page's updatedAt when
+  present, else the latest dated own timeline row.
 
 Read cases:
 

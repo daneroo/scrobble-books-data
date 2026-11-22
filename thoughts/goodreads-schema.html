@@ -296,7 +296,11 @@
           <span class="name">averageRating</span><span class="type">"d.d"</span
           ><span class="src list">list</span><span class="ex">"4.2"</span
           ><span class="pill locked">implemented</span>
-          <div class="note">All editions' average, one decimal.</div>
+          <div class="note">
+            The list's "avg rating" column, one decimal. Not proven to be all
+            editions' average: <i>1Q84</i> and <i>Quicksilver</i> differ per
+            edition.
+          </div>
         </div>
         <div class="field locked">
           <span class="name">bookDescription</span><span class="type">HTML</span
@@ -369,50 +373,56 @@
           ><span class="ex">"2012-10-03T07:00:00.000Z"</span
           ><span class="pill locked">implemented</span>
           <div class="note">
-            Date added, a Pacific day, stored as its start in UTC. Check: the
-            timeline's one "Shelved" row has the same day (1458/1458).
+            Date added, a Pacific day, stored as its start in UTC. A run warns
+            (a count) when the timeline's one "Shelved" row has another day (0
+            of 1458).
           </div>
         </div>
-        <div class="field decided">
+        <div class="field locked">
           <span class="name">userUpdatedAt <s>reviewUpdatedAt</s></span
-          ><span class="type">ISO UTC</span><span class="src book">book</span
+          ><span class="type">ISO UTC</span><span class="src book">book</span>
+          <span class="src review">review</span
           ><span class="ex">"2025-06-28T04:41:42.475Z"</span
-          ><span class="pill decided">to build</span>
+          ><span class="pill locked">implemented</span>
           <div class="note">
-            The crux: last updated, tied to the list's sort key. The book page's
-            <code>updatedAt</code> when present (770/1447), definitive.
-            <b>Open:</b> the fallback, the review page date or the latest dated
-            timeline row; analysed in implementation.
+            Best effort: close to Goodreads' "date updated" (the list's sort
+            key), not exactly it; never proof of a change. The book page's
+            <code>updatedAt</code> when present (774/1458, to the ms); else the
+            latest dated row of the entry's own timeline (a day). Against the
+            RSS of 2026-10-27: same day on 732/770 and 656/677. The file's order
+            is the exact signal of what changed last.
           </div>
         </div>
-        <div class="field decided">
+        <div class="field locked">
           <span class="name">userReadCount</span><span class="type">number</span
-          ><span class="src review">review</span
-          ><span class="ex">would be 3</span
-          ><span class="pill decided">to build</span>
+          ><span class="src review">review</span><span class="ex">3</span
+          ><span class="pill locked">implemented</span>
           <div class="note">
-            One group with first and last read, per entry: the plain "Finished
-            Reading" rows (rows ending "(… Edition)" are another entry's).
-            <b>Open:</b> invariants (unmatched, undated, missing
-            Started/Finished pairs), analysed in implementation.
+            One group with first and last read, per entry: its own "Finished
+            Reading" rows, dated or not (rows ending "(… Edition)" are another
+            entry's). <i>The Great Code</i>: 1, no dates. A run warns (a count)
+            when the list's <code>read_count</code> differs (it is this + 1 on
+            currently-reading), or a book on read has no finish. Undated,
+            unpaired and early finishes are counted in the code comments.
           </div>
         </div>
-        <div class="field decided">
+        <div class="field locked">
           <span class="name">userFirstReadAt</span
           ><span class="type">ISO UTC</span
           ><span class="src review">review</span
-          ><span class="ex">would be 2012-11-23</span
-          ><span class="pill decided">to build</span>
+          ><span class="ex">"2012-11-23T08:00:00.000Z"</span
+          ><span class="pill locked">implemented</span>
         </div>
-        <div class="field decided">
+        <div class="field locked">
           <span class="name">userLastReadAt</span
           ><span class="type">ISO UTC</span
           ><span class="src review">review</span
-          ><span class="ex">would be 2025-06-27</span
-          ><span class="pill decided">to build</span>
+          ><span class="ex">"2025-06-27T07:00:00.000Z"</span
+          ><span class="pill locked">implemented</span>
           <div class="note">
-            The RSS's <code>userReadAt</code>. Some read books have no read date
-            (61 today).
+            The RSS's <code>userReadAt</code>. First and last: the earliest and
+            latest dated finish; absent when none is dated. A month or a year is
+            padded to the 1st, and a 1st may stand for its month.
           </div>
         </div>
       </section>
@@ -429,8 +439,8 @@
           ><span class="ex">13 rows: "June 27, 2025 – Finished Reading", …</span
           ><span class="pill locked">implemented</span>
           <div class="note">
-            Kept as shown. <b>Open:</b> its semantics, and how it gives the
-            dates and the read count.
+            Kept as shown. The provenance of the read group and of
+            <code>userUpdatedAt</code>'s fallback.
           </div>
         </div>
       </section>

@@ -31,14 +31,13 @@
 - userAddedAt: settled. Source: list "date added", a Pacific day, stored as its
   start in UTC. Timeline invariant: its one "Shelved" row has the same day
   (1458/1458).
-- userUpdatedAt: book page updatedAt when present (770/1447), definitive.
-  Fallback for the rest: review page header date or latest dated timeline row
-  (both always present); the definitive analysis is done in implementation.
-- userReadCount, userFirstReadAt, userLastReadAt: one group, implemented
-  together, per entry (plain "Finished Reading" rows). Invariants: the
-  definitive analysis is done in implementation.
-  - entry point: Finished Reading
-  - unmatched / undated / missing Started Reading / Finished Reading pairs
+- userUpdatedAt (#72): best effort, not exactly the sort key. Book page
+  updatedAt when present; else the latest dated row of the entry's own timeline.
+  Against the RSS of 2026-10-27: same day 732/770 and 656/677. The file's order
+  is the exact signal.
+- userReadCount, userFirstReadAt, userLastReadAt (#73): per entry, its own
+  "Finished Reading" rows, dated or not; first and last from dated ones. The
+  list's read_count is userReadCount + 1 on currently-reading (1458/1458).
 
 ## bookPublished
 
