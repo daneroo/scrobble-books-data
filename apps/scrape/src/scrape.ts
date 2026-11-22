@@ -39,9 +39,9 @@ const ROOT = join(import.meta.dir, "../../..");
 /** `bun run scrape`, for `--help`. */
 export const SCRAPE: Command = {
   name: "bun run scrape",
-  description: `Uses the Goodreads session saved by bun run login, fetches every list page (all shelves, 100 books a page), checks that every book is there exactly once, then fetches every book's review page and checks that its shelf equals the list page's, then every book's page (description, author and review update). Writes goodreads.json (repo root): every book, its list-page fields, its review and reading timeline, its description and author.
+  description: `Uses the Goodreads session saved by bun run login, fetches every list page (all shelves, 100 books a page), checks that every book is there exactly once, then fetches every book's review page and checks that its shelf equals the list page's, then every book's page (work, description, author and review update). Writes goodreads.json (repo root): every book, its list-page fields, its work, its review and reading timeline, its description and author.
 
-CUE checks goodreads.json before it is written. Any failure is named, exits 1, and leaves goodreads.json as it was.
+CUE checks goodreads.json before it is written. Any failure is named, exits 1, and leaves goodreads.json as it was. A work on the list more than once (two editions) is kept as it is, and a passing run ends with a warning counting such works.
 
 Restarts: a pass that fails on a WAF challenge (a 202) or on too many retries is restarted after ${LIMITS.restartWaitMs / 1000} s, at most ${LIMITS.restartsPerRun} times; a restart reads the pages already fetched in this run instead of fetching them again. Any other failure ends the run at once.
 

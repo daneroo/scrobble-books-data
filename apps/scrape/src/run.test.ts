@@ -23,6 +23,7 @@ import {
   fakeGoodreads,
   FIXTURE_USER,
   madeUpIds,
+  OTHER_ESSENTIALISM,
   bookPage,
   realList,
   renderPage,
@@ -93,11 +94,13 @@ async function run(
     }),
   );
   const published = Bun.file(publishPath);
+  const { lines: reportLines, exitCode } = report(outcome, secrets);
   return {
     outcome,
     events,
     lines,
-    exitCode: report(outcome, secrets).exitCode,
+    reportLines,
+    exitCode,
     published: (await published.exists())
       ? ((await published.json()) as Goodreads)
       : undefined,
@@ -180,6 +183,7 @@ describe("a full run", () => {
       averageRating: "4.5",
       bookPublished: "Apr 01, 2025",
       numPages: "461",
+      workId: "125997193",
     });
     // a fractional rating
     expect(byId.get("9043895547")).toMatchObject({
@@ -218,6 +222,46 @@ describe("a full run", () => {
     expect(new Set(ids).size).toBe(1450);
     // the review pages fetched are exactly the entries' ids
     expect(new Set(fake.reviewRequests)).toEqual(new Set(ids));
+  });
+
+  test("every entry has its work, from its book page; two editions of Essentialism share one", async () => {
+    const { published } = await run(fakeGoodreads(realList()));
+    expect(published!.filter((item) => !/^\d+$/.test(item.workId))).toEqual([]);
+    // the two real editions, with their real work (data/61-pages)
+    expect(
+      published!
+        .filter((item) => item.workId === "25369241")
+        .map(({ id, bookId }) => ({ id, bookId })),
+    ).toEqual([
+      { id: SAVED_REVIEWS.essentialism, bookId: "19776547" },
+      { id: OTHER_ESSENTIALISM, bookId: "18077875" },
+    ]);
+    // Debt's real work
+    expect(
+      published!.find((item) => item.id === SAVED_REVIEWS.debt)?.workId,
+    ).toBe("6811142");
+  });
+
+  test("a work on the list twice is kept as two entries, and the run ends with a warning, still passing", async () => {
+    const { outcome, published, reportLines, exitCode } = await run(
+      fakeGoodreads(realList()),
+    );
+    expect(exitCode).toBe(0);
+    expect(published).toHaveLength(1450);
+    expect(reportLines[0]).toStartWith("PASS: ");
+    // on screen, the count only
+    expect(reportLines.slice(1)).toEqual([
+      "WARN: 2 works have more than one entry",
+    ]);
+    // the list, in list order: Essentialism, then Shards of Honour and
+    // Shards of Honor, both real rows of the saved page
+    expect(outcome.ok && outcome.repeatedWorks).toEqual([
+      {
+        workId: "25369241",
+        ids: [SAVED_REVIEWS.essentialism, OTHER_ESSENTIALISM],
+      },
+      { workId: "9673658", ids: ["8793576225", "8760104438"] },
+    ]);
   });
 
   test("fetches every book's review page and stores its timeline as shown", async () => {
@@ -354,6 +398,7 @@ describe("a full run", () => {
       "averageRating",
       "bookPublished",
       "numPages",
+      "workId",
       "reviewUpdatedAt",
       "userReview",
       "bookDescription",
@@ -902,6 +947,33 @@ describe("fail-closed, book pages", () => {
     });
     const { failure } = await expectFailedClosed(fake, "layout-change");
     expect(failure.detail).toContain("0 books with this id");
+  });
+
+  test("a book page without its work is layout-change, naming it", async () => {
+    const fake = fakeGoodreads(realList(), {
+      book: (row) =>
+        row.id === SAVED_REVIEWS.debt
+          ? new Response(
+              bookPage(row).replace(/"work":\{"__ref":"[^"]*"\},/, ""),
+            )
+          : undefined,
+    });
+    const { failure } = await expectFailedClosed(fake, "layout-change");
+    expect(failure.detail).toBe("book page 6617037: no work");
+  });
+
+  test("a work id that is not a positive integer is parse-failure", async () => {
+    const fake = fakeGoodreads(realList(), {
+      book: (row) =>
+        row.id === SAVED_REVIEWS.debt
+          ? new Response(
+              bookPage(row).replace('"legacyId":6811142', '"legacyId":"x"'),
+            )
+          : undefined,
+    });
+    const { failure } = await expectFailedClosed(fake, "parse-failure");
+    expect(failure.detail).toContain("book page 6617037: workId");
+    expect(failure.detail).toContain('(got "x")');
   });
 
   test("a book page with no signed-in flag is layout-change", async () => {

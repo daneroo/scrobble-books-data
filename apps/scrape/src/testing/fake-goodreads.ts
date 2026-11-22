@@ -6,8 +6,9 @@
  * The list holds only the real exclusive shelves with their real counts as
  * seen in #28: to-read 448, currently-reading 8, read 786, did-not-finish 0,
  * on-deck 208, 1450 books. Page 1 is the saved page itself; the other rows
- * are its rows again, under new review and book ids, on the shelves needed
- * to reach those counts.
+ * are its rows again, under new review, book and work ids, on the shelves
+ * needed to reach those counts, and last, the real row of the other edition
+ * of _Essentialism_, so one work is on the list twice.
  */
 import { join } from "node:path";
 
@@ -94,17 +95,22 @@ const bookFixture = await Bun.file(
 /** _Debt_'s book id. */
 const DEBT_BOOK = "6617037";
 
+/** _Debt_'s work id. */
+const DEBT_WORK = "6811142";
+
 /**
- * A book's page: _Debt_'s, under the book's id. Only _Debt_ keeps the
- * viewer's review: the other books' shelving has none, as for a book with no
- * rating or review.
+ * A book's page: _Debt_'s, under the book's id and work id. Only _Debt_
+ * keeps the viewer's review: the other books' shelving has none, as for a
+ * book with no rating or review.
  */
 export function bookPage(row: Row): string {
   const page =
     row.bookId === DEBT_BOOK
       ? bookFixture
       : bookFixture.replace(',"review":{"__ref":"Review:viewer"}', "");
-  return page.replace(`"legacyId":${DEBT_BOOK}`, `"legacyId":${row.bookId}`);
+  return page
+    .replace(`"legacyId":${DEBT_BOOK}`, `"legacyId":${row.bookId}`)
+    .replace(`"legacyId":${DEBT_WORK}`, `"legacyId":${row.workId}`);
 }
 
 /** The user id in the scrubbed fixture. */
@@ -123,6 +129,8 @@ export const REAL_COUNTS: Readonly<Record<ExclusiveShelf, number>> = {
 export interface Row {
   id: string;
   bookId: string;
+  /** The book's work: its book page's `Work`. */
+  workId: string;
   shelf: ExclusiveShelf;
   html: string;
 }
@@ -148,19 +156,40 @@ export function homePage({ signedIn }: { signedIn: boolean }): string {
   return `<!DOCTYPE html>\n<html>\n<head>\n${tagged}\n</head>\n<body></body>\n</html>\n`;
 }
 
+/**
+ * The saved rows in `html`, as they are; the work id from each row's
+ * `/work/editions/<workId>` link, the real work of its book page.
+ */
+function rowsIn(html: string): Row[] {
+  return [...html.matchAll(/<tr id="review_(\d+)"[\s\S]*?<\/tr>/g)].map(
+    (match) => {
+      const row = match[0];
+      const bookId = /data-resource-id="(\d+)"/.exec(row)?.[1];
+      const workId = /href="\/work\/editions\/(\d+)"/.exec(row)?.[1];
+      const shelf = /<a class="shelfLink"[^>]*>([^<]*)<\/a>/.exec(row)?.[1];
+      if (bookId === undefined || workId === undefined || shelf === undefined)
+        throw new Error(`fixture row ${match[1]}: no book id, work or shelf`);
+      const id = match[1]!;
+      const asShelf = shelf as ExclusiveShelf;
+      return { id, bookId, workId, shelf: asShelf, html: row };
+    },
+  );
+}
+
 /** The saved page's 100 rows, as they are. */
-export const savedRows: readonly Row[] = [
-  ...fixture
-    .slice(firstRow, afterLastRow)
-    .matchAll(/<tr id="review_(\d+)"[\s\S]*?<\/tr>/g),
-].map((match) => {
-  const html = match[0];
-  const bookId = /data-resource-id="(\d+)"/.exec(html)?.[1];
-  const shelf = /<a class="shelfLink"[^>]*>([^<]*)<\/a>/.exec(html)?.[1];
-  if (bookId === undefined || shelf === undefined)
-    throw new Error(`fixture row ${match[1]}: no book id or shelf`);
-  return { id: match[1]!, bookId, shelf: shelf as ExclusiveShelf, html };
-});
+export const savedRows: readonly Row[] = rowsIn(
+  fixture.slice(firstRow, afterLastRow),
+);
+
+/** The review id of the other edition of _Essentialism_, on the read shelf. */
+export const OTHER_ESSENTIALISM = "5557855762";
+
+/** Its real list row, scrubbed; not on the saved page. */
+const otherEssentialism: Row = rowsIn(
+  await Bun.file(
+    join(import.meta.dir, `../../fixtures/list-row-${OTHER_ESSENTIALISM}.html`),
+  ).text(),
+)[0]!;
 
 /** Replaces a whole number (not part of a longer one) everywhere. */
 function replaceId(html: string, from: string, to: string): string {
@@ -170,11 +199,12 @@ function replaceId(html: string, from: string, to: string): string {
 /** A row like `row`, under new ids and on `shelf`. */
 export function rowLike(
   row: Row,
-  ids: { id: string; bookId: string },
+  ids: { id: string; bookId: string; workId: string },
   shelf: ExclusiveShelf = row.shelf,
 ): Row {
   let html = replaceId(row.html, row.id, ids.id);
   html = replaceId(html, row.bookId, ids.bookId);
+  html = replaceId(html, row.workId, ids.workId);
   html = html.replace(
     /(<a class="shelfLink"[^>]*href="[^"]*shelf=)[^"]*("[^>]*>)[^<]*(<\/a>)/,
     `$1${shelf}$2${shelf}$3`,
@@ -183,17 +213,25 @@ export function rowLike(
 }
 
 /** The ids of the `n`th made-up row; they never collide with saved ones. */
-export function madeUpIds(n: number): { id: string; bookId: string } {
+export function madeUpIds(n: number): {
+  id: string;
+  bookId: string;
+  workId: string;
+} {
   return {
     id: String(7_000_000_000 + n),
     bookId: String(900_000_000 + n),
+    workId: String(800_000_000 + n),
   };
 }
 
-/** The full list: 1450 rows with the real counts, page 1 the saved page. */
+/**
+ * The full list: 1450 rows with the real counts, page 1 the saved page, the
+ * other edition of _Essentialism_ last.
+ */
 export function realList(): Row[] {
   const remaining = { ...REAL_COUNTS };
-  for (const row of savedRows) remaining[row.shelf]--;
+  for (const row of [...savedRows, otherEssentialism]) remaining[row.shelf]--;
   const shelves = (Object.keys(remaining) as ExclusiveShelf[]).flatMap(
     (shelf) => Array<ExclusiveShelf>(remaining[shelf]).fill(shelf),
   );
@@ -205,6 +243,7 @@ export function realList(): Row[] {
     ...mixed.map((shelf, i) =>
       rowLike(savedRows[i % savedRows.length]!, madeUpIds(i), shelf),
     ),
+    otherEssentialism,
   ];
 }
 

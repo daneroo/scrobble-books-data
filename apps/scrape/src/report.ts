@@ -1,5 +1,11 @@
 import type { Failure } from "./failure.ts";
 
+/** A work on the list more than once: one `id` per edition, in list order. */
+export interface RepeatedWork {
+  workId: string;
+  ids: string[];
+}
+
 /** The result of a run. The cookie is only there to keep it out of the log. */
 export type Outcome =
   | {
@@ -11,6 +17,11 @@ export type Outcome =
       bookPages: number;
       /** Where `goodreads.json` was written. */
       published: string;
+      /**
+       * Each work on the list more than once, in list order: a warning,
+       * counted on screen; the list itself is kept for a run report.
+       */
+      repeatedWorks: RepeatedWork[];
     }
   | { ok: false; cookie?: string; failure: Failure };
 
@@ -43,9 +54,19 @@ function summarize(outcome: Outcome): Report {
   return {
     lines: [
       `PASS: ${outcome.books} books from ${outcome.pages} list pages, ${outcome.reviewPages} review pages and ${outcome.bookPages} book pages; wrote ${outcome.published}`,
+      // kept as they are, never merged: the owner decides on Goodreads
+      ...repeatedWorksWarning(outcome.repeatedWorks.length),
     ],
     exitCode: 0,
   };
+}
+
+/** One line with the count only; none when no work is repeated. */
+function repeatedWorksWarning(count: number): string[] {
+  if (count === 0) return [];
+  return count === 1
+    ? ["WARN: 1 work has more than one entry"]
+    : [`WARN: ${count} works have more than one entry`];
 }
 
 // Cookie values shorter than this (e.g. `locale=en`) aren't secret, and

@@ -31,18 +31,20 @@ export function fetchBookPages({
 }
 
 /**
- * Adds each book's review update, description and author, in the schema's
- * order: the review update before the review, the description and author
- * before the timeline. `books` is in the order of `items`.
+ * Adds each book's work, review update, description and author, in the
+ * schema's order: the work and review update before the review, the
+ * description and author before the timeline. `books` is in the order of
+ * `items`.
  */
 export function withBookFields(
   items: readonly Omit<Item, keyof BookPage>[],
   books: readonly BookPage[],
 ): Item[] {
   return items.map(({ userReview, timeline, ...item }, i) => {
-    const { reviewUpdatedAt, bookDescription, authorName } = books[i]!;
+    const { workId, reviewUpdatedAt, bookDescription, authorName } = books[i]!;
     return {
       ...item,
+      workId,
       ...(reviewUpdatedAt === undefined ? {} : { reviewUpdatedAt }),
       userReview,
       bookDescription,

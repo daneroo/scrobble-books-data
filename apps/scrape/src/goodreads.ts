@@ -21,7 +21,8 @@
  * - book page: `bookURL`, `/book/show/<bookId>-<slug>`; its embedded JSON
  *   (`<script id="__NEXT_DATA__">`) must have `props.pageProps.apolloState`,
  *   with exactly one `Book` whose `legacyId` is `bookId`, and that `Book`'s
- *   primary contributor (`primaryContributorEdge.node.__ref`).
+ *   work (`work.__ref`) and primary contributor
+ *   (`primaryContributorEdge.node.__ref`).
  *
  * Every page must answer 200 and be signed in. A missing page part or row
  * cell fails the run as `layout-change`; a missing element inside a cell, or
@@ -212,10 +213,26 @@ export const ListItem = z.strictObject({
 export type ListItem = z.infer<typeof ListItem>;
 
 /**
- * An entry: its list page row, then its review page's review and timeline,
- * and its book page's review update, description and author.
+ * An entry: its list page row, then its book page's work, review update,
+ * description and author, and its review page's review and timeline.
  */
 export const Item = ListItem.extend({
+  /**
+   * The edition's work: all editions of the book, on Goodreads. Entries of
+   * the same work are kept as they are, one per edition, never merged; a run
+   * that passes ends with a warning counting the works with more than one
+   * entry.
+   *
+   * - Page: book page.
+   * - Elements: in `apolloState`, the `legacyId` of the `Work` that the
+   *   `Book`'s `work` points to; a page without that `Work` fails
+   *   (`layout-change`).
+   * - Checks: a positive integer (`parse-failure` otherwise).
+   * - Transform: the number as digits.
+   * - Format: digits, "25369241"; `/work/editions/<workId>` lists its
+   *   editions.
+   */
+  workId: z.string().regex(/^\d+$/),
   /**
    * The last update of the user's review record (rating or review).
    *

@@ -2,6 +2,7 @@ import { ScrapeFailure } from "../failure.ts";
 import type { Flow, Task } from "../flow/flow.ts";
 import type { Item, ListItem } from "../goodreads.ts";
 import type { PageSource } from "../pages/source.ts";
+import type { BookPage } from "../book/parse.ts";
 import { parseReviewPage, type ReviewPage } from "./parse.ts";
 
 /** A book's review page. */
@@ -46,7 +47,7 @@ export async function fetchReviewPages({
 export function withProgress(
   items: readonly ListItem[],
   reviews: readonly ReviewPage[],
-): Omit<Item, "reviewUpdatedAt" | "bookDescription" | "authorName">[] {
+): Omit<Item, keyof BookPage>[] {
   const mismatches = items.flatMap((item, i) => {
     const review = reviews[i]!;
     return review.exclusiveShelf === item.userExclusiveShelf

@@ -10,7 +10,8 @@ import { PageTemporaryError, type PageSource } from "./pages/source.ts";
 import { fetchBookPages, withBookFields } from "./book/scrape.ts";
 import { fetchReviewPages, withProgress } from "./review/scrape.ts";
 import { resetRunFiles, runFiles, writeOutputs } from "./outputs.ts";
-import type { Outcome } from "./report.ts";
+import type { Item } from "./goodreads.ts";
+import type { Outcome, RepeatedWork } from "./report.ts";
 
 export interface RunOptions {
   user: string;
@@ -43,7 +44,8 @@ export interface RunOptions {
  * list page, check completeness, fetch and parse every book's review page,
  * check its shelf, fetch every book page, write `goodreads.json`, run CUE,
  * then publish. Fail-closed: any failure is returned named, and nothing is
- * published.
+ * published. A work on the list more than once is no failure: it is
+ * returned, for a warning.
  */
 export async function runScrape(options: RunOptions): Promise<Outcome> {
   const { user, flow, dataDir, publishPath, cueSchema, signal, log } = options;
@@ -109,6 +111,7 @@ export async function runScrape(options: RunOptions): Promise<Outcome> {
       reviewPages: reviews.length,
       bookPages: books.length,
       published: publishPath,
+      repeatedWorks: repeatedWorks(items),
     };
   } catch (error) {
     const failure = failureOf(error, step);
@@ -119,6 +122,17 @@ export async function runScrape(options: RunOptions): Promise<Outcome> {
     // kept until the end of the run, for a restart to read
     await saver.flushed();
   }
+}
+
+/** Each work with more than one entry, in list order, with their `id`s. */
+function repeatedWorks(items: readonly Item[]): RepeatedWork[] {
+  const byWork = Map.groupBy(items, (item) => item.workId);
+  return [...byWork]
+    .filter(([, editions]) => editions.length > 1)
+    .map(([workId, editions]) => ({
+      workId,
+      ids: editions.map((item) => item.id),
+    }));
 }
 
 /** Names any error the run can end with. */

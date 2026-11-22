@@ -5,6 +5,8 @@ import { describeIssues } from "../list/parse.ts";
 
 /** One book page, parsed and validated. */
 export interface BookPage {
+  /** The work, all editions of the book: its Goodreads work id, digits. */
+  workId: string;
   /** The description, as HTML (`<br />`, `<i>`), as shown, trimmed (S4). */
   bookDescription: string;
   /** The primary contributor's name, as shown, spacing kept. */
@@ -17,6 +19,8 @@ export interface BookPage {
 }
 
 const Fields = z.strictObject({
+  /** A positive integer, as the page has it. */
+  workId: z.number().int().positive(),
   bookDescription: z.string(),
   authorName: z.string().min(1),
   /** Milliseconds since the epoch, as the page has it. */
@@ -41,6 +45,8 @@ const NEXT_DATA =
  * `apolloState` holds the `Book` with this `legacyId` and its contributors
  * (#28):
  *
+ * - `workId`: the `legacyId` of the `Work` the `Book`'s `work` points to
+ *   (#71);
  * - `bookDescription`: the `Book`'s `description`, trimmed, as the
  *   reference is (S4, #31);
  * - `authorName`: the `name` of the `Contributor` its
@@ -49,9 +55,9 @@ const NEXT_DATA =
  *   `Book`'s `viewerShelving` and that `Shelving`'s `review` (#39); the
  *   `Shelving` has no `review` when the book has no rating or review.
  *
- * Throws a `ScrapeFailure`: `layout-change` when the data, the book or the
- * contributor is missing, `parse-failure` when a value fails its schema.
- * Both name the book page.
+ * Throws a `ScrapeFailure`: `layout-change` when the data, the book, its
+ * work or the contributor is missing, `parse-failure` when a value fails
+ * its schema. Both name the book page.
  */
 export function parseBookPage(
   html: string,
@@ -91,11 +97,14 @@ export function parseBookPage(
   const contributor = ref === undefined ? undefined : state[ref];
   if (contributor === undefined)
     throw fail("layout-change", "no primary contributor");
+  const work = state[refOf(book.work) ?? ""];
+  if (work === undefined) throw fail("layout-change", "no work");
 
   const shelving = state[refOf(book.viewerShelving) ?? ""];
   const review = state[refOf(shelving?.review) ?? ""];
 
   const raw = {
+    workId: work.legacyId,
     bookDescription:
       typeof book.description === "string"
         ? book.description.trim()
@@ -106,7 +115,8 @@ export function parseBookPage(
   const parsed = Fields.safeParse(raw);
   if (!parsed.success)
     throw fail("parse-failure", describeIssues(parsed.error, raw));
-  const { reviewUpdatedAt, ...fields } = parsed.data;
+  const { workId, reviewUpdatedAt, ...rest } = parsed.data;
+  const fields = { workId: String(workId), ...rest };
   return reviewUpdatedAt === undefined
     ? fields
     : { ...fields, reviewUpdatedAt: new Date(reviewUpdatedAt).toISOString() };
