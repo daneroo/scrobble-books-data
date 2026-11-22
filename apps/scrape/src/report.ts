@@ -6,6 +6,18 @@ export interface RepeatedWork {
   ids: string[];
 }
 
+/**
+ * A `userAddedAt` whose day is not its timeline's one "Shelved" row's day,
+ * or a timeline without exactly one such row: none on 2026-11-21 (1458
+ * agreed).
+ */
+export interface ShelvedDayMismatch {
+  id: string;
+  userAddedAt: string;
+  /** The dates of the entry's own "Shelved" rows, as shown. */
+  shelvedDates: string[];
+}
+
 /** The result of a run. The cookie is only there to keep it out of the log. */
 export type Outcome =
   | {
@@ -19,9 +31,14 @@ export type Outcome =
       published: string;
       /**
        * Each work on the list more than once, in list order: a warning,
-       * counted on screen; the list itself is kept for a run report.
+       * counted on screen; the list itself is kept here, as data.
        */
       repeatedWorks: RepeatedWork[];
+      /**
+       * Each `userAddedAt` off its "Shelved" row's day, in list order: a
+       * warning, counted on screen; the list itself is kept here, as data.
+       */
+      shelvedDayMismatches: ShelvedDayMismatch[];
     }
   | { ok: false; cookie?: string; failure: Failure };
 
@@ -55,18 +72,30 @@ function summarize(outcome: Outcome): Report {
     lines: [
       `PASS: ${outcome.books} books from ${outcome.pages} list pages, ${outcome.reviewPages} review pages and ${outcome.bookPages} book pages; wrote ${outcome.published}`,
       // kept as they are, never merged: the owner decides on Goodreads
-      ...repeatedWorksWarning(outcome.repeatedWorks.length),
+      ...countLine(
+        outcome.repeatedWorks.length,
+        "WARN: 1 work has more than one entry",
+        (n) => `WARN: ${n} works have more than one entry`,
+      ),
+      ...countLine(
+        outcome.shelvedDayMismatches.length,
+        'WARN: 1 book has a userAddedAt off its "Shelved" row\'s day',
+        (n) =>
+          `WARN: ${n} books have a userAddedAt off their "Shelved" row's day`,
+      ),
     ],
     exitCode: 0,
   };
 }
 
-/** One line with the count only; none when no work is repeated. */
-function repeatedWorksWarning(count: number): string[] {
+/** A warning's one line, with its count only; none when the count is 0. */
+function countLine(
+  count: number,
+  one: string,
+  many: (count: number) => string,
+): string[] {
   if (count === 0) return [];
-  return count === 1
-    ? ["WARN: 1 work has more than one entry"]
-    : [`WARN: ${count} works have more than one entry`];
+  return [count === 1 ? one : many(count)];
 }
 
 // Cookie values shorter than this (e.g. `locale=en`) aren't secret, and

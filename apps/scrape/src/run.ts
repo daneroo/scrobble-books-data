@@ -11,7 +11,8 @@ import { fetchBookPages, withBookFields } from "./book/scrape.ts";
 import { fetchReviewPages, withProgress } from "./review/scrape.ts";
 import { resetRunFiles, runFiles, writeOutputs } from "./outputs.ts";
 import type { Item } from "./goodreads.ts";
-import type { Outcome, RepeatedWork } from "./report.ts";
+import type { Outcome, RepeatedWork, ShelvedDayMismatch } from "./report.ts";
+import { dayStart, shelvedDates } from "./review/timeline.ts";
 
 export interface RunOptions {
   user: string;
@@ -44,8 +45,8 @@ export interface RunOptions {
  * list page, check completeness, fetch and parse every book's review page,
  * check its shelf, fetch every book page, write `goodreads.json`, run CUE,
  * then publish. Fail-closed: any failure is returned named, and nothing is
- * published. A work on the list more than once is no failure: it is
- * returned, for a warning.
+ * published. A work on the list more than once, or a `userAddedAt` off its
+ * timeline's "Shelved" day, is no failure: it is returned, for a warning.
  */
 export async function runScrape(options: RunOptions): Promise<Outcome> {
   const { user, flow, dataDir, publishPath, cueSchema, signal, log } = options;
@@ -112,6 +113,7 @@ export async function runScrape(options: RunOptions): Promise<Outcome> {
       bookPages: books.length,
       published: publishPath,
       repeatedWorks: repeatedWorks(items),
+      shelvedDayMismatches: shelvedDayMismatches(items),
     };
   } catch (error) {
     const failure = failureOf(error, step);
@@ -133,6 +135,19 @@ function repeatedWorks(items: readonly Item[]): RepeatedWork[] {
       workId,
       ids: editions.map((item) => item.id),
     }));
+}
+
+/**
+ * Each entry whose `userAddedAt` is not the day of its timeline's one
+ * "Shelved" row (its own edition's), in list order; also one with no such
+ * row, or more than one.
+ */
+function shelvedDayMismatches(items: readonly Item[]): ShelvedDayMismatch[] {
+  return items.flatMap(({ id, userAddedAt, timeline }) => {
+    const dates = shelvedDates(timeline);
+    const agrees = dates.length === 1 && dayStart(dates[0]!) === userAddedAt;
+    return agrees ? [] : [{ id, userAddedAt, shelvedDates: dates }];
+  });
 }
 
 /** Names any error the run can end with. */

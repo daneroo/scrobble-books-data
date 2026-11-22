@@ -184,6 +184,8 @@ describe("a full run", () => {
       bookPublished: "Apr 01, 2025",
       numPages: "461",
       workId: "125997193",
+      // no updatedAt on its book page: its "Shelved" row's day, its latest
+      userUpdatedAt: "2026-11-01T07:00:00.000Z",
     });
     // a fractional rating
     expect(byId.get("9043895547")).toMatchObject({
@@ -329,15 +331,125 @@ describe("a full run", () => {
     ]);
   });
 
-  test("the review update comes from the book page, absent with no rating or review", async () => {
+  test("userUpdatedAt is the book page's updatedAt, to the millisecond (Debt)", async () => {
     const { published } = await run(fakeGoodreads(realList()));
     const debt = published?.find((i) => i.id === SAVED_REVIEWS.debt);
-    // updatedAt 1793334364552 ms
-    expect(debt?.reviewUpdatedAt).toBe("2026-10-30T04:26:04.552Z");
-    // the other books' pages have no review in the viewer's shelving
-    const first = published![0]!;
-    expect(first.reviewUpdatedAt).toBeUndefined();
-    expect("reviewUpdatedAt" in first).toBe(false);
+    // updatedAt 1793334364552 ms, a day after its last timeline row
+    expect(debt?.userUpdatedAt).toBe("2026-10-30T04:26:04.552Z");
+    expect(published!.filter((item) => "reviewUpdatedAt" in item)).toEqual([]);
+    expect(published!.filter((item) => !item.userUpdatedAt)).toEqual([]);
+  });
+
+  test("without updatedAt, userUpdatedAt is the latest day of its own timeline rows, as that Pacific day's start", async () => {
+    // only Debt's book page keeps its Review: every other entry falls back
+    const { published } = await run(fakeGoodreads(realList()));
+    const byId = new Map(published?.map((item) => [item.id, item]));
+    // "October 31, 2026 – Finished Reading" (PDT); its real updatedAt,
+    // 2026-10-31T07:55:10.459Z, is that same Pacific day
+    expect(byId.get(SAVED_REVIEWS.taintedCup)?.userUpdatedAt).toBe(
+      "2026-10-31T07:00:00.000Z",
+    );
+    // "May 28, 2023 – Finished Reading": the later rows of the Kindle
+    // edition (August 17, 2026) are another entry's; its real updatedAt,
+    // 2023-05-29T05:42:53.255Z, is that same Pacific day
+    expect(byId.get(SAVED_REVIEWS.otherEssentialism)?.userUpdatedAt).toBe(
+      "2023-05-28T07:00:00.000Z",
+    );
+    // "September 6, 2026 – 23.0%", after the Hardcover edition's rows
+    expect(byId.get(SAVED_REVIEWS.essentialism)?.userUpdatedAt).toBe(
+      "2026-09-06T07:00:00.000Z",
+    );
+    // the first row: its "Shelved" row, November 1, 2026, is its latest
+    expect(published![0]!.userUpdatedAt).toBe("2026-11-01T07:00:00.000Z");
+  });
+
+  test("the fallback skips undated rows and partial dates, and keeps PST", async () => {
+    // as on real review pages: "2021" and "January, 1997" are not days
+    const entry = realList()[42]!;
+    const fake = fakeGoodreads(realList(), {
+      review: (row) =>
+        row.id === entry.id
+          ? new Response(
+              reviewPage(row)
+                .replace(
+                  "October 28, 2026\n&ndash;\n<div",
+                  "December 3, 2026\n&ndash;\n<div",
+                )
+                .replace(
+                  "October 29, 2026\n&ndash;\n<div",
+                  "January, 2027\n&ndash;\n<div",
+                )
+                .replace(
+                  "October 29, 2026\n&ndash;\n<span>",
+                  "2027\n&ndash;\n<span>",
+                ),
+            )
+          : undefined,
+    });
+    const { published } = await run(fake);
+    const item = published?.find((i) => i.id === entry.id);
+    expect(item?.timeline.slice(-3)).toEqual([
+      { dateText: "December 3, 2026", event: "76.0%" },
+      { dateText: "January, 2027", event: "99.0%" },
+      { dateText: "2027", event: "Finished Reading" },
+    ]);
+    // December 3, 2026 starts at 08:00 UTC (PST)
+    expect(item?.userUpdatedAt).toBe("2026-12-03T08:00:00.000Z");
+  });
+
+  test("no updatedAt and no day of its own in the timeline is parse-failure, naming the review page", async () => {
+    const entry = realList()[42]!;
+    const fake = fakeGoodreads(realList(), {
+      review: (row) =>
+        row.id === entry.id
+          ? new Response(
+              reviewPage(row).replace(/[A-Z][a-z]+ \d{1,2}, (\d{4})/g, "$1"),
+            )
+          : undefined,
+    });
+    const { failure } = await expectFailedClosed(fake, "parse-failure");
+    expect(failure.step).toBe("checks");
+    expect(failure.detail).toBe(
+      `review page ${entry.id}: no updatedAt on its book page, and no day in its own timeline rows`,
+    );
+    expect(failure.url).toBe(
+      `https://www.goodreads.com/review/show/${entry.id}`,
+    );
+  });
+
+  test('every userAddedAt is its timeline\'s "Shelved" day: no warning', async () => {
+    const { outcome, reportLines } = await run(fakeGoodreads(realList()));
+    expect(outcome.ok && outcome.shelvedDayMismatches).toEqual([]);
+    expect(reportLines.join("\n")).not.toContain("Shelved");
+  });
+
+  test('a userAddedAt off its "Shelved" row\'s day is a warning, still passing; the details stay in the outcome', async () => {
+    const entry = realList()[42]!;
+    const fake = fakeGoodreads(realList(), {
+      review: (row) =>
+        row.id === entry.id
+          ? new Response(
+              reviewPage(row).replace(
+                /\n[^\n]*\n&ndash; Shelved\n/,
+                "\nJanuary 2, 2026\n&ndash; Shelved\n",
+              ),
+            )
+          : undefined,
+    });
+    const { outcome, published, reportLines, exitCode } = await run(fake);
+    expect(exitCode).toBe(0);
+    expect(published).toHaveLength(1450);
+    // on screen, the count only
+    expect(reportLines).toContain(
+      'WARN: 1 book has a userAddedAt off its "Shelved" row\'s day',
+    );
+    expect(outcome.ok && outcome.shelvedDayMismatches).toEqual([
+      {
+        id: entry.id,
+        userAddedAt: published!.find((i) => i.id === entry.id)!.userAddedAt,
+        shelvedDates: ["January 2, 2026"],
+      },
+    ]);
   });
 
   test("a review is kept as the page source has it: <br />, entities, trimmed", async () => {
@@ -399,7 +511,7 @@ describe("a full run", () => {
       "bookPublished",
       "numPages",
       "workId",
-      "reviewUpdatedAt",
+      "userUpdatedAt",
       "userReview",
       "bookDescription",
       "authorName",

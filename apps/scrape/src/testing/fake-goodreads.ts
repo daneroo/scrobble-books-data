@@ -17,8 +17,9 @@ import type { ExclusiveShelf } from "../goodreads.ts";
 export const FIXTURE = join(import.meta.dir, "../../fixtures/list-page-1.html");
 
 /**
- * The saved, scrubbed review pages of the three spot-check books, by review
- * id; all three are on the saved list page.
+ * The saved, scrubbed review pages of the spot-check books, by review id;
+ * the first three are on the saved list page, the last is the other edition
+ * of _Essentialism_, last on the list.
  */
 export const SAVED_REVIEWS = {
   /** _The Tainted Cup_: read, with percentages. */
@@ -27,6 +28,12 @@ export const SAVED_REVIEWS = {
   debt: "9043895547",
   /** _Essentialism_: currently reading, a re-read of another edition. */
   essentialism: "8869640622",
+  /**
+   * The other _Essentialism_: read in 2023, then rows of the Kindle edition
+   * in 2026; only its heading, review date and Reading Progress box
+   * (data/61-pages).
+   */
+  otherEssentialism: "5557855762",
 } as const;
 
 const reviewFixtures = new Map<string, string>(
@@ -50,6 +57,9 @@ function part(html: string, pattern: RegExp): string {
   return match;
 }
 
+/** _Debt_'s own "Shelved" row, as the page source has it. */
+const DEBT_SHELVED = "October 21, 2026\n&ndash; Shelved\n";
+
 /**
  * A slim review page made of _Debt_'s saved page parts: its signed-in
  * marker script, its heading, its review date and its Reading Progress box. Served for every
@@ -67,20 +77,34 @@ const slimReviewPage = (() => {
     debt,
     /<div class=" clearFloats bigBox"><div class="h2Container gradientHeaderContainer"><h2 class="brownBackground">Reading Progress[\s\S]*?<div class="bigBoxBottom"><\/div><\/div>/,
   );
+  if (!progress.includes(DEBT_SHELVED))
+    throw new Error("review fixture: no Shelved row");
   return `<!DOCTYPE html>\n<html>\n<head>\n${marker}\n</head>\n<body>\n${heading}\n${reviewDate}\n${progress}\n</body>\n</html>\n`;
 })();
 
 /**
  * A book's review page: its saved page if there is one, otherwise the slim
- * page with the heading's shelf set to the book's shelf.
+ * page with the heading's shelf set to the book's shelf, and the "Shelved"
+ * row's date set to the row's date added, as on every real page.
  */
 export function reviewPage(row: Row): string {
   const saved = reviewFixtures.get(row.id);
   if (saved !== undefined) return saved;
-  return slimReviewPage.replace(
-    /(<h1><a href="[^"]*\?shelf=)read"/,
-    `$1${row.shelf}"`,
-  );
+  return slimReviewPage
+    .replace(/(<h1><a href="[^"]*\?shelf=)read"/, `$1${row.shelf}"`)
+    .replace(DEBT_SHELVED, `${dateAdded(row)}\n&ndash; Shelved\n`);
+}
+
+/**
+ * A row's date added as a timeline shows a day: its `date_added` span's
+ * title, "November 01, 2026", without the day's leading zero.
+ */
+function dateAdded(row: Row): string {
+  const title = /field date_added">[\s\S]*?<span title="([^"]*)"/.exec(
+    row.html,
+  )?.[1];
+  if (title === undefined) throw new Error(`row ${row.id}: no date added`);
+  return title.replace(/ 0(\d),/, " $1,");
 }
 
 /**

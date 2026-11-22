@@ -5,6 +5,9 @@ import type { PageSource } from "../pages/source.ts";
 import type { BookPage } from "../book/parse.ts";
 import { parseReviewPage, type ReviewPage } from "./parse.ts";
 
+/** An entry once its review page is read: no book page fields yet. */
+export type Reviewed = Omit<Item, keyof BookPage | "userUpdatedAt">;
+
 /** A book's review page. */
 export function reviewPageUrl(id: string): string {
   return `https://www.goodreads.com/review/show/${id}`;
@@ -47,7 +50,7 @@ export async function fetchReviewPages({
 export function withProgress(
   items: readonly ListItem[],
   reviews: readonly ReviewPage[],
-): Omit<Item, keyof BookPage>[] {
+): Reviewed[] {
   const mismatches = items.flatMap((item, i) => {
     const review = reviews[i]!;
     return review.exclusiveShelf === item.userExclusiveShelf

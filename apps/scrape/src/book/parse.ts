@@ -12,10 +12,10 @@ export interface BookPage {
   /** The primary contributor's name, as shown, spacing kept. */
   authorName: string;
   /**
-   * The last update of the user's review record, ISO 8601 UTC; absent when
-   * the book has no rating or review.
+   * The user's `Review`'s `updatedAt`, ISO 8601 UTC, to the millisecond;
+   * absent when the page has none (on real pages, about half the entries).
    */
-  reviewUpdatedAt?: string;
+  updatedAt?: string;
 }
 
 const Fields = z.strictObject({
@@ -24,7 +24,7 @@ const Fields = z.strictObject({
   bookDescription: z.string(),
   authorName: z.string().min(1),
   /** Milliseconds since the epoch, as the page has it. */
-  reviewUpdatedAt: z.number().int().positive().optional(),
+  updatedAt: z.number().int().positive().optional(),
 });
 
 /** The page data, down to the Apollo cache: entries by key. */
@@ -51,9 +51,9 @@ const NEXT_DATA =
  *   reference is (S4, #31);
  * - `authorName`: the `name` of the `Contributor` its
  *   `primaryContributorEdge` points to;
- * - `reviewUpdatedAt`: the `updatedAt` of the user's `Review`, through the
- *   `Book`'s `viewerShelving` and that `Shelving`'s `review` (#39); the
- *   `Shelving` has no `review` when the book has no rating or review.
+ * - `updatedAt`: the `updatedAt` of the user's `Review`, through the
+ *   `Book`'s `viewerShelving` and that `Shelving`'s `review` (#39); absent
+ *   when that `Review` or its `updatedAt` is missing.
  *
  * Throws a `ScrapeFailure`: `layout-change` when the data, the book, its
  * work or the contributor is missing, `parse-failure` when a value fails
@@ -110,16 +110,16 @@ export function parseBookPage(
         ? book.description.trim()
         : book.description,
     authorName: contributor.name,
-    reviewUpdatedAt: review?.updatedAt,
+    updatedAt: review?.updatedAt,
   };
   const parsed = Fields.safeParse(raw);
   if (!parsed.success)
     throw fail("parse-failure", describeIssues(parsed.error, raw));
-  const { workId, reviewUpdatedAt, ...rest } = parsed.data;
+  const { workId, updatedAt, ...rest } = parsed.data;
   const fields = { workId: String(workId), ...rest };
-  return reviewUpdatedAt === undefined
+  return updatedAt === undefined
     ? fields
-    : { ...fields, reviewUpdatedAt: new Date(reviewUpdatedAt).toISOString() };
+    : { ...fields, updatedAt: new Date(updatedAt).toISOString() };
 }
 
 /** The key an Apollo reference (`{ __ref }`) points to, if it is one. */

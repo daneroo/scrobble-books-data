@@ -219,7 +219,19 @@ export function pacificDayStart(value: string): string {
   const match = /^([A-Z][a-z]{2}) (\d{2}), (\d{4})$/.exec(value);
   const month = match === null ? -1 : MONTHS.indexOf(match[1]!);
   if (match === null || month < 0) return value;
-  const midnightUtc = Date.UTC(Number(match[3]), month, Number(match[2]));
+  return pacificMidnight(Number(match[3]), month, Number(match[2]));
+}
+
+/**
+ * The start of a US Pacific day (`month` from 0) in `America/Los_Angeles`,
+ * in UTC, ISO 8601: (2026, 10, 1) → "2026-11-01T07:00:00.000Z" (PDT).
+ */
+export function pacificMidnight(
+  year: number,
+  month: number,
+  day: number,
+): string {
+  const midnightUtc = Date.UTC(year, month, day);
   // the clocks change at 2 a.m., so midnight has the previous evening's offset
   return new Date(midnightUtc - pacificOffsetMs(midnightUtc)).toISOString();
 }

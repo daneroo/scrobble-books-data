@@ -3,7 +3,8 @@
 // The zod twin is apps/scrape/src/goodreads.ts, with the same comments; keep
 // the two in step, with the example goodreads-example.json.
 //
-// Each field comes from one of three signed-in pages, all on
+// Each field comes from one of three signed-in pages (userUpdatedAt from
+// the book page, or else the review page), all on
 // https://www.goodreads.com:
 //
 // - list page:
@@ -99,6 +100,10 @@ import "time"
 	// - Page: list page.
 	// - Elements: the text of the first span in the date_added cell,
 	//   "Nov 01, 2026".
+	// - Checks: its day is the day of the timeline's one "Shelved" row of
+	//   the entry's own edition; when it is not, or there is not exactly one
+	//   such row, a run that passes ends with a warning counting those
+	//   entries (1458 of 1458 agreed on 2026-11-21).
 	// - Transform: that US Pacific day, as its start in America/Los_Angeles,
 	//   in UTC.
 	// - Format: ISO 8601 UTC, precise to the day: "2026-11-01T07:00:00.000Z"
@@ -156,17 +161,33 @@ import "time"
 	//   editions.
 	workId!: #Digits
 
-	// The last update of the user's review record (rating or review).
-	// - Page: book page.
-	// - Elements: in apolloState, the updatedAt of the Review that the Book's
-	//   viewerShelving → Shelving's review points to.
-	// - Transform: milliseconds since the epoch (a positive integer) →
-	//   ISO 8601.
-	// - Format: ISO 8601 UTC, precise to the millisecond:
-	//   "2026-10-30T04:26:04.552Z"; absent when that Review or its updatedAt
-	//   is missing: on real pages, exactly the entries with no rating or
-	//   review.
-	reviewUpdatedAt?: #Time
+	// When the user last updated the entry, best effort: close to Goodreads'
+	// "date updated" (the list's sort key), not exactly it; never proof of
+	// when anything changed. The file's order, the list's, sorted by
+	// Goodreads' own "date updated", is the exact signal of what changed
+	// most recently; this field is not.
+	// - Page: book page; without its value, review page.
+	// - Elements: in the book page's apolloState, the updatedAt of the Review
+	//   that the Book's viewerShelving → Shelving's review points to.
+	//   Without it (no such Review or updatedAt: on real pages, the entries
+	//   never rated or reviewed), the entry's timeline: its own rows (not
+	//   ending in " (<format> Edition)") whose date is a whole day,
+	//   "October 31, 2026".
+	// - Checks: with neither, the run fails (parse-failure, naming the
+	//   review page).
+	// - Transform: updatedAt, milliseconds since the epoch (a positive
+	//   integer), → ISO 8601; else the latest of those days, as the start of
+	//   that US Pacific day in America/Los_Angeles, in UTC.
+	// - Format: ISO 8601 UTC, of mixed precision: an exact moment, to the
+	//   millisecond, from the book page, "2026-10-30T04:26:04.552Z"; a day
+	//   from the timeline, "2026-10-31T07:00:00.000Z".
+	// - How close, against the RSS feed's "last updated" of 2026-10-27,
+	//   paired by id: the book page's updatedAt is that same Pacific day on
+	//   732 of 770 rated or reviewed entries, over a year off on 26; the
+	//   timeline's day on 656 of 677 entries never rated or reviewed. In the
+	//   list's order, the RSS dates were out of order 2 times in 1441
+	//   adjacent pairs, updatedAt 17 times in 466.
+	userUpdatedAt!: #Time
 
 	// The user's review, as HTML.
 	// - Page: review page.
