@@ -127,7 +127,7 @@ export async function runScrape(options: RunOptions): Promise<Outcome> {
         pages.flatMap((page) => page.timesRead),
       ),
       readWithoutFinish: items
-        .filter((item) => item.userExclusiveShelf === "read")
+        .filter((item) => item.userShelf === "read")
         .filter((item) => item.userReadCount === 0)
         .map((item) => item.id),
       publishedAsShown: publishedAsShown(items),
@@ -176,12 +176,12 @@ function readCountMismatches(
   items: readonly Item[],
   timesRead: readonly number[],
 ): ReadCountMismatch[] {
-  return items.flatMap(({ id, userExclusiveShelf, userReadCount }, i) => {
-    const inProgress = userExclusiveShelf === "currently-reading" ? 1 : 0;
+  return items.flatMap(({ id, userShelf, userReadCount }, i) => {
+    const inProgress = userShelf === "currently-reading" ? 1 : 0;
     const listed = timesRead[i]!;
     return listed === userReadCount + inProgress
       ? []
-      : [{ id, userExclusiveShelf, userReadCount, timesRead: listed }];
+      : [{ id, userShelf, userReadCount, timesRead: listed }];
   });
 }
 

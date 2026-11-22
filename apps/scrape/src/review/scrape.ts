@@ -56,10 +56,10 @@ export function withProgress(
 ): Reviewed[] {
   const mismatches = items.flatMap((item, i) => {
     const review = reviews[i]!;
-    return review.exclusiveShelf === item.userExclusiveShelf
+    return review.shelf === item.userShelf
       ? []
       : [
-          `book ${item.bookId} (review ${item.id}) is ${item.userExclusiveShelf} on the list page, ${review.exclusiveShelf} on its review page`,
+          `book ${item.bookId} (review ${item.id}) is ${item.userShelf} on the list page, ${review.shelf} on its review page`,
         ];
   });
   if (mismatches.length > 0) {

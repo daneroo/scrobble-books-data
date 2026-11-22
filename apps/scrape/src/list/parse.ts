@@ -15,6 +15,8 @@ export interface ListPage {
   userFullName: string;
   /** The sidebar's count for each exclusive shelf. */
   counts: Record<ExclusiveShelf, number>;
+  /** The sidebar's count for each tag, by name: "long-term" → 1. */
+  tagCounts: Record<string, number>;
   /** In page order. */
   items: ListItem[];
   /**
@@ -66,9 +68,10 @@ export function parseListPage(
   if (userFullName === undefined)
     throw fail("layout-change", "no user name in the title");
 
-  const counts = sidebarCounts($);
-  if (counts === undefined)
+  const sidebar = sidebarCounts($);
+  if (sidebar === undefined)
     throw fail("layout-change", "no exclusive shelves in the sidebar");
+  const { counts, tagCounts } = sidebar;
   const checked = SidebarCounts.safeParse(counts);
   if (!checked.success)
     throw fail(
@@ -83,10 +86,10 @@ export function parseListPage(
       const { timesRead, ...raw } = rawItem(
         $,
         $(tr),
-        (detail) =>
+        (mode, detail) =>
           new ScrapeFailure({
             step: "list-pages",
-            mode: "layout-change",
+            mode,
             detail: `${row}: ${detail}`,
             url,
           }),
@@ -111,36 +114,43 @@ export function parseListPage(
     page,
     userFullName,
     counts: checked.data,
+    tagCounts,
     items: rows.map((r) => r.item),
     timesRead: rows.map((r) => r.timesRead),
   };
 }
 
 /**
- * The sidebar's exclusive shelves: the shelf links above the divider, each
- * "Read ‎(786)" with `shelf=read` in its link. Non-exclusive shelves come
- * after the divider.
+ * The sidebar's counts, told apart by each entry's link, wherever it is: an
+ * exclusive shelf's has a `shelf` parameter, "Read ‎(786)" with
+ * `shelf=read`; a tag's a `tag` parameter, "long-term ‎(1)" with
+ * `tag=long-term`. An entry with a link that has neither, or with no count,
+ * or no exclusive shelf at all, is no sidebar.
  */
 function sidebarCounts(
   $: cheerio.CheerioAPI,
-): Record<string, number> | undefined {
+):
+  | { counts: Record<string, number>; tagCounts: Record<string, number> }
+  | undefined {
   const list = $("#paginatedShelfList");
   if (list.length === 0) return undefined;
   const counts: Record<string, number> = {};
+  const tagCounts: Record<string, number> = {};
   for (const child of list.children().toArray()) {
-    const el = $(child);
-    if (el.hasClass("horizontalGreyDivider")) break;
-    const link = el.find("a").first();
+    const link = $(child).find("a").first();
     const href = link.attr("href");
-    const shelf =
-      href === undefined
-        ? null
-        : new URL(href, "https://www.goodreads.com").searchParams.get("shelf");
+    // the divider has no link
+    if (href === undefined) continue;
+    const params = new URL(href, "https://www.goodreads.com").searchParams;
+    const shelf = params.get("shelf");
+    const tag = params.get("tag");
     const count = /\((\d+)\)\s*$/.exec(link.text())?.[1];
-    if (shelf === null || count === undefined) return undefined;
-    counts[shelf] = Number(count);
+    if (count === undefined) return undefined;
+    if (shelf !== null) counts[shelf] = Number(count);
+    else if (tag !== null) tagCounts[tag] = Number(count);
+    else return undefined;
   }
-  return Object.keys(counts).length === 0 ? undefined : counts;
+  return Object.keys(counts).length === 0 ? undefined : { counts, tagCounts };
 }
 
 const MONTHS = [
@@ -158,16 +168,23 @@ const MONTHS = [
   "Dec",
 ];
 
-/** One row's values, before validation. A missing cell throws. */
+/**
+ * One row's values, before validation. A missing cell throws
+ * `layout-change`; a shelf link that is neither a shelf nor a tag,
+ * `parse-failure`.
+ */
 function rawItem(
   $: cheerio.CheerioAPI,
   row: ReturnType<cheerio.CheerioAPI>,
-  missing: (detail: string) => ScrapeFailure,
+  fail: (
+    mode: "layout-change" | "parse-failure",
+    detail: string,
+  ) => ScrapeFailure,
 ): Record<string, unknown> {
   /** A cell's value element; it must exist. */
   const cell = (name: string) => {
     const value = row.find(`td.field.${name} > div.value`);
-    if (value.length !== 1) throw missing(`no ${name} cell`);
+    if (value.length !== 1) throw fail("layout-change", `no ${name} cell`);
     return value;
   };
   const text = (name: string) => cell(name).text().replace(/\s+/g, " ").trim();
@@ -175,10 +192,22 @@ function rawItem(
   const cover = cell("cover");
   const title = cell("title").find("a[title]").first();
   const stars = cell("rating").find(".stars");
-  const shelves = cell("shelves")
-    .find("a.shelfLink")
-    .toArray()
-    .map((a) => $(a).text().trim());
+  // a shelf link is `?shelf=read`, a tag link `?tag=long-term`, as in the
+  // sidebar
+  const shelves: string[] = [];
+  const tags: string[] = [];
+  for (const a of cell("shelves").find("a.shelfLink").toArray()) {
+    const href = $(a).attr("href") ?? "";
+    const params = new URL(href, "https://www.goodreads.com").searchParams;
+    const name = $(a).text().trim();
+    if (params.has("shelf")) shelves.push(name);
+    else if (params.has("tag")) tags.push(name);
+    else
+      throw fail(
+        "parse-failure",
+        `a shelf link that is neither a shelf nor a tag: ${JSON.stringify(href)}`,
+      );
+  }
   const pages = text("num_pages");
 
   return {
@@ -198,7 +227,9 @@ function rawItem(
     userAddedAt: pacificDayStart(
       cell("date_added").find("span").first().text().trim(),
     ),
-    userExclusiveShelf: shelves.length === 1 ? shelves[0] : shelves,
+    // exactly one, or zod rejects the list
+    userShelf: shelves.length === 1 ? shelves[0] : shelves,
+    userTags: tags,
     averageRating: oneDecimal(text("avg_rating")),
     bookPublished: isoPublished(text("date_pub")),
     // "1,280 pp" → "1280"; "unknown" → "0", as in the reference

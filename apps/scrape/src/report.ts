@@ -25,7 +25,7 @@ export interface ShelvedDayMismatch {
  */
 export interface ReadCountMismatch {
   id: string;
-  userExclusiveShelf: ExclusiveShelf;
+  userShelf: ExclusiveShelf;
   userReadCount: number;
   /** The list row's "# times read". */
   timesRead: number;

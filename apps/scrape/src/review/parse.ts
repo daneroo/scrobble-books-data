@@ -12,7 +12,7 @@ import { describeIssues } from "../list/parse.ts";
 /** One review page, parsed and validated. */
 export interface ReviewPage {
   /** From the heading's link to the shelf: "… ?shelf=read". */
-  exclusiveShelf: ExclusiveShelf;
+  shelf: ExclusiveShelf;
   /** The reading timeline, in page order, as shown. */
   timeline: TimelineRow[];
   /** The review, as HTML, trimmed; `""` when there is none. */
@@ -57,11 +57,11 @@ export function parseReviewPage(
     heading.attr("href")!,
     "https://www.goodreads.com",
   ).searchParams.get("shelf");
-  const exclusiveShelf = Shelf.safeParse(shelf);
-  if (!exclusiveShelf.success)
+  const parsed = Shelf.safeParse(shelf);
+  if (!parsed.success)
     throw fail(
       "parse-failure",
-      `heading shelf: ${describeIssues(exclusiveShelf.error, { shelf })}`,
+      `heading shelf: ${describeIssues(parsed.error, { shelf })}`,
     );
 
   const box = $(".readingTimeline");
@@ -112,7 +112,7 @@ export function parseReviewPage(
       : "";
 
   return {
-    exclusiveShelf: exclusiveShelf.data,
+    shelf: parsed.data,
     timeline,
     userReview,
   };

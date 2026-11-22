@@ -12,13 +12,16 @@
 //   one row tr[id^="review_"] per entry; a row's cell is
 //   td.field.<name> > div.value, exactly one, or the run fails
 //   (layout-change). The page's title must name the user, and its sidebar
-//   (#paginatedShelfList, above the divider) must count every exclusive
-//   shelf; every page's sidebar must equal page 1's, every page but the last
-//   must have 100 rows, each exclusive shelf's unique books must equal its
-//   sidebar count, and no bookId may be listed twice.
+//   (#paginatedShelfList) must count every exclusive shelf and every tag,
+//   each told apart by its entry's link: a shelf parameter (shelf=read) or
+//   a tag parameter (tag=long-term). Every page's sidebar must equal page
+//   1's, every page but the last must have 100 rows, the unique books on
+//   each exclusive shelf and with each tag must equal its sidebar count,
+//   every tag on a row must be in the sidebar, and no bookId may be listed
+//   twice.
 // - review page: /review/show/<id>; its heading's shelf link
 //   (h1 a[href*="shelf="]), exactly one, must name an exclusive shelf, the
-//   entry's userExclusiveShelf.
+//   entry's userShelf.
 // - book page: bookURL, /book/show/<bookId>-<slug>; its embedded JSON
 //   (<script id="__NEXT_DATA__">) must have props.pageProps.apolloState, with
 //   exactly one Book whose legacyId is bookId, and that Book's work
@@ -111,15 +114,33 @@ import "time"
 	//   (PDT), "2026-12-01T08:00:00.000Z" (PST).
 	userAddedAt: #Time
 
-	// The one exclusive shelf the entry is on.
+	// The entry's shelf: Goodreads' exclusive shelf, so an entry is on one
+	// and only one.
 	// - Page: list page.
-	// - Elements: the text of each a.shelfLink in the shelves cell: exactly
-	//   one, or the run fails (parse-failure).
+	// - Elements: the text of the a.shelfLink in the shelves cell whose href
+	//   has a shelf parameter (?shelf=read): exactly one, or the run fails
+	//   (parse-failure).
 	// - Checks: equal to the review page's heading shelf (shelf-mismatch);
-	//   each shelf's unique books equal its sidebar count (count-mismatch).
+	//   each shelf's unique books equal its sidebar count, the sidebar entry
+	//   whose link has the same shelf parameter (count-mismatch).
+	// - Transform: trimmed.
 	// - Format: one of "to-read", "currently-reading", "read",
 	//   "did-not-finish", "on-deck".
-	userExclusiveShelf: #ExclusiveShelf
+	userShelf: #ExclusiveShelf
+
+	// The entry's tags: Goodreads' non-exclusive shelves, which its UI calls
+	// tags; an entry has any number of them.
+	// - Page: list page.
+	// - Elements: the text of each a.shelfLink in the shelves cell whose
+	//   href has a tag parameter (?tag=long-term); a link with neither a
+	//   shelf nor a tag parameter fails the run (parse-failure).
+	// - Checks: each tag's unique books equal its sidebar count, the sidebar
+	//   entry whose link has the same tag parameter, and every tag is in the
+	//   sidebar (count-mismatch).
+	// - Transform: each trimmed.
+	// - Format: in row order, each not empty: ["long-term"]; [] when the
+	//   entry has none.
+	userTags: [...string & !=""]
 
 	// Goodreads' average rating, as the list's "avg rating" column shows it,
 	// to one decimal, only to avoid flapping: a second decimal would change

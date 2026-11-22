@@ -8,9 +8,6 @@ here. Promote an idea to a GitHub issue, then delete the line.
       file per book; file format (e.g. CBOR); dropping unused fields.
 - [ ] consumers — the scrobbleCast site: use fractional ratings and progress
       from `goodreads.json`; handle the `did-not-finish` shelf.
-- [ ] shelves — non-exclusive shelves: store every shelf of a book as a list in
-      `goodreads.json`, with each shelf's semantics (exclusive or not); until
-      then a book on a non-exclusive shelf fails the run (#29).
 - [ ] incremental-scrape — stop a run early once no more entries have been
       updated, against a reference data set (perhaps a database); it would make
       the raw pages on disk moot.

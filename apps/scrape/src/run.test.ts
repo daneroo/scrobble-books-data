@@ -129,8 +129,7 @@ describe("a full run", () => {
     expect(new Set(published?.map((item) => item.bookId)).size).toBe(1450);
     const shelves: Record<string, number> = {};
     for (const item of published ?? [])
-      shelves[item.userExclusiveShelf] =
-        (shelves[item.userExclusiveShelf] ?? 0) + 1;
+      shelves[item.userShelf] = (shelves[item.userShelf] ?? 0) + 1;
     expect(shelves).toEqual({
       "to-read": 448,
       "currently-reading": 8,
@@ -181,7 +180,8 @@ describe("a full run", () => {
       userRating: 0,
       // "Nov 01, 2026": the start of that Pacific day (PDT), in UTC
       userAddedAt: "2026-11-01T07:00:00.000Z",
-      userExclusiveShelf: "currently-reading",
+      userShelf: "currently-reading",
+      userTags: [],
       // shown as 4.47; toFixed(1), only to avoid flapping
       averageRating: "4.5",
       // "Apr 01, 2025"
@@ -199,7 +199,7 @@ describe("a full run", () => {
       title: "Debt: The First 5,000 Years",
       userRating: 4.25,
       userAddedAt: "2026-10-21T07:00:00.000Z",
-      userExclusiveShelf: "read",
+      userShelf: "read",
       numPages: "534",
     });
     // unknown page count
@@ -214,7 +214,7 @@ describe("a full run", () => {
       bookImageURL:
         "https://s.gr-assets.com/assets/nophoto/book/50x75-1b903c9eac1b2ba789662c08a0ae41e6.png",
       isbn: "139812219X",
-      userExclusiveShelf: "on-deck",
+      userShelf: "on-deck",
       averageRating: "5.0",
     });
     // no ISBN
@@ -323,7 +323,7 @@ describe("a full run", () => {
       { dateText: "October 31, 2026", event: "Finished Reading" },
     ];
     const item = published?.find((i) => i.id === SAVED_REVIEWS.taintedCup);
-    expect(item?.userExclusiveShelf).toBe("read");
+    expect(item?.userShelf).toBe("read");
     expect(item?.timeline).toEqual(taintedCup);
   });
 
@@ -350,7 +350,7 @@ describe("a full run", () => {
     const essentialism = published?.find(
       (i) => i.id === SAVED_REVIEWS.essentialism,
     );
-    expect(essentialism?.userExclusiveShelf).toBe("currently-reading");
+    expect(essentialism?.userShelf).toBe("currently-reading");
     // whitespace as a browser shows it: "September  6" in the page
     expect(essentialism?.timeline).toEqual([
       {
@@ -465,6 +465,27 @@ describe("a full run", () => {
       userFirstReadAt: "2012-11-23T08:00:00.000Z",
       userLastReadAt: "2025-06-27T07:00:00.000Z",
     });
+  });
+
+  test("a tagged book has its shelf, and its tags in row order; every other book has none (Critique of Pure Reason)", async () => {
+    const { outcome, published } = await run(fakeGoodreads(realList()));
+    expect(outcome.ok).toBe(true);
+    const item = published?.find((i) => i.id === SAVED_REVIEWS.critique);
+    // its real row: a ?shelf=currently-reading link, then ?tag=long-term
+    expect(item).toMatchObject({
+      title: "Critique of Pure Reason",
+      userShelf: "currently-reading",
+      userTags: ["long-term"],
+    });
+    // tagging adds a timeline row, its latest: the fallback's day
+    expect(item?.timeline.at(-1)).toEqual({
+      dateText: "November 21, 2026",
+      event: "Shelved as: long-term",
+    });
+    expect(item?.userUpdatedAt).toBe("2026-11-21T08:00:00.000Z");
+    expect(
+      published?.filter((i) => i.userTags.length > 0).map((i) => i.id),
+    ).toEqual([SAVED_REVIEWS.critique]);
   });
 
   test("a book marked read with no dates is read once, with no first or last read (The Great Code)", async () => {
@@ -621,7 +642,7 @@ describe("a full run", () => {
     expect(outcome.ok && outcome.readCountMismatches).toEqual([
       {
         id: SAVED_REVIEWS.diamondAge,
-        userExclusiveShelf: "read",
+        userShelf: "read",
         userReadCount: 3,
         timesRead: 4,
       },
@@ -734,7 +755,8 @@ describe("a full run", () => {
       "isbn",
       "userRating",
       "userAddedAt",
-      "userExclusiveShelf",
+      "userShelf",
+      "userTags",
       "averageRating",
       "bookPublished",
       "numPages",
@@ -1046,12 +1068,12 @@ describe("fail-closed, parsing", () => {
     expect(failure.detail).toContain("isbn");
   });
 
-  test("a book on a non-exclusive shelf too is parse-failure: it isn't stored yet", async () => {
-    // long-term is the real non-exclusive shelf in the sidebar (0 books)
+  test("a row with two shelf links is parse-failure, naming the page and row", async () => {
+    // made up: every real row has one ?shelf= link, its exclusive shelf
     const list = editRow(realList(), 0, (html) =>
       html.replace(
         /(<a class="shelfLink"[^>]*>[^<]*<\/a>)/,
-        '$1<a class="shelfLink" href="https://www.goodreads.com/review/list/1000000?shelf=long-term">long-term</a>',
+        '$1<a class="shelfLink" href="https://www.goodreads.com/review/list/1000000?shelf=read">read</a>',
       ),
     );
     const { failure } = await expectFailedClosed(
@@ -1059,7 +1081,36 @@ describe("fail-closed, parsing", () => {
       "parse-failure",
     );
     expect(failure.detail).toContain("list page 1, row 1");
-    expect(failure.detail).toContain("long-term");
+    expect(failure.detail).toContain("userShelf");
+  });
+
+  test("a row with no shelf link, only tags, is parse-failure, naming the page and row", async () => {
+    // made up: the row's one shelf link made a tag link
+    const list = editRow(realList(), 0, (html) =>
+      html.replace(/(<a class="shelfLink"[^>]*href="[^"]*)\?shelf=/, "$1?tag="),
+    );
+    const { failure } = await expectFailedClosed(
+      fakeGoodreads(list),
+      "parse-failure",
+    );
+    expect(failure.detail).toContain("list page 1, row 1");
+    expect(failure.detail).toContain("userShelf");
+  });
+
+  test("a shelf link that is neither a shelf nor a tag is parse-failure, naming the page and row", async () => {
+    // made up: every real shelf link has ?shelf= or ?tag=
+    const list = editRow(realList(), 0, (html) =>
+      html.replace(
+        /(<a class="shelfLink"[^>]*>[^<]*<\/a>)/,
+        '$1<a class="shelfLink" href="https://www.goodreads.com/review/list/1000000?label=x">x</a>',
+      ),
+    );
+    const { failure } = await expectFailedClosed(
+      fakeGoodreads(list),
+      "parse-failure",
+    );
+    expect(failure.detail).toContain("list page 1, row 1");
+    expect(failure.detail).toContain("neither a shelf nor a tag");
   });
 
   test("a page with no sidebar is layout-change", async () => {
@@ -1079,6 +1130,88 @@ describe("fail-closed, parsing", () => {
     });
     const { failure } = await expectFailedClosed(fake, "layout-change");
     expect(failure.detail).toContain("list page 1");
+  });
+});
+
+describe("the sidebar", () => {
+  /** The real list, every page's sidebar edited. */
+  function sidebarEdited(edit: (html: string) => string): FakeGoodreads {
+    return fakeGoodreads(realList(), {
+      override: async (page, _request, signal) => {
+        const ok = await fakeGoodreads(realList()).fetch(
+          `https://www.goodreads.com/review/list/${FIXTURE_USER}?page=${page}`,
+          { signal },
+        );
+        const before = await ok.text();
+        const html = edit(before);
+        if (html === before) throw new Error("the edit changed nothing");
+        return new Response(html, { status: 200 });
+      },
+    });
+  }
+  /** The sidebar entry of `shelf=on-deck` or `tag=long-term`, its div. */
+  const entry = (link: string) =>
+    new RegExp(
+      `\\s*<div class="userShelf">\\s*<a [^>]*${link}"[\\s\\S]*?</div>`,
+    );
+  const divider = '<div class="horizontalGreyDivider"></div>';
+
+  test("as on the captured page: the exclusive shelves counted, the tag long-term (1) ignored", async () => {
+    const fake = fakeGoodreads(realList());
+    const page = await fake.fetch(
+      `https://www.goodreads.com/review/list/${FIXTURE_USER}?page=1`,
+      {},
+    );
+    expect(await page.text()).toContain('tag=long-term">long-term  &lrm;(1)');
+    const { outcome, lines } = await run(fake);
+    expect(outcome.ok).toBe(true);
+    expect(lines.join("\n")).toContain(
+      "counts match the sidebar: to-read 448, currently-reading 8, read 786, did-not-finish 0, on-deck 208; 1450 books",
+    );
+  });
+
+  test("a tag's count off its books' is count-mismatch, as a shelf's is", async () => {
+    // made up: the captured page has long-term (1), its one book's
+    const fake = sidebarEdited((html) =>
+      html.replace(
+        'tag=long-term">long-term  &lrm;(1)',
+        'tag=long-term">long-term  &lrm;(2)',
+      ),
+    );
+    const { failure } = await expectFailedClosed(fake, "count-mismatch");
+    expect(failure.detail).toContain("long-term 1 (sidebar 2)");
+  });
+
+  test("a tag on a row but not in the sidebar is count-mismatch", async () => {
+    // made up: the sidebar without its long-term entry
+    const fake = sidebarEdited((html) =>
+      html.replace(entry("tag=long-term"), ""),
+    );
+    const { failure } = await expectFailedClosed(fake, "count-mismatch");
+    expect(failure.detail).toContain("long-term 1 (not in the sidebar)");
+  });
+
+  test("a tag above the divider is ignored: tags are told by their link, not their place", async () => {
+    // made up: on every real page, the tags come after the divider
+    const fake = sidebarEdited((html) => {
+      const tag = entry("tag=long-term").exec(html)![0];
+      return html
+        .replace(tag, "")
+        .replace('<div id="paginatedShelfList" class="stacked">', `$&${tag}`);
+    });
+    const { outcome } = await run(fake);
+    expect(outcome.ok).toBe(true);
+  });
+
+  test("a shelf below the divider is counted: shelves are told by their link, not their place", async () => {
+    // made up: on every real page, the shelves come before the divider
+    const fake = sidebarEdited((html) => {
+      const shelf = entry("shelf=on-deck").exec(html)![0];
+      return html.replace(shelf, "").replace(divider, `${divider}${shelf}`);
+    });
+    const { outcome, lines } = await run(fake);
+    expect(outcome.ok).toBe(true);
+    expect(lines.join("\n")).toContain("on-deck 208; 1450 books");
   });
 });
 
@@ -1132,7 +1265,7 @@ describe("fail-closed, completeness", () => {
     const fake = fakeGoodreads(list, {
       override: (page) =>
         page === 3
-          ? new Response(renderPage(list.slice(200, 299), countsOf(list)))
+          ? new Response(renderPage(list.slice(200, 299), countsOf(list), list))
           : undefined,
     });
     const { failure } = await expectFailedClosed(fake, "page-size");
@@ -1145,7 +1278,11 @@ describe("fail-closed, completeness", () => {
       override: (page) =>
         page === 15
           ? new Response(
-              renderPage([...list.slice(1400), list[1399]!], countsOf(list)),
+              renderPage(
+                [...list.slice(1400), list[1399]!],
+                countsOf(list),
+                list,
+              ),
             )
           : undefined,
     });

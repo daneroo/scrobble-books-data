@@ -9,8 +9,8 @@
  * are its rows again, under new review, book and work ids, on the shelves
  * needed to reach those counts, and last, the real rows of three ancient
  * works (their publication year negative or of 3 digits), _The Diamond Age_,
- * _The Great Code_ and the other edition of _Essentialism_, so one work is on
- * the list twice.
+ * _The Great Code_, the other edition of _Essentialism_, so one work is on
+ * the list twice, and _Critique of Pure Reason_, the one book with a tag.
  */
 import { join } from "node:path";
 
@@ -47,6 +47,12 @@ export const SAVED_REVIEWS = {
    * Reading Progress box (data/61-pages).
    */
   greatCode: "231375252",
+  /**
+   * _Critique of Pure Reason_: currently reading, and tagged long-term, with
+   * its "Shelved as: long-term" row; only its heading, review date and
+   * Reading Progress box (data/61-pages, `-long-term`).
+   */
+  critique: "4039959353",
 } as const;
 
 const reviewFixtures = new Map<string, string>(
@@ -203,7 +209,9 @@ function rowsIn(html: string): Row[] {
       const row = match[0];
       const bookId = /data-resource-id="(\d+)"/.exec(row)?.[1];
       const workId = /href="\/work\/editions\/(\d+)"/.exec(row)?.[1];
-      const shelf = /<a class="shelfLink"[^>]*>([^<]*)<\/a>/.exec(row)?.[1];
+      const shelf = /<a class="shelfLink"[^>]*\?shelf=[^>]*>([^<]*)<\/a>/.exec(
+        row,
+      )?.[1];
       if (bookId === undefined || workId === undefined || shelf === undefined)
         throw new Error(`fixture row ${match[1]}: no book id, work or shelf`);
       const id = match[1]!;
@@ -250,6 +258,7 @@ const lastRows: readonly Row[] = await Promise.all(
     SAVED_REVIEWS.diamondAge,
     SAVED_REVIEWS.greatCode,
     OTHER_ESSENTIALISM,
+    SAVED_REVIEWS.critique,
   ].map(savedRow),
 );
 
@@ -310,9 +319,9 @@ function withTimesRead(row: Row): Row {
 
 /**
  * The full list: 1450 rows with the real counts, page 1 the saved page, the
- * real rows of the three ancient works, _The Diamond Age_, _The Great Code_
- * and the other edition of _Essentialism_ last. Each row's "# times read"
- * agrees with the review page served.
+ * real rows of the three ancient works, _The Diamond Age_, _The Great Code_,
+ * the other edition of _Essentialism_ and _Critique of Pure Reason_ last.
+ * Each row's "# times read" agrees with the review page served.
  */
 export function realList(): Row[] {
   const remaining = { ...REAL_COUNTS };
@@ -349,10 +358,15 @@ export function countsOf(rows: readonly Row[]): Record<ExclusiveShelf, number> {
   return counts;
 }
 
-/** A list page: the saved page's frame, with these rows and sidebar counts. */
+/**
+ * A list page: the saved page's frame, with these rows and sidebar counts;
+ * each tag's sidebar count is its rows' in `list`, the whole list, as on the
+ * captured page (data/61-pages/list-p12-long-term.html: "long-term (1)").
+ */
 export function renderPage(
   rows: readonly Row[],
   counts: Readonly<Record<ExclusiveShelf, number>> = countsOf(rows),
+  list: readonly Row[] = rows,
 ): string {
   let frame = head;
   for (const [shelf, count] of Object.entries(counts)) {
@@ -361,6 +375,11 @@ export function renderPage(
       `$1${count}$2`,
     );
   }
+  frame = frame.replace(
+    /(tag=([^"]+)">[^<]*&lrm;\()\d+(\))/g,
+    (_, before: string, tag: string, after: string) =>
+      `${before}${list.filter((row) => row.html.includes(`?tag=${tag}"`)).length}${after}`,
+  );
   return frame + rows.map((row) => row.html).join("\n") + tail;
 }
 
@@ -459,7 +478,7 @@ export function fakeGoodreads(
       if (answer !== undefined) return answer;
       options.before?.(page, list);
       const rows = list.slice((page - 1) * 100, page * 100);
-      return html(renderPage(rows, options.counts ?? countsOf(list)));
+      return html(renderPage(rows, options.counts ?? countsOf(list), list));
     },
   };
   return fake;
