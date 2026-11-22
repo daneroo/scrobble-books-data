@@ -1,5 +1,46 @@
 [
   {
+    "id": "9043895147",
+    "title": "Bullshit Jobs: A Theory",
+    "bookId": "34466958",
+    "bookURL": "https://www.goodreads.com/book/show/34466958-bullshit-jobs",
+    "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1523865380l/34466958._SY75_.jpg",
+    "isbn": "150114331X",
+    "userRating": 0,
+    "userAddedAt": "2026-10-21T07:00:00.000Z",
+    "userShelf": "currently-reading",
+    "userTags": [],
+    "averageRating": "4.0",
+    "bookPublished": "2018-05",
+    "numPages": "335",
+    "workId": "55587029",
+    "userUpdatedAt": "2026-11-21T08:00:00.000Z",
+    "userReadCount": 0,
+    "userFirstReadAt": "",
+    "userLastReadAt": "",
+    "userReview": "",
+    "bookDescription": "<b>From bestselling writer David Graeber, a powerful argument against the rise of meaningless, unfulfilling jobs, and their consequences.</b><br /><br />Does your job make a meaningful contribution to the world? In the spring of 2013, David Graeber asked this question in a playful, provocative essay titled “On the Phenomenon of Bullshit Jobs.” It went viral. After a million online views in seventeen different languages, people all over the world are still debating the answer.<br /><br />There are millions of people—HR consultants, communication coordinators, telemarketing researchers, corporate lawyers—whose jobs are useless, and, tragically, they know it. These people are caught in bullshit jobs.<br /><br />Graeber explores one of society’s most vexing and deeply felt concerns, indicting among other villains a particular strain of finance capitalism that betrays ideals shared by thinkers ranging from Keynes to Lincoln. <i>Bullshit Jobs</i> gives individuals, corporations, and societies permission to undergo a shift in values, placing creative and caring work at the center of our culture. This book is for everyone who wants to turn their vocation back into an avocation.",
+    "authorName": "David Graeber",
+    "timeline": [
+      {
+        "dateText": "October 21, 2026",
+        "event": "Shelved"
+      },
+      {
+        "dateText": "October 21, 2026",
+        "event": "Shelved as: to-read"
+      },
+      {
+        "dateText": "November 21, 2026",
+        "event": "Started Reading"
+      },
+      {
+        "dateText": "November 21, 2026",
+        "event": "20.0%"
+      }
+    ]
+  },
+  {
     "id": "9120484427",
     "title": "Tree",
     "bookId": "240339287",
@@ -1088,39 +1129,6 @@
       {
         "dateText": "October 22, 2026",
         "event": "Finished Reading"
-      }
-    ]
-  },
-  {
-    "id": "9043895147",
-    "title": "Bullshit Jobs: A Theory",
-    "bookId": "34466958",
-    "bookURL": "https://www.goodreads.com/book/show/34466958-bullshit-jobs",
-    "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1523865380l/34466958._SY75_.jpg",
-    "isbn": "150114331X",
-    "userRating": 0,
-    "userAddedAt": "2026-10-21T07:00:00.000Z",
-    "userShelf": "to-read",
-    "userTags": [],
-    "averageRating": "4.0",
-    "bookPublished": "2018-05",
-    "numPages": "335",
-    "workId": "55587029",
-    "userUpdatedAt": "2026-10-21T07:00:00.000Z",
-    "userReadCount": 0,
-    "userFirstReadAt": "",
-    "userLastReadAt": "",
-    "userReview": "",
-    "bookDescription": "<b>From bestselling writer David Graeber, a powerful argument against the rise of meaningless, unfulfilling jobs, and their consequences.</b><br /><br />Does your job make a meaningful contribution to the world? In the spring of 2013, David Graeber asked this question in a playful, provocative essay titled “On the Phenomenon of Bullshit Jobs.” It went viral. After a million online views in seventeen different languages, people all over the world are still debating the answer.<br /><br />There are millions of people—HR consultants, communication coordinators, telemarketing researchers, corporate lawyers—whose jobs are useless, and, tragically, they know it. These people are caught in bullshit jobs.<br /><br />Graeber explores one of society’s most vexing and deeply felt concerns, indicting among other villains a particular strain of finance capitalism that betrays ideals shared by thinkers ranging from Keynes to Lincoln. <i>Bullshit Jobs</i> gives individuals, corporations, and societies permission to undergo a shift in values, placing creative and caring work at the center of our culture. This book is for everyone who wants to turn their vocation back into an avocation.",
-    "authorName": "David Graeber",
-    "timeline": [
-      {
-        "dateText": "October 21, 2026",
-        "event": "Shelved"
-      },
-      {
-        "dateText": "October 21, 2026",
-        "event": "Shelved as: to-read"
       }
     ]
   },
