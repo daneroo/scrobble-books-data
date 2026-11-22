@@ -10,9 +10,10 @@ import { PageTemporaryError, type PageSource } from "./pages/source.ts";
 import { fetchBookPages, withBookFields } from "./book/scrape.ts";
 import { fetchReviewPages, withProgress } from "./review/scrape.ts";
 import { resetRunFiles, runFiles, writeOutputs } from "./outputs.ts";
-import type { Item } from "./goodreads.ts";
+import { IsoPublished, type Item } from "./goodreads.ts";
 import type {
   Outcome,
+  PublishedAsShown,
   ReadCountMismatch,
   RepeatedWork,
   ShelvedDayMismatch,
@@ -52,8 +53,8 @@ export interface RunOptions {
  * then publish. Fail-closed: any failure is returned named, and nothing is
  * published. A work on the list more than once, a `userAddedAt` off its
  * timeline's "Shelved" day, a `userReadCount` off its list row's "# times
- * read", or a book on "read" with no finish, is no failure: it is returned,
- * for a warning.
+ * read", a book on "read" with no finish, or a `bookPublished` kept as
+ * shown, is no failure: it is returned, for a warning.
  */
 export async function runScrape(options: RunOptions): Promise<Outcome> {
   const { user, flow, dataDir, publishPath, cueSchema, signal, log } = options;
@@ -129,6 +130,7 @@ export async function runScrape(options: RunOptions): Promise<Outcome> {
         .filter((item) => item.userExclusiveShelf === "read")
         .filter((item) => item.userReadCount === 0)
         .map((item) => item.id),
+      publishedAsShown: publishedAsShown(items),
     };
   } catch (error) {
     const failure = failureOf(error, step);
@@ -181,6 +183,13 @@ function readCountMismatches(
       ? []
       : [{ id, userExclusiveShelf, userReadCount, timesRead: listed }];
   });
+}
+
+/** Each entry whose `bookPublished` is kept as shown, in list order. */
+function publishedAsShown(items: readonly Item[]): PublishedAsShown[] {
+  return items
+    .filter((item) => !IsoPublished.safeParse(item.bookPublished).success)
+    .map(({ id, bookPublished }) => ({ id, bookPublished }));
 }
 
 /** Names any error the run can end with. */

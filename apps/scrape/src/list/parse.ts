@@ -200,7 +200,7 @@ function rawItem(
     ),
     userExclusiveShelf: shelves.length === 1 ? shelves[0] : shelves,
     averageRating: oneDecimal(text("avg_rating")),
-    bookPublished: text("date_pub"),
+    bookPublished: isoPublished(text("date_pub")),
     // "1,280 pp" → "1280"; "unknown" → "0", as in the reference
     numPages:
       pages === "unknown"
@@ -209,6 +209,31 @@ function rawItem(
     // checked against userReadCount, not published
     timesRead: text("read_count"),
   };
+}
+
+/**
+ * A publication date as shown, as ISO 8601 at the precision shown: a day,
+ * "Nov 05, 2023" → "2023-11-05"; a month, "Jan 2027" → "2027-01"; a year,
+ * padded to 4 digits, its sign kept, "1995", "100" → "0100", "-750" →
+ * "-0750"; "unknown" → "". A day that is not in the calendar ("Feb 30,
+ * 2023") is left as it is, for zod to reject; any other text is left as
+ * shown.
+ */
+function isoPublished(shown: string): string {
+  if (shown === "unknown") return "";
+  const year = /^(-?)(\d{1,4})$/.exec(shown);
+  if (year !== null) return `${year[1]}${year[2]!.padStart(4, "0")}`;
+  const date = /^([A-Z][a-z]{2}) (?:(\d{2}), )?(\d{4})$/.exec(shown);
+  const month = date === null ? -1 : MONTHS.indexOf(date[1]!);
+  if (date === null || month < 0) return shown;
+  const iso = `${date[3]}-${String(month + 1).padStart(2, "0")}`;
+  if (date[2] === undefined) return iso;
+  // an impossible day rolls over into the next month; setUTCFullYear, as
+  // Date.UTC would take a year under 100 for 19xx
+  const day = Number(date[2]);
+  const real = new Date(0);
+  real.setUTCFullYear(Number(date[3]), month, day);
+  return real.getUTCDate() === day ? `${iso}-${date[2]}` : shown;
 }
 
 /** "/book/show/1-x" → "https://www.goodreads.com/book/show/1-x". */

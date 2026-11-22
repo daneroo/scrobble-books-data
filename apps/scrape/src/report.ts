@@ -31,6 +31,15 @@ export interface ReadCountMismatch {
   timesRead: number;
 }
 
+/**
+ * A `bookPublished` kept as shown, in none of the formats it is normalized
+ * from: none on 2026-11-21.
+ */
+export interface PublishedAsShown {
+  id: string;
+  bookPublished: string;
+}
+
 /** The result of a run. The cookie is only there to keep it out of the log. */
 export type Outcome =
   | {
@@ -64,6 +73,11 @@ export type Outcome =
        * counted on screen; the list itself is kept here, as data.
        */
       readWithoutFinish: string[];
+      /**
+       * Each `bookPublished` kept as shown, in list order: a warning,
+       * counted on screen; the list itself is kept here, as data.
+       */
+      publishedAsShown: PublishedAsShown[];
     }
   | { ok: false; cookie?: string; failure: Failure };
 
@@ -118,6 +132,11 @@ function summarize(outcome: Outcome): Report {
         outcome.readWithoutFinish.length,
         'WARN: 1 book on "read" has no finish',
         (n) => `WARN: ${n} books on "read" have no finish`,
+      ),
+      ...countLine(
+        outcome.publishedAsShown.length,
+        "WARN: 1 book has a bookPublished kept as shown",
+        (n) => `WARN: ${n} books have a bookPublished kept as shown`,
       ),
     ],
     exitCode: 0,

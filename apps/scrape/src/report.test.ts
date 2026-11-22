@@ -21,6 +21,7 @@ describe("report", () => {
         shelvedDayMismatches: [],
         readCountMismatches: [],
         readWithoutFinish: [],
+        publishedAsShown: [],
       },
       secrets,
     );
@@ -117,6 +118,7 @@ describe("report", () => {
         shelvedDayMismatches: [],
         readCountMismatches: [],
         readWithoutFinish: [],
+        publishedAsShown: [],
       },
       secrets,
     );

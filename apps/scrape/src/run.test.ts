@@ -19,6 +19,7 @@ import { signedInSource } from "./pages/source.ts";
 import { report, type Outcome } from "./report.ts";
 import { runScrape } from "./run.ts";
 import {
+  ANCIENT_WORKS,
   countsOf,
   fakeGoodreads,
   FIXTURE_USER,
@@ -183,7 +184,8 @@ describe("a full run", () => {
       userExclusiveShelf: "currently-reading",
       // shown as 4.47; toFixed(1), only to avoid flapping
       averageRating: "4.5",
-      bookPublished: "Apr 01, 2025",
+      // "Apr 01, 2025"
+      bookPublished: "2025-04-01",
       numPages: "461",
       workId: "125997193",
       // no updatedAt on its book page: its "Shelved" row's day, its latest
@@ -204,7 +206,8 @@ describe("a full run", () => {
     expect(byId.get("8933967943")).toMatchObject({
       title: "Winterfair Gifts (Vorkosigan Saga, #13.1)",
       numPages: "0",
-      bookPublished: "Jan 01, 2002",
+      // "Jan 01, 2002"
+      bookPublished: "2002-01-01",
     });
     // no cover, an ISBN ending in X
     expect(byId.get("8557895838")).toMatchObject({
@@ -217,6 +220,36 @@ describe("a full run", () => {
     // no ISBN
     expect(byId.get("8977513831")).toMatchObject({
       isbn: "",
+    });
+  });
+
+  test("bookPublished is ISO 8601 at the precision shown; unknown is ''", async () => {
+    const { published } = await run(fakeGoodreads(realList()));
+    const byId = new Map(published?.map((item) => [item.id, item]));
+    const bookPublished = (id: string) => byId.get(id)?.bookPublished;
+    // each format on the real list pages of 2026-11-21, as Goodreads shows it
+    expect({
+      // "Jul 12, 2011": a day (Debt)
+      day: bookPublished(SAVED_REVIEWS.debt),
+      // "Aug 2012": a month (King of Thorns)
+      month: bookPublished("9047374292"),
+      // "1954": a year (The Eagle of the Ninth)
+      year: bookPublished("9037327663"),
+      // "-750", "-19": a year before the year 1, padded to 4 digits
+      iliad: bookPublished(ANCIENT_WORKS.iliad),
+      aeneid: bookPublished(ANCIENT_WORKS.aeneid),
+      // "100": a year of 3 digits, padded
+      ageOfAlexander: bookPublished(ANCIENT_WORKS.ageOfAlexander),
+      // "unknown" (Shocks, Crises, and False Alarms)
+      unknown: bookPublished("9049757250"),
+    }).toEqual({
+      day: "2011-07-12",
+      month: "2012-08",
+      year: "1954",
+      iliad: "-0750",
+      aeneid: "-0019",
+      ageOfAlexander: "0100",
+      unknown: "",
     });
   });
 
@@ -942,6 +975,28 @@ describe("rows", () => {
     const { published } = await run(fakeGoodreads(list));
     expect(published?.[0]?.userRating).toBe(0);
   });
+
+  test("a publication date in another format is kept as shown, with a warning, still passing", async () => {
+    // made up: no other format on the real list pages of 2026-11-21
+    const list = editRow(realList(), 0, (html) =>
+      html.replace(
+        /(date pub<\/label><div class="value">\s*)Apr 01, 2025/,
+        "$1Spring 1990",
+      ),
+    );
+    const { outcome, published, reportLines, exitCode } = await run(
+      fakeGoodreads(list),
+    );
+    expect(exitCode).toBe(0);
+    expect(published?.[0]?.bookPublished).toBe("Spring 1990");
+    // on screen, the count only; the entry and its value, in the outcome
+    expect(reportLines).toContain(
+      "WARN: 1 book has a bookPublished kept as shown",
+    );
+    expect(outcome.ok && outcome.publishedAsShown).toEqual([
+      { id: list[0]!.id, bookPublished: "Spring 1990" },
+    ]);
+  });
 });
 
 describe("fail-closed, parsing", () => {
@@ -958,6 +1013,25 @@ describe("fail-closed, parsing", () => {
     );
     expect(failure.detail).toContain("userRating");
     expect(failure.detail).toContain('"lots"');
+  });
+
+  test("a publication day not in the calendar is parse-failure, naming the page and row", async () => {
+    // made up: every day on the real list pages of 2026-11-21 is real
+    const list = editRow(realList(), 100, (html) =>
+      html.replace(
+        /(date pub<\/label><div class="value">\s*)[^\n<]+/,
+        "$1Feb 30, 2023",
+      ),
+    );
+    const { failure } = await expectFailedClosed(
+      fakeGoodreads(list),
+      "parse-failure",
+    );
+    expect(failure.detail).toContain(
+      `list page 2, row 1 (review_${list[100]!.id})`,
+    );
+    expect(failure.detail).toContain("bookPublished");
+    expect(failure.detail).toContain('"Feb 30, 2023"');
   });
 
   test("a missing cell is layout-change, naming the page and row", async () => {

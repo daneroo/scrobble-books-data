@@ -30,7 +30,8 @@
 //
 // Dates are ISO 8601 UTC, written with milliseconds (toISOString). A day a page shows is a US
 // Pacific day, stored as the start of that day in America/Los_Angeles, in
-// UTC: precise to the day only.
+// UTC: precise to the day only. bookPublished is the exception: a calendar
+// date, ISO 8601 with no time, at the precision shown.
 import "time"
 
 #Goodreads
@@ -130,13 +131,30 @@ import "time"
 	// - Format: a digit, a dot, a digit: "4.5".
 	averageRating: =~"^[0-9]\\.[0-9]$"
 
-	// The work's original publication date, as shown.
+	// The work's original publication date, as ISO 8601 at the precision
+	// shown; as shown when it is in no format below.
 	// - Page: list page.
-	// - Elements: the text of the date_pub cell.
-	// - Transform: whitespace collapsed, trimmed.
-	// - Format: any text, not interpreted: "Sep 27, 2016", "Jan 2027", "2016",
-	//   "-550", "unknown".
-	bookPublished: string
+	// - Elements: the text of the date_pub cell (not date_pub_edition, the
+	//   edition's); "unknown" is in a span.greyText.
+	// - Checks: a day that is not in the calendar ("Feb 30, 2023") is
+	//   parse-failure. Text in no format below is kept as shown; a run that
+	//   passes ends with a warning counting those entries (none on
+	//   2026-11-21).
+	// - Transform: whitespace collapsed, trimmed, then, by what it shows (as
+	//   seen on the 1458 entries of 2026-11-21):
+	//   - a day, "Nov 05, 2023" → "2023-11-05" (865);
+	//   - a month, "Jan 2027" → "2027-01" (151);
+	//   - a year of 4 digits, as it is, "1995" (306; 1000 to 2025);
+	//   - a year of 1 to 3 digits, padded to 4, "100" → "0100" (2: 100, 121);
+	//   - a negative year, a year BC as Goodreads gives it ("-19", The
+	//     Aeneid, 19 BC), padded to 4, "-750" → "-0750" (11: -19 to -800).
+	//     Not shifted to ISO 8601's astronomical years, where 1 BC is "0000"
+	//     and "-0750" is 751 BC;
+	//   - "unknown" → "" (123).
+	// - Format: a string: "YYYY-MM-DD", a real day; "YYYY-MM"; a year, "YYYY"
+	//   or "-YYYY"; "" when unknown; otherwise the text as shown, never in a
+	//   format above or ISO-shaped like one ("2023-02-30").
+	bookPublished: #IsoPublished | #PublishedShownText
 
 	// The edition's page count.
 	// - Page: list page.
@@ -298,5 +316,19 @@ import "time"
 #ISBN:   =~"^[0-9X]{10}$" | =~"^[0-9X]{13}$"
 
 #Time: time.Time & =~"Z$" // ISO 8601 UTC: 2026-11-01T07:00:00.000Z
+
+// bookPublished normalized: a real day, 2023-11-05; a month, 2027-01; a year,
+// 1995 | 0100 | -0750; "" when unknown. Any other value is kept as shown.
+#IsoPublished: (=~"^[0-9]{4}-[0-9]{2}-[0-9]{2}$" & time.Format("2006-01-02")) |
+	(=~"^[0-9]{4}-[0-9]{2}$" & time.Format("2006-01")) |
+	=~"^-?[0-9]{4}$" |
+	""
+
+// A bookPublished kept as shown: never in a format the list shows and
+// bookPublished normalizes (a day, Nov 05, 2023; a month, Jan 2027; a year,
+// 1995 | 100 | -750; unknown), nor shaped like a normalized day or month.
+#PublishedShownText: string &
+	!~"^((Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) ([0-9]{2}, )?[0-9]{4}|-?[0-9]{1,4}|unknown)$" &
+	!~"^[0-9]{4}-[0-9]{2}(-[0-9]{2})?$"
 
 #TimelineDate: =~"^(.* )?[0-9]{4}$" // text ending in a year: October 23, 2026 | January, 1997 | 2021

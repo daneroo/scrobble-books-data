@@ -41,10 +41,11 @@
 
 ## bookPublished
 
-- A string, normalized to ISO 8601 at the precision shown when it parses
-  reliably; examine every case, make it robust. Seen today: "Nov 05, 2023" →
+- Done (#74): a string, ISO 8601 at the precision shown: "Nov 05, 2023" →
   "2023-11-05" (865), "Jan 2027" → "2027-01" (151), "1995" (306), "-750" →
-  "-0750" (11), "100" → "0100" (2), "unknown" (123).
+  "-0750" (11, BC as Goodreads gives it, not astronomical), "100" → "0100" (2),
+  "unknown" → "" (123; owner's choice). An impossible day is parse-failure;
+  other text is kept as shown, with a warning (none on 2026-11-21).
 
 ## Shelves
 

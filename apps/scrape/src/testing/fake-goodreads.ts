@@ -7,7 +7,8 @@
  * seen in #28: to-read 448, currently-reading 8, read 786, did-not-finish 0,
  * on-deck 208, 1450 books. Page 1 is the saved page itself; the other rows
  * are its rows again, under new review, book and work ids, on the shelves
- * needed to reach those counts, and last, the real rows of _The Diamond Age_,
+ * needed to reach those counts, and last, the real rows of three ancient
+ * works (their publication year negative or of 3 digits), _The Diamond Age_,
  * _The Great Code_ and the other edition of _Essentialism_, so one work is on
  * the list twice.
  */
@@ -220,6 +221,19 @@ export const savedRows: readonly Row[] = rowsIn(
 /** The review id of the other edition of _Essentialism_, on the read shelf. */
 export const OTHER_ESSENTIALISM = "5557855762";
 
+/**
+ * The review ids of real rows of works published before the year 1000,
+ * scrubbed, last on the list; their review pages are not saved.
+ */
+export const ANCIENT_WORKS = {
+  /** _The Iliad_: published "-750", on "read". */
+  iliad: "7046468331",
+  /** _The Aeneid_: published "-19", on "on-deck". */
+  aeneid: "3964785038",
+  /** _The Age of Alexander_: published "100", on "to-read". */
+  ageOfAlexander: "5176558435",
+} as const;
+
 /** A real list row, scrubbed, by its review id; not on the saved page. */
 async function savedRow(id: string): Promise<Row> {
   return rowsIn(
@@ -229,11 +243,14 @@ async function savedRow(id: string): Promise<Row> {
   )[0]!;
 }
 
-/** The real rows last on the list, in list order. */
+/** The real rows last on the list. */
 const lastRows: readonly Row[] = await Promise.all(
-  [SAVED_REVIEWS.diamondAge, SAVED_REVIEWS.greatCode, OTHER_ESSENTIALISM].map(
-    savedRow,
-  ),
+  [
+    ...Object.values(ANCIENT_WORKS),
+    SAVED_REVIEWS.diamondAge,
+    SAVED_REVIEWS.greatCode,
+    OTHER_ESSENTIALISM,
+  ].map(savedRow),
 );
 
 /** Replaces a whole number (not part of a longer one) everywhere. */
@@ -293,9 +310,9 @@ function withTimesRead(row: Row): Row {
 
 /**
  * The full list: 1450 rows with the real counts, page 1 the saved page, the
- * real rows of _The Diamond Age_, _The Great Code_ and the other edition of
- * _Essentialism_ last. Each row's "# times read" agrees with the review page
- * served.
+ * real rows of the three ancient works, _The Diamond Age_, _The Great Code_
+ * and the other edition of _Essentialism_ last. Each row's "# times read"
+ * agrees with the review page served.
  */
 export function realList(): Row[] {
   const remaining = { ...REAL_COUNTS };
@@ -303,9 +320,12 @@ export function realList(): Row[] {
   const shelves = (Object.keys(remaining) as ExclusiveShelf[]).flatMap(
     (shelf) => Array<ExclusiveShelf>(remaining[shelf]).fill(shelf),
   );
-  // interleave the shelves, so each page has a mix
+  // interleave the shelves, so each page has a mix: every 7th, or the next
+  // step with no factor in common with the length, so each is taken once
   shelves.sort((a, b) => a.localeCompare(b));
-  const mixed = shelves.map((_, i) => shelves[(i * 7) % shelves.length]!);
+  let step = 7;
+  while (gcd(step, shelves.length) !== 1) step++;
+  const mixed = shelves.map((_, i) => shelves[(i * step) % shelves.length]!);
   return [
     ...savedRows,
     ...mixed.map((shelf, i) =>
@@ -313,6 +333,11 @@ export function realList(): Row[] {
     ),
     ...lastRows,
   ].map(withTimesRead);
+}
+
+/** The greatest common divisor of two positive integers. */
+function gcd(a: number, b: number): number {
+  return b === 0 ? a : gcd(b, a % b);
 }
 
 /** Counts per exclusive shelf. */
