@@ -5,7 +5,7 @@ Canonical instructions for agents and humans. `CLAUDE.md` points here.
 scrobble-books-data scrapes Goodreads reading data into `goodreads.json`.
 `bun run publish` uploads it to one public S3 object; `mirror-scrape-s3.yml`
 commits that object to `main` when it changed, and fails when it is over 48
-hours old. `goodreads-rss.json` stays on `main`, frozen, no longer written.
+hours old.
 
 ## Git
 

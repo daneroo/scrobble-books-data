@@ -22,15 +22,14 @@ Browse the data in the browser (flatgithub.com is gone):
 
 ## Published files
 
-At the repo root, fetched externally from raw.githubusercontent.com:
-
-- [`goodreads.json`](https://raw.githubusercontent.com/daneroo/scrobble-books-data/main/goodreads.json)
-  — the new file: every book, its list-page fields and its reading timeline.
-  Mirrored from the S3 object.
-- [`goodreads-rss.json`](https://raw.githubusercontent.com/daneroo/scrobble-books-data/main/goodreads-rss.json)
-  — historical, in the old RSS format; no longer written. Still read by the
-  scrobbleCast site, so it stays at this path, frozen, until scrobbleCast reads
-  `goodreads.json`. Last written 2026-11-14T23:42Z.
+- [`goodreads.json`](https://im-scrobble-books.s3.amazonaws.com/goodreads.json)
+  — every book, its list-page fields and its reading timeline. The live copy, on
+  S3; read by the scrobbleCast site.
+- Mirrored to the repo root as
+  [`goodreads.json`](https://raw.githubusercontent.com/daneroo/scrobble-books-data/main/goodreads.json)
+  by the GitHub Action
+  [`mirror-scrape-s3.yml`](https://github.com/daneroo/scrobble-books-data/actions/workflows/mirror-scrape-s3.yml):
+  the record, copied every 2 hours.
 
 ## Layout
 
