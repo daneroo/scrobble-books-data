@@ -1,79 +1,34 @@
 [
   {
-    "id": "9122962300",
-    "title": "Mavericks (Expeditionary Force, #6)",
-    "bookId": "40280648",
-    "bookURL": "https://www.goodreads.com/book/show/40280648-mavericks",
-    "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1527848965l/40280648._SX50_.jpg",
+    "id": "9125604542",
+    "title": "The Bitter Struggle: Superintelligence, Superpowers, and the Fate of the World",
+    "bookId": "248163758",
+    "bookURL": "https://www.goodreads.com/book/show/248163758-the-bitter-struggle",
+    "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1781694491l/248163758._SY75_.jpg",
     "isbn": "",
     "userRating": 0,
-    "userAddedAt": "2026-11-22T08:00:00.000Z",
-    "userShelf": "currently-reading",
+    "userAddedAt": "2026-11-23T08:00:00.000Z",
+    "userShelf": "on-deck",
     "userTags": [],
-    "averageRating": "4.3",
-    "bookPublished": "2018-09-25",
-    "numPages": "291",
-    "workId": "62568429",
-    "userUpdatedAt": "2026-11-22T08:00:00.000Z",
+    "averageRating": "3.0",
+    "bookPublished": "",
+    "numPages": "320",
+    "workId": "282470484",
+    "userUpdatedAt": "2026-11-23T08:00:00.000Z",
     "userReadCount": 0,
     "userFirstReadAt": "",
     "userLastReadAt": "",
     "userReview": "",
-    "bookDescription": "The remnants of the Expeditionary Force stranded on the alien-controlled planet 'Paradise' get a chance to prove themselves, in a simple off-world training mission with a ship full of teenage alien cadets. When the mission goes horribly wrong and the survival of everyone on Paradise is at risk, the Merry Band of Pirates may have to come to the rescue. Unless they get killed first...",
-    "authorName": "Craig Alanson",
+    "bookDescription": "<b>From two former White House officials who shaped America’s AI strategy and now work with leading AI companies, an urgent case for why democracies must achieve preeminence in AI—and a bracing warning about what victory will require.</b><br /><br />Humanity may soon create AI systems that outperform humans at virtually every cognitive task. Whoever wields that technology will gain a power unlike any in history. In <i>The Bitter Struggle</i>, Ben Buchanan, the first White House Special Advisor for Artificial Intelligence and currently an advisor to Anthropic, and Tantum Collins, who served on the National Security Council after five years at Google DeepMind, argue that the United States and its democratic allies must not lose this contest. But how democracies win matters most of all.<br /><br />Buchanan and Collins take readers into the briefing rooms where AI CEOs privately warned about their own creations, into the Situation Room where Cabinet Secretaries debated how to choke off China’s access to AI technology, and into the Oval Office, where they helped shape President Biden's decisions. From semiconductor factories in Taiwan to city-sized data centers in America, they show why a million chips may matter more than a million troops, why AI progress has been so stunning and yet so predictable, and why the next few years may decide the next few decades. Yet inventing more powerful AI is only the beginning. Democracies must also deploy AI’s capabilities without surrendering their own values—and so far, they are failing.<br /><br />The deepest challenge is not the contest with autocracy but the conflict AI will force within democracies themselves. Every choice pits security against liberty, speed against caution, power against principle. This is the bitter struggle. Democracies have every advantage they need to prevail—except, perhaps, the conviction to act.",
+    "authorName": "Ben Buchanan",
     "timeline": [
       {
-        "dateText": "November 22, 2026",
-        "event": "Started Reading"
+        "dateText": "November 23, 2026",
+        "event": "Shelved as: on-deck"
       },
       {
-        "dateText": "November 22, 2026",
+        "dateText": "November 23, 2026",
         "event": "Shelved"
-      },
-      {
-        "dateText": "November 22, 2026",
-        "event": "16.0%"
-      }
-    ]
-  },
-  {
-    "id": "9043895147",
-    "title": "Bullshit Jobs: A Theory",
-    "bookId": "34466958",
-    "bookURL": "https://www.goodreads.com/book/show/34466958-bullshit-jobs",
-    "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1523865380l/34466958._SY75_.jpg",
-    "isbn": "150114331X",
-    "userRating": 0,
-    "userAddedAt": "2026-10-21T07:00:00.000Z",
-    "userShelf": "currently-reading",
-    "userTags": [],
-    "averageRating": "4.0",
-    "bookPublished": "2018-05",
-    "numPages": "335",
-    "workId": "55587029",
-    "userUpdatedAt": "2026-11-21T08:00:00.000Z",
-    "userReadCount": 0,
-    "userFirstReadAt": "",
-    "userLastReadAt": "",
-    "userReview": "",
-    "bookDescription": "<b>From bestselling writer David Graeber, a powerful argument against the rise of meaningless, unfulfilling jobs, and their consequences.</b><br /><br />Does your job make a meaningful contribution to the world? In the spring of 2013, David Graeber asked this question in a playful, provocative essay titled “On the Phenomenon of Bullshit Jobs.” It went viral. After a million online views in seventeen different languages, people all over the world are still debating the answer.<br /><br />There are millions of people—HR consultants, communication coordinators, telemarketing researchers, corporate lawyers—whose jobs are useless, and, tragically, they know it. These people are caught in bullshit jobs.<br /><br />Graeber explores one of society’s most vexing and deeply felt concerns, indicting among other villains a particular strain of finance capitalism that betrays ideals shared by thinkers ranging from Keynes to Lincoln. <i>Bullshit Jobs</i> gives individuals, corporations, and societies permission to undergo a shift in values, placing creative and caring work at the center of our culture. This book is for everyone who wants to turn their vocation back into an avocation.",
-    "authorName": "David Graeber",
-    "timeline": [
-      {
-        "dateText": "October 21, 2026",
-        "event": "Shelved"
-      },
-      {
-        "dateText": "October 21, 2026",
-        "event": "Shelved as: to-read"
-      },
-      {
-        "dateText": "November 21, 2026",
-        "event": "Started Reading"
-      },
-      {
-        "dateText": "November 21, 2026",
-        "event": "20.0%"
       }
     ]
   },
@@ -92,7 +47,7 @@
     "bookPublished": "1992",
     "numPages": "190",
     "workId": "5921894",
-    "userUpdatedAt": "2026-11-20T08:00:00.000Z",
+    "userUpdatedAt": "2026-11-23T08:00:00.000Z",
     "userReadCount": 0,
     "userFirstReadAt": "",
     "userLastReadAt": "",
@@ -119,6 +74,96 @@
       {
         "dateText": "November 20, 2026",
         "event": "7.0%"
+      },
+      {
+        "dateText": "November 23, 2026",
+        "event": "16.0%"
+      }
+    ]
+  },
+  {
+    "id": "9122962300",
+    "title": "Mavericks (Expeditionary Force, #6)",
+    "bookId": "40280648",
+    "bookURL": "https://www.goodreads.com/book/show/40280648-mavericks",
+    "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1527848965l/40280648._SX50_.jpg",
+    "isbn": "",
+    "userRating": 0,
+    "userAddedAt": "2026-11-22T08:00:00.000Z",
+    "userShelf": "currently-reading",
+    "userTags": [],
+    "averageRating": "4.3",
+    "bookPublished": "2018-09-25",
+    "numPages": "291",
+    "workId": "62568429",
+    "userUpdatedAt": "2026-11-23T08:00:00.000Z",
+    "userReadCount": 0,
+    "userFirstReadAt": "",
+    "userLastReadAt": "",
+    "userReview": "",
+    "bookDescription": "The remnants of the Expeditionary Force stranded on the alien-controlled planet 'Paradise' get a chance to prove themselves, in a simple off-world training mission with a ship full of teenage alien cadets. When the mission goes horribly wrong and the survival of everyone on Paradise is at risk, the Merry Band of Pirates may have to come to the rescue. Unless they get killed first...",
+    "authorName": "Craig Alanson",
+    "timeline": [
+      {
+        "dateText": "November 22, 2026",
+        "event": "Started Reading"
+      },
+      {
+        "dateText": "November 22, 2026",
+        "event": "Shelved"
+      },
+      {
+        "dateText": "November 22, 2026",
+        "event": "16.0%"
+      },
+      {
+        "dateText": "November 23, 2026",
+        "event": "26.0%"
+      }
+    ]
+  },
+  {
+    "id": "9043895147",
+    "title": "Bullshit Jobs: A Theory",
+    "bookId": "34466958",
+    "bookURL": "https://www.goodreads.com/book/show/34466958-bullshit-jobs",
+    "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1523865380l/34466958._SY75_.jpg",
+    "isbn": "150114331X",
+    "userRating": 0,
+    "userAddedAt": "2026-10-21T07:00:00.000Z",
+    "userShelf": "currently-reading",
+    "userTags": [],
+    "averageRating": "4.0",
+    "bookPublished": "2018-05",
+    "numPages": "335",
+    "workId": "55587029",
+    "userUpdatedAt": "2026-11-22T08:00:00.000Z",
+    "userReadCount": 0,
+    "userFirstReadAt": "",
+    "userLastReadAt": "",
+    "userReview": "",
+    "bookDescription": "<b>From bestselling writer David Graeber, a powerful argument against the rise of meaningless, unfulfilling jobs, and their consequences.</b><br /><br />Does your job make a meaningful contribution to the world? In the spring of 2013, David Graeber asked this question in a playful, provocative essay titled “On the Phenomenon of Bullshit Jobs.” It went viral. After a million online views in seventeen different languages, people all over the world are still debating the answer.<br /><br />There are millions of people—HR consultants, communication coordinators, telemarketing researchers, corporate lawyers—whose jobs are useless, and, tragically, they know it. These people are caught in bullshit jobs.<br /><br />Graeber explores one of society’s most vexing and deeply felt concerns, indicting among other villains a particular strain of finance capitalism that betrays ideals shared by thinkers ranging from Keynes to Lincoln. <i>Bullshit Jobs</i> gives individuals, corporations, and societies permission to undergo a shift in values, placing creative and caring work at the center of our culture. This book is for everyone who wants to turn their vocation back into an avocation.",
+    "authorName": "David Graeber",
+    "timeline": [
+      {
+        "dateText": "October 21, 2026",
+        "event": "Shelved"
+      },
+      {
+        "dateText": "October 21, 2026",
+        "event": "Shelved as: to-read"
+      },
+      {
+        "dateText": "November 21, 2026",
+        "event": "Started Reading"
+      },
+      {
+        "dateText": "November 21, 2026",
+        "event": "20.0%"
+      },
+      {
+        "dateText": "November 22, 2026",
+        "event": "40.0%"
       }
     ]
   },
@@ -1736,7 +1781,7 @@
     "userAddedAt": "2026-10-06T07:00:00.000Z",
     "userShelf": "to-read",
     "userTags": [],
-    "averageRating": "4.1",
+    "averageRating": "4.0",
     "bookPublished": "",
     "numPages": "272",
     "workId": "282470518",
@@ -15559,7 +15604,7 @@
     "userFirstReadAt": "2025-06-29T07:00:00.000Z",
     "userLastReadAt": "2025-06-29T07:00:00.000Z",
     "userReview": "",
-    "bookDescription": "<i>Alternate cover edition of ISBN 9780684853154</i><br /><br />Frank, no ordinary sixteen-year-old, lives with his father outside a remote Scottish village. Their life is, to say the least, unconventional. Frank's mother abandoned them years ago: his elder brother Eric is confined to a psychiatric hospital; and his father measures out his eccentricities on an imperial scale. Frank has turned to strange acts of violence to vent his frustrations. In the bizarre daily rituals there is some solace. But when news comes of Eric's escape from the hospital Frank has to prepare the ground for his brother's inevitable return - an event that explodes the mysteries of the past and changes Frank utterly.<br /><br /><i>The Wasp Factory</i> is a work of horrifying compulsion: horrifying, because it enters a mind whose realities are not our own, whose values of life and death are alien to our society; compulsive, because the humour and compassion of that mind reach out to us all. A novel of extraordinary originality, imagination and comic ferocity.",
+    "bookDescription": "<i>Librarian's note: This an alternate cover for</i>: <a href=\"https://www.goodreads.com/book/show/247069225.9780684853154\" title=\"9780684853154\">9780684853154</a><br /><br />Frank, no ordinary sixteen-year-old, lives with his father outside a remote Scottish village. Their life is, to say the least, unconventional. Frank's mother abandoned them years ago: his elder brother Eric is confined to a psychiatric hospital; and his father measures out his eccentricities on an imperial scale. Frank has turned to strange acts of violence to vent his frustrations. In the bizarre daily rituals there is some solace. But when news comes of Eric's escape from the hospital Frank has to prepare the ground for his brother's inevitable return - an event that explodes the mysteries of the past and changes Frank utterly.<br /><br /><i>The Wasp Factory</i> is a work of horrifying compulsion: horrifying, because it enters a mind whose realities are not our own, whose values of life and death are alien to our society; compulsive, because the humour and compassion of that mind reach out to us all. A novel of extraordinary originality, imagination and comic ferocity.",
     "authorName": "Iain Banks",
     "timeline": [
       {
@@ -19748,7 +19793,7 @@
     "userAddedAt": "2025-01-27T08:00:00.000Z",
     "userShelf": "to-read",
     "userTags": [],
-    "averageRating": "4.2",
+    "averageRating": "4.1",
     "bookPublished": "1997-09-30",
     "numPages": "448",
     "workId": "1003056",
@@ -47273,7 +47318,7 @@
     "userFirstReadAt": "",
     "userLastReadAt": "",
     "userReview": "",
-    "bookDescription": "A respected physics professor and author breaks down the great debate over the Big Bang and the continuing quest to understand the fate of the universe.<br /> <br /><br />Today, the Big Bang is so entrenched in our understanding of the cosmos that to doubt it would seem crazy. But as Paul Halpern shows in Flashes of Creation , just decades ago its mere mention caused sparks to fly. At the center of the debate were Russian American physicist George Gamow and British astrophysicist Fred Hoyle. Gamow insisted that a fiery explosion explained how the elements of the universe were created. Attacking the idea as half-baked, Hoyle countered that the universe was engaged in a never-ending process of creation. The battle was fierce. In the end, Gamow turned out to be right -- mostly -- and Hoyle, despite his many achievements, is remembered for giving the theory the silliest possible \"The Big Bang.\" Halpern captures the brilliance of both thinkers and reminds us that even those proved wrong have much to teach us about boldness, imagination, and the universe itself.<br /><br /> <br /><br />",
+    "bookDescription": "<b>A respected physics professor and author breaks down the great debate over the Big Bang and the continuing quest to understand the fate of the universe.</b><br /> <br /><br />Today, the Big Bang is so entrenched in our understanding of the cosmos that to doubt it would seem crazy. But as Paul Halpern shows in <i>Flashes of Creation</i>, just decades ago its mere mention caused sparks to fly. At the center of the debate were Russian American physicist George Gamow and British astrophysicist Fred Hoyle. Gamow insisted that a fiery explosion explained how the elements of the universe were created. Attacking the idea as half-baked, Hoyle countered that the universe was engaged in a never-ending process of creation. The battle was fierce. In the end, Gamow turned out to be right -- mostly -- and Hoyle, despite his many achievements, is remembered for giving the theory the silliest possible \"The Big Bang.\" Halpern captures the brilliance of both thinkers and reminds us that even those proved wrong have much to teach us about boldness, imagination, and the universe itself.<br /><br /> <br /><br />",
     "authorName": "Paul Halpern",
     "timeline": [
       {
