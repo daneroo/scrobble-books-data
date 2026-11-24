@@ -1,5 +1,99 @@
 [
   {
+    "id": "9122962300",
+    "title": "Mavericks (Expeditionary Force, #6)",
+    "bookId": "40280648",
+    "bookURL": "https://www.goodreads.com/book/show/40280648-mavericks",
+    "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1527848965l/40280648._SX50_.jpg",
+    "isbn": "",
+    "userRating": 0,
+    "userAddedAt": "2026-11-22T08:00:00.000Z",
+    "userShelf": "currently-reading",
+    "userTags": [],
+    "averageRating": "4.3",
+    "bookPublished": "2018-09-25",
+    "numPages": "291",
+    "workId": "62568429",
+    "userUpdatedAt": "2026-11-23T08:00:00.000Z",
+    "userReadCount": 0,
+    "userFirstReadAt": "",
+    "userLastReadAt": "",
+    "userReview": "",
+    "bookDescription": "The remnants of the Expeditionary Force stranded on the alien-controlled planet 'Paradise' get a chance to prove themselves, in a simple off-world training mission with a ship full of teenage alien cadets. When the mission goes horribly wrong and the survival of everyone on Paradise is at risk, the Merry Band of Pirates may have to come to the rescue. Unless they get killed first...",
+    "authorName": "Craig Alanson",
+    "timeline": [
+      {
+        "dateText": "November 22, 2026",
+        "event": "Started Reading"
+      },
+      {
+        "dateText": "November 22, 2026",
+        "event": "Shelved"
+      },
+      {
+        "dateText": "November 22, 2026",
+        "event": "16.0%"
+      },
+      {
+        "dateText": "November 23, 2026",
+        "event": "26.0%"
+      },
+      {
+        "dateText": "November 23, 2026",
+        "event": "34.0%"
+      }
+    ]
+  },
+  {
+    "id": "9043895147",
+    "title": "Bullshit Jobs: A Theory",
+    "bookId": "34466958",
+    "bookURL": "https://www.goodreads.com/book/show/34466958-bullshit-jobs",
+    "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1523865380l/34466958._SY75_.jpg",
+    "isbn": "150114331X",
+    "userRating": 0,
+    "userAddedAt": "2026-10-21T07:00:00.000Z",
+    "userShelf": "currently-reading",
+    "userTags": [],
+    "averageRating": "4.0",
+    "bookPublished": "2018-05",
+    "numPages": "335",
+    "workId": "55587029",
+    "userUpdatedAt": "2026-11-23T08:00:00.000Z",
+    "userReadCount": 0,
+    "userFirstReadAt": "",
+    "userLastReadAt": "",
+    "userReview": "",
+    "bookDescription": "<b>From bestselling writer David Graeber, a powerful argument against the rise of meaningless, unfulfilling jobs, and their consequences.</b><br /><br />Does your job make a meaningful contribution to the world? In the spring of 2013, David Graeber asked this question in a playful, provocative essay titled “On the Phenomenon of Bullshit Jobs.” It went viral. After a million online views in seventeen different languages, people all over the world are still debating the answer.<br /><br />There are millions of people—HR consultants, communication coordinators, telemarketing researchers, corporate lawyers—whose jobs are useless, and, tragically, they know it. These people are caught in bullshit jobs.<br /><br />Graeber explores one of society’s most vexing and deeply felt concerns, indicting among other villains a particular strain of finance capitalism that betrays ideals shared by thinkers ranging from Keynes to Lincoln. <i>Bullshit Jobs</i> gives individuals, corporations, and societies permission to undergo a shift in values, placing creative and caring work at the center of our culture. This book is for everyone who wants to turn their vocation back into an avocation.",
+    "authorName": "David Graeber",
+    "timeline": [
+      {
+        "dateText": "October 21, 2026",
+        "event": "Shelved"
+      },
+      {
+        "dateText": "October 21, 2026",
+        "event": "Shelved as: to-read"
+      },
+      {
+        "dateText": "November 21, 2026",
+        "event": "Started Reading"
+      },
+      {
+        "dateText": "November 21, 2026",
+        "event": "20.0%"
+      },
+      {
+        "dateText": "November 22, 2026",
+        "event": "40.0%"
+      },
+      {
+        "dateText": "November 23, 2026",
+        "event": "67.0%"
+      }
+    ]
+  },
+  {
     "id": "9125604542",
     "title": "The Bitter Struggle: Superintelligence, Superpowers, and the Fate of the World",
     "bookId": "248163758",
@@ -78,92 +172,6 @@
       {
         "dateText": "November 23, 2026",
         "event": "16.0%"
-      }
-    ]
-  },
-  {
-    "id": "9122962300",
-    "title": "Mavericks (Expeditionary Force, #6)",
-    "bookId": "40280648",
-    "bookURL": "https://www.goodreads.com/book/show/40280648-mavericks",
-    "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1527848965l/40280648._SX50_.jpg",
-    "isbn": "",
-    "userRating": 0,
-    "userAddedAt": "2026-11-22T08:00:00.000Z",
-    "userShelf": "currently-reading",
-    "userTags": [],
-    "averageRating": "4.3",
-    "bookPublished": "2018-09-25",
-    "numPages": "291",
-    "workId": "62568429",
-    "userUpdatedAt": "2026-11-23T08:00:00.000Z",
-    "userReadCount": 0,
-    "userFirstReadAt": "",
-    "userLastReadAt": "",
-    "userReview": "",
-    "bookDescription": "The remnants of the Expeditionary Force stranded on the alien-controlled planet 'Paradise' get a chance to prove themselves, in a simple off-world training mission with a ship full of teenage alien cadets. When the mission goes horribly wrong and the survival of everyone on Paradise is at risk, the Merry Band of Pirates may have to come to the rescue. Unless they get killed first...",
-    "authorName": "Craig Alanson",
-    "timeline": [
-      {
-        "dateText": "November 22, 2026",
-        "event": "Started Reading"
-      },
-      {
-        "dateText": "November 22, 2026",
-        "event": "Shelved"
-      },
-      {
-        "dateText": "November 22, 2026",
-        "event": "16.0%"
-      },
-      {
-        "dateText": "November 23, 2026",
-        "event": "26.0%"
-      }
-    ]
-  },
-  {
-    "id": "9043895147",
-    "title": "Bullshit Jobs: A Theory",
-    "bookId": "34466958",
-    "bookURL": "https://www.goodreads.com/book/show/34466958-bullshit-jobs",
-    "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1523865380l/34466958._SY75_.jpg",
-    "isbn": "150114331X",
-    "userRating": 0,
-    "userAddedAt": "2026-10-21T07:00:00.000Z",
-    "userShelf": "currently-reading",
-    "userTags": [],
-    "averageRating": "4.0",
-    "bookPublished": "2018-05",
-    "numPages": "335",
-    "workId": "55587029",
-    "userUpdatedAt": "2026-11-22T08:00:00.000Z",
-    "userReadCount": 0,
-    "userFirstReadAt": "",
-    "userLastReadAt": "",
-    "userReview": "",
-    "bookDescription": "<b>From bestselling writer David Graeber, a powerful argument against the rise of meaningless, unfulfilling jobs, and their consequences.</b><br /><br />Does your job make a meaningful contribution to the world? In the spring of 2013, David Graeber asked this question in a playful, provocative essay titled “On the Phenomenon of Bullshit Jobs.” It went viral. After a million online views in seventeen different languages, people all over the world are still debating the answer.<br /><br />There are millions of people—HR consultants, communication coordinators, telemarketing researchers, corporate lawyers—whose jobs are useless, and, tragically, they know it. These people are caught in bullshit jobs.<br /><br />Graeber explores one of society’s most vexing and deeply felt concerns, indicting among other villains a particular strain of finance capitalism that betrays ideals shared by thinkers ranging from Keynes to Lincoln. <i>Bullshit Jobs</i> gives individuals, corporations, and societies permission to undergo a shift in values, placing creative and caring work at the center of our culture. This book is for everyone who wants to turn their vocation back into an avocation.",
-    "authorName": "David Graeber",
-    "timeline": [
-      {
-        "dateText": "October 21, 2026",
-        "event": "Shelved"
-      },
-      {
-        "dateText": "October 21, 2026",
-        "event": "Shelved as: to-read"
-      },
-      {
-        "dateText": "November 21, 2026",
-        "event": "Started Reading"
-      },
-      {
-        "dateText": "November 21, 2026",
-        "event": "20.0%"
-      },
-      {
-        "dateText": "November 22, 2026",
-        "event": "40.0%"
       }
     ]
   },
@@ -1781,7 +1789,7 @@
     "userAddedAt": "2026-10-06T07:00:00.000Z",
     "userShelf": "to-read",
     "userTags": [],
-    "averageRating": "4.0",
+    "averageRating": "4.1",
     "bookPublished": "",
     "numPages": "272",
     "workId": "282470518",
@@ -19139,7 +19147,7 @@
     "userAddedAt": "2025-02-18T08:00:00.000Z",
     "userShelf": "to-read",
     "userTags": [],
-    "averageRating": "3.6",
+    "averageRating": "3.7",
     "bookPublished": "1832-01-01",
     "numPages": "304",
     "workId": "21921961",
@@ -34147,7 +34155,7 @@
     "userShelf": "on-deck",
     "userTags": [],
     "averageRating": "3.9",
-    "bookPublished": "2022-10-04",
+    "bookPublished": "",
     "numPages": "456",
     "workId": "94200044",
     "userUpdatedAt": "2023-09-22T07:00:00.000Z",
@@ -60095,7 +60103,7 @@
     "userFirstReadAt": "2016-12-27T08:00:00.000Z",
     "userLastReadAt": "2016-12-27T08:00:00.000Z",
     "userReview": "",
-    "bookDescription": "Finalist for the 2014 Prometheus Award.<br /><br />Six months have passed since the release of Nexus 5.  The world is a different, more dangerous place. <br /> <br />In the United States, the terrorists – or freedom fighters – of the Post-Human Liberation Front use Nexus to turn men and women into human time bombs aimed at the President and his allies. In Washington DC, a government scientist, secretly addicted to Nexus, uncovers more than he wants to know about the forces behind the assassinations, and finds himself in a maze with no way out.<br /><br />In Thailand, Samantha Cataranes has found peace and contentment with a group of children born with Nexus in their brains. But when forces threaten to tear her new family apart, Sam will stop at absolutely nothing to protect the ones she holds dear.<br /> <br />In Vietnam, Kade and Feng are on the run from bounty hunters seeking the price on Kade’s head, from the CIA, and from forces that want to use the back door Kade has built into Nexus 5.  Kade knows he must stop the terrorists misusing Nexus before they ignite a global war between human and posthuman. But to do so, he’ll need to stay alive and ahead of his pursuers.<br /> <br />And in Shanghai, a posthuman child named Ling Shu will go to dangerous and explosive lengths to free her uploaded mother from the grip of Chinese authorities.<br /> <br />The first blows in the war between human and posthuman have been struck.  The world will never be the same.<br /><br />File Under :   Science Fiction  [ Stage 2 | Terrorist or Freedom Fighter? | Mind Games | Upgrading… ]",
+    "bookDescription": "<b>Finalist for the 2014 Prometheus Award.<br /></b><br />Six months have passed since the release of Nexus 5.  The world is a different, more dangerous place. <br />  <br />In the United States, the terrorists – or freedom fighters – of the Post-Human Liberation Front use Nexus to turn men and women into human time bombs aimed at the President and his allies. In Washington DC, a government scientist, secretly addicted to Nexus, uncovers more than he wants to know about the forces behind the assassinations, and finds himself in a maze with no way out. <br /><br />In Thailand, Samantha Cataranes has found peace and contentment with a group of children born with Nexus in their brains. But when forces threaten to tear her new family apart, Sam will stop at absolutely nothing to protect the ones she holds dear. <br />  <br />In Vietnam, Kade and Feng are on the run from bounty hunters seeking the price on Kade’s head, from the CIA, and from forces that want to use the back door Kade has built into Nexus 5.  Kade knows he must stop the terrorists misusing Nexus before they ignite a global war between human and posthuman. But to do so, he’ll need to stay alive and ahead of his pursuers. <br />  <br />And in Shanghai, a posthuman child named Ling Shu will go to dangerous and explosive lengths to free her uploaded mother from the grip of Chinese authorities. <br />  <br />The first blows in the war between human and posthuman have been struck.  The world will never be the same. <br /><br /><i>\n  <b>File Under</b>\n</i><b>:</b> <b>Science Fiction</b> [ Stage 2 | Terrorist or Freedom Fighter? | Mind Games | Upgrading… ]",
     "authorName": "Ramez Naam",
     "timeline": [
       {
