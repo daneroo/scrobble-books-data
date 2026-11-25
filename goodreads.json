@@ -14,7 +14,7 @@
     "bookPublished": "2018-09-25",
     "numPages": "291",
     "workId": "62568429",
-    "userUpdatedAt": "2026-11-23T08:00:00.000Z",
+    "userUpdatedAt": "2026-11-25T08:00:00.000Z",
     "userReadCount": 0,
     "userFirstReadAt": "",
     "userLastReadAt": "",
@@ -41,6 +41,43 @@
       {
         "dateText": "November 23, 2026",
         "event": "34.0%"
+      },
+      {
+        "dateText": "November 25, 2026",
+        "event": "42.0%"
+      }
+    ]
+  },
+  {
+    "id": "9130554687",
+    "title": "Antibodies (Great Science Fiction Stories)",
+    "bookId": "17873",
+    "bookURL": "https://www.goodreads.com/book/show/17873.Antibodies",
+    "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1380031181l/17873._SX50_.jpg",
+    "isbn": "1884612474",
+    "userRating": 0,
+    "userAddedAt": "2026-11-24T08:00:00.000Z",
+    "userShelf": "on-deck",
+    "userTags": [],
+    "averageRating": "3.4",
+    "bookPublished": "2000-01-01",
+    "numPages": "1",
+    "workId": "19371",
+    "userUpdatedAt": "2026-11-24T08:00:00.000Z",
+    "userReadCount": 0,
+    "userFirstReadAt": "",
+    "userLastReadAt": "",
+    "userReview": "",
+    "bookDescription": "Everone remebers where they were and what they were doing when a member of the great and the good is assassinated. You can kill a politician but their ideas usually live on. They have a life of their own. How much more dangerous, then, the ideas of mathematicians?",
+    "authorName": "Charles Stross",
+    "timeline": [
+      {
+        "dateText": "November 24, 2026",
+        "event": "Shelved as: on-deck"
+      },
+      {
+        "dateText": "November 24, 2026",
+        "event": "Shelved"
       }
     ]
   },
@@ -51,18 +88,18 @@
     "bookURL": "https://www.goodreads.com/book/show/34466958-bullshit-jobs",
     "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1523865380l/34466958._SY75_.jpg",
     "isbn": "150114331X",
-    "userRating": 0,
+    "userRating": 4,
     "userAddedAt": "2026-10-21T07:00:00.000Z",
-    "userShelf": "currently-reading",
+    "userShelf": "read",
     "userTags": [],
     "averageRating": "4.0",
     "bookPublished": "2018-05",
     "numPages": "335",
     "workId": "55587029",
-    "userUpdatedAt": "2026-11-23T08:00:00.000Z",
-    "userReadCount": 0,
-    "userFirstReadAt": "",
-    "userLastReadAt": "",
+    "userUpdatedAt": "2026-11-25T06:26:45.254Z",
+    "userReadCount": 1,
+    "userFirstReadAt": "2026-11-24T08:00:00.000Z",
+    "userLastReadAt": "2026-11-24T08:00:00.000Z",
     "userReview": "",
     "bookDescription": "<b>From bestselling writer David Graeber, a powerful argument against the rise of meaningless, unfulfilling jobs, and their consequences.</b><br /><br />Does your job make a meaningful contribution to the world? In the spring of 2013, David Graeber asked this question in a playful, provocative essay titled “On the Phenomenon of Bullshit Jobs.” It went viral. After a million online views in seventeen different languages, people all over the world are still debating the answer.<br /><br />There are millions of people—HR consultants, communication coordinators, telemarketing researchers, corporate lawyers—whose jobs are useless, and, tragically, they know it. These people are caught in bullshit jobs.<br /><br />Graeber explores one of society’s most vexing and deeply felt concerns, indicting among other villains a particular strain of finance capitalism that betrays ideals shared by thinkers ranging from Keynes to Lincoln. <i>Bullshit Jobs</i> gives individuals, corporations, and societies permission to undergo a shift in values, placing creative and caring work at the center of our culture. This book is for everyone who wants to turn their vocation back into an avocation.",
     "authorName": "David Graeber",
@@ -90,6 +127,14 @@
       {
         "dateText": "November 23, 2026",
         "event": "67.0%"
+      },
+      {
+        "dateText": "November 24, 2026",
+        "event": "99.0%"
+      },
+      {
+        "dateText": "November 24, 2026",
+        "event": "Finished Reading"
       }
     ]
   },
@@ -440,7 +485,7 @@
     "userFirstReadAt": "2026-11-13T08:00:00.000Z",
     "userLastReadAt": "2026-11-13T08:00:00.000Z",
     "userReview": "",
-    "bookDescription": "<b>A <i>NEW YORK TIMES</i> BESTSELLER<br /><br />The “Mozart of mathematics” invites readers on a brief tour of six core ideas―numbers, algebra, geometry, probability, analysis, and dynamics―that capture the beauty and power of mathematical thinking for everyone.<br /><br /></b>In <i>Six Math Essentials</i>, the renowned mathematician and Fields Medalist Terence Tao introduces readers to six central concepts that have guided mathematicians from antiquity to the frontiers of what we know today and now help us make sense of our complex world. This slim, elegant volume explores numbers as the gateway to quantitative thinking; algebra as the gateway to abstraction; geometry as a way to calculate beyond what we can see; probability as a tool to navigate uncertainty with rigorous thinking; analysis as a means to tame the very large or the very small; and dynamics as the mathematics of change. <i>Six Math Essentials</i>―Tao’s first popular math book―provides a glimpse into the workings of Tao’s incomparable mind and how he thinks about the creativity and interconnectedness of the mathematical enterprise. Contrary to popular perception, math, he insists, isn’t magic―it's a powerful way of thinking that anyone can learn.",
+    "bookDescription": "<b>A <i>NEW YORK TIMES</i> BESTSELLER<br /><br />\"Like seeing soccer through Messi's eyes. Full of piercing insight and genial wisdom, <i>Six Math Essentials</i> made me feel like a kid riding on the shoulders of the world's smartest grown-up.\" ―Ben Orlin, bestselling author of <i>Math with Bad Drawings</i><br /><br />The “Mozart of mathematics” invites readers on a brief tour of six core ideas―numbers, algebra, geometry, probability, analysis, and dynamics―that capture the beauty and power of mathematical thinking for everyone.<br /><br /></b>In <i>Six Math Essentials</i>, the renowned mathematician and Fields Medalist Terence Tao introduces readers to six central concepts that have guided mathematicians from antiquity to the frontiers of what we know today and now help us make sense of our complex world. This slim, elegant volume explores numbers as the gateway to quantitative thinking; algebra as the gateway to abstraction; geometry as a way to calculate beyond what we can see; probability as a tool to navigate uncertainty with rigorous thinking; analysis as a means to tame the very large or the very small; and dynamics as the mathematics of change. <i>Six Math Essentials</i>―Tao’s first popular math book―provides a glimpse into the workings of Tao’s incomparable mind and how he thinks about the creativity and interconnectedness of the mathematical enterprise. Contrary to popular perception, math, he insists, isn’t magic―it's a powerful way of thinking that anyone can learn.",
     "authorName": "Terence Tao",
     "timeline": [
       {
@@ -1242,7 +1287,7 @@
     "userFirstReadAt": "2026-10-19T07:00:00.000Z",
     "userLastReadAt": "2026-10-19T07:00:00.000Z",
     "userReview": "",
-    "bookDescription": "<b>A <i>Financial Times </i>Business Book of the Year finalist • Named a Best Book of the Year by <i>Bloomberg </i>and <i>Publishers Weekly</i><br /><br />“The book to read right now [is <i>1873</i>] . . . All of us are reading this.” —Satya Nadella, CEO of Microsoft<br /><br />From the author of the Pulitzer Prize–winning <i>Lords of Finance</i>, a magnificent and timely reckoning with the first truly global financial calamity and the famous banking family at the center of the whirlwind<br /></b><br />Over the course of the 1850s and 1860s, during the first era of globalization, the world experienced an unprecedented economic boom. Fueling this expansion was an explosion in the global bond market, at the hub of which stood one family—the Rothschilds, arguably the wealthiest banking family in history. While the giant sums of capital provided through the bond market built the railroads, the century’s most transformative investments, the money raised also unleashed a frenzy of speculation, massive overinvestment, and wasteful borrowing by governments.<br /><br />With excessive euphoria leading to disappointed expectations, in the early 1870s the bubble burst. Stock markets from Vienna to New York crashed, and dozens of railroads and many governments defaulted. Financial officials responded by blundering into a precipitous remaking of the global currency system—exacerbating the ensuing economic collapse and setting the stage for decades of a punitive deflation that sparked waves of anti-globalist populism. As Liaquat Ahamed shows us in this enthralling history, the crisis of 1873 was, among other things, a death blow to Reconstruction in the United States and the proximate cause of the Ottoman Empire’s slow death spiral. Ironically, though the Rothschilds had presciently kept a low profile during the bubble, when the deluge came, they were viciously scapegoated as part of a wider hatred directed at “Jewish finance,” a strain of antisemitism that would come to full evil flower during the twentieth century.<br /><br /><i>1873</i> is a bird’s-eye reckoning with the full dimension of the crisis, from its buildup to its long aftermath. The Rothschilds and a cast of other witnesses give us the human perspective. And we have a brilliant financial historian’s grasp of the larger forces at play, resulting in a global narrative with thrilling explanatory power.",
+    "bookDescription": "<b>A <i>Financial Times </i>Business Book of the Year finalist • Named a Best Book of the Year by <i>Bloomberg </i>and <i>Publishers Weekly</i></b> • <b>Named a Best History Book of the Year by <i>Smithsonian Magazine</i><br /><br />“The book to read right now [is <i>1873</i>] . . . All of us are reading this.” —Satya Nadella, CEO of Microsoft<br /><br />From the author of the Pulitzer Prize–winning <i>Lords of Finance</i>, a magnificent and timely reckoning with the first truly global financial calamity and the famous banking family at the center of the whirlwind<br /></b><br />Over the course of the 1850s and 1860s, during the first era of globalization, the world experienced an unprecedented economic boom. Fueling this expansion was an explosion in the global bond market, at the hub of which stood one family—the Rothschilds, arguably the wealthiest banking family in history. While the giant sums of capital provided through the bond market built the railroads, the century’s most transformative investments, the money raised also unleashed a frenzy of speculation, massive overinvestment, and wasteful borrowing by governments.<br /><br />With excessive euphoria leading to disappointed expectations, in the early 1870s the bubble burst. Stock markets from Vienna to New York crashed, and dozens of railroads and many governments defaulted. Financial officials responded by blundering into a precipitous remaking of the global currency system—exacerbating the ensuing economic collapse and setting the stage for decades of a punitive deflation that sparked waves of anti-globalist populism. As Liaquat Ahamed shows us in this enthralling history, the crisis of 1873 was, among other things, a death blow to Reconstruction in the United States and the proximate cause of the Ottoman Empire’s slow death spiral. Ironically, though the Rothschilds had presciently kept a low profile during the bubble, when the deluge came, they were viciously scapegoated as part of a wider hatred directed at “Jewish finance,” a strain of antisemitism that would come to full evil flower during the twentieth century.<br /><br /><i>1873</i> is a bird’s-eye reckoning with the full dimension of the crisis, from its buildup to its long aftermath. The Rothschilds and a cast of other witnesses give us the human perspective. And we have a brilliant financial historian’s grasp of the larger forces at play, resulting in a global narrative with thrilling explanatory power.",
     "authorName": "Liaquat Ahamed",
     "timeline": [
       {
@@ -46864,7 +46909,7 @@
     "userShelf": "to-read",
     "userTags": [],
     "averageRating": "3.9",
-    "bookPublished": "1985-11",
+    "bookPublished": "",
     "numPages": "348",
     "workId": "3285349",
     "userUpdatedAt": "2022-02-02T08:00:00.000Z",
@@ -64178,7 +64223,7 @@
     "userFirstReadAt": "",
     "userLastReadAt": "",
     "userReview": "",
-    "bookDescription": "A brilliant book celebrating improbability as the engine that drives life, by the acclaimed author of The Selfish Gene and The Blind Watchmaker . The human eye is so complex and works so precisely that surely, one might believe, its current shape and function must be the product of design. How could such an intricate object have come about by chance? Tackling this subject―in writing that the New York Times called \"a masterpiece\"―Richard Dawkins builds a carefully reasoned and lovingly illustrated argument for evolutionary adaptation as the mechanism for life on earth.<br /><br />The metaphor of Mount Improbable represents the combination of perfection and improbability that is epitomized in the seemingly \"designed\" complexity of living things. Dawkins skillfully guides the reader on a breathtaking journey through the mountain's passes and up its many peaks to demonstrate that following the improbable path to perfection takes time. Evocative illustrations accompany Dawkins's eloquent descriptions of extraordinary adaptations such as the teeming populations of figs, the intricate silken world of spiders, and the evolution of wings on the bodies of flightless animals. And through it all runs the thread of DNA, the molecule of life, responsible for its own destiny on an unending pilgrimage through time.<br /><br />Climbing Mount Improbable is a book of great impact and skill, written by the most prominent Darwinian of our age.",
+    "bookDescription": "<strong>A brilliant book celebrating improbability as the engine that drives life, by the acclaimed author of <em>The Selfish Gene</em> and <em>The Blind Watchmaker</em>.</strong><br /><br />The human eye is so complex and works so precisely that surely, one might believe, its current shape and function must be the product of design. How could such an intricate object have come about by chance? Tackling this subject―in writing that the <em>New York Times</em> called \"a masterpiece\"―Richard Dawkins builds a carefully reasoned and lovingly illustrated argument for evolutionary adaptation as the mechanism for life on earth.<br /><br /> The metaphor of Mount Improbable represents the combination of perfection and improbability that is epitomized in the seemingly \"designed\" complexity of living things. Dawkins skillfully guides the reader on a breathtaking journey through the mountain's passes and up its many peaks to demonstrate that following the improbable path to perfection takes time. Evocative illustrations accompany Dawkins's eloquent descriptions of extraordinary adaptations such as the teeming populations of figs, the intricate silken world of spiders, and the evolution of wings on the bodies of flightless animals. And through it all runs the thread of DNA, the molecule of life, responsible for its own destiny on an unending pilgrimage through time.<br /><br /><em>Climbing Mount Improbable</em> is a book of great impact and skill, written by the most prominent Darwinian of our age.",
     "authorName": "Richard Dawkins",
     "timeline": [
       {
