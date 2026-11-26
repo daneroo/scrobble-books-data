@@ -14,7 +14,7 @@
     "bookPublished": "2018-09-25",
     "numPages": "291",
     "workId": "62568429",
-    "userUpdatedAt": "2026-11-25T08:00:00.000Z",
+    "userUpdatedAt": "2026-11-26T08:00:00.000Z",
     "userReadCount": 0,
     "userFirstReadAt": "",
     "userLastReadAt": "",
@@ -45,6 +45,10 @@
       {
         "dateText": "November 25, 2026",
         "event": "42.0%"
+      },
+      {
+        "dateText": "November 26, 2026",
+        "event": "74.0%"
       }
     ]
   },
@@ -149,7 +153,7 @@
     "userAddedAt": "2026-11-23T08:00:00.000Z",
     "userShelf": "on-deck",
     "userTags": [],
-    "averageRating": "3.2",
+    "averageRating": "3.3",
     "bookPublished": "",
     "numPages": "320",
     "workId": "282470484",
@@ -42065,7 +42069,7 @@
     "userAddedAt": "2022-08-30T07:00:00.000Z",
     "userShelf": "to-read",
     "userTags": [],
-    "averageRating": "4.6",
+    "averageRating": "4.5",
     "bookPublished": "2011-03",
     "numPages": "32",
     "workId": "71667674",
