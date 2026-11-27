@@ -6,18 +6,18 @@
     "bookURL": "https://www.goodreads.com/book/show/40280648-mavericks",
     "bookImageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1527848965l/40280648._SX50_.jpg",
     "isbn": "",
-    "userRating": 0,
+    "userRating": 4,
     "userAddedAt": "2026-11-22T08:00:00.000Z",
-    "userShelf": "currently-reading",
+    "userShelf": "read",
     "userTags": [],
     "averageRating": "4.3",
     "bookPublished": "2018-09-25",
     "numPages": "291",
     "workId": "62568429",
-    "userUpdatedAt": "2026-11-26T08:00:00.000Z",
-    "userReadCount": 0,
-    "userFirstReadAt": "",
-    "userLastReadAt": "",
+    "userUpdatedAt": "2026-11-27T06:04:59.837Z",
+    "userReadCount": 1,
+    "userFirstReadAt": "2026-11-26T08:00:00.000Z",
+    "userLastReadAt": "2026-11-26T08:00:00.000Z",
     "userReview": "",
     "bookDescription": "The remnants of the Expeditionary Force stranded on the alien-controlled planet 'Paradise' get a chance to prove themselves, in a simple off-world training mission with a ship full of teenage alien cadets. When the mission goes horribly wrong and the survival of everyone on Paradise is at risk, the Merry Band of Pirates may have to come to the rescue. Unless they get killed first...",
     "authorName": "Craig Alanson",
@@ -49,6 +49,14 @@
       {
         "dateText": "November 26, 2026",
         "event": "74.0%"
+      },
+      {
+        "dateText": "November 26, 2026",
+        "event": "99.0%"
+      },
+      {
+        "dateText": "November 26, 2026",
+        "event": "Finished Reading"
       }
     ]
   },
@@ -2214,7 +2222,7 @@
     "userAddedAt": "2026-08-31T07:00:00.000Z",
     "userShelf": "on-deck",
     "userTags": [],
-    "averageRating": "4.3",
+    "averageRating": "4.2",
     "bookPublished": "",
     "numPages": "272",
     "workId": "282294714",
@@ -42069,7 +42077,7 @@
     "userAddedAt": "2022-08-30T07:00:00.000Z",
     "userShelf": "to-read",
     "userTags": [],
-    "averageRating": "4.5",
+    "averageRating": "4.6",
     "bookPublished": "2011-03",
     "numPages": "32",
     "workId": "71667674",
